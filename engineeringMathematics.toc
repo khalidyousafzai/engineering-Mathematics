@@ -1,4 +1,5 @@
 \select@language {arabic}
 \contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{v}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 1}}پہلے درجے کے تفرقی مساوات}{\RL {\arabicfont 1}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 1}}درجہ اول سادہ تفرقی مساوات}{\RL {\arabicfont 1}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 1}}نمونہ کشی}{\RL {\arabicfont 2}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 2}}سوالات}{\RL {\arabicfont 11}}

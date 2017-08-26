@@ -16,19 +16,6 @@
 %\tikzexternalize[mode=list and make] %disable to generate figures
 %\tikzexternaldisable  %enables figures after this command. put this is the tex file
 
-\pgfmathsetmacro{\x}{2}     %smallest resistor sizes
-\pgfmathsetmacro{\y}{2}
-\pgfmathsetmacro{\xx}{2.5}   %somewhat larger resistor leads. gives more space
-\pgfmathsetmacro{\yy}{2.5}
-\pgfmathsetmacro{\xxx}{3}   %still larger resistor leads. gives even more space
-\pgfmathsetmacro{\yyy}{3}
-\pgfmathsetmacro{\dx}{0.2}     %moving labels beyond resistor outline
-\pgfmathsetmacro{\dy}{0.2}
-\pgfmathsetmacro{\pin}{0.3}
-
-\pgfmathsetmacro{\boxW}{0.5}   %width of box circuit
-\pgfmathsetmacro{\boxH}{2.5}   %height of box circuit
-
 %=============================
 %complex numbers, squared voltages
 \newcommand*{\bZ}{{\ensuremath{{\boldsymbol{Z}}}}}           %complex impedance
@@ -73,33 +60,6 @@
 
 \definecolor{lgray}{cmyk}{0,0,0,0.2}
 \definecolor{dgray}{cmyk}{0,0,0,0.7}
-
-%==========================
-%my styles
-\pgfplotsset{
-kStyleCircuitsA/.style={axis lines*=middle,scaled x ticks=false,scaled y ticks=false,
-every axis x label/.style={
-    at={(ticklabel* cs:1.15)},
-    anchor=east,},
-	every axis y label/.style={
-    at={(ticklabel* cs:1.05)},
-    anchor=east,}
-},
-}
-%=====================
-\tikzset{component/.style={draw,thick,circle,fill=white,minimum size =0.75cm,inner sep=0pt}}
-
-\tikzset{
-    mark position/.style args={#1(#2)}{
-        postaction={
-            decorate,
-            decoration={
-                markings,
-                mark=at position #1 with \coordinate (#2);
-            }
-        }
-    }
-}
 %========================
 %\usepackage[hidelinks]{hyperref}  used in machines book but not here
 \usepackage{./tex/khalidUrduBooksEMT}                     %my sty file
@@ -119,7 +79,6 @@ every axis x label/.style={
 \input{./tex/myDeclareFunctions.tex}     %\sech, \csch, \arcsh, \arcs   hyperbolic and arc-secant etc
 
 
-
 %\input{./tex/myElectronicsVariablesBetter.tex}         %these are all tested. to use at the very end when book is finished
 
 \graphicspath{{./fig/figFrontPage/}{./fig/figBasicConcepts/}{./fig/figResistive/}{./fig/figNodalLoop/}{./fig/figOpamp/}{./fig/figTheorem/}{./fig/figCapacitorInductor/}{./fig/figTransients/}{./fig/figFreqResponse/}{./fig/figLaplaceTransform/}{./fig/figLaplaceTransformApplication/}{./fig/figFourierAnalysis/}}		%paths to figures
@@ -127,7 +86,7 @@ every axis x label/.style={
 
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktSteadyStateAC,./tex/cktSteadyStatePower,./tex/cktMagneticallyCoupledNetworks,./tex/cktPolyphaseCircuits,./tex/cktFrequencyResponse,./tex/cktLaplaceTransform,./tex/cktApplicationLaplace,./tex/cktFourierAnalysis,./tex/cktTwoPortNetworks}
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktPolyphaseCircuits}%
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations}%
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathQuestions}%
 
 
 \author{
@@ -176,7 +135,7 @@ every axis x label/.style={
 
 
 \include{./tex/mathFirstOrderDifferentialEquations}
-
+\include{./tex/mathQuestions}
 
 
 

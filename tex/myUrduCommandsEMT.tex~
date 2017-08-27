@@ -68,9 +68,7 @@
 
 \newcommand*{\قریب}[1]{\mbox{#1}}
 
-% used in conjuction to the following commands in the preamble { \newwrite\myfile} and { \immediate\openout\myfile=\jobname.foo}
-%the solution file needs renaming before it can be input where needed so rename engineeringMathematics.foo to engineeringMathematics.kkk to input
-\newcommand*{\جواب}[1]{\immediate\write\myfile{حل \thequestioncounter \quad \unexpanded{#1}}}  %writes answers to a file
+\newcommand*{\جواب}[1]{\immediate\write\myfile{\thequestioncounter}}
 
 \renewcommand{\indexname}{فرہنگ}        %apparently did nothing
 %===============================

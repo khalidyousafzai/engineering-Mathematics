@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  26 AUG 2017 18:55
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  27 AUG 2017 18:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3094,16 +3094,14 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 5.70004pt on input line 171.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 7.5pt on input line 180.
- [8]) [9] [10]
-\openout2 = `./tex/mathQuestions.aux'.
+ [8] [9] [10] [11] [12] [13]
 
- (./tex/mathQuestions.tex
-باب \RL {\arabicfont 2}.
-) [11
+Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 399.
 
+ [warning /pgfplots/warning/approx empty range enlarged]
+) [14] [15] [16
 
-
-] [12
 
 
 ]
@@ -3120,12 +3118,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 44673 strings out of 493918
- 1066228 string characters out of 6150562
- 1282583 words of memory out of 5000000
- 47072 multiletter control sequences out of 15000+600000
- 46921 words of font info for 173 fonts, out of 8000000 for 9000
+ 44839 strings out of 493918
+ 1073240 string characters out of 6150562
+ 1325366 words of memory out of 5000000
+ 47240 multiletter control sequences out of 15000+600000
+ 50372 words of font info for 184 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,15n,81p,10485b,2074s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,15n,86p,10485b,2110s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (18 pages).
+Output written on engineeringMathematics.pdf (22 pages).

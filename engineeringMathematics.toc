@@ -2,4 +2,5 @@
 \contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{v}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 1}}درجہ اول سادہ تفرقی مساوات}{\RL {\arabicfont 1}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 1}}نمونہ کشی}{\RL {\arabicfont 2}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 2}}سوالات}{\RL {\arabicfont 11}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 1}}\tmspace +\medmuskip {.2222em} \ensuremath {y'=f(x,y)} \tmspace +\medmuskip {.2222em} کا جیومیٹریائی مطلب۔ میدان کی سمت اور ترکیب یولر۔}{\RL {\arabicfont 13}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 2}}سوالات}{\RL {\arabicfont 15}}

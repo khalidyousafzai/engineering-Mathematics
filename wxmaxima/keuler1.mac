@@ -1,0 +1,15 @@
+keuler1(f,initial,xfinal,steps):=block(
+[h:(xfinal-initial[1])/steps,
+x:initial[1],
+y:initial[2],
+xnew,
+ynew],
+for i:1 thru steps do block(
+xnew:float(x+h),
+ynew:float(y+h*f(x,y)),
+x:xnew,
+y:ynew
+),
+return([x,y])
+);
+

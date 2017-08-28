@@ -1,0 +1,18 @@
+(    /* Euler Method for  initial value problem
+          y'=xy ,  y(0)=0.5   */ 
+x0:0,
+y0:.5,
+h:.25,
+nsteps:10,
+xeuler:makelist(0,i,1,nsteps+1,1),
+yeuler:makelist(0,i,1,nsteps+1,1),          
+xeuler[1]:x0,
+yeuler[1]:y0,
+for i:1 thru nsteps do (
+     xeuler[i+1]:xeuler[i]+h,
+     yeuler[i+1]:yeuler[i]+h*xeuler[i]*yeuler[i]  
+     )                                        
+);
+xeuler;
+yeuler;
+

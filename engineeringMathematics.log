@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  28 AUG 2017 18:47
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  29 AUG 2017 18:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3110,7 +3110,11 @@ Overfull \hbox (3.25346pt too wide) in paragraph at lines 444--461
  [][][][] 
  []
 
-[14]) [15] [16] [16
+[14]
+File: ./fig/figOrdinaryDifferentialEquations/figODEeuler.pdf Graphic file (type
+ QTm)
+ <use  "./fig/figOrdinaryDifferentialEquations/figODEeuler.pdf" > [15]
+[16] [17] [18] [19]) [20] [16
 
 
 
@@ -3128,12 +3132,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 44910 strings out of 493918
- 1074595 string characters out of 6150562
- 1335461 words of memory out of 5000000
- 47311 multiletter control sequences out of 15000+600000
+ 44950 strings out of 493918
+ 1075537 string characters out of 6150562
+ 1337770 words of memory out of 5000000
+ 47345 multiletter control sequences out of 15000+600000
  50372 words of font info for 184 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,15n,86p,10485b,2266s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,15n,86p,10485b,2309s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (23 pages).
+Output written on engineeringMathematics.pdf (27 pages).

@@ -68,7 +68,7 @@
 
 \newcommand*{\قریب}[1]{\mbox{#1}}
 
-\newcommand*{\جواب}[1]{\immediate\write\myfile{\thequestioncounter}}
+
 
 \renewcommand{\indexname}{فرہنگ}        %apparently did nothing
 %===============================
@@ -112,7 +112,7 @@
 
 \newenvironment*{سوال}				
 {\noindent\ignorespaces  سوال \refstepcounter{questioncounter} \thequestioncounter :}%
-{\par\noindent }
+{\noindent }
 %--------------------
 
 %defining a LAW   قانون

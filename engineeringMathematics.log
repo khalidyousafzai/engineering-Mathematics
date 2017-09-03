@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  29 AUG 2017 18:35
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  3 SEP 2017 17:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3097,24 +3097,122 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
  [8] [9] [10] [11] [12] [13]
 
 Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
-ng it (it is [0.0:0.0]) on input line 399.
+ng it (it is [0.0:0.0]) on input line 401.
 
  [warning /pgfplots/warning/approx empty range enlarged]
 
-Overfull \hbox (3.25346pt too wide) in paragraph at lines 424--438
+Overfull \hbox (3.25346pt too wide) in paragraph at lines 426--440
  [][][][] 
  []
 
 
-Overfull \hbox (3.25346pt too wide) in paragraph at lines 444--461
+Overfull \hbox (3.25346pt too wide) in paragraph at lines 446--463
  [][][][] 
  []
 
-[14]
+[14] [15]
 File: ./fig/figOrdinaryDifferentialEquations/figODEeuler.pdf Graphic file (type
  QTm)
- <use  "./fig/figOrdinaryDifferentialEquations/figODEeuler.pdf" > [15]
-[16] [17] [18] [19]) [20] [16
+ <use  "./fig/figOrdinaryDifferentialEquations/figODEeuler.pdf" >
+[16] [17]
+
+Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 577.
+
+ [warning /pgfplots/warning/approx empty range enlarged]
+
+Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 587.
+
+ [warning /pgfplots/warning/approx empty range enlarged]
+
+Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 603.
+
+ [warning /pgfplots/warning/approx empty range enlarged]
+
+Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 613.
+
+ [warning /pgfplots/warning/approx empty range enlarged]
+[18] [19] [20]
+
+Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 682.
+
+ [warning /pgfplots/warning/approx empty range enlarged]
+
+Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 692.
+
+ [warning /pgfplots/warning/approx empty range enlarged]
+[21] [22] [23] [24] [25]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 855.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 855.
+ [26]
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+ [27]
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+ [28]
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+ [29]
+Overfull \hbox (1.46779pt too wide) in paragraph at lines 975--990
+ [][][][] 
+ []
+
+[30] [31] [32] [33]
+
+LaTeX Warning: Reference `سوال_سادہ_اول_ابتدائی_قیمت_ب' on page \RL {\arabicfon
+t 34} undefined on input line 1121.
+
+[34]) [35] [16
 
 
 
@@ -3130,14 +3228,20 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 44950 strings out of 493918
- 1075537 string characters out of 6150562
- 1337770 words of memory out of 5000000
- 47345 multiletter control sequences out of 15000+600000
- 50372 words of font info for 184 fonts, out of 8000000 for 9000
+ 45585 strings out of 493918
+ 1089023 string characters out of 6150562
+ 1470874 words of memory out of 5000000
+ 47978 multiletter control sequences out of 15000+600000
+ 50388 words of font info for 186 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,15n,86p,10485b,2309s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,16n,86p,10485b,2919s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (27 pages).
+Output written on engineeringMathematics.pdf (42 pages).

@@ -1,0 +1,62 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings}
+
+\input{../../tex/myEMTvectors.tex}
+\input{../../tex/myTikzCommandsCircuitAnalysis.tex}   %testing
+%draws left and right arrows where needed e.g.  
+% \draw[->-=0.5] (0,0)--(3,0); draws arrow at the middle
+%\tikzset{->-/.style={decoration={markings, mark=at position #1 with {\arrow{latex}}},postaction={decorate}}}
+%\tikzset{-<-/.style={decoration={markings, mark=at position #1 with {\arrow{latex reversed}}},postaction={decorate}}}
+%draws right angles \RightAngle{A}{B}{C}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+
+
+
+\begin{document}
+\begin{urdufont}
+
+\begin{tikzpicture}
+\begin{axis}[footnotesize, axis lines*=middle,view={0}{90}, xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}},xmin=-2.2, xmax=2.2, ymin=-1, ymax=2,domain=-2.5:2.5, y domain=-1:2, samples=11,ytick={-1,0,1},yticklabels={$-1$,$0$,$1$},xlabel style={at={(axis description cs:1.05,0.33)}}]
+\addplot3 [gray, quiver={u={1}, v={x-y}, scale arrows=0.075,
+               every arrow/.append style={-latex}}] (x,y,0); %differential equation
+\addplot [gray,smooth]{x-1+e^(-x)}; %actual curve
+\addplot [gray,smooth]{x-1+0.5*e^(-x)}; %actual curve
+\addplot [gray,smooth]{x-1+1.5*e^(-x)}; %actual curve
+\end{axis}
+\end{tikzpicture}%
+\begin{tikzpicture}
+\begin{axis}[footnotesize, axis lines*=middle,view={0}{90}, xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}},xmin=-2.2, xmax=2.2, ymin=-1, ymax=2,domain=-2.5:2.5, y domain=-1:2, samples=11,ytick={-1,0,1},yticklabels={$-1$,$0$,$1$},xlabel style={at={(axis description cs:1.05,0.33)}}]
+\addplot3 [gray, quiver={u={1}, v={x-y}, scale arrows=0.075,
+               every arrow/.append style={-latex}}] (x,y,0); %differential equation
+\addplot [gray,smooth]{x-1+e^(-x)}; %actual curve
+\addplot [gray,smooth]{x-1+0.5*e^(-x)}; %actual curve
+\addplot [gray,smooth]{x-1+1.5*e^(-x)}; %actual curve
+\end{axis}
+\end{tikzpicture}%
+\begin{tikzpicture}
+\def\length{sqrt(1+(x-y)^2)}
+\begin{axis}[footnotesize, axis lines*=middle,view={0}{90}, xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}},xmin=-2.2, xmax=2.2, ymin=-1, ymax=2,domain=-2.5:2.5, y domain=-1:2, samples=11,ytick={-1,0,1},yticklabels={$-1$,$0$,$1$},xlabel style={at={(axis description cs:1.05,0.33)}}]
+\addplot3 [gray, quiver={u={1/\length}, v={(x-y)/\length}, scale arrows=0.15},-stealth] (x,y,0); %differential equation
+\addplot [gray,smooth]{x-1+e^(-x)}; %actual curve
+\addplot [gray,smooth]{x-1+0.5*e^(-x)}; %actual curve
+\addplot [gray,smooth]{x-1+1.5*e^(-x)}; %actual curve
+\end{axis}
+\end{tikzpicture}%
+
+
+\end{urdufont}
+\end{document}

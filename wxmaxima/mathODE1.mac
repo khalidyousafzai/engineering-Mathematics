@@ -230,3 +230,159 @@ print("Q 1.39");
 eq:'diff(y,t)=2*t*y;
 ode2(eq,y,t);
 ic1(%,t=2,y=1);
+
+Print("======================================");
+kill(all);
+print("example 1.7");
+
+eq:'diff(y,x)=-x*%e^(-x)*y^3;
+ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("example 1.8");
+
+eq:'diff(y,x)=-3*x^(2)*y;
+ode2(eq,y,x);
+ic1(%,x=0,y=1)
+
+Print("======================================");
+kill(all);
+print("example 1.9");
+
+HL:5715;
+k:float(1/HL*log(2));
+y:%e^(-k*4642);
+
+Print("======================================");
+kill(all);
+print("example 1.12");
+
+a:%pi*0.005^2;
+ha:1.5;
+B:2;
+g:9.8;
+
+eq1:'diff(h,t)=-0.6*a*sqrt(2*g*h)/B;
+soln:float(ode2(eq1,h,t));
+sol:float(expand((ic1(soln,t=0,h=ha))));
+
+ev(sol,h=0);
+
+Print("======================================");
+kill(all);
+print("Q 1.41");
+
+eq:y^2*'diff(y,x)+x^2=0;
+ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 1.42");
+
+eq:y*'diff(y,x)+x=0;
+ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 1.43");
+
+eq:'diff(y,x)=(sec(x))^2;
+ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 1.44");
+
+eq:'diff(y,x)*cos(x)=y*sin(x);
+ode2(eq,y,x);
+
+
+Print("======================================");
+kill(all);
+print("Q 1.45");
+
+eq:'diff(y,x)=y*%e^(x-1);
+ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 1.46");
+
+eq:'diff(u,x)=sin(u);
+ode2(eq,u,x);
+
+Print("======================================");
+kill(all);
+print("test");
+
+eq:x*diff(y(x),x)=x+y;
+ode2(eq,y(x),x);
+
+Print("======================================");
+kill(all);
+print("Q 1.48");
+
+depends(y,x);
+eq:x*diff(y,x)=y^2+y;
+ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 1.50");
+
+eq:x*'diff(y,x)+y=0;
+ode2(eq,y,x);
+ic1(%,x=2,y=8);
+
+Print("======================================");
+kill(all);
+print("Q 1.51");
+
+eq:'diff(y,x)=1+9*y^2;
+ode2(eq,y,x);
+ic1(%,x=1,y=0);
+
+Print("======================================");
+kill(all);
+print("Q 1.52");
+
+eq:'diff(y,x)*(cos(x))^2=(sin(y))^2;
+ode2(eq,y,x);
+ic1(%,x=0,y=%pi/4);
+
+
+Print("======================================");
+kill(all);
+print("Q 1.53");
+
+eq:'diff(y,x)=-4*x*y;
+ode2(eq,y,x);
+ic1(%,x=0,y=5);
+
+Print("======================================");
+kill(all);
+print("Q 1.54");
+
+eq:'diff(y,x)=-2*x/y;
+ode2(eq,y,x);
+ic1(%,x=1,y=2);
+
+Print("======================================");
+kill(all);
+print("Q 1.55");
+
+eq:'diff(u,x)=1+u^2;
+ode2(eq,u,x);
+subst(u=x+y-4,%);
+ic1(%,x=0,y=5);
+
+Print("======================================");
+kill(all);
+print("Q 1.56");
+
+eq:x*'diff(u,x)=3*x^3*(cos(u))^2;
+ode2(eq,u,x);
+subst(u=y/x,%);
+ic1(%,x=1,y=0);
+

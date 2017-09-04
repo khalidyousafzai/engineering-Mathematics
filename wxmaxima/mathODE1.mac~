@@ -377,4 +377,91 @@ ode2(eq,u,x);
 subst(u=x+y-4,%);
 ic1(%,x=0,y=5);
 
+Print("======================================");
+kill(all);
+print("Q 1.56");
 
+eq:x*'diff(u,x)=3*x^3*(cos(u))^2;
+ode2(eq,u,x);
+subst(u=y/x,%);
+ic1(%,x=1,y=0);
+
+Print("======================================");
+kill(all);
+print("Q 1.57");
+
+eq:x*'diff(u,x)=3*x^3*(cos(u))^2;
+ode2(eq,u,x);
+subst(u=y/x,%);
+ic1(%,x=1,y=0);
+
+Print("======================================");
+kill(all);
+print("Q 1.59");
+
+k:0.0001213;
+ratio:%e^(-k*3000);
+
+Print("======================================");
+kill(all);
+print("Q 1.60");
+
+v:1.6*10^4;
+u:10^3;
+t:1.2*10^(-3);
+
+eq1:v=u+a*t;
+soln:solve(eq1,a);
+sol:soln[1];
+ka:rhs(sol);
+
+eq2:x=u*t+1/2*ka*t^2;
+
+Print("======================================");
+kill(all);
+print("Q 1.61");
+
+eq:'\diff(y,t)=-10*y/2000;
+soln:ode2(eq,y,t);
+sol:ic1(soln,t=0,y=150);
+
+ev(sol,t=60);
+float(%);
+
+Print("======================================");
+kill(all);
+print("Q 1.62");
+
+T0:40;
+Ti:25;
+eq:'diff(T,t)=-k*(T-T0);
+ode2(eq,T,t);
+ksol:ic1(%,t=0,T=25);
+ev(%,t=1,T=35.5);
+soln:float(solve(%,k));
+sol:soln[1];
+kk:rhs(sol);
+
+kmain:subst(k=kk,ksol);
+
+expand(ev(kmain,T=39.9));
+solve(%,t);
+
+Print("======================================");
+kill(all);
+print("Q 1.63");
+
+define(A,constant,assume(A>0));
+eq:'diff(y,t)=-A*y*log(y);
+ode2(eq,y,t);
+
+Print("======================================");
+kill(all);
+print("Q 1.64");
+
+eq:'diff(y,t)=-k*y;
+ode2(eq,y,t);
+ic1(%,t=0,y=y0);
+
+ev(%,t=15,y=0.5*y0);
+float(solve(%,k));

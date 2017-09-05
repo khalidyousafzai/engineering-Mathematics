@@ -479,3 +479,16 @@ eq:m*g*cos(a)-k*m*g*sin(a)=m*'diff(v,t);
 ode2(eq,v,t);
 ic1(%,t=0,v=0);
 float(%);
+
+Print("======================================");
+kill(all);
+print("Q 1.69");
+
+a:%pi*r^2;
+eq:'diff(h,t)=-0.6*a*sqrt(2*g*h)/(%pi*(R^2+(h-R)^2));
+ode2(%,h,t);
+ic1(%,t=0,h=2*R);
+ktime:solve(%,t);
+ev(%,h=0);
+
+ev(ktime,h=0,R=1,r=0.01,g=9.8);

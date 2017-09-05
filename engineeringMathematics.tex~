@@ -1,4 +1,5 @@
-\documentclass[leqno,b5paper]{book}
+\documentclass[leqno]{book} %the geometry package defines the paper size
+%\documentclass[leqno,b5paper]{book}
 %===================
 %testing tikz inside book
 \usepackage{circuitikz}
@@ -10,6 +11,7 @@
 %\pgfplotsset{compat=1.9}
 \usepgfplotslibrary{polar}
 \usepackage{ifdraft}
+%pathmorphing gives the ripples like look
 \usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings,decorations.pathreplacing,external,shapes.misc,decorations.pathmorphing}
 
 
@@ -86,7 +88,7 @@
 
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktSteadyStateAC,./tex/cktSteadyStatePower,./tex/cktMagneticallyCoupledNetworks,./tex/cktPolyphaseCircuits,./tex/cktFrequencyResponse,./tex/cktLaplaceTransform,./tex/cktApplicationLaplace,./tex/cktFourierAnalysis,./tex/cktTwoPortNetworks}
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktPolyphaseCircuits}%
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations}%
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathQuestions}%
 
 
 \author{

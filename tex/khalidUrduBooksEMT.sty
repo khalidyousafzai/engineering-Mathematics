@@ -11,7 +11,7 @@
 \usepackage{cancel}
 \usepackage{mathpazo}              %kkk   causes trouble with siunitx units such as ohm which needs correction using sisetup
 \usepackage{booktabs}                                  %for tables toprule, midrule and bottomrule
-\usepackage{parskip}
+\usepackage{parskip} 
 \usepackage[stable]{footmisc}						%for footnotes in the headings
 
 \usepackage{siunitx} 			%SI units that meets iso-31 regulations such as \micro, \degree \SI{3}{\celsius}
@@ -24,8 +24,8 @@
 \usepackage{steinmetz}		%\phase to show angle of phasors
 \usepackage[version=3]{mhchem}     %chemical symbols such as \ce{H2O}
 
-
-\usepackage{geometry}  
+\usepackage[]{geometry} %use this command and put b5paper in documentclass statement to set b5papersize
+%\usepackage[paperwidth=8in,paperheight=10.25in,]{geometry}  %to use b5paper size, use the command above for using geometry package
 %\usepackage[margin=1cm]{geometry}                        %the geometry package gives correct page size in pdf meta data i.e. pdf file properties
 %\pdfpagewidth=\paperwidth              %instead of the geometry package, could have used these two lines      
 %\pdfpageheight=\paperheight
@@ -53,7 +53,7 @@
 \newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
 %\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
 \newfontfamily\urduTechTermsfont[Scale=1.0,Script=Arabic]{XB Tabriz Bold}
-\newfontfamily\urdufont[Scale=1.25,WordSpace=60.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1,WordSpace=60.0,Script=Arabic]{Jameel Noori Nastaleeq}
 %\newfontfamily\urduTechTermsfont[Scale=1.25,WordSpace=35.0,Script=Arabic]{Jameel Noori Nastaleeq Kasheeda}
 \setlength{\parskip}{5mm plus 4mm minus 3mm}
 

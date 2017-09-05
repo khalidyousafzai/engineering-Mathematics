@@ -465,3 +465,17 @@ ic1(%,t=0,y=y0);
 
 ev(%,t=15,y=0.5*y0);
 float(solve(%,k));
+
+Print("======================================");
+kill(all);
+print("Q 1.65");
+
+a:30;
+m:10;
+k:0.25;
+g:9.8;
+
+eq:m*g*cos(a)-k*m*g*sin(a)=m*'diff(v,t);
+ode2(eq,v,t);
+ic1(%,t=0,v=0);
+float(%);

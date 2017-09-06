@@ -479,3 +479,65 @@ eq:m*g*cos(a)-k*m*g*sin(a)=m*'diff(v,t);
 ode2(eq,v,t);
 ic1(%,t=0,v=0);
 float(%);
+
+Print("======================================");
+kill(all);
+print("Q 1.69");
+
+a:%pi*r^2;
+eq:'diff(h,t)=-0.6*a*sqrt(2*g*h)/(%pi*(R^2+(h-R)^2));
+ode2(%,h,t);
+ic1(%,t=0,h=2*R);
+ktime:solve(%,t);
+ev(%,h=0);
+
+ev(ktime,h=0,R=1,r=0.01,g=9.8);
+
+
+Print("======================================");
+kill(all);
+print("Q 1.70");
+
+M:2*x*y;
+N:x^2;
+
+Ex:diff(M,y)-diff(N,x);
+eq:N*'diff(y,x)+M=0;
+ode2(eq,y,x);
+intfactor;
+
+Print("======================================");
+kill(all);
+print("Q 1.71");
+
+M:y;
+N:2*x*y-%e^(-2*y);
+
+Ex:diff(M,y)-diff(N,x);
+eq:N*'diff(y,x)+M=0;
+ode2(eq,y,x);
+intfactor;
+
+Print("======================================");
+kill(all);
+print("Q 1.72");
+
+M:x^2;
+N:y;
+
+Ex:diff(M,y)-diff(N,x);
+eq:N*'diff(y,x)+M=0;
+ode2(eq,y,x);
+intfactor;
+
+Print("======================================");
+kill(all);
+print("Q 1.73");
+
+M:sin(x)*cos(y);
+N:cos(x)*sin(y);
+
+Ex:diff(M,y)-diff(N,x);
+eq:N*'diff(y,x)+M=0;
+ode2(eq,y,x);
+intfactor;

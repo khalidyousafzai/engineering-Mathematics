@@ -124,4 +124,14 @@
 {\par\medskip \refstepcounter{lawcounter} }%
 {\par\medskip }
 %--------------------
+%--------------------
 
+%defining a THEOREM   مسئلہ
+
+\newcounter{kthcounter}[chapter]
+\renewcommand{\thekthcounter}{\arabic{kthcounter}.\thechapter}
+
+\newenvironment*{مسئلہ}				
+{\noindent\ignorespaces  مسئلہ \refstepcounter{kthcounter} \thekthcounter :}%
+{\par\noindent }
+%--------------------

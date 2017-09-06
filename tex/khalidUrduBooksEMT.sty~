@@ -24,8 +24,8 @@
 \usepackage{steinmetz}		%\phase to show angle of phasors
 \usepackage[version=3]{mhchem}     %chemical symbols such as \ce{H2O}
 
-%\usepackage[]{geometry} %use this command and put b5paper in documentclass statement to set b5papersize
-\usepackage[paperwidth=8in,paperheight=10.25in,]{geometry}  %to use b5paper size, use the command above for using geometry package
+\usepackage[]{geometry} %use this command and put b5paper in documentclass statement to set b5papersize
+%\usepackage[paperwidth=8in,paperheight=10.25in,]{geometry}  %to use b5paper size, use the command above for using geometry package
 %\usepackage[margin=1cm]{geometry}                        %the geometry package gives correct page size in pdf meta data i.e. pdf file properties
 %\pdfpagewidth=\paperwidth              %instead of the geometry package, could have used these two lines      
 %\pdfpageheight=\paperheight

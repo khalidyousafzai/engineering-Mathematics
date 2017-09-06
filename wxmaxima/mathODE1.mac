@@ -492,3 +492,53 @@ ktime:solve(%,t);
 ev(%,h=0);
 
 ev(ktime,h=0,R=1,r=0.01,g=9.8);
+
+
+Print("======================================");
+kill(all);
+print("Q 1.70");
+
+M:2*x*y;
+N:x^2;
+
+Ex:diff(M,y)-diff(N,x);
+eq:N*'diff(y,x)+M=0;
+ode2(eq,y,x);
+intfactor;
+
+Print("======================================");
+kill(all);
+print("Q 1.71");
+
+M:y;
+N:2*x*y-%e^(-2*y);
+
+Ex:diff(M,y)-diff(N,x);
+eq:N*'diff(y,x)+M=0;
+ode2(eq,y,x);
+intfactor;
+
+Print("======================================");
+kill(all);
+print("Q 1.72");
+
+M:x^2;
+N:y;
+
+Ex:diff(M,y)-diff(N,x);
+eq:N*'diff(y,x)+M=0;
+ode2(eq,y,x);
+intfactor;
+
+Print("======================================");
+kill(all);
+print("Q 1.73");
+
+u:sin(x)*(x+y^3);
+M:diff(u,x);
+N:diff(u,y);
+
+Ex:diff(M,y)-diff(N,x);
+eq:N*'diff(y,x)+M=0;
+ode2(eq,y,x);
+intfactor;

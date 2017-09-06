@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  5 SEP 2017 17:34
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  6 SEP 2017 18:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1642,24 +1642,24 @@ File: gloss-english.ldf polyglossia: module for english
 . fontspec info: "defining-font"
 . 
 . Font family 'JameelNooriNastaleeq(1)' created for font 'Jameel Noori
-. Nastaleeq' with options [Scale=1,WordSpace=60.0,Script=Arabic].
+. Nastaleeq' with options [Scale=1.25,WordSpace=60.0,Script=Arabic].
 . 
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
-. <->s*[1]"Jameel Noori Nastaleeq/ICU:script=arab;language=DFLT;"
+. <->s*[1.25]"Jameel Noori Nastaleeq/ICU:script=arab;language=DFLT;"
 . and font adjustment code:
 . \fontdimen 2\font =60.0\fontdimen 2\font \fontdimen 3\font =60.0\fontdimen
 . 3\font \fontdimen 4\font =60.0\fontdimen 4\font 
 . 
 . * 'italic' with NFSS spec.:
-. <->s*[1]"Jameel Noori Nastaleeq/I/ICU:script=arab;language=DFLT;"
+. <->s*[1.25]"Jameel Noori Nastaleeq/I/ICU:script=arab;language=DFLT;"
 . and font adjustment code:
 . \fontdimen 2\font =60.0\fontdimen 2\font \fontdimen 3\font =60.0\fontdimen
 . 3\font \fontdimen 4\font =60.0\fontdimen 4\font 
 . 
 . * 'bold italic' with NFSS spec.:
-. <->s*[1]"Jameel Noori Nastaleeq/BI/ICU:script=arab;language=DFLT;"
+. <->s*[1.25]"Jameel Noori Nastaleeq/BI/ICU:script=arab;language=DFLT;"
 . and font adjustment code:
 . \fontdimen 2\font =60.0\fontdimen 2\font \fontdimen 3\font =60.0\fontdimen
 . 3\font \fontdimen 4\font =60.0\fontdimen 4\font 
@@ -1699,6 +1699,7 @@ Package: IEEEtrantools 2012/12/27 V1.3 by Michael Shell
 \c@practicecounter=\count303
 \c@questioncounter=\count304
 \c@lawcounter=\count305
+\c@kthcounter=\count306
 ) (./tex/myUrduGreek.tex) (./tex/myEMTvectors.tex) (./tex/myDeclareFunctions.te
 x) (./engineeringMathematics.aux
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
@@ -2963,7 +2964,7 @@ File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box65
-\c__siunitx_mathsf_int=\count306
+\c__siunitx_mathsf_int=\count307
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 111.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
@@ -2998,15 +2999,15 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 111.
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-\c__siunitx_mathtt_int=\count307
+\c__siunitx_mathtt_int=\count308
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 112.
+(Font)              scaled to size 12.5pt on input line 112.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 120.
+(Font)              scaled to size 21.59999pt on input line 120.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 120.
+(Font)              scaled to size 15.0pt on input line 120.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 120.
+(Font)              scaled to size 11.25pt on input line 120.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 120.
  [1
@@ -3071,86 +3072,87 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 4.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 4.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 14.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 14.4pt on input line 14.
 [1
 
 
 
 
-] [2] [3] [4]
+]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 14.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
+(Font)              scaled to size 14.4pt on input line 14.
+ [2] [3] [4]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 116.
- [5]
+ [5] [6]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 12.0pt on input line 148.
- [6]
+ [7]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.6pt on input line 170.
+(Font)              scaled to size 9.5pt on input line 170.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 4.56004pt on input line 170.
+(Font)              scaled to size 5.70004pt on input line 170.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 179.
- [7] [8] [9] [10] [11]
+(Font)              scaled to size 7.5pt on input line 179.
+ [8] [9] [10] [11] [12] [13]
 
 Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
-ng it (it is [0.0:0.0]) on input line 399.
+ng it (it is [0.0:0.0]) on input line 401.
 
  [warning /pgfplots/warning/approx empty range enlarged]
-[12]
-Overfull \hbox (3.25346pt too wide) in paragraph at lines 424--438
+
+Overfull \hbox (3.25346pt too wide) in paragraph at lines 426--440
  [][][][] 
  []
 
 
-Overfull \hbox (3.25346pt too wide) in paragraph at lines 444--461
+Overfull \hbox (3.25346pt too wide) in paragraph at lines 446--463
  [][][][] 
  []
 
-[13]
+[14] [15]
 File: ./fig/figOrdinaryDifferentialEquations/figODEeuler.pdf Graphic file (type
  QTm)
- <use  "./fig/figOrdinaryDifferentialEquations/figODEeuler.pdf" > [14]
-[15]
-
-Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
-ng it (it is [0.0:0.0]) on input line 575.
-
- [warning /pgfplots/warning/approx empty range enlarged]
-
-Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
-ng it (it is [0.0:0.0]) on input line 585.
-
- [warning /pgfplots/warning/approx empty range enlarged]
-
-Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
-ng it (it is [0.0:0.0]) on input line 601.
-
- [warning /pgfplots/warning/approx empty range enlarged]
-
-Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
-ng it (it is [0.0:0.0]) on input line 611.
-
- [warning /pgfplots/warning/approx empty range enlarged]
+ <use  "./fig/figOrdinaryDifferentialEquations/figODEeuler.pdf" >
 [16] [17]
 
 Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
-ng it (it is [0.0:0.0]) on input line 680.
+ng it (it is [0.0:0.0]) on input line 577.
 
  [warning /pgfplots/warning/approx empty range enlarged]
 
 Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
-ng it (it is [0.0:0.0]) on input line 690.
+ng it (it is [0.0:0.0]) on input line 587.
 
  [warning /pgfplots/warning/approx empty range enlarged]
-[18] [19] [20] [21]
+
+Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 603.
+
+ [warning /pgfplots/warning/approx empty range enlarged]
+
+Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 613.
+
+ [warning /pgfplots/warning/approx empty range enlarged]
+[18] [19] [20]
+
+Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 682.
+
+ [warning /pgfplots/warning/approx empty range enlarged]
+
+Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 692.
+
+ [warning /pgfplots/warning/approx empty range enlarged]
+[21] [22] [23] [24] [25]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 853.
+(Font)              scaled to size 7.0pt on input line 855.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 853.
- [22] [23]
+(Font)              scaled to size 5.0pt on input line 855.
+ [26]
 Missing character: There is no ° in font pplr7t!
 Missing character: There is no ° in font pplr7t!
 Missing character: There is no ° in font pplr7t!
@@ -3167,20 +3169,7 @@ Missing character: There is no ° in font pplr7t!
 Missing character: There is no ° in font pplr7t!
 Missing character: There is no ° in font pplr7t!
 Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
- [24]
-Missing character: There is no ° in font pplr7t!
+ [27]
 Missing character: There is no ° in font pplr7t!
 Missing character: There is no ° in font pplr7t!
 Missing character: There is no ° in font pplr7t!
@@ -3197,42 +3186,57 @@ Missing character: There is no ° in font pplr7t!
 Missing character: There is no ° in font pplr7t!
 Missing character: There is no ° in font pplr7t!
 Missing character: There is no ° in font pplr7t!
+ [28]
 Missing character: There is no ° in font pplr7t!
 Missing character: There is no ° in font pplr7t!
 Missing character: There is no ° in font pplr7t!
- [25]
-Overfull \hbox (2.90822pt too wide) in paragraph at lines 973--988
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+ [29]
+Overfull \hbox (1.46779pt too wide) in paragraph at lines 975--990
  [][][][] 
  []
 
-[26] [27] [28] [29] [30]
-Overfull \hbox (18.11018pt too wide) in paragraph at lines 1193--1197
-[]$[]$  \EU1/JameelNooriNastaleeq(0)/bx/n/10 داخل ہوتا ہے جس کی رفتار مستقل اسر
-اع کے ساتھ  $[] []$  دورانیے میں  $[] []$  سے بڑھا کر  $[] []$[]
- []
+[30] [31] [32] [33] [34] [35]
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+ [36]
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+ [37] [38] [39] [40] [41] [42] [43] [44]
+[45] [46] [47]
+File: ./fig/figOrdinaryDifferentialEquations/integratingFactor.pdf Graphic file
+ (type QTm)
 
-[31]
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
-Missing character: There is no ° in font pplr7t!
- [32] [33] [34] [35] [36] [37] [38]) [39] [40
+<use  "./fig/figOrdinaryDifferentialEquations/integratingFactor.pdf" > [48])
+[49] [50] [40
 
 
 
@@ -3250,12 +3254,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45754 strings out of 493918
- 1091853 string characters out of 6150562
- 1470417 words of memory out of 5000000
- 48153 multiletter control sequences out of 15000+600000
- 50340 words of font info for 180 fonts, out of 8000000 for 9000
+ 45786 strings out of 493918
+ 1092818 string characters out of 6150562
+ 1472025 words of memory out of 5000000
+ 48178 multiletter control sequences out of 15000+600000
+ 50388 words of font info for 186 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,16n,86p,10485b,2913s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,16n,86p,10485b,2919s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (46 pages).
+Output written on engineeringMathematics.pdf (57 pages).

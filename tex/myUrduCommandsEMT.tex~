@@ -112,7 +112,7 @@
 
 \newenvironment*{سوال}				
 {\noindent\ignorespaces  سوال \refstepcounter{questioncounter} \thequestioncounter :}%
-{\noindent }
+{\par\noindent }
 %--------------------
 
 %defining a LAW   قانون
@@ -124,4 +124,14 @@
 {\par\medskip \refstepcounter{lawcounter} }%
 {\par\medskip }
 %--------------------
+%--------------------
 
+%defining a THEOREM   مسئلہ
+
+\newcounter{kthcounter}[chapter]
+\renewcommand{\thekthcounter}{\arabic{kthcounter}.\thechapter}
+
+\newenvironment*{مسئلہ}				
+{\noindent\ignorespaces  مسئلہ \refstepcounter{kthcounter} \thequestioncounter :}%
+{\par\noindent }
+%--------------------

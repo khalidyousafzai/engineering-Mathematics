@@ -498,8 +498,14 @@ Print("======================================");
 kill(all);
 print("Q 1.70");
 
-M:2*x*y;
-N:x^2;
+u:x^2*y;
+Ma:diff(u,x);
+Na:diff(u,y);
+F:1;
+
+M:Ma/F;
+N:Na/F;
+display(M,N);
 
 Ex:diff(M,y)-diff(N,x);
 eq:N*'diff(y,x)+M=0;
@@ -509,18 +515,6 @@ intfactor;
 Print("======================================");
 kill(all);
 print("Q 1.71");
-
-M:y;
-N:2*x*y-%e^(-2*y);
-
-Ex:diff(M,y)-diff(N,x);
-eq:N*'diff(y,x)+M=0;
-ode2(eq,y,x);
-intfactor;
-
-Print("======================================");
-kill(all);
-print("Q 1.72");
 
 M:x^2;
 N:y;
@@ -532,7 +526,7 @@ intfactor;
 
 Print("======================================");
 kill(all);
-print("Q 1.73");
+print("Q 1.72");
 
 u:sin(x)*(x+y^3);
 M:diff(u,x);
@@ -542,3 +536,147 @@ Ex:diff(M,y)-diff(N,x);
 eq:N*'diff(y,x)+M=0;
 ode2(eq,y,x);
 intfactor;
+Print("======================================");
+kill(all);
+print("Q 1.73");
+
+/* the following is an excellent way of getting diff equations needing Integrating Factor.
+the last command is needed to ensure that have got it right*/
+
+u:x+x*y+y;
+Ma:diff(u,x);
+Na:diff(u,y);
+F:1;
+M:Ma/F;
+N:Na/F;
+display(M,N);
+
+Ex:diff(M,y)-diff(N,x);
+eq:N*'diff(y,x)+M=0;
+ode2(eq,y,x);
+intfactor;
+
+
+Print("======================================");
+kill(all);
+print("Q 1.74");
+
+/* the following is an excellent way of getting diff equations needing Integrating Factor.
+the last command is needed to ensure that have got it right*/
+
+u:y*%e^x+x*%e^y+x*y;
+Ma:diff(u,x);
+Na:diff(u,y);
+F:1;
+M:Ma/F;
+N:Na/F;
+display(M,N);
+
+Ex:diff(M,y)-diff(N,x);
+eq:N*'diff(y,x)+M=0;
+ode2(eq,y,x);
+intfactor;
+
+
+
+Print("======================================");
+kill(all);
+print("Q 1.75");
+
+/* the following is an excellent way of getting diff equations needing Integrating Factor.
+the last command is needed to ensure that have got it right*/
+
+u:(2*x+y^2)*x;
+Ma:diff(u,x);
+Na:diff(u,y);
+F:x;
+M:Ma/F;
+N:Na/F;
+display(M,N);
+
+Ex:diff(M,y)-diff(N,x);
+eq:N*'diff(y,x)+M=0;
+ode2(eq,y,x);
+intfactor;
+
+Print("======================================");
+kill(all);
+print("Q 1.76");
+
+/* the following is an excellent way of getting diff equations needing Integrating Factor*/
+
+u:%e^(2*x)*(y^2+y*x);
+Ma:diff(u,x);
+Na:diff(u,y);
+F:%e^x;
+M:trigsimp(Ma/F);
+N:trigsimp(Na/F);
+display(M,N);
+
+Ex:diff(M,y)-diff(N,x);
+eq:N*'diff(y,x)+M=0;
+ode2(eq,y,x);
+intfactor;
+
+
+Print("======================================");
+kill(all);
+print("Q 1.77");
+
+/* the following is an excellent way of getting diff equations needing Integrating Factor*/
+
+u:%e^(2*x)*(y^2+y*x);
+Ma:diff(u,x);
+Na:diff(u,y);
+F:%e^(2*x);
+M:trigsimp(Ma/F);
+N:trigsimp(Na/F);
+display(M,N);
+
+Ex:diff(M,y)-diff(N,x);
+eq:N*'diff(y,x)+M=0;
+ode2(eq,y,x);
+intfactor;
+
+Print("======================================");
+kill(all);
+print("Q 1.78");
+
+
+u:x*%e^(2*y)-log(y);
+Ma:diff(u,x);
+Na:diff(u,y);
+F:%e^(2*y)/y;
+M:trigsimp(Ma/F);
+N:trigsimp(Na/F);
+display(M,N);
+
+Ex:diff(M,y)-diff(N,x);
+eq:N*'diff(y,x)+M=0;
+ode2(eq,y,x);
+intfactor;
+
+
+
+Print("======================================");
+kill(all);
+print("Q 1.78");
+
+eq:3*((y+1)^2)/x^4=2*(y+1)/x^3*'diff(y,x);
+ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 1.79");
+
+
+eq:y*cos(x+y)+(y*cos(x+y)+sin(x+y))*'diff(y,x);
+ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 1.80");
+logexpand=false;
+eq:(a+1)*y*(x^(a))*(y^(b))+(b+1)*x*(x^a)*(y^b)*'diff(y,x)=0;
+ode2(eq,y,x);
+ic1(%,x=1,y=1);

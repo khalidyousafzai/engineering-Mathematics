@@ -1,5 +1,5 @@
-\documentclass[leqno]{book} %the geometry package defines the paper size
-%\documentclass[leqno,b5paper]{book}
+\documentclass[leqno,b5paper]{book}
+%\documentclass[leqno]{book} %the geometry package defines the paper size
 %===================
 %testing tikz inside book
 \usepackage{circuitikz}
@@ -17,6 +17,19 @@
 
 %\tikzexternalize[mode=list and make] %disable to generate figures
 %\tikzexternaldisable  %enables figures after this command. put this is the tex file
+
+\pgfmathsetmacro{\x}{2}     %smallest resistor sizes
+\pgfmathsetmacro{\y}{2}
+\pgfmathsetmacro{\xx}{2.5}   %somewhat larger resistor leads. gives more space
+\pgfmathsetmacro{\yy}{2.5}
+\pgfmathsetmacro{\xxx}{3}   %still larger resistor leads. gives even more space
+\pgfmathsetmacro{\yyy}{3}
+\pgfmathsetmacro{\dx}{0.2}     %moving labels beyond resistor outline
+\pgfmathsetmacro{\dy}{0.2}
+\pgfmathsetmacro{\pin}{0.3}
+
+\pgfmathsetmacro{\boxW}{0.5}   %width of box circuit
+\pgfmathsetmacro{\boxH}{2.5}   %height of box circuit
 
 %=============================
 %complex numbers, squared voltages
@@ -69,6 +82,7 @@
 \usepackage{amsbsy} %for bold Poynting
 \usepackage{ mathrsfs}   %for Poynting symbol
 \usepackage{IEEEtrantools}
+\usepackage{amsbsy} %for lessgtr symbol
 
 
 \sisetup{math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega}   %with mathpazo this is needed else must not be here. now micro is smaller
@@ -88,7 +102,7 @@
 
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktSteadyStateAC,./tex/cktSteadyStatePower,./tex/cktMagneticallyCoupledNetworks,./tex/cktPolyphaseCircuits,./tex/cktFrequencyResponse,./tex/cktLaplaceTransform,./tex/cktApplicationLaplace,./tex/cktFourierAnalysis,./tex/cktTwoPortNetworks}
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktPolyphaseCircuits}%
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathQuestions}%
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations}%
 
 
 \author{

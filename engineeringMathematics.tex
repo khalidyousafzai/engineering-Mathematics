@@ -18,44 +18,6 @@
 %\tikzexternalize[mode=list and make] %disable to generate figures
 %\tikzexternaldisable  %enables figures after this command. put this is the tex file
 
-%=============================
-%complex numbers, squared voltages
-\newcommand*{\bZ}{{\ensuremath{{\boldsymbol{Z}}}}}           %complex impedance
-\newcommand*{\bY}{{\ensuremath{{\boldsymbol{Y}}}}}           %complex admittance
-\newcommand*{\bZCC}{{\ensuremath{{\boldsymbol{Z}}^{*}}}}                                            %complex conjugate impedance
-\newcommand*{\bYCC}{{\ensuremath{{\boldsymbol{Y}}^{*}}}}                                            %complex conjugate
-
-\newcommand*{\bVrms}{{\ensuremath{\hat{V}_{\textup{rms}}}}}           %phasor voltage
-\newcommand*{\bIrms}{{\ensuremath{\hat{I}_{\textup{rms}}}}}           %phasor current
-\newcommand*{\Vrms}{{\ensuremath{V_{\textup{rms}}}}}       %rms voltage
-\newcommand*{\Irms}{{\ensuremath{I_{\textup{rms}}}}}           %rms current
-\newcommand*{\Arms}{{\ensuremath{A_{\textup{rms}}}}}           %rms amps
-\newcommand*{\VrmsS}{{\ensuremath{V^2_{\textup{rms}}}}}       %rms squared
-\newcommand*{\IrmsS}{{\ensuremath{I^2_{\textup{rms}}}}}           %rms squared
-\newcommand*{\bVrmsCC}{{\ensuremath{\hat{V}^{*}_{\textup{rms}}}}}                  %conjugate phasor voltage
-\newcommand*{\bIrmsCC}{{\ensuremath{\hat{I}^{*}_{\textup{rms}}}}}           %conjugate phasor current
-
-
-\newcommand*{\kx}[1]{{\ensuremath{{\boldsymbol{#1}}}}}                  %complex quantity
-\newcommand*{\bS}{{\ensuremath{{\boldsymbol{S}}}}}                         %complex power
-\newcommand*{\bH}{{\ensuremath{{\boldsymbol{H}}}}}                       %network functions
-\newcommand*{\bA}{{\ensuremath{{\boldsymbol{A}}}}}                        %voltage gain
-
-\newcommand*{\pf}{{\ensuremath{{\textup{pf}}}}}
-\newcommand*{\rms}{{\ensuremath{\textup{rms}}}}           %rms
-\newcommand*{\BW}{{\ensuremath{{\textup{BW}}}}}   %bandwidth
-
-\newcommand*{\Laplace}{\mathcal{L}}   %Laplace transform
-\newcommand*{\Fourier}{\mathcal{F}}   %Fourier transform
-
-\newcommand*{\kB}[1]{{\ensuremath{{\textup{#1}}}}}  %Laplace symbol general use. 
-									%following were used too often so gave them specific symbols
-\newcommand*{\bF}{{\ensuremath{{\textup{F}}}}}    %Fourier transform of 
-\newcommand*{\bP}{{\ensuremath{{\textup{P}}}}}   %Laplace fraction
-\newcommand*{\bQ}{{\ensuremath{{\textup{Q}}}}}  %Laplace fraction
-\newcommand*{\bV}{{\ensuremath{{\textup{V}}}}}  %Laplace Voltage
-\newcommand*{\bI}{{\ensuremath{{\textup{I}}}}}  %Laplace Current
-
 %for vertical spacing in tables use\Tstrut and \Bstrut  
 \newcommand\Tstrut{\rule{0pt}{2.6ex}}       % Top strut
 \newcommand\Bstrut{\rule[-1.2ex]{0pt}{0pt}} % Bottom strut
@@ -69,6 +31,7 @@
 \usepackage{amsbsy} %for bold Poynting
 \usepackage{ mathrsfs}   %for Poynting symbol
 \usepackage{IEEEtrantools}
+\usepackage{amsbsy} %for lessgtr symbol
 
 
 \sisetup{math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega}   %with mathpazo this is needed else must not be here. now micro is smaller
@@ -79,7 +42,7 @@
 \input{./tex/myUrduGreek.tex}
 \input{./tex/myEMTvectors.tex}
 \input{./tex/myDeclareFunctions.tex}     %\sech, \csch, \arcsh, \arcs   hyperbolic and arc-secant etc
-
+\input{./tex/myCircuitDimensionsAndMathematicalSymbols.tex} % resistor sizes and Laplace, Fourier, Complex, Phasor, etc  symbols
 
 %\input{./tex/myElectronicsVariablesBetter.tex}         %these are all tested. to use at the very end when book is finished
 

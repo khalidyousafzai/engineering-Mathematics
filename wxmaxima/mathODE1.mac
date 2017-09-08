@@ -680,3 +680,11 @@ logexpand=false;
 eq:(a+1)*y*(x^(a))*(y^(b))+(b+1)*x*(x^a)*(y^b)*'diff(y,x)=0;
 ode2(eq,y,x);
 ic1(%,x=1,y=1);
+
+Print("======================================");
+kill(all);
+print("example 1.19");
+
+eq:'diff(y,x)+y*cot(x)=2*x/sin(x);
+ode2(eq,y,x);
+ic1(%,x=%pi/2,y=0);

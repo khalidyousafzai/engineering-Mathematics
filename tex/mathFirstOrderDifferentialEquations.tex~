@@ -1803,8 +1803,10 @@ y=\cosec x \left(x^2-\frac{\pi^2}{4}\right)
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,xlabel={$t$},ylabel={$i(t)$},xtick={0.01,0.02,0.03,0.04},xticklabels={$0.01$,$0.02$,$0.03$,$0.04$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},scaled x ticks=false,scaled y ticks=false]
-\addplot[domain=0:0.05]{50/100*(1-e^(-200*x))};
+\begin{axis}[small,axis lines*=middle,xlabel={$t$},ylabel={$i(t)$},xtick={0.01,0.02,0.03},xticklabels={$0.01$,$0.02$,$0.03$},ytick={0,0.25,0.5,0.75},yticklabels={$0$,$0.25$,$\frac{E}{R}$,$0.75$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},scaled x ticks=false,scaled y ticks=false]
+\addplot[thick,domain=0:0.035]{50/100*(1-e^(-200*x))};
+\addplot[domain=0:0.035]{0.5-0.25*e^(-200*x)};
+\addplot[domain=0:0.035]{0.5+0.25*e^(-200*x)};
 \end{axis}
 \end{tikzpicture}
 \caption*{(ب)}
@@ -1814,11 +1816,87 @@ y=\cosec x \left(x^2-\frac{\pi^2}{4}\right)
 \end{figure}
 
 
-حل:کرخوف کے قانون کے تحت 
+حل:یہاں غیر تابع متغیرہ وقت \عددی{t} ہے جبکہ تابع متغیرہ رو \عددی{i(t)} ہے۔ کرخوف کے قانون کے تحت 
 \begin{align*}
 v_L+v_R=E, \quad L i'+Ri=E, \quad i'+\frac{R}{L}i=\frac{E}{L}
 \end{align*}
-لکھا جائے گا جہاں آخری قدم پر \عددی{L} سے تقسیم کرتے ہوئے مساوات کو معیاری صورت میں لکھا گیا ہے۔ 
+لکھا جائے گا جہاں آخری قدم پر \عددی{L} سے تقسیم کرتے ہوئے مساوات کو معیاری صورت میں لکھا گیا ہے۔اس کو مساوات \حوالہ{مساوات_سادہ_اول_متجانس_خطی_حل_الف} کی مدد سے حل کرتے ہیں جہاں \عددی{x} کی جگہ \عددی{t} اور \عددی{y} کی جگہ \عددی{i} استعمال ہو گا۔یہاں \عددی{p=\tfrac{R}{L}} اور \عددی{r=\tfrac{E}{L}} ہیں لہٰذا \عددی{h=\tfrac{R}{L}t} ہو گا اور عمومی حل
+\begin{align*}
+i=e^{-\frac{R}{L}t}\left(\int e^{\frac{R}{L}t}  \frac{E}{L} \dif x+c\right)
+\end{align*}
+لکھا جائے گا۔تکمل لیتے ہوئے درج ذیل ملتا ہے۔
+\begin{align}\label{مساوات_سادہ_اول_برقی_مزاحمت_امالہ_سلسلہ_وار}
+i=e^{-\frac{R}{L}t}\left(\frac{E}{L} \frac{e^{\frac{R}{L}}t}{\frac{R}{L}}+c\right)=\frac{E}{R}+ce^{-\frac{R}{L}t}
+\end{align}
+شکل \حوالہ{شکل_مثال_سادہ_اول_برقی_دور_الف}-الف میں پرزوں کی قیمتیں دی گئی ہیں جن سے \عددی{\tfrac{E}{R}=\tfrac{50}{100}=0.5} اور
+ \عددی{\tfrac{R}{L}=\tfrac{100}{0.5}=200} ملتا ہے لہٰذا عمومی حل کو درج ذیل لکھا جا سکتا ہے۔
+\begin{align}
+i=0.5+ce^{-200t}
+\end{align} 
+مساوات \حوالہ{مساوات_سادہ_اول_برقی_مزاحمت_امالہ_سلسلہ_وار} میں ابتدائی معلومات پر کرتے ہوئے \عددی{c} کی قیمت حاصل ہوتی ہے۔ اس مساوات میں \عددی{ce^{-\tfrac{R}{L}t}} جزو \عددی{t \to \infty} پر صفر کے برابر ہو گا لہٰذا کافی دیر بعد رو پہلے جزو \عددی{\tfrac{E}{R}} کے برابر ہو گی جسے رو کی \اصطلاح{برقرار حال}\فرہنگ{برقرار حال}\حاشیہب{steady state}\فرہنگ{steady state} قیمت کہتے ہیں۔یہ ایک اہم نتیجہ ہے جس کے  تحت کافی دیر بعد رو کی قیمت کا دارومدار ابتدائی معلومات پر منحصر نہیں ہے۔رو کتنی جلدی برقرار حال قیمت اختیار کرتی ہے، اس کا دارومدار \عددی{\tfrac{R}{L}} کی قیمت پر ہے۔
 
+مساوات \حوالہ{مساوات_سادہ_اول_برقی_مزاحمت_امالہ_سلسلہ_وار} میں ابتدائی معلومات \عددی{i(0)=0} پر کرتے  \عددی{0=0.5+ce^0} ہوئے \عددی{c=-0.5} ملتا ہے لہٰذا جبری حل درج ذیل ہو گا جس کو شکل \حوالہ{شکل_مثال_سادہ_اول_برقی_دور_الف}-ب میں موٹی لکیر سے دکھایا گیا ہے۔شکل میں ابتدائی قیمت \عددی{i(0)=0.25} اور \عددی{i(0)=0.75} سے حاصل جبری حل بھی دکھائے گئے ہیں۔
+\begin{align}
+i(t)=0.5(1-e^{-200t})
+\end{align}
 \انتہا{مثال}
 %==========================
+\ابتدا{مثال}\شناخت{مثال_سادہ_اول_غدود_درقیہ}\quad جسم میں ہارمونز کی مقدار\\
+جسم میں مختلف مقامات پر موجود \اصطلاح{غدود}\فرہنگ{غدود}\حاشیہب{gland}\فرہنگ{gland} یعنی  \اصطلاح{گلٹی}\فرہنگ{گلٹی}، خون میں مختلف مرکبات\اصطلاح{(ہارمونز)}\فرہنگ{ہارمونز}\حاشیہب{hormones}\فرہنگ{hormones} خارج کرتے ہوئے جسم کی کارکردگی کو قابو کرتے ہیں۔تصور کریں کہ خون سے ایک مخصوص ہارمون مسلسل ہٹایا جاتا ہے۔ہٹانے کی شرح اس لمحے موجود ہارمون کی مقدار کے راست تناسب ہے۔ساتھ ہی ساتھ تصور کریں کہ روزانہ غدود اس ہارمون کو خون میں ایک مخصوص انداز سے خارج کرتی ہے۔خون میں موجود ہارمون کی نمونہ کشی کرتے ہوئے تفرقی مساوات کا عمومی حل حاصل کریں۔صبح چھ بجے خون میں ہارمون کی مقدار \عددی{y_0} لیتے ہوئے جبری حل حاصل کریں۔  
+
+حل:پہلا قدم نمونہ کشی ہے۔چوبیس گھنٹوں میں خارج ہونے کے عمل کو \عددی{a+b\sin (\tfrac{2\pi t}{24})} سے ظاہر کرتے ہیں۔چونکہ خون میں ہارمون خارج ہونے سے خون میں ہارمون کی مقدار بڑھتی ہے لہٰذا \عددی{a\ge b} ہو گا۔یوں خارج کردہ ہارمون کی مقدار مثبت ہو گی۔کسی بھی لمحے خون میں ہارمون کی مقدار کی تبدیلی کی شرح، اس لمحے خون میں ہارمون کے داخل ہونے کی مقدار اور اس کی ہٹائی جانے والی مقدار میں فرق کے برابر ہو گا۔یوں مسئلے کا تفرقی مساوات درج ذیل ہو گا۔
+\begin{align}
+\frac{\dif y(t)}{\dif t}=a+b\sin\left(\frac{2\pi t}{24}\right)-k y(t) \quad \text{یعنی}\quad y'-ky=a+b\sin \omega t,\quad \omega =\frac{2\pi}{24}
+\end{align}
+دوسرا قدم: عمومی حل حاصل کرتے ہیں۔یہاں \عددی{p=k} ہے لہٰذا \عددی{h=\int k\dif t=kt} ہو گا۔اسی طرح \عددی{r=a+b\sin \omega t} ہے لہٰذا مساوات \حوالہ{مساوات_سادہ_اول_متجانس_خطی_حل_الف} سے عمومی حل درج ذیل ہو گا جس کو \اصطلاح{تکمل بالحصص}\فرہنگ{تکمل!بالحصص}\حاشیہب{integration by parts}\فرہنگ{integration!by parts} حل کیا گیا ہے
+\begin{align*}
+y&=e^{-kt}\int e^{kt} (a+b\sin \omega t) \dif t+ce^{-kt}\\
+&=e{-kt}e^{kt}\left[\frac{a}{k}+\frac{b}{k^2+\omega^2}(k\cos \omega t+\omega \sin \omega t)\right]+ce^{-kt}\\
+&=\frac{a}{k}+\frac{b}{k^2+\omega^2}(k\cos \omega t+\omega \sin \omega t)+ce^{-kt}
+\end{align*}
+عمومی حل کا آخری جزو وقت بڑھنے سے آخر کار صفر ہو جاتا ہے۔یوں \اصطلاح{برقرار حل}\فرہنگ{برقرار حل}\حاشیہب{steady state response}\فرہنگ{steady state response} بقایا اجزاء پر مشتمل ہے۔
+
+آخر قدم:ابتدائی معلومات سے جبری حل حاصل کرتے ہیں۔صبح چھ بجے کو لمحہ \عددی{t=0} تصور کرتے ہوئے ابتدائی معلومات کو \عددی{y(0)=y_0} لکھا جا سکتا ہے۔ان قیمتوں کو عمومی حل میں پر کرتے ہوئے \عددی{c} کی قیمت حاصل کرتے ہیں۔
+\begin{align*}
+y_0 &=\frac{a}{k}+\frac{b}{k^2+\omega^2}(k\cos 0+\omega \sin 0)+ce^{0}, \quad \text{یعنی}\quad c=y_0-\frac{a}{k}-\frac{bk}{k^2+\omega^2}
+\end{align*}
+اس طرح جبری حل درج ذیل ہو گا۔جبری حل کو \عددی{a=1}، \عددی{b=1}، \عددی{k=0.04} اور \عددی{y_0=0} لیتے ہوئے  جسے شکل \حوالہ{شکل_مثال_سادہ_اول_غدود_درقیہ} میں دکھایا گیا ہے۔ شکل-ب میں \عددی{y_0=50} لیا گیا ہے۔آپ دیکھ سکتے ہیں کہ خون میں ہارمون کی مقدار بہت جلد ایک مخصوص اوسط قیمت پر پہنچ پاتی ہے۔
+\begin{align*}
+y=\frac{a}{k}+\frac{b}{k^2+\omega^2}(k\cos \omega t+\omega \sin \omega t)+(y_0-\frac{a}{k}-\frac{bk}{k^2+\omega^2})e^{-kt}
+\end{align*}
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\a}{2*pi/24}
+\pgfmathsetmacro{\b}{2*pi/24}
+\pgfmathsetmacro{\w}{2*pi/24}
+\pgfmathsetmacro{\wa}{360/24}
+\pgfmathsetmacro{\k}{0.04}
+\pgfmathsetmacro{\ya}{0}
+\begin{axis}[small,axis lines*=middle,ymin=0,ymax=50,xmin=0,xlabel={$t$},ylabel={$y(t)$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\addplot[domain=0:300,samples=400]{1/\k+(\k*cos(\wa*x)+\w*sin(\wa*x))/(\k^2+\w^2)+(\ya-1/\k-\k/(\k^2+\w^2))*e^(-\k*x)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\w}{2*pi/24}
+\pgfmathsetmacro{\wa}{360/24}
+\pgfmathsetmacro{\k}{0.04}
+\pgfmathsetmacro{\ya}{50}
+\begin{axis}[small,axis lines*=middle,ymin=0,ymax=50,xmin=0,xlabel={$t$},ylabel={$y(t)$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\addplot[domain=0:300,samples=400]{1/\k+(\k*cos(\wa*x)+\w*sin(\wa*x))/(\k^2+\w^2)+(\ya-1/\k-\k/(\k^2+\w^2))*e^(-\k*x)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_سادہ_اول_غدود_درقیہ}: خون میں ہارمون کی مقدار بالمقابل وقت۔}
+\label{شکل_مثال_سادہ_اول_غدود_درقیہ}
+\end{figure}
+\انتہا{مثال}
+%=============================

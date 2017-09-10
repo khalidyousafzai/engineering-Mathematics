@@ -688,3 +688,98 @@ print("example 1.19");
 eq:'diff(y,x)+y*cot(x)=2*x/sin(x);
 ode2(eq,y,x);
 ic1(%,x=%pi/2,y=0);
+
+
+Print("======================================");
+kill(all);
+print("Q 1.84");
+
+eq:'diff(y,x)-y=2;
+ode2(eq,y,x);
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 1.85");
+
+eq:'diff(y,x)-4*y=2*x;
+ode2(eq,y,x);
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 1.86");
+
+eq:'diff(y,x)+5*y=%e^(5*x);
+ode2(eq,y,x);
+ic1(%,x=0,y=2);
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 1.87");
+
+eq:'diff(y,x)+6*y=6*sin(4*x);
+ode2(eq,y,x);
+ic1(%,x=%pi/8,y=6);
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 1.88");
+
+eq:'diff(y,x)+2*x*y=2*x;
+ode2(eq,y,x);
+ic1(%,x=0,y=3);
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 1.89");
+
+eq:x*'diff(y,x)=2*y+x^3*%e^x;
+ode2(eq,y,x);
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 1.90");
+
+eq:'diff(y,x)+y*tan(x)=sin(x);
+ode2(eq,y,x);
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 1.91");
+
+eq:'diff(y,x)+y*cos(x)=%e^(-sin(x));
+ode2(eq,y,x);
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 1.92");
+
+eq:cos(x)*'diff(y,x)+(4*y-2)*sec(x)=0;
+ode2(eq,y,x);
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 1.93");
+
+eq:'diff(y,x)=(y-4)*tan(x);
+ode2(eq,y,x);
+ic1(%,x=0,y=3);
+expand(%);
+trigsimp(%);
+
+Print("======================================");
+kill(all);
+print("Q 1.94");
+
+eq:x*'diff(y,x)+6*y=5*x^3;
+ode2(eq,y,x);
+ic1(%,x=1,y=1);
+expand(%);

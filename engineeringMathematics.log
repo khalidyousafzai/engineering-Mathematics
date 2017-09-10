@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  9 SEP 2017 14:03
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  10 SEP 2017 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1718,7 +1718,8 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 3.
  (./tex/cktPreface.aux)
 (./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
-(./tex/mathQuestions.aux))
+No file ./tex/mathQuestions.aux.
+)
 \openout1 = `engineeringMathematics.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
@@ -3118,10 +3119,10 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 14.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 14.4pt on input line 14.
- [2] [3] [4]
+ [2] [3] [4] [5]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 116.
- [5] [6]
+ [6]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 12.0pt on input line 148.
  [7]
@@ -3299,15 +3300,19 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [55] [56] [57]) [58] [59] [40
+ [55] [56] [57] [58]
+Underfull \hbox (badness 10000) in paragraph at lines 1909--1909
+[][][]\EU1/JameelNooriNastaleeq(0)/m/n/8 یعقوب برنولی (1654-1705): سوئزرلینڈ کے
+ برنولی خاندان نے دنیا کو کئی اہم ریاضی داں دیے۔ یعقوب برنولی ان میں سر فہرست ہ
+ے۔انہوں نے علم الامکانیات میں بہت کام[]
+ []
 
-
-
-]
+[59] [60] [61] [62] [63]) [64]
 No file engineeringMathematics.ind.
 (./engineeringMathematics.aux (./tex/cktPreface.aux)
 (./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
-(./tex/mathQuestions.aux))
+No file ./tex/mathQuestions.aux.
+)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.75237pt have occurred.
@@ -3317,12 +3322,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46407 strings out of 493918
- 1103364 string characters out of 6150562
- 1473004 words of memory out of 5000000
- 48787 multiletter control sequences out of 15000+600000
+ 46460 strings out of 493918
+ 1104277 string characters out of 6150562
+ 1471796 words of memory out of 5000000
+ 48844 multiletter control sequences out of 15000+600000
  57732 words of font info for 222 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,20n,86p,10485b,2919s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (66 pages).
+Output written on engineeringMathematics.pdf (70 pages).

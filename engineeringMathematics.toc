@@ -6,4 +6,3 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 1}}قابل علیحدگی سادہ تفرقی مساوات}{\RL {\arabicfont 22}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 1}}قطعی سادہ تفرقی مساوات اور جزو تکمل}{\RL {\arabicfont 39}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 1}}خطی سادہ تفرقی مساوات۔ مساوات برنولی}{\RL {\arabicfont 52}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 2}}سوالات}{\RL {\arabicfont 39}}

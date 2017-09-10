@@ -18,57 +18,6 @@
 %\tikzexternalize[mode=list and make] %disable to generate figures
 %\tikzexternaldisable  %enables figures after this command. put this is the tex file
 
-\pgfmathsetmacro{\x}{2}     %smallest resistor sizes
-\pgfmathsetmacro{\y}{2}
-\pgfmathsetmacro{\xx}{2.5}   %somewhat larger resistor leads. gives more space
-\pgfmathsetmacro{\yy}{2.5}
-\pgfmathsetmacro{\xxx}{3}   %still larger resistor leads. gives even more space
-\pgfmathsetmacro{\yyy}{3}
-\pgfmathsetmacro{\dx}{0.2}     %moving labels beyond resistor outline
-\pgfmathsetmacro{\dy}{0.2}
-\pgfmathsetmacro{\pin}{0.3}
-
-\pgfmathsetmacro{\boxW}{0.5}   %width of box circuit
-\pgfmathsetmacro{\boxH}{2.5}   %height of box circuit
-
-%=============================
-%complex numbers, squared voltages
-\newcommand*{\bZ}{{\ensuremath{{\boldsymbol{Z}}}}}           %complex impedance
-\newcommand*{\bY}{{\ensuremath{{\boldsymbol{Y}}}}}           %complex admittance
-\newcommand*{\bZCC}{{\ensuremath{{\boldsymbol{Z}}^{*}}}}                                            %complex conjugate impedance
-\newcommand*{\bYCC}{{\ensuremath{{\boldsymbol{Y}}^{*}}}}                                            %complex conjugate
-
-\newcommand*{\bVrms}{{\ensuremath{\hat{V}_{\textup{rms}}}}}           %phasor voltage
-\newcommand*{\bIrms}{{\ensuremath{\hat{I}_{\textup{rms}}}}}           %phasor current
-\newcommand*{\Vrms}{{\ensuremath{V_{\textup{rms}}}}}       %rms voltage
-\newcommand*{\Irms}{{\ensuremath{I_{\textup{rms}}}}}           %rms current
-\newcommand*{\Arms}{{\ensuremath{A_{\textup{rms}}}}}           %rms amps
-\newcommand*{\VrmsS}{{\ensuremath{V^2_{\textup{rms}}}}}       %rms squared
-\newcommand*{\IrmsS}{{\ensuremath{I^2_{\textup{rms}}}}}           %rms squared
-\newcommand*{\bVrmsCC}{{\ensuremath{\hat{V}^{*}_{\textup{rms}}}}}                  %conjugate phasor voltage
-\newcommand*{\bIrmsCC}{{\ensuremath{\hat{I}^{*}_{\textup{rms}}}}}           %conjugate phasor current
-
-
-\newcommand*{\kx}[1]{{\ensuremath{{\boldsymbol{#1}}}}}                  %complex quantity
-\newcommand*{\bS}{{\ensuremath{{\boldsymbol{S}}}}}                         %complex power
-\newcommand*{\bH}{{\ensuremath{{\boldsymbol{H}}}}}                       %network functions
-\newcommand*{\bA}{{\ensuremath{{\boldsymbol{A}}}}}                        %voltage gain
-
-\newcommand*{\pf}{{\ensuremath{{\textup{pf}}}}}
-\newcommand*{\rms}{{\ensuremath{\textup{rms}}}}           %rms
-\newcommand*{\BW}{{\ensuremath{{\textup{BW}}}}}   %bandwidth
-
-\newcommand*{\Laplace}{\mathcal{L}}   %Laplace transform
-\newcommand*{\Fourier}{\mathcal{F}}   %Fourier transform
-
-\newcommand*{\kB}[1]{{\ensuremath{{\textup{#1}}}}}  %Laplace symbol general use. 
-									%following were used too often so gave them specific symbols
-\newcommand*{\bF}{{\ensuremath{{\textup{F}}}}}    %Fourier transform of 
-\newcommand*{\bP}{{\ensuremath{{\textup{P}}}}}   %Laplace fraction
-\newcommand*{\bQ}{{\ensuremath{{\textup{Q}}}}}  %Laplace fraction
-\newcommand*{\bV}{{\ensuremath{{\textup{V}}}}}  %Laplace Voltage
-\newcommand*{\bI}{{\ensuremath{{\textup{I}}}}}  %Laplace Current
-
 %for vertical spacing in tables use\Tstrut and \Bstrut  
 \newcommand\Tstrut{\rule{0pt}{2.6ex}}       % Top strut
 \newcommand\Bstrut{\rule[-1.2ex]{0pt}{0pt}} % Bottom strut
@@ -93,7 +42,7 @@
 \input{./tex/myUrduGreek.tex}
 \input{./tex/myEMTvectors.tex}
 \input{./tex/myDeclareFunctions.tex}     %\sech, \csch, \arcsh, \arcs   hyperbolic and arc-secant etc
-
+\input{./tex/myCircuitDimensionsAndMathematicalSymbols.tex} % resistor sizes and Laplace, Fourier, Complex, Phasor, etc  symbols
 
 %\input{./tex/myElectronicsVariablesBetter.tex}         %these are all tested. to use at the very end when book is finished
 
@@ -101,8 +50,8 @@
 
 
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktBasics,./tex/cktResistive,./tex/cktNodalLoop,./tex/cktOpamp,./tex/cktTheorems,./tex/cktCapacitorInductor,./tex/cktTransients,./tex/cktSteadyStateAC,./tex/cktSteadyStatePower,./tex/cktMagneticallyCoupledNetworks,./tex/cktPolyphaseCircuits,./tex/cktFrequencyResponse,./tex/cktLaplaceTransform,./tex/cktApplicationLaplace,./tex/cktFourierAnalysis,./tex/cktTwoPortNetworks}
-%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/cktPolyphaseCircuits}%
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations}%
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathQuestions}%
+%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathQuestions}%
 
 
 \author{

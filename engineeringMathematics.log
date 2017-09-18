@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  17 SEP 2017 15:50
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  18 SEP 2017 17:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3355,11 +3355,11 @@ Missing character: There is no و in font zplmr7m!
 Missing character: There is no ا in font zplmr7m!
 Missing character: There is no ل in font zplmr7m!
 Missing character: There is no ف in font zplmr7m!
- [68] [69]) [70] [71] [72
+ [68]
+Overfull \vbox (1.27742pt too high) has occurred while \output is active []
 
 
-
-]
+[69] [70] [71] [72] [73] [74] [75]) [76]
 No file engineeringMathematics.ind.
 (./engineeringMathematics.aux (./tex/cktPreface.aux)
 (./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
@@ -3374,12 +3374,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46483 strings out of 493918
- 1104757 string characters out of 6150562
- 1473001 words of memory out of 5000000
- 48867 multiletter control sequences out of 15000+600000
+ 46598 strings out of 493918
+ 1106990 string characters out of 6150562
+ 1676197 words of memory out of 5000000
+ 48982 multiletter control sequences out of 15000+600000
  57732 words of font info for 222 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,20n,86p,10485b,2919s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (78 pages).
+Output written on engineeringMathematics.pdf (82 pages).

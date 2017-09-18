@@ -877,5 +877,8 @@ Print("======================================");
 kill(all);
 print("Q 1.111");
 
-eq:'diff(y,x)=a*y-b*y^2-h*y;
+eq:'diff(y,x)=a*y-b*y^2-p*y;
 ode2(eq,y,x);
+
+ev(%,a=1,b=1,p=0.1);
+ic1(%,x=0,y=5);

@@ -1,0 +1,6 @@
+Print("======================================");
+kill(all);
+print("example 2.3");
+
+eq:'diff(y,x)+y=1;
+ode2(eq,y,x);

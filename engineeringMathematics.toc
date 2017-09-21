@@ -10,3 +10,4 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 1}}ابتدائی قیمت تفرقی مساوات:حل کی وجودیت اور یکتائیت }{\RL {\arabicfont 73}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 2}}درجہ دوم سادہ تفرقی مساوات}{\RL {\arabicfont 79}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 2}}متجانس خطی دو درجی تفرقی مساوات}{\RL {\arabicfont 79}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 2}}ایک حل معلوم ہونے کی صورت میں اساس دریافت کرنا۔ درجہ کم کرنا}{\RL {\arabicfont 89}}

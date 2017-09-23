@@ -4,3 +4,113 @@ print("example 2.3");
 
 eq:'diff(y,x)+y=1;
 ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 2.1");
+
+eq:'diff(y,x,2)-'diff(y,x)=0;
+ode2(eq,y,x);
+
+
+Print("======================================");
+kill(all);
+print("Q 2.2");
+
+eq:x*'diff(y,x,2)+'diff(y,x)=0;
+ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 2.4");
+
+eq:y*'diff(y,x,2)-('diff(y,x))^2=0;
+ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 2.5");
+
+eq:'diff(y,x,2)-('diff(y,x))^3*cos(y)=0;
+ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 2.6");
+
+eq:'diff(y,x,2)=1+('diff(y,x))^2;
+ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 2.7");
+
+eq:x^2*'diff(y,x,2)-2*x*'diff(y,x)+2*y=0;
+ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 2.8");
+
+eq:'diff(y,x,2)+'diff(y,x)=0;
+ode2(eq,y,x);
+ic2(%,x=0,y=0,'diff(y,x)=1);
+
+
+Print("======================================");
+kill(all);
+print("Q 2.9");
+
+eq:'diff(y,x,2)=sqrt(1+('diff(y,x))^2);
+soln:ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 2.10");
+
+eq:'diff(y,x,2)-'diff(y,x)=c;
+soln:ode2(eq,y,x);
+ic2(%,x=0,y=y0,'diff(y,x)=u);
+
+Print("======================================");
+kill(all);
+print("Q 2.11");
+
+eq:'diff(y,x,2)=('diff(y,x))^2;
+soln:ode2(eq,y,x);
+ic2(%,x=0,y=y0,'diff(y,x)=u);
+
+
+Print("======================================");
+kill(all);
+print("Q 2.12");
+
+eq:'diff(y,x,2)+9*y=0;
+soln:ode2(eq,y,x);
+ic2(%,x=0,y=5,'diff(y,x)=-2);
+
+Print("======================================");
+kill(all);
+print("Q 2.13");
+
+eq:'diff(y,x,2)-2*'diff(y,x)+y=0;
+soln:ode2(eq,y,x);
+ic2(%,x=1,y=0,'diff(y,x)=1);
+
+
+Print("======================================");
+kill(all);
+print("Q 2.14");
+
+eq:x^2*'diff(y,x,2)-x*'diff(y,x)+y=0;
+soln:ode2(eq,y,x);
+ic2(%,x=1,y=3.2,'diff(y,x)=-1.5);
+
+
+Print("======================================");
+kill(all);
+print("Q 2.15");
+
+eq:'diff(y,x,2)+2*'diff(y,x)+3*y=0;
+soln:ode2(eq,y,x);
+ic2(%,x=0,y=2,'diff(y,x)=-3);

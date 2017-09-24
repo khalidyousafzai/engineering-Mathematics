@@ -105,3 +105,28 @@ print("Q 2.14");
 eq:x^2*'diff(y,x,2)-x*'diff(y,x)+y=0;
 soln:ode2(eq,y,x);
 ic2(%,x=1,y=3.2,'diff(y,x)=-1.5);
+
+
+Print("======================================");
+kill(all);
+print("Q 2.15");
+
+eq:'diff(y,x,2)+2*'diff(y,x)+3*y=0;
+soln:ode2(eq,y,x);
+ic2(%,x=0,y=2,'diff(y,x)=-3);
+
+Print("======================================");
+kill(all);
+print("example 2.10");
+
+eq:'diff(y,x,2)+'diff(y,x)-6*y=0;
+soln:ode2(eq,y,x);
+ic2(%,x=0,y=-4,'diff(y,x)=5);
+
+Print("======================================");
+kill(all);
+print("example 2.12");
+
+eq:'diff(y,x,2)+0.2*'diff(y,x)+0.01*y=0;
+soln:ode2(eq,y,x);
+ic2(%,x=0,y=10,'diff(y,x)=4);

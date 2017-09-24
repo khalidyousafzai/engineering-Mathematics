@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  23 SEP 2017 15:12
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  24 SEP 2017 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3187,7 +3187,17 @@ Overfull \hbox (11.29091pt too wide) in paragraph at lines 256--256
 [][] []
  []
 
-[89] [90] [91] [92] [93] [94]) [95] [96]
+[89] [90] [91] [92] [93] [94] [95]
+Underfull \hbox (badness 10000) in paragraph at lines 520--522
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--524
+[][]
+ []
+
+[96] [97] [98] [99] [100] [101] [102]) [103]
 No file engineeringMathematics.ind.
 (./engineeringMathematics.aux (./tex/cktPreface.aux)
 (./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
@@ -3201,12 +3211,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45158 strings out of 493918
- 1073758 string characters out of 6150562
- 1272431 words of memory out of 5000000
- 47547 multiletter control sequences out of 15000+600000
+ 45226 strings out of 493918
+ 1075303 string characters out of 6150562
+ 1273781 words of memory out of 5000000
+ 47615 multiletter control sequences out of 15000+600000
  37731 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,14n,81p,10485b,1945s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (24 pages).
+Output written on engineeringMathematics.pdf (31 pages).

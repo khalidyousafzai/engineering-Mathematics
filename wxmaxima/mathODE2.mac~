@@ -129,4 +129,182 @@ print("example 2.12");
 
 eq:'diff(y,x,2)+0.2*'diff(y,x)+0.01*y=0;
 soln:ode2(eq,y,x);
-ic2(%,x=0,y=10,'diff(y,x)=4);
+ic2(%,x=0,y=10,'diff(y,x)=-4);
+
+
+Print("======================================");
+kill(all);
+print("example 2.13");
+
+eq:'diff(y,x,2)+0.36*'diff(y,x)+9.0324*y=0;
+soln:ode2(eq,y,x);
+ic2(%,x=0,y=0,'diff(y,x)=3);
+
+Print("======================================");
+kill(all);
+print("Q 2.16");
+
+eq:'diff(y,x,2)+4*y=0;
+soln:ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 2.17");
+
+eq:4*'diff(y,x,2)-9*y=0;
+soln:ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 2.18");
+
+eq:'diff(y,x,2)+5*'diff(y,x)+6*y=0;
+soln:ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 2.19");
+
+eq:'diff(y,x,2)+2*%pi*'diff(y,x)+%pi^2*y=0;
+soln:ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 2.20");
+
+eq:'diff(y,x,2)-6*'diff(y,x)+9*y=0;
+soln:ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 2.21");
+
+eq:4*'diff(y,x,2)-12*'diff(y,x)+9*y=0;
+soln:ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 2.22");
+
+eq:4*'diff(y,x,2)+4*'diff(y,x)-3*y=0;
+soln:ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 2.23");
+
+eq:'diff(y,x,2)-5*'diff(y,x)+6*y=0;
+soln:ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 2.24");
+
+eq:9*'diff(y,x,2)-30*'diff(y,x)+25*y=0;
+soln:ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 2.25");
+
+La:0.2;
+Lb:-0.5;
+
+eq:(x-La)*(x-Lb)=0;
+expand(eq);
+
+Print("======================================");
+kill(all);
+print("Q 2.26");
+
+La:-0.66;
+Lb:-0.32;
+
+eq:(x-La)*(x-Lb)=0;
+expand(eq);
+
+Print("======================================");
+kill(all);
+print("Q 2.27");
+
+eq:'diff(y,x,2)+16*%pi^2*y=0;
+soln:ode2(eq,y,x);
+
+
+Print("======================================");
+kill(all);
+print("Q 2.27");
+
+eq:'diff(y,x,2)+4*'diff(y,x)+13*y=0;
+soln:ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 2.28");
+
+eq:'diff(y,x,2)+3.4*'diff(y,x)+41.33*y=0;
+soln:ode2(eq,y,x);
+
+Print("======================================");
+kill(all);
+print("Q 2.30");
+
+eq:'diff(y,x,2)+2*y=0;
+soln:ode2(eq,y,x);
+ic2(%,x=0,y=5,'diff(y,x)=2);
+
+Print("======================================");
+kill(all);
+print("Q 2.31");
+
+eq:'diff(y,x,2)-25*y=0;
+soln:ode2(eq,y,x);
+ic2(%,x=0,y=2,'diff(y,x)=-3);
+
+Print("======================================");
+kill(all);
+print("Q 2.32");
+
+La:-1/2+3*%i;
+Lb:-1/2-3*%i;
+
+eq:(x-La)*(x-Lb)=0;
+expand(eq);
+
+eq:4*'diff(y,x,2)+4*'diff(y,x)+37*y=0;
+soln:ode2(eq,y,x);
+ic2(%,x=0,y=0,'diff(y,x)=3);
+
+Print("======================================");
+kill(all);
+print("Q 2.33");
+
+La:3+4*%i;
+Lb:3-4*%i;
+
+eq:(x-La)*(x-Lb)=0;
+expand(eq);
+
+eq:1*'diff(y,x,2)-6*'diff(y,x)+25*y=0;
+soln:ode2(eq,y,x);
+ic2(%,x=0,y=0,'diff(y,x)=0.1);
+
+
+Print("======================================");
+kill(all);
+print("Q 2.34");
+
+
+eq:1*'diff(y,x,2)+1*y=0;
+soln:ode2(eq,y,x);
+ic2(%,x=0,y=1,'diff(y,x)=1);
+
+
+Print("======================================");
+kill(all);
+print("Q 2.35");
+
+
+eq:8*'diff(y,x,2)-2*'diff(y,x)-1*y=0;
+soln:ode2(eq,y,x);
+ic2(%,x=0,y=2.2,'diff(y,x)=3.4);

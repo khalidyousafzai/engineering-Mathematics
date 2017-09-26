@@ -13,3 +13,4 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 2}}ایک حل معلوم ہونے کی صورت میں اساس دریافت کرنا۔ تخفیف درجہ}{\RL {\arabicfont 89}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 2}}مستقل عددی سر والے متجانس خطی سادہ تفرقی مساوات}{\RL {\arabicfont 96}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 2}}تفرقی عامل}{\RL {\arabicfont 111}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 2}}اسپرنگ سے جڑی کمیت کی آزادانہ ارتعاش}{\RL {\arabicfont 115}}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  25 SEP 2017 13:33
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  26 SEP 2017 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -553,7 +553,15 @@ File: tikzlibraryshapes.misc.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 (/usr/share/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.t
 ex
 File: pgflibraryshapes.misc.code.tex 2008/10/07 v2.10 (rcs-revision 1.3)
-)) (./tex/khalidUrduBooksEMT.sty
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatte
+rns.code.tex
+File: tikzlibrarypatterns.code.tex 2008/01/15 v2.10 (rcs-revision 1.2)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2008/03/03 v2.10 (rcs-revision 1.13)
+))
+(./tex/khalidUrduBooksEMT.sty
 
 LaTeX Warning: You have requested package `./tex/khalidUrduBooksEMT',
                but the package provides `khalidUrduBooksEMT'.
@@ -3202,26 +3210,40 @@ Overfull \hbox (67.83736pt too wide) in paragraph at lines 767--774
  [][][][] 
  []
 
-[105] [106] [107] [108] [109] [110]) [111]
+[105] [106] [107] [108] [109] [110] [111] [112]
+Overfull \hbox (9.01222pt too wide) in paragraph at lines 1073--1073
+[][] []
+ []
+
+[113]
+
+Package pgf Warning: Your graphic driver pgfsys-xetex.def does not support patt
+erns. This warning is given only once on input line 1173.
+
+[114]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 5.70004pt on input line 1193.
+Missing character: There is no ّ in font zplmr7m!
+ [115]) [116] [117]
 No file engineeringMathematics.ind.
 (./engineeringMathematics.aux (./tex/cktPreface.aux)
 (./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux) (./tex/mathQuestions.aux))
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.43996pt have occurred.
+(Font)              up to 3.75237pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45328 strings out of 493918
- 1077415 string characters out of 6150562
- 1320034 words of memory out of 5000000
- 47717 multiletter control sequences out of 15000+600000
- 37731 words of font info for 153 fonts, out of 8000000 for 9000
+ 45655 strings out of 493918
+ 1085100 string characters out of 6150562
+ 1327048 words of memory out of 5000000
+ 48033 multiletter control sequences out of 15000+600000
+ 53857 words of font info for 207 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,14n,81p,10485b,2193s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,81p,10485b,2194s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (39 pages).
+Output written on engineeringMathematics.pdf (45 pages).

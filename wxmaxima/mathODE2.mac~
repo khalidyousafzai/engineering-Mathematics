@@ -485,3 +485,28 @@ f:float(1/(2*%pi)*sqrt(k/m));
 k:ka+kb;
 f:float(1/(2*%pi)*sqrt(k/m));
 
+k:ka*kb/(ka+kb);
+f:float(1/(2*%pi)*sqrt(k/m));
+
+Print("======================================");
+kill(all);
+print("Q 2.72");
+
+m:2;
+c:5;
+k:32;
+
+wa:float(sqrt(k/m-c^2/(4*m^2)));
+wb:float(sqrt(k/m)*(1-c^2/(8*m*k)));
+
+dw:(wb-wa)/wa*100;
+
+Print("======================================");
+kill(all);
+print("example 2.18");
+
+ma:3/2;
+mb:-1;
+
+a:1-ma-mb;
+b:ma*mb;

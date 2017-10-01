@@ -12,7 +12,7 @@
 \usepgfplotslibrary{polar}
 \usepackage{ifdraft}
 %pathmorphing gives the ripples like look
-\usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings,decorations.pathreplacing,external,shapes.misc,decorations.pathmorphing}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc,decorations.markings,decorations.pathreplacing,external,shapes.misc,decorations.pathmorphing,patterns}
 
 
 %\tikzexternalize[mode=list and make] %disable to generate figures

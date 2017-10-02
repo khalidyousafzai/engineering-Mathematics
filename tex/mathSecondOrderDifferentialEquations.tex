@@ -1804,7 +1804,7 @@ y=(c_1+c_2\ln x)x^4
 \انتہا{مثال}
 %=======================
 
-تیسری صورت: جوڑی دار مخلوط جذر کی صورت زیادہ اہم نہیں ہے لہٰذا اس کی ایک عدد مثال ہی دیکھتے ہیں۔
+تیسری صورت: جوڑی دار مخلوط جذر کی صورت انجینئری نقطہ نظر سے زیادہ اہم نہیں ہے لہٰذا اس کی ایک عدد مثال ہی دیکھتے ہیں۔
 
 %========================
 \ابتدا{مثال}
@@ -1828,3 +1828,197 @@ y=x^{0.1}[c_1 \cos (3\ln x)+c_2 \sin (3\ln x)]
 \end{align*}
 \انتہا{مثال}
 %=========================
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle,ymin=0,ymax=1.98,xmin=0,xmax=2.6,xlabel={$x$},ylabel={$y$},xlabel style={at={(axis description cs:1.05,0)}},ylabel style ={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\addplot[domain=0:2]{x^1.5}node[pos=0.69,fill=white]{$x^{1.5}$};
+\addplot[domain=0:2]{x^2}node[pos=0.5,left]{$x^2$};
+\addplot[domain=0:2]{x^1}node[below]{$x^1$};
+\addplot[domain=0:2]{x^(-0.5)}node[right]{$x^{-0.5}$};
+\addplot[domain=0:2,samples=40]{x^(-0.25)}node[right]{$x^{-0.25}$};
+\addplot[domain=0:2]{x^(-1)}node[right]{$x^{-1}$};
+\addplot[domain=0:2]{x^(-1.5)}node[right]{$x^{-1.5}$};
+\end{axis}
+\end{tikzpicture}
+\caption*{(الف) پہلی صورت: منفرد حقیقی جذر۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\includegraphics{figEulerCauchyABCD}
+\caption*{(ب) دوسری صورت: دوہرا جذر۔}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle,ymin=-1.6,ymax=1.6,xmin=0,xmax=2.9,xlabel={$x$},ylabel={$y$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel style ={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\addplot[domain=0.001:2,samples=100]{x^(0.1)*cos(180/pi*3*ln(x))}node[below]{$x^{0.1}\cos(3\ln x)$};
+\addplot[domain=0.001:2,samples=100]{x^(0.1)*sin(180/pi*3*ln(x))}node[above]{$x^{0.1}\sin(3\ln x)$};
+\end{axis}
+\end{tikzpicture}
+\caption*{(پ) جوڑی دار مخلوط جذر۔}
+\end{subfigure}
+\caption{یولر کوشی سادہ تفرقی مساوات کے حل۔}
+\label{شکل_سادہ_دو_درجی_یولر_کوشی}
+\end{figure}
+
+شکل \حوالہ{شکل_سادہ_دو_درجی_یولر_کوشی} میں یولر کوشی سادہ تفرقی مساوات کی تینوں صورتوں کے حل دکھائے گئے ہیں۔
+
+%============================
+\ابتدا{مثال}\شناخت{مثال_سادہ_دو_ہم_محوری_نلکی_میدان}\quad دو ہم محوری نلکیوں کے بیچ میں ساکن برقی میدان؛ سرحدی قیمت مسئلہ\\
+دو ہم محوری نلکیوں  کے بیچ میں برقی دباو تفرقی مساوات \عددی{\rho \tfrac{\dif^{\,2} v}{\dif \rho^2}+\tfrac{\dif v}{\dif \rho}=0} دیتی ہے۔نلکی کے رداس \عددی{\rho_1=\SI{2}{\centi\meter}} اور \عددی{\rho_2=\SI{5}{\centi\meter}} ہیں جبکہ ان پر \اصطلاح{برقی دباو}\فرہنگ{برقی دباو}\حاشیہب{electric voltage}\فرہنگ{voltage} \عددی{v_1=\SI{50}{\volt}} اور \عددی{v_2=\SI{0}{\volt}} ہے۔درمیانی خطے کی برقی دباو حاصل کریں۔
+
+حل:یولر کوشی مساوات میں \عددی{a=1} اور \عددی{b=0} موجودہ تفرقی مساوات دیتا ہے۔دیے مساوات میں \عددی{v=\rho^m} پر کرتے ہوئے ذیلی مساوات \عددی{m^2=0} حاصل ہوتی ہے جس کا دوہرا جذر \عددی{m=0} ہے۔یوں عمومی  حل \عددی{v=c_1+c_2\ln x} ہو گا۔دیے گئے سرحدی شرائط حل میں پر کرتے 
+\begin{align*}
+50=c_1+c_2\ln 0.02, \quad 0=c_1+c_2\ln 0.05
+\end{align*}
+ہوئے \عددی{c_1=-163.471} اور \عددی{c_2=-54.568} حاصل ہوتے ہیں لہٰذا مخصوص حل \عددی{y=-163.471-54.568\ln \rho} ہو گا جسے شکل \حوالہ{شکل_مثال_سادہ_دو_ہم_محوری_نلکی_میدان} میں دکھایا گیا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle,ymin=0,ymax=58,xmin=0.02,xmax=0.056,xlabel={$\rho$},ylabel={$v$},xlabel style={at={(axis description cs:1.05,0)}},ylabel style ={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},scaled x ticks=false,xtick={0.02,0.03,0.04,0.05},xticklabels={$2$,$3$,$4$,$5$},ytick={0,50},yticklabels={$0$,$50$}]
+\addplot[domain=0.01:0.05]{-163.471-54.568*ln(x)};
+\end{axis}
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_سادہ_دو_ہم_محوری_نلکی_میدان} کا حل۔}
+\label{شکل_مثال_سادہ_دو_ہم_محوری_نلکی_میدان}
+\end{figure}
+\انتہا{مثال}
+%==========================
+\ابتدا{مثال}
+یولر کوشی مساوات \حوالہ{مساوات_سادہ_دو_درجی_یولر_کوشی_الف} میں \عددی{x=e^{t}} پر کرتے ہوئے اس کو مستقل عددی سر والے سادہ تفرقی مساوات میں تبدیل کریں۔
+
+حل:ہم \عددی{y(x)} کو \عددی{y[x(t)]} یعنی \عددی{y(t)} تصور کرتے ہیں۔یوں زنجیری تفرق سے
+\begin{align*}
+\frac{\dif y}{\dif x}=\frac{\dif y}{\dif t}\frac{\dif t}{\dif x}, \quad \frac{\dif^{\,2} y}{\dif x^2}=\frac{\dif^{\,2}y}{\dif t^2}\left(\frac{\dif t}{\dif x}\right)^2+\frac{\dif y}{\dif t}\frac{\dif^{\,2} t}{\dif x^2}
+\end{align*}
+لکھا جا سکتا ہے۔ان میں \عددی{\tfrac{\dif t}{\dif x}=\tfrac{1}{x}} اور \عددی{\tfrac{\dif^{\,2} t}{\dif x^2}=-\tfrac{1}{x^2}} پر کرتے ہیں۔
+\begin{align*}
+\frac{\dif y}{\dif x}=\frac{1}{x}\frac{\dif y}{\dif t}, \quad \frac{\dif^{\,2} y}{\dif x^2}=\frac{1}{x^2}\frac{\dif^{\,2}y}{\dif t^2}-\frac{1}{x^2}\frac{\dif y}{\dif t}
+\end{align*}
+انہیں مساوات \حوالہ{مساوات_سادہ_دو_درجی_یولر_کوشی_الف} میں پر کرتے 
+\begin{align*}
+x^2\left(\frac{1}{x^2}\frac{\dif^{\,2}y}{\dif t^2}-\frac{1}{x^2}\frac{\dif y}{\dif t}\right)+ax\left(\frac{1}{x}\frac{\dif y}{\dif t}\right)+by=0
+\end{align*}
+ہوئے مستقل عددی سر والا سادہ تفرقی مساوات حاصل ہوتا ہے  جہاں \عددی{\dot{y}=\tfrac{\dif y}{\dif t}} اور \عددی{\ddot{y}=\tfrac{\dif^{\,2}y}{\dif t^2}} ہیں۔
+\begin{align}
+\ddot{y}+(a-1)\dot{y}+by=0
+\end{align}
+\انتہا{مثال}
+%==================================
+
+\حصہء{سوالات}
+سوال \حوالہ{سوال_سادہ_دو_یولر_کوشی_الف} تا سوال \حوالہ{سوال_سادہ_دو_یولر_کوشی_ب} حل کریں۔
+%=======================
+
+\ابتدا{سوال}\شناخت{سوال_سادہ_دو_یولر_کوشی_الف}
+\begin{align*}
+x^2y''-2xy'+2y=0
+\end{align*}
+جواب:\عددی{y=c_1x+c_2x^2}
+\انتہا{سوال}
+%====================
+\ابتدا{سوال}
+\begin{align*}
+x^2y''-6y=0
+\end{align*}
+جواب:\عددی{y=c_1x^3+c_2x^{-2}}
+\انتہا{سوال}
+%==========================
+\ابتدا{سوال}
+\begin{align*}
+x^2y''+6xy'+4y=0
+\end{align*}
+جواب:\عددی{y=\tfrac{c_1}{x}+\tfrac{c_2}{x^4}}
+\انتہا{سوال}
+%==================
+\ابتدا{سوال}
+\begin{align*}
+x^2y''-5xy'+9y=0
+\end{align*}
+جواب:\عددی{y=(c_1+c_2\ln x)x^3}
+\انتہا{سوال}
+%==========================
+\ابتدا{سوال}
+\begin{align*}
+x^2y''+11xy'+25y=0
+\end{align*}
+جواب:\عددی{y=(c_1+c_2\ln x)x^{-5}}
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}
+\begin{align*}
+10x^2y''+11xy'-3y=0
+\end{align*}
+جواب:\عددی{y=c_1\sqrt{x}+c_2x^{-\tfrac{3}{5}}}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}
+\begin{align*}
+x^2y''+0.44xy'+0.0748y=0
+\end{align*}
+جواب:\عددی{y=c_1x^{0.22}+c_2x^{0.34}}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}
+\begin{align*}
+x^2y''+0.4xy'+0.73y=0
+\end{align*}
+جواب:\عددی{y=x^{0.3}[c_1\cos(0.8\ln x)+c_2\sin(0.8\ln x)]}
+\انتہا{سوال}
+%===================
+\ابتدا{سوال}\شناخت{سوال_سادہ_دو_یولر_کوشی_ب}
+\begin{align*}
+x^2y''+2xy'+4.25y=0
+\end{align*}
+جواب:\عددی{y=x^{-0.5}[c_1\cos(2\ln x)+c_2\sin(2\ln x)]}
+\انتہا{سوال}
+%======================
+سوال \حوالہ{سوال_سادہ_دو_یولر_کوشی_پ} تا سوال \حوالہ{سوال_سادہ_دو_یولر_کوشی_ت} ابتدائی قیمت مسئلے ہیں۔انہیں حل کریں۔
+
+\ابتدا{سوال}\شناخت{سوال_سادہ_دو_یولر_کوشی_پ}
+\begin{align*}
+x^2y''-0.4xy'+0.45y=0,\quad y(1)=2,\quad y'(1)=-1
+\end{align*}
+جواب:\عددی{y=7\sqrt{x}-5x^{0.9}}
+\انتہا{سوال}
+%================================
+\ابتدا{سوال}
+\begin{align*}
+x^2y''+1.08xy'-0.01713y=0,\quad y(1)=-1,\quad y'(1)=1
+\end{align*}
+جواب:\عددی{y=\tfrac{23}{18}x^{0.23}-\tfrac{41}{18}x^{-0.31}}
+\انتہا{سوال}
+%================================
+\ابتدا{سوال}
+\begin{align*}
+35x^2y''+57xy'+3y=0,\quad y(1)=3,\quad y'(1)=-5
+\end{align*}
+جواب:\عددی{y=\tfrac{77}{4}x^{-\tfrac{3}{7}}-\tfrac{65}{4}x^{-\tfrac{1}{5}}}
+\انتہا{سوال}
+%================================
+\ابتدا{سوال}
+\begin{align*}
+6x^2y''+19xy'+6y=0,\quad y(1)=-3,\quad y'(1)=1
+\end{align*}
+جواب:\عددی{y=\tfrac{6}{5}x^{-\tfrac{3}{2}}-\tfrac{21}{5}x^{-\tfrac{2}{3}}}
+\انتہا{سوال}
+%================================
+\ابتدا{سوال}
+\begin{align*}
+25x^2y''-15xy'+16y=0,\quad y(2)=0,\quad y'(2)=1
+\end{align*}
+جواب:\عددی{y=2^{\tfrac{1}{5}}x^{\tfrac{4}{5}}(\ln x-\ln 2)}
+\انتہا{سوال}
+%================================
+\ابتدا{سوال}\شناخت{سوال_سادہ_دو_یولر_کوشی_ت}
+\begin{align*}
+49x^2y''+77xy'+4y=0,\quad y(2)=3,\quad y'(2)=0
+\end{align*}
+جواب:\عددی{y=x^{-\tfrac{2}{7}}(2.93+1.04\ln x)}
+\انتہا{سوال}
+%================================
+
+\حصہ{حل کی وجودیت اور یکتائیت؛ ورونسکی}

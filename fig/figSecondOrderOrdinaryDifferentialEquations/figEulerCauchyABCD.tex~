@@ -1,0 +1,28 @@
+\documentclass{standalone}
+\usepackage{pgfplotstable}
+\usepackage{amsmath}
+\pagestyle{empty}
+\pgfplotsset{compat=1.9}
+
+%this ueses the data files figWaveOctaveWaterDielectricLossEW.txt 
+%and figWaveOctaveWaterDielectricLossLFW.txt prepared by octave's
+%figWaveOctaveWaterDielectricLoss.m
+
+\begin{document}
+\begin{tikzpicture}[]
+\begin{axis}[small,xlabel=$x$,axis lines*=middle,ymin=-1.5,ymax=1.5,xmin=0,xmax=2.9,ylabel={$y$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},xlabel style={at={(axis description cs:1.05,0.45)}}]
+\pgfplotstableread{figEulerCauchyA.txt}\mydataA;
+\addplot [ ]table [x expr=\thisrowno{0},y expr=\thisrowno{1} ] {\mydataA}node[right]{$x\ln x$};
+\pgfplotstableread{figEulerCauchyB.txt}\mydataB;
+\addplot [ ]table [x expr=\thisrowno{0},y expr=\thisrowno{1} ] {\mydataB}node[right]{$x^{0.5}\ln x$};
+\pgfplotstableread{figEulerCauchyC.txt}\mydataC;
+\addplot [ ]table [x expr=\thisrowno{0},y expr=\thisrowno{1} ] {\mydataC}node[right]{$x^{-0.5} \ln x$};
+\pgfplotstableread{figEulerCauchyD.txt}\mydataD;
+\addplot [ ]table [x expr=\thisrowno{0},y expr=\thisrowno{1} ] {\mydataD}node[right]{$x^{-1.5}\ln x $};
+%\node[below] at (axis cs:-0.6,4.4){$\begin{aligned}\gamma_1&=1+j5\pi \\ \sigma_2&=\infty \end{aligned}$};
+
+\end{axis}%
+%
+\end{tikzpicture}%
+
+\end{document}

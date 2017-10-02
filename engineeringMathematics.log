@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  1 OCT 2017 17:05
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  2 OCT 2017 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3237,7 +3237,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 1284--1286
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 12.0pt on input line 1292.
 [119] [120] [121] [122] [123] [124] [125] [126] [127] [128] [129] [130]
-[131] [132] [133]) [134]
+[131] [132] [133]
+NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+File: ./fig/figSecondOrderOrdinaryDifferentialEquations/figEulerCauchyABCD.pdf 
+Graphic file (type QTm)
+
+<use  "./fig/figSecondOrderOrdinaryDifferentialEquations/figEulerCauchyABCD.pdf
+" > [134] [135] [136] [137] [138]) [139]
 No file engineeringMathematics.ind.
 (./engineeringMathematics.aux (./tex/cktPreface.aux)
 (./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
@@ -3251,12 +3266,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46008 strings out of 493918
- 1091819 string characters out of 6150562
- 1334150 words of memory out of 5000000
- 48386 multiletter control sequences out of 15000+600000
+ 46078 strings out of 493918
+ 1093536 string characters out of 6150562
+ 1336339 words of memory out of 5000000
+ 48448 multiletter control sequences out of 15000+600000
  53857 words of font info for 207 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,15n,81p,10485b,2246s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (62 pages).
+Output written on engineeringMathematics.pdf (67 pages).

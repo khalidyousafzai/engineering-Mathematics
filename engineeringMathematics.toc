@@ -15,3 +15,4 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 2}}تفرقی عامل}{\RL {\arabicfont 111}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 2}}اسپرنگ سے جڑی کمیت کی آزادانہ ارتعاش}{\RL {\arabicfont 115}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 2}}یولر کوشی مساوات}{\RL {\arabicfont 130}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 2}}حل کی وجودیت اور یکتائیت؛ ورونسکی}{\RL {\arabicfont 139}}

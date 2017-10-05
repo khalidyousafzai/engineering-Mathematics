@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  2 OCT 2017 14:38
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  5 OCT 2017 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -561,9 +561,9 @@ File: tikzlibrarypatterns.code.tex 2008/01/15 v2.10 (rcs-revision 1.2)
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
 File: pgflibrarypatterns.code.tex 2008/03/03 v2.10 (rcs-revision 1.13)
 ))
-(./tex/khalidUrduBooksEMT.sty
+(./tex/khalidUrduBooksMaths.sty
 
-LaTeX Warning: You have requested package `./tex/khalidUrduBooksEMT',
+LaTeX Warning: You have requested package `./tex/khalidUrduBooksMaths',
                but the package provides `khalidUrduBooksEMT'.
 
 Package: khalidUrduBooksEMT 
@@ -984,6 +984,18 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks39
+\thm@bodyfont=\toks40
+\thm@headfont=\toks41
+\thm@notefont=\toks42
+\thm@headpunct=\toks43
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks44
+)
 (/usr/share/texlive/texmf-dist/tex/latex/mh/mathtools.sty
 Package: mathtools 2013/02/12 v1.13 mathematical typesetting tools
 
@@ -993,12 +1005,12 @@ Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count168
 \calc@Adimen=\dimen272
 \calc@Bdimen=\dimen273
-\calc@Askip=\skip54
-\calc@Bskip=\skip55
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count169
-\calc@Cskip=\skip56
+\calc@Cskip=\skip59
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mh/mhsetup.sty
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
@@ -1009,7 +1021,7 @@ LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count170
 \l_MT_multwidth_dim=\dimen274
-\origjot=\skip57
+\origjot=\skip60
 \l_MT_shortvdotswithinadjustabove_dim=\dimen275
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen276
 \l_MT_above_intertext_sep=\dimen277
@@ -1033,7 +1045,7 @@ LaTeX Info: Redefining \bm on input line 204.
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
 \linenopenalty=\count171
-\output=\toks39
+\output=\toks45
 \linenoprevgraf=\count172
 \linenumbersep=\dimen281
 \linenumberwidth=\dimen282
@@ -1080,7 +1092,7 @@ Package: parskip 2001/04/09 non-zero parskip adjustments
 )
 (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks40
+\FN@temptoken=\toks46
 \footnotemargin=\dimen299
 \c@pp@next@reset=\count182
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
@@ -1125,8 +1137,8 @@ Variant \prop_get:NVNTF already defined; not changing it on line 373
 \l__siunitx_unit_prefix_base_int=\count197
 \l__siunitx_unit_prefix_gram_int=\count198
 \l__siunitx_number_product_int=\count199
-\c__siunitx_one_fill_skip=\skip58
-\l__siunitx_table_unit_align_skip=\skip59
+\c__siunitx_one_fill_skip=\skip61
+\l__siunitx_table_unit_align_skip=\skip62
 \l__siunitx_table_exponent_dim=\dimen303
 \l__siunitx_table_integer_dim=\dimen304
 \l__siunitx_table_mantissa_dim=\dimen305
@@ -1140,8 +1152,8 @@ Variant \prop_get:NVNTF already defined; not changing it on line 373
 \l__siunitx_table_post_box=\box61
 \l__siunitx_table_mantissa_box=\box62
 \l__siunitx_table_result_box=\box63
-\l__siunitx_table_number_align_skip=\skip60
-\l__siunitx_table_text_align_skip=\skip61
+\l__siunitx_table_number_align_skip=\skip63
+\l__siunitx_table_text_align_skip=\skip64
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1343,16 +1355,16 @@ Package pict2e Info: Driver file for pict2e: p2e-xetex.def on input line 121.
 (/usr/share/texlive/texmf-dist/tex/latex/pict2e/p2e-xetex.def
 File: p2e-xetex.def 2011/04/05 v0.1t Driver-dependant file (RN,HjG,JT)
 )
-\pIIe@GRAPH=\toks41
+\pIIe@GRAPH=\toks47
 \@arclen=\dimen312
 \@arcrad=\dimen313
 \@tempdimd=\dimen314
 )
 \stm@phasebox=\box64
-\stm@phasedp=\skip62
-\stm@phaseht=\skip63
-\stm@phasetot=\skip64
-\stm@phasewd=\skip65
+\stm@phasedp=\skip65
+\stm@phaseht=\skip66
+\stm@phasetot=\skip67
+\stm@phasewd=\skip68
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2014/02/01 v3.15 for typesetting chemical formulae
@@ -1380,24 +1392,24 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 )
-\mhchem@ce@result=\toks42
-\mhchem@ce@part=\toks43
-\mhchem@arrow@deployType=\toks44
-\mhchem@arrow@params=\toks45
-\mhchem@arrowlength@pgf=\skip66
-\mhchem@bondwidth=\skip67
-\mhchem@bondheight=\skip68
-\mhchem@smallbondwidth@tmpA=\skip69
-\mhchem@smallbondwidth@tmpB=\skip70
-\mhchem@smallbondwidth=\skip71
+\mhchem@ce@result=\toks48
+\mhchem@ce@part=\toks49
+\mhchem@arrow@deployType=\toks50
+\mhchem@arrow@params=\toks51
+\mhchem@arrowlength@pgf=\skip69
+\mhchem@bondwidth=\skip70
+\mhchem@bondheight=\skip71
+\mhchem@smallbondwidth@tmpA=\skip72
+\mhchem@smallbondwidth@tmpB=\skip73
+\mhchem@smallbondwidth=\skip74
 \__mhchem_option_version_int=\count200
-\mhchem@prepostscript@tmp@i=\skip72
-\mhchem@prepostscript@tmp@ii=\skip73
-\mhchem@mathbox@tmp@i=\skip74
-\mhchem@mathbox@tmp@ii=\skip75
-\mhchem@minispace@tmp=\skip76
-\mhchem@option@minussidebearingleft=\skip77
-\mhchem@option@minussidebearingright=\skip78
+\mhchem@prepostscript@tmp@i=\skip75
+\mhchem@prepostscript@tmp@ii=\skip76
+\mhchem@mathbox@tmp@i=\skip77
+\mhchem@mathbox@tmp@ii=\skip78
+\mhchem@minispace@tmp=\skip79
+\mhchem@option@minussidebearingleft=\skip80
+\mhchem@option@minussidebearingright=\skip81
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -1421,7 +1433,7 @@ Normal \count register pool exhausted, switching to extended pool.
 \Gm@layoutheight=\dimen320
 \Gm@layouthoffset=\dimen321
 \Gm@layoutvoffset=\dimen322
-\Gm@dimlist=\toks46
+\Gm@dimlist=\toks52
 )
 (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
@@ -1526,13 +1538,13 @@ Package zref Info: New property: abspage on input line 62.
 (/usr/share/texlive/texmf-dist/tex/xelatex/bidi/latex-xetex-bidi.def
 File: latex-xetex-bidi.def 2013/10/10 v1.1.5 bidi adaptations for `latex.ltx' f
 or XeTeX engine
-\bidi@n@everypar=\toks47
+\bidi@n@everypar=\toks53
 
 (/usr/share/texlive/texmf-dist/tex/xelatex/bidi/footnote-xetex-bidi.def
 File: footnote-xetex-bidi.def 2013/04/26 v0.8 bidi footnote macros for XeTeX en
 gine
 \c@footdir@label=\count284
-\footdir@toks=\toks48
+\footdir@toks=\toks54
 )
 (/usr/share/texlive/texmf-dist/tex/xelatex/bidi/book-xetex-bidi.def
 File: book-xetex-bidi.def 2011/08/26 v0.8 bidi adaptations for standard book cl
@@ -1545,6 +1557,10 @@ ge for XeTeX engine
 (/usr/share/texlive/texmf-dist/tex/xelatex/bidi/amstext-xetex-bidi.def
 File: amstext-xetex-bidi.def 2013/04/04 v0.1 bidi adaptations for amstext packa
 ge for XeTeX engine
+)
+(/usr/share/texlive/texmf-dist/tex/xelatex/bidi/amsthm-xetex-bidi.def
+File: amsthm-xetex-bidi.def 2010/07/25 v0.1 bidi adaptations for amsthm package
+ for XeTeX engine
 )
 (/usr/share/texlive/texmf-dist/tex/xelatex/bidi/caption-xetex-bidi.def
 File: caption-xetex-bidi.def 2010/07/25 v0.1 bidi adaptations for caption packa
@@ -1682,6 +1698,9 @@ File: gloss-english.ldf polyglossia: module for english
 . \fontdimen 2\font =60.0\fontdimen 2\font \fontdimen 3\font =60.0\fontdimen
 . 3\font \fontdimen 4\font =60.0\fontdimen 4\font 
 .................................................
+\c@theorem=\count296
+\c@corollary=\count297
+\c@definition=\count298
 )
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
@@ -1694,9 +1713,9 @@ Package: IEEEtrantools 2012/12/27 V1.3 by Michael Shell
 -- http://www.michaelshell.org/tex/ieeetran/tools/
 \@IEEEtrantmpdimenA=\dimen330
 \@IEEEtrantmpdimenB=\dimen331
-\@IEEEtrantmpcountA=\count296
-\@IEEEtrantmpcountB=\count297
-\@IEEEtrantmptoksA=\toks49
+\@IEEEtrantmpcountA=\count299
+\@IEEEtrantmpcountB=\count300
+\@IEEEtrantmptoksA=\toks55
 \IEEEnormaljot=\dimen332
 \IEEEilabelindentA=\dimen333
 \IEEEilabelindentB=\dimen334
@@ -1706,20 +1725,20 @@ Package: IEEEtrantools 2012/12/27 V1.3 by Michael Shell
 \IEEElabelindent=\dimen338
 \IEEEiednormlabelsep=\dimen339
 \IEEEiedmathlabelsep=\dimen340
-\IEEEiedtopsep=\skip79
-\c@IEEEsubequation=\count298
-\@IEEEeqnnumcols=\count299
-\@IEEEeqncolcnt=\count300
-\@IEEEsubeqnnumrollback=\count301
+\IEEEiedtopsep=\skip82
+\c@IEEEsubequation=\count301
+\@IEEEeqnnumcols=\count302
+\@IEEEeqncolcnt=\count303
+\@IEEEsubeqnnumrollback=\count304
 \IEEEPARstartletwidth=\dimen341
-) (./tex/myUrduCommandsEMT.tex
-\c@examplecounter=\count302
-\c@practicecounter=\count303
-\c@questioncounter=\count304
-\c@lawcounter=\count305
-\c@kthcounter=\count306
-) (./tex/myUrduGreek.tex) (./tex/myEMTvectors.tex) (./tex/myDeclareFunctions.te
-x)
+) (./tex/myUrduCommandsMaths.tex
+\c@examplecounter=\count305
+\c@practicecounter=\count306
+\c@questioncounter=\count307
+\c@lawcounter=\count308
+\c@kthcounter=\count309
+) (./tex/myUrduGreek.tex)
+(./tex/myEMTvectors.tex) (./tex/myDeclareFunctions.tex)
 (./tex/myCircuitDimensionsAndMathematicalSymbols.tex)
 (./engineeringMathematics.aux
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
@@ -2978,7 +2997,7 @@ File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box65
-\c__siunitx_mathsf_int=\count307
+\c__siunitx_mathsf_int=\count310
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 73.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
@@ -3024,29 +3043,29 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 73.
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-\c__siunitx_mathtt_int=\count308
+\c__siunitx_mathtt_int=\count311
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 12.5pt on input line 74.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 21.59999pt on input line 82.
+(Font)              scaled to size 21.59999pt on input line 83.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 15.0pt on input line 82.
+(Font)              scaled to size 15.0pt on input line 83.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 82.
+(Font)              scaled to size 12.50409pt on input line 83.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 82.
+(Font)              scaled to size 9.37807pt on input line 83.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 82.
+(Font)              scaled to size 7.29405pt on input line 83.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 82.
+(Font)              scaled to size 12.50409pt on input line 83.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 82.
+(Font)              scaled to size 9.37807pt on input line 83.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 82.
+(Font)              scaled to size 7.29405pt on input line 83.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 11.25pt on input line 82.
+(Font)              scaled to size 11.25pt on input line 83.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 82.
+(Font)              scaled to size 12.0pt on input line 83.
  [1
 
 
@@ -3055,19 +3074,19 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/sl' in size <10> 
 not available
 (Font)              Font shape `EU1/JameelNooriNastaleeq(0)/m/it' tried instead
- on input line 84.
+ on input line 85.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 84.
+(Font)              scaled to size 10.0pt on input line 85.
  [2
 
 ]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 84.
+(Font)              scaled to size 24.88pt on input line 85.
 
 
 LaTeX Font Warning: Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' undefined
 (Font)              using `EU1/JameelNooriNastaleeq(0)/m/n' instead on input li
-ne 84.
+ne 85.
 
 (./engineeringMathematics.toc
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
@@ -3134,7 +3153,7 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 7.5pt on input line 26.
  [80] [81] [82] [83] [84] [85]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 187.
+(Font)              scaled to size 9.0pt on input line 190.
  [86] [87]
 Missing character: There is no م in font zplmr7m!
 Missing character: There is no س in font zplmr7m!
@@ -3191,51 +3210,51 @@ Missing character: There is no ر in font zplmr7m!
 Missing character: There is no ی in font zplmr7m!
 Missing character: There is no ف in font zplmr7m!
  [88]
-Overfull \hbox (11.29091pt too wide) in paragraph at lines 256--256
+Overfull \hbox (11.29091pt too wide) in paragraph at lines 260--260
 [][] []
  []
 
 [89] [90] [91] [92] [93] [94] [95]
-Underfull \hbox (badness 10000) in paragraph at lines 520--522
+Underfull \hbox (badness 10000) in paragraph at lines 524--526
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--524
+Underfull \hbox (badness 10000) in paragraph at lines 526--528
 [][]
  []
 
 [96] [97] [98] [99] [100] [101] [102] [103] [104]
-Overfull \hbox (67.83736pt too wide) in paragraph at lines 767--774
+Overfull \hbox (67.83736pt too wide) in paragraph at lines 771--778
  [][][][] 
  []
 
 [105] [106] [107] [108] [109] [110] [111] [112]
-Overfull \hbox (9.01222pt too wide) in paragraph at lines 1073--1073
+Overfull \hbox (9.01222pt too wide) in paragraph at lines 1077--1077
 [][] []
  []
 
 [113]
 
 Package pgf Warning: Your graphic driver pgfsys-xetex.def does not support patt
-erns. This warning is given only once on input line 1173.
+erns. This warning is given only once on input line 1177.
 
 [114]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 1193.
+(Font)              scaled to size 5.70004pt on input line 1197.
 Missing character: There is no ّ in font zplmr7m!
  [115] [116] [117] [118]
-Underfull \hbox (badness 10000) in paragraph at lines 1282--1284
+Underfull \hbox (badness 10000) in paragraph at lines 1286--1288
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1284--1286
+Underfull \hbox (badness 10000) in paragraph at lines 1288--1290
 [][]
  []
 
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 1292.
+(Font)              scaled to size 12.0pt on input line 1296.
 [119] [120] [121] [122] [123] [124] [125] [126] [127] [128] [129] [130]
 [131] [132] [133]
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
@@ -3252,7 +3271,8 @@ File: ./fig/figSecondOrderOrdinaryDifferentialEquations/figEulerCauchyABCD.pdf
 Graphic file (type QTm)
 
 <use  "./fig/figSecondOrderOrdinaryDifferentialEquations/figEulerCauchyABCD.pdf
-" > [134] [135] [136] [137] [138]) [139]
+" > [134] [135] [136] [137] [138] [139] [140] [141] [142] [143] [144] [145]
+[146]) [147]
 No file engineeringMathematics.ind.
 (./engineeringMathematics.aux (./tex/cktPreface.aux)
 (./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
@@ -3266,12 +3286,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46078 strings out of 493918
- 1093536 string characters out of 6150562
- 1336339 words of memory out of 5000000
- 48448 multiletter control sequences out of 15000+600000
+ 46210 strings out of 493918
+ 1095622 string characters out of 6150562
+ 1338713 words of memory out of 5000000
+ 48573 multiletter control sequences out of 15000+600000
  53857 words of font info for 207 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,15n,81p,10485b,2246s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,15n,81p,10485b,2248s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (67 pages).
+Output written on engineeringMathematics.pdf (75 pages).

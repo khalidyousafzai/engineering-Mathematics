@@ -26,7 +26,7 @@
 \definecolor{dgray}{cmyk}{0,0,0,0.7}
 %========================
 %\usepackage[hidelinks]{hyperref}  used in machines book but not here
-\usepackage{./tex/khalidUrduBooksEMT}                     %my sty file
+\usepackage{./tex/khalidUrduBooksMaths}                     %my sty file
 \usepackage{amsmath}
 \usepackage{amsbsy} %for bold Poynting, lessgtr symbol
 \usepackage{ mathrsfs}   %for Poynting symbol
@@ -37,7 +37,7 @@
 \DeclareSIUnit \var {var}    %used in electric circuits volt-ampere-reactive
 
 
-\input{./tex/myUrduCommandsEMT.tex}                  %turning latex into urdu
+\input{./tex/myUrduCommandsMaths.tex}                  %turning latex into urdu
 \input{./tex/myUrduGreek.tex}
 \input{./tex/myEMTvectors.tex}
 \input{./tex/myDeclareFunctions.tex}     %\sech, \csch, \arcsh, \arcs   hyperbolic and arc-secant etc
@@ -75,6 +75,7 @@
 
 
 \renewcommand*{\contentsname}{عنوان}    %this command has to be placed right here
+\renewcommand*{\proofname}{ثبوت}   %if placed before start of begin{urdufont}, it gets swept by the settings of the font environment
 
 \frontmatter                          %just added instead of \pagenumbering{roman}
 %%\pagenumbering{roman}

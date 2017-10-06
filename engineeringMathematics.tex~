@@ -49,8 +49,8 @@
 
 
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathSecondOrderDifferentialEquations}
-%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathQuestions}%
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathsecondOrderDifferentialEquations}%
+%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathAppendixAdditionalProofs,./tex/mathQuestions}%
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathAppendixAdditionalProofs}%
 
 
 \author{
@@ -76,6 +76,8 @@
 
 \renewcommand*{\contentsname}{عنوان}    %this command has to be placed right here
 \renewcommand*{\proofname}{ثبوت}   %if placed before start of begin{urdufont}, it gets swept by the settings of the font environment
+\renewcommand*{\appendixname}{ضمیمہ}
+
 
 \frontmatter                          %just added instead of \pagenumbering{roman}
 %%\pagenumbering{roman}
@@ -103,6 +105,8 @@
 \include{./tex/mathSecondOrderDifferentialEquations}
 \include{./tex/mathQuestions}
 
+\appendix
+\include{./tex/mathAppendixAdditionalProofs}
 
 
 %\include{./tex/emtEndOfBookTableDivergenceCurlGradientLaplacian}

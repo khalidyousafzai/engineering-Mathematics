@@ -16,4 +16,5 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 2}}اسپرنگ سے جڑی کمیت کی آزادانہ ارتعاش}{\RL {\arabicfont 115}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 2}}یولر کوشی مساوات}{\RL {\arabicfont 130}}
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 2}}حل کی وجودیت اور یکتائی؛ ورونسکی}{\RL {\arabicfont 139}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 2}}غیر متجانس سادہ تفرقی مساوات}{\RL {\arabicfont 148}}
 \contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 81}}

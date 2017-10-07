@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  6 OCT 2017 18:11
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  7 OCT 2017 19:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1698,6 +1698,37 @@ File: gloss-english.ldf polyglossia: module for english
 . \fontdimen 2\font =60.0\fontdimen 2\font \fontdimen 3\font =60.0\fontdimen
 . 3\font \fontdimen 4\font =60.0\fontdimen 4\font 
 .................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font Jameel Noori Nastaleeq/B (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'JameelNooriNastaleeq(2)' created for font 'Jameel Noori
+. Nastaleeq' with options [Scale=1.3,WordSpace=60.0,Script=Arabic].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->s*[1.3]"Jameel Noori Nastaleeq/ICU:script=arab;language=DFLT;"
+. and font adjustment code:
+. \fontdimen 2\font =60.0\fontdimen 2\font \fontdimen 3\font =60.0\fontdimen
+. 3\font \fontdimen 4\font =60.0\fontdimen 4\font 
+. 
+. * 'italic' with NFSS spec.:
+. <->s*[1.3]"Jameel Noori Nastaleeq/I/ICU:script=arab;language=DFLT;"
+. and font adjustment code:
+. \fontdimen 2\font =60.0\fontdimen 2\font \fontdimen 3\font =60.0\fontdimen
+. 3\font \fontdimen 4\font =60.0\fontdimen 4\font 
+. 
+. * 'bold italic' with NFSS spec.:
+. <->s*[1.3]"Jameel Noori Nastaleeq/BI/ICU:script=arab;language=DFLT;"
+. and font adjustment code:
+. \fontdimen 2\font =60.0\fontdimen 2\font \fontdimen 3\font =60.0\fontdimen
+. 3\font \fontdimen 4\font =60.0\fontdimen 4\font 
+.................................................
 \c@theorem=\count296
 \c@corollary=\count297
 \c@definition=\count298
@@ -3215,17 +3246,8 @@ Overfull \hbox (11.29091pt too wide) in paragraph at lines 260--260
 [][] []
  []
 
-[89] [90] [91] [92] [93] [94] [95]
-Underfull \hbox (badness 10000) in paragraph at lines 524--526
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 526--528
-[][]
- []
-
-[96] [97] [98] [99] [100] [101] [102] [103] [104]
+[89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102]
+[103] [104]
 Overfull \hbox (67.83736pt too wide) in paragraph at lines 771--778
  [][][][] 
  []
@@ -3245,19 +3267,10 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 5.70004pt on input line 1197.
 Missing character: There is no ّ in font zplmr7m!
  [115] [116] [117] [118]
-Underfull \hbox (badness 10000) in paragraph at lines 1286--1288
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1288--1290
-[][]
- []
-
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 12.0pt on input line 1296.
-[119] [120] [121] [122] [123] [124] [125] [126] [127] [128] [129] [130]
-[131] [132] [133]
+ [119] [120] [121] [122] [123] [124] [125]
+[126] [127] [128] [129] [130] [131] [132]
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
@@ -3272,8 +3285,14 @@ File: ./fig/figSecondOrderOrdinaryDifferentialEquations/figEulerCauchyABCD.pdf
 Graphic file (type QTm)
 
 <use  "./fig/figSecondOrderOrdinaryDifferentialEquations/figEulerCauchyABCD.pdf
-" > [134] [135] [136] [137] [138] [139] [140] [141] [142] [143] [144] [145])
-[146] [84
+" > [133] [134] [135] [136] [137] [138] [139] [140] [141] [142] [143] [144]
+[145] [146] [147]
+Underfull \hbox (badness 10000) in paragraph at lines 2361--2362
+[][]
+ []
+
+Missing character: There is no ِ in font zplmr7m!
+[148] [149]) [150] [84
 
 
 
@@ -3293,12 +3312,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46225 strings out of 493918
- 1096061 string characters out of 6150562
- 1340570 words of memory out of 5000000
- 48583 multiletter control sequences out of 15000+600000
+ 46257 strings out of 493918
+ 1097210 string characters out of 6150562
+ 1338393 words of memory out of 5000000
+ 48615 multiletter control sequences out of 15000+600000
  53857 words of font info for 207 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,15n,81p,10485b,2250s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (75 pages).
+Output written on engineeringMathematics.pdf (79 pages).

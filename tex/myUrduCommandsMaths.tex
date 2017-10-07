@@ -18,6 +18,7 @@
 \newcommand*{\ترچھا}[1]{{\textit{#1}}}
 
 %\newcommand*{\اصطلاح}[1]{{\color{red}{#1}}}   %colours spills to next word when there is index or footnote entry with the word
+%\newcommand{\اصطلاح}[1]{{\urdufontBig{#1}}}
 \newcommand{\اصطلاح}[1]{{\urduTechTermsfont{#1}}}
 
 
@@ -151,5 +152,16 @@
 
 \newenvironment*{ثبوت}				
 {\noindent\ignorespaces  ثبوت :}%
+{\par\noindent }
+%--------------------
+%--------------------
+
+%defining a Definition تعریف
+
+%\newcounter{kdfcounter}[chapter]
+%\renewcommand{\thedfrcounter}{\arabic{kdfcounter}.\thechapter}
+
+\newenvironment*{تعریف}				
+{\noindent\ignorespaces  تعریف :}%
 {\par\noindent }
 %--------------------

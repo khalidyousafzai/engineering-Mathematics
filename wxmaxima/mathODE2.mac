@@ -1620,3 +1620,39 @@ eq:'diff(y,t,2)+y=1-t^2/(pi^2);
 ode2(eq,y,t);
 ic2(%,t=0,y=K0,'diff(y,t)=K1);
 expand(%)
+
+Print("======================================");
+kill(all);
+print("example 2.28a");
+
+R:100;
+L:0.5;
+C:0.02;
+w:2*%pi*50;
+f:310*cos(w*t);
+
+eq:L*'diff(i,t,2)+R*'diff(i,t)+i/C=w*f;
+ode2(eq,i,t);
+ic2(%,t=0,i=0,'diff(i,t)=0);
+
+
+Print("======================================");
+kill(all);
+print("Q 2.151");
+
+E:E0;
+L:0;
+
+eq:L*'diff(i,t,2)+R*'diff(i,t)+i/C=diff(E,t);
+ode2(eq,i,t);
+
+Print("======================================");
+kill(all);
+print("Q 2.152");
+
+E:E0*sin(w*t);
+L:0;
+
+eq:L*'diff(i,t,2)+R*'diff(i,t)+i/C=diff(E,t);
+ode2(eq,i,t);
+

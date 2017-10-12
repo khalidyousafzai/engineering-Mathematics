@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  11 OCT 2017 17:14
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  12 OCT 2017 17:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3298,14 +3298,14 @@ Overfull \hbox (4.20706pt too wide) in paragraph at lines 2566--2566
  []
 
 [158] [159] [160] [161] [162] [163] [164] [165] [166] [167] [168] [169]
-[170] [171]
+[170] [171] [172]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-) [172] [173] [176
+ [173] [174] [175] [176] [177] [178]) [179] [176
 
 
 
@@ -3326,12 +3326,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46655 strings out of 493918
- 1106412 string characters out of 6150562
- 1342164 words of memory out of 5000000
- 49017 multiletter control sequences out of 15000+600000
+ 46787 strings out of 493918
+ 1109366 string characters out of 6150562
+ 1342545 words of memory out of 5000000
+ 49149 multiletter control sequences out of 15000+600000
  53857 words of font info for 207 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,15n,81p,10485b,2313s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (101 pages).
+Output written on engineeringMathematics.pdf (107 pages).

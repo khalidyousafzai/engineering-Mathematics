@@ -7,7 +7,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 1}}قطعی سادہ تفرقی مساوات اور جزو تکمل}{\RL {\arabicfont 40}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 1}}خطی سادہ تفرقی مساوات۔ مساوات برنولی}{\RL {\arabicfont 52}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 1}}عمودی خطوط کی نسلیں}{\RL {\arabicfont 70}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 1}}ابتدائی قیمت تفرقی مساوات:حل کی وجودیت اور یکتائیت }{\RL {\arabicfont 74}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 1}}ابتدائی قیمت تفرقی مساوات:حل کی وجودیت اور یکتائیت}{\RL {\arabicfont 74}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 2}}درجہ دوم سادہ تفرقی مساوات}{\RL {\arabicfont 81}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 2}}متجانس خطی دو درجی تفرقی مساوات}{\RL {\arabicfont 81}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 2}}مستقل عددی سر والے متجانس خطی سادہ تفرقی مساوات}{\RL {\arabicfont 98}}

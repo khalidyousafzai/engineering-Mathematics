@@ -245,4 +245,25 @@ W:determinant(m);
 expand(%);
 trigsimp(%);
 
+Print("======================================");
+kill(all);
+print("example 3.6");
+
+ya:-1;
+yb:1;
+yc:-2;
+
+eq:(y-ya)*(y-yb)*(y-yc);
+expand(%);
+
+Print("======================================");
+kill(all);
+print("example 3.6");
+
+ya:1;
+yb:-3*%i;
+yc:3*%i;
+
+eq:(y-ya)*(y-yb)*(y-yc);
+expand(%);
 

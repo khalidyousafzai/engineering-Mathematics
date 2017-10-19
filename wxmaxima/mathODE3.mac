@@ -255,3 +255,15 @@ yc:-2;
 
 eq:(y-ya)*(y-yb)*(y-yc);
 expand(%);
+
+Print("======================================");
+kill(all);
+print("example 3.6");
+
+ya:1;
+yb:-15*%i;
+yc:15*%i;
+
+eq:(y-ya)*(y-yb)*(y-yc);
+expand(%);
+

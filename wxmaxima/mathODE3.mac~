@@ -31,7 +31,7 @@ solve([eq1,eq2,eq3],[c1,c2,c3]);
 
 Print("======================================");
 kill(all);
-print("Q 3.1-a");
+print("Q 3.1");
 
 y1:1;
 y2:x;
@@ -42,7 +42,7 @@ W:determinant(m);
 
 Print("======================================");
 kill(all);
-print("Q 3.1-b");
+print("Q 3.2");
 
 y1:%e^x;
 y2:%e^(-x);
@@ -60,7 +60,7 @@ diff(y,x,3)-2*diff(y,x,2)-diff(y,x)+2*y=0;
 
 Print("======================================");
 kill(all);
-print("Q 3.1-c");
+print("Q 3.3");
 
 ya:1;
 yb:2;
@@ -71,7 +71,7 @@ expand(%);
 
 Print("======================================");
 kill(all);
-print("Q 3.1-c");
+print("Q 3.4");
 
 ya:1*%i;
 yb:-1*%i;
@@ -104,7 +104,7 @@ expand(%);
 
 Print("======================================");
 kill(all);
-print("Q 3.1-d");
+print("Q 3.5");
 
 ya:-3+0*%i;
 yb:-3+0*%i;
@@ -139,7 +139,7 @@ expand(%);
 
 Print("======================================");
 kill(all);
-print("Q 3.1-e");
+print("Q 3.6");
 
 ya:-2+3*%i;
 yb:-2-3*%i;
@@ -169,7 +169,7 @@ expand(%);
 
 Print("======================================");
 kill(all);
-print("Q 3.2");
+print("Q 3.7");
 
 y1:1;
 y2:x^2;
@@ -182,7 +182,7 @@ trigsimp(%);
 
 Print("======================================");
 kill(all);
-print("Q 3.3a");
+print("Q 3.8");
 
 y1:0;
 y2:x;
@@ -195,7 +195,7 @@ trigsimp(%);
 
 Print("======================================");
 kill(all);
-print("Q 3.3b");
+print("Q 3.9");
 
 y1:1;
 y2:sin(x);
@@ -208,7 +208,7 @@ trigsimp(%);
 
 Print("======================================");
 kill(all);
-print("Q 3.3c");
+print("Q 3.10");
 
 y1:%e^(-x);
 y2:x*%e^(-x);
@@ -221,7 +221,7 @@ trigsimp(%);
 
 Print("======================================");
 kill(all);
-print("Q 3.3d");
+print("Q 3.11");
 
 y1:sinh(x);
 y2:cosh(x);
@@ -234,7 +234,7 @@ trigsimp(%);
 
 Print("======================================");
 kill(all);
-print("Q 3.3e");
+print("Q 3.10");
 
 y1:sin(x);
 y2:cos(x);
@@ -261,9 +261,300 @@ kill(all);
 print("example 3.6");
 
 ya:1;
-yb:-3*%i;
-yc:3*%i;
+yb:-15*%i;
+yc:15*%i;
 
 eq:(y-ya)*(y-yb)*(y-yc);
 expand(%);
+
+
+Print("======================================");
+kill(all);
+print("example 3.8");
+
+ya:1;
+yb:2;
+
+eq:(y-ya)^2*(y-yb)^3;
+expand(%);
+
+
+
+Print("======================================");
+kill(all);
+print("Q 3.11");
+
+ya:0;
+yb:2*%i;
+yc:-2*%i;
+
+eq:(y-ya)*(y-yb)*(y-yc);
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 3.12");
+
+ya:2*%i;
+yb:-2*%i;
+yc:2*%i;
+yd:-2*%i;
+
+eq:(y-ya)*(y-yb)*(y-yc)*(y-yd);
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 3.13");
+
+ya:1*%i;
+yb:-1*%i;
+yc:1;
+yd:-1;
+
+eq:(y-ya)*(y-yb)*(y-yc)*(y-yd);
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 3.14");
+
+ya:0*%i;
+yb:0*%i;
+yc:3*%i;
+yd:-3*%i;
+
+eq:(y-ya)*(y-yb)*(y-yc)*(y-yd);
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 3.15");
+
+ya:0*%i;
+yb:0*%i;
+yc:1*%i;
+yd:-1*%i;
+ye:0;
+
+eq:(y-ya)*(y-yb)*(y-yc)*(y-yd)*(y-ye);
+expand(%);
+
+
+Print("======================================");
+kill(all);
+print("Q 3.16");
+
+ya:1;
+yb:1;
+yc:1;
+yd:1;
+ye:-3;
+
+eq:(y-ya)*(y-yb)*(y-yc)*(y-yd)*(y-ye);
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 3.17");
+
+ya:1*%i;
+yb:-1*%i;
+yc:1;
+yd:-1;
+ye:2;
+
+eq:(y-ya)*(y-yb)*(y-yc)*(y-yd)*(y-ye);
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 3.18");
+
+ya:1.5;
+yb:-2;
+yc:3.2;
+
+eq:(w-ya)*(w-yb)*(w-yc);
+expand(%);
+
+y0:1.5;
+y1:2;
+y2:-3;
+
+
+eq:c1*%e^(ya*x)+c2*%e^(yb*x)+c3*%e^(yc*x);
+eqd:diff(eq,x);
+eqdd:diff(eq,x,2);
+
+eq1:y0=ev(eq,x=0);
+eq2:y1=ev(eqd,x=0);
+eq3:y2=ev(eqdd,x=0);
+
+soln:linsolve([eq1,eq2,eq3],[c1,c2,c3]);
+float(%);
+
+Print("======================================");
+kill(all);
+print("Q 3.19");
+
+ya:-13.4;
+yb:-5.6;
+yc:8.94;
+
+eq:(w-ya)*(w-yb)*(w-yc);
+expand(%);
+
+y0:-1.2;
+y1:5.2;
+y2:-2.8;
+
+
+eq:c1*%e^(ya*x)+c2*%e^(yb*x)+c3*%e^(yc*x);
+eqd:diff(eq,x);
+eqdd:diff(eq,x,2);
+
+eq1:y0=ev(eq,x=0);
+eq2:y1=ev(eqd,x=0);
+eq3:y2=ev(eqdd,x=0);
+
+soln:linsolve([eq1,eq2,eq3],[c1,c2,c3]);
+float(%);
+
+Print("======================================");
+kill(all);
+print("Q 3.20");
+
+ya:-5;
+yb:7*%i;
+yc:-7*%i;
+
+eq:(w-ya)*(w-yb)*(w-yc);
+expand(%);
+
+y0:10;
+y1:-5;
+y2:1;
+
+
+eq:c1*%e^(ya*x)+c2*cos(7*x)+c3*sin(7*x);
+eqd:diff(eq,x);
+eqdd:diff(eq,x,2);
+
+eq1:y0=ev(eq,x=0);
+eq2:y1=ev(eqd,x=0);
+eq3:y2=ev(eqdd,x=0);
+
+soln:linsolve([eq1,eq2,eq3],[c1,c2,c3]);
+float(%);
+
+Print("======================================");
+kill(all);
+print("Q 3.21");
+
+ya:-2;
+yb:-3;
+yc:-3;
+
+eq:(w-ya)*(w-yb)*(w-yc);
+expand(%);
+
+y0:2;
+y1:1;
+y2:-0.5;
+
+
+eq:c1*%e^(ya*x)+c2*%e^(yb*x)+c3*x*%e^(yc*x);
+eqd:diff(eq,x);
+eqdd:diff(eq,x,2);
+
+eq1:y0=ev(eq,x=0);
+eq2:y1=ev(eqd,x=0);
+eq3:y2=ev(eqdd,x=0);
+
+soln:linsolve([eq1,eq2,eq3],[c1,c2,c3]);
+float(%);
+
+
+Print("======================================");
+kill(all);
+print("Q 3.22");
+
+ya:-2*%i;
+yb:2*%i;
+yc:-2*%i;
+yd:2*%i;
+
+eq:(w-ya)*(w-yb)*(w-yc)*(w-yd);
+expand(%);
+
+y0:1;
+y1:0.5;
+y2:-0.5;
+y3:-1;
+
+eq:c1*cos(2*x)+c2*sin(2*x)+c3*x*cos(2*x)+c4*x*sin(2*x);
+eqd:diff(eq,x);
+eqdd:diff(eq,x,2);
+eqddd:diff(eq,x,3);
+
+eq1:y0=ev(eq,x=0);
+eq2:y1=ev(eqd,x=0);
+eq3:y2=ev(eqdd,x=0);
+eq4:y3=ev(eqddd,x=0);
+
+soln:linsolve([eq1,eq2,eq3,eq4],[c1,c2,c3,c4]);
+float(%);
+
+Print("======================================");
+kill(all);
+print("Q 3.23");
+
+ya:1-1*%i;
+yb:1+1*%i;
+yc:1-1*%i;
+yd:1+1*%i;
+ye:0;
+
+eq:(w-ya)*(w-yb)*(w-yc)*(w-yd)*(w-ye);
+expand(%);
+
+y0:1;
+y1:0.5;
+y2:-0.5;
+y3:-1;
+y4:2;
+
+eq:c0+c1*%e^(x)*cos(x)+c2*%e^(x)*sin(x)+c3*x*%e^(x)*cos(x)+c4*x*%e^(x)*sin(x);
+eqd:diff(eq,x);
+eqdd:diff(eq,x,2);
+eqddd:diff(eq,x,3);
+eqdddd:diff(eq,x,4);
+
+eq1:y0=ev(eq,x=0);
+eq2:y1=ev(eqd,x=0);
+eq3:y2=ev(eqdd,x=0);
+eq4:y3=ev(eqddd,x=0);
+eq5:y4=ev(eqdddd,x=0);
+
+soln:linsolve([eq1,eq2,eq3,eq4,eq5],[c0,c1,c2,c3,c4]);
+float(%);
+
+
+Print("======================================");
+kill(all);
+print("example 3.9");
+
+ya:1;
+yb:1;
+yc:1;
+
+eq:(w-ya)*(w-yb)*(w-yc);
+expand(%);
+
+y0:C*x^3*%e^x;
+
+y1:diff(y0,x);
+y2:diff(y0,x,2);
+y3:diff(y0,x,3);
 

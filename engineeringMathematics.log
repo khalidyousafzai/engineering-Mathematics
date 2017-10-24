@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  23 OCT 2017 16:47
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  24 OCT 2017 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1755,6 +1755,7 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
+(./tex/mathSystemOfDifferentialEquations.aux)
 No file ./tex/mathQuestions.aux.
 (./tex/mathAppendixAdditionalProofs.aux))
 \openout1 = `engineeringMathematics.aux'.
@@ -3122,10 +3123,37 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 
 
 ]) [6]
-\openout2 = `./tex/mathHigherOrderDifferentialEquations.aux'.
+\openout2 = `./tex/mathSystemOfDifferentialEquations.aux'.
 
 
-(./tex/mathHigherOrderDifferentialEquations.tex [190
+(./tex/mathSystemOfDifferentialEquations.tex
+باب \RL {\arabicfont 4}.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 20.74pt on input line 1.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
+(Font)              scaled to size 20.74pt on input line 1.
+LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 4.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 7.6pt on input line 4.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 4.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 4.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 4.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 4.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 4.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 4.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 7.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
+(Font)              scaled to size 14.4pt on input line 7.
+[223
+
 
 
 
@@ -3133,72 +3161,14 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 
 
 ]
-باب \RL {\arabicfont 3}.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 20.74pt on input line 1.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 4.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 14.4pt on input line 4.
-LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 9.
-[191]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 24.
- [192]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.6pt on input line 52.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 52.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 52.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 52.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 52.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 52.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 52.
- [193] [194] [195] [196] [197] [198] [199]
-Overfull \hbox (4.15659pt too wide) in paragraph at lines 251--253
-[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 اب ہم اس قابل ہیں کہ ثابت کریں کہ مساوا
-ت []\EU1/JameelNooriNastaleeq(0)/bx/n/10 2[]\EU1/JameelNooriNastaleeq(1)/m/n/10
- .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 3[][] \EU1/JameelNooriNastaleeq(1)/m/n
-/10 کے عمومی حل میں مساوات []\EU1/JameelNooriNastaleeq(0)/bx/n/10 2[]\EU1/Jamee
-lNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 3[][] \EU1/Ja
-meelNooriNastaleeq(1)/m/n/10 کے تمام حل شامل ہیں۔مساوات[]
- []
-
-[200] [201]
-Overfull \hbox (8.46466pt too wide) in paragraph at lines 303--308
-[] \EU1/JameelNooriNastaleeq(1)/m/n/10 سوال  []\EU1/JameelNooriNastaleeq(0)/bx/
-n/10 4[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/
-n/10 3[]\EU1/JameelNooriNastaleeq(1)/m/n/10 :  $\OML/zplm/m/it/10 y[] \OT1/zplm
-/m/n/10 + \OT1/ppl/m/n/10 12\OML/zplm/m/it/10 y[] \OT1/zplm/m/n/10 + \OT1/ppl/m
-/n/10 54\OML/zplm/m/it/10 y[] \OT1/zplm/m/n/10 + \OT1/ppl/m/n/10 108\OML/zplm/m
-/it/10 y[] \OT1/zplm/m/n/10 + \OT1/ppl/m/n/10 81\OML/zplm/m/it/10 y \OT1/zplm/m
-/n/10 = \OT1/ppl/m/n/10 0,  \OML/zplm/m/it/10 e[]\OT1/ppl/m/n/10 , \OML/zplm/m/
-it/10 xe[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 x[]e[]\OT1/ppl/m/n/10 , \OML/zplm
-/m/it/10 x[]e[]$ []
- []
-
-[202] [203] [204] [205]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 454.
- [206] [207] [208] [209] [210] [211] [212] [213]
-[214]
-Overfull \hbox (26.31041pt too wide) in paragraph at lines 732--732
-[][] []
- []
-
-[215] [216]
-Underfull \vbox (badness 1418) has occurred while \output is active []
-
- [217]
-[218] [219] [220]) [221] [176
+(Font)              scaled to size 12.0pt on input line 28.
+ [224] [225]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 9.5pt on input line 88.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 7.5pt on input line 88.
+) [226] [176
 
 
 
@@ -3209,6 +3179,7 @@ No file engineeringMathematics.ind.
 (./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
+(./tex/mathSystemOfDifferentialEquations.aux)
 No file ./tex/mathQuestions.aux.
 (./tex/mathAppendixAdditionalProofs.aux))
 
@@ -3216,12 +3187,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45890 strings out of 493918
- 1091463 string characters out of 6150562
- 1268863 words of memory out of 5000000
- 48262 multiletter control sequences out of 15000+600000
- 33119 words of font info for 137 fonts, out of 8000000 for 9000
+ 45293 strings out of 493918
+ 1075137 string characters out of 6150562
+ 1241096 words of memory out of 5000000
+ 47659 multiletter control sequences out of 15000+600000
+ 33127 words of font info for 138 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,15n,81p,10485b,1958s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,15n,81p,10485b,593s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (39 pages).
+Output written on engineeringMathematics.pdf (11 pages).

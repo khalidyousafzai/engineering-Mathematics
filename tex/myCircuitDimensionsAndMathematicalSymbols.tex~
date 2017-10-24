@@ -49,5 +49,4 @@
 \newcommand*{\bQ}{{\ensuremath{{\textup{Q}}}}}  %Laplace fraction
 \newcommand*{\bV}{{\ensuremath{{\textup{V}}}}}  %Laplace Voltage
 \newcommand*{\bI}{{\ensuremath{{\textup{I}}}}}  %Laplace Current
-%Matrices and Vectors
-\newcommand*{\bM}[1]{{\ensuremath{{\boldsymbol{#1}}}}} 
+

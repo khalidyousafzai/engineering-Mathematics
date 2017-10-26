@@ -1,0 +1,25 @@
+Print("======================================");
+kill(all);
+print("example ");
+
+A:matrix([2,1],[-3,0]);
+B:matrix([7,1],[2,-4]);
+
+A . B;
+B . A;
+
+Print("======================================");
+kill(all);
+print("example 4.1");
+
+A:matrix([-3,3],[-0.8,0.4]);
+ww:matrix([w,0],[0,w]);
+
+M:A-ww;
+determinant(M);
+dt:expand(%);
+
+eq:dt=0;
+solve(%,w);
+float(%);
+

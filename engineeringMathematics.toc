@@ -27,4 +27,5 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 3}}متعین متغیرات بدلنے کے طریقے سے غیر متجانس خطی سادہ تفرقی مساوات کا حل}{\RL {\arabicfont 215}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 4}}نظامِ تفرقی مساوات}{\RL {\arabicfont 223}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 4}}قالب اور سمتیہ کے بنیادی حقائق}{\RL {\arabicfont 224}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 4}}سادہ تفرقی مساوات کے نظام بطور انجینئری مسائل کے نمونے}{\RL {\arabicfont 233}}
 \contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 173}}

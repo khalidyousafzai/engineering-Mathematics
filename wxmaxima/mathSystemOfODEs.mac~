@@ -12,8 +12,68 @@ Print("======================================");
 kill(all);
 print("example 4.1");
 
-A:matrix([-3,3],[-1.2,2]);
+A:matrix([-3,3],[-0.8,0.4]);
 ww:matrix([w,0],[0,w]);
 
 M:A-ww;
+determinant(M);
+dt:expand(%);
+
+eq:dt=0;
+solve(%,w);
+float(%);
+
+Print("======================================");
+kill(all);
+print("example 4.3 attempt 1");
+
+A:matrix([-6,6],[-36/11,67/22]);
+I:matrix([1,0],[0,1]);
+ww:A-I*w;
+determinant(ww);
+expand(%);
+solve(%,w);
+float(%);
+
+eq1:-6*a1+6*a2+12=0;
+eq2:-36/11*a1+67/22*a2+72/11=0;
+solve([eq1,eq2],[a1,a2]);
+
+Print("======================================");
+kill(all);
+print("example 4.3 attempt 2");
+
+L:1;
+C:0.25;
+R1:4;
+R2:6;
+E:12;
+
+eq1:vL(t)=L*'diff(i1,t);
+eq2:i2(t)=C*'diff(vC(t),t);
+eq3:E=vL(t)+(i1(t)-i2(t))*R1;
+eq4:vC(t)+i2(t)*R2+(i2(t)-i1(t))*R1=0;
+
+atvalue('diff(i1(t),t),t=0,E/L);
+atvalue(vC(t),t=0,0);
+desolve([eq1,eq2,eq3,eq4],[i1(t),i2(t),vC(t),vL(t)]);
+
+Print("======================================");
+kill(all);
+print("example 4.3 attempt 3");
+
+L:1;
+C:0.25;
+R1:4;
+R2:6;
+E:12;
+
+eq1:'diff(i1(t),t)=-6*i1(t)+6*i2(t)+12;
+eq2:'diff(i2(t),t)=-36/11*i1(t)+67/22*i2(t)+72/11;
+
+atvalue(i1(t),t=0,0);
+atvalue(i2(t),t=0,0);
+desolve([eq1,eq2],[i1(t),i2(t)]);
+exponentialize(%);
+expand(%);
 

@@ -1173,7 +1173,7 @@ D^2-3D; \quad 2x^4-x, \quad 2\sinh 2x-\cos 5x
 \node[circle,fill=gray,inner sep=2.5mm] (b) at (3,2) {};
 \node[circle,inner sep=2.5mm] (c) at (6,2.5) {};
 \draw[decoration={aspect=0.3, segment length=3mm, amplitude=3mm,coil},decorate] (0,5) -- (a); 
-\draw[decoration={aspect=0.3, segment length=1.7mm, amplitude=3mm,coil},decorate] (3,5) -- (b); 
+\draw[decoration={aspect=0.3, segment length=1.7mm, amplitude=3mm,coil},decorate] (3,5) -- (b)node[pos=0.5,shift={(0.6,0)}]{$k$}; 
 \draw[decoration={aspect=0.3, segment length=1.5mm, amplitude=3mm,coil},decorate] (6,5) -- (c); 
 \fill [pattern = north east lines] (-1,5) rectangle (7,5.2);
 \draw[thick] (-1,5) -- (7,5);
@@ -2130,7 +2130,7 @@ W(y_1,y_2)=
 -\left(\frac{y_1}{y_2}\right)^{\!'}y_2^2 & (y_2 \ne 0)
 \end{cases}
 \end{align}
-آپ دیکھ سکتے ہیں کہ  ورونسکی کو قالب کی مقطع کے طرز پر لکھا جا سکتا ہے جس کو \اصطلاح{ورونسکی مقطع}\فرہنگ{ورونسکی!مقطع}\فرہنگ{مقطع!ورونسکی}\حاشیہب{Wronskian determinant}\فرہنگ{Wronskian determinant} یا حل \عددی{y_1} اور \عددی{y_2} کی \اصطلاح{ورونسکی} کہتے ہیں۔ 
+آپ دیکھ سکتے ہیں کہ  ورونسکی کو قالب کی \اصطلاح{مقطع} کے طرز پر لکھا جا سکتا ہے جس کو \اصطلاح{ورونسکی مقطع}\فرہنگ{ورونسکی!مقطع}\فرہنگ{مقطع!ورونسکی}\حاشیہب{Wronskian determinant}\فرہنگ{Wronskian determinant} یا حل \عددی{y_1} اور \عددی{y_2} کی \اصطلاح{ورونسکی} کہتے ہیں۔ 
 \begin{align}
 W(y_1,y_2)=
 \begin{vmatrix}

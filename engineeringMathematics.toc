@@ -19,13 +19,15 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 2}}جبری ارتعاش۔ گمک}{\RL {\arabicfont 162}}
 \contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 8}.\RL {\arabicfont 2}}برقرار حال حل کا حیطہ۔عملی گمک}{\RL {\arabicfont 168}}
 \contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 2}}برقی ادوار کی نمونہ کشی}{\RL {\arabicfont 172}}
-\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 2}}متعین متغیرات بدلنے کے طریقے سے غیر متجانس خطی سادہ تفرقی مساوات کا حل}{\RL {\arabicfont 183}}
+\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 2}}مقدار معلوم بدلنے کے طریقے سے غیر متجانس خطی سادہ تفرقی مساوات کا حل}{\RL {\arabicfont 183}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 3}}بلند درجی خطی سادہ تفرقی مساوات}{\RL {\arabicfont 191}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}}متجانس خطی سادہ تفرقی مساوات}{\RL {\arabicfont 191}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 3}}مستقل عددی سر والے متجانس خطی سادہ تفرقی مساوات}{\RL {\arabicfont 203}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 3}}غیر متجانس خطی سادہ تفرقی مساوات}{\RL {\arabicfont 212}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 3}}متعین متغیرات بدلنے کے طریقے سے غیر متجانس خطی سادہ تفرقی مساوات کا حل}{\RL {\arabicfont 215}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 3}}مقدار معلوم بدلنے کے طریقے سے غیر متجانس خطی سادہ تفرقی مساوات کا حل}{\RL {\arabicfont 215}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 4}}نظامِ تفرقی مساوات}{\RL {\arabicfont 223}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 4}}قالب اور سمتیہ کے بنیادی حقائق}{\RL {\arabicfont 224}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 4}}سادہ تفرقی مساوات کے نظام بطور انجینئری مسائل کے نمونے}{\RL {\arabicfont 233}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 4}}نظریہ نظام سادہ تفرقی مساوات اور ورونسکی}{\RL {\arabicfont 248}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}.\RL {\arabicfont 4}}خطی نظام}{\RL {\arabicfont 249}}
 \contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 173}}

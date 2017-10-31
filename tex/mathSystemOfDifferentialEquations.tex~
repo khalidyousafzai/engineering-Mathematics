@@ -35,40 +35,40 @@ y_n'&=a_{n1}y_1+a_{n2}y_2+\cdots+a_{nn}y_n
 \begin{gather}\label{مساوات_نظام_دو_جمع_دو_قالب}
 \begin{aligned}
 \bM{A}=[a_{jk}]=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 a_{11} & a_{12}\\
 a_{21} & a_{22}
-\end{bmatrix}
+\end{bmatrix*}
 \end{aligned}\quad \text{یا} \quad
 \begin{aligned}
 \bM{A}=[a_{jk}]=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 3 & 2\\
 -1 &\frac{2}{3}
-\end{bmatrix}
+\end{bmatrix*}
 \end{aligned}
 \end{gather}
 اسی طرح نظام \حوالہ{مساوات_نظام_متعدد_مساوات} کے عددی سر کو \عددی{n \times n} قالب کی صورت میں لکھا جا سکتا ہے۔
 \begin{align}\label{مساوات_نظام_متعدد_جمع_متعدد_قالب}
 \bM{A}=[a_{jk}]=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 a_{11} & a_{12} &\cdots & a_{1n}\\
 a_{21} & a_{22}& \cdots & a_{2n}\\
 & \vdots &  &\\
 a_{n1} & a_{n2}& \cdots & a_{nn}
-\end{bmatrix}
+\end{bmatrix*}
 \end{align}
 قالب میں درج \عددی{a_{11}}، \عددی{a_{12}}، \عددی{a_{21}} وغیرہ کو \اصطلاح{ارکان}\فرہنگ{ارکان}\حاشیہب{entry}\فرہنگ{entry} کہتے ہیں۔ افقی لکیروں کو \اصطلاح{صف}\فرہنگ{صف}\حاشیہب{row}\فرہنگ{row} جبکہ عمودی لکیروں کو \اصطلاح{قطار}\فرہنگ{قطار}\حاشیہب{column}\فرہنگ{column} کہتے ہیں۔قالب \حوالہ{مساوات_نظام_دو_جمع_دو_قالب} میں پہلا صف \عددی{[a_{11} \,\,\,  a_{12}]} یا \عددی{[3\,\,\, 2]} جبکہ دوسرا صف \عددی{[a_{21} \,\,\,  a_{22}]} یا \عددی{[-1\,\,\,\tfrac{2}{3}]} ہے۔اسی طرح پہلا قطار درج ذیل ہے۔
 \begin{gather*}
 \begin{aligned}
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 a_{11}\\
 a_{21}
-\end{bmatrix}\quad \text{یا}\quad 
-\begin{bmatrix}
+\end{bmatrix*}\quad \text{یا}\quad 
+\begin{bmatrix*}[r]
 3\\
 -1
-\end{bmatrix}\quad \text{}\quad 
+\end{bmatrix*}
 \end{aligned}
 \end{gather*}
 ارکان کی علامتی اظہار میں دو گنا زیر نوشت کا پہلا عدد صف کو ظاہر کرتا ہے جبکہ دوسرا عدد قطار کو ظاہر کرتا ہے۔یوں \عددی{a_{21}} دوسری صف اور پہلی قطار کا رکن ہے۔ قالب \حوالہ{مساوات_نظام_دو_جمع_دو_قالب} کا \اصطلاح{مرکزی وتر}\فرہنگ{مرکزی وتر}\فرہنگ{وتر!مرکزی}\حاشیہب{main diagonal}\فرہنگ{diagonal!main} \عددی{a_{11}} اور \عددی{a_{22}} پر مبنی ہے جبکہ قالب \حوالہ{مساوات_نظام_متعدد_جمع_متعدد_قالب} کا مرکزی وتر \عددی{a_{11}}، \عددی{a_{22}}، \نقطے، \عددی{a_{nn}} پر مبنی ہے۔ہمیں یہاں صرف \اصطلاح{مربع قالب}\فرہنگ{مربع قالب}\فرہنگ{قالب!مربع}\حاشیہب{square matrix}\فرہنگ{matrix!square} درکار ہوں گے۔مربع قالب سے مراد ایسی قالب ہے جس میں صفوں کی تعداد قطاروں کی تعداد کے برابر ہو۔ قالب \حوالہ{مساوات_نظام_دو_جمع_دو_قالب} اور قالب \حوالہ{مساوات_نظام_متعدد_جمع_متعدد_قالب} مربع قالب ہیں۔
@@ -76,35 +76,35 @@ a_{21}
 \اصطلاح{سمتیہ}۔\quad ایک قطار اور \عددی{n} ارکان کا \اصطلاح{سمتیہ قطار}\فرہنگ{سمتیہ!قطار}\فرہنگ{قطار!سمتیہ}\حاشیہب{column vector}\فرہنگ{vector!column} درج ذیل ہے۔
 \begin{align*}
 \bM{x}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 x_1\\
 x_2\\
 x_3\\
 \vdots\\
 x_n
-\end{bmatrix}
+\end{bmatrix*}
 \end{align*}
 اسی طرح ایک صف اور \عددی{n} ارکان کا \اصطلاح{سمتیہ صف}\فرہنگ{سمتیہ صف}\فرہنگ{سمتیہ!صف}\حاشیہب{row vector}\فرہنگ{vector!row} درج ذیل ہے۔
 \begin{align*}
 \bM{v}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 v_1 & v_2& v_3& \cdots & v_n
-\end{bmatrix}
+\end{bmatrix*}
 \end{align*}
 %=========================
 \جزوحصہء{قالب اور سمتیات کا حساب}
 \جزوحصہء{برابری مساوات} دو عدد \عددی{n \times n} قالب صرف اور صرف اس صورت برابر ہوں گے جب ان کے تمام \اصطلاح{نظیری}\فرہنگ{نظیری}\حاشیہب{corresponding}\فرہنگ{corresponding} ارکان \ترچھا{برابر} ہوں۔ظاہر ہے کہ دو قالب کی برابری کے لئے لازم ہے کہ ان میں صفوں کی تعداد یکساں ہو اور ان میں قطاروں کی تعداد یکساں ہو۔یوں \عددی{n=2} کی صورت میں 
 \begin{align*}
 \bM{A}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 a_{11} & a_{12}\\
 a_{21} & a_{22}
-\end{bmatrix} \quad \text{اور} \quad
+\end{bmatrix*} \quad \text{اور} \quad
 \bM{B}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 b_{11} & b_{12}\\
 b_{21} & b_{22}
-\end{bmatrix}
+\end{bmatrix*}
 \end{align*}
 صرف اور صرف اس صورت برابر \عددی{(\bM{A}=\bM{B})} ہوں گے جب
 \begin{align*}
@@ -114,15 +114,15 @@ a_{21}&=b_{21}, \quad a_{22}=b_{22}
 ہوں۔دو عدد سمتیہ صف (یا دو عدد سمتیہ قطار) صرف اور صرف اس صورت \ترچھا{برابر} ہوں گے جب دونوں میں ارکان کی تعداد  \عددی{n} برابر ہو اور  ان کے تمام نظیری  ارکان \ترچھا{برابر} ہوں ۔یوں 
 \begin{align*}
 \bM{v}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 v_1\\
 v_2
-\end{bmatrix} \quad \text{اور} \quad
+\end{bmatrix*} \quad \text{اور} \quad
 \bM{x}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 x_1\\
 x_2
-\end{bmatrix}
+\end{bmatrix*}
 \end{align*} 
 کی صورت میں \عددی{\bM{v}=\bM{x}} صرف اور صرف تب ہو گا جب
 \begin{align*}
@@ -134,40 +134,40 @@ v_1=x_1\quad \text{اور} \quad v_2=x_2
 مجموعہ حاصل کرنے کی خاطر دونوں قالب کے نظیری ارکان کا مجموعہ لیا جاتا ہے۔دونوں قالب یکساں \عددی{m \times n} ہونا لازم ہے۔اسی طرح دونوں سمتیہ صف (یا دونوں سمتیہ قطار) میں برابر ارکان ہونا لازم ہے۔یوں \عددی{2 \times 2} قالب کا مجموعہ درج ذیل ہو گا۔
 \begin{align}
 \bM{A}+\bM{B}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 a_{11}+b_{11} & a_{12}+b_{12}\\
 a_{21}+b_{21}& a_{22}+b_{bb}
-\end{bmatrix}, \quad \bM{v}+\bM{x}=
-\begin{bmatrix}
+\end{bmatrix*}, \quad \bM{v}+\bM{x}=
+\begin{bmatrix*}[r]
 v_1+x_1\\
 v_2+x_2
-\end{bmatrix}
+\end{bmatrix*}
 \end{align} 
 \جزوحصہء{غیر سمتی ضرب}\فرہنگ{غیر سمتی ضرب}\حاشیہب{scalar product}\فرہنگ{scalar product} غیر سمتی ضرب یعنی مستقل  \عددی{c} سے قالب کا ضرب حاصل کرنے کی خاطر قالب کے تمام ارکان کو \عددی{c} سے ضرب دیا جاتا ہے۔مثلاً 
 \begin{align*}
 \bM{A}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 2& -3\\
 5&1
-\end{bmatrix}, \quad 
+\end{bmatrix*}, \quad 
 -4\bM{A}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 -8&12\\
 -20&-4
-\end{bmatrix}
+\end{bmatrix*}
 \end{align*}
 اور
 \begin{align*}
 \bM{v}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 9\\
 -4
-\end{bmatrix}, \quad 
+\end{bmatrix*}, \quad 
 3\bM{v}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 27\\
 -12
-\end{bmatrix}
+\end{bmatrix*}
 \end{align*}
 \جزوحصہء{قالب ضرب قالب}
 دو عدد \عددی{n \times n} قالب \عددی{\bM{A}=[a_{jk}]} اور \عددی{\bM{B}=[b_{jk}]}  کا حاصل ضرب \عددی{\bM{C}=\bM{A}\bM{B}}، (اسی ترتیب میں) \عددی{n \times n} قالب \عددی{\bM{C}=[c_{jk}]} ہو گا جس کے ارکان 
@@ -176,41 +176,41 @@ c_{jk}=\sum_{m=1}^{n} a_{jm} b_{mk} \quad \quad j=1, \cdots, n, \quad\quad k=1,\
 \end{align}
 ہوں گے یعنی \عددی{\bM{A}} قالب کے \عددی{j} صف کے ہر رکن کو \عددی{\bM{B}} قالب کے \عددی{j} قطار کے نظیری رکن کے ساتھ ضرب دیتے ہوئے \عددی{n} حاصل ضرب  کا مجموعہ لیں۔ہم کہتے ہیں کہ قالب کے ضرب سے مراد  \ترچھا{صف ضرب قطار} ہے۔مثلاً
 \begin{align*}
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 2 & 1\\
 -3 & 0
-\end{bmatrix}
-\begin{bmatrix}
+\end{bmatrix*}
+\begin{bmatrix*}[r]
 7 &1\\
 2&-4
-\end{bmatrix}=
-\begin{bmatrix}
+\end{bmatrix*}=
+\begin{bmatrix*}[r]
 2\cdot 7+1\cdot 2& 2 \cdot 1+1\cdot(-4)\\
 (-3)\cdot 7+0\cdot 2& (-3)\cdot 1+0\cdot(-4)
-\end{bmatrix}=
-\begin{bmatrix}
+\end{bmatrix*}=
+\begin{bmatrix*}[r]
 16&-2\\
 -21&-3
-\end{bmatrix}
+\end{bmatrix*}
 \end{align*}
 یہاں دھیان رہے  کہ ضرب قالب \اصطلاح{غیر مستبدل}\فرہنگ{مستبدل!غیر}\حاشیہب{non commutative}\فرہنگ{commutative!non} ہے لہٰذا  عموماً \عددی{\bM{A}\bM{B} \ne \bM{B}\bM{A}} ہو گا۔ یوں دو قالب کو آپس میں ضرب دیتے ہوئے  قالبوں کی ترتیب تبدیل نہیں کی جا سکتی۔اس حقیقت کی وضاحت کی خاطر درج بالا مثال میں قالبوں کی ترتیب بدلتے ہوئے ان کو آپس میں ضرب  دیتے ہیں۔
 \begin{align*}
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 7 & 1\\
 2 & -4
-\end{bmatrix}
-\begin{bmatrix}
+\end{bmatrix*}
+\begin{bmatrix*}[r]
 2&1\\
 -3&0
-\end{bmatrix}=
-\begin{bmatrix}
+\end{bmatrix*}=
+\begin{bmatrix*}[r]
 7\cdot 2+1\cdot(-3)& 7\cdot 1+1\cdot 0\\
 2\cdot 2+(-4)\cdot (-3)& 2\cdot 1 +(-4)\cdot 0
-\end{bmatrix}=
-\begin{bmatrix}
+\end{bmatrix*}=
+\begin{bmatrix*}[r]
 11& 7\\
 16 &2
-\end{bmatrix}
+\end{bmatrix*}
 \end{align*}
 \عددی{n \times n} قالب \عددی{\bM{A}} کو \عددی{n} ارکان کی سمتیہ قطار \عددی{\bM{x}} سے ضرب بھی اسی قاعدے کے تحت حاصل کی جاتی ہے۔یوں \عددی{\bM{v}=\bM{A}\bM{x}} کے \عددی{n} عدد ارکان درج ذیل ہوں گے۔
 \begin{align}
@@ -218,18 +218,18 @@ v_j=\sum_{m=1}^{n} a_{jm}x_{m} \quad \quad j=1,\cdots, n
 \end{align}
 یوں
 \begin{align*}
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 7 & -3\\
 1 & 4
-\end{bmatrix}
-\begin{bmatrix}
+\end{bmatrix*}
+\begin{bmatrix*}[r]
 x_1\\
 x_2
-\end{bmatrix}=
-\begin{bmatrix}
+\end{bmatrix*}=
+\begin{bmatrix*}[r]
 7x_1-3x_2\\
 x_1+4x_2
-\end{bmatrix}
+\end{bmatrix*}
 \end{align*}
 ہو گا۔
 %============================
@@ -238,76 +238,76 @@ x_1+4x_2
 قالب یا سمتیہ کا تفرق، تمام ارکان کا تفرق حاصل کرنے سے حاصل ہوتا ہے۔
 \begin{align*}
 \bM{y}(t)=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 y_1(t)\\[0.5ex]
 y_2(t)
-\end{bmatrix}=
-\begin{bmatrix}
+\end{bmatrix*}=
+\begin{bmatrix*}[r]
 5t^3\\[0.5ex]
 6\cos 2t
-\end{bmatrix},
+\end{bmatrix*},
 \quad 
 \bM{y}'(t)=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 y'_1(t)\\[0.5ex]
 y'_2(t)
-\end{bmatrix}=
-\begin{bmatrix}
+\end{bmatrix*}=
+\begin{bmatrix*}[r]
 15t^2\\[0.5ex]
 -12\sin 2t
-\end{bmatrix}
+\end{bmatrix*}
 \end{align*}
 قالب کی تفرق اور ضرب کو استعمال کرتے ہوئے مساوات \حوالہ{مساوات_نظام_دو_مساوات} کو درج ذیل لکھا جا سکتا ہے۔ 
 \begin{gather}
 \begin{aligned}
 \bM{y}'=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 y'_1\\[0.5ex]
 y'_2
-\end{bmatrix}=\bM{A}\bM{x}=
-\begin{bmatrix}
+\end{bmatrix*}=\bM{A}\bM{x}=
+\begin{bmatrix*}[r]
 a_{11}& a_{12}\\[0.5ex]
 a_{21}& a_{22}
-\end{bmatrix}
-\begin{bmatrix}
+\end{bmatrix*}
+\begin{bmatrix*}[r]
 y_1\\[0.5ex]
 y_2
-\end{bmatrix}\quad \text{یا}\quad
-\begin{bmatrix}
+\end{bmatrix*}\quad \text{یا}\quad
+\begin{bmatrix*}[r]
 y'_1\\[0.5ex]
 y'_2
-\end{bmatrix}=
-\begin{bmatrix}
+\end{bmatrix*}=
+\begin{bmatrix*}[r]
 2&-7\\[0.5ex]
 5&1
-\end{bmatrix}
-\begin{bmatrix}
+\end{bmatrix*}
+\begin{bmatrix*}[r]
 y_1\\[0.5ex]
 y_2
-\end{bmatrix}
+\end{bmatrix*}
 \end{aligned}
 \end{gather}
 اسی طرح مساوات \حوالہ{مساوات_نظام_متعدد_مساوات} کو  درج ذیل \عددی{\bM{y}=\bM{A}\bM{x}} صورت میں لکھا جا سکتا ہے۔
 \begin{gather}
 \begin{aligned}
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 y_1'\\
 y_2'\\
 \vdots\\
 y_n'
-\end{bmatrix}=
-\begin{bmatrix}
+\end{bmatrix*}=
+\begin{bmatrix*}[r]
 a_{11}&a_{12}&\cdots &a_{1n}\\
 a_{21}& a_{22}&\cdots &a_{2n}\\
 &\vdots & &\\
 a_{n1}&a_{n2}&\cdots &a_{nn}
-\end{bmatrix}
-\begin{bmatrix}
+\end{bmatrix*}
+\begin{bmatrix*}[r]
 y_1\\
 y_2\\
 \vdots\\
 y_n
-\end{bmatrix}
+\end{bmatrix*}
 \end{aligned}
 \end{gather}
 \جزوحصہء{مزید اعمال اور اصطلاحات}
@@ -316,73 +316,73 @@ y_n
 \begin{gather*}
 \begin{aligned}
 \bM{A}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 a_{11} & a_{12}\\
 a_{21}& a_{22}
-\end{bmatrix}=
-\begin{bmatrix}
+\end{bmatrix*}=
+\begin{bmatrix*}[r]
 2&-11\\
 4&3
-\end{bmatrix},\quad \quad
+\end{bmatrix*},\quad \quad
 \bM{A}^T=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 a_{11}& a_{21}\\
 a_{12}& a_{22}
-\end{bmatrix}=
-\begin{bmatrix}
+\end{bmatrix*}=
+\begin{bmatrix*}[r]
 2 &4\\
 -11&3
-\end{bmatrix}
+\end{bmatrix*}
 \end{aligned}
 \end{gather*}
 سمتیہ صف \عددی{\bM{x}} کا تبدیلی محل سمتیہ \عددی{\bM{x}^T} سمتیہ قطار ہو گا۔اسی طرح سمتیہ قطار \عددی{\bM{v}} کا تبدیلی محل سمتیہ \عددی{\bM{v}^T} سمتیہ صف ہو گا۔
 \begin{gather*}
 \begin{aligned}
 \bM{x}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 x_1& x_2
-\end{bmatrix} \quad
+\end{bmatrix*} \quad
 \bM{x}^T=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 x_1\\
 x_2
-\end{bmatrix}, \quad \quad
+\end{bmatrix*}, \quad \quad
 \bM{v}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 v_1\\
 v_2
-\end{bmatrix}\quad
+\end{bmatrix*}\quad
 \bM{v}^T=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 v_1 & v_2
-\end{bmatrix}
+\end{bmatrix*}
 \end{aligned}
 \end{gather*}
 \جزوحصہء{قالب کا معکوس}
  ایسا \عددی{n \times n} قالب جس کے مرکزی وتر کے تمام ارکان اکائی \عددی{(1)}  اور بقایا  ارکان صفر ہوں کو \اصطلاح{اکائی قالب}\فرہنگ{اکائی قالب}\حاشیہب{unit matrix}\فرہنگ{unit matrix} \عددی{\bM{I}} کہتے ہیں۔
 \begin{align}
 \bM{I}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 1&0 &0 & \cdots &0\\
 0&1&0&\cdots & 0\\
 0&0&1&\cdots &0\\
 \vdots &&&&\\
 0&0&0&\cdots&1
-\end{bmatrix}
+\end{bmatrix*}
 \end{align}
 ایسا \عددی{\bM{B}} قالب، جس کا \عددی{\bM{A}} قالب کے ساتھ حاصل ضرب اکائی قالب ہو \عددی{\bM{B}\bM{A}=\bM{B}\bM{A}=\bM{I}}،   قالب \عددی{\bM{A}} کا معکوس قالب کہلاتا ہے جسے \عددی{\bM{A}^{-1}} لکھا جاتا ہے جبکہ ایسی صورت میں \عددی{\bM{A}} \اصطلاح{غیر نادر قالب}\فرہنگ{غیر نادر قالب}\فرہنگ{قالب!غیر نادر}\حاشیہب{non singular matrix}\فرہنگ{matrix!non singular} کہلاتا ہے۔یہاں \عددی{\bM{A}} اور \عددی{\bM{B}} دونوں \عددی{n \times n} قالب ہیں۔
 \begin{align}
 \bM{A}^{-1}\bM{A}=\bM{A}\bM{A}^{-1}=\bM{I}
 \end{align}
-قالب \عددی{\bM{A}} کا معکوس تب پایا جاتا ہے جب \عددی{\bM{A}} کی حتمی قیمت غیر صفر\عددی{\abs{\bM{A}}\ne 0} ہو۔اگر \عددی{\bM{A}} کا معکوس نہ پایا جاتا ہو تب \عددی{\bM{A}} \اصطلاح{نادر}\فرہنگ{نادر!قالب}\فرہنگ{قالب!نادر}\حاشیہب{singular}\فرہنگ{singular!matrix}\فرہنگ{matrix!singular} قالب کہلاتا ہے۔ مربع \عددی{2 \times 2} قالب کا معکوس
+قالب \عددی{\bM{A}} کا معکوس تب پایا جاتا ہے جب \عددی{\bM{A}} کا \اصطلاح{مقطع} غیر صفر\عددی{\abs{\bM{A}}\ne 0} ہو۔اگر \عددی{\bM{A}} کا معکوس نہ پایا جاتا ہو تب \عددی{\bM{A}} \اصطلاح{نادر}\فرہنگ{نادر!قالب}\فرہنگ{قالب!نادر}\حاشیہب{singular}\فرہنگ{singular!matrix}\فرہنگ{matrix!singular} قالب کہلاتا ہے۔ مربع \عددی{2 \times 2} قالب کا معکوس
 \begin{align}
 \bM{A}^{-1}=\frac{1}{\abs{\bM{A}}}
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 a_{22}& -a_{12}\\
 -a_{21}& a_{22}
-\end{bmatrix}
+\end{bmatrix*}
 \end{align}
-ہے جہاں \عددی{\bM{A}} کی حتمی قیمت \عددی{\abs{\bM{A}}} درج ذیل ہے۔
+ہے جہاں \عددی{\bM{A}} کا مقطع \عددی{\abs{\bM{A}}} درج ذیل ہے۔
 \begin{align}
 \abs{\bM{A}}=
 \begin{vmatrix}
@@ -413,20 +413,20 @@ c_1\bM{v}^{(1)}+\cdots+c_r \bM{v}^{(r)}=\bM{0}
 \begin{align}\label{مساوات_نظام_آئگنی_ب}
 (\bM{A}-\lambda \bM{I})\bM{x}=\bM{0}
 \end{align}
-لکھ سکتے ہیں جو \عددی{n} عدد خطی الجبرائی مساوات کو ظاہر کرتی ہے جس کے نا معلوم متغیرات \عددی{x_1} تا \عددی{x_n}، سمتیہ \عددی{\bM{x}} کے ارکان ہیں۔اس مساوات کے غیر صفر حل \عددی{\bM{x} \ne \bM{0}} کے لئے ضروری ہے کہ \عددی{\bM{A}-\bM{I}} کے عددی سر قالب کی حتمی قیمت صفر ہو۔(یہ خطی الجبرا کی بنیادی حقیقت ہے)۔ اس باب میں ہمیں  \عددی{n=2} سے دلچسپی ہے لہٰذا مساوات \حوالہ{مساوات_نظام_آئگنی_ب} کو
+لکھ سکتے ہیں جو \عددی{n} عدد خطی الجبرائی مساوات کو ظاہر کرتی ہے جس کے نا معلوم متغیرات \عددی{x_1} تا \عددی{x_n}، سمتیہ \عددی{\bM{x}} کے ارکان ہیں۔اس مساوات کے غیر صفر حل \عددی{\bM{x} \ne \bM{0}} کے لئے ضروری ہے کہ \عددی{\bM{A}-\bM{I}} کے عددی سر قالب کا \اصطلاح{مقطع} صفر ہو۔(یہ خطی الجبرا کی بنیادی حقیقت ہے)۔ اس باب میں ہمیں  \عددی{n=2} سے دلچسپی ہے لہٰذا مساوات \حوالہ{مساوات_نظام_آئگنی_ب} کو
 \begin{align}\label{مساوات_نظام_آئگنی_پ}
-\begin{bmatrix}
+\begin{bmatrix*}
 a_{11}-\lambda& a_{12}\\
 a_{21}& a_{22}-\lambda
-\end{bmatrix}
-\begin{bmatrix}
+\end{bmatrix*}
+\begin{bmatrix*}
 x_1\\
 x_2
-\end{bmatrix}=
-\begin{bmatrix}
+\end{bmatrix*}=
+\begin{bmatrix*}[r]
 0\\
 0
-\end{bmatrix}
+\end{bmatrix*}
 \end{align}
 لکھتے ہیں جو درج ذیل مساوات کو ظاہر کرتی ہے۔
 \begin{gather}\label{مساوات_نظام_آئگنی_ت}
@@ -435,7 +435,7 @@ x_2
 a_{21}x_1+(a_{22}-\lambda)x_2&=0
 \end{aligned}
 \end{gather}
-اب نادر قالب کی حتمی قیمت صفر ہوتی ہے لہٰذا \عددی{\bM{A}-\lambda\bM{I}}  اس صورت نادر قالب ہو گا جب اس قالب کی حتمی قیمت (جسے \عددی{\bM{A}} کی \اصطلاح{امتیازی حتمی قیمت}\فرہنگ{امتیازی!حتمی قیمت}\حاشیہب{characteristic determinant}\فرہنگ{characteristic determinant} کہتے ہیں) صفر ہو۔
+اب نادر قالب کا \اصطلاح{مقطع} صفر ہوتا ہے لہٰذا \عددی{\bM{A}-\lambda\bM{I}}  اس صورت نادر قالب ہو گا جب اس قالب کا مقطع (جسے \عددی{\bM{A}} کی \اصطلاح{امتیازی مقطع}\فرہنگ{امتیازی!مقطع}\حاشیہب{characteristic determinant}\فرہنگ{characteristic determinant} کہتے ہیں) صفر ہو۔
 \begin{gather}\label{مساوات_نظام_آئگنی_ٹ}
 \begin{aligned}
 \abs{\bM{A}-\lambda \bM{I}}&=
@@ -454,10 +454,10 @@ a_{21}& a_{22}-\lambda
 درج ذیل قالب کی آئگنی قیمتیں اور آئگنی سمتیات دریافت کریں۔
 \begin{align*}
 \bM{A}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 -3& 3\\
 -0.8&0.4
-\end{bmatrix}
+\end{bmatrix*}
 \end{align*}
 حل:امتیازی مساوات
 \begin{align*}
@@ -476,10 +476,10 @@ a_{21}& a_{22}-\lambda
 پہلی مساوات کو \عددی{x_2=0.8x_1} لکھا جا سکتا ہے۔دوسری مساوات کو بھی \عددی{x_2=0.8x_1} لکھا جا سکتا ہے۔یوں اگر \عددی{x_1=1} چننا جائے تو \عددی{x_2=0.8}  ہو گا لہٰذا، \عددی{\lambda_1=-0.6} کی نظیری، \عددی{\bM{A}} کا آئگنی سمتیہ 
 \begin{align*}
 \bM{x}^{(1)}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 1\\
 0.8
-\end{bmatrix}
+\end{bmatrix*}
 \end{align*}
 ہو گا۔ اسی طرح \عددی{\lambda=\lambda_2=-2} کو مساوات \حوالہ{مساوات_نظام_آئگنی_ت} میں پر کرتے ہیں۔
 \begin{gather*}
@@ -491,10 +491,10 @@ a_{21}& a_{22}-\lambda
 ان دونوں مساوات کو \عددی{x_1=3x_2} لکھا جا سکتا ہے۔یوں اگر \عددی{x_2=1} چننا جائے تو \عددی{x_1=3} حاصل ہو گا لہٰذا، \عددی{\lambda_2=-2} کی نظیری، \عددی{\bM{A}} کا آئگنی سمتیہ 
 \begin{align*}
 \bM{x}^{(2)}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 3\\
 1
-\end{bmatrix}
+\end{bmatrix*}
 \end{align*}
 ہو گا۔جیسا پہلے ذکر کیا گیا، آئگنی سمتیات کو کسی  بھی غیر صفر عدد سے ضرب دیا جا سکتا ہے۔
 \انتہا{مثال}
@@ -559,15 +559,15 @@ y_2'&=\phantom{-}0.02y_1-0.02y_2
 لکھا جا سکتا ہے جہاں
 \begin{align*}
 \bM{y}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 y_1\\
 y_2
-\end{bmatrix} \quad \text{اور} \quad 
+\end{bmatrix*} \quad \text{اور} \quad 
 \bM{A}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 -0.02& \phantom{-}0.02\\
 \phantom{-}0.02&-0.02
-\end{bmatrix}
+\end{bmatrix*}
 \end{align*}
 ہیں۔
 
@@ -599,27 +599,27 @@ y_2
 لکھے جائیں گے جن سے \عددی{x_1=x_2} اور \عددی{x_1=-x_2} ملتے ہیں۔ہم \عددی{x_1=x_2=1} اور \عددی{x_1=-x_2=1} چنتے ہوئے \عددی{\lambda_1=0} اور \عددی{\lambda_2=-0.04} کے نظیری آئگنی سمتیات 
 \begin{align*}
 \bM{x}^{(1)}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 1\\
 1
-\end{bmatrix} \quad \text{اور} \quad
+\end{bmatrix*} \quad \text{اور} \quad
 \bM{x}^{(2)}=
-\begin{bmatrix}
+\begin{bmatrix*}[r]
 1\\
 -1
-\end{bmatrix}
+\end{bmatrix*}
 \end{align*}
 حاصل کرتے ہیں۔مساوات \حوالہ{مساوات_نظام_ٹینکی_ب} اور مسئلہ خطی میل (جو خطی متجانس تفرقی مساوات کے نظام پر بھی لاگو ہوتا ہے) کی مدد سے  حل لکھتے ہیں۔
 \begin{align}\label{مساوات_نظام_ٹینکی_پ}
-\bM{y}=c_1\bM{x}^{(1)}e^{\lambda_1 t}+c_2\bM{x}^{(2)}e^{\lambda_2 t}=c_1\begin{bmatrix} 1 \\ 1 \end{bmatrix}+c_2 \begin{bmatrix} 1 \\ -1 \end{bmatrix} e^{-0.04 t}
+\bM{y}=c_1\bM{x}^{(1)}e^{\lambda_1 t}+c_2\bM{x}^{(2)}e^{\lambda_2 t}=c_1\begin{bmatrix*}[r] 1 \\ 1 \end{bmatrix*}+c_2 \begin{bmatrix*}[r] 1 \\ -1 \end{bmatrix*} e^{-0.04 t}
 \end{align}
 تیسرا قدم:\quad  ابتدائی معلومات \عددی{y_1(0)=0} (یعنی  ٹینکی الف میں ابتدائی طور پر کوئی نمک نہیں پایا جاتا)  اور \عددی{y_2(0)=30} (یعنی ٹینکی ب میں ابتدائی طور پر تیس کلو گرام نمک پایا جاتا ہے) ہیں۔مساوات \حوالہ{مساوات_نظام_ٹینکی_پ} میں \عددی{t=0} اور ابتدائی معلومات پر کرتے ہیں۔
 \begin{align*}
-\bM{y}(0)=c_1\begin{bmatrix} 1 \\ 1 \end{bmatrix}+c_2 \begin{bmatrix} 1 \\ -1 \end{bmatrix}=\begin{bmatrix} 0 \\ 30 \end{bmatrix}
+\bM{y}(0)=c_1\begin{bmatrix*}[r] 1 \\ 1 \end{bmatrix*}+c_2 \begin{bmatrix*}[r] 1 \\ -1 \end{bmatrix*}=\begin{bmatrix*}[r] 0 \\ 30 \end{bmatrix*}
 \end{align*}
 درج بالا مساوات کی جزوی صورت \عددی{c_1+c_2=0} اور \عددی{c_1-c_2=30} ہے جس کا حل \عددی{c_1=15} اور \عددی{c_2=-15} ہے۔یوں ابتدائی معلومات پر پورا اترتا ہوا حل
 \begin{align*}
-\bM{y}=15\begin{bmatrix} 1 \\ 1 \end{bmatrix}-15 \begin{bmatrix} 1 \\ -1 \end{bmatrix} e^{-0.04 t}
+\bM{y}=15\begin{bmatrix*}[r] 1 \\ 1 \end{bmatrix*}-15 \begin{bmatrix*}[r] 1 \\ -1 \end{bmatrix*} e^{-0.04 t}
 \end{align*}
 یعنی
 \begin{align*}
@@ -683,7 +683,7 @@ I_2'=-\frac{36}{11}I_1+\frac{67}{22}I_2+\frac{72}{11}
 \end{align}
 لکھا جا سکتا ہے جہاں 
 \begin{align*}
-\quad \bM{J}=\begin{bmatrix} I_1 \\ I_2 \end{bmatrix},\quad \bM{A}=\begin{bmatrix} -6 & 6\\ -\frac{36}{11}& \frac{67}{22} \end{bmatrix}, \quad  \bM{g}=\begin{bmatrix} 12 \\ \frac{72}{11} \end{bmatrix}
+\quad \bM{J}=\begin{bmatrix*}[r] I_1 \\[0.5ex] I_2 \end{bmatrix*},\quad \bM{A}=\begin{bmatrix*}[r] -6 & 6\\[0.5ex] -\frac{36}{11}& \frac{67}{22} \end{bmatrix*}, \quad  \bM{g}=\begin{bmatrix*}[r] 12 \\[0.5ex] \frac{72}{11} \end{bmatrix*}
 \end{align*}
 ہیں۔\عددی{I_1'} اور \عددی{I_2'} کے  سمتیہ قطار کو \عددی{\bM{J}} اس لئے لکھا گیا ہے کہ اس باب میں \عددی{\bM{I}} اکائی قالب کے لئے استعمال کیا گیا ہے۔ 
 
@@ -699,11 +699,11 @@ I_2'=-\frac{36}{11}I_1+\frac{67}{22}I_2+\frac{72}{11}
 \begin{align*}
 (-6+2.38209)x_1+6x_2&=0,\quad \implies x_1=1.658416x_2
 \end{align*}
-ملتا ہے۔یوں \عددی{x_2=1} چنتے ہوئے \عددی{x_1=1.658416} ملتا ہے جس سے \عددی{\bM{x}^{(1)}=\begin{bmatrix} 1.658416 \\1  \end{bmatrix}} حاصل ہوتا ہے۔اسی طرح مساوات \حوالہ{مساوات_نظام_آئگنی_ت} کے پہلے مساوات میں  \عددی{\lambda_2} پر کرتے ہوئے 
+ملتا ہے۔یوں \عددی{x_2=1} چنتے ہوئے \عددی{x_1=1.658416} ملتا ہے جس سے \عددی{\bM{x}^{(1)}=\begin{bmatrix*} 1.658416 \\1  \end{bmatrix*}} حاصل ہوتا ہے۔اسی طرح مساوات \حوالہ{مساوات_نظام_آئگنی_ت} کے پہلے مساوات میں  \عددی{\lambda_2} پر کرتے ہوئے 
 \begin{align*}
 (-6+0.57245)x_1+6x_2&=0,\quad \implies x_1=1.105471x_2
 \end{align*}
-ملتا ہے۔یوں \عددی{x_2=1} چنتے ہوئے \عددی{x_1=1.105471} ملتا ہے جس سے \عددی{\bM{x}^{(2)}=\begin{bmatrix} 1.105471 \\1  \end{bmatrix}} حاصل ہوتا ہے۔یوں متجانس نظام کا عمومی حل درج ذیل ہو گا۔
+ملتا ہے۔یوں \عددی{x_2=1} چنتے ہوئے \عددی{x_1=1.105471} ملتا ہے جس سے \عددی{\bM{x}^{(2)}=\begin{bmatrix*} 1.105471 \\1  \end{bmatrix*}} حاصل ہوتا ہے۔یوں متجانس نظام کا عمومی حل درج ذیل ہو گا۔
 \begin{align}
 \bM{J}=c_1\bM{x}^{(1)}e^{\lambda_1 t}+c_2 \bM{x}^{(2)}e^{\lambda_2 t}
 \end{align}
@@ -712,7 +712,7 @@ I_2'=-\frac{36}{11}I_1+\frac{67}{22}I_2+\frac{72}{11}
 -6a_1+6a_2+12&=0\\
 -\frac{36}{11}a_1+\frac{67}{22}a_2+\frac{72}{11}&=0
 \end{align*}
-ان ہمزاد مساوات کو حل کرنے سے \عددی{a_1=2} اور \عددی{a_2=0} ملتا ہے لہٰذا \عددی{\bM{a}=\begin{bmatrix} 2 \\ 0 \end{bmatrix}} ہو گا۔یوں عمومی حل
+ان ہمزاد مساوات کو حل کرنے سے \عددی{a_1=2} اور \عددی{a_2=0} ملتا ہے لہٰذا \عددی{\bM{a}=\begin{bmatrix*}[r] 2 \\ 0 \end{bmatrix*}} ہو گا۔یوں عمومی حل
 \begin{align*}
 \bM{J}=\bM{J}_h+\bM{J}_p=c_1\bM{x}^{(1)}e^{\lambda_1 t}+c_2 \bM{x}^{(2)}e^{\lambda_2 t}+\bM{a}
 \end{align*}
@@ -800,7 +800,7 @@ y_n'&=F(t,y_1,y_2,\cdots,y_n)
 \انتہا{ثبوت}
 %============================
 
-\ابتدا{مثال}
+\ابتدا{مثال}\شناخت{مثال_نظام_اسپرنگ_کمیت}
 ہم  اسپرنگ اور کمیت کی آزادانہ ارتعاش  کے مسئلے پر غور کر چکے ہیں جس کی تفرقی مساوات صفحہ \حوالہصفحہ{مساوات_سادہ_دو_درجی_قصری_نظام_الف} پر مساوات \حوالہ{مساوات_سادہ_دو_درجی_قصری_نظام_الف}
 \begin{align}
 my''+cy'+ky=0 \quad \implies \quad y''=-\frac{k}{m}y-\frac{c}{m}y'
@@ -810,9 +810,9 @@ my''+cy'+ky=0 \quad \implies \quad y''=-\frac{k}{m}y-\frac{c}{m}y'
 y_1'&=y_2\\
 y_2'&=-\frac{k}{m}y_1-\frac{c}{m}y_2
 \end{align*}
- متجانس اور خطی ہے۔قالب کا استعمال کرتے ہوئے \عددی{\bM{y}=\begin{bmatrix} y_1 \\ y_2 \end{bmatrix}} لکھتے ہوئے اس نظام کو درج ذیل لکھا جا سکتا ہے
+ متجانس اور خطی ہے۔قالب کا استعمال کرتے ہوئے \عددی{\bM{y}=\begin{bmatrix*}[r] y_1 \\ y_2 \end{bmatrix*}} لکھتے ہوئے اس نظام کو درج ذیل لکھا جا سکتا ہے
 \begin{align}
-\bM{y}'=\bM{A}\bM{y}=\begin{bmatrix} 0 & 1 \\ -\frac{k}{m}& -\frac{c}{m} \end{bmatrix}\begin{bmatrix}  y_1 \\ y_2 \end{bmatrix}
+\bM{y}'=\bM{A}\bM{y}=\begin{bmatrix*}[r] 0 & 1 \\ -\frac{k}{m}& -\frac{c}{m} \end{bmatrix*}\begin{bmatrix*}[r]  y_1 \\ y_2 \end{bmatrix*}
 \end{align}
 جس سے امتیازی مساوات لکھتے ہیں۔
 \begin{align*}
@@ -824,11 +824,11 @@ y_2'&=-\frac{k}{m}y_1-\frac{c}{m}y_2
 \end{align*}
 ہو گا جس سے آئگنی قدر \عددی{\lambda_1=-0.2} اور \عددی{\lambda_2=-1.2} حاصل ہوتے ہیں۔آئگنی سمتیات \عددی{\bM{A}-\lambda \bM{I}=\bM{0}} کی پہلی مساوات \عددی{-\lambda x_1+x_2} سے حاصل کرتے ہیں۔آئگنی قدر \عددی{\lambda_1=-0.2} پر کرتے ہوئے  \عددی{0.2x_1+x_2=0} سے \عددی{x_2=-0.2x_1} ملتا ہے لہٰذا \عددی{x_1=1} چنتے ہوئے \عددی{x_2=-0.2} ہو گا۔اسی طرح \عددی{\lambda_2=-1.2} پر کرتے ہوئے \عددی{1.2x_1+x_2=0} سے \عددی{x_2=-1.2x_1} ملتا ہے لہٰذا \عددی{x_1=1} چنتے ہوئے \عددی{x_2=-1.2} ہو گا۔یوں درج ذیل آئگنی سمتیات حاصل ہوتی ہیں
 \begin{align*}
-\bM{x}^{(1)}=\begin{bmatrix} 1 \\ -0.2  \end{bmatrix}, \quad \bM{x}^{(2)}=\begin{bmatrix}  1 \\ -1.2 \end{bmatrix}
+\bM{x}^{(1)}=\begin{bmatrix*} 1 \\ -0.2  \end{bmatrix*}, \quad \bM{x}^{(2)}=\begin{bmatrix*}  1 \\ -1.2 \end{bmatrix*}
 \end{align*}
 جنہیں استعمال کرتے ہوئے
 \begin{align*}
-\bM{y}=c_1\begin{bmatrix} 1 \\ -0.2  \end{bmatrix}e^{-0.2 t}+c_2 \begin{bmatrix}  1 \\ -1.2 \end{bmatrix} e^{-1.2 t}
+\bM{y}=c_1\begin{bmatrix*} 1 \\ -0.2  \end{bmatrix*}e^{-0.2 t}+c_2 \begin{bmatrix*}  1 \\ -1.2 \end{bmatrix*} e^{-1.2 t}
 \end{align*}
 سمتیہ حل لکھا جائے گا۔اس نظام کی پہلی مساوات
 \begin{align*}
@@ -846,38 +846,38 @@ y_2=y_1'=y'=-0.2c_1e^{-0.2 t}-1.2c_2e^{-1.2t}
 
 %===================
 \ابتدا{سوال}\شناخت{سوال_نظام_آئگنی_الف}
-الیکٹران کی ایک خاصیت  \اصطلاح{چکر}\فرہنگ{چکر}\حاشیہب{spin}\فرہنگ{spin} کہلاتی ہے جس کی مقدار  \عددی{-\tfrac{\hbar}{2}} یا \عددی{\tfrac{\hbar}{2}} ہو سکتی ہے  جہاں \عددی{\hbar=\tfrac{h}{2\pi}} ہے اور \عددی{h=\SI{6.626e-34}{\meter^2\kilo\gram\per\second}} \اصطلاح{مستقل پلانک}\فرہنگ{مستقل پلانک}\حاشیہب{Plank's constant}\فرہنگ{Plank' constant}  ہے۔مقناطیسی میدان میں الیکٹران اپنی \اصطلاح{چکر} کی بنا یا ہمہ میدان (مقناطیسی میدان کی سمت میں) رہتا ہے اور یا مخالف میدان (میدان کی الٹ سمت میں) رہتا ہے۔میدان کی سمت میں الیکٹران کو \اصطلاح{اوپر چکر}\فرہنگ{اوپر چکر}\فرہنگ{اوپر چکر}\حاشیہب{spin up}\فرہنگ{spin up} الیکٹران کہتے ہیں جبکہ میدان مخالف الیکٹران کو \اصطلاح{نیچے چکر}\فرہنگ{نیچے چکر}\حاشیہب{spin down}\فرہنگ{spin down} الیکٹران کہتے ہیں۔\عددی{z} سمت میں مقناطیسی میدان میں موجود الیکٹران کی خاصیت \عددی{\bM{S}_z} \اصطلاح{قالب چکر}\فرہنگ{قالب چکر}\حاشیہب{spin matrix}\فرہنگ{spin matrix} سے معلوم کی جا سکتی ہے۔\عددی{z} میدان میں \ترچھا{اوپر چکر} الیکٹران کو آئگنی سمتیہ \عددی{\chi^z_+} اور \ترچھا{نیچے چکر} الیکٹران کو آئگنی سمتیہ \عددی{\chi^z_-} سے ظاہر کیا جاتا ہے۔ درج ذیل \عددی{\bM{S}_z} قالب کے آئگنی قدر (یعنی الیکٹران کے چکر) حاصل کرتے ہوئے آئگنی سمتیات دریافت کریں۔
+الیکٹران کی ایک خاصیت  \اصطلاح{چکر}\فرہنگ{چکر}\حاشیہب{spin}\فرہنگ{spin} کہلاتی ہے جس کی مقدار  \عددی{-\tfrac{\hbar}{2}} یا \عددی{\tfrac{\hbar}{2}} ہو سکتی ہے  جہاں \عددی{\hbar=\tfrac{h}{2\pi}} ہے اور \عددی{h=\SI{6.626e-34}{\meter^2\kilo\gram\per\second}} \اصطلاح{مستقل پلانک}\فرہنگ{مستقل پلانک}\حاشیہب{Plank's constant}\فرہنگ{Plank' constant}  ہے۔\اصطلاح{چکر} سمتیہ مقدار ہے۔مقناطیسی میدان میں الیکٹران کا \اصطلاح{چکر}  یا ہمہ میدان (مقناطیسی میدان کی سمت میں) رہتا ہے اور یا مخالف میدان (میدان کی الٹ سمت میں) رہتا ہے۔ہمہ میدان صورت میں الیکٹران کو \اصطلاح{اوپر چکر}\فرہنگ{اوپر چکر}\فرہنگ{اوپر چکر}\حاشیہب{spin up}\فرہنگ{spin up} الیکٹران کہتے ہیں جبکہ میدان مخالف چکر کی صورت میں  الیکٹران کو \اصطلاح{نیچے چکر}\فرہنگ{نیچے چکر}\حاشیہب{spin down}\فرہنگ{spin down} الیکٹران کہتے ہیں۔\عددی{z} سمت میں مقناطیسی میدان میں موجود الیکٹران کی خاصیت \عددی{\bM{S}_z} \اصطلاح{قالب چکر}\فرہنگ{قالب چکر}\حاشیہب{spin matrix}\فرہنگ{spin matrix} سے معلوم کی جا سکتی ہے۔\عددی{z} میدان میں \ترچھا{اوپر چکر} الیکٹران کو آئگنی سمتیہ \عددی{\chi^z_+} اور \ترچھا{نیچے چکر} الیکٹران کو آئگنی سمتیہ \عددی{\chi^z_-} سے ظاہر کیا جاتا ہے۔ درج ذیل \عددی{\bM{S}_z} قالب کے آئگنی قدر (یعنی الیکٹران کا چکر) حاصل کرتے ہوئے آئگنی سمتیات دریافت کریں۔
  \begin{align*}
-\bM{S}_z=\begin{bmatrix} \frac{\hbar}{2} & 0\\ 0 & -\frac{\hbar}{2}\end{bmatrix}
+\bM{S}_z=\begin{bmatrix*}[r] \frac{\hbar}{2} & 0\\ 0 & -\frac{\hbar}{2}\end{bmatrix*}
 \end{align*}
-جوابات:\عددی{\lambda_-=-\tfrac{\hbar}{2}}، \عددی{\lambda_+=\tfrac{\hbar}{2}}، \عددی{\chi^z_-=\begin{bmatrix} 0 \\ 1 \end{bmatrix}}،  \عددی{\chi^z_+=\begin{bmatrix} 1 \\ 0 \end{bmatrix}}
+جوابات:\عددی{\lambda_-=-\tfrac{\hbar}{2}}، \عددی{\lambda_+=\tfrac{\hbar}{2}}، \عددی{\chi^z_-=\begin{bmatrix*}[r] 0 \\ 1 \end{bmatrix*}}،  \عددی{\chi^z_+=\begin{bmatrix*}[r] 1 \\ 0 \end{bmatrix*}}
 \انتہا{سوال}
 %==================
 \ابتدا{سوال}
 مقناطیسی میدان میں الیکٹران کی زاویائی حرکت کے معیار اثر کا مربع \عددی{\bM{S}^2} قالب سے ظاہر کیا جاتا ہے۔اس قالب کی آئگنی قدر زاویائی حرکت کے معیار اثر کا مربع ہو گا۔قالب کی آئگنی قدر اور آئگنی سمتیات دریافت کریں۔
   \begin{align*}
-\bM{S}^2=\begin{bmatrix} \frac{3\hbar}{4} & 0\\ 0 & \frac{3\hbar}{4}\end{bmatrix}
+\bM{S}^2=\begin{bmatrix*}\frac{3\hbar}{4} & 0\\ 0 & \frac{3\hbar}{4}\end{bmatrix*}
 \end{align*}
-جوابات:\عددی{\lambda_1=\lambda_2=\tfrac{3\hbar^2}{4}}،  \عددی{\begin{bmatrix} 0 \\ 1 \end{bmatrix}}، 
- \عددی{\begin{bmatrix} 1 \\ 0 \end{bmatrix}}
+جوابات:\عددی{\lambda_1=\lambda_2=\tfrac{3\hbar^2}{4}}،  \عددی{\begin{bmatrix*}[r] 0 \\ 1 \end{bmatrix*}}، 
+ \عددی{\begin{bmatrix*}[r] 1 \\ 0 \end{bmatrix*}}
 \انتہا{سوال}
 %===================
 \ابتدا{سوال}\quad 
-$\bM{A}=\begin{bmatrix} 1& -1\\ 0&1 \end{bmatrix}$\\
-جوابات:\عددی{\lambda_1=\lambda_2=1}، \عددی{\bM{x}^{(1)}=\bM{x}^{(2)}=\begin{bmatrix} 1 \\0 \end{bmatrix}}
+$\bM{A}=\begin{bmatrix*}[r] 1& -1\\ 0&1 \end{bmatrix*}$\\
+جوابات:\عددی{\lambda_1=\lambda_2=1}، \عددی{\bM{x}^{(1)}=\bM{x}^{(2)}=\begin{bmatrix*}[r] 1 \\0 \end{bmatrix*}}
 \انتہا{سوال}
 %=====================
 \ابتدا{سوال}\quad
-$\bM{A}=\begin{bmatrix} 1& -1\\ 1&0 \end{bmatrix}$\\
+$\bM{A}=\begin{bmatrix*}[r] 1& -1\\ 1&0 \end{bmatrix*}$\\
 جوابات:\عددی{\lambda_1=\tfrac{1}{2}-\tfrac{\sqrt{3}}{2}i}،  \عددی{\lambda_2=\tfrac{1}{2}+\tfrac{\sqrt{3}}{2}i}، 
-\عددی{\bM{x}^{(1)}=\begin{bmatrix} 1 \\ \tfrac{1}{2}+\tfrac{\sqrt{3}}{2}i \end{bmatrix}}، \عددی{\bM{x}^{(2)}=\begin{bmatrix} 1 \\ \tfrac{1}{2}-\tfrac{\sqrt{3}}{2}i \end{bmatrix}}
+\عددی{\bM{x}^{(1)}=\begin{bmatrix*} 1 \\ \tfrac{1}{2}+\tfrac{\sqrt{3}}{2}i \end{bmatrix*}}، \عددی{\bM{x}^{(2)}=\begin{bmatrix*} 1 \\ \tfrac{1}{2}-\tfrac{\sqrt{3}}{2}i \end{bmatrix*}}
 \انتہا{سوال}
 %=====================
 \ابتدا{سوال}\شناخت{سوال_نظام_آئگنی_ب}\
-$\bM{A}=\begin{bmatrix} 0.2& 0.6\\ -0.4&1.2 \end{bmatrix}$\\
+$\bM{A}=\begin{bmatrix*}[r] 0.2& 0.6\\ -0.4&1.2 \end{bmatrix*}$\\
 جوابات:\عددی{\lambda_1=\tfrac{3}{5}}،  \عددی{\lambda_2=\tfrac{4}{5}}، 
-\عددی{\bM{x}^{(1)}=\begin{bmatrix} 1 \\ \tfrac{2}{3} \end{bmatrix}}،
- \عددی{\bM{x}^{(2)}=\begin{bmatrix} 1 \\ 1\end{bmatrix}}
+\عددی{\bM{x}^{(1)}=\begin{bmatrix*}[r] 1 \\ \tfrac{2}{3} \end{bmatrix*}}،
+ \عددی{\bM{x}^{(2)}=\begin{bmatrix*}[r] 1 \\ 1\end{bmatrix*}}
 \انتہا{سوال}
 %=====================
 
@@ -887,16 +887,16 @@ $\bM{A}=\begin{bmatrix} 0.2& 0.6\\ -0.4&1.2 \end{bmatrix}$\\
 \ابتدا{سوال}\شناخت{سوال_نظام_ٹینکی_الف}
 اگر مثال \حوالہ{مثال_نظام_ٹینکیوں_کا_نظام} میں ٹینکی الف میں ابتدائی طور پر چار سو \عددی{(400)} لٹر پانی موجود ہو تب جوابات کیا ہوں گے؟
 
-جوابات:\عددی{\bM{A}=\begin{bmatrix} -0.01 & 0.02 \\ 0.01 & -0.02 \end{bmatrix}}، \عددی{\lambda_1=-0.03}، 
-\عددی{\lambda_2=0}، \عددی{\bM{x}^{(1)}=\begin{bmatrix} 1 \\ -1  \end{bmatrix}}، \\
-\عددی{\bM{x}^{(2)}=\begin{bmatrix} 1 \\0.5  \end{bmatrix}}،\عددی{c_1=-20}، \عددی{c_2=20}، \عددی{\SI{23.1}{\minute}} 
+جوابات:\عددی{\bM{A}=\begin{bmatrix*}[r] -0.01 & 0.02 \\ 0.01 & -0.02 \end{bmatrix*}}، \عددی{\lambda_1=-0.03}، 
+\عددی{\lambda_2=0}، \عددی{\bM{x}^{(1)}=\begin{bmatrix*}[r] 1 \\ -1  \end{bmatrix*}}، \\
+\عددی{\bM{x}^{(2)}=\begin{bmatrix*}[r] 1 \\0.5  \end{bmatrix*}}،\عددی{c_1=-20}، \عددی{c_2=20}، \عددی{\SI{23.1}{\minute}} 
 \انتہا{سوال}
 %======================
 \ابتدا{سوال}\شناخت{سوال_نظام_ٹینکی_ب}
 مثال \حوالہ{مثال_نظام_ٹینکیوں_کا_نظام} میں  ٹینکی الف کے ساتھ دو سو \عددی{(200)} لٹر کی ٹینکی پ دو نالیوں کے ذریعہ جوڑی جاتی ہے۔ان کے مابین بھی چار لٹر فی منٹ کی شرح سے پانی کا تبادلہ ہوتا ہے۔ٹینکی پ میں ابتدائی طور پر دو سو لٹر کا خالص پانی پایا جاتا ہے۔اس نظام کے تفرقی مساوات لکھ کر \عددی{\bM{A}} حاصل کریں۔نظام کی آئگنی قدر اور آئگنی سمتیات دریافت کرتے ہوئے مخصوص حل دریافت کریں۔
 
-جوابات:\عددی{\bM{A}=\begin{bmatrix} -0.04 & 0.02 & 0.02 \\ 0.02 &-0.02 & 0\\ 0.02 & 0 &-0.02 \end{bmatrix}}، \عددی{\lambda_1=-0.06}، \عددی{\lambda_2=-0.02}، \عددی{\lambda_3=0}، \عددی{\bM{x}^{(1)}=\begin{bmatrix} 1 \\ -0.5 \\ -0.5  \end{bmatrix}}،
- \عددی{\bM{x}^{(2)}=\begin{bmatrix} 0 \\ 1 \\ -1  \end{bmatrix}}، \عددی{\bM{x}^{(3)}=\begin{bmatrix} 1 \\ 1 \\ 1  \end{bmatrix}}،\\
+جوابات:\عددی{\bM{A}=\begin{bmatrix*} -0.04 & 0.02 & 0.02 \\ 0.02 &-0.02 & 0\\ 0.02 & 0 &-0.02 \end{bmatrix*}}، \عددی{\lambda_1=-0.06}، \عددی{\lambda_2=-0.02}، \عددی{\lambda_3=0}، \عددی{\bM{x}^{(1)}=\begin{bmatrix*} 1 \\ -0.5 \\ -0.5  \end{bmatrix*}}،
+ \عددی{\bM{x}^{(2)}=\begin{bmatrix*}[r] 0 \\ 1 \\ -1  \end{bmatrix*}}، \عددی{\bM{x}^{(3)}=\begin{bmatrix*}[r] 1 \\ 1 \\ 1  \end{bmatrix*}}،\\
  \عددی{\bM{y}=-10\bM{x}^{(1)}e^{-0.06t}+15\bM{x}^{(-0.02t)}+10\bM{x}^{(3)}}
 \انتہا{سوال}
 %====================
@@ -928,33 +928,179 @@ $\bM{A}=\begin{bmatrix} 0.2& 0.6\\ -0.4&1.2 \end{bmatrix}$\\
 %===================
 \ابتدا{سوال}\شناخت{سوال_نظام_تبدیلی_الف}\quad 
 $y''+5y'+6y=0$\\
-جوابات:\عددی{\bM{A}=\begin{bmatrix} 0 & 1 \\ -5 & -6  \end{bmatrix}}، \عددی{\lambda_1=-3}، \عددی{\lambda_2=-2}،
- \عددی{\bM{x}^{(1)}=\begin{bmatrix}  1 \\ -3  \end{bmatrix}}،  \عددی{\bM{x}^{(2)}=\begin{bmatrix}  1 \\ -2  \end{bmatrix}}،
-$\bM{y}=c_1\begin{bmatrix} 1 \\ -3 \end{bmatrix} e^{-3t}+c_2\begin{bmatrix} 1 \\ -2 \end{bmatrix} e^{-2t}$ 
+جوابات:\عددی{\bM{A}=\begin{bmatrix*}[r] 0 & 1 \\ -5 & -6  \end{bmatrix*}}، \عددی{\lambda_1=-3}، \عددی{\lambda_2=-2}،
+ \عددی{\bM{x}^{(1)}=\begin{bmatrix*}[r]  1 \\ -3  \end{bmatrix*}}،  \عددی{\bM{x}^{(2)}=\begin{bmatrix*}[r]  1 \\ -2  \end{bmatrix*}}،
+$\bM{y}=c_1\begin{bmatrix*}[r] 1 \\ -3 \end{bmatrix*} e^{-3t}+c_2\begin{bmatrix*}[r] 1 \\ -2 \end{bmatrix*} e^{-2t}$ 
 \انتہا{سوال}
 %===================
 \ابتدا{سوال}\quad 
 $12y''-y'-6y=0$\\
-جوابات:\عددی{\bM{A}=\begin{bmatrix} 0 & 1 \\ \tfrac{1}{2} & \tfrac{1}{12}  \end{bmatrix}}، \عددی{\lambda_1=-\tfrac{2}{3}}، 
-\عددی{\lambda_2=\tfrac{3}{4}}، \عددی{\bM{x}^{(1)}=\begin{bmatrix}  1 \\ -\tfrac{2}{3}  \end{bmatrix}}، 
- \عددی{\bM{x}^{(2)}=\begin{bmatrix}  1 \\ \tfrac{3}{4}  \end{bmatrix}}،
-$\bM{y}=c_1\begin{bmatrix} 1 \\ -\tfrac{2}{3} \end{bmatrix} e^{-\tfrac{2}{3}t}+c_2\begin{bmatrix} 1 \\ \tfrac{3}{4} \end{bmatrix} e^{\tfrac{3}{4}t}$ 
+جوابات:\عددی{\bM{A}=\begin{bmatrix*}[r] 0 & 1 \\ \tfrac{1}{2} & \tfrac{1}{12}  \end{bmatrix*}}، \عددی{\lambda_1=-\tfrac{2}{3}}، 
+\عددی{\lambda_2=\tfrac{3}{4}}، \عددی{\bM{x}^{(1)}=\begin{bmatrix*}[r]  1 \\ -\tfrac{2}{3}  \end{bmatrix*}}، 
+ \عددی{\bM{x}^{(2)}=\begin{bmatrix*}[r]  1 \\ \tfrac{3}{4}  \end{bmatrix*}}،
+$\bM{y}=c_1\begin{bmatrix*}[r] 1 \\ -\tfrac{2}{3} \end{bmatrix*} e^{-\tfrac{2}{3}t}+c_2\begin{bmatrix*}[r] 1 \\ \tfrac{3}{4} \end{bmatrix*} e^{\tfrac{3}{4}t}$ 
 \انتہا{سوال}
 %===================
 \ابتدا{سوال}\quad 
 $y'''-y'=0$\\
-جوابات:\عددی{\bM{A}=\begin{bmatrix} 0 & 1 &0\\0 & 0&1 \\ 0&1&0  \end{bmatrix}}،
+جوابات:\عددی{\bM{A}=\begin{bmatrix*}[r] 0 & 1 &0\\0 & 0&1 \\ 0&1&0  \end{bmatrix*}}،
  \عددی{\lambda_1=-1}، 
-\عددی{\lambda_2=1}، \عددی{\lambda_3=0}، \عددی{\bM{x}^{(1)}=\begin{bmatrix}  1 \\ -1 \\ 1  \end{bmatrix}}، 
- \عددی{\bM{x}^{(2)}=\begin{bmatrix}  1 \\ 1 \\ 1  \end{bmatrix}}،  \عددی{\bM{x}^{(3)}=\begin{bmatrix}  1 \\ 0 \\ 0  \end{bmatrix}}، 
-$\bM{y}=c_1\begin{bmatrix} 1 \\ -1 \\ 1 \end{bmatrix} e^{-t}+c_2\begin{bmatrix} 1 \\ 1 \\ 1 \end{bmatrix} e^{t}+c_3 \begin{bmatrix} 1 \\ 0 \\ 0 \end{bmatrix}$ 
+\عددی{\lambda_2=1}، \عددی{\lambda_3=0}، \عددی{\bM{x}^{(1)}=\begin{bmatrix*}[r]  1 \\ -1 \\ 1  \end{bmatrix*}}، 
+ \عددی{\bM{x}^{(2)}=\begin{bmatrix*}[r]  1 \\ 1 \\ 1  \end{bmatrix*}}،  \عددی{\bM{x}^{(3)}=\begin{bmatrix*}[r]  1 \\ 0 \\ 0  \end{bmatrix*}}، 
+$\bM{y}=c_1\begin{bmatrix*}[r] 1 \\ -1 \\ 1 \end{bmatrix*} e^{-t}+c_2\begin{bmatrix*}[r] 1 \\ 1 \\ 1 \end{bmatrix*} e^{t}+c_3 \begin{bmatrix*}[r] 1 \\ 0 \\ 0 \end{bmatrix*}$ 
 \انتہا{سوال}
 %===================
 \ابتدا{سوال}\quad 
 $y''+9y'+14y=0$\\
-جوابات:\عددی{\bM{A}=\begin{bmatrix} 0 & 1 &0\\-14 & -9  \end{bmatrix}}،
- \عددی{\lambda_1=-2}، \عددی{\lambda_2=-7}، \عددی{\bM{x}^{(1)}=\begin{bmatrix}  1 \\ -2  \end{bmatrix}}، \\
- \عددی{\bM{x}^{(2)}=\begin{bmatrix}  1 \\ -7  \end{bmatrix}}، 
-$\bM{y}=c_1\begin{bmatrix} 1 \\ -2 \end{bmatrix} e^{-2t}+c_2\begin{bmatrix} 1 \\ -7 \end{bmatrix} e^{-7t}$ 
+جوابات:\عددی{\bM{A}=\begin{bmatrix*}[r] 0 & 1 \\-14 & -9  \end{bmatrix*}}،
+ \عددی{\lambda_1=-2}، \عددی{\lambda_2=-7}، \عددی{\bM{x}^{(1)}=\begin{bmatrix*}[r]  1 \\ -2  \end{bmatrix*}}، \\
+ \عددی{\bM{x}^{(2)}=\begin{bmatrix*}[r]  1 \\ -7  \end{bmatrix*}}، 
+$\bM{y}=c_1\begin{bmatrix*}[r] 1 \\ -2 \end{bmatrix*} e^{-2t}+c_2\begin{bmatrix*}[r] 1 \\ -7 \end{bmatrix*} e^{-7t}$ 
 \انتہا{سوال}
 %===================
+\ابتدا{سوال}
+دو اسپرنگ اور دو کمیت کا نظام شکل \حوالہ{شکل_نظام_اسپرنگ_کمیت_نظام} میں دکھایا گیا ہے جس میں \عددی{m_1=m_2=1}، \عددی{k_1=3} اور \عددی{k_2=4} ہیں۔اس نظام  کے تفرقی مساوات  لکھیں۔\عددی{\bM{y}=\bM{x}e^{\omega t}} تصور کرتے ہوئے، جہاں \عددی{\omega^2=\lambda} ہے، ان کا حل دریافت کریں۔
+ 
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\node[circle,fill=gray,inner sep=2.5mm] (a) at (0,-0.5) {};
+\node[circle,fill=gray,inner sep=2.5mm] (aa) at (0,-3) {};
+\node[circle,fill=gray,inner sep=2.5mm] (b) at (3,0) {};
+\node[circle,fill=gray,inner sep=2.5mm] (bb) at (3,-2) {};
+\draw[decoration={aspect=0.3, segment length=2.3mm, amplitude=3mm,coil},decorate] (0,2) -- (a); 
+\draw[decoration={aspect=0.3, segment length=2.5mm, amplitude=3mm,coil},decorate] (0,-0.5-0.4) -- (aa)
+node[pos=0.5,shift={(-0.75,0)},left]{\RL{اضافہ $(y_2-y_1)$ ہے}}++(0,-0.75)node[]{\RL{ارتعاش پذیر نظام}}; 
+\draw(0,-0.5-0.4)--++(0,0.05);
+\draw[decoration={aspect=0.3, segment length=1.7mm, amplitude=3mm,coil},decorate] (3,2) -- (b)node[pos=0.5,shift={(0.75,0)}]{$k_1$}; 
+\draw[decoration={aspect=0.3, segment length=1.7mm, amplitude=3mm,coil},decorate] (3,-0.4) -- (bb)node[pos=0.5,shift={(0.75,0)}]{$k_2$}++(0,-0.75)node[]{\RL{ساکن نظام}}; 
+\draw(3,-0.4)--++(0,0.05);
+\fill [pattern = north east lines] (-1,2) rectangle ++(5,0.2);
+\draw[thick] (-1,2) -- ++(5,0);
+%dashed lines
+\draw[dashed](b)--++(-2,0)coordinate[pos=0.8](bL);
+\draw[dashed](b)--++(1,0)node[right]{$(y_1=0)$};
+\draw[dashed](bb)--++(-2,0)coordinate[pos=0.8](bbL);
+\draw[dashed](bb)--++(1,0)node[right]{$(y_2=0)$};
+\draw[dashed](a)--++(1.5,0)coordinate(aR);
+\draw[dashed](aa)--++(1.5,0)coordinate(aaR);
+%dimensions
+\draw[-stealth] (bL)--($(a)!(bL)!(aR)$)node[pos=0.5,right]{$y_1$};
+\draw[-stealth] (bbL)--($(aa)!(bbL)!(aaR)$)node[pos=0.5,right]{$y_2$};
+\end{tikzpicture}
+\caption{دو اسپرنگ اور دو کمیت کا نظام۔}
+\label{شکل_نظام_اسپرنگ_کمیت_نظام}
+\end{figure}
+
+جوابات:\عددی{y_1=A\cos (1.109t)+B\sin (1.109t)+C\cos (3.126t)+D\sin (3.126t)}، \عددی{\عددی{y_2=A*\cos (1.109t)+B*\sin (1.109t)+C*\cos (3.126t)+D*\sin (3.126t)}}
+\انتہا{سوال}
+%=======================
+
+\حصہ{نظریہ نظام سادہ تفرقی مساوات اور ورونسکی}
+گزشتہ حصے کے ایک درجی تفرقی مساوات کے نظام، درج ذیل عمومی نظام کی مخصوص صورت ہے۔
+\begin{gather}
+\begin{aligned}\label{مساوات_نظام_عمومی_الف}
+y_1&=f_1(t,y_1,\cdots,y_n)\\
+y_2&=f_2(t,y_1,\cdots,y_n)\\
+\vdots &\\
+y_n&=f_n(t,y_1,\cdots,y_n)
+\end{aligned}\quad \implies \quad
+\begin{aligned}
+\bM{y}'=\bM{f}(t,\bM{y})
+\end{aligned}
+\end{gather}
+نظام کو سمتیہ کی صورت میں سمتیہ قطار \عددی{\bM{y}=[y_1,y_2,\cdots,y_n]^T} اور سمتیہ قطار \عددی{\bM{f}=[f_1,f_2,\cdots,f_n]^T} (یہاں $T$ سے مراد تبدیلی محل ہے جسے استعمال کرتے ہوئے سمتیہ قطار کو افقی لکھ کر جگہ بچائی گئی ہے) کی استعمال سے لکھا گیا ہے۔درج بالا نظام عملی استعمال کے تقریباً تمام صورتوں کو ظاہر کرتی ہے۔یوں \عددی{n=1} کی صورت میں یہ \عددی{y_1'=f_1(t,y_1)} یعنی \عددی{y'=f(t,y)} کو ظاہر کرے گی جسے ہم باب \حوالہ{باب_سادہ_اول_تفرقی} سے جانتے ہیں۔ 
+
+کسی وقفہ \عددی{a < t <b} پر مساوات \حوالہ{مساوات_نظام_عمومی_الف} کا \موٹا{حل}، وقفہ \عددی{a < t <b} پر قابل تفرق، \عددی{n} عدد  تفاعل کا سلسلہ
+\begin{align*}
+y_1=h_1(t),\quad y_2=h_2(t),\quad \cdots, \quad y_n=h_n(t)
+\end{align*}
+ہو گا جو  پورے  وقفے پر مساوات \حوالہ{مساوات_نظام_عمومی_الف} پر پورا اترتا ہو۔\اصطلاح{حل سمتیہ}\فرہنگ{حل سمتیہ}\حاشیہب{solution vector}\فرہنگ{solution vector} کو قطار سمتیہ \عددی{\bM{h}=[h_1(t),\cdots,h_n(t)]^T} کی صورت میں لکھا جا سکتا ہے۔
+\begin{align*}
+\bM{y}=\bM{h}(t)
+\end{align*}
+اس نظام پر مبنی \اصطلاح{ابتدائی قیمت مسئلہ} مساوات \حوالہ{مساوات_نظام_عمومی_الف} اور  \عددی{n} عدد \اصطلاح{ابتدائی شرائط} 
+\begin{align}\label{مساوات_نظام_عمومی_ب}
+y_1(t_0)=K_1, \quad y_2(t_0)=K_2,\quad \cdots,\quad y_n(t_0)=K_n
+\end{align}
+پر مبنی ہو گا۔ان ابتدائی شرائط کو سمتیہ کی صورت میں \عددی{\bM{y}(t_0)=\bM{K}} لکھا جا سکتا ہے جہاں \عددی{t_0} دیے گئے وقفے پر پایا جاتا ہے اور سمتیہ قطار \عددی{\bM{K}=[K_1,\cdots,K_n]^T} کے ارکان دیے گئے مستقل مقدار ہیں۔مساوات \حوالہ{مساوات_نظام_عمومی_الف} اور مساوات \حوالہ{مساوات_نظام_عمومی_ب} کے ابتدائی قیمت مسئلے کے حل کی \ترچھا{وجودیت} اور \ترچھا{یکتائی} کے لئے \ترچھا{معقول شرائط} درج ذیل مسئلہ بیان کرتی ہے جو حصہ \حوالہ{حصہ_اول_وجودیت_یکتائی} میں دیے گئے مسئلے کو وسعت دیتی ہے۔اس مسئلے کا ثبوت اس کتاب میں پیش نہیں کیا جائے گا۔
+%===============
+
+\ابتدا{مسئلہ}\شناخت{مسئلہ_نظام_وجودیت_یکتائی_نظام}\quad مسئلہ وجودیت اور یکتائی \\
+تصور کریں کہ \عددی{ty_1y_2\cdots y_n} \اصطلاح{میدان عمل}\فرہنگ{میدان عمل}\حاشیہب{domain}\فرہنگ{domain} پر  تفاعل \عددی{f_1} تا \عددی{f_n} اور ان کے تفرق \عددی{\tfrac{\partial f_1}{\partial y_1}} تا \عددی{\tfrac{\partial f_1}{\partial y_n}}  تا \عددی{\tfrac{\partial f_n}{\partial y_n}} استمراری ہیں اور اس میدان عمل پر نقطہ \عددی{(t_0,K_1,\cdots,K_n)} پایا جاتا ہو تب کچھ وقفہ \عددی{t_0-\alpha<t<t_0+\alpha} پر مساوات \حوالہ{مساوات_نظام_عمومی_الف} کا ایسا حل \ترچھا{موجود} ہے جو مساوات \حوالہ{مساوات_نظام_عمومی_ب} کے ابتدائی شرائط پر پورا اترتا ہو اور  یہ حل \ترچھا{یکتا} ہے۔
+\انتہا{مسئلہ}
+%===================
+
+\جزوحصہ{خطی نظام}
+سادہ تفرقی مساوات کے \ترچھا{خطی} ہونے کی تصور کو وسعت دیتے ہوئے ہم مساوات \حوالہ{مساوات_نظام_عمومی_الف} کو اس صورت \اصطلاح{خطی نظام}\فرہنگ{خطی نظام}\حاشیہب{linear system}\فرہنگ{linear system} کہیں گے جب اس کو
+\begin{gather}
+\begin{aligned}\label{مساوات_خطی_نظام_الف}
+y_1'&=a_{11}(t)y_1+\cdots+a_{1n}(t)y_n+g_1(t)\\
+y_2'&=a_{21}(t)y_1+\cdots+a_{2n}(t)y_n+g_2(t)\\
+\vdots\\
+y_n'&=a_{n1}(t)y_1+\cdots+a_{nn}(t)y_n+g_n(t)
+\end{aligned}\quad \implies \quad
+\bM{y}'=\bM{A}\bM{y}+\bM{g}
+\end{gather}
+لکھنا ممکن ہو جہاں
+\begin{align*}
+\bM{A}=
+\begin{bmatrix}
+a_{11} & a_{12}&\cdots & a_{1n}\\
+a_{21} & a_{22}&\cdots & a_{2n}\\
+&\vdots & &\\
+a_{n1} & a_{n2}&\cdots & a_{nn}
+\end{bmatrix}, \quad 
+\bM{y}=
+\begin{bmatrix}
+y_1\\
+y_2\\
+\vdots\\
+y_n
+\end{bmatrix}, \quad 
+\bM{g}=
+\begin{bmatrix}
+g_1\\
+g_2\\
+\vdots\\
+g_n
+\end{bmatrix}
+\end{align*}
+ہیں۔آپ دیکھ سکتے ہیں کہ نظام \حوالہ{مساوات_خطی_نظام_الف} میں \عددی{y_1'} تا \عددی{y_n'} کا \عددی{y_1} تا \عددی{y_n} کے ساتھ \ترچھا{خطی} تعلق ہے۔ اگر \عددی{\bM{g}=0} ہو تب نظام \حوالہ{مساوات_خطی_نظام_الف}
+\begin{align}\label{مساوات_خطی_نظام_ب}
+\bM{y}'=\bM{A}\bM{y}
+\end{align}
+صورت اختیار کرتا ہے جو  \اصطلاح{متجانس} نظام ہے جبکہ \عددی{\bM{g} \ne 0} کی صورت میں نظام \حوالہ{مساوات_خطی_نظام_الف} کو \اصطلاح{غیر متجانس} کہلاتا ہے۔یوں مثال \حوالہ{مثال_نظام_ٹینکیوں_کا_نظام} اور مثال \حوالہ{مثال_نظام_اسپرنگ_کمیت} متجانس نظام ہیں جبکہ مثال \حوالہ{مثال_نظام_برقی_جال} غیر متجانس نظام ہے۔
+
+خطی نظام میں \عددی{\tfrac{\partial f_1}{\partial y_1}=a_{11}(t)} تا  \عددی{\tfrac{\partial f_n}{\partial y_n}=a_{nn}(t)} ہیں لہٰذا مسئلہ \حوالہ{مسئلہ_نظام_وجودیت_یکتائی_نظام} سے درج ذیل حاصل ہوتا ہے۔
+
+%==================
+\ابتدا{مسئلہ}\quad خطی نظام کا مسئلہ وجودیت اور یکتائی \\
+تصور کریں کہ کھلے وقفہ \عددی{\alpha <t<\beta} جس پر نقطہ \عددی{t_0} پایا جاتا ہو، پر  نظام \حوالہ{مساوات_خطی_نظام_الف} کے تمام \عددی{a_{jk}} اور \عددی{g_j} استمراری ہیں۔ایسی صورت میں نظام \حوالہ{مساوات_خطی_نظام_الف} کا ایسا حل \عددی{\bM{y}} \ترچھا{موجود} ہے جو ابتدائی شرائط مساوات \حوالہ{مساوات_نظام_عمومی_ب} پر پورا اترتا ہے  اور  یہ حل \ترچھا{یکتا} ہے۔
+\انتہا{مسئلہ}
+%=======================
+
+ایک عدد متجانس سادہ تفرقی مساوات کی طرح  مسئلہ خطی میل متجانس نظام کے لئے بھی قابل استعمال ہے۔ 
+
+%=======================
+\ابتدا{مسئلہ}\quad مسئلہ خطی میل\\
+اگر \عددی{\bM{y}^{(1)}} اور \عددی{\bM{y}^{(2)}} کسی کھلے وقفے پر متجانس خطی نظام \حوالہ{مساوات_خطی_نظام_ب} کے حل ہوں تب ان کا کوئی بھی خطی میل \عددی{\bM{y}=c_1\bM{y}^{(1)}+c_2\bM{y}^{(2)}}  بھی اس نظام کا حل ہو گا۔ 
+\انتہا{مسئلہ}
+%===================
+
+\ابتدا{ثبوت}
+خطی میل \عددی{} کا تفرق لیتے ہوئے مساوات \حوالہ{مساوات_خطی_نظام_ب} کا استعمال کرتے ہیں۔
+\begin{align*}
+\bM{y}'&=[c_1\bM{y}^{(1)}+c_2\bM{y}^{(2)}]'\\
+&=c_1\bM{y}^{(1)'}+c_2\bM{y}^{(2)'}\\
+&=c_1\bM{A}\bM{y}^{(1)}+c_2\bM{A}\bM{y}^{(2)}\\
+&=\bM{A}(c_1\bM{y}^{(1)}+c_2\bM{y}^{(2)})=\bM{A}\bM{y}
+\end{align*}
+\انتہا{ثبوت}
+%====================
+
+خطی سادہ تفرقی مساوات کے نظام کا نظریہ، ایک عدد خطی سادہ تفرقی مساوات کے نظریے سے بہت مشابہت رکھتا ہے جس پر حصہ \حوالہ{حصہ_سادہ_دو_وجودیت_یکتائی_ورونسکی} اور حصہ \حوالہ{حصہ_سادہ_دو_غیر_متجانس} میں غور کیا گیا۔یہ دیکھنے کی خاطر ہم بالکل بنیادی تصورات اور حقائق پر غور کرتے ہیں۔ 
+%===============
+
+\جزوحصہء{اساس، عمومی حل اور ورونسکی}
+

@@ -1,0 +1,58 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{commath}									%differentiation symbols
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,decorations.pathreplacing,decorations.markings}
+
+\input{../../tex/myEMTvectors.tex}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+
+
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle]
+\pgfmathsetmacro{\lmt}{0.8}
+\pgfmathsetmacro{\ca}{1}
+\pgfmathsetmacro{\cb}{1}
+\addplot[domain=-\lmt:\lmt,samples=100]({\ca*e^(-2*x)},{\cb*e^(-4*x)});
+\pgfmathsetmacro{\ca}{1}
+\pgfmathsetmacro{\cb}{-1}
+\addplot[domain=-\lmt:\lmt,samples=100]({\ca*e^(-2*x)},{\cb*e^(-4*x)});
+\pgfmathsetmacro{\ca}{-1}
+\pgfmathsetmacro{\cb}{1}
+\addplot[domain=-\lmt:\lmt,samples=100]({\ca*e^(-2*x)},{\cb*e^(-4*x)});
+\pgfmathsetmacro{\ca}{-1}
+\pgfmathsetmacro{\cb}{-1}
+\addplot[domain=-\lmt:\lmt,samples=100]({\ca*e^(-2*x)},{\cb*e^(-4*x)});
+\pgfmathsetmacro{\ca}{0.5}
+\pgfmathsetmacro{\cb}{1}
+\addplot[domain=-\lmt:\lmt,samples=100]({\ca*e^(-2*x)},{\cb*e^(-4*x)});
+\pgfmathsetmacro{\ca}{1}
+\pgfmathsetmacro{\cb}{0.5}
+\addplot[domain=-\lmt:\lmt,samples=100]({\ca*e^(-2*x)},{\cb*e^(-4*x)});
+\pgfmathsetmacro{\ca}{-1}
+\pgfmathsetmacro{\cb}{0.5}
+\addplot[domain=-\lmt:\lmt,samples=100]({\ca*e^(-2*x)},{\cb*e^(-4*x)});
+\pgfmathsetmacro{\ca}{-0.5}
+\pgfmathsetmacro{\cb}{1}
+\addplot[domain=-\lmt:\lmt,samples=100]({\ca*e^(-2*x)},{\cb*e^(-4*x)});
+\pgfmathsetmacro{\ca}{1}
+\pgfmathsetmacro{\cb}{-0.5}
+\addplot[domain=-\lmt:\lmt,samples=100]({\ca*e^(-2*x)},{\cb*e^(-4*x)});
+\pgfmathsetmacro{\ca}{0.5}
+\pgfmathsetmacro{\cb}{-1}
+\addplot[domain=-\lmt:\lmt,samples=100]({\ca*e^(-2*x)},{\cb*e^(-4*x)});
+\pgfmathsetmacro{\ca}{1.5}
+\pgfmathsetmacro{\cb}{-1}
+\addplot[domain=-\lmt:\lmt,samples=100]({\ca*e^(-2*x)},{\cb*e^(-4*x)});
+\end{axis}%
+\end{tikzpicture}%
+\end{document}

@@ -1225,7 +1225,7 @@ y_2'&=a_{21}y_1+a_{22}y_2
 %================
 \ابتدا{مثال}\quad سطح مرحلہ پر خط حرکت\\
 درج ذیل نظام کے حل کی منحنی کھینچیں۔
-\begin{gather*}
+\begin{gather}\label{مثال_نظام_خط_حرکت_الف}
 \begin{aligned}
 \bM{y}'=\bM{A}\bM{y}=\begin{bmatrix*}[r] -4& 2\\ -1&-1 \end{bmatrix*}\bM{y}
 \end{aligned}\quad \implies \quad
@@ -1233,7 +1233,7 @@ y_2'&=a_{21}y_1+a_{22}y_2
 y_1'&=-4y_1+2y_2\\
 y_2'&=-y_1-y_2
 \end{aligned}
-\end{gather*}
+\end{gather}
 حل:\عددی{\bM{y}=\bM{x}e^{\lambda t}} اور \عددی{\bM{y}'=\lambda \bM{x}e^{\lambda t}} پر کر کے قوت نمائی تفاعل سے تقسیم کرتے ہوئے \عددی{\bM{A}\bM{x}=\lambda\bM{x}} ملتا ہے۔امتیازی مساوات
 \begin{align*}
 \begin{vmatrix}
@@ -1250,6 +1250,245 @@ y_2'&=-y_1-y_2
 \bM{y}=\begin{bmatrix} y_1 \\y_2 \end{bmatrix}=c_1\bM{y}^{(1)}+c_2\bM{y}^{(2)}=c_1\begin{bmatrix} 1 \\ 1 \end{bmatrix}e^{-2t}+c_2\begin{bmatrix} 1\\ 0.5 \end{bmatrix}e^{-3t}
 \end{align*}
 
-
+\حاشیہط{شکل بنانا باقی ہے جسے اگلے مثال میں بھی استعمال کیا گیا ہے}
 \انتہا{مثال}
 %===================
+
+\جزوحصہء{نظام کا نقطہ فاصل}
+ایسا معلوم ہوتا ہے کہ نظام \حوالہ{مساوات_نظام_سطح_مرحلہ_الف} کے تمام \ترچھا{خط حرکت} نقطہ \عددی{\bM{y}=0} سے  گزرتے ہیں۔آئیں دیکھیں کہ ایسا کیوں ہے۔علم الاحصاء سے درج ذیل لکھا جا سکتا ہے۔
+\begin{align}\label{مساوات_نظام_نقطہ_فاصل_الف}
+\frac{\dif y_2}{\dif y_1}=\frac{y_2' \dif t}{y_1'\dif t}=\frac{y_2'}{y_1'}=\frac{a_{21}y_1+a_{22}y_2}{a_{11}y_1+a_{12}y_2}
+\end{align}
+یوں ماسوائے نقطہ \عددی{P_0:(0,0)} کے، ہر نقطہ \عددی{P:(y_1,y_2)} کے ساتھ  خط حرکت کا مماس \عددی{\tfrac{\dif y_2}{\dif y_1}} منسلک کی جا سکتا ہے۔نقطہ \عددی{P_0} پر مساوات \حوالہ{مساوات_نظام_نقطہ_فاصل_الف} کا دایاں ہاتھ \عددی{\tfrac{0}{0}} ہو گا جو ۔ایسا نقطہ \عددی{P_0} جس پر
+ \عددی{\tfrac{\dif y_2}{\dif y_1}} کی قیمت \ترچھا{نا قابل معلوم} ہو کو نظام \حوالہ{مساوات_نظام_سطح_مرحلہ_الف} کا \اصطلاح{نقطہ فاصل}\فرہنگ{نقطہ فاصل}\حاشیہب{critical point}\فرہنگ{critical point} کہتے ہیں۔
+
+\جزوحصہء{نقطہ فاصل کے پانچ اقسام}
+نقطہ فاصل کے قریب، خط حرکت کی جیومیٹریائی صورت کو دیکھ کر \ترچھا{نقطہ فاصل} کی پانچ اقسام بیان کیے جا سکتے ہیں جنہیں \اصطلاح{غیر موزوں جوڑ}\فرہنگ{جوڑ!غیر موزوں}\حاشیہب{improper node}\فرہنگ{node!improper}، \اصطلاح{موزوں جوڑ}\فرہنگ{جوڑ!موزوں}\حاشیہب{proper node}\فرہنگ{node!proper}، \اصطلاح{نقطہ زین}\فرہنگ{نقطہ!زین}\حاشیہب{saddle point}\فرہنگ{point!saddle}\فرہنگ{saddle}، \اصطلاح{وسط}\فرہنگ{وسط}\حاشیہب{centre}\فرہنگ{centre}  اور  \اصطلاح{نقطہ مرغولہ}\فرہنگ{نقطہ!مرغولہ}\حاشیہب{spiral point}\فرہنگ{point!spiral} کہتے ہیں۔ان کی وضاحت درج ذیل پانچ مثالوں میں کی گئی ہے جہاں ان کی تعریف بھی پیش کی گئی ہیں۔
+
+%===============
+\ابتدا{مثال}\quad غیر موزوں جوڑ\\
+ایسا نقطہ فاصل \عددی{P_0} جس پر، دو خط حرکت کے علاوہ، تمام خط حرکت کی مماس کی ایک جیسی تحدیدی سمت پائی جاتی ہو \اصطلاح{غیر موزوں جوڑ} کہلاتا ہے۔دو مختلف خط حرکت کا بھی نقطہ \عددی{P_0} پر تحدیدی سمت پایا جاتا ہے البتہ یہ تحدیدی سمت مختلف ہو گا۔
+
+نظام \حوالہ{مثال_نظام_خط_حرکت_الف} کا \عددی{\bM{0}} پر غیر موزوں جوڑ پایا جاتا ہے۔چونکہ \عددی{e^{-2t}} کی نسبت سے \عددی{e^{-3t}} زیادہ تیزی سے گھٹتی ہے لہٰذا  غیر موزوں جوڑ پر مشترکہ تحدیدی سمت،  \عددی{\bM{x}^{(1)}=[1 \quad 1]^T} کی سمت ہے۔ دو غیر معمولی خط حرکت کی سمت \عددی{\bM{x}^{(2)}=[1 \quad 0.5]^T} اور \عددی{-\bM{x}^{(2)}=[-1\quad -0.5]^T} کی سمتیں ہیں۔
+
+\حاشیہط{تصدیق کر لیں کہ اس مثال کی آخری پیراگراف درست ہے}
+\انتہا{مثال}
+%==================
+
+\ابتدا{مثال}\شناخت{مثال_نظام_موزوں_جوڑ}\quad موزوں جوڑ\\
+ایسا نقطہ فاصل \عددی{P_0} جس پر ہر خط حرکت کی  تحدیدی سمت پائی جاتی ہو \اصطلاح{موزوں جوڑ} کہلاتا ہے۔موزوں جوڑ پر ایسا خط حرکت ضرور ہو گا جس کی تحدیدی سمت \عددی{\bM{d}} ہو جہاں \عددی{\bM{d}} کوئی بھی سمت ہو سکتی ہے۔
+
+نظام 
+\begin{gather}
+\begin{aligned}
+\bM{y}'=\begin{bmatrix} 1 & 0 \\ 0 &1 \end{bmatrix} \bM{y}
+\end{aligned}\quad \implies \quad 
+\begin{aligned} 
+y_1'&=y_1\\
+y_2'&=y_2
+\end{aligned}
+\end{gather}
+کا موزوں جوڑ مرکز پر پایا جاتا ہے۔اس میں فرضی حل \عددی{\bM{y}=\bM{x}e^{\lambda t}} اور اس کا تفرق \عددی{\bM{y}'=\lambda \bM{x}e^{\lambda t}} پر کر کے \عددی{e^{\lambda t}} سے تقسیم کرتے ہوئے \عددی{\bM{A}\bM{x}=\lambda \bM{x}}  یعنی \عددی{(\bM{A}-\lambda\bM{I})\bM{x}=\bM{0}} حاصل ہوتا ہے۔اس کی آئگنی قدر، \عددی{\bM{x} \ne \bM{0}} کی صورت میں، امتیازی مساوات \عددی{(1-\lambda)^2=0} سے  \عددی{\lambda=1}  حاصل ہوتی ہے۔مساوات \عددی{(\bM{A}-\lambda\bM{I})\bM{x}=\bM{0}} کے اجزاء  \عددی{(1-\lambda)x_1=0} اور \عددی{(1-\lambda)x_2=0} میں حاصل آئگنی قدر پر کرتے ہوئے ہم دیکھتے ہیں کہ \عددی{\bM{x} \ne \bM{0}} کے علاوہ آئگنی سمتیہ \عددی{\bM{x}} کی کوئی بھی قیمت چننی جا سکتی ہے۔ یوں \عددی{[1\quad 0]^T} اور \عددی{[0 \quad 1]^T} چنتے ہوئے عمومی حل لکھتے ہیں۔
+\begin{gather*}
+\begin{aligned}
+\bM{y}=c_1\begin{bmatrix}1 \\ 0  \end{bmatrix} e^{t} +c_2\begin{bmatrix} 0 \\ 1 \end{bmatrix} e^{t}
+\end{aligned}\quad \implies \quad
+\begin{aligned}
+y_1&=c_1e^t\\
+y_2&=c_2e^t
+\end{aligned} \quad \implies \quad
+\begin{aligned}
+c_1y_2=c_2y_1
+\end{aligned}
+\end{gather*} 
+شکل \حوالہ{شکل_مثال_نظام_موزوں_جوڑ} میں سطح حرکت پر پیکر مرحلہ اور موزوں جوڑ دکھائے گئے ہیں۔ 
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}}]
+\pgfmathsetmacro{\lmtL}{-10}
+\pgfmathsetmacro{\lmtH}{1}
+\pgfmathsetmacro{\ca}{1}
+\pgfmathsetmacro{\cb}{1}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^x})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+\pgfmathsetmacro{\ca}{1}
+\pgfmathsetmacro{\cb}{-1}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^x})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+\pgfmathsetmacro{\ca}{-1}
+\pgfmathsetmacro{\cb}{1}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^x})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+\pgfmathsetmacro{\ca}{-1}
+\pgfmathsetmacro{\cb}{-1}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^x})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+\pgfmathsetmacro{\ca}{1}
+\pgfmathsetmacro{\cb}{0}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^x})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+\pgfmathsetmacro{\ca}{-1}
+\pgfmathsetmacro{\cb}{0}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^x})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+\pgfmathsetmacro{\ca}{0}
+\pgfmathsetmacro{\cb}{1}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^x})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+\pgfmathsetmacro{\ca}{0}
+\pgfmathsetmacro{\cb}{-1}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^x})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+%
+\addplot[fill=white] plot coordinates {(0,0)}node[ocirc]{};
+\end{axis}
+\end{tikzpicture}
+\caption{موزوں جوڑ۔}
+\label{شکل_مثال_نظام_موزوں_جوڑ}
+\end{figure}
+\انتہا{مثال}
+%====================
+\ابتدا{مثال}\شناخت{مثال_نظام_نقطہ_زین}\quad نقطہ زین\\
+ایسا نقطہ فاصل \عددی{P_0} جس پر دو عدد آمدی اور دو عدد رخصتی خط حرکت پائے جاتے ہوں \اصطلاح{نقطہ زین}  کہلاتا ہے۔نقطہ فاصل کے قریب بقایا تمام خط حرکت اس نقطے کو نہیں چھوتے۔
+
+نظام
+\begin{gather}
+\begin{aligned}
+\bM{y}'=\begin{bmatrix*}[r] 1&0 \\ 0&-1 \end{bmatrix*} \bM{y}
+\end{aligned}\quad \implies \quad
+\begin{aligned}
+y_1'&=y_1\\ 
+y_2'&=-y_2
+\end{aligned}
+\end{gather}
+کا \اصطلاح{نقطہ زین} مرکز پر پایا جاتا ہے۔اس نظام کے امتیازی مساوات \عددی{(-1-\lambda)(1-\lambda)=0} کے جذر \عددی{\lambda_1=1} اور \عددی{\lambda_2=-1} ہیں۔جذر \عددی{\lambda_1} کے لئے \عددی{(\bM{A}-\lambda\bM{I})\bM{x}=\bM{0}} کے دوسرے صف \عددی{0x_1(1-1)x_2=0} میں \عددی{x_1=1} چنتے ہوئے \عددی{x_2=0} ملتا ہے جس سے  آئگنی سمتیہ \عددی{[1\quad 0]^T} حاصل ہوتا ہے۔جذر \عددی{\lambda_2} کے لئے پہلے صف سے آئگنی سمتیہ \عددی{[0\quad 1]^T} حاصل ہوتا ہے۔ان سے عمومی حل لکھتے ہیں۔
+\begin{gather}
+\begin{aligned}
+\bM{y}=c_1\begin{bmatrix}1 \\ 0  \end{bmatrix} e^t+c_2\begin{bmatrix}  0\\1 \end{bmatrix} e^{-t}
+\end{aligned} \quad \implies\quad
+\begin{aligned}
+y_1&=c_1e^t\\
+y_2&=c_2e^{-t}
+\end{aligned}\quad \implies \quad
+\begin{aligned}
+y_1y_2=c
+\end{aligned}
+\end{gather}
+انہیں شکل \حوالہ{شکل_مثال_نظام_نقطہ_زین} میں دکھایا گیا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}}]
+\pgfmathsetmacro{\lmtL}{-1}
+\pgfmathsetmacro{\lmtH}{1}
+%
+\pgfmathsetmacro{\ca}{1}
+\pgfmathsetmacro{\cb}{1}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^(-x)})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+\pgfmathsetmacro{\ca}{-1}
+\pgfmathsetmacro{\cb}{1}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^(-x)})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+\pgfmathsetmacro{\ca}{1}
+\pgfmathsetmacro{\cb}{-1}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^(-x)})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+\pgfmathsetmacro{\ca}{-1}
+\pgfmathsetmacro{\cb}{-1}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^(-x)})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+%
+\pgfmathsetmacro{\ca}{1}
+\pgfmathsetmacro{\cb}{2}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^(-x)})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+\pgfmathsetmacro{\ca}{-1}
+\pgfmathsetmacro{\cb}{2}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^(-x)})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+\pgfmathsetmacro{\ca}{1}
+\pgfmathsetmacro{\cb}{-2}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^(-x)})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+\pgfmathsetmacro{\ca}{-1}
+\pgfmathsetmacro{\cb}{-2}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^(-x)})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+%
+\pgfmathsetmacro{\ca}{1}
+\pgfmathsetmacro{\cb}{0}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^(-x)})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+\pgfmathsetmacro{\ca}{-1}
+\pgfmathsetmacro{\cb}{0}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^(-x)})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+\pgfmathsetmacro{\ca}{0}
+\pgfmathsetmacro{\cb}{-1}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^(-x)})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+\pgfmathsetmacro{\ca}{0}
+\pgfmathsetmacro{\cb}{1}
+\addplot[domain=\lmtL:\lmtH]({\ca*e^x},{\cb*e^(-x)})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
+\draw[-stealth] (ka)--(kb);
+%
+\addplot[fill=white] plot coordinates {(0,0)} node[ocirc]{};
+\end{axis}
+\end{tikzpicture}
+\caption{نقطہ زین۔}
+\label{شکل_مثال_نظام_نقطہ_زین}
+\end{figure}
+\انتہا{مثال}
+%===================
+\ابتدا{مثال}\شناخت{مثال_نظام_وسط}\quad وسط\\
+ایسا نقطہ فاصل جسے لامتناہی بند خط حرکت گھیرتے ہوں \اصطلاح{وسط} کہلاتا ہے۔
+
+نظام
+\begin{gather}\label{مساوات_نظام_وسط_الف}
+\begin{aligned}
+\bM{y}'=\begin{bmatrix} 0&1\\ -9&0 \end{bmatrix}
+\end{aligned}\bM{y} \quad \implies \quad
+\begin{aligned}
+y_1'&=y_2 \quad (\text{الف})\\
+y_2'&=-9y_1\quad (\text{ب})
+\end{aligned}
+\end{gather}
+میں \عددی{\bM{y}=\bM{x}e^{\lambda t}} حل تصور کرتے  ہوئے \عددی{\bM{y}} اور \عددی{\bM{y}'} کو درج بالا میں پر کر کے \عددی{e^{\lambda t}} سے تقسیم کرتے ہوئے  \عددی{(\bM{A}-\lambda \bM{I})\bM{x}=\bM{0}} ملتا ہے۔اس سے \عددی{\bM{x} \ne \bM{0}} کی صورت میں امتیازی مساوات \عددی{\lambda^2+9=0} حاصل ہو گا جس کے آئگنی قدر \عددی{\lambda_1=3i} اور \عددی{\lambda_2=-3i}  ہیں۔ مساوات \عددی{(\bM{A}-\lambda \bM{I})\bM{x}=\bM{0}} کے پہلے صف میں \عددی{\lambda_1} پر کرتے ہوئے \عددی{x_2=3ix_1} ملتا ہے۔یوں \عددی{x_1=1} چنتے ہوئے \عددی{x_2=3i} حاصل ہو گا جس سے آئگنی سمتیہ \عددی{\bM{x}^{(1)}=[1 \quad 3i]^T} ملتا ہے۔اسی طرح \عددی{\lambda_2} کی مطابقتی آئگنی سمتیہ \عددی{\bM{x}^{(2)}=[1\quad -3i]^T} حاصل ہو گا۔یوں مخلوط عمومی حل لکھتے ہیں۔
+\begin{gather}\label{مساوات_نظام_وسط_ب}
+\begin{aligned}
+\bM{y}=c_1\begin{bmatrix} 1 \\ 3i \end{bmatrix} e^{3i t}+c_2\begin{bmatrix}  1 \\ -3i \end{bmatrix}e^{-3i t}
+\end{aligned}\quad \implies \quad
+\begin{aligned}
+y_1&=c_1e^{3it}+c_2e^{-3it}\\
+y_2&=3ic_1e^{3it}-3ic_2e^{-3it}
+\end{aligned}
+\end{gather}
+مساوات \حوالہ{مساوات_نظام_وسط_ب} کا حقیقی حل \اصطلاح{یولر} مساوات سے حاصل کیا جا سکتا ہے۔حقیقی حل کو مساوات \حوالہ{مساوات_نظام_وسط_الف} سے بھی حاصل کیا جا سکتا ہے۔یوں اگر مساوات \حوالہ{مساوات_نظام_وسط_الف}-الف کے بائیں ہاتھ اور مساوات -ب کے دائیں ہاتھ کو ضرب دیا جائے تو \عددی{-9y_1y_1'} حاصل ہو گا جو مساوات-ب کے بائیں ہاتھ اور مساوات-الف کے دائیں ہاتھ کے حاصل ضرب \عددی{y_2y_2'} کے برابر \عددی{-9y_1y_1'=y_2y_2'} ہو گا۔اس کا تکمل
+\begin{align*}
+\frac{9}{2}y_1^2+\frac{1}{2}y_2^2=c
+\end{align*}
+ ہے جو درکار حقیقی حل ہے۔یہ \اصطلاح{ترخیم}\فرہنگ{ترخیم}\حاشیہب{ellipse}\فرہنگ{ellipse} کی نسل کی مساوات ہے جس کو شکل \حوالہ{شکل_مثال_نظام_وسط} میں دکھایا گیا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,axis equal,axis lines*=middle,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}}]
+\pgfmathsetmacro{\kr}{1}
+\addplot[domain=-180:180,samples=100]({\kr*cos(x)},{3*\kr*sin(x)});
+\pgfmathsetmacro{\kr}{2}
+\addplot[domain=-180:180,samples=100]({\kr*cos(x)},{3*\kr*sin(x)});
+\pgfmathsetmacro{\kr}{3}
+\addplot[domain=-180:180,samples=100]({\kr*cos(x)},{3*\kr*sin(x)});
+\addplot[fill=white] plot coordinates {(0,0)} node[ocirc]{};
+\end{axis}
+\end{tikzpicture}
+\caption{وسط}
+\label{شکل_مثال_نظام_وسط}
+\end{figure}
+\انتہا{مثال}
+%===================
+\ابتدا{مثال}\شناخت{مثال_نظام_نقطہ_مرغولہ}\quad نقطہ مرغولہ\\
+
+\انتہا{مثال}
+%====================

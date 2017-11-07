@@ -426,9 +426,12 @@ eq:expand(%);
 solnA:solve(eq,a);
 a:ev(solnA,c=-2);
 
-A:matrix([7,b],[-2,d]);
+A:matrix([-1,b],[-2,d]);
 eigenvectors(A);
 
+I:matrix([1,0],[0,1]);
+w:1;
+A-I*w;
 Print("======================================");
 kill(all);
 print("Q 4.19");
@@ -796,3 +799,24 @@ eq2:'diff(y2(x),x)=a21*y1(x)+a22*y2(x);
 atvalue(y1(x),x=0,50);
 atvalue(y2(x),x=0,0);
 desolve([eq1,eq2],[y1(x),y2(x)]);
+
+
+Print("======================================");
+kill(all);
+print("Q 4.34");
+
+R:1;
+L:2;
+C:0.5;
+
+eq1:L*'diff(i1(t),t)+(i1(t)-i2(t))*R=0;
+eq2:i2(t)/C+('diff(i2(t),t)-'diff(i1(t),t))*R=0;
+
+desolve([eq1,eq2],[i1(t),i2(t)]);
+
+A:matrix([-0.5,0.5],[-0.5,-1.5]);
+eigenvectors(A);
+w:-1;
+I:matrix([1,0],[0,1]);
+A-w*I;
+

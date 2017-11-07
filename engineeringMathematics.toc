@@ -31,5 +31,5 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 4}}نظریہ نظام سادہ تفرقی مساوات اور ورونسکی}{\RL {\arabicfont 248}}
 \contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}.\RL {\arabicfont 4}}خطی نظام}{\RL {\arabicfont 249}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 4}}مستقل عددی سر والے نظام۔ سطح مرحلہ کی ترکیب}{\RL {\arabicfont 252}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 4}}نقطہ فاصل کی پہچان کا معیار۔استحکام}{\RL {\arabicfont 269}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 4}}نقطہ فاصل کے جانچ کا اصول۔استحکام}{\RL {\arabicfont 271}}
 \contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 173}}

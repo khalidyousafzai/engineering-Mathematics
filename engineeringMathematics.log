@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  7 NOV 2017 16:32
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  11 NOV 2017 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3166,7 +3166,18 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 [272]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 93.
-) [273] [274] [176
+ [273] [274] [275] [276]
+Overfull \hbox (2.96785pt too wide) in paragraph at lines 358--360
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات:مستحکم اور جاذب نقطہ مرغولہ؛  $\OM
+L/zplm/m/it/10 y[] \OT1/zplm/m/n/10 = \OML/zplm/m/it/10 e[]\OT1/zplm/m/n/10 (\O
+ML/zplm/m/it/10 A [] \OT1/ppl/m/n/10 2\OML/zplm/m/it/10 t \OT1/zplm/m/n/10 + \O
+ML/zplm/m/it/10 B [] \OT1/ppl/m/n/10 2\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$ \E
+U1/JameelNooriNastaleeq(1)/m/n/10 ،  $\OML/zplm/m/it/10 y[] \OT1/zplm/m/n/10 = 
+\OML/zplm/m/it/10 e[]\OT1/zplm/m/n/10 (\OMS/zplm/m/n/10 ^^@\OML/zplm/m/it/10 B 
+[] \OT1/ppl/m/n/10 2\OML/zplm/m/it/10 t \OT1/zplm/m/n/10 +$[]
+ []
+
+[277] [278] [279] [280]) [281] [176
 
 
 
@@ -3186,12 +3197,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45646 strings out of 493918
- 1082439 string characters out of 6150562
- 1246658 words of memory out of 5000000
- 48009 multiletter control sequences out of 15000+600000
+ 46189 strings out of 493918
+ 1097588 string characters out of 6150562
+ 1305547 words of memory out of 5000000
+ 48552 multiletter control sequences out of 15000+600000
  33111 words of font info for 136 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,20n,81p,10485b,914s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,20n,81p,10485b,2291s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (11 pages).
+Output written on engineeringMathematics.pdf (18 pages).

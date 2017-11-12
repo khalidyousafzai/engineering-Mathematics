@@ -68,7 +68,7 @@
 \date{}                           %if absent gives date in arabic which is a rubbish
 
 %\linenumbers
-%\makeindex
+\makeindex
 
 %==========
 \begin{document}
@@ -109,9 +109,23 @@
 \include{./tex/mathSystemOfDifferentialEquationsB}
 \include{./tex/mathQuestions}
 
+
+%=========================================================
+%\addcontentsline{toc}{chapter}{حوالہ}     %it is standard not to include References in toc. 
+\renewcommand*{\bibname}{حوالہ}      %this command has to be placed right here
+\begin{thebibliography}{99}\label{حوالہ_بیرونی_مواد}
+\begin{otherlanguage}{english}
+\bibitem{حوالہ_کریزگ_الف_سات}
+ Coddington, E. A. and N. Levinson, Theory of
+Ordinary Differential Equations. Malabar, FL: Krieger,
+1984.
+
+\end{otherlanguage}
+\end{thebibliography}
+%============================================================
 \appendix
 \include{./tex/mathAppendixAdditionalProofs}
-
+%
 
 %\include{./tex/emtEndOfBookTableDivergenceCurlGradientLaplacian}
 %\include{./tex/toDoList}
@@ -122,11 +136,15 @@
 %\include{./tex/emtDataTables}        %appendices
 %\include{./tex/emtLinearAlgebra}
 %\include{./tex/emtCoordinatesRelations}
+%================
+
+
+%=================
 
 \renewcommand*{\indexname}{فرہنگ}      %this command has to be placed right here just before printindex command
 \cleardoublepage
 \addcontentsline{toc}{chapter}{فرہنگ}
-\printindex
+%\printindex
 
 
 \end{urdufont}

@@ -1,0 +1,872 @@
+\begin{theindex}
+\begin{otherlanguage}{english}
+  \item absorber, 120
+  \item amplitude, 119, 169
+  \item analytic, 13
+  \item arbitrary constant, 4
+  \item Archimedese
+    \subitem principle, 128
+  \item autonomous, 280
+    \subitem differential equation, 20
+  \item auxiliary equation, 132
+
+  \indexspace
+
+  \item basis, 90
+    \subitem of solutions, 89
+  \item beats, 167
+  \item bell shaped, 24
+  \item bending moment, 219
+  \item Benjamin Gompertz, 37
+  \item Bernoulli
+    \subitem equation, 59
+  \item bounded, 75
+
+  \indexspace
+
+  \item cancer, 37
+  \item capacitor, 172
+  \item catenary, 96
+  \item Cauchy determinant, 204
+  \item centre, 256
+  \item chain rule, 94
+  \item characteristic
+    \subitem equation, 232
+  \item characteristic determinant, 232
+  \item characteristic equation, 98, 203
+  \item charge, 173
+  \item charged, 37
+  \item coaxial cable, 73
+  \item coefficients, 83
+    \subitem undetermined method, 152
+  \item column, 225
+  \item commutative
+    \subitem non, 227
+  \item continuous
+    \subitem partial differential, 40
+  \item continuous function, 41, 75
+  \item corresponding, 226
+  \item cosmic rays, 25
+  \item Coulomb, 173
+  \item Cramer's
+    \subitem theorem, 198
+  \item Cramer's rule, 201
+  \item critical damping, 121
+  \item critical point, 256
+  \item critical points, 63
+  \item current, 53, 56
+
+  \indexspace
+
+  \item damped
+    \subitem oscillations, 124
+  \item damping
+    \subitem critical, 121
+    \subitem over, 121
+    \subitem under, 121
+  \item damping constant, 120
+  \item defined, 4
+  \item degenerate node, 263
+  \item determinant, 198
+    \subitem Cauchy, 204
+  \item diagonal
+    \subitem main, 225
+  \item differential
+    \subitem autonomous, 20
+    \subitem calculus, 78
+    \subitem operator, 114
+    \subitem ordinary equation, 1
+    \subitem partial equation, 1
+  \item differential equation, 2
+  \item direction field, 14
+  \item discriminant, 272
+  \item displacement, 53
+  \item domain, 249
+
+  \indexspace
+
+  \item Eigenvalue, 231
+  \item Eigenvalues, 231
+  \item Eigenvector, 231
+  \item Eigenvectors, 231
+  \item electric field, 73
+  \item ellipse, 260
+  \item entry, 225
+  \item envelope, 106
+  \item equilibrium
+    \subitem points, 63
+    \subitem solution, 63
+  \item equipotential lines, 73
+  \item Euler equation, 104
+  \item Euler's method, 14
+  \item Euler-Cauchy equation, 132
+  \item exact differential equation, 40
+  \item existence, 2, 141
+    \subitem solution, 145, 199
+  \item explicit, 3
+
+  \indexspace
+
+  \item factorization, 114
+  \item Farad, 173
+  \item field
+    \subitem slope, 14
+  \item force, 53
+    \subitem input, 162
+    \subitem periodic, 162
+    \subitem restoring, 118
+  \item forcing function, 53
+  \item free
+    \subitem motion, 126
+  \item frequency, 119
+  \item friction
+    \subitem coefficient, 38
+  \item function
+    \subitem forcing, 162
+  \item fundamental
+    \subitem matrix, 251
+    \subitem system, 251
+
+  \indexspace
+
+  \item general solution, 6, 193
+  \item gland, 58
+  \item graphical, 13
+  \item gun, 172
+
+  \indexspace
+
+  \item harmonic oscillation, 119
+  \item Henry, 56
+  \item Hertz, 119
+  \item heterogeneous, 54
+  \item homogeneous, 192
+    \subitem linear ordinary differential equation, 53
+  \item Hooke's law, 118
+  \item hormones, 58
+  \item hyperbolic, 258
+    \subitem function, 149
+
+  \indexspace
+
+  \item identically zero, 82, 142, 197
+  \item identity
+    \subitem operator, 114
+  \item impedance, 175
+  \item implicit, 3
+  \item implicit solution, 41
+  \item in-phase, 177
+  \item inductor, 56
+  \item initial value
+    \subitem problem, 7
+  \item initial values, 7
+  \item input, 53
+    \subitem force, 162
+  \item instability, 112
+  \item integrating factor, 46
+  \item integration
+    \subitem by parts, 59
+  \item intersection
+    \subitem angle, 70
+  \item interval
+    \subitem open, 4
+  \item isoclines, 20
+  \item isolated, 281
+  \item isotherms, 73
+  \item isotope, 12
+  \item isotopes, 25
+
+  \indexspace
+
+  \item Kirchoff's law
+    \subitem voltage, 56
+
+  \indexspace
+
+  \item lagging, 169, 177
+  \item leading, 180
+  \item linear, 191
+    \subitem combination, 84
+    \subitem ordinary differential equations, 52
+    \subitem second order, 82
+  \item linear accelerator, 37
+  \item linear system, 249
+  \item linearity
+    \subitem principle, 83
+  \item linearization theorem, 281
+  \item linearly
+    \subitem independent set, 230
+  \item linearly dependent, 89, 142, 193, 197
+  \item linearly dependent vector, 230
+  \item linearly independent, 89, 142, 193, 197
+  \item logarithmic decrement, 131
+
+  \indexspace
+
+  \item Maclaurin series, 104
+  \item Maclaurin's series, 39
+  \item Malthus' law, 6
+  \item matrix, 224
+    \subitem fundamental, 251
+    \subitem non singular, 230
+    \subitem singular, 230
+    \subitem square, 225
+  \item model
+    \subitem mathematical, 1, 2
+  \item modeling, 2
+  \item modulus of elasticity
+    \subitem Young's, 218
+  \item moment
+    \subitem bending, 219
+  \item moment of inertia, 129, 218
+  \item motion
+    \subitem forced, 162
+
+  \indexspace
+
+  \item natural frequency, 119
+  \item necessary condition
+    \subitem exactness, 41
+  \item Newton
+    \subitem law of cooling, 28
+  \item node
+    \subitem degenerate, 261, 263
+    \subitem improper, 256
+    \subitem proper, 256
+  \item non exact, 45
+  \item non linear, 192
+  \item non trivial solution, 198
+  \item nonhomogeneous, 192
+  \item nonhomogenous
+    \subitem second order, 82
+  \item nonlinear, 82
+  \item numerical, 13
+  \item numerical method, 203
+
+  \indexspace
+
+  \item Ohm, 56
+  \item Ohm's law, 56
+  \item open
+    \subitem interval, 4
+  \item operator, 113
+    \subitem differential, 114
+    \subitem identity, 114
+  \item order
+    \subitem reduction, 91
+  \item orthogonal trajectories, 70
+  \item oscillations, 81
+    \subitem damped, 106, 124
+  \item output, 53, 162
+  \item over damping, 121
+
+  \indexspace
+
+  \item parameter, 70
+  \item parametric curve, 254
+  \item particular solution, 193
+  \item periodic
+    \subitem force, 162
+  \item phase
+    \subitem portrait, 254
+  \item phase angle, 119, 169
+  \item phase plane, 240
+  \item Plank' constant, 243
+  \item point
+    \subitem saddle, 256
+    \subitem spiral, 256
+  \item polynomial, 114
+  \item population growth, 61
+
+  \indexspace
+
+  \item quadratic equation, 98
+  \item qualitative method, 223
+  \item qualitative methods, 280
+  \item quantitative method, 223
+  \item quantum mechanics, 113, 231
+
+  \indexspace
+
+  \item radioactive decay, 6
+  \item radium, 8
+  \item reactance, 174
+  \item reduced, 93
+  \item reduction
+    \subitem order, 91
+  \item resistance, 56
+  \item resonance, 162, 165
+    \subitem factor, 165
+    \subitem practical, 168
+  \item response, 53, 162
+  \item restoring force, 118
+  \item row, 225
+
+  \indexspace
+
+  \item saddle, 256
+  \item scalar, 231
+  \item scalar product, 227
+  \item separable equation, 23
+  \item series circuit, 56, 172
+  \item set
+    \subitem linearly independent, 230
+  \item shaded, 76
+  \item shearing force, 219
+  \item shock absorber, 130
+  \item simultaneous equations, 91
+  \item singular
+    \subitem matrix, 230
+    \subitem solution, 7
+  \item singular solution, 90
+  \item skew-symmetric, 253
+  \item slope
+    \subitem field, 14
+  \item solution
+    \subitem family, 4
+    \subitem particular, 7
+    \subitem singular, 12
+    \subitem trivial, 53
+  \item solution curve, 4, 14
+  \item solution vector, 248
+  \item solutions
+    \subitem periodic, 274
+  \item spin, 243
+  \item spin down, 244
+  \item spin matrix, 244
+  \item spin up, 244
+  \item spiral point, 260
+  \item spring constant, 118
+  \item stability, 223, 272
+  \item stable, 63, 159, 273
+  \item stable and attractive, 273
+  \item standard form
+    \subitem second order, 82
+  \item steady state, 58
+  \item steady state response, 59
+  \item steady state solution, 168
+  \item sufficient condition
+    \subitem exactness, 41
+  \item superposition
+    \subitem principle, 83
+  \item symmetric, 253
+  \item symmetry
+    \subitem skew, 253
+  \item system
+    \subitem fundamental, 251
+
+  \indexspace
+
+  \item theorem
+    \subitem existence, 74
+    \subitem linearization, 281
+    \subitem mean value, 78
+    \subitem uniqueness, 74
+  \item time period, 119
+  \item Torricelli's law, 30
+  \item trajectory, 240
+  \item transducer, 179
+  \item transient
+    \subitem solution, 168
+  \item transpose matrix, 229
+  \item transposition, 229
+  \item trivial solution, 53
+
+  \indexspace
+
+  \item under damping, 121
+  \item unique
+    \subitem general solution, 6
+  \item uniqueness, 2, 141
+  \item unit matrix, 229
+  \item unstable, 63, 159, 273
+
+  \indexspace
+
+  \item variable separation, 23
+  \item variation of parameter, 61, 183
+  \item vector
+    \subitem column, 225
+    \subitem row, 225
+  \item Verhulst equation, 61
+  \item voltage, 53, 56, 135
+
+  \indexspace
+
+  \item Wronskian, 142, 197
+  \item Wronskian determinant, 144
+
+  \indexspace
+
+  \item Young's modulus of elasticity, 218
+
+  \indexspace
+
+  \item zero vector, 230
+\end{otherlanguage}
+  \newpage
+\item آرشمیدس
+   \subitem اصول، 128
+\item آزاد
+   \subitem حرکت، 126
+\item آگے، 180
+\item آلہ
+   \subitem موسیقی، 167
+\item آئگنی
+   \subitem سمتیات، 231
+   \subitem قدر، 231
+\item آئگنی سمتیہ، 231
+\item آئگنی قدر، 231
+\indexspace
+\item ابتدائی
+   \subitem شرائط، 195
+\item ابتدائی قیمت سوال، 7
+\item ابتدائی قیمتیں، 7
+\item احصاء تفرقیات، 78
+\item اختیاری
+   \subitem مستقل، 4
+\item ارتعاش، 81
+   \subitem اسپرنگ اور کمیت، 117
+   \subitem قصری، 106، 124
+\item ارکان، 225
+\item اساس، 90
+   \subitem حل، 89
+\item اسپرنگ
+   \subitem کمیت، 117
+   \subitem مستقلہ، 118
+\item استحکام، 223، 272
+\item استمراری، 40
+\item استمراری تفاعل، 41، 75
+\item اصول
+   \subitem آرشمیدس، 128
+   \subitem خطیت، 83، 84
+   \subitem خطی میل، 83
+\item اصول خطیت، 192
+\item اصول خطی میل، 84
+\item اعدادی، 13
+\item اعدادی طریقہ، 203
+\item اکائی قالب، 229
+\item امالہ، 56
+\item امتیازی، 203
+   \subitem مساوات، 232
+   \subitem مقطع، 232
+\item امتیازی مساوات، 98
+\item انحطاطی جوڑ، 261، 263
+\item اوپر چکر، 244
+\item اوہم، 56
+\indexspace
+\item بار، 173
+\item بار بردار، 37
+\item بحالی قوت، 118
+\item بذلولی، 149
+\item برقرار حال، 57
+\item برقرار حال حل، 168
+\item برقرار حل، 59
+\item برق گیر، 172
+\item برقی دباو، 53، 56، 135
+\item برقی رکاوٹ، 175
+\item برقی رو، 53، 56
+\item برقی میدان، 73
+\item برنولی مساوات، 59
+\item بندوق، 172
+\item بنیادی
+   \subitem قالب، 251
+   \subitem نظام، 251
+\indexspace
+\item پیچھے، 169، 177
+\item پیکر مرحلہ، 254
+\indexspace
+\item تابکاری تحلیل، 6
+\item تبدیلی محل، 229
+\item تبدیلی محل قالب، 229
+\item تجزی، 114
+\item تحلیل
+   \subitem تابکاری، 6
+\item تحلیلی، 13
+\item تخفیف
+   \subitem درجہ، 91
+\item تخفیف شدہ، 93
+\item ترخیم، 260
+\item ترسیمی، 13
+\item ترکیب
+   \subitem کیفی، 223، 280
+   \subitem مقداری، 223
+\item ترکیب علیحدگی متغیرات، 23
+\item تسلسل
+   \subitem مکلارن، 39، 104
+\item تشاکل، 253
+   \subitem منحرف، 253
+\item تعدد، 119
+   \subitem قدرتی، 119
+\item تفاعل
+   \subitem گامپرٹز، 37
+\item تفرقی
+   \subitem جزوی مساوات، 1
+   \subitem خود مختار، 20
+   \subitem سادہ مساوات، 1، 3
+   \subitem عامل، 114
+\item تفرقی مساوات، 2
+   \subitem قطعی، 40
+\item تقصیر
+   \subitem زیادہ، 121
+   \subitem فاصل، 121
+   \subitem کم، 121
+\item تکمل
+   \subitem بالحصص، 59
+   \subitem جزو، 46
+\item تنہا، 281
+\item تھاپ، 167
+\indexspace
+\item جاذب، 120
+\item جبری
+   \subitem حرکت، 162
+   \subitem قوت، 162
+\item جبری تفاعل، 53
+\item جدا کنندہ، 272
+\item جزو تکمل، 46
+\item جزی قوت، 219
+\item جمودی معیار اثر، 129، 218
+\item جوڑ
+   \subitem انحطاطی، 263
+   \subitem غیر مناسب، 256
+   \subitem مناسب، 256
+\indexspace
+\item چکر، 243
+\indexspace
+\item حل
+   \subitem برقرار حال، 168
+   \subitem دوری، 274
+   \subitem عارضی، 168
+   \subitem عمومی، 6
+   \subitem غیر اہم، 53
+   \subitem غیر صفر، 198
+   \subitem مخصوص، 7
+   \subitem موجود، 196
+   \subitem نادر، 7، 12، 141
+   \subitem نسل، 4
+   \subitem وجودیت عمومی حل، 145، 199
+\item حاصل تقسیم، 92
+\item حرکت
+   \subitem جبری، 162
+\item حرکی رگڑ کا مستقل، 38
+\item حل سمتیہ، 248
+\item حیطہ، 119، 169
+\indexspace
+\item خطی، 191
+   \subitem دو درجی، 82
+   \subitem سادہ تفرقی مساوات، 52
+   \subitem میل، 84
+\item خط حرکت، 240
+\item خطیت
+   \subitem اصول، 83
+\item خطی طور
+   \subitem تابع، 89، 142، 193
+   \subitem تابع سلسلہ، 230
+   \subitem  غیر تابع، 89، 142، 193
+   \subitem غیر تابع، 193
+   \subitem غیر تابع سلسلہ، 230
+\item خطی طور تابع، 142، 197
+\item خطی طور غیر تابع، 142، 197
+\item خطی میل، 192، 194
+   \subitem اصول، 83
+\item خطی نظام، 249
+\item خفی، 3
+\item خفی حل، 41
+\item خماو
+   \subitem معیار اثر، 219
+\item خود کار
+   \subitem بندوق، 172
+\item خود مختار، 280
+   \subitem سادہ تفرقی مساوات، 20
+   \subitem مساوات، 63
+\indexspace
+\item داخلی
+   \subitem قوت، 162
+\item درآیدہ، 53
+\item درجہ
+   \subitem تخفیف، 91
+\item دو درجی الجبرائی مساوات، 98
+\item دوری
+   \subitem قوت، 162
+\item دوری عرصہ، 119
+\item دھچکا روک، 130
+\indexspace
+\item ڈھال
+   \subitem میدان، 14
+\indexspace
+\item ذیلی مساوات، 132
+\indexspace
+\item رد عمل، 53، 162
+\item رگڑ
+   \subitem حرکی مستقل، 38
+\item روک
+   \subitem دھچکا، 130
+\item ریڈیم، 8
+\indexspace
+\item زاویائی فاصلہ، 169
+\item زاویائی فرق، 119
+\item زاویہ تقاطع، 70
+\item زلزلہ، 112
+\item زنجیری تفرق، 94
+\item زیادہ تقصیر، 121
+\indexspace
+\item سایہ دار، 76
+\item سرطان، 37
+   \subitem گامپرٹز، 37
+\item سطح مرحلہ، 240
+   \subitem ترکیب، 280
+\item سلسلہ
+   \subitem خطی طور تابع، 230
+   \subitem خطی طور غیر تابع، 230
+\item سلسلہ وار دور، 56، 172
+\item سمتیہ
+   \subitem صف، 225
+   \subitem صفر، 230
+   \subitem قطار، 225
+\item سمتیہ صف، 225
+\indexspace
+\item شرط
+   \subitem لازمی، 41
+   \subitem معقول، 41
+\indexspace
+\item صریح، 3
+\item صف، 225
+\item صفر
+   \subitem مکمل، 142، 197
+\item صفر سمتیہ، 230
+\indexspace
+\item عارضی حل، 168
+\item عامل، 113
+   \subitem تفرقی، 114
+   \subitem مماثلی، 114
+\item عددی سر
+   \subitem دو درجی مساوات، 83
+\item علیحدگی متغیرات
+   \subitem ترکیب، 23
+\item عمارت، 112
+\item عملی گمک، 168
+\item عمودی مطقاطع خطوط، 70
+\item عمومی حل، 6، 193
+\indexspace
+\item غدود، 58
+\item غلاف، 106
+\item غیر اہم
+   \subitem حل، 66
+\item غیر اہم حل، 53
+\item غیر تابع
+   \subitem خطی طور، 193
+\item غیر خطی، 82، 192
+\item غیر سمتی
+   \subitem مقدار، 231
+\item غیر سمتی ضرب، 227
+\item غیر صفر حل، 198
+\item غیر قطعی، 45
+\item غیر متجانس، 54، 192
+   \subitem دو درجی، 82
+\item غیر مستحکم، 63، 159، 273
+   \subitem صورت، 112
+\item غیر نادر قالب، 230
+\indexspace
+\item فاصل تقصیر، 121
+\item فاصل نقطے، 63
+\item فیراڈ، 173
+\indexspace
+\item قابل علیحدگی مساوات، 23
+\item قاعدہ کریمر، 201
+\item قالب، 224
+   \subitem بنیادی، 251
+   \subitem تبدیلی محل، 229
+   \subitem غیر نادر، 230
+   \subitem مربع، 225
+   \subitem نادر، 230
+\item قالب چکر، 244
+\item قانون
+   \subitem مالتُھس، 6
+\item قانون اوہم، 56
+\item قانون ٹاری سلی، 30
+\item قانون ہک، 118
+\item قدرتی تعدد، 119
+\item قصری
+   \subitem ارتعاش، 106، 124
+   \subitem مستقل، 120
+\item قطار، 225
+   \subitem سمتیہ، 225
+\item قطعی
+   \subitem غیر، 45
+\item قطعی تفرقی مساوات، 40
+\item قوت، 53
+   \subitem بحالی، 118
+   \subitem جبری، 162
+   \subitem جزی، 219
+   \subitem داخلی، 162
+   \subitem دوری، 162
+\indexspace
+\item کائناتی شعاعیں، 25
+\item کثیر رکنی، 114
+\item کرخوف
+   \subitem قانون دباو، 56
+\item کریمر
+   \subitem مسئلہ، 198
+\item کم تقصیر، 121
+\item کمیت
+   \subitem اسپرنگ، 117
+\item کوانٹم میکانیات، 113، 231
+\item کوشی مقطع، 204
+\item کولمب، 173
+\item کھلا
+   \subitem وقفہ، 4
+\item کیفی
+   \subitem تراکیب، 280
+\item کیفی ترکیب، 223
+\indexspace
+\item گامپرٹز تفاعل، 37
+\item گلٹی، 58
+\item گمک، 162، 165
+   \subitem عملی، 168
+\item گمکی جزو، 165
+\item گھٹاو
+   \subitem لوگارتھمی، 131
+\item گھنٹی نما، 24
+\indexspace
+\item لازم شرط، 77
+\item لازمی شرط
+   \subitem قطعی تفرقی، 41
+\item لوگارتھمی گھٹاو، 131
+\item لیزم، 96
+\indexspace
+\item ماحصل، 53، 162
+\item مالتُھس
+   \subitem قانون، 6
+\item مبدل، 179
+\item متجانس، 53
+\item متجانس مساوات، 192
+\item متعاملیت، 174
+\item متوازن
+   \subitem نقطے، 63
+\item متوازن حل، 63
+\item محدود، 75
+\item مخصوص
+   \subitem حل، 7
+\item مخصوص حل، 193
+\item مربع قالب، 225
+\item مرکزی وتر، 225
+\item مزاحمت، 56
+\item مساوات
+   \subitem ہمزاد، 91
+\item مستبدل
+   \subitem غیر، 227
+\item مستحکم، 63، 159، 273
+\item مستحکم اور جاذب، 273
+\item مستقل
+   \subitem اختیاری، 4
+   \subitem اسپرنگ، 118
+   \subitem قصری، 120
+\item مستقل پلانک، 243
+\item مسرع خطی، 37
+\item مسئلہ
+   \subitem اوسط قیمت، 78
+   \subitem بنیادی۔متجانس خطی، 84، 192
+   \subitem تابع اور غیر تابع حل، 142، 197
+   \subitem خطی میل، 84
+   \subitem کریمر، 198
+   \subitem وجودیت، 74
+   \subitem وجودیت اور یکتائی، 141، 196
+   \subitem وجودیت عمومی حل، 145، 199
+   \subitem یکتائی، 74
+\item مسئلہ خطی بنانا، 281
+\item معقول شرط، 77
+   \subitem قطعی تفرقی، 41
+\item معیار اثر
+   \subitem جمودی، 129، 218
+   \subitem خماو، 219
+\item معیاری صورت
+   \subitem دو درجی، 82
+\item معین، 4
+\item مقدار معلوم، 70
+   \subitem بدلنے کا طریقہ، 61، 183
+   \subitem منحنی، 254
+\item مقداری ترکیب، 223
+\item مقطع، 198
+   \subitem ورونسکی، 144
+\item مقیاس اثر
+   \subitem ینگ، 218
+\item مکلارن تسلسل، 39، 104
+\item مکمل صفر، 82، 142، 192، 197
+\item مماثلی
+   \subitem عامل، 114
+\item منحرف تشاکل، 253
+\item منحنی
+   \subitem مقدار معلوم، 254
+\item منحنی حل، 4، 14
+\item موجود
+   \subitem حل، 196
+\item موسیقی
+   \subitem آلہ، 167
+\item میدان
+   \subitem ڈھال، 14
+\item میدانِ
+   \subitem سمت، 14
+\item میدان عمل، 249
+\indexspace
+\item نادر
+   \subitem حل، 7، 12، 90
+   \subitem قالب، 230
+\item نادر حل، 141، 146
+\item نا معلوم عددی سر
+   \subitem ترکیب، 152
+\item نا معلوم عددی سر کی ترکیب، 213
+\item نسل
+   \subitem حل، 4
+\item نظام
+   \subitem بنیادی، 251
+\item نظیری، 226
+\item نقطہ
+   \subitem زین، 256
+   \subitem مرغولہ، 256
+\item نقطہ فاصل، 256
+\item نقطہ مرغولہ، 260
+\item نمو آبادی، 61
+\item نمونہ
+   \subitem ریاضی، 1، 2
+\item نمونہ کشی، 2
+\item نیچے چکر، 244
+\item نیوٹن کا قانون ٹھنڈک، 28
+\indexspace
+\item وتر
+   \subitem مرکزی، 225
+\item وجودیت، 2، 141
+   \subitem عمومی حل، 145، 199
+\item ورونسکی، 142، 197
+   \subitem مقطع، 144
+\item ورہلسٹ، 61
+\item وسط، 256
+\item وقفہ
+   \subitem کھلا، 4
+\indexspace
+\item ہارمونز، 58
+\item ہارمونی ارتعاش، 119
+\item ہٹاو، 53
+\item ہذلولی، 258
+\item ہرٹز، 119
+\item ہک کا قانون، 118
+\item ہم جا، 12، 25
+\item ہم حرارت خطوط، 73
+\item ہمزاد مساوات، 91
+\item ہم زاویہ، 177
+\item ہم قوہ خطوط، 73
+\item ہم محوری تار، 73
+\item ہم میلان، 20
+\item ہینری، 56
+\indexspace
+\item یکتا
+   \subitem حل، 6
+\item یکتا حل، 196
+\item یکتائی، 2، 141
+\item ینگ
+   \subitem مقیاس اثر، 218
+\item یولر
+   \subitem ترکیب، 14
+\item یولر کوشی مساوات، 132
+\item یولر مساوات، 104
+
+\end{theindex}

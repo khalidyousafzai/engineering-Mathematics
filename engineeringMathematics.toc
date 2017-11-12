@@ -33,4 +33,6 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 4}}مستقل عددی سر والے نظام۔ سطح مرحلہ کی ترکیب}{\RL {\arabicfont 252}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 4}}نقطہ فاصل کے جانچ کا اصول۔استحکام}{\RL {\arabicfont 271}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 4}}کیفی تراکیب برائے غیر خطی نظام}{\RL {\arabicfont 280}}
+\select@language {english}
+\select@language {arabic}
 \contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 173}}

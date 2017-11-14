@@ -1074,3 +1074,30 @@ I:matrix([1,0],[0,1]);
 A-w*I;
 determinant(%);
 expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 4.48");
+
+Q:matrix([2,-1],[-1,2]);
+eigenvectors(Q);
+I:matrix([1,0],[0,1]);
+dt:Q-w*I;
+determinant(dt);
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 4.49");
+
+k:-0.1;
+Q:matrix([k,1],[-16,k]);
+eigenvectors(Q);
+I:matrix([1,0],[0,1]);
+dt:Q-w*I;
+determinant(dt);
+expand(%);
+
+Print("======================================");
+kill(all);
+print("example 4.14");

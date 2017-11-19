@@ -47,12 +47,12 @@
 
 %\input{./tex/myElectronicsVariablesBetter.tex}         %these are all tested. to use at the very end when book is finished
 
-\graphicspath{{./fig/figFrontPage/}{./fig/figFirstOrderOrdinaryDifferentialEquations/}{./fig/figSecondOrderOrdinaryDifferentialEquations/}}		%paths to figures
+\graphicspath{{./fig/figFrontPage/}{./fig/figFirstOrderOrdinaryDifferentialEquations/}{./fig/figSecondOrderOrdinaryDifferentialEquations/}{./fig/figSystemOfDifferentialEquations/}}		%paths to figures
 
 
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathSecondOrderDifferentialEquations,./tex/mathHigherOrderDifferentialEquations,./tex/mathSystemOfDifferentialEquations,./tex/mathSystemOfDifferentialEquationsB}
+%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathSecondOrderDifferentialEquations,./tex/mathHigherOrderDifferentialEquations,./tex/mathSystemOfDifferentialEquations,./tex/mathSystemOfDifferentialEquationsB}
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathAppendixAdditionalProofs,./tex/mathQuestions}%
-%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathSystemOfDifferentialEquationsB}%
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathSystemOfDifferentialEquationsB}%
 
 
 \author{

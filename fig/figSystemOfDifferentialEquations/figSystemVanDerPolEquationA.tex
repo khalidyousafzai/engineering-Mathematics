@@ -1,0 +1,54 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{commath}   %differential symbol   \dif
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+\usepackage[europeanresistors]{circuitikz}
+\usetikzlibrary{intersections,decorations.markings,calc}
+\usepackage{polyglossia}                %is loaded the last
+\usepackage{siunitx}
+\usepackage{amsmath}
+\input{../../tex/myEMTvectors.tex}
+
+\setmainlanguage[numerals=maghrib]{arabic}     %for english numbers use numerals=maghrib, for arabic numerals=arabicdigits
+\setotherlanguages{english}
+
+
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+%\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+\newfontfamily\urdufont[Scale=1.25,WordSpace=6.0,,Script=Arabic]{Jameel Noori Nastaleeq}
+
+\pgfmathsetmacro{\A}{0.75}
+\pgfmathdeclarefunction{Ey}{2}{\pgfmathparse{\A*cos(#1)*sin(#2)}}
+
+\pgfplotsset{select coords between index/.style 2 args={
+    x filter/.code={
+        \ifnum\coordindex<#1\def\pgfmathresult{}\fi
+        \ifnum\coordindex>#2\def\pgfmathresult{}\fi
+    }
+}}
+
+
+\begin{document}
+\begin{urdufont}
+\begin{tikzpicture}%[z={(-0.5cm,-0.5cm)},x={(1cm,0cm)},y={(0cm,1cm)}]
+\begin{axis}[axis lines*=middle,xmin=-6.5,xmax=6.5,xtick={-5,5},xticklabels={$-5$,$5$},ytick={-5,5},yticklabels={$-5$,$5$}]
+\pgfmathsetmacro{\K}{0}
+\addplot[gray,domain=-0.4:0.4]{x/(0.1*(1-x^2)-\K)}node[pos=0,left]{$K=0$}node[pos=1,right]{$K=0$};
+\pgfmathsetmacro{\K}{-1}
+\addplot[gray,domain=-2:2]{x/(0.1*(1-x^2)-\K)}node[pos=0,anchor=north]{$K=-1$}node[anchor=south]{$K=-1$};
+\pgfmathsetmacro{\K}{-5}
+\addplot[gray,domain=-5:5]{x/(0.1*(1-x^2)-\K)}node[pos=0,anchor=north]{$K=-5$}node[above]{$K=-5$};
+\pgfmathsetmacro{\K}{1}
+\addplot[gray,domain=-5:5]{x/(0.1*(1-x^2)-\K)}node[pos=0,below]{$K=1$}node[pos=1,fill=white]{$K=1$};
+\pgfmathsetmacro{\K}{1/4}
+\addplot[gray,domain=-5:5,samples=50]{x/(0.1*(1-x^2)-\K)}node[pos=0,above]{$K=\tfrac{1}{4}$}node[below]{$K=\tfrac{1}{4}$};
+%
+\addplot[-stealth] table[x index={1}, y index={2}] {vanDerPolEquationA.dat};
+\addplot[-stealth] table[x index={1}, y index={2}] {vanDerPolEquationB.dat};
+\addplot[-stealth,thick] table[x index={1}, y index={2}] {vanDerPolEquationC.dat};
+\end{axis}
+\end{tikzpicture}%
+\end{urdufont}
+\end{document} 

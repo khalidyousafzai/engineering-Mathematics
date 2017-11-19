@@ -1,0 +1,95 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{commath}   %differential symbol   \dif
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+\usepackage[europeanresistors]{circuitikz}
+\usetikzlibrary{intersections,decorations.markings,calc}
+\usepackage{polyglossia}                %is loaded the last
+\usepackage{siunitx}
+\usepackage{amsmath}
+\input{../../tex/myEMTvectors.tex}
+
+\setmainlanguage[numerals=maghrib]{arabic}     %for english numbers use numerals=maghrib, for arabic numerals=arabicdigits
+\setotherlanguages{english}
+
+
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+%\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+\newfontfamily\urdufont[Scale=1.25,WordSpace=6.0,,Script=Arabic]{Jameel Noori Nastaleeq}
+
+\pgfmathsetmacro{\A}{0.75}
+\pgfmathdeclarefunction{Ey}{2}{\pgfmathparse{\A*cos(#1)*sin(#2)}}
+
+\pgfplotsset{select coords between index/.style 2 args={
+    x filter/.code={
+        \ifnum\coordindex<#1\def\pgfmathresult{}\fi
+        \ifnum\coordindex>#2\def\pgfmathresult{}\fi
+    }
+}}
+
+
+\begin{document}
+\begin{urdufont}
+\begin{tikzpicture}%[z={(-0.5cm,-0.5cm)},x={(1cm,0cm)},y={(0cm,1cm)}]
+%
+\begin{axis}[axis lines*=middle,xtick={-3.14,3.14,6.284,9.42,12.56,15.7},xticklabels={$-\pi$,$\pi$,$2\pi$,$3\pi$,$4\pi$,$5\pi$},ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},xlabel style={at={(current axis.right of origin)},anchor=north west},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=north east}]
+\addplot[] table[x index={1}, y index={2}] {pendulumAcentreA.dat};
+\addplot[] table[x index={1}, y index={2}] {pendulumAcentreB.dat};
+\addplot[] table[x index={1}, y index={2}] {pendulumAcentreC.dat};
+\addplot[] table[x index={1}, y index={2}] {pendulumAcentreD.dat};
+\addplot[] table[x index={1}, y index={2}] {pendulumAcentreE.dat};
+\addplot[] table[x index={1}, y index={2}] {pendulumAcentreF.dat};
+%
+\addplot[] table[x index={1}, y index={2}] {pendulumAsaddleA.dat};
+\addplot[] table[x index={1}, y index={2}] {pendulumAsaddleB.dat};
+\addplot[] table[x index={1}, y index={2}] {pendulumAsaddleC.dat};
+%
+\addplot[] table[x index={1}, y index={2}] {pendulumAwaveA.dat};
+\addplot[] table[x index={1}, y index={2}] {pendulumAwaveB.dat};
+\addplot[] table[x index={1}, y index={2}] {pendulumAwaveC.dat};
+\addplot[] table[x index={1}, y index={2}] {pendulumAwaveD.dat};
+%
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={12}{13}] {pendulumAcentreA.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={70}{71}] {pendulumAcentreA.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={12}{13}] {pendulumAcentreB.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={70}{71}] {pendulumAcentreB.dat};
+
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={12}{13}] {pendulumAcentreC.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={70}{71}] {pendulumAcentreC.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={12}{13}] {pendulumAcentreD.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={70}{71}] {pendulumAcentreD.dat};
+
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={12}{13}] {pendulumAcentreE.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={70}{71}] {pendulumAcentreE.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={12}{13}] {pendulumAcentreF.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={70}{71}] {pendulumAcentreF.dat};
+%
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={1000}{1001}] {pendulumAsaddleA.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={1045}{1046}] {pendulumAsaddleA.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={1320}{1321}] {pendulumAsaddleA.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={1366}{1367}] {pendulumAsaddleA.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={1178}{1179}] {pendulumAsaddleB.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={1131}{1132}] {pendulumAsaddleB.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={1452}{1453}] {pendulumAsaddleB.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={1499}{1500}] {pendulumAsaddleB.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={884}{885}] {pendulumAsaddleC.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={931}{932}] {pendulumAsaddleC.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={1205}{1206}] {pendulumAsaddleC.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={1252}{1253}] {pendulumAsaddleC.dat};
+%
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={14}{15}] {pendulumAwaveA.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={184}{185}] {pendulumAwaveA.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={8}{9}] {pendulumAwaveB.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={162}{163}] {pendulumAwaveB.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={14}{15}] {pendulumAwaveC.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={184}{185}] {pendulumAwaveC.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={8}{9}] {pendulumAwaveD.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={162}{163}] {pendulumAwaveD.dat};
+%
+\addplot[fill=white] plot coordinates {(0,0)}node[ocirc]{};
+\end{axis}
+\end{tikzpicture}%
+\end{urdufont}
+\end{document} 

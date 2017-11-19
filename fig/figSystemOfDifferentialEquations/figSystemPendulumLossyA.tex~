@@ -1,0 +1,79 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{commath}   %differential symbol   \dif
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+\usepackage[europeanresistors]{circuitikz}
+\usetikzlibrary{intersections,decorations.markings,calc}
+\usepackage{polyglossia}                %is loaded the last
+\usepackage{siunitx}
+\usepackage{amsmath}
+\input{../../tex/myEMTvectors.tex}
+
+\setmainlanguage[numerals=maghrib]{arabic}     %for english numbers use numerals=maghrib, for arabic numerals=arabicdigits
+\setotherlanguages{english}
+
+
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+%\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+\newfontfamily\urdufont[Scale=1.25,WordSpace=6.0,,Script=Arabic]{Jameel Noori Nastaleeq}
+
+\pgfmathsetmacro{\A}{0.75}
+\pgfmathdeclarefunction{Ey}{2}{\pgfmathparse{\A*cos(#1)*sin(#2)}}
+
+\pgfplotsset{select coords between index/.style 2 args={
+    x filter/.code={
+        \ifnum\coordindex<#1\def\pgfmathresult{}\fi
+        \ifnum\coordindex>#2\def\pgfmathresult{}\fi
+    }
+}}
+
+
+\begin{document}
+\begin{urdufont}
+\begin{tikzpicture}%[z={(-0.5cm,-0.5cm)},x={(1cm,0cm)},y={(0cm,1cm)}]
+%
+\begin{axis}[axis lines*=middle,xtick={-3.14,3.14,6.284,9.42,12.56,15.7},xticklabels={$-\pi$,$\pi$,$2\pi$,$3\pi$,$4\pi$,$5\pi$},ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},xlabel style={at={(current axis.right of origin)},anchor=north west},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=north east}]
+%
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={0}{137}] {pendulumLossyWaveB.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={6}{7}] {pendulumLossyWaveB.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={0}{77}] {pendulumLossyWaveC.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={6}{7}] {pendulumLossyWaveC.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={0}{137}] {pendulumLossyWaveD.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={7}{8}] {pendulumLossyWaveD.dat};
+%
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={0}{247}] {pendulumLossyWaveBeginA.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={7}{8}] {pendulumLossyWaveBeginA.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={47}{48}] {pendulumLossyWaveBeginA.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={179}{180}] {pendulumLossyWaveBeginA.dat};
+%
+\addplot[] table[x index={1}, y index={2},select coords between index={47}{210}] {pendulumLossyWaveBeginB.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={58}{59}] {pendulumLossyWaveBeginB.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={201}{202}] {pendulumLossyWaveBeginB.dat};
+%
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={0}{356}] {pendulumLossyWaveBeginC.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={7}{8}] {pendulumLossyWaveBeginC.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={47}{48}] {pendulumLossyWaveBeginC.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={201}{202}] {pendulumLossyWaveBeginC.dat};
+%
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={0}{247}] {pendulumLossyWaveEndA.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={7}{8}] {pendulumLossyWaveEndA.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={47}{48}] {pendulumLossyWaveEndA.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={179}{180}] {pendulumLossyWaveEndA.dat};
+%
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={0}{298}] {pendulumLossyWaveEndB.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={6}{7}] {pendulumLossyWaveEndB.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={83}{84}] {pendulumLossyWaveEndB.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={205}{206}] {pendulumLossyWaveEndB.dat};
+%
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={0}{298}] {pendulumLossyWaveEndC.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={6}{7}] {pendulumLossyWaveEndC.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={83}{84}] {pendulumLossyWaveEndC.dat};
+\addplot[-stealth] table[x index={1}, y index={2},select coords between index={205}{206}] {pendulumLossyWaveEndC.dat};
+%
+\addplot[fill=white] plot coordinates {(0,0)}node[ocirc]{};
+\end{axis}
+\end{tikzpicture}%
+\end{urdufont}
+\end{document} 

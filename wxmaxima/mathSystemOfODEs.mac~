@@ -1100,4 +1100,32 @@ expand(%);
 
 Print("======================================");
 kill(all);
-print("example 4.14");
+print("Runge Kutta");
+
+plotdf(-c-k/y*sin(x),[parameters,"c=0.1,k=1"],[sliders,"c=0:2"],[trajectory_at,-3.141592654,0.01],[direction,both]);
+
+Print("======================================");
+kill(all);
+print("Runge Kutta");
+
+plotdf([y2,-c*y2-k*sin(y1)],[y1,y2],[parameters,"c=0.1,k=1"],[sliders,"c=0:2"],[trajectory_at,-3.141592654,0],[direction,both]);
+
+Print("======================================");
+kill(all);
+print("Runge Kutta");
+print("excellent! for each i, where i is equal to sol, select the 2nd and 3rd elements only and plot them against each other")
+
+sol: rk([4-x^2-4*y^2,y^2-x^2+1],[x,y],[-1.25,0.75],[t,0,4,0.02]);
+plot2d ([discrete,makelist([i[2],i[3]],i,sol)], [xlabel,"t"],[ylabel,"y"])$
+
+Print("======================================");
+kill(all);
+print("Runge Kutta");
+
+k:9.8;
+eq1:y2;
+eq2:-k*sin(y1);
+
+sol: rk([eq1,eq2],[y1,y2],[-%pi/2,0],[t,0,4,0.02]);
+plot2d ([discrete,makelist([i[2],i[3]],i,sol)], [xlabel,"y1"],[ylabel,"y2"])$
+write_data(sol,"kkk.dat");

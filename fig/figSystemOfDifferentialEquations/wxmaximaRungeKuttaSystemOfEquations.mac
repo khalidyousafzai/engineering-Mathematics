@@ -1,0 +1,150 @@
+Print("======================================");
+kill(all);
+print("Runge Kutta");
+print("example 4.14");
+
+g:9.8;
+L:1;
+k:g/L;
+
+eq1:y2;
+eq2:-k*sin(y1);
+
+sol: rk([eq1,eq2],[y1,y2],[-%pi/2,0],[t,0,24/7,0.02]);
+plot2d ([discrete,makelist([i[2],i[3]],i,sol)], [xlabel,"y1"],[ylabel,"y2"])$
+write_data(sol,"pendulumAcentreA.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[-%pi/4,0],[t,0,24/7,0.02]);
+write_data(sol,"pendulumAcentreB.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[3/2*%pi,0],[t,0,24/7,0.02]);
+write_data(sol,"pendulumAcentreC.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[7/4*%pi,0],[t,0,24/7,0.02]);
+write_data(sol,"pendulumAcentreD.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[7/2*%pi,0],[t,0,24/7,0.02]);
+write_data(sol,"pendulumAcentreE.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[15/4*%pi,0],[t,0,24/7,0.02]);
+write_data(sol,"pendulumAcentreF.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[-%pi,0],[t,0,32,0.02]);
+write_data(sol,"pendulumAsaddleA.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[3*%pi,0],[t,0,32,0.02]);
+write_data(sol,"pendulumAsaddleB.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[5*%pi,0],[t,0,32,0.02]);
+write_data(sol,"pendulumAsaddleC.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[-3.14159,3],[t,0,4,0.02]);
+write_data(sol,"pendulumAwaveA.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[-3.14159,4],[t,0,4*6/7,0.02]);
+write_data(sol,"pendulumAwaveB.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[15.70796327,-3],[t,0,4,0.02]);
+write_data(sol,"pendulumAwaveC.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[15.70796327,-4],[t,0,4*6/7,0.02]);
+write_data(sol,"pendulumAwaveD.dat");
+
+Print("======================================");
+kill(all);
+print("Runge Kutta");
+print("example 4.15");
+
+g:9.8;
+L:1;
+k:g/L;
+c:0.5;
+
+eq1:y2;
+eq2:-k*sin(y1)-c*y2;
+
+sol: rk([eq1,eq2],[y1,y2],[-3.14159,0],[t,0,7.6,0.02]);
+plot2d ([discrete,makelist([i[2],i[3]],i,sol)], [xlabel,"y1"],[ylabel,"y2"])$
+write_data(sol,"pendulumLossySaddleA.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[3.14159,0],[t,0,6.5,0.02]);
+write_data(sol,"pendulumLossySaddleB.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[3.1416,0],[t,0,7.5,0.02]);
+plot2d ([discrete,makelist([i[2],i[3]],i,sol)], [xlabel,"y1"],[ylabel,"y2"])$
+write_data(sol,"pendulumLossySaddleC.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[9.424,0],[t,0,6.5,0.02]);
+write_data(sol,"pendulumLossySaddleD.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[-3.14159,4],[t,0,7.5,0.02]);
+write_data(sol,"pendulumLossyWaveA.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[-3.141592654,8],[t,0,7.5,0.02]);
+write_data(sol,"pendulumLossyWaveB.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[9.424777961,-4],[t,0,7.5,0.02]);
+write_data(sol,"pendulumLossyWaveC.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[9.424777961,-8],[t,0,7.5,0.02]);
+write_data(sol,"pendulumLossyWaveD.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[-3.141592654,5.9],[t,0,7.5,0.02]);
+write_data(sol,"pendulumLossyWaveBeginA.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[-9.424777961,5.902],[t,0,7.5,0.02]);
+write_data(sol,"pendulumLossyWaveBeginB.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[9.424777961,-5.9],[t,0,7.5,0.02]);
+write_data(sol,"pendulumLossyWaveEndA.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[3.141592654,-5.902],[t,0,7.5,0.02]);
+plot2d ([discrete,makelist([i[2],i[3]],i,sol)], [xlabel,"y1"],[ylabel,"y2"])$
+write_data(sol,"pendulumLossyWaveBeginC.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[-3.141592654,9.516],[t,0,7.5,0.02]);
+plot2d ([discrete,makelist([i[2],i[3]],i,sol)], [xlabel,"y1"],[ylabel,"y2"])$
+write_data(sol,"pendulumLossyWaveEndB.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[15.70796327,-5.902],[t,0,7.5,0.02]);
+plot2d ([discrete,makelist([i[2],i[3]],i,sol)], [xlabel,"y1"],[ylabel,"y2"])$
+write_data(sol,"pendulumLossyWaveEndC.dat");
+
+Print("======================================");
+kill(all);
+print("Runge Kutta");
+print("example 4.18 van der Pol equation");
+
+u:0.1;
+
+eq1:y2;
+eq2:u*(1-y1^2)*y2-y1;
+
+sol: rk([eq1,eq2],[y1,y2],[5,-4],[t,0,12,0.02]);
+plot2d ([discrete,makelist([i[2],i[3]],i,sol)], [xlabel,"y1"],[ylabel,"y2"])$
+write_data(sol,"vanDerPolEquationA.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[0,0.5],[t,0,12,0.02]);
+plot2d ([discrete,makelist([i[2],i[3]],i,sol)], [xlabel,"y1"],[ylabel,"y2"])$
+write_data(sol,"vanDerPolEquationB.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[0,2],[t,0,12,0.02]);
+plot2d ([discrete,makelist([i[2],i[3]],i,sol)], [xlabel,"y1"],[ylabel,"y2"])$
+write_data(sol,"vanDerPolEquationC.dat");
+
+u:1;
+
+eq1:y2;
+eq2:u*(1-y1^2)*y2-y1;
+
+sol: rk([eq1,eq2],[y1,y2],[-2,2],[t,0,12,0.02]);
+plot2d ([discrete,makelist([i[2],i[3]],i,sol)], [xlabel,"y1"],[ylabel,"y2"])$
+write_data(sol,"vanDerPolEquationAA.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[0,-0.01],[t,0,12,0.02]);
+plot2d ([discrete,makelist([i[2],i[3]],i,sol)], [xlabel,"y1"],[ylabel,"y2"])$
+write_data(sol,"vanDerPolEquationBB.dat");
+
+sol: rk([eq1,eq2],[y1,y2],[0,2.17],[t,0,6.7,0.02]);
+plot2d ([discrete,makelist([i[2],i[3]],i,sol)], [xlabel,"y1"],[ylabel,"y2"])$
+write_data(sol,"vanDerPolEquationCC.dat");

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  19 NOV 2017 16:03
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  20 NOV 2017 09:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1324,7 +1324,7 @@ File: gloss-english.ldf polyglossia: module for english
 . 3\font \fontdimen 4\font =6.0\fontdimen 4\font 
 .................................................
 
-No file figSystemVanDerPolEquationA.aux.
+(./figSystemVanDerPolEquationA.aux)
 \openout1 = `figSystemVanDerPolEquationA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -1343,7 +1343,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 33.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 33.
-(/usr/share/texmf/tex/latex/tipa/t3cmr.fd
+ (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 33.
@@ -1442,8 +1442,8 @@ PGFPlots: reading {vanDerPolEquationC.dat}
 ]
 (./figSystemVanDerPolEquationA.aux) ) 
 Here is how much of TeX's memory you used:
- 38626 strings out of 493918
- 934041 string characters out of 6150562
+ 38628 strings out of 493918
+ 934105 string characters out of 6150562
  1555656 words of memory out of 5000000
  41277 multiletter control sequences out of 15000+600000
  4222 words of font info for 32 fonts, out of 8000000 for 9000

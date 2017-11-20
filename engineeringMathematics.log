@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  19 NOV 2017 16:51
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  20 NOV 2017 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3161,6 +3161,10 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 
 
 ] [290]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 9.5pt on input line 58.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 7.5pt on input line 58.
 File: ./fig/figSystemOfDifferentialEquations/figSystemVanDerPolEquationA.pdf Gr
 aphic file (type QTm)
 
@@ -3170,15 +3174,53 @@ File: ./fig/figSystemOfDifferentialEquations/figSystemVanDerPolEquationB.pdf Gr
 aphic file (type QTm)
 
 <use  "./fig/figSystemOfDifferentialEquations/figSystemVanDerPolEquationB.pdf" 
->) [291] [292] [293
+> [291] [292] [293]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 141.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
+(Font)              scaled to size 14.4pt on input line 141.
+ [294]
+Overfull \hbox (4.84079pt too wide) in paragraph at lines 172--173
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 سوال []\EU1/JameelNooriNastaleeq(0)/bx/
+n/10 56[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
+/n/10 4[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 تا سوال []\EU1/JameelNooriNasta
+leeq(0)/bx/n/10 59[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNast
+aleeq(0)/bx/n/10 4[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 میں تفرقی مساوات سے 
+نظام حاصل کریں۔اس نظام کے تمام نقطہ فاصل دریافت کریں۔نظام[]
+ []
+
+[295]
+Overfull \hbox (1.784pt too wide) in paragraph at lines 183--188
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات:  $\OT1/zplm/m/n/10 (\OT1/ppl/m/n/
+10 0, 0\OT1/zplm/m/n/10 )$  \EU1/JameelNooriNastaleeq(1)/m/n/10 اور  $\OT1/zplm
+/m/n/10 (\OMS/zplm/m/n/10 ^^G\OML/zplm/m/it/10 n\OT1/ppl/m/n/10 2\OML/zplm/m/it
+/10 ^^Y\OT1/ppl/m/n/10 , 0\OT1/zplm/m/n/10 )$  \EU1/JameelNooriNastaleeq(1)/m/n
+/10 مستحکم وسط ہیں جہاں  $\OML/zplm/m/it/10 n \OT1/zplm/m/n/10 = \OT1/ppl/m/n/1
+0 1, 2, 3, [] $  \EU1/JameelNooriNastaleeq(1)/m/n/10 ہو سکتا ہے۔نقطہ  $\OT1/zpl
+m/m/n/10 (\OMS/zplm/m/n/10 ^^G\OML/zplm/m/it/10 m^^Y\OT1/ppl/m/n/10 , 0\OT1/zpl
+m/m/n/10 )$[]
+ []
+
+
+Overfull \hbox (4.28864pt too wide) in paragraph at lines 188--193
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: نقطہ  $\OT1/zplm/m/n/10 ([] \OMS/
+zplm/m/n/10 ^^G \OML/zplm/m/it/10 n\OT1/ppl/m/n/10 2\OML/zplm/m/it/10 ^^Y\OT1/p
+pl/m/n/10 , 0\OT1/zplm/m/n/10 )$  \EU1/JameelNooriNastaleeq(1)/m/n/10 غیر مستحک
+م نقطہ نیز جبکہ  $\OT1/zplm/m/n/10 (\OMS/zplm/m/n/10 ^^@[] ^^G \OML/zplm/m/it/1
+0 n\OT1/ppl/m/n/10 2\OML/zplm/m/it/10 ^^Y\OT1/ppl/m/n/10 , 0\OT1/zplm/m/n/10 )$
+  \EU1/JameelNooriNastaleeq(1)/m/n/10 وسط ہیں جہاں  $\OML/zplm/m/it/10 n \OT1/z
+plm/m/n/10 = \OT1/ppl/m/n/10 1, 2, 3, [] $[]
+ []
+
+) [296] [297
 
 
 
 ] [176
 
 
-] (./engineeringMathematics.aux (./tex/cktPreface.aux) (./tex/prefaceFirstBook.
-aux) (./tex/mathFirstOrderDifferentialEquations.aux)
+] (./engineeringMathematics.aux (./tex/cktPreface.aux)
+(./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
 (./tex/mathSystemOfDifferentialEquations.aux)
@@ -3190,12 +3232,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45579 strings out of 493918
- 1081430 string characters out of 6150562
- 1247243 words of memory out of 5000000
- 47930 multiletter control sequences out of 15000+600000
- 33095 words of font info for 134 fonts, out of 8000000 for 9000
+ 45591 strings out of 493918
+ 1081863 string characters out of 6150562
+ 1249368 words of memory out of 5000000
+ 47939 multiletter control sequences out of 15000+600000
+ 33119 words of font info for 137 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,10n,81p,10485b,767s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,81p,10485b,767s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (12 pages).
+Output written on engineeringMathematics.pdf (16 pages).

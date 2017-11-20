@@ -1102,26 +1102,6 @@ Print("======================================");
 kill(all);
 print("Runge Kutta");
 
-plotdf(-c-k/y*sin(x),[parameters,"c=0.1,k=1"],[sliders,"c=0:2"],[trajectory_at,-3.141592654,0.01],[direction,both]);
-
-Print("======================================");
-kill(all);
-print("Runge Kutta");
-
-plotdf([y2,-c*y2-k*sin(y1)],[y1,y2],[parameters,"c=0.1,k=1"],[sliders,"c=0:2"],[trajectory_at,-3.141592654,0],[direction,both]);
-
-Print("======================================");
-kill(all);
-print("Runge Kutta");
-print("excellent! for each i, where i is equal to sol, select the 2nd and 3rd elements only and plot them against each other")
-
-sol: rk([4-x^2-4*y^2,y^2-x^2+1],[x,y],[-1.25,0.75],[t,0,4,0.02]);
-plot2d ([discrete,makelist([i[2],i[3]],i,sol)], [xlabel,"t"],[ylabel,"y"])$
-
-Print("======================================");
-kill(all);
-print("Runge Kutta");
-
 k:9.8;
 eq1:y2;
 eq2:-k*sin(y1);
@@ -1129,3 +1109,75 @@ eq2:-k*sin(y1);
 sol: rk([eq1,eq2],[y1,y2],[-%pi/2,0],[t,0,4,0.02]);
 plot2d ([discrete,makelist([i[2],i[3]],i,sol)], [xlabel,"y1"],[ylabel,"y2"])$
 write_data(sol,"kkk.dat");
+
+Print("======================================");
+kill(all);
+print("Q 4.51 varification of critical points");
+
+eq1:4*y1-y1^2;
+eq2:y2;
+
+plotdf([eq1,eq2], [y1,y2], [trajectory_at,2,-0.1],[direction,forward], [tstep,0.01],[y1,-1,5]  );
+
+Print("======================================");
+kill(all);
+print("Q 4.52 varification of critical points");
+
+eq1:y2;
+eq2:-y1+2/3*y1^2;
+
+plotdf([eq1,eq2], [y1,y2], [trajectory_at,2,-0.1],[direction,forward], [tstep,0.01]  );
+
+Print("======================================");
+kill(all);
+print("Q 4.53 varification of critical points");
+
+eq1:y2;
+eq2:-2*y1-y1^2;
+
+plotdf([eq1,eq2], [y1,y2], [trajectory_at,2,-0.1],[direction,forward], [tstep,0.01]  );
+
+Print("======================================");
+kill(all);
+print("Q 4.54 varification of critical points");
+
+eq1:-y1+y2+y1^2;
+eq2:-y1-y2;
+
+plotdf([eq1,eq2], [y1,y2], [trajectory_at,2,-0.1],[direction,forward], [tstep,0.01]  );
+
+Print("======================================");
+kill(all);
+print("Q 4.56 varification of critical points");
+
+eq1:y2;
+eq2:4*y1-y1^3;
+
+plotdf([eq1,eq2], [y1,y2], [trajectory_at,2,-0.1],[direction,forward], [tstep,0.01]  );
+
+Print("======================================");
+kill(all);
+print("Q 4.57 varification of critical points");
+
+eq1:y2;
+eq2:-4*y1+y1^3;
+
+plotdf([eq1,eq2], [y1,y2], [trajectory_at,2,-0.1],[direction,forward], [tstep,0.01]  );
+
+Print("======================================");
+kill(all);
+print("Q 4.58 varification of critical points");
+
+eq1:y2;
+eq2:-sin(y1);
+
+plotdf([eq1,eq2], [y1,y2], [trajectory_at,2,-0.1],[direction,forward], [tstep,0.01]  );
+
+Print("======================================");
+kill(all);
+print("Q 4.59 varification of critical points");
+
+eq1:y2;
+eq2:-cos(y1);
+
+plotdf([eq1,eq2], [y1,y2], [trajectory_at,2,-0.1],[direction,forward], [tstep,0.01]  );

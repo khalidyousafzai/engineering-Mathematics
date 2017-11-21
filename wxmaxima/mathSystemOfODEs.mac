@@ -1181,3 +1181,37 @@ eq1:y2;
 eq2:-cos(y1);
 
 plotdf([eq1,eq2], [y1,y2], [trajectory_at,2,-0.1],[direction,forward], [tstep,0.01]  );
+
+Print("======================================");
+kill(all);
+print("Q 4.63 varification of critical points");
+
+eq1:y2;
+eq2:9*y1-y1^3;
+
+plotdf([eq1,eq2], [y1,y2], [trajectory_at,2,-0.1],[direction,forward], [tstep,0.01]  );
+
+Print("======================================");
+kill(all);
+print("example 4.20");
+
+eq1:'diff(y1(t),t)=-2*y1(t)+y2(t)-4*%e^(-3*t);
+eq2:'diff(y2(t),t)=y1(t)-2*y2(t)+3*%e^(-3*t);
+
+desolve([eq1,eq2],[y1(t),y2(t)]);
+
+Print("======================================");
+kill(all);
+print("example 4.21");
+
+g:matrix([-4*%e^(-3*t)],[3*%e^(-3*t)]);
+Y:matrix([%e^(-t), %e^(-3*t)],[%e^(-t), -%e^(-3*t)]);
+determinant(Y);
+Yinvt:invert(Y);
+
+dudt:Yinvt . g;
+
+u:integrate(dudt,t,0,T);
+
+Y . u;
+

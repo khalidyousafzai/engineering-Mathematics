@@ -379,7 +379,7 @@ v_1 & v_2
 \bM{A}^{-1}=\frac{1}{\abs{\bM{A}}}
 \begin{bmatrix*}[r]
 a_{22}& -a_{12}\\
--a_{21}& a_{22}
+-a_{21}& a_{11}
 \end{bmatrix*}
 \end{align}
 ہے جہاں \عددی{\bM{A}} کا مقطع \عددی{\abs{\bM{A}}} درج ذیل ہے۔
@@ -928,7 +928,7 @@ $\bM{A}=\begin{bmatrix*}[r] 0.2& 0.6\\ -0.4&1.2 \end{bmatrix*}$\\
 %===================
 \ابتدا{سوال}\شناخت{سوال_نظام_تبدیلی_الف}\quad 
 $y''+5y'+6y=0$\\
-جوابات:\عددی{\bM{A}=\begin{bmatrix*}[r] 0 & 1 \\ -5 & -6  \end{bmatrix*}}، \عددی{\lambda_1=-3}، \عددی{\lambda_2=-2}،
+جوابات:\عددی{\bM{A}=\begin{bmatrix*}[r] 0 & 1 \\ -6 & -5  \end{bmatrix*}}، \عددی{\lambda_1=-3}، \عددی{\lambda_2=-2}،
  \عددی{\bM{x}^{(1)}=\begin{bmatrix*}[r]  1 \\ -3  \end{bmatrix*}}،  \عددی{\bM{x}^{(2)}=\begin{bmatrix*}[r]  1 \\ -2  \end{bmatrix*}}،
 $\bM{y}=c_1\begin{bmatrix*}[r] 1 \\ -3 \end{bmatrix*} e^{-3t}+c_2\begin{bmatrix*}[r] 1 \\ -2 \end{bmatrix*} e^{-2t}$ 
 \انتہا{سوال}

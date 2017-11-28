@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  27 NOV 2017 16:10
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  28 NOV 2017 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1764,11 +1764,11 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (./tex/mathSystemOfDifferentialEquations.aux)
 (./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations.aux)
 No file ./tex/mathQuestions.aux.
-LaTeX Font Info:    Try loading font information for EU1+ppl on input line 17.
-LaTeX Font Info:    No file EU1ppl.fd. on input line 17.
+LaTeX Font Info:    Try loading font information for EU1+ppl on input line 18.
+LaTeX Font Info:    No file EU1ppl.fd. on input line 18.
 
 LaTeX Font Warning: Font shape `EU1/ppl/m/n' undefined
-(Font)              using `EU1/lmr/m/n' instead on input line 17.
+(Font)              using `EU1/lmr/m/n' instead on input line 18.
 
 (./tex/mathAppendixAdditionalProofs.aux))
 \openout1 = `engineeringMathematics.aux'.
@@ -3192,15 +3192,27 @@ Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[312]) [313]
+[312] [313]
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[314] [315
+[314] [315]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[316] [317]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[318]) [319]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[320
 
 
 
-] [176
+] [321] [176
 
 
 ] (./engineeringMathematics.aux (./tex/cktPreface.aux)
@@ -3220,12 +3232,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45777 strings out of 493918
- 1085518 string characters out of 6150562
- 1251656 words of memory out of 5000000
- 48135 multiletter control sequences out of 15000+600000
+ 45802 strings out of 493918
+ 1086067 string characters out of 6150562
+ 1252896 words of memory out of 5000000
+ 48160 multiletter control sequences out of 15000+600000
  37723 words of font info for 152 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,13n,81p,10485b,767s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,15n,81p,10485b,768s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (17 pages).
+Output written on engineeringMathematics.pdf (23 pages).

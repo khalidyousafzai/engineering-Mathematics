@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  28 NOV 2017 16:08
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  30 NOV 2017 16:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3204,15 +3204,19 @@ Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[318]) [319]
+[318] [319]
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[320
+[320]) [321]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[322
 
 
 
-] [321] [176
+] [323] [176
 
 
 ] (./engineeringMathematics.aux (./tex/cktPreface.aux)
@@ -3232,12 +3236,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45802 strings out of 493918
- 1086067 string characters out of 6150562
- 1252896 words of memory out of 5000000
- 48160 multiletter control sequences out of 15000+600000
+ 45815 strings out of 493918
+ 1086328 string characters out of 6150562
+ 1253081 words of memory out of 5000000
+ 48173 multiletter control sequences out of 15000+600000
  37723 words of font info for 152 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,15n,81p,10485b,768s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (23 pages).
+Output written on engineeringMathematics.pdf (25 pages).

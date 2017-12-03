@@ -31,7 +31,7 @@
 \usepackage{amsbsy} %for bold Poynting, lessgtr symbol
 \usepackage{mathrsfs}   %for Poynting symbol
 \usepackage{IEEEtrantools}
-
+\usepackage{polynom}
 
 
 \sisetup{math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega}   %with mathpazo this is needed else must not be here. now micro is smaller
@@ -120,7 +120,9 @@
  Coddington, E. A. and N. Levinson, Theory of
 Ordinary Differential Equations. Malabar, FL: Krieger,
 1984.
-
+\bibitem{حوالہ_کریزگ_الف_گیارہ}
+Ince, E. L., Ordinary Differential Equations. New
+York: Dover, 1956.
 \end{otherlanguage}
 \end{thebibliography}
 %============================================================

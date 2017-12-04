@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  3 DEC 2017 16:51
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  4 DEC 2017 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3233,11 +3233,7 @@ Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
 [328] [329]
-Overfull \vbox (1.62791pt too high) has occurred while \output is active []
-
-
-[330] [331]
-Overfull \hbox (10.4415pt too wide) in paragraph at lines 698--698
+Overfull \hbox (10.4415pt too wide) in paragraph at lines 654--654
 [][] []
  []
 
@@ -3245,15 +3241,42 @@ Overfull \hbox (10.4415pt too wide) in paragraph at lines 698--698
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[332]) [333]
+[330] [331]
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[334
+[332]
+Overfull \hbox (24.5746pt too wide) in paragraph at lines 731--731
+[][] []
+ []
+
+[333]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[334]
+Overfull \hbox (57.36615pt too wide) in paragraph at lines 776--776
+[][] []
+ []
+
+
+Overfull \hbox (57.36615pt too wide) in alignment at lines 776--776
+[] [] 
+ []
+
+[335]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[336] [337])
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[338] [339
 
 
 
-] [335] [176
+] [176
 
 
 ] (./engineeringMathematics.aux (./tex/cktPreface.aux)
@@ -3273,12 +3296,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46393 strings out of 493918
- 1102145 string characters out of 6150562
- 1293959 words of memory out of 5000000
- 48750 multiletter control sequences out of 15000+600000
+ 46402 strings out of 493918
+ 1102351 string characters out of 6150562
+ 1294124 words of memory out of 5000000
+ 48759 multiletter control sequences out of 15000+600000
  37731 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,15n,81p,10485b,2129s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,16n,81p,10485b,2129s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (37 pages).
+Output written on engineeringMathematics.pdf (41 pages).

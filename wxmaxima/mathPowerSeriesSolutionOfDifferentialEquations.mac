@@ -387,4 +387,11 @@ solve(eq,a);
 ev(y0,a=5.827,x=2);
 powerdisp:false$
 
+Print("======================================");
+kill(all);
+print("associated legendre equation");
 
+declare(m,constant);
+y:(1-x^2)^(m/2)*u(x);
+diff(y,x,1);
+diff(y,x,2);

@@ -1,77 +1,83 @@
-\indexentry{calculus}{\RL {\arabicfont  307}}
-\indexentry{علم الاحصاء}{\RL {\arabicfont  307}}
-\indexentry{power series}{\RL {\arabicfont  307}}
-\indexentry{series!power}{\RL {\arabicfont  307}}
-\indexentry{طاقتی!تسلسل}{\RL {\arabicfont  307}}
-\indexentry{تسلسل!طاقتی}{\RL {\arabicfont  307}}
-\indexentry{power series method}{\RL {\arabicfont  307}}
-\indexentry{طاقتی تسلسل!ترکیب}{\RL {\arabicfont  307}}
-\indexentry{ترکیب طاقتی تسلسل}{\RL {\arabicfont  307}}
-\indexentry{Frobenius method}{\RL {\arabicfont  307}}
-\indexentry{فروبنیوس!ترکیب}{\RL {\arabicfont  307}}
-\indexentry{ترکیب فروبنیوس}{\RL {\arabicfont  307}}
-\indexentry{special functions}{\RL {\arabicfont  307}}
-\indexentry{higher functons}{\RL {\arabicfont  307}}
-\indexentry{اعلٰی تفاعل}{\RL {\arabicfont  307}}
-\indexentry{coefficients}{\RL {\arabicfont  308}}
-\indexentry{عددی سر}{\RL {\arabicfont  308}}
-\indexentry{summation}{\RL {\arabicfont  308}}
-\indexentry{علامت مجموعہ}{\RL {\arabicfont  308}}
-\indexentry{center}{\RL {\arabicfont  308}}
-\indexentry{وسط}{\RL {\arabicfont  308}}
-\indexentry{index}{\RL {\arabicfont  308}}
-\indexentry{اشاریہ}{\RL {\arabicfont  308}}
-\indexentry{Legendre!function}{\RL {\arabicfont  312}}
-\indexentry{لیژانڈر!تفاعل}{\RL {\arabicfont  312}}
-\indexentry{Legendre!polynomial}{\RL {\arabicfont  312}}
-\indexentry{لیژانڈر!کثیر رکنی تفاعل}{\RL {\arabicfont  312}}
-\indexentry{order!Legendre}{\RL {\arabicfont  312}}
-\indexentry{درجہ!لیژانڈر}{\RL {\arabicfont  312}}
-\indexentry{partial sum}{\RL {\arabicfont  312}}
-\indexentry{جزوی مجموعہ}{\RL {\arabicfont  312}}
-\indexentry{remainder}{\RL {\arabicfont  313}}
-\indexentry{بقایا}{\RL {\arabicfont  313}}
-\indexentry{power series!value or sum}{\RL {\arabicfont  313}}
-\indexentry{طاقتی تسلسل!قیمت}{\RL {\arabicfont  313}}
-\indexentry{converge}{\RL {\arabicfont  313}}
-\indexentry{مرتکز}{\RL {\arabicfont  313}}
-\indexentry{طاقتی تسلسل!مجموعہ}{\RL {\arabicfont  313}}
-\indexentry{divergent}{\RL {\arabicfont  313}}
-\indexentry{منفرج}{\RL {\arabicfont  313}}
-\indexentry{interval!convergence}{\RL {\arabicfont  314}}
-\indexentry{وقفہ!ارتکازی}{\RL {\arabicfont  314}}
-\indexentry{ارتکازی وقفہ}{\RL {\arabicfont  314}}
-\indexentry{radius!convergence}{\RL {\arabicfont  314}}
-\indexentry{convergence!radius}{\RL {\arabicfont  314}}
-\indexentry{ارتکاز!رداس}{\RL {\arabicfont  314}}
-\indexentry{رداس!ارتکاز}{\RL {\arabicfont  314}}
-\indexentry{analytic}{\RL {\arabicfont  317}}
-\indexentry{تحلیلی}{\RL {\arabicfont  317}}
-\indexentry{index!shifting}{\RL {\arabicfont  320}}
-\indexentry{اشاریہ!منتقلی}{\RL {\arabicfont  320}}
-\indexentry{منتقلی!اشاریہ}{\RL {\arabicfont  320}}
-\indexentry{Legendre!equation}{\RL {\arabicfont  322}}
-\indexentry{لیژانڈر!تفرقی مساوات}{\RL {\arabicfont  322}}
-\indexentry{مقدار معلوم}{\RL {\arabicfont  323}}
-\indexentry{نسل}{\RL {\arabicfont  323}}
-\indexentry{Legendre!function}{\RL {\arabicfont  323}}
-\indexentry{لیژانڈر!تفاعل}{\RL {\arabicfont  323}}
-\indexentry{theory!special functions}{\RL {\arabicfont  323}}
-\indexentry{نظریہ!اعلٰی تفاعل}{\RL {\arabicfont  323}}
-\indexentry{recursion formula}{\RL {\arabicfont  324}}
-\indexentry{توالی کلیہ}{\RL {\arabicfont  324}}
-\indexentry{کلیہ!توالی}{\RL {\arabicfont  324}}
-\indexentry{Legendre!polynomial}{\RL {\arabicfont  326}}
-\indexentry{لیژانڈر!کثیر رکنی}{\RL {\arabicfont  326}}
-\indexentry{Legendre!polynomial}{\RL {\arabicfont  327}}
-\indexentry{لیژانڈر!کثیر رکنی}{\RL {\arabicfont  327}}
-\indexentry{orthogonal}{\RL {\arabicfont  327}}
-\indexentry{عمودی}{\RL {\arabicfont  327}}
-\indexentry{مسئلہ ثنائی، الکراجی}{\RL {\arabicfont  330}}
-\indexentry{الکراجی کا مسئلہ ثنائی}{\RL {\arabicfont  330}}
-\indexentry{Rodrigues' formula}{\RL {\arabicfont  330}}
-\indexentry{روڈریگیس کلیہ}{\RL {\arabicfont  330}}
-\indexentry{کلیہ!روڈریگیس}{\RL {\arabicfont  330}}
-\indexentry{Leibnitz formula}{\RL {\arabicfont  332}}
-\indexentry{لیبنٹز کلیہ}{\RL {\arabicfont  332}}
-\indexentry{کلیہ لیبنٹز}{\RL {\arabicfont  332}}
+\indexentry{calculus}{\RL {\arabicfont  309}}
+\indexentry{علم الاحصاء}{\RL {\arabicfont  309}}
+\indexentry{power series}{\RL {\arabicfont  309}}
+\indexentry{series!power}{\RL {\arabicfont  309}}
+\indexentry{طاقتی!تسلسل}{\RL {\arabicfont  309}}
+\indexentry{تسلسل!طاقتی}{\RL {\arabicfont  309}}
+\indexentry{power series method}{\RL {\arabicfont  309}}
+\indexentry{طاقتی تسلسل!ترکیب}{\RL {\arabicfont  309}}
+\indexentry{ترکیب طاقتی تسلسل}{\RL {\arabicfont  309}}
+\indexentry{Frobenius method}{\RL {\arabicfont  309}}
+\indexentry{فروبنیوس!ترکیب}{\RL {\arabicfont  309}}
+\indexentry{ترکیب فروبنیوس}{\RL {\arabicfont  309}}
+\indexentry{special functions}{\RL {\arabicfont  309}}
+\indexentry{higher functons}{\RL {\arabicfont  309}}
+\indexentry{اعلٰی تفاعل}{\RL {\arabicfont  309}}
+\indexentry{coefficients}{\RL {\arabicfont  310}}
+\indexentry{عددی سر}{\RL {\arabicfont  310}}
+\indexentry{summation}{\RL {\arabicfont  310}}
+\indexentry{علامت مجموعہ}{\RL {\arabicfont  310}}
+\indexentry{center}{\RL {\arabicfont  310}}
+\indexentry{وسط}{\RL {\arabicfont  310}}
+\indexentry{index}{\RL {\arabicfont  310}}
+\indexentry{اشاریہ}{\RL {\arabicfont  310}}
+\indexentry{Legendre!function}{\RL {\arabicfont  314}}
+\indexentry{لیژانڈر!تفاعل}{\RL {\arabicfont  314}}
+\indexentry{Legendre!polynomial}{\RL {\arabicfont  314}}
+\indexentry{لیژانڈر!کثیر رکنی تفاعل}{\RL {\arabicfont  314}}
+\indexentry{order!Legendre}{\RL {\arabicfont  314}}
+\indexentry{درجہ!لیژانڈر}{\RL {\arabicfont  314}}
+\indexentry{partial sum}{\RL {\arabicfont  314}}
+\indexentry{جزوی مجموعہ}{\RL {\arabicfont  314}}
+\indexentry{remainder}{\RL {\arabicfont  315}}
+\indexentry{بقایا}{\RL {\arabicfont  315}}
+\indexentry{power series!value or sum}{\RL {\arabicfont  315}}
+\indexentry{طاقتی تسلسل!قیمت}{\RL {\arabicfont  315}}
+\indexentry{converge}{\RL {\arabicfont  315}}
+\indexentry{مرتکز}{\RL {\arabicfont  315}}
+\indexentry{طاقتی تسلسل!مجموعہ}{\RL {\arabicfont  315}}
+\indexentry{divergent}{\RL {\arabicfont  315}}
+\indexentry{منفرج}{\RL {\arabicfont  315}}
+\indexentry{interval!convergence}{\RL {\arabicfont  316}}
+\indexentry{وقفہ!ارتکازی}{\RL {\arabicfont  316}}
+\indexentry{ارتکازی وقفہ}{\RL {\arabicfont  316}}
+\indexentry{radius!convergence}{\RL {\arabicfont  316}}
+\indexentry{convergence!radius}{\RL {\arabicfont  316}}
+\indexentry{ارتکاز!رداس}{\RL {\arabicfont  316}}
+\indexentry{رداس!ارتکاز}{\RL {\arabicfont  316}}
+\indexentry{analytic}{\RL {\arabicfont  319}}
+\indexentry{تحلیلی}{\RL {\arabicfont  319}}
+\indexentry{index!shifting}{\RL {\arabicfont  322}}
+\indexentry{اشاریہ!منتقلی}{\RL {\arabicfont  322}}
+\indexentry{منتقلی!اشاریہ}{\RL {\arabicfont  322}}
+\indexentry{Legendre!equation}{\RL {\arabicfont  324}}
+\indexentry{لیژانڈر!تفرقی مساوات}{\RL {\arabicfont  324}}
+\indexentry{مقدار معلوم}{\RL {\arabicfont  325}}
+\indexentry{نسل}{\RL {\arabicfont  325}}
+\indexentry{Legendre!function}{\RL {\arabicfont  325}}
+\indexentry{لیژانڈر!تفاعل}{\RL {\arabicfont  325}}
+\indexentry{theory!special functions}{\RL {\arabicfont  325}}
+\indexentry{نظریہ!اعلٰی تفاعل}{\RL {\arabicfont  325}}
+\indexentry{recursion formula}{\RL {\arabicfont  326}}
+\indexentry{توالی کلیہ}{\RL {\arabicfont  326}}
+\indexentry{کلیہ!توالی}{\RL {\arabicfont  326}}
+\indexentry{Legendre!polynomial}{\RL {\arabicfont  328}}
+\indexentry{لیژانڈر!کثیر رکنی}{\RL {\arabicfont  328}}
+\indexentry{Legendre!polynomial}{\RL {\arabicfont  329}}
+\indexentry{لیژانڈر!کثیر رکنی}{\RL {\arabicfont  329}}
+\indexentry{orthogonal}{\RL {\arabicfont  329}}
+\indexentry{عمودی}{\RL {\arabicfont  329}}
+\indexentry{مسئلہ ثنائی، الکراجی}{\RL {\arabicfont  332}}
+\indexentry{الکراجی کا مسئلہ ثنائی}{\RL {\arabicfont  332}}
+\indexentry{Rodrigues' formula}{\RL {\arabicfont  332}}
+\indexentry{روڈریگیس کلیہ}{\RL {\arabicfont  332}}
+\indexentry{کلیہ!روڈریگیس}{\RL {\arabicfont  332}}
+\indexentry{Leibnitz formula}{\RL {\arabicfont  334}}
+\indexentry{لیبنٹز کلیہ}{\RL {\arabicfont  334}}
+\indexentry{کلیہ لیبنٹز}{\RL {\arabicfont  334}}
+\indexentry{اوسیاں بونے [1849-1917] فرانسیسی ریاضی دان۔}{\RL {\arabicfont  340}}
+\indexentry{recursion!Bonnet}{\RL {\arabicfont  340}}
+\indexentry{Legendre!associated functions}{\RL {\arabicfont  341}}
+\indexentry{لیژانڈر!شریک تفاعل}{\RL {\arabicfont  341}}
+\indexentry{quantum mechanics}{\RL {\arabicfont  341}}
+\indexentry{کوانٹم میکانیات}{\RL {\arabicfont  341}}

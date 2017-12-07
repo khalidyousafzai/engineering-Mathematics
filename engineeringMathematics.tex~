@@ -49,9 +49,9 @@
 \graphicspath{{./fig/figFrontPage/}{./fig/figFirstOrderOrdinaryDifferentialEquations/}{./fig/figSecondOrderOrdinaryDifferentialEquations/}{./fig/figSystemOfDifferentialEquations/}}		%paths to figures
 
 
-%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathSecondOrderDifferentialEquations,./tex/mathHigherOrderDifferentialEquations,./tex/mathSystemOfDifferentialEquations,./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations,./tex/mathAppendixAdditionalProofs}
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathSecondOrderDifferentialEquations,./tex/mathHigherOrderDifferentialEquations,./tex/mathSystemOfDifferentialEquations,./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations,./tex/mathAppendixAdditionalProofs}
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathAppendixAdditionalProofs,./tex/mathQuestions}%
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathQuestions}%
+%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations}%
 
 
 \author{
@@ -115,6 +115,7 @@
 \renewcommand*{\bibname}{حوالہ}      %this command has to be placed right here
 \begin{thebibliography}{99}\label{حوالہ_بیرونی_مواد}
 \begin{otherlanguage}{english}
+%\cite{حوالہ_کریزگ_الف_گیارہ}         this is how it is referenced in the text
 \bibitem{حوالہ_کریزگ_الف_سات}
  Coddington, E. A. and N. Levinson, Theory of
 Ordinary Differential Equations. Malabar, FL: Krieger,

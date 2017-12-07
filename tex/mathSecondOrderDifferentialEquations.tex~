@@ -1094,8 +1094,8 @@ D^s[(x^2-1)f]&=(x^2-1)D^sf+2sxD^{s-1}f+s(s-1)D^{s-2}f
 حاصل کرتے ہیں جن کی ضرورت باب \حوالہ{باب_بیسل} میں پیش آئے گی۔
 
 درج ذیل کو دیکھ کر
-\begin{gather}
-\begin{aligned}\label{مساوات_دوسری_تفرقی_عامل_کلیہ_الف}
+\begin{gather}\label{مساوات_دوسری_تفرقی_عامل_کلیہ_الف}
+\begin{aligned}
 D^1(xf)&=xD^1f+f\\
 D^2(xf)&=D^1[D^1(xf)]=D^1[xD^1f+f]=xD^2f+D^1f+D^1f=xD^2f+2D^1f\\
 D^3(xf)&=D^1[D^2(xf)]=D^1[xD^2f+2D^1f]=xD^3f+D^2f+2D^2f=xD^3+3D^2f

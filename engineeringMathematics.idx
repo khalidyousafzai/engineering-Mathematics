@@ -47,57 +47,73 @@
 \indexentry{رداس!ارتکاز}{\RL {\arabicfont  316}}
 \indexentry{analytic}{\RL {\arabicfont  319}}
 \indexentry{تحلیلی}{\RL {\arabicfont  319}}
-\indexentry{index!shifting}{\RL {\arabicfont  322}}
-\indexentry{اشاریہ!منتقلی}{\RL {\arabicfont  322}}
-\indexentry{منتقلی!اشاریہ}{\RL {\arabicfont  322}}
-\indexentry{Legendre!equation}{\RL {\arabicfont  324}}
-\indexentry{لیژانڈر!تفرقی مساوات}{\RL {\arabicfont  324}}
+\indexentry{smooth!not}{\RL {\arabicfont  320}}
+\indexentry{غیر ہموار}{\RL {\arabicfont  320}}
+\indexentry{index!shifting}{\RL {\arabicfont  323}}
+\indexentry{اشاریہ!منتقلی}{\RL {\arabicfont  323}}
+\indexentry{منتقلی!اشاریہ}{\RL {\arabicfont  323}}
+\indexentry{Legendre!equation}{\RL {\arabicfont  325}}
+\indexentry{لیژانڈر!تفرقی مساوات}{\RL {\arabicfont  325}}
 \indexentry{مقدار معلوم}{\RL {\arabicfont  325}}
 \indexentry{نسل}{\RL {\arabicfont  325}}
 \indexentry{Legendre!function}{\RL {\arabicfont  325}}
 \indexentry{لیژانڈر!تفاعل}{\RL {\arabicfont  325}}
 \indexentry{theory!special functions}{\RL {\arabicfont  325}}
 \indexentry{نظریہ!اعلٰی تفاعل}{\RL {\arabicfont  325}}
-\indexentry{recursion formula}{\RL {\arabicfont  326}}
-\indexentry{توالی کلیہ}{\RL {\arabicfont  326}}
-\indexentry{کلیہ!توالی}{\RL {\arabicfont  326}}
+\indexentry{recursion formula}{\RL {\arabicfont  327}}
+\indexentry{توالی کلیہ}{\RL {\arabicfont  327}}
+\indexentry{کلیہ!توالی}{\RL {\arabicfont  327}}
 \indexentry{Legendre!polynomial}{\RL {\arabicfont  328}}
 \indexentry{لیژانڈر!کثیر رکنی}{\RL {\arabicfont  328}}
 \indexentry{Legendre!polynomial}{\RL {\arabicfont  329}}
 \indexentry{لیژانڈر!کثیر رکنی}{\RL {\arabicfont  329}}
-\indexentry{orthogonal}{\RL {\arabicfont  329}}
-\indexentry{عمودی}{\RL {\arabicfont  329}}
+\indexentry{orthogonal}{\RL {\arabicfont  330}}
+\indexentry{عمودی}{\RL {\arabicfont  330}}
 \indexentry{مسئلہ ثنائی، الکراجی}{\RL {\arabicfont  332}}
 \indexentry{الکراجی کا مسئلہ ثنائی}{\RL {\arabicfont  332}}
 \indexentry{Rodrigues' formula}{\RL {\arabicfont  332}}
 \indexentry{روڈریگیس کلیہ}{\RL {\arabicfont  332}}
 \indexentry{کلیہ!روڈریگیس}{\RL {\arabicfont  332}}
-\indexentry{Leibnitz formula}{\RL {\arabicfont  334}}
-\indexentry{لیبنٹز کلیہ}{\RL {\arabicfont  334}}
-\indexentry{کلیہ لیبنٹز}{\RL {\arabicfont  334}}
-\indexentry{اوسیاں بونے [1849-1917] فرانسیسی ریاضی دان۔}{\RL {\arabicfont  340}}
-\indexentry{recursion!Bonnet}{\RL {\arabicfont  340}}
+\indexentry{Leibnitz formula}{\RL {\arabicfont  335}}
+\indexentry{لیبنٹز کلیہ}{\RL {\arabicfont  335}}
+\indexentry{کلیہ لیبنٹز}{\RL {\arabicfont  335}}
+\indexentry{اوسیاں بونے [1849-1917] فرانسیسی ریاضی دان۔}{\RL {\arabicfont  341}}
+\indexentry{recursion!Bonnet}{\RL {\arabicfont  341}}
 \indexentry{Legendre!associated functions}{\RL {\arabicfont  341}}
 \indexentry{لیژانڈر!شریک تفاعل}{\RL {\arabicfont  341}}
 \indexentry{quantum mechanics}{\RL {\arabicfont  341}}
 \indexentry{کوانٹم میکانیات}{\RL {\arabicfont  341}}
-\indexentry{Frobenius method}{\RL {\arabicfont  342}}
-\indexentry{فروبنیوس!ترکیب}{\RL {\arabicfont  342}}
-\indexentry{ترکیب فروبنیوس}{\RL {\arabicfont  342}}
-\indexentry{point!regular}{\RL {\arabicfont  343}}
-\indexentry{regular point}{\RL {\arabicfont  343}}
-\indexentry{نادر!غیر نادر}{\RL {\arabicfont  343}}
-\indexentry{غیر نادر نقطہ}{\RL {\arabicfont  343}}
+\indexentry{Frobenius method}{\RL {\arabicfont  343}}
+\indexentry{فروبنیوس!ترکیب}{\RL {\arabicfont  343}}
+\indexentry{ترکیب فروبنیوس}{\RL {\arabicfont  343}}
 \indexentry{point!regular}{\RL {\arabicfont  344}}
 \indexentry{regular point}{\RL {\arabicfont  344}}
 \indexentry{نادر!غیر نادر}{\RL {\arabicfont  344}}
 \indexentry{غیر نادر نقطہ}{\RL {\arabicfont  344}}
+\indexentry{singular!irregular }{\RL {\arabicfont  344}}
+\indexentry{نادر!غیر منظم نقطہ}{\RL {\arabicfont  344}}
+\indexentry{غیر منظم نادر نقطہ}{\RL {\arabicfont  344}}
+\indexentry{singular!regular point}{\RL {\arabicfont  344}}
+\indexentry{نادر!منظم نقطہ}{\RL {\arabicfont  344}}
+\indexentry{منظم نادر نقطہ}{\RL {\arabicfont  344}}
+\indexentry{point!regular}{\RL {\arabicfont  344}}
+\indexentry{regular point}{\RL {\arabicfont  344}}
+\indexentry{منظم نقطہ}{\RL {\arabicfont  344}}
+\indexentry{منظم نقطہ}{\RL {\arabicfont  344}}
 \indexentry{singular point}{\RL {\arabicfont  344}}
 \indexentry{نادر!نقطہ}{\RL {\arabicfont  344}}
 \indexentry{نقطہ!نادر}{\RL {\arabicfont  344}}
-\indexentry{indicial equation}{\RL {\arabicfont  345}}
-\indexentry{مساوات!اشاری}{\RL {\arabicfont  345}}
-\indexentry{اشاری مساوات}{\RL {\arabicfont  345}}
-\indexentry{hypergeometric equation}{\RL {\arabicfont  347}}
-\indexentry{مساوات!بیش ہندسی}{\RL {\arabicfont  347}}
-\indexentry{بیش ہندسی مساوات}{\RL {\arabicfont  347}}
+\indexentry{indicial equation}{\RL {\arabicfont  346}}
+\indexentry{مساوات!اشاری}{\RL {\arabicfont  346}}
+\indexentry{اشاری مساوات}{\RL {\arabicfont  346}}
+\indexentry{hypergeometric equation}{\RL {\arabicfont  349}}
+\indexentry{مساوات!بیش ہندسی}{\RL {\arabicfont  349}}
+\indexentry{بیش ہندسی مساوات}{\RL {\arabicfont  349}}
+\indexentry{Gauss' hypergeometric equation}{\RL {\arabicfont  359}}
+\indexentry{بیش ہندسی!گاوس}{\RL {\arabicfont  359}}
+\indexentry{مساوات!گاوس بیش ہندسی}{\RL {\arabicfont  359}}
+\indexentry{گاوس بیش ہندسی مساوات}{\RL {\arabicfont  359}}
+\indexentry{بیش ہندسی تفاعل}{\RL {\arabicfont  359}}
+\indexentry{hypergeomitric!series}{\RL {\arabicfont  359}}
+\indexentry{بیش ہندسی تسلسل}{\RL {\arabicfont  359}}
+\indexentry{hypergeometric function}{\RL {\arabicfont  359}}

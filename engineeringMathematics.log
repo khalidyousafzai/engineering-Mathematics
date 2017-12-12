@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  9 DEC 2017 14:52
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  12 DEC 2017 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3211,7 +3211,7 @@ Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 [322] [323]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 431.
+(Font)              scaled to size 9.0pt on input line 470.
 
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
@@ -3225,33 +3225,36 @@ Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
 [328] [329]
-Overfull \hbox (15.13234pt too wide) in paragraph at lines 617--617
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[330]
+Overfull \hbox (15.13234pt too wide) in paragraph at lines 656--656
+[][] []
+ []
+
+[331]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[332]
+Overfull \hbox (10.4415pt too wide) in paragraph at lines 693--693
+[][] []
+ []
+
+[333]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[334] [335]
+Overfull \hbox (24.5746pt too wide) in paragraph at lines 770--770
 [][] []
  []
 
 
-Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-[330] [331]
-Overfull \hbox (10.4415pt too wide) in paragraph at lines 654--654
-[][] []
- []
-
-
-Overfull \vbox (1.62791pt too high) has occurred while \output is active []
-
-
-[332] [333]
-Overfull \vbox (1.62791pt too high) has occurred while \output is active []
-
-
-[334]
-Overfull \hbox (24.5746pt too wide) in paragraph at lines 731--731
-[][] []
- []
-
-[335]
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
@@ -3263,12 +3266,12 @@ Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[340]
-Overfull \hbox (20.44586pt too wide) in paragraph at lines 899--899
+[340] [341]
+Overfull \hbox (20.44586pt too wide) in paragraph at lines 938--938
 [][] []
  []
 
-[341]
+
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
@@ -3281,22 +3284,43 @@ Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
 [346] [347]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[348] [349]
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
 
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[348]
-Overfull \hbox (23.93982pt too wide) in paragraph at lines 1120--1120
-[][] []
- []
-
-[349]
+[350] [351]
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[350]) [351] [343
+[352] [353]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[354] [355]
+Underfull \hbox (badness 10000) in paragraph at lines 1344--1345
+[][]
+ []
+
+
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[356] [357]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[358]
+Overfull \hbox (1.94762pt too wide) in paragraph at lines 1435--1435
+[][] []
+ []
+
+) [359] [343
 
 
 
@@ -3319,12 +3343,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46533 strings out of 493918
- 1105094 string characters out of 6150562
- 1295550 words of memory out of 5000000
- 48886 multiletter control sequences out of 15000+600000
+ 46552 strings out of 493918
+ 1105486 string characters out of 6150562
+ 1296253 words of memory out of 5000000
+ 48905 multiletter control sequences out of 15000+600000
  37731 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,16n,81p,10485b,2132s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,16n,81p,10485b,2129s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (52 pages).
+Output written on engineeringMathematics.pdf (60 pages).

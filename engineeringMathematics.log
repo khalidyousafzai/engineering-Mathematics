@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  12 DEC 2017 15:58
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  14 DEC 2017 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3320,7 +3320,21 @@ Overfull \hbox (1.94762pt too wide) in paragraph at lines 1435--1435
 [][] []
  []
 
-) [359] [343
+[359]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[360]
+Overfull \hbox (6.92651pt too wide) in paragraph at lines 1507--1507
+[][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1518--1520
+[][]
+ []
+
+) [361] [343
 
 
 
@@ -3343,12 +3357,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46552 strings out of 493918
- 1105486 string characters out of 6150562
- 1296253 words of memory out of 5000000
- 48905 multiletter control sequences out of 15000+600000
+ 46561 strings out of 493918
+ 1105695 string characters out of 6150562
+ 1296417 words of memory out of 5000000
+ 48914 multiletter control sequences out of 15000+600000
  37731 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,16n,81p,10485b,2129s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (60 pages).
+Output written on engineeringMathematics.pdf (62 pages).

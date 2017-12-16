@@ -1184,5 +1184,25 @@ F1:1+sum(product((a+i)*(b+i)/((c+i)),i,0,k)*x^(k+1)/(k+1)!,k,0,3);
 a:5/2;
 b:2;
 c:5/2;
-F2:x^(3/2)*(1+sum(product((a+i)*(b+i)/((c+i)),i,0,k)*x^(k+1)/(k+1)!,k,0,3));
+F2:x^(1-c)*(1+sum(product((a+i)*(b+i)/((c+i)),i,0,k)*x^(k+1)/(k+1)!,k,0,3));
+
+Print("======================================");
+kill(all);
+print("Q 5.55a");
+
+powerdisp:true;
+
+a:1;
+b:1/2;
+c:-1/2;
+F1:1+sum(product((a+i)*(b+i)/((c+i)),i,0,k)*x^(k+1)/(k+1)!,k,0,3);
+
+a:5/2;
+b:2;
+c:5/2;
+F2:x^(1-c)*(1+sum(product((a+i)*(b+i)/((c+i)),i,0,k)*x^(k+1)/(k+1)!,k,0,3));
+powerdisp:false;
+
+
+
 

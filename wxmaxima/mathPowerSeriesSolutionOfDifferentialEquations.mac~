@@ -1161,12 +1161,6 @@ y1:x^rr*(1+subst(%,sum(c[k]*x^k,k,1,6)));
 expand(%);
 powerdisp:false$
 
-a:1;
-b:1;
-c:1;
-F:1+sum(product((a+i)*(b+i)/((c+i)),i,0,k)*x^(k+1)/(k+1)!*,k,0,3);
-
-
 rr:rb;
 kREC:subst(r=rr,REC);
 makelist(subst(k=m,kREC)=0,m,1,6);
@@ -1182,12 +1176,40 @@ y2:x^rr*(x+subst(%,sum(c[k]*x^k,k,2,6)));
 expand(%);
 powerdisp:false$
 
+a:1;
+b:1/2;
+c:-1/2;
+F1:1+sum(product((a+i)*(b+i)/((c+i)),i,0,k)*x^(k+1)/(k+1)!,k,0,3);
 
-y:%e^x;
-x*diff(y,x,2)+(2-2*x)*diff(y,x,1)+(x-2)*y=0;
-expand(%);
+a:5/2;
+b:2;
+c:5/2;
+F2:x^(1-c)*(1+sum(product((a+i)*(b+i)/((c+i)),i,0,k)*x^(k+1)/(k+1)!,k,0,3));
+
+Print("======================================");
+kill(all);
+print("Q 5.55a");
+
+powerdisp:true;
+
+a:1;
+b:1/2;
+c:-1/2;
+F1:1+sum(product((a+i)*(b+i)/((c+i)),i,0,k)*x^(k+1)/(k+1)!,k,0,3);
+
+a:5/2;
+b:2;
+c:5/2;
+F2:x^(1-c)*(1+sum(product((a+i)*(b+i)/((c+i)),i,0,k)*x^(k+1)/(k+1)!,k,0,3));
+powerdisp:false;
 
 
-y:1/x*%e^x;
-x*diff(y,x,2)+(2-2*x)*diff(y,x,1)+(x-2)*y=0;
-expand(%);
+Print("======================================");
+kill(all);
+print("Bessel function J0");
+
+powerdisp:true;
+n:0;
+J:sum((-1)^m*x^(2*m+n)/(2^(2*m+n)*m!*(n+m)!),m,0,100);
+plot2d(J,[x,0,12]);
+powerdisp:false;

@@ -1,0 +1,10 @@
+\باب{مفید معلومات}
+\حصہ{اعلی تفاعل کے مساوات}
+
+\جزوحصہء{گیما تفاعل}
+\begin{figure}
+\centering
+\includegraphics{figOctaveGammaFunction}
+\caption{گیما تفاعل}
+\label{شکل_ضمیمہ_گیما_تفاعل}
+\end{figure}

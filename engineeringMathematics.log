@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  16 DEC 2017 16:14
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  17 DEC 2017 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1771,7 +1771,8 @@ LaTeX Font Info:    No file EU1ppl.fd. on input line 18.
 LaTeX Font Warning: Font shape `EU1/ppl/m/n' undefined
 (Font)              using `EU1/lmr/m/n' instead on input line 18.
 
-(./tex/mathAppendixAdditionalProofs.aux))
+(./tex/mathAppendixAdditionalProofs.aux)
+(./tex/mathAppendixAuxiliaryMaterial.aux))
 \openout1 = `engineeringMathematics.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
@@ -3340,24 +3341,50 @@ Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[364] [365]
+[364]
+File: ./fig/figBesselFunction/figOctaveBesselFunction.pdf Graphic file (type QT
+m)
+ <use  "./fig/figBesselFunction/figOctaveBesselFunction.pdf" > [365]
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[366]) [367] [343
+[366] [367]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[368] [369]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[370]
+Overfull \hbox (10.78867pt too wide) in paragraph at lines 1806--1806
+[][] []
+ []
+
+[371]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[372] [373])
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[374]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[374
 
 
 
-] [348
-
-
-] (./engineeringMathematics.aux (./tex/cktPreface.aux)
+] [375] (./engineeringMathematics.aux (./tex/cktPreface.aux)
 (./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
 (./tex/mathSystemOfDifferentialEquations.aux)
 (./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations.aux)
-(./tex/mathQuestions.aux) (./tex/mathAppendixAdditionalProofs.aux))
+(./tex/mathQuestions.aux) (./tex/mathAppendixAdditionalProofs.aux)
+(./tex/mathAppendixAuxiliaryMaterial.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.43996pt have occurred.
@@ -3367,12 +3394,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46602 strings out of 493918
- 1106389 string characters out of 6150562
- 1297009 words of memory out of 5000000
- 48954 multiletter control sequences out of 15000+600000
+ 46654 strings out of 493918
+ 1107897 string characters out of 6150562
+ 1298059 words of memory out of 5000000
+ 48989 multiletter control sequences out of 15000+600000
  37739 words of font info for 154 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,16n,81p,10485b,2129s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (68 pages).
+Output written on engineeringMathematics.pdf (75 pages).

@@ -1,0 +1,37 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{commath}   %differential symbol   \dif
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+\usepackage[europeanresistors]{circuitikz}
+\usetikzlibrary{intersections,decorations.markings,calc}
+\usepackage{polyglossia}                %is loaded the last
+\usepackage{siunitx}
+\usepackage{amsmath}
+\input{../../tex/myEMTvectors.tex}
+
+\setmainlanguage[numerals=maghrib]{arabic}     %for english numbers use numerals=maghrib, for arabic numerals=arabicdigits
+\setotherlanguages{english}
+
+
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+%\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+\newfontfamily\urdufont[Scale=1.25,WordSpace=6.0,,Script=Arabic]{Jameel Noori Nastaleeq}
+
+\pgfmathsetmacro{\A}{0.75}
+\pgfmathdeclarefunction{Ey}{2}{\pgfmathparse{\A*cos(#1)*sin(#2)}}
+%
+
+\begin{document}
+\begin{urdufont}
+\begin{tikzpicture}
+%
+\begin{axis}[axis lines*=middle,xmax=10,ymin=-0.5,ymax=0.59,xlabel={$x$},xlabel style={at={(current axis.right of origin)},anchor=north east},xtick={2,4,6,8},xticklabels={$2$,$4$,$6$,$8$}]
+\addplot[black] table {figOctaveNeumannZeroFunction.dat}node[pos=0.3,right]{$Y_0(x)$};
+\addplot[black] table {figOctaveNeumannOneFunction.dat}node[pos=0.6,right]{$Y_1(x)$};
+\end{axis}
+%
+\end{tikzpicture}%
+\end{urdufont}
+\end{document} 

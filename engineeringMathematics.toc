@@ -41,7 +41,8 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 5}}لیژانڈر مساوات۔ لیژانڈر کثیر رکنی}{\RL {\arabicfont 325}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 5}}مبسوط طاقتی تسلسل۔ ترکیب فروبنیوس}{\RL {\arabicfont 343}}
 \contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}.\RL {\arabicfont 5}}عملی استعمال}{\RL {\arabicfont 348}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 5}}مساوات بیسل؛ بیسل تفاعل}{\RL {\arabicfont 362}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 5}}مساوات بیسل اور بیسل تفاعل}{\RL {\arabicfont 362}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 5}}بیسل تفاعل کی دوسری قسم۔ عمومی حل}{\RL {\arabicfont 377}}
 \select@language {english}
 \select@language {arabic}
 \contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 377}}

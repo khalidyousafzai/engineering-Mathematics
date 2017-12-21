@@ -1321,8 +1321,8 @@ declare([v,L],constant);
 v:1;
 
 depends(y,z);
-eqa:z(x):=x/2-1/2;
-eqb:x=2*z+1;  
+eqa:z(x):=x/2+1/2;
+eqb:x=2*z-1;  
 
 yDk:diff(z(x),x)*'diff(y,z);
 yD:subst(eqb,%);
@@ -1332,4 +1332,50 @@ yDD:subst(eqb,%);
 eq:x^2*yDD+x*yD+(x^2-v^2)*y=0;
 subst(eqb,%);
 expand(%);
+
+
+print("=======================");
+kill(all);
+print("Q 5.84");
+print("this turns a standard bessel's equation into the question Q to be given to the student");
+print("in eqb interchange x and z and give this as additional information in the question");
+
+v:3/2;
+depends(y,z);
+eqa:z(x):=x^3;
+eqb:x=z^(1/3);  
+
+yDk:diff(z(x),x)*'diff(y,z);
+yD:subst(eqb,%);
+yDDk:diff(yD,z)*diff(z(x),x);
+yDD:subst(eqb,%);
+
+eq:x^2*yDD+x*yD+(x^2-v^2)*y=0;
+subst(eqb,%);
+expand(%);
+
+
+print("=======================");
+kill(all);
+print("Q 5.85");
+print("this turns a standard bessel's equation into the question Q to be given to the student");
+print("in the questin given, x is written instead of z");
+print("in eqb interchange x and z and give this as additional information in the question");
+
+v:3/2;
+depends(y,z);
+eqa:z(x):=sqrt(x);
+eqb:x=z^2;  
+
+yDk:diff(z(x),x)*'diff(y,z);
+yD:subst(eqb,%);
+yDDk:diff(yD,z)*diff(z(x),x);
+yDD:subst(eqb,%);
+
+eq:x^2*yDD+x*yD+(x^2-v^2)*y=0;
+subst(eqb,%);
+Q:expand(%);
+
+
+
 

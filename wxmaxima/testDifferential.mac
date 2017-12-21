@@ -1,0 +1,9 @@
+kill(all);
+
+load(pdiff)$
+
+de : diff(y(x),x) - (2*x-1)*y(x);
+de, y(x) := z(x*(x-1));
+ratsubst(t,x*(x-1),%);
+solve(%,diff(z(t),t));
+

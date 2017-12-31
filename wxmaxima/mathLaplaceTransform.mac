@@ -1,0 +1,120 @@
+print("=======================");
+kill(all);
+print("Q 6.1");
+
+f:2*t-3;
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.2");
+
+
+declare(a,constant,b,constant);
+f:(a*t+b)^2;
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.3");
+
+
+declare(a,constant,b,constant);
+f:sin(2*%pi*t);
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.4");
+
+
+declare(a,constant,b,constant);
+f:(sin(2*%pi*t))^2;
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.5");
+
+
+declare(a,constant,b,constant);
+f:%e^(-3*t)*sin(4*t);
+laplace(f,t,s);
+
+
+print("=======================");
+kill(all);
+print("Q 6.6");
+
+
+declare(a,constant,b,constant);
+f:%e^(2*t)*cos(3*t);
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.7");
+
+
+declare(a,constant,b,constant);
+f:cos(2*t-%pi/3);
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.8");
+
+
+declare(a,constant,b,constant);
+f:2*sin(5*t+%pi);
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.9");
+
+f1:t/2;
+integrate(f1*%e^(-s*t),t,0,2);
+
+
+print("=======================");
+kill(all);
+print("Q 6.10");
+
+f1:2;
+integrate(f1*%e^(-s*t),t,0,3);
+
+print("=======================");
+kill(all);
+print("Q 6.11");
+
+f1:-2/5*t+2;
+integrate(f1*%e^(-s*t),t,0,5);
+
+
+print("=======================");
+kill(all);
+print("Q 6.12");
+
+f1:-5*t+5;
+integrate(f1*%e^(-s*t),t,0,2);
+ratsimp(%);
+
+print("=======================");
+kill(all);
+print("Q 6.13");
+
+f1:2/3*t;
+f2:(7-t)/2;
+integrate(f1*%e^(-s*t),t,0,3)+integrate(f2*%e^(-s*t),t,3,7);
+ratsimp(%);
+
+
+print("=======================");
+kill(all);
+print("Q 6.14");
+
+f1:t;
+f2:3;
+integrate(f1*%e^(-s*t),t,0,2)+integrate(f2*%e^(-s*t),t,2,4);
+ratsimp(%);

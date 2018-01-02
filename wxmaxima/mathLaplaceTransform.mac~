@@ -259,4 +259,57 @@ f:%e^(-4*pi*t)*sin(pi*t);
 
 laplace(f,t,s)
 
+print("=======================");
+kill(all);
+print("Q 6.36");
 
+f:%e^(-4*t)*(2*sin(5*t)+3*cos(5*t));
+
+laplace(f,t,s)
+
+print("=======================");
+kill(all);
+print("Q 6.37");
+
+f:%e^(-a*t)*(sin(b*t)+cos(b*t));
+
+laplace(f,t,s)
+
+print("=======================");
+kill(all);
+print("Q 6.38");
+
+f:(a+b*t)*%e^(-c*t);
+
+laplace(f,t,s)
+
+print("=======================");
+kill(all);
+print("example 6.11");
+
+f:(2*s+5)/((s+1)*(s+2));
+partfrac(f,s);
+
+print("=======================");
+kill(all);
+print("Q 6.40");
+
+f:(cos(t))^2;
+
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.46");
+
+f:t*sin(w*t);
+
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.47);
+
+f:t*sinh(w*t);
+
+laplace(f,t,s);

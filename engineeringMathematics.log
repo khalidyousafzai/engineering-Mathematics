@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  2 JAN 2018 16:42
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  3 JAN 2018 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3186,7 +3186,21 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 [391] [392] [393] [394] [395] [396] [397] [398] [399] [400] [401] [402]
 Missing character: There is no َ in font zplmr7m!
 
-[403] [404] [405] [406] [407]) [408] [374
+[403] [404] [405] [406] [407]
+Overfull \hbox (2.77925pt too wide) in paragraph at lines 879--879
+[][] []
+ []
+
+[408] [409] [410]
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 998.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 998.
+ [411] [412] [413]
+
+LaTeX Warning: Float too large for page by 55.48018pt on input line 1165.
+
+[414] [415] [416]) [417] [374
 
 
 
@@ -3205,12 +3219,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46570 strings out of 493918
- 1106150 string characters out of 6150562
- 1289359 words of memory out of 5000000
- 48915 multiletter control sequences out of 15000+600000
- 33119 words of font info for 137 fonts, out of 8000000 for 9000
+ 46659 strings out of 493918
+ 1108021 string characters out of 6150562
+ 1293678 words of memory out of 5000000
+ 49004 multiletter control sequences out of 15000+600000
+ 36978 words of font info for 150 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,17n,81p,10485b,1970s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,17n,86p,10485b,2277s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (33 pages).
+Output written on engineeringMathematics.pdf (42 pages).

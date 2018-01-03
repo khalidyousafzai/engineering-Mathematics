@@ -46,6 +46,7 @@
 \contentsline {chapter}{\numberline {\RL {\arabicfont 6}}لاپلاس تبادلہ}{\RL {\arabicfont 385}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 6}}لاپلاس بدل۔ الٹ لاپلاس بدل۔ خطیت}{\RL {\arabicfont 386}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 6}}تفرقات اور تکملات کے لاپلاس بدل۔ سادہ تفرقی مساوات}{\RL {\arabicfont 398}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 6}}\tmspace +\medmuskip {.2222em} \ensuremath {s} \tmspace +\medmuskip {.2222em} محور پر منتقلی، \tmspace +\medmuskip {.2222em} \ensuremath {t} \tmspace +\medmuskip {.2222em} محور پر منتقلی، اکائی سیڑھی تفاعل}{\RL {\arabicfont 411}}
 \select@language {english}
 \select@language {arabic}
 \contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 377}}

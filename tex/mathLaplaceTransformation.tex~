@@ -756,7 +756,7 @@ g(t)=\int_{0}^{t}f(\tau)\dif \tau
 %========================
 
 مساوات \حوالہ{مساوات_لاپلاس_تکمل_کا_بدل} میں \عددی{\Laplace[f(t)]=F(s)} لکھ کر اور اطراف بدل کر، الٹ لاپلاس بدل لینے سے
-\begin{align}
+\begin{align}\label{مساوات_لاپلاس_تکمل_کا_بدل_جڑواں}
 \Laplace^{-1}\left[\frac{F(s)}{s}\right]=\int_{0}^{t} f(\tau)\dif \tau
 \end{align}
 حاصل ہوتا ہے جو مساوات \حوالہ{مساوات_لاپلاس_تکمل_کا_بدل} کی جڑواں مساوات ہے۔
@@ -1088,7 +1088,7 @@ y(t)=\Laplace^{-1}(Y)=e^{-t}(4\cos \sqrt{3}t+\frac{1}{\sqrt{3}}\sin \sqrt{3}t)
 f(t-a) &  t>a
 \end{cases}
 \end{align*}
-\موٹا{اکائی سیڑھی تفاعل}، جسے شکل \حوالہ{شکل_لاپلاس_اکائی_سیڑھی_تفاعل} میں دکھایا گیا ہے، کی تعریف درج ذیل ہے۔
+\موٹا{اکائی سیڑھی تفاعل} (الیور ہیوی سائیڈ تفاعل)\فرہنگ{ہیوی سائیڈ تفاعل}\حاشیہب{Heaviside function}\فرہنگ{Heaviside function}، جسے شکل \حوالہ{شکل_لاپلاس_اکائی_سیڑھی_تفاعل} میں دکھایا گیا ہے، کی تعریف\حاشیہد{الیور ہیوی سائیڈ [1850-1925] خود لکھ پڑھ کر برقی مہندس، ماہر ریاضی اور ماہر طبیعیات بنے۔یہ انگلستانی تھے۔} درج ذیل ہے۔
 \begin{align}
 u(t-a)=
 \begin{cases}
@@ -1096,12 +1096,14 @@ u(t-a)=
 1& t>a
 \end{cases}
 \end{align}
-یوں ہم \عددی{\tilde{f}(t)} کو \عددی{f(t-a)u(t-a)} لکھ سکتے ہیں جس کی مثال شکل \حوالہ{شکل_لاپلاس_سیڑھی_ضرب_تفاعل} میں دکھائی گئی ہے۔اس طرح مسئلہ \حوالہ{مسئلہ_لاپلاس_وقتی_محور_منتقلی}  کہتا ہے کہ
-\begin{align}
+\عددی{t<a} پر اکائی سیڑھی تفاعل کی قیمت صفر ہے جبکہ \عددی{t>a} پر اس کی قیمت اکائی ہے۔عین \عددی{t=a} پر اکائی سیڑھی تفاعل \اصطلاح{غیر معین}\فرہنگ{غیر معین}\حاشیہب{undefined}\فرہنگ{undefined} ہے اور یہاں اس میں اکائی کی چھلانگ پائی جاتی ہے۔
+
+اکائی سیڑھی تفاعل کو زیر استعمال لاتے ہوئے ہم \عددی{\tilde{f}(t)} کو \عددی{f(t-a)u(t-a)} لکھ سکتے ہیں جس کی مثال شکل \حوالہ{شکل_لاپلاس_سیڑھی_ضرب_تفاعل} میں دکھائی گئی ہے۔اس طرح مسئلہ \حوالہ{مسئلہ_لاپلاس_وقتی_محور_منتقلی}  کہتا ہے کہ
+\begin{align}\label{مساوات_لاپلاس_منتقلی_وقت_صورت_الف}
 e^{-as}F(s)=\Laplace[f(t-a)u(t-a)]
 \end{align}
 جسے الٹ لاپلاس بدل لیتے ہوئے درج ذیل لکھا جا سکتا ہے۔
-\begin{align}
+\begin{align}\label{مساوات_لاپلاس_منتقلی_وقت_صورت_ب}
 \Laplace^{-1}[e^{-as}F(s)]=f(t-a)u(t-a)
 \end{align}
 %
@@ -1123,7 +1125,7 @@ e^{-as}F(s)=\Laplace[f(t-a)u(t-a)]
 %
 \begin{figure}
 \centering
-\begin{subfigure}{1\textwidth}
+\begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
 \begin{axis}[small,axis lines*=middle,xlabel={$t$},ylabel={${f(t)=\sin t}$},xlabel style={at={(current axis.right of origin)},anchor=north east},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=south west},xtick=\empty,ytick=\empty]
@@ -1131,9 +1133,9 @@ e^{-as}F(s)=\Laplace[f(t-a)u(t-a)]
 \addplot[]plot coordinates{(0,0)}node[ocirc]{};
 \end{axis}
 \end{tikzpicture}
-\end{subfigure}
-\begin{subfigure}{1\textwidth}
-\centering
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering1
 \begin{tikzpicture}
 \begin{axis}[small,axis lines*=middle,xlabel={$t$},ylabel={$f(t-a)$},xlabel style={at={(current axis.right of origin)},anchor=north east},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=south west},xtick=\empty,ytick=\empty]
 \addplot[domain=0:360]{sin(x-80)};
@@ -1143,15 +1145,15 @@ e^{-as}F(s)=\Laplace[f(t-a)u(t-a)]
 \end{axis}
 \end{tikzpicture}
 \end{subfigure}
-\begin{subfigure}{1\textwidth}
+\begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
 \begin{axis}[small,axis lines*=middle,xlabel={$t$},ylabel={$u(t-a)$},xlabel style={at={(current axis.right of origin)},anchor=north east},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=south west},xtick={80},xticklabels={$a$},ytick=\empty]
 \addplot[] plot coordinates {(0,0) (80,0) (80,1) (360,1) };
 \end{axis}
 \end{tikzpicture}
-\end{subfigure}
-\begin{subfigure}{1\textwidth}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
 \begin{axis}[small,axis lines*=middle,xlabel={$t$},ylabel={${f(t-a)u(t-a)}$},xlabel style={at={(current axis.right of origin)},anchor=north east},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=south west},xtick={80},xticklabels={$a$},ytick=\empty]
@@ -1187,25 +1189,27 @@ e^{-as}F(s)=\int_{0}^{\infty}e^{-st}f(t-a)u(t-a)\dif t=\Laplace[f(t-a)u(t-a)]
 \Laplace[u(t-a)]&=\int_{0}^{\infty} e^{-st}u(t-a)\dif t=\int_{0}^{a}e^{-st} 0 \dif t+\int_{a}^{\infty}e^{-st} 1\dif t=\left. -\frac{1}{s}e^{-st}\right|_{a}^{\infty}
 \end{align*}
 لکھتے ہیں جس سے درج ذیل ملتا ہے جہاں \عددی{s>0} ہے۔
-\begin{align}
+\begin{align}\label{مساوات_لاپلاس_اکائی_سیڑھی}
 \Laplace[u(t-a)]=\frac{e^{-as}}{s}\quad \quad (s>0)
 \end{align}
 آپ دیکھ سکتے ہیں کہ \عددی{a=0} کی صورت میں \عددی{\Laplace[u(t)]=\tfrac{1}{s}} ملتا ہے۔
 %=====================
 
 \جزوحصہء{لاپلاس بدل کی عملی استعمال}
-لاپلاس بدل کے بارے میں اب ہم اتنا جانتے ہیں کہ اس کو استعمال کرتے ہوئے ایسے مشکل مسائل حل کریں جنہیں دیگر طریقوں سے حل کرنا نسبتاً زیادہ دشوار ہو گا۔
+لاپلاس بدل کے بارے میں اب ہم اتنا جانتے ہیں کہ اس کو استعمال کرتے ہوئے ایسے مشکل مسائل  (مثلاً مثال \حوالہ{مثال_لاپلاس_سلسلہ_وار_دور_الف}، مثال \حوالہ{مثال_لاپلاس_بلا_تقصیر_اکائی} اور مثال \حوالہ{مثال_لاپلاس_تقصیر_اکائی}) حل کریں جنہیں دیگر طریقوں سے حل کرنا نسبتاً زیادہ دشوار ہو گا۔
 
 %==================
-\ابتدا{مثال}
+\ابتدا{مثال}\شناخت{مثال_لاپلاس_منتقلی_وقتی_محور_الف}
 تفاعل \عددی{\tfrac{e^{-4s}}{s^2}} کا الٹ لاپلاس بدل دریافت کریں۔
 
-حل:چونکہ \عددی{\Laplace^{-1}(\tfrac{1}{s^2})=t} ہے لہٰذا مسئلہ \حوالہ{مسئلہ_لاپلاس_وقتی_محور_منتقلی} کے استعمال سے درج ذیل ملتا ہے۔
+حل:چونکہ \عددی{\Laplace^{-1}(\tfrac{1}{s^2})=t} ہے لہٰذا مسئلہ \حوالہ{مسئلہ_لاپلاس_وقتی_محور_منتقلی} کے استعمال سے درج ذیل ملتا ہے۔ شکل \حوالہ{شکل_مثال_لاپلاس_منتقلی_وقتی_محور_الف}-الف دیکھیں۔
 \begin{align*}
 \Laplace^{-1}\left(\frac{e^{-4s}}{s^2}\right)=(t-4)u(t-4)
 \end{align*}
 %
 \begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
 %axis
@@ -1215,8 +1219,202 @@ e^{-as}F(s)=\int_{0}^{\infty}e^{-st}f(t-a)u(t-a)\dif t=\Laplace[f(t-a)u(t-a)]
 \draw[thick](0,0)--(1,0)node[below]{$4$}--(3,2);
 \draw[dashed](2,0)node[below]{$5$}--(2,1)--(0,1)node[left]{$1$};
 \end{tikzpicture}
-\caption{}
-\label{}
+\caption*{(الف) مثال \حوالہ{مثال_لاپلاس_منتقلی_وقتی_محور_الف} کا تفاعل۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle,xlabel={$t$},ylabel={$f(t)$},xlabel style={at={(current axis.right of origin)},anchor=north east},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=north east},xtick={0,180,360,540},xticklabels={$0$,$\pi$,$2\pi$,$3\pi$},ytick={0.5},yticklabels={$0.5$}]
+%function
+\addplot[thick] plot coordinates {(0,0.5) (180,0.5)};
+\addplot[dashed] plot coordinates {(180,0.5) (180,0)};
+\addplot[thick] plot coordinates {(180,0) (360,0)};
+\addplot[thick,domain=360:740,samples=50] {sin(x)};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ب) مثال \حوالہ{مثال_لاپلاس_عملی_الف} کا تفاعل۔}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_لاپلاس_منتقلی_وقتی_محور_الف} اور مثال \حوالہ{مثال_لاپلاس_عملی_الف} کے تفاعل۔}
+\label{شکل_مثال_لاپلاس_منتقلی_وقتی_محور_الف}
 \end{figure}
 \انتہا{مثال}
 %======================
+\ابتدا{مثال}\شناخت{مثال_لاپلاس_عملی_الف}
+شکل \حوالہ{شکل_مثال_لاپلاس_منتقلی_وقتی_محور_الف}-ب میں درج ذیل تفاعل دکھایا گیا ہے۔اس کا لاپلاس بدل حاصل کریں۔
+\begin{align*}
+f(t)=
+\begin{cases}
+0.5 & 0<t<\pi\\
+0&\pi<t<2\pi\\
+\sin t&t>2\pi
+\end{cases}
+\end{align*}
+حل:اکائی سیڑھی تفاعل کی مدد سے دیے گئے تفاعل کو لکھتے ہیں
+\begin{align*}
+f(t)=0.5u(t)-0.5u(t-\pi)+u(t-2\pi)\sin t
+\end{align*}
+جہاں \عددی{\sin(t-2\pi)=\sin t} کا استعمال کیا گیا ہے۔مساوات \حوالہ{مساوات_لاپلاس_اکائی_سیڑھی}، مساوات \حوالہ{مساوات_لاپلاس_منتقلی_وقت_صورت_الف} اور جدول \حوالہ{جدول_لاپلاس_بدل_الف} کی مدد سے لاپلاس بدل لکھتے ہیں۔
+\begin{align*}
+\Laplace(f)=\frac{0.5}{s}-\frac{0.5e^{-\pi s}}{s}+\frac{e^{-2\pi s}}{s^2+1}
+\end{align*}
+\انتہا{مثال}
+%========================
+\ابتدا{مثال}\شناخت{مثال_لاپلاس_سلسلہ_وار_دور_الف}\quad ایک عدد چکور موج پر \عددی{RC} دور کا رد عمل\\ 
+مزاحمت اور برق گیر کا سلسلہ وار دور شکل میں دکھایا گیا ہے۔اس کو ایک عدد چکور موج \عددی{v(t)} مہیا کی جاتی ہے۔دور میں برقی رو \عددی{i(t)} دریافت کریں۔ شکل \حوالہ{شکل_مثال_لاپلاس_سلسلہ_وار_دور_الف} سے رجوع کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.4\textwidth}
+\begin{tikzpicture}
+\draw(0,0) to [american voltage source,l={$v(t)$}]++(0,\y) to [resistor,l={$R$},i={$i(t)$}]++(\x,0) to [capacitor,l={$C$}]++(0,-\y) to [short]++(-\x,0);
+\end{tikzpicture}
+\end{subfigure}%
+\begin{subfigure}{0.6\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle, xtick={1,2},xticklabels={$a$,$b$},ytick={1},yticklabels={$V_0$},xlabel={$t$},ylabel={$v(t)$},xlabel style={at={(current axis.right of origin)},anchor=north east},ylabel style={at={(current axis.above origin)},anchor=north east},ylabel style={rotate=-90},ymax=1.5]
+\addplot[thick] plot coordinates {(0,0) (1,0)};
+\addplot[dashed] plot coordinates {(1,0) (1,1)};
+\addplot[thick] plot coordinates {(1,1) (2,1)};
+\addplot[dashed] plot coordinates {(2,1) (2,0) };
+\addplot[thick] plot coordinates {(2,0) (3,0) };
+\end{axis}
+\end{tikzpicture}
+\end{subfigure}%
+\caption{مثال \حوالہ{مثال_لاپلاس_سلسلہ_وار_دور_الف} کا دور اور داخلی دباو۔}
+\label{شکل_مثال_لاپلاس_سلسلہ_وار_دور_الف}
+\end{figure}
+
+حل:کرخوف مساوات دباو سے 
+\begin{align*}
+i(t)R+\frac{1}{C}\int_{0}^{t} i(\tau)\dif \tau=v(t)
+\end{align*}
+لکھ سکتے ہیں جہاں داخلی دباو کو دو عدد اکائی سیڑھی تفاعل کی مدد سے 
+\begin{align*}
+v(t)=V_0(u(t-a)-u(t-b))
+\end{align*}
+لکھا جا سکتا ہے۔مساوات \حوالہ{مساوات_لاپلاس_اکائی_سیڑھی} اور مسئلہ \عددی{مساوات_لاپلاس_تکمل_کا_بدل} استعمال کرتے ہوئے  ضمنی مساوات لکھتے ہیں
+\begin{align*}
+I(s)R+\frac{I(s)}{sC}=\frac{V_0}{s}[e^{-as}-e^{-bs}]
+\end{align*}
+جس کا حل درج ذیل ہے۔
+\begin{align*}
+I(s)=\left(\frac{\frac{V_0}{R}}{s+\frac{1}{RC}}\right)[e^{-as}-e^{-bs}]
+\end{align*}
+اب ہم جدول \حوالہ{جدول_لاپلاس_بدل_الف} سے جانتے ہیں کہ
+\begin{align*}
+\Laplace^{-1}\left(\frac{\frac{V_0}{R}}{s+\frac{1}{RC}}\right)=\Laplace^{-1}[F(s)]=\frac{V_0}{R}e^{-\frac{t}{RC}}
+\end{align*}
+کے برابر ہے لہٰذا اصل حل مسئلہ \حوالہ{مسئلہ_لاپلاس_وقتی_محور_منتقلی} کے تحت  درج ذیل ہو گا
+\begin{align*}
+i(t)&=\Laplace^{-1}(I)=\Laplace^{-1}[e^{-as}F(s)]-\Laplace^{-1}[e^{-bs}F(s)]\\
+&=\frac{V_0}{R}[e^{-\frac{(t-a)}{RC}}u(t-a)-e^{-\frac{(t-b)}{RC}}u(t-b)]
+\end{align*}
+جس کو یوں
+\begin{align*}
+i(t)=
+\begin{cases}
+0&t<a\\
+K_1e^{-\frac{t}{RC}}& a<t<b\\
+(K_1-K_2)e^{-\frac{t}{RC}} & t>b
+\end{cases}
+\end{align*}
+بھی لکھا جا سکتا ہے جہاں \عددی{K_1=\frac{V_0}{R}e^{\frac{a}{RC}}} اور \عددی{K_2=\frac{V_0}{R}e^{\frac{b}{RC}}} ہیں۔ برقی رو \عددی{i(t)} کو شکل \حوالہ{شکل_مثال_لاپلاس_سلسلہ_وار_دور_الف_رو} میں دکھایا گیا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle,xlabel={$t$},ylabel={$i(t)$},xlabel style={at={(current axis.right of origin)},anchor=north},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=north east},xtick={1,2},xticklabels={$a$,$b$},ytick={1},yticklabels={$\frac{V_0}{R}$},ymax=1.5]
+\addplot[] plot coordinates {(0,0) (1,0)};
+\addplot[domain=1:2]{e^1*e^(-x)};
+\addplot[domain=2:4]{(e^1-e^2)*e^(-x)};
+\addplot[] plot coordinates {(1,0) (1,1)};
+\addplot[] plot coordinates {(2,0.367879) (2,-0.63212)};
+\end{axis}
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_لاپلاس_سلسلہ_وار_دور_الف} کی رو \عددی{i(t)}}
+\label{شکل_مثال_لاپلاس_سلسلہ_وار_دور_الف_رو}
+\end{figure}
+\انتہا{مثال}
+%===============================
+\ابتدا{مثال}\شناخت{مثال_لاپلاس_بلا_تقصیر_اکائی}\quad بلا تقصیر نظام کا رد عمل۔ ایک عدد چکور داخلی موج\\
+درج ذیل ابتدائی قیمت مسئلہ حل کریں جہاں \عددی{r(t)} کو شکل \حوالہ{مثال_لاپلاس_تقصیر_اکائی} میں دکھایا گیا ہے۔
+\begin{align*}
+y''+4y=r(t),\quad \quad y(0)=0, \, y'(0)=0
+\end{align*}
+حل:داخلی جبری قوت کو \عددی{r(t)=2[u(t)-u(t-1)]} لکھا جا سکتا ہے۔دیے گئے ابتدائی قیمت مسئلے  سے ضمنی مساوات لکھتے ہیں
+\begin{align*}
+s^2Y+4Y=\frac{2}{s}(1-e^{-s})
+\end{align*} 
+جس کا حل درج ذیل ہے۔
+\begin{align*}
+Y=\frac{2}{s(s^2+4)}(1-e^{-s})
+\end{align*}
+اب جدول \حوالہ{جدول_لاپلاس_بدل_الف} کے تحت \عددی{\Laplace^{-1}(\tfrac{2}{s^2+4})=\sin 2t} ہے  لہٰذا مساوات \حوالہ{مساوات_لاپلاس_تکمل_کا_بدل_جڑواں} استعمال کرتے ہوئے درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+\Laplace^{-1}\left[\frac{2}{s(s^2+4)}\right]=\int_{0}^{t}\sin 2\tau \dif \tau=\frac{1}{2}(1-\cos 2t)
+\end{align*}
+اب مسئلہ \حوالہ{مسئلہ_لاپلاس_وقتی_محور_منتقلی} زیر استعمال لاتے ہوئے اصل جواب لکھتے ہیں
+\begin{align*}
+y(t)=\frac{1}{2}[1-\cos 2t]-\frac{1}{2}[1-\cos 2(t-1)]u(t-1)
+\end{align*}
+جس کو درج ذیل بھی لکھا جا سکتا ہے۔ہم دیکھتے ہیں کہ رد عمل دو مختلف ہارمونی ارتعاش کا مجموعہ ہے۔
+\begin{align*}
+y(t)=
+\begin{cases}
+\frac{1}{2}[1-\cos 2t] & 0<t<1\\[0.5ex]
+\frac{1}{2}[\cos 2(t-1)-\cos 2t]& t>1
+\end{cases}
+\end{align*}
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle, xlabel={$t$}, ylabel={$r(t)$},xtick={1},xticklabels={$1$},ytick={1},yticklabels={$2$},xlabel style={at={(current axis.right of origin)},anchor=north east},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=north east},ymax=1.5]
+\addplot[thick] plot coordinates {(0,1) (1,1) (1,0) (3,0)};
+\end{axis}
+\end{tikzpicture}
+\caption{مثال \حوالہ{مثال_لاپلاس_بلا_تقصیر_اکائی} اور مثال \حوالہ{مثال_لاپلاس_تقصیر_اکائی} کا داخلی تفاعل۔}
+\label{شکل_مثال_لاپلاس_تقصیر_اکائی}
+\end{figure}
+\انتہا{مثال}
+%================================
+\ابتدا{مثال}\شناخت{مثال_لاپلاس_تقصیر_اکائی}\quad قصری نظام کا رد عمل۔ ایک عدد چکور موج\\
+درج ذیل قصری ابتدائی قیمت مسئلے کو حل کریں جہاں \عددی{r(t)} کو شکل \حوالہ{شکل_مثال_لاپلاس_تقصیر_اکائی} میں دکھایا گیا ہے۔
+\begin{align*}
+y''+4y'+3y=r(t) \quad \quad y(0)=0, \, y'(0)=0
+\end{align*}
+حل:ضمنی مساوات لکھ کر
+\begin{align*}
+s^2Y+4sY+3Y=\frac{2}{s}(1-e^{-s})
+\end{align*}
+حل کرتے ہوئے درج ذیل ملتا ہے۔
+\begin{align*}
+Y=\frac{2}{s(s+1)(s+3)}(1-e^{-s})
+\end{align*}
+\عددی{F(s)=\tfrac{2}{s(s+1)(s+3)}} کا جزوی کسری پھیلاو 
+\begin{align*}
+F(s)=\frac{2}{3s}+\frac{1}{3(s+3)}-\frac{1}{s+1}
+\end{align*}
+  ہے لہٰذا
+\begin{align*}
+f(t)=\Laplace^{-1}(F)=\frac{2}{3}+\frac{e^{-3t}}{3}-e^{-t}
+\end{align*}
+ہو گا۔یوں مسئلہ \حوالہ{مسئلہ_لاپلاس_وقتی_محور_منتقلی} کی مدد سے درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+\Laplace^{-1}(Fe^{-s})=f(t-1)u(t-1)=
+\begin{cases}
+0& 0<t<1\\
+\frac{2}{3}+\frac{e^{-3(t-1)}}{3}-e^{-(t-1)} & t>1
+\end{cases}
+\end{align*}
+ان نتائج کو استعمال کرتے ہوئے اصل حل لکھتے ہیں۔
+\begin{align*}
+y(t)=\Laplace^{-1}(Y)=f(t)-f(t-1)u(t-1)=
+\begin{cases}
+\frac{2}{3}+\frac{e^{-3t}}{3}-e^{-t} & 0<t<1\\
+(1-e^3)\frac{e^{-3t}}{3}-(1-e)e^{-t}& t>1
+\end{cases}
+\end{align*}
+\انتہا{مثال}
+%=================================
+
+\حصہء{سوالات}

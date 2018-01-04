@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  3 JAN 2018 15:46
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  4 JAN 2018 15:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3196,17 +3196,40 @@ LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 15.0049pt on input line 998.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 15.0049pt on input line 998.
- [411] [412] [413]
+ [411] [412] [413] [414] [415] [416] [417]
+Missing character: There is no م in font zplmr7m!
+Missing character: There is no س in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no و in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no ت in font zplmr7m!
+Missing character: There is no ل in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no پ in font zplmr7m!
+Missing character: There is no ل in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no س in font zplmr7m!
+Missing character: There is no ت in font zplmr7m!
+Missing character: There is no ک in font zplmr7m!
+Missing character: There is no م in font zplmr7m!
+Missing character: There is no ل in font zplmr7m!
+Missing character: There is no ک in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no ب in font zplmr7m!
+Missing character: There is no د in font zplmr7m!
+Missing character: There is no ل in font zplmr7m!
+ [418] [419]
+[420] [421]
+Overfull \hbox (13.09828pt too wide) in paragraph at lines 1416--1416
+[][] []
+ []
 
-LaTeX Warning: Float too large for page by 55.48018pt on input line 1165.
-
-[414] [415] [416]) [417] [374
+) [422] [374
 
 
 
-] [375] (./engineeringMathematics.aux
-(./tex/cktPreface.aux) (./tex/prefaceFirstBook.aux)
-(./tex/mathFirstOrderDifferentialEquations.aux)
+] [375] (./engineeringMathematics.aux (./tex/cktPreface.aux)
+(./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
 (./tex/mathSystemOfDifferentialEquations.aux)
@@ -3219,12 +3242,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46659 strings out of 493918
- 1108021 string characters out of 6150562
- 1293678 words of memory out of 5000000
- 49004 multiletter control sequences out of 15000+600000
+ 46880 strings out of 493918
+ 1113416 string characters out of 6150562
+ 1293995 words of memory out of 5000000
+ 49225 multiletter control sequences out of 15000+600000
  36978 words of font info for 150 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,17n,86p,10485b,2277s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,17n,86p,10485b,2281s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (42 pages).
+Output written on engineeringMathematics.pdf (47 pages).

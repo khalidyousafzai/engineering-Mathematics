@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  4 JAN 2018 15:49
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  7 JAN 2018 17:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3224,12 +3224,32 @@ Overfull \hbox (13.09828pt too wide) in paragraph at lines 1416--1416
 [][] []
  []
 
-) [422] [374
+[422] [423] [424]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 9.5pt on input line 1606.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 7.5pt on input line 1606.
+
+Overfull \hbox (0.27336pt too wide) in paragraph at lines 1650--1650
+[][] []
+ []
+
+[425] [426] [427]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 5.70004pt on input line 1817.
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [428]) [429] [430] [374
 
 
 
-] [375] (./engineeringMathematics.aux (./tex/cktPreface.aux)
-(./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
+] [375] (./engineeringMathematics.aux
+(./tex/cktPreface.aux) (./tex/prefaceFirstBook.aux)
+(./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
 (./tex/mathSystemOfDifferentialEquations.aux)
@@ -3238,16 +3258,20 @@ Overfull \hbox (13.09828pt too wide) in paragraph at lines 1416--1416
 (./tex/mathAppendixAdditionalProofs.aux)
 (./tex/mathAppendixAuxiliaryMaterial.aux))
 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 2.26395pt have occurred.
+
+
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46880 strings out of 493918
- 1113416 string characters out of 6150562
- 1293995 words of memory out of 5000000
- 49225 multiletter control sequences out of 15000+600000
- 36978 words of font info for 150 fonts, out of 8000000 for 9000
+ 47065 strings out of 493918
+ 1118086 string characters out of 6150562
+ 1294753 words of memory out of 5000000
+ 49406 multiletter control sequences out of 15000+600000
+ 46202 words of font info for 182 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,17n,86p,10485b,2281s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (47 pages).
+Output written on engineeringMathematics.pdf (55 pages).

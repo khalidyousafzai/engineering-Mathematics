@@ -616,3 +616,20 @@ print("Q 6.112");
 eq:'diff(i,t,2)+i=1;
 ode2(eq,i,t);
 ic2(%,t=0,i=0,'diff(i,t)=0);
+
+print("=======================");
+kill(all);
+print("example 6.25");
+
+F:(3*s-2)/(s*(s-1));
+ilt(F,s,t);
+
+print("=======================");
+kill(all);
+print("example 6.26");
+
+F:(s^2-4*s)/((s+2)^3);
+ilt(F,s,t);
+
+partfrac(F,s);
+

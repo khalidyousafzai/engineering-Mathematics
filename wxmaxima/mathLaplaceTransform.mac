@@ -633,3 +633,70 @@ ilt(F,s,t);
 
 partfrac(F,s);
 
+print("=======================");
+kill(all);
+print("example 6.27a");
+
+f:(s-4)/(s^2+2*s+5);
+ilt(f,s,t);
+
+eq:85=(A*s+B)*(s^2+2*s+10)+(C*s+D)*(s^2+1);
+expand(eq);
+
+eq1:A+C=0;
+eq2:2*A+B+D=0;
+eq3:10*A+2*B+C=0;
+eq4:10*B+D=85;
+
+solve([eq1,eq2,eq3,eq4],[A,B,C,D]);
+
+
+print("=======================");
+kill(all);
+print("example 6.27");
+
+eq:'diff(y,t,2)+2*'diff(y,t)+10*y=85*sin(t);
+laplace(eq,t,s);
+ode2(eq,y,t);
+sol:ic2(%,t=0,y=1,'diff(y,t)=-6);
+
+ev(rhs(sol),t=%pi);
+ev('diff(rhs(sol)),t=%pi);
+plot2d(rhs(sol),['t,0,%pi]);
+
+eq:'diff(y,t,2)+2*'diff(y,t)+10*y=0;
+laplace(eq,t,s);
+ode2(eq,y,t);
+sol:ic2(%,t=0,y=2-3*%e^(-%pi),'diff(y,t)=15*%e^(-%pi)-9);
+plot2d(rhs(sol),['t,%pi,2*%pi]);
+
+print("=======================");
+kill(all);
+print("Q 6.121");
+
+Y1:1/((s+1/2)*(s+1));
+Y2:1/((s+1/2)*(s+1)^2);
+partfrac(Y1+Y2,s);
+
+ilt(Y1+Y2,s,t);
+ilt(Y1,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.122");
+
+Y1:(s+4)/(s^2+3*s+2)+10/((s^2+1)*(s^2+3*s+2));
+Y2:1/(s^2+3*s+2);
+ilt(Y1,s,t);
+ilt(Y2,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.123");
+
+Y1:1/(s^2+4*s+5)+1/(s*(s^2+4*s+5));
+Y2:1/(s*(s^2+4*s+5));
+Y3:1/(s^2+4*s+5);
+ilt(Y1,s,t);
+ilt(Y2,s,t);
+ilt(Y3,s,t);

@@ -2089,13 +2089,34 @@ q(t)=\frac{e^{-5t}}{99.87}\sin 99.87 t\quad \implies \quad v_0(t)=\frac{q(t)}{C}
 %============================
 
 \جزوحصہء{جزوی کسری پھیلاو پر مزید تبصرہ}
-ہم نے دیکھا کہ عموماً ضمنی مساوات کی صورت \عددی{Y(s)=\tfrac{F(s)}{G(s)}} ہوتی ہے جہاں \عددی{F(s)} اور \عددی{G(s)} کثیر رکنی ہوتے ہیں۔الٹ لاپلاس بدل لیتے ہوئے حل \عددی{y(t)=\Laplace^{-1}[Y(s)]} حاصل کیا جاتا ہے۔الٹ لاپلاس بدل لینے سے پہلے کسر کو جزوی کسری پھیلاو کی مدد سے ایسی ٹکڑوں میں تقسیم کیا جاتا ہے کہ ہر ٹکڑے کا الٹ لاپلاس بدل با آسانی حاصل کرنا ممکن ہو۔
+ہم نے دیکھا کہ عموماً ضمنی مساوات کی صورت \عددی{Y(s)=\tfrac{F(s)}{G(s)}} ہوتی ہے جہاں \عددی{F(s)} اور \عددی{G(s)} کثیر رکنی ہوتے ہیں۔الٹ لاپلاس بدل لیتے ہوئے حل \عددی{y(t)=\Laplace^{-1}[Y(s)]} حاصل کیا جاتا ہے۔الٹ لاپلاس بدل لینے سے پہلے کسر کو جزوی کسری پھیلاو کی مدد سے ایسے ٹکڑوں میں تقسیم کیا جاتا ہے کہ ہر ٹکڑے کا الٹ لاپلاس بدل با آسانی حاصل کرنا ممکن ہو۔
 
-\عددی{G(s)} میں غیر دہراتا جزو \عددی{s-a} سے  جزوی کسری پھیلاو کے ذریعہ \عددی{\tfrac{A}{s-a}} رکن حاصل ہو گا جس کا الٹ لاپلاس بدل \عددی{Ae^{at}} ہے۔اسی طرح بلند درجی اجزاء \عددی{(s-a)^2} اور \عددی{(s-a)^3} درج ذیل ارکان دیتے ہیں
-\begin{align*}
+\عددی{G(s)} میں غیر دہراتے جزو \عددی{s-a} کی صورت میں درج ذیل لکھا جا سکتا ہے جہاں \عددی{W(s)} بقایا حصے کو ظاہر کرتی ہے۔
+\begin{align}
+Y(s)=\frac{F(s)}{G(s)}=\frac{()()\cdots()}{(s-a)()\cdots ()}=\frac{A}{s-a}+W(s)
+\end{align}
+یوں \عددی{s-a} سے حاصل رکن \عددی{\tfrac{A}{s-a}} کا الٹ لاپلاس بدل \عددی{Ae^{at}} ہے۔اسی طرح بلند درجی اجزاء \عددی{(s-a)^2} اور \عددی{(s-a)^3} درج ذیل ارکان دیتے ہیں
+\begin{align}
 \frac{A_1}{(s-a)}+\frac{A_2}{(s-a)^2} \quad \text{اور} \quad \frac{A_1}{s-1}+\frac{A_2}{(s-a)^2}+\frac{A_3}{(s-a)^3}
-\end{align*} 
+\end{align} 
 جن کے الٹ لاپلاس بدل \عددی{(A_1+A_2t)e^{at}} اور \عددی{(A_1+A_2t+\tfrac{1}{2}A_3t^2)e^{at}} ہیں۔
+
+دہراتے جزو \عددی{(s-a)^m} کی صورت میں جزوی کسری پھیلاو درج ذیل ہو گا
+\begin{align}
+\frac{F(s)}{G(s)}=\frac{A_1}{s-a}+\frac{A_2}{(s-a)^2}+\cdots+\frac{A_{m-1}}{(s-a)^{m-1}}+\frac{A_m}{(s-a)^m}+W(s)
+\end{align}
+جس کے دونوں اطراف کو \عددی{(s-a)^m} سے ضرب دیتے ہوئے درج ذیل ملتا ہے۔
+\begin{align}\label{مساوات_لاپلاس_جزوی_کسری_عمومی_الف}
+(s-a)^m\frac{F(s)}{G(s)}=A_1(s-a)^{m-1}+A_2(s-a)^{m-2}+\cdots+A_{m-1}(s-a)+A_m
+\end{align}
+یوں \عددی{s=a} پر کرتے ہوئے 
+\begin{align}
+A_m&=\left. \frac{(s-a)^m F(s)}{G(s)}\right|_{s=a}
+\end{align}
+ملتا ہے۔مساوات \حوالہ{مساوات_لاپلاس_جزوی_کسری_عمومی_الف} کا \عددی{k} درجی تفرق لے کر \عددی{s=a} پر کرنے سے \عددی{A_k} ملتا ہے۔
+\begin{align}
+A_k&=\left. \frac{1}{(m-k)!}\frac{\dif^{\, m-k} Q(s)}{\dif s^{m-k}}\right|_{s=a}\quad \quad (k=1,2,\cdots,m)
+\end{align}
 
 \عددی{G(s)} میں غیر دہراتے مخلوط جوڑی \عددی{(s-a)(s-\bar{a})} جہاں \عددی{a=\alpha+i\beta} اور \عددی{\bar{a}=\alpha-i\beta} ہیں سے درج ذیل جزوی کسری رکن حاصل ہوتا ہے
 \begin{align*}
@@ -2235,6 +2256,207 @@ y(t)=e^{-t}(3\cos 3t-4\sin 3t)+e^{-(t-\pi)}(-2\cos 3t+\frac{7}{3}\sin 3t) \quad 
 \label{شکل_مثال_لاپلاس_بدل_نیم_موج}
 \end{figure}
 \انتہا{مثال}
+%=====================================
+
+\جزوحصہ{دہراتا تفاعل}
+عملی استعمال میں عموماً دہراتے تفاعل پائے جاتے ہیں جو سادہ سائن نما تفاعل سے زیادہ پیچیدہ ہوتے ہیں۔آئیں ان پر غور کرتے ہیں۔
+
+تصور کریں کہ دہراتے تفاعل \عددی{f(t)} کا دوری عرصہ \عددی{p \, (>0)} ہے۔یوں درج ذیل لکھا جائے گا۔
+\begin{align}
+f(t+p)=f(t)\quad \quad (t>0)
+\end{align}
+اگر \عددی{p} پر \عددی{f(t)} ٹکڑوں میں استمراری ہو تب اس لاپلاس بدل موجود ہو گا۔اس تفاعل کا لاپلاس بدل \عددی{\Laplace(f)} لکھتے ہوئے تکمل کو دوری عرصے کے برابر ٹکڑوں میں لکھا جا سکتا ہے۔
+\begin{align*}
+\Laplace(f)=\int_{0}^{p}e^{-st}f(t)\dif t+\int_{p}^{2p}e^{-st}f(t)\dif t+\int_{20}^{3p}e^{-st}f(t)\dif t+\cdots
+\end{align*}     
+دوسرے تکمل میں \عددی{t=\tau+p} پر کرتے ہوئے تکمل کے حدود \عددی{0} تا \عددی{p} لکھے جائیں گے۔ اسی طرح تیسرے تکمل میں \عددی{t=\tau+2p} اور  \عددی{n} تکمل میں \عددی{t=\tau+(n-1)p} پر کرتے ہوئے ان تکمل کے حدود بھی \عددی{0} تا \عددی{p} لکھے جائیں گے۔یوں درج بالا کو درج ذیل لکھا جا سکتا ہے
+\begin{align*}
+\Laplace(f)=\int_{0}^{p}e^{-s\tau}f(\tau)\dif t+\int_{0}^{p}e^{-s(\tau+p)}f(\tau)\dif t+\int_{0}^{p}e^{-s(\tau+2p)}f(\tau)\dif t+\cdots
+\end{align*}   
+جہاں \عددی{f(\tau+p)=f(\tau)}، \عددی{f(\tau+2p)=f(\tau)} نقطے لکھا گیا ہے۔درج بالا کو
+\begin{align*}
+\Laplace(f)=[1+e^{-sp}+e^{-2sp}+\cdots]\int_{0}^{p}e^{-s\tau}f(\tau)\dif t
+\end{align*}   
+لکھا جا سکتا ہے۔اب چکور قوسین کے اندر مجموعہ ہندسی تسلسل ہے جو \عددی{\tfrac{1}{1-e^{-ps}}} کے برابر ہے  لہٰذا درج ذیل مسئلہ ثابت ہوتا ہے۔
+%==============
+
+\ابتدا{مسئلہ}\شناخت{مسئلہ_لاپلاس_دہراتا_تفاعل}
+\عددی{p} دوری عرصے کا تفاعل \عددی{f(t)} جو ٹکڑوں میں استمراری ہو کا لاپلاس بدل درج ذیل ہو گا۔ 
+\begin{align}\label{مساوات_مسئلہ_لاپلاس_دہراتا_تفاعل}
+\Laplace(f)=\frac{1}{1-e^{-ps}}\int_{0}^{p}e^{-st}f\dif t\quad \quad (s>0)
+\end{align}
+\انتہا{مسئلہ}
+%=========================
+
+\ابتدا{مثال}\شناخت{مثال_لاپلاس_دہراتا_چکور_موج}\quad دہراتا چکور موج\\
+دہراتا چکور موج شکل \حوالہ{شکل_مثال_لاپلاس_دہراتا_چکور_موج}-الف میں دکھایا گیا ہے۔اس کا لاپلاس بدل حاصل کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+%axis
+\draw(0,0)--++(3.5,0)node[right]{$t$};
+\draw(0,-1.5)--(0,1.5)node[left]{$f(t)$};
+%function
+\draw(0,1)node[left]{$a$}--++(1,0)++(0,-2)--++(1,0)++(0,2)--++(1,0)++(0,-2)--++(0.5,0);
+\draw[dashed](1,1)--++(0,-2)++(1,0)--++(0,2)++(1,0)--++(0,-2);
+\draw(0,-1)--++(-0.1,0)node[left]{$-a$};
+\draw(1,0)node[below]{$c$};
+\draw(2,0)node[below]{$2c$};
+\draw(3,0)node[below]{$3c$};
+\draw(2,-1.5)node[]{(الف)};
+\end{tikzpicture}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+%axis
+\draw(0,0)--++(4.5,0)node[right]{$t$};
+\draw(0,0)--(0,1.5)node[left]{$g(t)$};
+%function
+\draw(0,0)--++(1,1)--++(1,-1)--++(1,1)--++(1,-1)--++(0.5,0.5);
+\draw(2,0)node[below]{$2c$};
+\draw(4,0)node[below]{$4c$};
+\draw(0,1)--++(-0.1,0)node[left]{$c$};
+\draw(2,-0.75)node[]{(ب)};
+\end{tikzpicture}
+\end{subfigure}%
+\caption{دہراتا چکور موج اور دہراتا تکونی موج۔ (مثال \حوالہ{مثال_لاپلاس_دہراتا_چکور_موج} اور مثال \حوالہ{مثال_لاپلاس_دہراتا_تکونی_موج})}
+\label{شکل_مثال_لاپلاس_دہراتا_چکور_موج}
+\end{figure}
+
+حل:یہاں \عددی{p=2c} ہے لہٰذا مساوات \حوالہ{مساوات_مسئلہ_لاپلاس_دہراتا_تفاعل} کی مدد سے لاپلاس بدل حاصل کرتے ہیں۔
+\begin{align*}
+\Laplace(f)&=\frac{1}{1-e^{-2cs}}\left[\int_{0}^{c}e^{-st} a\dif t +\int_{c}^{2c}e^{-st}(-a)\dif t\right]\\
+&=\frac{1}{(1-e^{-cs})(1+e^{-cs})}\left[\frac{a}{s}\left(1-e^{-cs}\right)-\frac{a}{s}\left(e^{-cs}-e^{-2cs}\right)\right]\\
+&=\frac{a}{s}\left(\frac{1-e^{-cs}}{1+e^{-cs}}\right)=\frac{a}{s}\left(\frac{e^{\frac{cs}{2}}-e^{\frac{cs}{2}}}{e^{\frac{cs}{2}}+e^{\frac{cs}{2}}}\right)=\frac{a}{s}\tanh \frac{cs}{2}
+\end{align*}
+اسی جواب کو زیادہ کارآمد صورت میں لکھتے ہیں۔
+\begin{align*}
+\Laplace(f)=\frac{a}{s}\left(\frac{1-e^{-cs}}{1+e^{-cs}}\right)=\frac{a}{s}\left(1-\frac{2e^{-cs}}{1+e^{-cs}}\right)=\frac{a}{s}\left(1-\frac{2}{e^{cs}+1}\right)
+\end{align*}
+\انتہا{مثال}
+%=============================
+\ابتدا{مثال}\شناخت{مثال_لاپلاس_دہراتا_تکونی_موج}\quad دہراتا تکونی موج\\
+دہراتا تکونی موج شکل \حوالہ{شکل_مثال_لاپلاس_دہراتا_چکور_موج}-ب میں دکھایا گیا ہے۔اس کا لاپلاس بدل حاصل کریں۔
+
+حل:چکور موج کا تکمل، تکونی موج ہوتا ہے۔یوں شکل-الف میں \عددی{a=1} لے کر تکمل لینے سے شکل-ب حاصل ہو گی لہٰذا مثال  \حوالہ{مثال_لاپلاس_دہراتا_چکور_موج} کے جواب سے لاپلاس بدل حاصل کرتے ہیں۔
+\begin{align*}
+\Laplace(g)=\frac{1}{s}\Laplace{f}=\frac{1}{s^2}\tanh \frac{cs}{2}
+\end{align*}
+\انتہا{مثال}
+%====================================
+\ابتدا{مثال}\شناخت{مثال_لاپلاس_مکمل_لہر_سمت_کار}\quad مکمل لہر سمت کار\\
+\اصطلاح{مکمل لہر سمت کار}\فرہنگ{سمت کار!مکمل لہر}\حاشیہب{full wave rectifier}\فرہنگ{rectifier!full wave} بدلتی سمت سائن نما موج سے یک سمتی موج بناتی ہے جسے شکل \حوالہ{شکل_مثال_لاپلاس_مکمل_لہر_سمت_کار}-الف میں دکھایا گیا ہے۔اس لہر کا لاپلاس بدل حاصل کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle,xlabel={$t$},ylabel={$f(t)$},xlabel style={at={(current axis.right of origin)},anchor=north east},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=north west},xtick={180,360},xticklabels={$\frac{\pi}{\omega}$,$\frac{2\pi}{\omega}$},ytick={1},yticklabels={$1$},ymax=1.2]
+\addplot[domain=0:450,samples=200]{abs(sin(x))};
+\end{axis}
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle,xlabel={$t$},ylabel={$f(t)$},xlabel style={at={(current axis.right of origin)},anchor=north east},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=north west},xtick={180,360,540},xticklabels={$\frac{\pi}{\omega}$,$\frac{2\pi}{\omega}$,$\frac{3\pi}{\omega}$},ytick={1},yticklabels={$1$},ymax=1.2,xmax=650]
+\addplot[domain=0:180,samples=100]{abs(sin(x))};
+\addplot[domain=360:540,samples=100]{abs(sin(x))};
+\end{axis}
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{مکمل لہر اور نصف لہر سمت کار کے امواج (مثال \حوالہ{مثال_لاپلاس_مکمل_لہر_سمت_کار} اور مثال \حوالہ{مثال_لاپلاس_نصف_لہر_سمت_کار})۔}
+\label{شکل_مثال_لاپلاس_مکمل_لہر_سمت_کار}
+\end{figure}
+
+حل:نصف لہر سمت کار کی موج کا \عددی{p=\frac{2\pi}{\omega}} ہے لہٰذا مساوات \حوالہ{مساوات_مسئلہ_لاپلاس_دہراتا_تفاعل} کی مدد سے لاپلاس بدل حاصل کرتے ہیں
+\begin{align}
+\Laplace(f)=\frac{1}{1-e^{-\frac{\pi s}{\omega}}}\int_{0}^{\frac{\pi}{\omega}} e^{-st}\sin \omega t\dif t=\frac{\omega}{s^2+\omega^2} \left(\frac{1+e^{-\frac{\pi s}{\omega}}}{1-e^{-\frac{\pi s}{\omega}}}\right)
+\end{align}
+جس کو درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+\Laplace(f)=\frac{\omega}{s^2+\omega^2} \left(\frac{e^{\frac{\pi s}{2\omega}}+e^{-\frac{\pi s}{2\omega}}}{e^{\frac{\pi s}{2\omega}}-e^{-\frac{\pi s}{2\omega}}}\right)=\frac{\omega}{s^2+\omega^2}\coth \frac{\pi s}{2\omega}
+\end{align*}
+\انتہا{مثال}
+%================================
+\ابتدا{مثال}\شناخت{مثال_لاپلاس_نصف_لہر_سمت_کار}\quad نصف لہر سمت کار\\
+\اصطلاح{نصف لہر سمت کار}\فرہنگ{سمت کار!نصف لہر}\حاشیہب{half wave rectifier}\فرہنگ{rectifier!half wave} بدلتی سمت سائن نما موج سے یک سمتی موج بناتی ہے جسے شکل \حوالہ{شکل_مثال_لاپلاس_مکمل_لہر_سمت_کار}-ب میں دکھایا گیا ہے۔اس لہر کا لاپلاس بدل حاصل کریں۔
+
+
+حل:مکمل لہر سمت کار کی موج کا \عددی{p=\frac{2\pi}{\omega}} ہے لہٰذا مساوات \حوالہ{مساوات_مسئلہ_لاپلاس_دہراتا_تفاعل} کی مدد سے لاپلاس بدل حاصل کرتے ہیں۔
+\begin{align}
+\Laplace(f)=\frac{1}{1-e^{-\frac{2\pi s}{\omega}}}\int_{0}^{\frac{\pi}{\omega}} e^{-st}\sin \omega t\dif t=\frac{\omega}{s^2+\omega^2} \left(\frac{1+e^{-\frac{\pi s}{\omega}}}{1-e^{-\frac{2\pi s}{\omega}}}\right)
+\end{align}
+\انتہا{مثال}
+%=====================================
+\ابتدا{مثال}\شناخت{مثال_لاپلاس_دندان_موج}\quad دندان موج\\
+\اصطلاح{دندان موج}\فرہنگ{دندان موج}\فرہنگ{موج!دندان}\حاشیہب{saw-tooth wave}\فرہنگ{saw-tooth wave} کو شکل \حوالہ{شکل_مثال_لاپلاس_دندان_موج} میں  دکھایا گیا ہے۔اس کا لاپلاس بدل حاصل کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+%axis
+\draw(0,0)--(0,2)node[left]{$f(t)$};
+\draw(0,0)--++(4,0)node[below right]{$t$};
+%wave
+\draw(0,0)--++(1,1.5)--++(0,-1.5)--++(1,1.5)--++(0,-1.5)--++(1,1.5)--++(0,-1.5)--++(0.5,0.75);
+\draw(0,1.5)--++(-0.1,0)node[left]{$a$};
+\draw(1,0)node[below]{$c$};
+\draw(2,0)node[below]{$2c$};
+\draw(3,0)node[below]{$3c$};
+\end{tikzpicture}
+\caption*{(الف) دندان موج}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+%axis
+\draw(0,0)--(0,2.5)node[right]{$g(t)$};
+\draw(0,0)--(4,0)node[below right]{$t$};
+%wave
+\draw(0,0)--++(1,0)--++(0,1)--++(1,0)--++(0,1)--++(1,0)--++(0,0.25);
+\draw(0,1)--++(-0.1,0)node[left]{$a$};
+\draw(1,0)node[below]{$c$};
+\end{tikzpicture}
+\caption*{(ب) سیڑھی موج۔}
+\end{subfigure}%
+\caption{دندان موج (مثال \حوالہ{مثال_لاپلاس_دندان_موج}) اور سیڑھی تفاعل (مثال \حوالہ{مثال_لاپلاس_سیڑھی_موج})۔}
+\label{شکل_مثال_لاپلاس_دندان_موج}
+\end{figure}
+
+حل:دندان موج کو الجبرائی طور پر درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+f(t)=\frac{a}{c}t, \quad (0<t<c)\quad \text{اور}\quad f(t+c)=f(t)
+\end{align*}
+یوں تکمل بالحصص سے 
+\begin{align*}
+\int_{0}^{c} e^{-st} t\dif t&=\left.-\frac{t}{s}e^{-st} \right |_{0}^{c}+\frac{1}{s}\int_{0}^{c}e^{-st}\dif t\\
+&=-\frac{c}{s}e^{-cs}-\frac{1}{s^2}(e^{-cs}-1)
+\end{align*}
+حاصل کرتے ہوئے  مساوات \حوالہ{مساوات_مسئلہ_لاپلاس_دہراتا_تفاعل} کی مدد سے لاپلاس بدل لکھتے ہیں۔
+\begin{align}\label{مساوات_لاپلاس_دندان}
+\Laplace(f)=\frac{a}{cs^2}-\frac{ae^{-cs}}{s(1-e^{-cs})}
+\end{align}
+\انتہا{مثال}
+%========================
+\ابتدا{مثال}\شناخت{مثال_لاپلاس_سیڑھی_موج}\quad سیڑھی موج\\
+\اصطلاح{سیڑھی موج}\فرہنگ{موج!سیڑھی}\فرہنگ{سیڑھی موج}\حاشیہب{stair case}\فرہنگ{stair case} کو شکل \حوالہ{شکل_مثال_لاپلاس_دندان_موج} میں دکھایا گیا ہے۔ اس کا لاپلاس بدل حاصل کریں۔
+
+حل:سیڑھی تفاعل کو الجبرائی طور پر لکھتے ہیں
+\begin{align*}
+g(t)=na \quad \quad (nc<t<(n+1)c\quad n=0,1,2,\cdots)
+\end{align*}
+جو مسلسل بڑھتے تفاعل \عددی{h(t)=\tfrac{a}{c}t} اور دندان موج \عددی{f(t)} کے فرق \عددی{g(t)=h(t)-f(t)}  کے برابر ہے۔ اب \عددی{\Laplace(\tfrac{at}{c})=\tfrac{a}{cs^2}} ہے جبکہ مساوات \حوالہ{مساوات_لاپلاس_دندان} لاپلاس بدل \عددی{\Laplace(f)} دیتی ہے۔یوں درج ذیل لکھا جا سکتا ہے۔
+\begin{align}
+\Laplace(g)=\frac{a}{cs^2}-\left[\frac{a}{cs^2}-\frac{ae^{-cs}}{s(1-e^{-cs})}\right]=\frac{ae^{-cs}}{s(1-e^{-cs})}
+\end{align}
+\انتہا{مثال}
 %======================================
 \حصہء{سوالات}
 سوال \حوالہ{سوال_لاپلاس_ابتدائی_قیمت_مسئلہ_الف} تا سوال \حوالہ{سوال_لاپلاس_ابتدائی_قیمت_مسئلہ_الف} ابتدائی قیمت مسئلے ہیں۔ انہیں حل کریں۔
@@ -2283,8 +2505,18 @@ $y''+4y'+5y=[u(t)-u(t-2)]e^t-6\delta(t-3), y(0)=0, y'(0)=1$\\
 \end{align*}
 یوں جواب درج ذیل ملتا ہے۔
 \begin{multline*}
-y=\frac{1}{5}e^{-2t}(3\sin t-\cos t)+\frac{1}{5}-\frac{e^2e^{-2(t-2)}}{5}[-2\sin(t-2)-\cos(t-2)]u(t-2)\\
+y=\frac{1}{5}e^{-2t}(3\sin t-\cos t)+\frac{1}{5}+\frac{e^2e^{-2(t-2)}}{5}[2\sin(t-2)+\cos(t-2)]u(t-2)\\
 -\frac{e^2}{5}u(t-2)-6e^{-2(t-3)}\sin(t-3)u(t-3)
 \end{multline*}
 \انتہا{سوال}
 %=====================
+\ابتدا{سوال}\quad
+$y''+2y'+5y=5t-10\delta(t-\pi),\quad y(0)=1, y'(0)=2$\\
+جواب:
+$y=\tfrac{1}{5}e^{-t}(6\sin 2t+7\cos 2t)+t-\tfrac{2}{5}-5u(t-\pi)e^{-(t-\pi)}\sin 2t$
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}
+
+\انتہا{سوال}
+%========================

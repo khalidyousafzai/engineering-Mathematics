@@ -700,3 +700,62 @@ Y3:1/(s^2+4*s+5);
 ilt(Y1,s,t);
 ilt(Y2,s,t);
 ilt(Y3,s,t);
+
+print("=======================");
+print("delta and unit_step functions");
+kill(all);
+print("Q 6.124a");
+load("abs_integrate.mac");
+
+assume(a>0);
+eq:'diff(y(t),t,2)+3*'diff(y(t),t,1)+2*y(t)=sin(t)+delta(t-a)+unit_step(t-a);
+
+atvalue('diff(y(t),t),t=0,1);
+atvalue(y(t),t=0,-1);
+
+lap:laplace(eq,t,s);
+
+ sol: solve(%, 'laplace(y(t), t, s));
+
+map( lambda( [eq], ilt(eq, s, t)), sol);
+
+print("=======================");
+print("delta and unit_step functions");
+kill(all);
+print("Q 6.124");
+load("abs_integrate.mac");
+
+assume(a>0);
+eq:'diff(y(t),t,2)+2*'diff(y(t),t,1)+5*y(t)=5*t-10*delta(t-%pi);
+
+atvalue('diff(y(t),t),t=0,2);
+atvalue(y(t),t=0,1);
+
+lap:laplace(eq,t,s);
+
+ sol: solve(%, 'laplace(y(t), t, s));
+
+map( lambda( [eq], ilt(eq, s, t)), sol);
+
+Y1:(s^3+4*s^2+5)/(s^4+2*s^3+5*s^2);
+Y2:-10*s^2/(s^4+2*s^3+5*s^2);
+ilt(Y1,s,t);
+ilt(Y2,s,t);
+
+print("=======================");
+print("delta and unit_step functions");
+kill(all);
+print("example 6.28");
+
+integrate(a*%e^(-s*t),t,0,c)-integrate(a*%e^(-s*t),t,c,2*c);
+
+print("=======================");
+print("delta and unit_step functions");
+kill(all);
+print("example 6.29");
+load("abs_integrate.mac");
+
+assume(w>0);
+f:sin(w*t);
+Y:1/(1-%e^(-%pi*s/w))*integrate(f*%e^(-s*t),t,0,%pi/w);
+

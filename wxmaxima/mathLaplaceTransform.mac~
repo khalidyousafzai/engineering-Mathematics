@@ -748,3 +748,134 @@ kill(all);
 print("example 6.28");
 
 integrate(a*%e^(-s*t),t,0,c)-integrate(a*%e^(-s*t),t,c,2*c);
+
+print("=======================");
+print("delta and unit_step functions");
+kill(all);
+print("example 6.29");
+load("abs_integrate.mac");
+
+assume(w>0);
+f:sin(w*t);
+Y:1/(1-%e^(-%pi*s/w))*integrate(f*%e^(-s*t),t,0,%pi/w);
+
+print("=======================");
+kill(all);
+print("example 6.38");
+
+Y:(s^2+1)/(s^2*(s^2+s+1));
+partfrac(%,s);
+ilt(%,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.125");
+
+f:1;
+g:1;
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.126");
+
+f:1;
+g:t-tau;
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.127");
+
+f:tau;
+g:t-tau;
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.128");
+
+f:tau;
+g:sin(w*t-w*tau);
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.129");
+assume(t>0);
+
+f:1;
+g:cos(w*t-w*tau);
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.130");
+assume(t>0);
+
+f:1;
+g:sin(w*t-w*tau);
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.131");
+assume(t>0);
+
+f:%e^(tau);
+g:%e^(t-tau);
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.131");
+assume(t>0);
+
+f:sin(w*tau);
+g:cos(w*t-w*tau);
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.132");
+assume(t>0);
+
+f:cos(w*tau);
+g:cos(w*t-w*tau);
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.132");
+assume(t>0);
+
+f:%e^(w*tau);
+g:sin(w*t-w*tau);
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.133");
+assume(t>0);
+
+f:tau;
+g:%e^(a*(t-tau));
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.133");
+assume(t>0);
+
+f:%e^(a*tau);
+g:%e^(b*(t-tau));
+integrate(f*g,tau,0,t);
+
+
+print("=======================");
+kill(all);
+print("Q 6.141");
+assume(t>0);
+
+Y:1/((s-1)*(s+2));
+ilt(Y,s,t);

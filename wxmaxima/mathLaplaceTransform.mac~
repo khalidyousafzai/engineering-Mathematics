@@ -879,3 +879,68 @@ assume(t>0);
 
 Y:1/((s-1)*(s+2));
 ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.142");
+assume(t>0);
+
+Y:4*s/(s^2+1)+1/(s*(s^2+1));
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.144");
+assume(t>0);
+
+Y:1/(s*(s+1));
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.145");
+assume(t>0);
+
+Y:1/(s^2);
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.146");
+assume(t>0);
+
+Y:5/((s+2)*(s-3));
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.147");
+assume(t>0);
+
+Y:4*s/(s^2+4)^2;
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.148");
+assume(t>0);
+
+Y:w^3/(s^2*(s^2+w^2));
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.149");
+assume(t>0);
+
+Y:4/((s)*(s^2-4));
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.149");
+assume(t>0);
+
+Y:24/((s^2+1)*(s^2+9));
+ilt(Y,s,t);
+

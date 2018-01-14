@@ -951,3 +951,19 @@ assume(t>0);
 
 Y:30/((s^2+1)*(s^2-9));
 ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("example 6.42");
+
+
+F:log((s^2-w^2)/(s^2));
+FF:-1*diff(F,s);
+trigsimp(FF);
+partfrac(%,s);
+ilt(%,s,t);
+
+integrate(FF,s,sa,inf);
+
+f:1/t*(2-%e^(w*t)-%e^(-w*t));
+laplace(f,t,s);

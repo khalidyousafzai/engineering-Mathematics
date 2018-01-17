@@ -965,3 +965,77 @@ ilt(%,s,t);
 
 integrate(FF,s,sa,inf);
 
+f:1/t*(2-%e^(w*t)-%e^(-w*t));
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.152");
+
+f:4*t*%e^(-2*t);
+
+laplace(f,t,s);
+print("=======================");
+kill(all);
+print("Q 6.153");
+
+f:t*cos(w*t);
+
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.154");
+
+f:t*sin(5*t);
+
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.155");
+
+f:t^2*sin(5*t);
+
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.156");
+
+f:t*%e^(-t)*sin(t);
+
+laplace(f,t,s);
+
+
+print("=======================");
+kill(all);
+print("Q 6.157");
+
+f:t^n*%e^(a*t);
+
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.158");
+
+f:t^2*cos(t);
+
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.159");
+
+n:1;
+ln:1/(n!)*%e^(t)*diff(t^n*%e^(-t),t,n);
+expand(%);
+
+n:2;
+ln:1/(n!)*%e^(t)*diff(t^n*%e^(-t),t,n);
+expand(%);
+
+n:3;
+ln:1/(n!)*%e^(t)*diff(t^n*%e^(-t),t,n);
+expand(%);

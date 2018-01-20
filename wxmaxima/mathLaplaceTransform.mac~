@@ -1039,3 +1039,71 @@ expand(%);
 n:3;
 ln:1/(n!)*%e^(t)*diff(t^n*%e^(-t),t,n);
 expand(%);
+
+print("=======================");
+kill(all);
+print("Q 6.161");
+
+Y:6*s/(s^2+9)^2;
+
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.162");
+
+Y:2*s/(s^2-1)^2;
+
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.163");
+
+Y:(2*s+4)/(s^2+4*s+5)^2;
+
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.164");
+
+Y:log(s/(s-1));
+
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("example 6.44");
+
+eq1:-(0.03+s)*Y1+0.01*Y2=-0.2/s;
+eq2:0.03*Y1-(0.03+s)*Y2=-50;
+
+solnlst:solve([eq1,eq2],[Y1,Y2]);
+soln:solnlst[1];
+sol:map(rhs,soln);
+YY1:sol[1];
+YY2:sol[2];
+partfrac(YY1,s);
+partfrac(YY2,s);
+
+eq3:s^2+300/5000*s+3/5000=0;
+solve(eq3);
+ra:-0.0473;
+rb:-0.0127;
+Y11:10/s+(500-50000*s)/(5000*(s-ra)*(s-rb));
+partfrac(Y11,s);
+float(%);
+
+Y22:10/s+(200000*s+4500)/(5000*(s-ra)*(s-rb));
+partfrac(Y22,s);
+float(%);
+
+print("=======================");
+kill(all);
+print("example 6.45");
+
+eq1:(0.4*s+3)*I1-I2=10/s*(1-%e^(-s));
+eq2:-I1+(2*s+1)*I2=0;
+
+solve([eq1,eq2],[I1,I2]);

@@ -1107,3 +1107,78 @@ eq1:(0.4*s+3)*I1-I2=10/s*(1-%e^(-s));
 eq2:-I1+(2*s+1)*I2=0;
 
 solve([eq1,eq2],[I1,I2]);
+
+s1:-7.76;
+s2:-0.326;
+
+eq:25*(2*s+1)/(s*(s-s1)*(s-s2));
+partfrac(%,s);
+
+ilt(eq,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.169");
+
+eq1:'diff(y1(t),t)+y2(t)=0;
+eq2:y1(t)+'diff(y2(t),t)=1;
+atvalue(y1(t),t=0,0);
+atvalue(y2(t),t=0,1);
+
+desolve([eq1,eq2],[y1(t),y2(t)]);
+
+print("=======================");
+kill(all);
+print("Q 6.170");
+
+eq1:'diff(y1(t),t)+y2(t)=0;
+eq2:y1(t)+'diff(y2(t),t)=sin(t);
+atvalue(y1(t),t=0,0);
+atvalue(y2(t),t=0,1);
+
+desolve([eq1,eq2],[y1(t),y2(t)]);
+
+print("=======================");
+kill(all);
+print("Q 6.171");
+
+eq1:'diff(y1(t),t)+y1(t)-2*y2(t)=0;
+eq2:'diff(y2(t),t)-y1(t)+2*y2(t)=0;
+atvalue(y1(t),t=0,1);
+atvalue(y2(t),t=0,1);
+
+desolve([eq1,eq2],[y1(t),y2(t)]);
+
+print("=======================");
+kill(all);
+print("Q 6.172");
+
+eq1:'diff(y1(t),t)=1*y2(t)-4*cos(4*t);
+eq2:'diff(y2(t),t)=-3*y1(t)-9*sin(4*t);
+atvalue(y1(t),t=0,0);
+atvalue(y2(t),t=0,0);
+
+desolve([eq1,eq2],[y1(t),y2(t)]);
+
+
+print("=======================");
+kill(all);
+print("Q 6.175");
+
+eq1:'diff(y1(t),t)=4*y1(t)+y2(t);
+eq2:'diff(y2(t),t)=-1*y1(t)+2*y2(t);
+atvalue(y1(t),t=0,3);
+atvalue(y2(t),t=0,1);
+
+desolve([eq1,eq2],[y1(t),y2(t)]);
+
+print("=======================");
+kill(all);
+print("Q 6.179");
+
+eq1:'diff(y1(t),t)=4*y1(t)+y2(t);
+eq2:'diff(y2(t),t)=-1*y1(t)+2*y2(t);
+atvalue(y1(t),t=0,3);
+atvalue(y2(t),t=0,1);
+
+desolve([eq1,eq2],[y1(t),y2(t)]);

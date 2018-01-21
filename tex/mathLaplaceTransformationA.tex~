@@ -228,3 +228,183 @@ y_2(t)&=\cos \sqrt{k}t-\sin{\sqrt{3k}t}
 
 \انتہا{مثال}
 %============================  
+
+\حصہء{سوالات}
+سوال \حوالہ{سوال_لاپلاس_نظام_الف} تا سوال \حوالہ{سوال_لاپلاس_نظام_ب} میں سادہ تفرقی مساوات کا نظام دیا گیا ہے۔ اس کو لاپلاس سے حل کریں۔
+
+%====================
+\ابتدا{سوال}\شناخت{سوال_لاپلاس_نظام_الف}\quad
+$y_1'+y_2=0,\quad y_1+y_2'=1,\quad y_1(0)=0,\, y_2(0)=1$\\
+جوابات:\عددی{y_1(t)=1-e^t} اور \عددی{y_2(t)=e^t}
+
+\انتہا{سوال}
+%=======================
+\ابتدا{سوال}\quad
+$y_1'+y_2=0,\quad y_1+y_2'=\sin t,\quad y_1(0)=0,\, y_2(0)=1$\\
+جوابات:\عددی{y_1=\tfrac{1}{2}(\sin t-3\sinh t)} اور \عددی{y_2=\tfrac{1}{2}(-\cos t+3\cosh t)}
+
+\انتہا{سوال}
+%=======================
+\ابتدا{سوال}\quad
+$y_1'+y_1-2y_2=0,\quad y_2'-y_1+2y_2=0,\quad y_1(0)=1,\,y_2(0)=1$\\
+جوابات:\عددی{y_1=\tfrac{1}{3}(4-e^{-3t})} اور \عددی{y_2=\tfrac{1}{3}(2+e^{-3t})}
+\انتہا{سوال}
+%=========================
+\ابتدا{سوال}\quad
+$y_1'=y_2-4\cos 4t,\quad y_2'=-3y_1-9\sin 4t,\quad y_1(0)=0,\, y_2(0)=0$\\
+جوابات:\عددی{y_1=-\tfrac{1}{13}(8\sqrt{3}\sin \sqrt{3}t+7\sin 4t)} اور \عددی{y_2=\tfrac{24}{13}(\cos 4t-\cos \sqrt{3}t)}
+\انتہا{سوال}
+%=======================
+\ابتدا{سوال}
+\begin{align*}
+y_1'=y_2+1-u(t-1),\quad y_2'=-y_1+1-u(t-1),\quad y_1(0)=0,\, y_2(0)=0
+\end{align*}
+جوابات:
+\begin{align*}
+y_1&=-\cos t+\sin t+1+u(t-1)[-1+\cos(t-1)-\sin(t-1)]\\
+y_2&=\cos t+\sin t-1+u(t-1)[1-\cos(t-1)-\sin(t-1)]
+\end{align*}
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}
+\begin{align*}
+y_1'&=2y_1-4y_2+u(t-1)e^t\\
+y_2&=y_1-3y_2+u(t-1)e^t,\quad y_1(0)=3, \, y_2(0)=0
+\end{align*}
+جوابات:
+\begin{align*}
+y_1&=-e^{-2t}+4e^t+\frac{1}{3}u(t-1)(e^t-e^{3-2t})\\
+y_2&=-e^{-2t}+e^t+\frac{1}{3}u(t-1)(e^t-e^{3-2t})
+\end{align*}
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}
+\begin{align*}
+y_1'&=4y_1+y_2\\
+y_2&=-y_1+2y_2,\quad y_1(0)=3,\, y_2(0)=1
+\end{align*}
+جوابات:\عددی{y_1=(3+4t)e^{3t}} اور \عددی{y_2(1-4t)e^{3t}}
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}
+\begin{align*}
+y_1''=y_1+3y_2,\quad y_2''=4y_1-4e^t\\
+y_1(0)=2,\, y_1'(0)=3,\, y_2(0)=1,\, y_2'(0)=2
+\end{align*}
+جوابات:\عددی{y_1=e^t+e^{2t}} اور \عددی{y_2=e^{2t}}
+\انتہا{سوال}
+%============================
+\ابتدا{سوال}
+\begin{align*}
+y_1''=-y_2-101\sin 10t,\quad y_2''=-y_1+101\sin 10t\\
+y_1(0)=0, \, y_1'(0)=6,\, y_2(0)=8,\, y_2'(0)=-6
+\end{align*}
+جوابات:
+\begin{align*}
+y_1&=-4e^t+\sin 10t+4\cos 10t\\
+y_2&=4e^t-\sin 10t+4\cos 4t
+\end{align*}
+\انتہا{سوال}
+%===============================
+\ابتدا{سوال}\شناخت{سوال_لاپلاس_نظام_ب}
+\begin{align*}
+y_1'+y_2'&=2\sinh t\\
+y_2'+y_3'&=e^t\\
+y_3'+y_1'&=2e^t-e^{-t},\quad y_1(0)=1,\,y_2(0)=1,\,y_3(0)=0
+\end{align*}
+جوابات:\عددی{y_1=e^t}، \عددی{y_2=e^{-t}} اور \عددی{y_3=e^t-e^{-t}}
+\انتہا{سوال}
+%===========================
+
+\حصہ{لاپلاس بدل کے عمومی کلیے}
+\begin{align*}
+F(s)=\Laplace[f(t)]&=\int_{0}^{\infty}e^{-st}f(t)\dif t \tag*{\text{تعریف}}\\
+ f(t)&=\Laplace^{-1}[F(s)] \tag*{\text{الٹ لاپلاس بدل}}\\
+\Laplace[af(t)+bg(t)]&=a\Laplace[f(t)]+b\Laplace[g(t)]\tag*{\text{خطیت}}\\
+\Laplace(f')&=s\Laplace(f)-f(0)\tag*{\text{تفاعل کا تفرق}}\\
+\Laplace(f'')&=s^2\Laplace(f)-sf(0)-f'(0)\\
+\Laplace(f(n))&=s^n\Laplace(f)-s^{(n-1)}f(0)-\cdots-f^{(n-1)}(0)\\
+\Laplace\left[\int_{0}^{t} f(\tau)\dif \tau\right]&=\frac{1}{s}\Laplace(f)\tag*{\text{تفاعل کا تکمل}}\\
+\Laplace[tf(t)]&=-F'(s)\tag*{\text{بدل کا تفرق}}\\
+\Laplace\left[\frac{f(t)}{t}\right]&=\int_{0}^{t}F(\tilde{s})\dif \tilde{s}\tag*{\text{بدل کا تکمل}}\\
+\Laplace(f*g)(t)&=\int_{0}^{t}f(\tau)g(t-\tau)\dif \tau\tag*{\text{الجھاو}}\\
+&=\int_{0}^{t}f(t-\tau)g(\tau)\dif \tau\\
+\Laplace(f*g)&=\Laplace(f)\Laplace(g)\\
+\Laplace[e^{at}f(t)]&=F(s-a),\quad \Laplace^{-1}[F(s-a)]=e^{at}f(t)\tag*{\text{منتقلی کا پہلا مسئلہ، \عددی{s} منتقلی}}\\
+\Laplace[f(t-a)u(t-a)]&=e^{-as}F(s)\tag*{\text{منتقلی کا دوسرا مسئلہ، \عددی{t} منتقلی}}\\
+\Laplace^{-1}[e^{-as}F(s)]&=f(t-a)u(t-a)\\
+\Laplace(f)&=\frac{1}{1-e^{-ps}}\int_{0}^{p}e^{-st}f(t)\dif t\tag*{\text{دہراتا تفاعل}}
+\end{align*}
+%===========================================
+
+\begin{table}
+\caption{لاپلاس بدل کا وسیع جدول}
+\label{جدول_لاپلاس_وسیع}
+\centering
+\begin{tabular}{lll}
+شمار & $F(s)=\Laplace[f(t)]$ & $f(t)$ \Tstrut \\
+\hline 
+$1$ & $\frac{1}{s}$ & $1$ \Tstrut\\
+$2$ & $\frac{1}{s^2}$ & $t$ \Tstrut\\
+$3$ & $\frac{1}{s^n}\quad (n=1,2,\cdots)$  & $\frac{t^{n-1}}{(n-1)!}$ \Tstrut\\
+$4$ & $\frac{1}{\sqrt{s}}$ & $\frac{1}{\sqrt{\pi t}}$ \Tstrut\\
+$5$ & $\frac{1}{s^{\frac{3}{2}}}$ & $2\sqrt{\frac{t}{\pi}}$ \Tstrut\\
+$6$ & $\frac{1}{s^a}\quad (a>0)$ & $\frac{t^{a-1}}{\Gamma(a)}$ \Tstrut\\
+\\
+$7$ & $\frac{1}{s-a}$ & $e^{at}$ \Tstrut\\
+$8$ & $\frac{1}{(s-a)^2}$ & $te^{at}$ \Tstrut\\
+$9$ & $\frac{1}{(s-a)^n} \quad (n=1,2,\cdots)$ & $\frac{t^{n-1} e^{at}}{(n-1)!}$  \Tstrut\\
+$10$ & $\frac{1}{(s-a)^k} \quad (k>0)$ & $\frac{t^{k-1} e^{at}}{\Gamma(k)}$  \Tstrut\\
+\\
+$11$ & $\frac{1}{(s-a)(s-b)} \quad (a \ne b)$ & $\frac{1}{a-b} (e^{at}-e^{bt})$  \Tstrut\\
+$12$ & $\frac{s}{(s-a)(s-b)} \quad (a\ne b)$ & $\frac{1}{a-b}(ae^{at}-be^{bt})$  \Tstrut\\
+\\
+$13$ & $\frac{\omega}{s^2+\omega^2}$ & $\sin \omega t$  \Tstrut\\
+$14$ & $\frac{s}{s^2+\omega^2}$ & $\cos \omega t$  \Tstrut\\
+$15$ & $\frac{a}{s^2-a^2}$ & $\sinh at$  \Tstrut\\
+$16$ & $\frac{s}{s^2-a^2}$ & $\cosh at$  \Tstrut\\
+$17$ & $\frac{\omega}{(s-a)^2+\omega^2}$ & $e^{at}\sin \omega t$  \Tstrut\\
+$18$ & $\frac{s-a}{(s-a)^2+\omega^2}$ & $e^{at}\cos \omega t$  \Tstrut\\
+\\
+$19$ & $\frac{1}{s(s^2+\omega^2)}$ & $\frac{1}{\omega^2} (1-\cos \omega t)$  \Tstrut\\
+$20$ & $\frac{1}{s^2(s^2+\omega^2)}$ & $\frac{1}{\omega^3}(\omega t-\sin \omega t)$  \Tstrut\\
+$21$ & $\frac{1}{(s^2+\omega^2)^2}$ & $\frac{1}{2\omega^3}(\sin \omega t-\omega t\cos \omega t)$  \Tstrut\\
+$22$ & $\frac{s}{(s^2+\omega^2)^2}$ & $\frac{t}{2\omega} \sin \omega t$  \Tstrut\\
+$23$ & $\frac{s^2}{(s^2+\omega^2)^2}$ & $\frac{1}{2\omega}(\sin \omega t+\omega t \cos \omega t)$  \Tstrut\\
+$24$ & $\frac{s}{(s^2+a^2)(s^2+b^2)}\quad (a^2 \ne b^2)$ & $\frac{1}{b^2-a^2}(\cos at-\cos bt)$   \Tstrut\\
+\end{tabular}
+\end{table}
+\begin{table}
+\centering
+\begin{tabular}{lll}
+شمار & $F(s)=\Laplace[f(t)]$ & $f(t)$ \Tstrut \\
+\hline 
+$25$ & $\frac{1}{s^4+4k^4}$ & $\frac{1}{4k^3}(\sin kt\cosh kt-\cos kt\sinh kt)$  \Tstrut\\
+$26$ & $\frac{s}{s^4+4k^4}$ & $\frac{1}{2k^2}\sin kt \sinh kt$ \Tstrut\\
+$27$ & $\frac{1}{s^4-k^4}$ & $\frac{1}{2k^3} (\sinh kt-\sin kt)$ \Tstrut\\
+$28$ & $\frac{s}{s^4-k^4}$ & $\frac{1}{2k^2}(\cosh kt-\cos kt)$\Tstrut \\
+\\
+$29$ & $\sqrt{s-a}-\sqrt{s-b}$ & $\frac{1}{2\sqrt{\pi t^3}} (e^{bt}-e^{at})$  \Tstrut\\
+$30$ & $\frac{1}{\sqrt{(s+a)}\sqrt{s+b}}$ & $e^{-\frac{(a+b)t}{2}} I_0 \left(\frac{a-b}{2}t\right)$  \Tstrut\\
+$31$ & $\frac{1}{\sqrt{s^2+a^2}}$ & $J_0(at)$  \Tstrut\\
+\\
+$32$ & $\frac{s}{(s-a)^{\frac{3}{2}}}$ & $\frac{1}{\sqrt{\pi t}}e^{at}(1+2at)$  \Tstrut\\
+$33$ & $\frac{1}{(s^2-a^2)^k} \quad (k>0)$ & $\frac{\sqrt{\pi}}{\Gamma(k)} \left(\frac{t}{2a}\right)^{k-\tfrac{1}{2}} I_{k-\tfrac{1}{2}}(at)$  \Tstrut\\
+\\
+$34$ & $\frac{e^{-as}}{s}$ & $u(t-a)$  \Tstrut\\
+$35$ & $e^{-as}$ & $\delta(t-a)$  \Tstrut\\
+\\
+$36$ & $\frac{e^{-\tfrac{k}{s}}}{s}$ & $J_0(2\sqrt{kt})$  \Tstrut\\
+$37$ & $\frac{e^{-\tfrac{k}{s}}}{\sqrt{s}}$ & $\frac{1}{\sqrt{\pi t}}\cos 2\sqrt{kt}$  \Tstrut\\
+$38$ & $\frac{e^{\tfrac{k}{s}}}{s^{\tfrac{3}{2}}}$ & $\frac{1}{\sqrt{\pi k}}\sinh 2\sqrt{kt}$  \Tstrut\\
+$39$ & $e^{-k\sqrt{s}} \quad (k>0)$ & $\frac{k}{2\sqrt{\pi t^3}}e^{-\tfrac{k^2}{4t}}$  \Tstrut\\
+\\
+$40$ & $\frac{1}{s}\ln s$ & $-\ln t-\gamma \quad (\gamma \approx 0.5772)$  \Tstrut\\
+$41$ & $\ln \frac{s-a}{s-b}$ & $\frac{1}{t}(e^{bt}-e^{at})$  \Tstrut\\
+\\
+$42$ & $\ln \frac{s^2+\omega^2}{s^2}$ & $\frac{2}{t}(1-\cos \omega t)$  \Tstrut\\
+$43$ & $\ln \frac{s^2-a^2}{s^2}$ & $\frac{2}{t}(1-\cosh at)$  \Tstrut\\
+$44$ & $\tan^{-1} \frac{\omega}{s}$ & $\frac{1}{t}\sin \omega t$  \Tstrut\\
+$45$ & $\frac{1}{s}\cot^{-1} s $ & $\textup{Si} (t)  \Tstrut \Bstrut$
+\end{tabular}
+\end{table}

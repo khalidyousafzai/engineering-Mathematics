@@ -47,12 +47,20 @@
 
 %\input{./tex/myElectronicsVariablesBetter.tex}         %these are all tested. to use at the very end when book is finished
 
+%kkkkkkkkkkkkkkkkkkkkkk
+\newcommand\bovermat[2]{%
+  \makebox[0pt][r]{$\raisebox{16pt}[0pt][0pt]{\text{#1}}$}#2}
+\newcommand\covermat[2]{%
+  \makebox[0pt][c]{$\raisebox{16pt}[0pt][0pt]{\text{#1}}$}#2}
+\newcommand\partialphantom{\vphantom{\frac{\partial e_{P,M}}{\partial w_{1,1}}}}
+%kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+
 \graphicspath{{./fig/figFrontPage/}{./fig/figFirstOrderOrdinaryDifferentialEquations/}{./fig/figSecondOrderOrdinaryDifferentialEquations/}{./fig/figSystemOfDifferentialEquations/}{./fig/figBesselFunction/}}		%paths to figures
 
 
-%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathSecondOrderDifferentialEquations,./tex/mathHigherOrderDifferentialEquations,./tex/mathSystemOfDifferentialEquations,./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations,./tex/mathLaplaceTransformation,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}
+%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathSecondOrderDifferentialEquations,./tex/mathHigherOrderDifferentialEquations,./tex/mathSystemOfDifferentialEquations,./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations,./tex/mathLaplaceTransformation,./tex/mathLinearAlgebra,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathLaplaceTransformation,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial,./tex/mathQuestions}%
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathLaplaceTransformation}%
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathLinearAlgebra}%
 
 
 \author{
@@ -109,6 +117,7 @@
 \include{./tex/mathSystemOfDifferentialEquations}
 \include{./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations}
 \include{./tex/mathLaplaceTransformation}
+\include{./tex/mathLinearAlgebra}
 \include{./tex/mathQuestions}
 
 

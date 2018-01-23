@@ -53,6 +53,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 6}}تفرقی مساوات کے نظام}{\RL {\arabicfont 465}}
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 6}}لاپلاس بدل کے عمومی کلیے}{\RL {\arabicfont 473}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 7}}خطی الجبرا۔سمتیات}{\RL {\arabicfont 477}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 7}}قالب اور سمتیات۔مجمعہ اور غیر سمتی ضرب}{\RL {\arabicfont 478}}
 \select@language {english}
 \select@language {arabic}
 \contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 377}}

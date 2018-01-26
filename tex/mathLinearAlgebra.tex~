@@ -641,7 +641,7 @@ c_{21}&=a_{21}b_{11}+a_{22}b_{21}+a_{23}b_{31}\\
 \end{bmatrix}=
 \begin{bmatrix*}[r]
 2&1&3\\
-0&0&\\
+0&0&0\\
 -4&-2&-6
 \end{bmatrix*}
 \end{align*}
@@ -695,3 +695,200 @@ c_{21}&=a_{21}b_{11}+a_{22}b_{21}+a_{23}b_{31}\\
 c_{jk}=\bM{a}_j \bM{b}_k,\quad j=1,\cdots,m \quad k=1,\cdots,p
 \end{align} 
 جہاں \عددی{\bM{a}_j} قالب \عددی{\bM{A}} کا صف \عددی{j} اور \عددی{\bM{b}_k} قالب \عددی{\bM{B}} کا قطار \عددی{k} ہے۔ 
+\begin{align*}
+\bM{a}_j\bM{b}_k=
+\begin{bmatrix}
+a_{j1}& a_{j2}& \cdots & a_{jn}
+\end{bmatrix}
+\begin{bmatrix}
+b_{1k}\\
+b_{2k}\\
+\vdots\\
+b_{nk}
+\end{bmatrix}=
+\begin{bmatrix}
+a_{j1}b_{1k}+a_{j2}b_{2k}+\cdots +a_{jn}b_{nk}
+\end{bmatrix}
+\end{align*}
+%======================
+\ابتدا{مثال}\quad صف اور قطار سمتیہ کی صورت میں ضرب ارکان\\
+\عددی{3\times 3} قالب \عددی{\bM{A}=[a_{jk}]} اور \عددی{3\times 4} قالب \عددی{\bM{B}=[b_{jk}]} کو ضرب دینے سے درج لکھا جا سکتا ہے۔
+\begin{align}\label{مساوات_الجبرا_ضرب_تین_چار}
+\bM{A} \bM{B}=
+\begin{bmatrix}
+\bM{a}_1\bM{b}_1 & \bM{a}_1\bM{b}_2 & \bM{a}_1\bM{b}_3 & \bM{a}_1\bM{b}_4 \\
+\bM{a}_2\bM{b}_1 & \bM{a}_2\bM{b}_2 & \bM{a}_2\bM{b}_3 & \bM{a}_2\bM{b}_4 \\
+\bM{a}_3\bM{b}_1 & \bM{a}_3\bM{b}_2 & \bM{a}_3\bM{b}_3 & \bM{a}_3\bM{b}_4 
+\end{bmatrix}
+\end{align}
+\انتہا{مثال}
+%=================================
+\ابتدا{مثال}
+\عددی{3\times 3} قالب \عددی{\bM{A}=[a_{jk}]} اور \عددی{3\times 4} قالب \عددی{\bM{B}=[b_{jk}]} درج ذیل ہیں۔ مساوات \حوالہ{مساوات_الجبرا_ضرب_تین_چار}  سے \عددی{\bM{A}\bM{B}} حاصل کریں۔
+\begin{align*}
+\bM{A}=
+\begin{bmatrix}
+1&0&2\\
+2&1&1\\
+3&2&1
+\end{bmatrix},\quad
+\bM{B}=
+\begin{bmatrix}
+2&2&1&2\\
+1&2&0&3\\
+2&1&3&1
+\end{bmatrix}
+\end{align*}
+حل: یہاں \عددی{\bM{a}_1=[1\quad 0\quad 2]}، \عددی{\bM{a}_2=[2\quad 1\quad 1]} اور \عددی{\bM{a}_3=[3\quad 2\quad 1]} ہیں۔یوں درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+\bM{a}_1\bM{b}_1=
+\begin{bmatrix}
+1&0&2
+\end{bmatrix}
+\begin{bmatrix}
+2\\
+1\\
+2
+\end{bmatrix}=
+2+0+4=6
+\end{align*}
+اسی طرح بقایا ارکان حاصل کرتے ہوئے درج ذیل ملتا ہے۔
+\begin{align*}
+\bM{A}\bM{B}=
+\begin{bmatrix}
+6&4&7&4\\
+7&7&5&8\\
+10&11&6&13
+\end{bmatrix}
+\end{align*}
+\انتہا{مثال}
+%===========================
+
+\جزوحصہء{قالبی ضرب بذریعہ کمپیوٹر}
+مساوات \حوالہ{مساوات_الجبرا_ضرب_تین_چار} کو ذرہ مختلف طریقے سے لکھتے ہیں۔\عددی{\bM{A}} کو جوں کا توں جبکہ \عددی{\bM{B}} کو سمتیہ قطار کی صورت میں  لکھتے ہوئے درج ذیل ملتا ہے۔
+\begin{align}\label{مساوات_الجبرا_ضرب_بذریعہ_کمپیوٹر}
+\bM{A}\bM{B}=\bM{A}
+\begin{bmatrix}
+\bM{b}_1 & \bM{b}_2 & \cdots & \bM{b}_p
+\end{bmatrix}=
+\begin{bmatrix}
+\bM{A}\bM{b}_1 &\bM{A} \bM{b}_2 & \cdots & \bM{A}\bM{b}_p
+\end{bmatrix}
+\end{align}
+متعدد متوازی جڑے کمپیوٹر کو علیحدہ علیحدہ \عددی{\bM{b}_1}، \عددی{\bM{b}_2}، \نقطے، \عددی{\bM{b}_p}  یا انہیں کئی کئی علیحدہ سمتیہ قطار فراہم کیے جاتے ہیں اور ساتھ ہی تمام کو \عددی{\bM{A}} بھی فراہم کیا جاتا ہے۔ یوں قالبی ضرب کے اجزاء \عددی{\bM{A}\bM{b}_1}، \عددی{\bM{A} \bM{b}_2 }، \نقطے، \عددی{\bM{A}\bM{b}_p} بہ یک وقت (نسبتاً بہت کم وقت میں) حاصل ہوتے ہیں۔
+%================
+\ابتدا{مثال}
+درج ذیل کو مساوات \حوالہ{مساوات_الجبرا_ضرب_بذریعہ_کمپیوٹر} کی مدد سے حل کریں۔
+\begin{align*}
+\bM{A}\bM{B}=
+\begin{bmatrix*}[r]
+2&1\\
+1&-1
+\end{bmatrix*}
+\begin{bmatrix*}[r]
+1&0&2\\
+2&1&3
+\end{bmatrix*}=
+\begin{bmatrix*}[r]
+4&1&7\\
+-1&-1&-1
+\end{bmatrix*}
+\end{align*}
+حل: مساوات \حوالہ{مساوات_الجبرا_ضرب_بذریعہ_کمپیوٹر} سے قالبی ضرب کے قطار حاصل کرتے ہیں جنہیں ایک ہی قالب میں یکجا کرتے ہوئے درج بالا جواب ملتا ہے۔
+\begin{align*}
+\begin{bmatrix*}[r]
+2&1\\
+1&-1
+\end{bmatrix*}
+\begin{bmatrix*}
+1\\
+2
+\end{bmatrix*}=
+\begin{bmatrix*}[r]
+4\\
+-1
+\end{bmatrix*}, \quad
+\begin{bmatrix*}[r]
+2&1\\
+1&-1
+\end{bmatrix*}
+\begin{bmatrix*}
+0\\
+1
+\end{bmatrix*}=
+\begin{bmatrix*}[r]
+1\\
+-1
+\end{bmatrix*},\quad
+\begin{bmatrix*}[r]
+2&1\\
+1&-1
+\end{bmatrix*}
+\begin{bmatrix*}
+2\\
+3
+\end{bmatrix*}=
+\begin{bmatrix*}[r]
+7\\
+-1
+\end{bmatrix*}
+\end{align*}
+\انتہا{مثال}
+%==================
+\جزوحصہء{خطی تبادل اور قالبی ضرب}
+دو متغیرات پر مبنی خطی تبادل درج ذیل لکھا جاتا ہے
+\begin{gather}
+\begin{aligned}\label{مساوات_الجبرا_خطی_تعلق_الف}
+y_1&=a_{11}x_1+a_{12}x_2\\
+y_2&=a_{21}x_1+a_{22}x_2
+\end{aligned}
+\end{gather}
+جس کو سمتیات کی مدد سے درج ذیل لکھا جا سکتا ہے۔
+\begin{align}\label{مساوات_الجبرا_خطی_تعلق_ب}
+\bM{y}=\begin{bmatrix} y_1\\y_2 \end{bmatrix}=\bM{A}\bM{x}=\begin{bmatrix} a_{11}& a_{12}\\a_{21}&a_{22} \end{bmatrix}\begin{bmatrix} x_1\\ x_2 \end{bmatrix}=\begin{bmatrix} a_{11}x_1 + a_{12}x_2\\  a_{21}x_1 + a_{22}x_2\end{bmatrix}
+\end{align}
+اب اگر \عددی{x_1 x_2} نظام ازخود \عددی{w_1 w_2} پر مبنی ہو یعنی
+ \begin{gather}
+\begin{aligned}\label{مساوات_الجبرا_خطی_تعلق_پ}
+x_1&=b_{11}w_1+b_{12}w_2\\
+x_2&=b_{21}w_1+b_{22}w_2
+\end{aligned}
+\end{gather}
+یا
+\begin{align}\label{مساوات_الجبرا_خطی_تعلق_ت}
+\bM{x}=\begin{bmatrix} x_1\\x_2 \end{bmatrix}=\bM{B}\bM{w}=\begin{bmatrix} b_{11}& b_{12}\\b_{21}&b_{22} \end{bmatrix}\begin{bmatrix} w_1\\ w_2 \end{bmatrix}=\begin{bmatrix} b_{11}w_1 + b_{12}w_2\\  b_{21}w_1 + b_{22}w_2\end{bmatrix}
+\end{align}
+تب \عددی{y_1y_2} نظام بالواسطہ  \عددی{w_1 w_2} پر مبنی ہو گا۔آئیں اس تعلق کو جانیں۔
+
+مساوات \حوالہ{مساوات_الجبرا_خطی_تعلق_الف} میں مساوات \حوالہ{مساوات_الجبرا_خطی_تعلق_پ} استعمال کرتے ہوئے
+\begin{align*}
+y_1&=a_{11}(b_{11}w_1+b_{12}w_2)+a_{12}(b_{21}w_1+b_{22}w_2)\\
+&=(a_{11}b_{11}+a_{12}b_{21})w_1+(a_{11}b_{12}+a_{12}b_{22})w_2\\
+y_2&=a_{21}(b_{11}w_1+b_{12}w_2)+a_{22}(b_{21}w_1+b_{22}w_2)\\
+&=(a_{21}b_{11}+a_{22}b_{21})w_1+(a_{21}b_{12}+a_{22}b_{22})w_2
+\end{align*}
+یعنی
+\begin{gather}
+\begin{aligned}
+y_1&=c_{11}w_1+c_{12}w_2\\
+y_2&=c_{21}w_1+c_{22}w_2
+\end{aligned}
+\end{gather}
+ملتا ہے جہاں
+\begin{gather}
+\begin{aligned}
+c_{11}&=a_{11}b_{11}+a_{12}b_{21}, \quad c_{12}=a_{11}b_{12}+a_{12}b_{22}\\
+c_{21}&=a_{21}b_{11}+a_{22}b_{21},\quad c_{22}=a_{21}b_{12}+a_{22}b_{22}
+\end{aligned}
+\end{gather}
+لیا گیا ہے۔اس تعلق کو سمتیات کی مدد سے درج ذیل لکھا جا سکتا ہے۔
+\begin{align}
+\bM{y}=\bM{C}\bM{w}=\begin{bmatrix}c_{11} & c_{12}\\ c_{21}&c_{22}  \end{bmatrix}\begin{bmatrix}w_1\\w_2  \end{bmatrix}=
+\begin{bmatrix} c_{11}w_1+c_{12}w_2\\ c_{21}w_1+c_{22}w_2 \end{bmatrix}
+\end{align}
+آئیں قالبی ضرب \عددی{\bM{A}\bM{B}} حاصل کرتے ہوئے ثابت کریں کہ \عددی{\bM{C}=\bM{A}\bM{B}} ہے۔
+\begin{align}\label{مساوات_الجبرا_خطی_تعلق_ٹ}
+\bM{A}\bM{B}=\begin{bmatrix}a_{11}& a_{12}\\a_{21}& a_{22}  \end{bmatrix}\begin{bmatrix}b_{11} & b_{12}\\ b_{21} & b_{22}  \end{bmatrix}
+=\begin{bmatrix}a_{11}b_{11}+a_{12}b_{21} &a_{11}b_{12}+a_{12}b_{22}\\  a_{21}b_{11}+a_{22}b_{21} & a_{21}b_{12}+a_{22}b_{22} \end{bmatrix}=\bM{C}
+\end{align}
+بڑے جسامت کے قالبوں کے لئے بھی \عددی{\bM{C}=\bM{A}\bM{B}} بالکل اسی طرح ثابت کیا جاتا ہے۔یوں \عددی{y}، \عددی{x} اور \عددی{w} متغیرات کی تعداد بالترتیب \عددی{m}، \عددی{n} اور \عددی{p} کی صورت میں \عددی{\bM{A}}، \عددی{\bM{B}} اور \عددی{\bM{C}} قالبوں کی جسامت بالترتیب \عددی{m\times n}، \عددی{n\times p} اور \عددی{m\times p} ہو گی جہاں \عددی{\bM{C}=\bM{A}\bM{B}} ہے۔  قالبی ضرب (مساوات \حوالہ{مساوات_الجبرائی_قالبی_ضرب_الف})  کی تعریف مساوات \حوالہ{مساوات_الجبرا_خطی_تعلق_ٹ} کی بدولت ہے۔

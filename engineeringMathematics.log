@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  26 JAN 2018 16:51
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  27 JAN 2018 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3226,16 +3226,31 @@ Missing character: There is no ب in font zplmr7m!
 Missing character: There is no د in font zplmr7m!
 Missing character: There is no ی in font zplmr7m!
 Missing character: There is no ل in font zplmr7m!
+Missing character: There is no ی in font zplmr7m!
 Missing character: There is no م in font zplmr7m!
 Missing character: There is no ح in font zplmr7m!
 Missing character: There is no ل in font zplmr7m!
-) [494] [374
+ [494] [495] [496]
+Underfull \hbox (badness 10000) in paragraph at lines 985--986
+[][]
+ []
+
+[497]
+Underfull \hbox (badness 10000) in paragraph at lines 995--996
+[][]
+ []
+
+[498]
+Underfull \hbox (badness 10000) in paragraph at lines 1014--1015
+[][]
+ []
+
+) [499] [374
 
 
 
-] [375] (./engineeringMathematics.aux
-(./tex/cktPreface.aux) (./tex/prefaceFirstBook.aux)
-(./tex/mathFirstOrderDifferentialEquations.aux)
+] [375] (./engineeringMathematics.aux (./tex/cktPreface.aux)
+(./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
 (./tex/mathSystemOfDifferentialEquations.aux)
@@ -3248,12 +3263,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46220 strings out of 493918
- 1095562 string characters out of 6150562
- 1265018 words of memory out of 5000000
- 48559 multiletter control sequences out of 15000+600000
+ 46240 strings out of 493918
+ 1095905 string characters out of 6150562
+ 1265191 words of memory out of 5000000
+ 48579 multiletter control sequences out of 15000+600000
  33127 words of font info for 138 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,21n,81p,10485b,770s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (29 pages).
+Output written on engineeringMathematics.pdf (34 pages).

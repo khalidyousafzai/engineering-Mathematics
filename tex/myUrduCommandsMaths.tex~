@@ -1,6 +1,7 @@
 %this file describes urdu commands for the commonly used english latex commands
 
 %chapter, section etc
+%  \newcommand*{newcommand}[arguments]{actual command}
 \newcommand*{\باب}[1]{\chapter{#1}}                                      %defining commonly used commands
 \newcommand*{\حصہ}[1]{\section{#1}}
 \newcommand*{\جزوحصہ}[1]{\subsection{#1}}
@@ -16,7 +17,7 @@
 \newcommand*{\تحریر}[1]{\textenglish{#1}}	% english text in urduMode
 %\newcommand*{\موٹا}[1]{\textbf{#1}}
 %\newcommand*{\ترچھا}[1]{{\textit{#1}}}
-\newcommand*{\موٹا}[1]{\urduTechTermsfont{#1}}
+\newcommand*{\موٹا}[1]{{\urduTechTermsfont{#1}}}
 \newcommand*{\ترچھا}[1]{{\urduTechTermsfont{#1}}}
 
 %\newcommand*{\اصطلاح}[1]{{\color{red}{#1}}}   %colours spills to next word when there is index or footnote entry with the word
@@ -70,8 +71,7 @@
 \newcommand*{\سیدھازیرنوشت}[2]{\: \ensuremath{{#1_{\textup{#2}}}} \:} %RC
 
 \newcommand*{\قریب}[1]{\mbox{#1}}
-
-
+\newcommand{\سن}[1]{؁\,#1}
 
 \renewcommand{\indexname}{فرہنگ}        %does nothing here. must be placed within begin{urdufont} environment to be the last to take effect 
 %===============================

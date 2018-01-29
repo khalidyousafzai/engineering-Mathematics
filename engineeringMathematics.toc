@@ -56,6 +56,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 7}}قالب اور سمتیات۔مجموعہ اور غیر سمتی ضرب}{\RL {\arabicfont 478}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 7}}قالبی ضرب}{\RL {\arabicfont 488}}
 \contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 2}.\RL {\arabicfont 7}}تبدیلی محل}{\RL {\arabicfont 494}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 7}}خطی مساوات کے نظام۔ گاوسی حدف}{\RL {\arabicfont 507}}
 \select@language {english}
 \select@language {arabic}
 \contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 377}}

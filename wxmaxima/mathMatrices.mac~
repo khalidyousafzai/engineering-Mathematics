@@ -123,3 +123,45 @@ aa+bb;
 transpose(aa)+bb;
 aa+transpose(bb);
 
+T:A+transpose(A);
+M:A-transpose(A);
+
+Print("======================================");
+kill(all);
+print("example 7.18");
+
+A:matrix([0.8,0.1,0],[0.2,0.7,0.1],[0,0.2,0.9]);
+B:matrix([60],[25],[15]);
+
+A.B;
+A.A.B;
+A.A.A.B;
+
+Print("======================================");
+kill(all);
+print("Q 7.33");
+
+A:matrix([0.9,0.6],[0.1,0.4]);
+B:matrix([100],[0]);
+
+A.B;
+A.A.B;
+
+Print("======================================");
+kill(all);
+print("Q 7.34");
+
+N:20000;
+r:0.9;
+rr:1-r;
+R:0.01;
+RR:1-R;
+
+ac:1000;
+na:N-ac;
+A:matrix([r,R],[rr,RR]);
+B:matrix([ac],[na]);
+
+A.B;
+A.A.B;
+A.A.A.B;

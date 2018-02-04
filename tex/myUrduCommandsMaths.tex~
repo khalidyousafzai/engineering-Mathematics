@@ -52,6 +52,7 @@
 %counters
 \newcommand*{\فاصلہ}{\vspace*{10mm}}
 
+
 %itemize, bullets and numbered items   
 \newcommand*{\اشیاء}{itemize}                               %used in   \begin{itemize}
 \newcommand*{\شے}[1]{\item {#1}}			%used in    \item
@@ -71,7 +72,7 @@
 \newcommand*{\سیدھازیرنوشت}[2]{\: \ensuremath{{#1_{\textup{#2}}}} \:} %RC
 
 \newcommand*{\قریب}[1]{\mbox{#1}}
-\newcommand{\سن}[1]{؁\,#1}
+\newcommand{\سن}[1]{؁\,\ensuremath{#1}}
 
 \renewcommand{\indexname}{فرہنگ}        %does nothing here. must be placed within begin{urdufont} environment to be the last to take effect 
 %===============================

@@ -38,7 +38,7 @@
 \indexentry{اجزاء}{\RL {\arabicfont  481}}
 \indexentry{مختلف}{\RL {\arabicfont  482}}
 \indexentry{different}{\RL {\arabicfont  482}}
-\indexentry{ضرب!غیر سمتی}{\RL {\arabicfont  483}}
+\indexentry{ضرب!غیر سمتی}{\RL {\arabicfont  484}}
 \indexentry{difference}{\RL {\arabicfont  484}}
 \indexentry{فرق}{\RL {\arabicfont  484}}
 \indexentry{zero!matrix}{\RL {\arabicfont  485}}
@@ -51,24 +51,24 @@
 \indexentry{صفر!سمتیہ}{\RL {\arabicfont  485}}
 \indexentry{قانون!تلازم}{\RL {\arabicfont  485}}
 \indexentry{قانون!تبادل}{\RL {\arabicfont  485}}
-\indexentry{equilibrium}{\RL {\arabicfont  487}}
-\indexentry{متوازن}{\RL {\arabicfont  487}}
-\indexentry{transpose matrix}{\RL {\arabicfont  494}}
-\indexentry{تبدیل محل قالب}{\RL {\arabicfont  494}}
-\indexentry{transposition}{\RL {\arabicfont  494}}
-\indexentry{تبدیلی محل}{\RL {\arabicfont  494}}
-\indexentry{symmetric!matrix}{\RL {\arabicfont  497}}
-\indexentry{قالب!تشاکلی}{\RL {\arabicfont  497}}
-\indexentry{تشاکلی!قالب}{\RL {\arabicfont  497}}
-\indexentry{skew-symmetric}{\RL {\arabicfont  497}}
-\indexentry{قالب!منحرف تشاکلی}{\RL {\arabicfont  497}}
-\indexentry{تشاکلی!منحرف}{\RL {\arabicfont  497}}
-\indexentry{triangular!upper matrix}{\RL {\arabicfont  498}}
-\indexentry{قالب!بالائی تکونی}{\RL {\arabicfont  498}}
-\indexentry{تکونی!بالائی قالب}{\RL {\arabicfont  498}}
-\indexentry{triangular!lower matrix}{\RL {\arabicfont  498}}
-\indexentry{قالب!نچلا تکونی}{\RL {\arabicfont  498}}
-\indexentry{تکونی!نچلا قالب}{\RL {\arabicfont  498}}
+\indexentry{equilibrium}{\RL {\arabicfont  488}}
+\indexentry{متوازن}{\RL {\arabicfont  488}}
+\indexentry{transpose matrix}{\RL {\arabicfont  495}}
+\indexentry{تبدیل محل قالب}{\RL {\arabicfont  495}}
+\indexentry{transposition}{\RL {\arabicfont  495}}
+\indexentry{تبدیلی محل}{\RL {\arabicfont  495}}
+\indexentry{symmetric!matrix}{\RL {\arabicfont  498}}
+\indexentry{قالب!تشاکلی}{\RL {\arabicfont  498}}
+\indexentry{تشاکلی!قالب}{\RL {\arabicfont  498}}
+\indexentry{skew-symmetric}{\RL {\arabicfont  498}}
+\indexentry{قالب!منحرف تشاکلی}{\RL {\arabicfont  498}}
+\indexentry{تشاکلی!منحرف}{\RL {\arabicfont  498}}
+\indexentry{triangular!upper matrix}{\RL {\arabicfont  499}}
+\indexentry{قالب!بالائی تکونی}{\RL {\arabicfont  499}}
+\indexentry{تکونی!بالائی قالب}{\RL {\arabicfont  499}}
+\indexentry{triangular!lower matrix}{\RL {\arabicfont  499}}
+\indexentry{قالب!نچلا تکونی}{\RL {\arabicfont  499}}
+\indexentry{تکونی!نچلا قالب}{\RL {\arabicfont  499}}
 \indexentry{matrix!diagonal}{\RL {\arabicfont  499}}
 \indexentry{diagonal!matrix}{\RL {\arabicfont  499}}
 \indexentry{قالب!وتری}{\RL {\arabicfont  499}}
@@ -80,34 +80,57 @@
 \indexentry{unit matrix}{\RL {\arabicfont  499}}
 \indexentry{قالب!اکائی}{\RL {\arabicfont  499}}
 \indexentry{اکائی!قالب}{\RL {\arabicfont  499}}
-\indexentry{stochastic matrix}{\RL {\arabicfont  500}}
-\indexentry{matrix!stochastic}{\RL {\arabicfont  500}}
-\indexentry{امکانی شماریاتی قالب}{\RL {\arabicfont  500}}
-\indexentry{قالب!امکانی شماریاتی}{\RL {\arabicfont  500}}
-\indexentry{state vector}{\RL {\arabicfont  501}}
-\indexentry{حال!سمتیہ}{\RL {\arabicfont  501}}
-\indexentry{سمتیہ!حال}{\RL {\arabicfont  501}}
-\indexentry{commutative}{\RL {\arabicfont  504}}
-\indexentry{قابل تبادل}{\RL {\arabicfont  504}}
-\indexentry{Gauss elimination}{\RL {\arabicfont  507}}
-\indexentry{گاوسی اسقاط}{\RL {\arabicfont  507}}
-\indexentry{linear system}{\RL {\arabicfont  507}}
-\indexentry{خطی نظام}{\RL {\arabicfont  507}}
-\indexentry{coefficients}{\RL {\arabicfont  507}}
-\indexentry{عددی سر}{\RL {\arabicfont  507}}
+\indexentry{stochastic matrix}{\RL {\arabicfont  501}}
+\indexentry{matrix!stochastic}{\RL {\arabicfont  501}}
+\indexentry{امکانی شماریاتی قالب}{\RL {\arabicfont  501}}
+\indexentry{قالب!امکانی شماریاتی}{\RL {\arabicfont  501}}
+\indexentry{state vector}{\RL {\arabicfont  502}}
+\indexentry{حال!سمتیہ}{\RL {\arabicfont  502}}
+\indexentry{سمتیہ!حال}{\RL {\arabicfont  502}}
+\indexentry{commutative}{\RL {\arabicfont  505}}
+\indexentry{قابل تبادل}{\RL {\arabicfont  505}}
+\indexentry{Gauss elimination}{\RL {\arabicfont  508}}
+\indexentry{گاوسی اسقاط}{\RL {\arabicfont  508}}
+\indexentry{linear system}{\RL {\arabicfont  508}}
+\indexentry{خطی نظام}{\RL {\arabicfont  508}}
+\indexentry{coefficients}{\RL {\arabicfont  508}}
+\indexentry{عددی سر}{\RL {\arabicfont  508}}
 \indexentry{homogeneous!system}{\RL {\arabicfont  508}}
 \indexentry{ہم جنسی!نظام}{\RL {\arabicfont  508}}
 \indexentry{nonhomogeneous!system}{\RL {\arabicfont  508}}
 \indexentry{ہم جنسی!غیر}{\RL {\arabicfont  508}}
 \indexentry{غیر ہم جنسی!نظام}{\RL {\arabicfont  508}}
-\indexentry{solution!vector}{\RL {\arabicfont  508}}
-\indexentry{vector!solution}{\RL {\arabicfont  508}}
-\indexentry{سمتیہ!حل}{\RL {\arabicfont  508}}
-\indexentry{حل!سمتیہ}{\RL {\arabicfont  508}}
-\indexentry{trivial solution}{\RL {\arabicfont  508}}
-\indexentry{حل!غیر اہم صفر}{\RL {\arabicfont  508}}
-\indexentry{غیر اہم صفر حل}{\RL {\arabicfont  508}}
-\indexentry{coefficient!matrix}{\RL {\arabicfont  508}}
-\indexentry{عددی سر!قالب}{\RL {\arabicfont  508}}
-\indexentry{augmented matrix}{\RL {\arabicfont  508}}
-\indexentry{افزودہ قالب}{\RL {\arabicfont  508}}
+\indexentry{solution!vector}{\RL {\arabicfont  509}}
+\indexentry{vector!solution}{\RL {\arabicfont  509}}
+\indexentry{سمتیہ!حل}{\RL {\arabicfont  509}}
+\indexentry{حل!سمتیہ}{\RL {\arabicfont  509}}
+\indexentry{trivial solution}{\RL {\arabicfont  509}}
+\indexentry{حل!غیر اہم صفر}{\RL {\arabicfont  509}}
+\indexentry{غیر اہم صفر حل}{\RL {\arabicfont  509}}
+\indexentry{coefficient!matrix}{\RL {\arabicfont  509}}
+\indexentry{عددی سر!قالب}{\RL {\arabicfont  509}}
+\indexentry{augmented matrix}{\RL {\arabicfont  509}}
+\indexentry{افزودہ قالب}{\RL {\arabicfont  509}}
+\indexentry{Gauss elimination}{\RL {\arabicfont  512}}
+\indexentry{گاوسی اسقاط}{\RL {\arabicfont  512}}
+\indexentry{row equivalent}{\RL {\arabicfont  516}}
+\indexentry{صف برابر}{\RL {\arabicfont  516}}
+\indexentry{solution set}{\RL {\arabicfont  517}}
+\indexentry{حل!سلسلہ}{\RL {\arabicfont  517}}
+\indexentry{سلسلہ!حل}{\RL {\arabicfont  517}}
+\indexentry{overdetermined}{\RL {\arabicfont  517}}
+\indexentry{زائد معلوم}{\RL {\arabicfont  517}}
+\indexentry{determined}{\RL {\arabicfont  517}}
+\indexentry{معلوم}{\RL {\arabicfont  517}}
+\indexentry{underdetermined}{\RL {\arabicfont  517}}
+\indexentry{کم معلوم}{\RL {\arabicfont  517}}
+\indexentry{inconsistent}{\RL {\arabicfont  517}}
+\indexentry{متضاد}{\RL {\arabicfont  517}}
+\indexentry{consistent}{\RL {\arabicfont  517}}
+\indexentry{بلا تضاد}{\RL {\arabicfont  517}}
+\indexentry{echelon form}{\RL {\arabicfont  520}}
+\indexentry{صف زینہ دار}{\RL {\arabicfont  520}}
+\indexentry{echelon form!reduced}{\RL {\arabicfont  520}}
+\indexentry{زینہ دار صورت!سادہ}{\RL {\arabicfont  520}}
+\indexentry{rank}{\RL {\arabicfont  521}}
+\indexentry{درجہ قالب}{\RL {\arabicfont  521}}

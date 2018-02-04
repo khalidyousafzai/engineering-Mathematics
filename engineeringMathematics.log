@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  30 JAN 2018 12:41
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  4 FEB 2018 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3169,47 +3169,47 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 4.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 7.
+(Font)              scaled to size 14.4pt on input line 9.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 14.4pt on input line 7.
+(Font)              scaled to size 14.4pt on input line 9.
 
 Underfull \vbox (badness 2503) has occurred while \output is active []
 
  [477]
 [478]
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 [][]
  []
 
 [479]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 84.
+(Font)              scaled to size 9.5pt on input line 86.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 84.
+(Font)              scaled to size 7.5pt on input line 86.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 96.
+(Font)              scaled to size 12.0pt on input line 98.
  [480] [481] [482] [483] [484] [485]
-Underfull \hbox (badness 10000) in paragraph at lines 421--425
+Underfull \hbox (badness 10000) in paragraph at lines 444--448
 [][]
  []
 
 [486] [487] [488]
-Underfull \hbox (badness 10000) in paragraph at lines 566--567
+Underfull \hbox (badness 10000) in paragraph at lines 590--591
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 591--592
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 651--652
+Underfull \hbox (badness 10000) in paragraph at lines 615--616
 [][]
  []
 
 [489]
-Overfull \hbox (1.99893pt too wide) in paragraph at lines 678--678
+Underfull \hbox (badness 10000) in paragraph at lines 675--676
+[][]
+ []
+
+
+Overfull \hbox (1.99893pt too wide) in paragraph at lines 702--702
 [][] []
  []
 
@@ -3223,36 +3223,35 @@ Missing character: There is no ی in font zplmr7m!
 Missing character: There is no م in font zplmr7m!
 Missing character: There is no ح in font zplmr7m!
 Missing character: There is no ل in font zplmr7m!
- [494] [495] [496] [497]
-Underfull \hbox (badness 10000) in paragraph at lines 997--998
-[][]
- []
-
-[498]
-Underfull \hbox (badness 10000) in paragraph at lines 1016--1017
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1023--1026
+ [494] [495] [496] [497] [498]
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1022
 [][]
  []
 
 [499]
+Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1047--1050
+[][]
+ []
+
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 1052.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1052--1056
+(Font)              scaled to size 5.70004pt on input line 1076.
+[500]
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1080
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1052--1056
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1080
 [][]
  []
 
-[500] [501]
-Overfull \hbox (1.89949pt too wide) in paragraph at lines 1120--1126
+[501]
+Overfull \hbox (1.89949pt too wide) in paragraph at lines 1144--1150
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $\OML/cmm/b/it/10 A[] \OT1/zplm/m
 /n/10 = [] \OT1/ppl/m/n/10 ,  \OML/cmm/b/it/10 B[] \OT1/zplm/m/n/10 = [] \OT1/p
 pl/m/n/10 ,  \OML/cmm/b/it/10 a[] \OT1/zplm/m/n/10 = [] \OT1/ppl/m/n/10 ,  \OML
@@ -3260,7 +3259,7 @@ pl/m/n/10 ,  \OML/cmm/b/it/10 a[] \OT1/zplm/m/n/10 = [] \OT1/ppl/m/n/10 ,  \OML
  []
 
 [502]
-Overfull \hbox (4.71283pt too wide) in paragraph at lines 1156--1162
+Overfull \hbox (4.71283pt too wide) in paragraph at lines 1180--1186
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $\OT1/ppl/m/n/10 2\OML/cmm/b/it/1
 0 A \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 3\OML/cmm/b/it/10 B \OT1/zplm/m/n/10 =
  [] \OT1/ppl/m/n/10 , \OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 2\OML/cmm/b/it/10 A \OM
@@ -3269,33 +3268,43 @@ S/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 3\OML/cmm/b/it/10 B\OT1/zplm/m/n/10 )[] = \OT
 mm/b/it/10 B[] \OT1/zplm/m/n/10 = []$ []
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1187--1193
+[503]
+Underfull \hbox (badness 10000) in paragraph at lines 1211--1217
 [][]
  []
 
-[503] [504] [505] [506] [507] [508]
+[504] [505] [506] [507] [508] [509]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 1373.
+(Font)              scaled to size 9.0pt on input line 1397.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1385--1385
+Underfull \hbox (badness 10000) in paragraph at lines 1409--1409
 [][]|\EU1/JameelNooriNastaleeq(0)/m/n/9 (ب) دونوں خطوط (جنہیں ایک دونوں سے ذرہ 
 ہٹ کر دکھایا گیا ہے درحقیقت) ہم[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1395--1395
+Underfull \hbox (badness 10000) in paragraph at lines 1419--1419
 [][]|\EU1/JameelNooriNastaleeq(0)/m/n/9 (پ) متوازی خطوط ایک دونوں کو کہیں نہیں 
 چھوتے ہیں لہٰذا ان کا کوئی حل نہیں پایا جاتا[]
  []
 
-[509] [510]) [511] [374
+[510] [511] [512] [513] [514] [515] [516] [517] [518] [519] [520] [521]
+[522] [523]
+Overfull \hbox (6.33846pt too wide) in paragraph at lines 1881--1883
+ [][][][] 
+ []
+
+
+Overfull \hbox (5.87294pt too wide) in paragraph at lines 1889--1892
+ [][][][] 
+ []
+
+) [524] [525] [374
 
 
 
-] [375] (./engineeringMathematics.aux
-(./tex/cktPreface.aux) (./tex/prefaceFirstBook.aux)
-(./tex/mathFirstOrderDifferentialEquations.aux)
+] [375] (./engineeringMathematics.aux (./tex/cktPreface.aux)
+(./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
 (./tex/mathSystemOfDifferentialEquations.aux)
@@ -3312,12 +3321,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46829 strings out of 493918
- 1111942 string characters out of 6150562
- 1266517 words of memory out of 5000000
- 49165 multiletter control sequences out of 15000+600000
+ 47429 strings out of 493918
+ 1126641 string characters out of 6150562
+ 1300589 words of memory out of 5000000
+ 49765 multiletter control sequences out of 15000+600000
  42343 words of font info for 169 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,21n,81p,10485b,2266s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (46 pages).
+Output written on engineeringMathematics.pdf (60 pages).

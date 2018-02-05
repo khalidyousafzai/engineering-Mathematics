@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  4 FEB 2018 15:44
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  5 FEB 2018 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3295,15 +3295,20 @@ Overfull \hbox (6.33846pt too wide) in paragraph at lines 1881--1883
  []
 
 
-Overfull \hbox (5.87294pt too wide) in paragraph at lines 1889--1892
+Overfull \hbox (6.1057pt too wide) in paragraph at lines 1916--1918
  [][][][] 
  []
 
-) [524] [525] [374
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 1924.
+[524] [525]
+Missing character: There is no ; in font nullfont!
+ [526] [527] [528] [529] [530] [531]) [532] [374
 
 
 
-] [375] (./engineeringMathematics.aux (./tex/cktPreface.aux)
+] [375]
+(./engineeringMathematics.aux (./tex/cktPreface.aux)
 (./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
@@ -3321,12 +3326,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 47429 strings out of 493918
- 1126641 string characters out of 6150562
- 1300589 words of memory out of 5000000
- 49765 multiletter control sequences out of 15000+600000
- 42343 words of font info for 169 fonts, out of 8000000 for 9000
+ 48092 strings out of 493918
+ 1142027 string characters out of 6150562
+ 1346286 words of memory out of 5000000
+ 50427 multiletter control sequences out of 15000+600000
+ 42351 words of font info for 170 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,21n,81p,10485b,2266s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (60 pages).
+Output written on engineeringMathematics.pdf (67 pages).

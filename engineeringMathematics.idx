@@ -128,30 +128,54 @@
 \indexentry{متضاد}{\RL {\arabicfont  517}}
 \indexentry{consistent}{\RL {\arabicfont  517}}
 \indexentry{بلا تضاد}{\RL {\arabicfont  517}}
-\indexentry{echelon form}{\RL {\arabicfont  520}}
-\indexentry{صف زینہ دار}{\RL {\arabicfont  520}}
+\indexentry{echelon form}{\RL {\arabicfont  519}}
+\indexentry{صف زینہ دار}{\RL {\arabicfont  519}}
 \indexentry{echelon form!reduced}{\RL {\arabicfont  520}}
 \indexentry{زینہ دار صورت!سادہ}{\RL {\arabicfont  520}}
-\indexentry{rank}{\RL {\arabicfont  521}}
-\indexentry{درجہ قالب}{\RL {\arabicfont  521}}
-\indexentry{voltage division}{\RL {\arabicfont  526}}
-\indexentry{تقسیم دباو!کلیہ}{\RL {\arabicfont  526}}
-\indexentry{کلیہ!تقسیم دباو}{\RL {\arabicfont  526}}
-\indexentry{wheatstone bridge}{\RL {\arabicfont  526}}
-\indexentry{ویٹ سٹون پل}{\RL {\arabicfont  526}}
-\indexentry{ammeter}{\RL {\arabicfont  526}}
-\indexentry{ایمپیئر پیما}{\RL {\arabicfont  526}}
-\indexentry{photosynthesis}{\RL {\arabicfont  528}}
-\indexentry{ضیائی تالیف}{\RL {\arabicfont  528}}
+\indexentry{rank}{\RL {\arabicfont  520}}
+\indexentry{درجہ قالب}{\RL {\arabicfont  520}}
+\indexentry{voltage division}{\RL {\arabicfont  525}}
+\indexentry{تقسیم دباو!کلیہ}{\RL {\arabicfont  525}}
+\indexentry{کلیہ!تقسیم دباو}{\RL {\arabicfont  525}}
+\indexentry{wheatstone bridge}{\RL {\arabicfont  525}}
+\indexentry{ویٹ سٹون پل}{\RL {\arabicfont  525}}
+\indexentry{ammeter}{\RL {\arabicfont  525}}
+\indexentry{ایمپیئر پیما}{\RL {\arabicfont  525}}
+\indexentry{photosynthesis}{\RL {\arabicfont  527}}
+\indexentry{ضیائی تالیف}{\RL {\arabicfont  527}}
 \indexentry{linear combination}{\RL {\arabicfont  528}}
-\indexentry{خطی میل}{\RL {\arabicfont  528}}
-\indexentry{linear independent}{\RL {\arabicfont  529}}
-\indexentry{خطی طور غیر تابع}{\RL {\arabicfont  529}}
-\indexentry{linearly independent set}{\RL {\arabicfont  529}}
-\indexentry{خطی طور غیر تابع سلسلہ}{\RL {\arabicfont  529}}
-\indexentry{linear dependent}{\RL {\arabicfont  529}}
-\indexentry{خطی طور تابع}{\RL {\arabicfont  529}}
-\indexentry{rank}{\RL {\arabicfont  530}}
-\indexentry{درجہ}{\RL {\arabicfont  530}}
-\indexentry{row equivalent}{\RL {\arabicfont  531}}
-\indexentry{صف برابر}{\RL {\arabicfont  531}}
+\indexentry{خطی مجموعہ}{\RL {\arabicfont  528}}
+\indexentry{linear independent}{\RL {\arabicfont  528}}
+\indexentry{خطی طور غیر تابع}{\RL {\arabicfont  528}}
+\indexentry{linearly independent set}{\RL {\arabicfont  528}}
+\indexentry{خطی طور غیر تابع سلسلہ}{\RL {\arabicfont  528}}
+\indexentry{linear dependent}{\RL {\arabicfont  528}}
+\indexentry{خطی طور تابع}{\RL {\arabicfont  528}}
+\indexentry{rank}{\RL {\arabicfont  529}}
+\indexentry{درجہ}{\RL {\arabicfont  529}}
+\indexentry{row equivalent}{\RL {\arabicfont  530}}
+\indexentry{صف برابر}{\RL {\arabicfont  530}}
+\indexentry{set!nonempty}{\RL {\arabicfont  533}}
+\indexentry{سلسلہ!غیر خالی}{\RL {\arabicfont  533}}
+\indexentry{vector space}{\RL {\arabicfont  533}}
+\indexentry{سمتی فضا}{\RL {\arabicfont  533}}
+\indexentry{dimension}{\RL {\arabicfont  533}}
+\indexentry{جسامت}{\RL {\arabicfont  533}}
+\indexentry{basis}{\RL {\arabicfont  533}}
+\indexentry{اساس}{\RL {\arabicfont  533}}
+\indexentry{span}{\RL {\arabicfont  534}}
+\indexentry{احاطہ}{\RL {\arabicfont  534}}
+\indexentry{subset}{\RL {\arabicfont  534}}
+\indexentry{سلسلہ!ذیلی}{\RL {\arabicfont  534}}
+\indexentry{subspace}{\RL {\arabicfont  534}}
+\indexentry{فضا!ذیلی}{\RL {\arabicfont  534}}
+\indexentry{row space}{\RL {\arabicfont  535}}
+\indexentry{صف فضا}{\RL {\arabicfont  535}}
+\indexentry{column space}{\RL {\arabicfont  535}}
+\indexentry{قطار فضا}{\RL {\arabicfont  535}}
+\indexentry{nullity}{\RL {\arabicfont  535}}
+\indexentry{معدومیت}{\RL {\arabicfont  535}}
+\indexentry{null!set}{\RL {\arabicfont  535}}
+\indexentry{set!null}{\RL {\arabicfont  535}}
+\indexentry{معدوم!فضا}{\RL {\arabicfont  535}}
+\indexentry{فضا!معدوم}{\RL {\arabicfont  535}}

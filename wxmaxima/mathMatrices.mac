@@ -566,3 +566,174 @@ A:matrix([2,3,1],[3,0,2],[2,2,3]);
 T:transpose(A);
 triangularize(A);
 triangularize(T);
+
+Print("======================================");
+kill(all);
+print("Q 7.67 ");
+
+A:matrix([a,b],[b,a]);
+
+T:transpose(A);
+triangularize(A);
+triangularize(T);
+
+Print("======================================");
+kill(all);
+print("Q 7.68 ");
+
+A:matrix([1,2,4,8],[2,1,8,4],[4,-1,16,-4],[8,1,32,4]);
+
+T:transpose(A);
+triangularize(A);
+triangularize(T);
+
+Print("======================================");
+kill(all);
+print("Q 7.69 ");
+
+A:matrix([8,4,8,2],[16,8,4,4],[8,4,-4,2],[2,8,8,4]);
+
+T:transpose(A);
+triangularize(A);
+triangularize(T);
+
+Print("======================================");
+kill(all);
+print("Q 7.70 ");
+
+A:matrix([1,2,3,4],[2,3,4,5],[3,4,5,6],[4,5,6,7]);
+
+T:transpose(A);
+triangularize(A);
+triangularize(T);
+
+Print("======================================");
+kill(all);
+print("Q 7.71 ");
+
+A:matrix([2,3,4,5],[3,4,5,6],[4,5,6,7],[5,6,7,8]);
+
+T:transpose(A);
+triangularize(A);
+triangularize(T);
+
+
+Print("======================================");
+kill(all);
+print("Q 7.74 ");
+
+A:matrix([1,2,4],[2,4,8],[4,8,16]);
+
+T:transpose(A);
+triangularize(A);
+triangularize(T);
+
+
+Print("======================================");
+kill(all);
+print("Q 7.81 ");
+
+A:matrix([1,2,0,1],[2,0,-3,2],[0,4,3,0]);
+
+triangularize(A);
+
+2*row(A,1)-row(A,2);
+
+Print("======================================");
+kill(all);
+print("Q 7.82 ");
+
+A:matrix([1,0,2,1],[0,1,1,2],[1,2,1,2]);
+
+triangularize(A);
+
+
+Print("======================================");
+kill(all);
+print("Q 7.83 ");
+
+A:matrix([1,0,2,1],[0,1,1,2],[1,2,1,2],[3,1,4,2]);
+
+triangularize(A);
+
+2*row(A,1)-row(A,2)+row(A,3);
+
+Print("======================================");
+kill(all);
+print("Q 7.84 ");
+
+A:matrix([0.2,0,0.1,0.6],[0.1,0.2,0.1,0],[0.4,0.2,0.1,0.4],[0,0.1,0.1,0.4]);
+
+triangularize(A);
+
+2*row(A,1)-row(A,2)+row(A,3);
+
+Print("======================================");
+kill(all);
+print("Q 7.85 ");
+
+A:matrix([0.4,0,0.1,0.2],[0.2,0.2,0.1,0.4],[0.0,0.2,0.1,0.4]);
+
+triangularize(A);
+
+2*row(A,1)-row(A,2)+row(A,3);
+
+Print("======================================");
+kill(all);
+print("Q 7.86 ");
+
+A:matrix([0.2,-0.2,0.1,0.4],[0.4,0,0.1,-0.2],[0.0,0.2,0.1,0.4],[0.1,0.2,0.4,0.4]);
+
+triangularize(A);
+echelon(A);
+2*row(A,1)-row(A,2)+row(A,3);
+
+Print("======================================");
+kill(all);
+print("Q 7.87 ");
+
+A:matrix([1/2,-2/3,0,3/2],[1/5,1,-1/2,-1/3],[1,2,2/3,-1/2],[9/5,-1/3,7/6,17/6]);
+
+triangularize(A);
+
+2*row(A,1)-row(A,2)+row(A,3);
+
+Print("======================================");
+kill(all);
+print("Q 7.88 ");
+
+A:matrix([-1/2,-3/2,0],[2/5,-1/2,1/2],[1,2,2/3]);
+
+triangularize(A);
+
+2*row(A,1)-3*row(A,2);
+
+Print("======================================");
+kill(all);
+print("Q 7.89 ");
+
+A:matrix([4,1,2,6],[1,2,1,4],[5,-4,1,0],[10,-1,4,10]);
+
+triangularize(A);
+
+2*row(A,1)-3*row(A,2);
+3*row(A,1)-2*row(A,2);
+
+Print("======================================");
+kill(all);
+print("example   ");
+
+eq1:2*x1-x2+x3=5;
+eq2:x1+x2+x3=2;
+eq3:x1+2*x2-x3=-3;
+eq4:x1-x2-x3=0;
+
+A:matrix([2,-1,1,5],[1,1,1,2],[1,2,-1,-3],[1,-1,-1,0]);
+
+R2:row(A,2)-1/2*row(A,1);
+R3:row(A,3)-1/2*row(A,1);
+R4:row(A,4)-1/2*row(A,1);
+
+RR3:R3-5/3*R2;
+RR4:R4+1/3*R2;
+

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  9 FEB 2018 17:32
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  10 FEB 2018 15:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3304,17 +3304,18 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 [524] [525]
 Missing character: There is no ; in font nullfont!
  [526] [527] [528] [529] [530] [531] [532] [533] [534] [535]
-Underfull \hbox (badness 10000) in paragraph at lines 2270--2271
+Underfull \hbox (badness 10000) in paragraph at lines 2269--2270
 [][]
  []
 
-[536] [537] [538] [539] [540] [541] [542] [543] [544]) [545] [374
+[536] [537] [538] [539] [540] [541] [542] [543] [544] [545] [546] [547]
+[548] [549]) [550] [374
 
 
 
-] [375]
-(./engineeringMathematics.aux (./tex/cktPreface.aux)
-(./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
+] [375] (./engineeringMathematics.aux
+(./tex/cktPreface.aux) (./tex/prefaceFirstBook.aux)
+(./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
 (./tex/mathSystemOfDifferentialEquations.aux)
@@ -3331,12 +3332,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 48157 strings out of 493918
- 1143236 string characters out of 6150562
- 1348953 words of memory out of 5000000
- 50488 multiletter control sequences out of 15000+600000
- 47061 words of font info for 182 fonts, out of 8000000 for 9000
+ 48168 strings out of 493918
+ 1143589 string characters out of 6150562
+ 1349369 words of memory out of 5000000
+ 50503 multiletter control sequences out of 15000+600000
+ 42351 words of font info for 170 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,21n,81p,10485b,2266s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (80 pages).
+Output written on engineeringMathematics.pdf (85 pages).

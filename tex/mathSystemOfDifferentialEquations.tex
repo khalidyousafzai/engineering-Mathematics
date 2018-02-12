@@ -385,10 +385,10 @@ a_{22}& -a_{12}\\
 ہے جہاں \عددی{\bM{A}} کا مقطع \عددی{\abs{\bM{A}}} درج ذیل ہے۔
 \begin{align}
 \abs{\bM{A}}=
-\begin{vmatrix}
+\begin{vmatrix*}[r]
 a_{11}&a_{12}\\
 a_{21}&a_{22}
-\end{vmatrix}=a_{11}a_{22}-a_{12}a_{21}
+\end{vmatrix*}=a_{11}a_{22}-a_{12}a_{21}
 \end{align}
 \جزوحصہء{خطی طور تابعیت}
 \عددی{r} عدد سمتیات \عددی{\bM{v}^{(1)}} تا \عددی{\bM{v}^{(r)}} جہاں ہر سمتیہ \عددی{n} ارکان پر مشتمل ہو، اس صورت \اصطلاح{خطی طور غیر تابع سلسلہ}\فرہنگ{خطی طور!غیر تابع سلسلہ}\فرہنگ{سلسلہ!خطی طور غیر تابع}\حاشیہب{linearly independent set}\فرہنگ{linearly!independent set}\فرہنگ{set!linearly independent} یا \اصطلاح{خطی طور غیر تابع} کہلاتے ہیں جب
@@ -439,10 +439,10 @@ a_{21}x_1+(a_{22}-\lambda)x_2&=0
 \begin{gather}\label{مساوات_نظام_آئگنی_ٹ}
 \begin{aligned}
 \abs{\bM{A}-\lambda \bM{I}}&=
-\begin{vmatrix}
+\begin{vmatrix*}[r]
 a_{11}-\lambda& a_{12}\\
 a_{21}& a_{22}-\lambda
-\end{vmatrix}\\
+\end{vmatrix*}\\
 &=(a_{12}-\lambda)(a_{22}-\lambda)-a_{12}a_{21}\\
 &=\lambda^2-(a_{11}+a_{22})\lambda+a_{11}a_{22}-a_{12}a_{21}=0
 \end{aligned}
@@ -461,10 +461,10 @@ a_{21}& a_{22}-\lambda
 \end{align*}
 حل:امتیازی مساوات
 \begin{align*}
-\begin{vmatrix}
+\begin{vmatrix*}[r]
 -3-\lambda&3\\
 -0.8&0.4-\lambda
-\end{vmatrix}=\lambda^2+2.6\lambda+1.2=0
+\end{vmatrix*}=\lambda^2+2.6\lambda+1.2=0
 \end{align*}
 سے \عددی{\bM{A}} کے آئگنی قدر \عددی{\lambda_1=-0.6} اور \عددی{\lambda_2=-2} ملتے ہیں۔آئگنی قیمت \عددی{\lambda=\lambda_1=-0.6} کو مساوات \حوالہ{مساوات_نظام_آئگنی_ت} میں پر کرتے ہیں۔
 \begin{gather*}
@@ -586,10 +586,10 @@ y_2
 ہمیں اس مساوات کے غیر صفر اہم حل درکار ہیں لہٰذا ہمیں \عددی{\bM{A}} کے آئگنی قدر اور آئگنی سمتیات حاصل کرنے ہوں گے۔آئگنی قدر امتیازی مساوات
 \begin{align*}
 \abs{\bM{A}-\lambda \bM{I}}=
-\begin{vmatrix}
+\begin{vmatrix*}[r]
 -0.02-\lambda& 0.02\\
 0.02& -0.02-\lambda
-\end{vmatrix}=
+\end{vmatrix*}=
 (-0.02-\lambda)-0.02^2=\lambda(\lambda+0.04)=0
 \end{align*}
 کے حل \عددی{\lambda_1=0} اور \عددی{\lambda_2=-0.04} ہوں گے۔(یہاں دھیان رہے کہ ہمیں غیر صفر آئگنی سمتیات درکار ہیں۔آئگنی قدر صفر ہو سکتے ہیں۔) آئگنی سمتیات مساوات \حوالہ{مساوات_نظام_آئگنی_ت} کے پہلے یا دوسرے مساوات سے حاصل ہوں گے۔مساوات \حوالہ{مساوات_نظام_آئگنی_ت} کی  پہلے مساوات کو استعمال کرتے ہوئے \عددی{\lambda_1=0} اور \عددی{\lambda_2=-0.04} کے لئے
@@ -693,7 +693,7 @@ I_2'=-\frac{36}{11}I_1+\frac{67}{22}I_2+\frac{72}{11}
 \end{align*}
 غیر صفر اہم حل کے حصول کے لئے \عددی{\bM{A}} کا آئگنی قدر اور آئگنی سمتیات درکار ہوں گے۔آئگنی قدر امتیازی مساوات
 \begin{align*}
-\abs{\bM{A}-\lambda \bM{I}}=\begin{vmatrix} -6-\lambda& 6 \\-\frac{36}{11}&\frac{67}{22}-\lambda \end{vmatrix}=\lambda^2+\frac{65}{22}\lambda-\frac{15}{11}=0
+\abs{\bM{A}-\lambda \bM{I}}=\begin{vmatrix*}[r] -6-\lambda& 6 \\-\frac{36}{11}&\frac{67}{22}-\lambda \end{vmatrix*}=\lambda^2+\frac{65}{22}\lambda-\frac{15}{11}=0
 \end{align*}
 سے \عددی{\lambda_1=-2.38209} اور \عددی{\lambda_2=-0.57245} حاصل ہوتے ہیں۔ان آئگنی قدر کی نظیری آئگنی سمتیات مساوات \حوالہ{مساوات_نظام_آئگنی_ت} سے حاصل ہوں گے۔مساوات \حوالہ{مساوات_نظام_آئگنی_ت} کے پہلے مساوات میں  \عددی{\lambda_1} پر کرتے ہوئے 
 \begin{align*}
@@ -816,7 +816,7 @@ y_2'&=-\frac{k}{m}y_1-\frac{c}{m}y_2
 \end{align}
 جس سے امتیازی مساوات لکھتے ہیں۔
 \begin{align*}
-\abs{\bM{A}-\lambda \bM{I}}=\begin{vmatrix} -\lambda & 1\\ -\frac{k}{m}& -\frac{c}{m}-\lambda \end{vmatrix}=\lambda^2+\frac{c}{m}\lambda+\frac{k}{m}=0
+\abs{\bM{A}-\lambda \bM{I}}=\begin{vmatrix*}[r] -\lambda & 1\\ -\frac{k}{m}& -\frac{c}{m}-\lambda \end{vmatrix*}=\lambda^2+\frac{c}{m}\lambda+\frac{k}{m}=0
 \end{align*}
 با مثلاً \عددی{m=1}، \عددی{c=1.4} اور \عددی{k=0.24} ہوں تب 
 \begin{align*}
@@ -1116,12 +1116,12 @@ g_n
 \عددی{\bM{Y}} کے  مقطع کو \عددی{\bM{y}^{(1)}} تا \عددی{\bM{y}^{(n)}} کا \اصطلاح{ورونسکی} کہتے ہیں۔
 \begin{align}\label{مساوات_نظام_ورونسکی_پ}
 W(\bM{y}^{(1)},\cdots,\bM{y}^{(n)})=
-\begin{vmatrix}
+\begin{vmatrix*}[r]
 y_1^{(1)}& y_1^{(2)} &\cdots&y_1^{(n)}\\[1ex]
 y_2^{(1)}& y_2^{(2)} &\cdots&y_2^{(n)}\\
 & \vdots & &\\
 y_n^{(1)}& y_n^{(2)} &\cdots&y_n^{(n)}
-\end{vmatrix}
+\end{vmatrix*}
 \end{align}
 درج بالا \اصطلاح{ورونسکی} میں قطار  \عددی{\bM{y}^{(1)}} تا \عددی{\bM{y}^{(n)}} حل کی اساس ہیں جنہیں اجزاء کی صورت میں لکھا گیا ہے۔یہ حل صرف اور صرف اس صورت حل کی اساس ہوں گے جب ان کا ورونسکی کھلے وقفہ \عددی{J} پر کسی بھی نقطہ \عددی{t_1} پر صفر کے برابر نہ ہو۔کھلے وقفے پر \عددی{W} یا تو کہیں بھی صفر کے برابر نہیں ہو گا اور یا یہ کھلے وقفے پر \ترچھا{مکمل صفر} کے برابر ہو گا۔(یہ بالکل مسئلہ \حوالہ{مسئلہ_سادہ_دو_حل_تابع_غیر_تابع} اور مسئلہ \حوالہ{مسئلہ_سادہ_بلند_حل_تابع_غیر_تابع} کی طرح ہے۔)
 
@@ -1132,18 +1132,18 @@ y_n^{(1)}& y_n^{(2)} &\cdots&y_n^{(n)}
 آئیں مساوات \حوالہ{مساوات_نظام_ورونسکی_پ} کا حصہ \حوالہ{حصہ_سادہ_دو_وجودیت_یکتائی_ورونسکی} کے ساتھ تعلق جوڑیں۔فرض کریں کہ متجانس دو درجی سادہ تفرقی مساوات کے حل \عددی{y} اور \عددی{z} ہیں۔یوں ورونسکی
 \begin{align*}
 W(y,z)=
-\begin{vmatrix}
+\begin{vmatrix*}[r]
 y&z\\
 y'&z'
-\end{vmatrix}
+\end{vmatrix*}
 \end{align*}
 ہو گا۔اس سادہ دو درجی مساوات کو تفرقی مساوات کی نظام کی صورت میں لکھنے کی خاطر، حصہ \حوالہ{حصہ_نظام_قالب} کے تحت، \عددی{y=y_1}، \عددی{y'=y_1'=y_2}، \عددی{z=z_1} اور \عددی{z'=z_1'=z_2} لکھنا ہو گا۔ایسا کرتے ہوئے \اصطلاح{ورونسکی} درج ذیل صورت اختیار کرتا ہے
 \begin{align*}
 W(y_1,z_1)=
-\begin{vmatrix}
+\begin{vmatrix*}[r]
 y_1&z_1\\
 y_2&z_2
-\end{vmatrix}
+\end{vmatrix*}
 \end{align*}
 جو، علامتوں میں فرق کے علاوہ، ہو بہو مساوات \حوالہ{مساوات_نظام_ورونسکی_پ} ہے۔
 %========================
@@ -1173,19 +1173,19 @@ y_2&z_2
 \begin{gather}\label{مساوات_نظام_مستقل_عددی_سر_نظام_ٹ}
 \begin{aligned}
 W(\bM{y}^{(1)},\cdots,\bM{y}^{(n)})&=
-\begin{vmatrix}
+\begin{vmatrix*}[r]
 x_1^{(1)} e^{\lambda_1 t}& x_1^{(2)} e^{\lambda_ t} &\cdots&x_1^{(n)} e^{\lambda_n t}\\[1ex]
 x_2^{(1)} e^{\lambda_1 t}& x_2^{(2)} e^{\lambda_2 t} &\cdots&x_2^{(n)} e^{\lambda_n t}\\
 & \vdots & &\\
 x_n^{(1)} e^{\lambda_1 t}& x_n^{(2)}  e^{\lambda_2 t}&\cdots&x_n^{(n)} e^{\lambda_n t}
-\end{vmatrix}\\[2ex]
+\end{vmatrix*}\\[2ex]
 =&e^{\lambda_1t+ \cdots+\lambda_n t}
-\begin{vmatrix}
+\begin{vmatrix*}[r]
 x_1^{(1)}& x_1^{(2)} &\cdots&x_1^{(n)} \\[1ex]
 x_2^{(1)} & x_2^{(2)}  &\cdots&x_2^{(n)} \\
 & \vdots & &\\
 x_n^{(1)} & x_n^{(2)} &\cdots&x_n^{(n)} 
-\end{vmatrix}
+\end{vmatrix*}
 \end{aligned}
 \end{gather}
 اب نا قوت نمائی تفاعل کبھی بھی صفر نہیں ہوتا اور درج بالا مساوات میں آخری مقطع کے قطار، خطی طور غیر تابع آئگنی سمتیات ہیں، لہٰذا یہ مقطع بھی غیر صفر ہے۔اس سے درج ذیل مسئلہ ثابت ہوتا ہے۔
@@ -1236,10 +1236,10 @@ y_2'&=y_1-2y_2
 \end{gather}
 حل:\عددی{\bM{y}=\bM{x}e^{\lambda t}} اور \عددی{\bM{y}'=\lambda \bM{x}e^{\lambda t}} پر کر کے قوت نمائی تفاعل سے تقسیم کرتے ہوئے \عددی{\bM{A}\bM{x}=\lambda\bM{x}} ملتا ہے۔امتیازی مساوات
 \begin{align*}
-\begin{vmatrix}
+\begin{vmatrix*}[r]
 -2-\lambda& 1\\
 1& -2-\lambda
-\end{vmatrix}=\lambda^2+4\lambda+3=(\lambda+1)(\lambda+3)=0
+\end{vmatrix*}=\lambda^2+4\lambda+3=(\lambda+1)(\lambda+3)=0
 \end{align*}
 ہے۔یوں آئگنی قدر \عددی{\lambda_1=-1} اور \عددی{\lambda_2=-3} حاصل ہوتے ہیں۔آئگنی سمتیات  \عددی{(\bM{A}-\lambda\bM{I})\bM{x}=0} کے پہلے صف \عددی{(-2-\lambda)x_1+x_2=0} سے حاصل کرتے ہیں جس میں \عددی{\lambda=\lambda_1=-1} پر کرتے ہوئے \عددی{x_2=x_1} ملتا ہے۔یوں \عددی{x_1} چنتے ہوئے \عددی{x_2=1} حاصل ہو گا جس سے آئگنی سمتیہ \عددی{\bM{x}^{(1)}=[1\quad 1]^T} حاصل ہوتا ہے۔اسی طرح \عددی{\lambda=\lambda_2=-3} پر کرتے ہوئے \عددی{x_2=-x_1} ملتا ہے لہٰذا \عددی{x_1=1} چنتے ہوئے \عددی{x_2=-1} حاصل ہو گا اور یوں \عددی{\bM{x}^{(2)}=[1\quad -1]^T} ہو گا۔ان سے عمومی حل لکھتے ہیں جس کے مختلف خط حرکت (یعنی پیکر حرکت) شکل \حوالہ{شکل_مثال_نظام_خط_حرکت_غیر_مناسب}-الف میں دکھائے گئے ہیں۔
 \begin{align*}
@@ -1633,7 +1633,7 @@ rr'=-r^2,\implies  \frac{\dif r}{r}=-\dif t , \implies r=ce^{-t}
 \end{align}
 حل:\عددی{\bM{A}} منحرف تشاکلی نہیں ہے۔ہم اس کا حل \عددی{\bM{y}=\bM{x}e^{\lambda t}} تصور کرتے ہوئے آگے بڑھتے ہیں۔یوں \عددی{\bM{y}} اور \عددی{\bM{y}'} کو درج بالا میں پر کر کے \عددی{e^{\lambda}} سے تقسیم کرتے ہوئے \عددی{(\bM{A}-\lambda\bM{I})\bM{x}=0} ملتا ہے۔ اس کی امتیازی مساوات
 \begin{align*}
-\abs{\bM{A}-\lambda \bM{I}}=\begin{vmatrix} 4-\lambda& 1\\-1&2-\lambda \end{vmatrix}=\lambda^2-6\lambda+9=(\lambda-3)^2=0
+\abs{\bM{A}-\lambda \bM{I}}=\begin{vmatrix*}[r] 4-\lambda& 1\\-1&2-\lambda \end{vmatrix*}=\lambda^2-6\lambda+9=(\lambda-3)^2=0
 \end{align*}
 سے دوہرا آئگنی قدر \عددی{\lambda=3} حاصل ہوتا ہے۔مساوات \عددی{(\bM{A}-\lambda\bM{I})\bM{x}=\bM{0}} کے پہلے صف میں \عددی{\lambda=3} پر کرتے ہوئے
 \begin{align*}
@@ -2022,7 +2022,7 @@ y_2'&=a_{21}y_1'+a_{22}y_2
 
 موجودہ حصے میں ہم دیکھیں گے کہ  نقطہ فاصل کی قسم  کا تعلق آئگنی قدر سے ہے جو امتیازی مساوات
 \begin{align}\label{مساوات_نظام_جانچ_نقطہ_فاصل_ت}
-\abs{\bM{A}-\lambda \bM{I}}=\begin{vmatrix} a_{11}-\lambda & a_{12} \\a_{21}&a_{22}-\lambda\end{vmatrix}=\lambda^2-(a_{11}+a_{22})\lambda+a_{11}a_{22}-a_{12}a_{21}=0
+\abs{\bM{A}-\lambda \bM{I}}=\begin{vmatrix*}[r] a_{11}-\lambda & a_{12} \\a_{21}&a_{22}-\lambda\end{vmatrix*}=\lambda^2-(a_{11}+a_{22})\lambda+a_{11}a_{22}-a_{12}a_{21}=0
 \end{align}
 کے حل \عددی{\lambda_1} اور \عددی{\lambda_2} ہیں۔امتیازی مساوات دو درجی مساوات \عددی{\lambda^2-p\lambda+q=0} ہے جس کے عددی سر \عددی{p}،  \عددی{q} اور \اصطلاح{جدا کنندہ}\فرہنگ{جدا کنندہ}\حاشیہب{discriminant}\فرہنگ{discriminant} \عددی{\Delta} درج ذیل ہیں۔
 \begin{align}\label{مساوات_نظام_جانچ_نقطہ_فاصل_ٹ}

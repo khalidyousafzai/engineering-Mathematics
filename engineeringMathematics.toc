@@ -64,6 +64,6 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 7}}مقطع۔ قاعدہ کریمر}{\RL {\arabicfont 550}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 377}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 381}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 381}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 561}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 565}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 565}}

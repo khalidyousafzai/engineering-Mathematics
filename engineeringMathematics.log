@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  12 FEB 2018 16:22
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  13 FEB 2018 14:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3310,12 +3310,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2269--2270
 
 [536] [537] [538] [539] [540] [541] [542] [543] [544] [545] [546] [547]
 [548] [549] [550] [551] [552]
-Underfull \hbox (badness 10000) in paragraph at lines 3058--3059
+Underfull \hbox (badness 10000) in paragraph at lines 3060--3061
 [][]
  []
 
 [553]
-Underfull \hbox (badness 10000) in paragraph at lines 3071--3072
+Underfull \hbox (badness 10000) in paragraph at lines 3073--3074
 [][]
  []
 
@@ -3323,17 +3323,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 3071--3072
 Underfull \vbox (badness 1092) has occurred while \output is active []
 
  [555]
-Underfull \hbox (badness 10000) in paragraph at lines 3137--3138
+Underfull \hbox (badness 10000) in paragraph at lines 3139--3140
 [][]
  []
 
-[556] [557] [558] [559]) [560] [558
+[556] [557] [558] [559] [560] [561] [562] [563] [564] [565] [566]) [567]
+[558
 
 
 
-] [559] (./engineeringMathematics.aux
-(./tex/cktPreface.aux) (./tex/prefaceFirstBook.aux)
-(./tex/mathFirstOrderDifferentialEquations.aux)
+] [559] (./engineeringMathematics.aux (./tex/cktPreface.aux)
+(./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
 (./tex/mathSystemOfDifferentialEquations.aux)
@@ -3350,12 +3350,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 48192 strings out of 493918
- 1144150 string characters out of 6150562
- 1349595 words of memory out of 5000000
- 50527 multiletter control sequences out of 15000+600000
+ 48212 strings out of 493918
+ 1144621 string characters out of 6150562
+ 1349944 words of memory out of 5000000
+ 50547 multiletter control sequences out of 15000+600000
  42351 words of font info for 170 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,21n,81p,10485b,2266s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (95 pages).
+Output written on engineeringMathematics.pdf (102 pages).

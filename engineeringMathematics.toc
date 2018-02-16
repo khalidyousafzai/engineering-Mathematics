@@ -57,12 +57,12 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 7}}قالبی ضرب}{\RL {\arabicfont 488}}
 \contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 2}.\RL {\arabicfont 7}}تبدیلی محل}{\RL {\arabicfont 495}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 7}}خطی مساوات کے نظام۔ گاوسی اسقاط}{\RL {\arabicfont 508}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}.\RL {\arabicfont 7}}صف زینہ دار صورت}{\RL {\arabicfont 520}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 7}}خطی غیر تابعیت۔ درجہ قالب۔ سمتی فضا}{\RL {\arabicfont 528}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 7}}خطی نظام کے حل: وجودیت، یکتائی}{\RL {\arabicfont 542}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 7}}دو درجی اور تین درجی مقطع قالب}{\RL {\arabicfont 547}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 7}}مقطع۔ قاعدہ کریمر}{\RL {\arabicfont 550}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 7}}معکوس قالب۔ گاوس جارڈن اسقاط}{\RL {\arabicfont 567}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}.\RL {\arabicfont 7}}صف زینہ دار صورت}{\RL {\arabicfont 521}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 7}}خطی غیر تابعیت۔ درجہ قالب۔ سمتی فضا}{\RL {\arabicfont 529}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 7}}خطی نظام کے حل: وجودیت، یکتائی}{\RL {\arabicfont 543}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 7}}دو درجی اور تین درجی مقطع قالب}{\RL {\arabicfont 548}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 7}}مقطع۔ قاعدہ کریمر}{\RL {\arabicfont 551}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 7}}معکوس قالب۔ گاوس جارڈن اسقاط}{\RL {\arabicfont 568}}
 \select@language {english}
 \select@language {arabic}
 \contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 561}}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  15 FEB 2018 17:05
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  16 FEB 2018 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3285,51 +3285,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 1419--1419
  []
 
 [510] [511] [512] [513] [514] [515] [516] [517] [518] [519] [520] [521]
-[522] [523]
-Overfull \hbox (6.33846pt too wide) in paragraph at lines 1963--1965
+[522] [523] [524]
+Overfull \hbox (6.33846pt too wide) in paragraph at lines 1943--1945
  [][][][] 
  []
 
 
-Overfull \hbox (6.1057pt too wide) in paragraph at lines 1998--2000
+Overfull \hbox (6.1057pt too wide) in paragraph at lines 1978--1980
  [][][][] 
  []
 
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 2006.
-[524] [525]
+(Font)              scaled to size 7.0pt on input line 1986.
+[525] [526]
 Missing character: There is no ; in font nullfont!
- [526] [527] [528] [529] [530] [531] [532] [533] [534] [535]
-Underfull \hbox (badness 10000) in paragraph at lines 2269--2270
+ [527] [528] [529] [530] [531] [532] [533] [534] [535] [536]
+Underfull \hbox (badness 10000) in paragraph at lines 2249--2250
 [][]
  []
 
-[536] [537] [538] [539] [540] [541] [542] [543] [544] [545] [546] [547]
-[548] [549] [550] [551] [552]
-Underfull \hbox (badness 10000) in paragraph at lines 3060--3061
-[][]
- []
-
-[553]
-Underfull \hbox (badness 10000) in paragraph at lines 3073--3074
+[537] [538] [539] [540] [541] [542] [543] [544] [545] [546] [547] [548]
+[549] [550] [551] [552] [553]
+Underfull \hbox (badness 10000) in paragraph at lines 3040--3041
 [][]
  []
 
 [554]
-Underfull \vbox (badness 1092) has occurred while \output is active []
-
- [555]
-Underfull \hbox (badness 10000) in paragraph at lines 3139--3140
+Underfull \hbox (badness 10000) in paragraph at lines 3053--3054
 [][]
  []
 
-[556] [557] [558] [559] [560] [561] [562] [563] [564] [565] [566] [567]
-[568]) [569] [558
+[555]
+Underfull \vbox (badness 1082) has occurred while \output is active []
+
+ [556]
+Underfull \hbox (badness 10000) in paragraph at lines 3119--3120
+[][]
+ []
+
+[557] [558] [559] [560] [561] [562] [563] [564] [565] [566] [567] [568]
+[569] [570] [571] [572]) [573] [558
 
 
 
-] [559] (./engineeringMathematics.aux (./tex/cktPreface.aux)
-(./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
+] [559] (./engineeringMathematics.aux
+(./tex/cktPreface.aux) (./tex/prefaceFirstBook.aux)
+(./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
 (./tex/mathSystemOfDifferentialEquations.aux)
@@ -3346,12 +3347,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 48215 strings out of 493918
- 1144689 string characters out of 6150562
- 1350024 words of memory out of 5000000
- 50550 multiletter control sequences out of 15000+600000
+ 48223 strings out of 493918
+ 1144847 string characters out of 6150562
+ 1348080 words of memory out of 5000000
+ 50558 multiletter control sequences out of 15000+600000
  42351 words of font info for 170 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,21n,81p,10485b,2266s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (104 pages).
+Output written on engineeringMathematics.pdf (108 pages).

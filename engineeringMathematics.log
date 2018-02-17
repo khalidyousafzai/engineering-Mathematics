@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  16 FEB 2018 15:07
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  17 FEB 2018 16:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3324,7 +3324,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 3119--3120
  []
 
 [557] [558] [559] [560] [561] [562] [563] [564] [565] [566] [567] [568]
-[569] [570] [571] [572]) [573] [558
+[569] [570] [571] [572] [573] [574] [575] [576] [577]
+Overfull \hbox (0.941pt too wide) in paragraph at lines 3964--3973
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 (ب) فرض کریں کہ $\OML/zplm/m/it/10 n \O
+T1/zplm/m/n/10 = \OML/cmm/b/it/10 A []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ہے 
+لہٰذا  $\OML/cmm/b/it/10 A[]$  \EU1/JameelNooriNastaleeq(1)/m/n/10 موجود ہے۔یوں
+  $\OML/cmm/b/it/10 AB \OT1/zplm/m/n/10 = \OT1/cmr/bx/n/10 0$  \EU1/JameelNoori
+Nastaleeq(1)/m/n/10 سے مراد  $\OML/cmm/b/it/10 A[]AB \OT1/zplm/m/n/10 =$[]
+ []
+
+[578] [579]) [580] [558
 
 
 
@@ -3347,12 +3356,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 48223 strings out of 493918
- 1144847 string characters out of 6150562
- 1348080 words of memory out of 5000000
- 50558 multiletter control sequences out of 15000+600000
+ 48232 strings out of 493918
+ 1145098 string characters out of 6150562
+ 1348305 words of memory out of 5000000
+ 50567 multiletter control sequences out of 15000+600000
  42351 words of font info for 170 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,21n,81p,10485b,2266s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (108 pages).
+Output written on engineeringMathematics.pdf (115 pages).

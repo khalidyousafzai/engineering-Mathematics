@@ -25,7 +25,7 @@
 \definecolor{lgray}{cmyk}{0,0,0,0.2}
 \definecolor{dgray}{cmyk}{0,0,0,0.7}
 %========================
-%\usepackage[hidelinks]{hyperref}  used in machines book but not here
+\usepackage[hidelinks]{hyperref}  %used in machines book but not here
 \usepackage{./tex/khalidUrduBooksMaths}                     %my sty file
 \usepackage{amsmath}
 \usepackage{amsbsy} %for bold Poynting, lessgtr symbol

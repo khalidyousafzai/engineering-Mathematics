@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  18 FEB 2018 16:31
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  19 FEB 2018 13:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3338,13 +3338,13 @@ Overfull \hbox (0.21277pt too wide) in paragraph at lines 4251--4251
 [][] []
  []
 
-[587] [588]) [589] [558
+[587] [588] [589] [590] [591] [592] [593]) [594] [558
 
 
 
-] [559] (./engineeringMathematics.aux
-(./tex/cktPreface.aux) (./tex/prefaceFirstBook.aux)
-(./tex/mathFirstOrderDifferentialEquations.aux)
+] [559]
+(./engineeringMathematics.aux (./tex/cktPreface.aux)
+(./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
 (./tex/mathSystemOfDifferentialEquations.aux)
@@ -3361,12 +3361,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 48248 strings out of 493918
- 1145306 string characters out of 6150562
- 1348741 words of memory out of 5000000
- 50583 multiletter control sequences out of 15000+600000
+ 48279 strings out of 493918
+ 1145860 string characters out of 6150562
+ 1348635 words of memory out of 5000000
+ 50614 multiletter control sequences out of 15000+600000
  42351 words of font info for 170 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,21n,81p,10485b,2266s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (124 pages).
+Output written on engineeringMathematics.pdf (129 pages).

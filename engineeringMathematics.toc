@@ -64,6 +64,9 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 7}}مقطع۔ قاعدہ کریمر}{\RL {\arabicfont 551}}
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 7}}معکوس قالب۔ گاوس جارڈن اسقاط}{\RL {\arabicfont 568}}
 \contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 7}}سمتی فضا، اندرونی ضرب، خطی تبادلہ}{\RL {\arabicfont 583}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 8}}سمتیات عارضی باب}{\RL {\arabicfont 601}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 8}}غیر سمتیات اور سمتیات}{\RL {\arabicfont 601}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 8}}سمتیہ کے اجزاء}{\RL {\arabicfont 603}}
 \select@language {english}
 \select@language {arabic}
 \contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 561}}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  20 FEB 2018 18:06
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  21 FEB 2018 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3182,6 +3182,7 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 [601]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 28.
+ [602]
 LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 56.
 
@@ -3191,7 +3192,36 @@ Underfull \hbox (badness 3209) in paragraph at lines 56--56
 ل کرنا ممکن نہیں ہوتا ہے۔آپ میکانیات سے جانتے ہیں کہ کسی[]
  []
 
-[602]) [603] [558
+[603] [604] [605] [606] [607]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [608]
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
+[][]|\EU1/JameelNooriNastaleeq(0)/m/n/9 (ب) سمتیات کے مطابقتی اجزاء کو جمع کرتے
+ ہوئے حاصل جمع سمتیہ کے اجزاء حاصل[]
+ []
+
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 9.5pt on input line 428.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 7.5pt on input line 428.
+[609]) [610] [558
 
 
 
@@ -3210,12 +3240,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46617 strings out of 493918
- 1103923 string characters out of 6150562
- 1268549 words of memory out of 5000000
- 48951 multiletter control sequences out of 15000+600000
- 33127 words of font info for 138 fonts, out of 8000000 for 9000
+ 46887 strings out of 493918
+ 1108914 string characters out of 6150562
+ 1272892 words of memory out of 5000000
+ 49219 multiletter control sequences out of 15000+600000
+ 33143 words of font info for 140 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,11n,81p,10485b,958s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,16n,81p,10485b,987s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (14 pages).
+Output written on engineeringMathematics.pdf (21 pages).

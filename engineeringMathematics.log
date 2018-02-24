@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.10.16)  21 FEB 2018 17:22
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  24 FEB 2018 16:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3221,11 +3221,15 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 9.5pt on input line 428.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 7.5pt on input line 428.
-[609]) [610] [558
+[609]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
+(Font)              scaled to size 12.0pt on input line 431.
+ [610] [611] [612] [613] [614] [615]) [616] [558
 
 
 
-] [559] (./engineeringMathematics.aux (./tex/cktPreface.aux)
+] [559]
+(./engineeringMathematics.aux (./tex/cktPreface.aux)
 (./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
@@ -3236,16 +3240,20 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (./tex/mathAppendixAdditionalProofs.aux)
 (./tex/mathAppendixAuxiliaryMaterial.aux))
 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.43996pt have occurred.
+
+
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46887 strings out of 493918
- 1108914 string characters out of 6150562
- 1272892 words of memory out of 5000000
- 49219 multiletter control sequences out of 15000+600000
- 33143 words of font info for 140 fonts, out of 8000000 for 9000
+ 47010 strings out of 493918
+ 1111216 string characters out of 6150563
+ 1273200 words of memory out of 5000000
+ 49342 multiletter control sequences out of 15000+600000
+ 37739 words of font info for 154 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,16n,81p,10485b,987s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,81p,10485b,1013s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (21 pages).
+Output written on engineeringMathematics.pdf (27 pages).

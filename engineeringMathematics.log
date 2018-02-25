@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  24 FEB 2018 16:33
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  25 FEB 2018 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3212,25 +3212,26 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
  [608]
-Underfull \hbox (badness 10000) in paragraph at lines 409--409
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
 [][]|\EU1/JameelNooriNastaleeq(0)/m/n/9 (ب) سمتیات کے مطابقتی اجزاء کو جمع کرتے
  ہوئے حاصل جمع سمتیہ کے اجزاء حاصل[]
  []
 
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 428.
+(Font)              scaled to size 9.5pt on input line 432.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 428.
+(Font)              scaled to size 7.5pt on input line 432.
 [609]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 431.
- [610] [611] [612] [613] [614] [615]) [616] [558
+(Font)              scaled to size 12.0pt on input line 435.
+ [610] [611] [612] [613] [614] [615] [616] [617] [618] [619] [620]
+[621] [622] [623]) [624] [558
 
 
 
-] [559]
-(./engineeringMathematics.aux (./tex/cktPreface.aux)
-(./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
+] [559] (./engineeringMathematics.aux
+(./tex/cktPreface.aux) (./tex/prefaceFirstBook.aux)
+(./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
 (./tex/mathSystemOfDifferentialEquations.aux)
@@ -3248,12 +3249,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 47010 strings out of 493918
- 1111216 string characters out of 6150563
- 1273200 words of memory out of 5000000
- 49342 multiletter control sequences out of 15000+600000
+ 47133 strings out of 493918
+ 1113815 string characters out of 6150563
+ 1273763 words of memory out of 5000000
+ 49465 multiletter control sequences out of 15000+600000
  37739 words of font info for 154 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,19n,81p,10485b,1013s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,22n,81p,10485b,1013s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (27 pages).
+Output written on engineeringMathematics.pdf (35 pages).

@@ -536,6 +536,10 @@ c(k\bM{a})&=(ck)\bM{a}\quad \quad \text{\RL{جس کو \عددی{ck\bM{a}} لکھ
 \end{figure}
 شکل \حوالہ{شکل_الجبرا_اکائی_سمتیات}-الف میں اکائی سمتیات \عددی{\bM{i}}، \عددی{\bM{j}} اور \عددی{\bM{k}} کو دکھایا گیا ہے جہاں ان   کی دم کو کارتیسی نظام کے مرکز پر رکھا گیا ہے۔یہ اکائی سمتیات آپس میں \ترچھا{عمودی} یا \اصطلاح{قائمہ}\فرہنگ{قائمہ}\حاشیہب{orthogonal}\فرہنگ{orthogonal} ہیں۔ہم کہتے ہیں کہ \عددی{\bM{i}}، \عددی{\bM{j}} اور \عددی{\bM{k}} اس نظام محدد کی \ترچھا{ثلاثہ اکائی قائمہ سمتیات}\فرہنگ{ثلاثہ قائمہ سمتیات}  ہیں۔
 
+کسی بھی سمتیہ کو اس کی لمبائی سے تقسیم کرتے ہوئے اسی سمت میں اکائی سمتیہ حاصل ہو گا۔یوں \عددی{\bM{a}} کی سمت میں اکائی سمتیہ درج ذیل ہو گا۔
+\begin{align}\label{مساوات_الجبرا_اکائی_سمتیہ_حصول}
+\text{\RL{اکائی سمتیہ}}=\frac{\bM{a}}{\abs{\bM{a}}}
+\end{align}
 %================
 \ابتدا{مثال}
 کسی کارتیسی نظام میں اگر \عددی{\bM{a}=3\bM{i}-2\bM{k}} اور \عددی{\bM{b}=-5\bM{i}+4\bM{j}+2\bM{k}} ہوں، تب درج ذیل ہوں گے۔
@@ -547,6 +551,19 @@ c(k\bM{a})&=(ck)\bM{a}\quad \quad \text{\RL{جس کو \عددی{ck\bM{a}} لکھ
 \ابتدا{مثال}
 کسی سمتیہ{\bM{a}} کی دم \عددی{A} پر ہے جبکہ اس کا سر \عددی{B} پر ہے۔اسی سمت میں کسی بھی  سمتیہ  کو \عددی{l\bM{a}} لکھا جا سکتا ہے جہاں \عددی{l} غیر سمتی مستقل ہے۔اب اگر \عددی{l\bM{a}} سمتیہ کی دم  \عددی{A} پر ہو تب  \عددی{l=0} کی صورت میں اس سمتیہ کا سر نقطہ \عددی{A} پر ہو گا جبکہ \عددی{l=1} کی صورت میں اس کا سر نقطہ \عددی{B} پر ہو گا۔اسی طرح \عددی{l=\tfrac{1}{2}} کی صورت میں اس سمتیہ کا سر \عددی{\bM{a}} کے عین وسط پر ہو گا۔
 
+\انتہا{مثال}
+%==============================
+\ابتدا{مثال}\quad اکائی سمتیہ\\
+سمتیہ \عددی{\bM{a}=2\bM{i}-5\bM{j}+3\bM{k}} کی سمت میں اکائی سمتیہ دریافت کریں۔اسی سمت میں ایسا سمتیہ حاصل کریں جس کی لمبائی \عددی{7} ہو۔
+
+حل:\عددی{\bM{a}} کی لمبائی \عددی{\abs{\bM{a}}=\sqrt{4+25+9}=\sqrt{38}} ہے۔یوں مساوات \حوالہ{مساوات_الجبرا_اکائی_سمتیہ_حصول} کے تحت \عددی{\bM{a}} کی سمت میں اکائی سمتیہ
+\begin{align*}
+\frac{\bM{a}}{\abs{\bM{a}}}=\frac{2\bM{i}-5\bM{j}+3\bM{k}}{\sqrt{38}}
+\end{align*}
+ہو گا۔کسی بھی اکائی سمتیہ کو غیر سمتی \عددی{l} سے ضرب دینے سے اس اکائی سمتیہ کی سمت میں \عددی{l} لمبائی کا سمتیہ حاصل ہوتا ہے لہٰذا درکار سمتیہ درج ذیل ہو گا۔
+\begin{align*}
+7\frac{\bM{a}}{\abs{\bM{a}}}=\frac{14\bM{i}-35\bM{j}+21\bM{k}}{\sqrt{38}}=2.27\bM{i}-6.68\bM{j}+3.41\bM{k}
+\end{align*}
 \انتہا{مثال}
 %=======================
 \ابتدا{مثال}\شناخت{مثال_الجبرا_سمتیات_کا_استعمال}
@@ -741,6 +758,26 @@ l_1(\bM{a}+\bM{b}+\bM{c})=\bM{a}+l_2(-\bM{a}+\bM{b}+\bM{c})
 \ابتدا{سوال}
 ثابت کریں کہ متوازی الاضلاع کے ایک کونے سے سامنے والی طرف کی وسط تک لکیر، وتر کو \عددی{1:2} تناسب میں تقسیم کرتی ہے۔
 \انتہا{سوال}
+%=============================
+سوال \حوالہ{سوال_الجبرا_اکائی_سمتیہ_حصول_الف} تا سوال \حوالہ{سوال_الجبرا_اکائی_سمتیہ_حصول_ب} میں \عددی{\bM{a}} کی سمت میں اکائی سمتیہ حاصل کریں۔اس اکائی سمتیہ کی سمت میں \عددی{l} لمبائی کا سمتیہ حاصل کریں۔ظاہر ہے کہ اکائی سمتیہ کو \عددی{-1} سے ضرب دے کر الٹ سمت میں اکائی سمتیہ حاصل ہو گا۔ 
+
+%================
+\ابتدا{سوال}\شناخت{سوال_الجبرا_اکائی_سمتیہ_حصول_الف}\quad  
+$\bM{a}=4\bM{j},\,\,  l=5$\\
+جوابات:\عددی{\bM{j}}، \عددی{5\bM{j}}
+\انتہا{سوال}
+%==============================
+\ابتدا{سوال}\quad  
+$\bM{a}=-2\bM{i}+\bM{j}+3\bM{k},\,\, l=2$\\
+جوابات:
+$-3.74\bM{i}+1.87\bM{j}+5.61\bM{k},\,\,-0.535\bM{i}+0.267\bM{j}+0.802\bM{k}$
+\انتہا{سوال}
+%==============================
+\ابتدا{سوال}\شناخت{سوال_الجبرا_اکائی_سمتیہ_حصول_ب}\quad  
+$\bM{a}=\bM{b}+2\bM{c},\,\,\bM{b}=3\bM{i}+2\bM{k},\, \bM{c}=2\bM{i}-\bM{j}-\bM{k},\,\,  l=10$\\
+جوابات:
+$9.61\bM{i}-2.74\bM{j},\,\,0.96\bM{i}-0.27\bM{j}$
+\انتہا{سوال}
 %==============================
 
 \حصہ{سمتی فضا۔خطی تابعیت اور غیر تابعیت}\شناخت{حصہ_الجبرا_سمتیات_فضا_تابعیت}
@@ -919,7 +956,7 @@ c(a_n,\cdots,a_n)&=(ca_n,\cdots,ca_n)
 \begin{gather}
 \begin{aligned}\label{مساوات_الجبرا_اندرونی_ضرب}
 \bM{a}\cdot \bM{b}&=\abs{\bM{a}}\abs{\bM{b}}\cos \gamma \quad \quad (\bM{a}\ne \bM{0},\, \bM{b}\ne \bM{0})\\
-\bM{a}\cdot \bM{b}&=0\quad \quad \quad\quad  (\bM{a}=\bM{0}\,\, \text{\RL{یا (اور)}}\,\, \bM{b}=\bM{0})
+\bM{a}\cdot \bM{b}&=0\quad \quad \quad\quad  (\bM{a}=\bM{0}\,\, \text{یا} \,\, \bM{b}=\bM{0} \,\,\text{یا}\,\, \bM{a}=\bM{b}=\bM{0})
 \end{aligned}
 \end{gather}  
 %
@@ -957,18 +994,18 @@ c(a_n,\cdots,a_n)&=(ca_n,\cdots,ca_n)
 %=============================
 
 مساوات \حوالہ{مساوات_الجبرا_اندرونی_ضرب} میں \عددی{\bM{b}=\bM{a}} پر کرنے سے \عددی{\bM{a}\cdot\bM{a}=\abs{\bM{a}}^2} حاصل ہوتا ہے اور یوں سمتیہ کی لمبائی (اقلیدسی معیار) کو اندرونی ضرب سے حاصل کیا جا سکتا ہے۔
-\begin{align}
+\begin{align}\label{مساوات_الجبرا_مثبتیت}
 \abs{\bM{a}}=\sqrt{\bM{a}\cdot \bM{a}}\quad \quad (\ge 0)
 \end{align}
 درج بالا اور مساوات \حوالہ{مساوات_الجبرا_اندرونی_ضرب} سے درج ذیل لکھا جا سکتا ہے۔
-\begin{align}
+\begin{align}\label{مساوات_الجبرا_سمتیات_مابین_زاویہ}
 \cos \gamma=\frac{\bM{a}\cdot \bM{b}}{\abs{\bM{a}}\abs{\bM{b}}}=\frac{\bM{a}\cdot \bM{b}}{\sqrt{\bM{a}\cdot \bM{a}}\sqrt{\bM{b}\cdot \bM{b}}}
 \end{align}
 اندرونی ضرب کی تعریف سے درج ذیل خصوصیات اخذ کئے جا سکتے ہیں۔
 \begin{gather}
 \begin{aligned}\label{مساوات_الجبرا_قواعد_سمتیات_الف}
-\text{(الف)}\quad  &[q_1\bM{a}+q_2\bM{b}]\cdot \bM{c}=q_1\bM{a}\cdot \bM{c}+q_2\bM{b}\cdot\bM{c}\quad \text{خطیت}\\
-\text{(ب)}\quad &\bM{a}\cdot\bM{b}=\bM{b}\cdot \bM{a}\quad \text{تشاکل}\\
+\text{(الف)}\quad  &[q_1\bM{a}+q_2\bM{b}]\cdot \bM{c}=q_1\bM{a}\cdot \bM{c}+q_2\bM{b}\cdot\bM{c}\quad \text{(خطیت)}\\
+\text{(ب)}\quad &\bM{a}\cdot\bM{b}=\bM{b}\cdot \bM{a}\quad \text{(تشاکل)}\\
 \text{(پ)}\quad &\left. \begin{array}{ll}
 \bM{a}\cdot \bM{a}\ge 0\\
 \bM{a}\cdot \bM{a}=0\,\,\text{اگر}\,\, \bM{a}=\bM{0}
@@ -981,7 +1018,173 @@ c(a_n,\cdots,a_n)&=(ca_n,\cdots,ca_n)
 \begin{align}
 (\bM{a}+\bM{b})\cdot \bM{c}=\bM{a}\cdot\bM{c}+\bM{b}\cdot \bM{c}\quad \text{\RL{(جزئیتی تقسیم)}}
 \end{align}
-مساوات \حوالہ{مساوات_الجبرا_اندرونی_ضرب} اور \عددی{\cos \gamma \le 1} سے درج ذیل ملتا ہے۔
+مساوات \حوالہ{مساوات_الجبرا_اندرونی_ضرب} اور \عددی{\cos \gamma \le 1} سے درج ذیل \اصطلاح{شوارز عدم مساوات}\فرہنگ{شوارز عدم مساوات}\حاشیہب{Schwarz inequality}\فرہنگ{Schwarz inequality}\حاشیہد{جرمن ریاضی دان ہرمن امندس شوارز [1843-1921]} ملتی ہے۔
 \begin{align}
-\abs{\bM{a}\cdot\bM{b}}\le \abs{\bM{a}}\abs{\bM{b}}\quad \quad \text{\RL{\حاشیہد{جرمن ریاضی دان ہرمن امندس شوارز [1843-1921]}شوارز عدم مساوات}}
+\abs{\bM{a}\cdot\bM{b}}\le \abs{\bM{a}}\abs{\bM{b}}\quad \quad \text{\RL{(شوارز عدم مساوات)}}
 \end{align}
+درج بالا اور مساوات \حوالہ{مساوات_الجبرا_مثبتیت} استعمال کرتے ہوئے آپ درج ذیل ثابت کر سکتے ہیں۔
+\begin{align}
+\abs{\bM{a}+\bM{b}}\le \abs{\bM{a}}+\abs{\bM{b}}\quad \quad \text{\RL{(تکونی عدم مساوات)}}
+\end{align} 
+مساوات \حوالہ{مساوات_الجبرا_مثبتیت} کی مدد سے 
+\begin{align*}
+\abs{\bM{a}+\bM{b}}^2&=(\bM{a}+\bM{b})\cdot(\bM{a}+\bM{b})=\bM{a}\cdot\bM{a}+\bM{a}\cdot\bM{b}+\bM{b}\cdot\bM{a}+\bM{b}\cdot\bM{b}\\
+\abs{\bM{a}-\bM{b}}^2&=(\bM{a}-\bM{b})\cdot(\bM{a}-\bM{b})=\bM{a}\cdot\bM{a}-\bM{a}\cdot\bM{b}-\bM{b}\cdot\bM{a}+\bM{b}\cdot\bM{b}
+\end{align*}
+لکھ کر دونوں مساوات  جمع کرنے سے درج ذیل ملتا ہے۔
+\begin{align}
+\abs{\bM{a}+\bM{b}}^2+\abs{\bM{a}-\bM{b}}^2=2(\abs{\bM{a}}^2+\abs{\bM{b}}^2)\quad\quad  \text{\RL{(متوازی الاضلاع مساوات)}}
+\end{align}
+سمتیات کو اجزاء کی صورت  میں لکھ  کر
+\begin{align*}
+\bM{a}=a_1\bM{i}+a_2\bM{j}+a_3\bM{k},\quad \bM{b}=b_1\bM{i}+b_2\bM{j}+b_3\bM{k}
+\end{align*}
+ان کا غیر سمتی ضرب معلوم کرتے ہیں۔
+\begin{multline*}
+\bM{a}\cdot \bM{b}=(a_1\bM{i}+a_2\bM{j}+a_3\bM{k})\cdot (b_1\bM{i}+b_2\bM{j}+b_3\bM{k})\\
+=a_1b_1\bM{i}\cdot \bM{i}+a_1b_2\bM{i}\cdot \bM{j}+a_1b_3\bM{i}\cdot \bM{k}+a_2b_1\bM{j}\cdot \bM{i}+a_2b_2\bM{j}\cdot \bM{j}+a_2b_3\bM{j}\cdot \bM{k}\\
++a_3b_1\bM{k}\cdot \bM{i}+a_3b_2\bM{k}\cdot \bM{j}+a_3b_3\bM{k}\cdot \bM{k}
+\end{multline*}
+اب چونکہ \عددی{\bM{i}} اور \عددی{\bM{j}} آپس میں قائمہ الزاویہ ہیں لہٰذا مساوات \حوالہ{مساوات_الجبرا_اندرونی_ضرب} میں \عددی{\gamma=\tfrac{\pi}{2}} ہو گا اور یوں \عددی{\bM{i}\cdot \bM{j}=0} ہو گا۔اسی طرح چونکہ \عددی{\bM{i}} اور \عددی{\bM{i}} ایک ہی سمت میں ہیں  لہٰذا مساوات \حوالہ{مساوات_الجبرا_اندرونی_ضرب} میں \عددی{\gamma=0} ہو گا اور یوں \عددی{\bM{i}\cdot \bM{i}=1} ہو گا۔اسی عمل سے آپ درج ذیل  غیر سمتی ضرب کے تعلقات لکھ سکتے ہیں جنہیں درج بالا میں
+\begin{align}
+\bM{i}\cdot\bM{i}&=1,\quad \bM{j}\cdot\bM{j}=1,\quad \bM{k}\cdot\bM{k}=1\\
+\bM{i}\cdot\bM{j}&=0,\quad \bM{j}\cdot\bM{k}=0,\quad \bM{k}\cdot\bM{i}=0
+\end{align}
+پر پر کرتے ہوئے درج ذیل ملتا ہے۔
+\begin{align}
+\bM{a}\cdot \bM{b}=a_1b_1+a_2b_2+a_3b_3
+\end{align}
+
+اگر \عددی{\bM{a}} اور \عددی{\bM{b}\, (\ne \bM{0})}  سمتیات کے مابین زاویہ \عددی{\gamma} ہو تب درج ذیل حقیقی عدد
+\begin{align*}
+p=\abs{\bM{a}}\cos \gamma
+\end{align*}
+\عددی{\bM{b}} کی سمت میں \عددی{\bM{a}} کا \اصطلاح{جزو} یا \اصطلاح{عمودی سایہ}\فرہنگ{عمودی سایہ}\حاشیہب{projection}\فرہنگ{projection} ہو گا۔اگر \عددی{\bM{a}=\bM{0}} ہو تب \عددی{\gamma} غیر معین (بے معنی) ہو گا اور ہم \عددی{p=0} لیں گے۔
+
+یوں \عددی{\bM{b}} کی سمت میں خط \عددی{l} پر \عددی{\bM{a}} کے عمودی سائے کی لمبائی \عددی{\abs{p}} ہو گی۔ \عددی{p} کی قیمت مثبت، صفر یا منفی ہو سکتی ہے (شکل \حوالہ{شکل_الجبرا_عمودی_عکس})۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ang}{30}
+\pgfmathsetmacro{\a}{1.25}
+\pgfmathsetmacro{\aa}{\a*cos(\ang)}
+\draw(-0.5,0)node[left]{$l$}--(1.5,0);
+\draw[-latex](0,0)--(0.75,0)node[below,pos=0.5]{$\bM{b}$};
+\draw[-latex](0,0)--(\ang:\a)node[pos=0.5,above]{$\bM{a}$}coordinate(kT);
+\draw[dashed] (kT)--(\aa,0);
+\draw([shift={(0:0.3)}]0,0) arc (0:\ang:0.3);
+\draw(\ang/2:0.7)node{$\gamma$};
+\draw [decorate,decoration={brace,amplitude=5pt},xshift=0,yshift=-3pt](\aa,-0.3)--(0,-0.3)node [black,midway,xshift=0,yshift=-0.5cm] { $\substack{p\\(p>0)}$};
+%
+\begin{scope}[xshift=-3cm]
+\pgfmathsetmacro{\ang}{30}
+\pgfmathsetmacro{\a}{1.25}
+\pgfmathsetmacro{\aa}{\a*cos(\ang)}
+\draw(-1,0)node[left]{$l$}--(1.5,0);
+\draw[-latex](0,0)--(0.75,0)node[below]{$\bM{b}$};
+\draw[-latex](0,0)--(90:\a)node[pos=0.75,left]{$\bM{a}$}coordinate(kT);
+\draw([shift={(0:0.3)}]0,0) arc (0:90:0.3);
+\draw(45:0.7)node{$\gamma$};
+\draw(0,-1)node{$\substack{\\ (p=0)}$};
+\end{scope}
+%
+\begin{scope}[xshift=-7cm]
+\pgfmathsetmacro{\ang}{30}
+\pgfmathsetmacro{\a}{1.25}
+\pgfmathsetmacro{\aa}{\a*cos(\ang)}
+\draw(-1.5,0)node[left]{$l$}--(1.5,0);
+\draw[-latex](0,0)--(0.75,0)node[below,pos=0.5]{$\bM{b}$};
+\draw[-latex](0,0)--(180-\ang:\a)node[pos=0.5,above]{$\bM{a}$}coordinate(kT);
+\draw[dashed] (kT)--(-\aa,0);
+\draw([shift={(0:0.3)}]0,0) arc (0:180-\ang:0.3);
+\draw(90-\ang/2:0.7)node{$\gamma$};
+\draw [decorate,decoration={brace,amplitude=5pt},xshift=0,yshift=-3pt](0,-0.3)--(-\aa,-0.3)node [black,midway,xshift=0,yshift=-0.5cm] { $\substack{p\\(p<0)}$};
+\end{scope}
+\end{tikzpicture}
+\caption{\عددی{\bM{b}} کی سمتی میں \عددی{\bM{a}} کا جزو۔}
+\label{شکل_الجبرا_عمودی_عکس}
+\end{figure} 
+
+یوں کارتیسی نظام کے اکائی سمتیات \عددی{\bM{i}}، \عددی{\bM{j}} اور \عددی{\bM{k}} کی سمت میں سمتیہ \عددی{\bM{a}=a_1\bM{i}+a_2\bM{j}+a_3\bM{k}} کے اجزاء بالترتیب \عددی{a_1}، \عددی{a_2} اور \عددی{a_3} ہوں گے۔
+
+مساوات \حوالہ{مساوات_الجبرا_سمتیات_مابین_زاویہ} کی مدد سے درج ذیل ہو گا
+\begin{align}
+p=\bM{a}\cos \gamma=\frac{\bM{a}\cdot\bM{b}}{\abs{\bM{b}}} \quad \quad (\bM{b}\ne \bM{0})
+\end{align}
+اور اگر \عددی{\bM{b}} اکائی سمتیہ ہو تب اس سے درج ذیل ملتا ہے۔
+\begin{align}
+p=\bM{a}\cdot\bM{b}
+\end{align}
+
+سمتی ضرب کی استعمال کے چند مثالیں دیکھتے ہیں۔
+%==================
+\ابتدا{مثال}\شناخت{مثال_الجبرا_قوت_کام}\quad قوت اور کام\\
+فرض کریں کہ قوت \عددی{\bM{a}} کسی چیز کو اپنی جگہ سے ہٹا کر سمتی فاصلہ \عددی{\bM{d}} منتقل کرتا ہے۔\عددی{\bM{d}} کی سمت میں قوت کا جزو ضرب \عددی{\abs{\bM{d}}} کام \عددی{W} کی تعریف ہے یعنی
+\begin{align}
+W=\abs{a}\abs{d}\cos \alpha=\bM{a}\cdot \bM{b}
+\end{align} 
+جہاں \عددی{\bM{a}} اور \عددی{\bM{d}} کے درمیان زاویہ \عددی{\alpha} ہے۔ (شکل \حوالہ{شکل_مثال_الجبرا_قوت_کام})
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw[-latex](0,0)--++(3,0)node[pos=0.5,below]{$\bM{d}$};
+\draw[-latex](0,0)--++(30:1.5)node[pos=0.5,above]{$\bM{a}$};
+\draw([shift={(0:0.5)}]0,0) arc (0:30:0.5);
+\draw(15:0.7)node{$\alpha$};
+\end{tikzpicture}
+\caption{قوت اور کام (مثال \حوالہ{مثال_الجبرا_قوت_کام})}
+\label{شکل_مثال_الجبرا_قوت_کام}
+\end{figure}
+
+آپ دیکھ سکتے ہیں کہ \عددی{\bM{a}} کی سمت میں \عددی{\bM{d}} کا جزو ضرب \عددی{\abs{\bM{a}}} بھی کام کی تعریف ہے۔
+\انتہا{مثال}
+%=====================
+\ابتدا{مثال}\شناخت{مثال_الجبرا_قائمہ_الزاویہ_خطوط}\quad سیدھی سطح میں واقع قائمہ الزاویہ سیدھے خطوط\\
+سیدھی سطح پر قائمہ الزاویہ دو سیدھے خطوط \عددی{L_1} اور \عددی{L_2} شکل \حوالہ{شکل_مثال_الجبرا_قائمہ_الزاویہ_خطوط}-الف میں دکھائے گئے ہیں۔\عددی{L_2} کی مساوات \عددی{x-3y-3=0} ہے۔نقطہ \عددی{N(2,3)} سے گزرتا ایسے خط (\عددی{L_1}) کی مساوات دریافت کریں جو \عددی{L_2} کے عمودی ہو۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+%axis
+\draw(-0.5,0)--(2,0)node[below]{$x$};
+\draw(0,-0.5)--(0,2)node[left]{$y$};
+\draw(0,0)node[ocirc]{};
+\foreach \x in {1,2,3}{\draw(\x/2,0)--++(0,-0.1)node[below]{$\x$};}
+\foreach \y in {1,2,3}{\draw(0,\y/2)--++(-0.1,0)node[left]{$\y$};}
+%lines
+\draw(0,0.5)++(18.43:-0.5)--++(18.43:3)node[right]{$L_2$};
+\draw(1,1.5)node[ocirc]{}node[left]{$N$}++(108.43:0.5)--++(108.43:-2)node[pos=0.8,right]{$L_1$};
+%
+\draw(1,-1)node{(الف)};
+\begin{scope}[xshift=-4cm]
+%axis
+\draw(-0.5,0)--(2,0)node[below]{$x$};
+\draw(0,-0.5)--(0,2)node[left]{$y$};
+\draw(0,0)node[ocirc]{};
+\foreach \x in {1,2,3}{\draw(\x/2,0)--++(0,-0.1)node[below]{$\x$};}
+\foreach \y in {1,2,3}{\draw(0,\y/2)--++(-0.1,0)node[left]{$\y$};}
+%lines
+\draw(0,0)++(18.43:-0.5)--++(18.43:3)node[right]{$L_2^*$};
+\draw(0,0)++(108.43:2)node[left]{$L_1^*$}--++(108.43:-2.5);
+\draw(1,-1)node{(ب)};
+\end{scope}
+%
+\begin{scope}[xshift=-8cm,yshift=1cm]
+%axis
+\draw(-0.5,0)--(2,0)node[below]{$x$};
+\draw(0,-1.55)--(0,1);
+\draw(0,0)node[ocirc]{};
+\foreach \x in {1,2,3}{\draw(\x/2,0)--++(0,-0.1)node[below]{$\x$};}
+\foreach \y in {1,-1,-2,-3}{\draw(0,\y/2)--++(-0.1,0)node[left]{$\y$};}
+%lines
+\draw[-latex](0,0)--(0.5,-1.5)node[right]{$\bM{a}=a_1\bM{i}+a_2\bM{j}$};
+\draw[-latex](0,0)--(18.43:1.5)node[ocirc]{}node[right]{$(x,y)$}node[above]{$\bM{r}_1$};
+\draw[-latex,dashed](0,0)--(45:1)node[left]{$\bM{r}_2$};
+\draw(1,-2)node{(پ)};
+\end{scope}
+\end{tikzpicture}
+\caption{قائمہ الزاویہ خطوط۔ مثال \حوالہ{مثال_الجبرا_قائمہ_الزاویہ_خطوط}}
+\label{شکل_مثال_الجبرا_قائمہ_الزاویہ_خطوط}
+\end{figure}
+\انتہا{مثال}
+%====================

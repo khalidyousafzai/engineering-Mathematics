@@ -1380,3 +1380,41 @@ float((a+b+c)/sqrt((a+b+c).(a+b+c)));
 a+b+c;
 
 4*(a-b);
+
+Print("======================================");
+kill(all);
+print("QQ 8.34");
+
+A:matrix([1,-2,4]);
+B:matrix([5,1,3]);
+C:matrix([2,3,1]);
+
+BA:B-A;
+CB:C-B;
+DB:2/3*CB;
+AD:BA+DB;
+
+sqrt(AD .AD);
+
+Print("======================================");
+kill(all);
+print("QQ 8.37");
+
+len:7;
+a:matrix([-2,1,3]);
+
+aa:float(a/(sqrt(a.a)));
+len*aa;
+
+Print("======================================");
+kill(all);
+print("QQ 8.38");
+
+len:10;
+b:matrix([3,0,2]);
+c:matrix([2,-1,-1]);
+
+a:b+2*c;
+
+aa:float(a/(sqrt(a.a)));
+len*aa;

@@ -1418,3 +1418,172 @@ a:b+2*c;
 
 aa:float(a/(sqrt(a.a)));
 len*aa;
+
+Print("======================================");
+kill(all);
+print("QQ 8.43");
+
+a:matrix([2,4,1]);
+b:matrix([3,0,-1]);
+c:matrix([1,2,-4]);
+
+a . b;
+b . a;
+
+sqrt(a .a);
+sqrt(b . b);
+sqrt(c.c);
+
+(a-b).c;
+
+(b-c).a;
+(c-b).a;
+
+d:a+b;
+sqrt(d.d);
+d:a-b;
+sqrt(d.d);
+
+(2*a).(4*b);
+
+5*b . a;
+
+d:a+c;
+sqrt(d.d);
+
+sqrt(a.a)+sqrt(c.c);
+
+Print("======================================");
+kill(all);
+print("QQ 8.50");
+
+f:matrix([1,1,-1]);
+A:matrix([0,0,0]);
+B:matrix([5,0,0]);
+
+r:B-A;
+W:f.r;
+
+Print("======================================");
+kill(all);
+print("QQ 8.51");
+
+f:matrix([2,-3,1]);
+A:matrix([2,5,0]);
+B:matrix([0,0,0]);
+
+r:B-A;
+W:f.r;
+
+Print("======================================");
+kill(all);
+print("QQ 8.52");
+
+f:matrix([3,1,-2]);
+A:matrix([-5,2,1]);
+B:matrix([2,-3,-6]);
+
+r:B-A;
+W:f.r;
+
+Print("======================================");
+kill(all);
+print("QQ 8.53");
+
+f:matrix([2,1,3]);
+A:matrix([3,4,2]);
+B:matrix([4,2,1]);
+
+r:B-A;
+W:f.r;
+
+Print("======================================");
+kill(all);
+print("QQ 8.63");
+
+a:matrix([3,-2,1]);
+b:matrix([1,-4,-2]);
+d:float((a.b)/(sqrt(a.a)*sqrt(b.b)));
+acos(d);
+
+Print("======================================");
+kill(all);
+print("QQ 8.64");
+
+a:matrix([2,-4,6]);
+b:matrix([5,2,4]);
+c:matrix([-2,-1,4]);
+
+r1:b-a;
+r2:c-a;
+r3:b-c;
+
+d:float((r1.r2)/(sqrt(r1.r1)*sqrt(r2.r2)));
+float(180/%pi*acos(d));
+
+d:float((r1.r3)/(sqrt(r1.r1)*sqrt(r3.r3)));
+float(180/%pi*acos(d));
+
+d:float((r3.r2)/(sqrt(r3.r3)*sqrt(r2.r2)));
+180-float(180/%pi*acos(d));
+
+
+Print("======================================");
+kill(all);
+print("QQ 8.65");
+
+a:matrix([2,-4,1]);
+b:matrix([1,1,0]);
+c:matrix([0,1,2]);
+
+d:float((a.b)/(sqrt(a.a)*sqrt(b.b)));
+float(180/%pi*acos(d));
+
+r1:a-b;
+r2:b+c;
+
+d:float((r1.r2)/(sqrt(r1.r1)*sqrt(r2.r2)));
+float(180/%pi*acos(d));
+
+r1:2*a-3*b+4*c;
+r2:a;
+
+d:float((r1.r2)/(sqrt(r1.r1)*sqrt(r2.r2)));
+float(180/%pi*acos(d));
+
+Print("======================================");
+kill(all);
+print("QQ 8.68");
+
+a:matrix([1,1,1]);
+b:matrix([3,0,-7]);
+
+b.a;
+n:a/sqrt(a.a);
+
+Print("======================================");
+kill(all);
+print("QQ 8.69");
+
+a:matrix([1,-1,2]);
+b:matrix([2,1,-2]);
+
+b.a*(a/sqrt(a.a));
+
+Print("======================================");
+kill(all);
+print("QQ 8.70");
+
+a:matrix([0,3,4]);
+b:matrix([3,4,0]);
+
+float(b.a*(a/sqrt(a.a)));
+
+Print("======================================");
+kill(all);
+print("QQ 8.71");
+
+a:matrix([-2,3,-4]);
+b:matrix([3,-4,-6]);
+
+float(b.a*(a/sqrt(a.a)));

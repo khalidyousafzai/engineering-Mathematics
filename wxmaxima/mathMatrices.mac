@@ -1600,3 +1600,11 @@ r2:b;
 
 d:float((r1.r2)/(sqrt(r1.r1)*sqrt(r2.r2)));
 float(180/%pi*acos(d));
+
+Print("======================================");
+kill(all);
+print("exampleAA 8.11");
+
+a:matrix([i,j,k],[2,-1,6],[-5,3,-2]);
+
+determinant(a);

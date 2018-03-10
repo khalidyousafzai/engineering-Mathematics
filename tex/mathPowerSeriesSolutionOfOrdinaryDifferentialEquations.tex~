@@ -476,7 +476,7 @@ y''+4xy'+y=0, \quad y(0)=1,\quad y'(0)=1, \quad x_1=0.1
 \انتہا{سوال}
 %======================
 
-\حصہ{لیژانڈر مساوات۔ لیژانڈر کثیر رکنی}
+\حصہ{لیژانڈر مساوات۔ لیژانڈر کثیر رکنی}\شناخت{حصہ_لیژانڈر_تفاعل}
 لیژانڈر تفرقی مساوات\فرہنگ{لیژانڈر!تفرقی مساوات}\حاشیہد{فرانسیسی ریاضی دان اڈریان مری لیژانڈر [1752-1833] نے اعلٰی تفاعل، بیضوی تکمل اور اعدادی نظریہ پر کام کیا۔}\حاشیہب{Legendre's equation}\فرہنگ{Legendre!equation}
 \begin{align}\label{مساوات_بیسل_لیژانڈر_الف}
 (1-x^2)y''-2xy'+n(n+1)y=0\quad \quad (\text{\RL{\عددی{n} مستقل ہے}})
@@ -609,7 +609,7 @@ P_5(x)&=\frac{1}{8}(63x^5-70x^3+15x)
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[axis lines*=middle,ymin=-1.1,ymax=1.3,xlabel={$x$},ylabel={$P_n(x)$},xlabel style={at={(current axis.right of origin)},anchor=north west}, ylabel style={at={(current axis.above origin)},anchor=north east},ylabel style={rotate=-90},ytick={-1,1},yticklabels={$-1$,$1$},xtick={-1,1},xticklabels={$-1$,$1$}]
+\begin{axis}[axis lines*=middle,ymin=-1.1,ymax=1.3,xlabel={$x$},ylabel={$P_n(x)$},xlabel style={at={(current axis.right of origin)},anchor=north west}, xlabel style={at={(current axis.above origin)},anchor=north east},ylabel style={at={(current axis.above origin)},anchor=north east},ylabel style={rotate=90},ylabel style={rotate=-90},ytick={-1,1},yticklabels={$-1$,$1$},xtick={-1,1},xticklabels={$-1$,$1$}]
 \pgfmathsetmacro{\lmt}{1.1}
 %
 \addplot[domain=-\lmt:\lmt]{1}node[pos=0.75,above]{$P_0$};

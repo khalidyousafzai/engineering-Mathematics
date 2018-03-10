@@ -77,6 +77,6 @@
 \contentsline {chapter}{\numberline {\RL {\arabicfont 9}}قائمہ الزاویہ تفاعل کا سلسلہ}{\RL {\arabicfont 661}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 561}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 565}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 565}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 667}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 671}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 671}}

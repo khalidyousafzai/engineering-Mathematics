@@ -1,0 +1,24 @@
+\documentclass{standalone}
+\usepackage{pgfplotstable}
+\usepackage{amsmath}
+\pagestyle{empty}
+\pgfplotsset{compat=1.9}
+
+\input{./tex/myDeclareFunctions}
+%this ueses the data files figWaveOctaveWaterDielectricLossEW.txt 
+%and figWaveOctaveWaterDielectricLossLFW.txt prepared by octave's
+%figWaveOctaveWaterDielectricLoss.m
+
+\begin{document}
+\begin{tikzpicture}[]
+\begin{axis}[height=4cm,width=7cm,scale only axis,xlabel=$x$,axis lines*=middle,xlabel style={at={(current axis.right of origin)},anchor=north east}]
+\pgfplotstableread{figSineIntegral.txt}\mydata;
+\addplot [ ]table [x expr=\thisrowno{0},y expr=\thisrowno{1} ] {\mydata}node[pos=0.5,below]{$\kSi(x)$};
+
+%\node[below] at (axis cs:-0.6,4.4){$\begin{aligned}\gamma_1&=1+j5\pi \\ \sigma_2&=\infty \end{aligned}$};
+
+\end{axis}%
+%
+\end{tikzpicture}%
+
+\end{document}

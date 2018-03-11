@@ -1,0 +1,8 @@
+clear;
+clf;
+
+x=linspace(0,10,100);
+ y=Si(x);
+ plot(x,y);
+ figure;
+

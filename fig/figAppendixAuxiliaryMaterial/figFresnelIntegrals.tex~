@@ -1,0 +1,23 @@
+\documentclass{standalone}
+\usepackage{pgfplotstable}
+\usepackage{amsmath}
+\pagestyle{empty}
+\pgfplotsset{compat=1.9}
+
+%this ueses the data files figWaveOctaveWaterDielectricLossEW.txt 
+%and figWaveOctaveWaterDielectricLossLFW.txt prepared by octave's
+%figWaveOctaveWaterDielectricLoss.m
+
+\begin{document}
+\begin{tikzpicture}[]
+\begin{axis}[height=4cm,width=7cm,scale only axis,xlabel=$x$,axis lines*=middle,xlabel style={at={(current axis.right of origin)},anchor=north}]
+\pgfplotstableread{figFresnelCosineIntegral.txt}\mydataC;
+\pgfplotstableread{figFresnelSineIntegral.txt}\mydataS;
+\addplot [ ]table [x expr=\thisrowno{0},y expr=\thisrowno{1} ] {\mydataC}node[pos=0.2,above left]{$C(x)$};
+\addplot [dashed ]table [x expr=\thisrowno{0},y expr=\thisrowno{1} ] {\mydataS}node[pos=0.25,below right]{$S(x)$};
+
+\end{axis}%
+%
+\end{tikzpicture}%
+
+\end{document}

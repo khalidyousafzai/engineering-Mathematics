@@ -75,8 +75,9 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 8}}معکوس قالب۔ گاوس جارڈن اسقاط}{\RL {\arabicfont 628}}
 \contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 8}}سمتی فضا، اندرونی ضرب، خطی تبادلہ}{\RL {\arabicfont 643}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 9}}قائمہ الزاویہ تفاعل کا سلسلہ}{\RL {\arabicfont 661}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 9}}مسئلہ سٹیورم لیوویل}{\RL {\arabicfont 667}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 667}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 671}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 671}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 671}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 675}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 675}}

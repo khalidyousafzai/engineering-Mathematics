@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  10 MAR 2018 15:14
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  11 MAR 2018 15:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1766,10 +1766,9 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (./tex/mathLaplaceTransformation.aux) (./tex/mathVectors.aux)
 (./tex/mathLinearAlgebra.aux)
 (./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquationsTEMP.aux)
-(./tex/mathQuestions.aux)
+No file ./tex/mathQuestions.aux.
 LaTeX Font Info:    Try loading font information for EU1+ppl on input line 23.
 LaTeX Font Info:    No file EU1ppl.fd. on input line 23.
-
 
 LaTeX Font Warning: Font shape `EU1/ppl/m/n' undefined
 (Font)              using `EU1/lmr/m/n' instead on input line 23.
@@ -3174,38 +3173,65 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 2.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 2.
-[661] [662]) [663] [664
+[661] [662] [663] [664] [665]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 130.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
+(Font)              scaled to size 14.4pt on input line 130.
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--178
+[][]
+ []
+
+[666]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 9.5pt on input line 200.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 7.5pt on input line 200.
+) [667] [668
 
 
 
-] [665]
+] [669]
+\openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
+
+ (./tex/mathAppendixAdditionalProofs.tex [670
+
+
+]
+ضمیمہ ا.
+[671] [672]) [673]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex
-[670
+ (./tex/mathAppendixAuxiliaryMaterial.tex [674
 
 
 
 ]
 ضمیمہ ب.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 2.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 14.4pt on input line 2.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 8.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 5.70004pt on input line 8.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 26.
+(Font)              scaled to size 9.0pt on input line 27.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[671] [672] [673] [674] [675]
+[675] [676] [677] [678] [679]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [676] [677])
-[678] (./engineeringMathematics.aux (./tex/cktPreface.aux)
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [680] [681]
+File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
+type QTm)
+
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [682]
+File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
+ QTm)
+
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [683]
+[684
+
+
+] (./engineeringMathematics.aux (./tex/cktPreface.aux)
 (./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
@@ -3214,7 +3240,8 @@ File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 (./tex/mathLaplaceTransformation.aux) (./tex/mathVectors.aux)
 (./tex/mathLinearAlgebra.aux)
 (./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquationsTEMP.aux)
-(./tex/mathQuestions.aux) (./tex/mathAppendixAdditionalProofs.aux)
+No file ./tex/mathQuestions.aux.
+(./tex/mathAppendixAdditionalProofs.aux)
 (./tex/mathAppendixAuxiliaryMaterial.aux))
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3225,12 +3252,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 47480 strings out of 493918
- 1126900 string characters out of 6150563
- 1338303 words of memory out of 5000000
- 49793 multiletter control sequences out of 15000+600000
- 42335 words of font info for 168 fonts, out of 8000000 for 9000
+ 47588 strings out of 493918
+ 1129883 string characters out of 6150563
+ 1336142 words of memory out of 5000000
+ 49892 multiletter control sequences out of 15000+600000
+ 42343 words of font info for 169 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,15n,81p,10485b,2245s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,81p,10485b,2246s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (23 pages).
+Output written on engineeringMathematics.pdf (33 pages).

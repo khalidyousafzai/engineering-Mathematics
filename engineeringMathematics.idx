@@ -9,43 +9,18 @@
 \indexentry{orthonormal!set}{\RL {\arabicfont  662}}
 \indexentry{قائمہ الزاویہ!معیاری سلسلہ}{\RL {\arabicfont  662}}
 \indexentry{معیاری قائمہ الزاویہ سلسلہ}{\RL {\arabicfont  662}}
-\indexentry{exponential function}{\RL {\arabicfont  671}}
-\indexentry{تفاعل!قوت نمائی}{\RL {\arabicfont  671}}
-\indexentry{قوت نمائی تفاعل}{\RL {\arabicfont  671}}
-\indexentry{لوگارتھم!قدرتی}{\RL {\arabicfont  671}}
-\indexentry{قدرتی لوگارتھم}{\RL {\arabicfont  671}}
-\indexentry{کوسائن}{\RL {\arabicfont  672}}
-\indexentry{سائن}{\RL {\arabicfont  672}}
-\indexentry{کوسیکنٹ}{\RL {\arabicfont  674}}
-\indexentry{سیکنٹ}{\RL {\arabicfont  674}}
-\indexentry{کوٹینجنٹ}{\RL {\arabicfont  674}}
-\indexentry{ٹینجنٹ}{\RL {\arabicfont  674}}
-\indexentry{hyperbolic functions}{\RL {\arabicfont  674}}
-\indexentry{تفاعل!ہذلولی}{\RL {\arabicfont  674}}
-\indexentry{ہذلولی تفاعل}{\RL {\arabicfont  674}}
-\indexentry{Gamma function}{\RL {\arabicfont  674}}
-\indexentry{تفاعل!گیما}{\RL {\arabicfont  674}}
-\indexentry{گیما تفاعل}{\RL {\arabicfont  674}}
-\indexentry{Stirling formula}{\RL {\arabicfont  676}}
-\indexentry{سٹرلنگ!کلیہ}{\RL {\arabicfont  676}}
-\indexentry{کلیہ!سٹرلنگ}{\RL {\arabicfont  676}}
-\indexentry{Gamma!incomplete function}{\RL {\arabicfont  676}}
-\indexentry{گیما!نا مکمل تفاعل}{\RL {\arabicfont  676}}
-\indexentry{Beta function}{\RL {\arabicfont  676}}
-\indexentry{تفاعل!بیٹا}{\RL {\arabicfont  676}}
-\indexentry{بیٹا تفاعل}{\RL {\arabicfont  676}}
-\indexentry{error function}{\RL {\arabicfont  677}}
-\indexentry{خلل!تفاعل}{\RL {\arabicfont  677}}
-\indexentry{تفاعل!خلل}{\RL {\arabicfont  677}}
-\indexentry{error function!complementary}{\RL {\arabicfont  677}}
-\indexentry{مکملہ تفاعل خلل}{\RL {\arabicfont  677}}
-\indexentry{Fresnel integrals}{\RL {\arabicfont  677}}
-\indexentry{تکمل!فرسنل}{\RL {\arabicfont  677}}
-\indexentry{Sine integral}{\RL {\arabicfont  678}}
-\indexentry{تکمل!سائن}{\RL {\arabicfont  678}}
-\indexentry{Cosine integral}{\RL {\arabicfont  678}}
-\indexentry{تکمل!کوسائن}{\RL {\arabicfont  678}}
-\indexentry{Exponential integral}{\RL {\arabicfont  678}}
-\indexentry{تکمل!قوت نمائی}{\RL {\arabicfont  678}}
-\indexentry{Logarithmic integral}{\RL {\arabicfont  678}}
-\indexentry{تکمل!لوگارتھمی}{\RL {\arabicfont  678}}
+\indexentry{Fourier series!generalized}{\RL {\arabicfont  664}}
+\indexentry{فوریئر تسلسل!عمومی}{\RL {\arabicfont  664}}
+\indexentry{Fourier constants}{\RL {\arabicfont  664}}
+\indexentry{فوریئر!مستقل}{\RL {\arabicfont  664}}
+\indexentry{Euler!formulae}{\RL {\arabicfont  665}}
+\indexentry{یولر!کلیات}{\RL {\arabicfont  665}}
+\indexentry{Fourier!coefficients}{\RL {\arabicfont  665}}
+\indexentry{عددی سر!فوریئر}{\RL {\arabicfont  665}}
+\indexentry{فوریئر!عددی سر}{\RL {\arabicfont  665}}
+\indexentry{weight function}{\RL {\arabicfont  665}}
+\indexentry{تفاعل قدر}{\RL {\arabicfont  665}}
+\indexentry{Sturm-Liouville!boundary conditions}{\RL {\arabicfont  667}}
+\indexentry{سٹیورم لیوویل!سرحدی شرائط}{\RL {\arabicfont  667}}
+\indexentry{Sturm-Liouville equation}{\RL {\arabicfont  667}}
+\indexentry{سٹیورم لیوویل مساوات}{\RL {\arabicfont  667}}

@@ -1,0 +1,18 @@
+clear;
+clf;
+
+
+function y = f (x)
+y=cos(x^2);
+ endfunction
+
+[area,ierror,nfneval]=quad("f",0,1)
+
+kkk=fopen("figFresnelIntegral.txt","w");
+
+for i=1:100;
+fdisp(kkk,[x(i),area(i)]);
+endfor
+
+fclose(kkk);
+

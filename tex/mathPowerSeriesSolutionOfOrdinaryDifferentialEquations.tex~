@@ -609,7 +609,7 @@ P_5(x)&=\frac{1}{8}(63x^5-70x^3+15x)
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[axis lines*=middle,ymin=-1.1,ymax=1.3,xlabel={$x$},ylabel={$P_n(x)$},xlabel style={at={(current axis.right of origin)},anchor=north west}, xlabel style={at={(current axis.above origin)},anchor=north east},ylabel style={at={(current axis.above origin)},anchor=north east},ylabel style={rotate=90},ylabel style={rotate=-90},ytick={-1,1},yticklabels={$-1$,$1$},xtick={-1,1},xticklabels={$-1$,$1$}]
+\begin{axis}[axis lines*=middle,ymin=-1.1,ymax=1.3,xlabel={$x$},ylabel={$P_n(x)$},xlabel style={at={(current axis.right of origin)},anchor=north west}, ylabel style={at={(current axis.above origin)},anchor=north east},ylabel style={rotate=-90},ytick={-1,1},yticklabels={$-1$,$1$},xtick={-1,1},xticklabels={$-1$,$1$}]
 \pgfmathsetmacro{\lmt}{1.1}
 %
 \addplot[domain=-\lmt:\lmt]{1}node[pos=0.75,above]{$P_0$};
@@ -1850,7 +1850,7 @@ J_{-n}(x)=(-1)^nJ_n(x) \quad \quad (n=1,2,\cdots)
 
 %==============================
 \ابتدا{ثبوت}
-مساوات \حوالہ{مساوات_بیسل_تسلسل_عمومی_دوسرا} میں \عددی{\nu} کی قیمت کو عدد صحیح کے قریب تر لانے سے گیما تفاعل کی قیمت (صفحہ \حوالہصفحہ{شکل_ضمیمہ_گیما_تفاعل} پر شکل \حوالہ{شکل_ضمیمہ_گیما_تفاعل}) لامتناہی کی طرف بڑھتی ہے۔یوں \عددی{\nu=n} کی صورت میں مساوات \حوالہ{مساوات_بیسل_تسلسل_عمومی_دوسرا} کے ابتدائی \عددی{n} ارکان کے عددی سر، گیما تفاعل کی قیمت لامتناہی ہونے کی بنا، صفر ہوں گے اور یوں تسلسل \عددی{m=n} سے شروع ہو گا۔مساوات \حوالہ{مساوات_بیسل_گیما_بطور_عدد_ضربیہ} کے تحت \عددی{\Gamma(m-n+1)=(m-n)!} ہے لہٰذا درج ذیل لکھا جائے گا
+مساوات \حوالہ{مساوات_بیسل_تسلسل_عمومی_دوسرا} میں \عددی{\nu} کی قیمت کو عدد صحیح کے قریب تر لانے سے گیما تفاعل کی قیمت (صفحہ \حوالہصفحہ{شکل_ضمیمہ_مفید_گیما_تفاعل} پر شکل \حوالہ{شکل_ضمیمہ_مفید_گیما_تفاعل}) لامتناہی کی طرف بڑھتی ہے۔یوں \عددی{\nu=n} کی صورت میں مساوات \حوالہ{مساوات_بیسل_تسلسل_عمومی_دوسرا} کے ابتدائی \عددی{n} ارکان کے عددی سر، گیما تفاعل کی قیمت لامتناہی ہونے کی بنا، صفر ہوں گے اور یوں تسلسل \عددی{m=n} سے شروع ہو گا۔مساوات \حوالہ{مساوات_بیسل_گیما_بطور_عدد_ضربیہ} کے تحت \عددی{\Gamma(m-n+1)=(m-n)!} ہے لہٰذا درج ذیل لکھا جائے گا
 \begin{align*}
 J_{-n}(x)=\sum_{m=n}^{\infty}\frac{(-1)^mx^{2m-n}}{2^{2m-n}m!(m-n)!}=\sum_{s=0}^{\infty}\frac{(-1)^{n+s}x^{2s+n}}{2^{2s+n} (n+s)!s!}\quad \quad (m=n+s)
 \end{align*}

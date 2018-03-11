@@ -1401,4 +1401,79 @@ Q:expand(%);
 
 
 
+print("=======================");
+kill(all);
+print("QQ 9.1");
 
+declare(n,integer);
+f:cos(x);
+a:0;
+b:2*%pi;
+
+n:sqrt(integrate(f*f,x,a,b));
+
+print("=======================");
+kill(all);
+print("QQ 9.2");
+
+declare(n,integer);
+f:sin(n*x);
+a:0;
+b:1*%pi;
+
+n:sqrt(integrate(f*f,x,a,b));
+
+print("=======================");
+kill(all);
+print("QQ 9.3");
+
+declare(n,integer);
+f:sin(n*%pi*x);
+a:-1;
+b:1;
+
+n:sqrt(integrate(f*f,x,a,b));
+
+print("=======================");
+kill(all);
+print("QQ 9.4");
+
+declare(n,integer);
+fa:1;
+f:cos(2*n*x);
+a:0;
+b:%pi;
+
+na:n:sqrt(integrate(fa*fa,x,a,b));
+n:sqrt(integrate(f*f,x,a,b));
+
+print("=======================");
+kill(all);
+print("QQ 9.5");
+
+declare(n,integer);
+fa:1;
+f:cos(2*n*%pi*x/T);
+a:0;
+b:T;
+
+na:n:sqrt(integrate(fa*fa,x,a,b));
+n:sqrt(integrate(f*f,x,a,b));
+
+print("=======================");
+kill(all);
+print("QQ 9.6");
+
+declare(n,integer);
+f:sin(2*n*%pi*x/T);
+a:-T/2;
+b:T/2;
+
+n:sqrt(integrate(f*f,x,a,b));
+
+print("=======================");
+kill(all);
+print("QQ 9.7");
+load(orthopoly);
+
+P00(x);

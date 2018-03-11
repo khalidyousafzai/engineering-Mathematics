@@ -19,3 +19,4 @@
 %
 \DeclareMathOperator{\ci}{si} 
 \DeclareMathOperator{\Ei}{Ei} 
+\DeclareMathOperator{\li}{li} 

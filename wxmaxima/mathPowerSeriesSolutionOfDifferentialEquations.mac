@@ -1477,3 +1477,13 @@ print("QQ 9.7");
 load(orthopoly);
 
 P00(x);
+
+
+print("=======================");
+kill(all);
+print("QQ 9.18");
+
+assume(a>0);
+eq:'diff(y,x,2)+a*y=0;
+ode2(eq,y,x);
+bc2(%,x=0,'diff(y,x)=0,x=l,'diff(y,x)=0);

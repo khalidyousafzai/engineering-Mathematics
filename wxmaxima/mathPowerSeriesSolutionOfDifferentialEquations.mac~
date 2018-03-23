@@ -1478,3 +1478,29 @@ load(orthopoly);
 
 P00(x);
 
+
+print("=======================");
+kill(all);
+print("QQ 9.18");
+
+assume(a>0);
+eq:'diff(y,x,2)+a*y=0;
+ode2(eq,y,x);
+bc2(%,x=0,'diff(y,x)=0,x=l,'diff(y,x)=0);
+
+print("=======================");
+kill(all);
+print("QQ 9.23");
+load(orthopoly);
+
+legendre_p(3,x);
+
+kone:legendre_p(0,x);
+kx:legendre_p(1,x);
+kx2:1/3*legendre_p(0,x)+2/3*legendre_p(2,x);
+ratsimp(%);
+kx3:3/5*legendre_p(1,x)+2/5*legendre_p(3,x);
+ratsimp(%);
+kx4:1/5*legendre_p(0,x)+4/7*legendre_p(2,x)+8/35*legendre_p(4,x);
+ratsimp(%);
+

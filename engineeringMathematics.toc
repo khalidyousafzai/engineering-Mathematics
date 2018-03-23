@@ -79,6 +79,6 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 9}}قائمیت لیژانڈر کثیر رکنی اور بیسل تفاعل}{\RL {\arabicfont 674}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 679}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 683}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 683}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 683}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 687}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 687}}

@@ -1,25 +1,26 @@
 \begin{theindex}
 \begin{otherlanguage}{english}
 
+
   \item absorber, 122
-  \item ammeter, 587
+  \item ammeter, 609
   \item amplitude, 121, 171
   \item analytic, 13, 319
-  \item angular speed, 522
-  \item angular velocity, 522
+  \item angular speed, 544
+  \item angular velocity, 544
   \item arbitrary constant, 4
   \item Archimedese
     \subitem principle, 130
   \item asymptotically equal, 366
-  \item augmented matrix, 539, 569
+  \item augmented matrix, 561, 591
   \item autonomous, 281
     \subitem differential equation, 20
   \item auxiliary equation, 134
 
   \indexspace
 
-  \item basis, 90, 497, 595, 646
-    \subitem of solution, 607
+  \item basis, 90, 519, 617, 668
+    \subitem of solution, 629
     \subitem of solutions, 89
   \item beats, 169
   \item bell shaped, 24
@@ -36,8 +37,8 @@
     \subitem second kind, 379
     \subitem second kind, order $\nu $, 380
     \subitem third kind, 381
-  \item bound vector, 479
-  \item boundary problem, 667
+  \item bound vector, 501
+  \item boundary problem, 390
   \item bounded, 75
 
   \indexspace
@@ -45,10 +46,10 @@
   \item calculus, 309
   \item cancer, 37
   \item capacitor, 174
-  \item Cartesian coordinate system, 480, 653
+  \item Cartesian coordinate system, 502, 675
   \item catenary, 96
   \item Cauchy determinant, 206
-  \item Cauchy-Schwarz inequality, 649
+  \item Cauchy-Schwarz inequality, 671
   \item center, 258, 310
   \item chain rule, 94
   \item characteristic
@@ -59,40 +60,40 @@
   \item charged, 37
   \item coaxial cable, 73
   \item coefficient
-    \subitem matrix, 539, 569
-  \item coefficients, 83, 310, 568
+    \subitem matrix, 561, 591
+  \item coefficients, 83, 310, 590
     \subitem undetermined method, 154
-  \item cofactor, 613
-  \item collinear, 498
+  \item cofactor, 635
+  \item collinear, 520
   \item column, 227
-    \subitem vector, 538
-  \item column space, 596
-  \item columns, 538
-  \item commutative, 565
+    \subitem vector, 560
+  \item column space, 618
+  \item columns, 560
+  \item commutative, 587
     \subitem non, 229
-  \item components, 480, 541
-  \item composition, 654
-  \item consistent, 578, 608
+  \item components, 502, 563
+  \item composition, 676
+  \item consistent, 600, 630
   \item continuous
     \subitem partial differential, 40
-    \subitem piecewise, 390
+    \subitem piecewise, 412
   \item continuous function, 41, 75
   \item converge, 315
   \item convergence
     \subitem radius, 316
-  \item convolution, 447
-  \item coordinates, 480
-  \item coplanar, 498
+  \item convolution, 469
+  \item coordinates, 502
+  \item coplanar, 520
   \item corresponding, 228
   \item cosmic rays, 25
   \item Coulomb, 175
   \item Cramer's
     \subitem theorem, 200
-  \item Cramer's rule, 203, 609, 619
+  \item Cramer's rule, 203, 631, 641
   \item critical damping, 123
   \item critical point, 258
   \item critical points, 63
-  \item cross product, 515
+  \item cross product, 537
   \item current, 53, 56
 
   \indexspace
@@ -106,15 +107,15 @@
   \item damping constant, 122
   \item defined, 4
   \item degenerate node, 265
-  \item determinant, 200, 608
+  \item determinant, 200, 630
     \subitem Cauchy, 206
-    \subitem higher order, 612
-  \item determined, 578
+    \subitem higher order, 634
+  \item determined, 600
   \item diagonal
     \subitem main, 227
-    \subitem matrix, 559
-  \item difference, 544
-  \item different, 542
+    \subitem matrix, 581
+  \item difference, 566
+  \item different, 564
   \item differential
     \subitem autonomous, 20
     \subitem calculus, 78
@@ -122,31 +123,34 @@
     \subitem ordinary equation, 1
     \subitem partial equation, 1
   \item differential equation, 2
-  \item dimension, 595
-    \subitem infinite, 647
+  \item dimension, 617
+    \subitem infinite, 669
   \item Dirac
-    \subitem delta function, 429
+    \subitem delta function, 451
   \item direction field, 14
   \item discriminant, 273
   \item displacement, 53
   \item divergent, 315
   \item domain, 251
   \item dot
-    \subitem product, 648
-  \item dot product, 500
+    \subitem product, 670
+  \item dot product, 522
   \item Duffing equation, 298
 
   \indexspace
 
-  \item echelon form, 581
-    \subitem reduced, 581
+  \item echelon form, 603
+    \subitem reduced, 603
+  \item eigenfunction expansion, 394
+  \item eigenfunctions, 390
   \item Eigenvalue, 233
+  \item eigenvalue, 390
   \item Eigenvalues, 233
   \item Eigenvector, 233
   \item Eigenvectors, 233
   \item electric field, 73
   \item elementary function, 284
-  \item elements, 538
+  \item elements, 560
   \item ellipse, 262
   \item elliptic, 289
   \item energy, 291
@@ -155,24 +159,24 @@
   \item entry, 227
   \item envelope, 106
   \item equality
-    \subitem parallelogram, 649
+    \subitem parallelogram, 671
   \item equation
     \subitem Duffing, 298
     \subitem Rayleigh, 297
-  \item equilibrium, 548
+  \item equilibrium, 570
     \subitem points, 63
     \subitem solution, 63
   \item equipotential lines, 73
-  \item Euclidean norm, 478
-  \item Euclidean space, 650
+  \item Euclidean norm, 500
+  \item Euclidean space, 672
   \item Euler
     \subitem constant, 379
-    \subitem formulae, 665
+    \subitem formulae, 387
   \item Euler equation, 104
   \item Euler's method, 14
   \item Euler-Cauchy equation, 134
   \item exact differential equation, 40
-  \item existence, 2, 143, 603
+  \item existence, 2, 143, 625
     \subitem solution, 147, 201
   \item explicit, 3
 
@@ -189,10 +193,11 @@
     \subitem restoring, 119
   \item forcing function, 53
   \item Fourier
-    \subitem coefficients, 665
-  \item Fourier constants, 664
+    \subitem coefficients, 387
+  \item Fourier Bessel Series, 399
+  \item Fourier constants, 386
   \item Fourier series
-    \subitem generalized, 664
+    \subitem generalized, 386
   \item free
     \subitem motion, 128
   \item frequency, 120
@@ -208,15 +213,15 @@
   \indexspace
 
   \item gamma function, 366
-  \item Gauss elimination, 568, 572
+  \item Gauss elimination, 590, 594
   \item Gauss' hypergeometric equation, 359
-  \item Gauss-Jordan elimination, 630
+  \item Gauss-Jordan elimination, 652
   \item general
     \subitem solution, 298
   \item general solution, 6, 195
   \item generating function
-    \subitem Laguerre polynomials, 464
-  \item generator, 496
+    \subitem Laguerre polynomials, 486
+  \item generator, 518
   \item geometric series, 360
   \item gland, 58
   \item graphical, 13
@@ -226,15 +231,17 @@
 
   \item Hankel functions, 381
   \item harmonic oscillation, 120
-  \item head, 479
-  \item Heaviside step function, 412
+  \item head, 501
+  \item Heaviside step function, 434
   \item Henry, 56
+  \item Hermite
+    \subitem polynomials, 402
   \item Hertz, 120
   \item heterogeneous, 54
   \item higher functons, 309
   \item homogeneous, 194
     \subitem linear ordinary differential equation, 53
-    \subitem system, 568, 606
+    \subitem system, 590, 628
   \item Hooke's law, 119
   \item hormones, 58
   \item hyperbolic, 260
@@ -249,28 +256,28 @@
   \item identically zero, 82, 144, 199
   \item identity
     \subitem operator, 114
-  \item image, 651
+  \item image, 673
   \item impedance, 177
   \item implicit, 3
   \item implicit solution, 41
-  \item improper integral, 387
-  \item impulse, 429
+  \item improper integral, 409
+  \item impulse, 451
   \item in-phase, 179
-  \item inconsistent, 578
+  \item inconsistent, 600
   \item index, 310
     \subitem shifting, 323
   \item indicial equation, 346
   \item induction, 116
   \item inductor, 56
   \item inequality
-    \subitem Cauchy-Schwarz, 649
-    \subitem triangle, 649
+    \subitem Cauchy-Schwarz, 671
+    \subitem triangle, 671
   \item initial value
     \subitem problem, 7
   \item initial values, 7
   \item inner
-    \subitem product, 648
-  \item inner product, 500
+    \subitem product, 670
+  \item inner product, 522
   \item input, 53
     \subitem force, 164
   \item instability, 112
@@ -283,8 +290,8 @@
     \subitem convergence, 316
     \subitem open, 4
   \item inverse
-    \subitem matrix, 232, 628
-  \item inverse transform, 654
+    \subitem matrix, 232, 650
+  \item inverse transform, 676
   \item isoclines, 20, 293
   \item isolated, 282
   \item isotherms, 73
@@ -293,8 +300,8 @@
 
   \indexspace
 
-  \item jump, 399
-  \item jumps, 390
+  \item jump, 421
+  \item jumps, 412
 
   \indexspace
 
@@ -305,12 +312,13 @@
 
   \item lagging, 171, 179
   \item Lagrange
-    \subitem identity, 531
-  \item Laguerre's equation, 461
+    \subitem identity, 553
+  \item Laguerre polynomials, 403
+  \item Laguerre's equation, 483
   \item Laplace
-    \subitem inverse transform, 386
-  \item Laplace transform, 386
-  \item Laplace transformation, 386
+    \subitem inverse transform, 408
+  \item Laplace transform, 408
+  \item Laplace transformation, 408
   \item leading, 182
   \item Legendre
     \subitem associated functions, 341
@@ -318,20 +326,20 @@
     \subitem function, 314, 325
     \subitem polynomial, 314, 328, 329
   \item Leibnitz formula, 335
-  \item limit, 399
+  \item limit, 421
   \item limit cycle, 292
   \item linear, 193
-    \subitem combination, 84, 495
+    \subitem combination, 84, 517
     \subitem ordinary differential equations, 52
     \subitem second order, 82
-    \subitem space, 494
-    \subitem transformation, 651
+    \subitem space, 516
+    \subitem transformation, 673
   \item linear accelerator, 37
-  \item linear combination, 589
-  \item linear dependent, 496, 497, 590, 646
-  \item linear independent, 497, 590
-  \item linear mapping, 651
-  \item linear system, 251, 568
+  \item linear combination, 611
+  \item linear dependent, 518, 519, 612, 668
+  \item linear independent, 519, 612
+  \item linear mapping, 673
+  \item linear system, 251, 590
   \item linearity
     \subitem principle, 83
   \item linearization theorem, 282
@@ -340,31 +348,31 @@
   \item linearly dependent, 89, 144, 195, 199
   \item linearly dependent vector, 232
   \item linearly independent, 89, 144, 195, 199
-  \item linearly independent set, 497, 590
+  \item linearly independent set, 519, 612
   \item logarithmic decrement, 133
 
   \indexspace
 
   \item Maclaurin series, 104, 284
   \item Maclaurin's series, 39
-  \item magnitude, 478
-  \item main diagonal, 541
+  \item magnitude, 500
+  \item main diagonal, 563
   \item Malthus' law, 6
-  \item matrix, 226, 537
-    \subitem augmented, 539
-    \subitem coefficient, 539
-    \subitem diagonal, 559
+  \item matrix, 226, 559
+    \subitem augmented, 561
+    \subitem coefficient, 561
+    \subitem diagonal, 581
     \subitem fundamental, 253
-    \subitem inverse, 232, 628
+    \subitem inverse, 232, 650
     \subitem non singular, 232
-    \subitem nonsingular, 629
-    \subitem scalar, 559
-    \subitem singular, 232, 629
-    \subitem square, 227, 538
-    \subitem stochastic, 561
-    \subitem zero, 545
-  \item minor, 610, 613
-  \item mixed triple product, 528
+    \subitem nonsingular, 651
+    \subitem scalar, 581
+    \subitem singular, 232, 651
+    \subitem square, 227, 560
+    \subitem stochastic, 583
+    \subitem zero, 567
+  \item minor, 632, 635
+  \item mixed triple product, 550
   \item model
     \subitem mathematical, 1, 2
   \item modeling, 2
@@ -373,7 +381,7 @@
   \item moment
     \subitem bending, 221
   \item moment of inertia, 131, 220
-  \item moment vector, 521
+  \item moment vector, 543
   \item motion
     \subitem forced, 164
 
@@ -393,19 +401,19 @@
   \item non linear, 194
   \item non trivial solution, 200
   \item nonhomogeneous, 194
-    \subitem system, 568, 606
+    \subitem system, 590, 628
   \item nonhomogenous
     \subitem second order, 82
   \item nonlinear, 82
   \item nonsingular
-    \subitem matrix, 629
-  \item nontrivial solutions, 606
-  \item norm, 514, 649, 662
+    \subitem matrix, 651
+  \item nontrivial solutions, 628
+  \item norm, 384, 536, 671
   \item null
-    \subitem set, 597
-  \item null space, 607
-  \item null vector, 481
-  \item nullity, 597, 607
+    \subitem set, 619
+  \item null space, 629
+  \item null vector, 503
+  \item nullity, 619, 629
   \item numerical, 13
   \item numerical method, 205
 
@@ -415,28 +423,28 @@
   \item Ohm's law, 56
   \item open
     \subitem interval, 4
-  \item operator, 113, 651
+  \item operator, 113, 673
     \subitem differential, 114
     \subitem identity, 114
   \item order
     \subitem Legendre, 314
     \subitem reduction, 91
-  \item origin, 480
-  \item orthogonal, 330, 488, 649, 661
-  \item orthogonal set, 662
+  \item origin, 502
+  \item orthogonal, 330, 384, 510, 671
+  \item orthogonal set, 384
   \item orthogonal trajectories, 70
-  \item orthogonality, 500, 661
+  \item orthogonality, 383, 522
   \item orthonormal
-    \subitem set, 662
+    \subitem set, 385
   \item oscillations, 81
     \subitem damped, 106, 126
   \item output, 53, 164
   \item over damping, 123
-  \item overdetermined, 578
+  \item overdetermined, 600
 
   \indexspace
 
-  \item parallelogram equality, 649
+  \item parallelogram equality, 671
   \item parameter, 70
   \item parametric curve, 256
   \item partial sum, 314
@@ -447,7 +455,7 @@
     \subitem portrait, 256
   \item phase angle, 121, 171
   \item phase plane, 242
-  \item photosynthesis, 589
+  \item photosynthesis, 611
   \item Plank' constant, 245
   \item point
     \subitem regular, 344
@@ -455,13 +463,13 @@
     \subitem spiral, 258
   \item polynomial, 114
   \item population growth, 61
-  \item position vector, 481
+  \item position vector, 503
   \item power series, 309
     \subitem value or sum, 315
   \item power series method, 309
   \item product
-    \subitem inner, 500, 648
-  \item projection, 502
+    \subitem inner, 522, 670
+  \item projection, 524
 
   \indexspace
 
@@ -477,13 +485,13 @@
   \item radium, 8
   \item radius
     \subitem convergence, 316
-  \item rank, 582, 591
+  \item rank, 604, 613
   \item Rayleigh equation, 297
   \item reactance, 176
-  \item rectangular matrix, 541
+  \item rectangular matrix, 563
   \item rectifier
-    \subitem full wave, 443
-    \subitem half wave, 444
+    \subitem full wave, 465
+    \subitem half wave, 466
   \item recursion
     \subitem Bonnet, 341
   \item recursion formula, 327
@@ -493,54 +501,54 @@
   \item regular point, 344
   \item remainder, 315
   \item resistance, 56
-  \item resonance, 164, 167, 452
+  \item resonance, 164, 167, 474
     \subitem factor, 167
     \subitem practical, 170
   \item response, 53, 164
   \item restoring force, 119
-  \item right handed, 517
+  \item right handed, 539
   \item Rodrigues' formula, 332
   \item Rodrigues's
-    \subitem polynomials, 461
-  \item Rodrigues's formula, 461
+    \subitem polynomials, 483
+  \item Rodrigues's formula, 483
   \item row, 227
-    \subitem vector, 538
-  \item row equivalent, 578, 592
-  \item row space, 596
-  \item rows, 538
+    \subitem vector, 560
+  \item row equivalent, 600, 614
+  \item row space, 618
+  \item rows, 560
 
   \indexspace
 
   \item saddle, 258
-  \item saw-tooth wave, 444
+  \item saw-tooth wave, 466
   \item scalar, 233
-    \subitem matrix, 559
-  \item scalar product, 229, 500
-  \item scalar triple product, 528
-  \item scalars, 477
-  \item Schwarz inequality, 501
+    \subitem matrix, 581
+  \item scalar product, 229, 522
+  \item scalar triple product, 550
+  \item scalars, 499
+  \item Schwarz inequality, 523
   \item separable equation, 23
   \item series
     \subitem power, 309
   \item series circuit, 56, 174
   \item set
     \subitem linearly independent, 232
-    \subitem nonempty, 595
-    \subitem null, 597
+    \subitem nonempty, 617
+    \subitem null, 619
   \item shaded, 76
   \item shearing force, 221
   \item shock absorber, 132
-  \item sifting property, 430
+  \item sifting property, 452
   \item simultaneous equations, 91
   \item singular
     \subitem irregular , 344
-    \subitem matrix, 232, 629
+    \subitem matrix, 232, 651
     \subitem regular point, 344
     \subitem solution, 7
   \item singular point, 344
   \item singular solution, 90
-  \item size, 540
-  \item skew-symmetric, 255, 558
+  \item size, 562
+  \item skew-symmetric, 255, 580
   \item slope
     \subitem field, 14
   \item smooth
@@ -549,21 +557,21 @@
     \subitem family, 4
     \subitem particular, 7
     \subitem singular, 12
-    \subitem space, 606
+    \subitem space, 628
     \subitem trivial, 53
-    \subitem vector, 569
+    \subitem vector, 591
   \item solution curve, 4, 14
-  \item solution set, 578
+  \item solution set, 600
   \item solution vector, 250
   \item solutions
     \subitem periodic, 275
   \item space
-    \subitem Euclidean, 650
-    \subitem linear, 494
-    \subitem real inner product, 513
-    \subitem solution, 606
-    \subitem vector, 494
-  \item span, 496, 595
+    \subitem Euclidean, 672
+    \subitem linear, 516
+    \subitem real inner product, 535
+    \subitem solution, 628
+    \subitem vector, 516
+  \item span, 518, 617
   \item special functions, 309
   \item spin, 245
   \item spin down, 246
@@ -574,31 +582,31 @@
   \item stability, 225, 274
   \item stable, 63, 161, 274
   \item stable and attractive, 274
-  \item stair case, 445
+  \item stair case, 467
   \item standard form
     \subitem second order, 82
-  \item state vector, 562
+  \item state vector, 584
   \item steady state, 58
   \item steady state response, 59
   \item steady state solution, 170
   \item step
-    \subitem function, 412
-  \item stochastic matrix, 561
+    \subitem function, 434
+  \item stochastic matrix, 583
   \item Sturm-Liouville
-    \subitem boundary conditions, 667
-  \item Sturm-Liouville equation, 667
-  \item Sturm-Liouville problem, 667
-  \item submatrix, 603
-  \item subset, 595
-  \item subsidiary equation, 400
-  \item subspace, 595
+    \subitem boundary conditions, 390
+  \item Sturm-Liouville equation, 390
+  \item Sturm-Liouville problem, 390
+  \item submatrix, 625
+  \item subset, 617
+  \item subsidiary equation, 422
+  \item subspace, 617
   \item sufficient condition
     \subitem exactness, 41
   \item summation, 310
   \item superposition
     \subitem principle, 83
   \item symmetric, 255
-    \subitem matrix, 558
+    \subitem matrix, 580
   \item symmetry
     \subitem skew, 255
   \item system
@@ -606,7 +614,8 @@
 
   \indexspace
 
-  \item tail, 479
+  \item tail, 501
+  \item Tchebichef polynomials, 404
   \item theorem
     \subitem existence, 74
     \subitem linearization, 282
@@ -620,29 +629,29 @@
   \item trajectory, 242
   \item transducer, 181
   \item transformation
-    \subitem linear, 651
+    \subitem linear, 673
   \item transient
     \subitem solution, 170
-  \item transpose matrix, 231, 555
-  \item transposition, 231, 555
-  \item triangle inequality, 649
+  \item transpose matrix, 231, 577
+  \item transposition, 231, 577
+  \item triangle inequality, 671
   \item triangular
-    \subitem lower matrix, 559
-    \subitem upper matrix, 559
-  \item trivial solution, 53, 569, 606
+    \subitem lower matrix, 581
+    \subitem upper matrix, 581
+  \item trivial solution, 53, 591, 628
 
   \indexspace
 
-  \item undefined, 412
+  \item undefined, 434
   \item under damping, 123
-  \item underdetermined, 578
+  \item underdetermined, 600
   \item unique
     \subitem general solution, 6
-  \item uniqueness, 2, 143, 604
+  \item uniqueness, 2, 143, 626
   \item unit
-    \subitem impulse, 430
-    \subitem vector, 479, 649
-  \item unit matrix, 231, 559
+    \subitem impulse, 452
+    \subitem vector, 501, 671
+  \item unit matrix, 231, 581
   \item unstable, 63, 161, 274
 
   \indexspace
@@ -651,26 +660,27 @@
   \item van der Pol equation, 292
   \item variable separation, 23
   \item variation of parameter, 61, 185
-  \item vector, 478, 537, 538
-    \subitem bound, 479
-    \subitem column, 227, 538
-    \subitem position, 481
-    \subitem row, 227, 538
-    \subitem sliding, 479
-    \subitem solution, 569
-    \subitem unit, 479, 649
-    \subitem zero, 481, 545
-  \item vector product, 515
-  \item vector space, 494, 595
-    \subitem real, 494, 644
+  \item vector, 500, 559, 560
+    \subitem bound, 501
+    \subitem column, 227, 560
+    \subitem position, 503
+    \subitem row, 227, 560
+    \subitem sliding, 501
+    \subitem solution, 591
+    \subitem unit, 501, 671
+    \subitem zero, 503, 567
+  \item vector product, 537
+  \item vector space, 516, 617
+    \subitem real, 516, 666
   \item Verhulst equation, 61
   \item voltage, 53, 56, 137
-  \item voltage division, 587
+  \item voltage division, 609
 
   \indexspace
 
-  \item weight function, 665
-  \item wheatstone bridge, 587
+  \item Weber's equation, 403
+  \item weight function, 388
+  \item wheatstone bridge, 609
   \item Wronskian, 144, 199
   \item Wronskian determinant, 146
 
@@ -681,11 +691,12 @@
   \indexspace
 
   \item zero
-    \subitem matrix, 545
-    \subitem vector, 481, 545
+    \subitem matrix, 567
+    \subitem vector, 503, 567
   \item zero vector, 232
 
 \end{otherlanguage}
+
   \newpage
 \item آرشمیدس
    \subitem اصول، 130
@@ -1513,5 +1524,4 @@
    \subitem حل، 6
 \item یکتا حل، 198
 \item یکتائی، 2، 143، 604
-
 \end{theindex}

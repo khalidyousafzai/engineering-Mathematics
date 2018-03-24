@@ -4,7 +4,7 @@
 \DeclareMathOperator{\arcsec}{arcsec}
 \DeclareMathOperator{\arccot}{arcCot}
 \DeclareMathOperator{\arccsc}{arcCsc}
-\DeclareMathOperator{\arccosine}{arcCosine}
+\DeclareMathOperator{\arccosine}{arc\,Cos}
 \DeclareMathOperator{\arccosh}{arcCosh}
 \DeclareMathOperator{\arcsinh}{arcsinh}
 \DeclareMathOperator{\arctanh}{arctanh}
@@ -13,10 +13,17 @@
 \DeclareMathOperator{\arccoth}{arcCoth} 
 \DeclareMathOperator{\erf}{erf} 
 \DeclareMathOperator{\erfc}{erfc} 
-%the following two doesnot clash with SI units package
+%the following two Sine Integral symbols doesnot clash with SI units package
 \DeclareMathOperator{\kSi}{Si} 
 \DeclareMathOperator{\ksi}{si} 
-%
+%cosine integral, exponential integral, logrithmic integral
 \DeclareMathOperator{\ci}{si} 
 \DeclareMathOperator{\Ei}{Ei} 
 \DeclareMathOperator{\li}{li} 
+%Fresnel Cosine and SineIntegrals and their Auxiliary integrals
+\DeclareMathOperator{\FC}{C} 
+\DeclareMathOperator{\FS}{S} 
+\DeclareMathOperator{\FAC}{c} 
+\DeclareMathOperator{\FAS}{s} 
+%Hermite polynomials
+\DeclareMathOperator{\He}{He} 

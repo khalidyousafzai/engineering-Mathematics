@@ -857,7 +857,7 @@
 \indexentry{Legendre!polynomial}{\RL {\arabicfont  329}}
 \indexentry{لیژانڈر!کثیر رکنی}{\RL {\arabicfont  329}}
 \indexentry{orthogonal}{\RL {\arabicfont  330}}
-\indexentry{عمودی}{\RL {\arabicfont  330}}
+\indexentry{قائمہ الزاویہ}{\RL {\arabicfont  330}}
 \indexentry{مسئلہ ثنائی، الکراجی}{\RL {\arabicfont  332}}
 \indexentry{الکراجی کا مسئلہ ثنائی}{\RL {\arabicfont  332}}
 \indexentry{Rodrigues' formula}{\RL {\arabicfont  332}}
@@ -940,529 +940,550 @@
 \indexentry{Hankel functions}{\RL {\arabicfont  381}}
 \indexentry{تفاعل!ہینکل}{\RL {\arabicfont  381}}
 \indexentry{ہینکل تفاعل}{\RL {\arabicfont  381}}
-\indexentry{Laplace transform}{\RL {\arabicfont  386}}
-\indexentry{لاپلاس بدل}{\RL {\arabicfont  386}}
-\indexentry{Laplace transformation}{\RL {\arabicfont  386}}
-\indexentry{لاپلاس تبادلہ}{\RL {\arabicfont  386}}
-\indexentry{Laplace!inverse transform}{\RL {\arabicfont  386}}
-\indexentry{لاپلاس!الٹ بدل}{\RL {\arabicfont  386}}
-\indexentry{improper integral}{\RL {\arabicfont  387}}
-\indexentry{غیر مناسب تکمل}{\RL {\arabicfont  387}}
-\indexentry{continuous!piecewise}{\RL {\arabicfont  390}}
-\indexentry{استمراری!ٹکڑوں میں}{\RL {\arabicfont  390}}
-\indexentry{jumps}{\RL {\arabicfont  390}}
-\indexentry{چھلانگ}{\RL {\arabicfont  390}}
-\indexentry{jump}{\RL {\arabicfont  399}}
-\indexentry{چھلانگ}{\RL {\arabicfont  399}}
-\indexentry{limit}{\RL {\arabicfont  399}}
-\indexentry{حد}{\RL {\arabicfont  399}}
-\indexentry{subsidiary equation}{\RL {\arabicfont  400}}
-\indexentry{مساوات!ضمنی}{\RL {\arabicfont  400}}
-\indexentry{ضمنی مساوات}{\RL {\arabicfont  400}}
-\indexentry{Heaviside step function}{\RL {\arabicfont  412}}
-\indexentry{ہیوی سائیڈ سیڑھی تفاعل}{\RL {\arabicfont  412}}
-\indexentry{step!function}{\RL {\arabicfont  412}}
-\indexentry{سیڑھی!اکائی}{\RL {\arabicfont  412}}
-\indexentry{اکائی!سیڑھی تفاعل}{\RL {\arabicfont  412}}
-\indexentry{undefined}{\RL {\arabicfont  412}}
-\indexentry{غیر معین}{\RL {\arabicfont  412}}
-\indexentry{Dirac!delta function}{\RL {\arabicfont  429}}
-\indexentry{ڈیراک!ڈیلٹائی تفاعل}{\RL {\arabicfont  429}}
-\indexentry{impulse}{\RL {\arabicfont  429}}
-\indexentry{ضرب}{\RL {\arabicfont  429}}
-\indexentry{unit!impulse}{\RL {\arabicfont  430}}
-\indexentry{اکائی!ضرب}{\RL {\arabicfont  430}}
-\indexentry{اکائی ضرب تفاعل}{\RL {\arabicfont  430}}
-\indexentry{sifting property}{\RL {\arabicfont  430}}
-\indexentry{چننا!خاصیت}{\RL {\arabicfont  430}}
-\indexentry{rectifier!full wave}{\RL {\arabicfont  443}}
-\indexentry{سمت کار!مکمل لہر}{\RL {\arabicfont  443}}
-\indexentry{rectifier!half wave}{\RL {\arabicfont  444}}
-\indexentry{سمت کار!نصف لہر}{\RL {\arabicfont  444}}
-\indexentry{saw-tooth wave}{\RL {\arabicfont  444}}
-\indexentry{موج!دندان}{\RL {\arabicfont  444}}
-\indexentry{دندان موج}{\RL {\arabicfont  444}}
-\indexentry{stair case}{\RL {\arabicfont  445}}
-\indexentry{سیڑھی موج}{\RL {\arabicfont  445}}
-\indexentry{موج!سیڑھی}{\RL {\arabicfont  445}}
-\indexentry{convolution}{\RL {\arabicfont  447}}
-\indexentry{الجھاو}{\RL {\arabicfont  447}}
-\indexentry{resonance}{\RL {\arabicfont  452}}
-\indexentry{گمک}{\RL {\arabicfont  452}}
-\indexentry{Laguerre's equation}{\RL {\arabicfont  461}}
-\indexentry{سادہ تفرقی مساوات!لاگیھ}{\RL {\arabicfont  461}}
-\indexentry{لاگیغ سادہ تفرقی مساوات}{\RL {\arabicfont  461}}
-\indexentry{Rodrigues's formula}{\RL {\arabicfont  461}}
-\indexentry{روڈریکیس!کلیہ}{\RL {\arabicfont  461}}
-\indexentry{Rodrigues's!polynomials}{\RL {\arabicfont  461}}
-\indexentry{روڈریکیس!کثیر رکنی}{\RL {\arabicfont  461}}
-\indexentry{generating function!Laguerre polynomials}{\RL {\arabicfont  464}}
-\indexentry{پیداکار تفاعل!لاگیغ کثیر رکنی}{\RL {\arabicfont  464}}
-\indexentry{scalars}{\RL {\arabicfont  477}}
-\indexentry{سمتیہ!غیر}{\RL {\arabicfont  477}}
-\indexentry{غیر سمتیات}{\RL {\arabicfont  477}}
-\indexentry{vector}{\RL {\arabicfont  478}}
-\indexentry{سمتیہ}{\RL {\arabicfont  478}}
-\indexentry{magnitude}{\RL {\arabicfont  478}}
-\indexentry{سمتیہ!مقدار}{\RL {\arabicfont  478}}
-\indexentry{مقدار!سمتیہ}{\RL {\arabicfont  478}}
-\indexentry{Euclidean norm}{\RL {\arabicfont  478}}
-\indexentry{اقلیدسی معیار}{\RL {\arabicfont  478}}
-\indexentry{head}{\RL {\arabicfont  479}}
-\indexentry{سمتیہ!سر}{\RL {\arabicfont  479}}
-\indexentry{سر}{\RL {\arabicfont  479}}
-\indexentry{tail}{\RL {\arabicfont  479}}
-\indexentry{سمتیہ!دم}{\RL {\arabicfont  479}}
-\indexentry{دم}{\RL {\arabicfont  479}}
-\indexentry{unit!vector}{\RL {\arabicfont  479}}
-\indexentry{vector!unit}{\RL {\arabicfont  479}}
-\indexentry{سمتیہ!اکائی}{\RL {\arabicfont  479}}
-\indexentry{اکائی!سمتیہ}{\RL {\arabicfont  479}}
-\indexentry{vector!sliding}{\RL {\arabicfont  479}}
-\indexentry{سمتیہ!قابل منتقلی}{\RL {\arabicfont  479}}
-\indexentry{vector!bound}{\RL {\arabicfont  479}}
-\indexentry{bound vector}{\RL {\arabicfont  479}}
-\indexentry{سمتیہ!مقید}{\RL {\arabicfont  479}}
-\indexentry{مقید!سمتیہ}{\RL {\arabicfont  479}}
-\indexentry{coordinates}{\RL {\arabicfont  480}}
-\indexentry{محور}{\RL {\arabicfont  480}}
-\indexentry{origin}{\RL {\arabicfont  480}}
-\indexentry{مرکز}{\RL {\arabicfont  480}}
-\indexentry{Cartesian coordinate system}{\RL {\arabicfont  480}}
-\indexentry{کارتیسی نظام محدد}{\RL {\arabicfont  480}}
-\indexentry{components}{\RL {\arabicfont  480}}
-\indexentry{اجزاء}{\RL {\arabicfont  480}}
-\indexentry{vector!position}{\RL {\arabicfont  481}}
-\indexentry{position vector}{\RL {\arabicfont  481}}
-\indexentry{سمتیہ!تعین گر}{\RL {\arabicfont  481}}
-\indexentry{تعین گر سمتیہ}{\RL {\arabicfont  481}}
-\indexentry{zero!vector}{\RL {\arabicfont  481}}
-\indexentry{vector!zero}{\RL {\arabicfont  481}}
-\indexentry{سمتیہ!صفر}{\RL {\arabicfont  481}}
-\indexentry{صفر سمتیہ}{\RL {\arabicfont  481}}
-\indexentry{null vector}{\RL {\arabicfont  481}}
-\indexentry{معدوم سمتیہ}{\RL {\arabicfont  481}}
-\indexentry{orthogonal}{\RL {\arabicfont  488}}
-\indexentry{قائمہ}{\RL {\arabicfont  488}}
-\indexentry{ثلاثہ قائمہ سمتیات}{\RL {\arabicfont  488}}
-\indexentry{space!linear}{\RL {\arabicfont  494}}
-\indexentry{linear!space}{\RL {\arabicfont  494}}
-\indexentry{فضا!خطی}{\RL {\arabicfont  494}}
-\indexentry{خطی !فضا}{\RL {\arabicfont  494}}
-\indexentry{space!vector}{\RL {\arabicfont  494}}
-\indexentry{vector space}{\RL {\arabicfont  494}}
-\indexentry{فضا!سمتی}{\RL {\arabicfont  494}}
-\indexentry{سمتی!فضا}{\RL {\arabicfont  494}}
-\indexentry{vector space!real}{\RL {\arabicfont  494}}
-\indexentry{سمتی فضا!حقیقی}{\RL {\arabicfont  494}}
-\indexentry{حقیقی سمتی فضا}{\RL {\arabicfont  494}}
-\indexentry{جمع!سمتی}{\RL {\arabicfont  494}}
-\indexentry{سمتی!جمع}{\RL {\arabicfont  494}}
-\indexentry{قانون!تبادل}{\RL {\arabicfont  494}}
-\indexentry{قانون!تلازم}{\RL {\arabicfont  494}}
-\indexentry{غیر سمتی}{\RL {\arabicfont  495}}
-\indexentry{ضرب!غیر سمتی}{\RL {\arabicfont  495}}
-\indexentry{غیر سمتی!ضرب}{\RL {\arabicfont  495}}
-\indexentry{قانون!تقسیم}{\RL {\arabicfont  495}}
-\indexentry{linear!combination}{\RL {\arabicfont  495}}
-\indexentry{خطی!مجموعہ}{\RL {\arabicfont  495}}
-\indexentry{generator}{\RL {\arabicfont  496}}
-\indexentry{پیدا کار}{\RL {\arabicfont  496}}
-\indexentry{span}{\RL {\arabicfont  496}}
-\indexentry{احاطہ}{\RL {\arabicfont  496}}
-\indexentry{linear dependent}{\RL {\arabicfont  496}}
-\indexentry{خطی طور تابع}{\RL {\arabicfont  496}}
-\indexentry{basis}{\RL {\arabicfont  497}}
-\indexentry{اساس}{\RL {\arabicfont  497}}
-\indexentry{linear independent}{\RL {\arabicfont  497}}
-\indexentry{خطی طور غیر تابع}{\RL {\arabicfont  497}}
-\indexentry{linearly independent set}{\RL {\arabicfont  497}}
-\indexentry{خطی طور غیر تابع سلسلہ}{\RL {\arabicfont  497}}
-\indexentry{linear dependent}{\RL {\arabicfont  497}}
-\indexentry{خطی طور تابع}{\RL {\arabicfont  497}}
-\indexentry{collinear}{\RL {\arabicfont  498}}
-\indexentry{ہم خطی}{\RL {\arabicfont  498}}
-\indexentry{coplanar}{\RL {\arabicfont  498}}
-\indexentry{ہم سطحی}{\RL {\arabicfont  498}}
-\indexentry{product!inner}{\RL {\arabicfont  500}}
-\indexentry{inner product}{\RL {\arabicfont  500}}
-\indexentry{ضرب!اندرونی}{\RL {\arabicfont  500}}
-\indexentry{اندرونی ضرب}{\RL {\arabicfont  500}}
-\indexentry{dot product}{\RL {\arabicfont  500}}
-\indexentry{نقطہ!ضرب}{\RL {\arabicfont  500}}
-\indexentry{ضرب!نقطہ}{\RL {\arabicfont  500}}
-\indexentry{scalar product}{\RL {\arabicfont  500}}
-\indexentry{ضرب!غیر سمتی}{\RL {\arabicfont  500}}
-\indexentry{غیر سمتی!ضرب}{\RL {\arabicfont  500}}
-\indexentry{orthogonality}{\RL {\arabicfont  500}}
-\indexentry{قائمیت}{\RL {\arabicfont  500}}
-\indexentry{استبدالی}{\RL {\arabicfont  501}}
-\indexentry{Schwarz inequality}{\RL {\arabicfont  501}}
-\indexentry{شوارز عدم مساوات}{\RL {\arabicfont  501}}
-\indexentry{projection}{\RL {\arabicfont  502}}
-\indexentry{عمودی سایہ}{\RL {\arabicfont  502}}
-\indexentry{space!real inner product}{\RL {\arabicfont  513}}
-\indexentry{فضا!حقیقی اندرونی ضرب}{\RL {\arabicfont  513}}
-\indexentry{norm}{\RL {\arabicfont  514}}
-\indexentry{معیار}{\RL {\arabicfont  514}}
-\indexentry{cross product}{\RL {\arabicfont  515}}
-\indexentry{صلیبی ضرب}{\RL {\arabicfont  515}}
-\indexentry{vector product}{\RL {\arabicfont  515}}
-\indexentry{سمتی ضرب}{\RL {\arabicfont  515}}
-\indexentry{right handed}{\RL {\arabicfont  517}}
-\indexentry{دایاں ہاتھ!کارتیسی نظام}{\RL {\arabicfont  517}}
-\indexentry{کارتیسی نظام!دائیں ہاتھ}{\RL {\arabicfont  517}}
-\indexentry{moment vector}{\RL {\arabicfont  521}}
-\indexentry{قوت!معیار اثر سمتیہ}{\RL {\arabicfont  521}}
-\indexentry{معیار اثر سمتیہ}{\RL {\arabicfont  521}}
-\indexentry{سمتی رفتار!زاویائی}{\RL {\arabicfont  522}}
-\indexentry{زاویائی سمتی رفتار}{\RL {\arabicfont  522}}
-\indexentry{angular velocity}{\RL {\arabicfont  522}}
-\indexentry{angular speed}{\RL {\arabicfont  522}}
-\indexentry{رفتار!زاویائی}{\RL {\arabicfont  522}}
-\indexentry{زاویائی رفتار}{\RL {\arabicfont  522}}
-\indexentry{mixed triple product}{\RL {\arabicfont  528}}
-\indexentry{scalar triple product}{\RL {\arabicfont  528}}
-\indexentry{سہ ضرب!غیر سمتی}{\RL {\arabicfont  528}}
-\indexentry{غیر سمتی!سہ ضرب}{\RL {\arabicfont  528}}
-\indexentry{Lagrange!identity}{\RL {\arabicfont  531}}
-\indexentry{مماثل!لیگرینج}{\RL {\arabicfont  531}}
-\indexentry{لیگرینج!مماثل}{\RL {\arabicfont  531}}
-\indexentry{vector}{\RL {\arabicfont  537}}
-\indexentry{سمتیہ}{\RL {\arabicfont  537}}
-\indexentry{matrix}{\RL {\arabicfont  537}}
-\indexentry{قالب}{\RL {\arabicfont  537}}
-\indexentry{elements}{\RL {\arabicfont  538}}
-\indexentry{ارکان}{\RL {\arabicfont  538}}
-\indexentry{صف}{\RL {\arabicfont  538}}
-\indexentry{columns}{\RL {\arabicfont  538}}
-\indexentry{قطار}{\RL {\arabicfont  538}}
-\indexentry{rows}{\RL {\arabicfont  538}}
-\indexentry{matrix!square}{\RL {\arabicfont  538}}
-\indexentry{قالب!مربع}{\RL {\arabicfont  538}}
-\indexentry{vector}{\RL {\arabicfont  538}}
-\indexentry{سمتیہ}{\RL {\arabicfont  538}}
-\indexentry{vector!row}{\RL {\arabicfont  538}}
-\indexentry{row!vector}{\RL {\arabicfont  538}}
-\indexentry{صف!سمتیہ}{\RL {\arabicfont  538}}
-\indexentry{سمتیہ!صف}{\RL {\arabicfont  538}}
-\indexentry{vector!column}{\RL {\arabicfont  538}}
-\indexentry{column!vector}{\RL {\arabicfont  538}}
-\indexentry{قطار!سمتیہ}{\RL {\arabicfont  538}}
-\indexentry{سمتیہ!قطار}{\RL {\arabicfont  538}}
-\indexentry{matrix!coefficient}{\RL {\arabicfont  539}}
-\indexentry{coefficient!matrix}{\RL {\arabicfont  539}}
-\indexentry{قالب!عددی سر}{\RL {\arabicfont  539}}
-\indexentry{عددی سر قالب}{\RL {\arabicfont  539}}
-\indexentry{قالب!افزودہ}{\RL {\arabicfont  539}}
-\indexentry{افزودہ قالب}{\RL {\arabicfont  539}}
-\indexentry{matrix!augmented}{\RL {\arabicfont  539}}
-\indexentry{augmented matrix}{\RL {\arabicfont  539}}
-\indexentry{size}{\RL {\arabicfont  540}}
-\indexentry{جسامت}{\RL {\arabicfont  540}}
-\indexentry{main diagonal}{\RL {\arabicfont  541}}
-\indexentry{مرکزی وتر}{\RL {\arabicfont  541}}
-\indexentry{rectangular matrix}{\RL {\arabicfont  541}}
-\indexentry{مستطیل}{\RL {\arabicfont  541}}
-\indexentry{components}{\RL {\arabicfont  541}}
-\indexentry{اجزاء}{\RL {\arabicfont  541}}
-\indexentry{مختلف}{\RL {\arabicfont  542}}
-\indexentry{different}{\RL {\arabicfont  542}}
-\indexentry{ضرب!غیر سمتی}{\RL {\arabicfont  544}}
-\indexentry{difference}{\RL {\arabicfont  544}}
-\indexentry{فرق}{\RL {\arabicfont  544}}
-\indexentry{zero!matrix}{\RL {\arabicfont  545}}
-\indexentry{matrix!zero}{\RL {\arabicfont  545}}
-\indexentry{قالب!صفر}{\RL {\arabicfont  545}}
-\indexentry{صفر!قالب}{\RL {\arabicfont  545}}
-\indexentry{zero!vector}{\RL {\arabicfont  545}}
-\indexentry{vector!zero}{\RL {\arabicfont  545}}
-\indexentry{سمتیہ!صفر}{\RL {\arabicfont  545}}
-\indexentry{صفر!سمتیہ}{\RL {\arabicfont  545}}
-\indexentry{قانون!تلازم}{\RL {\arabicfont  545}}
-\indexentry{قانون!تبادل}{\RL {\arabicfont  545}}
-\indexentry{equilibrium}{\RL {\arabicfont  548}}
-\indexentry{متوازن}{\RL {\arabicfont  548}}
-\indexentry{transpose matrix}{\RL {\arabicfont  555}}
-\indexentry{تبدیل محل قالب}{\RL {\arabicfont  555}}
-\indexentry{transposition}{\RL {\arabicfont  555}}
-\indexentry{تبدیلی محل}{\RL {\arabicfont  555}}
-\indexentry{symmetric!matrix}{\RL {\arabicfont  558}}
-\indexentry{قالب!تشاکلی}{\RL {\arabicfont  558}}
-\indexentry{تشاکلی!قالب}{\RL {\arabicfont  558}}
-\indexentry{skew-symmetric}{\RL {\arabicfont  558}}
-\indexentry{قالب!منحرف تشاکلی}{\RL {\arabicfont  558}}
-\indexentry{تشاکلی!منحرف}{\RL {\arabicfont  558}}
-\indexentry{triangular!upper matrix}{\RL {\arabicfont  559}}
-\indexentry{قالب!بالائی تکونی}{\RL {\arabicfont  559}}
-\indexentry{تکونی!بالائی قالب}{\RL {\arabicfont  559}}
-\indexentry{triangular!lower matrix}{\RL {\arabicfont  559}}
-\indexentry{قالب!نچلا تکونی}{\RL {\arabicfont  559}}
-\indexentry{تکونی!نچلا قالب}{\RL {\arabicfont  559}}
-\indexentry{matrix!diagonal}{\RL {\arabicfont  559}}
-\indexentry{diagonal!matrix}{\RL {\arabicfont  559}}
-\indexentry{قالب!وتری}{\RL {\arabicfont  559}}
-\indexentry{وتری قالب}{\RL {\arabicfont  559}}
-\indexentry{matrix!scalar}{\RL {\arabicfont  559}}
-\indexentry{scalar!matrix}{\RL {\arabicfont  559}}
-\indexentry{قالب!غیر سمتی}{\RL {\arabicfont  559}}
-\indexentry{غیر سمتی!قالب}{\RL {\arabicfont  559}}
-\indexentry{unit matrix}{\RL {\arabicfont  559}}
-\indexentry{قالب!اکائی}{\RL {\arabicfont  559}}
-\indexentry{اکائی!قالب}{\RL {\arabicfont  559}}
-\indexentry{stochastic matrix}{\RL {\arabicfont  561}}
-\indexentry{matrix!stochastic}{\RL {\arabicfont  561}}
-\indexentry{امکانی شماریاتی قالب}{\RL {\arabicfont  561}}
-\indexentry{قالب!امکانی شماریاتی}{\RL {\arabicfont  561}}
-\indexentry{state vector}{\RL {\arabicfont  562}}
-\indexentry{حال!سمتیہ}{\RL {\arabicfont  562}}
-\indexentry{سمتیہ!حال}{\RL {\arabicfont  562}}
-\indexentry{commutative}{\RL {\arabicfont  565}}
-\indexentry{قابل تبادل}{\RL {\arabicfont  565}}
-\indexentry{Gauss elimination}{\RL {\arabicfont  568}}
-\indexentry{گاوسی اسقاط}{\RL {\arabicfont  568}}
-\indexentry{linear system}{\RL {\arabicfont  568}}
-\indexentry{خطی نظام}{\RL {\arabicfont  568}}
-\indexentry{coefficients}{\RL {\arabicfont  568}}
-\indexentry{عددی سر}{\RL {\arabicfont  568}}
-\indexentry{homogeneous!system}{\RL {\arabicfont  568}}
-\indexentry{ہم جنسی!نظام}{\RL {\arabicfont  568}}
-\indexentry{nonhomogeneous!system}{\RL {\arabicfont  568}}
-\indexentry{ہم جنسی!غیر}{\RL {\arabicfont  568}}
-\indexentry{غیر ہم جنسی!نظام}{\RL {\arabicfont  568}}
-\indexentry{solution!vector}{\RL {\arabicfont  569}}
-\indexentry{vector!solution}{\RL {\arabicfont  569}}
-\indexentry{سمتیہ!حل}{\RL {\arabicfont  569}}
-\indexentry{حل!سمتیہ}{\RL {\arabicfont  569}}
-\indexentry{trivial solution}{\RL {\arabicfont  569}}
-\indexentry{حل!غیر اہم صفر}{\RL {\arabicfont  569}}
-\indexentry{غیر اہم صفر حل}{\RL {\arabicfont  569}}
-\indexentry{coefficient!matrix}{\RL {\arabicfont  569}}
-\indexentry{عددی سر!قالب}{\RL {\arabicfont  569}}
-\indexentry{augmented matrix}{\RL {\arabicfont  569}}
-\indexentry{افزودہ قالب}{\RL {\arabicfont  569}}
-\indexentry{Gauss elimination}{\RL {\arabicfont  572}}
-\indexentry{گاوسی اسقاط}{\RL {\arabicfont  572}}
-\indexentry{row equivalent}{\RL {\arabicfont  578}}
-\indexentry{صف برابر}{\RL {\arabicfont  578}}
-\indexentry{solution set}{\RL {\arabicfont  578}}
-\indexentry{حل!سلسلہ}{\RL {\arabicfont  578}}
-\indexentry{سلسلہ!حل}{\RL {\arabicfont  578}}
-\indexentry{overdetermined}{\RL {\arabicfont  578}}
-\indexentry{زائد معلوم}{\RL {\arabicfont  578}}
-\indexentry{determined}{\RL {\arabicfont  578}}
-\indexentry{معلوم}{\RL {\arabicfont  578}}
-\indexentry{underdetermined}{\RL {\arabicfont  578}}
-\indexentry{کم معلوم}{\RL {\arabicfont  578}}
-\indexentry{inconsistent}{\RL {\arabicfont  578}}
-\indexentry{متضاد}{\RL {\arabicfont  578}}
-\indexentry{consistent}{\RL {\arabicfont  578}}
-\indexentry{بلا تضاد}{\RL {\arabicfont  578}}
-\indexentry{echelon form}{\RL {\arabicfont  581}}
-\indexentry{صف زینہ دار}{\RL {\arabicfont  581}}
-\indexentry{echelon form!reduced}{\RL {\arabicfont  581}}
-\indexentry{زینہ دار صورت!سادہ}{\RL {\arabicfont  581}}
-\indexentry{rank}{\RL {\arabicfont  582}}
-\indexentry{درجہ قالب}{\RL {\arabicfont  582}}
-\indexentry{voltage division}{\RL {\arabicfont  587}}
-\indexentry{تقسیم دباو!کلیہ}{\RL {\arabicfont  587}}
-\indexentry{کلیہ!تقسیم دباو}{\RL {\arabicfont  587}}
-\indexentry{wheatstone bridge}{\RL {\arabicfont  587}}
-\indexentry{ویٹ سٹون پل}{\RL {\arabicfont  587}}
-\indexentry{ammeter}{\RL {\arabicfont  587}}
-\indexentry{ایمپیئر پیما}{\RL {\arabicfont  587}}
-\indexentry{photosynthesis}{\RL {\arabicfont  589}}
-\indexentry{ضیائی تالیف}{\RL {\arabicfont  589}}
-\indexentry{linear combination}{\RL {\arabicfont  589}}
-\indexentry{خطی مجموعہ}{\RL {\arabicfont  589}}
-\indexentry{linear independent}{\RL {\arabicfont  590}}
-\indexentry{خطی طور غیر تابع}{\RL {\arabicfont  590}}
-\indexentry{linearly independent set}{\RL {\arabicfont  590}}
-\indexentry{خطی طور غیر تابع سلسلہ}{\RL {\arabicfont  590}}
-\indexentry{linear dependent}{\RL {\arabicfont  590}}
-\indexentry{خطی طور تابع}{\RL {\arabicfont  590}}
-\indexentry{rank}{\RL {\arabicfont  591}}
-\indexentry{درجہ}{\RL {\arabicfont  591}}
-\indexentry{row equivalent}{\RL {\arabicfont  592}}
-\indexentry{صف برابر}{\RL {\arabicfont  592}}
-\indexentry{set!nonempty}{\RL {\arabicfont  595}}
-\indexentry{سلسلہ!غیر خالی}{\RL {\arabicfont  595}}
-\indexentry{vector space}{\RL {\arabicfont  595}}
-\indexentry{سمتی فضا}{\RL {\arabicfont  595}}
-\indexentry{dimension}{\RL {\arabicfont  595}}
-\indexentry{بُعد}{\RL {\arabicfont  595}}
-\indexentry{basis}{\RL {\arabicfont  595}}
-\indexentry{اساس}{\RL {\arabicfont  595}}
-\indexentry{span}{\RL {\arabicfont  595}}
-\indexentry{احاطہ}{\RL {\arabicfont  595}}
-\indexentry{subset}{\RL {\arabicfont  595}}
-\indexentry{سلسلہ!ذیلی}{\RL {\arabicfont  595}}
-\indexentry{subspace}{\RL {\arabicfont  595}}
-\indexentry{فضا!ذیلی}{\RL {\arabicfont  595}}
-\indexentry{row space}{\RL {\arabicfont  596}}
-\indexentry{صف فضا}{\RL {\arabicfont  596}}
-\indexentry{column space}{\RL {\arabicfont  596}}
-\indexentry{قطار فضا}{\RL {\arabicfont  596}}
-\indexentry{nullity}{\RL {\arabicfont  597}}
-\indexentry{معدومیت}{\RL {\arabicfont  597}}
-\indexentry{null!set}{\RL {\arabicfont  597}}
-\indexentry{set!null}{\RL {\arabicfont  597}}
-\indexentry{معدوم!فضا}{\RL {\arabicfont  597}}
-\indexentry{فضا!معدوم}{\RL {\arabicfont  597}}
-\indexentry{submatrix}{\RL {\arabicfont  603}}
-\indexentry{ذیلی قالب}{\RL {\arabicfont  603}}
-\indexentry{existence}{\RL {\arabicfont  603}}
-\indexentry{وجودیت}{\RL {\arabicfont  603}}
-\indexentry{uniqueness}{\RL {\arabicfont  604}}
-\indexentry{یکتائی}{\RL {\arabicfont  604}}
-\indexentry{homogeneous!system}{\RL {\arabicfont  606}}
-\indexentry{متجانس!نظام}{\RL {\arabicfont  606}}
-\indexentry{nonhomogeneous!system}{\RL {\arabicfont  606}}
-\indexentry{غیر متجانس!نظام}{\RL {\arabicfont  606}}
-\indexentry{nontrivial solutions}{\RL {\arabicfont  606}}
-\indexentry{غیر صفر اہم حل}{\RL {\arabicfont  606}}
-\indexentry{trivial solution}{\RL {\arabicfont  606}}
-\indexentry{غیر اہم صفر حل}{\RL {\arabicfont  606}}
-\indexentry{solution!space}{\RL {\arabicfont  606}}
-\indexentry{space!solution}{\RL {\arabicfont  606}}
-\indexentry{حل فضا}{\RL {\arabicfont  606}}
-\indexentry{بلا تضاد}{\RL {\arabicfont  607}}
-\indexentry{basis!of solution}{\RL {\arabicfont  607}}
-\indexentry{اساس!حل}{\RL {\arabicfont  607}}
-\indexentry{فضا!معدوم}{\RL {\arabicfont  607}}
-\indexentry{معدوم!فضا}{\RL {\arabicfont  607}}
-\indexentry{nullity}{\RL {\arabicfont  607}}
-\indexentry{معدومیت}{\RL {\arabicfont  607}}
-\indexentry{null space}{\RL {\arabicfont  607}}
-\indexentry{consistent}{\RL {\arabicfont  608}}
-\indexentry{بلا تضاد}{\RL {\arabicfont  608}}
-\indexentry{determinant}{\RL {\arabicfont  608}}
-\indexentry{قالب!مقطع}{\RL {\arabicfont  608}}
-\indexentry{مقطع!قالب}{\RL {\arabicfont  608}}
-\indexentry{Cramer's rule}{\RL {\arabicfont  609}}
-\indexentry{قاعدہ کریمر}{\RL {\arabicfont  609}}
-\indexentry{minor}{\RL {\arabicfont  610}}
-\indexentry{اصغر}{\RL {\arabicfont  610}}
-\indexentry{determinant!higher order}{\RL {\arabicfont  612}}
-\indexentry{مقطع!بلند درجی}{\RL {\arabicfont  612}}
-\indexentry{cofactor}{\RL {\arabicfont  613}}
-\indexentry{ہم ضربی}{\RL {\arabicfont  613}}
-\indexentry{minor}{\RL {\arabicfont  613}}
-\indexentry{اصغر}{\RL {\arabicfont  613}}
-\indexentry{الکراجی ماخوذ}{\RL {\arabicfont  615}}
-\indexentry{Cramer's rule}{\RL {\arabicfont  619}}
-\indexentry{کریمر!قاعدہ}{\RL {\arabicfont  619}}
-\indexentry{قاعدہ کریمر}{\RL {\arabicfont  619}}
-\indexentry{inverse!matrix}{\RL {\arabicfont  628}}
-\indexentry{matrix!inverse}{\RL {\arabicfont  628}}
-\indexentry{قالب!معکوس}{\RL {\arabicfont  628}}
-\indexentry{معکوس!قالب}{\RL {\arabicfont  628}}
-\indexentry{matrix!nonsingular}{\RL {\arabicfont  629}}
-\indexentry{nonsingular!matrix}{\RL {\arabicfont  629}}
-\indexentry{قالب!غیر نادر}{\RL {\arabicfont  629}}
-\indexentry{غیر نادر!قالب}{\RL {\arabicfont  629}}
-\indexentry{matrix!singular}{\RL {\arabicfont  629}}
-\indexentry{singular!matrix}{\RL {\arabicfont  629}}
-\indexentry{قالب!نادر}{\RL {\arabicfont  629}}
-\indexentry{نادر!قالب}{\RL {\arabicfont  629}}
-\indexentry{Gauss-Jordan elimination}{\RL {\arabicfont  630}}
-\indexentry{گاوس جارڈن اسقاط}{\RL {\arabicfont  630}}
-\indexentry{vector space!real}{\RL {\arabicfont  644}}
-\indexentry{سمتی فضا!حقیقی}{\RL {\arabicfont  644}}
-\indexentry{حقیقی سمتی فضا}{\RL {\arabicfont  644}}
-\indexentry{جمع!سمتی}{\RL {\arabicfont  644}}
-\indexentry{سمتی!جمع}{\RL {\arabicfont  644}}
-\indexentry{قانون!تبادل}{\RL {\arabicfont  644}}
-\indexentry{قانون!تلازم}{\RL {\arabicfont  644}}
-\indexentry{غیر سمتی}{\RL {\arabicfont  644}}
-\indexentry{ضرب!غیر سمتی}{\RL {\arabicfont  644}}
-\indexentry{غیر سمتی!ضرب}{\RL {\arabicfont  644}}
-\indexentry{قانون!تقسیم}{\RL {\arabicfont  645}}
-\indexentry{خطی مجموعہ}{\RL {\arabicfont  645}}
-\indexentry{linear dependent}{\RL {\arabicfont  646}}
-\indexentry{خطی طور تابع}{\RL {\arabicfont  646}}
-\indexentry{اساس}{\RL {\arabicfont  646}}
-\indexentry{basis}{\RL {\arabicfont  646}}
-\indexentry{dimension!infinite}{\RL {\arabicfont  647}}
-\indexentry{بعد!لامتناہی}{\RL {\arabicfont  647}}
-\indexentry{product!inner}{\RL {\arabicfont  648}}
-\indexentry{inner!product}{\RL {\arabicfont  648}}
-\indexentry{ضرب!اندرونی}{\RL {\arabicfont  648}}
-\indexentry{اندرونی!ضرب}{\RL {\arabicfont  648}}
-\indexentry{dot!product}{\RL {\arabicfont  648}}
-\indexentry{ضرب!نقطہ}{\RL {\arabicfont  648}}
-\indexentry{orthogonal}{\RL {\arabicfont  649}}
-\indexentry{عمودی}{\RL {\arabicfont  649}}
-\indexentry{norm}{\RL {\arabicfont  649}}
-\indexentry{معیار}{\RL {\arabicfont  649}}
-\indexentry{لمبائی}{\RL {\arabicfont  649}}
-\indexentry{vector!unit}{\RL {\arabicfont  649}}
-\indexentry{unit!vector}{\RL {\arabicfont  649}}
-\indexentry{سمتیہ!اکائی}{\RL {\arabicfont  649}}
-\indexentry{اکائی!سمتیہ}{\RL {\arabicfont  649}}
-\indexentry{inequality!Cauchy-Schwarz}{\RL {\arabicfont  649}}
-\indexentry{Cauchy-Schwarz inequality}{\RL {\arabicfont  649}}
-\indexentry{عدم مساوات!کوشی شوارز}{\RL {\arabicfont  649}}
-\indexentry{کوشی شوارز عدم مساوات}{\RL {\arabicfont  649}}
-\indexentry{inequality!triangle}{\RL {\arabicfont  649}}
-\indexentry{inequality!triangle}{\RL {\arabicfont  649}}
-\indexentry{triangle inequality}{\RL {\arabicfont  649}}
-\indexentry{عدم مساوات!تکونی}{\RL {\arabicfont  649}}
-\indexentry{عدم مساوات!تکونی}{\RL {\arabicfont  649}}
-\indexentry{تکونی عدم مساوات}{\RL {\arabicfont  649}}
-\indexentry{equality!parallelogram}{\RL {\arabicfont  649}}
-\indexentry{parallelogram equality}{\RL {\arabicfont  649}}
-\indexentry{مساوات!متوازی الاضلاع}{\RL {\arabicfont  649}}
-\indexentry{متوازی الاضلاع مساوات}{\RL {\arabicfont  649}}
-\indexentry{space!Euclidean}{\RL {\arabicfont  650}}
-\indexentry{Euclidean space}{\RL {\arabicfont  650}}
-\indexentry{فضا!اقلیدسی}{\RL {\arabicfont  650}}
-\indexentry{اقلیدسی فضا}{\RL {\arabicfont  650}}
-\indexentry{معیار!اقلیدسی}{\RL {\arabicfont  650}}
-\indexentry{operator}{\RL {\arabicfont  651}}
-\indexentry{عامل}{\RL {\arabicfont  651}}
-\indexentry{image}{\RL {\arabicfont  651}}
-\indexentry{فرہنگ}{\RL {\arabicfont  651}}
-\indexentry{transformation!linear}{\RL {\arabicfont  651}}
-\indexentry{linear!transformation}{\RL {\arabicfont  651}}
-\indexentry{تبادلہ!خطی}{\RL {\arabicfont  651}}
-\indexentry{خطی!تبادلہ}{\RL {\arabicfont  651}}
-\indexentry{linear mapping}{\RL {\arabicfont  651}}
-\indexentry{نقشہ کشی!خطی}{\RL {\arabicfont  651}}
-\indexentry{خطی!نقشہ کشی}{\RL {\arabicfont  651}}
-\indexentry{Cartesian coordinate system}{\RL {\arabicfont  653}}
-\indexentry{کارتیسی نظام محدد}{\RL {\arabicfont  653}}
-\indexentry{inverse transform}{\RL {\arabicfont  654}}
-\indexentry{الٹ بدل}{\RL {\arabicfont  654}}
-\indexentry{composition}{\RL {\arabicfont  654}}
-\indexentry{نظم}{\RL {\arabicfont  654}}
-\indexentry{orthogonality}{\RL {\arabicfont  661}}
-\indexentry{قائمیت}{\RL {\arabicfont  661}}
-\indexentry{قائمہ الزاویہ}{\RL {\arabicfont  661}}
-\indexentry{orthogonal}{\RL {\arabicfont  661}}
-\indexentry{orthogonal set}{\RL {\arabicfont  662}}
-\indexentry{قائمہ الزاویہ!سلسلہ}{\RL {\arabicfont  662}}
-\indexentry{norm}{\RL {\arabicfont  662}}
-\indexentry{معیار}{\RL {\arabicfont  662}}
-\indexentry{orthonormal!set}{\RL {\arabicfont  662}}
-\indexentry{قائمہ الزاویہ!معیاری سلسلہ}{\RL {\arabicfont  662}}
-\indexentry{معیاری قائمہ الزاویہ سلسلہ}{\RL {\arabicfont  662}}
-\indexentry{Fourier series!generalized}{\RL {\arabicfont  664}}
-\indexentry{فوریئر تسلسل!عمومی}{\RL {\arabicfont  664}}
-\indexentry{Fourier constants}{\RL {\arabicfont  664}}
-\indexentry{فوریئر!مستقل}{\RL {\arabicfont  664}}
-\indexentry{Euler!formulae}{\RL {\arabicfont  665}}
-\indexentry{یولر!کلیات}{\RL {\arabicfont  665}}
-\indexentry{Fourier!coefficients}{\RL {\arabicfont  665}}
-\indexentry{عددی سر!فوریئر}{\RL {\arabicfont  665}}
-\indexentry{فوریئر!عددی سر}{\RL {\arabicfont  665}}
-\indexentry{weight function}{\RL {\arabicfont  665}}
-\indexentry{تفاعل قدر}{\RL {\arabicfont  665}}
-\indexentry{Sturm-Liouville equation}{\RL {\arabicfont  667}}
-\indexentry{سٹیورم لیوویل مساوات}{\RL {\arabicfont  667}}
-\indexentry{Sturm-Liouville!boundary conditions}{\RL {\arabicfont  667}}
-\indexentry{سٹیورم لیوویل!سرحدی شرائط}{\RL {\arabicfont  667}}
-\indexentry{boundary problem}{\RL {\arabicfont  667}}
-\indexentry{سرحدی مسئلہ}{\RL {\arabicfont  667}}
-\indexentry{Sturm-Liouville problem}{\RL {\arabicfont  667}}
-\indexentry{سٹیورم لیوویل مسئلہ}{\RL {\arabicfont  667}}
+\indexentry{orthogonality}{\RL {\arabicfont  383}}
+\indexentry{قائمیت}{\RL {\arabicfont  383}}
+\indexentry{قائمہ الزاویہ}{\RL {\arabicfont  384}}
+\indexentry{orthogonal}{\RL {\arabicfont  384}}
+\indexentry{orthogonal set}{\RL {\arabicfont  384}}
+\indexentry{قائمہ الزاویہ!سلسلہ}{\RL {\arabicfont  384}}
+\indexentry{norm}{\RL {\arabicfont  384}}
+\indexentry{معیار}{\RL {\arabicfont  384}}
+\indexentry{orthonormal!set}{\RL {\arabicfont  385}}
+\indexentry{قائمہ الزاویہ!معیاری سلسلہ}{\RL {\arabicfont  385}}
+\indexentry{معیاری قائمہ الزاویہ سلسلہ}{\RL {\arabicfont  385}}
+\indexentry{Fourier series!generalized}{\RL {\arabicfont  386}}
+\indexentry{فوریئر تسلسل!عمومی}{\RL {\arabicfont  386}}
+\indexentry{Fourier constants}{\RL {\arabicfont  386}}
+\indexentry{فوریئر!مستقل}{\RL {\arabicfont  386}}
+\indexentry{Euler!formulae}{\RL {\arabicfont  387}}
+\indexentry{یولر!کلیات}{\RL {\arabicfont  387}}
+\indexentry{Fourier!coefficients}{\RL {\arabicfont  387}}
+\indexentry{عددی سر!فوریئر}{\RL {\arabicfont  387}}
+\indexentry{فوریئر!عددی سر}{\RL {\arabicfont  387}}
+\indexentry{weight function}{\RL {\arabicfont  388}}
+\indexentry{تفاعل قدر}{\RL {\arabicfont  388}}
+\indexentry{Sturm-Liouville equation}{\RL {\arabicfont  390}}
+\indexentry{سٹیورم لیوویل مساوات}{\RL {\arabicfont  390}}
+\indexentry{Sturm-Liouville!boundary conditions}{\RL {\arabicfont  390}}
+\indexentry{سٹیورم لیوویل!سرحدی شرائط}{\RL {\arabicfont  390}}
+\indexentry{boundary problem}{\RL {\arabicfont  390}}
+\indexentry{سرحدی مسئلہ}{\RL {\arabicfont  390}}
+\indexentry{Sturm-Liouville problem}{\RL {\arabicfont  390}}
+\indexentry{سٹیورم لیوویل مسئلہ}{\RL {\arabicfont  390}}
+\indexentry{eigenfunctions}{\RL {\arabicfont  390}}
+\indexentry{آئگنی تفاعل}{\RL {\arabicfont  390}}
+\indexentry{eigenvalue}{\RL {\arabicfont  390}}
+\indexentry{آئگنی قدر}{\RL {\arabicfont  390}}
+\indexentry{eigenfunction expansion}{\RL {\arabicfont  394}}
+\indexentry{آئگنی تفاعل پھیلاو}{\RL {\arabicfont  394}}
+\indexentry{Fourier Bessel Series}{\RL {\arabicfont  399}}
+\indexentry{فوریئر بیسل تسلسل}{\RL {\arabicfont  399}}
+\indexentry{Hermite!polynomials}{\RL {\arabicfont  402}}
+\indexentry{کثیر رکنی!ہرمائٹ}{\RL {\arabicfont  402}}
+\indexentry{ہرمائٹ!کثیر رکنی}{\RL {\arabicfont  402}}
+\indexentry{پیدا کار تفاعل!ہرمائٹ کثیر رکنی}{\RL {\arabicfont  402}}
+\indexentry{Weber's equation}{\RL {\arabicfont  403}}
+\indexentry{مساوات!ویبر}{\RL {\arabicfont  403}}
+\indexentry{ویبر!مساوات}{\RL {\arabicfont  403}}
+\indexentry{Laguerre polynomials}{\RL {\arabicfont  403}}
+\indexentry{کثیر رکنی!لاگیغ}{\RL {\arabicfont  403}}
+\indexentry{لاگیغ کثیر رکنی}{\RL {\arabicfont  403}}
+\indexentry{Tchebichef polynomials}{\RL {\arabicfont  404}}
+\indexentry{کثیر رکنی!چبیشف}{\RL {\arabicfont  404}}
+\indexentry{چبیشف کثیر رکنی}{\RL {\arabicfont  404}}
+\indexentry{Laplace transform}{\RL {\arabicfont  408}}
+\indexentry{لاپلاس بدل}{\RL {\arabicfont  408}}
+\indexentry{Laplace transformation}{\RL {\arabicfont  408}}
+\indexentry{لاپلاس تبادلہ}{\RL {\arabicfont  408}}
+\indexentry{Laplace!inverse transform}{\RL {\arabicfont  408}}
+\indexentry{لاپلاس!الٹ بدل}{\RL {\arabicfont  408}}
+\indexentry{improper integral}{\RL {\arabicfont  409}}
+\indexentry{غیر مناسب تکمل}{\RL {\arabicfont  409}}
+\indexentry{continuous!piecewise}{\RL {\arabicfont  412}}
+\indexentry{استمراری!ٹکڑوں میں}{\RL {\arabicfont  412}}
+\indexentry{jumps}{\RL {\arabicfont  412}}
+\indexentry{چھلانگ}{\RL {\arabicfont  412}}
+\indexentry{jump}{\RL {\arabicfont  421}}
+\indexentry{چھلانگ}{\RL {\arabicfont  421}}
+\indexentry{limit}{\RL {\arabicfont  421}}
+\indexentry{حد}{\RL {\arabicfont  421}}
+\indexentry{subsidiary equation}{\RL {\arabicfont  422}}
+\indexentry{مساوات!ضمنی}{\RL {\arabicfont  422}}
+\indexentry{ضمنی مساوات}{\RL {\arabicfont  422}}
+\indexentry{Heaviside step function}{\RL {\arabicfont  434}}
+\indexentry{ہیوی سائیڈ سیڑھی تفاعل}{\RL {\arabicfont  434}}
+\indexentry{step!function}{\RL {\arabicfont  434}}
+\indexentry{سیڑھی!اکائی}{\RL {\arabicfont  434}}
+\indexentry{اکائی!سیڑھی تفاعل}{\RL {\arabicfont  434}}
+\indexentry{undefined}{\RL {\arabicfont  434}}
+\indexentry{غیر معین}{\RL {\arabicfont  434}}
+\indexentry{Dirac!delta function}{\RL {\arabicfont  451}}
+\indexentry{ڈیراک!ڈیلٹائی تفاعل}{\RL {\arabicfont  451}}
+\indexentry{impulse}{\RL {\arabicfont  451}}
+\indexentry{ضرب}{\RL {\arabicfont  451}}
+\indexentry{unit!impulse}{\RL {\arabicfont  452}}
+\indexentry{اکائی!ضرب}{\RL {\arabicfont  452}}
+\indexentry{اکائی ضرب تفاعل}{\RL {\arabicfont  452}}
+\indexentry{sifting property}{\RL {\arabicfont  452}}
+\indexentry{چننا!خاصیت}{\RL {\arabicfont  452}}
+\indexentry{rectifier!full wave}{\RL {\arabicfont  465}}
+\indexentry{سمت کار!مکمل لہر}{\RL {\arabicfont  465}}
+\indexentry{rectifier!half wave}{\RL {\arabicfont  466}}
+\indexentry{سمت کار!نصف لہر}{\RL {\arabicfont  466}}
+\indexentry{saw-tooth wave}{\RL {\arabicfont  466}}
+\indexentry{موج!دندان}{\RL {\arabicfont  466}}
+\indexentry{دندان موج}{\RL {\arabicfont  466}}
+\indexentry{stair case}{\RL {\arabicfont  467}}
+\indexentry{سیڑھی موج}{\RL {\arabicfont  467}}
+\indexentry{موج!سیڑھی}{\RL {\arabicfont  467}}
+\indexentry{convolution}{\RL {\arabicfont  469}}
+\indexentry{الجھاو}{\RL {\arabicfont  469}}
+\indexentry{resonance}{\RL {\arabicfont  474}}
+\indexentry{گمک}{\RL {\arabicfont  474}}
+\indexentry{Laguerre's equation}{\RL {\arabicfont  483}}
+\indexentry{سادہ تفرقی مساوات!لاگیھ}{\RL {\arabicfont  483}}
+\indexentry{لاگیغ سادہ تفرقی مساوات}{\RL {\arabicfont  483}}
+\indexentry{Rodrigues's formula}{\RL {\arabicfont  483}}
+\indexentry{روڈریکیس!کلیہ}{\RL {\arabicfont  483}}
+\indexentry{Rodrigues's!polynomials}{\RL {\arabicfont  483}}
+\indexentry{روڈریکیس!کثیر رکنی}{\RL {\arabicfont  483}}
+\indexentry{generating function!Laguerre polynomials}{\RL {\arabicfont  486}}
+\indexentry{پیداکار تفاعل!لاگیغ کثیر رکنی}{\RL {\arabicfont  486}}
+\indexentry{scalars}{\RL {\arabicfont  499}}
+\indexentry{سمتیہ!غیر}{\RL {\arabicfont  499}}
+\indexentry{غیر سمتیات}{\RL {\arabicfont  499}}
+\indexentry{vector}{\RL {\arabicfont  500}}
+\indexentry{سمتیہ}{\RL {\arabicfont  500}}
+\indexentry{magnitude}{\RL {\arabicfont  500}}
+\indexentry{سمتیہ!مقدار}{\RL {\arabicfont  500}}
+\indexentry{مقدار!سمتیہ}{\RL {\arabicfont  500}}
+\indexentry{Euclidean norm}{\RL {\arabicfont  500}}
+\indexentry{اقلیدسی معیار}{\RL {\arabicfont  500}}
+\indexentry{head}{\RL {\arabicfont  501}}
+\indexentry{سمتیہ!سر}{\RL {\arabicfont  501}}
+\indexentry{سر}{\RL {\arabicfont  501}}
+\indexentry{tail}{\RL {\arabicfont  501}}
+\indexentry{سمتیہ!دم}{\RL {\arabicfont  501}}
+\indexentry{دم}{\RL {\arabicfont  501}}
+\indexentry{unit!vector}{\RL {\arabicfont  501}}
+\indexentry{vector!unit}{\RL {\arabicfont  501}}
+\indexentry{سمتیہ!اکائی}{\RL {\arabicfont  501}}
+\indexentry{اکائی!سمتیہ}{\RL {\arabicfont  501}}
+\indexentry{vector!sliding}{\RL {\arabicfont  501}}
+\indexentry{سمتیہ!قابل منتقلی}{\RL {\arabicfont  501}}
+\indexentry{vector!bound}{\RL {\arabicfont  501}}
+\indexentry{bound vector}{\RL {\arabicfont  501}}
+\indexentry{سمتیہ!مقید}{\RL {\arabicfont  501}}
+\indexentry{مقید!سمتیہ}{\RL {\arabicfont  501}}
+\indexentry{coordinates}{\RL {\arabicfont  502}}
+\indexentry{محور}{\RL {\arabicfont  502}}
+\indexentry{origin}{\RL {\arabicfont  502}}
+\indexentry{مرکز}{\RL {\arabicfont  502}}
+\indexentry{Cartesian coordinate system}{\RL {\arabicfont  502}}
+\indexentry{کارتیسی نظام محدد}{\RL {\arabicfont  502}}
+\indexentry{components}{\RL {\arabicfont  502}}
+\indexentry{اجزاء}{\RL {\arabicfont  502}}
+\indexentry{vector!position}{\RL {\arabicfont  503}}
+\indexentry{position vector}{\RL {\arabicfont  503}}
+\indexentry{سمتیہ!تعین گر}{\RL {\arabicfont  503}}
+\indexentry{تعین گر سمتیہ}{\RL {\arabicfont  503}}
+\indexentry{zero!vector}{\RL {\arabicfont  503}}
+\indexentry{vector!zero}{\RL {\arabicfont  503}}
+\indexentry{سمتیہ!صفر}{\RL {\arabicfont  503}}
+\indexentry{صفر سمتیہ}{\RL {\arabicfont  503}}
+\indexentry{null vector}{\RL {\arabicfont  503}}
+\indexentry{معدوم سمتیہ}{\RL {\arabicfont  503}}
+\indexentry{orthogonal}{\RL {\arabicfont  510}}
+\indexentry{قائمہ}{\RL {\arabicfont  510}}
+\indexentry{ثلاثہ قائمہ سمتیات}{\RL {\arabicfont  510}}
+\indexentry{space!linear}{\RL {\arabicfont  516}}
+\indexentry{linear!space}{\RL {\arabicfont  516}}
+\indexentry{فضا!خطی}{\RL {\arabicfont  516}}
+\indexentry{خطی !فضا}{\RL {\arabicfont  516}}
+\indexentry{space!vector}{\RL {\arabicfont  516}}
+\indexentry{vector space}{\RL {\arabicfont  516}}
+\indexentry{فضا!سمتی}{\RL {\arabicfont  516}}
+\indexentry{سمتی!فضا}{\RL {\arabicfont  516}}
+\indexentry{vector space!real}{\RL {\arabicfont  516}}
+\indexentry{سمتی فضا!حقیقی}{\RL {\arabicfont  516}}
+\indexentry{حقیقی سمتی فضا}{\RL {\arabicfont  516}}
+\indexentry{جمع!سمتی}{\RL {\arabicfont  516}}
+\indexentry{سمتی!جمع}{\RL {\arabicfont  516}}
+\indexentry{قانون!تبادل}{\RL {\arabicfont  516}}
+\indexentry{قانون!تلازم}{\RL {\arabicfont  516}}
+\indexentry{غیر سمتی}{\RL {\arabicfont  517}}
+\indexentry{ضرب!غیر سمتی}{\RL {\arabicfont  517}}
+\indexentry{غیر سمتی!ضرب}{\RL {\arabicfont  517}}
+\indexentry{قانون!تقسیم}{\RL {\arabicfont  517}}
+\indexentry{linear!combination}{\RL {\arabicfont  517}}
+\indexentry{خطی!مجموعہ}{\RL {\arabicfont  517}}
+\indexentry{generator}{\RL {\arabicfont  518}}
+\indexentry{پیدا کار}{\RL {\arabicfont  518}}
+\indexentry{span}{\RL {\arabicfont  518}}
+\indexentry{احاطہ}{\RL {\arabicfont  518}}
+\indexentry{linear dependent}{\RL {\arabicfont  518}}
+\indexentry{خطی طور تابع}{\RL {\arabicfont  518}}
+\indexentry{basis}{\RL {\arabicfont  519}}
+\indexentry{اساس}{\RL {\arabicfont  519}}
+\indexentry{linear independent}{\RL {\arabicfont  519}}
+\indexentry{خطی طور غیر تابع}{\RL {\arabicfont  519}}
+\indexentry{linearly independent set}{\RL {\arabicfont  519}}
+\indexentry{خطی طور غیر تابع سلسلہ}{\RL {\arabicfont  519}}
+\indexentry{linear dependent}{\RL {\arabicfont  519}}
+\indexentry{خطی طور تابع}{\RL {\arabicfont  519}}
+\indexentry{collinear}{\RL {\arabicfont  520}}
+\indexentry{ہم خطی}{\RL {\arabicfont  520}}
+\indexentry{coplanar}{\RL {\arabicfont  520}}
+\indexentry{ہم سطحی}{\RL {\arabicfont  520}}
+\indexentry{product!inner}{\RL {\arabicfont  522}}
+\indexentry{inner product}{\RL {\arabicfont  522}}
+\indexentry{ضرب!اندرونی}{\RL {\arabicfont  522}}
+\indexentry{اندرونی ضرب}{\RL {\arabicfont  522}}
+\indexentry{dot product}{\RL {\arabicfont  522}}
+\indexentry{نقطہ!ضرب}{\RL {\arabicfont  522}}
+\indexentry{ضرب!نقطہ}{\RL {\arabicfont  522}}
+\indexentry{scalar product}{\RL {\arabicfont  522}}
+\indexentry{ضرب!غیر سمتی}{\RL {\arabicfont  522}}
+\indexentry{غیر سمتی!ضرب}{\RL {\arabicfont  522}}
+\indexentry{orthogonality}{\RL {\arabicfont  522}}
+\indexentry{قائمیت}{\RL {\arabicfont  522}}
+\indexentry{استبدالی}{\RL {\arabicfont  523}}
+\indexentry{Schwarz inequality}{\RL {\arabicfont  523}}
+\indexentry{شوارز عدم مساوات}{\RL {\arabicfont  523}}
+\indexentry{projection}{\RL {\arabicfont  524}}
+\indexentry{عمودی سایہ}{\RL {\arabicfont  524}}
+\indexentry{space!real inner product}{\RL {\arabicfont  535}}
+\indexentry{فضا!حقیقی اندرونی ضرب}{\RL {\arabicfont  535}}
+\indexentry{norm}{\RL {\arabicfont  536}}
+\indexentry{معیار}{\RL {\arabicfont  536}}
+\indexentry{cross product}{\RL {\arabicfont  537}}
+\indexentry{صلیبی ضرب}{\RL {\arabicfont  537}}
+\indexentry{vector product}{\RL {\arabicfont  537}}
+\indexentry{سمتی ضرب}{\RL {\arabicfont  537}}
+\indexentry{right handed}{\RL {\arabicfont  539}}
+\indexentry{دایاں ہاتھ!کارتیسی نظام}{\RL {\arabicfont  539}}
+\indexentry{کارتیسی نظام!دائیں ہاتھ}{\RL {\arabicfont  539}}
+\indexentry{moment vector}{\RL {\arabicfont  543}}
+\indexentry{قوت!معیار اثر سمتیہ}{\RL {\arabicfont  543}}
+\indexentry{معیار اثر سمتیہ}{\RL {\arabicfont  543}}
+\indexentry{سمتی رفتار!زاویائی}{\RL {\arabicfont  544}}
+\indexentry{زاویائی سمتی رفتار}{\RL {\arabicfont  544}}
+\indexentry{angular velocity}{\RL {\arabicfont  544}}
+\indexentry{angular speed}{\RL {\arabicfont  544}}
+\indexentry{رفتار!زاویائی}{\RL {\arabicfont  544}}
+\indexentry{زاویائی رفتار}{\RL {\arabicfont  544}}
+\indexentry{mixed triple product}{\RL {\arabicfont  550}}
+\indexentry{scalar triple product}{\RL {\arabicfont  550}}
+\indexentry{سہ ضرب!غیر سمتی}{\RL {\arabicfont  550}}
+\indexentry{غیر سمتی!سہ ضرب}{\RL {\arabicfont  550}}
+\indexentry{Lagrange!identity}{\RL {\arabicfont  553}}
+\indexentry{مماثل!لیگرینج}{\RL {\arabicfont  553}}
+\indexentry{لیگرینج!مماثل}{\RL {\arabicfont  553}}
+\indexentry{vector}{\RL {\arabicfont  559}}
+\indexentry{سمتیہ}{\RL {\arabicfont  559}}
+\indexentry{matrix}{\RL {\arabicfont  559}}
+\indexentry{قالب}{\RL {\arabicfont  559}}
+\indexentry{elements}{\RL {\arabicfont  560}}
+\indexentry{ارکان}{\RL {\arabicfont  560}}
+\indexentry{صف}{\RL {\arabicfont  560}}
+\indexentry{columns}{\RL {\arabicfont  560}}
+\indexentry{قطار}{\RL {\arabicfont  560}}
+\indexentry{rows}{\RL {\arabicfont  560}}
+\indexentry{matrix!square}{\RL {\arabicfont  560}}
+\indexentry{قالب!مربع}{\RL {\arabicfont  560}}
+\indexentry{vector}{\RL {\arabicfont  560}}
+\indexentry{سمتیہ}{\RL {\arabicfont  560}}
+\indexentry{vector!row}{\RL {\arabicfont  560}}
+\indexentry{row!vector}{\RL {\arabicfont  560}}
+\indexentry{صف!سمتیہ}{\RL {\arabicfont  560}}
+\indexentry{سمتیہ!صف}{\RL {\arabicfont  560}}
+\indexentry{vector!column}{\RL {\arabicfont  560}}
+\indexentry{column!vector}{\RL {\arabicfont  560}}
+\indexentry{قطار!سمتیہ}{\RL {\arabicfont  560}}
+\indexentry{سمتیہ!قطار}{\RL {\arabicfont  560}}
+\indexentry{matrix!coefficient}{\RL {\arabicfont  561}}
+\indexentry{coefficient!matrix}{\RL {\arabicfont  561}}
+\indexentry{قالب!عددی سر}{\RL {\arabicfont  561}}
+\indexentry{عددی سر قالب}{\RL {\arabicfont  561}}
+\indexentry{قالب!افزودہ}{\RL {\arabicfont  561}}
+\indexentry{افزودہ قالب}{\RL {\arabicfont  561}}
+\indexentry{matrix!augmented}{\RL {\arabicfont  561}}
+\indexentry{augmented matrix}{\RL {\arabicfont  561}}
+\indexentry{size}{\RL {\arabicfont  562}}
+\indexentry{جسامت}{\RL {\arabicfont  562}}
+\indexentry{main diagonal}{\RL {\arabicfont  563}}
+\indexentry{مرکزی وتر}{\RL {\arabicfont  563}}
+\indexentry{rectangular matrix}{\RL {\arabicfont  563}}
+\indexentry{مستطیل}{\RL {\arabicfont  563}}
+\indexentry{components}{\RL {\arabicfont  563}}
+\indexentry{اجزاء}{\RL {\arabicfont  563}}
+\indexentry{مختلف}{\RL {\arabicfont  564}}
+\indexentry{different}{\RL {\arabicfont  564}}
+\indexentry{ضرب!غیر سمتی}{\RL {\arabicfont  566}}
+\indexentry{difference}{\RL {\arabicfont  566}}
+\indexentry{فرق}{\RL {\arabicfont  566}}
+\indexentry{zero!matrix}{\RL {\arabicfont  567}}
+\indexentry{matrix!zero}{\RL {\arabicfont  567}}
+\indexentry{قالب!صفر}{\RL {\arabicfont  567}}
+\indexentry{صفر!قالب}{\RL {\arabicfont  567}}
+\indexentry{zero!vector}{\RL {\arabicfont  567}}
+\indexentry{vector!zero}{\RL {\arabicfont  567}}
+\indexentry{سمتیہ!صفر}{\RL {\arabicfont  567}}
+\indexentry{صفر!سمتیہ}{\RL {\arabicfont  567}}
+\indexentry{قانون!تلازم}{\RL {\arabicfont  567}}
+\indexentry{قانون!تبادل}{\RL {\arabicfont  567}}
+\indexentry{equilibrium}{\RL {\arabicfont  570}}
+\indexentry{متوازن}{\RL {\arabicfont  570}}
+\indexentry{transpose matrix}{\RL {\arabicfont  577}}
+\indexentry{تبدیل محل قالب}{\RL {\arabicfont  577}}
+\indexentry{transposition}{\RL {\arabicfont  577}}
+\indexentry{تبدیلی محل}{\RL {\arabicfont  577}}
+\indexentry{symmetric!matrix}{\RL {\arabicfont  580}}
+\indexentry{قالب!تشاکلی}{\RL {\arabicfont  580}}
+\indexentry{تشاکلی!قالب}{\RL {\arabicfont  580}}
+\indexentry{skew-symmetric}{\RL {\arabicfont  580}}
+\indexentry{قالب!منحرف تشاکلی}{\RL {\arabicfont  580}}
+\indexentry{تشاکلی!منحرف}{\RL {\arabicfont  580}}
+\indexentry{triangular!upper matrix}{\RL {\arabicfont  581}}
+\indexentry{قالب!بالائی تکونی}{\RL {\arabicfont  581}}
+\indexentry{تکونی!بالائی قالب}{\RL {\arabicfont  581}}
+\indexentry{triangular!lower matrix}{\RL {\arabicfont  581}}
+\indexentry{قالب!نچلا تکونی}{\RL {\arabicfont  581}}
+\indexentry{تکونی!نچلا قالب}{\RL {\arabicfont  581}}
+\indexentry{matrix!diagonal}{\RL {\arabicfont  581}}
+\indexentry{diagonal!matrix}{\RL {\arabicfont  581}}
+\indexentry{قالب!وتری}{\RL {\arabicfont  581}}
+\indexentry{وتری قالب}{\RL {\arabicfont  581}}
+\indexentry{matrix!scalar}{\RL {\arabicfont  581}}
+\indexentry{scalar!matrix}{\RL {\arabicfont  581}}
+\indexentry{قالب!غیر سمتی}{\RL {\arabicfont  581}}
+\indexentry{غیر سمتی!قالب}{\RL {\arabicfont  581}}
+\indexentry{unit matrix}{\RL {\arabicfont  581}}
+\indexentry{قالب!اکائی}{\RL {\arabicfont  581}}
+\indexentry{اکائی!قالب}{\RL {\arabicfont  581}}
+\indexentry{stochastic matrix}{\RL {\arabicfont  583}}
+\indexentry{matrix!stochastic}{\RL {\arabicfont  583}}
+\indexentry{امکانی شماریاتی قالب}{\RL {\arabicfont  583}}
+\indexentry{قالب!امکانی شماریاتی}{\RL {\arabicfont  583}}
+\indexentry{state vector}{\RL {\arabicfont  584}}
+\indexentry{حال!سمتیہ}{\RL {\arabicfont  584}}
+\indexentry{سمتیہ!حال}{\RL {\arabicfont  584}}
+\indexentry{commutative}{\RL {\arabicfont  587}}
+\indexentry{قابل تبادل}{\RL {\arabicfont  587}}
+\indexentry{Gauss elimination}{\RL {\arabicfont  590}}
+\indexentry{گاوسی اسقاط}{\RL {\arabicfont  590}}
+\indexentry{linear system}{\RL {\arabicfont  590}}
+\indexentry{خطی نظام}{\RL {\arabicfont  590}}
+\indexentry{coefficients}{\RL {\arabicfont  590}}
+\indexentry{عددی سر}{\RL {\arabicfont  590}}
+\indexentry{homogeneous!system}{\RL {\arabicfont  590}}
+\indexentry{ہم جنسی!نظام}{\RL {\arabicfont  590}}
+\indexentry{nonhomogeneous!system}{\RL {\arabicfont  590}}
+\indexentry{ہم جنسی!غیر}{\RL {\arabicfont  590}}
+\indexentry{غیر ہم جنسی!نظام}{\RL {\arabicfont  590}}
+\indexentry{solution!vector}{\RL {\arabicfont  591}}
+\indexentry{vector!solution}{\RL {\arabicfont  591}}
+\indexentry{سمتیہ!حل}{\RL {\arabicfont  591}}
+\indexentry{حل!سمتیہ}{\RL {\arabicfont  591}}
+\indexentry{trivial solution}{\RL {\arabicfont  591}}
+\indexentry{حل!غیر اہم صفر}{\RL {\arabicfont  591}}
+\indexentry{غیر اہم صفر حل}{\RL {\arabicfont  591}}
+\indexentry{coefficient!matrix}{\RL {\arabicfont  591}}
+\indexentry{عددی سر!قالب}{\RL {\arabicfont  591}}
+\indexentry{augmented matrix}{\RL {\arabicfont  591}}
+\indexentry{افزودہ قالب}{\RL {\arabicfont  591}}
+\indexentry{Gauss elimination}{\RL {\arabicfont  594}}
+\indexentry{گاوسی اسقاط}{\RL {\arabicfont  594}}
+\indexentry{row equivalent}{\RL {\arabicfont  600}}
+\indexentry{صف برابر}{\RL {\arabicfont  600}}
+\indexentry{solution set}{\RL {\arabicfont  600}}
+\indexentry{حل!سلسلہ}{\RL {\arabicfont  600}}
+\indexentry{سلسلہ!حل}{\RL {\arabicfont  600}}
+\indexentry{overdetermined}{\RL {\arabicfont  600}}
+\indexentry{زائد معلوم}{\RL {\arabicfont  600}}
+\indexentry{determined}{\RL {\arabicfont  600}}
+\indexentry{معلوم}{\RL {\arabicfont  600}}
+\indexentry{underdetermined}{\RL {\arabicfont  600}}
+\indexentry{کم معلوم}{\RL {\arabicfont  600}}
+\indexentry{inconsistent}{\RL {\arabicfont  600}}
+\indexentry{متضاد}{\RL {\arabicfont  600}}
+\indexentry{consistent}{\RL {\arabicfont  600}}
+\indexentry{بلا تضاد}{\RL {\arabicfont  600}}
+\indexentry{echelon form}{\RL {\arabicfont  603}}
+\indexentry{صف زینہ دار}{\RL {\arabicfont  603}}
+\indexentry{echelon form!reduced}{\RL {\arabicfont  603}}
+\indexentry{زینہ دار صورت!سادہ}{\RL {\arabicfont  603}}
+\indexentry{rank}{\RL {\arabicfont  604}}
+\indexentry{درجہ قالب}{\RL {\arabicfont  604}}
+\indexentry{voltage division}{\RL {\arabicfont  609}}
+\indexentry{تقسیم دباو!کلیہ}{\RL {\arabicfont  609}}
+\indexentry{کلیہ!تقسیم دباو}{\RL {\arabicfont  609}}
+\indexentry{wheatstone bridge}{\RL {\arabicfont  609}}
+\indexentry{ویٹ سٹون پل}{\RL {\arabicfont  609}}
+\indexentry{ammeter}{\RL {\arabicfont  609}}
+\indexentry{ایمپیئر پیما}{\RL {\arabicfont  609}}
+\indexentry{photosynthesis}{\RL {\arabicfont  611}}
+\indexentry{ضیائی تالیف}{\RL {\arabicfont  611}}
+\indexentry{linear combination}{\RL {\arabicfont  611}}
+\indexentry{خطی مجموعہ}{\RL {\arabicfont  611}}
+\indexentry{linear independent}{\RL {\arabicfont  612}}
+\indexentry{خطی طور غیر تابع}{\RL {\arabicfont  612}}
+\indexentry{linearly independent set}{\RL {\arabicfont  612}}
+\indexentry{خطی طور غیر تابع سلسلہ}{\RL {\arabicfont  612}}
+\indexentry{linear dependent}{\RL {\arabicfont  612}}
+\indexentry{خطی طور تابع}{\RL {\arabicfont  612}}
+\indexentry{rank}{\RL {\arabicfont  613}}
+\indexentry{درجہ}{\RL {\arabicfont  613}}
+\indexentry{row equivalent}{\RL {\arabicfont  614}}
+\indexentry{صف برابر}{\RL {\arabicfont  614}}
+\indexentry{set!nonempty}{\RL {\arabicfont  617}}
+\indexentry{سلسلہ!غیر خالی}{\RL {\arabicfont  617}}
+\indexentry{vector space}{\RL {\arabicfont  617}}
+\indexentry{سمتی فضا}{\RL {\arabicfont  617}}
+\indexentry{dimension}{\RL {\arabicfont  617}}
+\indexentry{بُعد}{\RL {\arabicfont  617}}
+\indexentry{basis}{\RL {\arabicfont  617}}
+\indexentry{اساس}{\RL {\arabicfont  617}}
+\indexentry{span}{\RL {\arabicfont  617}}
+\indexentry{احاطہ}{\RL {\arabicfont  617}}
+\indexentry{subset}{\RL {\arabicfont  617}}
+\indexentry{سلسلہ!ذیلی}{\RL {\arabicfont  617}}
+\indexentry{subspace}{\RL {\arabicfont  617}}
+\indexentry{فضا!ذیلی}{\RL {\arabicfont  617}}
+\indexentry{row space}{\RL {\arabicfont  618}}
+\indexentry{صف فضا}{\RL {\arabicfont  618}}
+\indexentry{column space}{\RL {\arabicfont  618}}
+\indexentry{قطار فضا}{\RL {\arabicfont  618}}
+\indexentry{nullity}{\RL {\arabicfont  619}}
+\indexentry{معدومیت}{\RL {\arabicfont  619}}
+\indexentry{null!set}{\RL {\arabicfont  619}}
+\indexentry{set!null}{\RL {\arabicfont  619}}
+\indexentry{معدوم!فضا}{\RL {\arabicfont  619}}
+\indexentry{فضا!معدوم}{\RL {\arabicfont  619}}
+\indexentry{submatrix}{\RL {\arabicfont  625}}
+\indexentry{ذیلی قالب}{\RL {\arabicfont  625}}
+\indexentry{existence}{\RL {\arabicfont  625}}
+\indexentry{وجودیت}{\RL {\arabicfont  625}}
+\indexentry{uniqueness}{\RL {\arabicfont  626}}
+\indexentry{یکتائی}{\RL {\arabicfont  626}}
+\indexentry{homogeneous!system}{\RL {\arabicfont  628}}
+\indexentry{متجانس!نظام}{\RL {\arabicfont  628}}
+\indexentry{nonhomogeneous!system}{\RL {\arabicfont  628}}
+\indexentry{غیر متجانس!نظام}{\RL {\arabicfont  628}}
+\indexentry{nontrivial solutions}{\RL {\arabicfont  628}}
+\indexentry{غیر صفر اہم حل}{\RL {\arabicfont  628}}
+\indexentry{trivial solution}{\RL {\arabicfont  628}}
+\indexentry{غیر اہم صفر حل}{\RL {\arabicfont  628}}
+\indexentry{solution!space}{\RL {\arabicfont  628}}
+\indexentry{space!solution}{\RL {\arabicfont  628}}
+\indexentry{حل فضا}{\RL {\arabicfont  628}}
+\indexentry{بلا تضاد}{\RL {\arabicfont  629}}
+\indexentry{basis!of solution}{\RL {\arabicfont  629}}
+\indexentry{اساس!حل}{\RL {\arabicfont  629}}
+\indexentry{فضا!معدوم}{\RL {\arabicfont  629}}
+\indexentry{معدوم!فضا}{\RL {\arabicfont  629}}
+\indexentry{nullity}{\RL {\arabicfont  629}}
+\indexentry{معدومیت}{\RL {\arabicfont  629}}
+\indexentry{null space}{\RL {\arabicfont  629}}
+\indexentry{consistent}{\RL {\arabicfont  630}}
+\indexentry{بلا تضاد}{\RL {\arabicfont  630}}
+\indexentry{determinant}{\RL {\arabicfont  630}}
+\indexentry{قالب!مقطع}{\RL {\arabicfont  630}}
+\indexentry{مقطع!قالب}{\RL {\arabicfont  630}}
+\indexentry{Cramer's rule}{\RL {\arabicfont  631}}
+\indexentry{قاعدہ کریمر}{\RL {\arabicfont  631}}
+\indexentry{minor}{\RL {\arabicfont  632}}
+\indexentry{اصغر}{\RL {\arabicfont  632}}
+\indexentry{determinant!higher order}{\RL {\arabicfont  634}}
+\indexentry{مقطع!بلند درجی}{\RL {\arabicfont  634}}
+\indexentry{cofactor}{\RL {\arabicfont  635}}
+\indexentry{ہم ضربی}{\RL {\arabicfont  635}}
+\indexentry{minor}{\RL {\arabicfont  635}}
+\indexentry{اصغر}{\RL {\arabicfont  635}}
+\indexentry{الکراجی ماخوذ}{\RL {\arabicfont  637}}
+\indexentry{Cramer's rule}{\RL {\arabicfont  641}}
+\indexentry{کریمر!قاعدہ}{\RL {\arabicfont  641}}
+\indexentry{قاعدہ کریمر}{\RL {\arabicfont  641}}
+\indexentry{inverse!matrix}{\RL {\arabicfont  650}}
+\indexentry{matrix!inverse}{\RL {\arabicfont  650}}
+\indexentry{قالب!معکوس}{\RL {\arabicfont  650}}
+\indexentry{معکوس!قالب}{\RL {\arabicfont  650}}
+\indexentry{matrix!nonsingular}{\RL {\arabicfont  651}}
+\indexentry{nonsingular!matrix}{\RL {\arabicfont  651}}
+\indexentry{قالب!غیر نادر}{\RL {\arabicfont  651}}
+\indexentry{غیر نادر!قالب}{\RL {\arabicfont  651}}
+\indexentry{matrix!singular}{\RL {\arabicfont  651}}
+\indexentry{singular!matrix}{\RL {\arabicfont  651}}
+\indexentry{قالب!نادر}{\RL {\arabicfont  651}}
+\indexentry{نادر!قالب}{\RL {\arabicfont  651}}
+\indexentry{Gauss-Jordan elimination}{\RL {\arabicfont  652}}
+\indexentry{گاوس جارڈن اسقاط}{\RL {\arabicfont  652}}
+\indexentry{vector space!real}{\RL {\arabicfont  666}}
+\indexentry{سمتی فضا!حقیقی}{\RL {\arabicfont  666}}
+\indexentry{حقیقی سمتی فضا}{\RL {\arabicfont  666}}
+\indexentry{جمع!سمتی}{\RL {\arabicfont  666}}
+\indexentry{سمتی!جمع}{\RL {\arabicfont  666}}
+\indexentry{قانون!تبادل}{\RL {\arabicfont  666}}
+\indexentry{قانون!تلازم}{\RL {\arabicfont  666}}
+\indexentry{غیر سمتی}{\RL {\arabicfont  666}}
+\indexentry{ضرب!غیر سمتی}{\RL {\arabicfont  666}}
+\indexentry{غیر سمتی!ضرب}{\RL {\arabicfont  666}}
+\indexentry{قانون!تقسیم}{\RL {\arabicfont  667}}
+\indexentry{خطی مجموعہ}{\RL {\arabicfont  667}}
+\indexentry{linear dependent}{\RL {\arabicfont  668}}
+\indexentry{خطی طور تابع}{\RL {\arabicfont  668}}
+\indexentry{اساس}{\RL {\arabicfont  668}}
+\indexentry{basis}{\RL {\arabicfont  668}}
+\indexentry{dimension!infinite}{\RL {\arabicfont  669}}
+\indexentry{بعد!لامتناہی}{\RL {\arabicfont  669}}
+\indexentry{product!inner}{\RL {\arabicfont  670}}
+\indexentry{inner!product}{\RL {\arabicfont  670}}
+\indexentry{ضرب!اندرونی}{\RL {\arabicfont  670}}
+\indexentry{اندرونی!ضرب}{\RL {\arabicfont  670}}
+\indexentry{dot!product}{\RL {\arabicfont  670}}
+\indexentry{ضرب!نقطہ}{\RL {\arabicfont  670}}
+\indexentry{orthogonal}{\RL {\arabicfont  671}}
+\indexentry{عمودی}{\RL {\arabicfont  671}}
+\indexentry{norm}{\RL {\arabicfont  671}}
+\indexentry{معیار}{\RL {\arabicfont  671}}
+\indexentry{لمبائی}{\RL {\arabicfont  671}}
+\indexentry{vector!unit}{\RL {\arabicfont  671}}
+\indexentry{unit!vector}{\RL {\arabicfont  671}}
+\indexentry{سمتیہ!اکائی}{\RL {\arabicfont  671}}
+\indexentry{اکائی!سمتیہ}{\RL {\arabicfont  671}}
+\indexentry{inequality!Cauchy-Schwarz}{\RL {\arabicfont  671}}
+\indexentry{Cauchy-Schwarz inequality}{\RL {\arabicfont  671}}
+\indexentry{عدم مساوات!کوشی شوارز}{\RL {\arabicfont  671}}
+\indexentry{کوشی شوارز عدم مساوات}{\RL {\arabicfont  671}}
+\indexentry{inequality!triangle}{\RL {\arabicfont  671}}
+\indexentry{inequality!triangle}{\RL {\arabicfont  671}}
+\indexentry{triangle inequality}{\RL {\arabicfont  671}}
+\indexentry{عدم مساوات!تکونی}{\RL {\arabicfont  671}}
+\indexentry{عدم مساوات!تکونی}{\RL {\arabicfont  671}}
+\indexentry{تکونی عدم مساوات}{\RL {\arabicfont  671}}
+\indexentry{equality!parallelogram}{\RL {\arabicfont  671}}
+\indexentry{parallelogram equality}{\RL {\arabicfont  671}}
+\indexentry{مساوات!متوازی الاضلاع}{\RL {\arabicfont  671}}
+\indexentry{متوازی الاضلاع مساوات}{\RL {\arabicfont  671}}
+\indexentry{space!Euclidean}{\RL {\arabicfont  672}}
+\indexentry{Euclidean space}{\RL {\arabicfont  672}}
+\indexentry{فضا!اقلیدسی}{\RL {\arabicfont  672}}
+\indexentry{اقلیدسی فضا}{\RL {\arabicfont  672}}
+\indexentry{معیار!اقلیدسی}{\RL {\arabicfont  672}}
+\indexentry{operator}{\RL {\arabicfont  673}}
+\indexentry{عامل}{\RL {\arabicfont  673}}
+\indexentry{image}{\RL {\arabicfont  673}}
+\indexentry{فرہنگ}{\RL {\arabicfont  673}}
+\indexentry{transformation!linear}{\RL {\arabicfont  673}}
+\indexentry{linear!transformation}{\RL {\arabicfont  673}}
+\indexentry{تبادلہ!خطی}{\RL {\arabicfont  673}}
+\indexentry{خطی!تبادلہ}{\RL {\arabicfont  673}}
+\indexentry{linear mapping}{\RL {\arabicfont  673}}
+\indexentry{نقشہ کشی!خطی}{\RL {\arabicfont  673}}
+\indexentry{خطی!نقشہ کشی}{\RL {\arabicfont  673}}
+\indexentry{Cartesian coordinate system}{\RL {\arabicfont  675}}
+\indexentry{کارتیسی نظام محدد}{\RL {\arabicfont  675}}
+\indexentry{inverse transform}{\RL {\arabicfont  676}}
+\indexentry{الٹ بدل}{\RL {\arabicfont  676}}
+\indexentry{composition}{\RL {\arabicfont  676}}
+\indexentry{نظم}{\RL {\arabicfont  676}}

@@ -2,6 +2,7 @@
 *.aux
 *.tex~
 *.idx
+*.idx~
 *.ind
 *.toc
 *.log

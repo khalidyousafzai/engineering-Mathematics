@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  31 MAR 2018 14:37
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  1 APR 2018 17:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3185,47 +3185,57 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 LaTeX Warning: Command \m invalid in math mode on input line 195.
 
 Missing character: There is no ̉ in font zplmr7m!
-[691] [692] [693] [694] [695]) [696] [697] [698
+[691] [692] [693] [694] [695] [696] [697]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 5.70004pt on input line 414.
+ [698]
+Overfull \hbox (5.87549pt too wide) in paragraph at lines 433--435
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 جہاں  $\OML/zplm/m/it/10 x[] \OT1/zplm/m/
+n/10 = \OT1/ppl/m/n/10 1$  \EU1/JameelNooriNastaleeq(1)/m/n/10 چنتے ہوئے  $\OML
+/zplm/m/it/10 x[] \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 4$  \EU1/JameelNooriNastal
+eeq(1)/m/n/10 اور  $\OML/zplm/m/it/10 x[] \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 8$
+  \EU1/JameelNooriNastaleeq(1)/m/n/10 حاصل کیا گیا ہے۔ابتدائی کل آبادی  $[]$[]
+ []
+
+[699] [700] [701]) [702] [703] [704
 
 
-] [699]
+] [705]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
 
-(./tex/mathAppendixAdditionalProofs.tex [700
+(./tex/mathAppendixAdditionalProofs.tex [706
 
 
 ]
 ضمیمہ ا.
-[701] [702]) [703]
+[707] [708]) [709]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [704
+ (./tex/mathAppendixAuxiliaryMaterial.tex [710
 
 
 
 ]
 ضمیمہ ب.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 8.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 27.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[705] [706] [707] [708] [709]
+[711] [712] [713] [714] [715]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [710] [711]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [716] [717]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [712]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [718]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [713]
-[714
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [719]
+[720
 
 
 ] (./engineeringMathematics.aux (./tex/cktPreface.aux)
@@ -3247,12 +3257,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 47703 strings out of 493918
- 1132204 string characters out of 6150563
- 1337555 words of memory out of 5000000
- 50008 multiletter control sequences out of 15000+600000
+ 47732 strings out of 493918
+ 1132777 string characters out of 6150563
+ 1338163 words of memory out of 5000000
+ 50037 multiletter control sequences out of 15000+600000
  42343 words of font info for 169 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,15n,81p,10485b,2244s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (41 pages).
+Output written on engineeringMathematics.pdf (47 pages).

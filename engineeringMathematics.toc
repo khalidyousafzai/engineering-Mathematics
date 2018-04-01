@@ -55,7 +55,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 6}}لاپلاس بدل کی تکمل اور تفرق۔ متغیر عددی سر والے سادہ تفرقی مساوات}{\RL {\arabicfont 478}}
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 6}}تفرقی مساوات کے نظام}{\RL {\arabicfont 487}}
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 6}}لاپلاس بدل کے عمومی کلیے}{\RL {\arabicfont 495}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 7}}سمتیات عارضی باب}{\RL {\arabicfont 499}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 7}}خطی الجبرا: سمتیات}{\RL {\arabicfont 499}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 7}}غیر سمتیات اور سمتیات}{\RL {\arabicfont 499}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 7}}سمتیہ کے اجزاء}{\RL {\arabicfont 501}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 7}}سمتیات کا مجموعہ، غیر سمتی کے ساتھ ضرب}{\RL {\arabicfont 507}}
@@ -80,8 +80,9 @@
 \contentsline {chapter}{\numberline {\RL {\arabicfont 9}}خطی الجبرا: آئگنی قدر مسائل قالب}{\RL {\arabicfont 683}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 9}}آئگنی قدر مسائل قالب۔ آئگنی اقدار اور آئگنی سمتیات کا حصول}{\RL {\arabicfont 684}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 9}}آئگنی مسائل کے چند استعمال}{\RL {\arabicfont 695}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 9}}تشاکلی، منحرف تشاکلی اور قائمہ الزاویہ قالب}{\RL {\arabicfont 703}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 701}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 705}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 705}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 707}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 711}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 711}}

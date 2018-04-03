@@ -234,3 +234,16 @@ eigenvectors(A);
 
 A:matrix([1,0,0],[0,sin(a),cos(a)],[0,-cos(a),sin(a)]);
 eigenvectors(A);
+
+A:matrix([0,0,1],[0,1,0],[-1,0,0]);
+eigenvectors(A);
+
+
+Print("======================================");
+kill(all);
+print("Q 9.44");
+
+A:matrix([4/9,8/9,1/9],[-7/9,4/9,-4/9],[-4/9,1/9,8/9]);
+eigenvectors(A);
+
+invert(A);

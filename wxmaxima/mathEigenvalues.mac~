@@ -247,3 +247,61 @@ A:matrix([4/9,8/9,1/9],[-7/9,4/9,-4/9],[-4/9,1/9,8/9]);
 eigenvectors(A);
 
 invert(A);
+
+Print("======================================");
+kill(all);
+print("example 9.14");
+
+A:matrix([4,2],[2,4]);
+eigenvectors(A);
+
+Print("======================================");
+kill(all);
+print("example 9.16");
+
+A:matrix([3,5],[2,6]);
+eigenvectors(A);
+P:matrix([1,5],[1,-2]);
+determinant(P);
+
+
+Pi:invert(P);
+
+As:Pi . A . P;
+
+eigenvectors(A);
+eigenvectors(As);
+
+x1:matrix([1,1]);
+x2:matrix([5,-2]);
+
+y1:Pi . x1;
+y2:Pi . x2;
+
+
+Print("======================================");
+kill(all);
+print("example 9.17");
+
+A:matrix([-2,-4,2],[-2,1,2],[4,2,5]);
+
+eigenvectors(A);
+charpoly(A,x);
+
+X:matrix([1,1,1],[6,-3/2,1/2],[16,-1/2,-1/2]);
+Xi:invert(X);
+
+A . X;
+Xi . A . X;
+
+
+Print("======================================");
+kill(all);
+print("example 9.18");
+
+x:matrix([x1,x2]);
+A:matrix([5,6],[2,7]);
+
+transpose(x) . A .x;
+expand(%);
+

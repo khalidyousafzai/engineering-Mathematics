@@ -84,6 +84,6 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 9}}آئگنی اساس، وتری بنانا، دو درجی صورت}{\RL {\arabicfont 710}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 723}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 727}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 727}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 725}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 729}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 729}}

@@ -305,3 +305,331 @@ A:matrix([5,6],[2,7]);
 transpose(x) . A .x;
 expand(%);
 
+C:matrix([5,4],[4,7]);
+
+transpose(x) . C .x;
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 9.49");
+
+La:1;
+Lb:-1;
+c:3;
+d:-1;
+eq1:(a-La)*(d-La)-b*c=0;
+eq2:(a-Lb)*(d-Lb)-b*c=0;
+
+solnlst:solve([eq1,eq2],[a,b]);
+soln:solnlst[1];
+sol:map(rhs,soln);
+
+aa:sol[1];
+bb:sol[2];
+
+A:matrix([aa,bb],[c,d]);
+P:matrix([2,-3],[1,3]);
+As:invert(P) . A . P;
+
+eigenvectors(A);
+[val,y]:eigenvectors(As);
+
+P . y[1][1];
+P . y[2][1];
+x:eigenvectors(A);
+
+
+Print("======================================");
+kill(all);
+print("Q 9.50");
+
+La:2;
+Lb:3;
+c:-3;
+d:-1;
+eq1:(a-La)*(d-La)-b*c=0;
+eq2:(a-Lb)*(d-Lb)-b*c=0;
+
+solnlst:solve([eq1,eq2],[a,b]);
+soln:solnlst[1];
+sol:map(rhs,soln);
+
+aa:sol[1];
+bb:sol[2];
+
+A:matrix([aa,bb],[c,d]);
+P:matrix([1,4],[2,5]);
+As:invert(P) . A . P;
+
+eigenvectors(A);
+[val,y]:eigenvectors(As);
+
+P . y[1][1];
+P . y[2][1];
+x:eigenvectors(A);
+
+
+Print("======================================");
+kill(all);
+print("Q 9.51");
+
+La:-2;
+Lb:-1;
+c:2;
+d:3;
+eq1:(a-La)*(d-La)-b*c=0;
+eq2:(a-Lb)*(d-Lb)-b*c=0;
+
+solnlst:solve([eq1,eq2],[a,b]);
+soln:solnlst[1];
+sol:map(rhs,soln);
+
+aa:sol[1];
+bb:sol[2];
+
+A:matrix([aa,bb],[c,d]);
+P:matrix([-4,3],[-5,2]);
+As:invert(P) . A . P;
+
+eigenvectors(A);
+[val,y]:eigenvectors(As);
+
+P . y[1][1];
+P . y[2][1];
+x:eigenvectors(A);
+
+
+
+Print("======================================");
+kill(all);
+print("Q 9.52");
+
+La:1;
+Lb:-1;
+Lc:2;
+
+d:1;
+e:1;
+f:-1;
+g:-1;
+h:1;
+i:1;
+
+A:matrix([a,b,c],[d,e,f],[g,h,i]);
+I:matrix([1,0,0],[0,1,0],[0,0,1]);
+x:matrix([x1],[x2],[x3]);
+eq1:determinant(A-La*I);
+eq2:determinant(A-Lb*I);
+eq3:determinant(A-Lc*I);
+
+solnlst:solve([eq1,eq2,eq3],[a,b,c]);
+soln:solnlst[1];
+sol:map(rhs,soln);
+aa:sol[1];
+bb:sol[2];
+cc:sol[3];
+
+A:matrix([aa,bb,cc],[d,e,f],[g,h,i]);
+P:matrix([1,0,3],[0,1,0],[-1,1,0]);
+As:invert(P) . A . P;
+
+eigenvectors(A);
+[val,y]:eigenvectors(As);
+
+P . y[1][1];
+P . y[2][1];
+x:eigenvectors(A);
+
+
+Print("======================================");
+kill(all);
+print("Q 9.53");
+
+La:0;
+Lb:1;
+Lc:-1;
+
+d:1;
+e:0;
+f:2;
+g:-1;
+h:1;
+i:0;
+
+A:matrix([a,b,c],[d,e,f],[g,h,i]);
+I:matrix([1,0,0],[0,1,0],[0,0,1]);
+x:matrix([x1],[x2],[x3]);
+eq1:determinant(A-La*I);
+eq2:determinant(A-Lb*I);
+eq3:determinant(A-Lc*I);
+
+solnlst:solve([eq1,eq2,eq3],[a,b,c]);
+soln:solnlst[1];
+sol:map(rhs,soln);
+aa:sol[1];
+bb:sol[2];
+cc:sol[3];
+
+A:matrix([aa,bb,cc],[d,e,f],[g,h,i]);
+P:matrix([-1,1,0],[1,0,2],[1,0,1]);
+As:invert(P) . A . P;
+
+eigenvectors(A);
+[val,y]:eigenvectors(As);
+
+P . y[1][1];
+P . y[2][1];
+x:eigenvectors(A);
+
+Print("======================================");
+kill(all);
+print("Q 9.55");
+
+A:matrix([1,2],[2,4]);
+[val,vec]:eigenvectors(A);
+
+a:vec[1][1];
+b:vec[2][1];
+
+X:matrix([1,1],[-1/2,2]);
+D:invert(X) . A . X;
+
+Print("======================================");
+kill(all);
+print("Q 9.56");
+
+L1:1;
+L2:-1;
+x1:1;
+x2:1/2;
+xx1:1;
+xx2:-1/2;
+
+eq1:a*x1+b*x2=L1*x1;
+eq2:c*x1+d*x2=L1*x2;
+eq3:a*xx1+b*xx2=L2*xx1;
+eq4:c*xx1+d*xx2=L2*xx2;
+
+solnlst:solve([eq1,eq2,eq3,eq4],[a,b,c,d]);
+soln:solnlst[1];
+sol:map(rhs,soln);
+aa:sol[1];
+bb:sol[2];
+cc:sol[3];
+dd:sol[4];
+
+A:matrix([aa,bb],[cc,dd]);
+eigenvectors(A);
+
+X:matrix([x1,xx1],[x2,xx2]);
+D:invert(X) . A . X;
+
+
+
+Print("======================================");
+kill(all);
+print("Q 9.57");
+
+L1:1;
+L2:2;
+x1:1;
+x2:2;
+xx1:1;
+xx2:-3;
+
+eq1:a*x1+b*x2=L1*x1;
+eq2:c*x1+d*x2=L1*x2;
+eq3:a*xx1+b*xx2=L2*xx1;
+eq4:c*xx1+d*xx2=L2*xx2;
+
+solnlst:solve([eq1,eq2,eq3,eq4],[a,b,c,d]);
+soln:solnlst[1];
+sol:map(rhs,soln);
+aa:sol[1];
+bb:sol[2];
+cc:sol[3];
+dd:sol[4];
+
+A:matrix([aa,bb],[cc,dd]);
+eigenvectors(A);
+
+X:matrix([x1,xx1],[x2,xx2]);
+D:invert(X) . A . X;
+
+
+Print("======================================");
+kill(all);
+print("Q 9.58");
+
+L1:-2;
+L2:3;
+x1:1;
+x2:-2;
+xx1:1;
+xx2:-3;
+
+eq1:a*x1+b*x2=L1*x1;
+eq2:c*x1+d*x2=L1*x2;
+eq3:a*xx1+b*xx2=L2*xx1;
+eq4:c*xx1+d*xx2=L2*xx2;
+
+solnlst:solve([eq1,eq2,eq3,eq4],[a,b,c,d]);
+soln:solnlst[1];
+sol:map(rhs,soln);
+aa:sol[1];
+bb:sol[2];
+cc:sol[3];
+dd:sol[4];
+
+A:matrix([aa,bb],[cc,dd]);
+eigenvectors(A);
+
+X:matrix([x1,xx1],[x2,xx2]);
+D:invert(X) . A . X;
+
+Print("======================================");
+kill(all);
+print("Q 9.59");
+
+L1:1;
+L2:-1;
+L3:0;
+x1:1;
+x2:-1;
+x3:0;
+xx1:1;
+xx2:1;
+xx3:-1;
+xxx1:-1;
+xxx2:1;
+xxx3:-1;
+
+eq1:a*x1+b*x2+c*x3=L1*x1;
+eq2:d*x1+e*x2+f*x3=L1*x2;
+eq3:g*x1+h*x2+i*x3=L1*x3;
+eq4:a*xx1+b*xx2+c*xx3=L1*xx1;
+eq5:d*xx1+e*xx2+f*xx3=L1*xx2;
+eq6:g*xx1+h*xx2+i*xx3=L1*xx3;
+eq7:a*xxx1+b*xxx2+c*xxx3=L1*xxx1;
+eq8:d*xxx1+e*xxx2+f*xxx3=L1*xxx2;
+eq9:g*xxx1+h*xxx2+i*xxx3=L1*xxx3;
+
+solnlst:solve([eq1,eq2,eq3,eq4,eq5,eq6,eq7,eq8,eq9],[a,b,c,d,e,f,g,h,i]);
+soln:solnlst[1];
+sol:map(rhs,soln);
+aa:sol[1];
+bb:sol[2];
+cc:sol[3];
+dd:sol[4];
+ee:sol[5];
+ff:sol[6];
+gg:sol[7];
+hh:sol[8];
+ii:sol[9];
+A:matrix([aa,bb,cc],[dd,ee,ff],[gg,hh,ii]);
+eigenvectors(A);
+
+X:matrix([x1,xx1,xxx1],[x2,xx2,xxx2],[x3,xx3,xxx3]);
+D:invert(X) . A . X;
+

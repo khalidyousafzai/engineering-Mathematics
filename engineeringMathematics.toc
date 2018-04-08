@@ -82,8 +82,9 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 9}}آئگنی مسائل کے چند استعمال}{\RL {\arabicfont 695}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 9}}تشاکلی، منحرف تشاکلی اور قائمہ الزاویہ قالب}{\RL {\arabicfont 703}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 9}}آئگنی اساس، وتری بنانا، دو درجی صورت}{\RL {\arabicfont 710}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 9}}مخلوط قالب اور مخلوط صورتیں}{\RL {\arabicfont 724}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 725}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 729}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 729}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 729}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 733}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 733}}

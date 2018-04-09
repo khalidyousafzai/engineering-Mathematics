@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  8 APR 2018 14:43
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  9 APR 2018 15:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3224,21 +3224,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 1254--1255
 [][]
  []
 
-[724] [725]) [726] [727
+[724] [725] [726]) [727] [728
 
 
-]
+] [729]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
- (./tex/mathAppendixAdditionalProofs.tex [728
+ (./tex/mathAppendixAdditionalProofs.tex
+[730
 
 
 ]
 ضمیمہ ا.
-[729] [730]) [731]
+[731] [732]) [733]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [732
+ (./tex/mathAppendixAuxiliaryMaterial.tex [734
 
 
 
@@ -3248,20 +3249,20 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 27.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[733] [734] [735] [736] [737]
+[735] [736] [737] [738] [739]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [738] [739]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [740] [741]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [740]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [742]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [741]
-[742
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [743]
+[744
 
 
 ] (./engineeringMathematics.aux (./tex/cktPreface.aux)
@@ -3283,12 +3284,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 47830 strings out of 493918
- 1135004 string characters out of 6150563
- 1339748 words of memory out of 5000000
- 50135 multiletter control sequences out of 15000+600000
+ 47833 strings out of 493918
+ 1135090 string characters out of 6150563
+ 1339823 words of memory out of 5000000
+ 50138 multiletter control sequences out of 15000+600000
  42343 words of font info for 169 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,17n,81p,10485b,2246s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (69 pages).
+Output written on engineeringMathematics.pdf (71 pages).

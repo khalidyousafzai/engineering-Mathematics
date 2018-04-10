@@ -1031,4 +1031,114 @@ eq1:L1/Q*y1^2+L2/Q*y2^2=1;
 X:matrix([v1[1,1],v2[1,1]],[v1[2,1],v2[2,1]]);
 
 
+Print("======================================");
+kill(all);
+print("example 9.22");
+load(linearalgebra);
+load(diag);
 
+A:matrix([3,-4+5*%i],[-4-5*%i,-7]);
+charpoly(A,x);
+expand(%);
+eigenvectors(A);
+
+A:matrix([3*%i,2+%i],[-2+%i,-7*%i]);
+charpoly(A,x);
+expand(%);
+eigenvectors(A);
+
+
+A:matrix([%i/2,sqrt(3)/2],[sqrt(3)/2,%i/2]);
+charpoly(A,x);
+expand(%);
+eigenvectors(A);
+
+Print("======================================");
+kill(all);
+print("example 9.23");
+load(linearalgebra);
+load(diag);
+
+A:matrix([3,-4+5*%i],[-4-5*%i,-7]);
+x:matrix([1-%i],[4*%i]);
+
+Ax:A . x;
+
+xAx:transpose(conjugate(x)) .A . x;
+
+
+
+Print("======================================");
+kill(all);
+print("Q 9.69");
+load(linearalgebra);
+load(diag);
+
+A:matrix([3,%i*2],[-%i*2,6]);
+transpose(conjugate(A));
+eigenvectors(A);
+
+A:matrix([%i,1-%i],[-1-%i,0]);
+-1*transpose(conjugate(A));
+eigenvectors(A);
+
+
+A:matrix([%i*4/5,3/5],[3/5,%i*4/5]);
+transpose(conjugate(A));
+invert(A);
+eigenvectors(A);
+
+A:matrix([0,%i*3],[%i*3,0]);
+transpose(conjugate(A));
+invert(A);
+eigenvectors(A);
+
+
+A:matrix([%i,0,0],[0,0,%i],[0,%i,-%i*2]);
+-1*transpose(conjugate(A));
+invert(A);
+eigenvectors(A);
+
+Print("======================================");
+kill(all);
+print("Q 9.75");
+load(linearalgebra);
+load(diag);
+
+A:matrix([3,-4+5*%i],[-4-5*%i,-7]);
+charpoly(A,x);
+expand(%);
+eigenvectors(A);
+
+A:matrix([3*%i,2+%i],[-2+%i,-7*%i]);
+charpoly(A,x);
+expand(%);
+eigenvectors(A);
+
+
+A:matrix([%i/2,sqrt(3)/2],[sqrt(3)/2,%i/2]);
+charpoly(A,x);
+expand(%);
+eigenvectors(A);
+
+
+Print("======================================");
+kill(all);
+print("Q 9.76");
+load(linearalgebra);
+load(diag);
+
+A:matrix([3,2-2*%i],[2+2*%i,-4]);
+x:matrix([2*%i],[-4+2*%i]);
+transpose(conjugate(A));
+
+transpose(conjugate(x)) . A . x;
+expand(%);
+
+
+A:matrix([%i*2,1,4+%i*3],[-1,0,5*%i],[-4+%i*3,5*%i,-%i]);
+x:matrix([%i],[1],[-%i]);
+-1*transpose(conjugate(A));
+
+transpose(conjugate(x)) . A . x;
+expand(%);

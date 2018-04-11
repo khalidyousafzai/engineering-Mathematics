@@ -77,14 +77,15 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 8}}مقطع۔ قاعدہ کریمر}{\RL {\arabicfont 633}}
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 8}}معکوس قالب۔ گاوس جارڈن اسقاط}{\RL {\arabicfont 650}}
 \contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 8}}سمتی فضا، اندرونی ضرب، خطی تبادلہ}{\RL {\arabicfont 665}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 9}}خطی الجبرا: آئگنی قدر مسائل قالب}{\RL {\arabicfont 683}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 9}}آئگنی قدر مسائل قالب۔ آئگنی اقدار اور آئگنی سمتیات کا حصول}{\RL {\arabicfont 684}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 9}}آئگنی مسائل کے چند استعمال}{\RL {\arabicfont 695}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 9}}خطی الجبرا: امتیازی قدر مسائل قالب}{\RL {\arabicfont 683}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 9}}امتیازی قدر مسائل قالب۔ امتیازی اقدار اور امتیازی سمتیات کا حصول}{\RL {\arabicfont 684}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 9}}امتیازی مسائل کے چند استعمال}{\RL {\arabicfont 695}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 9}}تشاکلی، منحرف تشاکلی اور قائمہ الزاویہ قالب}{\RL {\arabicfont 703}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 9}}آئگنی اساس، وتری بنانا، دو درجی صورت}{\RL {\arabicfont 710}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 9}}امتیازی اساس، وتری بنانا، دو درجی صورت}{\RL {\arabicfont 710}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 9}}مخلوط قالب اور مخلوط صورتیں}{\RL {\arabicfont 724}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 10}}سمتی تفرقی علم الاحصاء}{\RL {\arabicfont 735}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 737}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 741}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 741}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 739}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 743}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 743}}

@@ -83,9 +83,10 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 9}}تشاکلی، منحرف تشاکلی اور قائمہ الزاویہ قالب}{\RL {\arabicfont 703}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 9}}امتیازی اساس، وتری بنانا، دو درجی صورت}{\RL {\arabicfont 710}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 9}}مخلوط قالب اور مخلوط صورتیں}{\RL {\arabicfont 724}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 10}}سمتی تفرقی علم الاحصاء}{\RL {\arabicfont 735}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 10}}سمتی تفرقی علم الاحصاء۔ سمتی تفاعل}{\RL {\arabicfont 735}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 10}}غیر سمتی میدان اور سمتی میدان}{\RL {\arabicfont 735}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 739}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 743}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 743}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 741}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 745}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 745}}

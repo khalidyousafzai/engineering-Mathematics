@@ -97,7 +97,21 @@ r=\sqrt{(x-x_0)^2+(y-y_0)^2+(z-z_0)^2}\quad \quad (r\ge 0)
 \begin{align}
 \bM{u}'(t)=\lim_{\Delta t\to 0} \frac{\bM{u}(t+\Delta t)-\bM{u}(t)}{\Delta t}
 \end{align}
-\عددی{\bM{u}'(t)} کو \عددی{\bM{u}(t)} کا \اصطلاح{تفرق}\فرہنگ{تفرق}\حاشیہب{derivative}\فرہنگ{derivative} کہتے ہیں۔شکل میں نقطہ دار لکیر سمتیہ \عددی{\bM{u}(t)} کی نوک کو  آزاد متغیرہ \عددی{t} کے لئے وقفہ    \عددی{t} تا \عددی{t+\Delta t} ظاہر کرتی ہے۔
+\عددی{\bM{u}'(t)} کو \عددی{\bM{u}(t)} کا \اصطلاح{تفرق}\فرہنگ{تفرق}\حاشیہب{derivative}\فرہنگ{derivative} کہتے ہیں (شکل \حوالہ{شکل_الاحصاء_سمتی_تفاعل_تفرق})۔اس شکل  میں نقطہ دار لکیر سمتیہ \عددی{\bM{u}(t)} کی نوک کو  آزاد متغیرہ \عددی{t} کے لئے وقفہ    \عددی{t} تا \عددی{t+\Delta t} ظاہر کرتی ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw[dashed]([shift={(10:1)}]1,0.5) arc (10:130:1) to [out=-135,in=180]++(-0.5,0);
+\path(1,0.5)++(20:1)coordinate(kA);
+\path(1,0.5)++(80:1)coordinate(kB);
+\draw[-latex](0,0)--(kA)node[pos=0.6,below]{$\bM{u}(t)$};
+\draw[-latex](0,0)--(kB)node[pos=0.3,above left]{$\bM{u}(t+\Delta t)$};
+\draw(kA)--(kB);
+\draw[-latex](kA)--++(120:1)node[pos=0.7,right]{$\bM{u}'(t)$};
+\end{tikzpicture}
+\caption{سمتی تفاعل کا تفرق}
+\label{شکل_الاحصاء_سمتی_تفاعل_تفرق}
+\end{figure}
 
 کارتیسی نظام محدد استعمال کرتے ہوئے نقطہ \عددی{t}  پر \عددی{\bM{u}(t)} اس صورت قابل تفرق ہو گا جب اس نقطے پر درج ذیل تینوں تفرق موجود ہوں۔
 \begin{align*}
@@ -355,13 +369,44 @@ $\left(\tfrac{\bM{u}}{\abs{\bM{u}}}\right)'=\left(\tfrac{\bM{u}}{\sqrt{\bM{u}\cd
 %===========================
 
 \حصہ{منحنی}
-کارتیسی نظام میں منحنی \عددی{C} کو  درج ذیل سمتی تفاعل سے ظاہر کیا جا سکتا ہے۔
+کارتیسی نظام میں منحنی \عددی{C} کو  درج ذیل سمتی تفاعل سے ظاہر کیا جا سکتا ہے (شکل \حوالہ{شکل_الاحصاء_منحنی_مقدار_معلوم}-الف)۔
 \begin{align}\label{مساوات_الاحصاء_منحنی_مقدار_معلوم_الف}
 \bM{r}(t)=x(t)\bM{i}+y(t)\bM{j}+z(t)\bM{k}
 \end{align} 
 آزاد حقیقی متغیرہ \عددی{t} کی ہر قیمت \عددی{t_0} کا \عددی{C} پر مطابقتی نقطہ پایا جاتا ہے جس  کے محدد \عددی{x(t_0)}،\عددی{y(t_0)} اور \عددی{z(t_0)} 
   تعین گر سمتیہ \عددی{\bM{r}(t_0)} دیتا ہے۔
-
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+%axis
+\draw(0,0)--++(-0.25,-0.5)node[left]{$x$};
+\draw(0,0)--++(1,0)node[below]{$y$};
+\draw(0,0)--++(0,0.5)node[left]{$z$};
+%curve
+\draw(0.3,1) to [out=30,in=150]++(1.5,0.5)coordinate(kA) to [out=-30,in=-90]++(1,0.5)node[left]{$C$};
+\draw[-latex](0,0)node[ocirc]{}--(kA)node[ocirc]{}node[pos=0.7,below right]{$\bM{r}(t)$};
+\end{tikzpicture}
+\caption*{(الف) منحنی مقدار معلوم}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+%axis
+\draw(0,0)--++(-0.25,-0.5)node[left]{$x$};
+\draw(0,0)--++(1,0)node[below]{$y$};
+\draw(0,0)--++(0,0.5)node[left]{$z$};
+%straight line
+\draw(-0.3,1)--++(2.5,0.5)node[right]{$L$}coordinate[pos=0.3](kB)coordinate[pos=0.7](kA);
+\draw[-latex](0,0)node[ocirc]{}--(kA)node[ocirc]{}node[above]{$A$}node[pos=0.7,right]{$\bM{a}$};
+\draw[-latex](kA)node[ocirc]{}--(kB)node[ocirc]{}node[pos=0.7,above]{$\bM{b}$};
+\end{tikzpicture}
+\caption*{(ب) سیدھی لکیر کا مقدار معلوم خط}
+\end{subfigure}%
+\caption{سیدھی لکیر اور منحنی کے مقدار معلوم خطوط۔}
+\label{شکل_الاحصاء_منحنی_مقدار_معلوم}
+\end{figure}
 مساوات \حوالہ{مساوات_الاحصاء_منحنی_مقدار_معلوم_الف}  کو \عددی{C} کی \اصطلاح{منحنی مقدار معلوم}\فرہنگ{منحنی!مقدار معلوم}\فرہنگ{مقدار معلوم!منحنی}\حاشیہب{parametric representation}\فرہنگ{parametric!representation} کہتے ہیں جبکہ \عددی{t} کو \اصطلاح{مقدار معلوم} کہتے ہیں۔ منحنی مقدار معلوم کی طرز پر منحنی کا اظہار نہایت عمدہ ثابت ہوتا ہے۔
 
 فضا میں منحنی ظاہر کرنے کے دیگر طریقے 
@@ -382,6 +427,11 @@ F(x,y,z)=0,\quad G(x,y,z)=0
 
 %=======================
 \ابتدا{مثال}\quad سیدھا خط\\
+کسی بھی سیدھی لکیر \عددی{L} کو درج ذیل لکھا جا سکتا ہے جہاں \عددی{\bM{a}} اور \عددی{\bM{b}} مستقل سمتیات ہیں (شکل \حوالہ{شکل_الاحصاء_منحنی_مقدار_معلوم}-ب)۔
+\begin{align}
+\bM{r}(t)=\bM{a}+t\bM{b}=(a_1+tb_1)\bM{i}+(a_2+tb_2)\bM{j}+(a_3+tb_3)\bM{k}
+\end{align}
+\عددی{L} نقطہ \عددی{A} سے گزرتی ہے جس کا تعین گر سمتیہ \عددی{\bM{a}} ہے جبکہ \عددی{\bM{b}} کے رخ \عددی{L}  ہو گا۔اگر \عددی{\bM{b}} اکائی سمتیہ ہو تب اس کے ارکان \اصطلاح{کوسائن رخ}\فرہنگ{کوسائن رخ}\حاشیہب{direction cosines}\فرہنگ{direction cosines} ہوں گے اور \عددی{L} پر کسی بھی نقطے کا \عددی{A} سے فاصلہ  \عددی{\abs{t}} ہو گا۔
 
 \انتہا{مثال}
 %==========================

@@ -164,4 +164,86 @@ y-z;
 2*y+3*z;
 expand(%);
 
+Print("======================================");
+kill(all);
+print("Q 10.57");
+load("vect");
 
+
+i:[1,0,0];
+j:[0,1,0];
+k:[0,0,1];
+
+r:[a*cos(t),a*sin(t),c*t];
+f:sqrt(diff(r,t) . diff(r,t));
+integrate(f,t,0,2*%pi);
+expand(%);
+demoivre(%);
+
+r:[t,t^2,0];
+f:sqrt(diff(r,t) . diff(r,t));
+integrate(f,t,0,4);
+expand(%);
+demoivre(%);
+
+kill(all);
+r:[a*(cos(t))^3,a*(sin(t))^3,0];
+f:sqrt(diff(r,t) . diff(r,t));
+4*integrate(f,t,0,1/2*%pi);
+
+
+r:[cos(t)+t*sin(t),sin(t)-t*cos(t),0];
+f:sqrt(diff(r,t) . diff(r,t));
+integrate(f,t,0,%pi);
+expand(%);
+demoivre(%);
+
+r:[%e^t*cos(t),%e^t*sin(t),0];
+f:sqrt(diff(r,t) . diff(r,t));
+integrate(f,t,0,%pi/2);
+expand(%);
+demoivre(%);
+
+r:[t,sqrt(1-t^2),0];
+f:sqrt(diff(r,t) . diff(r,t));
+2*integrate(f,t,-1,1);
+expand(%);
+demoivre(%);
+
+Print("======================================");
+kill(all);
+print("Q 10.67");
+load("vect");
+
+
+i:[1,0,0];
+j:[0,1,0];
+k:[0,0,1];
+
+rr:%e^t;
+f:sqrt(rr^2+(diff(rr,t))^2);
+integrate(f,t,0,%pi);
+expand(%);
+demoivre(%);
+
+
+
+rr:t^2;
+f:sqrt(rr^2+(diff(rr,t))^2);
+integrate(f,t,0,%pi/2);
+expand(%);
+demoivre(%);
+
+
+rr:a*(1-cos(t));
+f:sqrt(rr^2+(diff(rr,t))^2);
+2*integrate(f,t,0,%pi);
+expand(%);
+demoivre(%);
+
+
+rr:a*(1+cos(t));
+f:sqrt(rr^2+(diff(rr,t))^2);
+2*integrate(f,t,0,%pi);
+expand(%);
+demoivre(%);

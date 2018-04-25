@@ -45,11 +45,11 @@
 \indexentry{لمبائی!منحنی}{\RL {\arabicfont  751}}
 \indexentry{arc length}{\RL {\arabicfont  752}}
 \indexentry{لمبائی قوس}{\RL {\arabicfont  752}}
-\indexentry{sense!positive}{\RL {\arabicfont  753}}
-\indexentry{طرف!مثبت}{\RL {\arabicfont  753}}
-\indexentry{مثبت طرف}{\RL {\arabicfont  753}}
+\indexentry{دائری سمت!مثبت}{\RL {\arabicfont  753}}
+\indexentry{مثبت دائری سمت}{\RL {\arabicfont  753}}
 \indexentry{orientation}{\RL {\arabicfont  753}}
 \indexentry{سمت بندی}{\RL {\arabicfont  753}}
+\indexentry{sense!positive}{\RL {\arabicfont  753}}
 \indexentry{linear element}{\RL {\arabicfont  753}}
 \indexentry{خطی جزو}{\RL {\arabicfont  753}}
 \indexentry{tangent}{\RL {\arabicfont  757}}
@@ -76,3 +76,22 @@
 \indexentry{دوہرا عمود}{\RL {\arabicfont  758}}
 \indexentry{torsion}{\RL {\arabicfont  759}}
 \indexentry{مروڑ}{\RL {\arabicfont  759}}
+\indexentry{velocity}{\RL {\arabicfont  763}}
+\indexentry{رفتار!سمتی}{\RL {\arabicfont  763}}
+\indexentry{سمتی رفتار سمتیہ}{\RL {\arabicfont  763}}
+\indexentry{speed}{\RL {\arabicfont  763}}
+\indexentry{رفتار}{\RL {\arabicfont  763}}
+\indexentry{acceleration vector}{\RL {\arabicfont  763}}
+\indexentry{سمتیہ اسراع}{\RL {\arabicfont  763}}
+\indexentry{angular speed}{\RL {\arabicfont  763}}
+\indexentry{زاویائی رفتار}{\RL {\arabicfont  763}}
+\indexentry{centripetal!acceleration}{\RL {\arabicfont  764}}
+\indexentry{اسراع!مرکز مائل}{\RL {\arabicfont  764}}
+\indexentry{مرکز مائل!اسراع}{\RL {\arabicfont  764}}
+\indexentry{centripetal!force}{\RL {\arabicfont  764}}
+\indexentry{مرکز مائل!قوت}{\RL {\arabicfont  764}}
+\indexentry{centrifugal!force}{\RL {\arabicfont  764}}
+\indexentry{مرکز گریز!قوت}{\RL {\arabicfont  764}}
+\indexentry{Coriolis acceleration}{\RL {\arabicfont  765}}
+\indexentry{اسراع!کوریولس}{\RL {\arabicfont  765}}
+\indexentry{کوریولس!اسراع}{\RL {\arabicfont  765}}

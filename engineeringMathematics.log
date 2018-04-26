@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  25 APR 2018 16:12
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  26 APR 2018 18:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3215,22 +3215,22 @@ j\OT1/ppl/m/n/10 ,  []  \OT1/zplm/m/n/10 (\OMS/zplm/m/n/10 ^^@\OT1/ppl/m/n/10 1
 /10 1, 0, 0\OT1/zplm/m/n/10 )$ []
  []
 
-[754] [755] [756] [757] [758] [759] [760] [761] [762] [763] [764]) [765]
-[766
+[754] [755] [756] [757] [758] [759] [760] [761] [762] [763] [764] [765]
+[766]) [767] [768
 
 
-] [767]
+] [769]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
- (./tex/mathAppendixAdditionalProofs.tex [768
+ (./tex/mathAppendixAdditionalProofs.tex [770
 
 
 ]
 ضمیمہ ا.
-[769] [770]) [771]
+[771] [772]) [773]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [772
+ (./tex/mathAppendixAuxiliaryMaterial.tex [774
 
 
 
@@ -3238,20 +3238,20 @@ j\OT1/ppl/m/n/10 ,  []  \OT1/zplm/m/n/10 (\OMS/zplm/m/n/10 ^^@\OT1/ppl/m/n/10 1
 ضمیمہ ب.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[773] [774] [775] [776] [777]
+[775] [776] [777] [778] [779]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [778] [779]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [780] [781]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [780]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [782]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [781]
-[782
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [783]
+[784
 
 
 ] (./engineeringMathematics.aux (./tex/cktPreface.aux)
@@ -3274,12 +3274,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 48460 strings out of 493918
- 1148276 string characters out of 6150563
- 1344832 words of memory out of 5000000
- 50757 multiletter control sequences out of 15000+600000
+ 48476 strings out of 493918
+ 1148582 string characters out of 6150563
+ 1345050 words of memory out of 5000000
+ 50773 multiletter control sequences out of 15000+600000
  53857 words of font info for 207 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  66i,15n,388p,10485b,2251s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (56 pages).
+Output written on engineeringMathematics.pdf (58 pages).

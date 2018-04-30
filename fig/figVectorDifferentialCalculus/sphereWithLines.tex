@@ -1,0 +1,110 @@
+    \documentclass{standalone}
+    \usepackage{tikz}  
+    \usepackage{tikz-3dplot}
+
+    \begin{document}
+
+    %Angle Definitions
+    %-----------------
+
+    %set the plot display orientation
+    %synatax: \tdplotsetdisplay{\theta_d}{\phi_d}
+    \tdplotsetmaincoords{65}{110}
+
+    \pgfmathsetmacro{\rvec}{0.5}
+
+
+
+    \pgfmathsetmacro{\thetavecc}{55}
+    \pgfmathsetmacro{\phivecc}{55}
+
+%    \pgfmathsetmacro{\thetaveccc}{39.7}
+  %  \pgfmathsetmacro{\phiveccc}{55}
+
+
+    \begin{tikzpicture}[scale=5,tdplot_main_coords]
+
+    \shadedraw[tdplot_screen_coords,ball color = white] (0,0) circle (\rvec);
+
+
+
+    %-----------------------
+    \coordinate (O) at (0,0,0);
+
+
+    \tdplotsetcoord{B}{\rvec}{\thetavecc}{\phivecc}
+
+    \tdplotsetcoord{C}{\rvec}{\thetavecc}{\phivecc}
+   \tdplotsetcoord{K}{\rvec}{90}{\phivecc}
+   \tdplotsetcoord{b}{0.6*\rvec}{90}{\phivecc}
+
+    %draw the main coordinate system axes
+    \draw[] (0,0,0) -- (1.2*\rvec,0,0) node[anchor=north east]{$x$};
+    \draw[] (0,0,0) -- (0,1.2*\rvec,0) node[anchor=north west]{$y$};
+    \draw[] (0,0,0) -- (0,0,1.2*\rvec) node[anchor=south]{$z$};
+    \draw[-stealth,thick] (0,0,0) -- (0,0,0.2) node[pos=0.7,left]{$k$};
+\draw(0,0.4*\rvec,-3/4*\rvec)node{$N$};
+
+
+    \draw[dashed] (O) -- (B)node[right]{$J$};
+\draw[dashed] (O)--(K);
+\draw[-stealth,thick] (O)--(b)node[pos=0.7,below]{$b$};
+\draw[fill=black] (B) circle (0.4pt);
+    %
+
+   % \draw[-stealth,very thick,color=green!60!black] (O) -- (C);
+
+%    \draw[dashed, color=blue] (O) -- (Bxy);
+    \draw[dashed] (B) -- (Bxy);
+
+
+  %  \draw[dashed, color=green!60!black] (O) -- (Cxy);
+   % \draw[dashed, color=green!60!black] (C) -- (Cxy);
+
+%\tdplotdrawarc[coordinate system, draw styles]{center}{r}{angle start}{angle end}{label options}{label}
+%x-axis is taken as zero degrees
+    \tdplotdrawarc[-stealth]{(O)}{0.15}{0}{\phivecc}{anchor=north}{$\omega t$}
+    \tdplotdrawarc[-stealth]{(0,0,-1.2*\rvec-0.08)}{0.2}{-120}{160}{anchor=north}{}
+\draw (0,0,-1.2*\rvec) --++(0,0,-0.15)++(0,0,-0.08)--++(0,0,-0.08);
+
+%\tdplotsetthetaplanecoords{phi angle} then just draw arcs like in xy plane 
+    \tdplotsetthetaplanecoords{\phivecc}
+
+    \tdplotdrawarc[tdplot_rotated_coords,-stealth]{(0,0,0)}{0.2}{90}{\thetavecc}{anchor=south west}{$\gamma t$}
+
+  %  \tdplotdrawarc[color=green!40!black]{(O)}{0.7}{0}{\phiveccc}{anchor=north}{$\lambda_B$}
+
+    \tdplotsetthetaplanecoords{\phivecc}
+
+    %\tdplotdrawarc[color=green!40!black,tdplot_rotated_coords]{(0,0,0)}{0.7}{90}{\thetaveccc}{anchor=south west}{$\varphi_B$}
+
+
+%latitudes
+   \draw[dashed] (\rvec,0,0) arc (0:360:\rvec);
+    \draw[thick] (\rvec,0,0) arc (0:110:\rvec);
+    \draw[thick] (\rvec,0,0) arc (0:-70:\rvec);
+
+
+%longitudes
+    \tdplotsetthetaplanecoords{55}
+    \draw[thick,tdplot_rotated_coords] (\rvec,0,0) arc (0:151:\rvec);
+    \draw[thick,tdplot_rotated_coords] (\rvec,0,0) arc (0:55:\rvec);
+    \draw[dashed,tdplot_rotated_coords] (\rvec,0,0) arc (180:-40:-\rvec);
+    \draw[thick,tdplot_rotated_coords] (\rvec,0,0) arc (360:336:\rvec);
+  %  \tdplotsetthetaplanecoords{55}
+    %\draw[thick,tdplot_rotated_coords] (\rvec,0,0) arc (0:147:\rvec);
+    %\draw[very thick,color=red,tdplot_rotated_coords] (\rvec,0,0) arc (0:40:\rvec);
+    %\draw[dashed,tdplot_rotated_coords] (\rvec,0,0) arc (180:-40:-\rvec);
+    %\draw[thick,tdplot_rotated_coords] (\rvec,0,0) arc (360:334:\rvec);
+
+
+
+
+    %\tdplotsetrotatedcoords{-79.1}{-120}{27.3}
+   % \draw[very thick,color=red,tdplot_rotated_coords] (\rvec,0,0) arc (0:21:\rvec);
+
+
+    \end{tikzpicture}
+
+
+    \end{document}

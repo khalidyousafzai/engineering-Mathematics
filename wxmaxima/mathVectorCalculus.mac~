@@ -381,7 +381,67 @@ print("Q 10.91");
 load("vect");
 
 R:3.85*10^8;
-t:2.358*10^6;
+t:27.322*24*3600;
 
 a:(2*%pi/t)^2*R;
 
+
+Print("======================================");
+kill(all);
+print("Q 10.95");
+load("vect");
+
+
+w(x,y):=x-y;
+[x,y]:[t,log(t)];
+
+diff(w(x,y),t);
+
+kill(all);
+w(x,y):=sqrt(x^2+y^2);
+[x,y]:[%e^(-t),%e^t];
+
+diff(w(x,y),t);
+
+kill(all);
+w(x,y):=x/y;
+[x,y]:[cos(t),sin(t)];
+
+diff(w(x,y),t);
+
+Print("======================================");
+kill(all);
+print("Q 10.100");
+load("vect");
+
+
+w(x,y,z):=x^2+y^2+z^2;
+[x,y,z]:[t^2,log(t),%e^t];
+diff(w(x,y,z),t);
+
+kill(all);
+w(x,y,z):=sqrt(x^2+y^2+z^2);
+[x,y,z]:[cos(t),sin(t),t];
+diff(w(x,y,z),t);
+trigsimp(%);
+
+Print("======================================");
+kill(all);
+print("Q 10.103");
+load("vect");
+
+kill(all);
+w(x,y):=log(x^2+y^2);
+[x,y]:[%e^u*cos(v),%e^u*sin(v)];
+diff(w(x,y),u);
+trigsimp(%);
+diff(w(x,y),v);
+trigsimp(%);
+
+kill(all);
+w(x,y):=log(x^2+y^2);
+[x,y]:[%e^u*cos(v),%e^u*sin(v)];
+diff(w(x,y),u);
+trigsimp(%);
+diff(w(x,y),v);
+trigsimp(%);

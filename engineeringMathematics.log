@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  1 MAY 2018 15:32
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  2 MAY 2018 13:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3118,9 +3118,9 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/sl' in size <10>
  not available
 (Font)              Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' tried instea
-d on input line 96.
+d on input line 97.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' will be
-(Font)              scaled to size 10.0pt on input line 96.
+(Font)              scaled to size 10.0pt on input line 97.
  [5])
 \tf@toc=\write6
 \openout6 = `engineeringMathematics.toc'.
@@ -3240,22 +3240,22 @@ EU1/XBTabrizBold(0)/m/n/8 جڑا \EU1/JameelNooriNastaleeq(0)/m/n/8 ہونے س�
  نقطوں کو متناہی تعداد کے ایسے سیدھے قطعات سے ملایا جا سکتا ہے جن کے[]
  []
 
-[770] [771] [772]) [773] [774
+[770] [771] [772] [773] [774]) [775] [776
 
 
-] [775]
+] [777]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
- (./tex/mathAppendixAdditionalProofs.tex
-[776
+
+(./tex/mathAppendixAdditionalProofs.tex [778
 
 
 ]
 ضمیمہ ا.
-[777] [778]) [779]
+[779] [780]) [781]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [780
+ (./tex/mathAppendixAuxiliaryMaterial.tex [782
 
 
 
@@ -3263,20 +3263,20 @@ EU1/XBTabrizBold(0)/m/n/8 جڑا \EU1/JameelNooriNastaleeq(0)/m/n/8 ہونے س�
 ضمیمہ ب.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[781] [782] [783] [784] [785]
+[783] [784] [785] [786] [787]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [786] [787]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [788] [789]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [788]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [790]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [789]
-[790
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [791]
+[792
 
 
 ] (./engineeringMathematics.aux (./tex/cktPreface.aux)
@@ -3299,12 +3299,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 48530 strings out of 493918
- 1150330 string characters out of 6150563
- 1345827 words of memory out of 5000000
- 50815 multiletter control sequences out of 15000+600000
+ 48540 strings out of 493918
+ 1150651 string characters out of 6150563
+ 1346091 words of memory out of 5000000
+ 50825 multiletter control sequences out of 15000+600000
  53865 words of font info for 208 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  66i,15n,388p,10485b,2251s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (64 pages).
+Output written on engineeringMathematics.pdf (66 pages).

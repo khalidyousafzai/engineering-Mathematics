@@ -18,7 +18,7 @@
 %\tikzexternalize[mode=list and make] %disable to generate figures
 %\tikzexternaldisable  %enables figures after this command. put this is the tex file
 
-%for vertical spacing in tables use\Tstrut and \Bstrut  
+%for vertical spacing in tables use\Tstrut and \Bstrut
 \newcommand\Tstrut{\rule{0pt}{2.6ex}}       % Top strut
 \newcommand\Bstrut{\rule[-1.2ex]{0pt}{0pt}} % Bottom strut
 
@@ -115,7 +115,7 @@
 \include{./tex/mathVectorDifferentialCalculus}
 
 %=========================================================
-%\addcontentsline{toc}{chapter}{حوالہ}     %it is standard not to include References in toc. 
+%\addcontentsline{toc}{chapter}{حوالہ}     %it is standard not to include References in toc.
 \renewcommand*{\bibname}{حوالہ}      %this command has to be placed right here
 \begin{thebibliography}{99}\label{حوالہ_بیرونی_مواد}
 \begin{otherlanguage}{english}

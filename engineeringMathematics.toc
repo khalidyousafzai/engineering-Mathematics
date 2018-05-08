@@ -92,8 +92,9 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 10}}سمتی رفتار اور اسراع}{\RL {\arabicfont 762}}
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 10}}زنجیری ترکیب اور متعدد متغیرات کے تفاعل کا اوسط قیمت مسئلہ}{\RL {\arabicfont 769}}
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 10}}سمتی تفرق، غیر سمتی میدان کی ڈھلوان}{\RL {\arabicfont 776}}
+\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 10}}}{\RL {\arabicfont 788}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 787}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 791}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 791}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 791}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 795}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 795}}

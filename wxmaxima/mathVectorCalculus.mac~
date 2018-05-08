@@ -463,11 +463,285 @@ i:[1,0,0];
 j:[0,1,0];
 k:[0,0,1];
 
-f:x^3+2*y-5*z^2;
+f:x^2+2*y-z^3;
 a:3*i-4*j;
 b:a/sqrt(a . a);
 
 dfdf:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
-dfdfP:ev(dfdf,x=2,y=-1,z=3);
+dfdfP:ev(dfdf,x=-2,y=1,z=3);
 dfds:b . dfdfP;
 
+Print("======================================");
+kill(all);
+print("example 10.110");
+load("vect");
+
+i:[1,0,0];
+j:[0,1,0];
+k:[0,0,1];
+
+f:3*x+2*y+44;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+
+f:%e^y*sin(x);
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+
+f:x^2+y^2;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+
+f:log(x^2+y^2);
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+
+f:asin(y/x);
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+
+f:atan(y/x);
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+
+f:sqrt(x^2+y^2+z^2);
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+
+f:(x^2+y^2+z^2)^(3/2);
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+
+f:(x^2+y^2+z^2)^(-1/2);
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+
+f:x^2*y*z^3;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+
+f:sin(x^2+y^2+z^2);
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+
+f:%e^(x*y*z);
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+
+Print("======================================");
+kill(all);
+print("example 10.122");
+load("vect");
+
+f:x-2*y;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+
+f:y/x;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+
+f:x/y;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+
+f:x*y;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+
+f:x^3*y^2;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+
+f:4*x^2+3*y^2;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+
+Print("======================================");
+kill(all);
+print("example 10.128");
+load("vect");
+
+xx:2;
+yy:2;
+zz:0;
+f:x-y;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+
+xx:3;
+yy:9;
+zz:0;
+f:x^2-y;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+ev(kgrad,x=xx,y=yy,z=zz);
+
+xx:-1;
+yy:5;
+zz:0;
+f:2*x+7-y;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+ev(kgrad,x=xx,y=yy,z=zz);
+
+xx:2;
+yy:3;
+zz:0;
+f:3*x+3-y^2;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+ev(kgrad,x=xx,y=yy,z=zz);
+
+xx:4;
+yy:3;
+zz:0;
+f:x^2+y^2-36;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+ev(kgrad,x=xx,y=yy,z=zz);
+
+xx:8;
+yy:4;
+zz:0;
+f:x^2-y^3;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+ev(kgrad,x=xx,y=yy,z=zz);
+
+xx:1;
+yy:0;
+zz:0;
+f:x^2-y^2;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+ev(kgrad,x=xx,y=yy,z=zz);
+
+Print("======================================");
+kill(all);
+print("example 10.135");
+load("vect");
+
+xx:-1;
+yy:-1;
+zz:2;
+f:x+y+z;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+ev(kgrad,x=xx,y=yy,z=zz);
+
+xx:1;
+yy:-4;
+zz:1;
+f:3*x-y+2*z;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+ev(kgrad,x=xx,y=yy,z=zz);
+
+xx:2;
+yy:3;
+zz:13;
+f:x^2+y^2-z;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+ev(kgrad,x=xx,y=yy,z=zz);
+
+xx:sqrt(3);
+yy:sqrt(3);
+zz:sqrt(3);
+f:x^2+y^2+z^2-9;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+ev(kgrad,x=xx,y=yy,z=zz);
+
+xx:1;
+yy:-1;
+zz:1;
+f:2*x^2+3*y^2+z^2-6;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+ev(kgrad,x=xx,y=yy,z=zz);
+
+xx:2;
+yy:1;
+zz:2;
+f:x*y^2-z;
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+ev(kgrad,x=xx,y=yy,z=zz);
+
+Print("======================================");
+kill(all);
+print("example 10.147");
+load("vect");
+
+i:[1,0,0];
+j:[0,1,0];
+k:[0,0,1];
+
+f:x^2+y^2;
+xx:3;
+yy:3;
+zz:0;
+v:i;
+b:v/sqrt(v . v);
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+kk:ev(kgrad,x=xx,y=yy,z=zz);
+b . kk;
+
+v:i+j;
+b:v/sqrt(v . v);
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+kk:ev(kgrad,x=xx,y=yy,z=zz);
+b . kk;
+
+
+v:j;
+b:v/sqrt(v . v);
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+kk:ev(kgrad,x=xx,y=yy,z=zz);
+b . kk;
+
+v:-i+j;
+b:v/sqrt(v . v);
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+kk:ev(kgrad,x=xx,y=yy,z=zz);
+b . kk;
+
+Print("======================================");
+kill(all);
+print("example 10.148");
+load("vect");
+
+i:[1,0,0];
+j:[0,1,0];
+k:[0,0,1];
+
+f:3*x-2*y;
+xx:1;
+yy:1;
+zz:0;
+a:i+j;
+b:a/sqrt(a . a);
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+kk:ev(kgrad,x=xx,y=yy,z=zz);
+b . kk;
+
+f:2*x^2-3*y^2;
+xx:2;
+yy:3;
+zz:0;
+a:3*i+2*j;
+b:a/sqrt(a . a);
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+kk:ev(kgrad,x=xx,y=yy,z=zz);
+b . kk;
+
+f:x^2-y^2;
+xx:-1;
+yy:1;
+zz:0;
+a:-1*i+1*j;
+b:a/sqrt(a . a);
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+kk:ev(kgrad,x=xx,y=yy,z=zz);
+b . kk;
+
+f:y/x;
+xx:3;
+yy:2;
+zz:0;
+a:-2*i-1*j;
+b:a/sqrt(a . a);
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+kk:ev(kgrad,x=xx,y=yy,z=zz);
+b . kk;
+
+f:3*x-2*y+4*z;
+xx:3;
+yy:2;
+zz:1;
+a:1*i-1*j-1*k;
+b:a/sqrt(a . a);
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+kk:ev(kgrad,x=xx,y=yy,z=zz);
+b . kk;
+
+f:x^2+y^2+z^2;
+xx:4;
+yy:0;
+zz:5;
+a:-1*i+1*j-1*k;
+b:a/sqrt(a . a);
+kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
+kk:ev(kgrad,x=xx,y=yy,z=zz);
+b . kk;

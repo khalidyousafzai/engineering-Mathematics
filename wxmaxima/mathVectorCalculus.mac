@@ -767,3 +767,26 @@ diff(f,x,2)+diff(f,y,2)+diff(f,z,2);
 
 f:asin(y/x);
 diff(f,x,2)+diff(f,y,2)+diff(f,z,2);
+
+Print("======================================");
+kill(all);
+print("example 10.169");
+load("vect");
+
+vx:x;
+vy:y;
+vz:0;
+kdiv:diff(vx,x)+diff(vy,y)+diff(vz,z);
+
+r:(x^2+y^2+z^2)^(3/2);
+vx:x/r;
+vy:y/r;
+vz:z/r;
+kdiv:diff(vx,x)+diff(vy,y)+diff(vz,z);
+
+vx:%e^x*sin(y);
+vy:%e^x*cos(y);
+vz:0;
+kdiv:diff(vx,x)+diff(vy,y)+diff(vz,z);
+
+

@@ -745,3 +745,42 @@ b:a/sqrt(a . a);
 kgrad:diff(f,x)*i+diff(f,y)*j+diff(f,z)*k;
 kk:ev(kgrad,x=xx,y=yy,z=zz);
 b . kk;
+
+Print("======================================");
+kill(all);
+print("example 10.158");
+load("vect");
+
+f:3*x+2*y+4;
+diff(f,x,2)+diff(f,y,2)+diff(f,z,2);
+
+f:%e^y*sin(x);
+diff(f,x,2)+diff(f,y,2)+diff(f,z,2);
+
+
+f:x^2+y^2;
+diff(f,x,2)+diff(f,y,2)+diff(f,z,2);
+
+f:log(x^2+y^2);
+diff(f,x,2)+diff(f,y,2)+diff(f,z,2);
+
+
+f:asin(y/x);
+diff(f,x,2)+diff(f,y,2)+diff(f,z,2);
+
+Print("======================================");
+kill(all);
+print("example 10.169");
+load("vect");
+
+vx:x;
+vy:y;
+vz:0;
+kdiv:diff(vx,x)+diff(vy,y)+diff(vz,z);
+
+r:(x^2+y^2+z^2)^(3/2);
+vx:x/r;
+vy:y/r;
+vz:z/r;
+kdiv:diff(vx,x)+diff(vy,y)+diff(vz,z);
+

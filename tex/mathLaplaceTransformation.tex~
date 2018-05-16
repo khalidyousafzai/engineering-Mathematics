@@ -3497,8 +3497,8 @@ $34$ & $\frac{e^{-as}}{s}$ & $u(t-a)$  \Tstrut\\
 $35$ & $e^{-as}$ & $\delta(t-a)$  \Tstrut\\
 \\
 $36$ & $\frac{1}{s}e^{-\tfrac{k}{s}}$ & $J_0(2\sqrt{kt})$  \Tstrut\\
-$37$ & $\frac{1}{\sqrt{s}e^{-\tfrac{k}{s}}}$ & $\frac{1}{\sqrt{\pi t}}\cos 2\sqrt{kt}$  \Tstrut\\
-$38$ & $\frac{e^{\tfrac{k}{s}}}{s^{\tfrac{3}{2}}}$ & $\frac{1}{\sqrt{\pi k}}\sinh 2\sqrt{kt}$  \Tstrut\\
+$37$ & $\frac{1}{\sqrt{s}}e^{-\tfrac{k}{s}}$ & $\frac{1}{\sqrt{\pi t}}\cos 2\sqrt{kt}$  \Tstrut\\
+$38$ & $\frac{1}{s^{\tfrac{3}{2}}}e^{\tfrac{k}{s}}$ & $\frac{1}{\sqrt{\pi k}}\sinh 2\sqrt{kt}$  \Tstrut\\
 $39$ & $e^{-k\sqrt{s}} \quad (k>0)$ & $\frac{k}{2\sqrt{\pi t^3}}e^{-\tfrac{k^2}{4t}}$  \Tstrut\\
 \\
 $40$ & $\frac{1}{s}\ln s$ & $-\ln t-\gamma \quad (\gamma \approx 0.5772)$  \Tstrut\\

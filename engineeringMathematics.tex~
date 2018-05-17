@@ -51,13 +51,14 @@
 
 
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathSecondOrderDifferentialEquations,./tex/mathHigherOrderDifferentialEquations,./tex/mathSystemOfDifferentialEquations,./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations,./tex/mathLaplaceTransformation,./tex/mathVectors,./tex/mathLinearAlgebra,./tex/mathEigenvalueMatrixProblems,./tex/mathVectorDifferentialCalculus,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathSystemOfDifferentialEquations,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial,./tex/mathQuestions}%
-%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathVectorDifferentialCalculus,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}%
+%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathSystemOfDifferentialEquations,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial,./tex/mathQuestions}%
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathVectorDifferentialCalculus,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}%
 
 
 \author{
 خالد خان یوسفزئی\\
-{\small {کامسیٹ انسٹیٹیوٹ آف انفارمیشن ٹیکنالوجی، اسلام آباد}}\\
+\\
+{\small {جامعہ کامسیٹ، اسلام آباد}}\\
 \texttt{khalidyousafzai@comsats.edu.pk}
 }
 
@@ -65,11 +66,11 @@
 
 
 
-\title{انجینئری حساب}
+\title{انجینئری حساب\\ (جلد اول)}
 \date{}                           %if absent gives date in arabic which is a rubbish
 
 %\linenumbers
-\makeindex
+%\makeindex
 
 %==========
 \begin{document}
@@ -154,7 +155,7 @@
 \renewcommand*{\indexname}{فرہنگ}      %this command has to be placed right here just before printindex command
 \cleardoublepage
 \addcontentsline{toc}{chapter}{فرہنگ}
-%\printindex
+\printindex
 
 
 \end{urdufont}

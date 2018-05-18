@@ -16,7 +16,7 @@ y(x)=y_1(x)-y_2(x)
 \begin{align}\label{مساوات_ضمیمہ_ضمنی_ابتدائی}
 y(x_0)=0, \quad y'(x_0)=0
 \end{align}
-ہم تفاٰعل
+ہم تفاعل
 \begin{align}\label{مساوات_ضمیمہ_ضمنی_تفاعل}
 z=y^2+y'^2
 \end{align}
@@ -87,6 +87,7 @@ zF_1\le 0, \quad \quad zF_2 \ge 0
 \begin{align}
 z\le 0, \quad \quad z \ge 0 \quad \quad \text{\RL{$I$ پر تمام $x$ کے لئے}}
 \end{align}
-ملتا ہے جس کا مطلب ہے کہ \عددی{I} پر \عددی{z=y^2+y'^2 \equiv 0} ہے۔یوں \عددی{I} پر \عددی{y \equiv 0}  یعنی \عددی{y_1 \equiv y_2} ہے۔
+ملتا ہے جس کا مطلب ہے کہ \عددی{I} پر \عددی{z=y^2+y'^2 \equiv 0} ہے۔یوں \عددی{I} پر \عددی{y \equiv 0}  یعنی \عددی{y_1 \equiv y_2} ہے جو درکار ثبوت ہے۔
+\qedsymbol
 \انتہا{ثبوت}
 %=============================

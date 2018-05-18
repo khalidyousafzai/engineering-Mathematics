@@ -102,8 +102,10 @@
 \renewcommand{\theexamplecounter}{\arabic{examplecounter}.\thechapter}
 
 \newenvironment*{مثال}
-{\noindent\ignorespaces \vspace{\baselineskip} \hrule \vspace{\baselineskip}  مثال \refstepcounter{examplecounter} \theexamplecounter :}%
-{\par\noindent \hrule  \vspace{\baselineskip}}
+{\par\noindent\ignorespaces \vspace{\baselineskip}    مثال \refstepcounter{examplecounter} \theexamplecounter :}%
+{\par\hfill\qedsymbol  \vspace{\baselineskip}}
+%{\noindent\ignorespaces \vspace{\baselineskip} \hrule \vspace{\baselineskip}  مثال \refstepcounter{examplecounter} \theexamplecounter :}%
+%{\par\noindent \hrule  \vspace{\baselineskip}}
 
 %------
 %practice problems environment مشق
@@ -113,7 +115,7 @@
 
 \newenvironment*{مشق}
 {\noindent\ignorespaces \vspace{\baselineskip} \hrule \vspace{\baselineskip} مشق \refstepcounter{practicecounter} \thepracticecounter :}%
-{\par\noindent \hrule  \vspace{\baselineskip}}
+{\par\hfill\qedsymbol  \vspace{\baselineskip}}
 %---------
 
 %end of chapter questions environment سوال
@@ -155,7 +157,8 @@
 
 \newenvironment*{ثبوت}				
 {\noindent\ignorespaces  ثبوت :}%
-{\par\noindent }
+{\par\hfill\qedsymbol  \vspace{\baselineskip} }
+%{\par\noindent\qedsymbol  \vspace{\baselineskip} }
 %--------------------
 %--------------------
 

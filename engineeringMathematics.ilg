@@ -9,7 +9,7 @@ Scanning input file engineeringMathematics.idx....
 !! Input index error (file = engineeringMathematics.idx, line = 937):
    -- Incomplete first argument (premature LFD).
 .done (1738 entries accepted, 3 rejected).
-Sorting entries..................done (21320 comparisons).
-Generating output file engineeringMathematics.ind.....done (1763 lines written, 0 warnings).
+Sorting entries.................done (20653 comparisons).
+Generating output file engineeringMathematics.ind.....done (1762 lines written, 0 warnings).
 Output written in engineeringMathematics.ind.
 Transcript written in engineeringMathematics.ilg.

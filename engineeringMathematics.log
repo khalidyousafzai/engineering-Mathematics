@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  17 MAY 2018 17:57
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  18 MAY 2018 15:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1752,8 +1752,15 @@ Package: IEEEtrantools 2012/12/27 V1.3 by Michael Shell
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 3.
 
-(./tex/cktPreface.aux) (./tex/prefaceFirstBook.aux)
-(./tex/mathFirstOrderDifferentialEquations.aux)
+(./tex/mathPreface.aux
+LaTeX Font Info:    Try loading font information for EU1+ppl on input line 6.
+LaTeX Font Info:    No file EU1ppl.fd. on input line 6.
+
+
+LaTeX Font Warning: Font shape `EU1/ppl/m/n' undefined
+(Font)              using `EU1/lmr/m/n' instead on input line 6.
+
+) (./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
 (./tex/mathSystemOfDifferentialEquations.aux)
@@ -1762,15 +1769,7 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (./tex/mathLinearAlgebra.aux) (./tex/mathEigenvalueMatrixProblems.aux)
 (./tex/mathVectorDifferentialCalculus.aux)
 (./tex/mathAppendixAdditionalProofs.aux)
-(./tex/mathAppendixAuxiliaryMaterial.aux)
-LaTeX Font Info:    Try loading font information for EU1+ppl on input line 23.
-LaTeX Font Info:    No file EU1ppl.fd. on input line 23.
-
-
-LaTeX Font Warning: Font shape `EU1/ppl/m/n' undefined
-(Font)              using `EU1/lmr/m/n' instead on input line 23.
-
-)
+(./tex/mathAppendixAuxiliaryMaterial.aux))
 \openout1 = `engineeringMathematics.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
@@ -1789,7 +1788,8 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 76.
 LaTeX Font Info:    ... okay on input line 76.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 76.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 76.
- (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
+
+(/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 76.
@@ -3067,6 +3067,8 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 21.59999pt on input line 88.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 11.25pt on input line 88.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 15.0pt on input line 88.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 12.50409pt on input line 88.
@@ -3080,8 +3082,6 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 88.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 88.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 11.25pt on input line 88.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 88.
  [1
@@ -3114,21 +3114,23 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 \openout5 = `engineeringMathematics.toc'.
 
  [6]
-\openout2 = `./tex/cktPreface.aux'.
+\openout2 = `./tex/mathPreface.aux'.
 
-
-No file ./tex/cktPreface.tex.
-\openout2 = `./tex/prefaceFirstBook.aux'.
-
-(./tex/prefaceFirstBook.tex
+ (./tex/mathPreface.tex
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
  [7
 
 
+])
+[8]
+\openout2 = `./tex/prefaceFirstBook.aux'.
+
+ (./tex/prefaceFirstBook.tex [9
 
 
-]) [8]
+
+]) [10]
 \openout2 = `./tex/mathFirstOrderDifferentialEquations.aux'.
 
 
@@ -3405,16 +3407,17 @@ Missing character: There is no ا in font zplmr7m!
 Missing character: There is no ل in font zplmr7m!
 Missing character: There is no ف in font zplmr7m!
  [70] [71] [72] [73] [74] [75] [76]
-[77] [78] [79]) [80]
+[77] [78] [79] [80]) [81]
 \openout2 = `./tex/mathSecondOrderDifferentialEquations.aux'.
 
  (./tex/mathSecondOrderDifferentialEquations.tex
+[82
+
+
+
+]
 باب \RL {\arabicfont 2}.
-[81
-
-
-
-] [82] [83] [84] [85] [86] [87] [88] [89]
+[83] [84] [85] [86] [87] [88] [89] [90] [91]
 Missing character: There is no م in font zplmr7m!
 Missing character: There is no س in font zplmr7m!
 Missing character: There is no ا in font zplmr7m!
@@ -3469,13 +3472,13 @@ Missing character: There is no ع in font zplmr7m!
 Missing character: There is no ر in font zplmr7m!
 Missing character: There is no ی in font zplmr7m!
 Missing character: There is no ف in font zplmr7m!
- [90]
+ [92]
 Overfull \hbox (11.29091pt too wide) in paragraph at lines 260--260
 [][] []
  []
 
-[91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103] [104]
-[105] [106] [107] [108] [109] [110] [111] [112] [113] [114]
+[93] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106]
+[107] [108] [109] [110] [111] [112] [113] [114] [115] [116]
 Overfull \hbox (9.01222pt too wide) in paragraph at lines 1078--1078
 [][] []
  []
@@ -3490,14 +3493,14 @@ Overfull \hbox (12.39519pt too wide) in alignment at lines 1103--1103
 [] [] 
  []
 
-[115] [116] [117]
+[117] [118] [119]
 
 Package pgf Warning: Your graphic driver pgfsys-xetex.def does not support patt
 erns. This warning is given only once on input line 1232.
 
 Missing character: There is no ّ in font zplmr7m!
-[118] [119] [120] [121] [122] [123] [124] [125] [126] [127] [128] [129]
-[130] [131] [132] [133] [134] [135] [136]
+[120] [121] [122] [123] [124] [125] [126] [127] [128] [129] [130] [131]
+[132] [133] [134] [135] [136] [137] [138]
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
@@ -3512,27 +3515,27 @@ File: ./fig/figSecondOrderOrdinaryDifferentialEquations/figEulerCauchyABCD.pdf
 Graphic file (type QTm)
 
 <use  "./fig/figSecondOrderOrdinaryDifferentialEquations/figEulerCauchyABCD.pdf
-" > [137] [138] [139] [140] [141] [142] [143] [144] [145] [146] [147] [148]
-[149] [150] [151]
+" > [139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150]
+[151] [152] [153]
 Underfull \hbox (badness 10000) in paragraph at lines 2416--2417
 [][]
  []
 
 Missing character: There is no ِ in font zplmr7m!
-[152] [153] [154] [155] [156] [157] [158] [159]
+[154] [155] [156] [157] [158] [159] [160] [161]
 Overfull \hbox (4.20706pt too wide) in paragraph at lines 2622--2622
 [][] []
  []
 
-[160] [161] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171]
-[172] [173] [174]
+[162] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173]
+[174] [175] [176]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [175] [176] [177] [178] [179] [180] [181]
+ [177] [178] [179] [180] [181] [182] [183]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -3545,18 +3548,18 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [182] [183]
-[184] [185] [186] [187] [188] [189] [190]) [191]
+ [184] [185]
+[186] [187] [188] [189] [190] [191] [192]) [193]
 \openout2 = `./tex/mathHigherOrderDifferentialEquations.aux'.
 
 
-(./tex/mathHigherOrderDifferentialEquations.tex [192
+(./tex/mathHigherOrderDifferentialEquations.tex [194
 
 
 
 ]
 باب \RL {\arabicfont 3}.
-[193] [194] [195] [196] [197] [198] [199] [200] [201]
+[195] [196] [197] [198] [199] [200] [201] [202] [203]
 Overfull \hbox (4.15659pt too wide) in paragraph at lines 251--253
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 اب ہم اس قابل ہیں کہ ثابت کریں کہ مساوا
 ت []\EU1/JameelNooriNastaleeq(0)/bx/n/10 2[]\EU1/JameelNooriNastaleeq(1)/m/n/10
@@ -3566,7 +3569,7 @@ lNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 3[][] \EU1/Ja
 meelNooriNastaleeq(1)/m/n/10 کے تمام حل شامل ہیں۔مساوات[]
  []
 
-[202] [203]
+[204] [205]
 Overfull \hbox (8.46466pt too wide) in paragraph at lines 303--308
 [] \EU1/JameelNooriNastaleeq(1)/m/n/10 سوال  []\EU1/JameelNooriNastaleeq(0)/bx/
 n/10 4[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/
@@ -3579,26 +3582,26 @@ it/10 xe[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 x[]e[]\OT1/ppl/m/n/10 , \OML/zplm
 /m/it/10 x[]e[]$ []
  []
 
-[204] [205] [206] [207] [208] [209] [210] [211] [212] [213] [214] [215]
-[216]
+[206] [207] [208] [209] [210] [211] [212] [213] [214] [215] [216] [217]
+[218]
 Overfull \hbox (4.64366pt too wide) in paragraph at lines 731--731
 [][] []
  []
 
-[217] [218]
+[219] [220]
 Underfull \vbox (badness 1418) has occurred while \output is active []
 
- [219]
-[220] [221] [222] [223]) [224]
+ [221]
+[222] [223] [224] [225]) [226]
 \openout2 = `./tex/mathSystemOfDifferentialEquations.aux'.
 
  (./tex/mathSystemOfDifferentialEquations.tex
 باب \RL {\arabicfont 4}.
-[225
+[227
 
 
 
-] [226] [227] [228] [229] [230] [231] [232]
+] [228] [229] [230] [231] [232] [233] [234]
 Overfull \hbox (5.55379pt too wide) in paragraph at lines 406--407
 []\EU1/XBTabrizBold(0)/m/n/10 امتیازی اقدار[][] \EU1/JameelNooriNastaleeq(1)/m/
 n/10 اور \EU1/XBTabrizBold(0)/m/n/10 امتیازی سمتیات[][] \EU1/JameelNooriNastale
@@ -3606,20 +3609,20 @@ eq(1)/m/n/10 انتہائی اہم ہیں جو \EU1/XBTabrizBold(0)/m/n/10 کو�
  \EU1/JameelNooriNastaleeq(1)/m/n/10 میں کلیدی کردار ادا کرتے ہیں۔مساوات []
  []
 
-[233] [234] [235] [236] [237] [238]
+[235] [236] [237] [238] [239] [240]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [239] [240] [241]
+ [241] [242] [243]
 Overfull \hbox (9.45656pt too wide) in paragraph at lines 755--759
  [][][][] 
  []
 
-[242] [243] [244] [245] [246] [247] [248] [249] [250] [251] [252] [253]
-[254] [255] [256] [257] [258] [259] [260] [261]
+[244] [245] [246] [247] [248] [249] [250] [251] [252] [253] [254] [255]
+[256] [257] [258] [259] [260] [261] [262] [263]
 Missing character: There is no ن in font zplmr7m!
 Missing character: There is no ق in font zplmr7m!
 Missing character: There is no ط in font zplmr7m!
@@ -3630,20 +3633,20 @@ Missing character: There is no غ in font zplmr7m!
 Missing character: There is no و in font zplmr7m!
 Missing character: There is no ل in font zplmr7m!
 Missing character: There is no ہ in font zplmr7m!
- [262] [263] [264] [265]
-[266] [267] [268] [269]
+ [264] [265] [266] [267]
+[268] [269] [270] [271]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [270] [271] [272]
+ [272] [273] [274]
 Overfull \hbox (7.65799pt too wide) in paragraph at lines 2049--2057
  [][][][] 
  []
 
-[273] [274] [275] [276] [277]
+[275] [276] [277] [278] [279]
 Overfull \hbox (2.96785pt too wide) in paragraph at lines 2351--2353
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات:مستحکم اور جاذب نقطہ مرغولہ؛  $\OM
 L/zplm/m/it/10 y[] \OT1/zplm/m/n/10 = \OML/zplm/m/it/10 e[]\OT1/zplm/m/n/10 (\O
@@ -3654,12 +3657,12 @@ U1/JameelNooriNastaleeq(1)/m/n/10 ،  $\OML/zplm/m/it/10 y[] \OT1/zplm/m/n/10 =
 [] \OT1/ppl/m/n/10 2\OML/zplm/m/it/10 t \OT1/zplm/m/n/10 +$[]
  []
 
-[278] [279] [280] [281] [282] [283] [284] [285]
+[280] [281] [282] [283] [284] [285] [286] [287]
 File: ./fig/figSystemOfDifferentialEquations/figSystemPendulumLossyA.pdf Graphi
 c file (type QTm)
 
 <use  "./fig/figSystemOfDifferentialEquations/figSystemPendulumLossyA.pdf" >
-[286] [287] [288] [289] [290] [291] [292]
+[288] [289] [290] [291] [292] [293] [294]
 File: ./fig/figSystemOfDifferentialEquations/figSystemVanDerPolEquationA.pdf Gr
 aphic file (type QTm)
 
@@ -3669,7 +3672,7 @@ File: ./fig/figSystemOfDifferentialEquations/figSystemVanDerPolEquationB.pdf Gr
 aphic file (type QTm)
 
 <use  "./fig/figSystemOfDifferentialEquations/figSystemVanDerPolEquationB.pdf" 
-> [293] [294] [295]
+> [295] [296] [297]
 Overfull \hbox (4.84079pt too wide) in paragraph at lines 2942--2943
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 سوال []\EU1/JameelNooriNastaleeq(0)/bx/
 n/10 56[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
@@ -3679,7 +3682,7 @@ aleeq(0)/bx/n/10 4[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 میں تفرقی م�
 نظام حاصل کریں۔اس نظام کے تمام نقطہ فاصل دریافت کریں۔نظام[]
  []
 
-[296]
+[298]
 Overfull \hbox (1.784pt too wide) in paragraph at lines 2958--2963
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات:  $\OT1/zplm/m/n/10 (\OT1/ppl/m/n/
 10 0, 0\OT1/zplm/m/n/10 )$  \EU1/JameelNooriNastaleeq(1)/m/n/10 اور  $\OT1/zplm
@@ -3702,14 +3705,14 @@ pl/m/n/10 , 0\OT1/zplm/m/n/10 )$  \EU1/JameelNooriNastaleeq(1)/m/n/10 غیر م�
 plm/m/n/10 = \OT1/ppl/m/n/10 1, 2, 3, [] $[]
  []
 
-[297] [298] [299] [300] [301] [302] [303] [304]
+[299] [300] [301] [302] [303] [304] [305] [306]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [305]
+ [307]
 Missing character: There is no ٰ in font zplmr7m!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -3717,7 +3720,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [306]
+ [308]
 Overfull \hbox (4.4952pt too wide) in paragraph at lines 3282--3284
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $\OML/zplm/m/it/10 I[]\OT1/zplm
 /m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) = \OML/zplm/m/it/10 e[]\OT1/zplm
@@ -3727,26 +3730,22 @@ n/10 0.291 [] 2\OML/zplm/m/it/10 t \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 2.58 []
  2\OML/zplm/m/it/10 t$[]
  []
 
-) [307]
+) [309]
 \openout2 = `./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations.aux'.
 
  (./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations.tex
-[308
+[310
 
 
 
 ]
 باب \RL {\arabicfont 5}.
-[309]
+[311]
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 [][]
  []
 
 
-Overfull \vbox (1.62791pt too high) has occurred while \output is active []
-
-
-[310] [311]
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
@@ -3786,17 +3785,12 @@ Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[330]
-Overfull \hbox (15.13234pt too wide) in paragraph at lines 656--656
-[][] []
- []
-
-[331]
+[330] [331]
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
 [332]
-Overfull \hbox (10.4415pt too wide) in paragraph at lines 693--693
+Overfull \hbox (15.13234pt too wide) in paragraph at lines 656--656
 [][] []
  []
 
@@ -3804,7 +3798,16 @@ Overfull \hbox (10.4415pt too wide) in paragraph at lines 693--693
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[334] [335]
+[334]
+Overfull \hbox (10.4415pt too wide) in paragraph at lines 693--693
+[][] []
+ []
+
+[335]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[336] [337]
 Overfull \hbox (24.5746pt too wide) in paragraph at lines 770--770
 [][] []
  []
@@ -3816,24 +3819,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[336] [337]
-Overfull \vbox (1.62791pt too high) has occurred while \output is active []
-
-
 [338] [339]
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
 [340] [341]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[342] [343]
 Overfull \hbox (20.44586pt too wide) in paragraph at lines 938--938
 [][] []
  []
 
 
-Overfull \vbox (1.62791pt too high) has occurred while \output is active []
-
-
-[342] [343]
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
@@ -3846,13 +3845,13 @@ Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
 [348] [349]
-NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
-in y). (see also unbounded coords=jump). 
-
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
 [350] [351]
+NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
@@ -3861,6 +3860,10 @@ Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
 [354] [355]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[356] [357]
 Underfull \hbox (badness 10000) in paragraph at lines 1344--1345
 [][]
  []
@@ -3869,43 +3872,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 1344--1345
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[356] [357]
-Overfull \vbox (1.62791pt too high) has occurred while \output is active []
-
-
-[358]
-Overfull \hbox (1.94762pt too wide) in paragraph at lines 1435--1435
-[][] []
- []
-
-[359]
+[358] [359]
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
 [360]
-Overfull \hbox (6.92651pt too wide) in paragraph at lines 1507--1507
+Overfull \hbox (1.94762pt too wide) in paragraph at lines 1435--1435
 [][] []
  []
 
 [361]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[362]
+Overfull \hbox (6.92651pt too wide) in paragraph at lines 1507--1507
+[][] []
+ []
+
+[363]
 LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 1540.
 
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[362] [363]
+[364] [365]
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[364]
+[366]
 File: ./fig/figBesselFunction/figOctaveBesselFunction.pdf Graphic file (type QT
 m)
- <use  "./fig/figBesselFunction/figOctaveBesselFunction.pdf" > [365]
-Overfull \vbox (1.62791pt too high) has occurred while \output is active []
-
-
-[366] [367]
+ <use  "./fig/figBesselFunction/figOctaveBesselFunction.pdf" > [367]
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
@@ -3913,20 +3912,24 @@ Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[370]
+[370] [371]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[372]
 Overfull \hbox (10.78867pt too wide) in paragraph at lines 1808--1808
 [][] []
  []
 
-[371]
-Overfull \vbox (1.62791pt too high) has occurred while \output is active []
-
-
-[372] [373]
+[373]
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
 [374] [375]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[376] [377]
 Overfull \hbox (4.57747pt too wide) in paragraph at lines 1974--1976
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 سوال  []\EU1/JameelNooriNastaleeq(0)/bx/n
 /10 75[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/
@@ -3950,18 +3953,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1974--1976
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[376] [377]
+[378] [379]
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[378]
+[380]
 File: ./fig/figBesselFunction/figOctaveNeumannFunction.pdf Graphic file (type Q
 Tm)
- <use  "./fig/figBesselFunction/figOctaveNeumannFunction.pdf" > [379]
-Overfull \vbox (1.62791pt too high) has occurred while \output is active []
-
-
-[380] [381]
+ <use  "./fig/figBesselFunction/figOctaveNeumannFunction.pdf" > [381]
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
@@ -3977,16 +3976,16 @@ Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[388]
+[388] [389]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[390]
 Underfull \hbox (badness 10000) in paragraph at lines 2388--2392
 [][]
  []
 
-[389]
-Overfull \vbox (1.62791pt too high) has occurred while \output is active []
-
-
-[390] [391]
+[391]
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
@@ -4010,7 +4009,11 @@ Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[402]
+[402] [403]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[404]
 Overfull \hbox (2.60431pt too wide) in paragraph at lines 2854--2858
 [] \EU1/JameelNooriNastaleeq(1)/m/n/10 سوال  []\EU1/JameelNooriNastaleeq(0)/bx/
 n/10 129[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/b
@@ -4022,39 +4025,39 @@ eeq(0)/bx/n/10 5[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 میں دیا گیا ت
 ]
  []
 
-[403]
+[405]
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[404] [405])
+[406] [407])
 Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 
 
-[406]
+[408]
 \openout2 = `./tex/mathLaplaceTransformation.aux'.
 
  (./tex/mathLaplaceTransformation.tex
 باب \RL {\arabicfont 6}.
-[407
+[409
 
 
 
 ]
 Missing character: There is no ٔ in font [lmroman8-regular]:mapping=tex-text!
- [408] [409] [410] [411] [412] [413] [414] [415] [416] [417] [418]
-[419] [420] [421]
+ [410] [411] [412] [413] [414] [415] [416] [417] [418] [419] [420]
+[421] [422] [423]
 Missing character: There is no َ in font zplmr7m!
- [422] [423] [424] [425] [426]
+ [424] [425] [426] [427] [428]
 Overfull \hbox (2.77925pt too wide) in paragraph at lines 759--759
 [][] []
  []
 
-[427] [428] [429] [430]
+[429] [430] [431] [432]
 Overfull \hbox (0.47182pt too wide) in paragraph at lines 936--936
 [][] []
  []
 
-[431] [432] [433] [434] [435] [436] [437]
+[433] [434] [435] [436] [437] [438] [439]
 Missing character: There is no م in font zplmr7m!
 Missing character: There is no س in font zplmr7m!
 Missing character: There is no ا in font zplmr7m!
@@ -4076,36 +4079,36 @@ Missing character: There is no ا in font zplmr7m!
 Missing character: There is no ب in font zplmr7m!
 Missing character: There is no د in font zplmr7m!
 Missing character: There is no ل in font zplmr7m!
- [438] [439] [440] [441]
+ [440] [441] [442] [443]
 Overfull \hbox (13.09828pt too wide) in paragraph at lines 1327--1327
 [][] []
  []
 
-[442] [443] [444] [445]
+[444] [445] [446] [447]
 Overfull \hbox (0.27336pt too wide) in paragraph at lines 1621--1621
 [][] []
  []
 
-[446] [447] [448]
+[448] [449] [450]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
- [449]
+ [451]
 Underfull \hbox (badness 10000) in paragraph at lines 1847--1847
 [][][]\EU1/JameelNooriNastaleeq(0)/m/n/8 ماہر طبیعیات، پال اڈرین مارث ڈیراک [19
 02-1984] (جرمنی کے ارون روڈالف یوسف شروڈِنگر کے ساتھ مشترق) نوبل انعام یافتہ [1
 933] ، انگلستان کے رہائشی (جن کا تعلق[]
  []
 
-[450] [451] [452]
+[452] [453] [454]
 Overfull \hbox (8.08275pt too wide) in paragraph at lines 1917--1917
 [][] []
  []
 
-[453] [454] [455]
+[455] [456] [457]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4117,14 +4120,14 @@ Overfull \hbox (11.91365pt too wide) in paragraph at lines 2029--2031
  [][][][] 
  []
 
-[456] [457] [458] [459] [460] [461] [462] [463] [464] [465] [466] [467]
-[468] [469] [470] [471] [472] [473] [474] [475] [476] [477] [478] [479]
-[480] [481] [482] [483] [484] [485] [486]
+[458] [459] [460] [461] [462] [463] [464] [465] [466] [467] [468] [469]
+[470] [471] [472] [473] [474] [475] [476] [477] [478] [479] [480] [481]
+[482] [483] [484] [485] [486] [487] [488]
 Overfull \hbox (52.75371pt too wide) in paragraph at lines 3137--3151
  [][][][] 
  []
 
-[487] [488]
+[489] [490]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4142,30 +4145,30 @@ Overfull \hbox (10.99184pt too wide) in paragraph at lines 3200--3207
  [][][][] 
  []
 
-[489] [490] [491] [492] [493]
+[491] [492] [493] [494] [495]
 Underfull \vbox (badness 2980) has occurred while \output is active []
 
- [494]
+ [496]
 
 LaTeX Warning: Float too large for page by 8.9798pt on input line 3478.
 
-) [495] [496] [497]
+) [497] [498] [499]
 \openout2 = `./tex/mathVectors.aux'.
 
- (./tex/mathVectors.tex [498
+ (./tex/mathVectors.tex [500
 
 
 
 ]
 باب \RL {\arabicfont 7}.
-[499] [500]
+[501] [502]
 Underfull \hbox (badness 3209) in paragraph at lines 49--49
 [][][]\EU1/JameelNooriNastaleeq(0)/m/n/8 یہاں یہ بتلانا ضروری ہے کہ طبیعیات اور
  جیومیٹری میں ایسی صورتیں پائی جاتی ہیں جہاں سمتیہ کو ایک جگہ سے دوسری جگہ منتق
 ل کرنا ممکن نہیں ہوتا ہے۔آپ میکانیات سے جانتے ہیں کہ کسی[]
  []
 
-[501] [502] [503] [504] [505]
+[503] [504] [505] [506] [507]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -4184,14 +4187,14 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [506]
+ [508]
 Underfull \hbox (badness 10000) in paragraph at lines 406--406
 [][]|\EU1/JameelNooriNastaleeq(0)/m/n/9 (ب) سمتیات کے مطابقتی اجزاء کو جمع کرتے
  ہوئے حاصل جمع سمتیہ کے اجزاء حاصل[]
  []
 
-[507] [508] [509] [510] [511] [512] [513] [514] [515] [516] [517] [518]
-[519] [520] [521] [522] [523] [524] [525] [526] [527] [528] [529] [530]
+[509] [510] [511] [512] [513] [514] [515] [516] [517] [518] [519] [520]
+[521] [522] [523] [524] [525] [526] [527] [528] [529] [530] [531] [532]
 Underfull \hbox (badness 10000) in paragraph at lines 1343--1345
 [][]
  []
@@ -4216,7 +4219,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1365--1369
 [][]
  []
 
-[531]
+[533]
 Underfull \hbox (badness 10000) in paragraph at lines 1371--1375
 [][]
  []
@@ -4226,38 +4229,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 1377--1381
 [][]
  []
 
-[532] [533] [534] [535]
+[534] [535] [536] [537]
 
 LaTeX Warning: Command \b invalid in math mode on input line 1579.
 
 Missing character: There is no ̲ in font zplmr7m!
-[536]
+[538]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [537] [538] [539] [540] [541] [542] [543] [544] [545] [546] [547]
-[548] [549] [550]
+ [539] [540] [541] [542] [543] [544] [545] [546] [547] [548] [549]
+[550] [551] [552]
 Missing character: There is no ُ in font zplmr7m!
- [551] [552] [553] [554] [555] [556]) [557]
+ [553] [554] [555] [556] [557] [558]) [559]
 \openout2 = `./tex/mathLinearAlgebra.aux'.
 
 
-(./tex/mathLinearAlgebra.tex [558
+(./tex/mathLinearAlgebra.tex [560
 
 
 
 ]
 باب \RL {\arabicfont 8}.
-[559] [560]
+[561] [562]
 Underfull \hbox (badness 10000) in paragraph at lines 71--72
 [][]
  []
 
-[561] [562] [563] [564] [565] [566] [567]
+[563] [564] [565] [566] [567] [568] [569]
 Underfull \hbox (badness 10000) in paragraph at lines 444--448
 [][]
  []
 
-[568] [569] [570]
+[570] [571] [572]
 Underfull \hbox (badness 10000) in paragraph at lines 590--591
 [][]
  []
@@ -4267,7 +4270,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 615--616
 [][]
  []
 
-[571]
+[573]
 Underfull \hbox (badness 10000) in paragraph at lines 675--676
 [][]
  []
@@ -4277,7 +4280,7 @@ Overfull \hbox (1.99893pt too wide) in paragraph at lines 702--702
 [][] []
  []
 
-[572] [573] [574] [575]
+[574] [575] [576] [577]
 Missing character: There is no ت in font zplmr7m!
 Missing character: There is no ب in font zplmr7m!
 Missing character: There is no د in font zplmr7m!
@@ -4287,12 +4290,12 @@ Missing character: There is no ی in font zplmr7m!
 Missing character: There is no م in font zplmr7m!
 Missing character: There is no ح in font zplmr7m!
 Missing character: There is no ل in font zplmr7m!
- [576] [577] [578] [579] [580]
+ [578] [579] [580] [581] [582]
 Underfull \hbox (badness 10000) in paragraph at lines 1021--1022
 [][]
  []
 
-[581]
+[583]
 Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
 [][]
  []
@@ -4302,7 +4305,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1047--1050
 [][]
  []
 
-[582]
+[584]
 Underfull \hbox (badness 10000) in paragraph at lines 1076--1080
 [][]
  []
@@ -4312,7 +4315,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1076--1080
 [][]
  []
 
-[583]
+[585]
 Overfull \hbox (1.89949pt too wide) in paragraph at lines 1144--1150
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $\OML/cmm/b/it/10 A[] \OT1/zplm/m
 /n/10 = [] \OT1/ppl/m/n/10 ,  \OML/cmm/b/it/10 B[] \OT1/zplm/m/n/10 = [] \OT1/p
@@ -4320,7 +4323,7 @@ pl/m/n/10 ,  \OML/cmm/b/it/10 a[] \OT1/zplm/m/n/10 = [] \OT1/ppl/m/n/10 ,  \OML
 /cmm/b/it/10 b[] \OT1/zplm/m/n/10 = []$ []
  []
 
-[584]
+[586]
 Overfull \hbox (4.71283pt too wide) in paragraph at lines 1180--1186
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $\OT1/ppl/m/n/10 2\OML/cmm/b/it/1
 0 A \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 3\OML/cmm/b/it/10 B \OT1/zplm/m/n/10 =
@@ -4330,12 +4333,12 @@ S/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 3\OML/cmm/b/it/10 B\OT1/zplm/m/n/10 )[] = \OT
 mm/b/it/10 B[] \OT1/zplm/m/n/10 = []$ []
  []
 
-[585]
+[587]
 Underfull \hbox (badness 10000) in paragraph at lines 1211--1217
 [][]
  []
 
-[586] [587] [588] [589] [590] [591]
+[588] [589] [590] [591] [592] [593]
 Underfull \hbox (badness 10000) in paragraph at lines 1409--1409
 [][]|\EU1/JameelNooriNastaleeq(0)/m/n/9 (ب) دونوں خطوط (جنہیں ایک دونوں سے ذرہ 
 ہٹ کر دکھایا گیا ہے درحقیقت) ہم[]
@@ -4347,8 +4350,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1419--1419
 چھوتے ہیں لہٰذا ان کا کوئی حل نہیں پایا جاتا[]
  []
 
-[592] [593] [594] [595] [596] [597] [598] [599] [600] [601] [602] [603]
-[604] [605] [606]
+[594] [595] [596] [597] [598] [599] [600] [601] [602] [603] [604] [605]
+[606] [607] [608]
 Overfull \hbox (6.33846pt too wide) in paragraph at lines 1943--1945
  [][][][] 
  []
@@ -4358,34 +4361,34 @@ Overfull \hbox (6.1057pt too wide) in paragraph at lines 1978--1980
  [][][][] 
  []
 
-[607] [608]
+[609] [610]
 Missing character: There is no ; in font nullfont!
- [609] [610] [611] [612] [613] [614] [615] [616] [617] [618]
+ [611] [612] [613] [614] [615] [616] [617] [618] [619] [620]
 Underfull \hbox (badness 10000) in paragraph at lines 2249--2250
 [][]
  []
 
-[619] [620] [621] [622] [623] [624] [625] [626] [627] [628] [629] [630]
-[631] [632] [633] [634] [635]
+[621] [622] [623] [624] [625] [626] [627] [628] [629] [630] [631] [632]
+[633] [634] [635] [636] [637]
 Underfull \hbox (badness 10000) in paragraph at lines 3040--3041
 [][]
  []
 
-[636]
+[638]
 Underfull \hbox (badness 10000) in paragraph at lines 3053--3054
 [][]
  []
 
-[637]
+[639]
 Underfull \vbox (badness 1082) has occurred while \output is active []
 
- [638]
+ [640]
 Underfull \hbox (badness 10000) in paragraph at lines 3119--3120
 [][]
  []
 
-[639] [640] [641] [642] [643] [644] [645] [646] [647] [648] [649] [650]
-[651] [652] [653] [654] [655] [656] [657] [658] [659]
+[641] [642] [643] [644] [645] [646] [647] [648] [649] [650] [651] [652]
+[653] [654] [655] [656] [657] [658] [659] [660] [661]
 Overfull \hbox (0.941pt too wide) in paragraph at lines 3964--3973
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 (ب) فرض کریں کہ $\OML/zplm/m/it/10 n \O
 T1/zplm/m/n/10 = \OML/cmm/b/it/10 A []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ہے 
@@ -4394,33 +4397,33 @@ T1/zplm/m/n/10 = \OML/cmm/b/it/10 A []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ہے
 Nastaleeq(1)/m/n/10 سے مراد  $\OML/cmm/b/it/10 A[]AB \OT1/zplm/m/n/10 =$[]
  []
 
-[660] [661] [662] [663] [664] [665] [666] [667] [668]
+[662] [663] [664] [665] [666] [667] [668] [669] [670]
 Overfull \hbox (0.21277pt too wide) in paragraph at lines 4251--4251
 [][] []
  []
 
-[669] [670] [671] [672] [673] [674] [675]
+[671] [672] [673] [674] [675] [676] [677]
 Missing character: There is no َ in font zplmr7m!
- [676]
+ [678]
 Missing character: There is no ن in font zplmr7m!
 Missing character: There is no ظ in font zplmr7m!
 Missing character: There is no م in font zplmr7m!
- [677] [678] [679] [680])
-[681]
+ [679] [680] [681] [682])
+[683]
 \openout2 = `./tex/mathEigenvalueMatrixProblems.aux'.
 
- (./tex/mathEigenvalueMatrixProblems.tex [682
+ (./tex/mathEigenvalueMatrixProblems.tex [684
 
 
 
 ]
 باب \RL {\arabicfont 9}.
-[683] [684] [685] [686] [687] [688] [689] [690]
+[685] [686] [687] [688] [689] [690] [691] [692]
 
 LaTeX Warning: Command \m invalid in math mode on input line 195.
 
 Missing character: There is no ̉ in font zplmr7m!
-[691] [692] [693] [694] [695] [696] [697] [698]
+[693] [694] [695] [696] [697] [698] [699] [700]
 Overfull \hbox (5.87549pt too wide) in paragraph at lines 433--435
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 جہاں  $\OML/zplm/m/it/10 x[] \OT1/zplm/m/
 n/10 = \OT1/ppl/m/n/10 1$  \EU1/JameelNooriNastaleeq(1)/m/n/10 چنتے ہوئے  $\OML
@@ -4429,17 +4432,17 @@ eeq(1)/m/n/10 اور  $\OML/zplm/m/it/10 x[] \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 
   \EU1/JameelNooriNastaleeq(1)/m/n/10 حاصل کیا گیا ہے۔ابتدائی کل آبادی  $[]$[]
  []
 
-[699] [700] [701] [702] [703]
+[701] [702] [703] [704] [705]
 Underfull \hbox (badness 10000) in paragraph at lines 606--607
 [][]
  []
 
-[704] [705] [706] [707] [708] [709] [710] [711] [712]
+[706] [707] [708] [709] [710] [711] [712] [713] [714]
 Overfull \hbox (4.80075pt too wide) in paragraph at lines 914--914
 [][] []
  []
 
-[713] [714] [715] [716] [717]
+[715] [716] [717] [718] [719]
 Overfull \hbox (9.21394pt too wide) in paragraph at lines 1039--1039
 [][] []
  []
@@ -4449,32 +4452,32 @@ Overfull \hbox (9.38686pt too wide) in paragraph at lines 1043--1043
 [][] []
  []
 
-[718] [719] [720] [721] [722] [723]
+[720] [721] [722] [723] [724] [725]
 Underfull \hbox (badness 10000) in paragraph at lines 1254--1255
 [][]
  []
 
-[724] [725] [726]
+[726] [727] [728]
 Underfull \hbox (badness 10000) in paragraph at lines 1348--1350
 [][]
  []
 
-[727] [728] [729] [730]
+[729] [730] [731] [732]
 Overfull \hbox (37.79886pt too wide) in paragraph at lines 1478--1478
 [][] []
  []
 
-[731] [732] [733]) [734]
+[733] [734] [735]) [736]
 \openout2 = `./tex/mathVectorDifferentialCalculus.aux'.
 
  (./tex/mathVectorDifferentialCalculus.tex
 باب \RL {\arabicfont 10}.
-[735
+[737
 
 
 
-] [736] [737] [738] [739] [740] [741] [742] [743] [744] [745] [746]
-[747] [748] [749] [750] [751] [752] [753]
+] [738] [739] [740] [741] [742] [743] [744] [745] [746] [747] [748]
+[749] [750] [751] [752] [753] [754] [755]
 Overfull \hbox (14.89417pt too wide) in paragraph at lines 876--882
 [] \EU1/JameelNooriNastaleeq(1)/m/n/10 سوال  []\EU1/JameelNooriNastaleeq(0)/bx/
 n/10 61[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
@@ -4487,12 +4490,12 @@ j\OT1/ppl/m/n/10 ,  []  \OT1/zplm/m/n/10 (\OMS/zplm/m/n/10 ^^@\OT1/ppl/m/n/10 1
 /10 1, 0, 0\OT1/zplm/m/n/10 )$ []
  []
 
-[754] [755] [756] [757] [758] [759] [760] [761] [762] [763] [764] [765]
-[766]
+[756] [757] [758] [759] [760] [761] [762] [763] [764] [765] [766] [767]
+[768]
 File: ./fig/figVectorDifferentialCalculus/sphereWithLines.pdf Graphic file (typ
 e QTm)
  <use  "./fig/figVectorDifferentialCalculus/sphereWithLines.pdf" >
-[767] [768] [769]
+[769] [770] [771]
 Underfull \hbox (badness 10000) in paragraph at lines 1447--1447
 [][][]\EU1/JameelNooriNastaleeq(0)/m/n/8 دائرہ کار  $\OML/zplm/m/it/8 D$  \EU1/
 XBTabrizBold(0)/m/n/8 جڑی \EU1/JameelNooriNastaleeq(0)/m/n/8 ہوئے نقطوں کا \EU1
@@ -4502,18 +4505,18 @@ EU1/XBTabrizBold(0)/m/n/8 جڑا \EU1/JameelNooriNastaleeq(0)/m/n/8 ہونے س�
  نقطوں کو متناہی تعداد کے ایسے سیدھے قطعات سے ملایا جا سکتا ہے جن کے[]
  []
 
-[770] [771] [772] [773] [774] [775] [776] [777] [778]
+[772] [773] [774] [775] [776] [777] [778] [779] [780]
 Overfull \vbox (0.81058pt too high) has occurred while \output is active []
 
 
-[779] [780] [781] [782] [783] [784] [785] [786] [787] [788] [789] [790]
-[791] [792] [793] [794] [795] [796] [797] [798] [799] [800] [801] [802]
-[803]
+[781] [782] [783] [784] [785] [786] [787] [788] [789] [790] [791] [792]
+[793] [794] [795] [796] [797] [798] [799] [800] [801] [802] [803] [804]
+[805]
 Underfull \hbox (badness 10000) in paragraph at lines 2853--2855
 [][]
  []
 
-[804]
+[806]
 Underfull \hbox (badness 10000) in paragraph at lines 2855--2859
 [][]
  []
@@ -4538,19 +4541,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 2871--2875
 [][]
  []
 
-) [805]
+) [807]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
- (./tex/mathAppendixAdditionalProofs.tex [806
+ (./tex/mathAppendixAdditionalProofs.tex [808
 
 
 
 ]
 ضمیمہ ا.
-[807] [808]) [809]
+[809] [810]) [811]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [810
+ (./tex/mathAppendixAuxiliaryMaterial.tex [812
 
 
 
@@ -4558,34 +4561,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 2871--2875
 ضمیمہ ب.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[811] [812] [813] [814] [815]
+[813] [814] [815] [816] [817]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [816] [817]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [818] [819]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [818]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [820]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [819]
-[820
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [821]
+[822
 
 
 ] (./engineeringMathematics.ind
 Overfull \hbox (4.5558pt too wide) in paragraph at lines 53--54
-[]\EU1/ppl/m/n/10 Cartesian coordinate system, 502, 675 
+[]\EU1/ppl/m/n/10 Cartesian coordinate system, 504, 677 
  []
 
-[821
+[823
 
 
 
-] [822] [823]
+] [824] [825]
 Overfull \hbox (0.47382pt too wide) in paragraph at lines 253--254
-[]\EU1/ppl/m/n/10 Gauss’ hypergeometric equation, 359 
+[]\EU1/ppl/m/n/10 Gauss’ hypergeometric equation, 361 
  []
 
 
@@ -4593,9 +4596,9 @@ Overfull \hbox (0.7018pt too wide) in paragraph at lines 285--286
 []| \EU1/ppl/m/n/10 linear ordinary differential equa-
  []
 
-[824] [825] [826] [827] [828] [829] [830] [831] [832] [833] [834] [835]
-[836] [837] [838] [839] [840] [841] [842] [843]) (./engineeringMathematics.aux
-(./tex/cktPreface.aux) (./tex/prefaceFirstBook.aux)
+[826] [827] [828] [829] [830] [831] [832] [833] [834] [835] [836] [837]
+[838] [839] [840] [841] [842] [843] [844] [845]) (./engineeringMathematics.aux
+(./tex/mathPreface.aux) (./tex/prefaceFirstBook.aux)
 (./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
@@ -4615,12 +4618,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 54410 strings out of 493918
- 1281128 string characters out of 6150563
- 1749563 words of memory out of 5000000
- 56643 multiletter control sequences out of 15000+600000
+ 54415 strings out of 493918
+ 1281223 string characters out of 6150563
+ 1749574 words of memory out of 5000000
+ 56646 multiletter control sequences out of 15000+600000
  57748 words of font info for 224 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  66i,22n,388p,10485b,2924s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (851 pages).
+Output written on engineeringMathematics.pdf (855 pages).

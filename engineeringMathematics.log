@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  19 MAY 2018 18:01
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  20 MAY 2018 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4350,32 +4350,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 1419--1419
 چھوتے ہیں لہٰذا ان کا کوئی حل نہیں پایا جاتا[]
  []
 
+File: ./fig/figLinearAlgebra/figLinearAlgebraLineAsSurfacesTouching.pdf Graphic
+ file (type QTm)
+<use  "./fig/figLinearAlgebra/figLinearAlgebraLineAsSurfacesTouching.pdf" >
 [585] [586] [587] [588] [589] [590] [591] [592] [593] [594] [595] [596]
 [597] [598] [599]
-Overfull \hbox (6.33846pt too wide) in paragraph at lines 1943--1945
+Overfull \hbox (6.33846pt too wide) in paragraph at lines 1949--1951
  [][][][] 
  []
 
 
-Overfull \hbox (6.1057pt too wide) in paragraph at lines 1978--1980
+Overfull \hbox (6.1057pt too wide) in paragraph at lines 1984--1986
  [][][][] 
  []
 
 [600] [601]
 Missing character: There is no ; in font nullfont!
  [602] [603] [604] [605] [606] [607] [608] [609] [610] [611]
-Underfull \hbox (badness 10000) in paragraph at lines 2249--2250
+Underfull \hbox (badness 10000) in paragraph at lines 2255--2256
 [][]
  []
 
 [612] [613] [614] [615] [616] [617] [618] [619] [620] [621] [622] [623]
 [624] [625] [626] [627] [628]
-Underfull \hbox (badness 10000) in paragraph at lines 3040--3041
+Underfull \hbox (badness 10000) in paragraph at lines 3046--3047
 [][]
  []
 
 [629]
-Underfull \hbox (badness 10000) in paragraph at lines 3053--3054
+Underfull \hbox (badness 10000) in paragraph at lines 3059--3060
 [][]
  []
 
@@ -4383,7 +4386,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3053--3054
 Underfull \vbox (badness 3000) has occurred while \output is active []
 
  [631]
-Underfull \hbox (badness 10000) in paragraph at lines 3117--3120
+Underfull \hbox (badness 10000) in paragraph at lines 3123--3126
 [][]
  []
 
@@ -4393,7 +4396,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [647]
 [648] [649] [650] [651] [652]
-Overfull \hbox (0.941pt too wide) in paragraph at lines 3964--3973
+Overfull \hbox (0.941pt too wide) in paragraph at lines 3970--3979
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 (ب) فرض کریں کہ $\OML/zplm/m/it/10 n \O
 T1/zplm/m/n/10 = \OML/cmm/b/it/10 A []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ہے 
 لہٰذا  $\OML/cmm/b/it/10 A[]$  \EU1/JameelNooriNastaleeq(1)/m/n/10 موجود ہے۔یوں
@@ -4402,7 +4405,7 @@ Nastaleeq(1)/m/n/10 سے مراد  $\OML/cmm/b/it/10 A[]AB \OT1/zplm/m/n/10 =$[]
  []
 
 [653] [654] [655] [656] [657] [658] [659] [660] [661]
-Overfull \hbox (0.21277pt too wide) in paragraph at lines 4251--4251
+Overfull \hbox (0.21277pt too wide) in paragraph at lines 4257--4257
 [][] []
  []
 
@@ -4583,7 +4586,7 @@ File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
 
 
 ] (./engineeringMathematics.ind
-Overfull \hbox (4.5558pt too wide) in paragraph at lines 53--54
+Overfull \hbox (4.5558pt too wide) in paragraph at lines 54--55
 []\EU1/ppl/m/n/10 Cartesian coordinate system, 496, 668 
  []
 
@@ -4592,12 +4595,12 @@ Overfull \hbox (4.5558pt too wide) in paragraph at lines 53--54
 
 
 ] [812] [813]
-Overfull \hbox (0.47382pt too wide) in paragraph at lines 253--254
+Overfull \hbox (0.47382pt too wide) in paragraph at lines 254--255
 []\EU1/ppl/m/n/10 Gauss’ hypergeometric equation, 355 
  []
 
 
-Overfull \hbox (0.7018pt too wide) in paragraph at lines 285--286
+Overfull \hbox (0.7018pt too wide) in paragraph at lines 286--287
 []| \EU1/ppl/m/n/10 linear ordinary differential equa-
  []
 
@@ -4624,9 +4627,9 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  54413 strings out of 493918
- 1281198 string characters out of 6150563
- 1749478 words of memory out of 5000000
- 56644 multiletter control sequences out of 15000+600000
+ 1281751 string characters out of 6150563
+ 1749526 words of memory out of 5000000
+ 56628 multiletter control sequences out of 15000+600000
  57748 words of font info for 224 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  66i,22n,388p,10485b,2924s stack positions out of 5000i,500n,10000p,200000b,80000s

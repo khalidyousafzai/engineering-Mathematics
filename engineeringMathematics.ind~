@@ -1,5 +1,6 @@
 \begin{theindex}
 \begin{otherlanguage}{english}
+
   \item absorber, 121
   \item acceleration vector, 754
   \item algebraic multiplicity, 682
@@ -803,8 +804,8 @@
   \item zero vector, 230
 
 \end{otherlanguage}
-
-  \newpage
+  
+\newpage
 \item آثار
    \subitem قالب، 708
 \item آرشمیدس
@@ -1730,6 +1731,9 @@
 \item گاوس جارڈن اسقاط، 645
 \item گاوسی اسقاط، 583، 587
 \item گردش، 792
+
+\newpage
+
 \item گلٹی، 58
 \item گمک، 163، 166، 469
    \subitem عملی، 169
@@ -1763,6 +1767,9 @@
 \item ہمزاد مساوات، 91
 \item ہموار سطحیں، 770
 \item ہندسی تسلسل، 356
+
+\newpage 
+
 \item ہٹاو، 53
 \item ہک کا قانون، 119
 \item ہینری، 56
@@ -1781,5 +1788,4 @@
    \subitem حل، 6
 \item یکتا حل، 195
 \item یکتائی، 2، 142، 619
-
 \end{theindex}

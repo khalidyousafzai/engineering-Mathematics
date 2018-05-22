@@ -1,0 +1,33 @@
+Print("======================================");
+kill(all);
+print("example 11.1");
+
+x:cos(t);
+y:sin(t);
+
+r:[x,y];
+F:[x,x*y];
+
+rDif:diff(r,t);
+
+kint:F . rDif;
+
+integrate(kint,t,0,%pi/2);
+
+Print("======================================");
+kill(all);
+print("example 11.2");
+
+x:cos(t);
+y:sin(t);
+z:t;
+
+r:[x,y,z];
+F:[y,z,x];
+
+rDif:diff(r,t);
+
+kint:F . rDif;
+
+integrate(kint,t,0,2*%pi);
+

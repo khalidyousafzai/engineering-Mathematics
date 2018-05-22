@@ -1,0 +1,16 @@
+Print("======================================");
+kill(all);
+print("example 11.1");
+
+x:cos(t);
+y:sin(t);
+
+r:[x,y];
+F:[x,x*y];
+
+rDif:diff(r,t);
+
+kint:F . rDif;
+
+integrate(kint,t,0,%pi/2);
+

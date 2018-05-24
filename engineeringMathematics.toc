@@ -104,6 +104,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 10}}سمتی تفاعل کی گردش}{\RL {\arabicfont 792}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 11}}سمتی تکملی علم الاحصاء۔ تکمل کے مسئلے}{\RL {\arabicfont 797}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 11}}خطی تکمل}{\RL {\arabicfont 798}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 803}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 807}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 807}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 11}}خطی تکمل کا حل}{\RL {\arabicfont 803}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 807}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 811}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 811}}

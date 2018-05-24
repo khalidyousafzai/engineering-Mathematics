@@ -1,5 +1,15 @@
 Print("======================================");
 kill(all);
+print("example 11.2");
+
+x:cos(s);
+y:sin(s);
+
+f:x^3*y;
+integrate(f,s,0,%pi/2);
+
+Print("======================================");
+kill(all);
 print("example 11.1");
 
 x:cos(t);

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  22 MAY 2018 15:04
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  24 MAY 2018 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3175,51 +3175,47 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 
 ]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 28.
+(Font)              scaled to size 9.0pt on input line 29.
+
+Overfull \vbox (0.90526pt too high) has occurred while \output is active []
+
+
+[798] [799]
+Overfull \vbox (0.90526pt too high) has occurred while \output is active []
+
+
+[800] [801]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 44.
-
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[798]
-Overfull \hbox (17.90408pt too wide) in paragraph at lines 51--53
-[]\EU1/JameelNooriNastaleeq(1)/m/n/10 غور کیا گیا ہے۔مساوات []\EU1/JameelNooriN
-astaleeq(0)/bx/n/10 3[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriN
-astaleeq(0)/bx/n/10 11[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 کو اجزاء کی صورت
- میں لکھتے ہیں جہاں حصہ []\EU1/JameelNooriNastaleeq(0)/bx/n/10 4[]\EU1/JameelNo
-oriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 10[][] \EU1/Jame
-elNooriNastaleeq(1)/m/n/10 کی طرح  $[] \OML/cmm/b/it/10 r \OT1/zplm/m/n/10 = [[
-] \OML/zplm/m/it/10 x\OT1/ppl/m/n/10 ,  [] \OML/zplm/m/it/10 y\OT1/ppl/m/n/10 ,
-  [] \OML/zplm/m/it/10 z\OT1/zplm/m/n/10 ]$[]
- []
-
-[799]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[800]
+(Font)              scaled to size 12.0pt on input line 160.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 137.
+(Font)              scaled to size 9.5pt on input line 166.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 137.
- [801])
+(Font)              scaled to size 7.5pt on input line 166.
+
 Overfull \vbox (0.90526pt too high) has occurred while \output is active []
 
 
-[802]
+[802] [803]
+Overfull \vbox (0.90526pt too high) has occurred while \output is active []
+
+
+[804] [805])
+Overfull \vbox (0.90526pt too high) has occurred while \output is active []
+
+
+[806]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
  (./tex/mathAppendixAdditionalProofs.tex
 ضمیمہ ا.
-[803
+[807
 
 
 
-] [804]) [805]
+] [808]) [809]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [806
+ (./tex/mathAppendixAuxiliaryMaterial.tex [810
 
 
 
@@ -3229,20 +3225,20 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 5.70004pt on input line 8.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[807] [808] [809] [810] [811]
+[811] [812] [813] [814] [815]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [812] [813]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [816] [817]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [814]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [818]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [815]
-[816
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [819]
+[820
 
 
 ] (./engineeringMathematics.aux (./tex/mathPreface.aux)
@@ -3265,12 +3261,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 48733 strings out of 493918
- 1156644 string characters out of 6150563
- 1349250 words of memory out of 5000000
- 51022 multiletter control sequences out of 15000+600000
+ 48874 strings out of 493918
+ 1159326 string characters out of 6150563
+ 1356064 words of memory out of 5000000
+ 51163 multiletter control sequences out of 15000+600000
  42343 words of font info for 169 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,15n,81p,10485b,2238s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,16n,81p,10485b,2239s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (28 pages).
+Output written on engineeringMathematics.pdf (32 pages).

@@ -2,6 +2,8 @@
 % \draw[->-=0.5] (0,0)--(3,0); draws arrow at the middle
 \tikzset{->-/.style={decoration={markings, mark=at position #1 with {\arrow{latex}}},postaction={decorate}}}
 \tikzset{-<-/.style={decoration={markings, mark=at position #1 with {\arrow{latex reversed}}},postaction={decorate}}}
+
+
 %draws right angles \RightAngle{A}{B}{C}
 \providecommand{\RightAngle}[4][5pt]{\draw[gray] ($#3!#1!#2$)--($ #3!2!($($#3!#1!#2$)!.5!($#3!#1!#4$)$) $) --($#3!#1!#4$) ;     }
 %colours
@@ -61,8 +63,8 @@
 %===================
 %writes text above matrix entries (outside the matrix bars)
 \newcommand\bovermat[2]{%
-  \makebox[0pt][r]{$\raisebox{16pt}[0pt][0pt]{\text{#1}}$}#2}
+  \makebox[0pt][r]{$\raisebox{16pt}[0pt][0pt]{\text{\RL{#1}}}$}#2}
 \newcommand\covermat[2]{%
-  \makebox[0pt][c]{$\raisebox{16pt}[0pt][0pt]{\text{#1}}$}#2}
+  \makebox[0pt][c]{$\raisebox{16pt}[0pt][0pt]{\text{\RL{#1}}}$}#2}
 \newcommand\partialphantom{\vphantom{\frac{\partial e_{P,M}}{\partial w_{1,1}}}}
 

@@ -52,7 +52,7 @@
 
 %\includeonly{./tex/mathPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathSecondOrderDifferentialEquations,./tex/mathHigherOrderDifferentialEquations,./tex/mathSystemOfDifferentialEquations,./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations,./tex/mathLaplaceTransformation,./tex/mathVectors,./tex/mathLinearAlgebra,./tex/mathEigenvalueMatrixProblems,./tex/mathVectorDifferentialCalculus,./tex/mathVectorِIntegralCalculus,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathSystemOfDifferentialEquations,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial,./tex/mathQuestions}%
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathVectorIntegralCalculus,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}%
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathVectorIntegralCalculusNew,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}%
 
 
 \author{

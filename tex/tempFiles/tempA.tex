@@ -1,0 +1,93 @@
+%KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+%=================
+\ابتدا{مثال}\شناخت{مثال_سمتی_تکمل_راہ_الف}\quad سطح میں خطی تکمل\\
+سمتی تفاعل \عددی{\bM{F}=x\bM{i}+xy\bM{j}} کا شکل \حوالہ{شکل_مثال_سمتی_تکمل_راہ_الف}-الف میں دکھائی گئی راہ پر، گھڑی کی سوئیوں کے گھومنے کی الٹ رخ،  \عددی{t=0} تا \عددی{t=\tfrac{\pi}{2}} سمتی تکمل (مساوات \حوالہ{مساوات_سمتی_تکمل_سمتی_تفاعل_تکمل_ب}) حاصل کریں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\begin{tikzpicture}
+\draw(0,0)--++(2,0)node[right]{$x$};
+\draw(0,0)--++(0,2)node[left]{$y$};
+%
+\draw[->-=0.5]([shift={(0:1.5)}]0,0)node[ocirc]{}node[below]{$1$}node[above left]{$A$} arc (0:90:1.5)node[ocirc]{}node[left]{$B$};
+\draw(45:1.5)node[above right]{$C$};
+\end{tikzpicture}
+\caption*{(الف) سطح میں تکمل کی راہ (مثال \حوالہ{مثال_سمتی_تکمل_راہ_الف})}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}[x={(-0.5cm,-0.5cm)},y={(1cm,0cm)},z={(0cm,1cm)}]
+\draw(0,0,0)--++(2,0,0)node[left]{$x$};
+\draw(0,0,0)--++(0,2,0)node[right]{$y$};
+\draw(0,0,0)--++(0,0,2)node[left]{$z$};
+%
+\draw[->-=0.5,domain=0:360,samples=200] plot ({cos (\x)},{sin(\x)},{\x/360});
+%\draw[dashed,domain=0:360,samples=200] plot ({cos (\x)},{sin(\x)},{0});
+\draw[dashed] (1,0,0)node[ocirc,solid]{}node[below right]{$A$}node[left]{$1$}--(1,0,1)node[ocirc,solid]{}node[above]{$B$};
+\end{tikzpicture}
+\caption*{(ب) فضا میں خطی تکمل کی  راہ (مثال \حوالہ{مثال_سمتی_تکمل_فضا_میں_راہ})}
+\end{subfigure}%
+\caption{سطح میں راہ اور فضا میں راہ۔}
+\label{شکل_مثال_سمتی_تکمل_راہ_الف}
+\end{figure}
+
+حل:راہ \عددی{C} کی مقدار معلوم مساوات درج ذیل ہے۔
+\begin{align*}
+\bM{r}(t)=\cos t\bM{i}+\sin t\bM{j}\quad \quad 0\le t \le \frac{\pi}{2}
+\end{align*} 
+اس راہ پر سمتی تفاعل درج ذیل ہو گا۔
+\begin{align*}
+\bM{F}(\bM{r}(t))=x(t)\bM{i}+x(t)y(t)\bM{j}=\cos t \bM{i}+\cos t \sin t \bM{j}
+\end{align*}
+مساوات \حوالہ{مساوات_سمتی_تکمل_سمتی_تفاعل_تکمل_ب} میں \عددی{\bM{r}'(t)=-\sin t\bM{i}+\cos t\bM{j}} پر کرتے ہوئے تکمل لے کر جواب حاصل کرتے ہیں۔
+\begin{align*}
+\int_C \bM{F}(\bM{r})\cdot \dif \bM{r}&=\int_0^{\frac{\pi}{2}}[\cos t \bM{i}+\cos t \sin t \bM{j}]\cdot [-\sin t\bM{i}+\cos t\bM{j}] \dif t\\
+&=\int_0^{\frac{\pi}{2}}(-\cos t\sin t+\cos^2 t\sin t)\dif t\\
+&=\left. \frac{\cos^2 t}{2}-\frac{\cos^3 t}{3}\right|_0^{\frac{\pi}{2}}=\frac{1}{6}
+\end{align*}
+\انتہا{مثال}
+%============================
+\ابتدا{مثال}\شناخت{مثال_سمتی_تکمل_فضا_میں_راہ}\quad فضا میں راہ پر خطی تکمل ہو بہو سطح میں راہ پر خطی تکمل کی طرح حاصل کیا جاتا ہے\\
+تفاعل \عددی{\bM{F}(\bM{r})=y\bM{i}+z\bM{j}+x\bM{k}} کا شکل \حوالہ{شکل_مثال_سمتی_تکمل_راہ_الف}-ب کی پیچ دار راہ پر  ابتدائی نقطہ \عددی{(1,0,0)}تا  اختتامی نقطہ \عددی{(0,0,2\pi)} خطی تکمل حاصل کریں۔
+
+حل:پیچ دار راہ کی مساوات 
+\begin{align*}
+\bM{r}(t)=\cos t\bM{i}+\sin t\bM{j}+t\bM{k}\quad \quad 0\le t \le 2\pi
+\end{align*}
+ہے لہٰذا \عددی{\bM{r}'=-\sin t\bM{i}+\cos \bM{j}+\bM{k}} ہو گا۔اس راہ پر چلتے ہوئے \عددی{\bM{F}} میں \عددی{x}، \عددی{y}، \عددی{z} کی قیمتیں راہ سے ہٹ کر نہیں ہو سکتی ہیں لہٰذا راہ پر تفاعل درج ذیل ہو گا۔
+\begin{align*}
+\bM{F}(\bM{r}(t))=\sin t \bM{i}+t\bM{j}+\cos t\bM{k} \quad \quad 0\le t \le 2\pi
+\end{align*}
+یوں مساوات \حوالہ{مساوات_سمتی_تکمل_سمتی_تفاعل_تکمل_ب} سے درج ذیل حاصل ہو گا۔
+\begin{align*}
+\int_C\bM{F}(\bM{r}(t))\cdot \dif \bM{r}(t)=\int_0^{2\pi} [\sin t \bM{i}+t\bM{j}+\cos t\bM{k}] \cdot [-\sin t\bM{i}+\cos \bM{j}+\bM{k}]\dif t=-\pi
+\end{align*}
+\انتہا{مثال}
+%=========================
+
+\جزوحصہء{خطی تکمل کی خواص}
+قطعی تکمل کی خواص سے  خطی تکمل کی درج ذیل مطابقتی خواص حاصل ہوتی ہیں
+\begin{align}
+\int_C k\bM{F}\cdot \dif \bM{r}&=k\int_C \bM{F}\cdot \dif \bM{r}\quad \quad \quad (k \, \text{مستقل}) \label {مساوات_سمتی_تکمل_خطی_تکمل_خواص_الف}\\
+\int_C(\bM{F}+\bM{G})\cdot \dif \bM{r}&=\int_C \bM{F}\cdot \dif \bM{r}+\int_C \bM{G}\cdot \dif \bM{r} \label {مساوات_سمتی_تکمل_خطی_تکمل_خواص_ب}\\
+\int_C k\bM{F}\cdot \dif \bM{r}&\int_{C_1} k\bM{F}\cdot \dif \bM{r}+\int_{C_2} k\bM{F}\cdot \dif \bM{r}\label {مساوات_سمتی_تکمل_خطی_تکمل_خواص_پ}
+\end{align}
+جہاں مساوات \حوالہ{مساوات_سمتی_تکمل_خطی_تکمل_خواص_پ} میں راہ \عددی{C} کو دو ایسے ٹکڑوں \عددی{C_1} اور \عددی{C_2} میں تقسیم کیا گیا ہے جن کی سمت بندی \عددی{C} کی سمت بندی  کے عین مطابق ہے (شکل \حوالہ{شکل_سمتی_تکمل_راہ_تقسیم_خواص})۔مساوات \حوالہ{مساوات_سمتی_تکمل_خطی_تکمل_خواص_ب} میں تینوں تکمل کی راہ کی سمت بندی ایک دوسرے جیسی ہے۔اگر سمت بندی الٹ کر دی جائے تب تکمل کی قیمت \عددی{-1} سے ضرب ہو گی۔البتہ مثبت سمت محفوظ رہنے کی صورت میں درج ذیل ہو گا۔
+
+%=============================
+\ابتدا{مسئلہ}\quad سمت راہ محفوظ رکھتے مقدار معلوم تبادل\\
+راہ  کی ایسی تمام مقدار معلوم صورتیں جو \عددی{C} کی مثبت سمت محفوظ رکھتی ہوں کے خطی تکمل کی قیمت یکساں ہو گی۔     
+\انتہا{مسئلہ}
+%============================
+
+\ابتدا{ثبوت}
+ثبوت زنجیری قاعدہ سے حاصل ہوتا ہے۔فرض کریں کہ  راہ \عددی{\bM{r}(t)} ہے جہاں \عددی{a\le t\le b} ہے۔اب  تبادل \عددی{t=\phi(t^*)} پر غور کرتے ہیں جو وقفہ \عددی{t} کا تبادلہ \عددی{a^*\le t^*\le b^*} پر کرتا ہے اور جس کا تفرق \عددی{\tfrac{\dif t}{\dif t^*}} مثبت ہے۔ہم \عددی{\bM{r}(t)=\bM{r}(\phi(t^*))=\bM{r}^*(t^*)} لکھ کر آگے بڑھتے ہیں۔ یوں  \عددی{\dif t=\tfrac{\dif t}{\dif t^*}\dif t^*} ہو گا لہٰذا درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+\int_C \bM{F}(\bM{r}^*)\cdot \dif \bM{r}^*&=\int_{a^*}^{b^*} \bM{F}(\bM{r}(\phi(t^*)))\cdot \frac{\dif \bM{r}}{\dif t}\frac{\dif t}{\dif t^*}\dif t^*\\
+&=\int_a^b \bM{F}(\bM{r}(t))\cdot \frac{\dif \bM{r}}{\dif t}\dif t=\int_C\bM{F}(\bM{r})\cdot \dif \bM{r}
+\end{align*}
+\انتہا{ثبوت}
+%======================
+%=================================
+%=======================================
+

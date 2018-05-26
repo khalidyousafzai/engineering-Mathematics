@@ -114,8 +114,8 @@
 \renewcommand{\thepracticecounter}{\arabic{practicecounter}.\thechapter}
 
 \newenvironment*{مشق}
-{\noindent\ignorespaces \vspace{\baselineskip} \hrule \vspace{\baselineskip} مشق \refstepcounter{practicecounter} \thepracticecounter :}%
-{\par\hfill\qedsymbol  \vspace{\baselineskip}}
+{\par\noindent\ignorespaces \vspace{\baselineskip} \hrule \vspace{\baselineskip} مشق \refstepcounter{practicecounter} \thepracticecounter :}%
+{\par\noindent \hrule  \vspace{\baselineskip}}
 %---------
 
 %end of chapter questions environment سوال
@@ -145,7 +145,7 @@
 \renewcommand{\thekthcounter}{\arabic{kthcounter}.\thechapter}
 
 \newenvironment*{مسئلہ}				
-{\noindent\ignorespaces  مسئلہ \refstepcounter{kthcounter} \thekthcounter :}%
+{\par\noindent\ignorespaces  مسئلہ \refstepcounter{kthcounter} \thekthcounter :}%
 {\par\noindent }
 %--------------------
 %--------------------
@@ -168,6 +168,6 @@
 %\renewcommand{\thedfrcounter}{\arabic{kdfcounter}.\thechapter}
 
 \newenvironment*{تعریف}				
-{\noindent\ignorespaces  تعریف :}%
+{\par\noindent\ignorespaces  تعریف :}%
 {\par\noindent }
 %--------------------

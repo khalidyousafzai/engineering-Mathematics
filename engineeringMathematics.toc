@@ -95,16 +95,17 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 10}}سمتی علم الاحصاء}{\RL {\arabicfont 730}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 10}}منحنی}{\RL {\arabicfont 736}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 10}}لمبائی قوس}{\RL {\arabicfont 742}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 10}}مماس، انحنا اور مروڑ}{\RL {\arabicfont 748}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 10}}سمتی رفتار اور اسراع}{\RL {\arabicfont 753}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 10}}زنجیری ترکیب اور متعدد متغیرات کے تفاعل کا اوسط قیمت مسئلہ}{\RL {\arabicfont 760}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 10}}سمتی تفرق، غیر سمتی میدان کی ڈھلوان}{\RL {\arabicfont 766}}
-\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 10}}تبادل محددی نظام اور تبادل ارکان سمتیات}{\RL {\arabicfont 779}}
-\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 10}}سمتی میدان کی پھیلاو}{\RL {\arabicfont 784}}
-\contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 10}}سمتی تفاعل کی گردش}{\RL {\arabicfont 792}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 11}}سمتی تکملی علم الاحصاء۔ تکمل کے مسئلے}{\RL {\arabicfont 797}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 11}}خطی تکمل}{\RL {\arabicfont 798}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 11}}خطی تکمل کا حل}{\RL {\arabicfont 803}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 813}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 817}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 817}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 10}}مماس، انحنا اور مروڑ}{\RL {\arabicfont 749}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 10}}سمتی رفتار اور اسراع}{\RL {\arabicfont 755}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 10}}زنجیری ترکیب اور متعدد متغیرات کے تفاعل کا اوسط قیمت مسئلہ}{\RL {\arabicfont 761}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 10}}سمتی تفرق، غیر سمتی میدان کی ڈھلوان}{\RL {\arabicfont 768}}
+\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 10}}تبادل محددی نظام اور تبادل ارکان سمتیات}{\RL {\arabicfont 780}}
+\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 10}}سمتی میدان کی پھیلاو}{\RL {\arabicfont 786}}
+\contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 10}}سمتی تفاعل کی گردش}{\RL {\arabicfont 793}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 11}}سمتی تکملی علم الاحصاء۔ تکمل کے مسئلے}{\RL {\arabicfont 799}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 11}}خطی تکمل}{\RL {\arabicfont 800}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 11}}خطی تکمل کا حل}{\RL {\arabicfont 805}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 11}}دوہرا تکمل}{\RL {\arabicfont 814}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 815}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 819}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 819}}

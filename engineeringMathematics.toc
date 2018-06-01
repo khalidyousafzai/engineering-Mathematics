@@ -106,6 +106,6 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 11}}خطی تکمل}{\RL {\arabicfont 800}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 11}}خطی تکمل کا حل}{\RL {\arabicfont 805}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 11}}دوہرا تکمل}{\RL {\arabicfont 814}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 815}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 819}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 819}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 821}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 825}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 825}}

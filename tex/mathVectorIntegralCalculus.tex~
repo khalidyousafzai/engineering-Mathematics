@@ -563,7 +563,7 @@ $\tfrac{3}{5}$
 \end{align}
 ہو گا جہاں \عددی{C} کی لمبائی \عددی{l} ہے۔
 
-جواب:اندرونی ضرب کے تحت \عددی{\bM{p}\cdot \dif \bM{r}=\abs{\bM{p}}\abs{\dif \bM{r}}\cos \theta} ہو گا۔چونکہ \عددی{\abs{\bM{p}}<M} ہے اور \عددی{\cos \theta \le 1} ہے لہٰذا \عددی{\abs{\bM{p}}\cos \theta <M} ہو گا۔خطی تکمل کی تعریف مساوات \حوالہ{مساوات_خطی_تکمل_تعریف_بطور_مجموعہ} استعمال کرتے ہوئے  درج ذیل لکھا جا سکتا ہے جہاں \عددی{\abs{\dif \bM{r}}=\Delta s} لکھی گئی ہے۔آخری قدم میں تمام چھوٹے ٹکڑوں کی لمبائیوں کے مجموعے  کو \عددی{l} کے برابر لکھا گیا ہے۔
+جواب:اندرونی ضرب کے تحت \عددی{\bM{p}\cdot \dif \bM{r}=\abs{\bM{p}}\abs{\dif \bM{r}}\cos \theta} ہو گا۔چونکہ \عددی{\abs{\bM{p}}<M} ہے اور \عددی{\cos \theta \le 1} ہے لہٰذا \عددی{\abs{\bM{p}}\cos \theta <M} ہو گا۔خطی تکمل کی تعریف مساوات \حوالہ{مساوات_خطی_تکمل_تعریف_بطور_مجموعہ} استعمال کرتے ہوئے  درج ذیل لکھا جا سکتا ہے جہاں \عددی{\abs{\dif \bM{r}}=\Delta s} لکھی گئی ہے۔
 \begin{align*}
 J_n=\sum_{m=1}^{n} \abs{\bM{p}}\cos \theta \Delta s_m < \sum_{m=1}^{n} M \Delta s_m =M\sum_{m=1}^{n}  \Delta s_m =Ml
 \end{align*}
@@ -571,3 +571,196 @@ J_n=\sum_{m=1}^{n} \abs{\bM{p}}\cos \theta \Delta s_m < \sum_{m=1}^{n} M \Delta 
 %========================
 
 \حصہ{دوہرا تکمل}
+وقفہ \عددی{a\le x\le b} کے ہر نقطے پر معین تفاعل \عددی{f(x)} کا \عددی{x} محور پر \عددی{a} تا \عددی{b} قطعی تکمل 
+\begin{align*}
+\int_a^b f(x)\dif x
+\end{align*}
+لکھا جاتا ہے۔دوہرا تکمل کی صورت میں \عددی{xy} سطح میں بند محدود\حاشیہد{"بند" سے مراد ہے کہ وقفے کی سرحد بھی وقفے کا حصہ ہے اور "محدود" سے مراد ہے کہ پورے وقفے کو معقول وسعت کے دائرے میں گھیرا جا سکتا ہے۔} خطہ \عددی{R} کے ہر نقطے پر معین تفاعل \عددی{f(x,y)} متکمل ہو گا۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+%\draw[thick,red] (0,0) grid (4,3);
+%\draw[thin,green,step=0.1] (0,0) grid (4,3);
+%
+\draw(1,1.4) to [out=90,in=180](2,2.5) to [out=0,in=90](3.8,1.5) to [out=-90,in=0] (3.2,0.6) to [out=180,in=0] (2.5,1.5) to [out=180,in=0] (1.4,1) to [out=180,in=-90] (1,1.4);
+\foreach \x in {1.2,1.5,1.8,2,2.4,2.6,3,3.3,3.6}{\draw (\x,0.5)--++(0,2.2);}
+\foreach \y in {0.8,1.2,1.5,2,2.3}{\draw(0.75,\y)--++(3.2,0);}
+\fill[white] (0.55,0.5)--(1.4,0.5)--(2.4,1.3)--(3,0.2)--(0.55,0.5);
+\fill[white] (0.55,0.9)--(2,0.9)--(2,0.2)--(0.55,0.2)--(0.55,0.9);
+%
+\draw(0.5,0.4)--++(3.5,0)node[below]{$x$};
+\draw(0.5,0.4)node[ocirc]{}--++(0,2.5)node[left]{$y$};
+\end{tikzpicture}
+\caption*{(الف) $R$ کے متعدد ٹکڑے}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+%\draw[thick,red] (0,0) grid (4,3);
+%\draw[thin,green,step=0.1] (0,0) grid (4,3);
+%
+\draw(0.5,0.4)--++(3.5,0)node[below]{$x$};
+\draw(0.5,0.4)node[ocirc]{}--++(0,2.5)node[left]{$y$};
+%
+\draw[name path=kA](1,1.4) to [out=90,in=180](2,2.5) to [out=0,in=90](3.8,1.5) to [out=-90,in=0] (3.2,0.6) to [out=180,in=0] (2.5,1.5) to [out=180,in=0] (1.4,1) to [out=180,in=-90] (1,1.4);
+\draw (2,2.5) to [out=-135,in=45](2.5,1.5);
+\draw(1.5,1.7)node[]{$R_1$};
+\draw(3.3,1.5)node[]{$R_2$};
+\end{tikzpicture}
+\caption*{(ب) خطے کو دو ٹکڑوں میں تقسیم کیا گیا ہے۔}
+\end{subfigure}%
+\caption{دوہرا تکمل کی تعریف اور خواص}
+\label{شکل_خطی_تکمل_خطے_کے_ٹکڑے_الف}
+\end{figure}
+دوہرا تکمل کی تعریف قطعی تکمل کی تعریف سے مشابہت رکھتی ہے۔ہم \عددی{x} اور \عددی{y} محور کے متوازی خطوط کھینچ کر خطہ \عددی{R} کو ٹکڑے کرتے ہیں (شکل \حوالہ{شکل_خطی_تکمل_خطے_کے_ٹکڑے_الف}-الف)۔ \عددی{R} کے اندر ٹکڑوں  کو \عددی{1} تا \عددی{n} کہتے ہیں۔ہر ٹکڑے میں کوئی نقطہ چنتے ہیں مثلاً \عددی{k} مستطیلی ٹکڑے میں نقطہ \عددی{(x_k,y_k)} ہو گا۔ تمام ٹکڑوں کا مجموعہ
+\begin{align}\label{مساوات_خطی_تکمل_دوہرا_تکمل_مجموعہ}
+J_n=\sum_{k=1}^n f(x_k,y_k)\Delta A_k
+\end{align}
+لیتے ہیں جہاں \عددی{k} مستطیلی ٹکڑے کا رقبہ \عددی{A_k} ہے۔ہم مثبت عدد \عددی{n} کی قیمت بتدریج بڑھاتے ہوئے  بالکل آزادانہ طریقے سے اس طرح کے مجموعے حاصل کرتے ہیں پس اتنا خیال رکھا جاتا ہے کہ جیسے جیسے \عددی{n} کی قیمت لامتناہی کے قریب پہنچتی ہو، مستطیلی ٹکڑوں کی وتر کی زیادہ سے زیادہ لمبائی صفر تک پہنچتی ہو۔  یوں ہمیں حقیقی اعداد \عددی{J_{n1}}، \عددی{J_{n2}}، \نقطے کا سلسلہ حاصل ہو گا۔ہم فرض کرتے ہیں کہ \عددی{R} میں \عددی{f(x,y)} استمراری ہے اور \عددی{R} کو لامتناہی تعداد  کی ہموار منحنیات گھیرتی ہیں۔ایسی صورت میں یہ ثابت کیا جا سکتا ہے کہ  حقیقی اعداد \عددی{J_{n1}}، \عددی{J_{n2}}، \نقطے کا سلسلہ مرتکز ہو گا جس کا حد ٹکڑوں کی چنائی یا ٹکڑوں میں نقطوں \عددی{(x_,y_k)} کی چنائی سے بالکل آزاد ہو گا۔ اس حد کو خطہ \عددی{R} پر \عددی{f(x,y)} کا \اصطلاح{دوہرا تکمل}\فرہنگ{دوہرا!تکمل}\فرہنگ{تکمل!دوہرا}\حاشیہب{double integral}\فرہنگ{integral!double} کہتے ہیں جس کو درج ذیل سے ظاہر کیا جاتا ہے۔
+\begin{align*}
+\iint\limits_R f(x,y)\dif x\dif y
+\end{align*}
+
+دوہرا تکمل کی تعریف سے ظاہر ہے یہ قطعی تکمل کی طرح کئی خواص رکھتا ہے۔فرض کریں کہ خطہ \عددی{R} میں متعین اور استمراری  \عددی{f} اور \عددی{g} تفاعل کے  متغیرات \عددی{x} اور \عددی{y}  ہیں۔ تب درج ذیل ہوں گے۔
+\begin{gather}
+\begin{aligned}
+\iint\limits_R kf\dif x\dif y&=k\iint\limits_R f\dif x\dif y\quad \quad\quad (\text{\RL{$k$ مستقل ہے}})\\
+\iint\limits_R(f+g)\dif x\dif y&=\iint\limits_R f\dif x\dif y+\iint\limits_R g\dif x\dif y\\
+\iint\limits_R f\dif x\dif y&=\iint\limits_{R_1}f\dif x\dif y+\iint\limits_{R_2}f\dif x\dif y \quad \quad \quad 
+\text{\RL{(شکل \حوالہ{شکل_خطی_تکمل_خطے_کے_ٹکڑے_الف}-ب)}}
+\end{aligned}
+\end{gather}
+مزید \عددی{R} میں کم از کم ایک ایسا نقطہ \عددی{(x_0,y_0)} ضرور پایا جاتا ہے کہ درج ذیل تعلق درست ثابت ہو
+\begin{align}
+\iint\limits_R f(x,y)\dif x\dif y=f(x_0,y_0)A
+\end{align}
+جہاں خطہ \عددی{R} کا رقبہ \عددی{A} ہے۔یہ تعلق  دوہرا تکملات کا \اصطلاح{اوسط قیمت مسئلہ}\فرہنگ{مسئلہ!اوسط قیمت}\فرہنگ{اوسط قیمت مسئلہ}\حاشیہب{mean value theorem}\فرہنگ{theorem!mean value} کہلاتا ہے۔ 
+
+خطہ \عددی{R} پر دوہرا تکملات کو یکے بعد دیگرے  دو عدد تکمل سے حاصل کیا جا سکتا ہے۔آئیں اس ترکیب کو سمجھیں۔
+
+فرض کریں کہ \عددی{R} کو درج ذیل غیر مساوات سے ظاہر کرنا ممکن ہے (شکل \حوالہ{شکل_خطی_تکمل_دوہرا_تخمینہ}-الف)
+\begin{align*}
+a\le x\le b,\quad g(x) \le y\le h(x)
+\end{align*}
+تب \عددی{y=g(x)} اور \عددی{y=h(x)} خطہ \عددی{R} کی سرحد کو ظاہر کریں گے اور
+\begin{align}\label{مساوات_خطی_تکمل_دوہرا_الف}
+\iint\limits_R f(x,y)\dif x\dif y=\int_a^b \left[\int_{g(x)}^{h(x)} f(x,y)\dif y\right]\dif x
+\end{align}
+ہو گا۔ہم پہلے (چکور قوسین میں بند) اندرونی تکمل
+\begin{align*}
+\int_{g(x)}^{h(x)}f(x,y)\dif y
+\end{align*}
+کی قیمت حاصل کرتے ہیں جہاں \عددی{x} بطور مقدار معلوم کردار ادا کرتا ہے لہٰذا اس تکمل کا حاصل \عددی{x} کا تفاعل \عددی{F(x)} ہو گا۔اس کے بعد \عددی{x} محور پر  \عددی{F(x)} کا تکمل \عددی{a} تا \عددی{b} حاصل کرتے ہوئے دوہرا تکمل (مساوات \حوالہ{مساوات_خطی_تکمل_دوہرا_الف}) کی قیمت حاصل ہو گی۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+%\draw[thick,red] (0,0) grid (4,3);
+%\draw[thin,green,step=0.1] (0,0) grid (4,3);
+%
+\draw(0.5,0.4)--++(4,0)node[right]{$x$};
+\draw(0.5,0.4)node[ocirc]{}--++(0,2.5)node[right]{$y$};
+%
+\draw(1,1.4) to [out=90,in=180](2,2.5) to [out=0,in=90](3.8,1.5) to [out=-90,in=0] (3.2,0.6) to [out=180,in=0] (2.5,1.5) to [out=180,in=0] (1.4,1) to [out=180,in=-90] (1,1.4);
+%
+\draw[dashed](1,1.4)node[ocirc,solid]{}--(1,0.4)node[below]{$a$};
+\draw[dashed](3.8,1.5)node[ocirc,solid]{}--(3.8,0.4)node[below]{$b$};
+%
+\draw[stealth-] (2,2.5) to [out=60,in=180] ++(0.5,0.5)node[right]{$h(x)$};
+\draw[stealth-](2.8,1.2) to [out=-140,in=0] ++(-0.25,-0.5)node[left]{$g(x)$};
+\draw(2.5,2)node{$R$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+%\draw[thick,red] (0,0) grid (4,3);
+%\draw[thin,green,step=0.1] (0,0) grid (4,3);
+%
+\draw(0.5,0.4)--++(3.5,0)node[right]{$x$};
+\draw(0.5,0.4)node[ocirc]{}--++(0,2.5)node[right]{$y$};
+%
+\draw[name path=kA](1,1.4) to [out=90,in=180](2,2.5) to [out=0,in=90](3.8,1.5) to [out=-90,in=0] (3.2,0.6) to [out=180,in=0] (2.5,1.5) to [out=180,in=0] (1.4,1) to [out=180,in=-90] (1,1.4);
+%
+\draw[dashed](3.2,0.6)node[ocirc,solid]{}--(0.5,0.6)node[left]{$c$};
+\draw[dashed](2,2.5)node[ocirc,solid]{}--(0.5,2.5)node[left]{$d$};
+\draw(2.5,2)node{$R$};
+%
+\draw[stealth-](3,2.4) to [out=45,in=180]++(0.5,0.2)node[right]{$q(y)$};
+\draw[stealth-](2.8,1.1) to [out=-145,in=0]++(-0.2,-0.1)node[left]{$p(y)$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{تخمینہ دوہرا تکمل}
+\label{شکل_خطی_تکمل_دوہرا_تخمینہ}
+\end{figure}
+
+اسی طرح اگر \عددی{R} کو درج ذیل غیر مساوات (شکل \حوالہ{شکل_خطی_تکمل_دوہرا_تخمینہ}-ب)
+\begin{align*}
+c\le y\le d,\quad p(y)\le x \le q(y)
+\end{align*}
+ سے ظاہر کرنا ممکن ہو تب درج ذیل ہو گا
+\begin{align}
+\iint\limits_R f(x,y)\dif x \dif y=\int_c^d\left[\int_{p(y)}^{q(y)} f(x,y)\dif x\right]\dif y
+\end{align}
+جہاں اندرونی تکمل کا حاصل \عددی{y} کا تفاعل ہو گا جس کو \عددی{y} محور پر \عددی{c} تا \عددی{d} تکمل  کرتے ہوئے دوہرا تکمل کی قیمت حاصل ہو  گی۔
+
+اگر \عددی{R} کو  غیر مساوات سے ظاہر کرنا ممکن نہ ہو لیکن \عددی{R} کو ایسی ٹکڑوں میں تقسیم کرنا ممکن ہو کہ ہر ٹکڑے کو غیر مساوات سے ظاہر کرنا ممکن ہو تب علیحدہ علیحدہ  ہر ٹکڑے  پر \عددی{f(x,y)} کا دوہرا تکمل حاصل کرتے ہوئے تمام کا مجموعہ لیتے ہوئے \عددی{R} پر \عددی{f(x,y)} کے دوہرا  تکمل کی قیمت حاصل ہو گی۔
+
+%=====================
+\جزوحصہء{دوہرا تکمل کے عملی استعمال}
+دوہرا تکمل کے کئی عملی جیومیٹریائی اور طبعی استعمال پائے جاتے ہیں۔مثلاً \عددی{R} کا \اصطلاح{رقبہ}\فرہنگ{رقبہ}\حاشیہب{area}\فرہنگ{area} \عددی{A} درج ذیل ہے۔
+\begin{align*}
+A=\iint\limits_R \dif x\dif y
+\end{align*}
+چونکہ مساوات \حوالہ{مساوات_خطی_تکمل_دوہرا_تکمل_مجموعہ} میں جزو \عددی{f(x_k,y_k)\Delta A_k} سے مراد اس مستطیلی متوازی السطوح کا حجم ہے جس کے بنیاد کا رقبہ  \عددی{A_k} اور قد \عددی{f(x_k,y_k)} ہے  (شکل \حوالہ{شکل_خطی_تکمل_دوہرا_حجم}) لہٰذا خطہ \عددی{R} کے اوپر سطح \عددی{z=f(x,y) \,(>0)} کے نیچے  حجم \عددی{H}  درج ذیل ہے۔
+\begin{align*}
+H=\iint\limits_R f(x,y)\dif x\dif y
+\end{align*}
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}
+%\draw[thick] (0,0) grid (4,3);
+%\draw[thin,step=0.1] (0,0) grid (4.5,3);
+%
+\draw(0,0)--++(-1,-1)node[left]{$x$};
+\draw(0,0)--++(0.5,0)(4.05,0)--(4.5,0)node[right]{$y$};
+\draw(0,0)node[ocirc]{}--++(0,2)node[left]{$z$};
+%
+\draw(0.5,1) to [out=90,in=180](1.5,1.5) to [out=0,in=135](3.5,1) to [out=-45,in=45] (4,0.5) to [out=-135,in=-30](3,0.75) to [out=150,in=0](1.5,0.5) to [out=180,in=-90](0.5,1);
+\draw(0.5,1)--++(0,-2);
+\draw(4.05,0.6)--++(0,-1.98);
+\draw[stealth-](2.5,1.2) to [out=60,in=180]++(0.5,0.5)node[right]{$f(x,y)$};
+%
+\begin{scope}[yshift=-2cm]
+\draw[dashed](0.5,1) to [out=90,in=180](1.5,1.5) to [out=0,in=135](3.5,1) to [out=-45,in=45] (4,0.5);
+\draw (4.05,0.6) to [out=-135,in=-30](3,0.75) to [out=150,in=0](1.5,0.5) to [out=180,in=-90](0.5,1);
+\draw(2,1)node{$R$};
+\end{scope}
+\end{tikzpicture}
+\caption{دوہرا تکمل بطور حجم}
+\label{شکل_خطی_تکمل_دوہرا_حجم}
+\end{figure}
+
+فرض کریں کہ مستوی \عددی{xy} میں پھیلے کمیت کی   کثافت (کمیت فی اکائی رقبہ) کو  \عددی{f(x,y)} ظاہر کرتی ہے۔تب \عددی{R} میں کل کمیت \عددی{M} درج ذیل ہو گی۔
+\begin{align*}
+M=\iint\limits_R f(x,y)\dif x\dif y
+\end{align*}
+\عددی{R} میں موجود کمیت کی \اصطلاح{مرکز ثقل}\فرہنگ{مرکز ثقل}\حاشیہب{center of gravity}\فرہنگ{center of gravity} کے محدد
+\begin{align*}
+\bar{x}=\frac{1}{M}\iint\limits_R xf(x,y)\dif x\dif y,\quad \bar{y}=\frac{1}{M}\iint\limits_R yf(x,y)\dif x \dif y
+\end{align*}
+ہوں گے۔خطہ  \عددی{R} میں موجود کمیت کے \عددی{x} اور \عددی{y} محور کے گرد  \اصطلاح{جمودی معیار اثر}\فرہنگ{جمودی معیار اثر}\حاشیہب{moment of inertia}\فرہنگ{moment of inertia} بالترتیب \عددی{I_x} اور \عددی{I_y} ہوں گے
+\begin{align*}
+I_x=\iint\limits_R y^2f(x,y)\dif x \dif y,\quad I_y=\iint\limits_R x^2f(x,y)\dif x\dif y
+\end{align*}
+جبکہ مبدا کے گرد اس کی \اصطلاح{قطبی جمودی معیار اثر}\فرہنگ{قطبی جمودی معیار اثر}\حاشیہب{polar moment of inertia}\فرہنگ{moment of inertia!polar} \عددی{I_0} ہو گی۔
+\begin{align*}
+I_0=I_x+I_y=\iint\limits_R (x^2+y^2)f(x,y)\dif x\dif y
+\end{align*}

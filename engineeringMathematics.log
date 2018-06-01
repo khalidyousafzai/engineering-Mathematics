@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  1 JUN 2018 14:53
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  1 JUN 2018 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3224,24 +3224,24 @@ Overfull \vbox (0.90526pt too high) has occurred while \output is active []
 
 
 [818]
-Underfull \hbox (badness 10000) in paragraph at lines 769--770
-[][]
+Overfull \hbox (5.16536pt too wide) in paragraph at lines 787--787
+[][] []
  []
 
-) [819]
-\openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
-
- (./tex/mathAppendixAdditionalProofs.tex
+[819])
 Overfull \vbox (0.90526pt too high) has occurred while \output is active []
 
 
-[820
+[820]
+\openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
-
-
-]
+ (./tex/mathAppendixAdditionalProofs.tex
 ضمیمہ ا.
-[821] [822]) [823]
+[821
+
+
+
+] [822]) [823]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
  (./tex/mathAppendixAuxiliaryMaterial.tex [824
@@ -3290,10 +3290,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 49048 strings out of 493918
- 1163058 string characters out of 6150563
- 1352532 words of memory out of 5000000
- 51337 multiletter control sequences out of 15000+600000
+ 49051 strings out of 493918
+ 1163141 string characters out of 6150563
+ 1352580 words of memory out of 5000000
+ 51340 multiletter control sequences out of 15000+600000
  42343 words of font info for 169 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,19n,81p,10485b,2241s stack positions out of 5000i,500n,10000p,200000b,80000s

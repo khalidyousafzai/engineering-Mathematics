@@ -369,4 +369,16 @@ kint:F . rDif;
 
 integrate(kint,t,0,1);
 
+Print("======================================");
+kill(all);
+print("example 11.8");
 
+f:1;
+F:integrate(f,y,0,sqrt(1-x^2));
+M:integrate(F,x,-1,1);
+
+Fa:integrate(x*f,y,0,sqrt(1-x^2));
+xBar:1/M*integrate(Fa,x,-1,1);
+
+Fb:integrate(y*f,y,0,sqrt(1-x^2));
+yBar:1/M*integrate(Fb,x,-1,1);

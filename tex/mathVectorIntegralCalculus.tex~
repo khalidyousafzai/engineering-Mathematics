@@ -764,3 +764,35 @@ I_x=\iint\limits_R y^2f(x,y)\dif x \dif y,\quad I_y=\iint\limits_R x^2f(x,y)\dif
 \begin{align*}
 I_0=I_x+I_y=\iint\limits_R (x^2+y^2)f(x,y)\dif x\dif y
 \end{align*}
+
+%====================
+\ابتدا{مثال}\شناخت{مثال_خطی_تکمل_کثافت_کمیت_الف}\quad عملی دوہرا تکمل\\
+خطہ \عددی{R:0\le y\le \sqrt{1-x^2},\,\, -1\le x\le 1} میں کثافت کمیت \عددی{f(x,y)=1} ہے (شکل \حوالہ{شکل_مثال_خطی_تکمل_کثافت_کمیت_الف})۔ مرکز ثقل اور جمودی معیار اثر \عددی{I_x}، \عددی{I_y}، \عددی{I_0} دریافت کریں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw[fill=gray!20!white]([shift={(0:1.5)}]0,0) arc (0:180:1.5)--(1.5,0);
+\draw(1.5,0)node[below]{$1$};
+%
+\draw(-2,0)--(2,0)node[right]{$x$};
+\draw(0,0)node[ocirc]{}--++(0,2)node[left]{$y$};
+\end{tikzpicture}
+\caption{کثافت کمیت (مثال \حوالہ{مثال_خطی_تکمل_کثافت_کمیت_الف})}
+\label{شکل_مثال_خطی_تکمل_کثافت_کمیت_الف}
+\end{figure}
+
+حل:\عددی{R} میں کل کمیت \عددی{M} درج ذیل ہے (جہاں آخری قدم پر تکمل میں \عددی{x=\sin \theta} پر کیا گیا ہے)۔
+\begin{align*}
+M=\iint\limits_R 1\dif x\dif y=\int_{-1}^1 \left[\int_0^{\sqrt{1-x^2}} \dif y\right]\dif x=\int_{-1}^1 \sqrt{1-x^2}\dif x=\int_{-\tfrac{\pi}{2}}^{\tfrac{\pi}{2}}\cos^2 \theta \dif \theta=\frac{\pi}{2}
+\end{align*}
+چونکہ \عددی{f(x,y)=1} ہے لہٰذا کل کمیت عین نصف دائرے کے رقبے کے برابر ہے۔مرکز ثقل کے محدد
+\begin{multline*}
+\bar{x}=\frac{2}{\pi}\iint\limits_R x\dif x\dif y=\frac{2}{\pi}\int_{-1}^1 \left[\int_{0}^{\sqrt{1-x^2}} x\dif y\right]\dif x=\frac{2}{\pi}\int_{-1}^1 x\sqrt{1-x^2}\dif x\\
+=-\frac{2}{\pi}\int_0^0 z^2 \dif z=0\quad \quad (\sqrt{1-x^2}=z)
+\end{multline*}
+اور
+\begin{multline*}
+\bar{y}=\frac{2}{\pi}\iint\limits_R y\dif x\dif y=\frac{2}{\pi}\int_{-1}^1 \left[\int_{0}^{\sqrt{1-x^2}} y\dif y\right]\dif x=\frac{2}{\pi}\int_{-1}^1 \frac{1-x^2}{2}\dif x=\frac{4\pi}{3}
+\end{multline*}
+ہیں۔
+\انتہا{مثال}

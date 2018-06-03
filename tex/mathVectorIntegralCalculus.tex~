@@ -705,7 +705,7 @@ a\le x\le b,\quad g(x) \le y\le h(x)
 c\le y\le d,\quad p(y)\le x \le q(y)
 \end{align*}
  سے ظاہر کرنا ممکن ہو تب درج ذیل ہو گا
-\begin{align}
+\begin{align}\label{مساوات_خطی_تکمل_دوہرا_ب}
 \iint\limits_R f(x,y)\dif x \dif y=\int_c^d\left[\int_{p(y)}^{q(y)} f(x,y)\dif x\right]\dif y
 \end{align}
 جہاں اندرونی تکمل کا حاصل \عددی{y} کا تفاعل ہو گا جس کو \عددی{y} محور پر \عددی{c} تا \عددی{d} تکمل  کرتے ہوئے دوہرا تکمل کی قیمت حاصل ہو  گی۔
@@ -1136,3 +1136,263 @@ $x=u\cos \phi-v\sin \phi,\quad y=u\sin \phi+v\cos \phi \quad \text{\RL{مرکز 
 $1$
 \انتہا{سوال}
 %=====================
+
+\حصہ{دوہرا تکمل کا خطی تکمل میں تبادلہ}
+سطح میں کسی خطے پر دوہرا تکمل کو اس خطے کے سرحد پر خطی تکمل میں تبدیل کیا جا سکتا ہے۔بعض اوقات ایسا کرنے سے آسانی سے حل ہونے والا تکمل حاصل ہوتا ہے۔تکمل پر نظریاتی غور و فکر کے دوران یہ تبادل سود مند ثابت ہوتا ہے۔یہ تبادل درج ذیل مسئلے کے تحت ممکن ہے۔
+
+%=================
+\ابتدا{مسئلہ}\شناخت{خطی_تکمل_سطحی_مسئلہ_گرین}\quad سطح میں مسئلہ گرین\فرہنگ{مسئلہ!گرین}\حاشیہب{Green's theorem}\فرہنگ{theorem!Green} (دوہرا تکمل سے خطی تکمل اور خطی تکمل سے دوہرا تکمل کا حصول)\\
+فرض کریں کہ مستوی \عددی{xy} میں \عددی{R} ایک ایسا بند اور محدود خطہ ہے کہ جس کی سرحد \عددی{C}،  محدود تعداد کی ہموار منحنیات  سے بنی ہوئی ہے۔مزید فرض کریں کہ کسی ایسے پورے خطے میں، جس کا \عددی{R} حصہ ہو، تفاعل \عددی{f(x,y)} اور \عددی{g(x,y)} اور ان کے جزوی تفرق \عددی{\tfrac{\partial f}{\partial y}} اور \عددی{\tfrac{\partial g}{\partial x}} استمراری ہوں۔تب درج ذیل ہو گا
+\begin{align}\label{مساوات_خطی_تکمل_مسئلہ_گرین_ثبوت_الف}
+\iint\limits_R \left(\frac{\partial g}{\partial x}-\frac{\partial f}{\partial y}\right)\dif x\dif y=\int_C (f\dif x+g\dif y)
+\end{align}
+جہاں خطی تکمل \عددی{R} کی پوری سرحد  \عددی{C} پر یوں حاصل کیا جاتا ہے کہ تکمل لینے کی رخ \عددی{C} پر چلتے ہوئے \عددی{R} بائیں ہاتھ کو ہو (شکل \حوالہ{شکل_خطی_تکمل_سطحی_مسئلہ_گرین})۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+%\draw[thick] (0,0) grid (4,3);
+%\draw[thin,step=0.1] (0,0) grid (4.5,3);
+%
+\draw(0,0)--++(4.5,0)node[right]{$x$};
+\draw(0,0)node[ocirc]{}--++(0,2)node[left]{$y$};
+%
+\fill[fill=gray!20!white](0.5,1) to [out=90,in=180](1.5,2) to [out=0,in=135](3.5,1) to [out=-45,in=45] (4,0.5) to [out=-135,in=-30](3,0.75) to [out=150,in=0](1.5,0.5) to [out=180,in=-90](0.5,1);
+\fill[fill=white](1.5,1.25) circle (0.5cm and 0.37cm);
+%
+\draw[-<-=0.25](0.5,1) to [out=90,in=180](1.5,2) to [out=0,in=135](3.5,1) to [out=-45,in=45] (4,0.5) to [out=-135,in=-30](3,0.75) to [out=150,in=0](1.5,0.5) to [out=180,in=-90](0.5,1);
+\draw[-<-=0.25](1.5,1.25) circle (0.5cm and 0.37cm);
+%
+\draw(2.5,1.25)node[]{$R$};
+\draw(2,2)node[above]{$C_1$};
+\draw(1.5,1.38)node[]{$C_2$};
+\end{tikzpicture}
+\caption{خطہ $R$ کی سرحد کے دو حصے $C_1$ اور $C_2$ ہیں۔ $C_1$ پر گھڑی کی الٹ رخ جبکہ $C_2$ پر گھڑی کی رخ چلتے ہوئے خطی تکمل حاصل کیا جائے گا۔}
+\label{شکل_خطی_تکمل_سطحی_مسئلہ_گرین}
+\end{figure}
+\انتہا{مسئلہ}
+%=============================
+\ابتدا{ثبوت}
+ہم \اصطلاح{مسئلہ گرین}\حاشیہد{برطانوی ریاضی دان جارج گرین [1793-1841]} کو پہلے ایسے خطے کے لئے ثابت کرتے ہیں جس کو درج ذیل دونوں صورتوں سے ظاہر کرنا ممکن ہو (شکل \حوالہ{شکل_خطی_تکمل_ثبوت_مسئلہ_گرین})۔
+\begin{align*}
+\text{(الف)}\quad a&\le x \le b, \quad u(x)\le y\le v(x),\\
+\text{(ب)}\quad c&\le y\le d, \quad p(y)\le x\le q(y)
+\end{align*}
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+%\draw[thick,red] (0,0) grid (4,3);
+%\draw[thin,green,step=0.1] (0,0) grid (4,3);
+%
+\draw(0.5,0.4)--++(4,0)node[right]{$x$};
+\draw(0.5,0.4)node[ocirc]{}--++(0,2.5)node[right]{$y$};
+%
+\draw[-<-=0.7](1,1.4) to [out=90,in=180](2,2.5) to [out=0,in=90](3.8,1.5);
+\draw[-<-=0.7](3.8,1.5) to [out=-90,in=0] (3.2,0.6) to [out=180,in=0] (2.5,1.5) to [out=180,in=0] (1.4,1) to [out=180,in=-90] (1,1.4);
+%
+\draw[dashed](1,1.4)node[ocirc,solid]{}--(1,0.4)node[below]{$a$};
+\draw[dashed](3.8,1.5)node[ocirc,solid]{}--(3.8,0.4)node[below]{$b$};
+\draw(3.4,2.3)node[above]{$C^{**}$};
+\draw(2.3,1.2)node[]{$C^{*}$};
+%
+\draw[stealth-] (2,2.5) to [out=60,in=180] ++(0.2,0.4)node[right]{$v(x)$};
+\draw[stealth-](2.9,0.9) to [out=-140,in=0] ++(-0.2,-0.2)node[left]{$u(x)$};
+\draw(2.5,2)node{$R$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+%\draw[thick,red] (0,0) grid (4,3);
+%\draw[thin,green,step=0.1] (0,0) grid (4,3);
+%
+\draw(0.5,0.4)--++(3.5,0)node[right]{$x$};
+\draw(0.5,0.4)node[ocirc]{}--++(0,2.5)node[right]{$y$};
+%
+\draw[name path=kA](1,1.4) to [out=90,in=180](2,2.5) to [out=0,in=90](3.8,1.5) to [out=-90,in=0] (3.2,0.6) to [out=180,in=0] (2.5,1.5) to [out=180,in=0] (1.4,1) to [out=180,in=-90] (1,1.4);
+%
+\draw[dashed](3.2,0.6)node[ocirc,solid]{}--(0.5,0.6)node[left]{$c$};
+\draw[dashed](2,2.5)node[ocirc,solid]{}--(0.5,2.5)node[left]{$d$};
+\draw(2.5,2)node{$R$};
+%
+\draw[stealth-](3,2.4) to [out=45,in=180]++(0.5,0.2)node[right]{$q(y)$};
+\draw[stealth-](2.8,1.1) to [out=-145,in=0]++(-0.2,-0.1)node[left]{$p(y)$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{مخصوص قسم کا خطہ (مسئلہ گرین)}
+\label{شکل_خطی_تکمل_ثبوت_مسئلہ_گرین}
+\end{figure}
+مساوات \حوالہ{مساوات_خطی_تکمل_دوہرا_الف} استعمال کرتے ہوئے
+\begin{align}\label{مساوات_خطی_تکمل_مسئلہ_گرین_ثبوت_ب}
+\iint\limits_R\frac{\partial f}{\partial y}\dif x\dif y=\int\limits_a^b\left[\,\,\int\limits_{u(x)}^{v(x)}\frac{\partial f}{\partial y}\dif y\right]\dif x
+\end{align}
+لکھ کر (جہاں متکمل \عددی{\tfrac{\partial f}{\partial y}} ہے) اندرونی تکمل
+\begin{align*}
+\int\limits_{u(x)}^{v(x)}\frac{\partial f}{\partial y}\dif y=\left.f(x,y)\right|_{u(x)}^{v(x)}=f[x,v(x)]-f[x,u(x)]
+\end{align*}
+حاصل کر کے مساوات \حوالہ{مساوات_خطی_تکمل_مسئلہ_گرین_ثبوت_ب} میں پر کرتے ہیں۔
+\begin{align*}
+\iint\limits_R \frac{\partial f}{\partial y}\dif x\dif y&=\int_a^b f[x,v(x)]\dif x-\int_a^bf[x,u(x)]\dif x\\
+&=-\int_a^b f[x,u(x)]\dif x-\int_b^af[x,v(x)]\dif x
+\end{align*}
+چونکہ \عددی{y=u(x)} شکل \حوالہ{شکل_خطی_تکمل_ثبوت_مسئلہ_گرین}-الف میں سمت بند منحنی \عددی{C^*} کو ظاہر کرتی ہے جبکہ \عددی{y=v(x)} منحنی \عددی{C^{**}} کو ظاہر کرتی ہے لہٰذا بائیں ہاتھ کے تکملات کو \عددی{C^*} اور \عددی{C^{**}} پر خطی تکملات
+\begin{align}\label{مساوات_خطی_تکمل_مسئلہ_گرین_ثبوت_پ}
+\iint\limits_R \frac{\partial f}{\partial y}\dif y=-\int_{C^*}f(x,y)\dif x-\int_{C^{**}}f(x,y)\dif x=-\int_C f(x,y)\dif x
+\end{align}
+لکھا جا سکتا ہے۔ آخری قدم پر سرحد \عددی{C^*} اور سرحد \عددی{C^{**}} پر حاصل تکملات کو پوری سرحد \عددی{C} پر حاصل تکمل لکھا گیا ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+%\draw[thick](0,0) grid (3,2);
+%\draw[thin,step=0.1](0,0) grid (3,2);
+%
+\draw(0,0)--++(3,0)node[below]{$x$};
+\draw(0,0)node[ocirc]{}--++(0,2)node[left]{$y$};
+\draw[->-=0.2,->-=0.7](0.75,0.25) to [out=20,in=135](2.5,0.5)--(2.5,1.9) to [out=200,in=45](0.75,1)--(0.75,0.25);
+%
+\draw(2,1.2)node{$R$};
+\draw(1.8,0.4)node{$C^*$};
+\draw(1.6,1.8)node{$C^{**}$};
+\draw(0.5,0.6)node{$\widetilde{C}$};
+\draw(2.7,1.2)node{$\overset{\approx}{C}$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+%\draw[thick] (0,0) grid (4,3);
+%\draw[thin,step=0.1] (0,0) grid (4.5,3);
+%
+\draw(0,0)--++(4.5,0)node[right]{$x$};
+\draw(0,0)node[ocirc]{}--++(0,2)node[left]{$y$};
+%
+\fill[fill=gray!20!white](0.5,1.25) to [out=90,in=180](1.5,2) to [out=0,in=135](3.5,1) to [out=-45,in=45] (4,0.5) to [out=-135,in=-30](3,0.75) to [out=150,in=0](1.5,0.5) to [out=180,in=-90](0.5,1.25);
+\fill[fill=white](1.5,1.25) circle (0.5cm and 0.37cm);
+%
+\draw[-<-=0.1,-<-=0.25,-<-=0.5,-<-=0.75,-<-=0.95](0.5,1.25) to [out=90,in=180](1.5,2) to [out=0,in=135](3.5,1) to [out=-45,in=45] (4,0.5) to [out=-135,in=-30](3,0.75) to [out=150,in=0](1.5,0.5) to [out=180,in=-90](0.5,1.25);
+\draw[-<-=0.3,-<-=0.75](1.5,1.25) circle (0.5cm and 0.37cm);
+%partitions
+\draw[dashed](1,1.25)node[ocirc,solid]{}--(0.5,1.25);
+\draw[dashed](2,1.25)node[ocirc,solid]{}--(2,1.95);
+\draw[dashed](2.8,0.82)node[ocirc,solid]{}--(2.8,1.6)node[ocirc,solid]{};
+\draw[dashed](2,1.25)node[ocirc,solid]{}--(2,0.625);
+%
+\draw[-stealth,rounded corners=0.5mm] (0.7,1.45)--(0.6,1.35)--(0.9,1.35);
+\draw[-stealth,rounded corners=0.5mm] (1,1)--(0.9,1.1)--(0.6,1.1);
+%
+\draw[-stealth,rounded corners=0.5mm] (1.8,0.6)--(1.9,0.7)--(1.9,0.95);
+\draw[-stealth,rounded corners=0.5mm] (2.1,1.2)--(2.1,0.8)--(2.3,0.85);
+%
+\draw[-stealth,rounded corners=0.5mm] (2.7,0.95)--(2.7,1.5)--(2.6,1.6);
+\draw[-stealth,rounded corners=0.5mm] (2.9,1.4)--(2.9,0.9)--(3,0.85);
+%
+\draw[-stealth,rounded corners=0.5mm] (2.2,1.8)--(2.1,1.8)--(2.1,1.4);
+\draw[-stealth,rounded corners=0.5mm] (1.8,1.6)--(1.9,1.6)--(1.9,1.9);
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}%
+\caption{مسئلہ گرین کا ثبوت}
+\label{شکل_خطی_تکمل_مسئلہ_گرین_کا_ثبوت}
+\end{figure}
+
+اگر \عددی{C} کے کچھ حصے \عددی{y} محور کے متوازی ہوں (جیسے شکل \حوالہ{شکل_خطی_تکمل_مسئلہ_گرین_کا_ثبوت}-الف میں \عددی{\widetilde{C}} اور \عددی{\overset{\approx}{C}} ہیں) تب بھی  مساوات \حوالہ{مساوات_خطی_تکمل_مسئلہ_گرین_ثبوت_پ} درست ہو گا۔ایسا اس لئے ہو گا کہ \عددی{y} محور کے متوازی حصوں پر تکمل کی قیمت صفر ہو گی لہٰذا سرحد کی ان حصوں (یعنی \عددی{\widetilde{C}} اور \عددی{\overset{\approx}{C}}  ) پر تکمل  کو بھی مساوات \حوالہ{مساوات_خطی_تکمل_مسئلہ_گرین_ثبوت_پ} میں شامل کرتے ہوئے \عددی{R} کی پوری سرحد پر تکمل لکھا جا سکتا ہے۔
+
+اسی طرح مساوات \حوالہ{مساوات_خطی_تکمل_دوہرا_ب} استعمال کرتے ہوئے
+\begin{gather}
+\begin{aligned}\label{مساوات_خطی_تکمل_مسئلہ_گرین_ثبوت_ت}
+\iint\limits_R \frac{\partial g}{\partial x}\dif x\dif y&=\int\limits_c^d \left[\,\,\int\limits_{p(y)}^{q(y)}\frac{\partial g}{\partial x}\dif x\right]\dif y\\
+&=\int_c^d g[q(y),y]\dif y+\int_d^c g[p(y),y]\dif y\\
+&=\int_C g(x,y)\dif y
+\end{aligned}
+\end{gather}
+لکھا جا سکتا ہے۔مساوات \حوالہ{مساوات_خطی_تکمل_مسئلہ_گرین_ثبوت_پ} اور مساوات \حوالہ{مساوات_خطی_تکمل_مسئلہ_گرین_ثبوت_ت}  ملا کر مخصوص خطے کے لئے مساوات \حوالہ{مساوات_خطی_تکمل_مسئلہ_گرین_ثبوت_الف} ثابت ہوتی ہے۔
+
+اب ہم مسئلے کو ایسی خطے کے لئے ثابت کرتے ہیں جو از خود مخصوص خطہ نہیں ہے لیکن اس کو محدود تعداد کی مخصوص خطوں میں تقسیم کیا جا سکتا ہے (شکل \حوالہ{شکل_خطی_تکمل_مسئلہ_گرین_کا_ثبوت}-ب)۔ایسی صورت میں ہم تمام ضمنی مخصوص خطوں پر مسئلہ لاگو کرتے ہوئے جوابات کا مجموعہ لیتے ہیں۔بائیں ہاتھ کے ارکان کا مجموعہ  \عددی{R} پر تکمل دیگا جبکہ دائیں ہاتھ کے ارکان سرحد \عددی{C} پر خطی تکمل جمع اضافی پیدا کردہ سرحدوں پر تکمل دیگا۔ہر اضافی سرحد پر خطی تکمل دو مرتبہ آپس میں الٹ سمتوں میں حاصل کیا جائے گا۔آپس میں الٹ سمتوں میں خطی تکمل کا مجموعہ صفر ہوتا ہے لہٰذا تمام اضافی سرحدوں پر حاصل خطی تکملوں کا مجموعہ صفر ہو گا۔اس طرح دائیں ہاتھ ارکان کا مجموعہ \عددی{R} کی سرحد \عددی{C} پر خطی تکمل کے برابر ہو گا۔ 
+\انتہا{ثبوت}
+%=====================
+
+مسئلہ گرین انتہائی اہم مسئلہ ہے جس کو ہم بار بار استعمال کریں گے۔آئیں اس کی استعمال کی چند مثالیں دیکھیں۔
+
+%=====================
+\ابتدا{مثال}\quad مستوی کا رقبہ بطور سرحد پر خطی تکمل\\
+مسئلہ گرین یعنی مساوات \حوالہ{مساوات_خطی_تکمل_مسئلہ_گرین_ثبوت_الف} میں \عددی{f=0} اور \عددی{g=x} پر کرنے سے
+\begin{align*}
+A=\iint\limits_R \dif x\dif y=\int_C x\dif y
+\end{align*}
+ملتا ہے جس کا بایاں ہاتھ \عددی{R} کا رقبہ \عددی{A} دیتا ہے۔اسی طرح اگر ہم مساوات \حوالہ{مساوات_خطی_تکمل_مسئلہ_گرین_ثبوت_الف}  میں \عددی{f=-y} اور \عددی{g=0} پر کریں تب
+\begin{align*}
+A=\iint\limits_R \dif x\dif y=-\int_C y\dif x
+\end{align*}
+ملتا ہے۔ان دونوں جوابات سے
+\begin{align}\label{مساوات_خطی_تکمل_سطح_پیما_الف}
+A=\frac{1}{2}\int_C(x\dif y-y\dif x)
+\end{align}
+لکھا جا سکتا ہے جہاں خطی تکمل کو مسئلہ گرین میں دیے گئے رخ حاصل کیا جائے گا۔یہ تکمل مستوی \عددی{xy} پر رقبے کو بطور اسی رقبے کی سرحد پر خطی تکمل پیش کرتا ہے۔ کئی \اصطلاح{سطح پیما}\فرہنگ{سطح!پیما}\فرہنگ{پیما!سطح}\حاشیہب{planimeter}\فرہنگ{planimeter} اسی کلیے پر مبنی ہیں۔
+\انتہا{مثال}
+%========================
+\ابتدا{مثال}\quad قطبی محدد میں مستوی سطح کا رقبہ\\
+قطبی محدد \عددی{r} اور \عددی{\theta} ہیں جہاں \عددی{x=r\cos \theta} اور \عددی{y=r\sin\theta}  ہیں۔یوں
+\begin{align*}
+\dif x=\cos \theta\dif r-r\sin \theta \dif \theta,\quad \dif y=\sin \theta \dif r+r\cos \theta \dif \theta
+\end{align*}
+ہو گا جنہیں مساوات \حوالہ{مساوات_خطی_تکمل_سطح_پیما_الف} میں پر کرتے ہوئے درج ذیل کلیہ ملتا ہے۔
+\begin{align}\label{مساوات_خطی_تکمل_سطح_پیما_ب}
+A=\frac{1}{2}\int_C r\cos \theta(\sin \theta \dif r+r\cos \theta \dif \theta)-r\sin \theta (\cos \theta\dif r-r\sin \theta \dif \theta)=\frac{1}{2}\int_C r^2\dif \theta
+\end{align}
+\انتہا{مثال}
+%===========================
+
+مساوات \حوالہ{مساوات_خطی_تکمل_سطح_پیما_ب} کی مدد سے قلب نما منحنی \عددی{r=a(1-\cos \theta),\,\, 0\le \theta\le 2\pi} کا رقبہ دریافت کرتے ہیں (شکل \حوالہ{شکل_خطی_تکمل_قلب_نما})۔
+\begin{align*}
+A=\frac{a^2}{2}\int_0^{2\pi}(1-\cos \theta)^2 \dif \theta=\frac{3\pi a^2}{2}
+\end{align*}
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{polaraxis}[small,grid=none,axis equal image,ticks=none,hide x axis,hide y axis]
+\addplot[domain=0:360,samples=100,mark=none,small,fill=gray!20!white]{1-cos(x)};
+\addplot[mark=none] coordinates {(180,2.5)(0,.75)}node[below]{$x$};
+\addplot[mark=none] coordinates {(0,0)(90,1.5)}node[right]{$y$};
+\addplot[mark=none] coordinates {(0,0)}node[ocirc]{};
+\end{polaraxis}
+\end{tikzpicture}
+\caption{منحنی قلب نما}
+\label{شکل_خطی_تکمل_قلب_نما}
+\end{figure}
+%================================
+\ابتدا{مثال}\quad لاپلاسی تفاعل کے دوہرا تکمل سے تفاعل کی عمودی مماس کے خطی تکمل کا تبادل\\
+فرض کریں کہ \عددی{xy} مستوی میں مسئلہ گرین میں بیان کردہ خطے  میں تفاعل \عددی{w(x,y)} اور  اس کا ایک درجی اور دو درجی جزوی تفرق استمراری ہیں۔ہم 
+\عددی{f=-\tfrac{\partial w}{\partial y}} اور \عددی{g=\tfrac{\partial w}{\partial x}} لیتے ہیں۔یوں \عددی{\tfrac{\partial f}{\partial y}} اور \عددی{\tfrac{\partial g}{\partial x}} خطہ \عددی{} میں استمراری ہوں گے۔یوں درج ذیل ہو گا جو \عددی{w} کا \اصطلاح{لاپلاسی} ہے (حصہ \حوالہ{حصہ_الاحصاء_ڈھلوان})۔
+\begin{align}\label{مساوات_خطی_تکمل_لاپلاسی_کا_دوہرا_الف}
+\frac{\partial g}{\partial x}-\frac{\partial f}{\partial y}=\frac{\partial^2 w }{\partial x^2}+\frac{\partial^{\,2} w}{\partial y^2}=\nabla^{\,2}w
+\end{align}
+دی گئی \عددی{f} اور \عددی{g} استعمال کرتے ہوئے  درج ذیل لکھا جا سکتا ہے
+\begin{align}\label{مساوات_خطی_تکمل_لاپلاسی_کا_دوہرا_ب}
+\int_C(f\dif x+g\dif y)=\int_C\left(f\frac{\dif x}{\dif s}+g\frac{\dif y}{\dif s}\right)\dif s=\int_C\left(-\frac{\partial w}{\partial y}\frac{\dif x}{\dif s}+\frac{\partial w}{\partial x}\frac{\dif y}{\dif s}\right)\dif s
+\end{align}
+جہاں \عددی{s} سرحد \عددی{C} کی لمبائی ہے۔دائیں ہاتھ آخری متکمل کو درج ذیل دو سمتیات
+\begin{align*}
+\nabla w=\frac{\partial w}{\partial x}\bM{i}+\frac{\partial w}{\partial y}\bM{j}, \quad \bM{n}=\frac{\dif y}{\dif s}\bM{i}-\frac{\dif x}{\dif s}\bM{j}
+\end{align*} 
+ کا اندرونی ضرب
+\begin{align}\label{مساوات_خطی_تکمل_سمتی_تفرق_الف}
+-\frac{\partial w}{\partial y}\frac{\dif x}{\dif s}+\frac{\partial w}{\partial x}\frac{\dif y}{\dif s}=\left(\nabla w\right)\cdot \bM{n}
+\end{align}
+لکھا جا سکتا ہے۔درج ذیل سمتیہ \عددی{\bM{u}} سرحد \عددی{C} کا مماس ہے (حصہ \حوالہ{حصہ_الاحصاء_مماس_انحنا_مروڑ}) 
+\begin{align*}
+\bM{u}=\frac{\dif \bM{r}}{\dif s}=\frac{\dif x}{\dif s}\bM{i}+\frac{\dif y}{\dif s}\bM{j}
+\end{align*}
+اور چونکہ \عددی{\bM{u}\cdot \bM{n}=0} ہے لہٰذا \عددی{\bM{n}} سرحد \عددی{C} کا قائمہ سمتیہ ہے۔مزید \عددی{\bM{n}} کا رخ خطہ \عددی{R} کی باہر کو ہے۔اس نتیجے اور مساوات \حوالہ{مساوات_الاحصاء_سمتی_تفرق_ٹ} سے ظاہر ہے کہ مساوات \حوالہ{مساوات_خطی_تکمل_سمتی_تفرق_الف} کا دایاں ہاتھ \عددی{C} کی بیرونی رخ قائمہ سمتیہ  کی سمت میں \عددی{w} کا سمتی تفرق ہے  جس کو \عددی{\tfrac{\dif w}{\dif n}} لکھتے ہوئے اور مساوات \حوالہ{مساوات_خطی_تکمل_لاپلاسی_کا_دوہرا_الف}، مساوات \حوالہ{مساوات_خطی_تکمل_لاپلاسی_کا_دوہرا_ب} اور مساوات \حوالہ{مساوات_خطی_تکمل_سمتی_تفرق_الف} کو مد نظر رکھتے ہوئے مسئلہ گرین سے درج ذیل کلیہ ثابت ہوتا ہے۔
+\begin{align}
+\iint\limits_R \nabla^{\,2} w\dif x\dif y=\int_C \frac{\partial w}{\partial n} \dif s
+\end{align}
+\انتہا{مثال}
+%==================================

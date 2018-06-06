@@ -103,7 +103,7 @@
 
 \newenvironment*{مثال}
 {\par\noindent\ignorespaces    مثال \refstepcounter{examplecounter} \theexamplecounter :}%
-{\par\hfill\qedsymbol  \vspace{\baselineskip}}
+{\hfill\qedsymbol  \vspace{\baselineskip}\par}
 %{\noindent\ignorespaces \vspace{\baselineskip} \hrule \vspace{\baselineskip}  مثال \refstepcounter{examplecounter} \theexamplecounter :}%
 %{\par\noindent \hrule  \vspace{\baselineskip}}
 
@@ -169,5 +169,16 @@
 
 \newenvironment*{تعریف}				
 {\par\noindent\ignorespaces  تعریف :}%
+{\par\noindent }
+%--------------------
+%--------------------
+
+%defining a Definition مفروضہ
+
+%\newcounter{kAscounter}[chapter]
+%\renewcommand{\theAsrcounter}{\arabic{kAscounter}.\thechapter}
+
+\newenvironment*{مفروضہ}				
+{\par\noindent\ignorespaces  مفروضہ \\}%
 {\par\noindent }
 %--------------------

@@ -108,6 +108,6 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 11}}دوہرا تکمل}{\RL {\arabicfont 814}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 11}}دوہرا تکمل کا خطی تکمل میں تبادلہ}{\RL {\arabicfont 827}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 11}}سطحیں}{\RL {\arabicfont 837}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 839}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 843}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 843}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 841}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 845}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 845}}

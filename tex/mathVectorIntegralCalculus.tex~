@@ -1931,7 +1931,7 @@ u=g(t),\quad v=h(t)
  \عددی{\bM{r}_v=\tfrac{\partial \bM{r}}{\partial v}} خطی طور غیر تابع ہوں گے اور ایک سطح تعین کریں گے۔اس سطح کو  نقطہ \عددی{N} پر \عددی{S} کی \اصطلاح{مماسی سطح}\فرہنگ{مماسی سطح}\حاشیہب{tangent plane}\فرہنگ{tangent plane} کہتے ہیں۔مماسی سطح کو \عددی{T(N)} سے ظاہر کیا جائے گا۔\عددی{T(N)} سطح \عددی{S} کو نقطہ \عددی{N} پر چھوتی ہے۔ مساوات \حوالہ{مساوات_خطی_تکمل_سطح_میں_منحنی_ب} سے ظاہر ہے کہ  نقطہ \عددی{N} پر سطح \عددی{S} کا ہر مماس نقطہ \عددی{N} پر سطح کی مماسی سطح \عددی{T(N)} میں پایا جائے گا (حصہ \حوالہ{حصہ_الاحصاء_ڈھلوان})۔
 
 نقطہ \عددی{N} سے  گزرتا وہ سیدھا خط جو \عددی{T(N)} کو عمودی ہو نقطہ \عددی{N} پر \عددی{S} کا \اصطلاح{عمود}\فرہنگ{عمود}\حاشیہب{normal}\فرہنگ{normal} کہلاتا ہے۔چونکہ \عددی{\bM{r}_u} اور \عددی{\bM{r}_v} سطح \عددی{T(N)} میں پائے جاتے ہیں لہٰذا اکائی سمتیہ
-\begin{align}
+\begin{align}\label{مساوات_خطی_تکمل__سطح_اکائی_عمودی_سمتیہ}
 \bM{n}=\frac{\bM{r}_u\times \bM{r}_v}{\abs{\bM{r}_u\times \bM{r}_v}}
 \end{align}
  \عددی{T(N)} کو عمودی ہو گا (شکل \حوالہ{شکل_خطی_تکمل_مماسی_سطح_اور_عمود})۔اس سمتیہ کو \عددی{N} پر \عددی{S} کا \اصطلاح{اکائی عمودی سمتیہ}\فرہنگ{عمودی سمتیہ!اکائی}\حاشیہب{unit normal vector}\فرہنگ{normal vector!unit} کہتے ہیں۔\عددی{\bM{n}} کی سمت \عددی{u} اور \عددی{v} کی انتخاب پر منحصر ہے۔تبادل \عددی{u=-\bar{u}}، \عددی{v=\bar{v}} یا کوئی اور ایسی تبادل جس کی یعقوبی (حصہ \حوالہ{حصہ_خطی_تکمل_دوہرا_تکمل}) کی قیمت منفی ہو سے \عددی{\bM{n}} کی سمت الٹ ہو گی ۔ 
@@ -2030,12 +2030,319 @@ C_1:u=g(t),\, v=h(t) \quad \text{اور} \quad C_2:u=p(t),\, v=q(t)
 ہیں۔آپ دیکھ سکتے ہیں کہ کسی سطح پر متقاطع منحنیات کے درمیان زاویے کو \عددی{E}، \عددی{F}، \عددی{G} اور  منحنیات کو ظاہر کرنے والی تفاعل کی نقطہ قطع پر تفرق سے حاصل کیا جا سکتا ہے۔
 
 \جزوحصہء{رقبہ}
-سطح \عددی{S:\bM{r}(u,v)} کے رقبہ \عددی{A} سے مراد \عددی{uv} سطح پر \عددی{S} کے مطابقتی خطہ \عددی{R} پر درج ذیل دوہرا تکمل ہے۔
-\begin{align}
+سطح \عددی{S:\bM{r}(u,v)} کے رقبہ \عددی{A} سے مراد \عددی{uv} سطح پر \عددی{S} کے مطابقتی خطہ \عددی{R} پر درج ذیل دوہرا تکمل ہے
+\begin{align}\label{مساوات_خطی_تکمل_رقبہ_الف}
 A=\iint\limits_R \abs{\bM{r}_u\times \bM{r}_v}\dif u\dif v
 \end{align}  
-جزو رقبہ سے مراد
-\begin{align}
+جہاں
+\begin{align}\label{مساوات_خطی_تکمل_رقبہ_ب}
 \dif A=\abs{\bM{r}_u\times \bM{r}_v}\dif u\dif v
 \end{align}
-ہے۔
+\اصطلاح{رکن رقبہ}\فرہنگ{رقبہ!رکن}\حاشیہب{element of area}\فرہنگ{area!element of} کہلاتا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kang}{atan(1/0.3)}
+%
+\draw(0,0)[-latex]--(1.5,0)coordinate(bR);
+\draw(0,0)[-latex]--(0.3,1);
+\draw[dashed] (bR)--++(0.3,1)--++(-1.5,0);
+\draw(0,0) to [out=0,in=170](1.6,-0.2)node[ocirc]{}node[right]{$(u+\Delta u,v)$} to [out=\kang,in=-180+\kang-10]++(0.5,1.4)coordinate(tR);
+\draw(0,0)node[ocirc]{}node[left]{$(u,v)$} to [out=\kang,in=-180+\kang+10] (0.2,1.1)node[ocirc]{}node[left]{$(u,v+\Delta v)$} to [out=0,in=-170] (tR)node[ocirc]{}node[right]{$(u+\Delta u,v+\Delta v)$};
+\end{tikzpicture}
+\caption{چھوٹا رقبہ}
+\label{شکل_خطی_تکمل_چھوٹا_رقبہ}
+\end{figure}
+
+مساوات  \حوالہ{مساوات_خطی_تکمل_رقبہ_الف} کو شکل \حوالہ{شکل_خطی_تکمل_چھوٹا_رقبہ} سے یوں اخذ کیا جا سکتا ہے کہ سمتی ضرب کی تعریف کے تحت اس چھوٹے متوازی الاضلاع کا رقبہ درج ذیل ہو گا۔
+\begin{align*}
+\Delta A=\abs{\bM{r}_u\Delta u\times \bM{r}_v\Delta v}=\abs{\bM{r}_u\times \bM{r}_v}\Delta u\Delta v
+\end{align*}
+
+مساوات  \حوالہ{مساوات_خطی_تکمل_رقبہ_الف}  کا تکمل حاصل کرنے کی خاطر \عددی{S} کو \عددی{S_1}، \نقطے،\عددی{S_n} ٹکڑوں میں تقسیم کرتے ہوئے  ہر \عددی{S_k} کے رقبے کو \عددی{S_k} میں کسی نقطے پر  مماسی سطح کے کچھ رقبے کے لگ بھگ فرض کرتے ہوئے تمام چھوٹے رقبوں کا مجموعہ لیا جاتا ہے۔ایسا مجموعہ ہر \عددی{n=1,2,\cdots} کے لئے  یوں حاصل کیا جاتا ہے کہ  \عددی{n} کی قیمت لامتناہی تک پہنچنے سے  سب سے بڑے \عددی{S_k} کے اطراف کی لمبائی صفر تک پہنچے۔ان مجموعوں کی حد مساوات  \حوالہ{مساوات_خطی_تکمل_رقبہ_الف}  کا تکمل ہو گا۔
+
+ہم مساوات  \حوالہ{مساوات_خطی_تکمل_رقبہ_الف}  کو \عددی{E}، \عددی{F}، \عددی{G} کی صورت میں لکھ کر اول بنیادی صورت سے رقبہ حاصل کرتے ہیں۔مساوات \حوالہ{مساوات_الجبرا_سمتی_ضرب_معیار_کی_اہم_مساوات} اور مساوات  \حوالہ{مساوات_خطی_تکمل_پہلی_بنیادی_صورت_الف} سے
+\begin{align}\label{مساوات_خطی_تکمل_رقبہ_پ}
+\abs{\bM{r}_u\times \bM{r}_v}^2=(\bM{r}_u\cdot \bM{r}_u)(\bM{r}_v\cdot \bM{r}_v)-(\bM{r}_u\cdot \bM{r}_v)^2=EG-F^2
+\end{align}
+لکھ کر مساوات  \حوالہ{مساوات_خطی_تکمل_رقبہ_الف} کو
+\begin{align}\label{مساوات_خطی_تکمل_رقبہ_ت}
+A=\iint\limits_R \sqrt{EG-F^2}\,\dif u\dif v
+\end{align}
+اور مساوات \حوالہ{مساوات_خطی_تکمل_رقبہ_ب} کو 
+\begin{align}\label{مساوات_خطی_تکمل_رقبہ_ٹ}
+\dif A=\sqrt{EG-F^2}\,\dif u\dif v
+\end{align}
+لکھا جا سکتا ہے۔
+
+%==================
+\ابتدا{مثال}\quad اندرسہ\\
+کسی محور کے گرد بند قوس (عموماً دائرے) کو (محور قطع کیے بغیر) گھمانے سے  \اصطلاح{اندرسہ}\فرہنگ{اندرسہ}\حاشیہب{torus}\فرہنگ{torus} حاصل ہوتا ہے (آپ نے بچپن میں اندرسے ضرور کھائے ہوں گے)۔شکل \حوالہ{شکل_خطی_تکمل_اندرسہ}-الف میں  دائرہ \عددی{C} کو \عددی{z} محور کے گرد گمانے سے اندرسہ حاصل کیا گیا ہے جس کی سطح کی سمتی مساوات درج ذیل ہے۔
+\begin{align*}
+\bM{r}(u,v)=(a+b\cos v)\cos u\,\bM{i}+(a+b\cos v)\sin u\,\bM{j}+b\sin v\,\bM{k}\quad \quad (a>b>0)
+\end{align*}
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\r}{0.75}
+\pgfmathsetmacro{\ang}{60}
+\pgfmathsetmacro{\C}{1.25}
+%
+\coordinate (O) at (\C,1);
+\coordinate (OO) at (0,-2.5);
+%
+\draw(0,0)--(0,2)node[left]{$z$};
+\draw(0,1)--++(2.5,0)node[right]{$y$};
+%
+\draw[dashed](O){}++(\ang:\r)--++(0,-4.5cm)coordinate(kB);
+\draw(O)++(\ang/2:0.6)node[]{$v$};
+\draw(O) circle (\r);
+\draw[](O)node[ocirc]{}--++(\ang:\r)node[ocirc]{};
+\draw[-stealth] ([shift={(0:0.3)}]O) arc (0:\ang:0.3);
+\draw(O)++(100:\r+0.2)node[]{$C$};
+%
+\draw(OO)--++(0,-2.5)node[left]{$x$};
+\draw(OO)--++(2.5,0)node[right]{$y$};
+%
+\draw(OO) circle (\C-\r);
+\draw(OO) circle (\C+\r);
+\draw(OO)--(kB)node[ocirc]{};
+%
+\draw[-stealth]([shift={(-90:0.9)}]OO) arc (-90:-13:0.9);
+\draw(OO)++(-50:1.1)node{$u$};
+\draw[dashed]([shift={(-90:1.65)}]OO) arc (-90:-15:1.65);
+%
+\draw[dashed](0.5,1)--++(0,-3.5);
+\draw[dashed](O)++(0,-0.1)--++(0,-3.5+0.1);
+\draw[dashed](O)++(\r,0)--++(0,-3.5);
+\draw[dashed](0,0)--++(0,-2.5);
+%
+\draw[stealth-stealth] (O)++(0,-1.15)--(0,-0.15)node[pos=0.3,above]{$a$};
+\draw[stealth-stealth] (O)++(0,-1.5)--++(\r,0)node[pos=0.3,above]{$b$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+    \begin{axis}[hide axis,view={60}{60}]
+       \addplot3[
+	surf,
+%colormap name=viridis,
+       colormap={bw}{gray(0 cm)=(0);gray(1 cm)=(1)},
+       samples=30,
+       domain=0:360,y domain=0:360,
+       z buffer=sort]
+       ({(2+cos(x))*cos(y)}, 
+        {(2+cos(x))*sin(y)}, 
+        {0.2*sin(x)});
+    \end{axis}
+\end{tikzpicture}%
+\caption*{(ب)}
+\end{subfigure}%
+\caption{اندرسہ}
+\label{شکل_خطی_تکمل_اندرسہ}
+\end{figure}
+
+مساوات \حوالہ{مساوات_خطی_تکمل_پہلی_بنیادی_صورت_الف} سے
+\begin{align*}
+E=(a+b\cos v)^2,\quad F=0,\quad G=b^2
+\end{align*}
+لکھا جا سکتا ہے لہٰذا
+\begin{align*}
+\abs{\bM{r}_u\times \bM{r}_v}^2=EG-F^2=b^2(a+b\cos v)^2
+\end{align*}
+ہو گا جس سے اندرسہ کی سطح کا رقبہ درج ذیل حاصل ہوتا ہے۔
+\begin{align*}
+A=\int_{0}^{2\pi}\int_0^{2\pi}b(a+b\cos v)\dif u\dif v=4ab\pi^2
+\end{align*}
+\انتہا{مثال}
+%====================
+
+فرض کریں کہ کسی سطح کی مساوات درج ذیل ہے۔
+\begin{align}
+z=g(x,y)
+\end{align}
+اس میں \عددی{x=u} اور \عددی{y=v} پر کرتے ہوئے مقدار معلوم روپ
+\begin{align}
+\bM{r}(u,v)=u\bM{i}+v\bM{j}+g(u,v)\bM{k}
+\end{align}
+میں لکھا جا سکتا ہے جس کے \عددی{u} اور \عددی{v} کے ساتھ جزوی تفرق درج ذیل ہیں۔
+\begin{align}\label{مساوات_خطی_تکمل_جزوی_تفرقات_الف}
+\bM{r}_u=\bM{i}+g_u\bM{k},\quad \bM{r}_v=\bM{j}+g_v\bM{k}
+\end{align}
+اس طرح اول بنیادی صورت کے عددی سر
+\begin{align*}
+E=1+g_u^2,\quad F=g_ug_v,\quad G=1+g_v^2
+\end{align*}
+ہوں گے لہٰذا
+\begin{align*}
+\abs{\bM{r}_u\times \bM{r}_v}^2=EG-F^2=1+g_u^2+g_v^2
+\end{align*}
+ہو گا۔اب چونکہ \عددی{u=x} اور \عددی{v=y} ہیں  لہٰذا رقبہ درج ذیل ہو گا
+\begin{align}\label{مساوات_خطی_تکمل_صریح_تفاعل_رقبہ_الف}
+A=\iint\limits_{\bar{S}} \sqrt{1+g_u^2+g_v^2}\,\dif x\dif y
+\end{align}
+جہاں سطح \عددی{S} کا \عددی{xy} مستوی پر عمودی سایہ \عددی{\bar{S}} ہے۔اس سے ظاہر ہے کہ
+\begin{align}\label{مساوات_خطی_تکمل_صریح_تفاعل_رقبہ_ب}
+\dif A=\sqrt{1+g_u^2+g_v^2}\,\dif x\dif y
+\end{align}
+ہو گا۔بعد میں استعمال کی خاطر ہم ثابت کرتے ہیں کہ اس کو
+\begin{align}\label{مساوات_خطی_تکمل_صریح_تفاعل_رقبہ_پ}
+\dif A=\sec \delta \, \dif x\dif y
+\end{align}
+لکھا جا سکتا ہے جہاں \عددی{S} کی (غیر سمتی) عمود اور \عددی{z} محور کے درمیان زاویہ حادہ \عددی{\delta} ہے۔ شکل \حوالہ{شکل_مساوات_خطی_تکمل_صریح_تفاعل_رقبہ_پ} سے اس کی جیومیٹریائی وجہ ظاہر ہے جہاں چھوٹا رقبہ \عددی{\Delta A} کا \عددی{xy} مستوی پر عمودی عکس
+ \عددی{\Delta  A\cos \delta} ہو گا جو \عددی{\Delta x\Delta y} کے برابر ہو گا جس کو \عددی{\overline{\Delta A}} لکھا جاتا ہے۔یوں درج ذیل ہو گا۔
+\begin{align*}
+\Delta A=\overline{\Delta A} \sec \delta=\sec \delta \, \Delta x\Delta y
+\end{align*} 
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0)--(-0.75,-0.75)node[left]{$x$};
+\draw(0,0)--(3,0)node[right]{$y$};
+\draw(0,0)node[ocirc]{}--(0,1)node[left]{$z$};
+%surface
+\draw(0.8,0.5)coordinate(kA) to [out=30,in=-170] ++(1,0.5)coordinate(kB);
+\draw(kA) to [out=70,in=-150]++(0.5,0.5)coordinate(kD);
+\draw(kD) to [out=30,in=-170]++(1,0.5)coordinate(kC);
+\draw(kB) to [out=70,in=-150](kC);
+%
+\draw($(kA)!0.5!(kC)$)--++(130:1)node[left]{عمود};
+\draw[dashed]($(kA)!0.5!(kC)$)coordinate(kE)--++(0,1);
+\draw([shift={(90:0.5)}]kE) arc (90:130:0.5);
+\draw(kE)++(90+20:0.8)node{$\delta$};
+%
+\draw[dashed](kA)--++(0,-1.5)coordinate(kAA);
+\draw[dashed](kB)--++(0,-2)coordinate(kBB);
+\draw[dashed](kC)--++(0,-2)coordinate(kCC);
+\draw[dashed](kD)--++(0,-1.5)coordinate(kDD);
+\draw(kAA)--(kBB)--(kCC)--(kDD)--(kAA);
+\draw($(kAA)!0.5!(kBB)$)node[below]{$\Delta y$};
+\draw($(kCC)!0.5!(kBB)$)node[right]{$\Delta x$};
+%
+\draw[stealth-]($(kA)!0.7!(kC)$) to [out=90,in=180]++(0.5,0.5)node[right]{$\Delta A$};
+\end{tikzpicture}
+\caption{مساوات \حوالہ{مساوات_خطی_تکمل_صریح_تفاعل_رقبہ_پ} کا ثبوت}
+\label{شکل_مساوات_خطی_تکمل_صریح_تفاعل_رقبہ_پ}
+\end{figure}
+
+مساوات \حوالہ{مساوات_خطی_تکمل_صریح_تفاعل_رقبہ_پ} کی اب تحلیلی ثبوت پیش کرتے ہیں۔فرض کریں کہ \عددی{\bM{a}=\bM{r}_u\times \bM{r}_v} ہے۔یہ جانتے ہوئے کہ \عددی{u=x} اور \عددی{v=y} ہیں اور مساوات \حوالہ{مساوات_خطی_تکمل_جزوی_تفرقات_الف} کو استعمال کرتے ہوئے سمتی ضرب کی تعریف سے
+\begin{align*}
+\bM{a}=\frac{\partial \bM{r}}{\partial x}\times \frac{\partial \bM{r}}{\partial y}=-\frac{\partial g}{\partial x}\bM{i}-\frac{\partial g}{\partial y}\bM{j}+\bM{k},\quad \abs{\bM{a}}=\sqrt{1+\big(\frac{\partial g}{\partial x}\big)^2+\big(\frac{\partial g}{\partial y}\big)^2}
+\end{align*}  
+لکھا جا سکتا ہے لہٰذا \عددی{\bM{a}\cdot \bM{k}=1} ہو گا۔اب اندرونی ضرب کی تعریف سے  \عددی{\bM{a}\cdot \bM{k}=\abs{\bM{a}}\cos \delta^*} ہو گا جہاں \عددی{\bM{a}} اور مثبت \عددی{z} محور کے درمیان زاویہ  \عددی{\delta^*} ہے۔ان کو  ملا کر \عددی{\abs{\bM{a}}\cos \delta^*=1} ملتا ہے جس سے  \عددی{\cos \delta^* >0} اخذ ہوتا ہے لہٰذا \عددی{\delta^* < \tfrac{\pi}{2}} ہو گا یعنی \عددی{\delta^*} زاویہ حادہ ہے اور یوں \عددی{\delta^*=\delta} ہے۔اس طرح درج ذیل لکھا جا سکتا ہے جس سے مساوات \حوالہ{مساوات_خطی_تکمل_صریح_تفاعل_رقبہ_پ} کا ثبوت مکمل ہوتا ہے۔
+\begin{align*}
+\abs{\bM{a}}\cos \delta=1,\quad \implies \quad \sec \delta=\abs{\bM{a}}\quad \quad \big(\delta < \frac{\pi}{2}\big) 
+\end{align*}
+
+%=================================
+\حصہء{سوالات}
+%==========================
+\ابتدا{سوال}\quad ثابت کریں کہ نقطہ \عددی{N} پر سطح \عددی{S:\bM{r}(u,v)} کی مماسی سطح کو 
+\begin{align*}
+\bM{r}^*(p,q)=\bM{r}+p\bM{r}_u+q\bM{r}_v
+\end{align*}
+لکھا جا سکتا ہے جہاں \عددی{\bM{r},\bM{r}_u,\bM{r}_v} کی قیمتیں نقطہ \عددی{N} کے لحاظ سے ہیں۔مزید ثابت کریں کہ اس کو درج ذیل غیر سمتی سہ ضرب لکھا جا سکتا ہے۔
+\begin{align*}
+(\bM{r}^*-\bM{r}\quad \bM{r}_u\quad \bM{r}_v)=0
+\end{align*}
+
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}\شناخت{سوال_خطی_تکمل_مماسی_سطح_عمومی_الف}\quad سطح \عددی{f(x,y,z)=0} کا نقطہ \عددی{N_0} پر  مماسی سطح کی مساوات دریافت کریں۔اس نقطے پر اس کا اکائی عمودی سمتیہ بھی دریافت کریں۔\\
+جوابات:\quad اگر نقطہ \عددی{N_0} کا تعین گر سمتیہ  \عددی{\bM{r}}  جبکہ مماسی سطح پر عمومی نقطے کا تعین گر سمتیہ \عددی{\bM{r}^*} ہو (شکل \حوالہ{شکل_سوال_خطی_تکمل_مماسی_سطح_عمومی_الف}) تب سمتیہ \عددی{\bM{r}^*-\bM{r}} نقطہ \عددی{N_0} پر سطح کا مماس ہو گا۔چونکہ \عددی{\nabla f} سطح کا عمود ہے لہٰذا مماسی سطح کی مساوات \عددی{(\bM{r}^*-\bM{r})\cdot \nabla f=0} ہو گی۔اکائی عمودی سمتیہ \عددی{\bM{n}=\tfrac{\nabla f}{\abs{\nabla f}}} ہو گا۔ 
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ang}{atan(2/3)}
+\pgfmathsetmacro{\len}{sqrt(9+4)}
+%\draw(0,0) grid (4,2);
+%\draw[gray,thin,step=0.1] (0,0) grid (4,2);
+%
+\draw[name path=kcurve](0.25,1) to [out=30,in=180](1,1.5) to [out=0,in=180](3.5,0.75) to [out=0,in=-90](4,1)to [out=90,in=0] (2,2) to [out=180,in=45](1,1.8) --(0.25,1);
+\draw(0.25,1) to [out=-135,in=90](0,0.8) to [out=-90,in=180](0.25,0.7) to [out=0,in=-135] (2,1.25);
+\draw(0.75,1)node[]{$S$};
+%
+\path[](3.5,1.2)coordinate(kA)--++(0.8,0.4)coordinate(kB)--++(-1.6,1)coordinate(kC)--++(-0.8,-0.4)coordinate(kD)--(3.5,1.2);
+\path(kD)--++(0,-0.05)coordinate(kE)--++(1.6,-1)coordinate(kF)--++(0.8,0.4)coordinate(kG)--++(0,0.05);
+\draw[fill=white](kB)--(kC)--(kD)--(kE)--(kF)--(kG)--(kB);
+\draw(kD)--(kA)--(kB);
+\draw(kA)--(kF);
+%
+\path[name path=pointA](0,0)--++(\ang:\len);
+\path[name path=pointB](0,0)--++(\ang-10:\len+0.5)coordinate(kB);
+\draw[name intersections={of=pointA and kcurve}] (0,0)--(intersection-1)node[pos=0.4,shift={(-0.3,0)}]{$\bM{r}$};
+\draw[dashed,-latex](intersection-1)--(3,2)coordinate(kTA)node[shift={(-0.3,0.2)}]{$N_0$};
+\draw[name intersections={of=pointB and kcurve}] (0,0)--(intersection-1)node[pos=0.8,below]{$\bM{r}^*$};
+\draw[dashed,-latex](intersection-1)--(kB);
+\draw[-latex](kTA)node[ocirc]{}--(kB)coordinate[pos=0.5](kM);
+\draw[stealth-] (kM) to [out=45,in=180]++(0.5,0.5)node[right]{$\bM{r}-\bM{r}^*$};
+%
+\draw(0,0)--++(-0.5,-0.5)node[left]{$x$};
+\draw(0,0)--++(1,0)node[below]{$y$};
+\draw(0,0)--++(0,0.5)node[left]{$z$};
+\end{tikzpicture}
+\caption{مماسی سطح کی مساوات (سوال \حوالہ{سوال_خطی_تکمل_مماسی_سطح_عمومی_الف})}
+\label{شکل_سوال_خطی_تکمل_مماسی_سطح_عمومی_الف}
+\end{figure}
+\انتہا{سوال}
+%======================
+\ابتدا{سوال}\quad سطح \عددی{z=g(x,y)} کا نقطہ \عددی{N_0} پر مماسی سطح کی مساوات دریافت کریں۔ مزید اس نقطے پر اکائی عمودی سمتیہ بھی دریافت کریں۔\\
+جوابات:\quad
+$xg_x+yg_y-z=x_0g_x+y_0g_y-g(x_0,y_0),\quad \bM{n}=\tfrac{g_x\bM{i}+g_y\bM{j}-\bM{k}}{\sqrt{g_x^2+g_y^2+1}}$
+\انتہا{سوال}
+%==========================
+\ابتدا{سوال}\quad اگر سطح \عددی{S:\,\bM{r}(u,v)} کا اکائی عمودی سمتیہ  \عددی{\bM{n}} ہو  (مساوات \حوالہ{مساوات_خطی_تکمل__سطح_اکائی_عمودی_سمتیہ}) تب \عددی{u=-\tilde{u}}، \عددی{v=\tilde{v}} پر کرتے ہوئے ثابت کریں کہ  \عددی{\bM{r}^*(\tilde{u},\tilde{v})} کا اکائی عمودی سمتیہ \عددی{-\bM{n}} ہو گا۔ \\
+جواب:\quad مساوات \حوالہ{مساوات_خطی_تکمل__سطح_اکائی_عمودی_سمتیہ} کے تحت \عددی{\bM{n}=\tfrac{\bM{r}_u\times \bM{r}_v}{\abs{\bM{r}_u\times \bM{r}_v}}} ہے۔ \عددی{\bM{r}^*(\tilde{u},\tilde{v})}  استعمال کرتے ہوئے 
+\begin{align*}
+\bM{r}_u^*(\tilde{u},\tilde{v})=\frac{\partial \bM{r}}{\partial \tilde{u}}\frac{\partial \tilde{u}}{\partial u}+\frac{\partial \bM{r}}{\partial \tilde{v}}\frac{\partial \tilde{v}}{\partial u}=-\bM{r}_u,\quad
+\bM{r}_v^*(\tilde{u},\tilde{v})=\frac{\partial \bM{r}}{\partial \tilde{u}}\frac{\partial \tilde{u}}{\partial v}+\frac{\partial \bM{r}}{\partial \tilde{v}}\frac{\partial \tilde{v}}{\partial v}=\bM{r}_v
+\end{align*}
+سے اکائی عمودی سمتیہ \عددی{-\tfrac{\bM{r}_u\times \bM{r}_v}{\abs{\bM{r}_u\times \bM{r}_v}}} حاصل ہوتا ہے جو \عددی{-\bM{n}}  کے برابر ہے۔
+\انتہا{سوال}
+%=========================
+سوال \حوالہ{سوال_خطی_تکمل_مماسی_سطح_الف} تا سوال \حوالہ{سوال_خطی_تکمل_مماسی_سطح_الف} میں نقطہ \عددی{N_0:(x_0,y_0,z_0)} پر سطح  کی مماسی سطح کی مساوات حاصل کریں۔
+
+%====================
+\ابتدا{سوال}\شناخت{سوال_خطی_تکمل_مماسی_سطح_الف}\quad
+$z=xy,\quad N_0:(3,2,6)$\\
+جواب:\quad \عددی{f=xy-z=0} لکھتے ہوئے \عددی{\nabla f=y\bM{i}+x\bM{j}-\bM{k}} ملتا ہے جس کی \عددی{N_0} پر قیمت 
+\عددی{\nabla f_N=2\bM{i}+3\bM{j}-\bM{k}} ہے۔ہم \عددی{N_0} کا تعین گر سمتیہ \عددی{\bM{r}=3\bM{i}+2\bM{j}+6\bM{k}} اور مماسی سطح پر عمومی نقطے کا تعین گر سمتیہ \عددی{\bM{r}^*=x\bM{i}+y\bM{j}+z\bM{k}}  لکھتے ہیں۔یوں \عددی{\bM{r}-\bM{r}^*=(x-3)\bM{i}+(y-2)\bM{j}+(z-6)\bM{k}} ہو گا۔ اس طرح \عددی{(\bM{r}-\bM{r}^*)\cdot \nabla f_N=0} سے  مماسی سطح کی مساوات \عددی{2x+3y-z=6}  حاصل ہوتی ہے۔
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\quad
+$x^2+y^2+z^2=25,\quad N_0:(\sqrt{2},\sqrt{2},3)$\\
+جواب:\quad 
+$\sqrt{2}x+\sqrt{2}y+3z=13$
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\quad
+$y=x^2,\quad N_0:(2,4,3)$\\
+جواب:\quad 
+$4x-y=4$
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\quad
+$x^2+y^2=8,\quad N_0:(2,2,3)$\\
+جواب:\quad 
+$x+y=4$
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\quad
+$z=x^2+y^2,\quad N_0:(2,3,13)$\\
+جواب:\quad 
+$4x+6y-z=13$
+\انتہا{سوال}
+%=====================
+
+\ابتدا{سوال}\quad
+$2x^2+y^2+3z^2=9,\quad N_0:(1,2,1)$\\
+جواب:\quad 
+$2x+2y-3z=3$
+\انتہا{سوال}
+%=====================

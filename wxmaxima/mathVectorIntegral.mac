@@ -751,3 +751,69 @@ print("Q 11.64");
 w:%e^x*cos(y);
 F:(diff(w,x))^2+(diff(w,y))^2;
 integrate(integrate(F,y,0,2),x,0,1);
+
+Print("======================================");
+kill(all);
+print("Q 11.93");
+
+rN:[3,2,6];
+r:[x,y,z];
+f:x*y-z;
+
+gradf:[diff(f,x),diff(f,y),diff(f,z)];
+gradfN:ev(gradf,x=rN[1],y=rN[2],z=rN[3]);
+(r-rN) . gradfN;
+expand(%);
+
+kill(all);
+print("Q 11.94");
+
+rN:[sqrt(2),sqrt(2),3];
+r:[x,y,z];
+f:x^2+y^2+z^2-25;
+
+gradf:[diff(f,x),diff(f,y),diff(f,z)];
+gradfN:ev(gradf,x=rN[1],y=rN[2],z=rN[3]);
+(r-rN) . gradfN;
+expand(%);
+
+kill(all);
+print("Q 11.95");
+
+rN:[2,4,3];
+r:[x,y,z];
+f:x^2-y;
+
+gradf:[diff(f,x),diff(f,y),diff(f,z)];
+gradfN:ev(gradf,x=rN[1],y=rN[2],z=rN[3]);
+(r-rN) . gradfN;
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 11.96");
+
+rN:[2,3,13];
+r:[x,y,z];
+f:x^2+y^2-z;
+
+gradf:[diff(f,x),diff(f,y),diff(f,z)];
+gradfN:ev(gradf,x=rN[1],y=rN[2],z=rN[3]);
+(r-rN) . gradfN;
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 11.97");
+
+rN:[1,2,1];
+r:[x,y,z];
+f:2*x^2+y^2-3*z^2-9;
+
+gradf:[diff(f,x),diff(f,y),diff(f,z)];
+gradfN:ev(gradf,x=rN[1],y=rN[2],z=rN[3]);
+(r-rN) . gradfN;
+expand(%);
+
+
+

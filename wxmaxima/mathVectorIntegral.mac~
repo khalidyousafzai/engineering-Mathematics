@@ -802,4 +802,174 @@ gradfN:ev(gradf,x=rN[1],y=rN[2],z=rN[3]);
 (r-rN) . gradfN;
 expand(%);
 
+Print("======================================");
+kill(all);
+print("Q 11.97");
+
+rN:[1,2,1];
+r:[x,y,z];
+f:2*x^2+y^2-3*z^2-9;
+
+gradf:[diff(f,x),diff(f,y),diff(f,z)];
+gradfN:ev(gradf,x=rN[1],y=rN[2],z=rN[3]);
+(r-rN) . gradfN;
+expand(%);
+
+
+Print("======================================");
+kill(all);
+print("Q 11.99");
+
+r:[u,v];
+ru:diff(r,u);
+rv:diff(r,v);
+
+E:ru . ru;
+F:ru . rv;
+G:rv . rv;
+
+E*du^2+2*F*du*dv+G*dv^2;
+
+Print("======================================");
+kill(all);
+print("Q 11.100");
+
+r:[u,v,u*v];
+
+ru:diff(r,u);
+rv:diff(r,v);
+
+E:ru . ru;
+F:ru . rv;
+G:rv . rv;
+
+E*du^2+2*F*du*dv+G*dv^2;
+
+Print("======================================");
+kill(all);
+print("Q 11.101");
+
+r:[a*cos(v)*cos(u),a*cos(v)*sin(u),a*sin(v)];
+
+ru:diff(r,u);
+rv:diff(r,v);
+
+E:ru . ru;
+F:ru . rv;
+G:rv . rv;
+
+E*du^2+2*F*du*dv+G*dv^2;
+trigsimp(%);
+
+Print("======================================");
+kill(all);
+print("Q 11.102");
+
+r:[(a+b*cos(v))*cos(u),(a+b*cos(v))*sin(u),b*sin(v)];
+
+ru:diff(r,u);
+rv:diff(r,v);
+
+E:ru . ru;
+F:ru . rv;
+G:rv . rv;
+
+E*du^2+2*F*du*dv+G*dv^2;
+trigsimp(%);
+
+Print("======================================");
+kill(all);
+print("Q 11.103");
+
+r:[u,v,v^2];
+
+ru:diff(r,u);
+rv:diff(r,v);
+
+E:ru . ru;
+F:ru . rv;
+G:rv . rv;
+
+E*du^2+2*F*du*dv+G*dv^2;
+trigsimp(%);
+
+Print("======================================");
+kill(all);
+print("Q 11.104");
+
+r:[a*cos(u),a*sin(u),v];
+
+ru:diff(r,u);
+rv:diff(r,v);
+
+E:ru . ru;
+F:ru . rv;
+G:rv . rv;
+
+E*du^2+2*F*du*dv+G*dv^2;
+trigsimp(%);
+
+Print("======================================");
+kill(all);
+print("Q 11.106");
+load("vect");
+
+r:[a*cos(u),a*sin(u),v];
+
+ru:diff(r,u);
+rv:diff(r,v);
+ ru ~ rv;
+kk:express(%);
+dudv:sqrt(kk . kk);
+A:integrate(integrate(dudv,u,0,2*%pi),v,0,b);
+
+Print("======================================");
+kill(all);
+print("Q 11.107");
+load("vect");
+
+r:[a*cos(v)*cos(u),a*cos(v)*sin(u),a*sin(v)];
+
+ru:diff(r,u);
+rv:diff(r,v);
+ ru ~ rv;
+kk:express(%);
+k:trigsimp(%);
+kk: k.k;
+trigsimp(%);
+dudv:sqrt(%);
+A:integrate(integrate(a^2*cos(v),u,0,2*%pi),v,-%pi/2,%pi/2);
+
+Print("======================================");
+kill(all);
+print("Q 11.108");
+
+r:[u,v,u^2+v^2];
+
+ru:diff(r,u);
+rv:diff(r,v);
+
+E:ru . ru;
+F:ru . rv;
+G:rv . rv;
+
+sqrt(E*G-F^2);
+simplify(%);
+
+Print("======================================");
+kill(all);
+print("Q 11.109");
+load("vect");
+
+r:[u,v,sqrt(u^2+v^2)];
+
+ru:diff(r,u);
+rv:diff(r,v);
+ ru ~ rv;
+kk:express(%);
+k:trigsimp(%);
+kk: k.k;
+trigsimp(%);
+dudv:sqrt(%);
+A:integrate(integrate(dudv,u,-sqrt(1-v^2),sqrt(1-v^2)),v,-1,1);
 

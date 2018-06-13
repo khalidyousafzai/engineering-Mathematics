@@ -11,105 +11,107 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 1}}نمونہ کشی}{\RL {\arabicfont 2}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 1}}\tmspace +\medmuskip {.2222em} \ensuremath {y'=f(x,y)} \tmspace +\medmuskip {.2222em} کا جیومیٹریائی مطلب۔ میدان کی سمت اور ترکیب یولر۔}{\RL {\arabicfont 14}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 1}}قابل علیحدگی سادہ تفرقی مساوات}{\RL {\arabicfont 23}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 1}}قطعی سادہ تفرقی مساوات اور جزو تکمل}{\RL {\arabicfont 40}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 1}}خطی سادہ تفرقی مساوات۔ مساوات برنولی}{\RL {\arabicfont 52}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 1}}عمودی خطوط کی نسلیں}{\RL {\arabicfont 70}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 1}}ابتدائی قیمت تفرقی مساوات:حل کی وجودیت اور یکتائیت}{\RL {\arabicfont 74}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 2}}درجہ دوم سادہ تفرقی مساوات}{\RL {\arabicfont 81}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 2}}متجانس خطی دو درجی تفرقی مساوات}{\RL {\arabicfont 81}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 2}}مستقل عددی سر والے متجانس خطی سادہ تفرقی مساوات}{\RL {\arabicfont 98}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 2}}تفرقی عامل}{\RL {\arabicfont 113}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 2}}اسپرنگ سے جڑی کمیت کی آزادانہ ارتعاش}{\RL {\arabicfont 118}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 2}}یولر کوشی مساوات}{\RL {\arabicfont 133}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 2}}حل کی وجودیت اور یکتائی؛ ورونسکی}{\RL {\arabicfont 142}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 2}}غیر متجانس سادہ تفرقی مساوات}{\RL {\arabicfont 151}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 2}}جبری ارتعاش۔ گمک}{\RL {\arabicfont 162}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 8}.\RL {\arabicfont 2}}برقرار حال حل کا حیطہ۔عملی گمک}{\RL {\arabicfont 169}}
-\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 2}}برقی ادوار کی نمونہ کشی}{\RL {\arabicfont 173}}
-\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 2}}مقدار معلوم بدلنے کے طریقے سے غیر متجانس خطی سادہ تفرقی مساوات کا حل}{\RL {\arabicfont 184}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 3}}بلند درجی خطی سادہ تفرقی مساوات}{\RL {\arabicfont 191}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}}متجانس خطی سادہ تفرقی مساوات}{\RL {\arabicfont 191}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 3}}مستقل عددی سر والے متجانس خطی سادہ تفرقی مساوات}{\RL {\arabicfont 202}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 3}}غیر متجانس خطی سادہ تفرقی مساوات}{\RL {\arabicfont 211}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 3}}مقدار معلوم بدلنے کے طریقے سے غیر متجانس خطی سادہ تفرقی مساوات کا حل}{\RL {\arabicfont 214}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 4}}نظامِ تفرقی مساوات}{\RL {\arabicfont 223}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 4}}قالب اور سمتیہ کے بنیادی حقائق}{\RL {\arabicfont 224}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 4}}سادہ تفرقی مساوات کے نظام بطور انجینئری مسائل کے نمونے}{\RL {\arabicfont 233}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 4}}نظریہ نظام سادہ تفرقی مساوات اور ورونسکی}{\RL {\arabicfont 247}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}.\RL {\arabicfont 4}}خطی نظام}{\RL {\arabicfont 248}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 4}}مستقل عددی سر والے نظام۔ سطح مرحلہ کی ترکیب}{\RL {\arabicfont 252}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 4}}نقطہ فاصل کے جانچ پڑتال کا مسلمہ معیار۔استحکام}{\RL {\arabicfont 269}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 4}}کیفی تراکیب برائے غیر خطی نظام}{\RL {\arabicfont 278}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 6}.\RL {\arabicfont 4}}سطح حرکت پر ایک درجی مساوات میں تبادلہ}{\RL {\arabicfont 287}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 4}}سادہ تفرقی مساوات کے غیر متجانس خطی نظام}{\RL {\arabicfont 295}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 7}.\RL {\arabicfont 4}}نا معلوم عددی سر کی ترکیب}{\RL {\arabicfont 296}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 5}}طاقتی تسلسل سے سادہ تفرقی مساوات کا حل۔اعلٰی تفاعل}{\RL {\arabicfont 305}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 5}}ترکیب طاقتی تسلسل}{\RL {\arabicfont 306}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 5}}لیژانڈر مساوات۔ لیژانڈر کثیر رکنی}{\RL {\arabicfont 321}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 5}}مبسوط طاقتی تسلسل۔ ترکیب فروبنیوس}{\RL {\arabicfont 339}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}.\RL {\arabicfont 5}}عملی استعمال}{\RL {\arabicfont 344}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 5}}مساوات بیسل اور بیسل تفاعل}{\RL {\arabicfont 358}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 5}}بیسل تفاعل کی دوسری قسم۔ عمومی حل}{\RL {\arabicfont 373}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 5}}قائمہ الزاویہ تفاعل کا سلسلہ}{\RL {\arabicfont 379}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 5}}مسئلہ سٹیورم لیوویل}{\RL {\arabicfont 385}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 5}}قائمیت لیژانڈر کثیر رکنی اور بیسل تفاعل}{\RL {\arabicfont 393}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 6}}لاپلاس تبادلہ}{\RL {\arabicfont 403}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 6}}لاپلاس بدل۔ الٹ لاپلاس بدل۔ خطیت}{\RL {\arabicfont 404}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 6}}تفرقات اور تکملات کے لاپلاس بدل۔ سادہ تفرقی مساوات}{\RL {\arabicfont 413}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 6}}\tmspace +\medmuskip {.2222em} \ensuremath {s} \tmspace +\medmuskip {.2222em} محور پر منتقلی، \tmspace +\medmuskip {.2222em} \ensuremath {t} \tmspace +\medmuskip {.2222em} محور پر منتقلی، اکائی سیڑھی تفاعل}{\RL {\arabicfont 425}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 6}}ڈیراک ڈیلٹائی تفاعل۔ اکائی ضرب تفاعل۔ جزوی کسری پھیلاو}{\RL {\arabicfont 446}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 6}}الجھاو}{\RL {\arabicfont 464}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 6}}لاپلاس بدل کی تکمل اور تفرق۔ متغیر عددی سر والے سادہ تفرقی مساوات}{\RL {\arabicfont 473}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 6}}تفرقی مساوات کے نظام}{\RL {\arabicfont 481}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 6}}لاپلاس بدل کے عمومی کلیے}{\RL {\arabicfont 489}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 7}}خطی الجبرا: سمتیات}{\RL {\arabicfont 493}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 7}}غیر سمتیات اور سمتیات}{\RL {\arabicfont 493}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 7}}سمتیہ کے اجزاء}{\RL {\arabicfont 495}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 7}}سمتیات کا مجموعہ، غیر سمتی کے ساتھ ضرب}{\RL {\arabicfont 501}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 7}}سمتی فضا۔خطی تابعیت اور غیر تابعیت}{\RL {\arabicfont 509}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 7}}اندرونی ضرب (ضرب نقطہ)}{\RL {\arabicfont 515}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 7}}اندرونی ضرب فضا}{\RL {\arabicfont 528}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 7}}سمتی ضرب}{\RL {\arabicfont 530}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 7}}اجزاء کی صورت میں سمتی ضرب}{\RL {\arabicfont 533}}
-\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 7}}غیر سمتی سہ ضرب اور دیگر متعدد ضرب}{\RL {\arabicfont 544}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 8}}خطی الجبرا: قالب، سمتیہ، مقطع۔ خطی نظام}{\RL {\arabicfont 553}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 8}}قالب اور سمتیات۔مجموعہ اور غیر سمتی ضرب}{\RL {\arabicfont 554}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 8}}قالبی ضرب}{\RL {\arabicfont 564}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 2}.\RL {\arabicfont 8}}تبدیلی محل}{\RL {\arabicfont 570}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 8}}خطی مساوات کے نظام۔ گاوسی اسقاط}{\RL {\arabicfont 583}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}.\RL {\arabicfont 8}}صف زینہ دار صورت}{\RL {\arabicfont 596}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 8}}خطی غیر تابعیت۔ درجہ قالب۔ سمتی فضا}{\RL {\arabicfont 604}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 8}}خطی نظام کے حل: وجودیت، یکتائی}{\RL {\arabicfont 618}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 8}}دو درجی اور تین درجی مقطع قالب}{\RL {\arabicfont 624}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 8}}مقطع۔ قاعدہ کریمر}{\RL {\arabicfont 627}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 8}}معکوس قالب۔ گاوس جارڈن اسقاط}{\RL {\arabicfont 643}}
-\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 8}}سمتی فضا، اندرونی ضرب، خطی تبادلہ}{\RL {\arabicfont 658}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 9}}خطی الجبرا: امتیازی قدر مسائل قالب}{\RL {\arabicfont 675}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 9}}امتیازی قدر مسائل قالب۔ امتیازی اقدار اور امتیازی سمتیات کا حصول}{\RL {\arabicfont 676}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 9}}امتیازی مسائل کے چند استعمال}{\RL {\arabicfont 686}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 9}}تشاکلی، منحرف تشاکلی اور قائمہ الزاویہ قالب}{\RL {\arabicfont 694}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 9}}امتیازی اساس، وتری بنانا، دو درجی صورت}{\RL {\arabicfont 701}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 9}}مخلوط قالب اور مخلوط صورتیں}{\RL {\arabicfont 715}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 10}}سمتی تفرقی علم الاحصاء۔ سمتی تفاعل}{\RL {\arabicfont 727}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 10}}غیر سمتی میدان اور سمتی میدان}{\RL {\arabicfont 727}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 10}}سمتی علم الاحصاء}{\RL {\arabicfont 730}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 10}}منحنی}{\RL {\arabicfont 736}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 10}}لمبائی قوس}{\RL {\arabicfont 742}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 10}}مماس، انحنا اور مروڑ}{\RL {\arabicfont 749}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 10}}سمتی رفتار اور اسراع}{\RL {\arabicfont 755}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 10}}زنجیری ترکیب اور متعدد متغیرات کے تفاعل کا اوسط قیمت مسئلہ}{\RL {\arabicfont 761}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 10}}سمتی تفرق، غیر سمتی میدان کی ڈھلوان}{\RL {\arabicfont 768}}
-\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 10}}تبادل محددی نظام اور تبادل ارکان سمتیات}{\RL {\arabicfont 780}}
-\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 10}}سمتی میدان کی پھیلاو}{\RL {\arabicfont 786}}
-\contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 10}}سمتی تفاعل کی گردش}{\RL {\arabicfont 793}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 11}}سمتی تکملی علم الاحصاء۔ تکمل کے مسئلے}{\RL {\arabicfont 799}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 11}}خطی تکمل}{\RL {\arabicfont 800}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 11}}خطی تکمل کا حل}{\RL {\arabicfont 805}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 11}}دوہرا تکمل}{\RL {\arabicfont 814}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 11}}دوہرا تکمل کا خطی تکمل میں تبادلہ}{\RL {\arabicfont 827}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 11}}سطحیں}{\RL {\arabicfont 837}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 11}}مماسی سطح۔بنیادی صورت اول۔ رقبہ}{\RL {\arabicfont 842}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 11}}سطحی تکمل}{\RL {\arabicfont 854}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 861}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 865}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 865}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 1}}قطعی سادہ تفرقی مساوات اور جزو تکمل}{\RL {\arabicfont 39}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 1}}خطی سادہ تفرقی مساوات۔ مساوات برنولی}{\RL {\arabicfont 51}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 1}}عمودی خطوط کی نسلیں}{\RL {\arabicfont 68}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 1}}ابتدائی قیمت تفرقی مساوات:حل کی وجودیت اور یکتائیت}{\RL {\arabicfont 72}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 2}}درجہ دوم سادہ تفرقی مساوات}{\RL {\arabicfont 79}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 2}}متجانس خطی دو درجی تفرقی مساوات}{\RL {\arabicfont 79}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 2}}مستقل عددی سر والے متجانس خطی سادہ تفرقی مساوات}{\RL {\arabicfont 95}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 2}}تفرقی عامل}{\RL {\arabicfont 110}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 2}}اسپرنگ سے جڑی کمیت کی آزادانہ ارتعاش}{\RL {\arabicfont 114}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 2}}یولر کوشی مساوات}{\RL {\arabicfont 130}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 2}}حل کی وجودیت اور یکتائی؛ ورونسکی}{\RL {\arabicfont 138}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 2}}غیر متجانس سادہ تفرقی مساوات}{\RL {\arabicfont 147}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 2}}جبری ارتعاش۔ گمک}{\RL {\arabicfont 159}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 8}.\RL {\arabicfont 2}}برقرار حال حل کا حیطہ۔عملی گمک}{\RL {\arabicfont 165}}
+\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 2}}برقی ادوار کی نمونہ کشی}{\RL {\arabicfont 169}}
+\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 2}}مقدار معلوم بدلنے کے طریقے سے غیر متجانس خطی سادہ تفرقی مساوات کا حل}{\RL {\arabicfont 180}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 3}}بلند درجی خطی سادہ تفرقی مساوات}{\RL {\arabicfont 187}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}}متجانس خطی سادہ تفرقی مساوات}{\RL {\arabicfont 187}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 3}}مستقل عددی سر والے متجانس خطی سادہ تفرقی مساوات}{\RL {\arabicfont 198}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 3}}غیر متجانس خطی سادہ تفرقی مساوات}{\RL {\arabicfont 207}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 3}}مقدار معلوم بدلنے کے طریقے سے غیر متجانس خطی سادہ تفرقی مساوات کا حل}{\RL {\arabicfont 210}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 4}}نظامِ تفرقی مساوات}{\RL {\arabicfont 219}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 4}}قالب اور سمتیہ کے بنیادی حقائق}{\RL {\arabicfont 220}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 4}}سادہ تفرقی مساوات کے نظام بطور انجینئری مسائل کے نمونے}{\RL {\arabicfont 229}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 4}}نظریہ نظام سادہ تفرقی مساوات اور ورونسکی}{\RL {\arabicfont 243}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}.\RL {\arabicfont 4}}خطی نظام}{\RL {\arabicfont 244}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 4}}مستقل عددی سر والے نظام۔ سطح مرحلہ کی ترکیب}{\RL {\arabicfont 248}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 4}}نقطہ فاصل کے جانچ پڑتال کا مسلمہ معیار۔استحکام}{\RL {\arabicfont 265}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 4}}کیفی تراکیب برائے غیر خطی نظام}{\RL {\arabicfont 273}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 6}.\RL {\arabicfont 4}}سطح حرکت پر ایک درجی مساوات میں تبادلہ}{\RL {\arabicfont 282}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 4}}سادہ تفرقی مساوات کے غیر متجانس خطی نظام}{\RL {\arabicfont 290}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 7}.\RL {\arabicfont 4}}نا معلوم عددی سر کی ترکیب}{\RL {\arabicfont 291}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 5}}طاقتی تسلسل سے سادہ تفرقی مساوات کا حل۔اعلٰی تفاعل}{\RL {\arabicfont 299}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 5}}ترکیب طاقتی تسلسل}{\RL {\arabicfont 300}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 5}}لیژانڈر مساوات۔ لیژانڈر کثیر رکنی}{\RL {\arabicfont 315}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 5}}مبسوط طاقتی تسلسل۔ ترکیب فروبنیوس}{\RL {\arabicfont 332}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}.\RL {\arabicfont 5}}عملی استعمال}{\RL {\arabicfont 337}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 5}}مساوات بیسل اور بیسل تفاعل}{\RL {\arabicfont 351}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 5}}بیسل تفاعل کی دوسری قسم۔ عمومی حل}{\RL {\arabicfont 366}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 5}}قائمہ الزاویہ تفاعل کا سلسلہ}{\RL {\arabicfont 372}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 5}}مسئلہ سٹیورم لیوویل}{\RL {\arabicfont 378}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 5}}قائمیت لیژانڈر کثیر رکنی اور بیسل تفاعل}{\RL {\arabicfont 385}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 6}}لاپلاس تبادلہ}{\RL {\arabicfont 395}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 6}}لاپلاس بدل۔ الٹ لاپلاس بدل۔ خطیت}{\RL {\arabicfont 396}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 6}}تفرقات اور تکملات کے لاپلاس بدل۔ سادہ تفرقی مساوات}{\RL {\arabicfont 405}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 6}}\tmspace +\medmuskip {.2222em} \ensuremath {s} \tmspace +\medmuskip {.2222em} محور پر منتقلی، \tmspace +\medmuskip {.2222em} \ensuremath {t} \tmspace +\medmuskip {.2222em} محور پر منتقلی، اکائی سیڑھی تفاعل}{\RL {\arabicfont 417}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 6}}ڈیراک ڈیلٹائی تفاعل۔ اکائی ضرب تفاعل۔ جزوی کسری پھیلاو}{\RL {\arabicfont 437}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 6}}الجھاو}{\RL {\arabicfont 454}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 6}}لاپلاس بدل کی تکمل اور تفرق۔ متغیر عددی سر والے سادہ تفرقی مساوات}{\RL {\arabicfont 463}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 6}}تفرقی مساوات کے نظام}{\RL {\arabicfont 471}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 6}}لاپلاس بدل کے عمومی کلیے}{\RL {\arabicfont 479}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 7}}خطی الجبرا: سمتیات}{\RL {\arabicfont 483}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 7}}غیر سمتیات اور سمتیات}{\RL {\arabicfont 483}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 7}}سمتیہ کے اجزاء}{\RL {\arabicfont 485}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 7}}سمتیات کا مجموعہ، غیر سمتی کے ساتھ ضرب}{\RL {\arabicfont 491}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 7}}سمتی فضا۔خطی تابعیت اور غیر تابعیت}{\RL {\arabicfont 499}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 7}}اندرونی ضرب (ضرب نقطہ)}{\RL {\arabicfont 505}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 7}}اندرونی ضرب فضا}{\RL {\arabicfont 518}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 7}}سمتی ضرب}{\RL {\arabicfont 520}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 7}}اجزاء کی صورت میں سمتی ضرب}{\RL {\arabicfont 522}}
+\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 7}}غیر سمتی سہ ضرب اور دیگر متعدد ضرب}{\RL {\arabicfont 533}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 8}}خطی الجبرا: قالب، سمتیہ، مقطع۔ خطی نظام}{\RL {\arabicfont 541}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 8}}قالب اور سمتیات۔مجموعہ اور غیر سمتی ضرب}{\RL {\arabicfont 542}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 8}}قالبی ضرب}{\RL {\arabicfont 552}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 2}.\RL {\arabicfont 8}}تبدیلی محل}{\RL {\arabicfont 558}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 8}}خطی مساوات کے نظام۔ گاوسی اسقاط}{\RL {\arabicfont 570}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}.\RL {\arabicfont 8}}صف زینہ دار صورت}{\RL {\arabicfont 582}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 8}}خطی غیر تابعیت۔ درجہ قالب۔ سمتی فضا}{\RL {\arabicfont 590}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 8}}خطی نظام کے حل: وجودیت، یکتائی}{\RL {\arabicfont 604}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 8}}دو درجی اور تین درجی مقطع قالب}{\RL {\arabicfont 610}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 8}}مقطع۔ قاعدہ کریمر}{\RL {\arabicfont 613}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 8}}معکوس قالب۔ گاوس جارڈن اسقاط}{\RL {\arabicfont 629}}
+\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 8}}سمتی فضا، اندرونی ضرب، خطی تبادلہ}{\RL {\arabicfont 644}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 9}}خطی الجبرا: امتیازی قدر مسائل قالب}{\RL {\arabicfont 661}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 9}}امتیازی قدر مسائل قالب۔ امتیازی اقدار اور امتیازی سمتیات کا حصول}{\RL {\arabicfont 662}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 9}}امتیازی مسائل کے چند استعمال}{\RL {\arabicfont 672}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 9}}تشاکلی، منحرف تشاکلی اور قائمہ الزاویہ قالب}{\RL {\arabicfont 680}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 9}}امتیازی اساس، وتری بنانا، دو درجی صورت}{\RL {\arabicfont 687}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 9}}مخلوط قالب اور مخلوط صورتیں}{\RL {\arabicfont 700}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 10}}سمتی تفرقی علم الاحصاء۔ سمتی تفاعل}{\RL {\arabicfont 711}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 10}}غیر سمتی میدان اور سمتی میدان}{\RL {\arabicfont 711}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 10}}سمتی علم الاحصاء}{\RL {\arabicfont 713}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 10}}منحنی}{\RL {\arabicfont 720}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 10}}لمبائی قوس}{\RL {\arabicfont 726}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 10}}مماس، انحنا اور مروڑ}{\RL {\arabicfont 733}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 10}}سمتی رفتار اور اسراع}{\RL {\arabicfont 738}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 10}}زنجیری ترکیب اور متعدد متغیرات کے تفاعل کا اوسط قیمت مسئلہ}{\RL {\arabicfont 745}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 10}}سمتی تفرق، غیر سمتی میدان کی ڈھلوان}{\RL {\arabicfont 751}}
+\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 10}}تبادل محددی نظام اور تبادل ارکان سمتیات}{\RL {\arabicfont 764}}
+\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 10}}سمتی میدان کی پھیلاو}{\RL {\arabicfont 769}}
+\contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 10}}سمتی تفاعل کی گردش}{\RL {\arabicfont 777}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 11}}سمتی تکملی علم الاحصاء۔ تکمل کے مسئلے}{\RL {\arabicfont 781}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 11}}خطی تکمل}{\RL {\arabicfont 782}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 11}}خطی تکمل کا حل}{\RL {\arabicfont 787}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 11}}دوہرا تکمل}{\RL {\arabicfont 796}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 11}}دوہرا تکمل کا خطی تکمل میں تبادلہ}{\RL {\arabicfont 809}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 11}}سطحیں}{\RL {\arabicfont 819}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 11}}مماسی سطح۔بنیادی صورت اول۔ رقبہ}{\RL {\arabicfont 824}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 11}}سطحی تکمل}{\RL {\arabicfont 836}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 11}}تہرا تکمل۔ گاوس کا مسئلہ پھیلاو}{\RL {\arabicfont 844}}
+\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 11}}مسئلہ پھیلاو کے نتائج اور استعمال}{\RL {\arabicfont 848}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 855}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 859}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 859}}

@@ -1,0 +1,42 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+\usepgfplotslibrary{polar}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+%\input{../../tex/myEMTvectors.tex}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+
+\pgfmathsetmacro{\n}{4}
+\pgfmathsetmacro{\lmda}{1}
+\pgfmathsetmacro{\d}{\lmda/2}
+\pgfmathsetmacro{\B}{2*pi/\lmda}
+\pgfmathsetmacro{\dlt}{0}
+
+
+\pgfplotsset{major y grid style={dashed}}
+
+\begin{document}
+\begin{urdufont}
+
+\begin{tikzpicture}
+%
+\draw  (0,0) to [out=-90,in=180](1,-0.75) to [out=0,in=-90](2,0) to [out=90,in=0](1,1) to [out=180,in=90](0.125,0.25) to [out=-90,in=180](1,-0.5) to [out=0,in=-90](1.75,0) to [out=90,in=0](1,0.75) to [out=180,in=70](0.135,0.125);
+\draw(0,0) to [out=90,in=-110]++(0.05,0.25) to [out=70,in=-110](0.195,0.55);
+\draw[-latex](0.125,0)--++(170:0.5);
+%
+\draw[dashed]  (0.125,0) to [out=-90,in=180](1,-0.625) to [out=0,in=-90](1.875,0) to [out=90,in=0](1,0.875) to [out=180,in=90](0.125,0);
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

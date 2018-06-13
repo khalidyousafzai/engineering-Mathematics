@@ -973,3 +973,241 @@ trigsimp(%);
 dudv:sqrt(%);
 A:2*integrate(integrate(dudv,u,-sqrt(1-v^2),sqrt(1-v^2)),v,-1,1);
 
+Print("======================================");
+kill(all);
+print("Q 11.110");
+load("vect");
+
+f(x,y,z):=2*x-1;
+r:[cos(u),sin(u),v];
+
+ru:diff(r,u);
+rv:diff(r,v);
+ ru ~ rv;
+kk:express(%);
+k:trigsimp(%);
+kk: k . k;
+trigsimp(%);
+dudv:f(r[1],r[2],r[3])*sqrt(%);
+A:integrate(integrate(dudv,u,0,2*%pi),v,0,4);
+
+Print("======================================");
+kill(all);
+print("Q 11.111");
+load("vect");
+
+f(x,y,z):=2*x;
+r:[u,v,u^2];
+
+ru:diff(r,u);
+rv:diff(r,v);
+ ru ~ rv;
+kk:express(%);
+k:trigsimp(%);
+kk: k . k;
+trigsimp(%);
+dudv:f(r[1],r[2],r[3])*sqrt(%);
+A:integrate(integrate(dudv,u,0,2),v,-2,2);
+
+Print("======================================");
+kill(all);
+print("Q 11.112");
+load("vect");
+
+f(x,y,z):=x*y;
+r:[u,v,u*v];
+
+ru:diff(r,u);
+rv:diff(r,v);
+ ru ~ rv;
+kk:express(%);
+k:trigsimp(%);
+kk: k . k;
+trigsimp(%);
+dudv:f(r[1],r[2],r[3])*sqrt(%);
+A:integrate(integrate(dudv,u,-1,1),v,-1,1);
+
+Print("======================================");
+kill(all);
+print("Q 11.113");
+load("vect");
+
+f(x,y,z):=3*x^3*cos(y);
+r:[u,v,u^3];
+
+ru:diff(r,u);
+rv:diff(r,v);
+ ru ~ rv;
+kk:express(%);
+k:trigsimp(%);
+kk: k . k;
+trigsimp(%);
+dudv:f(r[1],r[2],r[3])*sqrt(%);
+A:integrate(integrate(dudv,u,0,1),v,0,%pi/2);
+
+Print("======================================");
+kill(all);
+print("Q 11.114");
+load("vect");
+
+f(x,y,z):=x*y;
+r:[3*cos(u),3*sin(u),v];
+
+ru:diff(r,u);
+rv:diff(r,v);
+ ru ~ rv;
+kk:express(%);
+k:trigsimp(%);
+kk: k . k;
+trigsimp(%);
+dudv:f(r[1],r[2],r[3])*sqrt(%);
+A:integrate(integrate(dudv,u,0,2*%pi),v,-1,2);
+
+Print("======================================");
+kill(all);
+print("Q 11.115");
+load("vect");
+
+f(x,y,z):=2*x-y+z;
+r:[cos(u),sin(u),v];
+
+ru:diff(r,u);
+rv:diff(r,v);
+ ru ~ rv;
+kk:express(%);
+k:trigsimp(%);
+kk: k . k;
+trigsimp(%);
+dudv:f(r[1],r[2],r[3])*sqrt(%);
+A:integrate(integrate(dudv,u,0,2*%pi),v,0,1);
+
+Print("======================================");
+kill(all);
+print("Q 11.116");
+load("vect");
+
+f(x,y,z):=x-2*y;
+r:[u,v,1-u-v];
+
+ru:diff(r,u);
+rv:diff(r,v);
+ ru ~ rv;
+kk:express(%);
+k:trigsimp(%);
+kk: k . k;
+trigsimp(%);
+dudv:f(r[1],r[2],r[3])*sqrt(%);
+A:integrate(integrate(dudv,u,0,1-v),v,0,1);
+
+
+
+Print("======================================");
+kill(all);
+print("Q 11.117");
+load("vect");
+
+f(x,y,z):=2*x+3*y;
+r:[u,v,v^2];
+
+ru:diff(r,u);
+rv:diff(r,v);
+ ru ~ rv;
+kk:express(%);
+k:trigsimp(%);
+kk: k . k;
+trigsimp(%);
+dudv:f(r[1],r[2],r[3])*sqrt(%);
+A:integrate(integrate(dudv,u,0,1),v,0,1);
+
+Print("======================================");
+kill(all);
+print("Q 11.120");
+load("vect");
+
+f(x,y,z):=1;
+r:[cos(u),sin(u),v];
+
+ru:diff(r,u);
+rv:diff(r,v);
+ ru ~ rv;
+kk:express(%);
+k:trigsimp(%);
+kk: k . k;
+trigsimp(%);
+dudv:f(r[1],r[2],r[3])*sqrt(%);
+Iz:integrate(integrate((r[1]*r[1]+r[2]*r[2])*dudv,u,0,2*%pi),v,0,h);
+
+
+Print("======================================");
+kill(all);
+print("Q 11.121");
+load("vect");
+
+f(x,y,z):=1;
+r:[u,v,sqrt(u^2+v^2)];
+
+ru:diff(r,u);
+rv:diff(r,v);
+ ru ~ rv;
+kk:express(%);
+k:trigsimp(%);
+kk: k . k;
+trigsimp(%);
+dudv:f(r[1],r[2],r[3])*sqrt(%);
+Iz:integrate(integrate((r[1]*r[1]+r[2]*r[2])*dudv,u,-sqrt(1-v^2),sqrt(1-v^2)),v,-h,h);
+
+
+Print("======================================");
+kill(all);
+print("Q 11.122");
+load("vect");
+
+f(x,y,z):=1;
+r:[(a+b*cos(v))*cos(u),(a+b*cos(v))*sin(u),b*sin(v)];
+
+ru:diff(r,u);
+rv:diff(r,v);
+ ru ~ rv;
+kk:express(%);
+k:trigsimp(%);
+kk: k . k;
+trigsimp(%);
+dudv:f(r[1],r[2],r[3])*sqrt(%);
+Iz:integrate(integrate((r[1]*r[1]+r[2]*r[2])*dudv,u,0,2*%pi),v,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 11.123");
+load("vect");
+
+f(x,y,z):=1;
+r:[(a+b*cos(v))*cos(u),(a+b*cos(v))*sin(u),b*sin(v)];
+
+ru:diff(r,u);
+rv:diff(r,v);
+ ru ~ rv;
+kk:express(%);
+k:trigsimp(%);
+kk: k . k;
+trigsimp(%);
+dudv:f(r[1],r[2],r[3])*sqrt(%);
+ILine:integrate(integrate(((r[1]-a)^2+(r[2])^2)*dudv,u,0,2*%pi),v,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 11.124");
+load("vect");
+
+f(x,y,z):=1;
+r:[(a+b*cos(v))*cos(u),(a+b*cos(v))*sin(u),b*sin(v)];
+
+ru:diff(r,u);
+rv:diff(r,v);
+ ru ~ rv;
+kk:express(%);
+k:trigsimp(%);
+kk: k . k;
+trigsimp(%);
+dudv:f(r[1],r[2],r[3])*sqrt(%);
+ILine:integrate(integrate(((r[1]-a+b)^2+(r[2])^2)*dudv,u,0,2*%pi),v,0,2*%pi);
+

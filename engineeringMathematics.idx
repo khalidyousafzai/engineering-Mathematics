@@ -1,75 +1,16 @@
-\indexentry{smooth!curve}{\RL {\arabicfont  800}}
-\indexentry{منحنی!ہموار}{\RL {\arabicfont  800}}
-\indexentry{ہموار!منحنی}{\RL {\arabicfont  800}}
-\indexentry{integral!line}{\RL {\arabicfont  801}}
-\indexentry{تکمل!خطی}{\RL {\arabicfont  801}}
-\indexentry{خطی!تکمل}{\RL {\arabicfont  801}}
-\indexentry{integrand}{\RL {\arabicfont  801}}
-\indexentry{متکمل}{\RL {\arabicfont  801}}
-\indexentry{راہ!تکمل}{\RL {\arabicfont  801}}
-\indexentry{تکمل!راہ}{\RL {\arabicfont  801}}
-\indexentry{smooth!piecewise}{\RL {\arabicfont  804}}
-\indexentry{piecewise smooth}{\RL {\arabicfont  804}}
-\indexentry{ہموار!ٹکڑوں میں}{\RL {\arabicfont  804}}
-\indexentry{work}{\RL {\arabicfont  810}}
-\indexentry{کام}{\RL {\arabicfont  810}}
-\indexentry{integral!double}{\RL {\arabicfont  815}}
-\indexentry{تکمل!دوہرا}{\RL {\arabicfont  815}}
-\indexentry{دوہرا!تکمل}{\RL {\arabicfont  815}}
-\indexentry{theorem!mean value}{\RL {\arabicfont  816}}
-\indexentry{اوسط قیمت مسئلہ}{\RL {\arabicfont  816}}
-\indexentry{مسئلہ!اوسط قیمت}{\RL {\arabicfont  816}}
-\indexentry{area}{\RL {\arabicfont  817}}
-\indexentry{رقبہ}{\RL {\arabicfont  817}}
-\indexentry{center of gravity}{\RL {\arabicfont  818}}
-\indexentry{مرکز ثقل}{\RL {\arabicfont  818}}
-\indexentry{moment of inertia}{\RL {\arabicfont  818}}
-\indexentry{جمودی معیار اثر}{\RL {\arabicfont  818}}
-\indexentry{moment of inertia!polar}{\RL {\arabicfont  819}}
-\indexentry{قطبی جمودی معیار اثر}{\RL {\arabicfont  819}}
-\indexentry{Jacobian}{\RL {\arabicfont  821}}
-\indexentry{یعقوبی}{\RL {\arabicfont  821}}
-\indexentry{polar coordinates}{\RL {\arabicfont  821}}
-\indexentry{محدد!قطبی}{\RL {\arabicfont  821}}
-\indexentry{قطبی محدد}{\RL {\arabicfont  821}}
-\indexentry{theorem!Green}{\RL {\arabicfont  827}}
-\indexentry{مسئلہ!گرین}{\RL {\arabicfont  827}}
-\indexentry{planimeter}{\RL {\arabicfont  830}}
-\indexentry{پیما!سطح}{\RL {\arabicfont  830}}
-\indexentry{سطح!پیما}{\RL {\arabicfont  830}}
-\indexentry{surface!explicit form}{\RL {\arabicfont  837}}
-\indexentry{سطح!صریح روپ}{\RL {\arabicfont  837}}
-\indexentry{surface!implicit form}{\RL {\arabicfont  837}}
-\indexentry{سطح!خفی روپ}{\RL {\arabicfont  837}}
-\indexentry{surface!parametric}{\RL {\arabicfont  838}}
-\indexentry{سطح!مقدار معلوم روپ}{\RL {\arabicfont  838}}
-\indexentry{محدود}{\RL {\arabicfont  839}}
-\indexentry{simply connected}{\RL {\arabicfont  839}}
-\indexentry{سادہ تعلق}{\RL {\arabicfont  839}}
-\indexentry{smooth!piecewise, surface}{\RL {\arabicfont  839}}
-\indexentry{ہموار!سطح۔ٹکڑوں میں}{\RL {\arabicfont  839}}
-\indexentry{longitude}{\RL {\arabicfont  839}}
-\indexentry{خط طول بلد}{\RL {\arabicfont  839}}
-\indexentry{latitude}{\RL {\arabicfont  839}}
-\indexentry{خط عرض بلد}{\RL {\arabicfont  839}}
-\indexentry{coordinate curves}{\RL {\arabicfont  840}}
-\indexentry{محددی منحنی}{\RL {\arabicfont  840}}
-\indexentry{tangent plane}{\RL {\arabicfont  843}}
-\indexentry{مماسی سطح}{\RL {\arabicfont  843}}
-\indexentry{normal}{\RL {\arabicfont  843}}
-\indexentry{عمود}{\RL {\arabicfont  843}}
-\indexentry{normal vector!unit}{\RL {\arabicfont  843}}
-\indexentry{عمودی سمتیہ!اکائی}{\RL {\arabicfont  843}}
-\indexentry{fundamental form!first}{\RL {\arabicfont  844}}
-\indexentry{بنیادی صورت!اول}{\RL {\arabicfont  844}}
-\indexentry{area!element of}{\RL {\arabicfont  846}}
-\indexentry{رقبہ!رکن}{\RL {\arabicfont  846}}
-\indexentry{torus}{\RL {\arabicfont  847}}
-\indexentry{اندرسہ}{\RL {\arabicfont  847}}
-\indexentry{surface integral}{\RL {\arabicfont  854}}
-\indexentry{تکمل!سطحی}{\RL {\arabicfont  854}}
-\indexentry{سطحی!تکمل}{\RL {\arabicfont  854}}
-\indexentry{orientable}{\RL {\arabicfont  856}}
-\indexentry{سمت بند!قابل}{\RL {\arabicfont  856}}
-\indexentry{Mobius strip}{\RL {\arabicfont  856}}
-\indexentry{موبیوس پٹی}{\RL {\arabicfont  856}}
+\indexentry{integral!triple}{\RL {\arabicfont  844}}
+\indexentry{تکمل!تہرا}{\RL {\arabicfont  844}}
+\indexentry{تہرا!تکمل}{\RL {\arabicfont  844}}
+\indexentry{مسئلہ!اوسط قیمت}{\RL {\arabicfont  849}}
+\indexentry{منبع}{\RL {\arabicfont  850}}
+\indexentry{source}{\RL {\arabicfont  850}}
+\indexentry{source intensity}{\RL {\arabicfont  850}}
+\indexentry{شدت منبع}{\RL {\arabicfont  850}}
+\indexentry{پھیلاو}{\RL {\arabicfont  850}}
+\indexentry{حراری موصلیت}{\RL {\arabicfont  851}}
+\indexentry{موصلیت!حراری}{\RL {\arabicfont  851}}
+\indexentry{thermal conductivity}{\RL {\arabicfont  851}}
+\indexentry{heat!specific capacity}{\RL {\arabicfont  851}}
+\indexentry{حراری!خصوصی استعداد}{\RL {\arabicfont  851}}
+\indexentry{heat!equation}{\RL {\arabicfont  852}}
+\indexentry{حراری!مساوات}{\RL {\arabicfont  852}}

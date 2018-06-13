@@ -52,7 +52,7 @@
 
 %\includeonly{./tex/mathPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathSecondOrderDifferentialEquations,./tex/mathHigherOrderDifferentialEquations,./tex/mathSystemOfDifferentialEquations,./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations,./tex/mathLaplaceTransformation,./tex/mathVectors,./tex/mathLinearAlgebra,./tex/mathEigenvalueMatrixProblems,./tex/mathVectorDifferentialCalculus,./tex/mathVectorِIntegralCalculus,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathSystemOfDifferentialEquations,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial,./tex/mathQuestions}%
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathVectorIntegralCalculus,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}%
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathSecondPart,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}%
 
 
 \author{
@@ -115,6 +115,7 @@
 \include{./tex/mathEigenvalueMatrixProblems}
 \include{./tex/mathVectorDifferentialCalculus}
 \include{./tex/mathVectorIntegralCalculus}
+\include{./tex/mathSecondPart}
 
 %=========================================================
 %\addcontentsline{toc}{chapter}{حوالہ}     %it is standard not to include References in toc. 

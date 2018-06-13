@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  10 JUN 2018 16:56
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  13 JUN 2018 15:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1773,7 +1773,8 @@ LaTeX Font Warning: Font shape `EU1/ppl/m/n' undefined
 (./tex/mathLaplaceTransformation.aux) (./tex/mathVectors.aux)
 (./tex/mathLinearAlgebra.aux) (./tex/mathEigenvalueMatrixProblems.aux)
 (./tex/mathVectorDifferentialCalculus.aux)
-(./tex/mathVectorIntegralCalculus.aux) (./tex/mathAppendixAdditionalProofs.aux)
+(./tex/mathVectorIntegralCalculus.aux) (./tex/mathSecondPart.aux)
+(./tex/mathAppendixAdditionalProofs.aux)
 (./tex/mathAppendixAuxiliaryMaterial.aux))
 \openout1 = `engineeringMathematics.aux'.
 
@@ -3130,31 +3131,13 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 
 
 ]) [10]
-\openout2 = `./tex/mathVectorIntegralCalculus.aux'.
+\openout2 = `./tex/mathSecondPart.aux'.
 
- (./tex/mathVectorIntegralCalculus.tex [798
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-]
-باب \RL {\arabicfont 11}.
+ (./tex/mathSecondPart.tex
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 1.
+(Font)              scaled to size 14.4pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 20.74pt on input line 1.
-LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 2.
+(Font)              scaled to size 14.4pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 7.6pt on input line 2.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
@@ -3169,225 +3152,50 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 2.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 2.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 7.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 14.4pt on input line 7.
-[799]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 29.
-
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[800] [801]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[802] [803]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 160.
+LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 6.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 166.
+(Font)              scaled to size 9.5pt on input line 9.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 166.
-
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[804] [805]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
+(Font)              scaled to size 7.5pt on input line 9.
+ [844
 
 
-[806] [807]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
 
 
-[808] [809]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
 
 
-[810] [811]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
 
 
-[812] [813]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
 
 
-[814] [815]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
 
 
-[816] [817]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
 
 
-[818]
-Overfull \hbox (5.16536pt too wide) in paragraph at lines 787--787
-[][] []
- []
-
-[819]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[820] [821]
-Overfull \hbox (9.40567pt too wide) in paragraph at lines 883--883
-[][] []
- []
-
-
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[822]
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no , in font nullfont!
- [823]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[824] [825]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[826] [827]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[828] [829]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[830] [831]
-Underfull \hbox (badness 10000) in paragraph at lines 1428--1429
+] [845] [846] [847] [848] [849]
+[850] [851] [852]
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 [][]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1434--1437
-[][]
- []
-
-
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[832]
-Underfull \hbox (badness 10000) in paragraph at lines 1442--1445
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1450--1453
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1458--1461
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1466--1469
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1474--1477
-[][]
- []
-
-[833]
-Overfull \hbox (4.2882pt too wide) in paragraph at lines 1491--1497
-[] \EU1/JameelNooriNastaleeq(1)/m/n/10 سوال  []\EU1/JameelNooriNastaleeq(0)/bx/
-n/10 50[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
-/n/10 11[]\EU1/JameelNooriNastaleeq(1)/m/n/10 : تکونی خطے کے کونے دیے گئے ہیں۔ 
-$\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x[] \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 2
-\OML/zplm/m/it/10 y\OT1/zplm/m/n/10 ) [] \OML/zplm/m/it/10 x \OT1/zplm/m/n/10 +
- \OT1/ppl/m/n/10 2\OML/zplm/m/it/10 x[] [] y\OT1/ppl/m/n/10 ,  \OT1/zplm/m/n/10
- (\OT1/ppl/m/n/10 0, 0\OT1/zplm/m/n/10 )\OT1/ppl/m/n/10 ,  \OT1/zplm/m/n/10 (\O
-T1/ppl/m/n/10 1, 0\OT1/zplm/m/n/10 )\OT1/ppl/m/n/10 ,  \OT1/zplm/m/n/10 (\OT1/p
-pl/m/n/10 0, 1\OT1/zplm/m/n/10 )$ []
- []
-
-
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[834] [835]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[836] [837]
-Underfull \hbox (badness 10000) in paragraph at lines 1713--1713
-[][][]\EU1/JameelNooriNastaleeq(0)/m/n/8 سادہ تعلق کے خطے سے مراد ہے کہ اس خطے 
-میں کسی بھی بند منحنی کو، اس خطے میں رہتے ہوئے، گھٹا کر نقطہ مانند بنایا جا سکت
-ا ہے۔محدود سے مراد ہے کہ اس خطے کو معقول رداس کے دائرے[]
- []
-
-
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[838] [839]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[840] [841]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[842] [843]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[844] [845]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[846] [847]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[848] [849]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[850] [851]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[852] [853]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[854] [855]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[856] [857]
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[858]) [859]
+) [853]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
- (./tex/mathAppendixAdditionalProofs.tex
-Overfull \vbox (0.90526pt too high) has occurred while \output is active []
-
-
-[860
+ (./tex/mathAppendixAdditionalProofs.tex [854
 
 
 
 ]
 ضمیمہ ا.
-[861] [862]) [863]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 20.74pt on input line 1.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
+(Font)              scaled to size 20.74pt on input line 1.
+[855] [856]) [857]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [864
+ (./tex/mathAppendixAuxiliaryMaterial.tex [858
 
 
 
@@ -3395,22 +3203,24 @@ Overfull \vbox (0.90526pt too high) has occurred while \output is active []
 ضمیمہ ب.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 5.70004pt on input line 8.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 27.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[865] [866] [867] [868] [869]
+[859] [860] [861] [862] [863]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [870] [871]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [864] [865]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [872]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [866]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [873]
-[874
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [867]
+[868
 
 
 ] (./engineeringMathematics.aux (./tex/mathPreface.aux)
@@ -3422,7 +3232,8 @@ File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
 (./tex/mathLaplaceTransformation.aux) (./tex/mathVectors.aux)
 (./tex/mathLinearAlgebra.aux) (./tex/mathEigenvalueMatrixProblems.aux)
 (./tex/mathVectorDifferentialCalculus.aux)
-(./tex/mathVectorIntegralCalculus.aux) (./tex/mathAppendixAdditionalProofs.aux)
+(./tex/mathVectorIntegralCalculus.aux) (./tex/mathSecondPart.aux)
+(./tex/mathAppendixAdditionalProofs.aux)
 (./tex/mathAppendixAuxiliaryMaterial.aux))
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3433,12 +3244,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 51680 strings out of 493918
- 1223664 string characters out of 6150563
- 2260024 words of memory out of 5000000
- 53969 multiletter control sequences out of 15000+600000
+ 48443 strings out of 493918
+ 1150621 string characters out of 6150563
+ 1353281 words of memory out of 5000000
+ 50727 multiletter control sequences out of 15000+600000
  42343 words of font info for 169 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 67i,19n,388p,10485b,5748s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,15n,81p,10485b,2238s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (85 pages).
+Output written on engineeringMathematics.pdf (33 pages).

@@ -111,7 +111,8 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 11}}مماسی سطح۔بنیادی صورت اول۔ رقبہ}{\RL {\arabicfont 824}}
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 11}}سطحی تکمل}{\RL {\arabicfont 836}}
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 11}}تہرا تکمل۔ گاوس کا مسئلہ پھیلاو}{\RL {\arabicfont 844}}
-\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 11}}مسئلہ پھیلاو کے نتائج اور استعمال}{\RL {\arabicfont 848}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 855}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 859}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 859}}
+\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 11}}مسئلہ پھیلاو کے نتائج اور استعمال}{\RL {\arabicfont 849}}
+\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 11}}مسئلہ سٹوکس}{\RL {\arabicfont 860}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 861}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 865}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 865}}

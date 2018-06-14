@@ -1211,3 +1211,230 @@ trigsimp(%);
 dudv:f(r[1],r[2],r[3])*sqrt(%);
 ILine:integrate(integrate(((r[1]-a+b)^2+(r[2])^2)*dudv,u,0,2*%pi),v,0,2*%pi);
 
+Print("======================================");
+kill(all);
+print("Q 11.128");
+load("vect");
+
+A:[0,0,0];
+B:[3,0,0];
+C:[0,2,0];
+D:[0,0,1];
+
+r1:C-B;
+r2:D-B;
+
+r1 ~ r2;
+rr:express(%);
+rrr:rr/sqrt(rr . rr);
+r:[x,y,z];
+rB:r-B;
+eq:rB . rrr=0;
+zz:solve(eq,z);
+zH:map(rhs,zz)[1];
+yy:solve(eq,y);
+yyy:ev(yy,z=0);
+yH:map(rhs,yyy)[1];
+
+integrate(integrate(integrate(1,z,0,zH),y,0,yH),x,0,3);
+
+Print("======================================");
+kill(all);
+print("Q 11.129");
+load("vect");
+
+integrate(integrate(integrate(1,z,0,3-2*x),y,x^2,x),x,0,1);
+
+Print("======================================");
+kill(all);
+print("Q 11.130");
+load("vect");
+
+integrate(integrate(integrate(1,z,0,1-x^2-y^2),y,-sqrt(1-x^2),sqrt(1-x^2)),x,-1,1);
+
+Print("======================================");
+kill(all);
+print("Q 11.131");
+load("vect");
+
+integrate(integrate(integrate(1,z,-sqrt(1-x^2),sqrt(1-x^2)),y,-sqrt(1-x^2),sqrt(1-x^2)),x,-1,1);
+
+Print("======================================");
+kill(all);
+print("Q 11.132");
+load("vect");
+
+f:x*y;
+integrate(integrate(integrate(f,z,0,1),y,0,1),x,0,1);
+
+Print("======================================");
+kill(all);
+print("Q 11.133");
+load("vect");
+
+A:[0,0,0];
+B:[3,0,0];
+C:[0,2,0];
+D:[0,0,1];
+
+r1:C-B;
+r2:D-B;
+
+r1 ~ r2;
+rr:express(%);
+rrr:rr/sqrt(rr . rr);
+r:[x,y,z];
+rB:r-B;
+eq:rB . rrr=0;
+zz:solve(eq,z);
+zH:map(rhs,zz)[1];
+yy:solve(eq,y);
+yyy:ev(yy,z=0);
+yH:map(rhs,yyy)[1];
+
+f:x+y+z;
+integrate(integrate(integrate(f,z,0,zH),y,0,yH),x,0,3);
+
+
+Print("======================================");
+kill(all);
+print("Q 11.134");
+load("vect");
+
+A:[0,0,0];
+B:[3,0,0];
+C:[0,2,0];
+D:[0,0,1];
+
+r1:C-B;
+r2:D-B;
+
+r1 ~ r2;
+rr:express(%);
+rrr:rr/sqrt(rr . rr);
+r:[x,y,z];
+rB:r-B;
+eq:rB . rrr=0;
+zz:solve(eq,z);
+zH:map(rhs,zz)[1];
+yy:solve(eq,y);
+yyy:ev(yy,z=0);
+yH:map(rhs,yyy)[1];
+
+f:x*y;
+integrate(integrate(integrate(f,z,0,zH),y,0,yH),x,0,3);
+
+
+
+Print("======================================");
+kill(all);
+print("Q 11.135");
+load("vect");
+
+f:x*y;
+integrate(integrate(integrate(f,z,0,x),y,0,1-x^2),x,0,1);
+
+Print("======================================");
+kill(all);
+print("Q 11.136");
+load("vect");
+
+f:1;
+integrate(integrate(integrate(f*(x^2+y^2),z,0,c),y,0,c),x,0,c);
+
+Print("======================================");
+kill(all);
+print("Q 11.137");
+load("vect");
+
+f:1;
+integrate(integrate(integrate(f*(x^2+y^2),z,0,h),y,-sqrt(c^2-x^2),sqrt(c^2-x^2)),x,-c,c);
+
+Print("======================================");
+kill(all);
+print("Q 11.138");
+load("vect");
+
+f:1;
+integrate(integrate(integrate(f*(x^2+y^2),x,-sqrt(z^2-y^2),sqrt(z^2-y^2)),y,-z,z),z,0,h);
+
+Print("======================================");
+kill(all);
+print("Q 11.139");
+load("vect");
+
+f:1;
+integrate(integrate(integrate(f*(x^2+y^2),x,-sqrt(c^2-z^2-y^2),sqrt(c^2-z^2-y^2)),y,-sqrt(c^2-z^2),sqrt(c^2-z^2)),z,0,c);
+
+Print("======================================");
+kill(all);
+print("Q 11.146");
+load("vect");
+
+u1:x+z;
+u2:y+z;
+u3:x+y;
+
+kdivu:diff(u1,x)+diff(u2,y)+diff(u3,z);
+integrate(integrate(integrate(kdivu,z,-sqrt(a^2-x^2-y^2),sqrt(a^2-x^2-y^2)),y,-sqrt(a^2-x^2),sqrt(a^2-x^2)),x,-a,a);
+
+Print("======================================");
+kill(all);
+print("Q 11.147");
+load("vect");
+
+u1:x;
+u2:y;
+u3:z;
+
+kdivu:diff(u1,x)+diff(u2,y)+diff(u3,z);
+integrate(integrate(integrate(kdivu,z,0,1),y,0,1),x,0,1);
+
+
+Print("======================================");
+kill(all);
+print("Q 11.148");
+load("vect");
+
+u1:x^2;
+u2:y^2;
+u3:z^2;
+
+kdivu:diff(u1,x)+diff(u2,y)+diff(u3,z);
+integrate(integrate(integrate(kdivu,z,0,h),y,-sqrt(c^2-x^2),sqrt(c^2-x^2)),x,-c,c);
+
+Print("======================================");
+kill(all);
+print("Q 11.149");
+load("vect");
+
+u1:x*(y+z);
+u2:0;
+u3:0;
+
+kdivu:diff(u1,x)+diff(u2,y)+diff(u3,z);
+integrate(integrate(integrate(kdivu,z,0,4),y,0,2),x,0,3);
+
+Print("======================================");
+kill(all);
+print("Q 11.151");
+load("vect");
+
+u1:x*cos(y);
+u2:y-sin(y);
+u3:0;
+
+kdivu:diff(u1,x)+diff(u2,y)+diff(u3,z);
+integrate(integrate(integrate(kdivu,z,0,4),y,0,2),x,0,3);
+
+Print("======================================");
+kill(all);
+print("Q 11.152");
+load("vect");
+
+u1:0;
+u2:y*cos(x)*cos(x)+y^3;
+u3:z*(sin(x)*sin(x)-3*y^2);
+
+kdivu:trigsimp(diff(u1,x)+diff(u2,y)+diff(u3,z));
+integrate(integrate(integrate(kdivu,z,-sqrt(a^2-x^2-y^2),sqrt(a^2-x^2-y^2)),y,-sqrt(a^2-x^2),sqrt(a^2-x^2)),x,-a,a);

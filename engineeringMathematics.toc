@@ -114,6 +114,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 11}}مسئلہ پھیلاو کے نتائج اور استعمال}{\RL {\arabicfont 849}}
 \contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 11}}مسئلہ سٹوکس}{\RL {\arabicfont 860}}
 \contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 11}}مسئلہ سٹوکس کے نتائج اور عملی استعمال}{\RL {\arabicfont 865}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 869}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 873}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 873}}
+\contentsline {section}{\numberline {\RL {\arabicfont 12}.\RL {\arabicfont 11}}راہ سے آزاد خطی تکمل}{\RL {\arabicfont 868}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 881}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 885}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 885}}

@@ -157,7 +157,7 @@
 
 \newenvironment*{ثبوت}				
 {\noindent\ignorespaces  ثبوت :}%
-{\par\hfill\qedsymbol  \vspace{\baselineskip} }
+{\hfill\qedsymbol  \vspace{\baselineskip}\par }
 %{\par\noindent\qedsymbol  \vspace{\baselineskip} }
 %--------------------
 %--------------------
@@ -179,6 +179,6 @@
 %\renewcommand{\theAsrcounter}{\arabic{kAscounter}.\thechapter}
 
 \newenvironment*{مفروضہ}				
-{\par\noindent\ignorespaces  مفروضہ}%
+{\par\noindent\ignorespaces  مفروضہ \\}%
 {\par\noindent }
 %--------------------

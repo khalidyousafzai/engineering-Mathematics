@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  18 JUN 2018 13:14
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  19 JUN 2018 15:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1773,7 +1773,7 @@ LaTeX Font Warning: Font shape `EU1/ppl/m/n' undefined
 (./tex/mathLaplaceTransformation.aux) (./tex/mathVectors.aux)
 (./tex/mathLinearAlgebra.aux) (./tex/mathEigenvalueMatrixProblems.aux)
 (./tex/mathVectorDifferentialCalculus.aux)
-(./tex/mathVectorIntegralCalculus.aux) (./tex/mathSecondPart.aux)
+(./tex/mathVectorIntegralCalculus.aux) (./tex/mathFourierSeries.aux)
 (./tex/mathAppendixAdditionalProofs.aux)
 (./tex/mathAppendixAuxiliaryMaterial.aux))
 \openout1 = `engineeringMathematics.aux'.
@@ -3131,13 +3131,14 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 
 
 ]) [10]
-\openout2 = `./tex/mathSecondPart.aux'.
+\openout2 = `./tex/mathFourierSeries.aux'.
 
- (./tex/mathSecondPart.tex
+ (./tex/mathFourierSeries.tex
+باب \RL {\arabicfont 12}.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 1.
+(Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 14.4pt on input line 1.
+(Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 7.6pt on input line 2.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
@@ -3152,13 +3153,17 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 2.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 2.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 10.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
+(Font)              scaled to size 14.4pt on input line 10.
 LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 6.
+(Font)              scaled to size 10.0pt on input line 11.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 9.
+(Font)              scaled to size 9.5pt on input line 14.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 9.
- [844
+(Font)              scaled to size 7.5pt on input line 14.
+[883
 
 
 
@@ -3173,34 +3178,42 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 
 
 
-] [845] [846] [847] [848] [849]
-[850] [851] [852] [853] [854] [855] [856]
-Overfull \hbox (7.63383pt too wide) in paragraph at lines 416--416
-[][] []
+
+]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 15.
+
+Underfull \hbox (badness 2111) in paragraph at lines 15--15
+[][][]\EU1/JameelNooriNastaleeq(0)/m/n/8 تفاعل  $\OML/zplm/m/it/8 f\OT1/zplm/m/
+n/8 (\OML/zplm/m/it/8 x\OT1/zplm/m/n/8 )$  \EU1/JameelNooriNastaleeq(0)/m/n/8 ک
+ا کم تر دوری عرصہ  $\OML/zplm/m/it/8 T\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 > \OT1/
+ppl/m/n/8 0\OT1/zplm/m/n/8 )$ \EU1/JameelNooriNastaleeq(0)/m/n/8 ، اگر موجود ہو
+،  $\OML/zplm/m/it/8 f\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 x\OT1/zplm/m/n/8 )$  \E
+U1/JameelNooriNastaleeq(0)/m/n/8 کا اوّلی دوری عرصہ کہلاتا ہے۔مثلاً  $[] \OML/z
+plm/m/it/8 x$  \EU1/JameelNooriNastaleeq(0)/m/n/8 اور  $[] \OT1/ppl/m/n/8 2\OML
+/zplm/m/it/8 x$  \EU1/JameelNooriNastaleeq(0)/m/n/8 کا بالترتیب اوّلی دوری عرصہ
+  $\OT1/ppl/m/n/8 2\OML/zplm/m/it/8 ^^Y$  \EU1/JameelNooriNastaleeq(0)/m/n/8 او
+ر  $\OML/zplm/m/it/8 ^^Y$ []
  []
 
-[857] [858] [859]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 552.
- [860] [861] [862] [863] [864] [865] [866] [867] [868]
-[869] [870] [871] [872] [873] [874] [875] [876] [877] [878]) [879]
+[884] [885]
+
+LaTeX Warning: Reference `سوال_فوریئر_ترسیم_کھینچیں_ب' on page \RL {\arabicfont
+ 886} undefined on input line 129.
+
+[886]) [887]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
-
-(./tex/mathAppendixAdditionalProofs.tex [880
+ (./tex/mathAppendixAdditionalProofs.tex [888
 
 
 
 ]
 ضمیمہ ا.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 1.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 20.74pt on input line 1.
-[881] [882]) [883]
+[889] [890]) [891]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [884
+ (./tex/mathAppendixAuxiliaryMaterial.tex [892
 
 
 
@@ -3208,22 +3221,24 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 ضمیمہ ب.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 5.70004pt on input line 8.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 27.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[885] [886] [887] [888] [889]
+[893] [894] [895] [896] [897]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [890] [891]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [898] [899]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [892]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [900]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [893]
-[894
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [901]
+[902
 
 
 ] (./engineeringMathematics.aux (./tex/mathPreface.aux)
@@ -3235,7 +3250,7 @@ File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
 (./tex/mathLaplaceTransformation.aux) (./tex/mathVectors.aux)
 (./tex/mathLinearAlgebra.aux) (./tex/mathEigenvalueMatrixProblems.aux)
 (./tex/mathVectorDifferentialCalculus.aux)
-(./tex/mathVectorIntegralCalculus.aux) (./tex/mathSecondPart.aux)
+(./tex/mathVectorIntegralCalculus.aux) (./tex/mathFourierSeries.aux)
 (./tex/mathAppendixAdditionalProofs.aux)
 (./tex/mathAppendixAuxiliaryMaterial.aux))
 
@@ -3245,14 +3260,20 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 48802 strings out of 493918
- 1158845 string characters out of 6150563
- 1358576 words of memory out of 5000000
- 51086 multiletter control sequences out of 15000+600000
- 42343 words of font info for 169 fonts, out of 8000000 for 9000
+ 49115 strings out of 493918
+ 1165652 string characters out of 6150563
+ 1356507 words of memory out of 5000000
+ 51398 multiletter control sequences out of 15000+600000
+ 42351 words of font info for 170 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,15n,308p,10485b,2241s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,17n,81p,10485b,2239s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (59 pages).
+Output written on engineeringMathematics.pdf (28 pages).

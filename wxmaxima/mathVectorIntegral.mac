@@ -1707,3 +1707,230 @@ load("vect");
 u:x*y*z;
 
 ev(u,x=5,y=4,z=6)-ev(u,x=3,y=2,z=4);
+
+
+Print("======================================");
+kill(all);
+print("Q 11.174");
+load("vect");
+
+v1:yz;
+v2:xz;
+v3:xy;
+
+kcurl:[diff(v3,y)-diff(v2,z), diff(v1,z)-diff(v3,x),diff(v2,x)-diff(v1,y)];
+
+Print("======================================");
+kill(all);
+print("Q 11.175");
+load("vect");
+
+v1:y+z;
+v2:x+z;
+v3:x+y;
+
+kcurl:[diff(v3,y)-diff(v2,z), diff(v1,z)-diff(v3,x),diff(v2,x)-diff(v1,y)];
+
+Print("======================================");
+kill(all);
+print("Q 11.176");
+load("vect");
+
+v1:xy+z;
+v2:x+zy;
+v3:xz+y;
+
+kcurl:[diff(v3,y)-diff(v2,z), diff(v1,z)-diff(v3,x),diff(v2,x)-diff(v1,y)];
+
+
+Print("======================================");
+kill(all);
+print("Q 11.177");
+load("vect");
+
+v1:%e^x;
+v2:%e^y;
+v3:%e^z;
+
+kcurl:[diff(v3,y)-diff(v2,z), diff(v1,z)-diff(v3,x),diff(v2,x)-diff(v1,y)];
+
+Print("======================================");
+kill(all);
+print("Q 11.178");
+load("vect");
+
+v1:%e^y;
+v2:%e^z;
+v3:%e^x;
+
+kcurl:[diff(v3,y)-diff(v2,z), diff(v1,z)-diff(v3,x),diff(v2,x)-diff(v1,y)];
+
+Print("======================================");
+kill(all);
+print("Q 11.179");
+load("vect");
+
+v1:cos(x);
+v2:-sin(y);
+v3:1;
+
+kcurl:[diff(v3,y)-diff(v2,z), diff(v1,z)-diff(v3,x),diff(v2,x)-diff(v1,y)];
+
+Print("======================================");
+kill(all);
+print("Q 11.180");
+load("vect");
+
+v1:x^2;
+v2:y^2;
+v3:z^2;
+
+kcurl:[diff(v3,y)-diff(v2,z), diff(v1,z)-diff(v3,x),diff(v2,x)-diff(v1,y)];
+
+Print("======================================");
+kill(all);
+print("Q 11.181");
+load("vect");
+
+v1:y^2;
+v2:z^2;
+v3:x^2;
+
+kcurl:[diff(v3,y)-diff(v2,z), diff(v1,z)-diff(v3,x),diff(v2,x)-diff(v1,y)];
+
+Print("======================================");
+kill(all);
+print("Q 11.183");
+load("vect");
+
+u:x-y-z;
+diff(u);
+
+Print("======================================");
+kill(all);
+print("Q 11.184");
+load("vect");
+
+u:x^2*y^3*z;
+kk:[diff(u,x),diff(u,y),diff(u,z)];
+v1:kk[1];
+v2:kk[2];
+v3:kk[3];
+kcurl:[diff(v3,y)-diff(v2,z), diff(v1,z)-diff(v3,x),diff(v2,x)-diff(v1,y)];
+
+Print("======================================");
+kill(all);
+print("Q 11.185");
+load("vect");
+
+u:y*cos(x)-x*y*z+sin(z);
+kk:[diff(u,x),diff(u,y),diff(u,z)];
+v1:kk[1];
+v2:kk[2];
+v3:kk[3];
+kcurl:[diff(v3,y)-diff(v2,z), diff(v1,z)-diff(v3,x),diff(v2,x)-diff(v1,y)];
+
+Print("======================================");
+kill(all);
+print("Q 11.186");
+load("vect");
+
+u:%e^(x+y)+x*cos(z);
+kk:[diff(u,x),diff(u,y),diff(u,z)];
+v1:kk[1];
+v2:kk[2];
+v3:kk[3];
+kcurl:[diff(v3,y)-diff(v2,z), diff(v1,z)-diff(v3,x),diff(v2,x)-diff(v1,y)];
+
+Print("======================================");
+kill(all);
+print("Q 11.187");
+load("vect");
+
+u:x^2*sin(y)*cos(x)+y*z;
+kk:[diff(u,x),diff(u,y),diff(u,z)];
+v1:kk[1];
+v2:kk[2];
+v3:kk[3];
+kcurl:[diff(v3,y)-diff(v2,z), diff(v1,z)-diff(v3,x),diff(v2,x)-diff(v1,y)];
+
+Print("======================================");
+kill(all);
+print("Q 11.188");
+load("vect");
+
+u:1/2*(x^2-y^2-z^2);
+s:[0,0,0];
+e:[1,1,1];
+I:ev(u,x=e[1],y=e[2],z=e[3])-ev(u,x=s[1],y=s[2],z=s[3]);
+
+kk:[diff(u,x),diff(u,y),diff(u,z)];
+v1:kk[1];
+v2:kk[2];
+v3:kk[3];
+kcurl:[diff(v3,y)-diff(v2,z), diff(v1,z)-diff(v3,x),diff(v2,x)-diff(v1,y)];
+
+Print("======================================");
+kill(all);
+print("Q 11.189");
+load("vect");
+
+u:x*(y+z^2);
+s:[1,0,1];
+e:[3,1,2];
+I:ev(u,x=e[1],y=e[2],z=e[3])-ev(u,x=s[1],y=s[2],z=s[3]);
+
+kk:[diff(u,x),diff(u,y),diff(u,z)];
+v1:kk[1];
+v2:kk[2];
+v3:kk[3];
+kcurl:[diff(v3,y)-diff(v2,z), diff(v1,z)-diff(v3,x),diff(v2,x)-diff(v1,y)];
+
+Print("======================================");
+kill(all);
+print("Q 11.190");
+load("vect");
+
+u:x*sin(y)+%e^z;
+s:[0,0,1];
+e:[2,%pi/2,2];
+I:ev(u,x=e[1],y=e[2],z=e[3])-ev(u,x=s[1],y=s[2],z=s[3]);
+
+kk:[diff(u,x),diff(u,y),diff(u,z)];
+v1:kk[1];
+v2:kk[2];
+v3:kk[3];
+kcurl:[diff(v3,y)-diff(v2,z), diff(v1,z)-diff(v3,x),diff(v2,x)-diff(v1,y)];
+
+Print("======================================");
+kill(all);
+print("Q 11.191");
+load("vect");
+
+u:x*y+log(x*y*z);
+s:[1,1,1];
+e:[3,2,4];
+I:ev(u,x=e[1],y=e[2],z=e[3])-ev(u,x=s[1],y=s[2],z=s[3]);
+
+kk:[diff(u,x),diff(u,y),diff(u,z)];
+v1:kk[1];
+v2:kk[2];
+v3:kk[3];
+kcurl:[diff(v3,y)-diff(v2,z), diff(v1,z)-diff(v3,x),diff(v2,x)-diff(v1,y)];
+
+
+Print("======================================");
+kill(all);
+print("Q 11.192");
+load("vect");
+
+u:x*y^(1/2);
+s:[3,2,1];
+e:[5,2,-1];
+I:ev(u,x=e[1],y=e[2],z=e[3])-ev(u,x=s[1],y=s[2],z=s[3]);
+
+kk:[diff(u,x),diff(u,y),diff(u,z)];
+v1:kk[1];
+v2:kk[2];
+v3:kk[3];
+kcurl:[diff(v3,y)-diff(v2,z), diff(v1,z)-diff(v3,x),diff(v2,x)-diff(v1,y)];

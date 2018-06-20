@@ -117,6 +117,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 12}.\RL {\arabicfont 11}}راہ سے آزاد خطی تکمل}{\RL {\arabicfont 869}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 12}}فوریئر تسلسل}{\RL {\arabicfont 883}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 12}}دوری تفاعل، تکونیاتی تسلسل}{\RL {\arabicfont 884}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 889}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 893}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 893}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 12}}فوریئر تسلسل۔ یولر کلیات}{\RL {\arabicfont 889}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 899}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 903}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 903}}

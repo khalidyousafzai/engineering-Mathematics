@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  19 JUN 2018 15:20
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  20 JUN 2018 16:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3196,24 +3196,24 @@ plm/m/it/8 x$  \EU1/JameelNooriNastaleeq(0)/m/n/8 اور  $[] \OT1/ppl/m/n/8 2\O
 ر  $\OML/zplm/m/it/8 ^^Y$ []
  []
 
-[884] [885]
-
-LaTeX Warning: Reference `سوال_فوریئر_ترسیم_کھینچیں_ب' on page \RL {\arabicfont
- 886} undefined on input line 129.
-
-[886]) [887]
+[884] [885] [886] [887] [888] [889] [890] [891]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 363.
+Missing character: There is no ; in font nullfont!
+ [892] [893] [894] [895]
+[896]) [897]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
- (./tex/mathAppendixAdditionalProofs.tex [888
+ (./tex/mathAppendixAdditionalProofs.tex [898
 
 
 
 ]
 ضمیمہ ا.
-[889] [890]) [891]
+[899] [900]) [901]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [892
+ (./tex/mathAppendixAuxiliaryMaterial.tex [902
 
 
 
@@ -3221,24 +3221,22 @@ LaTeX Warning: Reference `سوال_فوریئر_ترسیم_کھینچیں_ب' on
 ضمیمہ ب.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 5.70004pt on input line 8.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 27.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[893] [894] [895] [896] [897]
+[903] [904] [905] [906] [907]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [898] [899]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [908] [909]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [900]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [910]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [901]
-[902
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [911]
+[912
 
 
 ] (./engineeringMathematics.aux (./tex/mathPreface.aux)
@@ -3260,20 +3258,14 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 49115 strings out of 493918
- 1165652 string characters out of 6150563
- 1356507 words of memory out of 5000000
- 51398 multiletter control sequences out of 15000+600000
+ 49669 strings out of 493918
+ 1177509 string characters out of 6150563
+ 1357112 words of memory out of 5000000
+ 51952 multiletter control sequences out of 15000+600000
  42351 words of font info for 170 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,17n,81p,10485b,2239s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,81p,10485b,2240s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (28 pages).
+Output written on engineeringMathematics.pdf (38 pages).

@@ -18,7 +18,7 @@ f(x+T)=f(x)\quad \quad \quad \text{\RL{تمام $x$ کے لئے}}
 \begin{tikzpicture}
 \draw(-3,0)--(5,0)node[right]{$x$};
 \draw(0,-1.2)--(0,1.2)node[left]{$f(x)$};
-\draw[domain=-400:850,samples=100] plot ({\x/200},{0.5*sin(\x)-0.5/2*sin(2*\x)});
+\draw[thick,domain=-400:850,samples=100] plot ({\x/200},{0.5*sin(\x)-0.5/2*sin(2*\x)});
 \draw(237/200,-0.6)--++(0,-0.3)coordinate[pos=0.75](kA);
 \draw(237/200+360/200,-0.6)--++(0,-0.3)coordinate[pos=0.75](kB);
 \draw[stealth-stealth] (kA)--(kB)node[pos=0.5,fill=white]{$T$};
@@ -57,26 +57,26 @@ a_0+a_1\cos x+b_1\sin x+a_2\cos 2x+b_2\sin 2x+\cdots
 %
 \draw(0,0)--(360/\pp,0);
 \foreach \x/\l in {0/0,1.5/\pi,3/2\pi}{\draw(\x,0)node[below]{$\l$}--++(0,0.2);}
-\draw[domain=0:360] plot ({\x/\pp},{\amp*cos(\x)});
+\draw[thick,domain=0:360] plot ({\x/\pp},{\amp*cos(\x)});
 \draw(1.5,-1.5*\amp)node{$\cos x$};
 %
 \begin{scope}[shift={(0,-4*\amp)}]
 \draw(0,0)--(360/\pp,0);
 \foreach \x/\l in {0/0,1.5/\pi,3/2\pi}{\draw(\x,0)--++(0,0.2)node[above]{$\l$};}
-\draw[domain=0:360] plot ({\x/\pp},{\amp*sin(\x)});
+\draw[thick,domain=0:360] plot ({\x/\pp},{\amp*sin(\x)});
 \draw(1.5,-1.5*\amp)node{$\sin x$};
 \end{scope}
 %===========================
 \begin{scope}[shift={(3.5,0)}]
 \draw(0,0)--(360/\pp,0);
 \foreach \x/\l in {0/0,1.5/\pi,3/2\pi}{\draw(\x,0)node[below]{$\l$}--++(0,0.2);}
-\draw[domain=0:360,samples=50] plot ({\x/\pp},{\amp*cos(2*\x)});
+\draw[thick,domain=0:360,samples=50] plot ({\x/\pp},{\amp*cos(2*\x)});
 \draw(1.5,-1.5*\amp)node{$\cos 2x$};
 %
 \begin{scope}[shift={(0,-4*\amp)}]
 \draw(0,0)--(360/\pp,0);
 \foreach \x/\l in {0/0,1.5/\pi,3/2\pi}{\draw(\x,0)--++(0,0.2)node[above]{$\l$};}
-\draw[domain=0:360,samples=50] plot ({\x/\pp},{\amp*sin(2*\x)});
+\draw[thick,domain=0:360,samples=50] plot ({\x/\pp},{\amp*sin(2*\x)});
 \draw(1.5,-1.5*\amp)node{$\sin 2x$};
 \end{scope}
 \end{scope}
@@ -84,13 +84,13 @@ a_0+a_1\cos x+b_1\sin x+a_2\cos 2x+b_2\sin 2x+\cdots
 \begin{scope}[shift={(7,0)}]
 \draw(0,0)--(360/\pp,0);
 \foreach \x/\l in {0/0,1.5/\pi,3/2\pi}{\draw(\x,0)node[below]{$\l$}--++(0,0.2);}
-\draw[domain=0:360,samples=60] plot ({\x/\pp},{\amp*cos(3*\x)});
+\draw[thick,domain=0:360,samples=60] plot ({\x/\pp},{\amp*cos(3*\x)});
 \draw(1.5,-1.5*\amp)node{$\cos 3x$};
 %
 \begin{scope}[shift={(0,-4*\amp)}]
 \draw(0,0)--(360/\pp,0);
 \foreach \x/\l in {0/0,1.5/\pi,3/2\pi}{\draw(\x,0)--++(0,0.2)node[above]{$\l$};}
-\draw[domain=0:360,samples=60] plot ({\x/\pp},{\amp*sin(3*\x)});
+\draw[thick,domain=0:360,samples=60] plot ({\x/\pp},{\amp*sin(3*\x)});
 \draw(1.5,-1.5*\amp)node{$\sin 3x$};
 \end{scope}
 \end{scope}
@@ -220,39 +220,54 @@ f(x)=
 
 %===========================
 \ابتدا{سوال}\شناخت{سوال_فوریئر_درکار_تکمل_الف}\quad
-$\int\limits_0^{\pi}\sin x\,\dif x$
+$\int\limits_0^{\pi}\sin nx\,\dif x$\\
+جواب:\quad طاق \عددی{n} کے لئے \عددی{\tfrac{2}{n}} اور جفت \عددی{n} کے لئے صفر۔
 \انتہا{سوال}
 %============================
 \ابتدا{سوال}\quad
-$\int\limits_{-\frac{\pi}{2}}^0\cos nx\,\dif x$
+$\int\limits_{-\frac{\pi}{2}}^0\cos nx\,\dif x$\\
+جواب:\quad جفت \عددی{n} کے لئے صفر اور طاق \عددی{n} کے لئے \عددی{\tfrac{1}{n}\sin\tfrac{n\pi}{2}}
 \انتہا{سوال}
 %============================
 \ابتدا{سوال}\quad
-$\int\limits_{-\pi}^{\pi}x\sin nx\,\dif x$
+$\int\limits_{-\pi}^{\pi}x\sin nx\,\dif x$\\
+جواب:\quad 
+$(-1)^{n+1}\tfrac{2\pi}{n}$
 \انتہا{سوال}
 %============================
 \ابتدا{سوال}\quad
-$\int\limits_{-\frac{\pi}{2}}^{\frac{\pi}{2}}x\sin nx\,\dif x$
+$\int\limits_{-\frac{\pi}{2}}^{\frac{\pi}{2}}x\sin nx\,\dif x$\\
+جواب:\quad طاق \عددی{n}، \عددی{\tfrac{2}{n^2}\sin \tfrac{n\pi}{2}} یعنی \عددی{(-1)^{\tfrac{n+3}{2}}\tfrac{2}{n^2}} جبکہ جفت \عددی{n}، \عددی{-\tfrac{\pi}{n}\cos\tfrac{n\pi}{2}} یعنی \عددی{(-1)^{\tfrac{n+2}{2}}\tfrac{\pi}{n}}
 \انتہا{سوال}
 %============================
 \ابتدا{سوال}\quad
-$\int\limits_{-\frac{\pi}{2}}^{\frac{\pi}{2}}x\cos nx\,\dif x$
+$\int\limits_{-\frac{\pi}{2}}^{\frac{\pi}{2}}x\cos nx\,\dif x$\\
+جواب:\quad 
+$0$
 \انتہا{سوال}
 %============================
 \ابتدا{سوال}\quad
-$\int\limits_{0}^{\pi}x\sin nx\,\dif x$
+$\int\limits_{0}^{\pi}x\sin nx\,\dif x$\\
+جواب:\quad
+$\tfrac{\pi}{n}(-1)^{n+1}$
 \انتہا{سوال}
 %============================
 \ابتدا{سوال}\quad
-$\int\limits_{-\pi}^{0} e^x\sin nx\,\dif x$
+$\int\limits_{-\pi}^{0} e^x\sin nx\,\dif x$\\
+جواب:\quad
+$\tfrac{n}{n^2+1}[(-1)^ne^{-\pi}-1]$
 \انتہا{سوال}
 %============================
 \ابتدا{سوال}\quad
-$\int\limits_{0}^{\pi} e^x\cos nx\,\dif x$
+$\int\limits_{0}^{\pi} e^x\cos nx\,\dif x$\\
+جواب:\quad
+$\tfrac{1}{n^2+1}[e^{\pi}(-1)^n-1]$
 \انتہا{سوال}
 %============================
 \ابتدا{سوال}\شناخت{سوال_فوریئر_درکار_تکمل_ب}\quad
-$\int\limits_{-\pi}^{\pi} x^2\cos nx\,\dif x$
+$\int\limits_{-\pi}^{\pi} x^2\cos nx\,\dif x$\\
+جواب:\quad
+$\tfrac{4\pi}{n^2}(-1)^n$
 \انتہا{سوال}
 %============================
 
@@ -355,9 +370,14 @@ f(x)=
 \pgfmathsetmacro{\T}{1}
 \draw(-1.5,0)--(3.5,0)node[right]{$x$};
 \draw(0,-1.2)--(0,1.5)node[right]{$f(x)$};
-%
-\draw(0,1)node[left]{$k$}--++(\T,0)--++(0,-2)--++(\T,0)--++(0,2)--++(0.5*\T,0);
-\draw(0,-1)node[right]{$-k$}--++(-\T,0)--++(0,2)--++(-0.5*\T,0);
+%square wave
+\draw[thick](0,1)node[left]{$k$}--++(\T,0)++(\T,0)--++(\T/2,0);
+\draw[thick](-\T,1)--++(-\T/2,0);
+\draw[thick](-\T,-1)--++(\T,0)node[right]{$-k$}++(\T,0)--++(\T,0);
+\draw(-\T,1)--++(0,-2);
+\draw(\T,1)--++(0,-2);
+\draw(2*\T,1)--++(0,-2);
+%ticks
 \foreach \x/\l in {-1/-\pi,0/0,1/\pi,2/2\pi}{\draw(\x,0)node[fill=white,shift={(0,-0.3)}]{$\l$};}
 \end{tikzpicture}
 \caption*{(الف) دیا گیا دوری چکور تفاعل $f(x)$}
@@ -371,7 +391,7 @@ f(x)=
 %
 \draw(0,1)node[left]{$k$}--++(4,0);
 \draw(0,-1)node[right]{$-k$}--++(-4,0);
-\draw[domain=-180:180,smooth] plot ({\x/\w},{1.273*sin(\x)});
+\draw[domain=-180:180,smooth,thick] plot ({\x/\w},{1.273*sin(\x)});
 \draw[stealth-] ({100/\w},{1.273*sin(100)}) to [out=45,in=180]++(0.5,0.25)node[right]{$S_1$};
 %text
 \draw(-4,0)--++(0,-0.2)node[shift={(-0.25,-0.2)}]{$-\pi$};
@@ -390,7 +410,7 @@ f(x)=
 \draw(0,-1)node[right]{$-k$}--++(-4,0);
 \draw[domain=0:180,smooth,dashed] plot ({\x/\w},{1.273*sin(\x)});
 \draw[domain=0:180,smooth,dashed] plot ({\x/\w},{1.273*(1/3*sin(3*\x))});
-\draw[domain=-180:180,samples=60] plot ({\x/\w},{1.273*(sin(\x)+1/3*sin(3*\x))});
+\draw[domain=-180:180,samples=60,thick] plot ({\x/\w},{1.273*(sin(\x)+1/3*sin(3*\x))});
 %
 \draw[stealth-] ({100/\w},{1.273*sin(100)}) to [out=45,in=180]++(0.5,0.5)node[right]{$S_1$};
 \draw[stealth-] ({140/\w},{1.273*(sin(140)+1/3*sin(3*140))}) to [out=45,in=180]++(0.5,0.25)node[right]{$S_3$};
@@ -412,7 +432,7 @@ f(x)=
 \draw(0,-1)node[right]{$-k$}--++(-4,0);
 \draw[domain=0:180,smooth,dashed] plot ({\x/\w},{1.273*(sin(\x)+1/3*sin(3*\x))});
 \draw[domain=0:180,smooth,dashed] plot ({\x/\w},{1.273*(1/5*sin(5*\x))});
-\draw[domain=-180:180,samples=100] plot ({\x/\w},{1.273*(sin(\x)+1/3*sin(3*\x)+1/5*sin(5*\x))});
+\draw[domain=-180:180,samples=100,thick] plot ({\x/\w},{1.273*(sin(\x)+1/3*sin(3*\x)+1/5*sin(5*\x))});
 %text
 \draw[stealth-] ({50/\w},{1.273*(1/5*sin(5*50))}) to [out=-70,in=180]++(0.5,-0.5)node[right]{$\tfrac{4k}{5\pi}\sin 5x$};
 \draw[stealth-]  ({45/\w},{1.273*(sin(45)+1/3*sin(3*45))}) to [out=90,in=180]++(0.5,0.5)node[right]{$S_2$};
@@ -513,8 +533,8 @@ f(1-0)=1,\quad f(1+0)=\frac{1}{2}
 \draw(0,1)node[left]{$1$}--++(0.1,0);
 \draw(1,0)node[below]{$1$}--++(0,0.1);
 %
-\draw[domain=0:1,smooth] plot ({\x},{\x*\x});
-\draw[domain=1:2] plot ({\x},{\x/2});
+\draw[thick,domain=0:1,smooth] plot ({\x},{\x*\x});
+\draw[thick,domain=1:2] plot ({\x},{\x/2});
 %
 \draw[stealth-] (1,1)node[ocirc]{}++(0,0.05) to [out=90,in=180]++(0.5,0.5)node[right]{$f(1-0)$};
 \draw(1,1/2)node[ocirc]{}node[shift={(1,0)}]{$f(1+0)$};
@@ -547,7 +567,7 @@ f(x)=a_0+a_1\cos x+b_1\sin x+\cdots+a_n\cos nx+b_n\sin nx+\cdots
 f(x)=a_0+\sum_{n=1}^{\infty}(a_n\cos nx+b_n\sin nx)
 \end{align*}
 %================
-\ابتدا{ثبوت}\quad استمراری تفاعل \عددی{f(x)} جس کا استمراری ایک درجی اور دو درجی تفرق پایا جاتا ہو کی مرکوزیت  (مسئلہ \حوالہ{مسئلہ_فوریئر_مرتکز_شرائط}) کا ثبوت \\
+\ابتدا{ثبوت}\quad استمراری تفاعل \عددی{f(x)} جس کا استمراری ایک درجی اور دو درجی تفرق پایا جاتا ہو کی مرکوزیت  (مسئلہ \حوالہ{مسئلہ_فوریئر_مرتکز_شرائط}) کا ثبوت ۔\\
 مساوات \حوالہ{مساوات_فوریئر_تسلسل_ج}-ب  کا تکمل بالحصص لیتے ہوئے
 \begin{align*}
 a_n=\frac{1}{\pi}\int_{-\pi}^{\pi}f(x)\cos nx \,\dif x=\left. \frac{f(x)\sin nx}{n\pi}\right|_{-\pi}^{\pi}-\frac{1}{n\pi}\int_{-\pi}^{\pi} f'(x)\sin nx\,\dif x
@@ -575,3 +595,231 @@ a_n=\left.\frac{f'(x)\cos nx}{n^2\pi}\right|_{-\pi}^{\pi}-\frac{1}{n^2\pi}\int_{
 %================================
 
 \حصہء{سوالات}
+سوال \حوالہ{سوال_فوریئر_تسلسل_دریافت_کریں_الف} تا سوال \حوالہ{سوال_فوریئر_تسلسل_دریافت_کریں_ٹ} میں دیے گئے دوری تفاعل \عددی{f(x)} جس کا دوری عرصہ \عددی{2\pi} ہے  کا فوریئر تسلسل دریافت کریں۔پہلے تین جزوی مجموعوں\حاشیہد{یعنی\, $a_0+\sum_{n=1}^{N}(a_n\cos nx+b_n\sin nx)$ \,جہاں\, $N=1,2,3$ \,ہے۔} کا ترسیم کھینچیں۔
+
+%==================
+\ابتدا{سوال}\شناخت{سوال_فوریئر_تسلسل_دریافت_کریں_الف}\quad تفاعل کو شکل \حوالہ{شکل_سوال_فوریئر_تسلسل_دریافت_کریں_الف}-الف میں دیا گیا ہے۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-2.2,0)--(2.5,0)node[right]{$x$};
+\draw(0,0)node[below]{$0$}--(0,2)node[right]{$f(x)$};
+%
+\draw[thick](-2,0)--(-1,0)(-1,1)--(1,1)(1,0)--(2,0);
+\draw(-1,0)node[below]{$-\tfrac{\pi}{2}$}--++(0,1);
+\draw(1,0)node[below]{$\tfrac{\pi}{2}$}--++(0,1);
+\draw(-2,0)node[below]{$-\pi$}--++(0,0.2);
+\draw(2,0)node[below]{$\pi$}--++(0,0.2);
+\draw(0,1)++(0,0.2)node[left]{$1$};
+\end{tikzpicture}
+\caption*{(الف)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-2.2,0)--(2.5,0)node[right]{$x$};
+\draw(0,0)node[below]{$0$}--(0,2)node[right]{$f(x)$};
+%function
+\draw[thick](-2,0)--(0,0)(0,1)node[left]{$1$}--(2,1);
+\draw(2,0)--++(0,1);
+%ticks
+\draw(-2,0)node[below]{$-\pi$}--++(0,0.2);
+\draw(2,0)node[below]{$\pi$};
+\end{tikzpicture}
+\caption*{(ب)}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-2.2,0)--(2.5,0)node[right]{$x$};
+\draw(0,-1.5)--(0,2)node[right]{$f(x)$};
+%function
+\draw[thick](-2,-1)--++(2,0)node[right]{$1$}(0,1)node[left]{$1$}--++(2,0);
+\draw(2,0)--++(0,1);
+\draw(-2,0)--++(0,-1);
+%ticks
+\draw(-2,0)--++(0,0.2)node[above]{$-\pi$};
+\draw(2,0)node[below]{$\pi$};
+\end{tikzpicture}
+\caption*{(پ)}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-2.2,0)--(2.5,0)node[right]{$x$};
+\draw(0,-1.5)--(0,2)node[right]{$f(x)$};
+%function
+\draw[thick](-2,0)--(0,0)(0,-1)node[left]{$-1$}--++(1,0)(1,1)--++(1,0);
+\draw(2,0)--++(0,1);
+\draw(1,-1)--++(0,2);
+%ticks
+\draw(-2,0)node[below]{$-\pi$}--++(0,0.2);
+\draw(2,0)node[below]{$\pi$};
+\draw(0,1)node[left]{$1$}--++(0.2,0);
+\end{tikzpicture}
+\caption*{(ت)}
+\end{subfigure}
+\caption{تفاعل برائے سوال \حوالہ{سوال_فوریئر_تسلسل_دریافت_کریں_الف} تا سوال \حوالہ{سوال_فوریئر_تسلسل_دریافت_کریں_ت}}
+\label{شکل_سوال_فوریئر_تسلسل_دریافت_کریں_الف}
+\end{figure}
+
+جواب:\quad
+$\tfrac{1}{2}+\tfrac{2}{\pi}(\cos x-\tfrac{1}{3}\cos 3x+\tfrac{1}{5}\cos 5x-+\cdots)$
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_فوریئر_تسلسل_دریافت_کریں_ب}\quad تفاعل کو شکل \حوالہ{شکل_سوال_فوریئر_تسلسل_دریافت_کریں_الف}-ب میں دیا گیا ہے۔\\
+جواب:\quad
+$\tfrac{1}{2}+\tfrac{2}{\pi}(\sin x+\tfrac{1}{3}\sin 3x+\tfrac{1}{5}\sin 5x\cdots)$
+\انتہا{سوال}
+%============================
+\ابتدا{سوال}\quad تفاعل کو شکل \حوالہ{شکل_سوال_فوریئر_تسلسل_دریافت_کریں_الف}-پ میں دیا گیا ہے۔\\
+جواب:\quad
+$\tfrac{4}{\pi}(\sin x+\tfrac{1}{3}\sin 3x+\tfrac{1}{5}\sin 5x+\cdots)$
+\انتہا{سوال}
+%============================
+
+\ابتدا{سوال}\شناخت{سوال_فوریئر_تسلسل_دریافت_کریں_ت}\quad تفاعل کو شکل \حوالہ{شکل_سوال_فوریئر_تسلسل_دریافت_کریں_الف}-ت میں دیا گیا ہے۔\\
+جواب:\quad
+$\tfrac{2}{\pi}(-\cos x-\sin 2x+\tfrac{1}{3}\cos 3x-\tfrac{1}{5}\cos 5x\cdots)$
+\انتہا{سوال}
+%============================
+\ابتدا{سوال}
+\begin{align*}
+f(x)=
+\begin{cases}
+\phantom{-}1& -\frac{\pi}{2}<x<\frac{\pi}{2}\\
+-1&\phantom{-}\frac{\pi}{2}<x<\frac{3}{2}\pi
+\end{cases}
+\end{align*}
+جواب:\quad
+$\tfrac{4}{\pi}(\cos x-\tfrac{1}{3}\cos 3x+\tfrac{1}{5}\cos 5x-+\cdots)$
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}
+\begin{align*}
+f(x)=
+\begin{cases}
+1& -\frac{\pi}{2}<x<0\\
+0&\phantom{-}0<x<\frac{3}{2}\pi
+\end{cases}
+\end{align*}
+جواب:\quad
+$\tfrac{1}{4}+\tfrac{1}{\pi}(\cos x-\sin x-\sin 2x-\tfrac{1}{3}\cos 3x-\tfrac{1}{3}\sin 3x\cdots)$
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}
+\begin{align*}
+f(x)=x,\quad -\pi<x<\pi
+\end{align*}
+جواب:\quad
+$2\sin x-\sin 2x+\tfrac{2}{3}\sin 3x-\tfrac{1}{2}\sin 4x+\tfrac{2}{5}\sin 5x\cdots$
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_فوریئر_دوبارہ_درکار}
+\begin{align*}
+f(x)=
+\begin{cases}
+0& -\pi<x<\tfrac{\pi}{2}\\
+2 & \phantom{-}\tfrac{\pi}{2}<x<\pi
+\end{cases}
+\end{align*}
+جواب:\quad 
+$\tfrac{1}{2}+\tfrac{2}{\pi}(-\cos x+\sin x-\sin 2x+\tfrac{1}{3}\cos 3x+\tfrac{1}{3}\sin 3x\cdots)$
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}
+\begin{align*}
+f(x)=x^2,\quad -\pi<x<\pi
+\end{align*}
+جواب:\quad
+$\tfrac{\pi^2}{3}-4\cos x+\cos 2x-\tfrac{4}{9}\cos 3x+\tfrac{1}{4}\cos 4x-\tfrac{4}{25}\cos 5x\cdots$
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}
+\begin{align*}
+f(x)=\abs{x},\quad -\pi<x<\pi
+\end{align*}
+جواب:\quad
+$\tfrac{\pi}{2}-\tfrac{4}{\pi}(\cos x+\tfrac{1}{9}\cos 3x+\tfrac{1}{25}\cos 5x\cdots)$
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}
+\begin{align*}
+f(x)=
+\begin{cases}
+\pi & -\pi<x<0\\
+\pi-x&\phantom{-}0<x<\pi
+\end{cases}
+\end{align*}
+جواب:\quad
+$\tfrac{3\pi}{4}+\tfrac{2}{\pi}\cos x-\sin x+\tfrac{1}{2}\sin 2x+\tfrac{2}{9\pi}\cos 3x-\tfrac{1}{3}\sin 3x+\tfrac{1}{4}\sin 4x\cdots$
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}
+\begin{align*}
+f(x)=
+\begin{cases}
+-\pi-x & -\pi<x<0\\
+\phantom{-}\pi-x&\phantom{-}0<x<\pi
+\end{cases}
+\end{align*}
+جواب:\quad
+$2\sin x+\sin 2x+\tfrac{2}{3}\sin 3x+\tfrac{1}{2}\sin 4x+\tfrac{2}{5}\sin 5x\cdots$
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}
+\begin{align*}
+f(x)=
+\begin{cases}
+1& 0<x<\frac{\pi}{2}\\
+2&\frac{\pi}{2}<x<\pi
+\end{cases}
+\end{align*}
+جواب:\quad
+$\tfrac{3}{4}+\tfrac{1}{\pi}(-\cos x+3\sin x-\sin 2x+\tfrac{1}{3}\cos 3x+\sin 3x\cdots)$
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\quad
+$f(x)=x,\quad  0<x<\frac{\pi}{2}$\\
+جواب:\quad
+$\tfrac{\pi}{16}+\tfrac{1}{\pi}[(\tfrac{\pi}{2}-1)\cos x+\sin x-\tfrac{1}{2}\cos 2x+\tfrac{1}{4}\sin 2x\cdots]$
+\انتہا{سوال}
+%=====================
+
+\ابتدا{سوال}\quad نصف لہر سمت کار
+\begin{align*}
+f(x)=
+\begin{cases}
+0& -\pi<x<0\\
+\sin x&\phantom{-} 0<x<\pi
+\end{cases}
+\end{align*}
+جواب:\quad
+$\tfrac{1}{\pi}-\tfrac{2}{3\pi}(\cos 2x+\tfrac{1}{5}\cos 4x+\tfrac{1}{7}\cos 6x+\cdots)$
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\شناخت{سوال_فوریئر_تسلسل_دریافت_کریں_ٹ}\quad مکمل لہر سمت کار
+$f(x)=\abs{\sin x},\quad  -\pi<x<\pi$\\
+جواب:\quad
+$\tfrac{2}{\pi}-\tfrac{4}{\pi}(\tfrac{1}{3}\cos 2x+\tfrac{1}{15}\cos 4x+\cdots)$
+\انتہا{سوال}
+%=====================
+\ابتدا{سوال}\quad مسئلہ \حوالہ{مسئلہ_فوریئر_مرتکز_شرائط} کے آخری جملہ کی سوال \حوالہ{سوال_فوریئر_تسلسل_دریافت_کریں_الف} کے لئے  تصدیق کریں۔ 
+\انتہا{سوال}
+%========================
+\ابتدا{سوال}\quad سوال \حوالہ{سوال_فوریئر_تسلسل_دریافت_کریں_الف} کی حاصل تسلسل سے سوال \حوالہ{سوال_فوریئر_تسلسل_دریافت_کریں_ب} کی فوریئر تسلسل حاصل کریں۔
+\انتہا{سوال}
+%===========================
+\ابتدا{سوال}\شناخت{سوال_فوریئر_بڑا_تفاعل}\quad اگر تفاعل \عددی{f(x)} کی فوریئر عددی سر \عددی{a_n} اور \عددی{b_n} ہوں تب ثابت کریں کہ تفاعل \عددی{kf(x)} جہاں \عددی{k} مستقل ہے کے عددی سر
+\عددی{ka_n} اور \عددی{kb_n} ہوں گے۔
+\انتہا{سوال}
+%=============================
+\ابتدا{سوال}\شناخت{سوال_فوریئر_مجموعہ_تفاعل}\quad ثابت کریں کہ اگر تفاعل \عددی{f(x)} کے عددی سر \عددی{a_n}، \عددی{b_n} اور تفاعل \عددی{g(x)} کے عددی سر \عددی{a_n^*}، \عددی{b_n^*} ہوں تب تفاعل \عددی{f(x)+g(x)} کے عددی سر \عددی{a_n+a_n^*}، \عددی{b_n+b_n^*} ہوں گے۔
+\انتہا{سوال}
+%============================
+\ابتدا{سوال}\quad سوال \حوالہ{سوال_فوریئر_دوبارہ_درکار} میں دیے گئے تفاعل کی فوریئر تسلسل سوال \حوالہ{سوال_فوریئر_مجموعہ_تفاعل} کو استعمال کرتے ہوئے شکل \حوالہ{شکل_سوال_فوریئر_تسلسل_دریافت_کریں_الف} کی نتائج سے  حاصل کریں۔
+\انتہا{سوال}
+%=========================

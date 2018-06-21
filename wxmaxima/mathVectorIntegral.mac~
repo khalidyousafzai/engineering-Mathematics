@@ -1926,7 +1926,7 @@ load("vect");
 
 u:x*y^(1/2);
 s:[3,2,1];
-e:[5,-2,-1];
+e:[5,2,-1];
 I:ev(u,x=e[1],y=e[2],z=e[3])-ev(u,x=s[1],y=s[2],z=s[3]);
 
 kk:[diff(u,x),diff(u,y),diff(u,z)];

@@ -1934,3 +1934,5 @@ v1:kk[1];
 v2:kk[2];
 v3:kk[3];
 kcurl:[diff(v3,y)-diff(v2,z), diff(v1,z)-diff(v3,x),diff(v2,x)-diff(v1,y)];
+
+

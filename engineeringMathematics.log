@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  21 JUN 2018 17:57
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  22 JUN 2018 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3216,19 +3216,31 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 383.
 Missing character: There is no ; in font nullfont!
  [892] [893] [894] [895] [896] [897] [898] [899]
-[900] [901]) [902]
+[900] [901] [902] [903] [904] [905]
+Overfull \hbox (0.62668pt too wide) in paragraph at lines 975--978
+[] \EU1/JameelNooriNastaleeq(1)/m/n/10 سوال []\EU1/JameelNooriNastaleeq(0)/bx/n
+/10 52[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/
+n/10 12[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 تا سوال []\EU1/JameelNooriNasta
+leeq(0)/bx/n/10 62[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNast
+aleeq(0)/bx/n/10 12[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 میں تفاعل  $\OML/zp
+lm/m/it/10 f\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$  \EU1/Jame
+elNooriNastaleeq(1)/m/n/10 کا دوری عرصہ  $\OML/zplm/m/it/10 T$  \EU1/JameelNoor
+iNastaleeq(1)/m/n/10 ہے۔اس کی فوریئر تسلسل دریافت کریں۔تفاعل[]
+ []
+
+[906]) [907]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
- (./tex/mathAppendixAdditionalProofs.tex
+ (./tex/mathAppendixAdditionalProofs.tex [908
+
+
+
+]
 ضمیمہ ا.
-[903
-
-
-
-] [904]) [905]
+[909] [910]) [911]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [906
+ (./tex/mathAppendixAuxiliaryMaterial.tex [912
 
 
 
@@ -3238,20 +3250,20 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 5.70004pt on input line 8.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[907] [908] [909] [910] [911]
+[913] [914] [915] [916] [917]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [912] [913]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [918] [919]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [914]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [920]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [915]
-[916
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [921]
+[922
 
 
 ] (./engineeringMathematics.aux (./tex/mathPreface.aux)
@@ -3275,12 +3287,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 49682 strings out of 493918
- 1177828 string characters out of 6150563
- 1358340 words of memory out of 5000000
- 51965 multiletter control sequences out of 15000+600000
+ 49782 strings out of 493918
+ 1179962 string characters out of 6150563
+ 1357622 words of memory out of 5000000
+ 52065 multiletter control sequences out of 15000+600000
  42351 words of font info for 170 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,19n,81p,10485b,2240s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (42 pages).
+Output written on engineeringMathematics.pdf (48 pages).

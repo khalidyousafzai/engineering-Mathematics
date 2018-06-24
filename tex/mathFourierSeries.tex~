@@ -1102,22 +1102,22 @@ q(-x)=g(-x)h(-x)=g(x)[-h(x)]=-g(x)h(x)=-q(x)
 لکھا جا سکتا ہے لہٰذا  \عددی{q=gh} طاق تفاعل ہو گا۔یوں اگر \عددی{f(t)} جفت تفاعل ہو تب مساوات \حوالہ{مساوات_فوریئر_عمومی_یولر}-پ میں متکمل \عددی{f(t)\sin \tfrac{2n\pi t}{T}} طاق ہو گا لہٰذا \عددی{b_n=0} ہو گا۔اسی طرح اگر \عددی{f(t)} طاق ہو تب مساوات \حوالہ{مساوات_فوریئر_عمومی_یولر}-ب میں \عددی{f\cos \tfrac{2n\pi t}{T}} طاق ہو گا لہٰذا \عددی{a_n=0} ہو گا۔ان نتائج سے درج ذیل مسئلہ اخذ ہوتا ہے۔
 
 %===============
-\ابتدا{مسئلہ}\quad جفت اور طاق تفاعل کی فوریئر تسلسل\\ 
+\ابتدا{مسئلہ}\شناخت{مسئلہ_فوریئر_جفت_طاق_تسلسل}\quad جفت اور طاق تفاعل کی فوریئر تسلسل\\ 
 دوری عرصہ \عددی{T} کی جفت تفاعل \عددی{f(t)} کی فوریئر تسلسل، \اصطلاح{فوریئر کوسائن تسلسل}\فرہنگ{فوریئر!کوسائن تسلسل}\حاشیہب{Fourier cosine series}\فرہنگ{Fourier!cosine series}
-\begin{align}
+\begin{align}\label{مساوات_فوریئر_جفت_فوریئر_تسلسل}
 f(t)=a_0+\sum_{n=1}^{\infty} a_n\cos \frac{2n\pi}{T}t\quad \quad \quad (\text{\RL{جفت $f$}})
 \end{align}
  ہو گی جس کے عددی سر درج ذیل ہوں گے۔
-\begin{align}
+\begin{align}\label{مساوات_فوریئر_جفت_تسلسل_عددی_سر}
 a_0=\frac{2}{T}\int_{0}^{\frac{T}{2}}f(t)\,\dif t, \quad a_n=\frac{4}{T}\int_{0}^{\frac{T}{2}}f(t)\cos \frac{2n\pi}{T}t\,\dif t,\quad n=1,2,\cdots
 \end{align}
  
 دوری عرصہ \عددی{T} کی طاق تفاعل \عددی{f(t)} کی فوریئر تسلسل، \اصطلاح{فوریئر سائن تسلسل}\فرہنگ{فوریئر!سائن تسلسل}\حاشیہب{Fourier sine series}\فرہنگ{Fourier!sine series}
-\begin{align}
+\begin{align}\label{مساوات_فوریئر_طاق_فوریئر_تسلسل}
 f(t)=\sum_{n=1}^{\infty} b_n\sin \frac{2n\pi}{T}t\quad \quad \quad (\text{\RL{طاق $f$}})
 \end{align}
  ہو گی جس کے عددی سر درج ذیل ہوں گے۔
-\begin{align}
+\begin{align}\label{مساوات_فوریئر_طاق_تسلسل_عددی_سر}
 b_n=\frac{4}{T}\int_{0}^{\frac{T}{2}}f(t)\sin \frac{2n\pi}{T}t\,\dif t,\quad n=1,2,\cdots
 \end{align}
 \انتہا{مسئلہ}
@@ -1429,7 +1429,7 @@ $\tfrac{\pi^2}{6}+\tfrac{\pi}{4}-\tfrac{2}{\pi}(\pi+1)\cos x+\tfrac{1}{\pi}(-\pi
 سوال \حوالہ{سوال_فوریئر_تصدیق_درکار_الف} تا سوال \حوالہ{سوال_فوریئر_تصدیق_درکار_ت} میں دی گئی تعلق کو ثابت کریں (مساوات \حوالہ{مساوات_فوریئر_لیبنٹز_تعلق} دیکھیں)۔
 
 %=====================
-\ابتدا{سوال}\شناخت{سوال_فوریئر_تصدیق_درکار_الف}\quad(سوال \حوالہ{سوال_فوریئر_تسلسل_درکار_الف} استعمال کریں) \quad 
+\ابتدا{سوال}\شناخت{سوال_فوریئر_تصدیق_درکار_الف}\quad(سوال \حوالہ{سوال_فوریئر_تسلسل_درکار_الف} یا سوال \حوالہ{سوال_فوریئر_تسلسل_درکار_ب}  استعمال کریں) \quad 
 $1-\tfrac{1}{3}+\tfrac{1}{5}-\tfrac{1}{7}+-\cdots=\tfrac{\pi}{4}$
 
 \انتہا{سوال}
@@ -1449,3 +1449,294 @@ $1+\tfrac{1}{3^2}+\tfrac{1}{5^2}+\tfrac{1}{7^2}+\cdots=\tfrac{\pi^2}{8}$
 
 \انتہا{سوال}
 %========================
+
+\حصہ{نصف حلقہ اتساع}
+کئی انجینئری اور طبیعیاتی مسائل میں ایسے تفاعل \عددی{f(t)} کی فوریئر تسلسل درکار ہو گی جو کسی محدود وقفہ \عددی{0\le t\le l}  پر معین ہو۔ہم وقفہ \عددی{0\le t\le l} کو تکمل کا وقفہ \عددی{0\le t\le \tfrac{T}{2}} لیتے ہوئے مسئلہ \حوالہ{مسئلہ_فوریئر_جفت_طاق_تسلسل} استعمال کرتے ہیں۔یوں \عددی{l=\tfrac{T}{2}} یعنی \عددی{T=2l} چنا گیا ہے۔ مساوات \حوالہ{مساوات_فوریئر_جفت_تسلسل_عددی_سر} استعمال کرتے ہوئے فوریئر کوسائن تسلسل حاصل ہوتی ہے جو \عددی{T=2l} عددی عرصہ کی جفت تفاعل \عددی{f_1(t)}  کو ظاہر کرتی ہے۔وقفہ  \عددی{0\le t\le l} پر \عددی{f_1(t)=f(t)} ہو گا۔اسی لئے \عددی{f_1(t)} کو \عددی{f(t)} کی \اصطلاح{جفت دوری توسیع}\فرہنگ{جفت!دوری توسیع}\حاشیہب{even periodic extension}\فرہنگ{even!periodic extension} کہتے ہیں۔شکل \حوالہ{شکل_فوریئر_دوری_توسیع}-ب میں جفت دوری توسیع دکھائی گئی ہے۔مساوات \حوالہ{مساوات_فوریئر_جفت_فوریئر_تسلسل} اور مساوات \حوالہ{مساوات_فوریئر_جفت_تسلسل_عددی_سر} میں \عددی{T=2l} لیتے ہوئے 
+\begin{align}\label{مساوات_فوریئر_نصف_حلقہ_توسیع_جفت}
+f(t)=a_0+\sum_{n=1}^{\infty} a_n\cos \frac{n\pi}{l}t\quad \quad \quad (0\le t\le l)
+\end{align}
+جفت فوریئر تسلسل حاصل ہو گی جس کی عددی سر
+\begin{align}\label{مساوات_فوریئر_نصف_حلقہ_توسیع_جفت_عددی_سر}
+a_0=\frac{1}{l}\int_{0}^{l}f(t)\,\dif t,\quad a_n=\frac{2}{l}\int_0^l f(t)\cos \frac{n\pi}{l}t\,\dif t,\quad n=1,2,\cdots
+\end{align}
+ہوں گے۔
+
+ہم مسئلہ  \حوالہ{مسئلہ_فوریئر_جفت_طاق_تسلسل} کی مساوات \حوالہ{مساوات_فوریئر_جفت_تسلسل_عددی_سر} کی جگہ، پہلی کی طرح \عددی{T=2l} لیتے ہوئے، مساوات \حوالہ{مساوات_فوریئر_طاق_تسلسل_عددی_سر}  استعمال کر سکتے ہیں۔ایسا کرنے سے فوریئر سائن تسلسل حاصل ہو گی جو دوری عرصہ \عددی{T=2l} کی دوری تفاعل \عددی{f_2(t)} کو ظاہر کرے گی۔وقفہ \عددی{0\le t\le l} پر \عددی{f_2(t)=f(t)} ہو گا۔\عددی{f_2(t)} کو \عددی{f(t)} کی \اصطلاح{طاق دوری توسیع}\فرہنگ{طاق!دوری توسیع}\حاشیہب{odd periodic extension}\فرہنگ{odd!periodic extension} کہتے ہیں۔شکل \حوالہ{شکل_فوریئر_دوری_توسیع}-پ میں طاق دوری توسیع دکھائی گئی ہے۔مساوات \حوالہ{مساوات_فوریئر_طاق_فوریئر_تسلسل} اور مساوات \حوالہ{مساوات_فوریئر_طاق_تسلسل_عددی_سر} میں \عددی{T=2l} لیتے ہوئے 
+\begin{align}\label{مساوات_فوریئر_نصف_حلقہ_توسیع_طاق}
+f(t)=\sum_{n=1}^{\infty} b_n\sin \frac{n\pi}{l}t\quad \quad \quad (0\le t\le l)
+\end{align}
+طاق فوریئر تسلسل حاصل ہو گی جس کی عددی سر
+\begin{align}\label{مساوات_فوریئر_نصف_حلقہ_توسیع_طاق_عددی_سر}
+b_n=\frac{2}{l}\int_0^l f(t)\sin \frac{n\pi}{l}t\,\dif t,\quad n=1,2,\cdots
+\end{align}
+ہوں گے۔مساوات \حوالہ{مساوات_فوریئر_نصف_حلقہ_توسیع_جفت_عددی_سر} اور مساوات \حوالہ{مساوات_فوریئر_نصف_حلقہ_توسیع_طاق_عددی_سر} میں دی گئی عددی سر استعمال کرتے ہوئے  مساوات \حوالہ{مساوات_فوریئر_نصف_حلقہ_توسیع_جفت} اور مساوات \حوالہ{مساوات_فوریئر_نصف_حلقہ_توسیع_طاق} کو دی گئی تفاعل \عددی{f(t)} کی \اصطلاح{نصف حلقہ اتساع}\فرہنگ{نصف حلقہ اتساع}\حاشیہب{half range expansion}\فرہنگ{half range expansion} کہتے ہیں۔ 
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)--(1.5,0)node[right]{$t$};
+\draw(0,0)--(0,1)node[left]{$f(t)$};
+%
+\draw[thick,domain=0:1,smooth] plot ({\x},{0.25+(\x-0.25)*(\x-0.25)});
+\draw(1,0)node[below]{$l$}--++(0,0.2);
+\end{tikzpicture}
+\caption*{(الف) دیا گیا تفاعل $f(t)$}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-2,0)--(3,0)node[right]{$t$};
+\draw(0,0)--(0,1)node[left]{$f_1(t)$};
+%
+\draw[thick,domain=0:1,smooth] plot ({\x},{0.25+(\x-0.25)*(\x-0.25)});
+\draw[thick,domain=0:1,smooth] plot ({-\x},{0.25+(\x-0.25)*(\x-0.25)});
+\draw[thick,domain=0:1,smooth] plot ({\x-2},{0.25+(\x-0.25)*(\x-0.25)});
+\draw[thick,domain=0:1,smooth] plot ({\x+2},{0.25+(\x-0.25)*(\x-0.25)});
+\draw[thick,domain=0:1,smooth] plot ({2-\x},{0.25+(\x-0.25)*(\x-0.25)});
+\draw(1,0)node[below]{$l$}--++(0,0.2);
+\draw(-1,0)node[below]{$-l$}--++(0,0.2);
+\draw(2,0)--++(0,0.2);
+\end{tikzpicture}
+\caption*{(ب) تفاعل $f(t)$ کی جفت دوری توسیع}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-2,0)--(3,0)node[right]{$t$};
+\draw(0,-1)--(0,1)node[left]{$f_2(t)$};
+%
+\draw[thick,domain=0:1,smooth] plot ({\x},{0.25+(\x-0.25)*(\x-0.25)});
+\draw[thick,domain=0:1,smooth] plot ({\x+2},{0.25+(\x-0.25)*(\x-0.25)});
+\draw[thick,domain=0:1,smooth] plot ({\x-2},{0.25+(\x-0.25)*(\x-0.25)});
+\draw[thick,domain=0:1,smooth] plot ({-\x},{-0.25-(\x-0.25)*(\x-0.25)});
+\draw[thick,domain=0:1,smooth] plot ({2-\x},{-0.25-(\x-0.25)*(\x-0.25)});
+%
+\draw(-1,0.8125)--(-1,-0.8125);
+\draw(1,0.8125)--(1,-0.8125);
+\draw(0,0.3125)--(0,-0.3125);
+\draw(2,0.3125)--(2,-0.3125);
+%
+\draw(1,0)node[shift={(0,-0.3)},fill=white]{$l$};
+\draw(-1,0)node[shift={(-0.15,-0.3)},fill=white]{$-l$};
+\end{tikzpicture}
+\caption*{(پ) تفاعل $f(t)$ کی طاق دوری توسیع}
+\end{subfigure}%
+\caption{دوری توسیع}
+\label{شکل_فوریئر_دوری_توسیع}
+\end{figure}
+%===================
+\ابتدا{مثال}\شناخت{مثال_فوریئر_تکونی_دھڑکن}\quad تکونی دھڑکن\\
+درج ذیل تکونی دھڑکن کی نصف حلقہ اتساع کریں (شکل \حوالہ{شکل_مثال_فوریئر_تکونی_دھڑکن})۔
+\begin{align*}
+f(t)=
+\begin{cases}
+\frac{2k}{l}t&0<t<\frac{l}{2}\\
+\frac{2k}{l}(l-t)&\frac{l}{2}<t<l
+\end{cases}
+\end{align*}
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0)--(2.5,0)node[right]{$t$};
+\draw(0,0)--(0,1.5);
+%
+\draw(0,0)node[below]{$0$}--(1,1)--(2,0);
+\draw(1,0)node[below]{$\frac{l}{2}$}--++(0,0.2);
+\draw(2,0)node[below]{$l$}--++(0,0.2);
+\draw(0,1)node[left]{$k$}--++(0.2,0);
+\end{tikzpicture}
+\caption{تکونی دھڑکن (مثال \حوالہ{مثال_فوریئر_تکونی_دھڑکن})}
+\label{شکل_مثال_فوریئر_تکونی_دھڑکن}
+\end{figure}
+
+حل:مساوات \حوالہ{مساوات_فوریئر_نصف_حلقہ_توسیع_جفت_عددی_سر} سے درج ذیل ملتا ہے۔
+\begin{align*}
+a_0&=\frac{1}{l}\big[\frac{2k}{l}\int_0^{\frac{l}{2}}t\,\dif t+\frac{2k}{l}\int_{\frac{l}{2}}^{l}(l-t)\,\dif t\big]=\frac{k}{2}\\
+a_n&=\frac{2}{l}\big[\frac{2k}{l}\int_0^{\frac{l}{2}}t\cos \frac{n\pi}{l}t\,\dif t+\frac{2k}{l}\int_{\frac{l}{2}}^{l}(l-t)\cos \frac{n\pi}{l}t\,\dif t\big]
+\end{align*}
+تکمل بالحصص لیتے  سے
+\begin{align*}
+\int_0^{\frac{l}{2}}t\cos \frac{n\pi}{l}t\,\dif t&=\left. \frac{lt}{n\pi}\sin \frac{n\pi}{l}t\right|_0^{\frac{l}{2}}-\frac{1}{n\pi}\int_0^{\frac{l}{2}} \sin \frac{n\pi}{l}t\,\dif t\\
+&=\frac{l^2}{2n\pi}\sin \frac{n\pi}{2}+\frac{l^2}{n^2\pi^2}(\cos \frac{n\pi}{2}-1)
+\end{align*}
+ملتا ہے۔اسی طرح تکمل بالحصص سے
+\begin{align*}
+\int_{\frac{l}{2}}^{l}(l-t)\cos \frac{n\pi}{l}t\,\dif t=-\frac{l^2}{2n\pi}\sin\frac{n\pi}{2}-\frac{l^2}{n^2\pi^2}(\cos n\pi-\cos \frac{n\pi}{2})
+\end{align*}
+ملتا ہے۔ان نتائج سے
+\begin{align*}
+a_n=\frac{4k}{n^2\pi^2}(2\cos \frac{n\pi}{2}-\cos n\pi-1)
+\end{align*}
+یعنی
+\begin{align*}
+a_2&=-\frac{16k}{2^2\pi^2},\quad a_6=-\frac{16k}{6^2\pi^2},\quad a_{10}=-\frac{16k}{10^2\pi^2},\cdots\\
+a_n&=0,\quad n\ne 2,6,10,14,\cdots
+\end{align*}
+حاصل ہوتا ہے۔یوں تکونی دھڑکن  \عددی{f(t)} کی پہلی نصف حلقہ اتساع درج ذیل ہو گی جو \عددی{f(t)} کی دوری جفت توسیع ہے (شکل \حوالہ{شکل_مثال_فوریئر_تکونی_دھڑکن_توسیع}-الف)۔ 
+\begin{align*}
+f(t)=\frac{k}{2}-\frac{16k}{\pi^2}\big(\frac{1}{2^2}\cos \frac{2\pi}{l}t+\frac{1}{6^2}\cos \frac{6\pi}{l}t+\cdots\big)
+\end{align*} 
+
+اسی طرح مساوات \حوالہ{مساوات_فوریئر_نصف_حلقہ_توسیع_طاق_عددی_سر} سے
+\begin{align*}
+b_n=\frac{8k}{n^2\pi^2}\sin \frac{n\pi}{2}
+\end{align*}
+حاصل ہو گا جس سے \عددی{f(t)} کی دوسری نصف حلقہ اتساع درج ذیل حاصل ہو گی جو \عددی{f(t)} کی دوری طاق توسیع ہے (شکل \حوالہ{شکل_مثال_فوریئر_تکونی_دھڑکن_توسیع}-ب)۔
+\begin{align*}
+f(t)=\frac{8k}{\pi^2}\big(\frac{1}{1^2}\sin \frac{\pi}{l}t-\frac{1}{3^2}\sin \frac{3\pi}{l}t+\frac{1}{5^2}\sin \frac{5\pi}{l}t-+\cdots\big)
+\end{align*}
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-2.5,0)--(4.5,0)node[right]{$t$};
+\draw(0,0)node[below]{$0$}--(0,1.5);
+%
+\draw(0,0)--(-1,1)--(-2,0)--++(-45:-0.3);
+\draw[thick](0,0)--(1,1)--(2,0);
+\draw(2,0)--(3,1)--++(-45:0.3);
+%
+\draw(-2,0)node[below]{$-l$}--++(0,0.2);
+\draw(2,0)node[below]{$l$}--++(0,0.2);
+\end{tikzpicture}
+\caption*{(الف) جفت اتساع}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-2.5,0)--(4.5,0)node[right]{$t$};
+\draw(0,0)node[below]{$0$}--(0,1.5);
+%
+\draw(0,0)--(-1,-1)--(-2,0)--++(-45:-0.3);
+\draw[thick](0,0)--(1,1)--(2,0);
+\draw(2,0)--(3,-1)--(4,0)--++(45:0.3);
+%
+\draw(-2,0)node[shift={(-0.2,-0.3)}]{$-l$}--++(0,0.2);
+\draw(2,0)node[below]{$l$}--++(0,0.2);
+\end{tikzpicture}
+\caption*{(ب) طاق اتساع}
+\end{subfigure}
+\caption{تفاعل \عددی{f(t)} کی دوری اتساع (مثال \حوالہ{مثال_فوریئر_تکونی_دھڑکن})}
+\label{شکل_مثال_فوریئر_تکونی_دھڑکن_توسیع}
+\end{figure}
+\انتہا{مثال}
+%=========================
+\حصہء{سوالات}
+سوال \حوالہ{سوال_فوریئر_سائن_فوریئر_درکار_الف} تا سوال \حوالہ{سوال_فوریئر_سائن_فوریئر_درکار_ب} میں دیے گئے تفاعل \عددی{f(t)} کی فوریئر سائن تسلسل حاصل کریں اور مطابقتی دوری طاق تفاعل کی ترسیم کھینچیں۔
+
+%=====================
+\ابتدا{سوال}\شناخت{سوال_فوریئر_سائن_فوریئر_درکار_الف}\quad 
+$f(t)=t,\quad (0<t<\pi)$\\
+جواب:\quad
+$2\sin t-\sin 2t+\tfrac{2}{3}\sin 3t-\tfrac{1}{2}\sin 4t\cdots$
+\انتہا{سوال}
+%===========================
+\ابتدا{سوال}\quad 
+$f(t)=k,\quad (0<t<l)$\\
+جواب:\quad
+$\tfrac{4k}{\pi}(\sin \tfrac{\pi t}{l}+\tfrac{1}{3}\sin \tfrac{3\pi t}{l}+\tfrac{1}{5}\sin \tfrac{5\pi t}{l}\cdots)$
+\انتہا{سوال}
+%===========================
+\ابتدا{سوال}\quad
+$f(t)=1-t,\quad (0<t<1)$\\
+جواب:\quad
+$\tfrac{1}{\pi}(2\sin \pi t+\sin 2\pi t+\tfrac{2}{3}\sin 3\pi t\cdots)$
+\انتہا{سوال}
+%===========================
+\ابتدا{سوال}\quad
+$f(t)=\cos t,\quad (0<t<\frac{\pi}{2})$\\
+جواب:\quad
+$\tfrac{8}{\pi}(\tfrac{1}{3}\sin 2t+\tfrac{2}{15}\sin 4t+\tfrac{3}{35}\sin 6t\cdots)$
+\انتہا{سوال}
+%===========================
+\ابتدا{سوال}
+\begin{align*}
+f(t)=
+\begin{cases}
+t&0<t<\frac{\pi}{2}\\
+\frac{\pi}{2}&\frac{\pi}{2}<t<\pi
+\end{cases}
+\end{align*}
+جواب:\quad
+$(1+\tfrac{2}{\pi})\sin t-\tfrac{1}{2}\sin 2t+(\tfrac{1}{3}-\tfrac{2}{9\pi})\sin 3t\cdots$
+\انتہا{سوال}
+%===========================
+\ابتدا{سوال}
+\begin{align*}
+f(t)=
+\begin{cases}
+1&0<t<1\\
+2-t&1<t<2
+\end{cases}
+\end{align*}
+جواب:\quad
+$\tfrac{2}{\pi}[(1+\tfrac{2}{\pi})\sin \tfrac{\pi t}{2}+\tfrac{1}{2}\sin \pi t+(\tfrac{1}{3}-\tfrac{2}{9\pi})\sin \tfrac{3\pi}{2}t\cdots]$
+\انتہا{سوال}
+%===========================
+\ابتدا{سوال}
+\begin{align*}
+f(t)=
+\begin{cases}
+1&0<t<1\\
+2&1<t<2
+\end{cases}
+\end{align*}
+جواب:\quad
+$\tfrac{2}{\pi}[3\sin \tfrac{\pi t}{2}-\sin \pi t+\sin \tfrac{3\pi t}{2}\cdots]$
+\انتہا{سوال}
+%===========================
+\ابتدا{سوال}\شناخت{سوال_فوریئر_سائن_فوریئر_درکار_ب}
+\begin{align*}
+f(t)=
+\begin{cases}
+1-t&0<t<1\\
+1&1<t<2
+\end{cases}
+\end{align*}
+جواب:\quad
+$(\tfrac{4}{\pi}-\tfrac{4}{\pi^2})\sin \tfrac{\pi t}{2}-\tfrac{1}{\pi} \sin \pi t+(\tfrac{4}{3\pi}+\tfrac{4}{9\pi^2})\sin\tfrac{3\pi t}{2}\cdots$
+\انتہا{سوال}
+%===========================
+سوال \حوالہ{سوال_فوریئر_کوسائن_فوریئر_درکار_الف} تا سوال \حوالہ{سوال_فوریئر_کوسائن_فوریئر_درکار_الف} میں دیے گئے تفاعل \عددی{f(t)} کی فوریئر کوسائن تسلسل دریافت کریں  اور مطابقتی دوری جفت تفاعل کی ترسیم کھینچیں۔
+
+%==================
+\ابتدا{سوال}\شناخت{سوال_فوریئر_کوسائن_فوریئر_درکار_الف}\quad
+$f(t)=k,\quad (0<t<l)$\\
+جواب:\quad
+$f(t)=k$
+\انتہا{سوال}
+%=======================
+\ابتدا{سوال}\quad
+$f(t)=t,\quad (0<t<l)$\\
+جواب:\quad
+$\tfrac{l}{2}-\tfrac{4l}{\pi^2}(\cos \tfrac{\pi t}{l}+\tfrac{1}{9}\cos \tfrac{3\pi t}{l}+\tfrac{1}{25}\cos \tfrac{5\pi t}{l}\cdots)$
+\انتہا{سوال}
+%=======================
+\ابتدا{سوال}\quad
+$f(t)=t^2,\quad (0<t<l)$\\
+جواب:\quad
+$\tfrac{l^2}{3}-\tfrac{l^2}{\pi^2}(4\cos \tfrac{\pi t}{l}-\cos \tfrac{2\pi t}{l}+\tfrac{4}{9}\cos \tfrac{3\pi t}{l}\cdots)$
+\انتہا{سوال}
+%=======================
+\ابتدا{سوال}\quad
+$f(t)=\sin t,\quad (0<t<\tfrac{\pi}{2})$\\
+جواب:\quad
+$\tfrac{2}{\pi}-\tfrac{4}{\pi}(\tfrac{1}{3}\cos 2t+\tfrac{1}{15}\cos 4t+\tfrac{1}{35}\cos 6t\cdots)$
+\انتہا{سوال}
+%=======================
+\ابتدا{سوال}\quad
+$f(t)=\cos t,\quad (0<t<\tfrac{\pi}{2})$\\
+جواب:\quad
+$\tfrac{2}{\pi}+\tfrac{4}{\pi}(\tfrac{1}{3}\cos 2t-\tfrac{1}{15}\cos 4t+\tfrac{1}{35}\cos 6t-+\cdots)$
+\انتہا{سوال}
+%=======================
+\ابتدا{سوال}\quad
+$f(t)=e^t,\quad (0<t<1)$\\
+جواب:\quad
+
+\انتہا{سوال}
+%=======================

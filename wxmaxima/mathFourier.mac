@@ -1224,3 +1224,69 @@ FF:a+ann*cos(1*%pi*t/L)+sum(an*cos(n*%pi*t/L),n,2,5);
 
 plot2d(FF,[t,-2,4]);
 
+
+Print("======================================");
+kill(all);
+print("Q 12.112");
+
+declare(n,integer);
+
+fa:-x;
+fb:x;
+a:-%pi;
+b:0;
+c:0;
+d:%pi;
+
+cn:1/(2*%pi)*(integrate(fa*%e^(-%i*n*x),x,a,b)+integrate(fb*%e^(-%i*n*x),x,c,d));
+
+FF:sum(cn*%e^(%i*n*x),n,-5,-1)+sum(cn*%e^(%i*n*x),n,1,5);
+expand (%);
+
+
+Print("======================================");
+kill(all);
+print("Q 12.113");
+
+declare(n,integer);
+
+f:x;
+a:-%pi;
+b:%pi;
+
+cn:1/(2*%pi)*integrate(f*%e^(-%i*n*x),x,a,b);
+
+FF:sum(cn*%e^(%i*n*x),n,-5,-1)+sum(cn*%e^(%i*n*x),n,1,5);
+expand (%);
+
+Print("======================================");
+kill(all);
+print("Q 12.114");
+
+declare(n,integer);
+
+f:x^2;
+a:-%pi;
+b:%pi;
+
+cn:1/(2*%pi)*integrate(f*%e^(-%i*n*x),x,a,b);
+
+FF:sum(cn*%e^(%i*n*x),n,-5,-1)+sum(cn*%e^(%i*n*x),n,1,5);
+expand (%);
+
+
+Print("======================================");
+kill(all);
+print("Q 12.115");
+
+declare(n,integer);
+
+f:%e^x;
+a:-%pi;
+b:%pi;
+
+cn:1/(2*%pi)*integrate(f*%e^(-%i*n*x),x,a,b);
+ev(cn,n=0);
+FF:sum(cn*%e^(%i*n*x),n,-5,5);
+expand (%);
+demoivre(%);

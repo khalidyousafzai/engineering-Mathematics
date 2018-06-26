@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  25 JUN 2018 15:31
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  26 JUN 2018 15:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3243,43 +3243,48 @@ Overfull \hbox (34.98378pt too wide) in paragraph at lines 1640--1649
  [][][][] 
  []
 
-[919] [920] [921] [922] [923] [924] [925] [926]) [927]
+[919] [920] [921] [922] [923] [924] [925] [926] [927] [928] [929] [930]
+
+Package pgf Warning: Your graphic driver pgfsys-xetex.def does not support patt
+erns. This warning is given only once on input line 2227.
+
+[931]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 5.70004pt on input line 2252.
+ [932] [933]) [934]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
-
-(./tex/mathAppendixAdditionalProofs.tex [928
-
-
-
-]
+ (./tex/mathAppendixAdditionalProofs.tex
 ضمیمہ ا.
-[929] [930]) [931]
+[935
+
+
+
+] [936]) [937]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [932
+ (./tex/mathAppendixAuxiliaryMaterial.tex [938
 
 
 
 ]
 ضمیمہ ب.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 8.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[933] [934] [935] [936] [937]
+[939] [940] [941] [942] [943]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [938] [939]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [944] [945]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [940]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [946]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [941]
-[942
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [947]
+[948
 
 
 ] (./engineeringMathematics.aux (./tex/mathPreface.aux)
@@ -3296,19 +3301,19 @@ File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
 (./tex/mathAppendixAuxiliaryMaterial.aux))
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 2.26395pt have occurred.
+(Font)              up to 3.75237pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 50086 strings out of 493918
- 1187063 string characters out of 6150563
- 1360865 words of memory out of 5000000
- 52369 multiletter control sequences out of 15000+600000
- 42351 words of font info for 170 fonts, out of 8000000 for 9000
+ 50637 strings out of 493918
+ 1199432 string characters out of 6150563
+ 1364928 words of memory out of 5000000
+ 52917 multiletter control sequences out of 15000+600000
+ 53865 words of font info for 208 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,19n,81p,10485b,2240s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (68 pages).
+Output written on engineeringMathematics.pdf (74 pages).

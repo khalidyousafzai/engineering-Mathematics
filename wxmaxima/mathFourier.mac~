@@ -855,7 +855,7 @@ Print("======================================");
 kill(all);
 print("Q 12.97");
 
-assume(ll<0);
+assume(ll>0);
 declare(n,integer,w,constant);
 fa:k;
 fb:0;
@@ -883,7 +883,7 @@ Print("======================================");
 kill(all);
 print("Q 12.98");
 
-assume(ll<0);
+assume(ll>0);
 declare(n,integer,w,constant);
 fa:1-t;
 fb:0;
@@ -912,7 +912,7 @@ Print("======================================");
 kill(all);
 print("Q 12.99");
 
-assume(ll<0);
+assume(ll>0);
 declare(n,integer,w,constant);
 fa:cos(t);
 fb:0;
@@ -941,7 +941,7 @@ Print("======================================");
 kill(all);
 print("Q 12.100");
 
-assume(ll<0);
+assume(ll>0);
 declare(n,integer,w,constant);
 fa:t;
 fb:1/2*%pi;
@@ -972,7 +972,7 @@ kill(all);
 print("Q 12.101");
 
 
-assume(ll<0);
+assume(ll>0);
 declare(n,integer,w,constant);
 fa:1;
 fb:2-t;
@@ -1000,7 +1000,7 @@ Print("======================================");
 kill(all);
 print("Q 12.102");
 
-assume(ll<0);
+assume(ll>0);
 declare(n,integer,w,constant);
 
 fa:1;
@@ -1028,7 +1028,7 @@ Print("======================================");
 kill(all);
 print("Q 12.103");
 
-assume(ll<0);
+assume(ll>0);
 declare(n,integer,w,constant);
 
 fa:1-t;
@@ -1056,7 +1056,7 @@ Print("======================================");
 kill(all);
 print("Q 12.104");
 
-assume(ll<0);
+assume(ll>0);
 declare(n,integer,w,constant);
 
 fa:k;
@@ -1085,7 +1085,7 @@ Print("======================================");
 kill(all);
 print("Q 12.105");
 
-assume(ll<0);
+assume(ll>0);
 declare(n,integer,w,constant);
 
 fa:t;
@@ -1114,7 +1114,7 @@ Print("======================================");
 kill(all);
 print("Q 12.106");
 
-assume(ll<0);
+assume(ll>0);
 declare(n,integer,w,constant);
 
 fa:t^2;
@@ -1143,7 +1143,7 @@ Print("======================================");
 kill(all);
 print("Q 12.107");
 
-assume(ll<0);
+
 declare(n,integer,w,constant);
 
 fa:sin(t);
@@ -1171,7 +1171,7 @@ Print("======================================");
 kill(all);
 print("Q 12.108");
 
-assume(ll<0);
+
 declare(n,integer,w,constant);
 
 fa:cos(t);
@@ -1200,7 +1200,6 @@ Print("======================================");
 kill(all);
 print("Q 12.109");
 
-assume(ll<0);
 declare(n,integer,w,constant);
 
 fa:%e^t;
@@ -1286,7 +1285,192 @@ a:-%pi;
 b:%pi;
 
 cn:1/(2*%pi)*integrate(f*%e^(-%i*n*x),x,a,b);
-
-FF:sum(cn*%e^(%i*n*x),n,-5,-1)+sum(cn*%e^(%i*n*x),n,1,5);
+ev(cn,n=0);
+FF:sum(cn*%e^(%i*n*x),n,-5,5);
 expand (%);
 demoivre(%);
+
+
+Print("======================================");
+kill(all);
+print("Q 12.123");
+
+
+declare(n,integer,w,constant);
+
+fa:t^2+2*t+1;
+fb:0;
+L:%pi;
+pa:0;
+pb:L;
+qa:0;
+qb:0;
+
+
+a:1/L*(integrate(fa,t,pa,pb)+integrate(fb,t,qa,qb));
+an:2/L*(integrate(fa*cos(n*%pi*t/L),t,pa,pb)+integrate(fb*cos(n*%pi*t/L),t,qa,qb));
+bn:2/L*(integrate(fa*sin(n*%pi*t/L),t,pa,pb)+integrate(fb*sin(n*%pi*t/L),t,qa,qb));
+
+n:1;
+ann:2/L*(integrate(fa*cos(n*%pi*t/L),t,pa,pb)+integrate(fb*cos(n*%pi*t/L),t,qa,qb));
+bnn:2/L*(integrate(fa*sin(n*%pi*t/L),t,pa,pb)+integrate(fb*sin(n*%pi*t/L),t,qa,qb));
+
+FF:bnn*sin(1*%pi*t/L)+sum(bn*sin(n*%pi*t/L),n,2,5);
+
+plot2d(FF,[t,-2,4]);
+
+Print("======================================");
+kill(all);
+print("Q 12.124");
+
+declare(n,integer,w,constant);
+
+fa:t^3;
+fb:0;
+L:1;
+pa:0;
+pb:L;
+qa:0;
+qb:0;
+
+
+a:1/L*(integrate(fa,t,pa,pb)+integrate(fb,t,qa,qb));
+an:2/L*(integrate(fa*cos(n*%pi*t/L),t,pa,pb)+integrate(fb*cos(n*%pi*t/L),t,qa,qb));
+bn:2/L*(integrate(fa*sin(n*%pi*t/L),t,pa,pb)+integrate(fb*sin(n*%pi*t/L),t,qa,qb));
+
+n:1;
+ann:2/L*(integrate(fa*cos(n*%pi*t/L),t,pa,pb)+integrate(fb*cos(n*%pi*t/L),t,qa,qb));
+bnn:2/L*(integrate(fa*sin(n*%pi*t/L),t,pa,pb)+integrate(fb*sin(n*%pi*t/L),t,qa,qb));
+
+FF:bnn*sin(1*%pi*t/L)+sum(bn*sin(n*%pi*t/L),n,2,5);
+
+plot2d(FF,[t,-2,4]);
+
+
+Print("======================================");
+kill(all);
+print("Q 12.125");
+
+declare(n,integer,w,constant);
+
+fa:t*(1-t);
+fb:0;
+L:1;
+pa:0;
+pb:L;
+qa:0;
+qb:0;
+
+
+a:1/L*(integrate(fa,t,pa,pb)+integrate(fb,t,qa,qb));
+an:2/L*(integrate(fa*cos(n*%pi*t/L),t,pa,pb)+integrate(fb*cos(n*%pi*t/L),t,qa,qb));
+bn:2/L*(integrate(fa*sin(n*%pi*t/L),t,pa,pb)+integrate(fb*sin(n*%pi*t/L),t,qa,qb));
+
+n:1;
+ann:2/L*(integrate(fa*cos(n*%pi*t/L),t,pa,pb)+integrate(fb*cos(n*%pi*t/L),t,qa,qb));
+bnn:2/L*(integrate(fa*sin(n*%pi*t/L),t,pa,pb)+integrate(fb*sin(n*%pi*t/L),t,qa,qb));
+
+FF:bnn*sin(1*%pi*t/L)+sum(bn*sin(n*%pi*t/L),n,2,5);
+
+plot2d(FF,[t,-2,4]);
+
+
+
+Print("======================================");
+kill(all);
+print("Q 12.126");
+
+
+declare(n,integer,w,constant);
+
+fa:t*(t^2-1);
+fb:0;
+L:1;
+pa:0;
+pb:L;
+qa:0;
+qb:0;
+
+
+a:1/L*(integrate(fa,t,pa,pb)+integrate(fb,t,qa,qb));
+an:2/L*(integrate(fa*cos(n*%pi*t/L),t,pa,pb)+integrate(fb*cos(n*%pi*t/L),t,qa,qb));
+bn:2/L*(integrate(fa*sin(n*%pi*t/L),t,pa,pb)+integrate(fb*sin(n*%pi*t/L),t,qa,qb));
+
+n:1;
+ann:2/L*(integrate(fa*cos(n*%pi*t/L),t,pa,pb)+integrate(fb*cos(n*%pi*t/L),t,qa,qb));
+bnn:2/L*(integrate(fa*sin(n*%pi*t/L),t,pa,pb)+integrate(fb*sin(n*%pi*t/L),t,qa,qb));
+
+FF:bnn*sin(1*%pi*t/L)+sum(bn*sin(n*%pi*t/L),n,2,5);
+
+plot2d(FF,[t,-2,4]);
+
+
+
+Print("======================================");
+kill(all);
+print("Q 12.127");
+
+assume(ll>0);
+declare(n,integer,w,constant);
+
+fa:t^3;
+fb:0;
+L:ll;
+pa:0;
+pb:L;
+qa:0;
+qb:0;
+
+
+a:1/L*(integrate(fa,t,pa,pb)+integrate(fb,t,qa,qb));
+an:2/L*(integrate(fa*cos(n*%pi*t/L),t,pa,pb)+integrate(fb*cos(n*%pi*t/L),t,qa,qb));
+bn:2/L*(integrate(fa*sin(n*%pi*t/L),t,pa,pb)+integrate(fb*sin(n*%pi*t/L),t,qa,qb));
+
+n:1;
+ann:2/L*(integrate(fa*cos(n*%pi*t/L),t,pa,pb)+integrate(fb*cos(n*%pi*t/L),t,qa,qb));
+bnn:2/L*(integrate(fa*sin(n*%pi*t/L),t,pa,pb)+integrate(fb*sin(n*%pi*t/L),t,qa,qb));
+
+FF:a+ann*cos(1*%pi*t/L)+sum(an*cos(n*%pi*t/L),n,2,5);
+
+plot2d(FF,[t,-2,4]);
+
+
+Print("======================================");
+kill(all);
+print("example 12.10");
+
+D:(25-n^2)^2+(0.02*n)^2;
+An:4*(25-n^2)/(n^2*%pi*D);
+Bn:0.08/(n*%pi*D);
+
+ev(An,n=[1,3,5,7,9]);
+ev(Bn,n=[1,2,5,7,9]);
+
+Print("======================================");
+kill(all);
+print("Q 12.128");
+
+assume(notequal(w,0));
+f:sin(t);
+
+eq:'diff(y,t,2)+w^2*y=f;
+ode2(eq,y,t);
+
+Print("======================================");
+kill(all);
+print("Q 12.129");
+assume(notequal(w^2,a^2),notequal(w^2,b^2),notequal(w,0));
+f:cos(a*t)+cos(b*t);
+
+eq:'diff(y,t,2)+w^2*y=f;
+ode2(eq,y,t);
+
+Print("======================================");
+kill(all);
+print("Q 12.130");
+assume(notequal(w,0));
+
+f:sin(t)+1/9*sin(3*t)+1/25*sin(5*t);
+
+eq:'diff(y,t,2)+w^2*y=f;
+ode2(eq,y,t);

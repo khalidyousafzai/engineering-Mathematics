@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  26 JUN 2018 15:05
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  27 JUN 2018 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3251,19 +3251,37 @@ erns. This warning is given only once on input line 2227.
 [931]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 5.70004pt on input line 2252.
- [932] [933]) [934]
+ [932] [933] [934]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [935] [936] [937]
+LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 2542.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2542--2542
+[][][]\EU1/JameelNooriNastaleeq(0)/m/n/8 یہ ثابت کیا جا سکتا ہے کہ ایسا تفاعل  
+$\OML/zplm/m/it/8 f$  \EU1/JameelNooriNastaleeq(0)/m/n/8 کے لئے مساوات []64[].[
+]12[][] میں برابری کی علامت لکھنا بھی درست ہو گا۔مساوات []64[].[]12[][] میں برا
+بری کی علامت استعمال کرنے سے \EU1/XBTabrizBold(0)/m/n/8 پارسیوال[]
+ []
+
+[938]) [939] [940]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
  (./tex/mathAppendixAdditionalProofs.tex
 ضمیمہ ا.
-[935
+[941
 
 
 
-] [936]) [937]
+] [942]) [943]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [938
+ (./tex/mathAppendixAuxiliaryMaterial.tex [944
 
 
 
@@ -3271,20 +3289,20 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 ضمیمہ ب.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[939] [940] [941] [942] [943]
+[945] [946] [947] [948] [949]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [944] [945]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [950] [951]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [946]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [952]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [947]
-[948
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [953]
+[954
 
 
 ] (./engineeringMathematics.aux (./tex/mathPreface.aux)
@@ -3308,12 +3326,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 50637 strings out of 493918
- 1199432 string characters out of 6150563
- 1364928 words of memory out of 5000000
- 52917 multiletter control sequences out of 15000+600000
- 53865 words of font info for 208 fonts, out of 8000000 for 9000
+ 50868 strings out of 493918
+ 1205236 string characters out of 6150563
+ 1366087 words of memory out of 5000000
+ 53147 multiletter control sequences out of 15000+600000
+ 53873 words of font info for 209 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,19n,81p,10485b,2240s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,81p,10485b,2238s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (74 pages).
+Output written on engineeringMathematics.pdf (80 pages).

@@ -1470,7 +1470,150 @@ kill(all);
 print("Q 12.130");
 assume(notequal(w,0));
 
-f:sin(t)+1/9*sin(3*t)+1/25*sin(5*t);
+f:sin(3*t);
 
 eq:'diff(y,t,2)+w^2*y=f;
 ode2(eq,y,t);
+
+Print("======================================");
+kill(all);
+print("Q 12.131");
+assume(notequal(n,w),notequal(w,0));
+declare(n,integer);
+
+f:an*cos(n*t);
+
+eq:'diff(y,t,2)+w^2*y=f;
+ode2(eq,y,t);
+
+
+Print("======================================");
+kill(all);
+print("Q 12.132");
+assume(notequal(n,w),notequal(w,0));
+declare(n,integer);
+
+f:bn*sin(n*t);
+
+eq:'diff(y,t,2)+w^2*y=f;
+ode2(eq,y,t);
+
+
+Print("======================================");
+kill(all);
+print("Q 12.133");
+assume(notequal(n,w),notequal(w,0));
+declare(n,integer);
+
+f:4/(n*%pi)*sin(n*t);
+
+eq:'diff(y,t,2)+w^2*y=f;
+ode2(eq,y,t);
+
+
+Print("======================================");
+kill(all);
+print("Q 12.134");
+assume(notequal(n,w),notequal(w,0));
+declare(n,integer);
+
+f:2/n*sin(n*t);
+
+eq:'diff(y,t,2)+w^2*y=f;
+ode2(eq,y,t);
+
+Print("======================================");
+kill(all);
+print("Q 12.135");
+assume(notequal(n,w),notequal(w,0));
+declare(n,integer);
+assume(a=constant);
+
+f:4*(-1)^n/(n^2)*cos(n*t);
+
+eq:'diff(y,t,2)+w^2*y=f;
+ode2(eq,y,t);
+
+Print("======================================");
+kill(all);
+print("Q 12.136");
+
+f:cos(t);
+
+eq:'diff(y,t,2)+c*'diff(y,t,1)+y=f;
+ode2(eq,y,t);
+
+Print("======================================");
+kill(all);
+print("Q 12.137");
+
+f:sin(3*t);
+
+eq:'diff(y,t,2)+c*'diff(y,t,1)+y=f;
+ode2(eq,y,t);
+
+Print("======================================");
+kill(all);
+print("Q 12.138");
+
+f:an*cos(n*t);
+
+eq:'diff(y,t,2)+c*'diff(y,t,1)+y=f;
+ode2(eq,y,t);
+
+Print("======================================");
+kill(all);
+print("Q 12.139");
+
+f:sin(n*t);
+
+eq:'diff(y,t,2)+c*'diff(y,t,1)+y=f;
+ode2(eq,y,t);
+
+Print("======================================");
+kill(all);
+print("Q 12.140");
+
+f:4/(n^2*%pi)*cos(n*t);
+
+eq:'diff(y,t,2)+c*'diff(y,t,1)+y=f;
+ode2(eq,y,t);
+
+Print("======================================");
+kill(all);
+print("Q 12.141");
+
+R:1;
+L:1;
+C:1/100;
+
+E:40/(n*%pi)*sin(n*t);
+
+eq:'diff(y,t,2)+R/L*'diff(y,t,1)+1/(L*C)*y=40/(%pi)*cos(n*t);
+ode2(eq,y,t);
+
+Print("======================================");
+kill(all);
+print("Q 12.143");
+
+a0:0;
+a(n):=0;
+b(n):=2/n*(-1)^(n+1);
+f:x;
+pa:-%pi;
+pb:%pi;
+
+integrate(f^2,x,pa,pb)-%pi*(2*a0^2+sum(a(n)^2+b(n)^2,n,1,4));
+
+Print("======================================");
+kill(all);
+print("Q 12.144");
+
+a0:%pi^2/3;
+a(n):=4*(-1)^n/(n^2);
+b(n):=0;
+f:x^2;
+pa:-%pi;
+pb:%pi;
+
+integrate(f^2,x,pa,pb)-%pi*(2*a0^2+sum(a(n)^2+b(n)^2,n,1,2));

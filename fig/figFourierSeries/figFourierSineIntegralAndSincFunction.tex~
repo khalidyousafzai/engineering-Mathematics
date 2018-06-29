@@ -1,0 +1,38 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{steinmetz}		%\phase to show angle of phasors
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{pgfplots,filecontents}
+%\pgfplotsset{compat=1.9}
+%\usepgfplotslibrary{polar}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+%\usepackage{tikz-3dplot}
+%\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+%\input{../../tex/myEMTvectors.tex}
+\usepackage{graphics}
+\usepackage[]{graphicx} 
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+
+
+
+%\pgfplotsset{major y grid style={dashed}}
+\DeclareMathOperator{\kSi}{Si} 
+\begin{document}
+\begin{urdufont}
+
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle,xlabel={$x$},xtick={-2,-1,1,2},xticklabels={$-2\pi$,$-\pi$,$\pi$,$2\pi$},ytick={-1.571,1.571},yticklabels={$-\tfrac{\pi}{2}$,$\tfrac{\pi}{2}$},x label style={at={(current axis.right of origin)},anchor=south west}]
+\addplot [dashed] table [x index={0}, y index={1}]{figFourierSinc.dat}node[pos=0.4,pin=135:{متکمل}]{};
+\addplot [black] table [x index={0}, y index={1}]{figFourierSineIntegral.dat}node[pos=0.85,above]{$\kSi(z)$};
+\end{axis}%
+\end{tikzpicture}
+\end{urdufont}
+\end{document}

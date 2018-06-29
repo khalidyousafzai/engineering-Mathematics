@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  28 JUN 2018 15:18
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  29 JUN 2018 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3272,22 +3272,47 @@ $\OML/zplm/m/it/8 f$  \EU1/JameelNooriNastaleeq(0)/m/n/8 کے لئے مساوا�
 [938] [939] [940] [941] [942]
 Missing character: There is no ّ in font [lmroman8-regular]:mapping=tex-text!
  [943] [944] [945]
+File: ./fig/figFourierSeries/figFourierSineIntegralAndSincFunction.pdf Graphic 
+file (type QTm)
+
+<use  "./fig/figFourierSeries/figFourierSineIntegralAndSincFunction.pdf" >
+File: ./fig/figFourierSeries/figFourierGibbsPhenomenonA4.pdf Graphic file (type
+ QTm)
+
+<use  "./fig/figFourierSeries/figFourierGibbsPhenomenonA4.pdf" >
+File: ./fig/figFourierSeries/figFourierGibbsPhenomenonA8.pdf Graphic file (type
+ QTm)
+
+<use  "./fig/figFourierSeries/figFourierGibbsPhenomenonA8.pdf" >
+File: ./fig/figFourierSeries/figFourierGibbsPhenomenonA16.pdf Graphic file (typ
+e QTm)
+
+<use  "./fig/figFourierSeries/figFourierGibbsPhenomenonA16.pdf" >
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 2810.
- [946] [947]) [948]
+(Font)              scaled to size 12.0pt on input line 2834.
+ [946]
+[947] [948] [949] [950] [951]
+Overfull \hbox (2.93959pt too wide) in paragraph at lines 3044--3054
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 ملتا ہے جن سے  $\OML/zplm/m/it/10 A[] \OT
+1/zplm/m/n/10 = []\OML/zplm/m/it/10 A\OT1/zplm/m/n/10 ([])$  \EU1/JameelNooriNa
+staleeq(1)/m/n/10 حاصل ہوتا ہے۔یوں ثابت ہوا کہ $\OML/zplm/m/it/10 f\OT1/zplm/m/
+n/10 (\OML/zplm/m/it/10 ax\OT1/zplm/m/n/10 ) = [] [][] \OML/zplm/m/it/10 A\OT1/
+zplm/m/n/10 ([]) [] \OML/zplm/m/it/10 wx [] w$ []
+ []
+
+[952]) [953]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
+ (./tex/mathAppendixAdditionalProofs.tex [954
 
-(./tex/mathAppendixAdditionalProofs.tex
+
+
+]
 ضمیمہ ا.
-[949
-
-
-
-] [950]) [951]
+[955] [956]) [957]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [952
+ (./tex/mathAppendixAuxiliaryMaterial.tex [958
 
 
 
@@ -3295,20 +3320,20 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 ضمیمہ ب.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[953] [954] [955] [956] [957]
+[959] [960] [961] [962] [963]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [958] [959]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [964] [965]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [960]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [966]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [961]
-[962
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [967]
+[968
 
 
 ] (./engineeringMathematics.aux (./tex/mathPreface.aux)
@@ -3332,12 +3357,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 50928 strings out of 493918
- 1206541 string characters out of 6150563
- 1366737 words of memory out of 5000000
- 53207 multiletter control sequences out of 15000+600000
+ 50970 strings out of 493918
+ 1208027 string characters out of 6150563
+ 1366334 words of memory out of 5000000
+ 53233 multiletter control sequences out of 15000+600000
  53873 words of font info for 209 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,19n,81p,10485b,2240s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (88 pages).
+Output written on engineeringMathematics.pdf (94 pages).

@@ -1,74 +1,16 @@
-\indexentry{periodic}{\RL {\arabicfont  884}}
-\indexentry{دوری}{\RL {\arabicfont  884}}
-\indexentry{period}{\RL {\arabicfont  884}}
-\indexentry{دوری عرصہ}{\RL {\arabicfont  884}}
-\indexentry{series!trigonometric}{\RL {\arabicfont  885}}
-\indexentry{تسلسل!تکونیاتی}{\RL {\arabicfont  885}}
-\indexentry{coefficients}{\RL {\arabicfont  885}}
-\indexentry{عددی سر}{\RL {\arabicfont  885}}
-\indexentry{Euler!formulas}{\RL {\arabicfont  891}}
-\indexentry{یولر!کلیات}{\RL {\arabicfont  891}}
-\indexentry{Fourier!series}{\RL {\arabicfont  892}}
-\indexentry{فوریئر!تسلسل}{\RL {\arabicfont  892}}
-\indexentry{تسلسل!فوریئر}{\RL {\arabicfont  892}}
-\indexentry{Fourier!coefficients}{\RL {\arabicfont  892}}
-\indexentry{فوریئر!عددی سر}{\RL {\arabicfont  892}}
-\indexentry{limit!left hand}{\RL {\arabicfont  895}}
-\indexentry{حد!بائیں ہاتھ}{\RL {\arabicfont  895}}
-\indexentry{limit!right hand}{\RL {\arabicfont  895}}
-\indexentry{حد!دائیں ہاتھ}{\RL {\arabicfont  895}}
-\indexentry{jump}{\RL {\arabicfont  896}}
-\indexentry{چھلانگ}{\RL {\arabicfont  896}}
-\indexentry{differential!left hand}{\RL {\arabicfont  896}}
-\indexentry{بائیں ہاتھ!تفرق}{\RL {\arabicfont  896}}
-\indexentry{تفرق!بائیں ہاتھ}{\RL {\arabicfont  896}}
-\indexentry{differential!right hand}{\RL {\arabicfont  896}}
-\indexentry{دائیں ہاتھ!تفرق}{\RL {\arabicfont  896}}
-\indexentry{تفرق!دائیں ہاتھ}{\RL {\arabicfont  896}}
-\indexentry{even}{\RL {\arabicfont  907}}
-\indexentry{جفت}{\RL {\arabicfont  907}}
-\indexentry{odd}{\RL {\arabicfont  907}}
-\indexentry{طاق}{\RL {\arabicfont  907}}
-\indexentry{Fourier!cosine series}{\RL {\arabicfont  908}}
-\indexentry{فوریئر!کوسائن تسلسل}{\RL {\arabicfont  908}}
-\indexentry{Fourier!sine series}{\RL {\arabicfont  909}}
-\indexentry{فوریئر!سائن تسلسل}{\RL {\arabicfont  909}}
-\indexentry{pulse}{\RL {\arabicfont  910}}
-\indexentry{دھڑکن}{\RL {\arabicfont  910}}
-\indexentry{saw tooth wave}{\RL {\arabicfont  911}}
-\indexentry{موج!دندان}{\RL {\arabicfont  911}}
-\indexentry{دندان موج}{\RL {\arabicfont  911}}
-\indexentry{even!periodic extension}{\RL {\arabicfont  916}}
-\indexentry{جفت!دوری توسیع}{\RL {\arabicfont  916}}
-\indexentry{odd!periodic extension}{\RL {\arabicfont  916}}
-\indexentry{طاق!دوری توسیع}{\RL {\arabicfont  916}}
-\indexentry{half range expansion}{\RL {\arabicfont  917}}
-\indexentry{نصف حلقہ اتساع}{\RL {\arabicfont  917}}
-\indexentry{Fourier!complex coefficients}{\RL {\arabicfont  922}}
-\indexentry{فوریئر!مخلوط عددی سر}{\RL {\arabicfont  922}}
-\indexentry{Fourier!complex form}{\RL {\arabicfont  922}}
-\indexentry{فوریئر!مخلوط تسلسل}{\RL {\arabicfont  922}}
-\indexentry{jump}{\RL {\arabicfont  923}}
-\indexentry{چھلانگ}{\RL {\arabicfont  923}}
-\indexentry{error!total square}{\RL {\arabicfont  937}}
-\indexentry{خلل!کل مکعب}{\RL {\arabicfont  937}}
-\indexentry{Parseval's identity}{\RL {\arabicfont  939}}
-\indexentry{پارسیوال مماثل}{\RL {\arabicfont  939}}
-\indexentry{Bessel!inequality}{\RL {\arabicfont  939}}
-\indexentry{بیسل!غیر مساوات}{\RL {\arabicfont  939}}
-\indexentry{integrable!absolutely}{\RL {\arabicfont  943}}
-\indexentry{تکمل!قابل حتمی تکمل}{\RL {\arabicfont  943}}
-\indexentry{Fourier!integral}{\RL {\arabicfont  943}}
-\indexentry{فوریئر!تکمل}{\RL {\arabicfont  943}}
-\indexentry{Dirichlet' discontinuous factor}{\RL {\arabicfont  945}}
-\indexentry{ڈرشلے غیر استمراری جزو}{\RL {\arabicfont  945}}
-\indexentry{sine integral}{\RL {\arabicfont  945}}
-\indexentry{سائن تکمل}{\RL {\arabicfont  945}}
-\indexentry{Gibbs phenomenon}{\RL {\arabicfont  946}}
-\indexentry{مظہر گبس}{\RL {\arabicfont  946}}
-\indexentry{Laplace!integrals}{\RL {\arabicfont  949}}
-\indexentry{لاپلاس!تکملات}{\RL {\arabicfont  949}}
-\indexentry{Fourier!inverse transform}{\RL {\arabicfont  953}}
-\indexentry{فوریئر!الٹ بدل}{\RL {\arabicfont  953}}
-\indexentry{Fourier!transform}{\RL {\arabicfont  953}}
-\indexentry{فوریئر!بدل}{\RL {\arabicfont  953}}
+\indexentry{order!partial differential equation}{\RL {\arabicfont  955}}
+\indexentry{جزوی!درجہ مساوات}{\RL {\arabicfont  955}}
+\indexentry{درجہ!جزوی تفرقی مساوات}{\RL {\arabicfont  955}}
+\indexentry{differential!partial equation}{\RL {\arabicfont  955}}
+\indexentry{جزوی!تفرقی مساوات}{\RL {\arabicfont  955}}
+\indexentry{تفرقی!جزوی مساوات}{\RL {\arabicfont  955}}
+\indexentry{linear}{\RL {\arabicfont  955}}
+\indexentry{خطی}{\RL {\arabicfont  955}}
+\indexentry{non homogeneous!partial differential equation}{\RL {\arabicfont  955}}
+\indexentry{غیر ہم جنسی!جزوی تفرقی مساوات}{\RL {\arabicfont  955}}
+\indexentry{homogeneous!partial differential equation}{\RL {\arabicfont  955}}
+\indexentry{ہم جنسی!جزوی تفرقی مساوات}{\RL {\arabicfont  955}}
+\indexentry{boundary conditions}{\RL {\arabicfont  956}}
+\indexentry{سرحدی شرائط}{\RL {\arabicfont  956}}
+\indexentry{initial conditions}{\RL {\arabicfont  956}}
+\indexentry{ابتدائی شرائط}{\RL {\arabicfont  956}}

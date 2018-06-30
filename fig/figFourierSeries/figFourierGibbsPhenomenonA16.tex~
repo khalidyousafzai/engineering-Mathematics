@@ -29,8 +29,8 @@
 \begin{urdufont}
 
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel={$x$},x label style={at={(current axis.right of origin)},anchor=south west},xtick={-1,0,1},xticklabels={$-1$,$0$,$1$},ytick={\empty}]
-\addplot [] table [x index={0}, y index={1}]{figFourierGibbsPhenomenonA8.dat}node[pos=0.75,shift={(1cm,0.5cm)}]{$a=8$};
+\begin{axis}[small,axis lines*=middle,xlabel={$x$},x label style={at={(current axis.right of origin)},anchor=south west},xtick={\empty},xticklabels={$-1$,$0$,$1$},ytick={\empty},x=0.5cm,y=0.5cm]
+\addplot [] table [x index={0}, y index={1}]{figFourierGibbsPhenomenonA16.dat}node[pos=0.75,shift={(1cm,0.5cm)}]{$a=16$};
 \end{axis}%
 \end{tikzpicture}
 \end{urdufont}

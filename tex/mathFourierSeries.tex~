@@ -443,7 +443,7 @@ f(x)=
 \end{tikzpicture}
 \caption*{(ت)}
 \end{subfigure}
-\caption{چکور موج اور فوریئر تسلسل سے حاصل امواج (مثال \حوالہ{مثال_فوریئر_چکور_موج})}
+\caption{فوریئر تسلسل کی زیادہ ارکان لینے سے اصل تفاعل پر بہتر بیٹھتی شکل حاصل ہوتی ہے (مثال \حوالہ{مثال_فوریئر_چکور_موج})}
 \label{شکل_مثال_فوریئر_چکور_موج}
 \end{figure}
 
@@ -2818,7 +2818,7 @@ f(x)=\frac{2}{\pi}\int_0^{\infty} \frac{\cos wx\,\sin w}{w}\dif w
 \begin{subfigure}{0.5\textwidth}
 \centering
 \includegraphics{figFourierGibbsPhenomenonA4}
-\end{subfigure}
+\end{subfigure}%
 \begin{subfigure}{0.5\textwidth}
 \centering
 \includegraphics{figFourierGibbsPhenomenonA8}

@@ -129,6 +129,6 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 13}}بنیادی تصورات}{\RL {\arabicfont 953}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 13}}نمونہ کشی: ارتعاش پذیر تار۔ یک بعدی مساوات موج}{\RL {\arabicfont 958}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 13}}علیحدگی متغیرات (ترکیب ضرب)}{\RL {\arabicfont 960}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 965}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 969}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 969}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 971}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 975}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 975}}

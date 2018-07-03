@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  1 JUL 2018 18:58
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  3 JUL 2018 15:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3116,22 +3116,29 @@ ne 91.
 (./engineeringMathematics.toc
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 10.0pt on input line 2.
- [3] [4] [5])
+ [3] [4] [5]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/sl' in size <10>
+ not available
+(Font)              Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' tried instea
+d on input line 135.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' will be
+(Font)              scaled to size 10.0pt on input line 135.
+ [6])
 \tf@toc=\write6
 \openout6 = `engineeringMathematics.toc'.
 
- [6] [7]
+ [7]
 \openout2 = `./tex/prefaceFirstBook.aux'.
 
  (./tex/prefaceFirstBook.tex
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
 
-[9
+[11
 
 
 
-]) [10]
+]) [12]
 \openout2 = `./tex/mathPartialDifferentialEquations.aux'.
 
  (./tex/mathPartialDifferentialEquations.tex
@@ -3213,19 +3220,44 @@ Missing character: There is no و in font zplmr7m!
 Missing character: There is no ج in font zplmr7m!
 Missing character: There is no ب in font zplmr7m!
  [960] [961] [962] [963] [964]
-[965] [966] [967]) [968] [969]
+[965] [966] [967] [968]
+Overfull \hbox (2.72163pt too wide) in paragraph at lines 830--836
+ [][][][] 
+ []
+
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 837.
+
+Overfull \hbox (3.57152pt too wide) in paragraph at lines 842--851
+ [][][][] 
+ []
+
+[969] [970] [971] [972] [973] [974] [975] [976] [977]
+Overfull \hbox (4.39767pt too wide) in paragraph at lines 1294--1298
+[] \EU1/JameelNooriNastaleeq(1)/m/n/10 سوال  []\EU1/JameelNooriNastaleeq(0)/bx/
+n/10 76[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
+/n/10 13[]\EU1/JameelNooriNastaleeq(1)/m/n/10 :[] مساوات []\EU1/JameelNooriNast
+aleeq(0)/bx/n/10 36[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNas
+taleeq(0)/bx/n/10 13[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 کا وہ حل جو سوال [
+]\EU1/JameelNooriNastaleeq(0)/bx/n/10 75[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .
+[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 13[][] \EU1/JameelNooriNastaleeq(1)/m/n/
+10 کے شرائط کے ساتھ ساتھ ابتدائی انحراف  $\OML/zplm/m/it/10 u\OT1/zplm/m/n/10 (
+\OML/zplm/m/it/10 x\OT1/ppl/m/n/10 , 0\OT1/zplm/m/n/10 ) =$[]
+ []
+
+[978]) [979]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
- (./tex/mathAppendixAdditionalProofs.tex [970
+ (./tex/mathAppendixAdditionalProofs.tex [980
 
 
 
 ]
 ضمیمہ ا.
-[971] [972]) [973]
+[981] [982]) [983]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [974
+ (./tex/mathAppendixAuxiliaryMaterial.tex [984
 
 
 
@@ -3233,24 +3265,22 @@ Missing character: There is no ب in font zplmr7m!
 ضمیمہ ب.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 5.70004pt on input line 8.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 27.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[975] [976] [977] [978] [979]
+[985] [986] [987] [988] [989]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [980] [981]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [990] [991]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [982]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [992]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [983]
-[984
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [993]
+[994
 
 
 ] (./engineeringMathematics.aux (./tex/mathPreface.aux)
@@ -3275,12 +3305,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 49235 strings out of 493918
- 1168497 string characters out of 6150563
- 1364408 words of memory out of 5000000
- 51511 multiletter control sequences out of 15000+600000
+ 49335 strings out of 493918
+ 1170533 string characters out of 6150563
+ 1366823 words of memory out of 5000000
+ 51611 multiletter control sequences out of 15000+600000
  42343 words of font info for 169 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,15n,81p,10485b,2239s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (41 pages).
+Output written on engineeringMathematics.pdf (51 pages).

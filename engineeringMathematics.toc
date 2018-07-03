@@ -1,12 +1,12 @@
 \select@language {arabic}
-\contentsline {chapter}{دیباچہ}{vii}
+\contentsline {chapter}{دیباچہ}{ix}
 \select@language {english}
 \select@language {arabic}
 \select@language {english}
 \select@language {arabic}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{ix}
+\contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{xi}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 1}}درجہ اول سادہ تفرقی مساوات}{\RL {\arabicfont 1}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 1}}نمونہ کشی}{\RL {\arabicfont 2}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 1}}\tmspace +\medmuskip {.2222em} \ensuremath {y'=f(x,y)} \tmspace +\medmuskip {.2222em} کا جیومیٹریائی مطلب۔ میدان کی سمت اور ترکیب یولر۔}{\RL {\arabicfont 14}}
@@ -129,6 +129,8 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 13}}بنیادی تصورات}{\RL {\arabicfont 953}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 13}}نمونہ کشی: ارتعاش پذیر تار۔ یک بعدی مساوات موج}{\RL {\arabicfont 958}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 13}}علیحدگی متغیرات (ترکیب ضرب)}{\RL {\arabicfont 960}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 971}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 975}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 975}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 13}}مساوات موج کا دا لومبیغ حل}{\RL {\arabicfont 973}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 13}}یک بعدی بہاو حرارت}{\RL {\arabicfont 979}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 981}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 985}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 985}}

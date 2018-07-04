@@ -3046,7 +3046,7 @@ W=\iiint\limits_R \sigma \rho U \dif x\dif y\dif z
 \iiint\limits_R \big(\sigma \rho\frac{\partial U}{\partial t}-K\nabla^{\,2}U\big)\dif x\dif y\dif z=0
 \end{align*}
  چونکہ یہ مساوات کسی بھی خطہ \عددی{R} کے لئے درست ہے لہٰذا متکمل (اگر استمراری ہو تب) تمام \عددی{R} میں صفر کے برابر ہو گا یعنی:
-\begin{align}
+\begin{align}\label{مساوات_خطی_تکمل_حراری_مساوات}
 \frac{\partial U}{\partial t}=c^2\nabla^{\,2}U\quad \quad \quad (c^2=\frac{K}{\sigma \rho})
 \end{align}
 یہ \اصطلاح{حراری مساوات}\فرہنگ{حراری!مساوات}\حاشیہب{heat equation}\فرہنگ{heat!equation} کہلاتی ہے جو حراری بہاو کی بنیادی مساوات ہے۔

@@ -1,0 +1,44 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{steinmetz}		%\phase to show angle of phasors
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{pgfplots,filecontents}
+%\pgfplotsset{compat=1.9}
+%\usepgfplotslibrary{polar}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+%\usepackage{tikz-3dplot}
+%\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+%\input{../../tex/myEMTvectors.tex}
+\usepackage{graphics}
+\usepackage[]{graphicx} 
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+
+
+
+%\pgfplotsset{major y grid style={dashed}}
+\DeclareMathOperator{\kSi}{Si} 
+\begin{document}
+\begin{urdufont}
+
+\begin{tikzpicture}
+\begin{axis}[width=8cm,height=5cm,axis lines*=middle,xlabel={$x$},xtick={-3,-2,-1,1,2,3},xticklabels={$-3$,$-2$,$-1$,$1$,$2$,$3$},ytick={\empty},x label style={at={(current axis.right of origin)},anchor=south west},ylabel={$u(x,t)$},y label style={at={(current axis.above origin)},anchor=south west},ylabel style={rotate=-90}]
+\addplot [black] table [x index={0}, y index={1}]{figPartialDifferentialInfiniteRodT1.dat}node[pos=0.5,below right,fill=white,font=\tiny]{$t=\frac{1}{8}$};
+\addplot [black] table [x index={0}, y index={1}]{figPartialDifferentialInfiniteRodT2.dat}node[pos=0.52,fill=white,font=\tiny]{$\frac{1}{2}$};
+\addplot [black] table [x index={0}, y index={1}]{figPartialDifferentialInfiniteRodT3.dat}node[pos=0.52,fill=white,font=\tiny]{$1$};
+\addplot [black] table [x index={0}, y index={1}]{figPartialDifferentialInfiniteRodT4.dat}node[pos=0.52,fill=white,font=\tiny]{$2$};
+\addplot [black] table [x index={0}, y index={1}]{figPartialDifferentialInfiniteRodT5.dat}node[pos=0.55,above,font=\tiny]{$t=8$};
+\addplot [black,thick]coordinates {(-1,100) (1,100)}node[pos=0.5,above left]{$100$}node[right]{$t=0$};
+\addplot[dashed] coordinates{(-3,0)(-1,0) (-1,100)};
+\addplot[dashed]coordinates {(1,100) (1,0) (3,0)};
+\end{axis}%
+\end{tikzpicture}
+\end{urdufont}
+\end{document}

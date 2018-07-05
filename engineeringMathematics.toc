@@ -131,6 +131,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 13}}علیحدگی متغیرات (ترکیب ضرب)}{\RL {\arabicfont 960}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 13}}مساوات موج کا دا لومبیغ حل}{\RL {\arabicfont 973}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 13}}یک بعدی بہاو حرارت}{\RL {\arabicfont 979}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 987}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 991}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 991}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 13}}لامتناہی لمبائی کی سلاخ میں بہاو حرارت}{\RL {\arabicfont 987}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 995}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 999}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 999}}

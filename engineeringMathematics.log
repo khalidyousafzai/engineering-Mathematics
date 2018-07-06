@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  5 JUL 2018 16:07
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  6 JUL 2018 16:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3116,14 +3116,12 @@ ne 91.
 (./engineeringMathematics.toc
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 10.0pt on input line 2.
- [3] [4] [5]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/sl' in size <10>
- not available
-(Font)              Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' tried instea
-d on input line 135.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' will be
-(Font)              scaled to size 10.0pt on input line 135.
- [6])
+ [3] [4] [5] [6]
+Overfull \hbox (4.49997pt too wide) detected at line 139
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1005[][][][]
+ []
+
+)
 \tf@toc=\write6
 \openout6 = `engineeringMathematics.toc'.
 
@@ -3133,15 +3131,15 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' will be
  (./tex/prefaceFirstBook.tex
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
-
-[11
+ [11
 
 
 
 ]) [12]
 \openout2 = `./tex/mathPartialDifferentialEquations.aux'.
 
- (./tex/mathPartialDifferentialEquations.tex
+
+(./tex/mathPartialDifferentialEquations.tex
 باب \RL {\arabicfont 13}.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
@@ -3233,7 +3231,7 @@ Overfull \hbox (3.57152pt too wide) in paragraph at lines 842--851
  []
 
 [969] [970] [971] [972] [973] [974] [975] [976] [977]
-Overfull \hbox (4.39767pt too wide) in paragraph at lines 1294--1298
+Overfull \hbox (4.39767pt too wide) in paragraph at lines 1293--1297
 [] \EU1/JameelNooriNastaleeq(1)/m/n/10 سوال  []\EU1/JameelNooriNastaleeq(0)/bx/
 n/10 76[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
 /n/10 13[]\EU1/JameelNooriNastaleeq(1)/m/n/10 :[] مساوات []\EU1/JameelNooriNast
@@ -3247,9 +3245,9 @@ taleeq(0)/bx/n/10 13[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 کا وہ حل جو
 
 [978] [979] [980] [981] [982] [983]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 1516.
+(Font)              scaled to size 5.70004pt on input line 1515.
 
-Overfull \hbox (5.96413pt too wide) in paragraph at lines 1544--1547
+Overfull \hbox (5.96413pt too wide) in paragraph at lines 1543--1546
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 جواب: $\OML/zplm/m/it/10 u \OT1/zplm/m/n/
 10 = ([] \OMS/zplm/m/n/10 ^^@ []\OT1/zplm/m/n/10 )\OML/zplm/m/it/10 e[] [] ^^Yx
  \OT1/zplm/m/n/10 + ([] \OMS/zplm/m/n/10 ^^@ []\OT1/zplm/m/n/10 )\OML/zplm/m/it
@@ -3262,25 +3260,57 @@ File: ./fig/figPartialDifferentialEquations/figInfiniteBarHeatProblem.pdf Graph
 ic file (type QTm)
 
 <use  "./fig/figPartialDifferentialEquations/figInfiniteBarHeatProblem.pdf" >
-[990]
-Overfull \hbox (9.55344pt too wide) in paragraph at lines 1783--1789
-[]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: نقطہ اعشاریہ کے بعد صرف دو اعداد 
-لیتے ہوئے  $\OT1/ppl/m/n/10 0.00, 0.22, 0.43, 0.60, 0.74, 0.84, 0.97, 1.00$ []
+[990] [991] [992]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 1910.
+Missing character: There is no , in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+
+Overfull \hbox (13.1417pt too wide) in paragraph at lines 1885--1927
+ [][][][] 
  []
 
-[991] [992]) [993]
+[993]
+Underfull \vbox (badness 5667) has occurred while \output is active []
+
+ [994]
+Overfull \hbox (1.77374pt too wide) in paragraph at lines 1972--1972
+[][] []
+ []
+
+[995] [996] [997] [998] [999]
+Underfull \hbox (badness 10000) in paragraph at lines 2111--2112
+[][]
+ []
+
+) [1000]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
- (./tex/mathAppendixAdditionalProofs.tex [994
-
-
-
-]
+ (./tex/mathAppendixAdditionalProofs.tex
 ضمیمہ ا.
-[995] [996]) [997]
+[1001
+
+
+
+] [1002]) [1003]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [998
+ (./tex/mathAppendixAuxiliaryMaterial.tex [1004
 
 
 
@@ -3288,20 +3318,20 @@ Overfull \hbox (9.55344pt too wide) in paragraph at lines 1783--1789
 ضمیمہ ب.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[999] [1000] [1001] [1002] [1003]
+[1005] [1006] [1007] [1008] [1009]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1004] [1005]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1010] [1011]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1006]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1012]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1007]
-[1008
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1013]
+[1014
 
 
 ] (./engineeringMathematics.aux (./tex/mathPreface.aux)
@@ -3326,12 +3356,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 49528 strings out of 493918
- 1175381 string characters out of 6150563
- 1369657 words of memory out of 5000000
- 51787 multiletter control sequences out of 15000+600000
- 53857 words of font info for 207 fonts, out of 8000000 for 9000
+ 49697 strings out of 493918
+ 1178329 string characters out of 6150563
+ 1371455 words of memory out of 5000000
+ 51955 multiletter control sequences out of 15000+600000
+ 53865 words of font info for 208 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,16n,81p,10485b,2239s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,16n,81p,10485b,2244s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (65 pages).
+Output written on engineeringMathematics.pdf (71 pages).

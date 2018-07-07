@@ -134,6 +134,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 13}}لامتناہی لمبائی کی سلاخ میں بہاو حرارت}{\RL {\arabicfont 987}}
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 13}}نمونہ کشی: ارتعاش پذیر جھلی۔ دو ابعادی مساوات موج}{\RL {\arabicfont 993}}
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 13}}مستطیل جھلی}{\RL {\arabicfont 996}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1001}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1005}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1005}}
+\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 13}}قطبی محدد میں لاپلاسی}{\RL {\arabicfont 1006}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1009}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1013}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1013}}

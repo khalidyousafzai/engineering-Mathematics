@@ -135,6 +135,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 13}}نمونہ کشی: ارتعاش پذیر جھلی۔ دو ابعادی مساوات موج}{\RL {\arabicfont 993}}
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 13}}مستطیل جھلی}{\RL {\arabicfont 996}}
 \contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 13}}قطبی محدد میں لاپلاسی}{\RL {\arabicfont 1006}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1009}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1013}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1013}}
+\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 13}}دائری جھلی۔ مساوات بیسل}{\RL {\arabicfont 1010}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1015}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1019}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1019}}

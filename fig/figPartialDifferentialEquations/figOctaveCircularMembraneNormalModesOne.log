@@ -1,12 +1,12 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  9 JUL 2018 08:20
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  9 JUL 2018 10:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **/home/khalid/Desktop/engineeringMathematics/fig/figPartialDifferentialEquatio
-ns/figOctaveBesselFunctionFirstKind.tex $
+ns/figOctaveCircularMembraneNormalModesOne.tex $
 
 (/home/khalid/Desktop/engineeringMathematics/fig/figPartialDifferentialEquation
-s/figOctaveBesselFunctionFirstKind.tex
+s/figOctaveCircularMembraneNormalModesOne.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/home/khalid/texmf/tex/latex/standalone/tex/latex/standalone/standalone.cls
@@ -1324,11 +1324,11 @@ File: gloss-english.ldf polyglossia: module for english
 . 3\font \fontdimen 4\font =6.0\fontdimen 4\font 
 .................................................
 
-(./figOctaveBesselFunctionFirstKind.aux
+(./figOctaveCircularMembraneNormalModesOne.aux
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 3.
 )
-\openout1 = `figOctaveBesselFunctionFirstKind.aux'.
+\openout1 = `figOctaveCircularMembraneNormalModesOne.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
@@ -1436,20 +1436,18 @@ File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 12.5pt on input line 27.
-PGFPlots: reading {figOctaveBesselFunctionFirstKind.dat}
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 8.75pt on input line 41.
+PGFPlots: reading {figOctaveCircularMembraneNormalModesOne.dat}
  [1
 
 ]
-(./figOctaveBesselFunctionFirstKind.aux) ) 
+(./figOctaveCircularMembraneNormalModesOne.aux) ) 
 Here is how much of TeX's memory you used:
- 38567 strings out of 493918
- 932894 string characters out of 6150563
- 1159407 words of memory out of 5000000
- 41220 multiletter control sequences out of 15000+600000
- 4230 words of font info for 33 fonts, out of 8000000 for 9000
+ 38526 strings out of 493918
+ 931821 string characters out of 6150563
+ 1063244 words of memory out of 5000000
+ 41180 multiletter control sequences out of 15000+600000
+ 4222 words of font info for 32 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 56i,9n,84p,10540b,1942s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,5n,84p,10547b,2013s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on figOctaveBesselFunctionFirstKind.pdf (1 page).
+Output written on figOctaveCircularMembraneNormalModesOne.pdf (1 page).

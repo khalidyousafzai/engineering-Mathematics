@@ -35,7 +35,7 @@
 \addplot[fill=white] plot coordinates {(11.7915,0)}node[ocirc]{}node[shift={(0.2cm,-0.15cm)},font=\scriptsize]{$\alpha_4$};
 %
 \addplot[fill=white] plot coordinates {(-2.4048,0)}node[ocirc]{}node[shift={(0.25cm,-0.15cm)},font=\scriptsize]{$-\alpha_1$};
-\addplot[fill=white] plot coordinates {(-5.5201,0)}node[ocirc]{}node[shift={(0.35cm,-0.15cm)},font=\scriptsize]{$-\alpha_2$};
+\addplot[fill=white] plot coordinates {(-5.5201,0)}node[ocirc]{}node[shift={(0.3cm,-0.15cm)},font=\scriptsize]{$-\alpha_2$};
 \addplot[fill=white] plot coordinates {(-8.6537,0)}node[ocirc]{}node[shift={(0.25cm,-0.15cm)},font=\scriptsize]{$-\alpha_3$};
 \addplot[fill=white] plot coordinates {(-11.7915,0)}node[ocirc]{}node[shift={(-0.25cm,-0.15cm)},font=\scriptsize]{$-\alpha_4$};
 \end{axis}

@@ -136,6 +136,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 13}}مستطیل جھلی}{\RL {\arabicfont 996}}
 \contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 13}}قطبی محدد میں لاپلاسی}{\RL {\arabicfont 1006}}
 \contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 13}}دائری جھلی۔ مساوات بیسل}{\RL {\arabicfont 1010}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1015}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1019}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1019}}
+\contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 13}}مساوات لاپلاس۔ نظریہ مخفی}{\RL {\arabicfont 1018}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1021}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1025}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1025}}

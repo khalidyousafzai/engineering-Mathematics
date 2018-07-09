@@ -27,10 +27,8 @@
 \begin{urdufont}
 \begin{tikzpicture}
 %
-\begin{axis}[height=5cm,width=8cm,axis lines*=middle,xmax=14,xlabel={$x$},ylabel={$J_0(s)$},xlabel style={at={(current axis.right of origin)},anchor=north west},ylabel style={at={(current axis.above origin)},anchor=south west},ylabel style={rotate=-90},xtick={5,10,-5,-10},
-xticklabels={$5$,$10$,$-5$,$-10$},ytick={1},yticklabels={$1$},xticklabel style={shift={(0.1ex,0.5ex)},anchor=south}, extra x ticks={1,2,3,4,6,7,8,9,11,12,13,-1,-2,-3,-4,-6,-7,-8,-9,-11,-12,-13},extra x tick style={xticklabels={\empty}},xtick style={thick,black},extra x tick style={tick style={thin}}]
-\addplot[black] table {figOctaveBesselFunctionFirstKind.dat};
-\addplot[fill=white] plot coordinates {(2.4048,0)}node[ocirc]{}node[above]{$\alpha_1$};
+\begin{axis}[height=5cm,width=8cm,axis y line=none,xtick={\empty},ytick={\empty}]
+\addplot[black] table {figOctaveCircularMembraneNormalModesThree.dat};
 \end{axis}
 %
 \end{tikzpicture}%

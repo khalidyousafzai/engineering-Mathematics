@@ -27,10 +27,18 @@
 \begin{urdufont}
 \begin{tikzpicture}
 %
-\begin{axis}[width=4cm,axis equal,axis y line=none,axis lines*=middle,xtick={\empty},ytick={\empty},ymin=-14]
+\begin{axis}[axis equal,axis x line=none,axis y line=none,axis lines*=middle,xtick={\empty},ytick={\empty},ymin=-3,xmax=1.5,xmin=-1.5]
 \addplot[black] table {figOctaveCircularMembraneNormalModesTwo.dat};
-\addplot [black]coordinates {(-6,0)(6,0)};
-\addplot[black] (0,-7) circle (5.5201);
+\addplot[black] (0,-1.5) circle (1);
+\addplot[black,dashed] (0,-1.5) circle (0.4356);
+\addplot [black,dashed]coordinates {(-0.4356,0)(-0.4356,-1.5)};
+\addplot [black,dashed]coordinates {(0.4356,0)(0.4356,-1.5)};
+\addplot[](0,-2.5)node[below]{$m=2$};
+\addplot[-latex] coordinates {(0,0.2)(0,-0.2)};
+\addplot[latex-] coordinates {(-0.7246,0.2)(-0.7246,-0.2)};
+\addplot[latex-] coordinates {(0.7246,0.2)(0.7246,-0.2)};
+\addplot[] coordinates {(0.4356,0)}node[pin=60:{$\frac{\alpha_1}{\alpha_2}R$}]{};
+\addplot[black] coordinates {(-1.1,0)(1.1,0)};
 \end{axis}
 %
 \end{tikzpicture}%

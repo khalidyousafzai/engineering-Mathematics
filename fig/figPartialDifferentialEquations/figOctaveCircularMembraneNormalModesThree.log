@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  9 JUL 2018 09:45
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  10 JUL 2018 08:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1442,12 +1442,12 @@ PGFPlots: reading {figOctaveCircularMembraneNormalModesThree.dat}
 ]
 (./figOctaveCircularMembraneNormalModesThree.aux) ) 
 Here is how much of TeX's memory you used:
- 38496 strings out of 493918
- 931153 string characters out of 6150563
- 1090864 words of memory out of 5000000
- 41150 multiletter control sequences out of 15000+600000
+ 38548 strings out of 493918
+ 932250 string characters out of 6150563
+ 1124404 words of memory out of 5000000
+ 41202 multiletter control sequences out of 15000+600000
  4222 words of font info for 32 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 56i,5n,84p,10549b,1690s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,9n,84p,10549b,1990s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on figOctaveCircularMembraneNormalModesThree.pdf (1 page).

@@ -1187,34 +1187,6 @@ An8:(2*n+1)/(2*R^n)*integrate(f*legendre_p(n,cos(x))*sin(x),x,0,%pi);
 [An0,An1,An2,An3,An4,An5,An6,An7,An8];
 
 
-
 Print("======================================");
 kill(all);
-print("Q 13.193A");
-load(orthopoly);
-declare(n,integer);
-
-R:1;
-f:1;
-
-n:0;
-Bn0:(2*n+1)*R^(n+1)/2*integrate(f*legendre_p(n,cos(x))*sin(x),x,0,%pi);
-n:1;
-An1:(2*n+1)/(2*R^n)*integrate(f*legendre_p(n,cos(x))*sin(x),x,0,%pi);
-n:2;
-An2:(2*n+1)/(2*R^n)*integrate(f*legendre_p(n,cos(x))*sin(x),x,0,%pi);
-n:3;
-An3:(2*n+1)/(2*R^n)*integrate(f*legendre_p(n,cos(x))*sin(x),x,0,%pi);
-n:4;
-An4:(2*n+1)/(2*R^n)*integrate(f*legendre_p(n,cos(x))*sin(x),x,0,%pi);
-n:5;
-An5:(2*n+1)/(2*R^n)*integrate(f*legendre_p(n,cos(x))*sin(x),x,0,%pi);
-n:6;
-An6:(2*n+1)/(2*R^n)*integrate(f*legendre_p(n,cos(x))*sin(x),x,0,%pi);
-n:7;
-An7:(2*n+1)/(2*R^n)*integrate(f*legendre_p(n,cos(x))*sin(x),x,0,%pi);
-n:8;
-An8:(2*n+1)/(2*R^n)*integrate(f*legendre_p(n,cos(x))*sin(x),x,0,%pi);
-
-[An0,An1,An2,An3,An4,An5,An6,An7,An8];
-
+print("Q 13.204");

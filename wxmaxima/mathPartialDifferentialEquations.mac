@@ -1187,4 +1187,8 @@ An8:(2*n+1)/(2*R^n)*integrate(f*legendre_p(n,cos(x))*sin(x),x,0,%pi);
 [An0,An1,An2,An3,An4,An5,An6,An7,An8];
 
 
+Print("======================================");
+kill(all);
+print("Q 13.204");
+
 

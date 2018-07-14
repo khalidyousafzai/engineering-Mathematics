@@ -855,23 +855,23 @@ J=\frac{\partial (x,y)}{\partial (u,v)}=
 \end{align}
 یوں متکمل کو \عددی{u}، \عددی{v} کی صورت میں لکھا جاتا ہے جبکہ \عددی{\dif x\dif y} کی جگہ \عددی{\dif u\dif v} ضرب یعقوبی \عددی{J} کی حتمی قیمت لکھی جاتی ہے۔
 
-مثال کے طور ہر \اصطلاح{قطبی محدد}\فرہنگ{قطبی محدد}\فرہنگ{محدد!قطبی}\حاشیہب{polar coordinates}\فرہنگ{polar coordinates} \عددی{r} اور \عددی{\theta} متعارف کرنے کی خاطر ہم
+مثال کے طور ہر \اصطلاح{قطبی محدد}\فرہنگ{قطبی محدد}\فرہنگ{محدد!قطبی}\حاشیہب{polar coordinates}\فرہنگ{polar coordinates} \عددی{\rho} اور \عددی{\phi} متعارف کرنے کی خاطر ہم
 \begin{align*}
-x=r\cos \theta,\quad y=r\sin \theta
+x=\rho\cos \phi\quad y=\rho\sin \phi
 \end{align*}
 لکھتے ہیں لہٰذا 
 \begin{align*}
 J=\frac{\partial (x,y)}{\partial (u,v)}=
 \begin{vmatrix*}[r]
-\cos \theta &-r\sin \theta\\[0.5em]
-\sin \theta& r\cos \theta
-\end{vmatrix*}=r
+\cos \phi &-\rho\sin \phi\\[0.5em]
+\sin \phi& \rho\cos \phi
+\end{vmatrix*}=\rho
 \end{align*}
 ہو گا اور یوں
 \begin{align*}
-\iint\limits_R f(x,y)\dif x\dif y=\iint\limits_{R^*}f[r\cos \theta,r\sin \theta] r\dif r\dif \theta
+\iint\limits_R f(x,y)\dif x\dif y=\iint\limits_{R^*}f[\rho\cos \phi,\rho\sin \phi] \rho\dif \rho\dif \phi
 \end{align*}
-لکھا جائے گا جہاں \عددی{xy} سطح میں خطہ \عددی{R} کا سطح \عددی{r\theta} میں مطابقتی خطہ \عددی{R^*} ہے۔
+لکھا جائے گا جہاں \عددی{xy} سطح میں خطہ \عددی{R} کا سطح \عددی{\rho\theta} میں مطابقتی خطہ \عددی{R^*} ہے۔
 
 %===================
 \ابتدا{مثال}\شناخت{مثال_خطی_تکمل_دوہرا_تبدیلی_متغیرات_الف}

@@ -2130,19 +2130,19 @@ F_{12}=\sin \pi x\,\sin 2\pi y\quad \text{اور}\quad F_{21}=\sin 2\pi x\,\sin 
 u_{12}&=(B_{12}\cos c\pi\sqrt{5}t+B^*_{12}\sin c\pi\sqrt{5}t)F_{12}\\
 u_{21}&=(B_{21}\cos c\pi\sqrt{5}t+B^*_{21}\sin c\pi\sqrt{5}t)F_{21}\\
 \end{align*}
-کی صفر ہٹاو لکیریں  بالترتیب \عددی{y=\tfrac{1}{2}} اور \عددی{x=\tfrac{1}{2}} ہوں گی (شکل \حوالہ{شکل_مثال_جزوی_مکعب_جھلی})۔اگر \عددی{B_{12}=1} اور \عددی{B^*_{12}=B^*_{21}=0} ہوں تب
-\begin{align*}
+کی صفر ہٹاو لکیریں  بالترتیب \عددی{y=\tfrac{1}{2}} اور \عددی{x=\tfrac{1}{2}} ہوں گی (شکل \حوالہ{شکل_مثال_جزوی_مکعب_جھلی}-الف)۔اگر \عددی{B_{12}=1} اور \عددی{B^*_{12}=B^*_{21}=0} ہوں تب
+\begin{align}\label{مساوات_جزوی_ایک_بی_کے_حل}
 u_{12}+u_{21}=\cos c\pi\sqrt{5}t\,(F_{12}+B_{21}F_{21})
-\end{align*}
+\end{align}
 ہو گا جو ایک اور انداز ارتعاش ہے جس کی امتیازی قدر \عددی{c\pi\sqrt{5}} ہے۔اس تفاعل کی صفر ہٹاو لکیریں درج ذیل مساوات کے حل ہوں گی۔
 \begin{align*}
 F_{12}+B_{21}F_{21}=\sin \pi x\,\sin 2\pi y+B_{21}\sin 2\pi x\,\sin \pi y=0
 \end{align*}
 اب \عددی{\sin 2\alpha=2\sin \alpha \cos \alpha} استعمال کرتے ہوئے درج بالا کو 
-\begin{align*}
+\begin{align}
 \sin \pi x\sin \pi y(\cos \pi y+B_{21}\cos \pi x)=0
-\end{align*}
-لکھا جا سکتا ہے جس کا حل \عددی{B_{21}} پر منحصر ہو گا۔
+\end{align}
+لکھا جا سکتا ہے جس کا حل \عددی{B_{21}} پر منحصر ہو گا (شکل \حوالہ{شکل_مثال_جزوی_مکعب_جھلی}-ب)۔
 
 مساوات \حوالہ{مساوات_جزوی_مثال_مکعب_جھلی_الف} سے ہم دیکھتے ہیں کہ \عددی{\lambda_{mn}} کے دو مزید مطابقتی تفاعل ممکن ہیں۔مثلاً چار تفاعل \عددی{F_{18}}، \عددی{F_{81}}، \عددی{F_{47}} اور \عددی{F_{74}} کی \عددی{\lambda_{18}=\lambda_{81}=\lambda_{47}=\lambda_{74}=c\pi\sqrt{65}} ہے چونکہ؛
 \begin{align*}
@@ -2154,6 +2154,8 @@ F_{12}+B_{21}F_{21}=\sin \pi x\,\sin 2\pi y+B_{21}\sin 2\pi x\,\sin \pi y=0
 \end{align*}
 لکھنا ممکن ہے۔
 \begin{figure}
+\centering
+\begin{subfigure}{-.5\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\w}{2}
@@ -2185,7 +2187,24 @@ F_{12}+B_{21}F_{21}=\sin \pi x\,\sin 2\pi y+B_{21}\sin 2\pi x\,\sin \pi y=0
 \draw[dashed](2*\w+1/3*\ll,-\w)--++(0,1);
 \draw[dashed](2*\w+2/3*\ll,-\w)--++(0,1);
 \end{tikzpicture}
-\caption{مکعب جھلی کے حل $u_{11},u_{12},u_{21},u_{22},u_{13}, u_{31}$ کی صفر ہٹاو لکیریں۔}
+\caption*{(الف) مکعب جھلی کے حل $u_{11},u_{12},u_{21},u_{22},u_{13}, u_{31}$ کی صفر ہٹاو لکیریں۔}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\len}{2}
+\draw(0,0) rectangle ++(\len,\len);
+\draw[dashed] (0,0.5*\len)--++(1*\len,0)node[right]{$B_{21}=0$};
+\draw[dashed](0.45*\len,0) to [out=90,in=-90](0.55*\len,1*\len)coordinate(kA);
+\draw(kA)node[pin=45:{$B_{21}=-10$}]{};
+\draw[dashed](0,0)--++(1*\len,1*\len)node[right]{$B_{21}=-1$};
+\draw[dashed](0,1*\len)--++(1*\len,-1*\len)node[right]{$B_{21}=1$};
+\draw[dashed](0,0.3*\len) to [out=0,in=180] ++(1*\len,0.4*\len)node[right]{$B_{21}=-0.5$};
+\draw[dashed](0,0.7*\len) to [out=0,in=180] ++(1*\len,-0.4*\len)node[right]{$B_{21}=0.5$};
+\end{tikzpicture}
+\caption*{(ب) ایک ہی $B_{21}$ کے لئے مساوات \حوالہ{مساوات_جزوی_ایک_بی_کے_حل} میں دیے گئے حل}
+\end{subfigure}%
+\caption{صفر ہٹاو لکیریں (مثال \حوالہ{مثال_جزوی_مکعب_جھلی})}
 \label{شکل_مثال_جزوی_مکعب_جھلی}
 \end{figure}
 \انتہا{مثال}
@@ -3474,7 +3493,10 @@ $\frac{\partial u}{\partial x}+2x\frac{\partial u}{\partial t}=2x,\quad u(x,0)=1
 x\frac{\partial u}{\partial x}+\frac{\partial u}{\partial t}=xt,\quad \substack{u(x,0)=0,\quad x\ge 0\\ u(0,t)=0,\quad t\ge 0}
 \end{align*}
 جواب:\quad
-$U(x,s)=\tfrac{c(s)}{x^s}+\tfrac{x}{s^2(s+1)},\quad U(0,s)=0,\quad c(s)=0$
+\begin{align*}
+U(x,s)&=\tfrac{c(s)}{x^s}+\tfrac{x}{s^2(s+1)},\quad U(0,s)=0,\quad c(s)=0,\\
+u(x,t)&=x(t-1+e^{-t})
+\end{align*}
 \انتہا{سوال}
 %========================
 \ابتدا{سوال}\شناخت{سوال_جزوی_بذریعہ_لاپلاس_بدل_پ}\quad سوال \حوالہ{سوال_جزوی_بذریعہ_لاپلاس_بدل_ب} کو کسی دوسرے طریقہ سے حل کریں۔

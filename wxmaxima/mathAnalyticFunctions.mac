@@ -101,3 +101,21 @@ float(%);
 abs(z1+z2);
 float(%);
 
+
+Print("======================================");
+kill(all);
+print("Q 14.66");
+
+z:x+%i*y;
+eq:imagpart((z+1)/(z-1));
+expand(%);
+
+
+Print("======================================");
+kill(all);
+print("Q 14.68");
+
+z:x+%i*y;
+imagpart((2*z+1)/(4*z-4));
+expand(%);
+

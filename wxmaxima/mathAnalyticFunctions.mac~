@@ -98,4 +98,13 @@ abs(z1);
 float(%);
 abs(z2);
 float(%);
-abs(z1-z2);
+abs(z1+z2);
+float(%);
+
+
+Print("======================================");
+kill(all);
+print("Q 14.66");
+
+z:x+%i*y;
+imagpart((z+1)/(z-1));

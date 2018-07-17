@@ -107,4 +107,152 @@ kill(all);
 print("Q 14.66");
 
 z:x+%i*y;
-imagpart((z+1)/(z-1));
+eq:imagpart((z+1)/(z-1));
+expand(%);
+
+
+Print("======================================");
+kill(all);
+print("Q 14.68");
+
+z:x+%i*y;
+imagpart((2*z+1)/(4*z-4));
+expand(%);
+
+
+Print("======================================");
+kill(all);
+print("Q 14.72");
+
+f:3*z^2+2*z:
+
+z1:1+%i;
+z2:5*%i;
+z3:-2+%i;
+
+ev(f,z=z1);
+rectform(%);
+
+ev(f,z=z2);
+rectform(%);
+
+ev(f,z=z3);
+rectform(%);
+
+
+Print("======================================");
+kill(all);
+print("Q 14.73");
+
+f:3*1/z^2;
+
+z1:1+%i;
+z2:5*%i;
+z3:-2+%i;
+
+ev(f,z=z1);
+rectform(%);
+
+ev(f,z=z2);
+rectform(%);
+
+ev(f,z=z3);
+rectform(%);
+
+Print("======================================");
+kill(all);
+print("Q 14.74");
+
+f:z^2-2*z;
+
+ev(f,z=x+%i*y);
+kk:rectform(%);
+realpart(kk);
+imagpart(kk);
+
+Print("======================================");
+kill(all);
+print("Q 14.75");
+
+f:1/(1-z);
+
+ev(f,z=x+%i*y);
+kk:rectform(%);
+realpart(kk);
+imagpart(kk);
+
+Print("======================================");
+kill(all);
+print("Q 14.76");
+
+f:1-z+z^2-z^3;
+
+ev(f,z=x+%i*y);
+kk:rectform(%);
+realpart(kk);
+imagpart(kk);
+
+Print("======================================");
+kill(all);
+print("Q 14.83");
+
+z:x+%i*y;
+f:z/abs(z);
+realpart(f);
+
+Print("======================================");
+kill(all);
+print("Q 14.84");
+
+z:x+%i*y;
+f:z/(1+abs(z));
+k:imagpart(f);
+ky:ev(k,x=0);
+limit(ky,y,0);
+kx:ev(k,y=0);
+limit(kx,x,0);
+
+Print("======================================");
+kill(all);
+print("Q 14.85");
+
+z:x+%i*y;
+f:(realpart(z))^2/abs(z);
+k:f;
+ky:ev(k,x=0);
+limit(ky,y,0);
+kx:ev(k,y=0);
+limit(kx,x,0);
+
+Print("======================================");
+kill(all);
+print("Q 14.89");
+
+f:(z^2+4)^2;
+k:diff(f,z);
+
+
+Print("======================================");
+kill(all);
+print("Q 14.89");
+
+f:1/(1-z);
+k:diff(f,z);
+
+Print("======================================");
+kill(all);
+print("Q 14.89");
+
+f:(z+1)^2/(1+z^2);
+k:diff(f,z);
+
+Print("======================================");
+kill(all);
+print("Q 14.92");
+
+f:z^2+z;
+z0:1+%i;
+k:diff(f,z);
+ev(k,z=z0);
+rectform(%);
+

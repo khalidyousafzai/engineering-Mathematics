@@ -2155,7 +2155,7 @@ F_{12}+B_{21}F_{21}=\sin \pi x\,\sin 2\pi y+B_{21}\sin 2\pi x\,\sin \pi y=0
 لکھنا ممکن ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{-.5\textwidth}
+\begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\w}{2}

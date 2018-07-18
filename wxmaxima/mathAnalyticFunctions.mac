@@ -287,3 +287,129 @@ k:diff(f,z);
 ev(k,z=z0);
 rectform(%);
 
+Print("======================================");
+kill(all);
+print("Q 14.99");
+
+f:a*z+b;
+diff(f,z);
+
+Print("======================================");
+kill(all);
+print("Q 14.102");
+
+f:1/(1-z);
+diff(f,z);
+
+Print("======================================");
+kill(all);
+print("Q 14.104");
+
+f:(1+z)/(1-z);
+diff(f,z);
+
+Print("======================================");
+kill(all);
+print("Q 14.109");
+
+z:x+%i*y;
+f:z^3+z;
+
+xx:realpart(f);
+yy:imagpart(f);
+
+diff(xx,x,2)+diff(xx,y,2);
+expand(%);
+diff(yy,x,2)+diff(yy,y,2);
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 14.110");
+
+z:x+%i*y;
+f:imagpart(z);
+
+xx:realpart(f);
+yy:imagpart(f);
+
+diff(xx,x,2)+diff(xx,y,2);
+expand(%);
+diff(yy,x,2)+diff(yy,y,2);
+expand(%);
+
+
+Print("======================================");
+kill(all);
+print("Q 14.114");
+
+f:%e^x*(cos(y)+%i*sin(y));
+
+xx:realpart(f);
+yy:imagpart(f);
+
+diff(xx,x,2)+diff(xx,y,2);
+expand(%);
+diff(yy,x,2)+diff(yy,y,2);
+expand(%);
+
+
+Print("======================================");
+kill(all);
+print("Q 14.121");
+
+u:x;
+kdudx:diff(u,x);
+kdudy:diff(u,y);
+
+vv:integrate(kdudx,y);
+
+cc:-integrate(kdudy,x);
+h:u+%i*(vv+cc);
+
+
+Print("======================================");
+kill(all);
+print("Q 14.122");
+
+u:x*y;
+kdudx:diff(u,x);
+kdudy:diff(u,y);
+
+vv:integrate(kdudx,y);
+
+cc:-integrate(kdudy,x);
+h:u+%i*(vv+cc);
+
+
+Print("======================================");
+kill(all);
+print("Q 14.123");
+
+v:x*y;
+kdvdx:diff(v,x);
+kdvdy:diff(v,y);
+
+Print("======================================");
+kill(all);
+print("Q 14.124");
+
+u:sin(x)*cosh(y);
+
+kdudx:diff(u,x);
+kdudy:diff(u,y);
+
+vv:integrate(kdudx,y);
+
+cc:-integrate(kdudy,x);
+h:u+%i*(vv+cc);
+
+
+Print("======================================");
+kill(all);
+print("Q 14.125");
+
+v:-sin(x)*sinh(y);
+kdvdx:diff(v,x);
+kdvdy:diff(v,y);
+

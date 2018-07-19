@@ -364,8 +364,11 @@ kdudy:diff(u,y);
 
 vv:integrate(kdudx,y);
 
-cc:-integrate(kdudy,x);
-h:u+%i*(vv+cc);
+c:-integrate(kdudy,x)-integrate(diff(vv,x),x);
+
+f:u+%i*(vv+c);
+
+
 
 
 Print("======================================");
@@ -378,8 +381,9 @@ kdudy:diff(u,y);
 
 vv:integrate(kdudx,y);
 
-cc:-integrate(kdudy,x);
-h:u+%i*(vv+cc);
+c:-integrate(kdudy,x)-integrate(diff(vv,x),x);
+
+f:u+%i*(vv+c);
 
 
 Print("======================================");
@@ -390,19 +394,23 @@ v:x*y;
 kdvdx:diff(v,x);
 kdvdy:diff(v,y);
 
+uu:-integrate(kdvdx,y);
+c:integrate(kdvdy,x)-integrate(diff(uu,x),x);
+f:uu+c+%i*v;
+
 Print("======================================");
 kill(all);
 print("Q 14.124");
 
 u:sin(x)*cosh(y);
-
 kdudx:diff(u,x);
 kdudy:diff(u,y);
 
 vv:integrate(kdudx,y);
 
-cc:-integrate(kdudy,x);
-h:u+%i*(vv+cc);
+c:-integrate(kdudy,x)-integrate(diff(vv,x),x);
+
+f:u+%i*(vv+c);
 
 
 Print("======================================");
@@ -413,3 +421,313 @@ v:-sin(x)*sinh(y);
 kdvdx:diff(v,x);
 kdvdy:diff(v,y);
 
+uu:-integrate(kdvdx,y);
+c:integrate(kdvdy,x)-integrate(diff(uu,x),x);
+f:uu+c+%i*v;
+
+Print("======================================");
+kill(all);
+print("Q 14.126");
+
+u:x/(x^2+y^2);
+kdudx:diff(u,x);
+kdudy:diff(u,y);
+
+vv:expand(integrate(kdudx,y));
+
+c:-integrate(kdudy,x)-integrate(diff(vv,x),x);
+
+f:u+%i*(vv+c);
+expand(%);
+factor(%);
+
+
+Print("======================================");
+kill(all);
+print("Q 14.135");
+declare(z,complex);
+
+eq:z^2=%i;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+z1:sol[1];
+z2:sol[2];
+rectform(z1);
+rectform(z2);
+
+Print("======================================");
+kill(all);
+print("Q 14.136");
+declare(z,complex);
+
+eq:z^2=-%i;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+z1:sol[1];
+z2:sol[2];
+rectform(z1);
+rectform(z2);
+
+Print("======================================");
+kill(all);
+print("Q 14.137");
+declare(z,complex);
+
+eq:z^2=-9;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+z1:sol[1];
+z2:sol[2];
+rectform(z1);
+rectform(z2);
+
+Print("======================================");
+kill(all);
+print("Q 14.138");
+declare(z,complex);
+
+eq:z^2=1+%i*sqrt(3);
+soln:solve(eq,z);
+sol:map(rhs,soln);
+z1:sol[1];
+z2:sol[2];
+rectform(z1);
+rectform(z2);
+
+Print("======================================");
+kill(all);
+print("Q 14.139");
+declare(z,complex);
+
+eq:z^3=-1;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+z1:sol[1];
+z2:sol[2];
+z3:sol[3];
+rectform(z1);
+rectform(z2);
+rectform(z3);
+
+
+Print("======================================");
+kill(all);
+print("Q 14.140");
+declare(z,complex);
+
+eq:z^3=%i;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+z1:sol[1];
+z2:sol[2];
+z3:sol[3];
+rectform(z1);
+rectform(z2);
+rectform(z3);
+
+
+Print("======================================");
+kill(all);
+print("Q 14.141");
+declare(z,complex);
+
+eq:z^3=-%i;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+z1:sol[1];
+z2:sol[2];
+z3:sol[3];
+rectform(z1);
+rectform(z2);
+rectform(z3);
+Print("======================================");
+kill(all);
+print("Q 14.142");
+declare(z,complex);
+
+eq:z^3=1+%i;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+z1:expand(sol[1]);
+z2:expand(sol[2]);
+z3:expand(sol[3]);
+float(rectform(z1));
+float(rectform(z2));
+float(rectform(z3));
+Print("======================================");
+kill(all);
+print("Q 14.143");
+declare(z,complex);
+
+eq:z^3=1-%i;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+z1:expand(sol[1]);
+z2:expand(sol[2]);
+z3:expand(sol[3]);
+float(rectform(z1));
+float(rectform(z2));
+float(rectform(z3));
+Print("======================================");
+kill(all);
+print("Q 14.144");
+declare(z,complex);
+
+eq:z^4=-1;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+z1:expand(sol[1]);
+z2:expand(sol[2]);
+z3:expand(sol[3]);
+z4:expand(sol[4]);
+float(rectform(z1));
+float(rectform(z2));
+float(rectform(z3));
+float(rectform(z4));
+
+Print("======================================");
+kill(all);
+print("Q 14.145");
+declare(z,complex);
+
+eq:z^5=-1;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+rectform(%);
+
+Print("======================================");
+kill(all);
+print("Q 14.146");
+declare(z,complex);
+
+eq:z^6=-1;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+rectform(%);
+
+Print("======================================");
+kill(all);
+print("Q 14.147");
+declare(z,complex);
+
+eq:z^3=8;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+rectform(%);
+
+Print("======================================");
+kill(all);
+print("Q 14.148");
+declare(z,complex);
+
+eq:z^4+5*z^2=36;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+rectform(%);
+
+
+Print("======================================");
+kill(all);
+print("Q 14.149");
+declare(z,complex);
+
+eq:z^6+7*z^3=8;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+rectform(%);
+
+Print("======================================");
+kill(all);
+print("Q 14.150");
+declare(z,complex);
+
+eq:z^3=1;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+z1:expand(sol[1]);
+z2:expand(sol[2]);
+z3:expand(sol[3]);
+
+z1+z2+z3;
+
+
+eq:z^4=1;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+z1:expand(sol[1]);
+z2:expand(sol[2]);
+z3:expand(sol[3]);
+z4:expand(sol[4]);
+
+z1+z2+z3+z4;
+
+Print("======================================");
+kill(all);
+print("Q 14.152");
+declare(z,complex);
+
+eq:z^2=%i*4;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+rectform(%);
+
+Print("======================================");
+kill(all);
+print("Q 14.153");
+declare(z,complex);
+
+eq:z^2=4+%i*3;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+rectform(%);
+
+Print("======================================");
+kill(all);
+print("Q 14.154");
+declare(z,complex);
+
+eq:z^2=-8+%i*6;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+rectform(%);
+
+
+Print("======================================");
+kill(all);
+print("Q 14.155");
+declare(z,complex);
+
+eq:z^2-3*z+3-%i=0;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+rectform(%);
+
+Print("======================================");
+kill(all);
+print("Q 14.156");
+declare(z,complex);
+
+eq:z^2+z+1-%i=0;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+rectform(%);
+
+Print("======================================");
+kill(all);
+print("Q 14.157");
+declare(z,complex);
+
+eq:z^2-(5+%i)*z+8+%i=0;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+rectform(%);
+
+Print("======================================");
+kill(all);
+print("Q 14.158");
+declare(z,complex);
+
+eq:z^4-3*(1+%i*2)*z^2=8-6*%i;
+soln:solve(eq,z);
+sol:map(rhs,soln);
+rectform(%);

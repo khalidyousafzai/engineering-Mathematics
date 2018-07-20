@@ -1,0 +1,31 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{commath}									%differentiation symbols
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,decorations.pathreplacing,decorations.markings}
+
+\input{../../tex/myEMTvectors.tex}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+
+\newcommand*{\bH}{{\ensuremath{{\boldsymbol{H}}}}}                         %network functions
+
+\begin{document}
+\begin{urdufont}
+
+
+\begin{tikzpicture}
+\begin{axis}[xlabel={$x$},ylabel={$y$},zlabel={$\abs{\sin z}$},z label style={rotate=-90},colormap={bw}{gray(0 cm)=(0);gray(1 cm)=(1)},zmax=5,xtick={0,180,360},xticklabels={$0$,$\pi$,$2\pi$},ytick={0,180},yticklabels={$0$,$\pi$},ztick=\empty,ymax=180]
+\addplot3[mesh,color=gray,domain=0:360,y domain=0:180,samples=10,samples y=20]{sqrt((sin(x)*cosh(pi/180*y))^2+(cos(x)*sinh(pi/180*y))^2)};
+\end{axis}
+
+\end{tikzpicture}%
+\end{urdufont}
+\end{document}

@@ -4,7 +4,7 @@
 \DeclareMathOperator{\arcsec}{arcsec}
 \DeclareMathOperator{\arccot}{arcCot}
 \DeclareMathOperator{\arccsc}{arcCsc}
-\DeclareMathOperator{\arccosine}{arc\,Cos}
+\DeclareMathOperator{\arccosine}{arcCos}
 \DeclareMathOperator{\arccosh}{arcCosh}
 \DeclareMathOperator{\arcsinh}{arcsinh}
 \DeclareMathOperator{\arctanh}{arctanh}

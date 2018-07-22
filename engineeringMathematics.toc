@@ -149,6 +149,8 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 14}}قوت نمائی تفاعل}{\RL {\arabicfont 1084}}
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 14}}تکونیاتی اور ہذلولی تفاعل}{\RL {\arabicfont 1089}}
 \contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 14}}لوگارتھم۔ عمومی طاقت}{\RL {\arabicfont 1095}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1103}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1107}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1107}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 15}}حافظ زاویہ نقشہ کشی}{\RL {\arabicfont 1103}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 15}}نقشہ گشی}{\RL {\arabicfont 1104}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1109}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1113}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1113}}

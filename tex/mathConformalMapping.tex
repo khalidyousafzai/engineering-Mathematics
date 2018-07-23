@@ -140,6 +140,7 @@ w=az+b
 \draw[thick](0,0)node[shift={(0.2,0.2)}]{$A$}--++(0,1.5)node[shift={(0.2,0.2)}]{$C$};
 \draw(1,-1)node[]{$z=x+iy$};
 \draw(1,-1.5)node[]{\text{\RL{($\,z$ مستوی)}}};
+\draw(0,0)node[below]{$0$}node[left]{$0$};
 \begin{scope}[xshift={(4cm)}]
 \draw(-1.5,0)--(1.5,0)node[below]{$u_1$};
 \draw(0,0)--++(0,2.75)node[right]{$v_1$};
@@ -177,6 +178,241 @@ w=az+b
 \انتہا{مثال}
 %========================
 \ابتدا{مثال}\quad \موٹا{نقش \عددی{w=z^2}}\\
+ہم درج ذیل نقش پر غور کرنا چاہتے ہیں۔
+\begin{align}\label{مساوات_نقش_مربع_الف}
+w=z^2
+\end{align}
+یہاں قطبی محدد استعمال کرنا بہتر ثابت ہوتا ہے۔یوں \عددی{z=e^{i\theta}} اور \عددی{w=Re^{i\phi}} لیتے ہوئے  مساوات \حوالہ{مساوات_نقش_مربع_الف} \عددی{Re^{i\phi}=r^2e^{i2\theta}} لکھی جائے گی جس سے 
+\begin{align*}
+R=r^2,\quad \phi=2\theta
+\end{align*}
+حاصل ہوتے ہیں۔ یوں دائروں \عددی{r=r_0=\text{مستقل}} کا نقش دائرے \عددی{R=r_0^2=\text{مستقل}} ہوں گے جبکہ مبدا سے گزرتی سیدھی لکیروں \عددی{\theta=\theta_0=\text{مستقل}} کا نقش دگنی زاویہ پر لکیریں \عددی{\phi=2\theta_0=\text{مستقل}} ہوں گی۔ خاص کر \عددی{z} سطح میں مثبت حقیقی محور \عددی{(\theta=0)} کا نقش \عددی{w} سطح میں مثبت حقیقی محور ہو گا جبکہ \عددی{z} سطح میں مثبت خیالی محور \عددی{\theta=\tfrac{\pi}{2}} کا نقش \عددی{w} سطح میں منفی حقیقی محور ہو گا۔ یہ نقش  مبدا پر ہر زاویہ کو دگنا کرتا ہے۔ربع اول \عددی{0\le \theta \le \tfrac{\pi}{2}} کا نقش بالائی نصف \عددی{w} سطح ہو گی (شکل \حوالہ{شکل_نقش_مربع})۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\len}{3/4}
+\draw(0,0)--++(2.5,0)node[below]{$x$};
+\draw(0,0)--++(0,2)node[left]{$y$};
+\draw([shift={(0:0.5*\len)}]0,0) arc (0:90:0.5*\len);
+\draw([shift={(0:1*\len)}]0,0) arc (0:90:1*\len);
+\draw([shift={(0:1.5*\len)}]0,0) arc (0:90:1.5*\len);
+\draw([shift={(0:2*\len)}]0,0) arc (0:90:2*\len);
+\draw(1*\len,0)node[below]{$1$};
+\draw(2*\len,0)node[below]{$2$};
+\draw(0,1*\len)node[left]{$1$};
+\draw(0,2*\len)node[left]{$2$};
+\draw[dashed](0,0)--++(30:2.5*\len);
+\draw[dashed](0,0)node[below]{$0$}node[left]{$0$}--++(60:2.5*\len);
+\begin{scope}[xshift={(7cm)}]
+\draw(-3.5,0)--(3.5,0)node[below]{$u$};
+\draw(0,0)--++(0,3.5)node[left]{$v$};
+\draw([shift={(0:0.25*\len)}]0,0) arc (0:180:0.25*\len);
+\draw([shift={(0:1*\len)}]0,0) arc (0:180:1*\len);
+\draw([shift={(0:2.25*\len)}]0,0) arc (0:180:2.25*\len);
+\draw([shift={(0:4*\len)}]0,0) arc (0:180:4*\len);
+\foreach \x in {-3,-2,2,3}{\draw(\x*\len,0)--++(0,0.1);}
+\draw(1*\len,0)node[below]{$1$};
+\draw(2*\len,0)node[below]{$2$};
+\draw(3*\len,0)node[below]{$3$};
+\draw(4*\len,0)node[below]{$4$};
+\draw(-1*\len,0)node[below]{$-1$};
+\draw(-2*\len,0)node[below]{$-2$};
+\draw(-3*\len,0)node[below]{$-3$};
+\draw(-4*\len,0)node[below]{$-4$};
+\draw[dashed](0,0)node[below]{$0$}--++(60:4.5*\len);
+\draw[dashed](0,0)--++(120:4.5*\len);
+\end{scope}
+\end{tikzpicture}
+\caption{نقش \عددی{w=z^2}}
+\label{شکل_نقش_مربع}
+\end{figure}
 
+مستطیل محدد میں تبادل \عددی{w=z^2} درج ذیل دے گا۔
+\begin{align*}
+u+iv=x^2-y^2+i2xy
+\end{align*}
+حقیقی اور خیالی اجزاء علیحدہ کرتے ہوئے 
+\begin{align}\label{مساوات_نقش_مربع_ب}
+u=x^2-y^2,\quad v=2xy
+\end{align}
+ملتا ہے۔ہم دیکھتے ہیں کہ \عددی{u} اور \عددی{v} کی \اصطلاح{ہموار سطحات}\فرہنگ{ہموار!سطح}\فرہنگ{سطح!ہموار} متساوی الاضلاع قطع زائد ہوں گے جن کی متقارب لکیریں\فرہنگ{متقارب!لکیریں}\حاشیہب{asymptotes} \عددی{y=\mp x} اور محدد کی محور ہیں۔ہم دیکھتے ہیں مساوات \حوالہ{مساوات_نقش_مربع_ب} میں دیے گئے  خطوط ایک دوسرے کی عمودی مطقاطع خطوط (حصہ \حوالہ{حصہ_درجہ_اول_عمودی_خطوط_کی_نسلیں}) ہیں۔ شکل \حوالہ{شکل_نقش_مربع_ہموار_سطحیں} میں \عددی{z} سطح میں دو خطے \عددی{w} سطح میں مستطیل پر نقش ہوں گے۔ظاہر ہے کہ ہر نقطہ \عددی{w\ne 0} سطح \عددی{z} میں ٹھیک  دو نقطوں کا عکس ہو گا۔
+
+ہم مساوات \حوالہ{مساوات_نقش_مربع_ب} استعمال کرتے ہوئے سیدھی خطوط \عددی{x=\text{مستقل}} اور \عددی{y=\text{مستقل}} کا عکس تلاش کر سکتے ہیں۔خط \عددی{x=c=\text{مستقل}} کا عکس
+\begin{align*}
+u=c^2-y^2,\quad v=2cy
+\end{align*}
+سے \عددی{y} حذف کرتے ہوئے
+\begin{align*}
+v^2=4c^2(c^2-u)
+\end{align*}
+حاصل ہوتا ہے جو قطع مکافی کو ظاہر کرتی ہے جو بائیں رخ کھلتا ہے۔مبدا اس قطع مکافی کا ماسکہ ہو گا۔اسی طرح \عددی{y=k=\text{مستقل}} کا عکس
+\begin{align*}
+v^2=4k^2(k^2+u)
+\end{align*}
+ہو گا جو دائیں کو کھلتا ہوا قطع مکافی ہے جس کا ماسکہ عین مبدا پر ہے (شکل \حوالہ{شکل_نقش_مربع_نقش_میں_سیدھے_خطوط_کا_عکس})۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,clip=false,axis lines*=middle,ymin=-3,ymax=3,xmin=-3,xmax=3.5,xtick={-1,1},ytick={-1,1},xticklabels={$-1$,$1$},yticklabels={$-1$,$1$},xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},xlabel style={at={(current axis.right of origin)},anchor=west},ylabel style={at={(current axis.above origin)},anchor=south}]
+\shade[fill=gray!20!white](axis cs: 1.53,0.64)--(axis cs:1.7989,1.1118)--(axis cs: 2.236,0.8944)--(axis cs:2.05817,0.4858)--(axis cs: 1.53,0.64);
+\shade[fill=gray!20!white](axis cs: 2.236,0.8944)--(axis cs:2.05817,0.4858)--(axis cs:2.48239,0.402837)--(axis cs:2.57,0.7782)--(axis cs:2.236,0.8944);
+%
+\shade[fill=gray!20!white](axis cs: -1.53,-0.64)--(axis cs:-1.7989,-1.1118)--(axis cs: -2.236,-0.8944)--(axis cs:-2.05817,-0.4858)--(axis cs: -1.53,-0.64);
+\shade[fill=gray!20!white](axis cs: -2.236,-0.8944)--(axis cs:-2.05817,-0.4858)--(axis cs:-2.48239,-0.402837)--(axis cs:-2.57,-0.7782)--(axis cs:-2.236,-0.8944);
+%
+\addplot[domain=-2:2]{sqrt(x^2-0)}node[pin=30:{$u=0$}]{};
+\addplot[domain=-2:2,name path=ut]{sqrt(x^2+2)};
+\addplot[domain=-2:2,name path=uf]{sqrt(x^2+4)};
+\addplot[domain=-2:2]{sqrt(x^2+6)}node[pin=30:{$u=-6$}]{};
+%
+\addplot[domain=-2:2]{-sqrt(x^2-0)};
+\addplot[domain=-2:2]{-sqrt(x^2+2)};
+\addplot[domain=-2:2]{-sqrt(x^2+4)};
+\addplot[domain=-2:2]{-sqrt(x^2+6)};
+%
+\addplot[domain=-2:2]({sqrt(2+x^2)},{x});
+\addplot[domain=-2:2]({sqrt(4+x^2)},{x});
+\addplot[domain=-2:2]({sqrt(6+x^2)},{x})node[pin=0:{$u=6$}]{};
+%
+\addplot[domain=-2:2]({-sqrt(2+x^2)},{x});
+\addplot[domain=-2:2]({-sqrt(4+x^2)},{x});
+\addplot[domain=-2:2]({-sqrt(6+x^2)},{x});
+%%
+\addplot[domain=0.35:3,dashed,name path=vt]({x},{2/(2*x)})node[pin={[pin edge=solid]0:{$v=2$}}]{};
+\addplot[domain=0.7:3,dashed,name path=vf]({x},{4/(2*x)});
+\addplot[domain=1.05:3,dashed]({x},{6/(2*x)})node[pin={[pin edge=solid]0:{$v=6$}}]{};
+%
+\addplot[domain=0.35:3,dashed]({x},{-2/(2*x)});
+\addplot[domain=0.7:3,dashed]({x},{-4/(2*x)});
+\addplot[domain=1.05:3,dashed]({x},{-6/(2*x)})node[solid,pin={[pin distance=0.25cm,pin edge=solid]0:{$v=-6$}}]{};
+%
+\addplot[domain=0.35:3,dashed](-{x},{2/(2*x)});
+\addplot[domain=0.7:3,dashed](-{x},{4/(2*x)});
+\addplot[domain=1.05:3,dashed](-{x},{6/(2*x)});
+%
+\addplot[domain=0.35:3,dashed](-{x},{-2/(2*x)});
+\addplot[domain=0.7:3,dashed](-{x},{-4/(2*x)});
+\addplot[domain=1.05:3,dashed](-{x},{-6/(2*x)});
+\end{axis}
+\begin{scope}[shift={(8cm,2cm)}]
+\pgfmathsetmacro{\kk}{0.25}
+\draw[dashed](-4.5*\kk,0)--(4.5*\kk,0)node[right]{$u$};
+\draw(0,-4.5*\kk)--(0,4.5*\kk)node[above]{$v$};
+%
+\shade[gray!20!white](1*\kk,1*\kk)--++(2*\kk,0)--++(0,1*\kk)--++(-2*\kk,0)--++(0,-1*\kk);
+%
+\foreach \x in {-4,-3,-2,-1,1,2,3,4}{\draw(\x*\kk,-4.5*\kk)--++(0,9*\kk);}
+\foreach \y in {-4,-3,-2,-1,1,2,3,4}{\draw[dashed](-4.5*\kk,\y*\kk)--++(9*\kk,0);}
+\draw(0,0)node[ocirc]{};
+\end{scope}
+\end{tikzpicture}
+\caption{نقش $w=z^2$ کی صورت میں $u$ اور $v$ کی ہموار سطحیں}
+\label{شکل_نقش_مربع_ہموار_سطحیں}
+\end{figure}
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[small,clip=false,axis lines*=middle,ymin=-5,ymax=5,xmin=-5.5,xmax=5.5,xtick={-2,-3,-5,2,3,5},xticklabels={$-2$,$-3$,$-5$,$2$,$3$,$5$},ytick={-4,-2,2,4},yticklabels={$-4$,$-2$,$2$,$4$},xlabel style={at={(current axis.right of origin)},anchor=west},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=west},xlabel={$u$},ylabel={$v$}]
+\addplot[dashed,domain=-2.3:2.3] ({0.5^2-x^2/(4*0.5^2)},{x})node[pos=0,left]{$x=\tfrac{1}{2}$};
+\addplot[dashed,domain=-5:5] ({1^2-x^2/(4*1^2)},{x})node[pos=0,left]{$x=1$};
+\addplot[dashed,domain=-3.5:3.5] ({1.5^2-x^2/(4*1.5^2)},{x});
+\addplot[dashed,domain=-5:5] ({2^2-x^2/(4*2^2)},{x})node[pos=0,below]{$x=2$};
+%
+\addplot[domain=-2.2:2.2] ({x^2/(4*0.5^2)-0.5^2},{x})node[right]{$y=\tfrac{1}{2}$};
+\addplot[smooth,domain=-4.5:4.5] ({x^2/(4*1^2)-1^2},{x})node[right]{$y=1$};
+\addplot[domain=-3.6:3.6] ({x^2/(4*1.5^2)-1.5^2},{x});
+\addplot[domain=-4.5:4.5] ({x^2/(4*2^2)-2^2},{x})node[above]{$y=2$};
+\end{axis}
+\end{tikzpicture}
+\caption{نقش $w=z62$ میں سیدھے خطوط $x=c$ اور $y=c^*$ کے عکس}
+\label{شکل_نقش_مربع_نقش_میں_سیدھے_خطوط_کا_عکس}
+\end{figure}
 \انتہا{مثال}
 %===========================
+باقی طاقت
+\begin{align}
+w=z^n,\quad n=3,4,\cdots
+\end{align}
+پر بھی اسی طرح غور کیا جا سکتا ہے۔ظاہر ہے کہ ان کی ہموار سطحات کی مساوات مزید پیچیدہ ہوں گی۔زاویائی خطہ \عددی{0\le \phase{z} \le \tfrac{\pi}{n}} بالائی نصف \عددی{w} سطح پر نقش ہو گا (شکل \حوالہ{شکل_نقش_عمومی_طاقت})۔
+
+منفی طاقت کی نقش \عددی{\tfrac{1}{z},\tfrac{1}{z^2},\cdots} پر بھی قطبی محدد کی مدد سے غور کیا جا سکتا ہے۔عملاً اہم ترین صورت درج ذیل مثال میں دی گئی ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(0,0)--++(2,0)node[below]{$x$};
+\draw(0,0)--++(0,1)node[left]{$y$};
+\draw(0,0)--++(30:1.5);
+\draw[-stealth]([shift={(0:0.5)}]0,0) arc (0:30:0.5);
+\draw(15:0.9)node{$\tfrac{\pi}{n}$};
+%
+\begin{scope}[xshift={(6cm)}]
+\draw(-2,0)--(2,0)node[below]{$u$};
+\draw(0,0)--++(0,1)node[right]{$v$};
+\end{scope}
+\end{tikzpicture}
+\caption{نقش $w=z^n\,$}
+\label{شکل_نقش_عمومی_طاقت}
+\end{figure}
+
+%=========================
+\ابتدا{مثال}\quad \موٹا{نقش $w=\tfrac{1}{z}$۔ الٹ جانا}\\
+ہم درج ذیل نقش پر غور کرتے ہیں۔
+\begin{align}\label{مساوات_نقش_الٹ_جانا_الف}
+w=\frac{1}{z}\quad \quad \quad z\ne 0
+\end{align}
+قطبی محدد استعمال کرتے ہوئے \عددی{z=re^{i\theta}} اور \عددی{w=Re^{i\phi}} لکھتے ہیں۔یوں مساوات \حوالہ{مساوات_نقش_الٹ_جانا_الف} سے
+\begin{align}
+R=\frac{1}{r},\quad \phi=-\theta\quad \quad \quad (r\ne 0)
+\end{align}
+حاصل ہوتا ہے۔اس سے ہم دیکھتے ہیں کہ نقطہ \عددی{w=\tfrac{1}{z}\,(z\ne 0)}، مبدا سے نکلتی سیدھی لکیر جو \عددی{\bar{z}} سے گزرتی ہو پر واقع ہے۔مبدا سے اس نقطے کا فاصلہ \عددی{\tfrac{1}{\abs{z}}} ہے۔
+
+جیومیٹریائی طور پر \عددی{z} کو اکائی دائرے میں الٹاتے ہوئے اس کا \عددی{x} محور میں عکس لینے سے \عددی{w=\tfrac{1}{z}}  حاصل ہو گا۔آپ متشابہ مثلثات  استعمال کرتے ہوئے اس حقیقت کو ثابت کر سکتے ہیں (شکل  \حوالہ{شکل_نقش_اکائی_دائرے_میں_الٹ})۔
+
+شکل میں دکھایا گیا ہے کہ \عددی{w=\tfrac{1}{z}} نقش،  افقی اور کھڑی سیدھی لکیروں کو دائروں یا سیدھی لکیروں پر عکس کرتی ہے۔یہاں تک کہ درج ذیل جملہ ہر صورت درست ہو گا۔\\
+\ترچھا{\عددی{w=\tfrac{1}{z}} ہر سیدھی لکیر یا دائرے کو دائرے یا سیدھے لکیر پر نقش کرتا ہے۔}\\
+ثبوت: \عددی{z} سطح میں ہر سیدھی لکیر یا دائرہ کو درج ذیل مساوات ظاہر کرتی ہے۔
+\begin{align*}
+A(x^2+y^2)+Bx+Cy+D=0\quad \quad (A,B,C,D \text{حقیقی})
+\end{align*}
+\عددی{A=0} سیدھی لکیر دیتی ہے جبکہ \عددی{A\ne 0} دائرہ دیتی ہے۔ \عددی{z} اور \عددی{\bar{z}}  استعمال کرتے ہوئے اس مساوات کو درج ذیل لکھا جا سکتا ہے۔
+\begin{align*}
+Az\bar{z}+B\frac{z+\bar{z}}{2}+C\frac{z-\bar{z}}{i2}+D=0
+\end{align*}
+چونکہ \عددی{w=\tfrac{1}{z}} ہے لہٰذا اس میں \عددی{z=\tfrac{1}{w}} پر کرتے ہوئے \عددی{w\bar{w}} سے ضرب دینے سے 
+\begin{align*}
+A+B\frac{w+\bar{w}}{2}+C\frac{\bar{w}-w}{i2}+Dw\bar{w}=0
+\end{align*}
+حاصل ہوتا ہے جس کو \عددی{u} اور \عددی{v} کی صورت میں لکھتے ہوئے
+\begin{align*}
+A+Bu-Cv+D(u^2+v^2)=0
+\end{align*}
+حاصل ہوتا ہے جو \عددی{D\ne 0} کی صورت میں دائرہ ہو گا جبکہ \عددی{D=0} کی صورت میں \عددی{w} سطح میں سیدھی لکیر ہو گی۔ 
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw(-1.5,0)--(2,0)node[right]{$x$};
+\draw(0,0) circle (1);
+\draw[dashed](0,0)--(-20:1)coordinate(kA);
+\draw[dashed](0,0)--(100:1)coordinate(kB);
+\path[name path=kkA](kA)--++(-20+90:-1)coordinate(kC)--++(-20+90:2.75);
+\path[name path=kkB](kB)--++(100-90:-1)coordinate(kD)--++(100-90:2.75);
+\draw[name path=kkC](kA)--(kB);
+\draw[name intersections={of=kkA and kkB}] (kC)--(intersection-1)coordinate(kkE);
+\draw(kD)--(intersection-1);
+\draw[name path=kkD](0,0)--(kkE)node[ocirc]{}node[right]{$z$};
+\path[name intersections={of=kkC and kkD}];
+\draw(intersection-1)node[ocirc]{}node[above]{$\bar{w}$};
+\draw(0,0)node[ocirc]{}node[below]{$0$};
+\draw(kA)node[ocirc]{}node[right]{$N_2$};
+\draw(kB)node[ocirc]{}node[above]{$N_1$};
+\draw(1,0)node[shift={(-0.15,0.2)}]{$1$};
+\end{tikzpicture}
+\caption{$z$ سے $w=\tfrac{1}{z}$ کا جیومیٹریائی حصول۔ نقطہ \عددی{z} سے اکائی دائرے تک مماس،  دائرے کو $N_1$ اور $N_2$ پر چھوتے ہیں۔مبدا سے $z$ تک لکیر اور $N_1$ سے $N_2$ تک لکیر نقطہ $\bar{w}$ پر ایک دوسرے کو قطع کرتے ہیں۔ }
+\label{شکل_نقش_اکائی_دائرے_میں_الٹ}
+\end{figure}
+\انتہا{مثال}
+%===========================
+
+\حصہء{سوالات}
+

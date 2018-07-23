@@ -1,0 +1,8 @@
+print("=======================");
+kill(all);
+print("example 15.1");
+
+
+eqa:2=x^2-y^2;
+eqb:4=2*x*y;
+solve(eqa,eqb,[x,y]);

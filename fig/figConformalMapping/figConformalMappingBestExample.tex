@@ -1,0 +1,92 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{commath}   %differential symbol   \dif
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+\usepackage[europeanresistors]{circuitikz}
+\usetikzlibrary{intersections,decorations.markings,calc,patterns}
+\usepackage{polyglossia}                %is loaded the last
+\usepackage{siunitx}
+\usepackage{amsmath}
+\input{../../tex/myEMTvectors.tex}
+
+\setmainlanguage[numerals=maghrib]{arabic}     %for english numbers use numerals=maghrib, for arabic numerals=arabicdigits
+\setotherlanguages{english}
+
+
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+%\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+\newfontfamily\urdufont[Scale=1.25,WordSpace=6.0,,Script=Arabic]{Jameel Noori Nastaleeq}
+
+\pgfmathsetmacro{\A}{0.75}
+\pgfmathdeclarefunction{Ey}{2}{\pgfmathparse{\A*cos(#1)*sin(#2)}}
+
+\pgfplotsset{select coords between index/.style 2 args={
+    x filter/.code={
+        \ifnum\coordindex<#1\def\pgfmathresult{}\fi
+        \ifnum\coordindex>#2\def\pgfmathresult{}\fi
+    }
+}}
+
+
+\begin{document}
+\begin{urdufont}
+\def\ringa{(0,-1) circle (1) (0,-1/2) circle (1/2)}
+\def\ringb{(-1/2,0) circle (1/2) (-1/4,0) circle (1/4)}
+\def\ringc{(0,1) circle (1) (0,1/2) circle (1/2)}
+\def\ringd{(1,0) circle (1) (1/2,0) circle (1/2)}
+\begin{tikzpicture}%[z={(-0.5cm,-0.5cm)},x={(1cm,0cm)},y={(0cm,1cm)}]
+
+  \begin{scope}[even odd rule]
+        % Define a clipping path. All paths outside ringa will
+        % be cut because the even odd rule is set. 
+        \clip \ringa;
+        % Fill ringb. Since the even odd rule is set, only the
+        % ring will be filled, not the hole in the middle.  
+        \fill[fill=black] \ringb;
+    \end{scope}
+   \begin{scope}[even odd rule]
+        % Define a clipping path. All paths outside ringa will
+        % be cut because the even odd rule is set. 
+        \clip \ringc;
+        % Fill ringb. Since the even odd rule is set, only the
+        % ring will be filled, not the hole in the middle.  
+        \fill[fill=gray] \ringd;
+    \end{scope}
+%
+\draw(-3,0)--(3,0)node[below]{$u$};
+\draw(0,-3)--(0,3)node[left]{$v$};
+%
+\draw (1,0) circle (1); %x=-1/2
+\draw (-1,0) circle (1); %x=1/2
+\draw (1/2,0) circle (1/2); %x=-1
+\draw (-1/2,0) circle (1/2); %x=1
+\draw (1/4,0) circle (1/4); %x=-2
+\draw (-1/4,0) circle (1/4); %x=2
+%
+\draw (0,1) circle (1); %y=-1/2
+\draw (0,-1) circle (1); %y=1/2
+\draw (0,1/2) circle (1/2); %y=-1
+\draw (0,-1/2) circle (1/2); %y=1
+%
+\draw[stealth-](1,0)++(45:1) to [out=60,in=180]++(0.3,0.3)node[right]{$x=\tfrac{1}{2}$};
+\draw[stealth-](-1,0)++(135:1) to [out=120,in=-20]++(-0.3,0.3)node[left]{$x=-\tfrac{1}{2}$};
+\draw[stealth-](0,1)++(45:1) to [out=60,in=180]++(0.3,0.3)node[right]{$y=-\tfrac{1}{2}$};
+\draw[stealth-](0,-1)++(-135:1) to [out=-120,in=20]++(-0.3,-0.3)node[left]{$y=\tfrac{1}{2}$};
+%
+\draw(0,1)node[shift={(-0.2,0.2)}]{$1$};
+\draw(0,-1)node[shift={(-0.3,-0.2)}]{$-1$};
+\draw(1,0)node[shift={(0.2,-0.2)}]{$1$};
+\draw(-1,0)node[shift={(-0.3,-0.2)}]{$-1$};
+%
+\draw(0,2)node[shift={(-0.2,0.2)}]{$2$};
+\draw(0,-2)node[shift={(-0.3,-0.2)}]{$-2$};
+\draw(2,0)node[shift={(0.2,-0.2)}]{$2$};
+\draw(-2,0)node[shift={(-0.3,-0.2)}]{$-2$};
+%text
+\draw[stealth-](0,-2.5) to [out=20,in=180]++(0.3,0.1)node[right]{$x=0$};
+\draw[stealth-](-2.5,0) to [out=120,in=-45]++(-0.3,0.3)node[left]{$y=0$};
+\end{tikzpicture}%
+\end{urdufont}
+\end{document} 

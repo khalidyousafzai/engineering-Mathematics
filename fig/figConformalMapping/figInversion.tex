@@ -1,0 +1,77 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{commath}   %differential symbol   \dif
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+\usepackage[europeanresistors]{circuitikz}
+\usetikzlibrary{intersections,decorations.markings,calc}
+\usepackage{polyglossia}                %is loaded the last
+\usepackage{siunitx}
+\usepackage{amsmath}
+\input{../../tex/myEMTvectors.tex}
+
+\setmainlanguage[numerals=maghrib]{arabic}     %for english numbers use numerals=maghrib, for arabic numerals=arabicdigits
+\setotherlanguages{english}
+
+
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+%\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+\newfontfamily\urdufont[Scale=1.25,WordSpace=6.0,,Script=Arabic]{Jameel Noori Nastaleeq}
+
+\pgfmathsetmacro{\A}{0.75}
+\pgfmathdeclarefunction{Ey}{2}{\pgfmathparse{\A*cos(#1)*sin(#2)}}
+
+\pgfplotsset{select coords between index/.style 2 args={
+    x filter/.code={
+        \ifnum\coordindex<#1\def\pgfmathresult{}\fi
+        \ifnum\coordindex>#2\def\pgfmathresult{}\fi
+    }
+}}
+
+
+\begin{document}
+\begin{urdufont}
+\def\ringa{(0,-1) circle (1) (0,-1/2) circle (1/2)}
+\def\ringb{(-1/2,0) circle (1/2) (-1/4,0) circle (1/4)}
+\begin{tikzpicture}%[z={(-0.5cm,-0.5cm)},x={(1cm,0cm)},y={(0cm,1cm)}]
+
+  \begin{scope}[even odd rule]
+        % Define a clipping path. All paths outside ringa will
+        % be cut because the even odd rule is set. 
+        \clip \ringa;
+        % Fill ringb. Since the even odd rule is set, only the
+        % ring will be filled, not the hole in the middle.  
+        \fill[fill=orange] \ringb;
+    \end{scope}
+  
+%fill
+\fill[gray!20!white]([shift={(-90:1)}] 0,1) arc (-90:0:1) ([shift={(90:1)}] 1,0) arc (90:180:1);
+\fill[white] (1/2,0) circle (1/2); %x=-1
+\fill[white] (0,1/2) circle (1/2); %y=-1
+
+%
+\draw (1,0) circle (1); %x=-1/2
+\draw (-1,0) circle (1); %x=1/2
+\draw (1/2,0) circle (1/2); %x=-1
+\draw (-1/2,0) circle (1/2); %x=1
+\draw (1/4,0) circle (1/4); %x=-2
+\draw (-1/4,0) circle (1/4); %x=2
+%
+\draw (0,1) circle (1); %y=-1/2
+\draw (0,-1) circle (1); %y=1/2
+\draw (0,1/2) circle (1/2); %y=-1
+\draw (0,-1/2) circle (1/2); %y=1
+%
+\draw(0,1)node[above left]{$1$};
+\draw(0,-1)node[below left]{$-1$};
+\draw(1,0)node[below right]{$1$};
+\draw(-1,0)node[below left]{$-1$};
+%
+\draw(0,2)node[above left]{$2$};
+\draw(0,-2)node[below left]{$-2$};
+\draw(2,0)node[below right]{$2$};
+\draw(-2,0)node[below left]{$-2$};
+\end{tikzpicture}%
+\end{urdufont}
+\end{document} 

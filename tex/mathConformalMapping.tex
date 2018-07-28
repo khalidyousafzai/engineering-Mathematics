@@ -1603,3 +1603,329 @@ $w=-\tfrac{z^2+1}{iz^2+1}$
 %========================
 
 \حصہ{نقش زیر دیگر تفاعل}
+ہم اب دیگر خصوصی تفاعل کی نقش پر غور کرتے ہیں۔
+
+\اصطلاح{قوت نمائی تفاعل}\فرہنگ{قوت نمائی تفاعل} (حصہ \حوالہ{حصہ_مخلوط_تحلیلی_قوت_نمائی})
+\begin{align}\label{مساوات_نقش_قوت_نمائی_الف}
+w=e^z
+\end{align}
+کی تفرق کہیں پر بھی صفر کے برابر نہیں ہوتی ہے لہٰذا یہ تفاعل ہر نقطہ پر محافظ زاویہ ہو گا۔\عددی{w=Re^{i\phi}} لکھتے ہوئے
+\begin{align*}
+Re^{i\phi}=e^{x+iy}=e^xe^{iy}
+\end{align*}
+حاصل ہوتا ہے لہٰذا مساوات \حوالہ{مساوات_نقش_قوت_نمائی_الف} کو
+\begin{align}\label{مساوات_نقش_قوت_نمائی_ب}
+R=e^x,\quad \phi=y
+\end{align}
+لکھا جا سکتا ہے۔یوں ہم دیکھتے ہیں کہ \عددی{x=a=\text{مستقل}} لکیروں کا نقش دائرے \عددی{R=e^a} ہوں گے جبکہ \عددی{y=c} کے نقش مبدا سے نکلتی  \عددی{\phi=c} لکیریں ہوں گی۔چونکہ تمام \عددی{z} پر \عددی{e^z\ne 0} ہے لہٰذا \عددی{w=0} کسی بھی نقطہ \عددی{z} کا عکس نہیں ہو گا۔مستطیل خطہ مثلاً \عددی{a\le x\le b,\,\, c\le y\le d} کا عکس خطہ
+\begin{align*}
+e^a\le R\le e^b,\quad c\le \phi \le d
+\end{align*}
+ہو گا (شکل \حوالہ{شکل_نقش_قوت_نمائی})۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\begin{tikzpicture}
+\draw(0,0)--++(3,0)node[below]{$x$};
+\draw(0,0)--++(0,2)node[right]{$y$};
+\draw[thick](0.5,0.5)node[below]{$A$}--++(1.5,0)node[below]{$B$}--++(0,0.75)node[above]{$C$}--++(-1.5,0)node[above]{$D$}--++(0,-0.75);
+\draw(0.5,0)node[below]{$a$}--++(0,0.1);
+\draw(2,0)node[below]{$b$}--++(0,0.1);
+\draw(0,0.5)node[left]{$c$}--++(0.1,0);
+\draw(0,1.25)node[left]{$d$}--++(0.1,0);
+\end{tikzpicture}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-2,0)--(2.25,0)node[below]{$u$};
+\draw(0,0)--(0,2)node[right]{$v$};
+\draw([shift={(0:1)}]0,0) arc (0:180:1);
+\draw([shift={(0:1.5)}]0,0) arc (0:180:1.5);
+\draw(20:1.6)--(20:2.5)node[pos=0.5,shift={(110:0.3)},rotate=20]{$\phi=c$};
+\draw(60:1.6)--(60:2.5)node[pos=0.5,shift={(150:0.3)},rotate=60]{$\phi=d$};
+\draw(20:0.7)node[]{$A^*$};
+\draw(60:0.7)node[]{$D^*$};
+\draw[thick] ([shift={(20:1)}]0,0) arc (20:60:1) --++(60:0.5)node[shift={(0.3,0.1)}]{$C^*$} ([shift={(60:1.5)}]0,0)  arc (60:20:1.5)node[shift={(0.3,-0.1)}]{$B^*$}--(20:1);
+\draw(145:0.8)node[fill=white]{$R=e^a$};
+\draw(135:1.75)node[fill=white]{$R=e^b$};
+\end{tikzpicture}
+\end{subfigure}%
+\caption{نقش \عددی{w=e^z}}
+\label{شکل_نقش_قوت_نمائی}
+\end{figure}
+
+بنیادی پٹی \عددی{-\pi<y\le \pi} پوری \عددی{w} سطح  (جو منفی حقیقی محور پر کٹی ہوئی ہوئی ہو گی) پر عکس ہو گی۔مزید ہر \عددی{y=c} اور \عددی{y=c+2\pi} لکیروں کے درمیان افقی پٹی  پوری \عددی{w} سطح پر عکس ہو گی۔یہ \عددی{e^z} کی دوریت کی بدولت ہے جس کا خیالی دوری عرصہ \عددی{i2\pi} ہے۔
+
+مساوات \حوالہ{مساوات_نقش_قوت_نمائی_ب} کے تحت، افقی پٹی \عددی{0\le y\le \pi} بالائی نصف \عددی{w} سطح پر عکس ہوتی ہے۔سرحد \عددی{y=0} مثبت  \عددی{u} محور پر عکس ہوتی ہے جبکہ لکیر \عددی{y=\pi} منفی \عددی{u} محور پر عکس ہوتی ہے۔قطع \عددی{0} تا \عددی{i\pi} کا عکس نصف دائرہ \عددی{\abs{w}=1,\, v\ge 0} ہو گا۔پٹی کی بائیں نصف \عددی{(x\le 0)} حصے کا عکس \عددی{\abs{w}\le 1,\, v\ge 0} اور دائیں نصف \عددی{(x\ge 0)} حصہ  اس نصف دائرہ \عددی{\abs{w}=1}  کی بیرون پر بالائی نصف \عددی{w} مستوی پر عکس ہو گا (شکل \حوالہ{شکل_نقش_قوت-نمائی_ب})۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\fill[fill=gray!20!white](-2,0)--(0,0)node[below]{$0$}--(0,1)--(-2,1)--(-2,0);
+\draw(-2.25,0)--(2.25,0)node[below]{$x$};
+\draw(0,0)--(0,1.5)node[left]{$y$};
+\draw(-2,1)--(2.,1);
+\draw(0,1)node[above right]{$\pi$};
+\end{tikzpicture}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\fill[fill=gray!20!white]([shift={(0:1)}]0,0) arc (0:180:1)--(1,0)node[below]{$1$};
+\draw([shift={(0:1)}]0,0) arc (0:180:1);
+\draw(-1.5,0)--(1.5,0)node[right]{$u$};
+\draw(0,0)node[below]{$0$}--++(0,1.5)node[right]{$v$};
+\draw(-1,0)node[below,xshift={(-0.15cm)}]{$-1$};
+\end{tikzpicture}
+\end{subfigure}%
+\caption{نقش \عددی{w=e^z}}
+\label{شکل_نقش_قوت-نمائی_ب}
+\end{figure}
+
+چونکہ قوت نمائی تفاعل کا الٹ  تعلق \اصطلاح{قدرتی لوگارتھم}\فرہنگ{لوگارتھم!قدرتی} \عددی{w=u+iv=\ln z}  ہے لہٰذا قدرتی لوگارتھم کی محافظ زاویہ نقش کی خواص، متذکرہ بالا میں \عددی{z} اور \عددی{w} سطحوں کی کردار  الٹ کرنے سے  قوت نمائی تفاعل کی خواص سے حاصل کی جا سکتی ہیں۔ یوں صدر قیمت \عددی{w=\Ln z}، (منفی حقیقی محور پر کٹی ہوئی)  \عددی{z} مستوی کو \عددی{w} مستوی کی افقی پٹی \عددی{-\pi<v\le \pi} پر عکس کرتی ہے۔مزید خواص پر اگلے حصے کی دوسری مثال میں غور کیا جائے گا۔
+
+\اصطلاح{سائن تفاعل}\فرہنگ{سائن!تفاعل} (حصہ \حوالہ{حصہ_تحلیلی_تکونیاتی_ہذلولی}) 
+\begin{align}\label{مساوات_محافظ_سائن_الف}
+w=u+iv=\sin z=\sin x\cosh y+i\cos x\sinh y
+\end{align}
+جہاں
+\begin{align}\label{مساوات_محافظ_سائن_ب}
+u=\sin x\cosh y,\quad v=\cos x\sinh y
+\end{align}
+دوری ہیں۔یوں پوری \عددی{xy} مستوی پر مساوات \حوالہ{مساوات_محافظ_سائن_ب} ہرگز ایک ایک مطابقتی نہیں ہے۔ہمیں \عددی{z} کو لامتناہی نصف پٹی
+ \عددی{S:-\tfrac{\pi}{2}\le x\le \tfrac{\pi}{2}} کے اندر رہنے کا پابند کرنا ہو گا۔چونکہ \عددی{f'(z)=\cos z} نقطہ \عددی{z=\mp \tfrac{\pi}{2}} پر صفر کے برابر ہے لہٰذا نقش ان دو نقطوں پر محافظ زاویہ نہیں ہو گا۔مساوات \حوالہ{مساوات_محافظ_سائن_ب} سے ہم دیکھتے ہیں کہ \عددی{S} کی سرحد \عددی{u} محور میں  عکس  ہو گی۔\عددی{x} محور کا قطع \عددی{-\tfrac{\pi}{2}\le x\le \tfrac{\pi}{2}} محور \عددی{u} کی قطع \عددی{-1\le u\le 1}  پر عکس ہو گا، لکیر \عددی{x=-\tfrac{\pi}{2}} کا عکس \عددی{u\le -1,\,\, v=0} اور  لکیر \عددی{x=\tfrac{\pi}{2}}  کا عکس \عددی{u\ge 1,\,\, v=0} ہو گا۔قطع \عددی{y=c>0,-\tfrac{\pi}{2}\le x\le \tfrac{\pi}{2}} کا عکس بالائی نصف \عددی{w} مستوی کی قطع مکافی
+\begin{align*}
+u=\cosh c\sin x,\quad v=\sinh c\cos x
+\end{align*}
+یعنی
+\begin{align}\label{مساوات_نقش_قطع_مکافی}
+\frac{u^2}{\cosh^2 c}+\frac{v^2}{\sinh^2 c}=1
+\end{align}
+پر ہو گا۔قطع \عددی{y=-c,-\tfrac{\pi}{2}\le x\le \tfrac{\pi}{2}\,\,(c>0)}   قطع مکافی مساوات \حوالہ{مساوات_نقش_قطع_مکافی} کی نچلی نصف حصے پر عکس ہو گی۔قطع مکافی کے ماسکہ  جو \عددی{c} کے تابع نہیں ہیں \عددی{w=\mp 1} پر پائے جائیں گے۔یوں \عددی{c} تبدیل کرنے سے ہمیں ہم ماسکہ قطع مکافی حاصل ہوں گے۔مستطیل خطہ \عددی{-\tfrac{\pi}{2}<x<\tfrac{\pi}{2}, \, -c<y<c}  یوں قطع مکافی مساوات \حوالہ{مساوات_نقش_قطع_مکافی} کی اندرون پر عکس ہو گا؛ البتہ دھیان رہے کہ جیسا شکل \حوالہ{شکل_نقش_سائن} میں دکھایا گیا ہے، مستطیل کی سرحد کا عکس قطع مکافی اور \عددی{u} محور کے دو قطعات ہوں گے (جہاں \عددی{c=1} ہے)۔مستطیل کی سرحد کی  انتصابی حصوں پر نقطوں کے عکس جوڑیوں میں ہم مکان نقطے ہوں گے۔  بالخصوص \عددی{B^*=F^*} اور \عددی{C^*=E^*} ہوں گے۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-1.5,0)--(2,0)node[right]{$x$};
+\draw(0,-1)--(0,1.5)node[right]{$y$};
+\draw(-1,-0.75)node[below]{$E$}--++(2,0)node[below]{$F$}--++(0,1.5)node[above]{$B$}--++(-2,0)node[above]{$C$}--++(0,-1.5);
+\draw(0,-0.75)node[below left]{$-1$};
+\draw(0,0.75)node[above left]{$1$};
+\draw(-1,0)node[above left]{$D$}node[below left]{$-\tfrac{\pi}{2}$};
+\draw(1,0)node[above right]{$A$}node[below right]{$\tfrac{\pi}{2}$};
+\end{tikzpicture}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\lx}{1.543}
+\pgfmathsetmacro{\ly}{1.1752}
+\pgfmathsetmacro{\ang}{5}
+\draw(1,0)--++(1.2,0)node[right]{$u$};
+\draw(-1,0)--++(-1.2,0);
+\draw(0,-1.25)--(0,1.5)node[right]{$v$};
+\draw([shift={(\ang:\lx cm and \ly cm)}]0,0) arc (\ang:180-\ang:\lx cm and \ly cm);
+\draw([shift={(180+\ang:\lx cm and \ly cm)}]0,0) arc (180+\ang:360-\ang:\lx cm and \ly cm);
+\draw(\ang:\lx cm and \ly cm)node[above right]{$B^*$}--++(-0.543,0)coordinate(kT);
+\draw(-\ang:\lx cm and \ly cm)node[below right]{$F^*$}--++(-0.543,0)node[below]{$1$}--(kT);
+\draw(180-\ang:\lx cm and \ly cm)node[above left]{$C^*$}--++(0.543,0)coordinate(kTT);
+\draw(180+\ang:\lx cm and \ly cm)node[below left]{$E^*$}--++(0.543,0)node[below]{$-1$}--(kTT);
+\draw(1,0)node[left](kkA){$A^*$};
+\draw(-1,0)node[right](kkD){$D^*$};
+\draw(kkA)--(kkD);
+\end{tikzpicture}
+\end{subfigure}%
+\caption{نقش \عددی{w=\sin z}}
+\label{شکل_نقش_سائن}
+\end{figure}
+
+مستطیل خطہ \عددی{-\pi<x<\pi,\, c<y<d\, (c>0)} کا نقش قطع مکافی جھلی ہو گی جو منفی \عددی{v} محور پر کٹی ہو گی (شکل \حوالہ{شکل_نقش_سائن_پٹی})۔سیدھی لکیریں \عددی{x=c} جہاں \عددی{-\tfrac{\pi}{2}<c<\tfrac{\pi}{2}} ہے کے نقش ہم ماسکہ قطع زائد ہوں گی جو متذکرہ بالا قطع مکافی کو زاویہ قائمہ پر قطع کریں گی۔   
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-1.5,0)--(2,0)node[right]{$x$};
+\draw(-1.5,0)node[below]{$-\pi$}--++(0,0.1);
+\draw(1.5,0)node[below]{$\pi$}--++(0,0.1);
+\draw(0,0)node[ocirc]{}node[below]{$0$}--++(0,2)node[right]{$y$};
+\draw(-1.5,0.75)node[below]{$A$}--++(3,0)node[below]{$B$}--++(0,0.5)node[above]{$C$}--++(-3,0)node[above]{$D$}--++(0,-0.5);
+\draw(0,1.25)node[above left]{$1$};
+\end{tikzpicture}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\lx}{1.543}
+\pgfmathsetmacro{\ly}{1.1752}
+\pgfmathsetmacro{\lxx}{1.2947}
+\pgfmathsetmacro{\lyy}{0.8223}
+\pgfmathsetmacro{\ang}{5}
+%
+\draw[name path=kA](0,0) circle (\lx cm and \ly cm);
+\draw[name path=kB](0,0) circle (\lxx cm and \lyy cm);
+\path[name path=kC](-0.1,0)--++(0,-1.2);
+\path[name path=kD](0.1,0)--++(0,-1.2);
+\fill[fill=white](-0.1,0)--++(0,-1.2)--++(0.2,0)--++(0,1.2)--++(-0.2,0);
+\draw[name intersections={of=kA and kC, by=kPA},name intersections={of=kB and kC,by=kPB}] (kPA)--(kPB);
+\draw[name intersections={of=kA and kD, by=kPA},name intersections={of=kB and kD,by=kPB}] (kPA)--(kPB);
+\draw(0,-0.7)node[above](kUP){$A^*=B^*$};
+\draw(0,-1.295)node[below](kLW){$D^*=C^*$};
+\draw(-1.75,0)--(1.75,0)node[right]{$u$};
+\draw(kLW)--(kUP)--(0,1.5)node[right]{$v$};
+\draw(0,0)node[ocirc]{};
+\draw(-1,0)node[ocirc]{}node[below,xshift={(0.2)}]{$-1$};
+\draw(1,0)node[ocirc]{}node[below]{$1$};
+\end{tikzpicture}
+\end{subfigure}%
+\caption{نقش \عددی{w=\sin z}}
+\label{شکل_نقش_سائن_پٹی}
+\end{figure}
+ 
+\عددی{z} کی \عددی{\tfrac{\pi}{2}} اکائیاں دائیں  مستقیم حرکت کے بعد سائن تفاعل لینے سے \اصطلاح{کوسائن تفاعل}\فرہنگ{کوسائن!تفاعل}
+\begin{align}\label{مساوات_نقش_کوسائن_تفاعل}
+w=\cos z=\sin\big(z+\frac{\pi}{2}\big)
+\end{align}
+کا نقش حاصل ہوتا ہے۔
+
+\اصطلاح{ہذلولی تفاعل}\فرہنگ{ہذلولی!تفاعل}
+\begin{align}\label{مساوات_نقش_ہذلولی_سائن_تفاعل}
+w=\sinh z=-i\sin (iz)
+\end{align}
+لکھی جا سکتی ہے۔یوں گھڑی کی سمت میں \عددی{\tfrac{\pi}{2}} زاویہ گھمانے \عددی{t=iz} کے بعد نقش \عددی{p=\sin t} لے کر اس کو گھڑی کی الٹ سمت  \عددی{w=-ip} گھمانے سے درکار ہذلولی نقش حاصل ہوتا ہے۔
+
+اسی طرح درج ذیل تبادل
+\begin{align}\label{مساوات_نقش_ہذلولی_کوسائن_تفاعل}
+w=\cosh z=\cos (iz)
+\end{align}
+گھمانے \عددی{t=iz} کے بعد نقش \عددی{w=\cos t} کے مترادف ہے۔ 
+
+%========================
+\ابتدا{مثال}\شناخت{مثال_نقش_ہذلولی_کوسائن_عکس-لامتناہی_پٹی}\quad \موٹا{نصف لامتناہی پٹی کا نصف سطح پر نقش}\\
+نصف لامتناہی پٹی \عددی{x\ge 0, 0\le y\le \pi} (شکل \حوالہ{شکل_مثال_نقش_ہذلولی_کوسائن_عکس-لامتناہی_پٹی}) کا عکس مساوات \حوالہ{مساوات_نقش_ہذلولی_کوسائن_تفاعل} میں دیے گئے نقش کی صورت میں دریافت کریں۔\\
+حل:\quad ہم \عددی{w=u+iv} لیتے ہیں۔چونکہ \عددی{\cosh 0=1} کے برابر ہے لہٰذا \عددی{z=0} کو عکس \عددی{w=1} ہو گا۔حقیقی مثبت \عددی{z=x\ge 0} کے لئے \عددی{\cosh z} حقیقی ہے جو \عددی{1} سے شروع ہو کر، \عددی{x} بڑھانے سے، بتدریج بڑھتا ہے۔ یوں مثبت \عددی{x} محور \عددی{u} محور کے حصہ \عددی{u\ge 1} پر عکس ہوتا ہے۔ خالص خیالی \عددی{z=iy} کے لئے \عددی{\cosh iy=\cos y} ہو گا لہٰذا پٹی کی بائیں سرحد \عددی{1\ge u\ge -1} پر عکس ہو گی۔نقطہ \عددی{z=i\pi} کا عکس
+\begin{align*}
+w=\cosh i\pi=\cos \pi=-1
+\end{align*} 
+ہو گا۔پٹی کی بالائی سرحد پر \عددی{y=\pi} ہے اور چونکہ \عددی{\sin \pi=0} کے برابر ہے لہٰذا سرحد کا یہ حصہ \عددی{u\le -1} پر عکس ہو گا۔یوں پٹی کی سرحد \عددی{u} محور پر عکس ہو گی۔یہ آسانی سے دیکھا جا سکتا ہے کہ پٹی کی اندرون بالائی نصف \عددی{w} مستوی پر عکس ہو گی اور  کہ یہ نقش ایک ایک مطابقتی ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)--(2.5,0)node[below]{$x$};
+\draw(0,0)node[ocirc]{}node[left]{$A$}--++(0,1.5)node[left]{$y$};
+\draw(0,1)node[ocirc]{}node[left]{$\pi$}node[above right]{$B$}--++(2.5,0);
+\end{tikzpicture}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-1.5,0)--(1.5,0)node[below]{$u$};
+\draw(0,0)node[ocirc]{}node[below]{$0$}--++(0,1.5)node[left]{$v$};
+\draw(-1,0)node[ocirc]{}node[below,xshift={(-0.1cm)}]{$-1$}node[above]{$B^*$};
+\draw(1,0)node[ocirc]{}node[below]{$1$}node[above]{$A^*$};
+\end{tikzpicture}
+\end{subfigure}%
+\caption{نقش برائے مثال \حوالہ{مثال_نقش_ہذلولی_کوسائن_عکس-لامتناہی_پٹی}}
+\label{شکل_مثال_نقش_ہذلولی_کوسائن_عکس-لامتناہی_پٹی}
+\end{figure}
+\انتہا{مثال}
+%====================
+\ابتدا{مثال}\شناخت{مثال_نقش_حرارت_پٹی}\quad \موٹا{سرحدی شرائط مسئلہ}\\
+مثال \حوالہ{مثال_نقش_ہذلولی_کوسائن_عکس-لامتناہی_پٹی} میں دی گئی پٹی میں برقرار حال (وقت پر غیر منحصر) درجہ حرارت \عددی{T(x,y)} پر غور کریں۔پٹی کی سرحد پر درجہ حرارت درج ذیل ہے۔
+\begin{align*}
+T&=T_0 \quad \text{\RL{قطع $\,0\,$ تا $\,i\pi\,$ پر}}\\
+T&=0\quad \text{\RL{بالائی اور نچلی سرحد پر}}
+\end{align*}
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)--(2.5,0)node[below]{$x$};
+\draw(0,0)node[below]{$0$}--++(0,1.5)node[left]{$y$};
+\draw(0,1)node[ocirc]{}node[left]{$\pi$}--++(2.5,0);
+\draw(0,0.5)node[left]{$T=T_0$};
+\draw(1.25,0)node[below]{$T=0$};
+\draw(1.25,1)node[above]{$T=0$};
+\end{tikzpicture}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-2,0)--(2,0)node[below]{$u$};
+\draw(0,0)node[shift={(0,0.3)},fill=white]{$T=T_0$}--++(0,1.5)node[left]{$v$};
+\draw(-1,0)node[below,xshift={(-0.1cm)}]{$-1$}node[above left]{$T=0$}--++(0,0.1);
+\draw(1,0)node[below]{$1$}node[above right]{$T=0$}--++(0,0.1);
+\end{tikzpicture}
+\end{subfigure}%
+\caption{سرحدی شرائط برائے مثال \حوالہ{مثال_نقش_حرارت_پٹی}}
+\label{شکل_مثال_نقش_حرارت_پٹی}
+\end{figure}
+
+حل:حراری مساوات برقرار حال کی صورت میں  لاپلاس مساوات (حصہ \حوالہ{حصہ_جزوی_مخفی_قوہ})
+\begin{align*}
+\nabla^{\,2}T=\frac{\partial^{\,2}T}{\partial x^2}+\frac{\partial^{\,2}T}{\partial y^2}=0
+\end{align*}
+ کی صورت اختیار کرتی ہے۔ہمیں اس مساوات کا ایسا حل درکار ہے جو دی گئی سرحدی شرائط  کو مطمئن کرتا ہو۔
+
+ہم پٹی کو مساوات \حوالہ{مساوات_نقش_ہذلولی_کوسائن_تفاعل} کی مدد سے بالائی نصف مستوی پر عکس کرتے ہیں۔چونکہ قطع \عددی{0\le y\le \pi} کا عکس \عددی{-1\le u \le 1} ہے لہٰذا سرحدی شرائط کو \عددی{w} مستوی میں درج ذیل لکھا جا سکتا ہے (شکل \حوالہ{شکل_مثال_نقش_حرارت_پٹی})۔
+\begin{align*}
+T&=T_0\quad \text{\RL{قطع $-1$ تا $1$}}\\
+T&=0\quad \text{\RL{محور کا باقی حصہ}}
+\end{align*}
+تحلیلی تفاعل کے حقیقی اور خیالی اجزاء  لاپلاس مساوات کے حل ہوتے ہیں۔ہمیں ایسا ہی تفاعل \عددی{T(u,v)}، جو ان سرحدی شرائط کو مطمئن کرتا ہو، بالائی نصف \عددی{w} مستوی میں دریافت کرنا ہے۔ہم درج ذیل تفاعل پر غور کرتے ہیں۔
+\begin{gather}
+\begin{aligned}
+\Ln(w+1)&=\ln\abs{w+1}+i\phi_1,\quad \phi_1=\phase{w+1}=\tan^{-1}\frac{v}{u+1}\\
+\Ln(w-1)&=\ln\abs{w-1}+i\phi_2,\quad \phi_2=\phase{w-1}=\tan^{-1}\frac{v}{u-1}
+\end{aligned}
+\end{gather}
+چونکہ \عددی{\phi_1(u,v)} اور \عددی{\phi_2(u,v)} ہارمونی تفاعل ہیں لہٰذا \عددی{\phi_2-\phi_1} بھی ہارمونی تفاعل ہو گا۔اگر \عددی{w=u} حقیقی اور \عددی{-1} سے چھوٹا ہو، تب \عددی{\phi_2-\phi_1=\pi-\pi=0} ہو گا۔وقفہ \عددی{-1<u<1} میں حقیقی \عددی{w=u} کی صورت میں \عددی{\phi_2-\phi_1=\pi-0=\pi} ہو گا، اور حقیقی \عددی{w=u>1} کی صورت میں \عددی{\phi_2-\phi_1=0-0=0} ہو گا۔یوں  بالائی نصف مستوی \عددی{v>0} میں تفاعل
+\begin{align}\label{مساوات_نقش_حراری_مثال_پٹی}
+T(u,v)=\frac{T_0}{\pi}(\phi_2-\phi_1)
+\end{align}
+ہارمونی ہو گا اور یہ \عددی{w} سطح میں سرحدی شرائط کو مطمئن کرے گا۔چونکہ \عددی{\tan \phi_1=\tfrac{v}{u+1}} اور \عددی{\tan \phi_2=\tfrac{v}{u-1}} ہیں لہٰذا 
+\begin{align*}
+\tan(\phi_2-\phi_1)=\frac{\tan \phi_2-\tan \phi_1}{1+\tan\phi_1\tan\phi_2}=\frac{2v}{u^2+v^2-1}
+\end{align*}
+لکھا جا سکتا ہے۔یوں مساوات \حوالہ{مساوات_نقش_حراری_مثال_پٹی} درج ذیل صورت اختیار کرتی ہے۔
+\begin{align}\label{مساوات_نقش_حراری_مثال_پٹی_ب}
+T(u,v)=\frac{T_0}{\pi} \tan^{-1}\frac{2v}{u^2+v^2-1}
+\end{align}
+
+تفاعل \عددی{w=\cosh z} اس پٹی کو نصف مستوی \عددی{v\ge 0} پر نقش کرتا ہے اور  ہمارے پاس
+\begin{align*}
+w=u+iv=\cosh (x+iy)=\cosh x\cos y+i\sinh x\sin y
+\end{align*}
+ہے جس کے حقیقی اور خیالی اجزاء علیحدہ علیحدہ کرنے سے درج ذیل ملتا ہے۔
+\begin{align*}
+u=\cosh x\cos y,\quad v=\sinh x\sin y
+\end{align*}
+ان \عددی{u} اور \عددی{v} کے ساتھ یوں مساوات \حوالہ{مساوات_نقش_حراری_مثال_پٹی_ب} میں
+\begin{align*}
+u^2+v^2-1=\cosh^2 x\cos^2 y+\sinh^2 x\sin^2 y-1=\sinh^2x-\sin^2y
+\end{align*}
+ہو گا۔مساوات \حوالہ{مساوات_نقش_حراری_مثال_پٹی_ب} میں درج بالا تعلق اور \عددی{v} کا تعلق پر کرنے سے
+\begin{align*}
+T^*(x,y)=\frac{T_0}{\pi}\tan^{-1} \frac{2\sinh x\sin y}{\sinh^2 x-\sin^2 y}
+\end{align*}
+ملتا ہے۔ اب شمار کنندہ اور نسب نما بالترتیب تفاعل \عددی{(\sinh x+i\sin y)^2} کے  حقیقی اور خیالی حصے ہیں لہٰذا ہم درج ذیل لکھ سکتے ہیں۔
+\begin{align*}
+T^*(x,y)=\frac{T_0}{\pi} \phase{[(\sinh x+i\sin y)^2]}=\frac{2T_0}{\pi} \phase{(\sinh x+i\sin y)}
+\end{align*}
+یوں ہمارے مسئلے کا حل 
+\begin{align}
+T^*(x,y)=\frac{2T_0}{\pi} \tan^{-1} \frac{\sin y}{\sinh x}
+\end{align}
+ہو گا۔یہ تفاعل ہماری پٹی کی اندرون میں ہارمونی ہے (مسئلہ \حوالہ{مسئلہ_نقش_اور_ہارمونی_تفاعل}) اور یہ دی گئی سرحدی شرائط کو مطمئن کرتا ہے۔یقیناً \عددی{y=0} یا \عددی{y=\pi} پر \عددی{T^*=0} ہے اور \عددی{x=0} پر \عددی{T^*=T_0} ہے۔ ہم حرارت خط (جن پر یکساں حرارت ہو گی) درج ذیل خطوط ہوں گے۔
+\begin{align*}
+\frac{\sin y}{\sinh x}=\text{مستقل}
+\end{align*}
+\انتہا{مثال}
+%============================

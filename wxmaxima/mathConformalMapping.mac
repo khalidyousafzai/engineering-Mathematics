@@ -514,3 +514,11 @@ solve([eqa,eqb],[y,u]);
 eqa:u=ev(uu,y=-1/2);
 eqb:v=ev(vv,y=-1/2);
 solve([eqa,eqb],[x,u]);
+
+print("=======================");
+kill(all);
+print( "Q 15.92");
+
+z:x+%i*y;
+f:%e^z;
+

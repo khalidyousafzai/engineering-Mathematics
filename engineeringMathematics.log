@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  28 JUL 2018 14:56
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  29 JUL 2018 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3213,8 +3213,13 @@ Overfull \hbox (4.49997pt too wide) detected at line 157
  []
 
 
-Overfull \hbox (4.49997pt too wide) detected at line 160
+Overfull \hbox (4.49997pt too wide) detected at line 158
  [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1149[][][][]
+ []
+
+
+Overfull \hbox (4.49997pt too wide) detected at line 161
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1157[][][][]
  []
 
 )
@@ -3318,20 +3323,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 1008--1012
  []
 
 [1124] [1125] [1126] [1127] [1128] [1129] [1130] [1131] [1132] [1133] [1134]
-[1135] [1136] [1137] [1138] [1139] [1140] [1141] [1142] [1143]) [1144]
+[1135] [1136] [1137] [1138] [1139] [1140] [1141] [1142] [1143] [1144] [1145]
+[1146]
+Underfull \hbox (badness 10000) in paragraph at lines 2034--2036
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2045--2049
+[][]
+ []
+
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 4.56004pt on input line 2121.
+[1147] [1148] [1149] [1150] [1151]) [1152]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
 
 (./tex/mathAppendixAdditionalProofs.tex
 ضمیمہ ا.
-[1145
+[1153
 
 
 
-] [1146]) [1147]
+] [1154]) [1155]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [1148
+ (./tex/mathAppendixAuxiliaryMaterial.tex [1156
 
 
 
@@ -3341,20 +3359,20 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 5.70004pt on input line 8.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[1149] [1150] [1151] [1152] [1153]
+[1157] [1158] [1159] [1160] [1161]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1154] [1155]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1162] [1163]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1156]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1164]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1157]
-[1158
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1165]
+[1166
 
 
 ] (./engineeringMathematics.aux (./tex/mathPreface.aux)
@@ -3380,12 +3398,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 50271 strings out of 493918
- 1192131 string characters out of 6150563
- 1458224 words of memory out of 5000000
- 52528 multiletter control sequences out of 15000+600000
+ 50319 strings out of 493918
+ 1193154 string characters out of 6150563
+ 1459755 words of memory out of 5000000
+ 52576 multiletter control sequences out of 15000+600000
  42343 words of font info for 169 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,19n,356p,10485b,2239s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,356p,10485b,2241s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (65 pages).
+Output written on engineeringMathematics.pdf (73 pages).

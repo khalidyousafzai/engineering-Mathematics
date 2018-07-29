@@ -155,6 +155,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 15}}خطی کسری تبادل}{\RL {\arabicfont 1125}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 15}}مخصوص خطی کسری تبادل}{\RL {\arabicfont 1129}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 15}}نقش زیر دیگر تفاعل}{\RL {\arabicfont 1138}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1145}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1149}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1149}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 15}}ریمان سطحیں}{\RL {\arabicfont 1149}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1153}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1157}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1157}}

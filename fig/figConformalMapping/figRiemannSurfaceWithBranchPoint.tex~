@@ -1,0 +1,49 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{commath}   %differential symbol   \dif
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+\usepackage[europeanresistors]{circuitikz}
+\usetikzlibrary{intersections,decorations.markings,calc,patterns}
+\usepackage{polyglossia}                %is loaded the last
+\usepackage{siunitx}
+\usepackage{amsmath}
+\input{../../tex/myEMTvectors.tex}
+
+\setmainlanguage[numerals=maghrib]{arabic}     %for english numbers use numerals=maghrib, for arabic numerals=arabicdigits
+\setotherlanguages{english}
+
+
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+%\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+\newfontfamily\urdufont[Scale=1.25,WordSpace=6.0,,Script=Arabic]{Jameel Noori Nastaleeq}
+
+\pgfmathsetmacro{\A}{0.75}
+\pgfmathdeclarefunction{Ey}{2}{\pgfmathparse{\A*cos(#1)*sin(#2)}}
+
+\pgfplotsset{select coords between index/.style 2 args={
+    x filter/.code={
+        \ifnum\coordindex<#1\def\pgfmathresult{}\fi
+        \ifnum\coordindex>#2\def\pgfmathresult{}\fi
+    }
+}}
+
+
+\begin{document}
+\begin{urdufont}
+\begin{tikzpicture}
+\pgfmathsetmacro{\dkx}{0.5}
+\pgfmathsetmacro{\dky}{0.35}
+\pgfmathsetmacro{\ky}{0.75}
+\pgfmathsetmacro{\kyy}{\ky+\dky}
+\draw(0,0) to [out=45,in=-150]++(\dkx,\dky) to [out=30,in=-90]++(1,\ky) to [out=90,in=0]++(-1-\dkx,\ky+\dky/2);
+\draw(0,0) to [out=180-45,in=-30]++(-\dkx,\dky) to [out=150,in=-90]++(-1,\ky) to [out=90,in=180]++(1+\dkx,\ky+\dky/2);
+%
+\draw(0,-\dky) to [out=45,in=-150]++(\dkx,\dky) to [out=30,in=-90]++(1+\dkx,\kyy) to [out=90,in=0]++(-1-2*\dkx,\kyy);
+\draw(0,-\dky) to [out=180-45,in=-30]++(-\dkx,\dky) to [out=150,in=-90]++(-1-\dkx,\kyy) to [out=90,in=180]++(1+2*\dkx,\kyy);
+%
+\draw(0,-\dky) to [out=-45,in=160]++(\dkx,-\dky) to [out=-20,in=-90]++(1+1.5*\dkx,\kyy+\dky);
+\end{tikzpicture}%
+\end{urdufont}
+\end{document} 

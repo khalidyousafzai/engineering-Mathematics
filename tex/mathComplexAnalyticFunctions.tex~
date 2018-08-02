@@ -2127,7 +2127,7 @@ e^{i\pi}=e^{-i\pi}=-1,\quad e^{i\tfrac{\pi}{2}}=i, \quad e^{-i\tfrac{\pi}{2}}=-i
 e^{z+i2\pi}=e^{z}e^{i2\pi}=e^z
 \end{align}
 ملتا ہے جس کے تحت \عددی{e^z} \ترچھا{دوری} ہے جس کا \ترچھا{خیالی دوری عرصہ}\فرہنگ{دوری عرصہ!خیالی} \عددی{2\pi} ہے۔یوں درج ذیل ہو گا۔
-\begin{align}
+\begin{align}\label{مساوات_تحلیلی_قوت_نمائی_خیالی_دوری_عرصہ}
 e^{z\mp i2n\pi}=e^z,\quad \quad \quad (n=0,1,\cdots)
 \end{align}
 

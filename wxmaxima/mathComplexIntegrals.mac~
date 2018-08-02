@@ -91,7 +91,7 @@ integrate(f*diff(z,t),t,0,1);
 
 Print("======================================");
 kill(all);
-print("Q 16.23");
+print("Q 16.24");
 declare(t,real);
 
 A:1+%i;
@@ -102,7 +102,7 @@ integrate(f*diff(z,t),t,0,1);
 
 Print("======================================");
 kill(all);
-print("Q 16.24");
+print("Q 16.25");
 declare(t,real);
 
 A:-1+%i;
@@ -110,3 +110,244 @@ B:1-%i;
 z:A+(B-A)*t;
 f:z^2;
 integrate(f*diff(z,t),t,0,1);
+
+Print("======================================");
+kill(all);
+print("Q 16.26");
+declare(t,real);
+
+A:0;
+B:1;
+z:A+(B-A)*t;
+f:z^2;
+AA:integrate(f*diff(z,t),t,0,1);
+
+A:1;
+B:%i;
+z:A+(B-A)*t;
+f:z^2;
+BB:integrate(f*diff(z,t),t,0,1);
+
+A:%i;
+B:0;
+z:A+(B-A)*t;
+f:z^2;
+CC:integrate(f*diff(z,t),t,0,1);
+
+AA+BB+CC;
+expand(%);
+
+Print("======================================");
+kill(all);
+print("Q 16.27");
+declare(t,real);
+
+z:cos(-t)+%i*sin(-t);
+f:z+1/z;
+integrate(f*diff(z,t),t,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.28");
+declare(t,real);
+
+A:1;
+B:1+%i;
+z:z:A+(B-A)*t;
+f:z;
+AA:integrate(f*diff(z,t),t,0,1);
+
+A:1+%i;
+B:-1+%i;
+z:A+(B-A)*t;
+f:z;
+BB:integrate(f*diff(z,t),t,0,1);
+
+AA+BB;
+
+Print("======================================");
+kill(all);
+print("Q 16.29");
+declare(t,real);
+
+A:0;
+B:2+%i*3;
+z:A+(B-A)*t;
+f:a*z+b;
+AA:integrate(f*diff(z,t),t,0,1);
+
+Print("======================================");
+kill(all);
+print("Q 16.30");
+declare(t,real);
+
+z:1+cos(t)+%i*sin(t);
+f:1/(z-1);
+kk:f*diff(z,t);
+
+AA:integrate(kk,t,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.31");
+declare(t,real);
+
+z:r*cos(t)+%i*r*sin(t);
+f:realpart(z);
+kk:f*diff(z,t);
+AA:integrate(kk,t,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.32");
+load("abs_integrate.mac");
+declare(t,real);
+A:-%i;
+B:%i;
+z:A+(B-A)*t;
+f:cabs(z);
+kk:f*diff(z,t);
+AA:integrate(kk,t,0,1);
+
+z:co(t)+%i*sin(t);
+f:abs(z);
+kk:f*diff(z,t);
+AA:integrate(kk,t,-%pi/2,%pi/2);
+
+Print("======================================");
+kill(all);
+print("Q 16.37");
+load("abs_integrate.mac");
+declare(t,real);
+A:-1-%i;
+B:2+%i;
+z:A+(B-A)*t;
+f:a*z+b;
+kk:f*diff(z,t);
+AA:integrate(kk,t,0,1);
+
+Print("======================================");
+kill(all);
+print("Q 16.38");
+load("abs_integrate.mac");
+declare(t,real);
+
+z:cos(t)+%i*sin(t);
+f:z^2+2/z;
+kk:f*diff(z,t);
+AA:integrate(kk,t,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.39");
+load("abs_integrate.mac");
+declare(t,real);
+
+z:cos(t)+%i*sin(t);
+f:z^2+3/(z^4);
+kk:f*diff(z,t);
+AA:integrate(kk,t,0,%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.40");
+load("abs_integrate.mac");
+declare(t,real);
+
+z:cos(t)+%i*sin(t);
+f:2*z+1/z+2/(z^2);
+kk:f*diff(z,t);
+AA:integrate(kk,t,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.41");
+load("abs_integrate.mac");
+declare(t,real);
+
+A:0;
+B:1+%i*%pi/2;
+z:A+(B-A)*t;
+f:%e^z;
+kk:f*diff(z,t);
+AA:integrate(kk,t,0,1);
+
+
+Print("======================================");
+kill(all);
+print("Q 16.42");
+load("abs_integrate.mac");
+declare(t,real);
+
+z:1+2*cos(t)+%i*2*sin(t);
+f:1/(z-1)+2/((z-1)^2);
+kk:f*diff(z,t);
+AA:integrate(kk,t,0,-2*%pi);
+
+
+Print("======================================");
+kill(all);
+print("Q 16.43");
+load("abs_integrate.mac");
+declare(t,real);
+
+A:%i*%pi;
+B:%i*2*%pi;
+z:A+(B-A)*t;
+f:cos(z);
+kk:f*diff(z,t);
+AA:integrate(kk,t,0,1);
+
+Print("======================================");
+kill(all);
+print("Q 16.44");
+load("abs_integrate.mac");
+declare(t,real);
+
+A:%i*%pi;
+B:%i*2*%pi;
+z:A+(B-A)*t;
+f:sin(z);
+kk:f*diff(z,t);
+AA:integrate(kk,t,0,1);
+
+Print("======================================");
+kill(all);
+print("Q 16.45");
+load("abs_integrate.mac");
+declare(t,real);
+
+A:-%i;
+B:%i;
+z:A+(B-A)*t;
+f:sin(z);
+kk:f*diff(z,t);
+AA:integrate(kk,t,0,1);
+
+Print("======================================");
+kill(all);
+print("Q 16.46");
+load("abs_integrate.mac");
+declare(t,real);
+
+A:0;
+B:%i;
+z:A+(B-A)*t;
+f:sin(z);
+kk:f*diff(z,t);
+AA:integrate(kk,t,0,1);
+
+
+Print("======================================");
+kill(all);
+print("Q 16.47");
+load("abs_integrate.mac");
+declare(t,real);
+
+A:0;
+B:%i;
+z:A+(B-A)*t;
+f:sinh(z);
+kk:f*diff(z,t);
+AA:integrate(kk,t,0,1);
+

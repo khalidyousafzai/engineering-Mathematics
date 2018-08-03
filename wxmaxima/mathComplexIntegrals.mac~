@@ -351,3 +351,191 @@ f:sinh(z);
 kk:f*diff(z,t);
 AA:integrate(kk,t,0,1);
 
+t("======================================");
+kill(all);
+print("Q 16.48");
+load("abs_integrate.mac");
+declare(t,real);
+
+A:0;
+B:%i;
+z:A+(B-A)*t;
+f:cosh(z);
+kk:f*diff(z,t);
+AA:integrate(kk,t,0,1);
+
+
+Print("======================================");
+kill(all);
+print("Q 16.57");
+
+z:cos(t)+%i*sin(t);
+f:1/(z^4);
+kk:f*diff(z,t);
+integrate(kk,t,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.58");
+
+z:cos(t)+%i*sin(t);
+f:abs(z);
+kk:f*diff(z,t);
+integrate(kk,t,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.59");
+
+z:cos(t)+%i*sin(t);
+f:imagpart(z);
+kk:f*diff(z,t);
+integrate(kk,t,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.60");
+
+z:cos(t)+%i*sin(t);
+f:realpart(z);
+kk:f*diff(z,t);
+integrate(kk,t,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.61");
+
+z:cos(t)+%i*sin(t);
+f:tanh(z);
+kk:f*diff(z,t);
+integrate(kk,t,0,2*%pi);
+
+
+Print("======================================");
+kill(all);
+print("Q 16.62");
+
+z:cos(t)+%i*sin(t);
+f:1/(z^2+2);
+kk:f*diff(z,t);
+integrate(kk,t,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.63");
+
+z:cos(t)+%i*sin(t);
+f:1/conjugate(z);
+kk:f*diff(z,t);
+integrate(kk,t,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.64");
+
+z:cos(t)+%i*sin(t);
+f:z^2*sec(z);
+kk:f*diff(z,t);
+integrate(kk,t,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.69");
+
+z:2+cos(t)+%i*sin(t);
+f:1/z;
+kk:f*diff(z,t);
+integrate(kk,t,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.70");
+
+z:2*cos(t)+%i*2*sin(t);
+f:(z^2-z+1)/(z^3-z^2);
+kk:f*diff(z,t);
+integrate(kk,t,0,2*%pi);
+
+z:1/2*cos(t)+%i*1/2*sin(t);
+f:(z^2-z+1)/(z^3-z^2);
+kk:f*diff(z,t);
+integrate(kk,t,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.71");
+
+z:2*cos(t)+%i*2*sin(t);
+f:1/(z^2-1);
+kk:f*diff(z,t);
+integrate(kk,t,0,2*%pi);
+
+z:1+cos(t)+%i*sin(t);
+f:1/(z^2-1);
+kk:f*diff(z,t);
+integrate(kk,t,0,-2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.72");
+
+z:2*cos(t)+%i*2*sin(t);
+f:z/(z^2+1);
+kk:f*diff(z,t);
+integrate(kk,t,0,2*%pi);
+
+z:-%i+%e^(%i*t);
+f:z/(z^2+1);
+kk:trigsimp(f*diff(z,t));
+integrate(kk,t,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.73");
+
+z:-%i+%e^(%i*t);
+f:1/(z^2+1);
+kk:trigsimp(f*diff(z,t));
+integrate(kk,t,0,2*%pi);
+
+z:%i+%e^(%i*t);
+f:1/(z^2+1);
+kk:trigsimp(f*diff(z,t));
+integrate(kk,t,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.74");
+
+z:2*%e^(%i*t);
+f:%e^z/z;
+kk:trigsimp(f*diff(z,t));
+integrate(kk,t,0,2*%pi);
+
+z:%e^(%i*t);
+f:%e^z/z;
+kk:trigsimp(f*diff(z,t));
+integrate(kk,t,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.75");
+
+z:-%i*2+%e^(%i*t);
+f:cos(z)/z^2;
+kk:trigsimp(f*diff(z,t));
+integrate(kk,t,0,2*%pi);
+
+Print("======================================");
+kill(all);
+print("Q 16.76");
+
+z:1/2*%e^(%i*t);
+f:(3*z+1)/(z^3-z);
+kk:trigsimp(f*diff(z,t));
+integrate(kk,t,0,2*%pi);
+
+z:2*%e^(%i*t);
+f:(3*z+1)/(z^3-z);
+kk:trigsimp(f*diff(z,t));
+integrate(kk,t,0,2*%pi);

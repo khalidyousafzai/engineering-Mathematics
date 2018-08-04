@@ -161,6 +161,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 16}}مخلوط خطی تکمل کی خواص}{\RL {\arabicfont 1168}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 16}}کوشی کا مسئلہ تکمل}{\RL {\arabicfont 1172}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 16}}خطی تکمل کی قیمت کا حصول بذریعہ غیر قطعی تکمل}{\RL {\arabicfont 1184}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1185}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1189}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1189}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 16}}کوشی کا کلیہ تکمل}{\RL {\arabicfont 1189}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1193}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1197}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1197}}

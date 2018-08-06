@@ -1,0 +1,72 @@
+Print("======================================");
+kill(all);
+print("Q 17.1");
+f:n/(n+3);
+
+ev(f,n=1);
+ev(f,n=2);
+ev(f,n=3);
+ev(f,n=4);
+ev(f,n=5);
+
+Print("======================================");
+kill(all);
+print("Q 17.2");
+f:2*n/(n^2+1);
+
+ev(f,n=1);
+ev(f,n=2);
+ev(f,n=3);
+ev(f,n=4);
+ev(f,n=5);
+
+Print("======================================");
+kill(all);
+print("Q 17.3");
+f:%i^n/(n^2);
+
+ev(f,n=1);
+ev(f,n=2);
+ev(f,n=3);
+ev(f,n=4);
+ev(f,n=5);
+
+Print("======================================");
+kill(all);
+print("Q 17.4");
+f:%i*n/(n+1);
+
+ev(f,n=1);
+ev(f,n=2);
+ev(f,n=3);
+ev(f,n=4);
+ev(f,n=5);
+
+Print("======================================");
+kill(all);
+print("Q 17.5");
+f:%i^n*n^2/(n+%i);
+
+ev(f,n=1);
+rectform(%);
+ev(f,n=2);
+rectform(%);
+ev(f,n=3);
+rectform(%);
+ev(f,n=4);
+rectform(%);
+ev(f,n=5);
+rectform(%);
+
+Print("======================================");
+kill(all);
+print("Q 17.6");
+f:(-1)^n+%i*2*%pi*n;
+
+ev(f,n=1);
+ev(f,n=2);
+ev(f,n=3);
+ev(f,n=4);
+ev(f,n=5);
+
+

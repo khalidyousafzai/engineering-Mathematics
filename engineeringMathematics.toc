@@ -163,6 +163,8 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 16}}خطی تکمل کی قیمت کا حصول بذریعہ غیر قطعی تکمل}{\RL {\arabicfont 1184}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 16}}کوشی کا کلیہ تکمل}{\RL {\arabicfont 1189}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 16}}تحلیلی تفاعل کے تفرق}{\RL {\arabicfont 1194}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1201}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1205}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1205}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 17}}ترتیب اور تسلسل}{\RL {\arabicfont 1201}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 17}}ترتیب}{\RL {\arabicfont 1201}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1209}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1213}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1213}}

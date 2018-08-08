@@ -55,7 +55,7 @@
 
 %itemize, bullets and numbered items   
 \newcommand*{\اشیاء}{itemize}                               %used in   \begin{itemize}
-\newcommand*{\شے}[1]{\item {#1}}			%used in    \item
+\newcommand*{\شے}[1]{\item {#1}}			%used in    \item, \description
 %description
 \newcommand*{\جزو}[1]{\item[#1]}                      %used in \begin{description}
 %maths commands

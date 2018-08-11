@@ -169,6 +169,8 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 17}}کوشی اصول مرکوزیت برائے ترتیب اور تسلسل}{\RL {\arabicfont 1213}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 17}}یک سر حقیقی ترتیب۔لیبنٹز آزمائش برائے حقیقی تسلسل}{\RL {\arabicfont 1220}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 17}}تسلسل کی مرکوزیت اور انفراج کی آزمائشیں}{\RL {\arabicfont 1225}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1235}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1239}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1239}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 17}}تسلسل پر اعمال}{\RL {\arabicfont 1236}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 18}}طاقتی تسلسل، ٹیلر تسلسل اور لورنٹ تسلسل}{\RL {\arabicfont 1243}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1245}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1249}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1249}}

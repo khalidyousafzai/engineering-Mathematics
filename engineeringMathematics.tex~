@@ -121,7 +121,7 @@
 \include{./tex/mathConformalMapping}
 \include{./tex/mathComplexIntegrals}
 \include{./tex/mathSequencesAndSeries}
-\include{mathPowerSeriesTaylorLaurent}
+\include{./tex/mathPowerSeriesTaylorLaurent}
 
 
 %=========================================================

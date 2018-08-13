@@ -173,6 +173,7 @@
 \contentsline {chapter}{\numberline {\RL {\arabicfont 18}}طاقتی تسلسل، ٹیلر تسلسل اور لورنٹ تسلسل}{\RL {\arabicfont 1243}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 18}}طاقتی تسلسل}{\RL {\arabicfont 1243}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 18}}طاقتی تسلسل کی روپ میں تفاعل}{\RL {\arabicfont 1255}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1259}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1263}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1263}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 18}}ٹیلر تسلسل}{\RL {\arabicfont 1262}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1265}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1269}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1269}}

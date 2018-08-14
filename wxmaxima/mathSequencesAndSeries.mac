@@ -264,3 +264,11 @@ ep:0.01;
 eq:f=ep;
 solve(eq,n);
 float(%);
+
+Print("======================================");
+kill(all);
+print("theorem 17.17");
+
+q:0.9999;
+eq:n/(n+1)=q;
+solve(eq,n);

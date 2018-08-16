@@ -16,6 +16,7 @@
 %the following two Sine Integral symbols doesnot clash with SI units package
 \DeclareMathOperator{\kSi}{Si} 
 \DeclareMathOperator{\ksi}{si} 
+\DeclareMathOperator{\kS}{S} 
 %cosine integral, exponential integral, logrithmic integral
 \DeclareMathOperator{\ci}{si} 
 \DeclareMathOperator{\Ei}{Ei} 
@@ -27,3 +28,5 @@
 \DeclareMathOperator{\FAS}{s} 
 %Hermite polynomials
 \DeclareMathOperator{\He}{He} 
+%Complex Natural Logarithm, Principal Value
+\DeclareMathOperator{\Ln}{Ln} 

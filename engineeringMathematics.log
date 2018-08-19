@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  18 AUG 2018 19:33
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  19 AUG 2018 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3293,12 +3293,12 @@ Overfull \hbox (4.49997pt too wide) detected at line 174
 
 
 Overfull \hbox (4.49997pt too wide) detected at line 175
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1255[][][][]
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1256[][][][]
  []
 
 
 Overfull \hbox (4.49997pt too wide) detected at line 176
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1262[][][][]
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1263[][][][]
  []
 
 
@@ -3322,8 +3322,13 @@ Overfull \hbox (4.49997pt too wide) detected at line 180
  []
 
 
-Overfull \hbox (4.49997pt too wide) detected at line 183
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1307[][][][]
+Overfull \hbox (4.49997pt too wide) detected at line 181
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1303[][][][]
+ []
+
+
+Overfull \hbox (4.49997pt too wide) detected at line 184
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1317[][][][]
  []
 
 )
@@ -3403,7 +3408,7 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
  [1247] [1248] [1249] [1250] [1251] [1252] [1253]
 [1254] [1255] [1256] [1257] [1258] [1259] [1260] [1261] [1262] [1263] [1264]
 [1265] [1266]
-Underfull \hbox (badness 10000) in paragraph at lines 820--820
+Underfull \hbox (badness 10000) in paragraph at lines 839--839
 [][][]\EU1/JameelNooriNastaleeq(0)/m/n/8 مساوات []30[].[]18[][] کا رداس ارتکاز 
 عموماً  $\OML/zplm/m/it/8 a$  \EU1/JameelNooriNastaleeq(0)/m/n/8 سے  $\OML/zplm
 /m/it/8 f\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 z\OT1/zplm/m/n/8 )$  \EU1/JameelNoor
@@ -3415,20 +3420,20 @@ astaleeq(0)/m/n/8 منفی حقیقی محور پر[]
 [1267] [1268] [1269] [1270] [1271] [1272] [1273] [1274] [1275] [1276] [1277]
 [1278] [1279] [1280]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 1381.
+(Font)              scaled to size 5.70004pt on input line 1400.
  [1281] [1282] [1283] [1284] [1285] [1286] [1287] [1288]
 [1289]
-Underfull \hbox (badness 10000) in paragraph at lines 1702--1706
+Underfull \hbox (badness 10000) in paragraph at lines 1721--1725
 [][]
  []
 
 [1290]
-Underfull \hbox (badness 10000) in paragraph at lines 1742--1748
+Underfull \hbox (badness 10000) in paragraph at lines 1761--1767
 [][]
  []
 
 [1291] [1292] [1293] [1294] [1295] [1296] [1297]
-Overfull \hbox (1.43185pt too wide) in paragraph at lines 1920--1920
+Overfull \hbox (1.43185pt too wide) in paragraph at lines 1939--1939
 [][] []
  []
 
@@ -3436,19 +3441,23 @@ Overfull \hbox (1.43185pt too wide) in paragraph at lines 1920--1920
 Missing character: There is no ق in font zplmr7m!
 Missing character: There is no ط in font zplmr7m!
 Missing character: There is no ب in font zplmr7m!
- [1299] [1300]) [1301]
+ [1299] [1300] [1301] [1302] [1303]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
+(Font)              scaled to size 12.0pt on input line 2181.
+ [1304] [1305] [1306] [1307] [1308]
+[1309] [1310]) [1311]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
- (./tex/mathAppendixAdditionalProofs.tex [1302
+ (./tex/mathAppendixAdditionalProofs.tex [1312
 
 
 
 ]
 ضمیمہ ا.
-[1303] [1304]) [1305]
+[1313] [1314]) [1315]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [1306
+ (./tex/mathAppendixAuxiliaryMaterial.tex [1316
 
 
 
@@ -3456,20 +3465,20 @@ Missing character: There is no ب in font zplmr7m!
 ضمیمہ ب.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[1307] [1308] [1309] [1310] [1311]
+[1317] [1318] [1319] [1320] [1321]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1312] [1313]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1322] [1323]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1314]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1324]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1315]
-[1316
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1325]
+[1326
 
 
 ] (./engineeringMathematics.aux (./tex/mathPreface.aux)
@@ -3497,12 +3506,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 50736 strings out of 493918
- 1202852 string characters out of 6150563
- 1404680 words of memory out of 5000000
- 52970 multiletter control sequences out of 15000+600000
+ 50939 strings out of 493918
+ 1206037 string characters out of 6150563
+ 1412773 words of memory out of 5000000
+ 53173 multiletter control sequences out of 15000+600000
  42343 words of font info for 169 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,19n,81p,10485b,2240s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,81p,10485b,2246s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (84 pages).
+Output written on engineeringMathematics.pdf (94 pages).

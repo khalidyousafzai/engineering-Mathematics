@@ -172,12 +172,13 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 17}}تسلسل پر اعمال}{\RL {\arabicfont 1236}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 18}}طاقتی تسلسل، ٹیلر تسلسل اور لوغوں تسلسل}{\RL {\arabicfont 1243}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 18}}طاقتی تسلسل}{\RL {\arabicfont 1243}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 18}}طاقتی تسلسل کی روپ میں تفاعل}{\RL {\arabicfont 1255}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 18}}ٹیلر تسلسل}{\RL {\arabicfont 1262}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 18}}طاقتی تسلسل کی روپ میں تفاعل}{\RL {\arabicfont 1256}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 18}}ٹیلر تسلسل}{\RL {\arabicfont 1263}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 18}}بنیادی تفاعل کے ٹیلر تسلسل}{\RL {\arabicfont 1268}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 18}}طاقتی تسلسل حاصل کرنے کے عملی تراکیب}{\RL {\arabicfont 1274}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 18}}یکساں استمرار}{\RL {\arabicfont 1281}}
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 18}}لوغوں تسلسل}{\RL {\arabicfont 1293}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1303}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1307}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1307}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 18}}لامتناہی پر تحلیل پذیری۔ صفر اور ندرت}{\RL {\arabicfont 1303}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1313}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1317}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1317}}

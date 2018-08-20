@@ -19,6 +19,7 @@
 \DeclareMathOperator{\kS}{S} 
 %cosine integral, exponential integral, logrithmic integral
 \DeclareMathOperator{\ci}{si} 
+\DeclareMathOperator{\kC}{C} 
 \DeclareMathOperator{\Ei}{Ei} 
 \DeclareMathOperator{\li}{li} 
 %Fresnel Cosine and SineIntegrals and their Auxiliary integrals

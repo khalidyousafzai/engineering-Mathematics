@@ -182,6 +182,8 @@
 \contentsline {chapter}{\numberline {\RL {\arabicfont 19}}تکمل بذریعہ ترکیب بقیہ}{\RL {\arabicfont 1315}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 19}}بقیہ}{\RL {\arabicfont 1315}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 19}}مسئلہ بقیہ}{\RL {\arabicfont 1322}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1323}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1327}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1327}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 19}}حقیقی تکمل بذریعہ مسئلہ بقیہ}{\RL {\arabicfont 1327}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 19}}حقیقی تکمل کے دیگر اقسام}{\RL {\arabicfont 1335}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1337}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1341}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1341}}

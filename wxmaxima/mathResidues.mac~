@@ -127,10 +127,14 @@ residue(f,z,1);
 
 Print("======================================");
 kill(all);
-print("Q 19.19");
+print("Q 19.32");
 
-f:%e^(1/z);
+f:(3*z^2+2*z-4)/(z^3-4*z);
+solve(z^3-4*z=0,z);
 
-solve(eq,z);
-residue(f,z,0);
-residue(f,z,1);
+R1:residue(f,z,0);
+R2:residue(f,z,-2);
+R3:residue(f,z,2);
+
+R1+R2+R3;
+

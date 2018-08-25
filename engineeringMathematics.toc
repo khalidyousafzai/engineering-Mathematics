@@ -187,6 +187,7 @@
 \contentsline {chapter}{\numberline {\RL {\arabicfont 20}}مخلوط تحلیل تفاعل اور نظریہ مخفی قوہ}{\RL {\arabicfont 1343}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 20}}ساکن برقی سکون}{\RL {\arabicfont 1344}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 20}}دو بعدی بہاو سیال}{\RL {\arabicfont 1350}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1357}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1361}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1361}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 20}}ہارمونی تفاعل کے عمومی خواص}{\RL {\arabicfont 1359}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1365}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1369}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1369}}

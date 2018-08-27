@@ -190,6 +190,8 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 20}}ہارمونی تفاعل کے عمومی خواص}{\RL {\arabicfont 1359}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 20}}پوسوں کلیہ تکمل}{\RL {\arabicfont 1364}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 21}}اعدادی تجزیہ}{\RL {\arabicfont 1371}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1373}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1377}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1377}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 21}}خلل اور غلطیاں۔ کمپیوٹر}{\RL {\arabicfont 1372}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 21}}دہرانے سے مساوات کا حل}{\RL {\arabicfont 1374}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1379}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1383}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1383}}

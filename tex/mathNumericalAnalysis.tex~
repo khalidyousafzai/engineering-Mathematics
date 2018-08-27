@@ -157,6 +157,6 @@ g(x)-g(s)=g'(\xi)(x-s)
 \abs{x_n-s}&=\abs{g(x_{n-1})-g(s)}=\abs{g'(\xi)}\abs{x_{n-1}-s}\le \alpha \abs{x_{n-1}-s}\\
 &\le \alpha^2\abs{x_{n-2}-s}\le \cdots \le \alpha^n\abs{x_{0}-s}
 \end{align*}
-چونکہ \عددی{\alpha<1} ہے لہٰذا  \عددی{n\to \infty} کرنے سے \عددی{\alpha^n\to 0} اور \عددی{\abs{x_n-s}\to 0} ہوں گے۔یوں ثبوت مکمل ہوتا ہے۔
+چونکہ \عددی{\alpha<1} ہے لہٰذا  \عددی{n\to \infty} کرنے سے \عددی{\alpha^n\to 0} ہو گا اور \عددی{\abs{x_n-s}\to 0} ہو گا۔یوں ثبوت مکمل ہوتا ہے۔
 \انتہا{ثبوت}
 %=======================

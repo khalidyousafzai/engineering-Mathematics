@@ -126,7 +126,7 @@
 \include{./tex/mathPowerSeriesTaylorLaurent}
 \include{./tex/mathIntegrationByMethodOfResidues}
 \include{./tex/mathComplexAnalyticFunctionsAndPotentialTheory}
-\include{,./tex/mathNumericalAnalysis}
+\include{./tex/mathNumericalAnalysis}
 
 
 %=========================================================

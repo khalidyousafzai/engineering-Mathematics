@@ -2621,7 +2621,7 @@ f_{\text{ڈھلوان}}=\nabla f=\frac{\partial f}{\partial x}\bM{i}+\frac{\part
 \begin{align}
 \nabla \cdot(\rho \bM{v})=0
 \end{align}
-غیر داب  پذیر سیال کی صورت میں کثافت \عددی{\rho} مستقل قیمت ہو گی اور برقرار حرکت کی استمراری مساوات
+ داب نا پذیر سیال کی صورت میں کثافت \عددی{\rho} مستقل قیمت ہو گی اور برقرار حرکت کی استمراری مساوات
 \begin{align}\label{مساوات_سمتی_تفرق_پھیلاو_صفر}
 \nabla \cdot( \bM{v})=0
 \end{align}

@@ -46,11 +46,35 @@
 \indexentry{دہرانا!مقام غلط}{\RL {\arabicfont  1381}}
 \indexentry{difference!first}{\RL {\arabicfont  1386}}
 \indexentry{فرق!پہلا}{\RL {\arabicfont  1386}}
-\indexentry{فرق!دوسرا}{\RL {\arabicfont  1386}}
 \indexentry{difference!second}{\RL {\arabicfont  1386}}
+\indexentry{فرق!دوسرا}{\RL {\arabicfont  1386}}
 \indexentry{difference!central}{\RL {\arabicfont  1386}}
 \indexentry{فرق!وسطی}{\RL {\arabicfont  1386}}
 \indexentry{difference!forward}{\RL {\arabicfont  1388}}
 \indexentry{فرق!آگے}{\RL {\arabicfont  1388}}
 \indexentry{difference!backward}{\RL {\arabicfont  1388}}
 \indexentry{فرق!پیچھے}{\RL {\arabicfont  1388}}
+\indexentry{interpolation}{\RL {\arabicfont  1392}}
+\indexentry{تحریف!باہمی}{\RL {\arabicfont  1392}}
+\indexentry{pivotal value}{\RL {\arabicfont  1392}}
+\indexentry{چول!قیمت}{\RL {\arabicfont  1392}}
+\indexentry{interpolation!linear}{\RL {\arabicfont  1393}}
+\indexentry{تحریف!باہمی خطی}{\RL {\arabicfont  1393}}
+\indexentry{interpolation!quadratic}{\RL {\arabicfont  1393}}
+\indexentry{تحریف!باہمی دو درجی}{\RL {\arabicfont  1393}}
+\indexentry{Newton!forward-difference interpolation formula}{\RL {\arabicfont  1394}}
+\indexentry{نیوٹن!آگے فرق، باہمی تحریف کلیہ}{\RL {\arabicfont  1394}}
+\indexentry{binomial!coefficients}{\RL {\arabicfont  1395}}
+\indexentry{ثنائی سر}{\RL {\arabicfont  1395}}
+\indexentry{Newton!backward-difference interpolation formula}{\RL {\arabicfont  1395}}
+\indexentry{نیوٹن!پیچھے فرق، باہمی تحریف کلیہ}{\RL {\arabicfont  1395}}
+\indexentry{interpolation!Everett formula}{\RL {\arabicfont  1396}}
+\indexentry{باہمی تحریف!کلیہ ایورٹ}{\RL {\arabicfont  1396}}
+\indexentry{Everett formula}{\RL {\arabicfont  1396}}
+\indexentry{ایورٹ!عمومی کلیہ}{\RL {\arabicfont  1396}}
+\indexentry{second differences!modofoed}{\RL {\arabicfont  1397}}
+\indexentry{دوسرا فرق!تبدیل شدہ}{\RL {\arabicfont  1397}}
+\indexentry{Newton!divided difference interpolation formula}{\RL {\arabicfont  1397}}
+\indexentry{نیوٹن!باہمی تحریف،منقسم فرق کلیہ}{\RL {\arabicfont  1397}}
+\indexentry{difference!divided}{\RL {\arabicfont  1397}}
+\indexentry{فرق!منقسم}{\RL {\arabicfont  1397}}

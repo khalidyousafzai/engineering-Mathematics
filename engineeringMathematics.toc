@@ -205,6 +205,7 @@
 \select@language {english}
 \select@language {arabic}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 21}}لچکدار منحنیات}{\RL {\arabicfont 1401}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1405}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1409}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1409}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 21}}اعدادی تکمل اور تفرق}{\RL {\arabicfont 1408}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1413}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1417}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1417}}

@@ -1,12 +1,12 @@
 \select@language {arabic}
-\contentsline {chapter}{دیباچہ}{ix}
+\contentsline {chapter}{دیباچہ}{xi}
 \select@language {english}
 \select@language {arabic}
 \select@language {english}
 \select@language {arabic}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{xi}
+\contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{xiii}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 1}}درجہ اول سادہ تفرقی مساوات}{\RL {\arabicfont 1}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 1}}نمونہ کشی}{\RL {\arabicfont 2}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 1}}\tmspace +\medmuskip {.2222em} \ensuremath {y'=f(x,y)} \tmspace +\medmuskip {.2222em} کا جیومیٹریائی مطلب۔ میدان کی سمت اور ترکیب یولر۔}{\RL {\arabicfont 14}}
@@ -206,6 +206,11 @@
 \select@language {arabic}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 21}}لچکدار منحنیات}{\RL {\arabicfont 1401}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 21}}اعدادی تکمل اور تفرق}{\RL {\arabicfont 1408}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1413}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1417}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1417}}
+\select@language {english}
+\select@language {arabic}
+\select@language {english}
+\select@language {arabic}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 21}}اعدادی تفرق}{\RL {\arabicfont 1416}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1417}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1421}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1421}}

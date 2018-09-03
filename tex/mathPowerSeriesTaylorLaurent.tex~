@@ -631,18 +631,7 @@ $\,(1+z)^p(1+z)^q=(1+z)^{p+q}\,$
 پر کرتے ہوئے درج ذیل حاصل کریں جہاں \عددی{p} اور \عددی{q} مثبت عدد صحیح ہیں۔
 \begin{align*}
 \sum\limits_{n=0}^{\infty}
-\begin{pmatrix}
-p\\
-n
-\end{pmatrix}
-\begin{pmatrix}
-q\\
-r-n
-\end{pmatrix}=
-\begin{pmatrix}
-p+q\\
-r
-\end{pmatrix}
+\binom{p}{n}\binom{q}{r-n}=\binom{p+q}{r}
 \end{align*}
 \انتہا{سوال}
 %======================
@@ -673,10 +662,7 @@ $\tfrac{1}{4}$
 \ابتدا{سوال}\quad
 \begin{align*}
 \sum\limits_{n=k}^{\infty}
-\begin{pmatrix}
-n\\
-k
-\end{pmatrix}
+\binom{n}{k}
 \big(\frac{z}{2}\big)^n
 \end{align*}
 \انتہا{سوال}
@@ -684,7 +670,7 @@ k
 \ابتدا{سوال}\quad
 \begin{align*}
 \sum\limits_{n=0}^{\infty}
-\left[\begin{pmatrix} n+k\\n  \end{pmatrix}\right]^{-1} z^{n+k}
+\left[\binom{n+k}{n}\right]^{-1} z^{n+k}
 \end{align*}
 جواب:\quad 
 $1$
@@ -693,7 +679,7 @@ $1$
 \ابتدا{سوال}\شناخت{سوال_ٹیلر_رداس_ارتکاز_ب}\quad
 \begin{align*}
 \sum\limits_{n=0}^{\infty}
-\left[\begin{pmatrix} n+k\\n  \end{pmatrix}\right]^{-1} \big(\frac{z}{3}\big)^n
+\left[\binom{ n+k}{n}\right]^{-1} \big(\frac{z}{3}\big)^n
 \end{align*}
 \انتہا{سوال}
 %====================
@@ -848,7 +834,7 @@ f(z)=\sum\limits_{n=0}^{\infty} b_n(z-b)^n
 \end{align}
 حاصل کرتے ہیں جس کے عددی سر  مساوات \حوالہ{مساوات_ٹیلر_دیا_گیا_الف} کے تفرق میں \عددی{z=b} پر کرنے سے حاصل ہوں گے:
 \begin{align*}
-b_n=\frac{1}{n!}f^{(n)}(b)=\sum\limits_{k=n}^{\infty} \begin{pmatrix} n\\k\end{pmatrix} a_k (b-a)^{k-n}
+b_n=\frac{1}{n!}f^{(n)}(b)=\sum\limits_{k=n}^{\infty} \binom{ n}{k} a_k (b-a)^{k-n}
 \end{align*}
 یہ نئی تسلسل کم از کم قرص \عددی{\abs{z-b}<R-\abs{b}} میں کارآمد ہو گی (شکل \حوالہ{شکل_ٹیلر_مختلف_مرکز_تسلسل}-الف)۔البتہ کئی بار مساوات \حوالہ{مساوات_ٹیلر_دیا_گیا_ب} کی ارتکاز کا رداس \عددی{R-\abs{b}} سے بڑا ہو گا  (شکل \حوالہ{شکل_ٹیلر_مختلف_مرکز_تسلسل}-ب) لہٰذا  مساوات \حوالہ{مساوات_ٹیلر_دیا_گیا_ب} تفاعل \عددی{f(z)} کو  قرص \عددی{\abs{z-a}<R} کے باہر وسعت دے گی (شکل \حوالہ{شکل_ٹیلر_مختلف_مرکز_تسلسل}-ب میں سیاہ خطہ)۔کسی ارتکازی خطے میں ایک تحلیلی تفاعل کی دی گئی طاقتی تسلسل  کو اس خطے سے باہر وسعت دینے کو \اصطلاح{تحلیلی استمرار}\فرہنگ{تحلیلی!استمرار}\حاشیہب{analytic continuation}\فرہنگ{analytic!continuation} کہتے ہیں۔
 \begin{figure}
@@ -908,7 +894,7 @@ e^{z_1}e^{z_2}=\sum\limits_{k=0}^{\infty} \frac{z_1^k}{k!}\sum\limits_{m=0}^{\in
 سے شروع کرتے ہیں۔چونکہ دونوں تسلسل مرتکز ہیں لہٰذا ہم انہیں جزو در جزو ضرب کر سکتے ہیں؛حاصل ضرب میں ان  اجزاء کا مجموعہ جن کے لئے \عددی{k+m=n} ہے درج ذیل ہے۔
 \begin{multline*}
 \frac{z_1^n}{n!}+\frac{z_1^{n-1}}{(n-1)!}\frac{z_2}{1!}+\cdots+\frac{z_1}{1!}\frac{z_2^{n-1}}{(n-1)!}+\frac{z_2^n}{n!}\\
-=\frac{1}{n!}[z_1^n+\big(\begin{smallmatrix} n\\  \\1 \end{smallmatrix}\big)z_1^{n-1}z_2+\big(\begin{smallmatrix}n\\  \\2  \end{smallmatrix}\big)z_1^{n-2}z_2^2+\cdots+z_2^n]=\frac{(z_1+z_2)^n}{n!}
+=\frac{1}{n!}[z_1^n+\binom{n}{1}z_1^{n-1}z_2+\binom{n}{2}z_1^{n-2}z_2^2+\cdots+z_2^n]=\frac{(z_1+z_2)^n}{n!}
 \end{multline*}
 یوں دونوں تسلسل کے حاصل ضرب کو درج ذیل لکھا جا سکتا ہے۔
 \begin{align*}
@@ -1161,7 +1147,7 @@ f(z)=\frac{2z^2+9z+5}{z^3+z^2-8z-12}
 کسی بھی ناطق تفاعل کا جزوی کسی پھیلاو حاصل کر کے ثنائی تسلسل
 \begin{gather}
 \begin{aligned}\label{مساوات_ٹیلر_عملی_تراکیب_ب}
-\frac{1}{(1+z)^m}=(1+z)^{-m}&=\sum\limits_{n=0}^{\infty} \begin{pmatrix}-m\\n  \end{pmatrix} z^n\\
+\frac{1}{(1+z)^m}=(1+z)^{-m}&=\sum\limits_{n=0}^{\infty} \binom{-m}{n} z^n\\
 &=1-mz+\frac{m(m+1)}{2!}z^2-\frac{m(m+1)(m+2)}{3!}z^3+\cdots
 \end{aligned}
 \end{gather} 
@@ -1172,7 +1158,7 @@ f(z)=\frac{1}{(z+2)^2}+\frac{2}{z-3}&=\frac{1}{[3-(z-1)]^2}-\frac{2}{2-(z-1)}\\
 \end{align*}
 ہے۔یوں ثنائی تسلسل کی مدد سے درج ذیل حاصل ہوتا ہے۔
 \begin{align*}
-f(z)=\frac{1}{9}\sum\limits_{n=0}^{\infty} \begin{pmatrix}-2\\n \end{pmatrix} \big(\frac{z-1}{3}\big)^n-\sum\limits_{n=0}^{\infty}\big(\frac{z-1}{2}\big)^n
+f(z)=\frac{1}{9}\sum\limits_{n=0}^{\infty} \binom{-2}{n} \big(\frac{z-1}{3}\big)^n-\sum\limits_{n=0}^{\infty}\big(\frac{z-1}{2}\big)^n
 \end{align*} 
 ہم ان دونوں تسلسل کو جزو در جزو جمع کر سکتے ہیں۔چونکہ پہلے تسلسل کا ثنائی عددی سر 
 \begin{align*}
@@ -1219,7 +1205,25 @@ z-\frac{z^3}{3!}+\frac{z^5}{5!}-+\cdots=(b_1z+b_3z^3+b_5z^5+\cdots)(1-\frac{z^2}
 ملتے ہیں جن سے عددی سر \عددی{b_1=1}، \عددی{b_3=\tfrac{1}{3}}، \عددی{b_5=\tfrac{2}{15}} حاصل ہوتے ہیں۔
 \انتہا{مثال}
 %========================
-
+\ابتدا{مثال}\شناخت{مثال_ٹیلر_قلم_کاغذ_تقسیم_الف}\quad \موٹا{قلم و کاغذ سے سادہ تقسیم}\\
+آپ \عددی{\tfrac{1}{1+z}}  کی تسلسل کا حصول دیکھ چکے ہیں۔آئیں اسی کو سادہ قلم و کاغذ سے تقسیم کی طریقے سے حاصل کرتے ہیں۔
+\begin{align*}
+\arraycolsep=0em
+\begin{array}{rrrrrrr}
+  & &\multicolumn{5}{l}{1-z+z^2-+}\\
+\cline{2-7}
+1+z&\big)&1&&&&\\
+  & &\multicolumn{2}{r}{1+ z}&&&\\
+\cline{3-4}
+  & & &\multicolumn{1}{r}{-z}&&&\\
+  & &&\multicolumn{2}{r}{ -z-z^2}&&\\
+\cline{4-5}
+  & &&&+z^2&&
+\end{array}
+\end{align*}
+آپ اسی طرح \عددی{\tfrac{1}{1-z}}، \عددی{\tfrac{1}{1+z^2}} اور  \عددی{\tfrac{1}{1-z^2}} کی تسلسل بھی حاصل کر سکتے ہیں۔
+\انتہا{مثال}
+%=============================
 \حصہء{سوالات}
 سوال \حوالہ{سوال_ٹیلر_مکلارن_درکار_الف} تا سوال \حوالہ{سوال_ٹیلر_مکلارن_درکار_الف} میں دیے گئے تفاعل کا مکلارن تسلسل تلاش کریں۔
 
@@ -1373,7 +1377,7 @@ $3+(z-\tfrac{\pi}{4})+2(z-\tfrac{\pi}{4})^2+\tfrac{8}{3}(z-\tfrac{\pi}{4})^3\cdo
 \انتہا{سوال}
 %=====================
 \ابتدا{سوال}\quad \موٹا{برنولی اعداد}\\
-درج ذیل مکلارن تسلسل \اصطلاح{برنولی اعداد}\فرہنگ{برنولی!اعداد}\فرہنگ{عدد_برنولی}\حاشیہب{Bernoulli numbers}\فرہنگ{Bernoulli numbers} \عددی{B_n} کی تعریف ہے۔
+درج ذیل مکلارن تسلسل \اصطلاح{برنولی اعداد}\فرہنگ{برنولی!اعداد}\فرہنگ{عدد!برنولی}\حاشیہب{Bernoulli numbers}\فرہنگ{Bernoulli numbers} \عددی{B_n} کی تعریف ہے۔
 \begin{align}\label{مساوات_ٹیلر_برنولی_اعداد_تعریف}
 \tfrac{z}{e^z-1}1+B_1z+\tfrac{B_2}{2!}z^2+\tfrac{B_3}{3!}z^3+\cdots
 \end{align}
@@ -1945,7 +1949,7 @@ z^2e^{\frac{1}{z}}=z^2\big(1+\frac{1}{1!z}+\frac{1}{2!z^2}+\cdots\big)=z^2+z+\fr
 \begin{align*}
 \frac{1}{1-q}=\sum\limits_{n=0}^{\infty} q^n\quad \quad \quad (\abs{q}<1)
 \end{align*}
-استعمال کرتے ہوئے 
+استعمال کرتے ہوئے  (یا مثال \حوالہ{مثال_ٹیلر_قلم_کاغذ_تقسیم_الف} میں استعمال کی گئی قلم و کاغذ سے تقسیم کا طریقہ استعمال کرتے ہوئے)
 \begin{align*}
 \text{(الف)}\quad \frac{1}{z+1}&=\frac{1}{2+(z-1)}=\frac{1}{2}\frac{1}{[1-(-\frac{z-1}{2})]}\\
 &=\frac{1}{2}\sum\limits_{n=0}^{\infty}\big(-\frac{z-1}{2}\big)^n=\sum\limits_{n=0}^{\infty} \frac{(-1)^n}{2^{n+1}}(z-1)^n
@@ -2082,10 +2086,10 @@ $\tfrac{1}{z^4},\quad a=1$\\
 جواب:\quad
 \begin{gather*}
 \begin{aligned}
-\sum\limits_{n=0}^{\infty} \begin{pmatrix} -4\\n \end{pmatrix} (z-1)^n,\,\,\abs{z-1}<1;
+\sum\limits_{n=0}^{\infty}\binom{-4}{n} (z-1)^n,\,\,\abs{z-1}<1;
 \end{aligned}\quad
 \begin{aligned}
-\sum\limits_{n=0}^{\infty} \begin{pmatrix}-4\\n  \end{pmatrix} \frac{1}{(z-1)^{n+4}},\,\, \abs{z-1}>1
+\sum\limits_{n=0}^{\infty} \binom{-4}{n} \frac{1}{(z-1)^{n+4}},\,\, \abs{z-1}>1
 \end{aligned}
 \end{gather*}
 

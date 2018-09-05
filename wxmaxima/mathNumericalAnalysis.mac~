@@ -135,3 +135,55 @@ x2:x1-ev(f,x=x1)/ev(ff,x=x1);
 x3:x2-ev(f,x=x2)/ev(ff,x=x2);
 float(%);
 
+
+
+Print("======================================");
+kill(all);
+print("Q 21.22");
+load("mnewton");
+
+f:x^4-x;
+
+mnewton(f,x,0.1);
+mnewton(f,x,2);
+
+
+Print("======================================");
+kill(all);
+print("Q 21.23");
+load("mnewton");
+
+f:x^4-2*x;
+
+mnewton(f,x,0.1);
+mnewton(f,x,1);
+
+
+Print("======================================");
+kill(all);
+print("Q 21.24");
+load("mnewton");
+
+f:3*sin(x)-2*x;
+
+mnewton(f,x,0.1);
+mnewton(f,x,2);
+
+
+Print("======================================");
+kill(all);
+print("Q 21.62");
+load("mnewton");
+
+f:sin(x)^2;
+
+integrate(f,x);
+
+Print("======================================");
+kill(all);
+print("Q 21.63");
+load("mnewton");
+
+f:cos(w*x)^2;
+
+integrate(f,x);

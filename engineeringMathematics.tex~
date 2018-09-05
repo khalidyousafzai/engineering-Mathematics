@@ -31,7 +31,7 @@
 \usepackage{amsbsy} %for bold Poynting, lessgtr symbol
 \usepackage{mathrsfs}   %for Poynting symbol
 \usepackage{IEEEtrantools}
-
+\usepackage{multirow}
 
 
 \sisetup{math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega}   %with mathpazo this is needed else must not be here. now micro is smaller
@@ -53,7 +53,7 @@
 
 
 %\includeonly{./tex/mathPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathSecondOrderDifferentialEquations,./tex/mathHigherOrderDifferentialEquations,./tex/mathSystemOfDifferentialEquations,./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations,./tex/mathLaplaceTransformation,./tex/mathVectors,./tex/mathLinearAlgebra,./tex/mathEigenvalueMatrixProblems,./tex/mathVectorDifferentialCalculus,./tex/mathVectorIntegralCalculus,./tex/mathFourierSeries,./tex/mathPartialDifferentialEquations,./tex/mathComplexAnalyticFunctions,./tex/mathConformalMapping,./tex/mathComplexIntegrals,./tex/mathSequencesAndSeries,./tex/mathPowerSeriesTaylorLaurent,./tex/mathIntegrationByMethodOfResidues,./tex/mathComplexAnalyticFunctionsAndPotentialTheory,./tex/mathNumericalAnalysis,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathPowerSeriesTaylorLaurent,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}%
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathNumericalAnalysis,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}%
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}%
 
 

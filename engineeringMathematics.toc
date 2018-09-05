@@ -210,7 +210,15 @@
 \select@language {arabic}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 21}}اعدادی تفرق}{\RL {\arabicfont 1416}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1417}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1421}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1421}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 21}}یک درجی تفرقی مساوات کے اعدادی تراکیب}{\RL {\arabicfont 1420}}
+\select@language {english}
+\select@language {arabic}
+\select@language {english}
+\select@language {arabic}
+\select@language {english}
+\select@language {arabic}
+\select@language {english}
+\select@language {arabic}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1431}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1435}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1435}}

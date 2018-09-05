@@ -4,7 +4,7 @@
 \indexentry{خلل!تجزیہ}{\RL {\arabicfont  1371}}
 \indexentry{تجزیہ!خلل}{\RL {\arabicfont  1371}}
 \indexentry{approximation}{\RL {\arabicfont  1372}}
-\indexentry{تقریب}{\RL {\arabicfont  1372}}
+\indexentry{تخمین}{\RL {\arabicfont  1372}}
 \indexentry{finite process}{\RL {\arabicfont  1372}}
 \indexentry{متناہی چال}{\RL {\arabicfont  1372}}
 \indexentry{error}{\RL {\arabicfont  1372}}
@@ -132,3 +132,33 @@
 \indexentry{کلیہ!کھلا}{\RL {\arabicfont  1416}}
 \indexentry{Gauss!central difference formula}{\RL {\arabicfont  1416}}
 \indexentry{گاوسی!وسطی فرق کلیہ}{\RL {\arabicfont  1416}}
+\indexentry{differentiation!numerical}{\RL {\arabicfont  1416}}
+\indexentry{numerical!differentiation}{\RL {\arabicfont  1416}}
+\indexentry{تفرق!اعدادی}{\RL {\arabicfont  1416}}
+\indexentry{اعدادی!تفرق}{\RL {\arabicfont  1416}}
+\indexentry{three point formula}{\RL {\arabicfont  1417}}
+\indexentry{کلیہ!تین نقاطی}{\RL {\arabicfont  1417}}
+\indexentry{تین نقاطی کلیہ}{\RL {\arabicfont  1417}}
+\indexentry{initial!value problem}{\RL {\arabicfont  1420}}
+\indexentry{ابتدائی!قیمت مسئلہ}{\RL {\arabicfont  1420}}
+\indexentry{step by step method}{\RL {\arabicfont  1421}}
+\indexentry{قدم با قدم ترکیب}{\RL {\arabicfont  1421}}
+\indexentry{Euler Cauchy method}{\RL {\arabicfont  1422}}
+\indexentry{یولر کوشی ترکیب}{\RL {\arabicfont  1422}}
+\indexentry{Euler!method}{\RL {\arabicfont  1422}}
+\indexentry{ترکیب یولر}{\RL {\arabicfont  1422}}
+\indexentry{method!first order}{\RL {\arabicfont  1422}}
+\indexentry{ترکیب!درجی اول}{\RL {\arabicfont  1422}}
+\indexentry{error!truncation}{\RL {\arabicfont  1422}}
+\indexentry{خلل!قطع چال}{\RL {\arabicfont  1422}}
+\indexentry{Euler!improved method}{\RL {\arabicfont  1423}}
+\indexentry{یولر!بہتر ترکیب}{\RL {\arabicfont  1423}}
+\indexentry{predictor-corrector method}{\RL {\arabicfont  1424}}
+\indexentry{پیش گو، مصحح ترکیب}{\RL {\arabicfont  1424}}
+\indexentry{second order method}{\RL {\arabicfont  1425}}
+\indexentry{درجہ!دوم ترکیب}{\RL {\arabicfont  1425}}
+\indexentry{Runge-Kutta method}{\RL {\arabicfont  1426}}
+\indexentry{رنج کوٹا ترکیب}{\RL {\arabicfont  1426}}
+\indexentry{ترکیب!رنج کوٹا}{\RL {\arabicfont  1426}}
+\indexentry{step!length}{\RL {\arabicfont  1428}}
+\indexentry{قدم!لمبائی}{\RL {\arabicfont  1428}}

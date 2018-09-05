@@ -168,3 +168,23 @@ f:3*sin(x)-2*x;
 
 mnewton(f,x,0.1);
 mnewton(f,x,2);
+
+
+Print("======================================");
+kill(all);
+print("Q 21.62");
+load("mnewton");
+
+f:sin(x)^2;
+
+integrate(f,x);
+
+
+Print("======================================");
+kill(all);
+print("Q 21.63");
+load("mnewton");
+
+f:cos(w*x)^2;
+
+integrate(f,x);

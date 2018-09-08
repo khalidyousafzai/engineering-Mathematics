@@ -31,7 +31,6 @@
 \usepackage{amsbsy} %for bold Poynting, lessgtr symbol
 \usepackage{mathrsfs}   %for Poynting symbol
 \usepackage{IEEEtrantools}
-\usepackage{multirow}
 
 
 \sisetup{math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega}   %with mathpazo this is needed else must not be here. now micro is smaller

@@ -222,6 +222,10 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 21}}دو درجی تفرقی مساوات کے اعدادی تراکیب}{\RL {\arabicfont 1431}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1437}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1441}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1441}}
+\select@language {english}
+\select@language {arabic}
+\select@language {english}
+\select@language {arabic}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1439}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1443}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1443}}

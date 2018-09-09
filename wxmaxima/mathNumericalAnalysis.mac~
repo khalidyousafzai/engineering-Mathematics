@@ -571,3 +571,61 @@ yeuler[i+1]:yeuler[i]+h*f(xeuler[i]+1/2*h,yyeuler[i+1])
 
 yeuler;
 
+
+
+Print("======================================");
+kill(all);
+print("Q 21.105");
+load("mnewton");
+
+f(x,y):=x+y;
+x0:0;
+y0:0;
+h:0.2;
+nsteps:5;
+
+xeuler:makelist(0,i,1,nsteps+1,1);
+yeuler:makelist(0,i,1,nsteps+1,1);
+
+xeuler[1]:x0;
+yeuler[1]:y0;
+
+for i:1 thru nsteps do (
+xeuler[i+1]:xeuler[i]+h,
+A[i]:h*f(xeuler[i],yeuler[i]),
+B[i]:h*f(xeuler[i]+h/2,yeuler[i]+1/2*A[i]),
+M[i]:h*f(xeuler[i+1],yeuler[i]-A[i]+2*B[i]),
+yeuler[i+1]:yeuler[i]+1/6*(A[i]+4*B[i]+M[i])
+);
+
+yeuler;
+
+Print("======================================");
+kill(all);
+print("Q 21.106");
+load("mnewton");
+
+f(x,y):=y;
+x0:0;
+y0:1;
+yD0:1;
+h:0.1;
+nsteps:10;
+
+xeuler:makelist(0,i,1,nsteps+1,1);
+yeuler:makelist(0,i,1,nsteps+1,1);
+yDeuler:makelist(0,i,1,nsteps+1,1);
+
+xeuler[1]:x0;
+yeuler[1]:y0;
+yDeuler[1]:yD0;
+
+for i:1 thru nsteps do (
+xeuler[i+1]:xeuler[i]+h,
+yeuler[i+1]:yeuler[i]+h*yDeuler[i]+1/2*h^2*f(xeuler[i],yeuler[i]),
+yDeuler[i+1]:yDeuler[i]+h*f(xeuler[i],yeuler[i])
+);
+
+yeuler;
+
+

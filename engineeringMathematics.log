@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  9 SEP 2018 17:08
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  10 SEP 2018 16:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3412,15 +3412,26 @@ Overfull \hbox (4.49997pt too wide) detected at line 222
  []
 
 
-Overfull \hbox (4.49997pt too wide) detected at line 231
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1443[][][][]
+Overfull \hbox (4.49997pt too wide) detected at line 229
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1438[][][][]
+ []
+
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/sl' in size <10>
+ not available
+(Font)              Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' tried instea
+d on input line 231.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' will be
+(Font)              scaled to size 10.0pt on input line 231.
+[8]
+Overfull \hbox (4.49997pt too wide) detected at line 232
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1449[][][][]
  []
 
 )
 \tf@toc=\write6
 \openout6 = `engineeringMathematics.toc'.
 
- [8] [9]
+ [9]
 \openout2 = `./tex/prefaceFirstBook.aux'.
 
  (./tex/prefaceFirstBook.tex
@@ -3433,8 +3444,7 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 ]) [14]
 \openout2 = `./tex/mathNumericalAnalysis.aux'.
 
-
-(./tex/mathNumericalAnalysis.tex
+ (./tex/mathNumericalAnalysis.tex
 باب \RL {\arabicfont 21}.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
@@ -3588,20 +3598,32 @@ Overfull \hbox (3.95158pt too wide) in paragraph at lines 2273--2274
 []|$\OT1/ppl/m/n/10 0.2\OML/zplm/m/it/10 y[] \OT1/zplm/m/n/10 +$
  []
 
-[1433] [1434] [1435] [1436]) [1437]
+[1433] [1434] [1435] [1436] [1437] [1438]
+Underfull \hbox (badness 10000) in paragraph at lines 2527--2527
+[][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 شكل []11[].[]21[]: |(مساوات []79[].[]2
+1[][] اور مساوات []80[].[]21[][] میں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2537--2537
+[][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 شكل []12[].[]21[]: |(مساوات []81[].[]2
+1[][] اور مساوات []82[].[]21[][] میں[]
+ []
+
+[1439] [1440] [1441] [1442] [1443]) [1444]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
- (./tex/mathAppendixAdditionalProofs.tex
-[1438
 
-
-
-]
+(./tex/mathAppendixAdditionalProofs.tex
 ضمیمہ ا.
-[1439] [1440]) [1441]
+[1445
+
+
+
+] [1446]) [1447]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [1442
+ (./tex/mathAppendixAuxiliaryMaterial.tex [1448
 
 
 
@@ -3609,20 +3631,20 @@ Overfull \hbox (3.95158pt too wide) in paragraph at lines 2273--2274
 ضمیمہ ب.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[1443] [1444] [1445] [1446] [1447]
+[1449] [1450] [1451] [1452] [1453]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1448] [1449]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1454] [1455]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1450]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1456]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1451]
-[1452
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1457]
+[1458
 
 
 ] (./engineeringMathematics.aux (./tex/mathPreface.aux)
@@ -3652,12 +3674,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 51638 strings out of 493918
- 1222285 string characters out of 6150563
- 1417517 words of memory out of 5000000
- 53848 multiletter control sequences out of 15000+600000
+ 51715 strings out of 493918
+ 1223969 string characters out of 6150563
+ 1418244 words of memory out of 5000000
+ 53925 multiletter control sequences out of 15000+600000
  42367 words of font info for 172 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  68i,19n,404p,10485b,2246s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (93 pages).
+Output written on engineeringMathematics.pdf (99 pages).

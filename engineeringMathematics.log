@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  10 SEP 2018 16:33
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  11 SEP 2018 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3416,15 +3416,20 @@ Overfull \hbox (4.49997pt too wide) detected at line 229
  [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1438[][][][]
  []
 
+
+Overfull \hbox (4.49997pt too wide) detected at line 230
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1450[][][][]
+ []
+
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/sl' in size <10>
  not available
 (Font)              Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' tried instea
-d on input line 231.
+d on input line 232.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' will be
-(Font)              scaled to size 10.0pt on input line 231.
+(Font)              scaled to size 10.0pt on input line 232.
 [8]
-Overfull \hbox (4.49997pt too wide) detected at line 232
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1449[][][][]
+Overfull \hbox (4.49997pt too wide) detected at line 233
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1455[][][][]
  []
 
 )
@@ -3610,20 +3615,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 2537--2537
 1[][] اور مساوات []82[].[]21[][] میں[]
  []
 
-[1439] [1440] [1441] [1442] [1443]) [1444]
+[1439] [1440] [1441] [1442] [1443] [1444] [1445] [1446] [1447]
+Underfull \hbox (badness 10000) in paragraph at lines 2867--2867
+[][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 شكل []16[].[]21[]: |شکل برائے سوال []1
+26[].[]21[][]، سوال []127[].[]21[][] اور[]
+ []
+
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 2894.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 2894.
+[1448] [1449]
+Overfull \hbox (10.52716pt too wide) in paragraph at lines 2939--2948
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 جواب: $[]\OML/zplm/m/it/10 u[] \OT1/zplm/
+m/n/10 = \OML/zplm/m/it/10 u[] \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 0.0859,  \OML
+/zplm/m/it/10 u[] \OT1/zplm/m/n/10 = \OML/zplm/m/it/10 u[] \OT1/zplm/m/n/10 = \
+OT1/ppl/m/n/10 0.3180$ \EU1/JameelNooriNastaleeq(1)/m/n/10 (چار اعشاریہ درست نت
+ائج $\OT1/ppl/m/n/10 0.1083,  0.3248$[]
+ []
+
+) [1450]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
-
-(./tex/mathAppendixAdditionalProofs.tex
+ (./tex/mathAppendixAdditionalProofs.tex
 ضمیمہ ا.
-[1445
+[1451
 
 
 
-] [1446]) [1447]
+] [1452]) [1453]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [1448
+ (./tex/mathAppendixAuxiliaryMaterial.tex [1454
 
 
 
@@ -3631,20 +3654,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 2537--2537
 ضمیمہ ب.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[1449] [1450] [1451] [1452] [1453]
+[1455] [1456] [1457] [1458] [1459]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1454] [1455]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1460] [1461]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1456]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1462]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1457]
-[1458
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1463]
+[1464
 
 
 ] (./engineeringMathematics.aux (./tex/mathPreface.aux)
@@ -3674,12 +3697,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 51715 strings out of 493918
- 1223969 string characters out of 6150563
- 1418244 words of memory out of 5000000
- 53925 multiletter control sequences out of 15000+600000
- 42367 words of font info for 172 fonts, out of 8000000 for 9000
+ 51761 strings out of 493918
+ 1225156 string characters out of 6150563
+ 1420786 words of memory out of 5000000
+ 53969 multiletter control sequences out of 15000+600000
+ 42383 words of font info for 174 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  68i,19n,404p,10485b,2246s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (99 pages).
+Output written on engineeringMathematics.pdf (105 pages).

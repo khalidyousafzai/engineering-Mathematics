@@ -24,6 +24,10 @@
 
 \definecolor{lgray}{cmyk}{0,0,0,0.2}
 \definecolor{dgray}{cmyk}{0,0,0,0.7}
+
+\tikzset{cross/.style={cross out, draw, 
+         minimum size=2*(2pt-\pgflinewidth), 
+         inner sep=0pt, outer sep=0pt}}
 %========================
 %\usepackage[hidelinks]{hyperref}  %used in machines book but not here
 \usepackage{./tex/khalidUrduBooksMaths}                     %my sty file

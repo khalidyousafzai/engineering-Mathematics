@@ -9,6 +9,12 @@
 %colours
 \definecolor{lgray}{cmyk}{0,0,0,0.2}
 \definecolor{dgray}{cmyk}{0,0,0,0.7}
+%draws a cross just like ocirc, circ; usage \fill(0,2)circle(1.5py);\draw(0,2)node[cross]{};
+\tikzset{cross/.style={cross out, draw, 
+         minimum size=2*(2pt-\pgflinewidth), 
+         inner sep=0pt, outer sep=0pt}}
+
+
 %tikz, pgfplot TABLE
 \pgfplotsset{select coords between index/.style 2 args={
     x filter/.code={
@@ -70,7 +76,7 @@
 
 %=============================
 %when a table is all math, instead of using $$ in each cell use the following.Text can be entered in a cell with \text{} 
-%usage \begin{array}{CC|RL}  or \begin{matrix}{C|L}
+%usage \begin{matrix}{C|L} ;not needed in array as array is $$ by default
 \newcolumntype{L}{>{$}l<{$}}
 \newcolumntype{C}{>{$}c<{$}}
 \newcolumntype{R}{>{$}r<{$}}

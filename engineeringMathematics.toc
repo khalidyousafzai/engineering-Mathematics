@@ -192,9 +192,9 @@
 \contentsline {chapter}{\numberline {\RL {\arabicfont 21}}اعدادی تجزیہ}{\RL {\arabicfont 1371}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 21}}خلل اور غلطیاں۔ کمپیوٹر}{\RL {\arabicfont 1372}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 21}}دہرانے سے مساوات کا حل}{\RL {\arabicfont 1374}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 21}}متناہی فرق}{\RL {\arabicfont 1385}}
 \select@language {english}
 \select@language {arabic}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 21}}متناہی فرق}{\RL {\arabicfont 1386}}
 \select@language {english}
 \select@language {arabic}
 \select@language {english}
@@ -227,7 +227,9 @@
 \select@language {english}
 \select@language {arabic}
 \contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 21}}بیضوی جزوی تفرقی مساوات}{\RL {\arabicfont 1438}}
-\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 21}}مسئلہ نیومن اور مخلوط سرحدی قیمت مسئلہ۔ غیر منظم سرحد}{\RL {\arabicfont 1450}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1451}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1455}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1455}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 9}.\RL {\arabicfont 21}}مسئلہ ڈرشلے}{\RL {\arabicfont 1441}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 9}.\RL {\arabicfont 21}}بدلتی رخ خفی ترکیب}{\RL {\arabicfont 1444}}
+\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 21}}مسئلہ نیومن اور مخلوط سرحدی قیمت مسئلہ۔ غیر منظم سرحد}{\RL {\arabicfont 1451}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1457}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1461}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1461}}

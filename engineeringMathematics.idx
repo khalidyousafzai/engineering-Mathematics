@@ -38,8 +38,8 @@
 \indexentry{fixed point}{\RL {\arabicfont  1375}}
 \indexentry{مقررہ نقطہ}{\RL {\arabicfont  1375}}
 \indexentry{مرتکز}{\RL {\arabicfont  1376}}
-\indexentry{order!iteration method}{\RL {\arabicfont  1380}}
-\indexentry{درجہ!دہرانے کی ترکیب}{\RL {\arabicfont  1380}}
+\indexentry{order!iteration method}{\RL {\arabicfont  1381}}
+\indexentry{درجہ!دہرانے کی ترکیب}{\RL {\arabicfont  1381}}
 \indexentry{ill-conditioned}{\RL {\arabicfont  1381}}
 \indexentry{بد خو}{\RL {\arabicfont  1381}}
 \indexentry{iteration!method of false position}{\RL {\arabicfont  1381}}
@@ -48,8 +48,8 @@
 \indexentry{فرق!پہلا}{\RL {\arabicfont  1386}}
 \indexentry{difference!second}{\RL {\arabicfont  1386}}
 \indexentry{فرق!دوسرا}{\RL {\arabicfont  1386}}
-\indexentry{difference!central}{\RL {\arabicfont  1386}}
-\indexentry{فرق!وسطی}{\RL {\arabicfont  1386}}
+\indexentry{difference!central}{\RL {\arabicfont  1387}}
+\indexentry{فرق!وسطی}{\RL {\arabicfont  1387}}
 \indexentry{difference!forward}{\RL {\arabicfont  1388}}
 \indexentry{فرق!آگے}{\RL {\arabicfont  1388}}
 \indexentry{difference!backward}{\RL {\arabicfont  1388}}
@@ -160,8 +160,8 @@
 \indexentry{Runge-Kutta method}{\RL {\arabicfont  1426}}
 \indexentry{رنج کوٹا ترکیب}{\RL {\arabicfont  1426}}
 \indexentry{ترکیب!رنج کوٹا}{\RL {\arabicfont  1426}}
-\indexentry{step!length}{\RL {\arabicfont  1428}}
-\indexentry{قدم!لمبائی}{\RL {\arabicfont  1428}}
+\indexentry{step!length}{\RL {\arabicfont  1427}}
+\indexentry{قدم!لمبائی}{\RL {\arabicfont  1427}}
 \indexentry{initial value!problem}{\RL {\arabicfont  1431}}
 \indexentry{ابتدائی قیمت!مسئلہ}{\RL {\arabicfont  1431}}
 \indexentry{Runge-Kutta-Nystrom method}{\RL {\arabicfont  1434}}
@@ -194,5 +194,5 @@
 \indexentry{قالب!پٹی}{\RL {\arabicfont  1444}}
 \indexentry{matrix!tridiagonal}{\RL {\arabicfont  1444}}
 \indexentry{وتر!سہ وتری قالب}{\RL {\arabicfont  1444}}
-\indexentry{ADI!alternating direction implicit method}{\RL {\arabicfont  1444}}
-\indexentry{ترکیب!بدلتی رخ خفی }{\RL {\arabicfont  1444}}
+\indexentry{ADI!alternating direction implicit method}{\RL {\arabicfont  1445}}
+\indexentry{ترکیب!بدلتی رخ خفی }{\RL {\arabicfont  1445}}

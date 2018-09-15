@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  12 SEP 2018 19:32
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  15 SEP 2018 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3431,15 +3431,14 @@ Overfull \hbox (4.49997pt too wide) detected at line 232
  [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1451[][][][]
  []
 
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/sl' in size <10>
- not available
-(Font)              Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' tried instea
-d on input line 233.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' will be
-(Font)              scaled to size 10.0pt on input line 233.
+
+Overfull \hbox (4.49997pt too wide) detected at line 233
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1458[][][][]
+ []
+
 [8]
-Overfull \hbox (4.49997pt too wide) detected at line 235
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1461[][][][]
+Overfull \hbox (4.49997pt too wide) detected at line 238
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1469[][][][]
  []
 
 )
@@ -3657,19 +3656,56 @@ Overfull \hbox (0.64566pt too wide) in paragraph at lines 3219--3219
 [][] []
  []
 
-[1455]) [1456]
+[1455]
+Overfull \hbox (17.40222pt too wide) in paragraph at lines 3285--3294
+ [][][][] 
+ []
+
+
+Overfull \hbox (30.34088pt too wide) in paragraph at lines 3301--3314
+ [][][][] 
+ []
+
+[1456] [1457] [1458]
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+Overfull \hbox (3.63815pt too wide) in paragraph at lines 3410--3421
+[][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3442--3442
+[][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 شكل []26[].[]21[]: |مساوات []105[].[]2
+1[][] اور[]
+ []
+
+[1459]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
+(Font)              scaled to size 9.0pt on input line 3453.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
+(Font)              scaled to size 8.0pt on input line 3453.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
+(Font)              scaled to size 6.0pt on input line 3453.
+ [1460] [1461]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1462])
+[1463]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
- (./tex/mathAppendixAdditionalProofs.tex
+ (./tex/mathAppendixAdditionalProofs.tex [1464
+
+
+
+]
 ضمیمہ ا.
-[1457
-
-
-
-] [1458]) [1459]
+[1465] [1466]) [1467]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [1460
+ (./tex/mathAppendixAuxiliaryMaterial.tex [1468
 
 
 
@@ -3677,20 +3713,20 @@ Overfull \hbox (0.64566pt too wide) in paragraph at lines 3219--3219
 ضمیمہ ب.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[1461] [1462] [1463] [1464] [1465]
+[1469] [1470] [1471] [1472] [1473]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1466] [1467]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1474] [1475]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1468]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1476]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1469]
-[1470
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1477]
+[1478
 
 
 ] (./engineeringMathematics.aux (./tex/mathPreface.aux)
@@ -3720,12 +3756,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 51849 strings out of 493918
- 1227129 string characters out of 6150563
- 1419556 words of memory out of 5000000
- 54057 multiletter control sequences out of 15000+600000
+ 51929 strings out of 493918
+ 1229092 string characters out of 6150563
+ 1420698 words of memory out of 5000000
+ 54137 multiletter control sequences out of 15000+600000
  42383 words of font info for 174 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  68i,19n,404p,10485b,2246s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (111 pages).
+Output written on engineeringMathematics.pdf (119 pages).

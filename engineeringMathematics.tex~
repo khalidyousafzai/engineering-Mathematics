@@ -24,10 +24,6 @@
 
 \definecolor{lgray}{cmyk}{0,0,0,0.2}
 \definecolor{dgray}{cmyk}{0,0,0,0.7}
-
-\tikzset{cross/.style={cross out, draw, 
-         minimum size=2*(2pt-\pgflinewidth), 
-         inner sep=0pt, outer sep=0pt}}
 %========================
 %\usepackage[hidelinks]{hyperref}  %used in machines book but not here
 \usepackage{./tex/khalidUrduBooksMaths}                     %my sty file
@@ -57,7 +53,7 @@
 
 
 %\includeonly{./tex/mathPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathSecondOrderDifferentialEquations,./tex/mathHigherOrderDifferentialEquations,./tex/mathSystemOfDifferentialEquations,./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations,./tex/mathLaplaceTransformation,./tex/mathVectors,./tex/mathLinearAlgebra,./tex/mathEigenvalueMatrixProblems,./tex/mathVectorDifferentialCalculus,./tex/mathVectorIntegralCalculus,./tex/mathFourierSeries,./tex/mathPartialDifferentialEquations,./tex/mathComplexAnalyticFunctions,./tex/mathConformalMapping,./tex/mathComplexIntegrals,./tex/mathSequencesAndSeries,./tex/mathPowerSeriesTaylorLaurent,./tex/mathIntegrationByMethodOfResidues,./tex/mathComplexAnalyticFunctionsAndPotentialTheory,./tex/mathNumericalAnalysis,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathNumericalAnalysis,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}%
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathPartialDifferentialEquations,./tex/mathNumericalAnalysis,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}%
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}%
 
 

@@ -1,200 +1,29 @@
-\indexentry{numerical!methods}{\RL {\arabicfont  1373}}
-\indexentry{اعدادی!تراکیب}{\RL {\arabicfont  1373}}
-\indexentry{error!analysis}{\RL {\arabicfont  1373}}
-\indexentry{خلل!تجزیہ}{\RL {\arabicfont  1373}}
-\indexentry{تجزیہ!خلل}{\RL {\arabicfont  1373}}
-\indexentry{approximation}{\RL {\arabicfont  1374}}
-\indexentry{تخمین}{\RL {\arabicfont  1374}}
-\indexentry{finite process}{\RL {\arabicfont  1374}}
-\indexentry{متناہی چال}{\RL {\arabicfont  1374}}
-\indexentry{error}{\RL {\arabicfont  1374}}
-\indexentry{خلل}{\RL {\arabicfont  1374}}
-\indexentry{error!relative}{\RL {\arabicfont  1374}}
-\indexentry{خلل!اضافی}{\RL {\arabicfont  1374}}
-\indexentry{correction}{\RL {\arabicfont  1374}}
-\indexentry{درستگی}{\RL {\arabicfont  1374}}
-\indexentry{error!bound}{\RL {\arabicfont  1374}}
-\indexentry{خلل!حد}{\RL {\arabicfont  1374}}
-\indexentry{حد!خلل}{\RL {\arabicfont  1374}}
-\indexentry{error!experimental}{\RL {\arabicfont  1374}}
-\indexentry{خلل!تجربی}{\RL {\arabicfont  1374}}
-\indexentry{error!truncation}{\RL {\arabicfont  1375}}
-\indexentry{خلل!قطع چال}{\RL {\arabicfont  1375}}
-\indexentry{error!round off}{\RL {\arabicfont  1375}}
-\indexentry{خلل!تعداد ہندسہ}{\RL {\arabicfont  1375}}
-\indexentry{fixed point}{\RL {\arabicfont  1375}}
-\indexentry{مقررہ نقطہ نظام}{\RL {\arabicfont  1375}}
-\indexentry{غیر مقررہ نقطہ نظام}{\RL {\arabicfont  1375}}
-\indexentry{significant digits}{\RL {\arabicfont  1375}}
-\indexentry{ملحوظ ہندسے}{\RL {\arabicfont  1375}}
-\indexentry{floating point}{\RL {\arabicfont  1375}}
-\indexentry{transcendental!equations}{\RL {\arabicfont  1376}}
-\indexentry{ماورائی!مساوات}{\RL {\arabicfont  1376}}
-\indexentry{مساوات!ماورائی}{\RL {\arabicfont  1376}}
-\indexentry{roots}{\RL {\arabicfont  1376}}
-\indexentry{جذر}{\RL {\arabicfont  1376}}
-\indexentry{algebraic equations}{\RL {\arabicfont  1376}}
-\indexentry{الجبرائی!مساوات}{\RL {\arabicfont  1376}}
-\indexentry{fixed point}{\RL {\arabicfont  1377}}
-\indexentry{مقررہ نقطہ}{\RL {\arabicfont  1377}}
-\indexentry{مرتکز}{\RL {\arabicfont  1378}}
-\indexentry{order!iteration method}{\RL {\arabicfont  1383}}
-\indexentry{درجہ!دہرانے کی ترکیب}{\RL {\arabicfont  1383}}
-\indexentry{ill-conditioned}{\RL {\arabicfont  1383}}
-\indexentry{بد خو}{\RL {\arabicfont  1383}}
-\indexentry{iteration!method of false position}{\RL {\arabicfont  1383}}
-\indexentry{دہرانا!مقام غلط}{\RL {\arabicfont  1383}}
-\indexentry{difference!first}{\RL {\arabicfont  1388}}
-\indexentry{فرق!پہلا}{\RL {\arabicfont  1388}}
-\indexentry{difference!second}{\RL {\arabicfont  1388}}
-\indexentry{فرق!دوسرا}{\RL {\arabicfont  1388}}
-\indexentry{difference!central}{\RL {\arabicfont  1389}}
-\indexentry{فرق!وسطی}{\RL {\arabicfont  1389}}
-\indexentry{difference!forward}{\RL {\arabicfont  1390}}
-\indexentry{فرق!آگے}{\RL {\arabicfont  1390}}
-\indexentry{difference!backward}{\RL {\arabicfont  1390}}
-\indexentry{فرق!پیچھے}{\RL {\arabicfont  1390}}
-\indexentry{interpolation}{\RL {\arabicfont  1394}}
-\indexentry{تحریف!باہمی}{\RL {\arabicfont  1394}}
-\indexentry{pivotal value}{\RL {\arabicfont  1394}}
-\indexentry{چول!قیمت}{\RL {\arabicfont  1394}}
-\indexentry{interpolation!linear}{\RL {\arabicfont  1395}}
-\indexentry{تحریف!باہمی خطی}{\RL {\arabicfont  1395}}
-\indexentry{interpolation!quadratic}{\RL {\arabicfont  1395}}
-\indexentry{تحریف!باہمی دو درجی}{\RL {\arabicfont  1395}}
-\indexentry{Newton!forward-difference interpolation formula}{\RL {\arabicfont  1396}}
-\indexentry{نیوٹن!آگے فرق، باہمی تحریف کلیہ}{\RL {\arabicfont  1396}}
-\indexentry{binomial!coefficients}{\RL {\arabicfont  1397}}
-\indexentry{ثنائی سر}{\RL {\arabicfont  1397}}
-\indexentry{Newton!backward-difference interpolation formula}{\RL {\arabicfont  1397}}
-\indexentry{نیوٹن!پیچھے فرق، باہمی تحریف کلیہ}{\RL {\arabicfont  1397}}
-\indexentry{interpolation!Everett formula}{\RL {\arabicfont  1398}}
-\indexentry{باہمی تحریف!کلیہ ایورٹ}{\RL {\arabicfont  1398}}
-\indexentry{Everett formula}{\RL {\arabicfont  1398}}
-\indexentry{ایورٹ!عمومی کلیہ}{\RL {\arabicfont  1398}}
-\indexentry{second differences!modofoed}{\RL {\arabicfont  1399}}
-\indexentry{دوسرا فرق!تبدیل شدہ}{\RL {\arabicfont  1399}}
-\indexentry{Newton!divided difference interpolation formula}{\RL {\arabicfont  1399}}
-\indexentry{نیوٹن!باہمی تحریف،منقسم فرق کلیہ}{\RL {\arabicfont  1399}}
-\indexentry{difference!divided}{\RL {\arabicfont  1399}}
-\indexentry{فرق!منقسم}{\RL {\arabicfont  1399}}
-\indexentry{interpolation!Lagragian}{\RL {\arabicfont  1400}}
-\indexentry{تحریف!لیگرینج، باہمی}{\RL {\arabicfont  1400}}
-\indexentry{لیگرینج!باہمی تحریف}{\RL {\arabicfont  1400}}
-\indexentry{لیگرینج!کلیہ}{\RL {\arabicfont  1400}}
-\indexentry{nodes}{\RL {\arabicfont  1404}}
-\indexentry{جوڑ}{\RL {\arabicfont  1404}}
-\indexentry{flexible curve}{\RL {\arabicfont  1404}}
-\indexentry{curve!flexible}{\RL {\arabicfont  1404}}
-\indexentry{splines}{\RL {\arabicfont  1404}}
-\indexentry{لچکدار منحنی}{\RL {\arabicfont  1404}}
-\indexentry{spline!cubic}{\RL {\arabicfont  1404}}
-\indexentry{منحنی!کعبی لچکدار}{\RL {\arabicfont  1404}}
-\indexentry{لچکدار!کعبی منحنی}{\RL {\arabicfont  1404}}
-\indexentry{numerical!integration}{\RL {\arabicfont  1410}}
-\indexentry{integration!numerical}{\RL {\arabicfont  1410}}
-\indexentry{تکمل!اعدادی}{\RL {\arabicfont  1410}}
-\indexentry{اعدادی!تکمل}{\RL {\arabicfont  1410}}
-\indexentry{graph paper}{\RL {\arabicfont  1410}}
-\indexentry{کاغذ ترسیم}{\RL {\arabicfont  1410}}
-\indexentry{planimeter}{\RL {\arabicfont  1410}}
-\indexentry{سطح!پیما}{\RL {\arabicfont  1410}}
-\indexentry{سطح پیما}{\RL {\arabicfont  1410}}
-\indexentry{step!function}{\RL {\arabicfont  1411}}
-\indexentry{سیڑھی!تفاعل}{\RL {\arabicfont  1411}}
-\indexentry{integration!numerical,rectangular rule}{\RL {\arabicfont  1411}}
-\indexentry{numerical!integration, rectangular rule}{\RL {\arabicfont  1411}}
-\indexentry{تکمل!اعدادی، مستطیل قاعدہ}{\RL {\arabicfont  1411}}
-\indexentry{اعدادی!تکمل، مستطیل قاعدہ}{\RL {\arabicfont  1411}}
-\indexentry{integration!numerical, trapezoidal rule}{\RL {\arabicfont  1412}}
-\indexentry{numerical!integration, trapezoidal rule}{\RL {\arabicfont  1412}}
-\indexentry{تکمل!اعدادی، ذوزنقہ قاعدہ}{\RL {\arabicfont  1412}}
-\indexentry{اعدادی!تکمل، ذوزنقہ قاعدہ}{\RL {\arabicfont  1412}}
-\indexentry{error!bound}{\RL {\arabicfont  1412}}
-\indexentry{خلل!حد}{\RL {\arabicfont  1412}}
-\indexentry{حد!خلل}{\RL {\arabicfont  1412}}
-\indexentry{Simpson's rule}{\RL {\arabicfont  1415}}
-\indexentry{سمسن قاعدہ}{\RL {\arabicfont  1415}}
-\indexentry{قاعدہ!سمسن}{\RL {\arabicfont  1415}}
-\indexentry{rule!three-eights}{\RL {\arabicfont  1417}}
-\indexentry{قاعدہ!آٹھ میں سے تین}{\RL {\arabicfont  1417}}
-\indexentry{rule!Weddle}{\RL {\arabicfont  1417}}
-\indexentry{قاعدہ!ویڈل}{\RL {\arabicfont  1417}}
-\indexentry{Legendre!polynomial}{\RL {\arabicfont  1417}}
-\indexentry{لیژانڈر!کثیر رکنی}{\RL {\arabicfont  1417}}
-\indexentry{Gaussian!integration formula}{\RL {\arabicfont  1418}}
-\indexentry{گاوس!کلیہ تکمل}{\RL {\arabicfont  1418}}
-\indexentry{closed!formula}{\RL {\arabicfont  1418}}
-\indexentry{کلیہ!بند}{\RL {\arabicfont  1418}}
-\indexentry{بند!کلیہ}{\RL {\arabicfont  1418}}
-\indexentry{open!formula}{\RL {\arabicfont  1418}}
-\indexentry{کھلا!کلیہ}{\RL {\arabicfont  1418}}
-\indexentry{کلیہ!کھلا}{\RL {\arabicfont  1418}}
-\indexentry{Gauss!central difference formula}{\RL {\arabicfont  1418}}
-\indexentry{گاوسی!وسطی فرق کلیہ}{\RL {\arabicfont  1418}}
-\indexentry{differentiation!numerical}{\RL {\arabicfont  1418}}
-\indexentry{numerical!differentiation}{\RL {\arabicfont  1418}}
-\indexentry{تفرق!اعدادی}{\RL {\arabicfont  1418}}
-\indexentry{اعدادی!تفرق}{\RL {\arabicfont  1418}}
-\indexentry{three point formula}{\RL {\arabicfont  1419}}
-\indexentry{کلیہ!تین نقاطی}{\RL {\arabicfont  1419}}
-\indexentry{تین نقاطی کلیہ}{\RL {\arabicfont  1419}}
-\indexentry{initial!value problem}{\RL {\arabicfont  1422}}
-\indexentry{ابتدائی!قیمت مسئلہ}{\RL {\arabicfont  1422}}
-\indexentry{step by step method}{\RL {\arabicfont  1423}}
-\indexentry{قدم با قدم ترکیب}{\RL {\arabicfont  1423}}
-\indexentry{Euler Cauchy method}{\RL {\arabicfont  1424}}
-\indexentry{یولر کوشی ترکیب}{\RL {\arabicfont  1424}}
-\indexentry{Euler!method}{\RL {\arabicfont  1424}}
-\indexentry{ترکیب یولر}{\RL {\arabicfont  1424}}
-\indexentry{method!first order}{\RL {\arabicfont  1424}}
-\indexentry{ترکیب!درجی اول}{\RL {\arabicfont  1424}}
-\indexentry{error!truncation}{\RL {\arabicfont  1424}}
-\indexentry{خلل!قطع چال}{\RL {\arabicfont  1424}}
-\indexentry{Euler!improved method}{\RL {\arabicfont  1425}}
-\indexentry{یولر!بہتر ترکیب}{\RL {\arabicfont  1425}}
-\indexentry{predictor-corrector method}{\RL {\arabicfont  1426}}
-\indexentry{پیش گو، مصحح ترکیب}{\RL {\arabicfont  1426}}
-\indexentry{second order method}{\RL {\arabicfont  1427}}
-\indexentry{درجہ!دوم ترکیب}{\RL {\arabicfont  1427}}
-\indexentry{Runge-Kutta method}{\RL {\arabicfont  1428}}
-\indexentry{رنج کوٹا ترکیب}{\RL {\arabicfont  1428}}
-\indexentry{ترکیب!رنج کوٹا}{\RL {\arabicfont  1428}}
-\indexentry{step!length}{\RL {\arabicfont  1429}}
-\indexentry{قدم!لمبائی}{\RL {\arabicfont  1429}}
-\indexentry{initial value!problem}{\RL {\arabicfont  1433}}
-\indexentry{ابتدائی قیمت!مسئلہ}{\RL {\arabicfont  1433}}
-\indexentry{Runge-Kutta-Nystrom method}{\RL {\arabicfont  1436}}
-\indexentry{رنج کوٹا!نیستروم ترکیب}{\RL {\arabicfont  1436}}
-\indexentry{error!building-up}{\RL {\arabicfont  1438}}
-\indexentry{خلل!اجتماع}{\RL {\arabicfont  1438}}
-\indexentry{quasilinear}{\RL {\arabicfont  1440}}
-\indexentry{بظاہر!نیم}{\RL {\arabicfont  1440}}
-\indexentry{Dirichlet!problem}{\RL {\arabicfont  1440}}
-\indexentry{ڈرشلے!مسئلہ}{\RL {\arabicfont  1440}}
-\indexentry{Neumann!problem}{\RL {\arabicfont  1440}}
-\indexentry{نیومن!مسئلہ}{\RL {\arabicfont  1440}}
-\indexentry{mixed!problem}{\RL {\arabicfont  1440}}
-\indexentry{مخلوط!مسئلہ}{\RL {\arabicfont  1440}}
-\indexentry{لاپلاس!مساوات}{\RL {\arabicfont  1441}}
-\indexentry{پوئسن!مساوات}{\RL {\arabicfont  1441}}
-\indexentry{mesh!size}{\RL {\arabicfont  1442}}
-\indexentry{جال!جسامت}{\RL {\arabicfont  1442}}
-\indexentry{جسامت!جال}{\RL {\arabicfont  1442}}
-\indexentry{جال!نقطہ}{\RL {\arabicfont  1443}}
-\indexentry{mesh!point}{\RL {\arabicfont  1443}}
-\indexentry{جوڑ}{\RL {\arabicfont  1443}}
-\indexentry{matrix!sparse}{\RL {\arabicfont  1443}}
-\indexentry{قالب!غیر گنجان}{\RL {\arabicfont  1443}}
-\indexentry{method!Liebmann}{\RL {\arabicfont  1443}}
-\indexentry{ترکیب!لیبمن}{\RL {\arabicfont  1443}}
-\indexentry{Gauss!Seidel method}{\RL {\arabicfont  1443}}
-\indexentry{گاوس!زائڈل ترکیب}{\RL {\arabicfont  1443}}
-\indexentry{matrix!band}{\RL {\arabicfont  1446}}
-\indexentry{قالب!پٹی}{\RL {\arabicfont  1446}}
-\indexentry{matrix!tridiagonal}{\RL {\arabicfont  1446}}
-\indexentry{وتر!سہ وتری قالب}{\RL {\arabicfont  1446}}
-\indexentry{ADI!alternating direction implicit method}{\RL {\arabicfont  1447}}
-\indexentry{ترکیب!بدلتی رخ خفی }{\RL {\arabicfont  1447}}
-\indexentry{method!Crank-Nicolson}{\RL {\arabicfont  1462}}
-\indexentry{ترکیب!کرینک نکلسن}{\RL {\arabicfont  1462}}
+\indexentry{متجانس}{\RL {\arabicfont  1474}}
+\indexentry{nonhomogeneous}{\RL {\arabicfont  1474}}
+\indexentry{متجانس!غیر}{\RL {\arabicfont  1474}}
+\indexentry{homogeneous}{\RL {\arabicfont  1474}}
+\indexentry{عددی سر!قالب}{\RL {\arabicfont  1474}}
+\indexentry{گاوسی اسقاط}{\RL {\arabicfont  1474}}
+\indexentry{algorithm}{\RL {\arabicfont  1475}}
+\indexentry{الخوارزمی!گاوسی اسقاط}{\RL {\arabicfont  1475}}
+\indexentry{algorithm}{\RL {\arabicfont  1475}}
+\indexentry{الکراجی}{\RL {\arabicfont  1475}}
+\indexentry{کے لئے}{\RL {\arabicfont  1475}}
+\indexentry{روک}{\RL {\arabicfont  1476}}
+\indexentry{تب}{\RL {\arabicfont  1476}}
+\indexentry{اگر}{\RL {\arabicfont  1476}}
+\indexentry{ورنہ}{\RL {\arabicfont  1476}}
+\indexentry{pivotal coefficient}{\RL {\arabicfont  1476}}
+\indexentry{چول!عددی سر}{\RL {\arabicfont  1476}}
+\indexentry{pivot!total pivoting}{\RL {\arabicfont  1477}}
+\indexentry{چول!مکمل}{\RL {\arabicfont  1477}}
+\indexentry{pivot!partial pivoting}{\RL {\arabicfont  1477}}
+\indexentry{چول!جزوی}{\RL {\arabicfont  1477}}
+\indexentry{scaling}{\RL {\arabicfont  1477}}
+\indexentry{تبدیلی پیما!صف}{\RL {\arabicfont  1477}}
+\indexentry{Cholesky}{\RL {\arabicfont  1478}}
+\indexentry{شولسکی}{\RL {\arabicfont  1478}}
+\indexentry{تکونی قالب!بالائی}{\RL {\arabicfont  1478}}
+\indexentry{تکونی قالب!نچلا}{\RL {\arabicfont  1478}}
+\indexentry{Gauss-Jordan elimination}{\RL {\arabicfont  1479}}
+\indexentry{گاوس جارڈن اسقاط}{\RL {\arabicfont  1479}}

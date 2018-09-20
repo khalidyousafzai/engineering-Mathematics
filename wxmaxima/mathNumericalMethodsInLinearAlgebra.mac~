@@ -93,7 +93,7 @@ eqa:2*w-4*x+3*y-z=3;
 eqb:w-2*x+5*y-3*z=0;
 eqc:3*w-6*x-y-z=0;
 
-solve([eqa,eqb,eqc],[w,x,y]);
+solve([eqa,eqb,eqc],[w,y,z]);
 
 Print("======================================");
 kill(all);
@@ -104,3 +104,53 @@ eqb:-1*w+2*x-13*y+3*z=3;
 eqc:4*w+3*x-9*y+z=1;
 
 solve([eqa,eqb,eqc],[w,x,z]);
+
+
+Print("======================================");
+kill(all);
+print("QQ 20.44");
+
+n:4;
+p1:[-1,1];
+p2:[-0.1,1.099];
+p3:[0.2,0.808];
+p4:[1,1];
+
+Sx:p1[1]+p2[1]+p3[1]+p4[1];
+Sx2:(p1[1])^2+(p2[1])^2+(p3[1])^2+(p4[1])^2;
+Sy:p1[2]+p2[2]+p3[2]+p4[2];
+Sxy:p1[1]*p1[2]+p2[1]*p2[2]+p3[1]*p3[2]+p4[1]*p4[2];
+
+eqa:n*a+b*Sx=Sy;
+eqb:a*Sx+b*Sx2=Sxy;
+
+solve([eqa,eqb],[a,b]);
+solnlst:float(%);
+sol:solnlst[1];
+aa:sol[1];
+bb:sol[2];
+
+Print("======================================");
+kill(all);
+print("QQ 20.45");
+
+n:4;
+p1:[0,0];
+p2:[1,1.1];
+p3:[2,1.9];
+p4:[3,3.1];
+
+Sx:p1[1]+p2[1]+p3[1]+p4[1];
+Sx2:(p1[1])^2+(p2[1])^2+(p3[1])^2+(p4[1])^2;
+Sy:p1[2]+p2[2]+p3[2]+p4[2];
+Sxy:p1[1]*p1[2]+p2[1]*p2[2]+p3[1]*p3[2]+p4[1]*p4[2];
+
+eqa:n*a+b*Sx=Sy;
+eqb:a*Sx+b*Sx2=Sxy;
+
+solve([eqa,eqb],[a,b]);
+solnlst:float(%);
+sol:solnlst[1];
+aa:sol[1];
+bb:sol[2];
+

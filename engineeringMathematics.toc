@@ -204,7 +204,7 @@
 \select@language {arabic}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 21}}قالبی امتیازی اقدار کی شمول}{\RL {\arabicfont 1401}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 21}}قالب کے امتیازی اقدار کی شمول}{\RL {\arabicfont 1401}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 21}}امتیازی اقدار کا حصول بذریعہ اعادہ}{\RL {\arabicfont 1410}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 22}}اعدادی تراکیب برائے تفرقی مساوات}{\RL {\arabicfont 1415}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 22}}یک درجی تفرقی مساوات کے اعدادی تراکیب}{\RL {\arabicfont 1415}}

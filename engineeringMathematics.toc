@@ -260,6 +260,7 @@
 \select@language {arabic}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1517}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1521}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1521}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 23}}متقارب اتساع}{\RL {\arabicfont 1516}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1529}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1533}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1533}}

@@ -126,10 +126,10 @@
 \include{./tex/mathPowerSeriesTaylorLaurent}
 \include{./tex/mathIntegrationByMethodOfResidues}
 \include{./tex/mathComplexAnalyticFunctionsAndPotentialTheory}
-%\include{./tex/mathNumericalAnalysis}
+\include{./tex/mathNumericalAnalysis}
 \include{./tex/mathNumericalMethodsInLinearAlgebra}
 \include{./tex/mathNumericalMethodsForDifferentialEquations}
-\include{./tex/mathNumericalAnalysis}
+
 
 %=========================================================
 %\addcontentsline{toc}{chapter}{حوالہ}     %it is standard not to include References in toc. 

@@ -1,15 +1,15 @@
 This is makeindex, version 2.15 [TeX Live 2013] (kpathsea + Thai support).
 Scanning input file engineeringMathematics.idx....
-!! Input index error (file = engineeringMathematics.idx, line = 917):
+!! Input index error (file = engineeringMathematics.idx, line = 919):
    -- Incomplete first argument (premature LFD).
 
-!! Input index error (file = engineeringMathematics.idx, line = 923):
+!! Input index error (file = engineeringMathematics.idx, line = 925):
    -- Incomplete first argument (premature LFD).
 
-!! Input index error (file = engineeringMathematics.idx, line = 937):
+!! Input index error (file = engineeringMathematics.idx, line = 939):
    -- Incomplete first argument (premature LFD).
-..done (2641 entries accepted, 3 rejected).
-Sorting entries..........................done (33292 comparisons).
-Generating output file engineeringMathematics.ind......done (2642 lines written, 0 warnings).
+..done (2815 entries accepted, 3 rejected).
+Sorting entries...........................done (35482 comparisons).
+Generating output file engineeringMathematics.ind......done (2814 lines written, 0 warnings).
 Output written in engineeringMathematics.ind.
 Transcript written in engineeringMathematics.ilg.

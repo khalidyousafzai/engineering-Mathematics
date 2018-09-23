@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  22 SEP 2018 16:02
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  23 SEP 2018 19:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1790,9 +1790,11 @@ LaTeX Font Warning: Font shape `EU1/ppl/m/n' undefined
 (./tex/mathPowerSeriesTaylorLaurent.aux)
 (./tex/mathIntegrationByMethodOfResidues.aux)
 (./tex/mathComplexAnalyticFunctionsAndPotentialTheory.aux)
+(./tex/mathNumericalAnalysis.aux)
 (./tex/mathNumericalMethodsInLinearAlgebra.aux)
 (./tex/mathNumericalMethodsForDifferentialEquations.aux)
-(./tex/mathNumericalAnalysis.aux) (./tex/mathAppendixAdditionalProofs.aux)
+(./tex/mathProbabilityAndStatistics.aux)
+(./tex/mathAppendixAdditionalProofs.aux)
 (./tex/mathAppendixAuxiliaryMaterial.aux))
 \openout1 = `engineeringMathematics.aux'.
 
@@ -3375,27 +3377,27 @@ Overfull \hbox (4.49997pt too wide) detected at line 191
 
 
 Overfull \hbox (4.49997pt too wide) detected at line 193
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1373[][][][]
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1374[][][][]
  []
 
 
 Overfull \hbox (4.49997pt too wide) detected at line 194
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1383[][][][]
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1376[][][][]
  []
 
 
-Overfull \hbox (4.49997pt too wide) detected at line 195
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1391[][][][]
+Overfull \hbox (4.49997pt too wide) detected at line 197
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1388[][][][]
  []
 
 
-Overfull \hbox (4.49997pt too wide) detected at line 196
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1395[][][][]
+Overfull \hbox (4.49997pt too wide) detected at line 204
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1394[][][][]
  []
 
 
 Overfull \hbox (4.49997pt too wide) detected at line 207
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1401[][][][]
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1403[][][][]
  []
 
 
@@ -3404,83 +3406,93 @@ Overfull \hbox (4.49997pt too wide) detected at line 208
  []
 
 
-Overfull \hbox (4.49997pt too wide) detected at line 210
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1415[][][][]
+Overfull \hbox (4.49997pt too wide) detected at line 213
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1422[][][][]
  []
 
 
-Overfull \hbox (4.49997pt too wide) detected at line 219
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1426[][][][]
+Overfull \hbox (4.49997pt too wide) detected at line 215
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1435[][][][]
  []
 
 
-Overfull \hbox (4.49997pt too wide) detected at line 226
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1433[][][][]
+Overfull \hbox (4.49997pt too wide) detected at line 216
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1445[][][][]
  []
 
 
-Overfull \hbox (4.49997pt too wide) detected at line 227
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1436[][][][]
+Overfull \hbox (4.49997pt too wide) detected at line 217
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1453[][][][]
  []
 
 [8]
-Overfull \hbox (4.49997pt too wide) detected at line 228
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1439[][][][]
+Overfull \hbox (4.49997pt too wide) detected at line 218
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1457[][][][]
  []
 
 
 Overfull \hbox (4.49997pt too wide) detected at line 229
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1446[][][][]
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1463[][][][]
  []
 
 
 Overfull \hbox (4.49997pt too wide) detected at line 230
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1453[][][][]
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1472[][][][]
  []
 
 
-Overfull \hbox (4.49997pt too wide) detected at line 239
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1462[][][][]
+Overfull \hbox (4.49997pt too wide) detected at line 232
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1477[][][][]
  []
 
 
-Overfull \hbox (4.49997pt too wide) detected at line 243
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1468[][][][]
- []
-
-
-Overfull \hbox (4.49997pt too wide) detected at line 244
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1470[][][][]
- []
-
-
-Overfull \hbox (4.49997pt too wide) detected at line 247
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1482[][][][]
- []
-
-
-Overfull \hbox (4.49997pt too wide) detected at line 254
+Overfull \hbox (4.49997pt too wide) detected at line 241
  [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1488[][][][]
  []
 
 
-Overfull \hbox (4.49997pt too wide) detected at line 257
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1497[][][][]
+Overfull \hbox (4.49997pt too wide) detected at line 248
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1495[][][][]
  []
 
 
-Overfull \hbox (4.49997pt too wide) detected at line 258
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1504[][][][]
+Overfull \hbox (4.49997pt too wide) detected at line 249
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1498[][][][]
  []
 
 
-Overfull \hbox (4.49997pt too wide) detected at line 263
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1516[][][][]
+Overfull \hbox (4.49997pt too wide) detected at line 250
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1501[][][][]
+ []
+
+
+Overfull \hbox (4.49997pt too wide) detected at line 251
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1508[][][][]
+ []
+
+
+Overfull \hbox (4.49997pt too wide) detected at line 252
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1515[][][][]
+ []
+
+
+Overfull \hbox (4.49997pt too wide) detected at line 261
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1524[][][][]
+ []
+
+
+Overfull \hbox (4.49997pt too wide) detected at line 265
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1529[][][][]
  []
 
 
 Overfull \hbox (4.49997pt too wide) detected at line 266
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1533[][][][]
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1531[][][][]
+ []
+
+
+Overfull \hbox (4.49997pt too wide) detected at line 269
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1537[][][][]
  []
 
 )
@@ -3498,10 +3510,11 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 
 
 ]) [14]
-\openout2 = `./tex/mathNumericalAnalysis.aux'.
+\openout2 = `./tex/mathProbabilityAndStatistics.aux'.
 
- (./tex/mathNumericalAnalysis.tex
-[1466
+
+(./tex/mathProbabilityAndStatistics.tex [1528
+
 
 
 
@@ -3529,130 +3542,75 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 
 
 ]
-باب \RL {\arabicfont 23}.
+باب \RL {\arabicfont 24}.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 4.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
+(Font)              scaled to size 14.4pt on input line 4.
 LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 2.
+(Font)              scaled to size 10.0pt on input line 5.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.6pt on input line 2.
+(Font)              scaled to size 7.6pt on input line 5.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 2.
+(Font)              scaled to size 8.0pt on input line 5.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 2.
+(Font)              scaled to size 8.33606pt on input line 5.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 2.
+(Font)              scaled to size 5.21004pt on input line 5.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 2.
+(Font)              scaled to size 8.33606pt on input line 5.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 2.
+(Font)              scaled to size 5.21004pt on input line 5.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 2.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 9.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 14.4pt on input line 9.
-[1467]
+(Font)              scaled to size 6.0pt on input line 5.
+[1529]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 15.
+(Font)              scaled to size 9.5pt on input line 11.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 15.
- [1468] [1469] [1470]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 62.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 74.
- [1471]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 117.
- [1472]
-Overfull \hbox (26.46779pt too wide) in paragraph at lines 172--172
-[][] []
- []
-
-[1473] [1474] [1475] [1476] [1477]
-Underfull \vbox (badness 1902) has occurred while \output is active []
-
- [1478]
-[1479] [1480] [1481] [1482] [1483] [1484]
-Overfull \hbox (28.05247pt too wide) in paragraph at lines 654--676
- [][] 
- []
-
-[1485] [1486] [1487] [1488] [1489] [1490] [1491] [1492] [1493] [1494]
-Overfull \hbox (3.72064pt too wide) in paragraph at lines 999--1005
-[] \EU1/JameelNooriNastaleeq(1)/m/n/10 سوال  []\EU1/JameelNooriNastaleeq(0)/bx/
-n/10 37[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
-/n/10 23[]\EU1/JameelNooriNastaleeq(1)/m/n/10 :[]  $[] \OT1/ppl/m/n/10 0.26$  \
-EU1/JameelNooriNastaleeq(1)/m/n/10 کی قیمت دو درجی باہمی تحریف یعنی مساوات []\E
-U1/JameelNooriNastaleeq(0)/bx/n/10 13[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\
-EU1/JameelNooriNastaleeq(0)/bx/n/10 23[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 
-کی مدد سے حاصل کریں۔دکھائیں[]
- []
-
-[1495]
-Overfull \hbox (15.83836pt too wide) in paragraph at lines 1021--1025
-[] \EU1/JameelNooriNastaleeq(1)/m/n/10 سوال  []\EU1/JameelNooriNastaleeq(0)/bx/
-n/10 41[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
-/n/10 23[]\EU1/JameelNooriNastaleeq(1)/m/n/10 :[] دکھائیں کہ بہت کم محنت کے سات
-ھ کلیہ ایورٹ (مساوات []\EU1/JameelNooriNastaleeq(0)/bx/n/10 18[]\EU1/JameelNoor
-iNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 23[][]\EU1/JameelN
-ooriNastaleeq(1)/m/n/10 ) استعمال کرتے ہوئے  $[] \OT1/ppl/m/n/10 0.26 \OT1/zplm
-/m/n/10 =$[]
- []
-
-[1496] [1497] [1498] [1499] [1500] [1501] [1502] [1503] [1504] [1505] [1506]
-[1507]
-Overfull \hbox (5.21457pt too wide) detected at line 1491
- []$[] [] \OML/zplm/m/it/10 p[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m
-/n/10 ) = []\OML/zplm/m/it/10 f[] \OT1/zplm/m/n/10 + []\OML/zplm/m/it/10 f[] \O
-T1/zplm/m/n/10 + []\OML/zplm/m/it/10 f[]  $ 
- []
-
-[1508] [1509]
-Overfull \hbox (2.46652pt too wide) in paragraph at lines 1519--1521
-[]\EU1/JameelNooriNastaleeq(1)/m/n/10 ہوں گے۔آپ دیکھ سکتے ہیں کہ موجودہ تخمین س
-ے کم از کم چار ملحوظ ہندسوں تک درست جواب حاصل ہوتا ہے۔حقیقت[]
- []
-
-[1510] [1511] [1512] [1513] [1514] [1515] [1516] [1517] [1518] [1519] [1520]
-[1521] [1522] [1523] [1524] [1525]) [1526] [1527]
+(Font)              scaled to size 5.70004pt on input line 11.
+ [1530]) [1531]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
-
-(./tex/mathAppendixAdditionalProofs.tex [1528
+ (./tex/mathAppendixAdditionalProofs.tex [1532
 
 
 
 ]
 ضمیمہ ا.
-[1529] [1530]) [1531]
+[1533]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 7.5pt on input line 42.
+ [1534]) [1535]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [1532
+ (./tex/mathAppendixAuxiliaryMaterial.tex [1536
 
 
 
 ]
 ضمیمہ ب.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 27.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[1533] [1534] [1535] [1536] [1537]
+[1537] [1538] [1539] [1540] [1541]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1538] [1539]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1542] [1543]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1540]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1544]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1541]
-[1542
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1545]
+[1546
 
 
 ] (./engineeringMathematics.aux (./tex/mathPreface.aux)
@@ -3671,9 +3629,11 @@ File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
 (./tex/mathPowerSeriesTaylorLaurent.aux)
 (./tex/mathIntegrationByMethodOfResidues.aux)
 (./tex/mathComplexAnalyticFunctionsAndPotentialTheory.aux)
+(./tex/mathNumericalAnalysis.aux)
 (./tex/mathNumericalMethodsInLinearAlgebra.aux)
 (./tex/mathNumericalMethodsForDifferentialEquations.aux)
-(./tex/mathNumericalAnalysis.aux) (./tex/mathAppendixAdditionalProofs.aux)
+(./tex/mathProbabilityAndStatistics.aux)
+(./tex/mathAppendixAdditionalProofs.aux)
 (./tex/mathAppendixAuxiliaryMaterial.aux))
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3684,12 +3644,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 51913 strings out of 493918
- 1229484 string characters out of 6150563
- 1423568 words of memory out of 5000000
- 54113 multiletter control sequences out of 15000+600000
- 42367 words of font info for 172 fonts, out of 8000000 for 9000
+ 51492 strings out of 493918
+ 1221097 string characters out of 6150563
+ 1421999 words of memory out of 5000000
+ 53692 multiletter control sequences out of 15000+600000
+ 42343 words of font info for 169 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 68i,18n,404p,10485b,2244s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,15n,81p,10485b,2242s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (88 pages).
+Output written on engineeringMathematics.pdf (30 pages).

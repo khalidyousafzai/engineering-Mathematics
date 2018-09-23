@@ -18,15 +18,17 @@
 \DeclareMathOperator{\ksi}{si} 
 \DeclareMathOperator{\kS}{S} 
 %cosine integral, exponential integral, logrithmic integral
-\DeclareMathOperator{\ci}{si} 
+\DeclareMathOperator{\ci}{ci} 
 \DeclareMathOperator{\kC}{C} 
 \DeclareMathOperator{\Ei}{Ei} 
 \DeclareMathOperator{\li}{li} 
 %Fresnel Cosine and SineIntegrals and their Auxiliary integrals
 \DeclareMathOperator{\FC}{C} 
 \DeclareMathOperator{\FS}{S} 
-\DeclareMathOperator{\FAC}{c} 
-\DeclareMathOperator{\FAS}{s} 
+\DeclareMathOperator{\FAC}{c}                  %complementary Fresnel integral
+\DeclareMathOperator{\FAS}{s}                     %complementary Fresnel integral
+\DeclareMathOperator{\Q}{Q}                     %Incomplete gamma function
+\DeclareMathOperator{\gammaP}{P}                     %Incomplete gamma function
 %Hermite polynomials
 \DeclareMathOperator{\He}{He} 
 %Complex Natural Logarithm, Principal Value
@@ -34,4 +36,4 @@
 %Residue 
 \DeclareMathOperator{\Res}{Res}
 %Lagrange interpolation formula
-\DeclareMathOperator{\Lag}{L}
+\DeclareMathOperator{\Lagrange}{L}

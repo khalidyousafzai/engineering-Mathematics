@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  23 SEP 2018 19:14
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  24 SEP 2018 18:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1742,19 +1742,23 @@ Package: IEEEtrantools 2012/12/27 V1.3 by Michael Shell
 ) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen342
 )
+(/usr/share/texlive/texmf-dist/tex/latex/ifsym/ifsym.sty
+Package: ifsym 2000/04/18 I.Kloeckl
+\c@ifsymcnt=\count305
+)
 (/usr/share/texlive/texmf-dist/tex/generic/genmisc/longdiv.tex
-\gpten=\count305
+\gpten=\count306
 )
 (/usr/share/texlive/texmf-dist/tex/latex/polynom/polynom.sty
 Package: polynom 2006/04/20 0.17 (CH,HA)
-\pld@currstage=\count306
+\pld@currstage=\count307
 )
 (./tex/myUrduCommandsMaths.tex
-\c@examplecounter=\count307
-\c@practicecounter=\count308
-\c@questioncounter=\count309
-\c@lawcounter=\count310
-\c@kthcounter=\count311
+\c@examplecounter=\count308
+\c@practicecounter=\count309
+\c@questioncounter=\count310
+\c@lawcounter=\count311
+\c@kthcounter=\count312
 ) (./tex/myUrduGreek.tex) (./tex/myEMTvectors.tex) (./tex/myDeclareFunctions.te
 x)
 (./tex/myCircuitDimensionsAndMathematicalSymbols.tex)
@@ -3041,7 +3045,7 @@ File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box65
-\c__siunitx_mathsf_int=\count312
+\c__siunitx_mathsf_int=\count313
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 78.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
@@ -3087,7 +3091,7 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 78.
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-\c__siunitx_mathtt_int=\count313
+\c__siunitx_mathtt_int=\count314
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 12.5pt on input line 79.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
@@ -3491,8 +3495,8 @@ Overfull \hbox (4.49997pt too wide) detected at line 266
  []
 
 
-Overfull \hbox (4.49997pt too wide) detected at line 269
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1537[][][][]
+Overfull \hbox (4.49997pt too wide) detected at line 273
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1541[][][][]
  []
 
 )
@@ -3572,22 +3576,22 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 9.5pt on input line 11.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 5.70004pt on input line 11.
- [1530]) [1531]
+ [1530] [1531]
+LaTeX Font Info:    Try loading font information for U+ifsym on input line 69.
+ (/usr/share/texlive/texmf-dist/tex/latex/ifsym/uifsym.fd)
+[1532] [1533] [1534]) [1535] [1536]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
- (./tex/mathAppendixAdditionalProofs.tex [1532
-
-
-
-]
+ (./tex/mathAppendixAdditionalProofs.tex
 ضمیمہ ا.
-[1533]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 42.
- [1534]) [1535]
+[1537
+
+
+
+] [1538]) [1539]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [1536
+ (./tex/mathAppendixAuxiliaryMaterial.tex [1540
 
 
 
@@ -3597,20 +3601,20 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 27.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[1537] [1538] [1539] [1540] [1541]
+[1541] [1542] [1543] [1544] [1545]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1542] [1543]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1546] [1547]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1544]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1548]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1545]
-[1546
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1549]
+[1550
 
 
 ] (./engineeringMathematics.aux (./tex/mathPreface.aux)
@@ -3637,19 +3641,19 @@ File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
 (./tex/mathAppendixAuxiliaryMaterial.aux))
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 2.26395pt have occurred.
+(Font)              up to 3.75237pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 51492 strings out of 493918
- 1221097 string characters out of 6150563
- 1421999 words of memory out of 5000000
- 53692 multiletter control sequences out of 15000+600000
- 42343 words of font info for 169 fonts, out of 8000000 for 9000
+ 51861 strings out of 493918
+ 1226803 string characters out of 6150563
+ 1462139 words of memory out of 5000000
+ 54047 multiletter control sequences out of 15000+600000
+ 54362 words of font info for 212 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,15n,81p,10485b,2242s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,21n,81p,10485b,2242s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (30 pages).
+Output written on engineeringMathematics.pdf (34 pages).

@@ -263,7 +263,11 @@
 \select@language {arabic}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 24}}امکانیات اور شماریات}{\RL {\arabicfont 1529}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 24}}حسابی شماریات کی نوعیت اور اس کا مقصد}{\RL {\arabicfont 1529}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 24}}نمونہ کا اظہار بذریعہ جدول اور ڈبہ ترسیم}{\RL {\arabicfont 1531}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1533}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1537}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1537}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 24}}نمونہ کا اظہار بذریعہ جدول اور ترسیم}{\RL {\arabicfont 1531}}
+\select@language {english}
+\select@language {arabic}
+\select@language {english}
+\select@language {arabic}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1537}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1541}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1541}}

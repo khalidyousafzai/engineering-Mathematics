@@ -1825,7 +1825,7 @@ u_{22}&=0.25(u_{11}+3u_{21})=\num{0.778094}
 \begin{otherlanguage}{english}
 \begin{array}{C|CCC|CCC}
 \hline
-\multirow{2}{*}{$t$}&&x=0.2&&&x=0.4&\\
+\multirow{1}{*}{$t$}&&x=0.2&&&x=0.4&\\
 &\text{\RL{\urdufont{کرینک نکلسن}}}&\text{\RL{\urdufont{مساوات \حوالہ{مساوات_اعدادی_مثال_کرینک_نکلسن}}}}&\text{\urdufont{درست}}&\text{\RL{\urdufont{کرینک نکلسن}}}&\text{\RL{\urdufont{مساوات \حوالہ{مساوات_اعدادی_مثال_کرینک_نکلسن}}}}&\text{\urdufont{درست}}\\
 \hline
 0.04&0.399&0.393&0.396&0.646&0.637&0.641\\

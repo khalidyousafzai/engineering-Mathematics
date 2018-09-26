@@ -8,8 +8,8 @@
 \indexentry{عرصہ زندگی}{\RL {\arabicfont  1530}}
 \indexentry{random variation}{\RL {\arabicfont  1530}}
 \indexentry{بے ترتیب تبدیلی}{\RL {\arabicfont  1530}}
-\indexentry{totality}{\RL {\arabicfont  1530}}
-\indexentry{کل تعداد}{\RL {\arabicfont  1530}}
+\indexentry{population}{\RL {\arabicfont  1530}}
+\indexentry{آبادی}{\RL {\arabicfont  1530}}
 \indexentry{sample}{\RL {\arabicfont  1530}}
 \indexentry{نمونہ}{\RL {\arabicfont  1530}}
 \indexentry{random!at}{\RL {\arabicfont  1530}}
@@ -49,18 +49,55 @@
 \indexentry{تعددی!نمونے کا مجموعی تفاعل}{\RL {\arabicfont  1536}}
 \indexentry{grouping}{\RL {\arabicfont  1537}}
 \indexentry{گروہ بندی}{\RL {\arabicfont  1537}}
-\indexentry{class!midpoints}{\RL {\arabicfont  1537}}
-\indexentry{طبقاتی_وسطی نقطہ}{\RL {\arabicfont  1537}}
 \indexentry{class!intervals}{\RL {\arabicfont  1537}}
-\indexentry{طبقاتی!وقفہ}{\RL {\arabicfont  1537}}
+\indexentry{جماعتی!وقفہ}{\RL {\arabicfont  1537}}
 \indexentry{class}{\RL {\arabicfont  1537}}
 \indexentry{طبقہ}{\RL {\arabicfont  1537}}
 \indexentry{class!marks}{\RL {\arabicfont  1537}}
-\indexentry{طبقاتی!نشان}{\RL {\arabicfont  1537}}
-\indexentry{class!relative frequency}{\RL {\arabicfont  1537}}
-\indexentry{طبقاتی!اضافی تعدد}{\RL {\arabicfont  1537}}
+\indexentry{جماعتی!نشان}{\RL {\arabicfont  1537}}
+\indexentry{class!midpoints}{\RL {\arabicfont  1537}}
+\indexentry{جماعتی_وسطی نقطہ}{\RL {\arabicfont  1537}}
 \indexentry{class!frequency}{\RL {\arabicfont  1537}}
-\indexentry{طبقاتی!تعدد}{\RL {\arabicfont  1537}}
+\indexentry{جماعتی!تعدد}{\RL {\arabicfont  1537}}
 \indexentry{frequency!function of the grouped sample}{\RL {\arabicfont  1537}}
 \indexentry{تعددی! تفاعل، گروہ بند نمونہ}{\RL {\arabicfont  1537}}
+\indexentry{class!relative frequency}{\RL {\arabicfont  1537}}
+\indexentry{جماعتی!اضافی تعدد}{\RL {\arabicfont  1537}}
 \indexentry{distribution function of the grouped sample}{\RL {\arabicfont  1537}}
+\indexentry{تقسیمی!تفاعل،گروہ بند نمونہ}{\RL {\arabicfont  1537}}
+\indexentry{sample!mean}{\RL {\arabicfont  1541}}
+\indexentry{اوسط}{\RL {\arabicfont  1541}}
+\indexentry{نمونی!اوسط}{\RL {\arabicfont  1541}}
+\indexentry{sample!variance}{\RL {\arabicfont  1541}}
+\indexentry{تغیریت}{\RL {\arabicfont  1541}}
+\indexentry{نمونی!تغیریت}{\RL {\arabicfont  1541}}
+\indexentry{standard deviation}{\RL {\arabicfont  1541}}
+\indexentry{معیاری انحراف}{\RL {\arabicfont  1541}}
+\indexentry{range}{\RL {\arabicfont  1544}}
+\indexentry{سعت}{\RL {\arabicfont  1544}}
+\indexentry{percentile}{\RL {\arabicfont  1544}}
+\indexentry{صدویہ}{\RL {\arabicfont  1544}}
+\indexentry{median}{\RL {\arabicfont  1544}}
+\indexentry{وسطانیہ}{\RL {\arabicfont  1544}}
+\indexentry{quartile!middle}{\RL {\arabicfont  1545}}
+\indexentry{چوتھائی!نصف}{\RL {\arabicfont  1545}}
+\indexentry{quartile!upper}{\RL {\arabicfont  1545}}
+\indexentry{چوتھائی!بالائی}{\RL {\arabicfont  1545}}
+\indexentry{quartile!lower}{\RL {\arabicfont  1545}}
+\indexentry{چوتھائی!نچلی}{\RL {\arabicfont  1545}}
+\indexentry{quartile!interquartile range}{\RL {\arabicfont  1545}}
+\indexentry{چوتھائی!سعت}{\RL {\arabicfont  1545}}
+\indexentry{mode}{\RL {\arabicfont  1545}}
+\indexentry{عادہ}{\RL {\arabicfont  1545}}
+\indexentry{method!of working origin}{\RL {\arabicfont  1545}}
+\indexentry{ترکیب!مبدا کام}{\RL {\arabicfont  1545}}
+\indexentry{ترکیب!مکمل رمز نویسی}{\RL {\arabicfont  1546}}
+\indexentry{method!of full coding}{\RL {\arabicfont  1546}}
+\indexentry{observation}{\RL {\arabicfont  1546}}
+\indexentry{مشاہدہ}{\RL {\arabicfont  1546}}
+\indexentry{experiment}{\RL {\arabicfont  1546}}
+\indexentry{تجربہ}{\RL {\arabicfont  1546}}
+\indexentry{outcome}{\RL {\arabicfont  1547}}
+\indexentry{انجام}{\RL {\arabicfont  1547}}
+\indexentry{trial}{\RL {\arabicfont  1547}}
+\indexentry{کوشش}{\RL {\arabicfont  1547}}

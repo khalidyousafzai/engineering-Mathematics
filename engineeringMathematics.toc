@@ -272,7 +272,10 @@
 \select@language {arabic}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 24}}نمونی اوسط اور نمونی تغیریت}{\RL {\arabicfont 1540}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1541}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1545}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1545}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 24}}نمونی اوسط اور نمونی تغیریت}{\RL {\arabicfont 1541}}
+\select@language {english}
+\select@language {arabic}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 24}}بے قاعدہ تجربات، نتائج،}{\RL {\arabicfont 1546}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1549}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1553}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1553}}

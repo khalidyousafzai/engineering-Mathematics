@@ -261,7 +261,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 23}}اعدادی تراکیب برائے قطع زائد مساوات}{\RL {\arabicfont 1524}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 24}}امکانیات اور شماریات}{\RL {\arabicfont 1529}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 24}}احتمال اور شماریات}{\RL {\arabicfont 1529}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 24}}حسابی شماریات کی نوعیت اور اس کا مقصد}{\RL {\arabicfont 1529}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 24}}نمونہ کا اظہار بذریعہ جدول اور ترسیم}{\RL {\arabicfont 1531}}
 \select@language {english}
@@ -275,7 +275,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 24}}نمونی اوسط اور نمونی تغیریت}{\RL {\arabicfont 1541}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 24}}بے قاعدہ تجربات، نتائج،}{\RL {\arabicfont 1546}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1549}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1553}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1553}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 24}}بلا منصوبہ تجربات، نتائج،}{\RL {\arabicfont 1546}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1553}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1557}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1557}}

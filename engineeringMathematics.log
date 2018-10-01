@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  30 SEP 2018 15:24
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  1 OCT 2018 14:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3510,8 +3510,13 @@ Overfull \hbox (4.49997pt too wide) detected at line 279
  []
 
 
-Overfull \hbox (4.49997pt too wide) detected at line 284
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1565[][][][]
+Overfull \hbox (4.49997pt too wide) detected at line 282
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1562[][][][]
+ []
+
+
+Overfull \hbox (4.49997pt too wide) detected at line 285
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1571[][][][]
  []
 
 )
@@ -3628,19 +3633,20 @@ meelNooriNastaleeq(1)/m/n/10 وقوعات  $\OML/zplm/m/it/10 A[]\OT1/ppl/m/n/10
 
  []
 
-[1558]) [1559]
+[1558] [1559] [1560] [1561] [1562] [1563] [1564] [1565]) [1566]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
- (./tex/mathAppendixAdditionalProofs.tex [1560
 
-
-
-]
+(./tex/mathAppendixAdditionalProofs.tex
 ضمیمہ ا.
-[1561] [1562]) [1563]
+[1567
+
+
+
+] [1568]) [1569]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [1564
+ (./tex/mathAppendixAuxiliaryMaterial.tex [1570
 
 
 
@@ -3648,20 +3654,20 @@ meelNooriNastaleeq(1)/m/n/10 وقوعات  $\OML/zplm/m/it/10 A[]\OT1/ppl/m/n/10
 ضمیمہ ب.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[1565] [1566] [1567] [1568] [1569]
+[1571] [1572] [1573] [1574] [1575]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1570] [1571]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1576] [1577]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1572]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1578]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1573]
-[1574
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1579]
+[1580
 
 
 ] (./engineeringMathematics.aux (./tex/mathPreface.aux)
@@ -3695,12 +3701,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 52207 strings out of 493918
- 1233628 string characters out of 6150563
- 1476488 words of memory out of 5000000
- 54391 multiletter control sequences out of 15000+600000
+ 52235 strings out of 493918
+ 1234199 string characters out of 6150563
+ 1476762 words of memory out of 5000000
+ 54419 multiletter control sequences out of 15000+600000
  54370 words of font info for 213 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,21n,81p,10485b,2243s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (58 pages).
+Output written on engineeringMathematics.pdf (64 pages).

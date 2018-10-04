@@ -281,6 +281,7 @@
 \select@language {arabic}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 24}}مرتب اجتماعات اور غیر مرتب اجتماعات}{\RL {\arabicfont 1562}}
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 24}}بلا منصوبہ متغیرات۔ غیر مسلسل اور استمراری تقسیم}{\RL {\arabicfont 1568}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1573}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1577}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1577}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 24}}تقسیم کا اوسط اور اس کی تغیریت}{\RL {\arabicfont 1576}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1583}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1587}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1587}}

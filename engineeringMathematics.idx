@@ -74,7 +74,7 @@
 \indexentry{standard deviation}{\RL {\arabicfont  1541}}
 \indexentry{معیاری انحراف}{\RL {\arabicfont  1541}}
 \indexentry{range}{\RL {\arabicfont  1544}}
-\indexentry{سعت}{\RL {\arabicfont  1544}}
+\indexentry{}{\RL {\arabicfont  1544}}
 \indexentry{percentile}{\RL {\arabicfont  1544}}
 \indexentry{صدویہ}{\RL {\arabicfont  1544}}
 \indexentry{median}{\RL {\arabicfont  1544}}
@@ -86,7 +86,7 @@
 \indexentry{quartile!lower}{\RL {\arabicfont  1545}}
 \indexentry{چوتھائی!نچلی}{\RL {\arabicfont  1545}}
 \indexentry{quartile!interquartile range}{\RL {\arabicfont  1545}}
-\indexentry{چوتھائی!سعت}{\RL {\arabicfont  1545}}
+\indexentry{چوتھائی!}{\RL {\arabicfont  1545}}
 \indexentry{mode}{\RL {\arabicfont  1545}}
 \indexentry{عادہ}{\RL {\arabicfont  1545}}
 \indexentry{method!of working origin}{\RL {\arabicfont  1545}}
@@ -170,3 +170,30 @@
 \indexentry{احتمال!تقسیم}{\RL {\arabicfont  1571}}
 \indexentry{distribution!function}{\RL {\arabicfont  1571}}
 \indexentry{تقسیم!تفاعل}{\RL {\arabicfont  1571}}
+\indexentry{values!possible}{\RL {\arabicfont  1572}}
+\indexentry{ممکنہ قیمتیں}{\RL {\arabicfont  1572}}
+\indexentry{step function}{\RL {\arabicfont  1572}}
+\indexentry{سیڑھی تفاعل}{\RL {\arabicfont  1572}}
+\indexentry{continuous}{\RL {\arabicfont  1572}}
+\indexentry{استمراری}{\RL {\arabicfont  1572}}
+\indexentry{density}{\RL {\arabicfont  1573}}
+\indexentry{کثافت}{\RL {\arabicfont  1573}}
+\indexentry{mean}{\RL {\arabicfont  1576}}
+\indexentry{اوسط}{\RL {\arabicfont  1576}}
+\indexentry{حسابی!توقع}{\RL {\arabicfont  1576}}
+\indexentry{expectation!mathematical}{\RL {\arabicfont  1577}}
+\indexentry{variance}{\RL {\arabicfont  1577}}
+\indexentry{تغیریت}{\RL {\arabicfont  1577}}
+\indexentry{standard deviation}{\RL {\arabicfont  1577}}
+\indexentry{انحراف!معیاری}{\RL {\arabicfont  1577}}
+\indexentry{معیاری انحراف}{\RL {\arabicfont  1577}}
+\indexentry{distribution!uniform}{\RL {\arabicfont  1578}}
+\indexentry{تقسیم!یکساں}{\RL {\arabicfont  1578}}
+\indexentry{variable!standardized}{\RL {\arabicfont  1580}}
+\indexentry{معیاری!متغیر}{\RL {\arabicfont  1580}}
+\indexentry{expectation!mathematical}{\RL {\arabicfont  1580}}
+\indexentry{توقع!حسابی}{\RL {\arabicfont  1580}}
+\indexentry{moment!k}{\RL {\arabicfont  1581}}
+\indexentry{معیار اثر}{\RL {\arabicfont  1581}}
+\indexentry{moment!central, kth}{\RL {\arabicfont  1581}}
+\indexentry{معیار اثر!وسطی}{\RL {\arabicfont  1581}}

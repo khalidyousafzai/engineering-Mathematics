@@ -14,7 +14,7 @@
 \usepackage{mathpazo}              %kkk   causes trouble with siunitx units such as ohm which needs correction using sisetup
 \usepackage{booktabs}                                  %for tables toprule, midrule and bottomrule
 \usepackage{parskip} 
-\usepackage[stable]{footmisc}						%for footnotes in the headings
+\usepackage[stable,bottom]{footmisc}						%for footnotes in the headings
 
 \usepackage{siunitx} 			%SI units that meets iso-31 regulations such as \micro, \degree \SI{3}{\celsius}
 %\sisetup{per=frac,fraction=nice}    %setup for siunitx
@@ -63,7 +63,7 @@
 
 %%\newfontfamily\AcaciasHand{AcaciasHand}
 
-\setcounter{secnumdepth}{3} 
+\setcounter{secnumdepth}{2} 
 %=====================================
 %included to maths sty but gives a english dot (.) after (theorem etc) names, so not using it for now. i also had trouble with the slanting fonts used, since i only have plain noori nastaleeq only. i was able to solve this by putting the command \theoremstyle{plain} before every theorem (cor, lemm etc) evvironment 
 \newtheorem{theorem}{مسئلہ}[chapter]

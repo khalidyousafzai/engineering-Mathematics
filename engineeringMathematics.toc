@@ -283,6 +283,8 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 24}}بلا منصوبہ متغیرات۔ غیر مسلسل اور استمراری تقسیم}{\RL {\arabicfont 1568}}
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 24}}تقسیم کا اوسط اور اس کی تغیریت}{\RL {\arabicfont 1576}}
 \contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 24}}ثنائی، پوئسن، اور بیش ہندسی تقسیم}{\RL {\arabicfont 1584}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1589}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1593}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1593}}
+\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 24}}عمومی تقسیم}{\RL {\arabicfont 1592}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1597}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1601}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1601}}
+\contentsline {chapter}{\numberline {ج\char "200D}جدول}{\RL {\arabicfont 1611}}

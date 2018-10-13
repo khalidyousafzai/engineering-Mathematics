@@ -285,8 +285,9 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 24}}ثنائی، پوئسن، اور بیش ہندسی تقسیم}{\RL {\arabicfont 1584}}
 \contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 24}}عمومی تقسیم}{\RL {\arabicfont 1592}}
 \contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 24}}ایک سے زائد بلا منصوبہ متغیرات کی تقسیمیں}{\RL {\arabicfont 1602}}
-\contentsline {section}{\numberline {\RL {\arabicfont 12}.\RL {\arabicfont 24}}دو بعدی غیر مسلسل تقسیم کے حاشیہ تقسیمیں}{\RL {\arabicfont 1604}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1607}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1611}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1611}}
-\contentsline {chapter}{\numberline {ج\char "200D}جدول}{\RL {\arabicfont 1621}}
+\select@language {english}
+\select@language {arabic}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1615}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1619}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1619}}
+\contentsline {chapter}{\numberline {ج\char "200D}جدول}{\RL {\arabicfont 1629}}

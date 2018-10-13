@@ -34,11 +34,13 @@
 \usepackage{multirow}   %for multiple row cells in a table column
 \usepackage[misc]{ifsym} %tally marks 
 
+
 \sisetup{math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega}   %with mathpazo this is needed else must not be here. now micro is smaller
 \DeclareSIUnit \var {var}    %used in electric circuits volt-ampere-reactive
 
 \input longdiv.tex
 \usepackage{polynom}
+
 
 \input{./tex/myUrduCommandsMaths.tex}                  %turning latex into urdu
 \input{./tex/myUrduGreek.tex}
@@ -53,7 +55,7 @@
 
 
 %\includeonly{./tex/mathPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathSecondOrderDifferentialEquations,./tex/mathHigherOrderDifferentialEquations,./tex/mathSystemOfDifferentialEquations,./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations,./tex/mathLaplaceTransformation,./tex/mathVectors,./tex/mathLinearAlgebra,./tex/mathEigenvalueMatrixProblems,./tex/mathVectorDifferentialCalculus,./tex/mathVectorIntegralCalculus,./tex/mathFourierSeries,./tex/mathPartialDifferentialEquations,./tex/mathComplexAnalyticFunctions,./tex/mathConformalMapping,./tex/mathComplexIntegrals,./tex/mathSequencesAndSeries,./tex/mathPowerSeriesTaylorLaurent,./tex/mathIntegrationByMethodOfResidues,./tex/mathComplexAnalyticFunctionsAndPotentialTheory,./tex/mathNumericalAnalysis,./tex/mathNumericalMethodsInLinearAlgebra,./tex/mathNumericalMethodsForDifferentialEquations,./tex/mathProbabilityAndStatistics,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial,./tex/mathTables}
-\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathProbabilityAndStatisticsA,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial,./tex/mathTables}%
+\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathProbabilityAndStatistics,./tex/mathProbabilityAndStatisticsA,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial,./tex/mathTables}%
 %\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathNumericalMethodsForDifferentialEquations,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial}%
 
 

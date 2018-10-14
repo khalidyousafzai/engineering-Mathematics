@@ -287,7 +287,9 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 24}}ایک سے زائد بلا منصوبہ متغیرات کی تقسیمیں}{\RL {\arabicfont 1602}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1615}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1619}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1619}}
-\contentsline {chapter}{\numberline {ج\char "200D}جدول}{\RL {\arabicfont 1629}}
+\contentsline {section}{\numberline {\RL {\arabicfont 12}.\RL {\arabicfont 24}}بلا منصوبہ نمونہ بندی۔ بلا منصوبہ اعداد}{\RL {\arabicfont 1614}}
+\contentsline {section}{\numberline {\RL {\arabicfont 13}.\RL {\arabicfont 24}}مقدار معلوم کا اندازہ لگانا}{\RL {\arabicfont 1617}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1621}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1625}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1625}}
+\contentsline {chapter}{\numberline {ج\char "200D}جدول}{\RL {\arabicfont 1635}}

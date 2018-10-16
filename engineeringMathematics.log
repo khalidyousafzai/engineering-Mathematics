@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  15 OCT 2018 15:14
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  16 OCT 2018 13:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3557,7 +3557,7 @@ Overfull \hbox (4.49997pt too wide) detected at line 292
 
 
 Overfull \hbox (4.49997pt too wide) detected at line 295
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1633[][][][]
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1639[][][][]
  []
 
 )
@@ -3685,32 +3685,41 @@ Overfull \vbox (2.3408pt too high) has occurred while \output is active []
 
 
 [1613] [1614] [1615] [1616] [1617] [1618] [1619] [1620] [1621] [1622] [1623]
-[1624] [1625] [1626]
-Underfull \hbox (badness 10000) in paragraph at lines 822--822
-[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 کو مربع چائے تقسیم کی جدول (ضمیمہ ج‍[]، 
-جدول []7[].ج‍[]، جسامت نمونہ= $\OML/zplm/m/it/10 n$ \EU1/JameelNooriNastaleeq(0
-)/bx/n/10 ) سے  $\OML/zplm/m/it/10 n \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 1$  \
-EU1/JameelNooriNastaleeq(0)/bx/n/10 درجہ آزادی کے لئے حاصل کریں۔ \EU1/XBTabrizB
-old(0)/m/n/10 تیسرا قدم:[]
- []
-
-) [1627] [1628]
+[1624] [1625] [1626] [1627] [1628] [1629] [1630]
+Missing character: There is no ض in font zplmr7m!
+Missing character: There is no م in font zplmr7m!
+Missing character: There is no ی in font zplmr7m!
+Missing character: There is no م in font zplmr7m!
+Missing character: There is no ہ in font zplmr7m!
+Missing character: There is no م in font zplmr7m!
+Missing character: There is no ر in font zplmr7m!
+Missing character: There is no ب in font zplmr7m!
+Missing character: There is no ع in font zplmr7m!
+Missing character: There is no خ in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no ت in font zplmr7m!
+Missing character: There is no ق in font zplmr7m!
+Missing character: There is no س in font zplmr7m!
+Missing character: There is no ی in font zplmr7m!
+Missing character: There is no م in font zplmr7m!
+ [1631] [1632] [1633]) [1634]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
- (./tex/mathAppendixAdditionalProofs.tex
+
+(./tex/mathAppendixAdditionalProofs.tex
 ضمیمہ ا.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
-[1629
+[1635
 
 
 
-] [1630]) [1631]
+] [1636]) [1637]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [1632
+ (./tex/mathAppendixAuxiliaryMaterial.tex [1638
 
 
 
@@ -3718,29 +3727,29 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 ضمیمہ ب.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[1633] [1634] [1635] [1636] [1637]
+[1639] [1640] [1641] [1642] [1643]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1638] [1639]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1644] [1645]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1640]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1646]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1641]
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1647]
 \openout2 = `./tex/mathTables.aux'.
 
 
-(./tex/mathTables.tex [1642
+(./tex/mathTables.tex [1648
 
 
 
 ]
 ضمیمہ ج\char "200D.
-) [1643] [1644] (./engineeringMathematics.aux (./tex/mathPreface.aux)
+) [1649] [1650] (./engineeringMathematics.aux (./tex/mathPreface.aux)
 (./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
@@ -3765,19 +3774,19 @@ File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
 (./tex/mathAppendixAuxiliaryMaterial.aux) (./tex/mathTables.aux))
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 2.26395pt have occurred.
+(Font)              up to 3.75237pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 52240 strings out of 493918
- 1241627 string characters out of 6150563
- 1609831 words of memory out of 5000000
- 54424 multiletter control sequences out of 15000+600000
- 42343 words of font info for 169 fonts, out of 8000000 for 9000
+ 52371 strings out of 493918
+ 1244574 string characters out of 6150563
+ 1610344 words of memory out of 5000000
+ 54552 multiletter control sequences out of 15000+600000
+ 53857 words of font info for 207 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,18n,86p,10485b,2241s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,18n,86p,10485b,3136s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (54 pages).
+Output written on engineeringMathematics.pdf (60 pages).

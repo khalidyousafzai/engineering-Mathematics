@@ -290,7 +290,10 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 12}.\RL {\arabicfont 24}}بلا منصوبہ نمونہ بندی۔ بلا منصوبہ اعداد}{\RL {\arabicfont 1614}}
 \contentsline {section}{\numberline {\RL {\arabicfont 13}.\RL {\arabicfont 24}}مقدار معلوم کا اندازہ لگانا}{\RL {\arabicfont 1617}}
 \contentsline {section}{\numberline {\RL {\arabicfont 14}.\RL {\arabicfont 24}}وقفہ اعتماد}{\RL {\arabicfont 1622}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1635}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1639}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1639}}
-\contentsline {chapter}{\numberline {ج\char "200D}جدول}{\RL {\arabicfont 1649}}
+\contentsline {section}{\numberline {\RL {\arabicfont 15}.\RL {\arabicfont 24}}قیاس کی پرکھ۔ فیصلے}{\RL {\arabicfont 1636}}
+\select@language {english}
+\select@language {arabic}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1643}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1647}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1647}}
+\contentsline {chapter}{\numberline {ج\char "200D}جدول}{\RL {\arabicfont 1657}}

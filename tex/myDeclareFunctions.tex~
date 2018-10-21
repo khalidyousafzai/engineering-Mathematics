@@ -27,7 +27,7 @@
 \DeclareMathOperator{\FS}{S} 
 \DeclareMathOperator{\FAC}{c}                  %complementary Fresnel integral
 \DeclareMathOperator{\FAS}{s}                     %complementary Fresnel integral
-\DeclareMathOperator{\Q}{Q}                     %Incomplete gamma function
+\DeclareMathOperator{\gammaQ}{Q}                     %Incomplete gamma function
 \DeclareMathOperator{\gammaP}{P}                     %Incomplete gamma function
 %Hermite polynomials
 \DeclareMathOperator{\He}{He} 

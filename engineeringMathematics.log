@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  21 OCT 2018 15:15
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  22 OCT 2018 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3566,8 +3566,13 @@ Overfull \hbox (4.49997pt too wide) detected at line 296
  []
 
 
-Overfull \hbox (4.49997pt too wide) detected at line 301
- [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1663[][][][]
+Overfull \hbox (4.49997pt too wide) detected at line 299
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1660[][][][]
+ []
+
+
+Overfull \hbox (4.49997pt too wide) detected at line 302
+ [][][][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 1669[][][][]
  []
 
 )
@@ -3647,7 +3652,11 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 174.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 14.4pt on input line 174.
- [1649] [1650] [1651] [1652] [1653] [1654] [1655] [1656] [1657]) [1658]
+ [1649] [1650] [1651] [1652] [1653] [1654] [1655] [1656] [1657] [1658]
+[1659] [1660]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 589.
+ [1661] [1662] [1663]) [1664]
 \openout2 = `./tex/mathAppendixAdditionalProofs.aux'.
 
 
@@ -3657,46 +3666,44 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
-[1659
+[1665
 
 
 
-] [1660]) [1661]
+] [1666]) [1667]
 \openout2 = `./tex/mathAppendixAuxiliaryMaterial.aux'.
 
- (./tex/mathAppendixAuxiliaryMaterial.tex [1662
+ (./tex/mathAppendixAuxiliaryMaterial.tex [1668
 
 
 
 ]
 ضمیمہ ب.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 27.
 NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
-[1663] [1664] [1665] [1666] [1667]
+[1669] [1670] [1671] [1672] [1673]
 File: ./fig/figBesselFunction/figOctaveGammaFunction.pdf Graphic file (type QTm
 )
 
-<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1668] [1669]
+<use  "./fig/figBesselFunction/figOctaveGammaFunction.pdf" > [1674] [1675]
 File: ./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf Graphic file (
 type QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1670]
+<use  "./fig/figAppendixAuxiliaryMaterial/figFresnelIntegrals.pdf" > [1676]
 File: ./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf Graphic file (type
  QTm)
 
-<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1671]
+<use  "./fig/figAppendixAuxiliaryMaterial/figSineIntegral.pdf" >) [1677]
 \openout2 = `./tex/mathTables.aux'.
 
 
-(./tex/mathTables.tex [1672
+(./tex/mathTables.tex [1678
 
 
 
 ]
 ضمیمہ ج\char "200D.
-) [1673] [1674] (./engineeringMathematics.aux (./tex/mathPreface.aux)
+) [1679] [1680] (./engineeringMathematics.aux (./tex/mathPreface.aux)
 (./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
@@ -3728,12 +3735,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 52324 strings out of 493918
- 1237573 string characters out of 6150563
- 1433299 words of memory out of 5000000
- 54502 multiletter control sequences out of 15000+600000
+ 52420 strings out of 493918
+ 1239376 string characters out of 6150563
+ 1434867 words of memory out of 5000000
+ 54598 multiletter control sequences out of 15000+600000
  42375 words of font info for 173 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,18n,81p,10485b,2238s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (43 pages).
+Output written on engineeringMathematics.pdf (49 pages).

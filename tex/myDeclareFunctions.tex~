@@ -37,3 +37,8 @@
 \DeclareMathOperator{\Res}{Res}
 %Lagrange interpolation formula
 \DeclareMathOperator{\Lagrange}{L}
+%statistics UpperControlLimit and Lower Control Limit, Average Outgoing Quality
+\DeclareMathOperator{\UCL}{UCL} 
+\DeclareMathOperator{\LCL}{LCL} 
+\DeclareMathOperator{\OC}{OC} 
+\DeclareMathOperator{\AOQ}{AOQ} 

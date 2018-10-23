@@ -1,0 +1,25 @@
+\begin{table}
+\caption{حساب برائے مثال \حوالہ{مثال_شماریات_قیاس_آبادی_عمومی}}
+\label{جدول_مثال_شماریات_قیاس_آبادی_عمومی}
+\centering
+\begin{otherlanguage}{english}
+\begin{tabular}{C|CC|CC|C}
+x_j&\frac{x_j-364.7}{26.7}&\Phi\big(\frac{x_j-364.7}{26.7}\big)&e_j=100p_j&b_j&
+\shortstack[r]{\text{\urdufont{اجزاء}} \\   \text{\urdufont{مساوات}} \\ \text{\urdufont{\حوالہ{مساوات_شماریات_پرکھ_فشر_الف}}}} \\
+\hline
+-\infty\cdots325&-\infty\cdots-1.49&0.0000\cdots0.0681&6.81&6&0.096\\
+325\cdots335&-1.49\cdots-1.11&0.0681\cdots0.1335&6.54&6&0.045\\
+335\cdots345&-1.11\cdots-0.74&0.1335\cdots0.2296&9.61&11&0.201\\
+345\cdots355&-0.74\cdots-0.36&0.2296\cdots0.3594&12.98&14&0.080\\
+355\cdots365&-0.36\dots \phantom{-}0.00&0.3594\cdots0.5000&14.06&16&0.268\\
+365\cdots375&\phantom{-}0.00\cdots \phantom{-}0.39&0.5000\cdots0.6517&15.17&15&0.002\\
+375\cdots385&\phantom{-}0.39\cdots \phantom{-}0.76&0.6517\cdots0.7764&12.47&8&1.602\\
+385\cdots395&\phantom{-}0.76\cdots \phantom{-}1.13&0.7764\cdots0.8708&9.44&10&0.033\\
+395\cdots 405&\phantom{-}1.13\cdots \phantom{-}1.51&0.8708\cdots0.9345&6.37&8&0.417\\
+405\cdots \infty&1.51\cdots \phantom{-}\infty&0.9345\cdots1.0000&6.55&6&0.046\\
+\hline
+&&&&\multicolumn{2}{C}{\chi^2_0=2.790}\\
+\hline
+\end{tabular}
+\end{otherlanguage}
+\end{table}

@@ -300,7 +300,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 18}.\RL {\arabicfont 24}}عمدگی موافقت}{\RL {\arabicfont 1664}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 19}.\RL {\arabicfont 24}}غیر مقدار معلوم پرکھ}{\RL {\arabicfont 1670}}
+\contentsline {section}{\numberline {\RL {\arabicfont 19}.\RL {\arabicfont 24}}غیر مقدار معلوم پرکھ}{\RL {\arabicfont 1669}}
 \contentsline {section}{\numberline {\RL {\arabicfont 20}.\RL {\arabicfont 24}}پیمائشوں کی جوڑیاں۔ سیدھے خطوط کو موافق بنانا}{\RL {\arabicfont 1674}}
 \select@language {english}
 \select@language {arabic}

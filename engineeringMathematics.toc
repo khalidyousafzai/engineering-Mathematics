@@ -302,7 +302,9 @@
 \select@language {arabic}
 \contentsline {section}{\numberline {\RL {\arabicfont 19}.\RL {\arabicfont 24}}غیر مقدار معلوم پرکھ}{\RL {\arabicfont 1670}}
 \contentsline {section}{\numberline {\RL {\arabicfont 20}.\RL {\arabicfont 24}}پیمائشوں کی جوڑیاں۔ سیدھے خطوط کو موافق بنانا}{\RL {\arabicfont 1674}}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1677}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1681}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1681}}
-\contentsline {chapter}{\numberline {ج\char "200D}جدول}{\RL {\arabicfont 1691}}
+\select@language {english}
+\select@language {arabic}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1683}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1687}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1687}}
+\contentsline {chapter}{\numberline {ج\char "200D}جدول}{\RL {\arabicfont 1697}}

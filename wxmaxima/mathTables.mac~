@@ -1,0 +1,11 @@
+Print("======================================");
+kill(all);
+load(numericalio);
+print("sin x");
+
+
+for x:0 step 0.1 thru 9 do (A[x]:bessel_j(0,x));
+write_data(A,"kk.txt");
+
+M:matrix([2,2]);
+addrow(M,listarray(A));

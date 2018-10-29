@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  28 OCT 2018 16:02
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  29 OCT 2018 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3705,34 +3705,60 @@ Overfull \hbox (38.4635pt too wide) in paragraph at lines 81--99
  []
 
 
-Overfull \hbox (39.87149pt too wide) in paragraph at lines 128--187
+Overfull \hbox (9.84254pt too wide) in paragraph at lines 108--120
  [][] 
  []
 
 
-Overfull \hbox (22.7515pt too wide) in paragraph at lines 195--209
+Overfull \hbox (39.87149pt too wide) in paragraph at lines 130--189
  [][] 
  []
 
 
-Overfull \hbox (22.7515pt too wide) in paragraph at lines 216--232
+Overfull \hbox (22.7515pt too wide) in paragraph at lines 197--211
  [][] 
  []
 
 
-Overfull \hbox (26.26349pt too wide) in paragraph at lines 239--264
+Overfull \hbox (22.7515pt too wide) in paragraph at lines 218--234
  [][] 
  []
 
 
-Overfull \hbox (26.66348pt too wide) in paragraph at lines 276--333
+Overfull \hbox (26.26349pt too wide) in paragraph at lines 241--266
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 44.12794pt on input line 333.
+Overfull \hbox (26.66348pt too wide) in paragraph at lines 278--335
+ [][] 
+ []
 
-) [1697] [1698] [1699] [1700] [1701] [1702] [1703] [1704]
+
+LaTeX Warning: Float too large for page by 44.12794pt on input line 335.
+
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 403.
+
+LaTeX Warning: Float too large for page by 52.34082pt on input line 459.
+
+
+LaTeX Warning: Float too large for page by 29.34082pt on input line 523.
+
+[1697] [1698] [1699] [1700] [1701] [1702] [1703] [1704] [1705] [1706]
+Overfull \hbox (23.86353pt too wide) in paragraph at lines 813--860
+ [][] 
+ []
+
+
+Overfull \hbox (23.00569pt too wide) in paragraph at lines 1093--1467
+ [][][][][][][][][][] 
+ []
+
+) [1707] [1708] [1709] [1710] [1711] [1712] [1713] [1714
+
+
+]
 (./engineeringMathematics.aux (./tex/mathPreface.aux)
 (./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
@@ -3764,12 +3790,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 52363 strings out of 493918
- 1238675 string characters out of 6150563
- 1550363 words of memory out of 5000000
- 54544 multiletter control sequences out of 15000+600000
- 42391 words of font info for 175 fonts, out of 8000000 for 9000
+ 52367 strings out of 493918
+ 1238829 string characters out of 6150563
+ 1631047 words of memory out of 5000000
+ 54547 multiletter control sequences out of 15000+600000
+ 42399 words of font info for 176 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  63i,16n,81p,10485b,2238s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (34 pages).
+Output written on engineeringMathematics.pdf (44 pages).

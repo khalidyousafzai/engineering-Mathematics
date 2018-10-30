@@ -1,0 +1,38 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{steinmetz}		%\phase to show angle of phasors
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{pgfplots,filecontents}
+%\pgfplotsset{compat=1.9}
+%\usepgfplotslibrary{polar}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+%\usepackage{tikz-3dplot}
+%\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+%\input{../../tex/myEMTvectors.tex}
+\usepackage{graphics}
+\usepackage[]{graphicx} 
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+
+
+
+%\pgfplotsset{major y grid style={dashed}}
+\DeclareMathOperator{\kSi}{Si} 
+\begin{document}
+\begin{urdufont}
+
+\begin{tikzpicture}
+\begin{axis}[small,xlabel={$n$},x label style={at={(current axis.right of origin)},anchor=south west},ylabel={$\tfrac{L'}{L}$},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=north east},ymax=2,ytick={1,1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9,2},yticklabels={$1$,,,,,$1.5$,,,,,$2$}]
+\addplot [] table [x index={0}, y index={1}]{figKnownAndUnknownVarianceRatioAtGammaA.dat}node[pos=0.40,shift={(-0.2cm,-0.2cm)},rotate=-40]{$\gamma=0.95$};
+\addplot [] table [x index={0}, y index={1}]{figKnownAndUnknownVarianceRatioAtGammaB.dat}node[pos=0.40,shift={(0.2cm,0.3cm)},rotate=-40]{$\gamma=0.99$};
+\end{axis}%
+\end{tikzpicture}
+\end{urdufont}
+\end{document}

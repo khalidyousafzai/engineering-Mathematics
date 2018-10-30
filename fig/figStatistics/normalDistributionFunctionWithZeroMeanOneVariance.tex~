@@ -1,0 +1,37 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{steinmetz}		%\phase to show angle of phasors
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{pgfplots,filecontents}
+%\pgfplotsset{compat=1.9}
+%\usepgfplotslibrary{polar}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+%\usepackage{tikz-3dplot}
+%\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+%\input{../../tex/myEMTvectors.tex}
+\usepackage{graphics}
+\usepackage[]{graphicx} 
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+
+
+
+%\pgfplotsset{major y grid style={dashed}}
+\DeclareMathOperator{\kSi}{Si} 
+\begin{document}
+\begin{urdufont}
+
+\begin{tikzpicture}
+\begin{axis}[height=5cm,grid=both,small,xlabel={$z$},x label style={at={(current axis.right of origin)},anchor=south west},ytick={0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1},yticklabels={$0$,,,,,$0.5$,,,,,$1$},xtick={-2,-1,0,1,2},xticklabels={$-2$,$-1$,$0$,$1$,$2$}]
+\addplot [] table [x index={0}, y index={1}]{normalDistributionFunctionWithZeroMeanOneVariance.dat}node[pos=0.75,below right]{$\Phi(z)$};
+\end{axis}%
+\end{tikzpicture}
+\end{urdufont}
+\end{document}

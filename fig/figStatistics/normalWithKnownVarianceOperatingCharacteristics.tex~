@@ -1,0 +1,38 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{steinmetz}		%\phase to show angle of phasors
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{pgfplots,filecontents}
+%\pgfplotsset{compat=1.9}
+%\usepgfplotslibrary{polar}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+%\usepackage{tikz-3dplot}
+%\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+%\input{../../tex/myEMTvectors.tex}
+\usepackage{graphics}
+\usepackage[]{graphicx} 
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+
+
+
+%\pgfplotsset{major y grid style={dashed}}
+\DeclareMathOperator{\kSi}{Si} 
+\begin{document}
+\begin{urdufont}
+
+\begin{tikzpicture}
+\begin{axis}[small,axis lines*=middle,xlabel={$\mu$},x label style={at={(current axis.right of origin)},anchor=south west},ylabel={$\beta(\nu)$},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=north east}]
+\addplot [] table [x index={0}, y index={1}]{figNormalKnownVarianceOperatingCharacteristicsA.dat}node[pos=0.75,right]{$n=10$};
+\addplot [dashed] table [x index={0}, y index={1}]{figNormalKnownVarianceOperatingCharacteristicsB.dat}node[pos=0.75,fill=white]{$n=100$};
+\end{axis}%
+\end{tikzpicture}
+\end{urdufont}
+\end{document}

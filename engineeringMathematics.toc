@@ -284,30 +284,30 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 24}}تقسیم کا اوسط اور اس کی تغیریت}{\RL {\arabicfont 1574}}
 \contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 24}}ثنائی، پوئسن، اور بیش ہندسی تقسیم}{\RL {\arabicfont 1582}}
 \contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 24}}عمومی تقسیم}{\RL {\arabicfont 1590}}
-\contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 24}}ایک سے زائد بلا منصوبہ متغیرات کی تقسیمیں}{\RL {\arabicfont 1599}}
+\contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 24}}ایک سے زائد بلا منصوبہ متغیرات کی تقسیمیں}{\RL {\arabicfont 1600}}
 \select@language {english}
 \select@language {arabic}
 \contentsline {section}{\numberline {\RL {\arabicfont 12}.\RL {\arabicfont 24}}بلا منصوبہ نمونہ بندی۔ بلا منصوبہ اعداد}{\RL {\arabicfont 1612}}
 \contentsline {section}{\numberline {\RL {\arabicfont 13}.\RL {\arabicfont 24}}مقدار معلوم کا اندازہ لگانا}{\RL {\arabicfont 1615}}
-\contentsline {section}{\numberline {\RL {\arabicfont 14}.\RL {\arabicfont 24}}وقفہ اعتماد}{\RL {\arabicfont 1619}}
-\contentsline {section}{\numberline {\RL {\arabicfont 15}.\RL {\arabicfont 24}}قیاس کی پرکھ۔ فیصلے}{\RL {\arabicfont 1633}}
+\contentsline {section}{\numberline {\RL {\arabicfont 14}.\RL {\arabicfont 24}}وقفہ اعتماد}{\RL {\arabicfont 1620}}
+\contentsline {section}{\numberline {\RL {\arabicfont 15}.\RL {\arabicfont 24}}قیاس کی پرکھ۔ فیصلے}{\RL {\arabicfont 1634}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 16}.\RL {\arabicfont 24}}ضبط معیار}{\RL {\arabicfont 1649}}
+\contentsline {section}{\numberline {\RL {\arabicfont 16}.\RL {\arabicfont 24}}ضبط معیار}{\RL {\arabicfont 1651}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 17}.\RL {\arabicfont 24}}قبولیت نمونہ}{\RL {\arabicfont 1657}}
-\contentsline {section}{\numberline {\RL {\arabicfont 18}.\RL {\arabicfont 24}}عمدگی موافقت}{\RL {\arabicfont 1664}}
+\contentsline {section}{\numberline {\RL {\arabicfont 17}.\RL {\arabicfont 24}}قبولیت نمونہ}{\RL {\arabicfont 1659}}
+\contentsline {section}{\numberline {\RL {\arabicfont 18}.\RL {\arabicfont 24}}عمدگی موافقت}{\RL {\arabicfont 1667}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 19}.\RL {\arabicfont 24}}غیر مقدار معلوم پرکھ}{\RL {\arabicfont 1669}}
-\contentsline {section}{\numberline {\RL {\arabicfont 20}.\RL {\arabicfont 24}}پیمائشوں کی جوڑیاں۔ سیدھے خطوط کو موافق بنانا}{\RL {\arabicfont 1674}}
+\contentsline {section}{\numberline {\RL {\arabicfont 19}.\RL {\arabicfont 24}}غیر مقدار معلوم پرکھ}{\RL {\arabicfont 1672}}
+\contentsline {section}{\numberline {\RL {\arabicfont 20}.\RL {\arabicfont 24}}پیمائشوں کی جوڑیاں۔ سیدھے خطوط کو موافق بنانا}{\RL {\arabicfont 1677}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1683}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1687}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1687}}
-\contentsline {chapter}{\numberline {ج\char "200D}جدول}{\RL {\arabicfont 1697}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1687}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1691}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1691}}
+\contentsline {chapter}{\numberline {ج\char "200D}جدول}{\RL {\arabicfont 1701}}
 \select@language {english}
 \select@language {arabic}
 \select@language {english}

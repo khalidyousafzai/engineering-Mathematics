@@ -1,0 +1,50 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+\usepgfplotslibrary{polar}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+%\input{../../tex/myEMTvectors.tex}
+
+  \setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
+
+\pgfmathsetmacro{\n}{4}
+\pgfmathsetmacro{\lmda}{1}
+\pgfmathsetmacro{\d}{\lmda/2}
+\pgfmathsetmacro{\B}{2*pi/\lmda}
+\pgfmathsetmacro{\dlt}{0}
+
+
+\pgfplotsset{major y grid style={dashed}}
+
+\begin{document}
+\begin{urdufont}
+
+
+\begin{tikzpicture}[x={(0,0cm)},y={(1cm,0cm)},
+    z={(0cm,1cm)}]
+\begin{scope}[rotate=90]
+\pgfmathsetmacro{\r}{1.5}
+\foreach \phi in {-72,-54,...,72}{\draw[] ({0},{0},\r)
+                \foreach \theta in {5,10,...,180}{--({\r*sin(\phi)*cos(\theta)},{\r*sin(\phi)*sin(\theta)},{\r*cos(\theta)})};}
+\foreach \phi/\u in {-18/-0.2,-52/-0.6,54/0.6,18/0.2}{\draw({\r*sin(\phi)*cos(90)},{\r*sin(\phi)*sin(90)},{\r*cos(90)})node[fill=white,font=\tiny]{$\u$};}
+\draw(0,0,\r)node[ocirc]{};
+\draw(0,0,-\r)node[ocirc]{}--++(0,0,-0.2)node[right]{$x$};
+\draw(0,1.05*\r,0)--++(0,0.4,0)node[left]{$y$};
+\draw(0,1*\r,-0.525*\r)node[rotate=-20]{$u=1$};
+\draw(0,-1.02*\r,0)node[]{$u=-1$};
+\end{scope}
+\end{tikzpicture}
+
+\end{urdufont}
+\end{document}

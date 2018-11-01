@@ -248,3 +248,33 @@ an:1/(%pi)*(integrate(u*cos(n*x),x,aa,bb)+integrate(uu*cos(n*x),x,aaa,bbb)+integ
 bn:1/(%pi)*(integrate(u*sin(n*x),x,aa,bb)+integrate(uu*sin(n*x),x,aaa,bbb)+integrate(uuu*sin(n*x),x,aaaa,bbbb));
 
 uu:a0+a1*(r/1)^1*cos(1*x)+b1*(r/1)^1*sin(1*x)+a2*(r/1)^2*cos(2*x)+b2*(r/1)^2*sin(2*x)+a3*(r/1)^3*cos(3*x)+b3*(r/1)^3*sin(3*x)+a4*(r/1)^4*cos(4*x)+b4*(r/1)^4*sin(4*x)+sum((r/1)^n*(an*cos(n*x)+bn*sin(n*x)),n,5,8);
+
+
+
+Print("======================================");
+kill(all);
+print("Q 20.46");
+declare(n,integer);
+
+u:1;
+uu:-1;
+aa:0;
+bb:%pi/2;
+aaa:%pi/2;
+bbb:%pi;
+
+a0:1/(2*%pi)*(integrate(u,x,aa,bb)+integrate(uu,x,aaa,bbb));
+a1:1/(%pi)*(integrate(u*cos(1*x),x,aa,bb)+integrate(uu*cos(1*x),x,aaa,bbb));
+b1:1/(%pi)*(integrate(u*sin(1*x),x,aa,bb)+integrate(uu*sin(1*x),x,aaa,bbb));
+a2:1/(%pi)*(integrate(u*cos(2*x),x,aa,bb)+integrate(uu*cos(2*x),x,aaa,bbb));
+b2:1/(%pi)*(integrate(u*sin(2*x),x,aa,bb)+integrate(uu*sin(2*x),x,aaa,bbb));
+a3:1/(%pi)*(integrate(u*cos(3*x),x,aa,bb)+integrate(uu*cos(3*x),x,aaa,bbb));
+b3:1/(%pi)*(integrate(u*sin(3*x),x,aa,bb)+integrate(uu*sin(3*x),x,aaa,bbb));
+a4:1/(%pi)*(integrate(u*cos(4*x),x,aa,bb)+integrate(uu*cos(4*x),x,aaa,bbb));
+b4:1/(%pi)*(integrate(u*sin(4*x),x,aa,bb)+integrate(uu*sin(4*x),x,aaa,bbb));
+an:1/(%pi)*(integrate(u*cos(n*x),x,aa,bb)+integrate(uu*cos(n*x),x,aaa,bbb));
+bn:1/(%pi)*(integrate(u*sin(n*x),x,aa,bb)+integrate(uu*sin(n*x),x,aaa,bbb));
+
+uu:a0+a1*(r/1)^1*cos(1*x)+b1*(r/1)^1*sin(1*x)+a2*(r/1)^2*cos(2*x)+b2*(r/1)^2*sin(2*x)+a3*(r/1)^3*cos(3*x)+b3*(r/1)^3*sin(3*x)+a4*(r/1)^4*cos(4*x)+b4*(r/1)^4*sin(4*x)+sum((r/1)^n*(an*cos(n*x)+bn*sin(n*x)),n,5,8);
+
+

@@ -5,7 +5,7 @@
 \begin{align*}
 \nabla^{\,2}u=u_{xx}+u_{yy}=0
 \end{align*}
-ہم جانتے ہیں کہ تب اس کے حل مخلوط تحلیلی تفاعل (حصہ \حوالہ{حصہ_تحلیلی_کوشی_ریمان_مساوات_لاپلاس}) کے ساتھ گہرا تعلق رکھتے\حاشیہد{تین بعدی صورت میں ایسا گہرا تعلق نہیں پایا جاتا ہے۔} ہیں۔ ہم اس تعلق پر اب تفصیلاً غور کرتے ہیں اور ماقوا حرکیات اور برقی سکون سے چند مثال بھی پیش کریں گے۔ ہم آگے دیکھیں گے کہ تحلیلی تفاعل کے نتائج کو استعمال کرتے ہوئے ہارمونی تفاعل کی مختلف عمومی خواص  بیان کی جا سکتی ہیں۔ آخر میں ہم دائری قرص پر مساوات لاپلاس کے سرحدی مسائل کے حل کا ایک اہم عمومی کلیہ (پوسوں تکملی کلیہ) اخذ کریں گے۔
+ہم جانتے ہیں کہ تب اس کے حل مخلوط تحلیلی تفاعل (حصہ \حوالہ{حصہ_تحلیلی_کوشی_ریمان_مساوات_لاپلاس}) کے ساتھ گہرا تعلق رکھتے\حاشیہد{تین بعدی صورت میں ایسا گہرا تعلق نہیں پایا جاتا ہے۔} ہیں۔ ہم اس تعلق پر اب تفصیلاً غور کرتے ہیں اور ماقوا حرکیات اور برقی سکون سے چند مثال بھی پیش کریں گے۔ ہم آگے دیکھیں گے کہ تحلیلی تفاعل کے نتائج کو استعمال کرتے ہوئے ہارمونی تفاعل کی مختلف عمومی خواص  بیان کی جا سکتی ہیں (حصہ \حوالہ{حصہ_مخفی_ہارمونی_تفاعل_عمومی_خواص})۔ آخر میں ہم دائری قرص پر مساوات لاپلاس کے سرحدی مسائل کے حل کا ایک اہم عمومی کلیہ (پوسوں تکملی کلیہ) اخذ کریں گے۔
 
 %===========================
 \حصہ{ساکن برقی سکون}
@@ -656,9 +656,54 @@ z=\frac{iK}{4\pi}\sqrt{-\frac{K^2}{16\pi^2}+1}
 \end{align*}
 ہیں جو \عددی{K=0} کی صورت میں \عددی{z=\mp 1} دیتی ہے۔\عددی{K} بڑھانے سے دونوں نقطہ ٹھراو اکائی دائرہ پر اوپر رخ منتقل ہوں گے  حتیٰ کہ \عددی{K=4\pi} پر دونوں \عددی{z=i} پر آن ملیں گے۔اگر \عددی{K>4\pi}  کیا جائے تب ایک نقطہ ٹھراو خیالی محور پر بیلن کے باہر اور دوسرا خیالی محور پر بیلن کے اندر منتقل ہوتا ہے۔بیلن کے اندر نقطہ ٹھراو کی کوئی طبعی معنی نہیں ہے۔
 \انتہا{سوال}
+%================
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{polaraxis}[ymax=4,axis lines=none]
+\addplot[thick,domain=0:360,smooth]{1};
+\pgfmathsetmacro{\ca}{0.25}
+\addplot[domain=10:170,-<-=0.25] {(\ca+sqrt(\ca^2+4*(sin(x))^2)/(2*sin(x)))};
+\addplot[domain=5:10] {(\ca+sqrt(\ca^2+4*sin(x)^2)/(2*sin(x)))};
+\addplot[domain=1:5] {(\ca+sqrt(\ca^2+4*sin(x)^2)/(2*sin(x)))};
+\addplot[domain=170:175] {(\ca+sqrt(\ca^2+4*sin(x)^2)/(2*sin(x)))};
+\addplot[domain=175:179] {(\ca+sqrt(\ca^2+4*sin(x)^2)/(2*sin(x)))};
+%
+\addplot[domain=-10:-170,-<-=0.25] {(\ca+sqrt(\ca^2+4*(sin(-x))^2)/(2*sin(-x)))};
+\addplot[domain=-5:-10] {(\ca+sqrt(\ca^2+4*sin(-x)^2)/(2*sin(-x)))};
+\addplot[domain=-1:-5] {(\ca+sqrt(\ca^2+4*sin(-x)^2)/(2*sin(-x)))};
+\addplot[domain=-170:-175] {(\ca+sqrt(\ca^2+4*sin(-x)^2)/(2*sin(-x)))};
+\addplot[domain=-175:-179] {(\ca+sqrt(\ca^2+4*sin(-x)^2)/(2*sin(-x)))};
+%
+\pgfmathsetmacro{\ca}{0.5}
+\addplot[domain=10:170,-<-=0.25] {(\ca+sqrt(\ca^2+4*(sin(x))^2)/(2*sin(x)))};
+\addplot[domain=4:10] {(\ca+sqrt(\ca^2+4*sin(x)^2)/(2*sin(x)))};
+\addplot[domain=170:176] {(\ca+sqrt(\ca^2+4*sin(x)^2)/(2*sin(x)))};
+%
+\addplot[domain=-10:-170,-<-=0.25] {(\ca+sqrt(\ca^2+4*(sin(-x))^2)/(2*sin(-x)))};
+\addplot[domain=-4:-10] {(\ca+sqrt(\ca^2+4*sin(-x)^2)/(2*sin(-x)))};
+\addplot[domain=-170:-176] {(\ca+sqrt(\ca^2+4*sin(-x)^2)/(2*sin(-x)))};
+%
+\pgfmathsetmacro{\ca}{0.75}
+\addplot[domain=10:170,-<-=0.25] {(\ca+sqrt(\ca^2+4*(sin(x))^2)/(2*sin(x)))};
+\addplot[domain=4:10] {(\ca+sqrt(\ca^2+4*sin(x)^2)/(2*sin(x)))};
+\addplot[domain=170:176] {(\ca+sqrt(\ca^2+4*sin(x)^2)/(2*sin(x)))};
+%
+\addplot[domain=-10:-170,-<-=0.25] {(\ca+sqrt(\ca^2+4*(sin(-x))^2)/(2*sin(-x)))};
+\addplot[domain=-4:-10] {(\ca+sqrt(\ca^2+4*sin(-x)^2)/(2*sin(-x)))};
+\addplot[domain=-170:-176] {(\ca+sqrt(\ca^2+4*sin(-x)^2)/(2*sin(-x)))};
+%
+\addplot[] plot coordinates {(0,1) (0,4)};
+\addplot[] plot coordinates {(180,1) (180,4)};
+\addplot[] plot coordinates {(0,1)}node[ocirc]{};
+\addplot[] plot coordinates {(180,1)}node[ocirc]{};
+\addplot[] plot coordinates {(-20,3)}node[]{$K=0$};
+\end{polaraxis}
+\end{tikzpicture}
+\end{figure}
 %=======================
 
-\حصہ{ہارمونی تفاعل کے عمومی خواص}
+\حصہ{ہارمونی تفاعل کے عمومی خواص}\شناخت{حصہ_مخفی_ہارمونی_تفاعل_عمومی_خواص}
 اس حصہ میں ہارمونی تفاعل کی عمومی خواص کو مخلوط تحلیلی تفاعل کے نتائج سے حاصل کرنا دکھایا جائے گا۔
 
 فرض کریں کہ سادہ تعلق دائرہ کار \عددی{D} میں تفاعل \عددی{u(x,y)} ہارمونی ہے۔تب ہم کوشی ریمان کلیات کی مدد سے \عددی{u(x,y)} کا جوڑی دار ہارمونی تفاعل \عددی{v(x,y)} تلاش کیا جا سکتا ہے۔یوں  \عددی{f(z)=u(x,y)+iv(x,y)} دائرہ کار \عددی{D} میں تحلیلی ہو گا (حصہ \حوالہ{حصہ_تحلیلی_کوشی_ریمان_مساوات_لاپلاس} دیکھیں اور  صفحہ \حوالہصفحہ{حاشیہ_نقش_بغیر_ثبوت} پر حاشیہ دیکھیں۔)۔ یہ وہ تعلق ہے جس کو استعمال کرتے ہوئے ہم تحلیلی تفاعل کے خواص سے ہارمونی تفاعل کے خواص اخذ کر سکتے ہیں۔چونکہ تحلیلی تفاعل کے ہر درجہ کے تفرق پائے جاتے ہیں لہٰذا ہم درج ذیل اخذ کر سکتے ہیں۔
@@ -896,18 +941,45 @@ u(r,\theta)=\frac{1}{2}-\frac{4}{\pi^2}[r\cos\theta+\frac{r^3}{3^2}\cos 3\theta+
 %
 \begin{figure}
 \centering
+\begin{subfigure}{0.5\textwidth}
+\centering
 \begin{tikzpicture}
-\draw(-1.2*pi,0)--(1.2*pi,0)node[below]{$\phi$};
-\draw(-pi,0)node[below,xshift={(-0.1cm)}]{$-\pi$}--++(0,0.2);
-\draw(pi,0)node[below]{$\pi$}--++(0,0.2);
-\draw(0,1)node[left]{$1$}--++(0.2,0);
-\draw(0,0)node[below]{$0$}--(0,1.5)node[right]{$u(1,\phi)$};
-\draw(0,0)--(pi,1);
-\draw(0,0)--(-pi,1);
+\draw(-2.2,0)--(2.2,0)node[right]{$\phi$};
+\draw(0,0)node[below]{$0$}--(0,2)node[right]{$u(l,\phi)$};
+\draw(-2,1)--(0,0)--(2,1);
+\draw(-2,0)node[below]{$-\pi$}--++(0,0.1);
+\draw(2,0)node[below]{$\pi$}--++(0,0.1);
+\draw(0,1)node[left]{$1$}--++(0.1,0);
 \end{tikzpicture}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+\centering
+\begin{tikzpicture}
+\node[anchor=south west,inner sep=0] (image) at (0,0){\includegraphics[width=4cm]{kcontour-inc}};
+\begin{scope}[x={(image.south east)},y={(image.north west)}]
+%  \draw[step=0.1] (0,0) grid (1,1);
+%\draw[step=0.01,thin,gray] (0,0) grid (1,1);
+\draw(0.85,0.75)node[rotate=45,font=\footnotesize]{$0.1$};
+\draw(0.8,0.85)node[rotate=50,font=\footnotesize]{$0.2$};
+\draw(0.72,0.95)node[rotate=60,font=\footnotesize]{$0.3$};
+\draw(0.6,1)node[rotate=75,font=\footnotesize]{$0.4$};
+%
+\draw(0.2,0.75)node[shift={(-0.08,0.02)},rotate=-45,font=\footnotesize]{$u=0.9$};
+\draw(0.2,0.85)node[rotate=-50,font=\footnotesize]{$0.8$};
+\draw(0.28,0.95)node[rotate=-60,font=\footnotesize]{$0.7$};
+\draw(0.4,1)node[rotate=-75,font=\footnotesize]{$0.6$};
+\draw(0.15,0.5)--(0.9,0.5)node[right]{$x$};
+\draw (0.52,0.11)--(0.52,0.92);
+\draw(0.52,0.92)--++(0,0.1)node[above]{$y$};
+\draw(0.212,0.5)node[ocirc]{};
+\draw(0.82,0.5)node[ocirc]{};
+    \end{scope}
+\end{tikzpicture}
+\end{subfigure}%
 \caption{سرحدی مخفی قوہ (مثال \حوالہ{مثال_مخفی_ڈرشلے_الف})}
 \label{شکل_مثال_مخفی_ڈرشلے_الف}
 \end{figure}
+
 \انتہا{مثال}
 %=========================
 
@@ -1011,7 +1083,29 @@ u(1,\theta)=
 \begin{align*}
 u(r,\theta)=\frac{4}{\pi}(r\sin\theta+\tfrac{r^3}{3}\sin3\theta+\tfrac{r^5}{5}\sin 5\theta+\cdots)
 \end{align*}
-اس تسلسل کے چند ابتدائی اجزاء استعمال کرتے ہوئے \عددی{u} کی قیمتیں حاصل کر کے چند ہم قوہ خطوط ترسیم کریں۔ قوت کی لکیروں (قائمہ الزاویہ خطوط) کو بھی ترسیم کریں۔
+اس تسلسل کے چند ابتدائی اجزاء استعمال کرتے ہوئے \عددی{u} کی قیمتیں حاصل کر کے چند ہم قوہ خطوط ترسیم کریں۔ قوت کی لکیروں (قائمہ الزاویہ خطوط) کو  ترسیم کر کے ان کا شکل \حوالہ{شکل_سوال_مخفی_درکار_ب} کے ساتھ موازنہ کریں۔
+\begin{figure}
+\centering
+
+\begin{tikzpicture}[x={(0,0cm)},y={(1cm,0cm)},
+    z={(0cm,1cm)}]
+\begin{scope}[rotate=90]
+\pgfmathsetmacro{\r}{1.5}
+\foreach \phi in {-72,-54,...,72}{\draw[] ({0},{0},\r)
+                \foreach \theta in {5,10,...,180}{--({\r*sin(\phi)*cos(\theta)},{\r*sin(\phi)*sin(\theta)},{\r*cos(\theta)})};}
+\foreach \phi/\u in {-18/-0.2,-52/-0.6,54/0.6,18/0.2}{\draw({\r*sin(\phi)*cos(90)},{\r*sin(\phi)*sin(90)},{\r*cos(90)})node[fill=white,font=\tiny]{$\u$};}
+\draw(0,0,\r)node[ocirc]{};
+\draw(0,0,-\r)node[ocirc]{}--++(0,0,-0.4)node[right]{$x$};
+\draw(0,1.05*\r,0)--++(0,0.4,0)node[left]{$y$};
+\draw(0,1*\r,-0.525*\r)node[rotate=-20]{$u=1$};
+\draw(0,-1.02*\r,0)node[]{$u=-1$};
+\end{scope}
+\end{tikzpicture}
+\caption{شکل برائے سوال \حوالہ{سوال_مخفی_درکار_ب}}
+\label{شکل_سوال_مخفی_درکار_ب}
+\end{figure}
+%
+
 \انتہا{سوال}
 %=============================
 \ابتدا{سوال}\شناخت{سوال_مخفی_درکار_پ}\quad
@@ -1044,4 +1138,5 @@ z=\frac{w-i}{-iw+1}
 مسئلہ \حوالہ{مسئلہ_مخفی_ہارمونی_تفاعل_کے_جزوی_تفرق} کو پوسوں کلیہ تکمل مساوات \حوالہ{مساوات_مخفی_معمہ_ٹ} سے اخذ کریں۔
 \انتہا{سوال}
 %===============================
+
 

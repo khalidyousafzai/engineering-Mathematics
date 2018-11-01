@@ -1,0 +1,17 @@
+clear;
+clf;
+[theta, r] = meshgrid (linspace (0,2*pi,200), linspace (0,1,200));
+[X,Y]=pol2cart(theta,r);
+Z=4/pi*(r.*sin(theta)+r.^3/3.*sin(3.*theta)+r.^5/5.*sin(5.*theta));
+contour(X,Y,abs(Z),8);
+
+hold on;
+
+t = linspace(0,2*pi,100); 
+circsx = 1.*cos(t) ; 
+circsy = 1.*sin(t); 
+plot(circsx,circsy); 
+
+axis("square", "off", [-1 1 -1 1]);
+
+print -mono -dpdflatexstandalone kcontourA.pdf

@@ -1057,7 +1057,7 @@ $\tfrac{\pi e^{-\tfrac{1}{\sqrt{2}}}}{\sqrt{2}}(\sin \tfrac{1}{\sqrt{2}}+\cos\tf
 $\int\limits_{-\infty}^{\infty}\tfrac{\cos 4x}{(x^2+1)(x^2+4)}\dif x$
 \انتہا{سوال}
 %=========================
-\ابتدا{سوال}\quad
+\ابتدا{سوال}\شناخت{سوال_بقیہ_حقیقی_قوت_نمائی_مربع}\quad
 مستطیل جس کے کونے \عددی{-a}، \عددی{a}، \عددی{a+ib} اور \عددی{-a+ib} ہیں کے گرد  \عددی{a\to \infty}  کرتے ہوئے تفاعل \عددی{e^{-z^2}} کا گھڑی کی الٹ رخ تکمل حاصل کریں اور
 \begin{align*}
 \text{\RL{دکھائیں۔}}\quad \int\limits_{0}^{\infty} e^{-x^2}\dif x=\frac{\sqrt{\pi}}{2}\quad \text{\RL{استعمال کرتے ہوئے}}\quad \int\limits_0^{\infty} e^{-x^2}\cos 2bx \dif x=\frac{\sqrt{\pi}}{2}e^{-b^2}

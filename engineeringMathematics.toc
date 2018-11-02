@@ -90,9 +90,9 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 9}}تشاکلی، منحرف تشاکلی اور قائمہ الزاویہ قالب}{\RL {\arabicfont 680}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 9}}امتیازی اساس، وتری بنانا، دو درجی صورت}{\RL {\arabicfont 687}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 9}}مخلوط قالب اور مخلوط صورتیں}{\RL {\arabicfont 700}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 10}}سمتی تفرقی علم الاحصاء۔ سمتی تفاعل}{\RL {\arabicfont 711}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 10}}سمتی تفرقی احصاء۔ سمتی تفاعل}{\RL {\arabicfont 711}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 10}}غیر سمتی میدان اور سمتی میدان}{\RL {\arabicfont 711}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 10}}سمتی علم الاحصاء}{\RL {\arabicfont 713}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 10}}سمتی احصاء}{\RL {\arabicfont 713}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 10}}منحنی}{\RL {\arabicfont 720}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 10}}لمبائی قوس}{\RL {\arabicfont 726}}
 \contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 10}}مماس، انحنا اور مروڑ}{\RL {\arabicfont 733}}
@@ -102,7 +102,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 10}}تبادل محددی نظام اور تبادل ارکان سمتیات}{\RL {\arabicfont 764}}
 \contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 10}}سمتی میدان کی پھیلاو}{\RL {\arabicfont 769}}
 \contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 10}}سمتی تفاعل کی گردش}{\RL {\arabicfont 777}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 11}}سمتی تکملی علم الاحصاء۔ تکمل کے مسئلے}{\RL {\arabicfont 781}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 11}}سمتی تکملی احصاء۔ تکمل کے مسئلے}{\RL {\arabicfont 781}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 11}}خطی تکمل}{\RL {\arabicfont 782}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 11}}خطی تکمل کا حل}{\RL {\arabicfont 787}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 11}}دوہرا تکمل}{\RL {\arabicfont 796}}
@@ -120,7 +120,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 12}}فوریئر تسلسل۔ یولر کلیات}{\RL {\arabicfont 889}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 12}}اختیاری دوری عرصہ والے تفاعل}{\RL {\arabicfont 902}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 12}}جفت اور طاق تفاعل}{\RL {\arabicfont 907}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 12}}نصف حلقہ اتساع}{\RL {\arabicfont 916}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 12}}نصف سعت اتساع}{\RL {\arabicfont 916}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 12}}فوریئر عددی سر کا بغیر تکمل حصول}{\RL {\arabicfont 923}}
 \contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 12}}جبری ارتعاش}{\RL {\arabicfont 931}}
 \contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 12}}تقریب بذریعہ تکونی کثیر رکنی۔ مکعب خلل}{\RL {\arabicfont 936}}
@@ -167,8 +167,8 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 17}}ترتیب}{\RL {\arabicfont 1201}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 17}}تسلسل}{\RL {\arabicfont 1208}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 17}}کوشی اصول مرکوزیت برائے ترتیب اور تسلسل}{\RL {\arabicfont 1213}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 17}}یک سر حقیقی ترتیب۔لیبنٹز آزمائش برائے حقیقی تسلسل}{\RL {\arabicfont 1220}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 17}}تسلسل کی مرکوزیت اور انفراج کی آزمائشیں}{\RL {\arabicfont 1225}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 17}}یک سر حقیقی ترتیب۔لیبنٹز پرکھ برائے حقیقی تسلسل}{\RL {\arabicfont 1220}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 17}}تسلسل کی مرکوزیت اور انفراج کی پرکھیں}{\RL {\arabicfont 1225}}
 \contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 17}}تسلسل پر اعمال}{\RL {\arabicfont 1236}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 18}}طاقتی تسلسل، ٹیلر تسلسل اور لوغوں تسلسل}{\RL {\arabicfont 1243}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 18}}طاقتی تسلسل}{\RL {\arabicfont 1243}}
@@ -189,33 +189,10 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 20}}دو بعدی بہاو سیال}{\RL {\arabicfont 1350}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 20}}ہارمونی تفاعل کے عمومی خواص}{\RL {\arabicfont 1359}}
 \contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 20}}پوسوں کلیہ تکمل}{\RL {\arabicfont 1364}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 21}}اعدادی تجزیہ}{\RL {\arabicfont 1371}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 21}}خلل اور غلطیاں۔ کمپیوٹر}{\RL {\arabicfont 1372}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 21}}دہرانے سے مساوات کا حل}{\RL {\arabicfont 1374}}
-\select@language {english}
-\select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 21}}متناہی فرق}{\RL {\arabicfont 1386}}
-\select@language {english}
-\select@language {arabic}
-\select@language {english}
-\select@language {arabic}
-\select@language {english}
-\select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 21}}باہمی تحریف}{\RL {\arabicfont 1392}}
-\select@language {english}
-\select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 21}}لچکدار منحنیات}{\RL {\arabicfont 1401}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 21}}اعدادی تکمل اور تفرق}{\RL {\arabicfont 1408}}
-\select@language {english}
-\select@language {arabic}
-\select@language {english}
-\select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 21}}متقارب اتساع}{\RL {\arabicfont 1420}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 22}}خطی الجبرا کے اعدادی تراکیب}{\RL {\arabicfont 1433}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 22}}خطی مساوات کا نظام۔ گاوسی اسقاط، معکوس قالب}{\RL {\arabicfont 1433}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 22}}خطی مساوات کا نظام: حل بذریعہ اعادہ}{\RL {\arabicfont 1443}}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 22}}خطی مساوات کا نظام:بد خوئی}{\RL {\arabicfont 1451}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 22}}ترکیب کمتر مربع}{\RL {\arabicfont 1455}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 21}}اعدادی تجزیہ}{\RL {\arabicfont 1373}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 21}}خلل اور غلطیاں۔ کمپیوٹر}{\RL {\arabicfont 1374}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 21}}دہرانے سے مساوات کا حل}{\RL {\arabicfont 1376}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 21}}متناہی فرق}{\RL {\arabicfont 1388}}
 \select@language {english}
 \select@language {arabic}
 \select@language {english}
@@ -224,32 +201,21 @@
 \select@language {arabic}
 \select@language {english}
 \select@language {arabic}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 21}}باہمی تحریف}{\RL {\arabicfont 1395}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 22}}قالب کے امتیازی اقدار کی شمول}{\RL {\arabicfont 1461}}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 22}}امتیازی اقدار کا حصول بذریعہ اعادہ}{\RL {\arabicfont 1470}}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 23}}اعدادی تراکیب برائے تفرقی مساوات}{\RL {\arabicfont 1475}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 23}}یک درجی تفرقی مساوات کے اعدادی تراکیب}{\RL {\arabicfont 1475}}
-\select@language {english}
-\select@language {arabic}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 21}}لچکدار منحنیات}{\RL {\arabicfont 1404}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 21}}اعدادی تکمل اور تفرق}{\RL {\arabicfont 1410}}
 \select@language {english}
 \select@language {arabic}
 \select@language {english}
 \select@language {arabic}
-\select@language {english}
-\select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 23}}دو درجی تفرقی مساوات کے اعدادی تراکیب}{\RL {\arabicfont 1486}}
-\select@language {english}
-\select@language {arabic}
-\select@language {english}
-\select@language {arabic}
-\select@language {english}
-\select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 23}}اعدادی تراکیب برائے بیضوی جزوی تفرقی مساوات}{\RL {\arabicfont 1493}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}.\RL {\arabicfont 23}}مسئلہ ڈرشلے}{\RL {\arabicfont 1496}}
-\contentsline {subsection}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 3}.\RL {\arabicfont 23}}بدلتی رخ خفی ترکیب}{\RL {\arabicfont 1499}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 23}}مسئلہ نیومن اور مخلوط سرحدی قیمت مسئلہ۔ غیر منظم سرحد}{\RL {\arabicfont 1506}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 23}}اعدادی تراکیب برائے قطع مکافی مساوات}{\RL {\arabicfont 1513}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 21}}متقارب اتساع}{\RL {\arabicfont 1422}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 22}}خطی الجبرا کے اعدادی تراکیب}{\RL {\arabicfont 1435}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 22}}خطی مساوات کا نظام۔ گاوسی اسقاط، معکوس قالب}{\RL {\arabicfont 1435}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 22}}خطی مساوات کا نظام: حل بذریعہ اعادہ}{\RL {\arabicfont 1445}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 22}}خطی مساوات کا نظام:بد خوئی}{\RL {\arabicfont 1453}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 22}}ترکیب کمتر مربع}{\RL {\arabicfont 1457}}
 \select@language {english}
 \select@language {arabic}
 \select@language {english}
@@ -258,56 +224,90 @@
 \select@language {arabic}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 23}}اعدادی تراکیب برائے قطع زائد مساوات}{\RL {\arabicfont 1522}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{\numberline {\RL {\arabicfont 24}}احتمال اور شماریات}{\RL {\arabicfont 1527}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 24}}حسابی شماریات کی نوعیت اور اس کا مقصد}{\RL {\arabicfont 1527}}
-\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 24}}نمونہ کا اظہار بذریعہ جدول اور ترسیم}{\RL {\arabicfont 1529}}
-\select@language {english}
-\select@language {arabic}
-\select@language {english}
-\select@language {arabic}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 22}}قالب کے امتیازی اقدار کی شمول}{\RL {\arabicfont 1463}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 22}}امتیازی اقدار کا حصول بذریعہ اعادہ}{\RL {\arabicfont 1472}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 23}}اعدادی تراکیب برائے تفرقی مساوات}{\RL {\arabicfont 1477}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 23}}یک درجی تفرقی مساوات کے اعدادی تراکیب}{\RL {\arabicfont 1477}}
 \select@language {english}
 \select@language {arabic}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 24}}نمونی اوسط اور نمونی تغیریت}{\RL {\arabicfont 1539}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 24}}بلا منصوبہ تجربات، انجام، وقوعات}{\RL {\arabicfont 1544}}
-\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 24}}احتمال}{\RL {\arabicfont 1551}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 24}}مرتب اجتماعات اور غیر مرتب اجتماعات}{\RL {\arabicfont 1560}}
-\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 24}}بلا منصوبہ متغیرات۔ غیر مسلسل اور استمراری تقسیم}{\RL {\arabicfont 1566}}
-\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 24}}تقسیم کا اوسط اور اس کی تغیریت}{\RL {\arabicfont 1574}}
-\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 24}}ثنائی، پوئسن، اور بیش ہندسی تقسیم}{\RL {\arabicfont 1582}}
-\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 24}}عمومی تقسیم}{\RL {\arabicfont 1590}}
-\contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 24}}ایک سے زائد بلا منصوبہ متغیرات کی تقسیمیں}{\RL {\arabicfont 1600}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 23}}دو درجی تفرقی مساوات کے اعدادی تراکیب}{\RL {\arabicfont 1488}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 12}.\RL {\arabicfont 24}}بلا منصوبہ نمونہ بندی۔ بلا منصوبہ اعداد}{\RL {\arabicfont 1613}}
-\contentsline {section}{\numberline {\RL {\arabicfont 13}.\RL {\arabicfont 24}}مقدار معلوم کا اندازہ لگانا}{\RL {\arabicfont 1616}}
-\contentsline {section}{\numberline {\RL {\arabicfont 14}.\RL {\arabicfont 24}}وقفہ اعتماد}{\RL {\arabicfont 1620}}
-\contentsline {section}{\numberline {\RL {\arabicfont 15}.\RL {\arabicfont 24}}قیاس کی پرکھ۔ فیصلے}{\RL {\arabicfont 1634}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 16}.\RL {\arabicfont 24}}ضبط معیار}{\RL {\arabicfont 1651}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 17}.\RL {\arabicfont 24}}قبولیت نمونہ}{\RL {\arabicfont 1659}}
-\contentsline {section}{\numberline {\RL {\arabicfont 18}.\RL {\arabicfont 24}}عمدگی موافقت}{\RL {\arabicfont 1667}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 23}}اعدادی تراکیب برائے بیضوی جزوی تفرقی مساوات}{\RL {\arabicfont 1495}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}.\RL {\arabicfont 23}}مسئلہ ڈرشلے}{\RL {\arabicfont 1498}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 3}.\RL {\arabicfont 23}}بدلتی رخ خفی ترکیب}{\RL {\arabicfont 1501}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 23}}مسئلہ نیومن اور مخلوط سرحدی قیمت مسئلہ۔ غیر منظم سرحد}{\RL {\arabicfont 1508}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 23}}اعدادی تراکیب برائے قطع مکافی مساوات}{\RL {\arabicfont 1515}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {\RL {\arabicfont 19}.\RL {\arabicfont 24}}غیر مقدار معلوم پرکھ}{\RL {\arabicfont 1672}}
-\contentsline {section}{\numberline {\RL {\arabicfont 20}.\RL {\arabicfont 24}}پیمائشوں کی جوڑیاں۔ سیدھے خطوط کو موافق بنانا}{\RL {\arabicfont 1677}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1687}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1691}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1691}}
-\contentsline {chapter}{\numberline {ج\char "200D}جدول}{\RL {\arabicfont 1701}}
+\select@language {english}
+\select@language {arabic}
+\select@language {english}
+\select@language {arabic}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 23}}اعدادی تراکیب برائے قطع زائد مساوات}{\RL {\arabicfont 1524}}
+\select@language {english}
+\select@language {arabic}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 24}}احتمال اور شماریات}{\RL {\arabicfont 1529}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 24}}حسابی شماریات کی نوعیت اور اس کا مقصد}{\RL {\arabicfont 1529}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 24}}نمونہ کا اظہار بذریعہ جدول اور ترسیم}{\RL {\arabicfont 1531}}
+\select@language {english}
+\select@language {arabic}
+\select@language {english}
+\select@language {arabic}
+\select@language {english}
+\select@language {arabic}
+\select@language {english}
+\select@language {arabic}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 24}}نمونی اوسط اور نمونی تغیریت}{\RL {\arabicfont 1541}}
+\select@language {english}
+\select@language {arabic}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 24}}بلا منصوبہ تجربات، انجام، وقوعات}{\RL {\arabicfont 1546}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 24}}احتمال}{\RL {\arabicfont 1553}}
+\select@language {english}
+\select@language {arabic}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 24}}مرتب اجتماعات اور غیر مرتب اجتماعات}{\RL {\arabicfont 1562}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 24}}بلا منصوبہ متغیرات۔ غیر مسلسل اور استمراری تقسیم}{\RL {\arabicfont 1568}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 24}}تقسیم کا اوسط اور اس کی تغیریت}{\RL {\arabicfont 1576}}
+\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 24}}ثنائی، پوئسن، اور بیش ہندسی تقسیم}{\RL {\arabicfont 1584}}
+\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 24}}عمومی تقسیم}{\RL {\arabicfont 1592}}
+\contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 24}}ایک سے زائد بلا منصوبہ متغیرات کی تقسیمیں}{\RL {\arabicfont 1602}}
+\select@language {english}
+\select@language {arabic}
+\contentsline {section}{\numberline {\RL {\arabicfont 12}.\RL {\arabicfont 24}}بلا منصوبہ نمونہ بندی۔ بلا منصوبہ اعداد}{\RL {\arabicfont 1615}}
+\contentsline {section}{\numberline {\RL {\arabicfont 13}.\RL {\arabicfont 24}}مقدار معلوم کا اندازہ لگانا}{\RL {\arabicfont 1618}}
+\contentsline {section}{\numberline {\RL {\arabicfont 14}.\RL {\arabicfont 24}}وقفہ اعتماد}{\RL {\arabicfont 1622}}
+\contentsline {section}{\numberline {\RL {\arabicfont 15}.\RL {\arabicfont 24}}قیاس کی پرکھ۔ فیصلے}{\RL {\arabicfont 1636}}
+\select@language {english}
+\select@language {arabic}
+\contentsline {section}{\numberline {\RL {\arabicfont 16}.\RL {\arabicfont 24}}ضبط معیار}{\RL {\arabicfont 1653}}
+\select@language {english}
+\select@language {arabic}
+\contentsline {section}{\numberline {\RL {\arabicfont 17}.\RL {\arabicfont 24}}قبولیت نمونہ}{\RL {\arabicfont 1661}}
+\contentsline {section}{\numberline {\RL {\arabicfont 18}.\RL {\arabicfont 24}}عمدگی موافقت}{\RL {\arabicfont 1669}}
+\select@language {english}
+\select@language {arabic}
+\contentsline {section}{\numberline {\RL {\arabicfont 19}.\RL {\arabicfont 24}}غیر مقدار معلوم پرکھ}{\RL {\arabicfont 1674}}
+\contentsline {section}{\numberline {\RL {\arabicfont 20}.\RL {\arabicfont 24}}پیمائشوں کی جوڑیاں۔ سیدھے خطوط کو موافق بنانا}{\RL {\arabicfont 1679}}
+\select@language {english}
+\select@language {arabic}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1689}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1693}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1693}}
+\contentsline {chapter}{\numberline {ج\char "200D}جدول}{\RL {\arabicfont 1703}}
 \select@language {english}
 \select@language {arabic}
 \select@language {english}

@@ -75,6 +75,8 @@
 \newcommand*{\قریب}[1]{\mbox{#1}}
 \newcommand{\سن}[1]{؁\,\ensuremath{#1}}
 
+\newcommand*{\وسط}[1]{\centerline}
+
 \renewcommand{\indexname}{فرہنگ}        %does nothing here. must be placed within begin{urdufont} environment to be the last to take effect 
 %===============================
 
@@ -180,6 +182,6 @@
 %\renewcommand{\theAsrcounter}{\arabic{kAscounter}.\thechapter}
 
 \newenvironment*{مفروضہ}				
-{\par\noindent\ignorespaces  مفروضہ \\}%
+{\par\noindent\ignorespaces  مفروضہ }%
 {\par\noindent }
 %--------------------

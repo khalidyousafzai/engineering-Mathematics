@@ -48,10 +48,12 @@ x & J_0(x) & J_1(x)  & x  & J_0(x) & J_1(x)& x  & J_0(x) & J_1(x)\\
 \end{tabular}
 \end{otherlanguage}
 \end{table}
-\,%=======================
+%=======================
+\FloatBarrier
 \عددی{J_0(x)} کے صفر \عددی{x=2.405,5.520,8.654,11.792,14.931,\cdots} پر پائے جاتے ہیں۔\\
 \عددی{J_1(x)} کے صفر \عددی{x=0,3.832,7.016,10.173,13.324,\cdots} پر پائے جاتے ہیں۔
-\,%=====================
+\FloatBarrier
+%=====================
 \begin{table}
 \caption{بیسل تفاعل (قسم دوم)}
 \label{ضمیمہ_بیسال_تفاعل_دوم}
@@ -73,7 +75,7 @@ x &Y_0(x) &Y_1(x)  & x  & Y_0(x) & Y_1(x)& x  & Y_0(x) & Y_1(x)\\
 \end{table}
 \,%========================
 \begin{table}
-\caption{گیما تفاعل}
+\caption{گیما تفاعل (ضمیمہ \حوالہ{ضمیمہ_مفید_معلومات} میں مساوات \حوالہ{مساوات_ضمیمہ_گیما_تکمل_الف})}
 \label{ضمیمہ_گیما_تفاعل}
 \centering
 \small
@@ -119,10 +121,10 @@ n&n!&\log(n!)&n&n!&\multicolumn{1}{C|}{\log(n!)}&n&\multicolumn{1}{C|}{n!}&\log(
 \end{otherlanguage}
 \end{table}
 %===========================
-
+(مساوات \حوالہ{مساوات_شماریات_ثنائی_تقسیم_ب})
 %============================
 \begin{table}
-\caption{ثنائی تقسیم۔تفاعل احتمال $f(x)$ اور تفاعل تقسیم $F(x)$}
+\caption{ثنائی تقسیم۔تفاعل احتمال  $f(x)$ (مساوات \حوالہ{مساوات_شماریات_ثنائی_تقسیم_ب})  اور تفاعل تقسیم $F(x)$}
 \label{ضمیمہ_ثنائی_تقسیم}
 \centering
 \footnotesize
@@ -188,10 +190,13 @@ n&n!&\log(n!)&n&n!&\multicolumn{1}{C|}{\log(n!)}&n&\multicolumn{1}{C|}{n!}&\log(
 \end{otherlanguage}
 \end{table}
 \,%========================
+
 \begin{table}
-\caption{پوئسن تقسیم۔ تفاعل احتمال $f(x)$ اور تفاعل تقسیم $F(x)$}
+\caption{پوئسن تقسیم}
 \label{ضمیمہ_پوئسن_تقسیم}
 \centering
+ تفاعل احتمال $f(x)$ (مساوات \حوالہ{مساوات_شماریات_پوئسن_تقسیم_الف}) اور تفاعل تقسیم $F(x)$
+\par\smallskip
 \footnotesize
 \begin{otherlanguage}{english}
 \begin{tabular}{|C||C|C||C|C||C|C||C|C||C|C|}
@@ -270,9 +275,11 @@ n&n!&\log(n!)&n&n!&\multicolumn{1}{C|}{\log(n!)}&n&\multicolumn{1}{C|}{n!}&\log(
 
 \,%=================================
 \begin{table}
-\caption{عمومی تقسیم۔تفاعل تقسیم $\Phi(z)$؛ $[\Phi(-z)=1-\Phi(z),  \Phi(0)=0.5000]$}
+\caption{عمومی تقسیم۔تفاعل تقسیم \عددی{\Phi(z)} (مساوات \حوالہ{مساوات_شماریات_عمومی_تقسیم_ت})}
 \label{ضمیمہ_عمومی_تقسیم_الف}
 \centering
+\عددی{\Phi(-z)=1-\Phi(z)}، \quad \عددی{\Phi(0)=0.5000}
+\par\smallskip
 \footnotesize
 \begin{otherlanguage}{english}
 \begin{tabular}{|C|C||C|C||C|C||C|C||C|C||C|C|}
@@ -338,6 +345,9 @@ z&\Phi(z)&z&\Phi(z)&z&\Phi(z)&z&\Phi(z)&z&\Phi(z)&z&\Phi(z)\\
 \caption{عمومی تقسیم}
 \label{ضمیمہ_عمومی_تقسیم_ب}
 \centering
+\عددی{\Phi(z)} (مساوات \حوالہ{مساوات_شماریات_عمومی_تقسیم_ت})  اور \عددی{D(z)=\Phi(z)-\Phi(-z)} کے لئے \عددی{z} کی قیمتیں۔\\
+مثال کے طور پر \عددی{\Phi(z)=\SI{61}{\percent}} پر \عددی{z=0.279} ہو گا اور \عددی{D(z)=\SI{61}{\percent}} پر \عددی{z=0.860} ہو گا۔
+\par\smallskip
 \footnotesize
 \begin{otherlanguage}{english}
 \begin{tabular}{|C|C|C||C|C|C||C|C|C|}
@@ -460,6 +470,9 @@ z&\Phi(z)&z&\Phi(z)&z&\Phi(z)&z&\Phi(z)&z&\Phi(z)&z&\Phi(z)\\
 %============================
 \begin{table}
 \centering
+
+بلا منصوبہ اعداد (جدول \حوالہ{ضمیمہ_بلا_منصوبہ_اعداد})
+\par\smallskip
 \footnotesize
 \begin{otherlanguage}{english}
 \begin{tabular}{|C|CCCCCCCCCC|}
@@ -527,6 +540,9 @@ z&\Phi(z)&z&\Phi(z)&z&\Phi(z)&z&\Phi(z)&z&\Phi(z)&z&\Phi(z)\\
 \caption{$t$تقسیم}
 \label{ضمیمہ_ٹی_تقسیم}
 \centering
+تفاعل تقسیم \عددی{F(z)} (مساوات \حوالہ{مساوات_شماریات_ٹی_تقسیم}) کے لئے \عددی{z} کی قیمتیں۔\\
+مثال کے طور پر \عددی{9} درجہ آزادی کے لئے \عددی{F(z)=0.95} تب ہو گا جب \عددی{z=1.83} ہو۔
+\par\smallskip
 \footnotesize
 \begin{otherlanguage}{english}
 \begin{tabular}{|S|C|C|C|C|C|C|C|C|C|C|}
@@ -604,6 +620,9 @@ z&\Phi(z)&z&\Phi(z)&z&\Phi(z)&z&\Phi(z)&z&\Phi(z)&z&\Phi(z)\\
 \caption{مربع خا تقسیم}
 \label{ضمیمہ_مربع_خا_تقسیم}
 \centering
+تفاعل تقسیم \عددی{F(z)} (مساوات \حوالہ{مساوات_شماریات_مربع_خا}) کے لئے \عددی{z} کی قیمتیں۔\\
+مثال کی طور پر \عددی{3} درجہ آزادی کے لئے \عددی{F(z)=0.99} تب ہو گا جب \عددی{z=11.34} ہو۔
+\par\smallskip
 \footnotesize
 \begin{otherlanguage}{english}
 \begin{tabular}{|S|C|C|C|C|C|C|C|C|C|C|}
@@ -692,14 +711,19 @@ z&\Phi(z)&z&\Phi(z)&z&\Phi(z)&z&\Phi(z)&z&\Phi(z)&z&\Phi(z)\\
 \hline
 \end{tabular}
 \end{otherlanguage}
+\par\smallskip
+آخری قطار میں \عددی{h=\sqrt{2m-1}} ہے جہاں \عددی{m} درجہ آزادی ہے۔
 \end{table}
 \,%=====================================
 \,%=========================================================
 \,%===========================
 \begin{table}
-\caption{ایف تقسیم}
+\caption{\عددی{(m,n)} درجہ آزادی کے \عددی{F} تقسیم}
 \label{ضمیمہ_ایف_تقسیم}
 \centering
+\عددی{z} کی وہ قیمتیں جن پر تفاعل تقسیم \عددی{F(z)} (مساوات \حوالہ{مساوات_شماریات_ایف_تقسیم}) کی قیمت \عددی{0.95} ہو گی۔\\
+مثال کے طور پر \عددی{(7,4)} درجہ آزادی کے لئے \عددی{F(z)=0.95} تب ہو گا جب \عددی{z=6.09} ہو۔
+\par\smallskip
 \footnotesize
 \begin{otherlanguage}{english}
 \begin{tabular}{|C|C|C|C|C|C|C|C|C|C|}
@@ -754,6 +778,9 @@ n&m=1&m=2&m=3&m=4&m=5&m=6&m=7&m=8&m=9\\
 \,%===========================
 \begin{table}
 \centering
+\عددی{(m,n)} درجہ آزادی کی \عددی{F} تقسیم (جدول \حوالہ{ضمیمہ_ایف_تقسیم})\\
+\عددی{z} کی وہ قیمتیں جن پر \عددی{F(z)=0.95} ہے۔
+\par\smallskip
 \footnotesize
 \begin{otherlanguage}{english}
 \begin{tabular}{|C|C|C|C|C|C|C|C|C|}
@@ -808,6 +835,9 @@ n&m=10&m=15&m=20&m=30&m=40&m=50&m=100&m=\infty\\
 \,%===========================
 \begin{table}
 \centering
+\عددی{(m,n)} درجہ آزادی کی \عددی{F} تقسیم (جدول \حوالہ{ضمیمہ_ایف_تقسیم})\\
+\عددی{z} کی وہ قیمتیں جن پر \عددی{F(z)=0.99} ہے۔
+\par\smallskip
 \footnotesize
 \begin{otherlanguage}{english}
 \begin{tabular}{|C|C|C|C|C|C|C|C|C|C|}
@@ -863,6 +893,9 @@ n&m=1&m=2&m=3&m=4&m=5&m=6&m=7&m=8&m=9\\
 \,%===========================
 \begin{table}
 \centering
+\عددی{(m,n)} درجہ آزادی کی \عددی{F} تقسیم (جدول \حوالہ{ضمیمہ_ایف_تقسیم})\\
+\عددی{z} کی وہ قیمتیں جن پر \عددی{F(z)=0.99} ہے۔
+\par\smallskip
 \footnotesize
 \begin{otherlanguage}{english}
 \begin{tabular}{|C|C|C|C|C|C|C|C|C|}
@@ -918,6 +951,9 @@ n&m=10&m=15&m=20&m=30&m=40&m=50&m=100&m=\infty\\
 \caption{بلا منصوبہ متغیر $T$ کا تفاعل تقسیم $F(x)=P(T\le x)$ (برائے حصہ \حوالہ{حصہ_شماریات_پرکھ_برائے_غیر_مقدار_معلوم})}
 \label{ضمیمہ_بلا_رجحان}
 \centering
+مثال کے طور پر \عددی{n=3} پر \عددی{F(2)=1-0.167=0.833} ہو گا۔\\
+\عددی{n=4} پر \عددی{F(3)=1-0.375=0.625} اور \عددی{F(4)=1-0.167=0.833} ہوں گے۔
+\par\smallskip
 \tiny
 \begin{otherlanguage}{english}
 \begin{tabular}[t]{|C|C|}
@@ -1493,4 +1529,5 @@ x&\erf x &\kSi(x)&\multicolumn{1}{C||}{\ci(x)}&x&\erf x&\kSi(x)&\multicolumn{1}{
 \end{tabular}
 \end{otherlanguage}
 \end{table}
+%==========================================
 

@@ -1,0 +1,19 @@
+\documentclass{standalone}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+
+\usepackage{amsmath}
+\pagestyle{empty}
+\pgfplotsset{compat=1.9}
+
+%this ueses the data files figWaveOctaveWaterDielectricLossEW.txt 
+%and figWaveOctaveWaterDielectricLossLFW.txt prepared by octave's
+%figWaveOctaveWaterDielectricLoss.m
+
+\begin{document}
+\begin{tikzpicture}
+\begin{polaraxis}
+
+\end{polaraxis}%
+\end{tikzpicture}%
+\end{document}

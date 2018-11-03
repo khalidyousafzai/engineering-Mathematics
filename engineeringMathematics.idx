@@ -1,405 +1,46 @@
-\indexentry{Rockwell}{\RL {\arabicfont  1529}}
-\indexentry{راک ویل}{\RL {\arabicfont  1529}}
-\indexentry{nondefective}{\RL {\arabicfont  1529}}
-\indexentry{بے عیب}{\RL {\arabicfont  1529}}
-\indexentry{defective}{\RL {\arabicfont  1529}}
-\indexentry{عیب دار}{\RL {\arabicfont  1529}}
-\indexentry{lifetime}{\RL {\arabicfont  1530}}
-\indexentry{عرصہ زندگی}{\RL {\arabicfont  1530}}
-\indexentry{random variation}{\RL {\arabicfont  1530}}
-\indexentry{بلا منصوبہ تبدیلی}{\RL {\arabicfont  1530}}
-\indexentry{population}{\RL {\arabicfont  1530}}
-\indexentry{آبادی}{\RL {\arabicfont  1530}}
-\indexentry{sample}{\RL {\arabicfont  1530}}
-\indexentry{نمونہ}{\RL {\arabicfont  1530}}
-\indexentry{random!at}{\RL {\arabicfont  1530}}
-\indexentry{بلا منصوبہ}{\RL {\arabicfont  1530}}
-\indexentry{chance}{\RL {\arabicfont  1530}}
-\indexentry{امکان}{\RL {\arabicfont  1530}}
-\indexentry{model!mathematical}{\RL {\arabicfont  1531}}
-\indexentry{نمونہ!حسابی}{\RL {\arabicfont  1531}}
-\indexentry{حسابی نمونہ}{\RL {\arabicfont  1531}}
-\indexentry{bar graph}{\RL {\arabicfont  1531}}
-\indexentry{ڈبہ!ترسیم}{\RL {\arabicfont  1531}}
-\indexentry{ترسیم!ڈبہ}{\RL {\arabicfont  1531}}
-\indexentry{sample!size}{\RL {\arabicfont  1531}}
-\indexentry{نمونہ!جسامت}{\RL {\arabicfont  1531}}
-\indexentry{جسامت!نمونہ}{\RL {\arabicfont  1531}}
-\indexentry{tally mark}{\RL {\arabicfont  1532}}
-\indexentry{شمار!نشان}{\RL {\arabicfont  1532}}
-\indexentry{نشان شمار}{\RL {\arabicfont  1532}}
-\indexentry{frequency}{\RL {\arabicfont  1532}}
-\indexentry{تعدد}{\RL {\arabicfont  1532}}
-\indexentry{frequency!absolute}{\RL {\arabicfont  1532}}
-\indexentry{تعدد!حتمی}{\RL {\arabicfont  1532}}
-\indexentry{frequency!relative}{\RL {\arabicfont  1532}}
-\indexentry{تعدد!اضافی}{\RL {\arabicfont  1532}}
-\indexentry{تعدد!مجموعی}{\RL {\arabicfont  1532}}
-\indexentry{frequency!cumulative}{\RL {\arabicfont  1532}}
-\indexentry{frequency!cumulative relative}{\RL {\arabicfont  1534}}
-\indexentry{تعدد!مجموعی اضافی}{\RL {\arabicfont  1534}}
-\indexentry{frequency!function of the sample}{\RL {\arabicfont  1534}}
-\indexentry{تعددی!نمونہ کا تعددی تفاعل}{\RL {\arabicfont  1534}}
-\indexentry{frequency!distribution}{\RL {\arabicfont  1534}}
-\indexentry{تعددی!تقسیم}{\RL {\arabicfont  1534}}
-\indexentry{sample distribution function}{\RL {\arabicfont  1536}}
-\indexentry{تقسیم!تقسیمی تفاعل نمونہ}{\RL {\arabicfont  1536}}
-\indexentry{تقسیمی تفاعل نمونہ}{\RL {\arabicfont  1536}}
-\indexentry{frequency!cumulative function of sample}{\RL {\arabicfont  1536}}
-\indexentry{تعددی!نمونے کا مجموعی تفاعل}{\RL {\arabicfont  1536}}
-\indexentry{grouping}{\RL {\arabicfont  1537}}
-\indexentry{گروہ بندی}{\RL {\arabicfont  1537}}
-\indexentry{class!intervals}{\RL {\arabicfont  1537}}
-\indexentry{جماعتی!وقفہ}{\RL {\arabicfont  1537}}
-\indexentry{class}{\RL {\arabicfont  1537}}
-\indexentry{طبقہ}{\RL {\arabicfont  1537}}
-\indexentry{class!marks}{\RL {\arabicfont  1537}}
-\indexentry{جماعتی!نشان}{\RL {\arabicfont  1537}}
-\indexentry{class!midpoints}{\RL {\arabicfont  1537}}
-\indexentry{جماعتی_وسطی نقطہ}{\RL {\arabicfont  1537}}
-\indexentry{class!frequency}{\RL {\arabicfont  1537}}
-\indexentry{جماعتی!تعدد}{\RL {\arabicfont  1537}}
-\indexentry{frequency!function of the grouped sample}{\RL {\arabicfont  1537}}
-\indexentry{تعددی! تفاعل، گروہ بند نمونہ}{\RL {\arabicfont  1537}}
-\indexentry{class!relative frequency}{\RL {\arabicfont  1537}}
-\indexentry{جماعتی!اضافی تعدد}{\RL {\arabicfont  1537}}
-\indexentry{distribution function of the grouped sample}{\RL {\arabicfont  1537}}
-\indexentry{تقسیمی!تفاعل،گروہ بند نمونہ}{\RL {\arabicfont  1537}}
-\indexentry{sample!mean}{\RL {\arabicfont  1541}}
-\indexentry{اوسط}{\RL {\arabicfont  1541}}
-\indexentry{نمونی!اوسط}{\RL {\arabicfont  1541}}
-\indexentry{sample!variance}{\RL {\arabicfont  1541}}
-\indexentry{تغیریت}{\RL {\arabicfont  1541}}
-\indexentry{نمونی!تغیریت}{\RL {\arabicfont  1541}}
-\indexentry{standard deviation}{\RL {\arabicfont  1541}}
-\indexentry{معیاری انحراف}{\RL {\arabicfont  1541}}
-\indexentry{range}{\RL {\arabicfont  1544}}
-\indexentry{}{\RL {\arabicfont  1544}}
-\indexentry{percentile}{\RL {\arabicfont  1544}}
-\indexentry{صدویہ}{\RL {\arabicfont  1544}}
-\indexentry{median}{\RL {\arabicfont  1544}}
-\indexentry{وسطانیہ}{\RL {\arabicfont  1544}}
-\indexentry{quartile!middle}{\RL {\arabicfont  1545}}
-\indexentry{چوتھائی!نصف}{\RL {\arabicfont  1545}}
-\indexentry{quartile!upper}{\RL {\arabicfont  1545}}
-\indexentry{چوتھائی!بالائی}{\RL {\arabicfont  1545}}
-\indexentry{quartile!lower}{\RL {\arabicfont  1545}}
-\indexentry{چوتھائی!نچلی}{\RL {\arabicfont  1545}}
-\indexentry{quartile!interquartile range}{\RL {\arabicfont  1545}}
-\indexentry{چوتھائی!}{\RL {\arabicfont  1545}}
-\indexentry{mode}{\RL {\arabicfont  1545}}
-\indexentry{عادہ}{\RL {\arabicfont  1545}}
-\indexentry{method!of working origin}{\RL {\arabicfont  1545}}
-\indexentry{ترکیب!مبدا کام}{\RL {\arabicfont  1545}}
-\indexentry{ترکیب!مکمل رمز نویسی}{\RL {\arabicfont  1546}}
-\indexentry{method!of full coding}{\RL {\arabicfont  1546}}
-\indexentry{observation}{\RL {\arabicfont  1546}}
-\indexentry{مشاہدہ}{\RL {\arabicfont  1546}}
-\indexentry{experiment}{\RL {\arabicfont  1546}}
-\indexentry{تجربہ}{\RL {\arabicfont  1546}}
-\indexentry{outcome}{\RL {\arabicfont  1547}}
-\indexentry{انجام}{\RL {\arabicfont  1547}}
-\indexentry{trial}{\RL {\arabicfont  1547}}
-\indexentry{کوشش}{\RL {\arabicfont  1547}}
-\indexentry{blood pressure}{\RL {\arabicfont  1547}}
-\indexentry{فشار خون}{\RL {\arabicfont  1547}}
-\indexentry{sample!space}{\RL {\arabicfont  1547}}
-\indexentry{نمونی!فضا}{\RL {\arabicfont  1547}}
-\indexentry{point}{\RL {\arabicfont  1547}}
-\indexentry{نقطہ}{\RL {\arabicfont  1547}}
-\indexentry{element}{\RL {\arabicfont  1547}}
-\indexentry{رکن}{\RL {\arabicfont  1547}}
-\indexentry{event}{\RL {\arabicfont  1548}}
-\indexentry{وقوعہ}{\RL {\arabicfont  1548}}
-\indexentry{وقوعہ!بنیادی}{\RL {\arabicfont  1548}}
-\indexentry{Venn diagram}{\RL {\arabicfont  1548}}
-\indexentry{وین اشکال}{\RL {\arabicfont  1548}}
-\indexentry{event!impossible}{\RL {\arabicfont  1549}}
-\indexentry{وقوعہ!نا ممکن}{\RL {\arabicfont  1549}}
-\indexentry{event!empty}{\RL {\arabicfont  1549}}
-\indexentry{وقوعہ!خالی}{\RL {\arabicfont  1549}}
-\indexentry{union}{\RL {\arabicfont  1549}}
-\indexentry{اشتراک}{\RL {\arabicfont  1549}}
-\indexentry{intersection}{\RL {\arabicfont  1549}}
-\indexentry{تقاطع}{\RL {\arabicfont  1549}}
-\indexentry{event!mutually exclusive}{\RL {\arabicfont  1549}}
-\indexentry{وقوعہ!باہمی بلا شرکت}{\RL {\arabicfont  1549}}
-\indexentry{event!disjoint}{\RL {\arabicfont  1549}}
-\indexentry{وقوعہ!بلا شرکت}{\RL {\arabicfont  1549}}
-\indexentry{event!subevent}{\RL {\arabicfont  1550}}
-\indexentry{وقوعہ!ذیلی}{\RL {\arabicfont  1550}}
-\indexentry{De Morgan' laws}{\RL {\arabicfont  1553}}
-\indexentry{ڈی مارگن قوانین}{\RL {\arabicfont  1553}}
-\indexentry{سکہ!خط}{\RL {\arabicfont  1553}}
-\indexentry{خط}{\RL {\arabicfont  1553}}
-\indexentry{سکہ!شیر}{\RL {\arabicfont  1553}}
-\indexentry{شیر}{\RL {\arabicfont  1553}}
-\indexentry{probability}{\RL {\arabicfont  1554}}
-\indexentry{احتمال}{\RL {\arabicfont  1554}}
-\indexentry{probability!conditional}{\RL {\arabicfont  1557}}
-\indexentry{احتمال!مشروط}{\RL {\arabicfont  1557}}
-\indexentry{event!independent events}{\RL {\arabicfont  1558}}
-\indexentry{وقوعہ!غیر تابع وقوعات}{\RL {\arabicfont  1558}}
-\indexentry{permutation}{\RL {\arabicfont  1562}}
-\indexentry{اجتماع!مرتب}{\RL {\arabicfont  1562}}
-\indexentry{combinations}{\RL {\arabicfont  1563}}
-\indexentry{اجتماعات!غیر مرتب}{\RL {\arabicfont  1563}}
-\indexentry{کلیہ!سٹرلنگ}{\RL {\arabicfont  1565}}
-\indexentry{Stirling formula}{\RL {\arabicfont  1565}}
-\indexentry{binomial!coefficients}{\RL {\arabicfont  1566}}
-\indexentry{ثنائی عددی سر}{\RL {\arabicfont  1566}}
-\indexentry{theorem!binomial}{\RL {\arabicfont  1568}}
-\indexentry{مسئلہ!ثنائی}{\RL {\arabicfont  1568}}
-\indexentry{random!variable}{\RL {\arabicfont  1569}}
-\indexentry{بلا منصوبہ!متغیر}{\RL {\arabicfont  1569}}
-\indexentry{stochastic!variable}{\RL {\arabicfont  1569}}
-\indexentry{امکانی!متغیر}{\RL {\arabicfont  1569}}
-\indexentry{assume}{\RL {\arabicfont  1569}}
-\indexentry{اختیار}{\RL {\arabicfont  1569}}
-\indexentry{observed}{\RL {\arabicfont  1569}}
-\indexentry{مشاہدہ}{\RL {\arabicfont  1569}}
-\indexentry{continuous}{\RL {\arabicfont  1570}}
-\indexentry{استمراری}{\RL {\arabicfont  1570}}
-\indexentry{discrete}{\RL {\arabicfont  1570}}
-\indexentry{غیر مسلسل}{\RL {\arabicfont  1570}}
-\indexentry{probability!function}{\RL {\arabicfont  1570}}
-\indexentry{احتمال!تفاعل}{\RL {\arabicfont  1570}}
-\indexentry{distribution}{\RL {\arabicfont  1571}}
-\indexentry{تقسیم}{\RL {\arabicfont  1571}}
-\indexentry{probability!distribution}{\RL {\arabicfont  1571}}
-\indexentry{احتمال!تقسیم}{\RL {\arabicfont  1571}}
-\indexentry{distribution!function}{\RL {\arabicfont  1571}}
-\indexentry{تقسیم!تفاعل}{\RL {\arabicfont  1571}}
-\indexentry{values!possible}{\RL {\arabicfont  1572}}
-\indexentry{ممکنہ قیمتیں}{\RL {\arabicfont  1572}}
-\indexentry{step function}{\RL {\arabicfont  1572}}
-\indexentry{سیڑھی تفاعل}{\RL {\arabicfont  1572}}
-\indexentry{continuous}{\RL {\arabicfont  1572}}
-\indexentry{استمراری}{\RL {\arabicfont  1572}}
-\indexentry{density}{\RL {\arabicfont  1573}}
-\indexentry{کثافت}{\RL {\arabicfont  1573}}
-\indexentry{mean}{\RL {\arabicfont  1576}}
-\indexentry{اوسط}{\RL {\arabicfont  1576}}
-\indexentry{حسابی!توقع}{\RL {\arabicfont  1576}}
-\indexentry{expectation!mathematical}{\RL {\arabicfont  1577}}
-\indexentry{variance}{\RL {\arabicfont  1577}}
-\indexentry{تغیریت}{\RL {\arabicfont  1577}}
-\indexentry{standard deviation}{\RL {\arabicfont  1577}}
-\indexentry{انحراف!معیاری}{\RL {\arabicfont  1577}}
-\indexentry{معیاری انحراف}{\RL {\arabicfont  1577}}
-\indexentry{distribution!uniform}{\RL {\arabicfont  1578}}
-\indexentry{تقسیم!یکساں}{\RL {\arabicfont  1578}}
-\indexentry{variable!standardized}{\RL {\arabicfont  1580}}
-\indexentry{معیاری!متغیر}{\RL {\arabicfont  1580}}
-\indexentry{expectation!mathematical}{\RL {\arabicfont  1580}}
-\indexentry{توقع!حسابی}{\RL {\arabicfont  1580}}
-\indexentry{moment!k}{\RL {\arabicfont  1581}}
-\indexentry{معیار اثر}{\RL {\arabicfont  1581}}
-\indexentry{moment!central, kth}{\RL {\arabicfont  1581}}
-\indexentry{معیار اثر!وسطی}{\RL {\arabicfont  1581}}
-\indexentry{skewness}{\RL {\arabicfont  1583}}
-\indexentry{ترچھاپن}{\RL {\arabicfont  1583}}
-\indexentry{success}{\RL {\arabicfont  1585}}
-\indexentry{کامیابی}{\RL {\arabicfont  1585}}
-\indexentry{binomial!distribution}{\RL {\arabicfont  1585}}
-\indexentry{تقسیم!ثنائی}{\RL {\arabicfont  1585}}
-\indexentry{ثنائی!تقسیم}{\RL {\arabicfont  1585}}
-\indexentry{failure}{\RL {\arabicfont  1585}}
-\indexentry{ناکامی}{\RL {\arabicfont  1585}}
-\indexentry{distribution!Poisson}{\RL {\arabicfont  1586}}
-\indexentry{تقسیم!پوئسن}{\RL {\arabicfont  1586}}
-\indexentry{پوئسن!تقسیم}{\RL {\arabicfont  1586}}
-\indexentry{distribution!hypergeometric}{\RL {\arabicfont  1587}}
-\indexentry{بیش ہندسی!تقسیم}{\RL {\arabicfont  1587}}
-\indexentry{تقسیم!بیش ہندسی}{\RL {\arabicfont  1587}}
-\indexentry{distribution!multinomial}{\RL {\arabicfont  1591}}
-\indexentry{تقسیم!متعدد رکنی}{\RL {\arabicfont  1591}}
-\indexentry{normal}{\RL {\arabicfont  1592}}
-\indexentry{عمومی}{\RL {\arabicfont  1592}}
-\indexentry{distribution!Gauss}{\RL {\arabicfont  1592}}
-\indexentry{گاوس!گاوسی تقسیم}{\RL {\arabicfont  1592}}
-\indexentry{تقسیم!گاوسی}{\RL {\arabicfont  1592}}
-\indexentry{distribution!normal}{\RL {\arabicfont  1592}}
-\indexentry{تقسیم!عمومی}{\RL {\arabicfont  1592}}
-\indexentry{normally distributed}{\RL {\arabicfont  1592}}
-\indexentry{عمومی!بانٹا ہوا}{\RL {\arabicfont  1592}}
-\indexentry{bell curve}{\RL {\arabicfont  1592}}
-\indexentry{جرس!قوس}{\RL {\arabicfont  1592}}
-\indexentry{قوس!جرس}{\RL {\arabicfont  1592}}
-\indexentry{limit!three-sigma}{\RL {\arabicfont  1595}}
-\indexentry{تین سگما حدود}{\RL {\arabicfont  1595}}
-\indexentry{inflection point}{\RL {\arabicfont  1599}}
-\indexentry{نقطہ!تصریف}{\RL {\arabicfont  1599}}
-\indexentry{strength!breaking}{\RL {\arabicfont  1601}}
-\indexentry{طاقت!توڑ}{\RL {\arabicfont  1601}}
-\indexentry{random!two-dimensional variable}{\RL {\arabicfont  1603}}
-\indexentry{بلا منصوبہ!دو بعدی متغیر}{\RL {\arabicfont  1603}}
-\indexentry{probability!two-dimensional function}{\RL {\arabicfont  1603}}
-\indexentry{احتمال!دو بعدی تفاعل}{\RL {\arabicfont  1603}}
-\indexentry{distribution!function}{\RL {\arabicfont  1603}}
-\indexentry{تقسیمی!تفاعل}{\RL {\arabicfont  1603}}
-\indexentry{discrete!distribution}{\RL {\arabicfont  1603}}
-\indexentry{discrete!variable}{\RL {\arabicfont  1603}}
-\indexentry{غیر مسلسل!متغیر}{\RL {\arabicfont  1603}}
-\indexentry{غیر مسلسل!تقسیم}{\RL {\arabicfont  1603}}
-\indexentry{distribution!marginal}{\RL {\arabicfont  1606}}
-\indexentry{تقسیم!حاشیہ}{\RL {\arabicfont  1606}}
-\indexentry{independent}{\RL {\arabicfont  1608}}
-\indexentry{تابع!غیر}{\RL {\arabicfont  1608}}
-\indexentry{dependent}{\RL {\arabicfont  1608}}
-\indexentry{تابع}{\RL {\arabicfont  1608}}
-\indexentry{expectation!mathematical}{\RL {\arabicfont  1610}}
-\indexentry{توقع!حسابی}{\RL {\arabicfont  1610}}
-\indexentry{covariance}{\RL {\arabicfont  1611}}
-\indexentry{تغیریت!باہمی}{\RL {\arabicfont  1611}}
-\indexentry{random!selection}{\RL {\arabicfont  1615}}
-\indexentry{بلا منصوبہ!انتخاب}{\RL {\arabicfont  1615}}
-\indexentry{random number generator}{\RL {\arabicfont  1616}}
-\indexentry{پیدا کار بلا منصوبہ اعداد}{\RL {\arabicfont  1616}}
-\indexentry{simulation}{\RL {\arabicfont  1617}}
-\indexentry{نقل اتارنا}{\RL {\arabicfont  1617}}
-\indexentry{مقدار معلوم}{\RL {\arabicfont  1618}}
-\indexentry{parameter}{\RL {\arabicfont  1618}}
-\indexentry{estimate!point}{\RL {\arabicfont  1618}}
-\indexentry{اندازہ!نقطی}{\RL {\arabicfont  1618}}
-\indexentry{confidence interval}{\RL {\arabicfont  1618}}
-\indexentry{وقفہ!اعتماد}{\RL {\arabicfont  1618}}
-\indexentry{interval!estimate}{\RL {\arabicfont  1618}}
-\indexentry{وقفہ!اندازہ}{\RL {\arabicfont  1618}}
-\indexentry{moments!method of}{\RL {\arabicfont  1619}}
-\indexentry{معیار اثر!ترکیب}{\RL {\arabicfont  1619}}
-\indexentry{method!maximum likelihood}{\RL {\arabicfont  1619}}
-\indexentry{ترکیب!زیادہ سے زیادہ امکان}{\RL {\arabicfont  1619}}
-\indexentry{function!likelihood}{\RL {\arabicfont  1619}}
-\indexentry{تفاعل!امکان}{\RL {\arabicfont  1619}}
-\indexentry{estimate!interval}{\RL {\arabicfont  1622}}
-\indexentry{اندازہ!وقفی}{\RL {\arabicfont  1622}}
-\indexentry{estimate!interval}{\RL {\arabicfont  1623}}
-\indexentry{اندازہ!وقفی}{\RL {\arabicfont  1623}}
-\indexentry{interval!confidence}{\RL {\arabicfont  1623}}
-\indexentry{اعتماد!وقفہ}{\RL {\arabicfont  1623}}
-\indexentry{وقفہ!اعتماد}{\RL {\arabicfont  1623}}
-\indexentry{confidence!upper limit}{\RL {\arabicfont  1623}}
-\indexentry{اعتماد!بالائی حد}{\RL {\arabicfont  1623}}
-\indexentry{confidence!lower limit}{\RL {\arabicfont  1623}}
-\indexentry{اعتماد!نچلی حد}{\RL {\arabicfont  1623}}
-\indexentry{confidence!level}{\RL {\arabicfont  1623}}
-\indexentry{اعتماد!سطح}{\RL {\arabicfont  1623}}
-\indexentry{degree!number of freedom}{\RL {\arabicfont  1626}}
-\indexentry{درجہ!آزادی کی تعداد}{\RL {\arabicfont  1626}}
-\indexentry{normal!asymptotically}{\RL {\arabicfont  1633}}
-\indexentry{عمومی!متقاربی}{\RL {\arabicfont  1633}}
-\indexentry{متقاربی عمومی}{\RL {\arabicfont  1633}}
-\indexentry{hypothesis}{\RL {\arabicfont  1636}}
-\indexentry{قیاس}{\RL {\arabicfont  1636}}
-\indexentry{reject}{\RL {\arabicfont  1636}}
-\indexentry{منظور!نا}{\RL {\arabicfont  1636}}
-\indexentry{reject!not}{\RL {\arabicfont  1636}}
-\indexentry{منظور}{\RL {\arabicfont  1636}}
-\indexentry{test}{\RL {\arabicfont  1636}}
-\indexentry{پرکھ}{\RL {\arabicfont  1636}}
-\indexentry{پرکھ!متبادل}{\RL {\arabicfont  1637}}
-\indexentry{deviation!significant}{\RL {\arabicfont  1637}}
-\indexentry{انحراف!معنی خیز}{\RL {\arabicfont  1637}}
-\indexentry{hypothesis!default}{\RL {\arabicfont  1640}}
-\indexentry{قیاس!پسندیدہ}{\RL {\arabicfont  1640}}
-\indexentry{معنی خیز سطح}{\RL {\arabicfont  1640}}
-\indexentry{hypothesis!alternative}{\RL {\arabicfont  1640}}
-\indexentry{قیاس!متبادل}{\RL {\arabicfont  1640}}
-\indexentry{critical!value}{\RL {\arabicfont  1640}}
-\indexentry{فاصل!قیمت}{\RL {\arabicfont  1640}}
-\indexentry{significant!level}{\RL {\arabicfont  1640}}
-\indexentry{region!critical}{\RL {\arabicfont  1640}}
-\indexentry{خطہ!فاصل}{\RL {\arabicfont  1640}}
-\indexentry{region!rejection}{\RL {\arabicfont  1640}}
-\indexentry{نا منظوری!خطہ}{\RL {\arabicfont  1640}}
-\indexentry{خطہ!نا منظوری}{\RL {\arabicfont  1640}}
-\indexentry{region!acceptance}{\RL {\arabicfont  1640}}
-\indexentry{خطہ!منظوری}{\RL {\arabicfont  1640}}
-\indexentry{متبادل!دو طرفہ}{\RL {\arabicfont  1640}}
-\indexentry{alternative!one-sided}{\RL {\arabicfont  1640}}
-\indexentry{متبادل!یک طرفہ}{\RL {\arabicfont  1640}}
-\indexentry{alternative!two-sided}{\RL {\arabicfont  1640}}
-\indexentry{test!right-sided}{\RL {\arabicfont  1640}}
-\indexentry{پرکھ!دایاں طرفہ}{\RL {\arabicfont  1640}}
-\indexentry{alternative!left-sided}{\RL {\arabicfont  1640}}
-\indexentry{پرکھ!بایاں طرفہ}{\RL {\arabicfont  1640}}
-\indexentry{test!two-sided}{\RL {\arabicfont  1640}}
-\indexentry{پرکھ!دو طرفہ}{\RL {\arabicfont  1640}}
-\indexentry{test!power}{\RL {\arabicfont  1642}}
-\indexentry{پرکھ!طاقت}{\RL {\arabicfont  1642}}
-\indexentry{خاصیت!منحنی کارکردگی}{\RL {\arabicfont  1643}}
-\indexentry{characteristic!operating}{\RL {\arabicfont  1643}}
-\indexentry{کارکردگی!خاصیت}{\RL {\arabicfont  1643}}
-\indexentry{power!function}{\RL {\arabicfont  1643}}
-\indexentry{طاقت!تفاعل}{\RL {\arabicfont  1643}}
-\indexentry{comparison!paired}{\RL {\arabicfont  1648}}
-\indexentry{موازنہ!جوڑی دار}{\RL {\arabicfont  1648}}
-\indexentry{distribution!F}{\RL {\arabicfont  1650}}
-\indexentry{تقسیم!ایف}{\RL {\arabicfont  1650}}
-\indexentry{control!quality}{\RL {\arabicfont  1654}}
-\indexentry{معیار!ضبط}{\RL {\arabicfont  1654}}
-\indexentry{ضبط معیار}{\RL {\arabicfont  1654}}
-\indexentry{control!chart}{\RL {\arabicfont  1654}}
-\indexentry{ضبط!نقشہ}{\RL {\arabicfont  1654}}
-\indexentry{control!lower limit}{\RL {\arabicfont  1654}}
-\indexentry{ضبط!نچلی حد}{\RL {\arabicfont  1654}}
-\indexentry{control!upper limit}{\RL {\arabicfont  1654}}
-\indexentry{ضبط!بالائی حد}{\RL {\arabicfont  1654}}
-\indexentry{control!central line}{\RL {\arabicfont  1654}}
-\indexentry{ضبط!وسطی خط}{\RL {\arabicfont  1654}}
-\indexentry{control process}{\RL {\arabicfont  1660}}
-\indexentry{قابو!عمل}{\RL {\arabicfont  1660}}
-\indexentry{عمل قابو}{\RL {\arabicfont  1660}}
-\indexentry{defectives}{\RL {\arabicfont  1661}}
-\indexentry{عیب دار}{\RL {\arabicfont  1661}}
-\indexentry{sampling plan}{\RL {\arabicfont  1661}}
-\indexentry{نمونی منصوبہ}{\RL {\arabicfont  1661}}
-\indexentry{acceptance number}{\RL {\arabicfont  1661}}
-\indexentry{تعداد قبولیت}{\RL {\arabicfont  1661}}
-\indexentry{sampling!single plan}{\RL {\arabicfont  1661}}
-\indexentry{نمونی!واحد منصوبہ}{\RL {\arabicfont  1661}}
-\indexentry{defective!fraction}{\RL {\arabicfont  1662}}
-\indexentry{عیب دار!نسبت}{\RL {\arabicfont  1662}}
-\indexentry{operating characteristic curve}{\RL {\arabicfont  1662}}
-\indexentry{منحنی!خاصیت کارکردگی}{\RL {\arabicfont  1662}}
-\indexentry{producer's risk}{\RL {\arabicfont  1664}}
-\indexentry{خطر پیداکار}{\RL {\arabicfont  1664}}
-\indexentry{خطر خریدار}{\RL {\arabicfont  1664}}
-\indexentry{consumer's risk}{\RL {\arabicfont  1664}}
-\indexentry{quality!rejectable level}{\RL {\arabicfont  1664}}
-\indexentry{معیار!قابل مسترد سطح}{\RL {\arabicfont  1664}}
-\indexentry{quality!acceptable level}{\RL {\arabicfont  1664}}
-\indexentry{معیار!قابل قبول سطح}{\RL {\arabicfont  1664}}
-\indexentry{indifferent lot}{\RL {\arabicfont  1664}}
-\indexentry{لا تعلق کھیپ}{\RL {\arabicfont  1664}}
-\indexentry{rectified}{\RL {\arabicfont  1665}}
-\indexentry{سدھارا}{\RL {\arabicfont  1665}}
-\indexentry{quality!average outgoing}{\RL {\arabicfont  1665}}
-\indexentry{معیار!اوسط خارجی}{\RL {\arabicfont  1665}}
-\indexentry{quality!average outgoing limit}{\RL {\arabicfont  1665}}
-\indexentry{معیار!اوسط خارجی حد}{\RL {\arabicfont  1665}}
-\indexentry{sampling!double plan}{\RL {\arabicfont  1666}}
-\indexentry{نمونی!دوہرا منصوبہ}{\RL {\arabicfont  1666}}
-\indexentry{test!distribution-free}{\RL {\arabicfont  1674}}
-\indexentry{پرکھ!تقسیم پاک}{\RL {\arabicfont  1674}}
-\indexentry{test!nonparametric}{\RL {\arabicfont  1674}}
-\indexentry{پرکھ!غیر مقدار معلوم}{\RL {\arabicfont  1674}}
-\indexentry{statistics!order}{\RL {\arabicfont  1674}}
-\indexentry{شماریات!رجحان}{\RL {\arabicfont  1674}}
-\indexentry{correlation analysis}{\RL {\arabicfont  1679}}
-\indexentry{تجزیہ!باہمی رشتہ}{\RL {\arabicfont  1679}}
-\indexentry{regression analysis}{\RL {\arabicfont  1679}}
-\indexentry{رجعی تجزیہ}{\RL {\arabicfont  1679}}
-\indexentry{least squares!method}{\RL {\arabicfont  1679}}
-\indexentry{کمتر مربع!ترکیب}{\RL {\arabicfont  1679}}
-\indexentry{regression line}{\RL {\arabicfont  1681}}
-\indexentry{رجعی خط}{\RL {\arabicfont  1681}}
-\indexentry{regression!coefficient}{\RL {\arabicfont  1681}}
-\indexentry{تجزی!عددی سر}{\RL {\arabicfont  1681}}
-\indexentry{covariance}{\RL {\arabicfont  1681}}
-\indexentry{تغیریت!باہمی}{\RL {\arabicfont  1681}}
-\indexentry{regression!coefficient}{\RL {\arabicfont  1683}}
-\indexentry{رجعی!سر}{\RL {\arabicfont  1683}}
-\indexentry{hardness!Brinell}{\RL {\arabicfont  1686}}
-\indexentry{سختی!برینل}{\RL {\arabicfont  1686}}
+\indexentry{potential!theory}{\RL {\arabicfont  1343}}
+\indexentry{مخفی قوہ!نظریہ}{\RL {\arabicfont  1343}}
+\indexentry{potential!electrostatic}{\RL {\arabicfont  1344}}
+\indexentry{مخفی قوہ!برقی سکونیات}{\RL {\arabicfont  1344}}
+\indexentry{equipotential!surfaces}{\RL {\arabicfont  1344}}
+\indexentry{ہم قوہ سطحیں}{\RL {\arabicfont  1344}}
+\indexentry{potential!complex}{\RL {\arabicfont  1345}}
+\indexentry{مخفی قوہ!مخلوط}{\RL {\arabicfont  1345}}
+\indexentry{مخلوط!مخفی قوہ}{\RL {\arabicfont  1345}}
+\indexentry{force!lines}{\RL {\arabicfont  1346}}
+\indexentry{قوت!خط}{\RL {\arabicfont  1346}}
+\indexentry{خط!قوت}{\RL {\arabicfont  1346}}
+\indexentry{streamline}{\RL {\arabicfont  1350}}
+\indexentry{سمت بہاو}{\RL {\arabicfont  1350}}
+\indexentry{circulation}{\RL {\arabicfont  1351}}
+\indexentry{دائری بہاو}{\RL {\arabicfont  1351}}
+\indexentry{بہاو!دائری}{\RL {\arabicfont  1351}}
+\indexentry{vorticity}{\RL {\arabicfont  1352}}
+\indexentry{گردابیت}{\RL {\arabicfont  1352}}
+\indexentry{rotation}{\RL {\arabicfont  1352}}
+\indexentry{گھومنا}{\RL {\arabicfont  1352}}
+\indexentry{irrotational}{\RL {\arabicfont  1352}}
+\indexentry{نا گھومتا}{\RL {\arabicfont  1352}}
+\indexentry{source}{\RL {\arabicfont  1352}}
+\indexentry{منبع}{\RL {\arabicfont  1352}}
+\indexentry{sink}{\RL {\arabicfont  1352}}
+\indexentry{گڑھا}{\RL {\arabicfont  1352}}
+\indexentry{velocity!potential}{\RL {\arabicfont  1353}}
+\indexentry{مخفی قوہ!سمتی رفتار}{\RL {\arabicfont  1353}}
+\indexentry{سمتی رفتار!مخفی قوہ}{\RL {\arabicfont  1353}}
+\indexentry{equipotential!lines}{\RL {\arabicfont  1353}}
+\indexentry{ہم قوہ!خط}{\RL {\arabicfont  1353}}
+\indexentry{stream!function}{\RL {\arabicfont  1354}}
+\indexentry{تفاعل!بہاو}{\RL {\arabicfont  1354}}
+\indexentry{potential!complex}{\RL {\arabicfont  1354}}
+\indexentry{مخلوط مخفی قوہ}{\RL {\arabicfont  1354}}
+\indexentry{source}{\RL {\arabicfont  1357}}
+\indexentry{منبع}{\RL {\arabicfont  1357}}
+\indexentry{sink}{\RL {\arabicfont  1357}}
+\indexentry{گڑھا}{\RL {\arabicfont  1357}}
+\indexentry{vortex}{\RL {\arabicfont  1357}}
+\indexentry{گرداب}{\RL {\arabicfont  1357}}
+\indexentry{Dirichlet problem}{\RL {\arabicfont  1363}}
+\indexentry{معمہ ڈرشلے}{\RL {\arabicfont  1363}}
+\indexentry{Poisson!integral formula}{\RL {\arabicfont  1366}}
+\indexentry{پوسوں!کلیہ تکمل}{\RL {\arabicfont  1366}}

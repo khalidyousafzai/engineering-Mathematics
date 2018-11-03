@@ -1,0 +1,26 @@
+\documentclass{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{bm}	
+\usepackage{amsmath}
+\usepackage{commath}	
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+\usepgfplotslibrary{polar}
+\usepackage{circuitikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{3d,shadings,fadings,intersections,calc}
+
+\begin{document}
+\begin{tikzpicture}[]
+\begin{polaraxis}[]
+\pgfplotstableread{flowCylinderB.txt}\mydata;
+\addplot [ ]table [x expr=\thisrowno{0},y expr=\thisrowno{1} ] {\mydata};
+
+%\node[below] at (axis cs:-0.6,4.4){$\begin{aligned}\gamma_1&=1+j5\pi \\ \sigma_2&=\infty \end{aligned}$};
+
+\end{polaraxis}%
+%
+\end{tikzpicture}%
+
+\end{document}

@@ -188,7 +188,7 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 20}}ساکن برقی سکون}{\RL {\arabicfont 1344}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 20}}دو بعدی بہاو سیال}{\RL {\arabicfont 1350}}
 \contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 20}}ہارمونی تفاعل کے عمومی خواص}{\RL {\arabicfont 1359}}
-\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 20}}پوسوں کلیہ تکمل}{\RL {\arabicfont 1364}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 20}}پوسوں کلیہ تکمل}{\RL {\arabicfont 1365}}
 \contentsline {chapter}{\numberline {\RL {\arabicfont 21}}اعدادی تجزیہ}{\RL {\arabicfont 1373}}
 \contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 21}}خلل اور غلطیاں۔ کمپیوٹر}{\RL {\arabicfont 1374}}
 \contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 21}}دہرانے سے مساوات کا حل}{\RL {\arabicfont 1376}}
@@ -304,10 +304,10 @@
 \contentsline {section}{\numberline {\RL {\arabicfont 20}.\RL {\arabicfont 24}}پیمائشوں کی جوڑیاں۔ سیدھے خطوط کو موافق بنانا}{\RL {\arabicfont 1679}}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1373}}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1377}}
-\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1377}}
-\contentsline {chapter}{\numberline {ج\char "200D}جدول}{\RL {\arabicfont 1387}}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\RL {\arabicfont 1689}}
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{\RL {\arabicfont 1693}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.ب}اعلی تفاعل کے مساوات}{\RL {\arabicfont 1693}}
+\contentsline {chapter}{\numberline {ج\char "200D}جدول}{\RL {\arabicfont 1703}}
 \select@language {english}
 \select@language {arabic}
 \select@language {english}

@@ -1,0 +1,51 @@
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{polaraxis}[axis lines=none]
+\addplot[thick,domain=0:360,smooth]{1};
+\pgfmathsetmacro{\K}{6*pi}
+\pgfmathsetmacro{\c}{-2}
+\addplot[domain=1.06572:1.08]({asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.08:1.391]({asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.3:1.392,->-=0.5]({asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.06572:1.08]({180-asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.08:1.391]({180-asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.3:1.392]({180-asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\pgfmathsetmacro{\c}{-3}
+\addplot[domain=1.10014:1.15]({asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.15:1.696]({asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=3.76:4,->-=0.5]({asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.10014:1.15]({180-asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.15:1.696]({180-asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=3.76:4]({180-asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\pgfmathsetmacro{\c}{-4.092}
+\addplot[domain=1.13891:1.2]({asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.2:1.4]({asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.4:2.4]({asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=2.9:4,->-=0.5]({asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.13891:1.2]({180-asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.2:1.4]({180-asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.4:2.4]({180-asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=2.9:4,-<-=0.5]({180-asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[black] plot coordinates {({asin((\c+\K*2.3026*log10(2.4))/(2*pi*(2.4-1/2.4)))},{2.4})  ({180-asin((\c+\K*2.3026*log10(2.9))/(2*pi*(2.9-1/2.9)))},{2.9}) };
+\addplot[] plot coordinates {({180-asin((\c+\K*2.3026*log10(2.4))/(2*pi*(2.4-1/2.4)))},{2.4})  ({asin((\c+\K*2.3026*log10(2.9))/(2*pi*(2.9-1/2.9)))},{2.9}) };
+\addplot[](90,2.618)node[ocirc]{};
+\pgfmathsetmacro{\c}{-6}
+\addplot[domain=1.20986:1.4]({asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.4:4,->-=0.5]({asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.20986:1.4]({180-asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.4:4]({180-asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\pgfmathsetmacro{\c}{-8}
+\addplot[domain=1.2886:1.4]({asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.4:4,->-=0.5]({asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.2886:1.4]({180-asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.4:4]({180-asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\pgfmathsetmacro{\c}{-10}
+\addplot[domain=1.37176:1.5]({asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.5:4,->-=0.5]({asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.37176:1.5]({180-asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[domain=1.5:4]({180-asin((\c+\K*2.3026*log10(x))/(2*pi*(x-1/x)))},{x});
+\addplot[] plot coordinates {(-20,3)}node[]{$K=6\pi$};
+\end{polaraxis}
+\end{tikzpicture}
+\end{figure}

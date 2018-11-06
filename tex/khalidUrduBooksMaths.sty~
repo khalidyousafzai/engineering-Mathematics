@@ -1,4 +1,4 @@
-\ProvidesPackage{khalidUrduBooksEMT}
+\ProvidesPackage{khalidUrduBooksMaths}
 \usepackage{fontspec}
 \usepackage{makeidx}
 \usepackage{amsmath}                                                                         %\tfrac for fractions in text
@@ -51,11 +51,10 @@
 \setotherlanguages{english}
 
 
-%\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+
 \newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}
-%\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
 \newfontfamily\urduTechTermsfont[Scale=1.0,Script=Arabic]{XB Tabriz Bold}
-\newfontfamily\urdufont[Scale=1.25,WordSpace=60.0,Script=Arabic]{Jameel Noori Nastaleeq}
+\newfontfamily\urdufont[Scale=1.0,WordSpace=60.0,Script=Arabic]{Jameel Noori Nastaleeq}
 %\newfontfamily\urduTechTermsfont[Scale=1.25,WordSpace=35.0,Script=Arabic]{Jameel Noori Nastaleeq Kasheeda}
 \newfontfamily\urdufontBig[Scale=1.25,WordSpace=60.0,Script=Arabic]{Jameel Noori Nastaleeq}
 \setlength{\parskip}{5mm plus 4mm minus 3mm}

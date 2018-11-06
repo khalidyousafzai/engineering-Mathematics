@@ -360,3 +360,6 @@
 \select@language {arabic}
 \select@language {english}
 \select@language {arabic}
+\contentsline {chapter}{فرہنگ}{\RL {\arabicfont 1723}}
+\select@language {english}
+\select@language {arabic}

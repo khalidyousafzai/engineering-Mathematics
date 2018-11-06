@@ -58,9 +58,10 @@
 \graphicspath{{./fig/figFrontPage/}{./fig/figFirstOrderOrdinaryDifferentialEquations/}{./fig/figSecondOrderOrdinaryDifferentialEquations/}{./fig/figSystemOfDifferentialEquations/}{./fig/figBesselFunction/}{./fig/figLinearAlgebra/}{./fig/figVectorDifferentialCalculus/}{./fig/figFourierSeries/}{./fig/figPartialDifferentialEquations/}{./fig/figAnalyticFunctions/}{./fig/figConformalMapping/}{./fig/figPotentialTheory/}{./fig/figStatistics/}{./fig/figAppendixAuxiliaryMaterial/}}%paths to figures
 
 
-%\includeonly{./tex/mathPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathSecondOrderDifferentialEquations,./tex/mathHigherOrderDifferentialEquations,./tex/mathSystemOfDifferentialEquations,./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations,./tex/mathLaplaceTransformation,./tex/mathVectors,./tex/mathLinearAlgebra,./tex/mathEigenvalueMatrixProblems,./tex/mathVectorDifferentialCalculus,./tex/mathVectorIntegralCalculus,./tex/mathFourierSeries,./tex/mathPartialDifferentialEquations,./tex/mathComplexAnalyticFunctions,./tex/mathConformalMapping,./tex/mathComplexIntegrals,./tex/mathSequencesAndSeries,./tex/mathPowerSeriesTaylorLaurent,./tex/mathIntegrationByMethodOfResidues,./tex/mathComplexAnalyticFunctionsAndPotentialTheory,./tex/mathNumericalAnalysis,./tex/mathNumericalMethodsInLinearAlgebra,./tex/mathNumericalMethodsForDifferentialEquations,./tex/mathProbabilityAndStatistics,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial,./tex/mathTables}
-\includeonly{./tex/mathPreface,./tex/prefaceFirstBook,./tex/mathVectorIntegralCalculus,./tex/mathFourierSeries,./tex/mathPartialDifferentialEquations,./tex/mathComplexAnalyticFunctions,./tex/mathConformalMapping,./tex/mathComplexIntegrals,./tex/mathSequencesAndSeries,./tex/mathPowerSeriesTaylorLaurent,./tex/mathIntegrationByMethodOfResidues,./tex/mathComplexAnalyticFunctionsAndPotentialTheory,./tex/mathNumericalAnalysis,./tex/mathNumericalMethodsInLinearAlgebra,./tex/mathNumericalMethodsForDifferentialEquations,./tex/mathProbabilityAndStatistics,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial,./tex/mathTables}
-%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathQuestions,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial,./tex/mathTables}%
+\includeonly{./tex/mathPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathSecondOrderDifferentialEquations,./tex/mathHigherOrderDifferentialEquations,./tex/mathSystemOfDifferentialEquations,./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations,./tex/mathLaplaceTransformation,./tex/mathVectors,./tex/mathLinearAlgebra,./tex/mathEigenvalueMatrixProblems,./tex/mathVectorDifferentialCalculus,./tex/mathVectorIntegralCalculus,./tex/mathFourierSeries,./tex/mathPartialDifferentialEquations,./tex/mathComplexAnalyticFunctions,./tex/mathConformalMapping,./tex/mathComplexIntegrals,./tex/mathSequencesAndSeries,./tex/mathPowerSeriesTaylorLaurent,./tex/mathIntegrationByMethodOfResidues,./tex/mathComplexAnalyticFunctionsAndPotentialTheory,./tex/mathNumericalAnalysis,./tex/mathNumericalMethodsInLinearAlgebra,./tex/mathNumericalMethodsForDifferentialEquations,./tex/mathProbabilityAndStatistics,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial,./tex/mathTables}
+%\includeonly{./tex/mathPreface,./tex/prefaceFirstBook,./tex/mathVectorIntegralCalculus,./tex/mathFourierSeries,./tex/mathPartialDifferentialEquations,./tex/mathComplexAnalyticFunctions,./tex/mathConformalMapping,./tex/mathComplexIntegrals,./tex/mathSequencesAndSeries,./tex/mathPowerSeriesTaylorLaurent,./tex/mathIntegrationByMethodOfResidues,./tex/mathComplexAnalyticFunctionsAndPotentialTheory,./tex/mathNumericalAnalysis,./tex/mathNumericalMethodsInLinearAlgebra,./tex/mathNumericalMethodsForDifferentialEquations,./tex/mathProbabilityAndStatistics,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial,./tex/mathTables}
+%
+%\includeonly{./tex/cktSymbols,./tex/cktPreface,./tex/prefaceFirstBook,./tex/mathNumericalMethodsForDifferentialEquations,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial,./tex/mathTables}%
 
 
 \author{
@@ -74,7 +75,7 @@
 
 
 
-\title{انجینئری حساب \\ {\small{(جلد دوم)}}}
+\title{انجینئری حساب}
 \date{}                           %if absent gives date in arabic which is a rubbish
 
 %\linenumbers

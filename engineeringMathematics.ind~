@@ -1,13 +1,11 @@
 \begin{theindex}
 \begin{otherlanguage}{english}
-  \item $m^{th}$ normal mode, 1014
-
-  \indexspace
 
   \item absolute
     \subitem value, 1047
   \item absorber, 118
   \item acceleration vector, 739
+  \item acceptance number, 1661
   \item ADI
     \subitem alternating direction implicit method, 1502
   \item aerodynamics, 1152
@@ -18,9 +16,13 @@
   \item algebraic equations, 1376
   \item algebraic multiplicity, 668
   \item algorithm, 1437
+  \item alternative
+    \subitem left-sided, 1640
+    \subitem one-sided, 1640
+    \subitem two-sided, 1640
   \item ammeter, 588
   \item amplitude, 117, 166
-  \item analytic, 14, 308, 1304
+  \item analytic, 14, 308, 1303
     \subitem continuation, 1268
     \subitem function, 1063
   \item angular speed, 527, 739
@@ -37,6 +39,7 @@
     \subitem element of, 829
   \item Argand diagram, 1040
   \item argument, 1047
+  \item assume, 1569
   \item asymptotic
     \subitem expansion, 1423
   \item asymptotically equal, 355
@@ -47,17 +50,18 @@
 
   \indexspace
 
+  \item bar graph, 1531
   \item basis, 87, 502, 596, 647
     \subitem of solution, 608
     \subitem of solutions, 86
   \item beats, 164
-  \item bell curve, 991
+  \item bell curve, 991, 1592
   \item bell shaped, 24
   \item bending moment, 214
-  \item Benjamin Gompertz, 37
+  \item Benjamin Gompertz, 36
   \item Bernoulli
     \subitem equation, 58
-  \item Bernoulli numbers, 1281
+  \item Bernoulli numbers, 1280
   \item Bessel
     \subitem equation, 351
     \subitem function, first kind, 353
@@ -69,8 +73,10 @@
     \subitem second kind, order $\nu $, 369
     \subitem third kind, 370
   \item binomial
-    \subitem coefficients, 1397
+    \subitem coefficients, 1397, 1566
+    \subitem distribution, 1585
   \item binormal, 734
+  \item blood pressure, 1547
   \item Bolzano and Weierstrass, 1214
   \item bound vector, 485
   \item boundary
@@ -84,7 +90,7 @@
   \indexspace
 
   \item calculus, 299
-  \item cancer, 37
+  \item cancer, 36
   \item canonical form, 696
   \item capacitance, 1029
   \item capacitor, 169
@@ -94,7 +100,7 @@
     \subitem Hadamard formula, 1248
     \subitem inequality, 1197
     \subitem integral formula, 1189
-    \subitem principal value, 1339
+    \subitem principal value, 1337
     \subitem product, 1251
   \item Cauchy determinant, 200
   \item Cauchy Rienmann
@@ -112,9 +118,11 @@
     \subitem acceleration, 740
     \subitem force, 740
   \item chain rule, 91
+  \item chance, 1530
   \item characteristic
     \subitem equation, 228
     \subitem functions, 964, 1000
+    \subitem operating, 1643
     \subitem values, 964, 1000
   \item characteristic determinant, 228
   \item characteristic equation, 95, 198
@@ -124,7 +132,13 @@
   \item Cholesky, 1440
   \item circle
     \subitem unit, 1055
-  \item circulation, 867, 1353
+  \item circulation, 867, 1351
+  \item class, 1537
+    \subitem frequency, 1537
+    \subitem intervals, 1537
+    \subitem marks, 1537
+    \subitem midpoints, 1537
+    \subitem relative frequency, 1537
   \item closed
     \subitem formula, 1418
   \item coaxial cable, 71
@@ -139,8 +153,11 @@
     \subitem vector, 542
   \item column space, 597
   \item columns, 542
+  \item combinations, 1563
   \item commutative, 568
     \subitem non, 223
+  \item comparison
+    \subitem paired, 1648
   \item complement, 1056
   \item complex
     \subitem extended plane, 1126
@@ -156,6 +173,11 @@
     \subitem ill, 1453
     \subitem well, 1453
   \item conductance, 1029
+  \item confidence
+    \subitem level, 1623
+    \subitem lower limit, 1623
+    \subitem upper limit, 1623
+  \item confidence interval, 1618
   \item conformal, 1116
     \subitem map, 1103
     \subitem mapping, 1103
@@ -167,14 +189,22 @@
     \subitem field, 778
   \item conservative field, 759
   \item consistent, 580, 609
+  \item consumer's risk, 1664
   \item continuity
     \subitem equation, 774
-  \item continuous, 745, 1061
+  \item continuous, 745, 1061, 1570, 1572
     \subitem partial differential, 39
     \subitem piecewise, 400
   \item continuous function, 40, 73
   \item contour, 1180
     \subitem integral, 1180
+  \item control
+    \subitem central line, 1654
+    \subitem chart, 1654
+    \subitem lower limit, 1654
+    \subitem quality, 1654
+    \subitem upper limit, 1654
+  \item control process, 1660
   \item converge, 305
   \item convergence
     \subitem circle, 1247
@@ -182,11 +212,11 @@
   \item convergent, 1209
     \subitem absolutely, 1211
     \subitem conditional, 1212
-    \subitem uniform, 1284
+    \subitem uniform, 1283
   \item conversion
     \subitem real sequences, 1220
   \item convolution, 454
-  \item coordinate curves, 823
+  \item coordinate curves, 822
   \item coordinates, 485
     \subitem cylindrical, 1009
     \subitem polar, 1006
@@ -194,14 +224,17 @@
   \item coplanar, 503
   \item Coriolis acceleration, 741, 742
   \item correction, 1374
+  \item correlation analysis, 1679
   \item corresponding, 222
   \item cosmic rays, 24
   \item Coulomb, 170
+  \item covariance, 1611, 1681
   \item Cramer's
     \subitem theorem, 194
   \item Cramer's rule, 196, 610, 620
   \item critical
     \subitem point, 1117
+    \subitem value, 1640
   \item critical damping, 119
   \item critical point, 251
   \item critical points, 61
@@ -227,11 +260,19 @@
   \item damping constant, 118
   \item De Moivre
     \subitem formula, 1049
+  \item De Morgan' laws, 1553
   \item defect, 668
+  \item defective, 1529
+    \subitem fraction, 1662
+  \item defectives, 1661
   \item defined, 4
   \item degenerate node, 258
+  \item degree
+    \subitem number of freedom, 1626
   \item demand
     \subitem matrix, 679
+  \item density, 1573
+  \item dependent, 1608
   \item derivative, 715
     \subitem defined, 1061
     \subitem directional, 752
@@ -239,13 +280,15 @@
     \subitem Cauchy, 200
     \subitem higher order, 613
   \item determined, 580
+  \item deviation
+    \subitem significant, 1637
   \item diagonal
     \subitem main, 221
     \subitem matrix, 562
   \item difference, 548
-    \subitem backward, 1390
-    \subitem central, 1389
-    \subitem divided, 1399
+    \subitem backward, 1391
+    \subitem central, 1388
+    \subitem divided, 1400
     \subitem first, 1388
     \subitem forward, 1390
     \subitem second, 1388
@@ -272,14 +315,28 @@
   \item directional derivative, 752
   \item Dirichlet
     \subitem problem, 1495
-  \item Dirichlet problem, 1365
+  \item Dirichlet problem, 1364
   \item Dirichlet' discontinuous factor, 945
+  \item discrete, 1570
+    \subitem distribution, 1603
+    \subitem variable, 1603
   \item discriminant, 266
   \item disk
     \subitem circular, 1054
     \subitem closed, 1054
     \subitem open, 1054
   \item displacement, 52
+  \item distribution, 1571
+    \subitem F, 1650
+    \subitem function, 1571, 1603
+    \subitem Gauss, 1592
+    \subitem hypergeometric, 1587
+    \subitem marginal, 1606
+    \subitem multinomial, 1591
+    \subitem normal, 1592
+    \subitem Poisson, 1586
+    \subitem uniform, 1578
+  \item distribution function of the grouped sample, 1537
   \item divergence, 769
   \item divergent, 305, 1202, 1209
   \item domain, 244, 711, 746, 1057, 1059
@@ -305,6 +362,7 @@
   \item Eigenvectors, 227
   \item eigenvectors, 663
   \item electric field, 71
+  \item element, 1547
   \item elementary function, 276
   \item elements, 542
   \item ellipse, 255
@@ -325,20 +383,23 @@
     \subitem points, 61
     \subitem solution, 61
   \item equipotential
-    \subitem lines, 1355
-    \subitem surfaces, 1346
+    \subitem lines, 1353
+    \subitem surfaces, 1344
   \item equipotential lines, 71
   \item error, 1374
-    \subitem analysis, 1373
-    \subitem bound, 1374, 1412
+    \subitem analysis, 1374
+    \subitem bound, 1375, 1412
     \subitem building-up, 1492
     \subitem complementary function, 1424
-    \subitem experimental, 1374
+    \subitem experimental, 1375
     \subitem function, 990, 1424
     \subitem relative, 1374
     \subitem round off, 1375
     \subitem total square, 937
     \subitem truncation, 1375, 1479
+  \item estimate
+    \subitem interval, 1622, 1623
+    \subitem point, 1618
   \item Euclidean norm, 484
   \item Euclidean space, 650
   \item Euler
@@ -349,24 +410,35 @@
     \subitem generalized formula, 1003
     \subitem improved method, 1480
     \subitem method, 15, 1479
-    \subitem numbers, 1281
+    \subitem numbers, 1280
   \item Euler Cauchy method, 1479
   \item Euler equation, 101
   \item Euler's method, 15
   \item Euler-Cauchy equation, 130
   \item even, 907
     \subitem periodic extension, 916
-  \item Everett formula, 1398
-  \item exact differential equation, 40
+  \item event, 1548
+    \subitem disjoint, 1549
+    \subitem empty, 1549
+    \subitem impossible, 1549
+    \subitem independent events, 1558
+    \subitem mutually exclusive, 1549
+    \subitem subevent, 1550
+  \item Everett formula, 1399
+  \item exact differential equation, 39
   \item exact differential form, 870
   \item existence, 2, 138, 604
     \subitem solution, 143, 195
+  \item expectation
+    \subitem mathematical, 1577, 1580, 1610
+  \item experiment, 1546
   \item explicit, 3
 
   \indexspace
 
   \item factorial, 353
   \item factorization, 111
+  \item failure, 1585
   \item Farad, 170
   \item field
     \subitem scalar, 711
@@ -379,7 +451,7 @@
   \item fluid, 772
   \item force, 52
     \subitem input, 159
-    \subitem lines, 1348
+    \subitem lines, 1346
     \subitem periodic, 159
     \subitem restoring, 115
   \item forcing function, 52
@@ -402,14 +474,23 @@
     \subitem partial, 1079
   \item free
     \subitem motion, 124
-  \item frequency, 116
+  \item frequency, 116, 1532
+    \subitem absolute, 1532
+    \subitem cumulative, 1532
+    \subitem cumulative function of sample, 1536
+    \subitem cumulative relative, 1534
+    \subitem distribution, 1534
+    \subitem function of the grouped sample, 1537
+    \subitem function of the sample, 1534
+    \subitem relative, 1532
   \item friction
     \subitem coefficient, 37
   \item Frobenius method, 299, 332
   \item function
-    \subitem entire, 1078, 1310
+    \subitem entire, 1078, 1309
     \subitem forcing, 159
-    \subitem meromorphic, 1300, 1310
+    \subitem likelihood, 1619
+    \subitem meromorphic, 1300, 1309
     \subitem vector, 712
   \item fundamental
     \subitem matrix, 247
@@ -445,18 +526,20 @@
   \item Gibbs phenomenon, 946
   \item gland, 57
   \item gradient, 753
-  \item graph paper, 1410
+  \item graph paper, 1411
   \item graphical, 14
   \item Green
     \subitem first formula, 855
     \subitem second formula, 855
-  \item grouping, 1237
+  \item grouping, 1237, 1537
   \item gun, 169
 
   \indexspace
 
   \item half range expansion, 917
   \item Hankel functions, 370
+  \item hardness
+    \subitem Brinell, 1686
   \item harmonic, 860
     \subitem conjugate function, 1073
     \subitem function, 1073
@@ -494,17 +577,20 @@
     \subitem partial differential, 976
   \item hyperbolic cosine, 1091
   \item hyperbolic sine, 1091
-  \item hypergeometric equation, 338
+  \item hypergeometric equation, 339
   \item hypergeometric function, 348
   \item hypergeomitric
     \subitem series, 348
+  \item hypothesis, 1636
+    \subitem alternative, 1640
+    \subitem default, 1640
 
   \indexspace
 
   \item identically zero, 80, 140, 193
   \item identity
     \subitem operator, 110
-  \item ill-conditioned, 1383
+  \item ill-conditioned, 1384
   \item image, 651, 1104
     \subitem point, 1104
   \item imaginary
@@ -516,21 +602,24 @@
   \item implicit, 3
   \item implicit solution, 40
   \item improper
-    \subitem integral, 1331
+    \subitem integral, 1329
   \item improper integral, 397
   \item impulse, 437
   \item in-phase, 174
   \item inconsistent, 580
+  \item independent, 1608
   \item independent of path, 870
   \item index, 300
     \subitem shifting, 313
   \item indicial equation, 335
+  \item indifferent lot, 1664
   \item inductance, 1029
   \item induction, 112
   \item inductor, 55
   \item inequality
     \subitem Cauchy-Schwarz, 650
     \subitem triangle, 650
+  \item inflection point, 1599
   \item initial
     \subitem value problem, 1477
   \item initial conditions, 954, 960
@@ -548,7 +637,7 @@
   \item integral
     \subitem complementary fresnel, 1433
     \subitem complementary sine, 1433
-    \subitem contour, 1180, 1318
+    \subitem contour, 1180, 1316
     \subitem cosine, 1433
     \subitem double, 797
     \subitem fresnel, 1434
@@ -560,24 +649,26 @@
   \item integration
     \subitem by parts, 57
     \subitem numerical, 1410
-    \subitem numerical, trapezoidal rule, 1412
+    \subitem numerical, trapezoidal rule, 1411
     \subitem numerical,rectangular rule, 1411
-  \item interpolation, 1394
+  \item interpolation, 1395
     \subitem Everett formula, 1398
     \subitem Lagragian, 1400
     \subitem linear, 1395
-    \subitem quadratic, 1395
-  \item intersection
+    \subitem quadratic, 1396
+  \item intersection, 1549
     \subitem angle, 68
   \item interval
+    \subitem confidence, 1623
     \subitem convergence, 306
+    \subitem estimate, 1618
     \subitem of convergence, 1247
     \subitem open, 4
   \item into, 1104
   \item inverse
     \subitem matrix, 226, 629
   \item inverse transform, 654
-  \item irrotational, 778, 1354
+  \item irrotational, 778, 1352
   \item isoclines, 20, 284
   \item isolated, 274
   \item isotherms, 72
@@ -586,7 +677,7 @@
   \item iteration
     \subitem Gauss-Seidel, 1446
     \subitem matrix, 1447
-    \subitem method of false position, 1383
+    \subitem method of false position, 1384
   \item iterative method, 1446
 
   \indexspace
@@ -621,6 +712,7 @@
     \subitem series, 1294
   \item leading, 176
   \item least squares
+    \subitem method, 1679
     \subitem method of, 1458
     \subitem normal equations, 1459
   \item Legendre
@@ -632,10 +724,12 @@
   \item length, 726
   \item Leslie model, 675
   \item level surfaces, 755
+  \item lifetime, 1530
   \item limit, 408, 714, 1060, 1202
     \subitem left hand, 895
     \subitem point, 1213
     \subitem right hand, 895
+    \subitem three-sigma, 1595
   \item limit cycle, 284
   \item limit vector, 714
   \item linear, 187, 953
@@ -695,6 +789,8 @@
     \subitem stochastic, 563
     \subitem tridiagonal, 1501
     \subitem zero, 549
+  \item mean, 1576
+  \item median, 1544
   \item meridian, 741
   \item mesh
     \subitem point, 1498
@@ -703,6 +799,9 @@
     \subitem Crank-Nicolson, 1517
     \subitem first order, 1479
     \subitem Liebmann, 1498
+    \subitem maximum likelihood, 1619
+    \subitem of full coding, 1546
+    \subitem of working origin, 1545
     \subitem relaxation, 1449
   \item minor, 612, 614
   \item missile, 743
@@ -710,9 +809,10 @@
     \subitem problem, 1495
   \item mixed triple product, 533
   \item Mobius strip, 839
+  \item mode, 1545
   \item model
     \subitem Leontief, 678
-    \subitem mathematical, 1, 2
+    \subitem mathematical, 1, 2, 1531
   \item modeling, 2
   \item modular surface, 1092
   \item modulus, 1047
@@ -720,9 +820,13 @@
     \subitem Young's, 213
   \item moment
     \subitem bending, 214
+    \subitem central, kth, 1581
+    \subitem k, 1581
   \item moment of inertia, 127, 213, 800
     \subitem polar, 801
   \item moment vector, 526
+  \item moments
+    \subitem method of, 1619
   \item monotone
     \subitem decreasing, 1220
     \subitem increasing, 1220
@@ -738,15 +842,15 @@
 
   \item natural frequency, 116
   \item necessary condition
-    \subitem exactness, 41
+    \subitem exactness, 40
   \item neighbourhood, 1054
   \item Neumann
     \subitem problem, 1495
   \item Neumann's function, 368
   \item Newton
-    \subitem backward-difference interpolation formula, 1397
+    \subitem backward-difference interpolation formula, 1398
     \subitem divided difference interpolation formula, 1399
-    \subitem forward-difference interpolation formula, 1396
+    \subitem forward-difference interpolation formula, 1397
     \subitem law of cooling, 28
   \item nodal
     \subitem lines, 1000
@@ -755,11 +859,12 @@
     \subitem improper, 252
     \subitem proper, 252
   \item nodes, 1404
-  \item non exact, 44
+  \item non exact, 43
   \item non homogeneous
     \subitem partial differential equation, 953
   \item non linear, 188
   \item non trivial solution, 194
+  \item nondefective, 1529
   \item nonhomogeneous, 188, 1436
     \subitem system, 571, 607
   \item nonhomogenous
@@ -771,26 +876,31 @@
   \item norm, 373, 519, 649
     \subitem Frobenius, 1466
     \subitem Schur, 1466
-  \item normal, 755, 826, 1466
+  \item normal, 755, 826, 1466, 1592
+    \subitem asymptotically, 1633
     \subitem principal unit vector, 734
   \item normal mode, 964, 1014
   \item normal vector
     \subitem unit, 826
+  \item normally distributed, 1592
   \item null
     \subitem set, 598
   \item null space, 608
   \item null vector, 487
   \item nullity, 598, 608
   \item numerical, 14
+    \subitem analysis, 1373
     \subitem differentiation, 1418
     \subitem integration, 1410
     \subitem integration, rectangular rule, 1411
-    \subitem integration, trapezoidal rule, 1412
+    \subitem integration, trapezoidal rule, 1411
     \subitem methods, 1373
   \item numerical method, 198
 
   \indexspace
 
+  \item observation, 1546
+  \item observed, 1569
   \item odd, 907
     \subitem periodic extension, 916
   \item Ohm, 55
@@ -800,11 +910,12 @@
   \item open, 746
     \subitem formula, 1418
     \subitem interval, 4
+  \item operating characteristic curve, 1662
   \item operator, 110, 651
     \subitem differential, 110
     \subitem identity, 110
     \subitem Laplacian, 758
-  \item order, 1306, 1308
+  \item order, 1305, 1308
     \subitem iteration method, 1383
     \subitem Legendre, 304
     \subitem partial differential equation, 953
@@ -820,6 +931,7 @@
     \subitem set, 374
   \item oscillations, 79
     \subitem damped, 102, 122
+  \item outcome, 1547
   \item output, 52, 159
   \item over damping, 119
   \item overdetermined, 580
@@ -832,7 +944,7 @@
     \subitem hexagonal, 534
     \subitem rectangular, 772
   \item parallelogram equality, 650
-  \item parameter, 69
+  \item parameter, 69, 1618
   \item parametric
     \subitem representation, 720
   \item parametric curve, 250
@@ -842,9 +954,11 @@
   \item path
     \subitem principle of deformation, 1179
   \item Pauli spin matrices, 707
+  \item percentile, 1544
   \item period, 884
   \item periodic, 884
     \subitem force, 159
+  \item permutation, 1562
   \item phase
     \subitem portrait, 250
   \item phase angle, 117, 166
@@ -857,48 +971,56 @@
     \subitem partial pivoting, 1439
     \subitem total pivoting, 1439
   \item pivotal coefficient, 1438
-  \item pivotal value, 1394
+  \item pivotal value, 1395
   \item plane curve, 721
-  \item planimeter, 813, 1410
+  \item planimeter, 813, 1411
   \item Plank' constant, 239
-  \item point
-    \subitem accmulation, 1307
+  \item point, 1547
+    \subitem accmulation, 1306
     \subitem at infinity, 1126
     \subitem fixed, 1126
-    \subitem isolated, 1307
-    \subitem limit, 1307
+    \subitem isolated, 1306
+    \subitem limit, 1306
     \subitem regular, 333, 334
     \subitem saddle, 252
     \subitem spiral, 252
   \item Poisson
-    \subitem integral formula, 1368
+    \subitem integral formula, 1366
   \item polar
     \subitem form, 1047
   \item polar coordinates, 803, 1006
   \item pole, 1300, 1308
     \subitem simple, 1308
   \item polynomial, 110, 1078
+  \item population, 1530
   \item population growth, 59
   \item position vector, 487
   \item potential
-    \subitem complex, 1347, 1356
-    \subitem electrostatic, 1346
-    \subitem theory, 1345
+    \subitem complex, 1345, 1354
+    \subitem electrostatic, 1344
+    \subitem theory, 1343
   \item potential function, 757
   \item potential theory, 1018
   \item power
+    \subitem function, 1643
     \subitem series, 1244
   \item power series, 299
     \subitem value or sum, 305
   \item power series method, 299
   \item predictor-corrector method, 1481
   \item principal
-    \subitem part, 1308
+    \subitem part, 1307
     \subitem unit normal vector, 734
     \subitem value, 1048, 1079, 1096, 1098
   \item Principal Axes Theorem, 695
   \item principal axis, 672
   \item principal normal, 734
+  \item probability, 1554
+    \subitem conditional, 1557
+    \subitem distribution, 1571
+    \subitem function, 1570
+    \subitem two-dimensional function, 1603
+  \item producer's risk, 1664
   \item product
     \subitem inner, 505, 648
   \item projection, 508
@@ -910,8 +1032,18 @@
   \item quadratic equation, 95
   \item qualitative method, 219
   \item qualitative methods, 273
+  \item quality
+    \subitem acceptable level, 1664
+    \subitem average outgoing, 1665
+    \subitem average outgoing limit, 1665
+    \subitem rejectable level, 1664
   \item quantitative method, 219
   \item quantum mechanics, 110, 227, 331, 700
+  \item quartile
+    \subitem interquartile range, 1545
+    \subitem lower, 1545
+    \subitem middle, 1545
+    \subitem upper, 1545
   \item quasilinear, 1495
 
   \indexspace
@@ -920,7 +1052,14 @@
   \item radium, 9
   \item radius
     \subitem convergence, 306
-  \item range, 1059
+  \item random
+    \subitem at, 1530
+    \subitem selection, 1615
+    \subitem two-dimensional variable, 1603
+    \subitem variable, 1569
+  \item random number generator, 1616
+  \item random variation, 1530
+  \item range, 1059, 1544
   \item rank, 583, 592
   \item rational
     \subitem function, 1078
@@ -930,9 +1069,12 @@
     \subitem axis, 1039
     \subitem part, 1038
     \subitem sequence, 1202
+  \item real time
+    \subitem computing, 1373
   \item rearrangement, 1239
   \item rectangular matrix, 545
   \item rectifiable, 726
+  \item rectified, 1665
   \item rectifier
     \subitem full wave, 450
     \subitem half wave, 451
@@ -943,11 +1085,20 @@
   \item reduction
     \subitem order, 89
   \item region, 1057
+    \subitem acceptance, 1640
+    \subitem critical, 1640
+    \subitem rejection, 1640
+  \item regression
+    \subitem coefficient, 1681, 1683
+  \item regression analysis, 1679
+  \item regression line, 1681
   \item regular point, 333, 334
+  \item reject, 1636
+    \subitem not, 1636
   \item relaxation methods, 1449
   \item remainder, 304, 1209
   \item residual, 1449, 1455
-  \item residue, 1318
+  \item residue, 1316
   \item resistance, 55, 1029
   \item resonance, 159, 162, 459
     \subitem factor, 162
@@ -958,13 +1109,14 @@
     \subitem number sphere, 1305
     \subitem surface, 1150
   \item right handed, 522
+  \item Rockwell, 1529
   \item Rodrigues' formula, 322
   \item Rodrigues's
     \subitem polynomials, 467
   \item Rodrigues's formula, 467
   \item root, 1079
   \item roots, 1376
-  \item rotation, 1354
+  \item rotation, 1352
   \item row, 221
     \subitem vector, 542
   \item row equivalent, 579, 592
@@ -979,6 +1131,16 @@
   \indexspace
 
   \item saddle, 252
+  \item sample, 1530
+    \subitem mean, 1541
+    \subitem size, 1531
+    \subitem space, 1547
+    \subitem variance, 1541
+  \item sample distribution function, 1536
+  \item sampling
+    \subitem double plan, 1666
+    \subitem single plan, 1661
+  \item sampling plan, 1661
   \item saw tooth wave, 911
   \item saw-tooth wave, 451
   \item scalar, 227
@@ -1017,28 +1179,32 @@
   \item shearing force, 214
   \item shock absorber, 128
   \item sifting property, 438
+  \item significant
+    \subitem level, 1640
   \item significant digits, 1375
   \item similar
     \subitem matrix, 689
   \item similarity transformation, 689
-  \item simply connected, 822, 876
+  \item simply connected, 821, 876
   \item Simpson's rule, 1415
+  \item simulation, 1617
   \item simultaneous equations, 88
   \item sine integral, 945
   \item single valued, 870
-  \item singular, 1304
+  \item singular, 1303
     \subitem irregular , 333
     \subitem matrix, 226, 630
     \subitem regular point, 333
-    \subitem solution, 6
+    \subitem solution, 6, 144
   \item singular point, 334, 1267
   \item singular solution, 88
   \item singularity, 1267
     \subitem essential, 1300, 1308
-  \item sink, 1354, 1359
+  \item sink, 1352, 1357
   \item size, 544
   \item skew Hermitian, 701
   \item skew-symmetric, 248, 561, 680
+  \item skewness, 1583
   \item slope
     \subitem field, 14
   \item smooth
@@ -1058,7 +1224,7 @@
   \item solution vector, 244
   \item solutions
     \subitem periodic, 268
-  \item source, 852, 1354, 1359
+  \item source, 852, 1352, 1357
   \item source intensity, 852
   \item space
     \subitem Euclidean, 650
@@ -1084,11 +1250,14 @@
   \item stable, 61, 156, 267
   \item stable and attractive, 267
   \item stair case, 452
+  \item standard deviation, 1541, 1577
   \item standard form
     \subitem second order, 80
   \item state
     \subitem limit, 674
   \item state vector, 564
+  \item statistics
+    \subitem order, 1674
   \item steady state, 56
   \item steady state response, 57
   \item steady state solution, 165
@@ -1096,11 +1265,17 @@
     \subitem function, 421, 1411
     \subitem length, 1484
   \item step by step method, 1478
+  \item step function, 1572
+  \item Stirling formula, 1565
+  \item stochastic
+    \subitem variable, 1569
   \item stochastic matrix, 563
   \item Stokes' theorem, 862
   \item stream
-    \subitem function, 1356
-  \item streamline, 1352
+    \subitem function, 1354
+  \item streamline, 1350
+  \item strength
+    \subitem breaking, 1601
   \item Sturm-Liouville
     \subitem boundary conditions, 379
   \item Sturm-Liouville equation, 379
@@ -1109,8 +1284,9 @@
   \item subset, 596
   \item subsidiary equation, 409
   \item subspace, 596
+  \item success, 1585
   \item sufficient condition
-    \subitem exactness, 41
+    \subitem exactness, 40
   \item sum
     \subitem partial, 1209
   \item summation, 300
@@ -1127,10 +1303,12 @@
     \subitem skew, 248
   \item system
     \subitem fundamental, 246
+    \subitem linearized, 275
 
   \indexspace
 
   \item tail, 484
+  \item tally mark, 1532
   \item tangent, 733, 734
     \subitem unit vector, 733
   \item tangent plane, 755, 826
@@ -1139,11 +1317,17 @@
     \subitem series, 1265
   \item Tchebichef polynomials, 393
   \item terms, 1201, 1209
-  \item test
+  \item test, 1636
     \subitem comparison, 1225
+    \subitem distribution-free, 1674
     \subitem Leibniz, 1221
+    \subitem nonparametric, 1674
+    \subitem power, 1642
     \subitem ratio, 1227
+    \subitem right-sided, 1640
+    \subitem two-sided, 1640
   \item theorem
+    \subitem binomial, 1568
     \subitem Collatz, 1467
     \subitem existence, 73
     \subitem Gershgorin, 1464
@@ -1179,6 +1363,7 @@
     \subitem solution, 165
   \item transpose matrix, 225, 558
   \item transposition, 225, 558
+  \item trial, 1547
   \item triangle inequality, 650, 1050
   \item triangular
     \subitem lower matrix, 561
@@ -1187,6 +1372,8 @@
     \subitem form, 1047
   \item trihedron, 734
   \item trivial solution, 52, 571, 607
+  \item truncation
+    \subitem error, 895
   \item twisted curve, 721
 
   \indexspace
@@ -1195,6 +1382,7 @@
   \item undefined, 421
   \item under damping, 119
   \item underdetermined, 580
+  \item union, 1549
   \item unique
     \subitem general solution, 6
   \item uniqueness, 2, 138, 605, 1257
@@ -1211,8 +1399,13 @@
 
   \item vacuum tube, 284
   \item value, 1209
+  \item values
+    \subitem possible, 1572
   \item van der Pol equation, 284
+  \item variable
+    \subitem standardized, 1580
   \item variable separation, 23
+  \item variance, 1577
   \item variation of parameter, 60, 180
   \item vector, 484, 541, 542
     \subitem bound, 485
@@ -1230,14 +1423,15 @@
   \item vector space, 499, 596
     \subitem real, 499, 645
   \item velocity, 739
-    \subitem potential, 1355
+    \subitem potential, 1353
+  \item Venn diagram, 1548
   \item Verhulst equation, 59
   \item voltage, 52, 55, 133
   \item voltage division, 588
-  \item vortex, 1359
-  \item vorticity, 1354
+  \item vortex, 1357
+  \item vorticity, 1352
 
-  \indexspace
+  \newpage
 
   \item wave
     \subitem one dimensional equation, 960
@@ -1255,1560 +1449,1812 @@
 
   \indexspace
 
-  \item zero, 1306
+  \item zero, 1305
     \subitem matrix, 549
     \subitem vector, 487, 549
   \item zero vector, 226
 \end{otherlanguage}
   \newpage
+\item آبادی، 1530
+\item آثار
+   \subitem قالب، 693
+\item آرشمیدس
+   \subitem اصول، 126
+\item آزاد
+   \subitem حرکت، 124
+\item آگے، 176
+\item آلہ
+   \subitem موسیقی، 164
+\item آئگنی
+   \subitem اقدار، 1000، 1463
+   \subitem تفاعل، 964، 1000
+   \subitem سمتیہ، 1463
+   \subitem قدر، 964
+\item آئگنی قدر، 379
+\indexspace
+\item ابتدائی
+   \subitem شرائط، 191
+   \subitem قیمت مسئلہ، 1477
+\item ابتدائی شرائط، 954، 960
+\item ابتدائی قیمت
+   \subitem مسئلہ، 1488
+\item ابتدائی قیمت سوال، 8
+\item ابتدائی قیمتیں، 7
+\item اتساع
+   \subitem متقارب، 1423
+\item اجتماع
+   \subitem مرتب، 1562
+\item اجتماعات
+   \subitem غیر مرتب، 1563
+\item اجزاء، 486، 545، 1201، 1209
+\item احاطہ، 501، 596
+\item احتمال، 1554
+   \subitem تفاعل، 1570
+   \subitem تقسیم، 1571
+   \subitem دو بعدی تفاعل، 1603
+   \subitem مشروط، 1557
+\item احصاء، 299
+\item احصاء تفرقیات، 76
+\item اختیار، 1569
+\item اختیاری
+   \subitem مستقل، 4
+\item ارتعاش، 79
+   \subitem اسپرنگ اور کمیت، 114
+   \subitem قصری، 102، 122
+\item ارتفاعی تکمل، 1180
+\item ارتکاز
+   \subitem دائرہ، 1247
+   \subitem رداس، 306، 1247
+   \subitem وقفہ، 1247
+\item ارتکازی وقفہ، 306
+\item ارضی خط استوا، 743
+\item ارکان، 221، 542
+\item اساس، 87، 502، 596، 647
+   \subitem حل، 86، 608
+\item اسپرنگ
+   \subitem کمیت، 114
+   \subitem مستقلہ، 115
+\item استبدالی، 506
+\item استحکام، 219، 266
+\item استمراری، 39، 745، 1061، 1570، 1572
+   \subitem ٹکڑوں میں، 400
+   \subitem دائرہ کار میں، 1061
+   \subitem مساوات، 774
+\item استمراری تفاعل، 40، 73
+\item اسراع
+   \subitem کوریولس، 741
+   \subitem مرکز مائل، 740
+\item اشاریہ، 300
+   \subitem منتقلی، 313
+\item اشاری مساوات، 335
+\item اشتراک، 1549
+\item اصغر، 612، 614
+\item اصلاح
+   \subitem بیک وقت، 1449
+   \subitem مسلسل، 1448
+\item اصول
+   \subitem آرشمیدس، 126
+   \subitem تبدیلی راہ، 1179
+   \subitem خطیت، 81، 82
+   \subitem خطی میل، 81
+\item اصول خطیت، 188
+\item اصول خطی میل، 82
+\item اعادہ
+   \subitem بیک وقت اصلاح، 1449
+   \subitem غیر حقیقی مقام، 1384
+   \subitem قالب، 1447
+   \subitem گاوس زائڈل، 1446
+   \subitem مسلسل اصلاح، 1448
+   \subitem یعقوبی، 1449
+\item اعتماد
+   \subitem بالائی حد، 1623
+   \subitem سطح، 1623
+   \subitem نچلی حد، 1623
+   \subitem وقفہ، 1623
+\item اعدادی، 14
+   \subitem تجزیہ، 1373
+   \subitem تراکیب، 1373
+   \subitem تفرق، 1418
+   \subitem تکمل، 1410
+   \subitem تکمل، ذوزنقہ قاعدہ، 1411
+   \subitem تکمل، مستطیل قاعدہ، 1411
+\item اعدادی طریقہ، 198
+\item اعلٰی تفاعل، 299
+\item اغگن
+   \subitem نقشہ، 1040
+\item افزودہ قالب، 543، 572
+\item اقلیدسی فضا، 650
+\item اقلیدسی معیار، 484
+\item اکائی
+   \subitem خیالی، 1039
+   \subitem دائرہ، 1055
+   \subitem سمتیہ، 485، 649
+   \subitem سمتیہ مماس، 733
+   \subitem سیڑھی تفاعل، 421
+   \subitem صدر عمودی سمتیہ، 734
+   \subitem ضرب، 438
+   \subitem قالب، 562
+\item اکائی ضرب تفاعل، 438
+\item اکائی قالب، 225
+\item اکہرا، 701
+\item اگر، 1438
+\item الٹ بدل، 654
+\item الجبرائی
+   \subitem مساوات، 1376
+\item الجبرائی کثرت، 668
+\item الجھاو، 454
+\item الخوارزمی
+   \subitem گاوسی اسقاط، 1437
+\item الکراجی، 1437
+   \subitem ماخوذ، 112، 1257
+\item الکراجی کا مسئلہ ثنائی، 321
+\item الکراجی ماخوذ، 616
+\item امالہ، 55، 1029
+\item امتیازی، 198
+   \subitem اقدار، 227، 1000، 1463
+   \subitem اقدار کی طاقتی ترکیب، 1472
+   \subitem تفاعل، 661، 964، 1000، 1014
+   \subitem سمتیات، 227، 661، 663
+   \subitem سمتیہ، 1463
+   \subitem قالب، 665
+   \subitem قدر، 663، 964
+   \subitem کثیر رکنی، 1463
+   \subitem مساوات، 228، 665
+   \subitem مقطع، 228، 665، 1463
+\item امتیازی اقدار، 661، 1014
+\item امتیازی تفاعل، 379
+\item امتیازی تفاعل پھیلاو، 382
+\item امتیازی سمتیہ، 227
+\item امتیازی قدر، 227
+\item امتیازی قدر مسئلہ، 662
+\item امتیازی مساوات، 95
+\item امکانی
+   \subitem متغیر، 1569
+\item امکان، 1530
+\item امکانی شماریاتی قالب، 563
+\item انجام، 1547
+\item انحراف
+   \subitem معنی خیز، 1637
+   \subitem معیاری، 1577
+\item انحطاطی جوڑ، 256، 258
+\item انحنا، 734
+\item انداز
+   \subitem بنیادی، 964
+   \subitem قائمہ، 964
+\item اندازہ
+   \subitem نقطی، 1618
+   \subitem وقفی، 1622، 1623
+\item اندرسہ، 830
+\item اندرونی
+   \subitem ضرب، 648، 682
+\item اندرونی ضرب، 505
+\item اوپر چکر، 239
+\item اوسط، 1541، 1576
+\item اوسط قیمت مسئلہ، 798
+\item اوہم، 55
+\item ایصالیت، 1029
+\item ایک ایک مطابقتی، 1120
+\item ایمپیئر پیما، 588
+\item ایورٹ
+   \subitem عمومی کلیہ، 1399
+\indexspace
+\item بار، 170
+\item بار بردار، 36
+\item با ضابطہ صورت، 696
+\item باقی، 1209، 1264
+\item باہمی تحریف
+   \subitem کلیہ ایورٹ، 1398
+\item بائیں ہاتھ
+   \subitem تفرق، 896
+\item بحالی قوت، 115
+\item بد خو، 1384، 1453
+\item بذلولی، 147
+\item برقرار حال، 56
+\item برقرار حال حل، 165
+\item برقرار حل، 57
+\item برق گیر، 169، 1029
+\item برقی دباو، 52، 55، 133
+\item برقی رکاوٹ، 172
+\item برقی رو، 52، 55
+\item برقی میدان، 71
+\item برنولی
+   \subitem اعداد، 1280
+\item برنولی مساوات، 58
+\item بظاہر
+   \subitem نیم، 1495
+\item بعد
+   \subitem لامتناہی، 648
+\item بُعد، 596
+\item بقائی، 874
+\item بقائی میدان، 759، 778
+\item بقایا، 304
+\item بقیہ، 1316، 1449، 1455
+\item بلا تضاد، 580، 608، 609
+\item بلا منصوبہ، 1530
+   \subitem انتخاب، 1615
+   \subitem دو بعدی متغیر، 1603
+   \subitem متغیر، 1569
+\item بلا منصوبہ تبدیلی، 1530
+\item بلزانو اور وائشسٹراس، 1214
+\item بند
+   \subitem قرص، 1054
+   \subitem کلیہ، 1418
+\item بندوق، 169
+\item بنیادی
+   \subitem خطہ، 1086
+   \subitem قالب، 247
+   \subitem نظام، 246
+\item بنیادی انداز، 964
+\item بنیادی تفاعل، 276
+\item بنیادی صورت
+   \subitem اول، 827
+\item بنیادی مسئلہ
+   \subitem الجبرا، 1199
+\item بونٹ کلیہ توالی، 330
+\item بہاو
+   \subitem دائری، 1351
+\item بیسل
+   \subitem غیر مساوات، 939
+   \subitem مساوات، 351، 1012
+\item بیسل تفاعل
+   \subitem تیسری قسم، 370
+   \subitem درجہ صفر، دوسری قسم، 368
+   \subitem دوسری قسم، 366
+\item بیش ہندسی
+   \subitem تقسیم، 1587
+   \subitem گاوس، 348
+\item بیش ہندسی تسلسل، 348
+\item بیش ہندسی تفاعل، 348
+\item بیش ہندسی مساوات، 339
+\item بیضوی
+   \subitem جزوی تفرقی مساوات، 976
+\item بے عیب، 1529
+\indexspace
+\item تابع، 1608
+   \subitem غیر، 1608
+\item تابکاری تحلیل، 5
+\item تب، 1438
+\item تبادل
+   \subitem خطی، 1106
+   \subitem خطی کسری، 1125
+   \subitem مماثل، 1105
+   \subitem موبیوس، 1125
+\item تبادلہ
+   \subitem خطی، 651
+\item تبدیل محل قالب، 558
+\item تبدیلی پیما
+   \subitem صف، 1439
+\item تبدیلی محل، 225، 558
+\item تبدیلی محل قالب، 225
+\item تجربہ، 1546
+\item تجزی، 111
+   \subitem عددی سر، 1681
+\item تجزیہ
+   \subitem باہمی رشتہ، 1679
+   \subitem خلل، 1374
+\item تحدیدی
+   \subitem سمتیہ، 714
+   \subitem نقطہ، 1213، 1306
+\item تحدیدی دائرہ، 284
+\item تحریف
+   \subitem باہمی، 1395
+   \subitem باہمی خطی، 1395
+   \subitem باہمی دو درجی، 1396
+   \subitem لیگرینج، باہمی، 1400
+\item تحلیل
+   \subitem تابکاری، 5
+\item تحلیلی، 14، 308، 1303
+   \subitem استمرار، 1268
+   \subitem تفاعل، 1063
+\item تخفیف
+   \subitem درجہ، 89
+\item تخفیف شدہ، 90
+\item تخمین، 1374
+\item ترتیب
+   \subitem حقیقی، 1202
+   \subitem لامتناہی، 1201
+   \subitem یک سر، 1220
+\item ترچھاپن، 1583
+\item ترخیم، 255، 281
+\item ترسیم
+   \subitem ڈبہ، 1531
+\item ترسیمی، 14
+\item ترکیب
+   \subitem بدلتی رخ خفی ، 1502
+   \subitem درجی اول، 1479
+   \subitem ڈھیل، 1449
+   \subitem رنج کوٹا، 1483
+   \subitem زیادہ سے زیادہ امکان، 1619
+   \subitem کرینک نکلسن، 1517
+   \subitem کمتر مربع، 1458
+   \subitem کیفی، 219، 273
+   \subitem لیبمن، 1498
+   \subitem مبدا کام، 1545
+   \subitem مخلوط مخفی قوہ، 1144
+   \subitem مقداری، 219
+   \subitem مکمل رمز نویسی، 1546
+\item ترکیب اعادہ، 1446
+\item ترکیب طاقتی تسلسل، 299
+\item ترکیب علیحدگی متغیرات، 23
+\item ترکیب فروبنیوس، 299، 332
+\item ترکیب یولر، 1479
+\item تسلسل، 1208
+   \subitem تفرقی، 1258
+   \subitem تکونیاتی، 885
+   \subitem ٹیلر، 1265
+   \subitem طاقتی، 299، 1244
+   \subitem فوریئر، 892
+   \subitem لوغوں، 1294
+   \subitem متقارب، 1423
+   \subitem مکلارن، 38، 100، 277، 1265
+\item تشاکل، 248
+   \subitem منحرف، 248
+\item تشاکلی، 680
+   \subitem قالب، 561
+   \subitem منحرف، 561
+\item تظلیل
+   \subitem مجسم نگارانہ، 1305
+\item تعدد، 116، 1532
+   \subitem اضافی، 1532
+   \subitem قدرتی، 116
+   \subitem مجموعی، 1532
+   \subitem مجموعی اضافی، 1534
+   \subitem مطلق، 1532
+\item تعداد قبولیت، 1661
+\item تعددی
+   \subitem  تفاعل، گروہ بند نمونہ، 1537
+   \subitem تقسیم، 1534
+   \subitem نمونہ کا تعددی تفاعل، 1534
+   \subitem نمونے کا مجموعی تفاعل، 1536
+\item تعین گر سمتیہ، 487
+\item تغیریت، 1541، 1577
+   \subitem باہمی، 1611، 1681
+\item تفاعل
+   \subitem امکان، 1619
+   \subitem بہاو، 1354
+   \subitem جزوی شکلہ، 1300، 1309
+   \subitem خلل، 990
+   \subitem سالم، 1078، 1309
+   \subitem سمتی، 712
+   \subitem گامپرٹز، 36
+   \subitem نیومن، درجہ صفر، 368
+   \subitem ہینکل، 370
+\item تفاعل قدر، 376
+\item تفرق، 715
+   \subitem اعدادی، 1418
+   \subitem بائیں ہاتھ، 896
+   \subitem تعریف، 1061
+   \subitem دائیں ہاتھ، 896
+   \subitem سمتی، 752
+\item تفرقی
+   \subitem تسلسل، 1258
+   \subitem جزوی مساوات، 1، 953
+   \subitem خود مختار، 20
+   \subitem سادہ مساوات، 1، 3
+   \subitem عامل، 110
+\item تفرقی روپ
+   \subitem ایک درجی، 870
+\item تفرقی مساوات، 2
+   \subitem قطعی، 39
+\item تقاطع، 1549
+\item تقسیم، 1571
+   \subitem ایف، 1650
+   \subitem بیش ہندسی، 1587
+   \subitem پوئسن، 1586
+   \subitem تفاعل، 1571
+   \subitem تقسیمی تفاعل نمونہ، 1536
+   \subitem ثنائی، 1585
+   \subitem حاشیہ، 1606
+   \subitem عمومی، 1592
+   \subitem گاوسی، 1592
+   \subitem متعدد رکنی، 1591
+   \subitem یکساں، 1578
+\item تقسیمی
+   \subitem تفاعل، 1603
+   \subitem تفاعل،گروہ بند نمونہ، 1537
+\item تقسیم دباو
+   \subitem کلیہ، 588
+\item تقسیمی تفاعل نمونہ، 1536
+\item تقسیمی نقطہ، 1150
+\item تقصیر
+   \subitem زیادہ، 119
+   \subitem فاصل، 119
+   \subitem کم، 119
+\item تکمل
+   \subitem ارتفاعی، 1180، 1316
+   \subitem اعدادی، 1410
+   \subitem اعدادی، ذوزنقہ قاعدہ، 1411
+   \subitem اعدادی، مستطیل قاعدہ، 1411
+   \subitem بالحصص، 57
+   \subitem تہرا، 845
+   \subitem جزو، 44
+   \subitem خطی، 783، 1159
+   \subitem دوہرا، 797
+   \subitem راہ، 783
+   \subitem راہ کے غیر تابع، 1178
+   \subitem سائن، 1433
+   \subitem سطحی، 837
+   \subitem غیر مناسب، 1329
+   \subitem فرسنل، 1434
+   \subitem کوسائن، 1433
+   \subitem متمم سائن، 1433
+   \subitem متمم فرسنل، 1433
+   \subitem مطلق قابل تکمل، 943
+\item تکونی
+   \subitem بالائی قالب، 561
+   \subitem نچلا قالب، 561
+\item تکونیاتی
+   \subitem روپ، 1047
+\item تکونی عدم مساوات، 650، 1050
+\item تکونی قالب
+   \subitem بالائی، 1440
+   \subitem نچلا، 1440
+\item تنہا، 274
+   \subitem نقطہ، 1306
+\item توالی کلیہ، 317
+\item توانائی، 283
+   \subitem حرکی، 283
+   \subitem مخفی، 283
+\item توقع
+   \subitem حسابی، 1580، 1610
+\item تہرا
+   \subitem تکمل، 845
+\item تھاپ، 164
+\item تین سگما حدود، 1595
+\item تین نقاطی کلیہ، 1419
+\indexspace
+\item ثلاثہ قائمہ سمتیات، 494
+\item ثنائی
+   \subitem تقسیم، 1585
+\item ثنائی سر، 1397
+\item ثنائی عددی سر، 1566
+\indexspace
+\item جال
+   \subitem جسامت، 1497
+   \subitem نقطہ، 1498
+\item جاذب، 118
+\item جبری
+   \subitem حرکت، 159
+   \subitem قوت، 159
+\item جبری تفاعل، 52
+\item جذر، 1079، 1376
+\item جرس
+   \subitem قوس، 991، 1592
+\item جڑا ہوا، 746، 1057
+\item جزوی
+   \subitem تفرقی بیضوی، 976
+   \subitem تفرقی قطع زائد، 976
+   \subitem تفرقی قطع مکافی، 976
+   \subitem تفرقی مساوات، 953
+   \subitem درجہ مساوات، 953
+\item جزو تکمل، 44
+\item جزوی مجموعہ، 304، 1209
+\item جزی قوت، 214
+\item جسامت، 544
+   \subitem جال، 1497
+   \subitem نمونہ، 1531
+\item جفت، 907
+   \subitem دوری توسیع، 916
+\item جمع
+   \subitem سمتی، 500، 645
+\item جماعتی
+   \subitem اضافی تعدد، 1537
+   \subitem تعدد، 1537
+   \subitem نشان، 1537
+   \subitem وقفہ، 1537
+    \subitem وسطی نقطہ، 1537
 
-  \item آئگنی
-    \subitem اقدار, 1000, 1463
-    \subitem تفاعل, 964, 1000
-    \subitem سمتیہ, 1463
-    \subitem قدر, 964
-  \item آئگنی قدر, 379
-  \item آثار
-    \subitem قالب, 693
-  \item آرشمیدس
-    \subitem اصول, 126
-  \item آزاد
-    \subitem حرکت, 124
-  \item آزمائش
-    \subitem تقابلی, 1225
-    \subitem تناسبی, 1227
-    \subitem لبنیٹز, 1221
-  \item آلہ
-    \subitem موسیقی, 164
-  \item آگے, 176
-  \item ابتدائی
-    \subitem شرائط, 191
-    \subitem قیمت مسئلہ, 1477
-  \item ابتدائی شرائط, 954, 960
-  \item ابتدائی قیمت
-    \subitem مسئلہ, 1488
-  \item ابتدائی قیمت سوال, 8
-  \item ابتدائی قیمتیں, 7
-  \item اتساع
-    \subitem متقارب, 1423
-  \item اجزاء, 486, 545, 1201, 1209
-  \item احاطہ, 501, 596
-  \item احصاء تفرقیات, 76
-  \item اختیاری
-    \subitem مستقل, 4
-  \item ارتعاش, 79
-    \subitem اسپرنگ اور کمیت, 114
-    \subitem قصری, 102, 122
-  \item ارتفاعی تکمل, 1180
-  \item ارتکاز
-    \subitem دائرہ, 1247
-    \subitem رداس, 306, 1247
-    \subitem وقفہ, 1247
-  \item ارتکازی وقفہ, 306
-  \item ارضی خط استوا, 743
-  \item ارکان, 221, 542
-  \item اساس, 87, 502, 596, 647
-    \subitem حل, 86, 608
-  \item استبدالی, 506
-  \item استحکام, 219, 266
-  \item استمراری, 39, 745, 1061
-    \subitem دائرہ کار میں, 1061
-    \subitem مساوات, 774
-    \subitem ٹکڑوں میں, 400
-  \item استمراری تفاعل, 40, 73
-  \item اسراع
-    \subitem مرکز مائل, 740
-    \subitem کوریولس, 741
-  \item اسپرنگ
-    \subitem مستقلہ, 115
-    \subitem کمیت, 114
-  \item اشاری مساوات, 335
-  \item اشاریہ, 300
-    \subitem منتقلی, 313
-  \item اصغر, 612, 614
-  \item اصلاح
-    \subitem بیک وقت, 1449
-    \subitem مسلسل, 1448
-  \item اصول
-    \subitem آرشمیدس, 126
-    \subitem تبدیلی راہ, 1179
-    \subitem خطی میل, 81
-    \subitem خطیت, 81, 82
-  \item اصول خطی میل, 82
-  \item اصول خطیت, 188
-  \item اعادہ
-    \subitem بیک وقت اصلاح, 1449
-    \subitem غیر حقیقی مقام, 1383
-    \subitem قالب, 1447
-    \subitem مسلسل اصلاح, 1448
-    \subitem گاوس زائڈل, 1446
-    \subitem یعقوبی, 1449
-  \item اعدادی, 14
-    \subitem تراکیب, 1373
-    \subitem تفرق, 1418
-    \subitem تکمل, 1410
-    \subitem تکمل، ذوزنقہ قاعدہ, 1412
-    \subitem تکمل، مستطیل قاعدہ, 1411
-  \item اعدادی طریقہ, 198
-  \item اعلٰی تفاعل, 299
-  \item اغگن
-    \subitem نقشہ, 1040
-  \item افزودہ قالب, 543, 572
-  \item اقلیدسی فضا, 650
-  \item اقلیدسی معیار, 484
-  \item الجبرائی
-    \subitem مساوات, 1376
-  \item الجبرائی کثرت, 668
-  \item الجھاو, 454
-  \item الخوارزمی
-    \subitem گاوسی اسقاط, 1437
-  \item الٹ بدل, 654
-  \item الکراجی, 1437
-    \subitem ماخوذ, 112, 1257
-  \item الکراجی ماخوذ, 616
-  \item الکراجی کا مسئلہ ثنائی, 321
-  \item امالہ, 55, 1029
-  \item امتیازی, 198
-    \subitem اقدار, 227, 1000, 1463
-    \subitem اقدار کی طاقتی ترکیب, 1472
-    \subitem تفاعل, 661, 964, 1000, 1014
-    \subitem سمتیات, 227, 661, 663
-    \subitem سمتیہ, 1463
-    \subitem قالب, 665
-    \subitem قدر, 663, 964
-    \subitem مساوات, 228, 665
-    \subitem مقطع, 228, 665, 1463
-    \subitem کثیر رکنی, 1463
-  \item امتیازی اقدار, 661, 1014
-  \item امتیازی تفاعل, 379
-  \item امتیازی تفاعل پھیلاو, 382
-  \item امتیازی سمتیہ, 227
-  \item امتیازی قدر, 227
-  \item امتیازی قدر مسئلہ, 662
-  \item امتیازی مساوات, 95
-  \item امکانی شماریاتی قالب, 563
-  \item انحطاطی جوڑ, 256, 258
-  \item انحنا, 734
-  \item انداز
-    \subitem بنیادی, 964
-    \subitem قائمہ, 964
-  \item اندرسہ, 830
-  \item اندرونی
-    \subitem ضرب, 648, 682
-  \item اندرونی ضرب, 505
-  \item اوسط قیمت مسئلہ, 798
-  \item اوپر چکر, 239
-  \item اوہم, 55
-  \item اکائی
-    \subitem خیالی, 1039
-    \subitem دائرہ, 1055
-    \subitem سمتیہ, 485, 649
-    \subitem سمتیہ مماس, 733
-    \subitem سیڑھی تفاعل, 421
-    \subitem صدر عمودی سمتیہ, 734
-    \subitem ضرب, 438
-    \subitem قالب, 562
-  \item اکائی ضرب تفاعل, 438
-  \item اکائی قالب, 225
-  \item اکہرا, 701
-  \item اگر, 1438
-  \item ایصالیت, 1029
-  \item ایمپیئر پیما, 588
-  \item ایورٹ
-    \subitem عمومی کلیہ, 1398
-  \item ایک ایک مطابقتی, 1120
-  \item با ضابطہ صورت, 696
-  \item بائیں ہاتھ
-    \subitem تفرق, 896
-  \item بار, 170
-  \item بار بردار, 36
-  \item باقی, 1209, 1264
-  \item باہمی تحریف
-    \subitem کلیہ ایورٹ, 1398
-  \item بحالی قوت, 115
-  \item بد خو, 1383, 1453
-  \item بذلولی, 147
-  \item برق گیر, 169, 1029
-  \item برقرار حال, 56
-  \item برقرار حال حل, 165
-  \item برقرار حل, 57
-  \item برقی دباو, 52, 55, 133
-  \item برقی رو, 52, 55
-  \item برقی رکاوٹ, 172
-  \item برقی میدان, 71
-  \item برنولی
-    \subitem اعداد, 1281
-  \item برنولی مساوات, 58
-  \item بظاہر
-    \subitem نیم, 1495
-  \item بعد
-    \subitem لامتناہی, 648
-  \item بقائی, 874
-  \item بقائی میدان, 759, 778
-  \item بقایا, 304
-  \item بقیہ, 1318, 1449, 1455
-  \item بلا تضاد, 580, 608, 609
-  \item بلزانو اور وائشسٹراس, 1214
-  \item بند
-    \subitem قرص, 1054
-    \subitem کلیہ, 1418
-  \item بندوق, 169
-  \item بنیادی
-    \subitem خطہ, 1086
-    \subitem قالب, 247
-    \subitem نظام, 246
-  \item بنیادی انداز, 964
-  \item بنیادی تفاعل, 276
-  \item بنیادی صورت
-    \subitem اول, 827
-  \item بنیادی مسئلہ
-    \subitem الجبرا, 1199
-  \item بونٹ کلیہ توالی, 330
-  \item بُعد, 596
-  \item بہاو
-    \subitem دائری, 1353
-  \item بیسل
-    \subitem غیر مساوات, 939
-    \subitem مساوات, 351, 1012
-  \item بیسل تفاعل
-    \subitem تیسری قسم, 370
-    \subitem درجہ صفر، دوسری قسم, 368
-    \subitem دوسری قسم, 366
-  \item بیش ہندسی
-    \subitem گاوس, 348
-  \item بیش ہندسی تسلسل, 348
-  \item بیش ہندسی تفاعل, 348
-  \item بیش ہندسی مساوات, 338
-  \item بیضوی
-    \subitem جزوی تفرقی مساوات, 976
-  \item تابکاری تحلیل, 5
-  \item تب, 1438
-  \item تبادل
-    \subitem خطی, 1106
-    \subitem خطی کسری, 1125
-    \subitem مماثل, 1105
-    \subitem موبیوس, 1125
-  \item تبادلہ
-    \subitem خطی, 651
-  \item تبدیل محل قالب, 558
-  \item تبدیلی محل, 225, 558
-  \item تبدیلی محل قالب, 225
-  \item تبدیلی پیما
-    \subitem صف, 1439
-  \item تجزی, 111
-  \item تجزیہ
-    \subitem خلل, 1373
-  \item تحدیدی
-    \subitem سمتیہ, 714
-    \subitem نقطہ, 1213, 1307
-  \item تحدیدی دائرہ, 284
-  \item تحریف
-    \subitem باہمی, 1394
-    \subitem باہمی خطی, 1395
-    \subitem باہمی دو درجی, 1395
-    \subitem لیگرینج، باہمی, 1400
-  \item تحلیل
-    \subitem تابکاری, 5
-  \item تحلیلی, 14, 308, 1304
-    \subitem استمرار, 1268
-    \subitem تفاعل, 1063
-  \item تخفیف
-    \subitem درجہ, 89
-  \item تخفیف شدہ, 90
-  \item تخمین, 1374
-  \item ترتیب
-    \subitem حقیقی, 1202
-    \subitem لامتناہی, 1201
-    \subitem یک سر, 1220
-  \item ترخیم, 255, 281
-  \item ترسیمی, 14
-  \item ترکیب
-    \subitem بدلتی رخ خفی , 1502
-    \subitem درجی اول, 1479
-    \subitem رنج کوٹا, 1483
-    \subitem لیبمن, 1498
-    \subitem مخلوط مخفی قوہ, 1144
-    \subitem مقداری, 219
-    \subitem ڈھیل, 1449
-    \subitem کرینک نکلسن, 1517
-    \subitem کمتر مربع, 1458
-    \subitem کیفی, 219, 273
-  \item ترکیب اعادہ, 1446
-  \item ترکیب طاقتی تسلسل, 299
-  \item ترکیب علیحدگی متغیرات, 23
-  \item ترکیب فروبنیوس, 299, 332
-  \item ترکیب یولر, 1479
-  \item تسلسل, 1208
-    \subitem تفرقی, 1258
-    \subitem تکونیاتی, 885
-    \subitem طاقتی, 299, 1244
-    \subitem فوریئر, 892
-    \subitem لوغوں, 1294
-    \subitem متقارب, 1423
-    \subitem مکلارن, 38, 100, 277, 1265
-    \subitem ٹیلر, 1265
-  \item تشاکل, 248
-    \subitem منحرف, 248
-  \item تشاکلی, 680
-    \subitem قالب, 561
-    \subitem منحرف, 561
-  \item تظلیل
-    \subitem مجسم نگارانہ, 1305
-  \item تعدد, 116
-    \subitem قدرتی, 116
-  \item تعین گر سمتیہ, 487
-  \item تفاعل
-    \subitem بہاو, 1356
-    \subitem جزوی شکلہ, 1300, 1310
-    \subitem خلل, 990
-    \subitem سالم, 1078, 1310
-    \subitem سمتی, 712
-    \subitem نیومن، درجہ صفر, 368
-    \subitem گامپرٹز, 37
-    \subitem ہینکل, 370
-  \item تفاعل قدر, 376
-  \item تفرق, 715
-    \subitem اعدادی, 1418
-    \subitem بائیں ہاتھ, 896
-    \subitem تعریف, 1061
-    \subitem دائیں ہاتھ, 896
-    \subitem سمتی, 752
-  \item تفرقی
-    \subitem تسلسل, 1258
-    \subitem جزوی مساوات, 1, 953
-    \subitem خود مختار, 20
-    \subitem سادہ مساوات, 1, 3
-    \subitem عامل, 110
-  \item تفرقی روپ
-    \subitem ایک درجی, 870
-  \item تفرقی مساوات, 2
-    \subitem قطعی, 40
-  \item تقسیم دباو
-    \subitem کلیہ, 588
-  \item تقسیمی نقطہ, 1150
-  \item تقصیر
-    \subitem زیادہ, 119
-    \subitem فاصل, 119
-    \subitem کم, 119
-  \item تلاش موزوں منحنی, 1457
-  \item تنہا, 274
-    \subitem نقطہ, 1307
-  \item توالی کلیہ, 317
-  \item توانائی, 283
-    \subitem حرکی, 283
-    \subitem مخفی, 283
-  \item تکمل
-    \subitem ارتفاعی, 1180, 1318
-    \subitem اعدادی, 1410
-    \subitem اعدادی، ذوزنقہ قاعدہ, 1412
-    \subitem اعدادی، مستطیل قاعدہ, 1411
-    \subitem بالحصص, 57
-    \subitem تہرا, 845
-    \subitem جزو, 44
-    \subitem خطی, 783, 1159
-    \subitem دوہرا, 797
-    \subitem راہ, 783
-    \subitem راہ کے غیر تابع, 1178
-    \subitem سائن, 1433
-    \subitem سطحی, 837
-    \subitem غیر مناسب, 1331
-    \subitem فرسنل, 1434
-    \subitem قابل حتمی تکمل, 943
-    \subitem متمم سائن, 1433
-    \subitem متمم فرسنل, 1433
-    \subitem کوسائن, 1433
-  \item تکونی
-    \subitem بالائی قالب, 561
-    \subitem نچلا قالب, 561
-  \item تکونی عدم مساوات, 650, 1050
-  \item تکونی قالب
-    \subitem بالائی, 1440
-    \subitem نچلا, 1440
-  \item تکونیاتی
-    \subitem روپ, 1047
-  \item تھاپ, 164
-  \item تہرا
-    \subitem تکمل, 845
-  \item تین نقاطی کلیہ, 1419
-  \item ثلاثہ قائمہ سمتیات, 494
-  \item ثنائی سر, 1397
-  \item جاذب, 118
-  \item جال
-    \subitem جسامت, 1497
-    \subitem نقطہ, 1498
-  \item جبری
-    \subitem حرکت, 159
-    \subitem قوت, 159
-  \item جبری تفاعل, 52
-  \item جذر, 1079, 1376
-  \item جرس
-    \subitem قوس, 991
-  \item جزو تکمل, 44
-  \item جزوی
-    \subitem تفرقی بیضوی, 976
-    \subitem تفرقی قطع زائد, 976
-    \subitem تفرقی قطع مکافی, 976
-    \subitem تفرقی مساوات, 953
-    \subitem درجہ مساوات, 953
-  \item جزوی مجموعہ, 304, 1209
-  \item جزی قوت, 214
-  \item جسامت, 544
-    \subitem جال, 1497
-  \item جفت, 907
-    \subitem دوری توسیع, 916
-  \item جمع
-    \subitem سمتی, 500, 645
-  \item جمودی معیار اثر, 127, 213, 800
-  \item جوڑ, 1404, 1498
-    \subitem انحطاطی, 258
-    \subitem غیر مناسب, 252
-    \subitem مناسب, 252
-  \item جڑا ہوا, 746, 1057
-  \item جیومیٹریائی کثرت, 668
-  \item حاصل تقسیم, 90
-  \item حال
-    \subitem تحدیدی, 674
-    \subitem سمتیہ, 564
-  \item حتمی
-    \subitem قیمت, 1047
-  \item حد, 408, 714, 1060, 1202
-    \subitem بائیں ہاتھ, 895
-    \subitem خلل, 1374, 1412
-    \subitem دائیں ہاتھ, 895
-  \item حراری
-    \subitem خصوصی استعداد, 853
-    \subitem مساوات, 853
-    \subitem یک بعدی مساوات, 979
-  \item حراری موصلیت, 852
-  \item حرکت
-    \subitem جبری, 159
-  \item حرکی توانائی, 283
-  \item حرکی رگڑ کا مستقل, 37
-  \item حرکیات
-    \subitem ماقوا, 772
-    \subitem ہوائی, 1152
-  \item حقیقی
-    \subitem ترتیب, 1202
-    \subitem حصہ, 1038
-    \subitem محور, 1039
-  \item حقیقی سمتی فضا, 499, 645
-  \item حل
-    \subitem برقرار حال, 165
-    \subitem دوری, 268
-    \subitem سلسلہ, 579
-    \subitem سمتیہ, 571
-    \subitem عارضی, 165
-    \subitem عمومی, 6, 290
-    \subitem غیر اہم, 52
-    \subitem غیر اہم صفر, 571
-    \subitem غیر صفر, 194
-    \subitem مخصوص, 6
-    \subitem موجود, 191
-    \subitem نادر, 6, 12, 139
-    \subitem نسل, 4
-    \subitem وجودیت عمومی حل, 143, 195
-  \item حل سمتیہ, 244
-  \item حل فضا, 607
-  \item حلقہ, 1059
-  \item حیطہ, 117, 166
-  \item خالص خیالی عدد, 1043
-  \item خامی, 668
-  \item خط
-    \subitem ارتفاع, 1180
-    \subitem قوت, 1348
-  \item خط حرکت, 236
-  \item خط طول بلد, 822
-  \item خط عرض بلد, 822
-  \item خطہ, 1057
-    \subitem بنیادی, 1086
-    \subitem سادہ تعلق, 1172
-    \subitem مضرب تعلق, 1172
-  \item خطی, 187, 953
-    \subitem تبادلہ, 651
-    \subitem تکمل, 783
-    \subitem دو درجی, 80
-    \subitem سادہ تفرقی مساوات, 51
-    \subitem مجموعہ, 501
-    \subitem میل, 82
-    \subitem نقشہ کشی, 651
-  \item خطی 
-    \subitem فضا, 499
-  \item خطی جزو, 728
-  \item خطی طور
-    \subitem  غیر تابع, 87, 139, 189
-    \subitem تابع, 87, 139, 189
-    \subitem تابع سلسلہ, 226
-    \subitem غیر تابع, 189
-    \subitem غیر تابع سلسلہ, 226
-  \item خطی طور تابع, 140, 193, 501, 502, 591, 647
-  \item خطی طور غیر تابع, 140, 193, 502, 591
-  \item خطی طور غیر تابع سلسلہ, 502, 591
-  \item خطی مجموعہ, 590, 646
-  \item خطی میل, 188, 190
-    \subitem اصول, 81
-  \item خطی نظام, 244, 570
-  \item خطیت
-    \subitem اصول, 81
-  \item خفی, 3
-  \item خفی حل, 40
-  \item خلا نلکی, 284
-  \item خلل, 1374
-    \subitem اجتماع, 1492
-    \subitem اضافی, 1374
-    \subitem تجربی, 1374
-    \subitem تجزیہ, 1373
-    \subitem تعداد ہندسہ, 1375
-    \subitem تفاعل, 990, 1424
-    \subitem حد, 1374, 1412
-    \subitem قطع چال, 1375, 1479
-    \subitem متمم تفاعل, 1424
-    \subitem کل مکعب, 937
-  \item خم دار منحنی, 721
-  \item خماو
-    \subitem معیار اثر, 214
-  \item خود مختار, 274
-    \subitem سادہ تفرقی مساوات, 20
-    \subitem مساوات, 61
-  \item خود کار
-    \subitem بندوق, 169
-  \item خوش خو, 1453
-  \item خیالی
-    \subitem اکائی, 1039
-    \subitem حصہ, 1038
-    \subitem خالص خیالی عدد, 1043
-    \subitem محور, 1039
-  \item دا لومبیغ حل, 974
-  \item دائرہ
-    \subitem ارتکاز, 1247
-    \subitem اکائی, 1055
-  \item دائرہ کار, 244, 711, 746, 1057, 1059
-  \item دائری بہاو, 867, 1353
-  \item دائری سمت
-    \subitem مثبت, 728
-  \item دائیں ہاتھ
-    \subitem تفرق, 896
-  \item داخلی
-    \subitem قوت, 159
-  \item دایاں ہاتھ
-    \subitem کارتیسی نظام, 522
-  \item درآیدہ, 52
-  \item درجہ, 592, 1306, 1308
-    \subitem تخفیف, 89
-    \subitem جزوی تفرقی مساوات, 953
-    \subitem دوم ترکیب, 1481
-    \subitem دہرانے کی ترکیب, 1383
-    \subitem لیژانڈر, 304
-  \item درجہ قالب, 583
-  \item درستگی, 1374
-  \item دلیل, 1047
-  \item دم, 484
-  \item دندان موج, 451, 911
-  \item دو درجی الجبرائی مساوات, 95
-  \item دو درجی صورت, 694
-  \item دوری, 884
-    \subitem قوت, 159
-  \item دوری عرصہ, 117, 884
-    \subitem خیالی, 1086
-  \item دوسرا فرق
-    \subitem تبدیل شدہ, 1399
-  \item دوہرا
-    \subitem تکمل, 797
-  \item دوہرا عمود, 734
-  \item دھچکا روک, 128
-  \item دھڑکن, 910
-  \item ذیلی قالب, 604
-  \item ذیلی مساوات, 130
-  \item راہ
-    \subitem تبدیلی کا اصول, 1179
-    \subitem تکمل, 783
-  \item راہ سے آزاد, 870
-  \item رد عمل, 52, 159
-  \item رداس
-    \subitem ارتکاز, 306, 1247
-    \subitem طیف, 663
-  \item ردوبدل, 1239
-  \item رفتار, 739
-    \subitem زاویائی, 527
-    \subitem سمتی, 739
-  \item رقبہ, 799
-    \subitem رکن, 829
-  \item رنج کوٹا
-    \subitem نیستروم ترکیب, 1490
-  \item رنج کوٹا ترکیب, 1483
-  \item رول مسئلہ, 364
-  \item روڈریکیس
-    \subitem کثیر رکنی, 467
-    \subitem کلیہ, 467
-  \item روڈریگیس کلیہ, 322
-  \item روک, 1438
-    \subitem دھچکا, 128
-  \item رگڑ
-    \subitem حرکی مستقل, 37
-  \item ریلے مساوات, 289
-  \item ریمان
-    \subitem سطح, 1150
-    \subitem کرہ اعداد, 1305
-  \item ریڈیم, 9
-  \item زائد معلوم, 580
-  \item زاویائی رفتار, 527, 739
-  \item زاویائی سمتی رفتار, 527
-  \item زاویائی فاصلہ, 166
-  \item زاویائی فرق, 117
-  \item زاویہ تقاطع, 68
-  \item زلزلہ, 108
-  \item زنجیری تفرق, 91
-  \item زیادہ تقصیر, 119
-  \item زینہ دار صورت
-    \subitem سادہ, 582
-  \item سائن
-    \subitem تفاعل, 1139
-    \subitem ہذلولی, 1091
-  \item سائن تکمل, 945
-  \item سادہ تعلق, 822, 876
-  \item سادہ تعلق خطہ, 1172
-  \item سادہ تفرقی مساوات
-    \subitem لاگیھ, 467
-  \item سادہ منحنی, 722
-  \item سایہ دار, 74
-  \item سر, 484
-  \item سرحدی
-    \subitem قیمت مسئلہ, 1020
-  \item سرحدی شرائط, 954
-  \item سرحدی مسئلہ, 379
-  \item سرحدی نقطہ, 1057
-  \item سرطان, 37
-    \subitem گامپرٹز, 37
-  \item سطح
-    \subitem خفی روپ, 820
-    \subitem صریح روپ, 820
-    \subitem مقدار معلوم روپ, 821
-    \subitem مقیاس, 1092
-    \subitem مماس, 755
-    \subitem پیما, 813, 1410
-    \subitem ہموار, 1108
-  \item سطح مرحلہ, 235
-    \subitem ترکیب, 274
-  \item سطح پیما, 1410
-  \item سطحی
-    \subitem تکمل, 837
-  \item سلسلہ
-    \subitem بند, 1056
-    \subitem حل, 579
-    \subitem خطی طور تابع, 226
-    \subitem خطی طور غیر تابع, 226
-    \subitem ذیلی, 596
-    \subitem شمولی, 1470
-    \subitem غیر خالی, 596
-    \subitem محدود, 1056
-    \subitem نقاط, 1056
-    \subitem کھلا, 1056
-  \item سلسلہ وار دور, 55, 169
-  \item سمت
-    \subitem مثبت, 1117
-  \item سمت بند
-    \subitem قابل, 839
-  \item سمت بندی, 728
-  \item سمت بہاو, 1352
-  \item سمت کار
-    \subitem مکمل لہر, 450
-    \subitem نصف لہر, 451
-  \item سمتی
-    \subitem تفاعل, 712
-    \subitem تفرق, 752
-    \subitem جمع, 500, 645
-    \subitem فضا, 499
-    \subitem میدان, 712
-  \item سمتی رفتار
-    \subitem زاویائی, 527
-    \subitem مخفی قوہ, 1355
-  \item سمتی رفتار سمتیہ, 739
-  \item سمتی ضرب, 520
-  \item سمتی فضا, 596
-    \subitem حقیقی, 499, 645
-  \item سمتیہ, 484, 541, 542
-    \subitem اکائی, 485, 649
-    \subitem تحدیدی, 714
-    \subitem تعین گر, 487
-    \subitem حال, 564
-    \subitem حل, 571
-    \subitem دم, 484
-    \subitem دو درجی صورت, 694
-    \subitem سر, 484
-    \subitem صف, 221, 542
-    \subitem صفر, 226, 487, 549
-    \subitem غیر, 483
-    \subitem قابل منتقلی, 485
-    \subitem قطار, 221, 542
-    \subitem مقدار, 484
-    \subitem مقید, 485
-  \item سمتیہ اسراع, 739
-  \item سمتیہ صف, 221
-  \item سمسن قاعدہ, 1415
-  \item سٹوکس
-    \subitem مسئلہ, 862
-  \item سٹیورم لیوویل
-    \subitem سرحدی شرائط, 379
-  \item سٹیورم لیوویل مسئلہ, 379
-  \item سٹیورم لیوویل مساوات, 379
-  \item سہ سطحی مجسم, 734
-  \item سہ ضرب
-    \subitem غیر سمتی, 533
-  \item سیال, 772
-  \item سیڑھی
-    \subitem اکائی, 421
-    \subitem تفاعل, 1411
-  \item سیڑھی موج, 452
-  \item شدت منبع, 852
-  \item شرط
-    \subitem لازمی, 41
-    \subitem کافی, 41
-  \item شوارز عدم مساوات, 506
-  \item شولسکی, 1440
-  \item شکلہ
-    \subitem کل, 1063
-  \item صدر
-    \subitem اکائی عمودی سمتیہ, 734
-    \subitem حصہ, 1308
-    \subitem قیمت, 1048, 1079, 1098
-  \item صدر عمود, 734
-  \item صدر قیمت, 1096
-    \subitem کوشی, 1339
-  \item صدر محور, 672
-    \subitem مسئلہ, 695
-  \item صریح, 3
-  \item صف, 221, 542
-    \subitem سمتیہ, 542
-  \item صف برابر, 579, 592
-  \item صف زینہ دار, 582
-  \item صف فضا, 597
-  \item صفر, 1306
-    \subitem سمتیہ, 549
-    \subitem قالب, 549
-    \subitem مکمل, 140, 193
-  \item صفر سمتیہ, 226, 487
-  \item صفر ہٹاو
-    \subitem لکیر, 1000
-  \item صلیبی ضرب, 520
-  \item ضرب, 437
-    \subitem اندرونی, 505, 648
-    \subitem غیر سمتی, 500, 505, 548, 646
-    \subitem نقطہ, 505, 648
-  \item ضمنی مساوات, 409
-  \item ضیائی تالیف, 590
-  \item طاق, 907
-    \subitem دوری توسیع, 916
-  \item طاقتی
-    \subitem تسلسل, 299, 1244
-  \item طاقتی تسلسل
-    \subitem ترکیب, 299
-    \subitem قیمت, 305
-    \subitem مجموعہ, 305
-  \item طیف, 663, 964, 1463
-    \subitem رداس, 663
-  \item عارضی حل, 165
-  \item عامل, 110, 651
-    \subitem تفرقی, 110
-    \subitem لاپلاسی, 758
-    \subitem مماثلی, 110
-  \item عدد
-    \subitem برنولی, 1281
-    \subitem یولر, 1281
-  \item عدد ضربیہ, 353
-  \item عددی سر, 300, 571, 885, 1244
-    \subitem دو درجی مساوات, 81
-    \subitem فوریئر, 376
-    \subitem قالب, 571, 694, 706, 1436
-  \item عددی سر قالب, 543
-  \item عدم مساوات
-    \subitem تکونی, 650
-    \subitem کوشی شوارز, 650
-  \item علامت مجموعہ, 300
-  \item علم الاحصاء, 299
-  \item علیحدگی متغیرات
-    \subitem ترکیب, 23
-  \item عمارت, 108
-  \item عملی گمک, 165
-  \item عمود, 755, 826
-  \item عمودی, 649, 1466
-    \subitem اکائی صدر سمتیہ, 734
-    \subitem دوہرا اکائی سمتیہ, 734
-  \item عمودی سایہ, 508
-  \item عمودی سمتیہ
-    \subitem اکائی, 826
-  \item عمودی مطقاطع خطوط, 68
-  \item عمومی حل, 6, 189, 290
-  \item عکس, 1104
-  \item عکس نقطہ, 1104
-  \item غدود, 57
-  \item غلاف, 102
-  \item غیر اہم
-    \subitem حل, 64
-  \item غیر اہم حل, 52
-  \item غیر اہم صفر حل, 571, 607
-  \item غیر تابع
-    \subitem خطی طور, 189
-  \item غیر خطی, 80, 188
-  \item غیر سمتی, 500, 646
-    \subitem سہ ضرب, 533
-    \subitem ضرب, 500, 505, 646
-    \subitem قالب, 562
-    \subitem مقدار, 227
-    \subitem میدان, 711
-  \item غیر سمتی ضرب, 223
-  \item غیر سمتیات, 483
-  \item غیر صفر اہم حل, 607
-  \item غیر صفر حل, 194
-  \item غیر قطعی, 44
-  \item غیر متجانس, 53, 188
-    \subitem دو درجی, 80
-    \subitem نظام, 607
-  \item غیر محدود, 1172, 1205
-  \item غیر مستحکم, 61, 156, 267
-    \subitem صورت, 108
-  \item غیر معین, 421
-  \item غیر مقررہ نقطہ نظام, 1375
-  \item غیر مناسب
-    \subitem تکمل, 1331
-  \item غیر مناسب تکمل, 397
-  \item غیر منظم نادر نقطہ, 333
-  \item غیر نادر
-    \subitem قالب, 630
-  \item غیر نادر قالب, 226
-  \item غیر نادر نقطہ, 333
-  \item غیر گردشی, 778
-  \item غیر ہم جنسی
-    \subitem جزوی تفرقی مساوات, 953
-    \subitem نظام, 571
-  \item غیر ہموار, 309
-
-  \indexspace
-
-  \item فاصل تقصیر, 119
-  \item فاصل نقطے, 61
-  \item فرق, 548
-    \subitem آگے, 1390
-    \subitem دوسرا, 1388
-    \subitem منقسم, 1399
-    \subitem وسطی, 1389
-    \subitem پہلا, 1388
-    \subitem پیچھے, 1390
-  \item فروبنیوس
-    \subitem ترکیب, 299, 332
-  \item فرہنگ, 651
-  \item فضا
-    \subitem اقلیدسی, 650
-    \subitem حقیقی اندرونی ضرب, 518
-    \subitem خطی, 499
-    \subitem ذیلی, 596
-    \subitem سمتی, 499
-    \subitem معدوم, 598, 608
-  \item فوریئر
-    \subitem الٹ بدل, 952
-    \subitem بدل, 952
-    \subitem تسلسل, 892
-    \subitem تکمل, 943
-    \subitem دوہرا تسلسل, 1002
-    \subitem سائن تسلسل, 909
-    \subitem عددی سر, 376, 892
-    \subitem لیژانڈر تسلسل, 1026
-    \subitem مخلوط تسلسل, 922
-    \subitem مخلوط عددی سر, 922
-    \subitem مستقل, 375
-    \subitem کوسائن تسلسل, 908
-  \item فوریئر بیسل تسلسل, 387
-  \item فوریئر تسلسل
-    \subitem عمومی, 375
-  \item فیراڈ, 170
-  \item قائمہ, 494
-    \subitem انداز, 964
-  \item قائمہ الزاویہ, 319, 373, 680
-    \subitem سلسلہ, 373
-    \subitem معیاری سلسلہ, 374
-  \item قائمیت, 372, 506
-  \item قابل تبادل, 568
-  \item قابل تصحیح, 726
-  \item قابل علیحدگی مساوات, 23
-  \item قاعدہ
-    \subitem آٹھ میں سے تین, 1417
-    \subitem سمسن, 1415
-    \subitem ویڈل, 1417
-  \item قاعدہ کریمر, 196, 610, 620
-  \item قالب, 220, 541
-    \subitem آثار, 693
-    \subitem اعادہ, 1447
-    \subitem افزودہ, 543
-    \subitem امتیازی, 665
-    \subitem امکانی شماریاتی, 563
-    \subitem اکائی, 562
-    \subitem بالائی تکونی, 561
-    \subitem بنیادی, 247
-    \subitem تبدیلی محل, 225
-    \subitem تشاکلی, 561
-    \subitem صفر, 549
-    \subitem عددی سر, 543, 694, 706
-    \subitem غیر سمتی, 562
-    \subitem غیر نادر, 226, 630
-    \subitem غیر گنجان, 1498
-    \subitem مانگ, 679
-    \subitem متشابہ, 689
-    \subitem مربع, 221, 542
-    \subitem معکوس, 226, 629
-    \subitem مقطع, 610
-    \subitem منحرف تشاکلی, 561
-    \subitem نادر, 226, 630
-    \subitem نچلا تکونی, 561
-    \subitem وتری, 562
-    \subitem پٹی, 1501
-    \subitem ہلبرٹ, 1457
-  \item قالب صرف, 678
-  \item قالب چکر, 239
-    \subitem پالی, 707
-  \item قانون
-    \subitem تبادل, 500, 549, 645
-    \subitem تقسیم, 500, 646
-    \subitem تلازم, 500, 549, 645
-    \subitem مالتُھس, 5
-  \item قانون اوہم, 55
-  \item قانون ٹاری سلی, 30
-  \item قانون ہک, 115
-  \item قدرتی تعدد, 116
-  \item قدم
-    \subitem لمبائی, 1484
-  \item قدم با قدم ترکیب, 1478
-  \item قرص
-    \subitem بند, 1054
-    \subitem دائری, 1054
-    \subitem کھلا, 1054
-  \item قصری
-    \subitem ارتعاش, 102, 122
-    \subitem مستقل, 118
-  \item قطار, 221, 542
-    \subitem سمتیہ, 221, 542
-  \item قطار فضا, 597
-  \item قطب, 1300, 1308
-    \subitem بلند درجی, 1320
-    \subitem سادہ, 1308
-  \item قطبی
-    \subitem روپ, 1047
-  \item قطبی جمودی معیار اثر, 801
-  \item قطبی محدد, 803, 1006
-  \item قطع زائد
-    \subitem جزوی تفرقی مساوات, 976
-  \item قطع مکافی
-    \subitem جزوی تفرقی مساوات, 976
-  \item قطعی
-    \subitem غیر, 44
-  \item قطعی تفرقی روپ, 870
-  \item قطعی تفرقی مساوات, 40
-  \item قوت, 52
-    \subitem بحالی, 115
-    \subitem جبری, 159
-    \subitem جزی, 214
-    \subitem خط, 1348
-    \subitem داخلی, 159
-    \subitem دوری, 159
-    \subitem معیار اثر سمتیہ, 526
-  \item قوت نمائی تفاعل, 1138
-  \item قوس, 722
-  \item قوس جرس, 991
-  \item قیمت, 1209
-    \subitem صدر, 1048
-  \item لازم شرط, 75
-  \item لازمی شرط
-    \subitem قطعی تفرقی, 41
-  \item لازمی ندرت, 1300
-  \item لامتناہی
-    \subitem پر نقطہ, 1126
-  \item لاپلاس
-    \subitem الٹ بدل, 396
-    \subitem تکملات, 948
-    \subitem مساوات, 758, 1496
-  \item لاپلاس بدل, 396
-  \item لاپلاس تبادلہ, 396
-  \item لاپلاسی, 758
-  \item لاپلاسی عامل, 758
-  \item لاگیغ سادہ تفرقی مساوات, 467
-  \item لاگیغ کثیر رکنی, 391
-  \item لبنیٹز آزمائش, 1221
-  \item لزلی نمونہ, 675
-  \item لمبائی, 649, 682
-    \subitem منحنی, 726
-  \item لمبائی قوس, 727
-  \item لوغوں
-    \subitem تسلسل, 1294
-  \item لوگارتھم
-    \subitem قدرتی, 1139
-  \item لوگارتھمی گھٹاو, 129
-  \item لچکدار
-    \subitem کعبی منحنی, 1404
-  \item لچکدار منحنی, 1404
-  \item لیبنٹز کلیہ, 324
-  \item لیزم, 93
-  \item لیونٹف نمونہ, 678
-  \item لیژانڈر
-    \subitem تفاعل, 304, 315
-    \subitem تفرقی مساوات, 315
-    \subitem شریک تفاعل, 331
-    \subitem کثیر رکنی, 318, 319, 1417
-    \subitem کثیر رکنی تفاعل, 304
-  \item لیگرینج
-    \subitem باہمی تحریف, 1400
-    \subitem مماثل, 536
-    \subitem کلیہ, 1400
-  \item ماحصل, 52, 159
-  \item ماخوذ
-    \subitem الکراجی, 112
-  \item ماقوا حرکیات, 772
-  \item مالتُھس
-    \subitem قانون, 5
-  \item مانگ
-    \subitem قالب, 679
-  \item ماورائی
-    \subitem مساوات, 1376
-  \item مبدا, 485
-  \item مبدل, 175
-  \item مبسوط
-    \subitem مخلوط سطح, 1126
-  \item متجانس, 52, 1436
-    \subitem غیر, 1436
-    \subitem نظام, 607
-  \item متجانس مساوات, 188
-  \item متشابہ
-    \subitem قالب, 689
-  \item متشابہت تبادلہ, 689
-  \item متضاد, 580
-  \item متعاملیت, 171
-  \item متعدد نقطہ, 722
-  \item متغیر
-    \subitem مخلوط, 1059
-  \item متقارب, 355
-    \subitem اتساع, 1423
-    \subitem لکیریں, 1108
-  \item متمم, 1056
-  \item متناہی
-    \subitem مخلوط سطح, 1126
-  \item متناہی چال, 1374
-  \item متوازن, 551
-    \subitem نقطے, 61
-  \item متوازن حل, 61
-  \item متوازی الاضلاع مساوات, 650
-  \item متوازی السطوح
-    \subitem مستطیلی, 772
-    \subitem مسدسی, 534
-  \item متکمل, 783
-  \item مثبت دائری سمت, 728
-  \item مجموعہ, 1209
-    \subitem جزوی, 1209
-  \item محافظ زاویہ, 1116
-  \item محافظ زاویہ نقشہ, 1103
-  \item محافظ زاویہ نقشہ کشی, 1103
-  \item محافظت زاویہ, 1116
-  \item محدد
-    \subitem قطبی, 803, 1006
-    \subitem نلکی, 1009
-    \subitem کروی, 1009
-  \item محددی منحنی, 823
-  \item محدود, 73, 822, 1172, 1205
-    \subitem غیر, 1172
-  \item محور, 485
-  \item مختلف, 546
-  \item مخصوص
-    \subitem حل, 6
-  \item مخصوص حل, 189, 290
-  \item مخفی تفاعل, 757
-  \item مخفی توانائی, 283
-  \item مخفی قوہ
-    \subitem برقی سکونیات, 1346
-    \subitem سمتی رفتار, 1355
-    \subitem مخلوط, 1347
-    \subitem مخلوط، ترکیب, 1144
-    \subitem نظریہ, 1345
-  \item مخلوط
-    \subitem برابری, 1038
-    \subitem سطح, 1040
-    \subitem مبسوط سطح, 1126
-    \subitem متغیر, 1059
-    \subitem متناہی سطح, 1126
-    \subitem مخفی قوہ, 1347
-    \subitem مسئلہ, 1495
-  \item مخلوط عدد, 1038
-  \item مخلوط مخفی قوہ, 1356
-  \item مربع قالب, 221
-  \item مرتکز, 305, 1202, 1378
-    \subitem حتمی, 1211
-    \subitem مشروط, 1212
-    \subitem یکساں, 1284
-  \item مروڑ, 735
-  \item مرکز, 1244
-  \item مرکز ثقل, 800
-  \item مرکز مائل
-    \subitem اسراع, 740
-    \subitem قوت, 740
-  \item مرکز گریز
-    \subitem قوت, 740
-  \item مرکزی وتر, 221, 544
-  \item مرکوز, 1202, 1209
-  \item مرکوزیت
-    \subitem حقیقی ترتیب, 1220
-  \item مزائل, 743
-  \item مزاحمت, 55, 1029
-  \item مسئلہ
-    \subitem امتیازی قدر, 662
-    \subitem اوسط قیمت, 76, 798, 850
-    \subitem بنیادی۔متجانس خطی, 82, 188
-    \subitem تابع اور غیر تابع حل, 140, 193
-    \subitem خطی میل, 82
-    \subitem رول, 364
-    \subitem سٹائنر, 844
-    \subitem سٹوکس, 862
-    \subitem شُر, 1465
-    \subitem صدر محور, 695
-    \subitem وجودیت, 73
-    \subitem وجودیت اور یکتائی, 139, 191
-    \subitem وجودیت عمومی حل, 143, 195
-    \subitem پکاغ, 1311
-    \subitem پیغوں فروبنیوس, 1467
-    \subitem کریمر, 194
-    \subitem کولٹز, 1467
-    \subitem گرشگرین, 1464
-    \subitem گرین, 810
-    \subitem یکتائی, 73
-  \item مسئلہ ثنائی، الکراجی, 321
-  \item مسئلہ خطی بنانا, 275
-  \item مساوات
-    \subitem استمراری, 774
-    \subitem اشاری, 335
-    \subitem امتیازی, 665
-    \subitem بیسل, 351
-    \subitem بیش ہندسی, 338
-    \subitem ریلے, 289
-    \subitem ضمنی, 409
-    \subitem ماورائی, 1376
-    \subitem متوازی الاضلاع, 650
-    \subitem ون در پول, 284
-    \subitem ویبر, 391
-    \subitem ڈفنگ, 289
-    \subitem گاوس بیش ہندسی, 348
-    \subitem ہلم ہولٹز, 1023
-    \subitem ہمزاد, 88
-  \item مستبدل
-    \subitem غیر, 223
-  \item مستحکم, 61, 156, 267
-  \item مستحکم اور جاذب, 267
-  \item مستطیل, 545
-  \item مستقل
-    \subitem اختیاری, 4
-    \subitem اسپرنگ, 115
-    \subitem قصری, 118
-  \item مستقل پلانک, 239
-  \item مستوی
-    \subitem منحنی, 721
-  \item مسرع خطی, 36
-  \item مطابقتی, 222
-    \subitem ایک ایک, 1120
-  \item مظہر گبس, 946
-  \item معدوم
-    \subitem فضا, 598, 608
-  \item معدوم سمتیہ, 487
-  \item معدومیت, 598, 608
-  \item معلوم, 580
-  \item معمہ ڈرشلے, 1365
-  \item معکوس
-    \subitem قالب, 226, 629
-  \item معیار, 373, 519, 649, 682, 1047
-    \subitem اقلیدسی, 650
-    \subitem شُر, 1466
-    \subitem فروبنیوس, 1466
-  \item معیار اثر
-    \subitem جمودی, 127, 213
-    \subitem خماو, 214
-  \item معیار اثر سمتیہ, 526
-  \item معیاری صورت
-    \subitem دو درجی, 80
-  \item معیاری قائمہ الزاویہ سلسلہ, 374
-  \item معین, 4
-  \item مقدار
-    \subitem سمتیہ, 484
-  \item مقدار معلوم, 69, 315
-    \subitem بدلنے کا طریقہ, 60, 180
-    \subitem منحنی, 250, 720
-  \item مقداری ترکیب, 219
-  \item مقررہ نقطہ, 1377
-  \item مقررہ نقطہ نظام, 1375
-  \item مقطع, 194
-    \subitem امتیازی, 665
-    \subitem بلند درجی, 613
-    \subitem قالب, 610
-    \subitem ورونسکی, 142
-  \item مقیاس اثر
-    \subitem ینگ, 213
-  \item مقیاسی سطح, 1092
-  \item مقید
-    \subitem سمتیہ, 485
-  \item ملحوظ ہندسے, 1375
-  \item مماثل
-    \subitem لیگرینج, 536
-  \item مماثلی
-    \subitem عامل, 110
-  \item مماس, 733, 734
-    \subitem اکائی سمتیہ, 733
-  \item مماسی
-    \subitem سطح, 755
-  \item مماسی سطح, 826
-  \item ممیز, 266
-  \item منبع, 852, 1354, 1359
-  \item منتقلی
-    \subitem اشاریہ, 313
-  \item منحرف تشاکل, 248
-  \item منحرف تشاکلی, 680
-  \item منحرف ہرمشی, 701
-  \item منحنی
-    \subitem خم دار, 721
-    \subitem سادہ, 722
-    \subitem مستوی, 721
-    \subitem مقدار معلوم, 250, 720
-    \subitem کعبی لچکدار, 1404
-    \subitem ہموار, 782, 1117
-  \item منحنی حل, 4, 14
-  \item منظم نادر نقطہ, 333
-  \item منظم نقطہ, 334
-  \item منفرج, 305, 1202, 1209
-  \item موبیوس پٹی, 839
-  \item موج
-    \subitem دندان, 451, 911
-    \subitem دو ابعادی مساوات, 996
-    \subitem سیڑھی, 452
-    \subitem یک بعدی مساوات, 960
-  \item موجود
-    \subitem حل, 191
-  \item موسیقی
-    \subitem آلہ, 164
-  \item موصلیت
-    \subitem حراری, 852
-  \item مکلارن
-    \subitem تسلسل, 1265
-  \item مکلارن تسلسل, 38, 100, 277
-  \item مکمل صفر, 80, 140, 188, 193
-  \item میدان
-    \subitem سمتی, 712
-    \subitem غیر سمتی, 711
-    \subitem ڈھال, 14, 282
-  \item میدانِ
-    \subitem سمت, 14
-  \item میں, 1104
-  \item نا معلوم عددی سر
-    \subitem ترکیب, 149
-  \item نا معلوم عددی سر کی ترکیب, 208
-  \item نا گھومتا, 1354
-  \item نادر, 1304
-    \subitem حل, 6, 12, 88
-    \subitem غیر منظم نقطہ, 333
-    \subitem غیر نادر, 333
-    \subitem قالب, 226, 630
-    \subitem منظم نقطہ, 333
-    \subitem نقطہ, 334
-  \item نادر حل, 139, 144
-  \item نادر نقطہ, 1267
-  \item ناطق تفاعل, 1078
-  \item ندرت, 1267
-    \subitem لازمی, 1308
-  \item نسل, 315
-    \subitem حل, 4
-  \item نصف النھار, 741
-  \item نصف حلقہ اتساع, 917
-  \item نظام
-    \subitem بنیادی, 246
-  \item نظریہ
-    \subitem اعلٰی تفاعل, 315
-  \item نظریہ مخفی قوہ, 1018
-  \item نظم, 654
-  \item نقشہ
-    \subitem اغگن, 1040
-    \subitem محافظ زاویہ, 1103
-  \item نقشہ کشی
-    \subitem خطی, 651
-  \item نقشہ گشی, 1104
-  \item نقطہ
-    \subitem اجتماع, 1307
-    \subitem تحدیدی, 1213, 1307
-    \subitem تقسیمی, 1150
-    \subitem تنہا, 1307
-    \subitem زین, 252
-    \subitem ضرب, 505
-    \subitem فاصل, 1117
-    \subitem لامتناہی پر, 1126
-    \subitem مرغولہ, 252
-    \subitem مقررہ, 1126
-    \subitem نادر, 334
-  \item نقطہ صفر ہٹاو, 964
-  \item نقطہ فاصل, 251
-  \item نقطہ مرغولہ, 255
-  \item نلکی محدد, 1009
-  \item نمو آبادی, 59
-  \item نمونہ
-    \subitem ریاضی, 1, 2
-    \subitem لیونٹف, 678
-  \item نمونہ کشی, 2
-  \item نیومن
-    \subitem مسئلہ, 1495
-  \item نیومن تفاعل
-    \subitem درجہ صفر, 368
-  \item نیوٹن
-    \subitem آگے فرق، باہمی تحریف کلیہ, 1396
-    \subitem باہمی تحریف،منقسم فرق کلیہ, 1399
-    \subitem پیچھے فرق، باہمی تحریف کلیہ, 1397
-  \item نیوٹن کا دوسرا قانون, 276
-  \item نیوٹن کا قانون ٹھنڈک, 28
-  \item نیچے چکر, 239
-  \item واحد قیمت, 870
-  \item وتر
-    \subitem سہ وتری قالب, 1501
-    \subitem مرکزی, 221
-  \item وتری قالب, 562
-  \item وجودیت, 2, 138, 604
-    \subitem عمومی حل, 143, 195
-  \item ورنہ, 1438
-  \item ورونسکی, 140, 193
-    \subitem مقطع, 142
-  \item ورہلسٹ, 59
-  \item وسط, 252, 300
-  \item وقفہ
-    \subitem ارتکازی, 306
-    \subitem کھلا, 4
-  \item ون در پول مساوات, 284
-  \item ویبر
-    \subitem مساوات, 391
-  \item ویٹ سٹون پل, 588
-  \item ٹیلر
-    \subitem تسلسل, 1265
-    \subitem کلیہ, 1264
-  \item پارسیوال مماثل, 939
-  \item پالی قالب چکر, 707
-  \item پر, 1104
-  \item پوئسن
-    \subitem مساوات, 1496
-  \item پوسوں
-    \subitem کلیہ تکمل, 1368
-  \item پڑوس, 1054
-  \item پکاغ
-    \subitem مسئلہ, 1311
-  \item پھیلاو, 769, 852
-  \item پیدا کار, 501
-  \item پیدا کار تفاعل
-    \subitem ہرمائٹ کثیر رکنی, 391
-  \item پیداکار تفاعل
-    \subitem لاگیغ کثیر رکنی, 470
-  \item پیش گو، مصحح ترکیب, 1481
-  \item پیما
-    \subitem سطح, 813
-  \item پیچ دار لچھا, 722
-  \item پیچھے, 166, 174
-  \item پیکر مرحلہ, 250
-
-  \indexspace
-
-  \item چبیشف کثیر رکنی, 393
-  \item چننا
-    \subitem خاصیت, 438
-  \item چول
-    \subitem جزوی, 1439
-    \subitem عددی سر, 1438
-    \subitem قیمت, 1394
-    \subitem مکمل, 1439
-  \item چکر, 239
-  \item چھلا
-    \subitem کھلا, 1055
-  \item چھلانگ, 400, 408, 896, 923
-  \item ڈرشلے
-    \subitem مسئلہ, 1495
-  \item ڈرشلے غیر استمراری جزو, 945
-  \item ڈفنگ مساوات, 289
-  \item ڈھال
-    \subitem میدان, 14, 282
-  \item ڈھلوان, 753
-  \item ڈی موے ور
-    \subitem کلیہ, 1049
-  \item ڈیراک
-    \subitem ڈیلٹائی تفاعل, 437
-  \item کائناتی شعاعیں, 24
-  \item کارتیسی
-    \subitem نظام محدد, 1040
-  \item کارتیسی نظام
-    \subitem دائیں ہاتھ, 522
-  \item کارتیسی نظام محدد, 486, 653
-  \item کاغذ ترسیم, 1410
-  \item کافی شرط, 75
-    \subitem قطعی تفرقی, 41
-  \item کام, 792
-  \item کثرت
-    \subitem الجبرائی, 668
-    \subitem جیومیٹریائی, 668
-  \item کثیر رکنی, 110, 1064, 1078
-    \subitem لاگیغ, 391
-    \subitem چبیشف, 393
-    \subitem ہرمائٹ, 390
-  \item کرخوف
-    \subitem قانون دباو, 55
-  \item کرونیکر ضرب, 766
-  \item کروی محدد, 1009
-  \item کریمر
-    \subitem قاعدہ, 620
-    \subitem مسئلہ, 194
-  \item کسر
-    \subitem جزوی, 1079
-  \item کل شکلہ, 1063
-  \item کلیہ
-    \subitem بند, 1418
-    \subitem تقسیم دباو, 588
-    \subitem توالی, 317
-    \subitem تین نقاطی, 1419
-    \subitem روڈریگیس, 322
-    \subitem کھلا, 1418
-  \item کلیہ لیبنٹز, 324
-  \item کم تقصیر, 119
-  \item کم معلوم, 580
-  \item کمتر مربع
-    \subitem ترکیب, 1458
-    \subitem عمودی مساوات, 1459
-  \item کمیت
-    \subitem اسپرنگ, 114
-  \item کوانٹم میکانیات, 110, 227, 331, 700
-  \item کوریولس
-    \subitem اسراع, 741
-  \item کوریولس اسراع, 742
-  \item کوسائن
-    \subitem تفاعل, 1140
-    \subitem ہذلولی, 1091
-  \item کوسائن رخ, 721
-  \item کوشی
-    \subitem اور ادامغ کلیہ, 1248
-    \subitem حاصل ضرب, 1251
-    \subitem صدر قیمت, 1339
-    \subitem عدم مساوات, 1197
-    \subitem کلیہ تکمل, 1189
-  \item کوشی اصول مرکوزیت
-    \subitem برائے ترتیب, 1216
-    \subitem تسلسل, 1217
-  \item کوشی ریمان
-    \subitem تفرقی مساوات, 1069
-  \item کوشی شوارز عدم مساوات, 650
-  \item کوشی مقطع, 200
-  \item کوشی کا اصول مرکوزیت, 1213
-  \item کولمب, 170
-  \item کھلا, 746
-    \subitem قرص, 1054
-    \subitem وقفہ, 4
-    \subitem کلیہ, 1418
-  \item کیفی
-    \subitem تراکیب, 273
-  \item کیفی ترکیب, 219
-  \item کے لئے, 1437
-  \item گامپرٹز تفاعل, 37
-  \item گاوس
-    \subitem زائڈل ترکیب, 1498
-    \subitem کلیہ تکمل, 1418
-  \item گاوس بیش ہندسی مساوات, 348
-  \item گاوس جارڈن اسقاط, 631, 1441
-  \item گاوسی
-    \subitem وسطی فرق کلیہ, 1418
-  \item گاوسی اسقاط, 570, 574, 1436
-  \item گرداب, 1359
-  \item گردابیت, 1354
-  \item گردش, 777
-  \item گروہ بندی, 1237
-  \item گرین
-    \subitem کلیہ اول, 855
-    \subitem کلیہ دوم, 855
-  \item گلٹی, 57
-  \item گمک, 159, 162, 459
-    \subitem عملی, 165
-  \item گمکی جزو, 162
-  \item گڑھا, 1354, 1359
-  \item گھنٹی نما, 24
-  \item گھومنا, 1354
-  \item گھٹاو
-    \subitem لوگارتھمی, 129
-  \item گیما
-    \subitem غیر مکمل تفاعل, 1433
-  \item گیما تفاعل, 355
-
-  \indexspace
-
-  \item ہارمونز, 57
-  \item ہارمونی, 860
-    \subitem انداز, 964
-    \subitem تسلسل, 1210
-    \subitem تفاعل, 1018, 1073
-    \subitem جوڑی دار تفاعل, 1073
-  \item ہارمونی ارتعاش, 116
-  \item ہذلولی, 253
-    \subitem تفاعل, 1140
-    \subitem سائن, 1091
-    \subitem کوسائن, 1091
-  \item ہرمائٹ
-    \subitem کثیر رکنی, 390
-  \item ہرمشی, 701
-    \subitem صورت, 706
-    \subitem منحرف, 701
-  \item ہرٹز, 116
-  \item ہلم ہولٹز
-    \subitem مساوات, 1023
-  \item ہم جا, 13, 25
-  \item ہم جنسی
-    \subitem جزوی تفرقی مساوات, 953
-    \subitem غیر, 571
-    \subitem نظام, 571
-  \item ہم حرارت خطوط, 72
-  \item ہم خطی, 503
-  \item ہم زاویہ, 174
-  \item ہم سطحی, 503
-  \item ہم ضربی, 614
-  \item ہم قوہ
-    \subitem خط, 1355
-  \item ہم قوہ خطوط, 71
-  \item ہم قوہ سطحیں, 1346
-  \item ہم محوری تار, 71
-  \item ہم میلان, 20, 284
-  \item ہمزاد مساوات, 88
-  \item ہموار
-    \subitem سطح, 1108
-    \subitem سطح۔ٹکڑوں میں, 822
-    \subitem منحنی, 782, 1105, 1117
-    \subitem ٹکڑوں میں, 786
-  \item ہموار سطحیں, 755
-  \item ہندسی
-    \subitem تسلسل, 1226
-  \item ہندسی تسلسل, 349
-  \item ہوائی حرکیات, 1152
-  \item ہوائی پترا, 1154
-    \subitem ژکوسکی, 1154
-  \item ہٹاو, 52
-  \item ہک کا قانون, 115
-  \item ہینری, 55
-  \item ہینکل تفاعل, 370
-  \item ہیوی سائیڈ سیڑھی تفاعل, 421
-  \item یعقوبی, 803, 1120
-  \item ینگ
-    \subitem مقیاس اثر, 213
-  \item یولر
-    \subitem اعداد, 1281
-    \subitem بہتر ترکیب, 1480
-    \subitem ترکیب, 15
-    \subitem عمومی کلیہ, 1003
-    \subitem مساوات, 1090
-    \subitem مستقل, 368
-    \subitem کلیات, 376, 891
-    \subitem کلیہ, 1085, 1270
-  \item یولر مساوات, 101
-  \item یولر کوشی ترکیب, 1479
-  \item یولر کوشی مساوات, 130
-  \item یک سر
-    \subitem بڑھتی, 1220
-    \subitem ترتیب, 1220
-    \subitem گھٹتی, 1220
-  \item یکتا
-    \subitem حل, 6
-  \item یکتا حل, 191
-  \item یکتائی, 2, 138, 605, 1257
+\item جمودی معیار اثر، 127، 213، 800
+\item جوڑ، 1404، 1498
+   \subitem انحطاطی، 258
+   \subitem غیر مناسب، 252
+   \subitem مناسب، 252
+\item جیومیٹریائی کثرت، 668
+\indexspace
+\item حد، 408، 714، 1060، 1202
+   \subitem بائیں ہاتھ، 895
+   \subitem خلل، 1375، 1412
+   \subitem دائیں ہاتھ، 895
+\item حل
+   \subitem برقرار حال، 165
+   \subitem دوری، 268
+   \subitem سلسلہ، 579
+   \subitem سمتیہ، 571
+   \subitem عارضی، 165
+   \subitem عمومی، 6، 290
+   \subitem غیر اہم، 52
+   \subitem غیر اہم صفر، 571
+   \subitem غیر صفر، 194
+   \subitem مخصوص، 6
+   \subitem موجود، 191
+   \subitem نادر، 6، 12، 139
+   \subitem نسل، 4
+   \subitem وجودیت عمومی حل، 143، 195
+\item حال
+   \subitem تحدیدی، 674
+   \subitem سمتیہ، 564
+\item حاصل تقسیم، 90
+\item حراری
+   \subitem خصوصی استعداد، 853
+   \subitem مساوات، 853
+   \subitem یک بعدی مساوات، 979
+\item حراری موصلیت، 852
+\item حرکت
+   \subitem جبری، 159
+\item حرکیات
+   \subitem ماقوا، 772
+   \subitem ہوائی، 1152
+\item حرکی توانائی، 283
+\item حرکی رگڑ کا مستقل، 37
+\item حساب
+   \subitem فوری، 1373
+\item حسابی
+   \subitem توقع، 1576
+\item حسابی نمونہ، 1531
+\item حقیقی
+   \subitem ترتیب، 1202
+   \subitem حصہ، 1038
+   \subitem محور، 1039
+\item حقیقی سمتی فضا، 499، 645
+\item حل سمتیہ، 244
+\item حل فضا، 607
+\item حیطہ، 117، 166
+\indexspace
+\item خط، 1553
+   \subitem ارتفاع، 1180
+   \subitem قوت، 1346
+\item خاصیت
+   \subitem منحنی کارکردگی، 1643
+\item خالص خیالی عدد، 1043
+\item خامی، 668
+\item خطہ، 1057
+   \subitem بنیادی، 1086
+   \subitem سادہ تعلق، 1172
+   \subitem فاصل، 1640
+   \subitem مضرب تعلق، 1172
+   \subitem منظوری، 1640
+   \subitem نا منظوری، 1640
+\item خطی، 187، 953
+   \subitem تبادلہ، 651
+   \subitem تکمل، 783
+   \subitem دو درجی، 80
+   \subitem سادہ تفرقی مساوات، 51
+   \subitem مجموعہ، 501
+   \subitem میل، 82
+   \subitem نقشہ کشی، 651
+\item خط حرکت، 236
+\item خطر پیداکار، 1664
+\item خطر خریدار، 1664
+\item خط طول بلد، 822
+\item خط عرض بلد، 822
+\item خطی 
+   \subitem فضا، 499
+\item خطیت
+   \subitem اصول، 81
+\item خطی جزو، 728
+\item خطی طور
+   \subitem تابع، 87، 139، 189
+   \subitem تابع سلسلہ، 226
+   \subitem  غیر تابع، 87، 139، 189
+   \subitem غیر تابع، 189
+   \subitem غیر تابع سلسلہ، 226
+\item خطی طور تابع، 140، 193، 501، 502، 591، 647
+\item خطی طور غیر تابع، 140، 193، 502، 591
+\item خطی طور غیر تابع سلسلہ، 502، 591
+\item خطی مجموعہ، 590، 646
+\item خطی میل، 188، 190
+   \subitem اصول، 81
+\item خطی نظام، 244، 570
+\item خفی، 3
+\item خفی حل، 40
+\item خلل، 1374
+   \subitem اجتماع، 1492
+   \subitem اضافی، 1374
+   \subitem پور و پور، 1375
+   \subitem تجربی، 1375
+   \subitem تجزیہ، 1374
+   \subitem تفاعل، 990، 1424
+   \subitem حد، 1375، 1412
+   \subitem حذفی، 895، 1375
+   \subitem قطع چال، 1479
+   \subitem کل مکعب، 937
+   \subitem متمم تفاعل، 1424
+\item خلا نلکی، 284
+\item خماو
+   \subitem معیار اثر، 214
+\item خم دار منحنی، 721
+\item خود کار
+   \subitem بندوق، 169
+\item خود مختار، 274
+   \subitem سادہ تفرقی مساوات، 20
+   \subitem مساوات، 61
+\item خوش خو، 1453
+\item خیالی
+   \subitem اکائی، 1039
+   \subitem حصہ، 1038
+   \subitem خالص خیالی عدد، 1043
+   \subitem محور، 1039
+\indexspace
+\item داخلی
+   \subitem قوت، 159
+\item دا لومبیغ حل، 974
+\item دائرہ
+   \subitem ارتکاز، 1247
+   \subitem اکائی، 1055
+\item دائرہ کار، 244، 711، 746، 1057، 1059
+\item دائری بہاو، 867، 1351
+\item دائری سمت
+   \subitem مثبت، 728
+\item دائیں ہاتھ
+   \subitem تفرق، 896
+\item دایاں ہاتھ
+   \subitem کارتیسی نظام، 522
+\item درآیدہ، 52
+\item درجہ، 592، 1305، 1308
+   \subitem آزادی کی تعداد، 1626
+   \subitem تخفیف، 89
+   \subitem جزوی تفرقی مساوات، 953
+   \subitem دوم ترکیب، 1481
+   \subitem دہرانے کی ترکیب، 1383
+   \subitem لیژانڈر، 304
+\item درجہ قالب، 583
+\item درستگی، 1374
+\item دلیل، 1047
+\item دم، 484
+\item دندان موج، 451، 911
+\item دو درجی الجبرائی مساوات، 95
+\item دو درجی صورت، 694
+\item دوری، 884
+   \subitem قوت، 159
+\item دوری عرصہ، 117، 884
+   \subitem خیالی، 1086
+\item دوسرا فرق
+   \subitem تبدیل شدہ، 1399
+\item دوہرا
+   \subitem تکمل، 797
+\item دوہرا عمود، 734
+\item دھچکا روک، 128
+\item دھڑکن، 910
+\indexspace
+\item ذیلی قالب، 604
+\item ذیلی مساوات، 130
+\indexspace
+\item راک ویل، 1529
+\item راہ
+   \subitem تبدیلی کا اصول، 1179
+   \subitem تکمل، 783
+\item راہ سے آزاد، 870
+\item رجعی
+   \subitem سر، 1683
+\item رجعی تجزیہ، 1679
+\item رجعی خط، 1681
+\item رد عمل، 52، 159
+\item رداس
+   \subitem ارتکاز، 306، 1247
+   \subitem طیف، 663
+\item ردوبدل، 1239
+\item رفتار، 739
+   \subitem زاویائی، 527
+   \subitem سمتی، 739
+\item رقبہ، 799
+   \subitem رکن، 829
+\item رنج کوٹا
+   \subitem نیستروم ترکیب، 1490
+\item رنج کوٹا ترکیب، 1483
+\item رول مسئلہ، 364
+\item روڈریکیس
+   \subitem کثیر رکنی، 467
+   \subitem کلیہ، 467
+\item روڈریگیس کلیہ، 322
+\item روک، 1438
+   \subitem دھچکا، 128
+\item رکن، 1547
+\item رگڑ
+   \subitem حرکی مستقل، 37
+\item ریلے مساوات، 289
+\item ریمان
+   \subitem سطح، 1150
+   \subitem کرہ اعداد، 1305
+\item ریڈیم، 9
+\indexspace
+\item زائد معلوم، 580
+\item زاویائی رفتار، 527، 739
+\item زاویائی سمتی رفتار، 527
+\item زاویائی فاصلہ، 166
+\item زاویائی فرق، 117
+\item زاویہ تقاطع، 68
+\item زلزلہ، 108
+\item زنجیری تفرق، 91
+\item زیادہ تقصیر، 119
+\item زینہ دار صورت
+   \subitem سادہ، 582
+\indexspace
+\item سائن
+   \subitem تفاعل، 1139
+   \subitem ہذلولی، 1091
+\item سائن تکمل، 945
+\item سادہ تعلق، 821، 876
+\item سادہ تعلق خطہ، 1172
+\item سادہ تفرقی مساوات
+   \subitem لاگیھ، 467
+\item سادہ منحنی، 722
+\item سایہ دار، 74
+\item سختی
+   \subitem برینل، 1686
+\item سدھارا، 1665
+\item سر، 484
+\item سرحدی
+   \subitem قیمت مسئلہ، 1020
+\item سرحدی شرائط، 954
+\item سرحدی مسئلہ، 379
+\item سرحدی نقطہ، 1057
+\item سرطان، 36
+   \subitem گامپرٹز، 36
+\item سطح
+   \subitem پیما، 813، 1411
+   \subitem خفی روپ، 820
+   \subitem صریح روپ، 820
+   \subitem مقدار معلوم روپ، 821
+   \subitem مقیاس، 1092
+   \subitem مماس، 755
+   \subitem ہموار، 1108
+\item سطح مرحلہ، 235
+   \subitem ترکیب، 274
+\item سطح پیما، 1411
+\item سطحی
+   \subitem تکمل، 837
+\item سعت، 1059
+\item سلسلہ
+   \subitem بند، 1056
+   \subitem حل، 579
+   \subitem خطی طور تابع، 226
+   \subitem خطی طور غیر تابع، 226
+   \subitem ذیلی، 596
+   \subitem شمولی، 1470
+   \subitem غیر خالی، 596
+   \subitem کھلا، 1056
+   \subitem محدود، 1056
+   \subitem نقاط، 1056
+\item سلسلہ وار دور، 55، 169
+\item سمت
+   \subitem مثبت، 1117
+\item سمت بند
+   \subitem قابل، 839
+\item سمت بندی، 728
+\item سمت بہاو، 1350
+\item سمت کار
+   \subitem مکمل لہر، 450
+   \subitem نصف لہر، 451
+\item سمتی
+   \subitem تفاعل، 712
+   \subitem تفرق، 752
+   \subitem جمع، 500، 645
+   \subitem فضا، 499
+   \subitem میدان، 712
+\item سمتی رفتار
+   \subitem زاویائی، 527
+   \subitem مخفی قوہ، 1353
+\item سمتی رفتار سمتیہ، 739
+\item سمتی ضرب، 520
+\item سمتی فضا، 596
+   \subitem حقیقی، 499، 645
+\item سمتیہ، 484، 541، 542
+   \subitem اکائی، 485، 649
+   \subitem تحدیدی، 714
+   \subitem تعین گر، 487
+   \subitem حال، 564
+   \subitem حل، 571
+   \subitem دم، 484
+   \subitem دو درجی صورت، 694
+   \subitem سر، 484
+   \subitem صف، 221، 542
+   \subitem صفر، 226، 487، 549
+   \subitem غیر، 483
+   \subitem قابل منتقلی، 485
+   \subitem قطار، 221، 542
+   \subitem مقدار، 484
+   \subitem مقید، 485
+\item سمتیہ اسراع، 739
+\item سمتیہ صف، 221
+\item سمسن قاعدہ، 1415
+\item سٹوکس
+   \subitem مسئلہ، 862
+\item سٹیورم لیوویل
+   \subitem سرحدی شرائط، 379
+\item سٹیورم لیوویل مسئلہ، 379
+\item سٹیورم لیوویل مساوات، 379
+\item سکہ
+   \subitem خط، 1553
+   \subitem شیر، 1553
+\item سہ سطحی مجسم، 734
+\item سہ ضرب
+   \subitem غیر سمتی، 533
+\item سیال، 772
+\item سیڑھی
+   \subitem اکائی، 421
+   \subitem تفاعل، 1411
+\item سیڑھی تفاعل، 1572
+\item سیڑھی موج، 452
+\indexspace
+\item شدت منبع، 852
+\item شرط
+   \subitem کافی، 40
+   \subitem لازمی، 40
+\item شمار
+   \subitem نشان، 1532
+\item شماریات
+   \subitem رجحان، 1674
+\item شوارز عدم مساوات، 506
+\item شولسکی، 1440
+\item شکلہ
+   \subitem کل، 1063
+\item شیر، 1553
+\indexspace
+\item صدر
+   \subitem اکائی عمودی سمتیہ، 734
+   \subitem حصہ، 1307
+   \subitem قیمت، 1048، 1079، 1098
+\item صدر عمود، 734
+\item صدر قیمت، 1096
+   \subitem کوشی، 1337
+\item صدر محور، 672
+   \subitem مسئلہ، 695
+\item صدویہ، 1544
+\item صریح، 3
+\item صف، 221، 542
+   \subitem سمتیہ، 542
+\item صف برابر، 579، 592
+\item صف زینہ دار، 582
+\item صف فضا، 597
+\item صفر، 1305
+   \subitem سمتیہ، 549
+   \subitem قالب، 549
+   \subitem مکمل، 140، 193
+\item صفر سمتیہ، 226، 487
+\item صفر ہٹاو
+   \subitem لکیر، 1000
+\item صلیبی ضرب، 520
+\indexspace
+\item ضبط
+   \subitem بالائی حد، 1654
+   \subitem نچلی حد، 1654
+   \subitem نقشہ، 1654
+   \subitem وسطی خط، 1654
+\item ضبط معیار، 1654
+\item ضرب، 437
+   \subitem اندرونی، 505، 648
+   \subitem غیر سمتی، 500، 505، 548، 646
+   \subitem نقطہ، 505، 648
+\item ضمنی مساوات، 409
+\item ضیائی تالیف، 590
+\indexspace
+\item طاق، 907
+   \subitem دوری توسیع، 916
+\item طاقت
+   \subitem تفاعل، 1643
+   \subitem توڑ، 1601
+\item طاقتی
+   \subitem تسلسل، 299، 1244
+\item طاقتی تسلسل
+   \subitem ترکیب، 299
+   \subitem قیمت، 305
+   \subitem مجموعہ، 305
+\item طبقہ، 1537
+\item طیف، 663، 964، 1463
+   \subitem رداس، 663
+\indexspace
+\item عادہ، 1545
+\item عارضی حل، 165
+\item عامل، 110، 651
+   \subitem تفرقی، 110
+   \subitem لاپلاسی، 758
+   \subitem مماثلی، 110
+\item عدد
+   \subitem برنولی، 1280
+   \subitem یولر، 1280
+\item عدد ضربیہ، 353
+\item عددی سر، 300، 571، 885، 1244
+   \subitem دو درجی مساوات، 81
+   \subitem فوریئر، 376
+   \subitem قالب، 571، 694، 706، 1436
+\item عددی سر قالب، 543
+\item عدم مساوات
+   \subitem تکونی، 650
+   \subitem کوشی شوارز، 650
+\item عرصہ زندگی، 1530
+\item علامت مجموعہ، 300
+\item علیحدگی متغیرات
+   \subitem ترکیب، 23
+\item عمارت، 108
+\item عمل قابو، 1660
+\item عملی گمک، 165
+\item عمود، 755، 826
+\item عمودی، 649، 1466
+   \subitem اکائی صدر سمتیہ، 734
+   \subitem دوہرا اکائی سمتیہ، 734
+\item عمودی سایہ، 508
+\item عمودی سمتیہ
+   \subitem اکائی، 826
+\item عمودی مطقاطع خطوط، 68
+\item عمومی، 1592
+   \subitem بانٹا ہوا، 1592
+   \subitem متقاربی، 1633
+\item عمومی حل، 6، 189، 290
+\item عکس، 1104
+\item عکس نقطہ، 1104
+\item عیب دار، 1529، 1661
+   \subitem نسبت، 1662
+\indexspace
+\item غدود، 57
+\item غلاف، 102
+\item غیر اہم
+   \subitem حل، 64
+\item غیر اہم حل، 52
+\item غیر اہم صفر حل، 571، 607
+\item غیر تابع
+   \subitem خطی طور، 189
+\item غیر خطی، 80، 188
+\item غیر سمتی، 500، 646
+   \subitem سہ ضرب، 533
+   \subitem ضرب، 500، 505، 646
+   \subitem قالب، 562
+   \subitem مقدار، 227
+   \subitem میدان، 711
+\item غیر سمتی ضرب، 223
+\item غیر سمتیات، 483
+\item غیر صفر اہم حل، 607
+\item غیر صفر حل، 194
+\item غیر قطعی، 43
+\item غیر متجانس، 53، 188
+   \subitem دو درجی، 80
+   \subitem نظام، 607
+\item غیر محدود، 1172، 1205
+\item غیر مستحکم، 61، 156، 267
+   \subitem صورت، 108
+\item غیر مسلسل، 1570
+   \subitem تقسیم، 1603
+   \subitem متغیر، 1603
+\item غیر معین، 421
+\item غیر مقررہ نقطہ نظام، 1375
+\item غیر مناسب
+   \subitem تکمل، 1329
+\item غیر مناسب تکمل، 397
+\item غیر منظم نادر نقطہ، 333
+\item غیر نادر
+   \subitem قالب، 630
+\item غیر نادر قالب، 226
+\item غیر نادر نقطہ، 333
+\item غیر گردشی، 778
+\item غیر ہم جنسی
+   \subitem جزوی تفرقی مساوات، 953
+   \subitem نظام، 571
+\item غیر ہموار، 309
+\indexspace
+\item فاصل
+   \subitem قیمت، 1640
+\item فاصل تقصیر، 119
+\item فاصل نقطے، 61
+\item فرق، 548
+   \subitem آگے، 1390
+   \subitem پہلا، 1388
+   \subitem پیچھے، 1391
+   \subitem دوسرا، 1388
+   \subitem منقسم، 1400
+   \subitem وسطی، 1388
+\item فروبنیوس
+   \subitem ترکیب، 299، 332
+\item فرہنگ، 651
+\item فشار خون، 1547
+\item فضا
+   \subitem اقلیدسی، 650
+   \subitem حقیقی اندرونی ضرب، 518
+   \subitem خطی، 499
+   \subitem ذیلی، 596
+   \subitem سمتی، 499
+   \subitem معدوم، 598، 608
+\item فوریئر
+   \subitem الٹ بدل، 952
+   \subitem بدل، 952
+   \subitem تسلسل، 892
+   \subitem تکمل، 943
+   \subitem دوہرا تسلسل، 1002
+   \subitem سائن تسلسل، 909
+   \subitem عددی سر، 376، 892
+   \subitem کوسائن تسلسل، 908
+   \subitem لیژانڈر تسلسل، 1026
+   \subitem مخلوط تسلسل، 922
+   \subitem مخلوط عددی سر، 922
+   \subitem مستقل، 375
+\item فوریئر بیسل تسلسل، 387
+\item فوریئر تسلسل
+   \subitem عمومی، 375
+\item فیراڈ، 170
+\indexspace
+\item قائمہ، 494
+   \subitem انداز، 964
+\item قائمہ الزاویہ، 319، 373، 680
+   \subitem سلسلہ، 373
+   \subitem معیاری سلسلہ، 374
+\item قائمیت، 372، 506
+\item قابل تبادل، 568
+\item قابل تصحیح، 726
+\item قابل علیحدگی مساوات، 23
+\item قابو
+   \subitem عمل، 1660
+\item قاعدہ
+   \subitem آٹھ میں سے تین، 1417
+   \subitem سمسن، 1415
+   \subitem ویڈل، 1417
+\item قاعدہ کریمر، 196، 610، 620
+\item قالب، 220، 541
+   \subitem آثار، 693
+   \subitem اعادہ، 1447
+   \subitem افزودہ، 543
+   \subitem اکائی، 562
+   \subitem امتیازی، 665
+   \subitem امکانی شماریاتی، 563
+   \subitem بالائی تکونی، 561
+   \subitem بنیادی، 247
+   \subitem پٹی، 1501
+   \subitem تبدیلی محل، 225
+   \subitem تشاکلی، 561
+   \subitem صفر، 549
+   \subitem عددی سر، 543، 694، 706
+   \subitem غیر سمتی، 562
+   \subitem غیر گنجان، 1498
+   \subitem غیر نادر، 226، 630
+   \subitem مانگ، 679
+   \subitem متشابہ، 689
+   \subitem مربع، 221، 542
+   \subitem معکوس، 226، 629
+   \subitem مقطع، 610
+   \subitem منحرف تشاکلی، 561
+   \subitem نادر، 226، 630
+   \subitem نچلا تکونی، 561
+   \subitem وتری، 562
+   \subitem ہلبرٹ، 1457
+\item قالب صرف، 678
+\item قالب چکر، 239
+   \subitem پالی، 707
+\item قانون
+   \subitem تبادل، 500، 549، 645
+   \subitem تقسیم، 500، 646
+   \subitem تلازم، 500، 549، 645
+   \subitem مالتُھس، 5
+\item قانون اوہم، 55
+\item قانون ٹاری سلی، 30
+\item قانون ہک، 115
+\item قدرتی تعدد، 116
+\item قدم
+   \subitem لمبائی، 1484
+\item قدم با قدم ترکیب، 1478
+\item قرص
+   \subitem بند، 1054
+   \subitem دائری، 1054
+   \subitem کھلا، 1054
+\item قصری
+   \subitem ارتعاش، 102، 122
+   \subitem مستقل، 118
+\item قطار، 221، 542
+   \subitem سمتیہ، 221، 542
+\item قطار فضا، 597
+\item قطب، 1300، 1308
+   \subitem بلند درجی، 1318
+   \subitem سادہ، 1308
+\item قطبی
+   \subitem روپ، 1047
+\item قطبی جمودی معیار اثر، 801
+\item قطبی محدد، 803، 1006
+\item قطع زائد
+   \subitem جزوی تفرقی مساوات، 976
+\item قطع مکافی
+   \subitem جزوی تفرقی مساوات، 976
+\item قطعی
+   \subitem غیر، 43
+\item قطعی تفرقی روپ، 870
+\item قطعی تفرقی مساوات، 39
+\item قوت، 52
+   \subitem بحالی، 115
+   \subitem جبری، 159
+   \subitem جزی، 214
+   \subitem خط، 1346
+   \subitem داخلی، 159
+   \subitem دوری، 159
+   \subitem معیار اثر سمتیہ، 526
+\item قوت نمائی تفاعل، 1138
+\item قوس، 722
+   \subitem جرس، 1592
+\item قوس جرس، 991
+\item قیاس، 1636
+   \subitem پسندیدہ، 1640
+   \subitem متبادل، 1640
+\item قیمت، 1209
+   \subitem صدر، 1048
+\indexspace
+\item لا تعلق کھیپ، 1664
+\item لازم شرط، 75
+\item لازمی شرط
+   \subitem قطعی تفرقی، 40
+\item لازمی ندرت، 1300
+\item لامتناہی
+   \subitem پر نقطہ، 1126
+\item لاپلاس
+   \subitem الٹ بدل، 396
+   \subitem تکملات، 948
+   \subitem مساوات، 758، 1496
+\item لاپلاس بدل، 396
+\item لاپلاس تبادلہ، 396
+\item لاپلاسی، 758
+\item لاپلاسی عامل، 758
+\item لاگیغ سادہ تفرقی مساوات، 467
+\item لاگیغ کثیر رکنی، 391
+\item لبنیٹز پرکھ، 1221
+\item لزلی نمونہ، 675
+\item لمبائی، 649، 682
+   \subitem منحنی، 726
+\item لمبائی قوس، 727
+\item لوغوں
+   \subitem تسلسل، 1294
+\item لوگارتھم
+   \subitem قدرتی، 1139
+\item لوگارتھمی گھٹاو، 129
+\item لچکدار
+   \subitem کعبی منحنی، 1404
+\item لچکدار منحنی، 1404
+\item لیبنٹز کلیہ، 324
+\item لیزم، 93
+\item لیونٹف نمونہ، 678
+\item لیژانڈر
+   \subitem تفاعل، 304، 315
+   \subitem تفرقی مساوات، 315
+   \subitem شریک تفاعل، 331
+   \subitem کثیر رکنی، 318، 319، 1417
+   \subitem کثیر رکنی تفاعل، 304
+\item لیگرینج
+   \subitem باہمی تحریف، 1400
+   \subitem کلیہ، 1400
+   \subitem مماثل، 536
+\indexspace
+\item ماحصل، 52، 159
+\item ماخوذ
+   \subitem الکراجی، 112
+\item ماقوا حرکیات، 772
+\item مالتُھس
+   \subitem قانون، 5
+\item مانگ
+   \subitem قالب، 679
+\item ماورائی
+   \subitem مساوات، 1376
+\item مبدا، 485
+\item مبدل، 175
+\item مبسوط
+   \subitem مخلوط سطح، 1126
+\item متبادل
+   \subitem دو طرفہ، 1640
+   \subitem یک طرفہ، 1640
+\item متجانس، 52، 1436
+   \subitem غیر، 1436
+   \subitem نظام، 607
+\item متجانس مساوات، 188
+\item متشابہ
+   \subitem قالب، 689
+\item متشابہت تبادلہ، 689
+\item متضاد، 580
+\item متعاملیت، 171
+\item متعدد نقطہ، 722
+\item متغیر
+   \subitem مخلوط، 1059
+\item متقارب، 355
+   \subitem اتساع، 1423
+   \subitem لکیریں، 1108
+\item متقاربی عمومی، 1633
+\item متمم، 1056
+\item متناہی
+   \subitem مخلوط سطح، 1126
+\item متناہی چال، 1374
+\item متوازن، 551
+   \subitem نقطے، 61
+\item متوازن حل، 61
+\item متوازی الاضلاع مساوات، 650
+\item متوازی السطوح
+   \subitem مستطیلی، 772
+   \subitem مسدسی، 534
+\item متکمل، 783
+\item مثبت دائری سمت، 728
+\item مجموعہ، 1209
+   \subitem جزوی، 1209
+\item محافظ زاویہ، 1116
+\item محافظ زاویہ نقشہ، 1103
+\item محافظ زاویہ نقشہ کشی، 1103
+\item محافظت زاویہ، 1116
+\item محدد
+   \subitem قطبی، 803، 1006
+   \subitem کروی، 1009
+   \subitem نلکی، 1009
+\item محددی منحنی، 822
+\item محدود، 73، 821، 1172، 1205
+   \subitem غیر، 1172
+\item محور، 485
+\item مختلف، 546
+\item مخصوص
+   \subitem حل، 6
+\item مخصوص حل، 189، 290
+\item مخفی تفاعل، 757
+\item مخفی توانائی، 283
+\item مخفی قوہ
+   \subitem برقی سکونیات، 1344
+   \subitem سمتی رفتار، 1353
+   \subitem مخلوط، 1345
+   \subitem مخلوط، ترکیب، 1144
+   \subitem نظریہ، 1343
+\item مخلوط
+   \subitem برابری، 1038
+   \subitem سطح، 1040
+   \subitem مبسوط سطح، 1126
+   \subitem متغیر، 1059
+   \subitem متناہی سطح، 1126
+   \subitem مخفی قوہ، 1345
+   \subitem مسئلہ، 1495
+\item مخلوط عدد، 1038
+\item مخلوط مخفی قوہ، 1354
+\item مربع قالب، 221
+\item مرتکز، 305، 1202، 1378
+   \subitem مشروط، 1212
+   \subitem مطلق، 1211
+   \subitem یکساں، 1283
+\item مروڑ، 735
+\item مرکز، 1244
+\item مرکز ثقل، 800
+\item مرکز مائل
+   \subitem اسراع، 740
+   \subitem قوت، 740
+\item مرکز گریز
+   \subitem قوت، 740
+\item مرکزی وتر، 221، 544
+\item مرکوز، 1202، 1209
+\item مرکوزیت
+   \subitem حقیقی ترتیب، 1220
+\item مزائل، 743
+\item مزاحمت، 55، 1029
+\item مسئلہ
+   \subitem امتیازی قدر، 662
+   \subitem اوسط قیمت، 76، 798، 850
+   \subitem بنیادی۔متجانس خطی، 82، 188
+   \subitem پکاغ، 1311
+   \subitem پیغوں فروبنیوس، 1467
+   \subitem تابع اور غیر تابع حل، 140، 193
+   \subitem ثنائی، 1568
+   \subitem خطی میل، 82
+   \subitem رول، 364
+   \subitem سٹائنر، 844
+   \subitem سٹوکس، 862
+   \subitem شُر، 1465
+   \subitem صدر محور، 695
+   \subitem کریمر، 194
+   \subitem کولٹز، 1467
+   \subitem گرشگرین، 1464
+   \subitem گرین، 810
+   \subitem وجودیت، 73
+   \subitem وجودیت اور یکتائی، 139، 191
+   \subitem وجودیت عمومی حل، 143، 195
+   \subitem یکتائی، 73
+\item مسئلہ ثنائی، الکراجی، 321
+\item مسئلہ خطی بنانا، 275
+\item مساوات
+   \subitem استمراری، 774
+   \subitem اشاری، 335
+   \subitem امتیازی، 665
+   \subitem بیسل، 351
+   \subitem بیش ہندسی، 339
+   \subitem ڈفنگ، 289
+   \subitem ریلے، 289
+   \subitem ضمنی، 409
+   \subitem گاوس بیش ہندسی، 348
+   \subitem ماورائی، 1376
+   \subitem متوازی الاضلاع، 650
+   \subitem ون در پول، 284
+   \subitem ویبر، 391
+   \subitem ہلم ہولٹز، 1023
+   \subitem ہمزاد، 88
+\item مستبدل
+   \subitem غیر، 223
+\item مستحکم، 61، 156، 267
+\item مستحکم اور جاذب، 267
+\item مستطیل، 545
+\item مستقل
+   \subitem اختیاری، 4
+   \subitem اسپرنگ، 115
+   \subitem قصری، 118
+\item مستقل پلانک، 239
+\item مستوی
+   \subitem منحنی، 721
+\item مسرع خطی، 36
+\item مشاہدہ، 1546، 1569
+\item مطابقتی، 222
+   \subitem ایک ایک، 1120
+\item مطلق
+   \subitem قیمت، 1047
+\item مظہر گبس، 946
+\item معدوم
+   \subitem فضا، 598، 608
+\item معدوم سمتیہ، 487
+\item معدومیت، 598، 608
+\item معلوم، 580
+\item معمہ ڈرشلے، 1364
+\item معنی خیز سطح، 1640
+\item معنی خیز ہندسے، 1375
+\item معکوس
+   \subitem قالب، 226، 629
+\item معیار، 373، 519، 649، 682، 1047
+   \subitem اقلیدسی، 650
+   \subitem اوسط خارجی، 1665
+   \subitem اوسط خارجی حد، 1665
+   \subitem شُر، 1466
+   \subitem ضبط، 1654
+   \subitem فروبنیوس، 1466
+   \subitem قابل قبول سطح، 1664
+   \subitem قابل مسترد سطح، 1664
+\item معیار اثر، 1581
+   \subitem ترکیب، 1619
+   \subitem جمودی، 127، 213
+   \subitem خماو، 214
+   \subitem وسطی، 1581
+\item معیار اثر سمتیہ، 526
+\item معیاری
+   \subitem متغیر، 1580
+\item معیاری انحراف، 1541، 1577
+\item معیاری صورت
+   \subitem دو درجی، 80
+\item معیاری قائمہ الزاویہ سلسلہ، 374
+\item معین، 4
+\item مقدار
+   \subitem سمتیہ، 484
+\item مقدار معلوم، 69، 315، 1618
+   \subitem بدلنے کا طریقہ، 60، 180
+   \subitem منحنی، 250، 720
+\item مقداری ترکیب، 219
+\item مقررہ نقطہ، 1377
+\item مقررہ نقطہ نظام، 1375
+\item مقطع، 194
+   \subitem امتیازی، 665
+   \subitem بلند درجی، 613
+   \subitem قالب، 610
+   \subitem ورونسکی، 142
+\item مقیاس اثر
+   \subitem ینگ، 213
+\item مقیاسی سطح، 1092
+\item مقید
+   \subitem سمتیہ، 485
+\item مماثل
+   \subitem لیگرینج، 536
+\item مماثلی
+   \subitem عامل، 110
+\item مماس، 733، 734
+   \subitem اکائی سمتیہ، 733
+\item مماسی
+   \subitem سطح، 755
+\item مماسی سطح، 826
+\item ممکنہ قیمتیں، 1572
+\item ممیز، 266
+\item منبع، 852، 1352، 1357
+\item منتقلی
+   \subitem اشاریہ، 313
+\item منحرف تشاکل، 248
+\item منحرف تشاکلی، 680
+\item منحرف ہرمشی، 701
+\item منحنی
+   \subitem خاصیت کارکردگی، 1662
+   \subitem خم دار، 721
+   \subitem سادہ، 722
+   \subitem کعبی لچکدار، 1404
+   \subitem مستوی، 721
+   \subitem مقدار معلوم، 250، 720
+   \subitem ہموار، 782، 1117
+\item منحنی بٹھانا، 1457
+\item منحنی حل، 4، 14
+\item منظم نادر نقطہ، 333
+\item منظم نقطہ، 334
+\item منظور، 1636
+   \subitem نا، 1636
+\item منفرج، 305، 1202، 1209
+\item موازنہ
+   \subitem جوڑی دار، 1648
+\item موافقت منحنی، 1457
+\item موبیوس پٹی، 839
+\item موج
+   \subitem دندان، 451، 911
+   \subitem دو ابعادی مساوات، 996
+   \subitem سیڑھی، 452
+   \subitem یک بعدی مساوات، 960
+\item موجود
+   \subitem حل، 191
+\item موسیقی
+   \subitem آلہ، 164
+\item موصلیت
+   \subitem حراری، 852
+\item مکلارن
+   \subitem تسلسل، 1265
+\item مکلارن تسلسل، 38، 100، 277
+\item مکمل صفر، 80، 140، 188، 193
+\item میدان
+   \subitem ڈھال، 14، 282
+   \subitem سمتی، 712
+   \subitem غیر سمتی، 711
+\item میدانِ
+   \subitem سمت، 14
+\item میں، 1104
+\indexspace
+\item نا معلوم عددی سر
+   \subitem ترکیب، 149
+\item نا معلوم عددی سر کی ترکیب، 208
+\item نا منظوری
+   \subitem خطہ، 1640
+\item نا گھومتا، 1352
+\item نادر، 1303
+   \subitem حل، 6، 12، 88
+   \subitem غیر منظم نقطہ، 333
+   \subitem غیر نادر، 333
+   \subitem قالب، 226، 630
+   \subitem منظم نقطہ، 333
+   \subitem نقطہ، 334
+\item نادر حل، 139، 144
+\item نادر نقطہ، 1267
+\item ناطق تفاعل، 1078
+\item ناکامی، 1585
+\item ندرت، 1267
+   \subitem لازمی، 1308
+\item نسل، 315
+   \subitem حل، 4
+\item نشان شمار، 1532
+\item نصف النھار، 741
+\item نصف سعت اتساع، 917
+\item نظام
+   \subitem بنیادی، 246
+   \subitem خطی کردہ، 275
+\item نظریہ
+   \subitem اعلٰی تفاعل، 315
+\item نظریہ مخفی قوہ، 1018
+\item نظم، 654
+\item نقشہ
+   \subitem اغگن، 1040
+   \subitem محافظ زاویہ، 1103
+\item نقشہ کشی
+   \subitem خطی، 651
+\item نقشہ گشی، 1104
+\item نقطہ، 1547
+   \subitem اجتماع، 1306
+   \subitem تحدیدی، 1213، 1306
+   \subitem تصریف، 1599
+   \subitem تقسیمی، 1150
+   \subitem تنہا، 1306
+   \subitem زین، 252
+   \subitem ضرب، 505
+   \subitem فاصل، 1117
+   \subitem لامتناہی پر، 1126
+   \subitem مرغولہ، 252
+   \subitem مقررہ، 1126
+   \subitem نادر، 334
+\item نقطہ صفر ہٹاو، 964
+\item نقطہ فاصل، 251
+\item نقطہ مرغولہ، 255
+\item نقل اتارنا، 1617
+\item نلکی محدد، 1009
+\item نمو آبادی، 59
+\item نمونہ، 1530
+   \subitem جسامت، 1531
+   \subitem حسابی، 1531
+   \subitem ریاضی، 1، 2
+   \subitem لیونٹف، 678
+\item نمونہ کشی، 2
+\item نمونی
+   \subitem اوسط، 1541
+   \subitem تغیریت، 1541
+   \subitem دوہرا منصوبہ، 1666
+   \subitem فضا، 1547
+   \subitem واحد منصوبہ، 1661
+\item نمونی منصوبہ، 1661
+\item نیومن
+   \subitem مسئلہ، 1495
+\item نیومن تفاعل
+   \subitem درجہ صفر، 368
+\item نیوٹن
+   \subitem آگے فرق، باہمی تحریف کلیہ، 1397
+   \subitem باہمی تحریف،منقسم فرق کلیہ، 1399
+   \subitem پیچھے فرق، باہمی تحریف کلیہ، 1398
+\item نیوٹن کا دوسرا قانون، 276
+\item نیوٹن کا قانون ٹھنڈک، 28
+\item نیچے چکر، 239
+\indexspace
+\item واحد قیمت، 870
+\item وتر
+   \subitem سہ وتری قالب، 1501
+   \subitem مرکزی، 221
+\item وتری قالب، 562
+\item وجودیت، 2، 138، 604
+   \subitem عمومی حل، 143، 195
+\item ورنہ، 1438
+\item ورونسکی، 140، 193
+   \subitem مقطع، 142
+\item ورہلسٹ، 59
+\item وسط، 252، 300
+\item وسطانیہ، 1544
+\item وقفہ
+   \subitem ارتکازی، 306
+   \subitem اعتماد، 1618، 1623
+   \subitem اندازہ، 1618
+   \subitem کھلا، 4
+\item وقوعہ، 1548
+   \subitem باہمی بلا شرکت، 1549
+   \subitem بلا شرکت، 1549
+   \subitem بنیادی، 1548
+   \subitem خالی، 1549
+   \subitem ذیلی، 1550
+   \subitem غیر تابع وقوعات، 1558
+   \subitem نا ممکن، 1549
+\item ون در پول مساوات، 284
+\item ویبر
+   \subitem مساوات، 391
+\item وین اشکال، 1548
+\item ویٹ سٹون پل، 588
+\indexspace
+\item ٹیلر
+   \subitem تسلسل، 1265
+   \subitem کلیہ، 1264
+\indexspace
+\item پارسیوال مماثل، 939
+\item پالی قالب چکر، 707
+\item پر، 1104
+\item پرکھ، 1636
+   \subitem بایاں طرفہ، 1640
+   \subitem تقابلی، 1225
+   \subitem تقسیم پاک، 1674
+   \subitem تناسبی، 1227
+   \subitem دایاں طرفہ، 1640
+   \subitem دو طرفہ، 1640
+   \subitem طاقت، 1642
+   \subitem غیر مقدار معلوم، 1674
+   \subitem لبنیٹز، 1221
+   \subitem متبادل، 1637
+\item پوئسن
+   \subitem تقسیم، 1586
+   \subitem مساوات، 1496
+\item پوسوں
+   \subitem کلیہ تکمل، 1366
+\item پڑوس، 1054
+\item پکاغ
+   \subitem مسئلہ، 1311
+\item پھیلاو، 769، 852
+\item پیدا کار، 501
+\item پیدا کار بلا منصوبہ اعداد، 1616
+\item پیدا کار تفاعل
+   \subitem ہرمائٹ کثیر رکنی، 391
+\item پیداکار تفاعل
+   \subitem لاگیغ کثیر رکنی، 470
+\item پیش گو، مصحح ترکیب، 1481
+\item پیما
+   \subitem سطح، 813
+\item پیچ دار لچھا، 722
+\item پیچھے، 166، 174
+\item پیکر مرحلہ، 250
+\indexspace
+\item چبیشف کثیر رکنی، 393
+\item چننا
+   \subitem خاصیت، 438
+\item چوتھائی، 1545
+   \subitem بالائی، 1545
+   \subitem نچلی، 1545
+   \subitem نصف، 1545
+\item چول
+   \subitem جزوی، 1439
+   \subitem عددی سر، 1438
+   \subitem قیمت، 1395
+   \subitem مکمل، 1439
+\item چکر، 239
+\item چھلا
+   \subitem کھلا، 1055
+\item چھلانگ، 400، 408، 896، 923
+\indexspace
+\item ڈبہ
+   \subitem ترسیم، 1531
+\item ڈرشلے
+   \subitem مسئلہ، 1495
+\item ڈرشلے غیر استمراری جزو، 945
+\item ڈفنگ مساوات، 289
+\item ڈھال
+   \subitem میدان، 14، 282
+\item ڈھلوان، 753
+\item ڈی مارگن قوانین، 1553
+\item ڈی موے ور
+   \subitem کلیہ، 1049
+\item ڈیراک
+   \subitem ڈیلٹائی تفاعل، 437
+\indexspace
+\item کائناتی شعاعیں، 24
+\item کارتیسی
+   \subitem نظام محدد، 1040
+\item کارتیسی نظام
+   \subitem دائیں ہاتھ، 522
+\item کارتیسی نظام محدد، 486، 653
+\item کارکردگی
+   \subitem خاصیت، 1643
+\item کاغذ ترسیم، 1411
+\item کافی شرط، 75
+   \subitem قطعی تفرقی، 40
+\item کام، 792
+\item کامیابی، 1585
+\item کثافت، 1573
+\item کثرت
+   \subitem الجبرائی، 668
+   \subitem جیومیٹریائی، 668
+\item کثیر رکنی، 110، 1064، 1078
+   \subitem چبیشف، 393
+   \subitem لاگیغ، 391
+   \subitem ہرمائٹ، 390
+\item کرخوف
+   \subitem قانون دباو، 55
+\item کرونیکر ضرب، 766
+\item کروی محدد، 1009
+\item کریمر
+   \subitem قاعدہ، 620
+   \subitem مسئلہ، 194
+\item کسر
+   \subitem جزوی، 1079
+\item کل شکلہ، 1063
+\item کلیہ
+   \subitem بند، 1418
+   \subitem تقسیم دباو، 588
+   \subitem توالی، 317
+   \subitem تین نقاطی، 1419
+   \subitem روڈریگیس، 322
+   \subitem سٹرلنگ، 1565
+   \subitem کھلا، 1418
+\item کلیہ لیبنٹز، 324
+\item کم تقصیر، 119
+\item کم معلوم، 580
+\item کمتر مربع
+   \subitem ترکیب، 1458، 1679
+   \subitem عمودی مساوات، 1459
+\item کمیت
+   \subitem اسپرنگ، 114
+\item کوانٹم میکانیات، 110، 227، 331، 700
+\item کوریولس
+   \subitem اسراع، 741
+\item کوریولس اسراع، 742
+\item کوسائن
+   \subitem تفاعل، 1140
+   \subitem ہذلولی، 1091
+\item کوسائن رخ، 721
+\item کوشش، 1547
+\item کوشی
+   \subitem اور ادامغ کلیہ، 1248
+   \subitem حاصل ضرب، 1251
+   \subitem صدر قیمت، 1337
+   \subitem عدم مساوات، 1197
+   \subitem کلیہ تکمل، 1189
+\item کوشی اصول مرکوزیت
+   \subitem برائے ترتیب، 1216
+   \subitem تسلسل، 1217
+\item کوشی ریمان
+   \subitem تفرقی مساوات، 1069
+\item کوشی شوارز عدم مساوات، 650
+\item کوشی مقطع، 200
+\item کوشی کا اصول مرکوزیت، 1213
+\item کولمب، 170
+\item کھلا، 746
+   \subitem قرص، 1054
+   \subitem کلیہ، 1418
+   \subitem وقفہ، 4
+\item کیفی
+   \subitem تراکیب، 273
+\item کیفی ترکیب، 219
+\item کے لئے، 1437
+\indexspace
+\item گامپرٹز تفاعل، 36
+\item گاوس
+   \subitem زائڈل ترکیب، 1498
+   \subitem کلیہ تکمل، 1418
+   \subitem گاوسی تقسیم، 1592
+\item گاوس بیش ہندسی مساوات، 348
+\item گاوس جارڈن اسقاط، 631، 1441
+\item گاوسی
+   \subitem وسطی فرق کلیہ، 1418
+\item گاوسی اسقاط، 570، 574، 1436
+\item گرداب، 1357
+\item گردابیت، 1352
+\item گردش، 777
+\item گروہ بندی، 1237، 1537
+\item گرین
+   \subitem کلیہ اول، 855
+   \subitem کلیہ دوم، 855
+\item گلٹی، 57
+\item گمک، 159، 162، 459
+   \subitem عملی، 165
+\item گمکی جزو، 162
+\item گڑھا، 1352، 1357
+\item گھنٹی نما، 24
+\item گھومنا، 1352
+\item گھٹاو
+   \subitem لوگارتھمی، 129
+\item گیما
+   \subitem غیر مکمل تفاعل، 1433
+\item گیما تفاعل، 355
+\indexspace
+\item ہارمونز، 57
+\item ہارمونی، 860
+   \subitem انداز، 964
+   \subitem تسلسل، 1210
+   \subitem تفاعل، 1018، 1073
+   \subitem جوڑی دار تفاعل، 1073
+\item ہارمونی ارتعاش، 116
+\item ہذلولی، 253
+   \subitem تفاعل، 1140
+   \subitem سائن، 1091
+   \subitem کوسائن، 1091
+\item ہرمائٹ
+   \subitem کثیر رکنی، 390
+\item ہرمشی، 701
+   \subitem صورت، 706
+   \subitem منحرف، 701
+\item ہرٹز، 116
+\item ہلم ہولٹز
+   \subitem مساوات، 1023
+\item ہم جا، 13، 25
+\item ہم جنسی
+   \subitem جزوی تفرقی مساوات، 953
+   \subitem غیر، 571
+   \subitem نظام، 571
+\item ہم حرارت خطوط، 72
+\item ہم خطی، 503
+\item ہم زاویہ، 174
+\item ہم سطحی، 503
+\item ہم ضربی، 614
+\item ہم قوہ
+   \subitem خط، 1353
+\item ہم قوہ خطوط، 71
+\item ہم قوہ سطحیں، 1344
+\item ہم محوری تار، 71
+\item ہم میلان، 20، 284
+\item ہمزاد مساوات، 88
+\item ہموار
+   \subitem ٹکڑوں میں، 786
+   \subitem سطح، 1108
+   \subitem سطح۔ٹکڑوں میں، 822
+   \subitem منحنی، 782، 1105، 1117
+\item ہموار سطحیں، 755
+\item ہندسی
+   \subitem تسلسل، 1226
+\item ہندسی تسلسل، 349
+\item ہوائی حرکیات، 1152
+\item ہوائی پترا، 1154
+   \subitem ژکوسکی، 1154
+\item ہٹاو، 52
+\item ہک کا قانون، 115
+\item ہینری، 55
+\item ہینکل تفاعل، 370
+\item ہیوی سائیڈ سیڑھی تفاعل، 421
+\indexspace
+\item یعقوبی، 803، 1120
+\item ینگ
+   \subitem مقیاس اثر، 213
+\item یولر
+   \subitem اعداد، 1280
+   \subitem بہتر ترکیب، 1480
+   \subitem ترکیب، 15
+   \subitem عمومی کلیہ، 1003
+   \subitem کلیات، 376، 891
+   \subitem کلیہ، 1085، 1270
+   \subitem مساوات، 1090
+   \subitem مستقل، 368
+\item یولر مساوات، 101
+\item یولر کوشی ترکیب، 1479
+\item یولر کوشی مساوات، 130
+\item یک سر
+   \subitem بڑھتی، 1220
+   \subitem ترتیب، 1220
+   \subitem گھٹتی، 1220
+\item یکتا
+   \subitem حل، 6
+\item یکتا حل، 191
+\item یکتائی، 2، 138، 605، 1257
 
 \end{theindex}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  4 NOV 2018 18:19
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.2.24)  5 NOV 2018 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1762,16 +1762,11 @@ Package: polynom 2006/04/20 0.17 (CH,HA)
 ) (./tex/myUrduGreek.tex) (./tex/myEMTvectors.tex) (./tex/myDeclareFunctions.te
 x)
 (./tex/myCircuitDimensionsAndMathematicalSymbols.tex)
-(./tex/myTikzCommandsCircuitAnalysis.tex)
-\@indexfile=\write5
-\openout5 = `engineeringMathematics.idx'.
-
-
-Writing index file engineeringMathematics.idx
-(./engineeringMathematics.aux
+(./tex/myTikzCommandsCircuitAnalysis.tex) (./engineeringMathematics.aux
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 3.
- (./tex/mathPreface.aux
+
+(./tex/mathPreface.aux
 LaTeX Font Info:    Try loading font information for EU1+ppl on input line 6.
 LaTeX Font Info:    No file EU1ppl.fd. on input line 6.
 
@@ -1802,27 +1797,27 @@ LaTeX Font Warning: Font shape `EU1/ppl/m/n' undefined
 (./tex/mathAppendixAuxiliaryMaterial.aux) (./tex/mathTables.aux))
 \openout1 = `engineeringMathematics.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 84.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 84.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 85.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 85.
 
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    ... okay on input line 85.
 
 ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
@@ -1840,1172 +1835,1172 @@ File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \of with arg. spec. '' on line 84.
+. Defining document command \of with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \highlight with arg. spec. '' on line 84.
+. Defining document command \highlight with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \per with arg. spec. '' on line 84.
+. Defining document command \per with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \raiseto with arg. spec. '' on line 84.
+. Defining document command \raiseto with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \tothe with arg. spec. '' on line 84.
+. Defining document command \tothe with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kilogram with arg. spec. '' on line 84.
+. Defining document command \kilogram with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \metre with arg. spec. '' on line 84.
+. Defining document command \metre with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \meter with arg. spec. '' on line 84.
+. Defining document command \meter with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mole with arg. spec. '' on line 84.
+. Defining document command \mole with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \second with arg. spec. '' on line 84.
+. Defining document command \second with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ampere with arg. spec. '' on line 84.
+. Defining document command \ampere with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kelvin with arg. spec. '' on line 84.
+. Defining document command \kelvin with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \candela with arg. spec. '' on line 84.
+. Defining document command \candela with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \gram with arg. spec. '' on line 84.
+. Defining document command \gram with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \yocto with arg. spec. '' on line 84.
+. Defining document command \yocto with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \zepto with arg. spec. '' on line 84.
+. Defining document command \zepto with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \atto with arg. spec. '' on line 84.
+. Defining document command \atto with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \femto with arg. spec. '' on line 84.
+. Defining document command \femto with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pico with arg. spec. '' on line 84.
+. Defining document command \pico with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nano with arg. spec. '' on line 84.
+. Defining document command \nano with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micro with arg. spec. '' on line 84.
+. Defining document command \micro with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \milli with arg. spec. '' on line 84.
+. Defining document command \milli with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \centi with arg. spec. '' on line 84.
+. Defining document command \centi with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \deci with arg. spec. '' on line 84.
+. Defining document command \deci with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \deca with arg. spec. '' on line 84.
+. Defining document command \deca with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \deka with arg. spec. '' on line 84.
+. Defining document command \deka with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hecto with arg. spec. '' on line 84.
+. Defining document command \hecto with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kilo with arg. spec. '' on line 84.
+. Defining document command \kilo with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mega with arg. spec. '' on line 84.
+. Defining document command \mega with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \giga with arg. spec. '' on line 84.
+. Defining document command \giga with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \tera with arg. spec. '' on line 84.
+. Defining document command \tera with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \peta with arg. spec. '' on line 84.
+. Defining document command \peta with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \exa with arg. spec. '' on line 84.
+. Defining document command \exa with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \zetta with arg. spec. '' on line 84.
+. Defining document command \zetta with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \yotta with arg. spec. '' on line 84.
+. Defining document command \yotta with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \becquerel with arg. spec. '' on line 84.
+. Defining document command \becquerel with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \celsius with arg. spec. '' on line 84.
+. Defining document command \celsius with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \degreeCelsius with arg. spec. '' on line 84.
+. Defining document command \degreeCelsius with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \coulomb with arg. spec. '' on line 84.
+. Defining document command \coulomb with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \farad with arg. spec. '' on line 84.
+. Defining document command \farad with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \gray with arg. spec. '' on line 84.
+. Defining document command \gray with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hertz with arg. spec. '' on line 84.
+. Defining document command \hertz with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \henry with arg. spec. '' on line 84.
+. Defining document command \henry with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \joule with arg. spec. '' on line 84.
+. Defining document command \joule with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \katal with arg. spec. '' on line 84.
+. Defining document command \katal with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \lumen with arg. spec. '' on line 84.
+. Defining document command \lumen with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \lux with arg. spec. '' on line 84.
+. Defining document command \lux with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \newton with arg. spec. '' on line 84.
+. Defining document command \newton with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ohm with arg. spec. '' on line 84.
+. Defining document command \ohm with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pascal with arg. spec. '' on line 84.
+. Defining document command \pascal with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \radian with arg. spec. '' on line 84.
+. Defining document command \radian with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \siemens with arg. spec. '' on line 84.
+. Defining document command \siemens with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \sievert with arg. spec. '' on line 84.
+. Defining document command \sievert with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \steradian with arg. spec. '' on line 84.
+. Defining document command \steradian with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \tesla with arg. spec. '' on line 84.
+. Defining document command \tesla with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \volt with arg. spec. '' on line 84.
+. Defining document command \volt with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \watt with arg. spec. '' on line 84.
+. Defining document command \watt with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \weber with arg. spec. '' on line 84.
+. Defining document command \weber with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \arcmin with arg. spec. '' on line 84.
+. Defining document command \arcmin with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \arcminute with arg. spec. '' on line 84.
+. Defining document command \arcminute with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \arcsecond with arg. spec. '' on line 84.
+. Defining document command \arcsecond with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \degree with arg. spec. '' on line 84.
+. Defining document command \degree with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hectare with arg. spec. '' on line 84.
+. Defining document command \hectare with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hour with arg. spec. '' on line 84.
+. Defining document command \hour with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \litre with arg. spec. '' on line 84.
+. Defining document command \litre with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \liter with arg. spec. '' on line 84.
+. Defining document command \liter with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \minute with arg. spec. '' on line 84.
+. Defining document command \minute with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \percent with arg. spec. '' on line 84.
+. Defining document command \percent with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \tonne with arg. spec. '' on line 84.
+. Defining document command \tonne with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \astronomicalunit with arg. spec. '' on line 84.
+. Defining document command \astronomicalunit with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \atomicmassunit with arg. spec. '' on line 84.
+. Defining document command \atomicmassunit with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \electronvolt with arg. spec. '' on line 84.
+. Defining document command \electronvolt with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \dalton with arg. spec. '' on line 84.
+. Defining document command \dalton with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \clight with arg. spec. '' on line 84.
+. Defining document command \clight with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \electronmass with arg. spec. '' on line 84.
+. Defining document command \electronmass with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \planckbar with arg. spec. '' on line 84.
+. Defining document command \planckbar with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \elementarycharge with arg. spec. '' on line 84.
+. Defining document command \elementarycharge with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \bohr with arg. spec. '' on line 84.
+. Defining document command \bohr with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hartree with arg. spec. '' on line 84.
+. Defining document command \hartree with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \angstrom with arg. spec. '' on line 84.
+. Defining document command \angstrom with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \barn with arg. spec. '' on line 84.
+. Defining document command \barn with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \bel with arg. spec. '' on line 84.
+. Defining document command \bel with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \decibel with arg. spec. '' on line 84.
+. Defining document command \decibel with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \knot with arg. spec. '' on line 84.
+. Defining document command \knot with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mmHg with arg. spec. '' on line 84.
+. Defining document command \mmHg with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nauticalmile with arg. spec. '' on line 84.
+. Defining document command \nauticalmile with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \neper with arg. spec. '' on line 84.
+. Defining document command \neper with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \squared with arg. spec. '' on line 84.
+. Defining document command \squared with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cubic with arg. spec. '' on line 84.
+. Defining document command \cubic with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cubed with arg. spec. '' on line 84.
+. Defining document command \cubed with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Square with arg. spec. '' on line 84.
+. Defining document command \Square with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ssquare with arg. spec. '' on line 84.
+. Defining document command \ssquare with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \BAR with arg. spec. '' on line 84.
+. Defining document command \BAR with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \bbar with arg. spec. '' on line 84.
+. Defining document command \bbar with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Day with arg. spec. '' on line 84.
+. Defining document command \Day with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \dday with arg. spec. '' on line 84.
+. Defining document command \dday with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Gray with arg. spec. '' on line 84.
+. Defining document command \Gray with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ggray with arg. spec. '' on line 84.
+. Defining document command \ggray with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \atomicmass with arg. spec. '' on line 84.
+. Defining document command \atomicmass with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \are with arg. spec. '' on line 84.
+. Defining document command \are with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \curie with arg. spec. '' on line 84.
+. Defining document command \curie with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \gal with arg. spec. '' on line 84.
+. Defining document command \gal with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \millibar with arg. spec. '' on line 84.
+. Defining document command \millibar with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \rad with arg. spec. '' on line 84.
+. Defining document command \rad with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \rem with arg. spec. '' on line 84.
+. Defining document command \rem with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \roentgen with arg. spec. '' on line 84.
+. Defining document command \roentgen with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micA with arg. spec. '' on line 84.
+. Defining document command \micA with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micmol with arg. spec. '' on line 84.
+. Defining document command \micmol with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micl with arg. spec. '' on line 84.
+. Defining document command \micl with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micL with arg. spec. '' on line 84.
+. Defining document command \micL with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nanog with arg. spec. '' on line 84.
+. Defining document command \nanog with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micg with arg. spec. '' on line 84.
+. Defining document command \micg with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \picm with arg. spec. '' on line 84.
+. Defining document command \picm with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micm with arg. spec. '' on line 84.
+. Defining document command \micm with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Sec with arg. spec. '' on line 84.
+. Defining document command \Sec with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mics with arg. spec. '' on line 84.
+. Defining document command \mics with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cmc with arg. spec. '' on line 84.
+. Defining document command \cmc with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \dmc with arg. spec. '' on line 84.
+. Defining document command \dmc with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cms with arg. spec. '' on line 84.
+. Defining document command \cms with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \centimetrecubed with arg. spec. '' on line 84.
+. Defining document command \centimetrecubed with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \centimetresquared with arg. spec. '' on line 84.
+. Defining document command \centimetresquared with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cubiccentimetre with arg. spec. '' on line 84.
+. Defining document command \cubiccentimetre with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cubicdecimetre with arg. spec. '' on line 84.
+. Defining document command \cubicdecimetre with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \squarecentimetre with arg. spec. '' on line 84.
+. Defining document command \squarecentimetre with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \squaremetre with arg. spec. '' on line 84.
+. Defining document command \squaremetre with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \squarekilometre with arg. spec. '' on line 84.
+. Defining document command \squarekilometre with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \parsec with arg. spec. '' on line 84.
+. Defining document command \parsec with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \lightyear with arg. spec. '' on line 84.
+. Defining document command \lightyear with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \gmol with arg. spec. '' on line 84.
+. Defining document command \gmol with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kgmol with arg. spec. '' on line 84.
+. Defining document command \kgmol with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \lbmol with arg. spec. '' on line 84.
+. Defining document command \lbmol with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \molar with arg. spec. '' on line 84.
+. Defining document command \molar with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Molar with arg. spec. '' on line 84.
+. Defining document command \Molar with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \torr with arg. spec. '' on line 84.
+. Defining document command \torr with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \gon with arg. spec. '' on line 84.
+. Defining document command \gon with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micron with arg. spec. '' on line 84.
+. Defining document command \micron with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mrad with arg. spec. '' on line 84.
+. Defining document command \mrad with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \gauss with arg. spec. '' on line 84.
+. Defining document command \gauss with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \eVperc with arg. spec. '' on line 84.
+. Defining document command \eVperc with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nanobarn with arg. spec. '' on line 84.
+. Defining document command \nanobarn with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \picobarn with arg. spec. '' on line 84.
+. Defining document command \picobarn with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \femtobarn with arg. spec. '' on line 84.
+. Defining document command \femtobarn with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \attobarn with arg. spec. '' on line 84.
+. Defining document command \attobarn with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \zeptobarn with arg. spec. '' on line 84.
+. Defining document command \zeptobarn with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \yoctobarn with arg. spec. '' on line 84.
+. Defining document command \yoctobarn with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nb with arg. spec. '' on line 84.
+. Defining document command \nb with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pb with arg. spec. '' on line 84.
+. Defining document command \pb with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \fb with arg. spec. '' on line 84.
+. Defining document command \fb with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ab with arg. spec. '' on line 84.
+. Defining document command \ab with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \zb with arg. spec. '' on line 84.
+. Defining document command \zb with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \yb with arg. spec. '' on line 84.
+. Defining document command \yb with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \var with arg. spec. '' on line 84.
+. Defining document command \var with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \A with arg. spec. '' on line 84.
+. Defining document command \A with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pA with arg. spec. '' on line 84.
+. Defining document command \pA with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nA with arg. spec. '' on line 84.
+. Defining document command \nA with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \uA with arg. spec. '' on line 84.
+. Defining document command \uA with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mA with arg. spec. '' on line 84.
+. Defining document command \mA with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kA with arg. spec. '' on line 84.
+. Defining document command \kA with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Hz with arg. spec. '' on line 84.
+. Defining document command \Hz with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mHz with arg. spec. '' on line 84.
+. Defining document command \mHz with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kHz with arg. spec. '' on line 84.
+. Defining document command \kHz with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \MHz with arg. spec. '' on line 84.
+. Defining document command \MHz with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \GHz with arg. spec. '' on line 84.
+. Defining document command \GHz with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \THz with arg. spec. '' on line 84.
+. Defining document command \THz with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mol with arg. spec. '' on line 84.
+. Defining document command \mol with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \fmol with arg. spec. '' on line 84.
+. Defining document command \fmol with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pmol with arg. spec. '' on line 84.
+. Defining document command \pmol with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nmol with arg. spec. '' on line 84.
+. Defining document command \nmol with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \umol with arg. spec. '' on line 84.
+. Defining document command \umol with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mmol with arg. spec. '' on line 84.
+. Defining document command \mmol with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kmol with arg. spec. '' on line 84.
+. Defining document command \kmol with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \V with arg. spec. '' on line 84.
+. Defining document command \V with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pV with arg. spec. '' on line 84.
+. Defining document command \pV with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nV with arg. spec. '' on line 84.
+. Defining document command \nV with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \uV with arg. spec. '' on line 84.
+. Defining document command \uV with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mV with arg. spec. '' on line 84.
+. Defining document command \mV with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kV with arg. spec. '' on line 84.
+. Defining document command \kV with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hl with arg. spec. '' on line 84.
+. Defining document command \hl with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ml with arg. spec. '' on line 84.
+. Defining document command \ml with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ul with arg. spec. '' on line 84.
+. Defining document command \ul with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hL with arg. spec. '' on line 84.
+. Defining document command \hL with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mL with arg. spec. '' on line 84.
+. Defining document command \mL with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \uL with arg. spec. '' on line 84.
+. Defining document command \uL with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \fg with arg. spec. '' on line 84.
+. Defining document command \fg with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pg with arg. spec. '' on line 84.
+. Defining document command \pg with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ug with arg. spec. '' on line 84.
+. Defining document command \ug with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mg with arg. spec. '' on line 84.
+. Defining document command \mg with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \g with arg. spec. '' on line 84.
+. Defining document command \g with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kg with arg. spec. '' on line 84.
+. Defining document command \kg with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \amu with arg. spec. '' on line 84.
+. Defining document command \amu with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \W with arg. spec. '' on line 84.
+. Defining document command \W with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \uW with arg. spec. '' on line 84.
+. Defining document command \uW with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mW with arg. spec. '' on line 84.
+. Defining document command \mW with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kW with arg. spec. '' on line 84.
+. Defining document command \kW with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \MW with arg. spec. '' on line 84.
+. Defining document command \MW with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \GW with arg. spec. '' on line 84.
+. Defining document command \GW with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \J with arg. spec. '' on line 84.
+. Defining document command \J with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kJ with arg. spec. '' on line 84.
+. Defining document command \kJ with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \eV with arg. spec. '' on line 84.
+. Defining document command \eV with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \meV with arg. spec. '' on line 84.
+. Defining document command \meV with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \keV with arg. spec. '' on line 84.
+. Defining document command \keV with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \MeV with arg. spec. '' on line 84.
+. Defining document command \MeV with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \GeV with arg. spec. '' on line 84.
+. Defining document command \GeV with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \TeV with arg. spec. '' on line 84.
+. Defining document command \TeV with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kWh with arg. spec. '' on line 84.
+. Defining document command \kWh with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nm with arg. spec. '' on line 84.
+. Defining document command \nm with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \um with arg. spec. '' on line 84.
+. Defining document command \um with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mm with arg. spec. '' on line 84.
+. Defining document command \mm with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cm with arg. spec. '' on line 84.
+. Defining document command \cm with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \dm with arg. spec. '' on line 84.
+. Defining document command \dm with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \km with arg. spec. '' on line 84.
+. Defining document command \km with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \K with arg. spec. '' on line 84.
+. Defining document command \K with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \dB with arg. spec. '' on line 84.
+. Defining document command \dB with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \F with arg. spec. '' on line 84.
+. Defining document command \F with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \fF with arg. spec. '' on line 84.
+. Defining document command \fF with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pF with arg. spec. '' on line 84.
+. Defining document command \pF with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \N with arg. spec. '' on line 84.
+. Defining document command \N with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mN with arg. spec. '' on line 84.
+. Defining document command \mN with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kN with arg. spec. '' on line 84.
+. Defining document command \kN with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \MN with arg. spec. '' on line 84.
+. Defining document command \MN with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Pa with arg. spec. '' on line 84.
+. Defining document command \Pa with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kPa with arg. spec. '' on line 84.
+. Defining document command \kPa with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \MPa with arg. spec. '' on line 84.
+. Defining document command \MPa with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \GPa with arg. spec. '' on line 84.
+. Defining document command \GPa with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mohm with arg. spec. '' on line 84.
+. Defining document command \mohm with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kohm with arg. spec. '' on line 84.
+. Defining document command \kohm with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Mohm with arg. spec. '' on line 84.
+. Defining document command \Mohm with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \s with arg. spec. '' on line 84.
+. Defining document command \s with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \as with arg. spec. '' on line 84.
+. Defining document command \as with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \fs with arg. spec. '' on line 84.
+. Defining document command \fs with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ps with arg. spec. '' on line 84.
+. Defining document command \ps with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ns with arg. spec. '' on line 84.
+. Defining document command \ns with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \us with arg. spec. '' on line 84.
+. Defining document command \us with arg. spec. '' on line 85.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ms with arg. spec. '' on line 84.
+. Defining document command \ms with arg. spec. '' on line 85.
 .................................................
 
 *geometry* driver: auto-detecting
@@ -3046,74 +3041,74 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box65
 \c__siunitx_mathsf_int=\count313
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 84.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 85.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 84.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 85.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 84.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 85.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 84.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 85.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 84.
+(Font)              scaled to size 10.42007pt on input line 85.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 84.
+(Font)              scaled to size 7.91925pt on input line 85.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 84.
+(Font)              scaled to size 6.25204pt on input line 85.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 84.
+(Font)              scaled to size 10.42007pt on input line 85.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 84.
+(Font)              scaled to size 7.91925pt on input line 85.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 84.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 84.
+(Font)              scaled to size 6.25204pt on input line 85.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 85.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 84.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 85.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 \c__siunitx_mathtt_int=\count314
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 12.5pt on input line 85.
+(Font)              scaled to size 12.5pt on input line 86.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 21.59999pt on input line 96.
+(Font)              scaled to size 21.59999pt on input line 97.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 11.25pt on input line 96.
+(Font)              scaled to size 15.0pt on input line 97.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 97.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 97.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 97.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 97.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 97.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 97.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 15.0pt on input line 96.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 96.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 96.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 96.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 96.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 96.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 96.
+(Font)              scaled to size 11.25pt on input line 97.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 96.
+(Font)              scaled to size 12.0pt on input line 97.
  [1
 
 
@@ -3122,19 +3117,19 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/sl' in size <10> 
 not available
 (Font)              Font shape `EU1/JameelNooriNastaleeq(0)/m/it' tried instead
- on input line 98.
+ on input line 99.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 98.
+(Font)              scaled to size 10.0pt on input line 99.
  [2
 
 ]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 98.
+(Font)              scaled to size 24.88pt on input line 99.
 
 
 LaTeX Font Warning: Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' undefined
 (Font)              using `EU1/JameelNooriNastaleeq(0)/m/n' instead on input li
-ne 98.
+ne 99.
 
 (./engineeringMathematics.toc
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
@@ -3596,8 +3591,8 @@ d on input line 310.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' will be
 (Font)              scaled to size 10.0pt on input line 310.
 [9])
-\tf@toc=\write6
-\openout6 = `engineeringMathematics.toc'.
+\tf@toc=\write5
+\openout5 = `engineeringMathematics.toc'.
 
  [10]
 \openout2 = `./tex/mathPreface.aux'.
@@ -3605,65 +3600,1449 @@ LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/it' will be
  (./tex/mathPreface.tex
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
- [11
+) [11
 
 
-]) [12]
+]
 \openout2 = `./tex/prefaceFirstBook.aux'.
 
- (./tex/prefaceFirstBook.tex
-[13
+ (./tex/prefaceFirstBook.tex [12
 
 
 
-]) [14]
-\openout2 = `./tex/mathVectorIntegralCalculus.aux'.
+]
+[13]) [14]
+\openout2 = `./tex/mathFirstOrderDifferentialEquations.aux'.
 
- (./tex/mathVectorIntegralCalculus.tex
-باب \RL {\arabicfont 11}.
+ (./tex/mathFirstOrderDifferentialEquations.tex
+باب \RL {\arabicfont 1}.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 2.
+(Font)              scaled to size 10.0pt on input line 4.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.6pt on input line 2.
+(Font)              scaled to size 7.6pt on input line 4.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 2.
+(Font)              scaled to size 8.0pt on input line 4.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 2.
+(Font)              scaled to size 8.33606pt on input line 4.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 2.
+(Font)              scaled to size 5.21004pt on input line 4.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 2.
+(Font)              scaled to size 8.33606pt on input line 4.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 2.
+(Font)              scaled to size 5.21004pt on input line 4.
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 2.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 7.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 14.4pt on input line 7.
-[781
-
-
-
-
-
-
-
-
-
-
+(Font)              scaled to size 6.0pt on input line 4.
+[1
 
 
 
 
 ]
 LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 29.
+(Font)              scaled to size 14.4pt on input line 14.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
+(Font)              scaled to size 14.4pt on input line 14.
+ [2] [3] [4]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 116.
+ [5] [6]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
+(Font)              scaled to size 12.0pt on input line 185.
+ [7]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 9.5pt on input line 207.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 5.70004pt on input line 207.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 7.5pt on input line 216.
+ [8] [9] [10] [11] [12]
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 408.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 408.
+ [13]
 
+Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 438.
+
+ [warning /pgfplots/warning/approx empty range enlarged]
+[14] [15]
+Overfull \hbox (3.25346pt too wide) in paragraph at lines 463--477
+ [][][][] 
+ []
+
+
+Overfull \hbox (3.25346pt too wide) in paragraph at lines 483--500
+ [][][][] 
+ []
+
+[16]
+File: ./fig/figFirstOrderOrdinaryDifferentialEquations/figODEeuler.pdf Graphic 
+file (type QTm)
+
+<use  "./fig/figFirstOrderOrdinaryDifferentialEquations/figODEeuler.pdf" >
+[17]
+
+Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 614.
+
+ [warning /pgfplots/warning/approx empty range enlarged]
+
+Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 624.
+
+ [warning /pgfplots/warning/approx empty range enlarged]
+
+Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 640.
+
+ [warning /pgfplots/warning/approx empty range enlarged]
+
+Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 650.
+
+ [warning /pgfplots/warning/approx empty range enlarged]
+[18] [19] [20]
+
+Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 719.
+
+ [warning /pgfplots/warning/approx empty range enlarged]
+
+Package pgfplots Warning: Axis range for axis z is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 729.
+
+ [warning /pgfplots/warning/approx empty range enlarged]
+[21] [22] [23] [24] [25]
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 892.
+LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 892.
+ [26]
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+ [27]
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+ [28]
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+ [29]
+Overfull \hbox (1.46779pt too wide) in paragraph at lines 1014--1029
+ [][][][] 
+ []
+
+[30] [31] [32] [33] [34] [35]
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+ [36]
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+ [37] [38] [39] [40] [41] [42] [43] [44]
+[45] [46] [47]
+File: ./fig/figFirstOrderOrdinaryDifferentialEquations/integratingFactor.pdf Gr
+aphic file (type QTm)
+
+<use  "./fig/figFirstOrderOrdinaryDifferentialEquations/integratingFactor.pdf" 
+> [48] [49] [50] [51]
+
+LaTeX Warning: Command \= invalid in math mode on input line 1758.
+
+Missing character: There is no ̄ in font zplmr7m!
+
+LaTeX Warning: Command \= invalid in math mode on input line 1758.
+
+Missing character: There is no ̄ in font zplmr7m!
+[52] [53] [54]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [55] [56] [57]
+Underfull \hbox (badness 10000) in paragraph at lines 1948--1948
+[][][]\EU1/JameelNooriNastaleeq(0)/m/n/8 یعقوب برنولی (1654-1705): سوئزرلینڈ کے
+ برنولی خاندان نے دنیا کو کئی اہم ریاضی داں دیے۔ یعقوب برنولی ان میں سر فہرست ہ
+ے۔انہوں نے علم الامکانیات میں بہت کام[]
+ []
+
+[58] [59]
+Overfull \hbox (1.0888pt too wide) in paragraph at lines 2014--2016
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 مساوات []\EU1/JameelNooriNastaleeq(0)/bx/
+n/10 59[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
+/n/10 1[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 کو ایک دلچسپ ترکیب سے حاصل کیا 
+جا سکتا ہے جسے \EU1/XBTabrizBold(0)/m/n/10 مقدار معلوم بدلنے کا طریقہ[][] \EU1/
+JameelNooriNastaleeq(1)/m/n/10 کہتے ہیں۔متجانس[]
+ []
+
+[60] [61] [62] [63] [64]
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+Missing character: There is no ° in font pplr7t!
+ [65] [66]
+Missing character: There is no م in font zplmr7m!
+Missing character: There is no س in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no و in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no ت in font zplmr7m!
+Missing character: There is no س in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no د in font zplmr7m!
+Missing character: There is no ہ in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no و in font zplmr7m!
+Missing character: There is no ل in font zplmr7m!
+Missing character: There is no و in font zplmr7m!
+Missing character: There is no ر in font zplmr7m!
+Missing character: There is no ہ in font zplmr7m!
+Missing character: There is no ل in font zplmr7m!
+Missing character: There is no س in font zplmr7m!
+Missing character: There is no ٹ in font zplmr7m!
+Missing character: There is no آ in font zplmr7m!
+Missing character: There is no ب in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no د in font zplmr7m!
+Missing character: There is no ی in font zplmr7m!
+Missing character: There is no ن in font zplmr7m!
+Missing character: There is no م in font zplmr7m!
+Missing character: There is no و in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no ل in font zplmr7m!
+Missing character: There is no ف in font zplmr7m!
+ [67]
+Overfull \vbox (1.27742pt too high) has occurred while \output is active []
+
+
+[68] [69] [70] [71] [72] [73] [74] [75] [76] [77]) [78]
+\openout2 = `./tex/mathSecondOrderDifferentialEquations.aux'.
+
+
+(./tex/mathSecondOrderDifferentialEquations.tex
+باب \RL {\arabicfont 2}.
+[79
+
+
+
+] [80] [81] [82] [83] [84] [85] [86]
+Missing character: There is no م in font zplmr7m!
+Missing character: There is no س in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no و in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no ت in font zplmr7m!
+Missing character: There is no س in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no د in font zplmr7m!
+Missing character: There is no ہ in font zplmr7m!
+Missing character: There is no م in font zplmr7m!
+Missing character: There is no ت in font zplmr7m!
+Missing character: There is no ج in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no ن in font zplmr7m!
+Missing character: There is no س in font zplmr7m!
+Missing character: There is no د in font zplmr7m!
+Missing character: There is no و in font zplmr7m!
+Missing character: There is no د in font zplmr7m!
+Missing character: There is no ر in font zplmr7m!
+Missing character: There is no ج in font zplmr7m!
+Missing character: There is no ی in font zplmr7m!
+Missing character: There is no ت in font zplmr7m!
+Missing character: There is no ع in font zplmr7m!
+Missing character: There is no ر in font zplmr7m!
+Missing character: There is no ی in font zplmr7m!
+Missing character: There is no ف in font zplmr7m!
+Missing character: There is no م in font zplmr7m!
+Missing character: There is no س in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no و in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no ت in font zplmr7m!
+Missing character: There is no س in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no د in font zplmr7m!
+Missing character: There is no ہ in font zplmr7m!
+Missing character: There is no م in font zplmr7m!
+Missing character: There is no ت in font zplmr7m!
+Missing character: There is no ج in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no ن in font zplmr7m!
+Missing character: There is no س in font zplmr7m!
+Missing character: There is no د in font zplmr7m!
+Missing character: There is no و in font zplmr7m!
+Missing character: There is no د in font zplmr7m!
+Missing character: There is no ر in font zplmr7m!
+Missing character: There is no ج in font zplmr7m!
+Missing character: There is no ی in font zplmr7m!
+Missing character: There is no ت in font zplmr7m!
+Missing character: There is no ع in font zplmr7m!
+Missing character: There is no ر in font zplmr7m!
+Missing character: There is no ی in font zplmr7m!
+Missing character: There is no ف in font zplmr7m!
+ [87]
+Overfull \hbox (11.29091pt too wide) in paragraph at lines 259--259
+[][] []
+ []
+
+[88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101]
+[102] [103] [104] [105] [106] [107] [108] [109] [110]
+Overfull \hbox (9.01222pt too wide) in paragraph at lines 1077--1077
+[][] []
+ []
+
+
+Overfull \hbox (12.39519pt too wide) in paragraph at lines 1102--1102
+[][] []
+ []
+
+
+Overfull \hbox (12.39519pt too wide) in alignment at lines 1102--1102
+[] [] 
+ []
+
+[111] [112] [113]
+
+Package pgf Warning: Your graphic driver pgfsys-xetex.def does not support patt
+erns. This warning is given only once on input line 1231.
+
+Missing character: There is no ّ in font zplmr7m!
+[114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124] [125]
+[126] [127] [128] [129] [130] [131] [132]
+NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+File: ./fig/figSecondOrderOrdinaryDifferentialEquations/figEulerCauchyABCD.pdf 
+Graphic file (type QTm)
+
+<use  "./fig/figSecondOrderOrdinaryDifferentialEquations/figEulerCauchyABCD.pdf
+" > [133] [134] [135] [136] [137] [138] [139] [140] [141] [142] [143] [144]
+[145] [146]
+Underfull \hbox (badness 10000) in paragraph at lines 2411--2412
+[][]
+ []
+
+[147]
+Missing character: There is no ِ in font zplmr7m!
+ [148] [149] [150] [151] [152] [153]
+Overfull \hbox (4.20706pt too wide) in paragraph at lines 2617--2617
+[][] []
+ []
+
+[154] [155] [156] [157] [158] [159] [160] [161] [162] [163] [164] [165]
+[166] [167] [168] [169]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [170] [171] [172] [173] [174] [175]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [176]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [177]
+[178] [179] [180] [181] [182] [183] [184]) [185]
+\openout2 = `./tex/mathHigherOrderDifferentialEquations.aux'.
+
+
+(./tex/mathHigherOrderDifferentialEquations.tex [186
+
+
+
+]
+باب \RL {\arabicfont 3}.
+[187] [188] [189] [190] [191] [192] [193] [194]
+Overfull \hbox (4.15659pt too wide) in paragraph at lines 251--253
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 اب ہم اس قابل ہیں کہ ثابت کریں کہ مساوا
+ت []\EU1/JameelNooriNastaleeq(0)/bx/n/10 2[]\EU1/JameelNooriNastaleeq(1)/m/n/10
+ .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 3[][] \EU1/JameelNooriNastaleeq(1)/m/n
+/10 کے عمومی حل میں مساوات []\EU1/JameelNooriNastaleeq(0)/bx/n/10 2[]\EU1/Jamee
+lNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/n/10 3[][] \EU1/Ja
+meelNooriNastaleeq(1)/m/n/10 کے تمام حل شامل ہیں۔مساوات[]
+ []
+
+[195] [196]
+Overfull \hbox (8.46466pt too wide) in paragraph at lines 303--308
+[] \EU1/JameelNooriNastaleeq(1)/m/n/10 سوال  []\EU1/JameelNooriNastaleeq(0)/bx/
+n/10 4[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/
+n/10 3[]\EU1/JameelNooriNastaleeq(1)/m/n/10 :  $\OML/zplm/m/it/10 y[] \OT1/zplm
+/m/n/10 + \OT1/ppl/m/n/10 12\OML/zplm/m/it/10 y[] \OT1/zplm/m/n/10 + \OT1/ppl/m
+/n/10 54\OML/zplm/m/it/10 y[] \OT1/zplm/m/n/10 + \OT1/ppl/m/n/10 108\OML/zplm/m
+/it/10 y[] \OT1/zplm/m/n/10 + \OT1/ppl/m/n/10 81\OML/zplm/m/it/10 y \OT1/zplm/m
+/n/10 = \OT1/ppl/m/n/10 0,  \OML/zplm/m/it/10 e[]\OT1/ppl/m/n/10 , \OML/zplm/m/
+it/10 xe[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 x[]e[]\OT1/ppl/m/n/10 , \OML/zplm
+/m/it/10 x[]e[]$ []
+ []
+
+[197] [198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [208]
+[209]
+Overfull \hbox (4.64366pt too wide) in paragraph at lines 731--731
+[][] []
+ []
+
+[210] [211] [212] [213] [214] [215] [216]) [217]
+\openout2 = `./tex/mathSystemOfDifferentialEquations.aux'.
+
+
+(./tex/mathSystemOfDifferentialEquations.tex [218
+
+
+
+]
+باب \RL {\arabicfont 4}.
+[219] [220] [221] [222] [223] [224] [225] [226]
+Overfull \hbox (5.55379pt too wide) in paragraph at lines 406--407
+[]\EU1/XBTabrizBold(0)/m/n/10 امتیازی اقدار[][] \EU1/JameelNooriNastaleeq(1)/m/
+n/10 اور \EU1/XBTabrizBold(0)/m/n/10 امتیازی سمتیات[][] \EU1/JameelNooriNastale
+eq(1)/m/n/10 انتہائی اہم ہیں جو \EU1/XBTabrizBold(0)/m/n/10 کوانٹم میکانیات[][]
+ \EU1/JameelNooriNastaleeq(1)/m/n/10 میں کلیدی کردار ادا کرتے ہیں۔مساوات []
+ []
+
+[227] [228] [229] [230] [231]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [232] [233] [234]
+Overfull \hbox (9.45656pt too wide) in paragraph at lines 755--759
+ [][][][] 
+ []
+
+[235] [236] [237] [238] [239] [240] [241] [242] [243] [244] [245] [246]
+[247] [248] [249] [250] [251] [252] [253] [254]
+Missing character: There is no ن in font zplmr7m!
+Missing character: There is no ق in font zplmr7m!
+Missing character: There is no ط in font zplmr7m!
+Missing character: There is no ہ in font zplmr7m!
+Missing character: There is no م in font zplmr7m!
+Missing character: There is no ر in font zplmr7m!
+Missing character: There is no غ in font zplmr7m!
+Missing character: There is no و in font zplmr7m!
+Missing character: There is no ل in font zplmr7m!
+Missing character: There is no ہ in font zplmr7m!
+ [255] [256] [257] [258]
+[259] [260] [261] [262]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [263]
+Underfull \vbox (badness 1466) has occurred while \output is active []
+
+ [264]
+[265]
+Overfull \hbox (7.65799pt too wide) in paragraph at lines 2049--2057
+ [][][][] 
+ []
+
+[266] [267] [268] [269] [270]
+Overfull \hbox (2.96785pt too wide) in paragraph at lines 2351--2353
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات:مستحکم اور جاذب نقطہ مرغولہ؛  $\OM
+L/zplm/m/it/10 y[] \OT1/zplm/m/n/10 = \OML/zplm/m/it/10 e[]\OT1/zplm/m/n/10 (\O
+ML/zplm/m/it/10 A [] \OT1/ppl/m/n/10 2\OML/zplm/m/it/10 t \OT1/zplm/m/n/10 + \O
+ML/zplm/m/it/10 B [] \OT1/ppl/m/n/10 2\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$ \E
+U1/JameelNooriNastaleeq(1)/m/n/10 ،  $\OML/zplm/m/it/10 y[] \OT1/zplm/m/n/10 = 
+\OML/zplm/m/it/10 e[]\OT1/zplm/m/n/10 (\OMS/zplm/m/n/10 ^^@\OML/zplm/m/it/10 B 
+[] \OT1/ppl/m/n/10 2\OML/zplm/m/it/10 t \OT1/zplm/m/n/10 +$[]
+ []
+
+[271] [272] [273] [274] [275] [276] [277] [278]
+File: ./fig/figSystemOfDifferentialEquations/figSystemPendulumLossyA.pdf Graphi
+c file (type QTm)
+
+<use  "./fig/figSystemOfDifferentialEquations/figSystemPendulumLossyA.pdf" >
+[279] [280] [281] [282] [283] [284]
+File: ./fig/figSystemOfDifferentialEquations/figSystemVanDerPolEquationA.pdf Gr
+aphic file (type QTm)
+
+<use  "./fig/figSystemOfDifferentialEquations/figSystemVanDerPolEquationA.pdf" 
+>
+File: ./fig/figSystemOfDifferentialEquations/figSystemVanDerPolEquationB.pdf Gr
+aphic file (type QTm)
+
+<use  "./fig/figSystemOfDifferentialEquations/figSystemVanDerPolEquationB.pdf" 
+> [285] [286] [287]
+Overfull \hbox (4.84079pt too wide) in paragraph at lines 2942--2943
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 سوال []\EU1/JameelNooriNastaleeq(0)/bx/
+n/10 56[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
+/n/10 4[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 تا سوال []\EU1/JameelNooriNasta
+leeq(0)/bx/n/10 60[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNast
+aleeq(0)/bx/n/10 4[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 میں تفرقی مساوات سے 
+نظام حاصل کریں۔اس نظام کے تمام نقطہ فاصل دریافت کریں۔نظام[]
+ []
+
+[288]
+Overfull \hbox (1.784pt too wide) in paragraph at lines 2958--2963
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات:  $\OT1/zplm/m/n/10 (\OT1/ppl/m/n/
+10 0, 0\OT1/zplm/m/n/10 )$  \EU1/JameelNooriNastaleeq(1)/m/n/10 اور  $\OT1/zplm
+/m/n/10 (\OMS/zplm/m/n/10 ^^G\OML/zplm/m/it/10 n\OT1/ppl/m/n/10 2\OML/zplm/m/it
+/10 ^^Y\OT1/ppl/m/n/10 , 0\OT1/zplm/m/n/10 )$  \EU1/JameelNooriNastaleeq(1)/m/n
+/10 مستحکم وسط ہیں جہاں  $\OML/zplm/m/it/10 n \OT1/zplm/m/n/10 = \OT1/ppl/m/n/1
+0 1, 2, 3, [] $  \EU1/JameelNooriNastaleeq(1)/m/n/10 ہو سکتا ہے۔نقطہ  $\OT1/zpl
+m/m/n/10 (\OMS/zplm/m/n/10 ^^G\OML/zplm/m/it/10 m^^Y\OT1/ppl/m/n/10 , 0\OT1/zpl
+m/m/n/10 )$[]
+ []
+
+
+Overfull \hbox (4.28864pt too wide) in paragraph at lines 2963--2968
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: نقطہ  $\OT1/zplm/m/n/10 ([] \OMS/
+zplm/m/n/10 ^^G \OML/zplm/m/it/10 n\OT1/ppl/m/n/10 2\OML/zplm/m/it/10 ^^Y\OT1/p
+pl/m/n/10 , 0\OT1/zplm/m/n/10 )$  \EU1/JameelNooriNastaleeq(1)/m/n/10 غیر مستحک
+م نقطہ نیز جبکہ  $\OT1/zplm/m/n/10 (\OMS/zplm/m/n/10 ^^@[] ^^G \OML/zplm/m/it/1
+0 n\OT1/ppl/m/n/10 2\OML/zplm/m/it/10 ^^Y\OT1/ppl/m/n/10 , 0\OT1/zplm/m/n/10 )$
+  \EU1/JameelNooriNastaleeq(1)/m/n/10 وسط ہیں جہاں  $\OML/zplm/m/it/10 n \OT1/z
+plm/m/n/10 = \OT1/ppl/m/n/10 1, 2, 3, [] $[]
+ []
+
+[289] [290] [291] [292] [293] [294] [295] [296]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no ٰ in font zplmr7m!
+ [297]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (4.4952pt too wide) in paragraph at lines 3282--3284
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $\OML/zplm/m/it/10 I[]\OT1/zplm
+/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) = \OML/zplm/m/it/10 e[]\OT1/zplm
+/m/n/10 (\OT1/ppl/m/n/10 2.625 [] 2.236\OML/zplm/m/it/10 t \OT1/zplm/m/n/10 + \
+OT1/ppl/m/n/10 2.58 [] 2.236\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) + \OT1/ppl/m/
+n/10 0.291 [] 2\OML/zplm/m/it/10 t \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 2.58 []
+ 2\OML/zplm/m/it/10 t$[]
+ []
+
+) [298]
+\openout2 = `./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations.aux'.
+
+ (./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations.tex
+باب \RL {\arabicfont 5}.
+[299
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+[][]
+ []
+
+
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[300] [301]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[302] [303]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[304] [305]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[306] [307]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[308] [309]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[310] [311]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[312] [313]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[314] [315]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[316] [317]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[318] [319]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[320]
+Overfull \hbox (15.13234pt too wide) in paragraph at lines 656--656
+[][] []
+ []
+
+[321]
+Overfull \hbox (10.4415pt too wide) in paragraph at lines 693--693
+[][] []
+ []
+
+
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[322] [323]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[324]
+Overfull \hbox (24.5746pt too wide) in paragraph at lines 770--770
+[][] []
+ []
+
+[325]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[326] [327]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[328] [329]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[330]
+Overfull \hbox (20.44586pt too wide) in paragraph at lines 938--938
+[][] []
+ []
+
+[331]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[332] [333]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[334] [335]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[336] [337]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[338]
+NOTE: coordinate (0Y0.0e0],3Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+[339]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[340] [341]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[342] [343]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[344]
+Underfull \hbox (badness 10000) in paragraph at lines 1344--1345
+[][]
+ []
+
+[345]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[346] [347]
+Overfull \hbox (1.94762pt too wide) in paragraph at lines 1435--1435
+[][] []
+ []
+
+
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[348] [349]
+Overfull \hbox (6.92651pt too wide) in paragraph at lines 1507--1507
+[][] []
+ []
+
+
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[350]
+LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 1540.
+ [351]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[352] [353]
+File: ./fig/figBesselFunction/figOctaveBesselFunction.pdf Graphic file (type QT
+m)
+ <use  "./fig/figBesselFunction/figOctaveBesselFunction.pdf" >
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[354] [355]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[356] [357]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[358] [359]
+Overfull \hbox (10.78867pt too wide) in paragraph at lines 1808--1808
+[][] []
+ []
+
+
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[360] [361]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[362] [363]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[364]
+Overfull \hbox (4.57747pt too wide) in paragraph at lines 1974--1976
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 سوال  []\EU1/JameelNooriNastaleeq(0)/bx/n
+/10 75[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx/
+n/10 5[]\EU1/JameelNooriNastaleeq(1)/m/n/10 :[] ثابت کریں $\OML/zplm/m/it/10 J[
+]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 ) = \OMS/zplm/m/n/10 ^^@
+\OML/zplm/m/it/10 J[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )\OT
+1/ppl/m/n/10 ,  \OML/zplm/m/it/10 J[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/
+zplm/m/n/10 ) = \OML/zplm/m/it/10 J[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/
+zplm/m/n/10 ) \OMS/zplm/m/n/10 ^^@ []\OT1/ppl/m/n/10 ,  \OML/zplm/m/it/10 J[]\O
+T1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 ) = [][\OML/zplm/m/it/10 J[
+]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 ) \OMS/zplm/m/n/10 ^^@$[
+]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1974--1976
+[][]
+ []
+
+[365]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[366] [367]
+File: ./fig/figBesselFunction/figOctaveNeumannFunction.pdf Graphic file (type Q
+Tm)
+ <use  "./fig/figBesselFunction/figOctaveNeumannFunction.pdf" >
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[368] [369]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[370] [371]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[372] [373]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[374] [375]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[376] [377]
+Underfull \hbox (badness 10000) in paragraph at lines 2389--2393
+[][]
+ []
+
+
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[378] [379]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[380] [381]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[382] [383]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[384] [385]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[386] [387]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[388] [389]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[390]
+Overfull \hbox (2.60431pt too wide) in paragraph at lines 2854--2858
+[] \EU1/JameelNooriNastaleeq(1)/m/n/10 سوال  []\EU1/JameelNooriNastaleeq(0)/bx/
+n/10 129[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/b
+x/n/10 5[]\EU1/JameelNooriNastaleeq(1)/m/n/10 : سوال []\EU1/JameelNooriNastalee
+q(0)/bx/n/10 128[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastal
+eeq(0)/bx/n/10 5[][] \EU1/JameelNooriNastaleeq(1)/m/n/10 میں دیا گیا تفرقی مساو
+ات استعمال کرتے ہوئے ثابت کریں کہ  $\OML/zplm/m/it/10 w \OT1/zplm/m/n/10 = \OML
+/zplm/m/it/10 e[] [][]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$[
+]
+ []
+
+[391]
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[392] [393])
+Overfull \vbox (1.62791pt too high) has occurred while \output is active []
+
+
+[394]
+\openout2 = `./tex/mathLaplaceTransformation.aux'.
+
+ (./tex/mathLaplaceTransformation.tex
+باب \RL {\arabicfont 6}.
+[395
+
+
+
+]
+Missing character: There is no ٔ in font [lmroman8-regular]:mapping=tex-text!
+ [396] [397] [398] [399] [400] [401] [402] [403] [404] [405] [406]
+[407] [408]
+Missing character: There is no َ in font zplmr7m!
+ [409] [410] [411] [412] [413]
+Overfull \hbox (2.77925pt too wide) in paragraph at lines 759--759
+[][] []
+ []
+
+[414] [415] [416] [417]
+Overfull \hbox (0.47182pt too wide) in paragraph at lines 936--936
+[][] []
+ []
+
+[418] [419] [420] [421] [422] [423] [424]
+Missing character: There is no م in font zplmr7m!
+Missing character: There is no س in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no و in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no ت in font zplmr7m!
+Missing character: There is no ل in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no پ in font zplmr7m!
+Missing character: There is no ل in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no س in font zplmr7m!
+Missing character: There is no ت in font zplmr7m!
+Missing character: There is no ک in font zplmr7m!
+Missing character: There is no م in font zplmr7m!
+Missing character: There is no ل in font zplmr7m!
+Missing character: There is no ک in font zplmr7m!
+Missing character: There is no ا in font zplmr7m!
+Missing character: There is no ب in font zplmr7m!
+Missing character: There is no د in font zplmr7m!
+Missing character: There is no ل in font zplmr7m!
+ [425] [426] [427]
+Overfull \hbox (13.09828pt too wide) in paragraph at lines 1327--1327
+[][] []
+ []
+
+[428] [429] [430] [431]
+Overfull \hbox (0.27336pt too wide) in paragraph at lines 1621--1621
+[][] []
+ []
+
+[432] [433] [434]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+ [435]
+Underfull \hbox (badness 10000) in paragraph at lines 1847--1847
+[][][]\EU1/JameelNooriNastaleeq(0)/m/n/8 ماہر طبیعیات، پال اڈرین مارث ڈیراک [19
+02-1984] (جرمنی کے ارون روڈالف یوسف شروڈِنگر کے ساتھ مشترق) نوبل انعام یافتہ [1
+933] ، انگلستان کے رہائشی (جن کا تعلق[]
+ []
+
+[436] [437] [438]
+Overfull \hbox (8.08275pt too wide) in paragraph at lines 1917--1917
+[][] []
+ []
+
+[439] [440]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (11.91365pt too wide) in paragraph at lines 2029--2031
+ [][][][] 
+ []
+
+[441] [442] [443] [444] [445] [446] [447] [448] [449] [450] [451] [452]
+[453] [454] [455] [456] [457] [458] [459] [460] [461] [462] [463] [464]
+[465] [466] [467] [468] [469] [470]
+Overfull \hbox (52.75371pt too wide) in paragraph at lines 3137--3151
+ [][][][] 
+ []
+
+[471] [472]
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+
+Overfull \hbox (10.99184pt too wide) in paragraph at lines 3200--3207
+ [][][][] 
+ []
+
+[473] [474] [475] [476] [477]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [478]
+
+LaTeX Warning: Float too large for page by 8.9798pt on input line 3478.
+
+) [479] [480] [481]
+\openout2 = `./tex/mathVectors.aux'.
+
+ (./tex/mathVectors.tex [482
+
+
+
+]
+باب \RL {\arabicfont 7}.
+[483] [484]
+Underfull \hbox (badness 3209) in paragraph at lines 49--49
+[][][]\EU1/JameelNooriNastaleeq(0)/m/n/8 یہاں یہ بتلانا ضروری ہے کہ طبیعیات اور
+ جیومیٹری میں ایسی صورتیں پائی جاتی ہیں جہاں سمتیہ کو ایک جگہ سے دوسری جگہ منتق
+ل کرنا ممکن نہیں ہوتا ہے۔آپ میکانیات سے جانتے ہیں کہ کسی[]
+ []
+
+[485] [486] [487] [488] [489]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [490]
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+[][]|\EU1/JameelNooriNastaleeq(0)/m/n/9 (ب) سمتیات کے مطابقتی اجزاء کو جمع کرتے
+ ہوئے حاصل جمع سمتیہ کے اجزاء حاصل[]
+ []
+
+[491] [492] [493] [494] [495] [496] [497] [498] [499] [500] [501] [502]
+[503] [504] [505] [506] [507] [508] [509] [510] [511] [512] [513]
+Underfull \hbox (badness 10000) in paragraph at lines 1343--1345
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1347--1351
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1353--1357
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1363
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1365--1369
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1371--1375
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1377--1381
+[][]
+ []
+
+[514] [515] [516] [517] [518]
+
+LaTeX Warning: Command \b invalid in math mode on input line 1579.
+
+Missing character: There is no ̲ in font zplmr7m!
+[519]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [520] [521] [522] [523] [524] [525] [526] [527] [528] [529] [530]
+[531] [532] [533]
+Missing character: There is no ُ in font zplmr7m!
+ [534] [535] [536] [537] [538] [539]) [540]
+\openout2 = `./tex/mathLinearAlgebra.aux'.
+
+
+(./tex/mathLinearAlgebra.tex
+باب \RL {\arabicfont 8}.
+[541
+
+
+
+] [542]
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+[][]
+ []
+
+[543] [544] [545] [546] [547] [548] [549]
+Underfull \hbox (badness 10000) in paragraph at lines 444--448
+[][]
+ []
+
+[550] [551] [552]
+Underfull \hbox (badness 10000) in paragraph at lines 590--591
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 615--616
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 675--676
+[][]
+ []
+
+
+Overfull \hbox (1.99893pt too wide) in paragraph at lines 702--702
+[][] []
+ []
+
+[553] [554] [555] [556]
+Missing character: There is no ت in font zplmr7m!
+Missing character: There is no ب in font zplmr7m!
+Missing character: There is no د in font zplmr7m!
+Missing character: There is no ی in font zplmr7m!
+Missing character: There is no ل in font zplmr7m!
+Missing character: There is no ی in font zplmr7m!
+Missing character: There is no م in font zplmr7m!
+Missing character: There is no ح in font zplmr7m!
+Missing character: There is no ل in font zplmr7m!
+ [557] [558] [559] [560]
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1022
+[][]
+ []
+
+[561]
+Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
+[][]
+ []
+
+[562]
+Underfull \hbox (badness 10000) in paragraph at lines 1047--1050
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1080
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1080
+[][]
+ []
+
+[563] [564]
+Overfull \hbox (1.89949pt too wide) in paragraph at lines 1144--1150
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $\OML/cmm/b/it/10 A[] \OT1/zplm/m
+/n/10 = [] \OT1/ppl/m/n/10 ,  \OML/cmm/b/it/10 B[] \OT1/zplm/m/n/10 = [] \OT1/p
+pl/m/n/10 ,  \OML/cmm/b/it/10 a[] \OT1/zplm/m/n/10 = [] \OT1/ppl/m/n/10 ,  \OML
+/cmm/b/it/10 b[] \OT1/zplm/m/n/10 = []$ []
+ []
+
+[565]
+Overfull \hbox (4.71283pt too wide) in paragraph at lines 1180--1186
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 جوابات: $\OT1/ppl/m/n/10 2\OML/cmm/b/it/1
+0 A \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 3\OML/cmm/b/it/10 B \OT1/zplm/m/n/10 =
+ [] \OT1/ppl/m/n/10 , \OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 2\OML/cmm/b/it/10 A \OM
+S/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 3\OML/cmm/b/it/10 B\OT1/zplm/m/n/10 )[] = \OT
+1/ppl/m/n/10 2\OML/cmm/b/it/10 A[] \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 3\OML/c
+mm/b/it/10 B[] \OT1/zplm/m/n/10 = []$ []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1211--1217
+[][]
+ []
+
+[566] [567] [568] [569] [570] [571]
+Underfull \hbox (badness 10000) in paragraph at lines 1409--1409
+[][]|\EU1/JameelNooriNastaleeq(0)/m/n/9 (ب) دونوں خطوط (جنہیں ایک دونوں سے ذرہ 
+ہٹ کر دکھایا گیا ہے درحقیقت) ہم[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1419--1419
+[][]|\EU1/JameelNooriNastaleeq(0)/m/n/9 (پ) متوازی خطوط ایک دونوں کو کہیں نہیں 
+چھوتے ہیں لہٰذا ان کا کوئی حل نہیں پایا جاتا[]
+ []
+
+File: ./fig/figLinearAlgebra/figLinearAlgebraLineAsSurfacesTouching.pdf Graphic
+ file (type QTm)
+<use  "./fig/figLinearAlgebra/figLinearAlgebraLineAsSurfacesTouching.pdf" >
+[572] [573] [574] [575] [576] [577] [578] [579] [580] [581] [582] [583]
+[584] [585]
+Overfull \hbox (6.33846pt too wide) in paragraph at lines 1949--1951
+ [][][][] 
+ []
+
+
+Overfull \hbox (6.1057pt too wide) in paragraph at lines 1984--1986
+ [][][][] 
+ []
+
+[586] [587]
+Missing character: There is no ; in font nullfont!
+ [588] [589] [590] [591] [592] [593] [594] [595] [596] [597]
+Underfull \hbox (badness 10000) in paragraph at lines 2255--2256
+[][]
+ []
+
+[598] [599] [600] [601] [602] [603] [604] [605] [606] [607] [608] [609]
+[610] [611] [612] [613] [614]
+Underfull \hbox (badness 10000) in paragraph at lines 3046--3047
+[][]
+ []
+
+[615]
+Underfull \hbox (badness 10000) in paragraph at lines 3059--3060
+[][]
+ []
+
+[616]
+Underfull \vbox (badness 3646) has occurred while \output is active []
+
+ [617]
+Underfull \hbox (badness 10000) in paragraph at lines 3125--3126
+[][]
+ []
+
+[618] [619] [620] [621] [622] [623] [624] [625] [626] [627] [628] [629]
+[630] [631] [632]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [633]
+[634] [635] [636] [637] [638]
+Overfull \hbox (0.941pt too wide) in paragraph at lines 3970--3979
+[][]\EU1/JameelNooriNastaleeq(1)/m/n/10 (ب) فرض کریں کہ $\OML/zplm/m/it/10 n \O
+T1/zplm/m/n/10 = \OML/cmm/b/it/10 A []$ \EU1/JameelNooriNastaleeq(1)/m/n/10 ہے 
+لہٰذا  $\OML/cmm/b/it/10 A[]$  \EU1/JameelNooriNastaleeq(1)/m/n/10 موجود ہے۔یوں
+  $\OML/cmm/b/it/10 AB \OT1/zplm/m/n/10 = \OT1/cmr/bx/n/10 0$  \EU1/JameelNoori
+Nastaleeq(1)/m/n/10 سے مراد  $\OML/cmm/b/it/10 A[]AB \OT1/zplm/m/n/10 =$[]
+ []
+
+[639] [640] [641] [642] [643] [644] [645] [646] [647]
+Overfull \hbox (0.21277pt too wide) in paragraph at lines 4257--4257
+[][] []
+ []
+
+[648] [649] [650] [651] [652] [653]
+Missing character: There is no َ in font zplmr7m!
+ [654]
+Missing character: There is no ن in font zplmr7m!
+Missing character: There is no ظ in font zplmr7m!
+Missing character: There is no م in font zplmr7m!
+ [655] [656] [657] [658]) [659]
+\openout2 = `./tex/mathEigenvalueMatrixProblems.aux'.
+
+
+(./tex/mathEigenvalueMatrixProblems.tex [660
+
+
+
+]
+باب \RL {\arabicfont 9}.
+[661] [662] [663] [664] [665] [666] [667]
+
+LaTeX Warning: Command \m invalid in math mode on input line 195.
+
+Missing character: There is no ̉ in font zplmr7m!
+[668] [669] [670] [671] [672] [673] [674] [675]
+Overfull \hbox (5.87549pt too wide) in paragraph at lines 433--435
+[]\EU1/JameelNooriNastaleeq(1)/m/n/10 جہاں  $\OML/zplm/m/it/10 x[] \OT1/zplm/m/
+n/10 = \OT1/ppl/m/n/10 1$  \EU1/JameelNooriNastaleeq(1)/m/n/10 چنتے ہوئے  $\OML
+/zplm/m/it/10 x[] \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 4$  \EU1/JameelNooriNastal
+eeq(1)/m/n/10 اور  $\OML/zplm/m/it/10 x[] \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 8$
+  \EU1/JameelNooriNastaleeq(1)/m/n/10 حاصل کیا گیا ہے۔ابتدائی کل آبادی  $[]$[]
+ []
+
+[676] [677] [678] [679]
+Underfull \hbox (badness 10000) in paragraph at lines 606--607
+[][]
+ []
+
+[680] [681] [682] [683] [684] [685] [686] [687] [688] [689]
+Overfull \hbox (4.80075pt too wide) in paragraph at lines 914--914
+[][] []
+ []
+
+[690] [691] [692] [693]
+Overfull \hbox (9.21394pt too wide) in paragraph at lines 1039--1039
+[][] []
+ []
+
+
+Overfull \hbox (9.38686pt too wide) in paragraph at lines 1043--1043
+[][] []
+ []
+
+[694] [695] [696] [697] [698] [699]
+Underfull \hbox (badness 10000) in paragraph at lines 1254--1255
+[][]
+ []
+
+[700] [701] [702]
+Underfull \hbox (badness 10000) in paragraph at lines 1348--1350
+[][]
+ []
+
+[703] [704] [705]
+Overfull \hbox (37.79886pt too wide) in paragraph at lines 1478--1478
+[][] []
+ []
+
+[706] [707] [708]) [709]
+\openout2 = `./tex/mathVectorDifferentialCalculus.aux'.
+
+ (./tex/mathVectorDifferentialCalculus.tex [710
+
+
+
+]
+باب \RL {\arabicfont 10}.
+[711] [712] [713] [714] [715] [716] [717] [718] [719] [720] [721] [722]
+[723] [724] [725] [726] [727] [728] [729] [730]
+Overfull \hbox (14.89417pt too wide) in paragraph at lines 927--933
+[] \EU1/JameelNooriNastaleeq(1)/m/n/10 سوال  []\EU1/JameelNooriNastaleeq(0)/bx/
+n/10 61[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/bx
+/n/10 10[]\EU1/JameelNooriNastaleeq(1)/m/n/10 : : $\OML/cmm/b/it/10 r \OT1/zplm
+/m/n/10 = ([] \OML/zplm/m/it/10 t \OT1/zplm/m/n/10 + \OML/zplm/m/it/10 t [] t\O
+T1/zplm/m/n/10 )\OML/cmm/b/it/10 i \OT1/zplm/m/n/10 + ([] \OML/zplm/m/it/10 t \
+OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 t [] t\OT1/zplm/m/n/10 )\OML/cmm/b/it/10 
+j\OT1/ppl/m/n/10 ,  []  \OT1/zplm/m/n/10 (\OMS/zplm/m/n/10 ^^@\OT1/ppl/m/n/10 1
+, \OML/zplm/m/it/10 ^^Y\OT1/ppl/m/n/10 , 0\OT1/zplm/m/n/10 )  []  (\OT1/ppl/m/n
+/10 1, 0, 0\OT1/zplm/m/n/10 )$ []
+ []
+
+[731] [732] [733] [734] [735] [736] [737] [738] [739] [740] [741]
+File: ./fig/figVectorDifferentialCalculus/sphereWithLines.pdf Graphic file (typ
+e QTm)
+
+<use  "./fig/figVectorDifferentialCalculus/sphereWithLines.pdf" > [742]
+[743] [744]
+Underfull \hbox (badness 10000) in paragraph at lines 1498--1498
+[][][]\EU1/JameelNooriNastaleeq(0)/m/n/8 دائرہ کار  $\OML/zplm/m/it/8 D$  \EU1/
+JameelNooriNastaleeq(0)/m/n/9 جڑے ہوئے \EU1/JameelNooriNastaleeq(0)/m/n/8 نقطوں
+ کا \EU1/JameelNooriNastaleeq(0)/m/n/9 کھلا \EU1/JameelNooriNastaleeq(0)/m/n/8 
+سلسلہ ہے، جہاں \EU1/JameelNooriNastaleeq(0)/m/n/9 جڑا ہونے [][]\EU1/ppl/m/n/8 (
+connected)[] []\EU1/JameelNooriNastaleeq(0)/m/n/8 سے مراد یہ ہے کہ  $\OML/zplm/
+m/it/8 D$  \EU1/JameelNooriNastaleeq(0)/m/n/8 کے کسی بھی دو نقطوں کو متناہی تعد
+اد کے ایسے سیدھے قطعات سے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1498--1498
+[]\EU1/JameelNooriNastaleeq(0)/m/n/8 ملایا جا سکتا ہے جن کے تمام نقطے  $\OML/zp
+lm/m/it/8 D$  \EU1/JameelNooriNastaleeq(0)/m/n/8 کا حصہ ہوں، اور \EU1/JameelNoo
+riNastaleeq(0)/m/n/9 کھلا [][]\EU1/ppl/m/n/8 (open)[] []\EU1/JameelNooriNastale
+eq(0)/m/n/8 سے مراد یہ ہے کہ  $\OML/zplm/m/it/8 D$  \EU1/JameelNooriNastaleeq(0
+)/m/n/8 میں ہر نقطے کی پڑوس کے تمام نقطے بھی  $\OML/zplm/m/it/8 D$  \EU1/Jameel
+NooriNastaleeq(0)/m/n/8 کا حصہ ہیں۔مثلاً کسی مستطیل یا دائرے کا اندرونی حصہ[]
+ []
+
+[745] [746] [747] [748] [749] [750] [751] [752] [753] [754] [755] [756]
+[757] [758] [759] [760] [761] [762] [763] [764] [765] [766] [767] [768]
+[769] [770] [771] [772] [773] [774] [775] [776] [777] [778]
+Underfull \hbox (badness 10000) in paragraph at lines 2904--2906
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2906--2910
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2910--2914
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2914--2918
+[][]
+ []
+
+[779]
+Underfull \hbox (badness 10000) in paragraph at lines 2918--2922
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2922--2926
+[][]
+ []
+
+) [780]
+\openout2 = `./tex/mathVectorIntegralCalculus.aux'.
+
+ (./tex/mathVectorIntegralCalculus.tex
+باب \RL {\arabicfont 11}.
+[781
+
+
+
+]
 Overfull \vbox (0.90526pt too high) has occurred while \output is active []
 
 
@@ -3672,13 +5051,6 @@ Overfull \vbox (0.90526pt too high) has occurred while \output is active []
 
 
 [784] [785]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 160.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 166.
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.5pt on input line 166.
-
 Overfull \vbox (0.90526pt too high) has occurred while \output is active []
 
 
@@ -3980,9 +5352,6 @@ Overfull \vbox (0.90526pt too high) has occurred while \output is active []
 
 
 ]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 15.
-
 Underfull \hbox (badness 2111) in paragraph at lines 15--15
 [][][]\EU1/JameelNooriNastaleeq(0)/m/n/8 تفاعل  $\OML/zplm/m/it/8 f\OT1/zplm/m/
 n/8 (\OML/zplm/m/it/8 x\OT1/zplm/m/n/8 )$  \EU1/JameelNooriNastaleeq(0)/m/n/8 ک
@@ -4042,14 +5411,7 @@ Overfull \hbox (34.98378pt too wide) in paragraph at lines 1644--1653
  []
 
 [919] [920] [921] [922] [923] [924] [925] [926] [927] [928] [929] [930]
-
-Package pgf Warning: Your graphic driver pgfsys-xetex.def does not support patt
-erns. This warning is given only once on input line 2231.
-
-[931]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 5.70004pt on input line 2256.
- [932] [933] [934]
+[931] [932] [933] [934]
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
@@ -4057,9 +5419,6 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
  [935] [936] [937]
-LaTeX Font Info:    Font shape `EU1/XBTabrizBold(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 2546.
-
 Underfull \hbox (badness 10000) in paragraph at lines 2546--2546
 [][][]\EU1/JameelNooriNastaleeq(0)/m/n/8 یہ ثابت کیا جا سکتا ہے کہ ایسا تفاعل  
 $\OML/zplm/m/it/8 f$  \EU1/JameelNooriNastaleeq(0)/m/n/8 کے لئے مساوات []65[].[
@@ -4173,8 +5532,6 @@ ic file (type QTm)
 
 <use  "./fig/figPartialDifferentialEquations/figInfiniteBarHeatProblem.pdf" >
 [990] [991] [992]
-LaTeX Font Info:    Font shape `EU1/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 1914.
 Missing character: There is no , in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -4764,12 +6121,12 @@ Overfull \vbox (0.12671pt too high) has occurred while \output is active []
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
  [1549] [1550] [1551] [1552] [1553]
-Underfull \hbox (badness 10000) in paragraph at lines 936--937
+Underfull \hbox (badness 10000) in paragraph at lines 938--939
 [][]
  []
 
 [1554] [1555]
-Overfull \hbox (17.39948pt too wide) in paragraph at lines 1008--1010
+Overfull \hbox (17.39948pt too wide) in paragraph at lines 1010--1012
 []\EU1/JameelNooriNastaleeq(1)/m/n/10 منصفانہ پانسہ سے مراد یکساں خاصیت اور بال
 کل مربع شکل کا پانسہ ہے۔پانسہ پھینکنے کے تجربہ میں  $\OML/zplm/m/it/10 S \OT1/z
 plm/m/n/10 = \OMS/zplm/m/n/10 f\OT1/ppl/m/n/10 1, 2, 3, 4, 5, 6\OMS/zplm/m/n/10
@@ -4777,7 +6134,7 @@ plm/m/n/10 = \OMS/zplm/m/n/10 f\OT1/ppl/m/n/10 1, 2, 3, 4, 5, 6\OMS/zplm/m/n/10
  []
 
 [1556] [1557]
-Overfull \hbox (5.65872pt too wide) in paragraph at lines 1065--1066
+Overfull \hbox (5.65872pt too wide) in paragraph at lines 1067--1068
 [][]\EU1/JameelNooriNastaleeq(1)/m/n/10 اسی طرح  $\OML/zplm/m/it/10 m$  \EU1/Ja
 meelNooriNastaleeq(1)/m/n/10 وقوعات  $\OML/zplm/m/it/10 A[]\OT1/ppl/m/n/10 , []
   , \OML/zplm/m/it/10 A[]$  \EU1/JameelNooriNastaleeq(1)/m/n/10 اس صورت غیر تاب
@@ -4788,12 +6145,12 @@ meelNooriNastaleeq(1)/m/n/10 وقوعات  $\OML/zplm/m/it/10 A[]\OT1/ppl/m/n/10
 
 [1558] [1559] [1560] [1561] [1562] [1563] [1564] [1565] [1566] [1567] [1568]
 [1569]
-Underfull \hbox (badness 10000) in paragraph at lines 1451--1453
+Underfull \hbox (badness 10000) in paragraph at lines 1453--1455
 [][]
  []
 
 [1570] [1571]
-Underfull \hbox (badness 10000) in paragraph at lines 1572--1572
+Underfull \hbox (badness 10000) in paragraph at lines 1574--1574
 [][][] $\OML/zplm/m/it/8 F\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 x\OT1/zplm/m/n/8 )$
   \EU1/JameelNooriNastaleeq(0)/bx/n/8 استمراری ہے لیکن  $\OML/zplm/m/it/8 F\OT1
 /zplm/m/n/8 (\OML/zplm/m/it/8 x\OT1/zplm/m/n/8 )$  \EU1/JameelNooriNastaleeq(0)
@@ -4811,12 +6168,12 @@ File: ./fig/figStatistics/normalDistributionFunctionWithZeroMeanOneVariance.pdf
 
 <use  "./fig/figStatistics/normalDistributionFunctionWithZeroMeanOneVariance.pd
 f" > [1592] [1593] [1594] [1595]
-Overfull \hbox (1.90343pt too wide) in paragraph at lines 2443--2443
+Overfull \hbox (1.90343pt too wide) in paragraph at lines 2445--2445
 [][] []
  []
 
 [1596] [1597]
-Underfull \hbox (badness 10000) in paragraph at lines 2473--2475
+Underfull \hbox (badness 10000) in paragraph at lines 2475--2477
 [][]
  []
 
@@ -4825,13 +6182,13 @@ Overfull \vbox (2.3408pt too high) has occurred while \output is active []
 
 
 [1603]
-Underfull \hbox (badness 10000) in paragraph at lines 2728--2728
+Underfull \hbox (badness 10000) in paragraph at lines 2730--2730
 [][]\EU1/JameelNooriNastaleeq(0)/bx/n/10 شكل []17[].[]24[]: |یکساں تقسیم (مساوا
 ت []88[].[]24[][]) کا تفاعل احتمال[]
  []
 
 
-Overfull \hbox (10.42482pt too wide) in paragraph at lines 2734--2746
+Overfull \hbox (10.42482pt too wide) in paragraph at lines 2736--2748
  [][][][] 
  []
 
@@ -4872,7 +6229,7 @@ Graphic file (type QTm)
 
 <use  "./fig/figStatistics/knownUnknownVarianceConfidenceIntervalRatioGamma.pdf
 " >
-Underfull \hbox (badness 10000) in paragraph at lines 3458--3458
+Underfull \hbox (badness 10000) in paragraph at lines 3460--3460
 []\EU1/JameelNooriNastaleeq(0)/bx/n/10 کو مربع خا تقسیم کی جدول (ضمیمہ ج‍[]، جد
 ول []11[].ج‍[]، جسامت نمونہ= $\OML/zplm/m/it/10 n$ \EU1/JameelNooriNastaleeq(0)
 /bx/n/10 ) سے  $\OML/zplm/m/it/10 n \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 1$  \E
@@ -4898,11 +6255,6 @@ Missing character: There is no س in font zplmr7m!
 Missing character: There is no ی in font zplmr7m!
 Missing character: There is no م in font zplmr7m!
  [1632] [1633] [1634] [1635] [1636]
-Underfull \hbox (badness 10000) in paragraph at lines 3750--3752
-[][]
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 3752--3754
 [][]
  []
@@ -4912,8 +6264,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 3754--3756
 [][]
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 3756--3758
+[][]
+ []
+
 [1637] [1638] [1639] [1640] [1641]
-Overfull \hbox (4.13611pt too wide) in paragraph at lines 3882--3882
+Overfull \hbox (4.13611pt too wide) in paragraph at lines 3884--3884
 [][] 
  []
 
@@ -4929,14 +6286,14 @@ raphic file (type QTm)
 [1655] [1656] [1657] [1658] [1659] [1660] [1661] [1662] [1663]
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 45
-69.
+71.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 45
-69.
+71.
 
 [1664] [1665] [1666] [1667] [1668]
-Underfull \hbox (badness 5064) in paragraph at lines 4760--4760
+Underfull \hbox (badness 5064) in paragraph at lines 4762--4762
 [][]\EU1/XBTabrizBold(0)/m/n/10 پہلا قدم:  $\OML/zplm/m/it/10 x$  \EU1/JameelNo
 oriNastaleeq(0)/bx/n/10 محور کو  $\OML/zplm/m/it/10 K$  \EU1/JameelNooriNastale
 eq(0)/bx/n/10 وقفوں  $\OML/zplm/m/it/10 I[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 
@@ -4947,7 +6304,7 @@ x/n/10 کے کم[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4760--4760
+Underfull \hbox (badness 10000) in paragraph at lines 4762--4762
 []\EU1/XBTabrizBold(0)/m/n/10 دوسرا قدم:  $\OML/zplm/m/it/10 F\OT1/zplm/m/n/10 
 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$  \EU1/JameelNooriNastaleeq(0)/bx/n/10 ا
 ستعمال کرتے ہوئے زیر غور بلا منصوبہ متغیر  $\OML/zplm/m/it/10 X$  \EU1/JameelNo
@@ -4957,7 +6314,7 @@ $  \EU1/JameelNooriNastaleeq(0)/bx/n/10 بذریعہ[]
  []
 
 [1669] [1670]
-Overfull \hbox (3.78856pt too wide) in paragraph at lines 4802--4806
+Overfull \hbox (3.78856pt too wide) in paragraph at lines 4804--4808
 [] \EU1/JameelNooriNastaleeq(1)/m/n/10 سوال  []\EU1/JameelNooriNastaleeq(0)/bx/
 n/10 254[]\EU1/JameelNooriNastaleeq(1)/m/n/10 .[]\EU1/JameelNooriNastaleeq(0)/b
 x/n/10 24[]\EU1/JameelNooriNastaleeq(1)/m/n/10 : دوپہر ایک بجے سے دو بجے تک ایک
@@ -4965,7 +6322,7 @@ x/n/10 24[]\EU1/JameelNooriNastaleeq(1)/m/n/10 : دوپہر ایک بجے سے �
  []
 
 [1671] [1672] [1673] [1674]
-Overfull \hbox (16.6572pt too wide) in paragraph at lines 5030--5030
+Overfull \hbox (16.6572pt too wide) in paragraph at lines 5032--5032
 [][] []
  []
 
@@ -4974,12 +6331,12 @@ Underfull \vbox (badness 8056) has occurred while \output is active []
 
  [1675]
 [1676]
-Underfull \hbox (badness 10000) in paragraph at lines 5077--5081
+Underfull \hbox (badness 10000) in paragraph at lines 5079--5083
 [][]
  []
 
 [1677] [1678] [1679] [1680] [1681] [1682]
-Underfull \hbox (badness 4181) in paragraph at lines 5334--5334
+Underfull \hbox (badness 4181) in paragraph at lines 5336--5336
 []\EU1/XBTabrizBold(0)/m/n/10 تیسرا قدم: \EU1/JameelNooriNastaleeq(0)/bx/n/10 ن
 مونہ  $\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/
 10 y[]\OT1/zplm/m/n/10 )\OT1/ppl/m/n/10 , []  , \OT1/zplm/m/n/10 (\OML/zplm/m/i
@@ -5093,8 +6450,70 @@ Overfull \hbox (23.00569pt too wide) in paragraph at lines 1128--1502
 
 
 ]
-(./engineeringMathematics.aux (./tex/mathPreface.aux)
-(./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
+(./engineeringMathematics.ind
+Overfull \hbox (24.2618pt too wide) in paragraph at lines 10--11
+[]| \EU1/ppl/m/n/10 alternating direction implicit method,
+ []
+
+[1723
+
+
+
+]
+Overfull \hbox (4.5558pt too wide) in paragraph at lines 97--98
+[]\EU1/ppl/m/n/10 Cartesian coordinate system, 486, 653 
+ []
+
+[1724] [1725] [1726] [1727] [1728]
+Overfull \hbox (0.47382pt too wide) in paragraph at lines 512--513
+[]\EU1/ppl/m/n/10 Gauss’ hypergeometric equation, 348 
+ []
+
+
+Overfull \hbox (0.7018pt too wide) in paragraph at lines 569--570
+[]| \EU1/ppl/m/n/10 linear ordinary differential equa-
+ []
+
+[1729]
+Overfull \hbox (2.7758pt too wide) in paragraph at lines 652--653
+[]| \EU1/ppl/m/n/10 numerical, trapezoidal rule, 1411 
+ []
+
+
+Overfull \hbox (1.1938pt too wide) in paragraph at lines 653--654
+[]| \EU1/ppl/m/n/10 numerical,rectangular rule, 1411 
+ []
+
+[1730] [1731]
+Overfull \hbox (0.66982pt too wide) in paragraph at lines 753--754
+[]\EU1/ppl/m/n/10 linearly dependent, 87, 139, 140, 189,
+ []
+
+[1732]
+Overfull \hbox (6.7718pt too wide) in paragraph at lines 851--852
+[]| \EU1/ppl/m/n/10 backward-difference interpolation
+ []
+
+
+Overfull \hbox (8.6458pt too wide) in paragraph at lines 895--896
+[]| \EU1/ppl/m/n/10 integration, rectangular rule, 1411 
+ []
+
+
+Overfull \hbox (7.78581pt too wide) in paragraph at lines 896--897
+[]| \EU1/ppl/m/n/10 integration, trapezoidal rule, 1411 
+ []
+
+[1733] [1734] [1735]
+Overfull \hbox (1.0138pt too wide) in paragraph at lines 1129--1130
+[]\EU1/ppl/m/n/10 Runge-Kutta-Nystrom method, 1490 
+ []
+
+[1736] [1737] [1738] [1739] [1740] [1741] [1742] [1743] [1744] [1745] [1746]
+[1747] [1748] [1749] [1750] [1751] [1752] [1753] [1754] [1755] [1756] [1757]
+[1758] [1759] [1760] [1761] [1762] [1763]) (./engineeringMathematics.aux
+(./tex/mathPreface.aux) (./tex/prefaceFirstBook.aux)
+(./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
 (./tex/mathSystemOfDifferentialEquations.aux)
@@ -5124,12 +6543,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 61368 strings out of 493918
- 1432945 string characters out of 6150563
- 2535916 words of memory out of 5000000
- 63433 multiletter control sequences out of 15000+600000
- 53961 words of font info for 220 fonts, out of 8000000 for 9000
+ 66653 strings out of 493918
+ 1553721 string characters out of 6150563
+ 2668156 words of memory out of 5000000
+ 68616 multiletter control sequences out of 15000+600000
+ 57820 words of font info for 233 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 68i,21n,404p,10485b,5748s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,22n,404p,10485b,5760s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on engineeringMathematics.pdf (956 pages).
+Output written on engineeringMathematics.pdf (1777 pages).

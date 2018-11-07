@@ -75,11 +75,11 @@
 
 
 
-\title{انجینئری حساب}
+\title{انجینئری ریاضیات}
 \date{}                           %if absent gives date in arabic which is a rubbish
 
 %\linenumbers
-\makeindex
+%\makeindex
 
 %==========
 \begin{document}
@@ -180,7 +180,7 @@
 \renewcommand*{\indexname}{فرہنگ}      %this command has to be placed right here just before printindex command
 \cleardoublepage
 \addcontentsline{toc}{chapter}{فرہنگ}
-%\printindex
+\printindex
 
 
 \end{urdufont}

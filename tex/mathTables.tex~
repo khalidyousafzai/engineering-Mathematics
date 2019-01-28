@@ -1121,6 +1121,8 @@ n&m=10&m=15&m=20&m=30&m=40&m=50&m=100&m=\infty\\
 %============================================
 \begin{table}
 \centering
+(جدول \حوالہ{ضمیمہ_بلا_رجحان})
+\par\smallskip
 \tiny
 \begin{otherlanguage}{english}
 \begin{tabular}[b]{|C|C|}

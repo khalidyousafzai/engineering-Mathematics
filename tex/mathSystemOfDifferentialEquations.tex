@@ -2526,7 +2526,7 @@ y_2'&=a_{21}y_1+a_{22}y_2
 \pgfmathsetmacro{\lmtS}{-180-90}
 \pgfmathsetmacro{\lmtE}{\lmtS+900}    
 \addplot[domain=\lmtS:\lmtE,samples=300]{sqrt(2*\k*cos(x)+2*\ca)}node[pos=0.04](ka){}node[pos=0.041](kb){}node[pos=0.2](kc){}node[pos=0.21](kd){}node[pos=0.6](ke){}node[pos=0.61](kf){}node[pos=0.975](kg){}node[pos=0.985](kh){}coordinate[pos=0.75](kkpin);
-\draw(kkpin)--++(75,125)node[right]{$C=k$};
+\draw(kkpin)node[pin=45:{$C=k$}]{};
 \draw[-stealth] (ka)--(kb);
 \draw[-stealth] (kc)--(kd);
 \draw[-stealth] (ke)--(kf);
@@ -2543,7 +2543,7 @@ y_2'&=a_{21}y_1+a_{22}y_2
 \pgfmathsetmacro{\lmtS}{-180-90}
 \pgfmathsetmacro{\lmtE}{\lmtS+900}    
 \addplot[domain=\lmtS:\lmtE,samples=300]{sqrt(2*\k*cos(x)+2*\ca)}node[pos=0.2](kc){}node[pos=0.21](kd){}node[pos=0.6](ke){}node[pos=0.61](kf){}coordinate[pos=0.62](kkpin);
-\draw(kkpin)--++(-50,100)node[above]{$C>k$};
+\draw(kkpin)node[pin=135:{$C>k$}]{};
 \draw[-stealth] (kc)--(kd);
 \draw[-stealth] (ke)--(kf);
 \addplot[domain=\lmtS:\lmtE,samples=300]{-sqrt(2*\k*cos(x)+2*\ca)}node[pos=0.2](kc){}node[pos=0.21](kd){}node[pos=0.6](ke){}node[pos=0.61](kf){};
@@ -2565,7 +2565,7 @@ y_2'&=a_{21}y_1+a_{22}y_2
 \pgfmathsetmacro{\lmtS}{-120}
 \pgfmathsetmacro{\lmtE}{\lmtS+240}    
 \addplot[domain=\lmtS:\lmtE,samples=50]{sqrt(2*\k*cos(x)+2*\ca)}node[pos=0.25](ka){}node[pos=0.27](kb){}coordinate[pos=0.42](kkpin);
-\draw(kkpin)--++(-100,200)node[left]{$C<k$};
+\draw(kkpin)node[pin=135:{$C<k$}]{};
 \draw[-stealth] (ka)--(kb);
 \addplot[domain=\lmtS:\lmtE,samples=50]{-sqrt(2*\k*cos(x)+2*\ca)};
 %

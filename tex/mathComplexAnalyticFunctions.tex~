@@ -2419,14 +2419,7 @@ e^{iz}=\cos z+i\sin z
 \label{شکل_مخلوط_مقیاسی_سطح}
 \end{figure}
 %
-\begin{figure}
-\centering
-\begin{tikzpicture}
-\begin{axis}[small,xlabel={$x$},ylabel={$y$},zlabel={$\abs{\sin z}$},z label style={rotate=-90},colormap={bw}{gray(0 cm)=(0);gray(1 cm)=(1)},zmax=5,xtick={0,180,360},xticklabels={$0$,$\pi$,$2\pi$},ytick={0,180},yticklabels={$0$,$\pi$},ztick=\empty,ymax=180]
-\addplot[color=gray,domain=0:360,y domain=0:180,samples=10,samples y=20]({sin(x)*cosh(pi/180*y)},{cos(x)*sinh(pi/180*y)});
-\end{axis}
-\end{tikzpicture}
-\end{figure}
+
 
 شکل\حوالہ{شکل_مخلوط_مقیاسی_سطح} میں \عددی{\sin z} کی مقیاسی سطح دکھائی گئی ہے۔مقیاسی سطحیں برقی انجینئری میں بہت کار آمد ثابت ہوتی ہیں۔
 

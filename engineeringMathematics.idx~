@@ -4,10 +4,10 @@
 \indexentry{تفرقی!جزوی مساوات}{\RL {\arabicfont  1}}
 \indexentry{model!mathematical}{\RL {\arabicfont  1}}
 \indexentry{نمونہ!ریاضی}{\RL {\arabicfont  1}}
-\indexentry{existence}{\RL {\arabicfont  2}}
-\indexentry{وجودیت}{\RL {\arabicfont  2}}
 \indexentry{uniqueness}{\RL {\arabicfont  2}}
 \indexentry{یکتائی}{\RL {\arabicfont  2}}
+\indexentry{existence}{\RL {\arabicfont  2}}
+\indexentry{وجودیت}{\RL {\arabicfont  2}}
 \indexentry{model!mathematical}{\RL {\arabicfont  2}}
 \indexentry{نمونہ!ریاضی}{\RL {\arabicfont  2}}
 \indexentry{modeling}{\RL {\arabicfont  2}}
@@ -244,18 +244,18 @@
 \indexentry{احصاء تفرقیات}{\RL {\arabicfont  76}}
 \indexentry{oscillations}{\RL {\arabicfont  79}}
 \indexentry{ارتعاش}{\RL {\arabicfont  79}}
-\indexentry{nonlinear}{\RL {\arabicfont  80}}
-\indexentry{غیر خطی}{\RL {\arabicfont  80}}
-\indexentry{linear!second order}{\RL {\arabicfont  80}}
-\indexentry{خطی!دو درجی}{\RL {\arabicfont  80}}
+\indexentry{nonlinear}{\RL {\arabicfont  79}}
+\indexentry{غیر خطی}{\RL {\arabicfont  79}}
+\indexentry{linear!second order}{\RL {\arabicfont  79}}
+\indexentry{خطی!دو رتبی}{\RL {\arabicfont  79}}
 \indexentry{standard form!second order}{\RL {\arabicfont  80}}
-\indexentry{معیاری صورت!دو درجی}{\RL {\arabicfont  80}}
+\indexentry{معیاری صورت!دو رتبی}{\RL {\arabicfont  80}}
 \indexentry{identically zero}{\RL {\arabicfont  80}}
 \indexentry{مکمل صفر}{\RL {\arabicfont  80}}
 \indexentry{nonhomogenous!second order}{\RL {\arabicfont  80}}
-\indexentry{غیر متجانس!دو درجی}{\RL {\arabicfont  80}}
-\indexentry{coefficients}{\RL {\arabicfont  81}}
-\indexentry{عددی سر!دو درجی مساوات}{\RL {\arabicfont  81}}
+\indexentry{غیر متجانس!دو رتبی}{\RL {\arabicfont  80}}
+\indexentry{coefficients}{\RL {\arabicfont  80}}
+\indexentry{عددی سر!دو رتبی مساوات}{\RL {\arabicfont  80}}
 \indexentry{خطیت!اصول}{\RL {\arabicfont  81}}
 \indexentry{اصول!خطیت}{\RL {\arabicfont  81}}
 \indexentry{superposition!principle}{\RL {\arabicfont  81}}
@@ -276,15 +276,15 @@
 \indexentry{خطی طور!تابع}{\RL {\arabicfont  87}}
 \indexentry{basis}{\RL {\arabicfont  87}}
 \indexentry{اساس}{\RL {\arabicfont  87}}
-\indexentry{singular solution}{\RL {\arabicfont  88}}
-\indexentry{نادر!حل}{\RL {\arabicfont  88}}
+\indexentry{singular solution}{\RL {\arabicfont  87}}
+\indexentry{نادر!حل}{\RL {\arabicfont  87}}
 \indexentry{simultaneous equations}{\RL {\arabicfont  88}}
 \indexentry{مساوات!ہمزاد}{\RL {\arabicfont  88}}
 \indexentry{ہمزاد مساوات}{\RL {\arabicfont  88}}
 \indexentry{order!reduction}{\RL {\arabicfont  89}}
 \indexentry{reduction!order}{\RL {\arabicfont  89}}
-\indexentry{درجہ!تخفیف}{\RL {\arabicfont  89}}
-\indexentry{تخفیف!درجہ}{\RL {\arabicfont  89}}
+\indexentry{رتبہ!تخفیف}{\RL {\arabicfont  89}}
+\indexentry{تخفیف!رتبہ}{\RL {\arabicfont  89}}
 \indexentry{حاصل تقسیم}{\RL {\arabicfont  90}}
 \indexentry{reduced}{\RL {\arabicfont  90}}
 \indexentry{تخفیف شدہ}{\RL {\arabicfont  90}}
@@ -919,13 +919,13 @@
 \indexentry{factorial}{\RL {\arabicfont  353}}
 \indexentry{عدد ضربیہ}{\RL {\arabicfont  353}}
 \indexentry{Bessel!function, first kind}{\RL {\arabicfont  353}}
-\indexentry{بیسل!پہلی قسم درجہ \tmspace  +\medmuskip {.2222em} \ensuremath  {n} \tmspace  +\medmuskip {.2222em}}{\RL {\arabicfont  353}}
+\indexentry{بیسل!پہلی قسم رتبہ \tmspace  +\medmuskip {.2222em} \ensuremath  {n} \tmspace  +\medmuskip {.2222em}}{\RL {\arabicfont  353}}
 \indexentry{asymptotically equal}{\RL {\arabicfont  355}}
 \indexentry{متقارب}{\RL {\arabicfont  355}}
 \indexentry{gamma function}{\RL {\arabicfont  355}}
 \indexentry{گیما تفاعل}{\RL {\arabicfont  355}}
 \indexentry{Bessel function!first order}{\RL {\arabicfont  356}}
-\indexentry{بیسل تفاعل!پہلی قسم درجہ \tmspace  +\medmuskip {.2222em} \ensuremath  {\nu } \tmspace  +\medmuskip {.2222em}}{\RL {\arabicfont  356}}
+\indexentry{بیسل تفاعل!پہلی قسم رتبہ \tmspace  +\medmuskip {.2222em} \ensuremath  {\nu } \tmspace  +\medmuskip {.2222em}}{\RL {\arabicfont  356}}
 \indexentry{theorem!Rolle's}{\RL {\arabicfont  364}}
 \indexentry{رول مسئلہ}{\RL {\arabicfont  364}}
 \indexentry{مسئلہ!رول}{\RL {\arabicfont  364}}
@@ -933,13 +933,13 @@
 \indexentry{بیسل تفاعل!دوسری قسم}{\RL {\arabicfont  366}}
 \indexentry{Euler!constant}{\RL {\arabicfont  368}}
 \indexentry{یولر!مستقل}{\RL {\arabicfont  368}}
+\indexentry{تفاعل!نیومن، رتبہ صفر}{\RL {\arabicfont  368}}
+\indexentry{نیومن تفاعل!رتبہ صفر}{\RL {\arabicfont  368}}
 \indexentry{Bessel function!second kind}{\RL {\arabicfont  368}}
-\indexentry{بیسل تفاعل!درجہ صفر، دوسری قسم}{\RL {\arabicfont  368}}
+\indexentry{بیسل تفاعل!رتبہ صفر، دوسری قسم}{\RL {\arabicfont  368}}
 \indexentry{Neumann's function}{\RL {\arabicfont  368}}
-\indexentry{تفاعل!نیومن، درجہ صفر}{\RL {\arabicfont  368}}
-\indexentry{نیومن تفاعل!درجہ صفر}{\RL {\arabicfont  368}}
 \indexentry{Bessel function!second kind, order $\nu $}{\RL {\arabicfont  369}}
-\indexentry{بیسل تفاعل!دوسری قسم، درجہ \tmspace  +\medmuskip {.2222em} \ensuremath  {\nu } \tmspace  +\medmuskip {.2222em}}{\RL {\arabicfont  369}}
+\indexentry{بیسل تفاعل!دوسری قسم، رتبہ \tmspace  +\medmuskip {.2222em} \ensuremath  {\nu } \tmspace  +\medmuskip {.2222em}}{\RL {\arabicfont  369}}
 \indexentry{Bessel function!third kind}{\RL {\arabicfont  370}}
 \indexentry{بیسل تفاعل!تیسری قسم}{\RL {\arabicfont  370}}
 \indexentry{Hankel functions}{\RL {\arabicfont  370}}
@@ -1321,7 +1321,7 @@
 \indexentry{echelon form!reduced}{\RL {\arabicfont  582}}
 \indexentry{زینہ دار صورت!سادہ}{\RL {\arabicfont  582}}
 \indexentry{rank}{\RL {\arabicfont  583}}
-\indexentry{درجہ قالب}{\RL {\arabicfont  583}}
+\indexentry{مرتبہ}{\RL {\arabicfont  583}}
 \indexentry{voltage division}{\RL {\arabicfont  588}}
 \indexentry{تقسیم دباو!کلیہ}{\RL {\arabicfont  588}}
 \indexentry{کلیہ!تقسیم دباو}{\RL {\arabicfont  588}}
@@ -1340,7 +1340,7 @@
 \indexentry{linear dependent}{\RL {\arabicfont  591}}
 \indexentry{خطی طور تابع}{\RL {\arabicfont  591}}
 \indexentry{rank}{\RL {\arabicfont  592}}
-\indexentry{درجہ}{\RL {\arabicfont  592}}
+\indexentry{مرتبہ}{\RL {\arabicfont  592}}
 \indexentry{row equivalent}{\RL {\arabicfont  592}}
 \indexentry{صف برابر}{\RL {\arabicfont  592}}
 \indexentry{set!nonempty}{\RL {\arabicfont  596}}
@@ -1402,7 +1402,7 @@
 \indexentry{minor}{\RL {\arabicfont  612}}
 \indexentry{اصغر}{\RL {\arabicfont  612}}
 \indexentry{determinant!higher order}{\RL {\arabicfont  613}}
-\indexentry{مقطع!بلند درجی}{\RL {\arabicfont  613}}
+\indexentry{مقطع!بلند رتبی}{\RL {\arabicfont  613}}
 \indexentry{cofactor}{\RL {\arabicfont  614}}
 \indexentry{ہم ضربی}{\RL {\arabicfont  614}}
 \indexentry{minor}{\RL {\arabicfont  614}}
@@ -1857,7 +1857,7 @@
 \indexentry{single valued}{\RL {\arabicfont  870}}
 \indexentry{واحد قیمت}{\RL {\arabicfont  870}}
 \indexentry{differential form!first order}{\RL {\arabicfont  870}}
-\indexentry{تفرقی روپ!ایک درجی}{\RL {\arabicfont  870}}
+\indexentry{تفرقی روپ!یک رتبی}{\RL {\arabicfont  870}}
 \indexentry{exact differential form}{\RL {\arabicfont  870}}
 \indexentry{قطعی تفرقی روپ}{\RL {\arabicfont  870}}
 \indexentry{conservative}{\RL {\arabicfont  874}}
@@ -1941,8 +1941,8 @@
 \indexentry{Fourier!transform}{\RL {\arabicfont  952}}
 \indexentry{فوریئر!بدل}{\RL {\arabicfont  952}}
 \indexentry{order!partial differential equation}{\RL {\arabicfont  953}}
-\indexentry{جزوی!درجہ مساوات}{\RL {\arabicfont  953}}
-\indexentry{درجہ!جزوی تفرقی مساوات}{\RL {\arabicfont  953}}
+\indexentry{جزوی!رتبہ مساوات}{\RL {\arabicfont  953}}
+\indexentry{رتبہ!جزوی تفرقی مساوات}{\RL {\arabicfont  953}}
 \indexentry{differential!partial equation}{\RL {\arabicfont  953}}
 \indexentry{جزوی!تفرقی مساوات}{\RL {\arabicfont  953}}
 \indexentry{تفرقی!جزوی مساوات}{\RL {\arabicfont  953}}
@@ -2029,7 +2029,7 @@
 \indexentry{امتیازی اقدار}{\RL {\arabicfont  1014}}
 \indexentry{امتیازی!تفاعل}{\RL {\arabicfont  1014}}
 \indexentry{normal mode}{\RL {\arabicfont  1014}}
-\indexentry{$m^{th}$ normal mode}{\RL {\arabicfont  1014}}
+\indexentry{عمودی انداز! ایم ویں}{\RL {\arabicfont  1014}}
 \indexentry{potential theory}{\RL {\arabicfont  1018}}
 \indexentry{نظریہ مخفی قوہ}{\RL {\arabicfont  1018}}
 \indexentry{harmonic!functions}{\RL {\arabicfont  1018}}
@@ -2560,7 +2560,7 @@
 \indexentry{مقررہ نقطہ}{\RL {\arabicfont  1377}}
 \indexentry{مرتکز}{\RL {\arabicfont  1378}}
 \indexentry{order!iteration method}{\RL {\arabicfont  1383}}
-\indexentry{درجہ!دہرانے کی ترکیب}{\RL {\arabicfont  1383}}
+\indexentry{رتبہ!دہرانے کی ترکیب}{\RL {\arabicfont  1383}}
 \indexentry{ill-conditioned}{\RL {\arabicfont  1384}}
 \indexentry{بد خو}{\RL {\arabicfont  1384}}
 \indexentry{iteration!method of false position}{\RL {\arabicfont  1384}}
@@ -2776,7 +2776,7 @@
 \indexentry{Euler!method}{\RL {\arabicfont  1479}}
 \indexentry{ترکیب یولر}{\RL {\arabicfont  1479}}
 \indexentry{method!first order}{\RL {\arabicfont  1479}}
-\indexentry{ترکیب!درجی اول}{\RL {\arabicfont  1479}}
+\indexentry{ترکیب!یک رتبی}{\RL {\arabicfont  1479}}
 \indexentry{error!truncation}{\RL {\arabicfont  1479}}
 \indexentry{خلل!قطع چال}{\RL {\arabicfont  1479}}
 \indexentry{Euler!improved method}{\RL {\arabicfont  1480}}
@@ -2784,7 +2784,7 @@
 \indexentry{predictor-corrector method}{\RL {\arabicfont  1481}}
 \indexentry{پیش گو، مصحح ترکیب}{\RL {\arabicfont  1481}}
 \indexentry{second order method}{\RL {\arabicfont  1481}}
-\indexentry{درجہ!دوم ترکیب}{\RL {\arabicfont  1481}}
+\indexentry{رتبہ!دو ترکیب}{\RL {\arabicfont  1481}}
 \indexentry{Runge-Kutta method}{\RL {\arabicfont  1483}}
 \indexentry{رنج کوٹا ترکیب}{\RL {\arabicfont  1483}}
 \indexentry{ترکیب!رنج کوٹا}{\RL {\arabicfont  1483}}
@@ -2884,7 +2884,7 @@
 \indexentry{class!marks}{\RL {\arabicfont  1537}}
 \indexentry{جماعتی!نشان}{\RL {\arabicfont  1537}}
 \indexentry{class!midpoints}{\RL {\arabicfont  1537}}
-\indexentry{جماعتی_وسطی نقطہ}{\RL {\arabicfont  1537}}
+\indexentry{جماعتی!وسطی نقطہ}{\RL {\arabicfont  1537}}
 \indexentry{class!frequency}{\RL {\arabicfont  1537}}
 \indexentry{جماعتی!تعدد}{\RL {\arabicfont  1537}}
 \indexentry{frequency!function of the grouped sample}{\RL {\arabicfont  1537}}

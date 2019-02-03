@@ -4,10 +4,10 @@
 \indexentry{تفرقی!جزوی مساوات}{1}
 \indexentry{model!mathematical}{1}
 \indexentry{نمونہ!ریاضی}{1}
-\indexentry{existence}{2}
-\indexentry{وجودیت}{2}
 \indexentry{uniqueness}{2}
 \indexentry{یکتائی}{2}
+\indexentry{existence}{2}
+\indexentry{وجودیت}{2}
 \indexentry{model!mathematical}{2}
 \indexentry{نمونہ!ریاضی}{2}
 \indexentry{modeling}{2}
@@ -244,18 +244,18 @@
 \indexentry{احصاء تفرقیات}{76}
 \indexentry{oscillations}{79}
 \indexentry{ارتعاش}{79}
-\indexentry{nonlinear}{80}
-\indexentry{غیر خطی}{80}
-\indexentry{linear!second order}{80}
-\indexentry{خطی!دو درجی}{80}
+\indexentry{nonlinear}{79}
+\indexentry{غیر خطی}{79}
+\indexentry{linear!second order}{79}
+\indexentry{خطی!دو رتبی}{79}
 \indexentry{standard form!second order}{80}
-\indexentry{معیاری صورت!دو درجی}{80}
+\indexentry{معیاری صورت!دو رتبی}{80}
 \indexentry{identically zero}{80}
 \indexentry{مکمل صفر}{80}
 \indexentry{nonhomogenous!second order}{80}
-\indexentry{غیر متجانس!دو درجی}{80}
-\indexentry{coefficients}{81}
-\indexentry{عددی سر!دو درجی مساوات}{81}
+\indexentry{غیر متجانس!دو رتبی}{80}
+\indexentry{coefficients}{80}
+\indexentry{عددی سر!دو رتبی مساوات}{80}
 \indexentry{خطیت!اصول}{81}
 \indexentry{اصول!خطیت}{81}
 \indexentry{superposition!principle}{81}
@@ -276,15 +276,15 @@
 \indexentry{خطی طور!تابع}{87}
 \indexentry{basis}{87}
 \indexentry{اساس}{87}
-\indexentry{singular solution}{88}
-\indexentry{نادر!حل}{88}
+\indexentry{singular solution}{87}
+\indexentry{نادر!حل}{87}
 \indexentry{simultaneous equations}{88}
 \indexentry{مساوات!ہمزاد}{88}
 \indexentry{ہمزاد مساوات}{88}
 \indexentry{order!reduction}{89}
 \indexentry{reduction!order}{89}
-\indexentry{درجہ!تخفیف}{89}
-\indexentry{تخفیف!درجہ}{89}
+\indexentry{رتبہ!تخفیف}{89}
+\indexentry{تخفیف!رتبہ}{89}
 \indexentry{حاصل تقسیم}{90}
 \indexentry{reduced}{90}
 \indexentry{تخفیف شدہ}{90}
@@ -919,13 +919,13 @@
 \indexentry{factorial}{353}
 \indexentry{عدد ضربیہ}{353}
 \indexentry{Bessel!function, first kind}{353}
-\indexentry{بیسل!پہلی قسم درجہ \tmspace  +\medmuskip {.2222em} \ensuremath  {n} \tmspace  +\medmuskip {.2222em}{353}
+\indexentry{بیسل!پہلی قسم رتبہ \tmspace  +\medmuskip {.2222em} \ensuremath  {n} \tmspace  +\medmuskip {.2222em}{353}
 \indexentry{asymptotically equal}{355}
 \indexentry{متقارب}{355}
 \indexentry{gamma function}{355}
 \indexentry{گیما تفاعل}{355}
 \indexentry{Bessel function!first order}{356}
-\indexentry{بیسل تفاعل!پہلی قسم درجہ \tmspace  +\medmuskip {.2222em} \ensuremath  {\nu } \tmspace  +\medmuskip {.2222em}{356}
+\indexentry{بیسل تفاعل!پہلی قسم رتبہ \tmspace  +\medmuskip {.2222em} \ensuremath  {\nu } \tmspace  +\medmuskip {.2222em}{356}
 \indexentry{theorem!Rolle's}{364}
 \indexentry{رول مسئلہ}{364}
 \indexentry{مسئلہ!رول}{364}
@@ -933,13 +933,13 @@
 \indexentry{بیسل تفاعل!دوسری قسم}{366}
 \indexentry{Euler!constant}{368}
 \indexentry{یولر!مستقل}{368}
+\indexentry{تفاعل!نیومن، رتبہ صفر}{368}
+\indexentry{نیومن تفاعل!رتبہ صفر}{368}
 \indexentry{Bessel function!second kind}{368}
-\indexentry{بیسل تفاعل!درجہ صفر، دوسری قسم}{368}
+\indexentry{بیسل تفاعل!رتبہ صفر، دوسری قسم}{368}
 \indexentry{Neumann's function}{368}
-\indexentry{تفاعل!نیومن، درجہ صفر}{368}
-\indexentry{نیومن تفاعل!درجہ صفر}{368}
 \indexentry{Bessel function!second kind, order $\nu $}{369}
-\indexentry{بیسل تفاعل!دوسری قسم، درجہ \tmspace  +\medmuskip {.2222em} \ensuremath  {\nu } \tmspace  +\medmuskip {.2222em}{369}
+\indexentry{بیسل تفاعل!دوسری قسم، رتبہ \tmspace  +\medmuskip {.2222em} \ensuremath  {\nu } \tmspace  +\medmuskip {.2222em}{369}
 \indexentry{Bessel function!third kind}{370}
 \indexentry{بیسل تفاعل!تیسری قسم}{370}
 \indexentry{Hankel functions}{370}
@@ -1321,7 +1321,7 @@
 \indexentry{echelon form!reduced}{582}
 \indexentry{زینہ دار صورت!سادہ}{582}
 \indexentry{rank}{583}
-\indexentry{درجہ قالب}{583}
+\indexentry{مرتبہ}{583}
 \indexentry{voltage division}{588}
 \indexentry{تقسیم دباو!کلیہ}{588}
 \indexentry{کلیہ!تقسیم دباو}{588}
@@ -1340,7 +1340,7 @@
 \indexentry{linear dependent}{591}
 \indexentry{خطی طور تابع}{591}
 \indexentry{rank}{592}
-\indexentry{درجہ}{592}
+\indexentry{مرتبہ}{592}
 \indexentry{row equivalent}{592}
 \indexentry{صف برابر}{592}
 \indexentry{set!nonempty}{596}
@@ -1402,7 +1402,7 @@
 \indexentry{minor}{612}
 \indexentry{اصغر}{612}
 \indexentry{determinant!higher order}{613}
-\indexentry{مقطع!بلند درجی}{613}
+\indexentry{مقطع!بلند رتبی}{613}
 \indexentry{cofactor}{614}
 \indexentry{ہم ضربی}{614}
 \indexentry{minor}{614}
@@ -1857,7 +1857,7 @@
 \indexentry{single valued}{870}
 \indexentry{واحد قیمت}{870}
 \indexentry{differential form!first order}{870}
-\indexentry{تفرقی روپ!ایک درجی}{870}
+\indexentry{تفرقی روپ!یک رتبی}{870}
 \indexentry{exact differential form}{870}
 \indexentry{قطعی تفرقی روپ}{870}
 \indexentry{conservative}{874}
@@ -1941,8 +1941,8 @@
 \indexentry{Fourier!transform}{952}
 \indexentry{فوریئر!بدل}{952}
 \indexentry{order!partial differential equation}{953}
-\indexentry{جزوی!درجہ مساوات}{953}
-\indexentry{درجہ!جزوی تفرقی مساوات}{953}
+\indexentry{جزوی!رتبہ مساوات}{953}
+\indexentry{رتبہ!جزوی تفرقی مساوات}{953}
 \indexentry{differential!partial equation}{953}
 \indexentry{جزوی!تفرقی مساوات}{953}
 \indexentry{تفرقی!جزوی مساوات}{953}
@@ -2029,7 +2029,7 @@
 \indexentry{امتیازی اقدار}{1014}
 \indexentry{امتیازی!تفاعل}{1014}
 \indexentry{normal mode}{1014}
-\indexentry{$m^{th}$ normal mode}{1014}
+\indexentry{عمودی انداز! ایم ویں}{1014}
 \indexentry{potential theory}{1018}
 \indexentry{نظریہ مخفی قوہ}{1018}
 \indexentry{harmonic!functions}{1018}
@@ -2560,7 +2560,7 @@
 \indexentry{مقررہ نقطہ}{1377}
 \indexentry{مرتکز}{1378}
 \indexentry{order!iteration method}{1383}
-\indexentry{درجہ!دہرانے کی ترکیب}{1383}
+\indexentry{رتبہ!دہرانے کی ترکیب}{1383}
 \indexentry{ill-conditioned}{1384}
 \indexentry{بد خو}{1384}
 \indexentry{iteration!method of false position}{1384}
@@ -2776,7 +2776,7 @@
 \indexentry{Euler!method}{1479}
 \indexentry{ترکیب یولر}{1479}
 \indexentry{method!first order}{1479}
-\indexentry{ترکیب!درجی اول}{1479}
+\indexentry{ترکیب!یک رتبی}{1479}
 \indexentry{error!truncation}{1479}
 \indexentry{خلل!قطع چال}{1479}
 \indexentry{Euler!improved method}{1480}
@@ -2784,7 +2784,7 @@
 \indexentry{predictor-corrector method}{1481}
 \indexentry{پیش گو، مصحح ترکیب}{1481}
 \indexentry{second order method}{1481}
-\indexentry{درجہ!دوم ترکیب}{1481}
+\indexentry{رتبہ!دو ترکیب}{1481}
 \indexentry{Runge-Kutta method}{1483}
 \indexentry{رنج کوٹا ترکیب}{1483}
 \indexentry{ترکیب!رنج کوٹا}{1483}
@@ -2884,7 +2884,7 @@
 \indexentry{class!marks}{1537}
 \indexentry{جماعتی!نشان}{1537}
 \indexentry{class!midpoints}{1537}
-\indexentry{جماعتی_وسطی نقطہ}{1537}
+\indexentry{جماعتی!وسطی نقطہ}{1537}
 \indexentry{class!frequency}{1537}
 \indexentry{جماعتی!تعدد}{1537}
 \indexentry{frequency!function of the grouped sample}{1537}

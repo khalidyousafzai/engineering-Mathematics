@@ -145,7 +145,7 @@
   \item coefficient
     \subitem matrix, 543, 571
   \item coefficient matrix, 694
-  \item coefficients, 81, 300, 571, 885, 1244
+  \item coefficients, 80, 300, 571, 885, 1244
     \subitem undetermined method, 149
   \item cofactor, 614
   \item collinear, 503
@@ -735,7 +735,7 @@
   \item linear, 187, 953
     \subitem combination, 82, 501
     \subitem ordinary differential equations, 51
-    \subitem second order, 80
+    \subitem second order, 79
     \subitem space, 499
     \subitem transformation, 651
   \item linear accelerator, 36
@@ -869,7 +869,7 @@
     \subitem system, 571, 607
   \item nonhomogenous
     \subitem second order, 80
-  \item nonlinear, 80
+  \item nonlinear, 79
   \item nonsingular
     \subitem matrix, 630
   \item nontrivial solutions, 607
@@ -1197,7 +1197,7 @@
     \subitem regular point, 333
     \subitem solution, 6, 144
   \item singular point, 334, 1267
-  \item singular solution, 88
+  \item singular solution, 87
   \item singularity, 1267
     \subitem essential, 1300, 1308
   \item sink, 1352, 1357
@@ -1454,6 +1454,7 @@
     \subitem vector, 487, 549
   \item zero vector, 226
 \end{otherlanguage}
+
   \newpage
 \item آبادی، 1530
 \item آثار
@@ -1698,8 +1699,8 @@
    \subitem مساوات، 351، 1012
 \item بیسل تفاعل
    \subitem تیسری قسم، 370
-   \subitem درجہ صفر، دوسری قسم، 368
    \subitem دوسری قسم، 366
+   \subitem رتبہ صفر، دوسری قسم، 368
 \item بیش ہندسی
    \subitem تقسیم، 1587
    \subitem گاوس، 348
@@ -1747,7 +1748,7 @@
    \subitem استمرار، 1268
    \subitem تفاعل، 1063
 \item تخفیف
-   \subitem درجہ، 89
+   \subitem رتبہ، 89
 \item تخفیف شدہ، 90
 \item تخمین، 1374
 \item ترتیب
@@ -1761,7 +1762,6 @@
 \item ترسیمی، 14
 \item ترکیب
    \subitem بدلتی رخ خفی ، 1502
-   \subitem درجی اول، 1479
    \subitem ڈھیل، 1449
    \subitem رنج کوٹا، 1483
    \subitem زیادہ سے زیادہ امکان، 1619
@@ -1773,6 +1773,7 @@
    \subitem مخلوط مخفی قوہ، 1144
    \subitem مقداری، 219
    \subitem مکمل رمز نویسی، 1546
+   \subitem یک رتبی، 1479
 \item ترکیب اعادہ، 1446
 \item ترکیب طاقتی تسلسل، 299
 \item ترکیب علیحدگی متغیرات، 23
@@ -1817,7 +1818,7 @@
    \subitem سالم، 1078، 1309
    \subitem سمتی، 712
    \subitem گامپرٹز، 36
-   \subitem نیومن، درجہ صفر، 368
+   \subitem نیومن، رتبہ صفر، 368
    \subitem ہینکل، 370
 \item تفاعل قدر، 376
 \item تفرق، 715
@@ -1833,7 +1834,7 @@
    \subitem سادہ مساوات، 1، 3
    \subitem عامل، 110
 \item تفرقی روپ
-   \subitem ایک درجی، 870
+   \subitem یک رتبی، 870
 \item تفرقی مساوات، 2
    \subitem قطعی، 39
 \item تقاطع، 1549
@@ -1926,7 +1927,7 @@
    \subitem تفرقی قطع زائد، 976
    \subitem تفرقی قطع مکافی، 976
    \subitem تفرقی مساوات، 953
-   \subitem درجہ مساوات، 953
+   \subitem رتبہ مساوات، 953
 \item جزو تکمل، 44
 \item جزوی مجموعہ، 304، 1209
 \item جزی قوت، 214
@@ -1941,9 +1942,8 @@
    \subitem اضافی تعدد، 1537
    \subitem تعدد، 1537
    \subitem نشان، 1537
+   \subitem وسطی نقطہ، 1537
    \subitem وقفہ، 1537
-    \subitem وسطی نقطہ، 1537
-
 \item جمودی معیار اثر، 127، 213، 800
 \item جوڑ، 1404، 1498
    \subitem انحطاطی، 258
@@ -2017,7 +2017,7 @@
 \item خطی، 187، 953
    \subitem تبادلہ، 651
    \subitem تکمل، 783
-   \subitem دو درجی، 80
+   \subitem دو رتبی، 79
    \subitem سادہ تفرقی مساوات، 51
    \subitem مجموعہ، 501
    \subitem میل، 82
@@ -2090,14 +2090,9 @@
 \item دایاں ہاتھ
    \subitem کارتیسی نظام، 522
 \item درآیدہ، 52
-\item درجہ، 592، 1305، 1308
+\item درجہ، 1305، 1308
    \subitem آزادی کی تعداد، 1626
-   \subitem تخفیف، 89
-   \subitem جزوی تفرقی مساوات، 953
-   \subitem دوم ترکیب، 1481
-   \subitem دہرانے کی ترکیب، 1383
    \subitem لیژانڈر، 304
-\item درجہ قالب، 583
 \item درستگی، 1374
 \item دلیل، 1047
 \item دم، 484
@@ -2124,6 +2119,11 @@
    \subitem تبدیلی کا اصول، 1179
    \subitem تکمل، 783
 \item راہ سے آزاد، 870
+\item رتبہ
+   \subitem تخفیف، 89
+   \subitem جزوی تفرقی مساوات، 953
+   \subitem دو ترکیب، 1481
+   \subitem دہرانے کی ترکیب، 1383
 \item رجعی
    \subitem سر، 1683
 \item رجعی تجزیہ، 1679
@@ -2354,7 +2354,7 @@
    \subitem یولر، 1280
 \item عدد ضربیہ، 353
 \item عددی سر، 300، 571، 885، 1244
-   \subitem دو درجی مساوات، 81
+   \subitem دو رتبی مساوات، 80
    \subitem فوریئر، 376
    \subitem قالب، 571، 694، 706، 1436
 \item عددی سر قالب، 543
@@ -2372,6 +2372,8 @@
 \item عمودی، 649، 1466
    \subitem اکائی صدر سمتیہ، 734
    \subitem دوہرا اکائی سمتیہ، 734
+\item عمودی انداز
+   \subitem  ایم ویں، 1014
 \item عمودی سایہ، 508
 \item عمودی سمتیہ
    \subitem اکائی، 826
@@ -2393,7 +2395,7 @@
 \item غیر اہم صفر حل، 571، 607
 \item غیر تابع
    \subitem خطی طور، 189
-\item غیر خطی، 80، 188
+\item غیر خطی، 79، 188
 \item غیر سمتی، 500، 646
    \subitem سہ ضرب، 533
    \subitem ضرب، 500، 505، 646
@@ -2406,7 +2408,7 @@
 \item غیر صفر حل، 194
 \item غیر قطعی، 43
 \item غیر متجانس، 53، 188
-   \subitem دو درجی، 80
+   \subitem دو رتبی، 80
    \subitem نظام، 607
 \item غیر محدود، 1172، 1205
 \item غیر مستحکم، 61، 156، 267
@@ -2698,6 +2700,7 @@
 \item مخلوط عدد، 1038
 \item مخلوط مخفی قوہ، 1354
 \item مربع قالب، 221
+\item مرتبہ، 583، 592
 \item مرتکز، 305، 1202، 1378
    \subitem مشروط، 1212
    \subitem مطلق، 1211
@@ -2804,7 +2807,7 @@
    \subitem متغیر، 1580
 \item معیاری انحراف، 1541، 1577
 \item معیاری صورت
-   \subitem دو درجی، 80
+   \subitem دو رتبی، 80
 \item معیاری قائمہ الزاویہ سلسلہ، 374
 \item معین، 4
 \item مقدار
@@ -2817,7 +2820,7 @@
 \item مقررہ نقطہ نظام، 1375
 \item مقطع، 194
    \subitem امتیازی، 665
-   \subitem بلند درجی، 613
+   \subitem بلند رتبی، 613
    \subitem قالب، 610
    \subitem ورونسکی، 142
 \item مقیاس اثر
@@ -2891,7 +2894,7 @@
    \subitem خطہ، 1640
 \item نا گھومتا، 1352
 \item نادر، 1303
-   \subitem حل، 6، 12، 88
+   \subitem حل، 6، 12، 87
    \subitem غیر منظم نقطہ، 333
    \subitem غیر نادر، 333
    \subitem قالب، 226، 630
@@ -2956,7 +2959,7 @@
 \item نیومن
    \subitem مسئلہ، 1495
 \item نیومن تفاعل
-   \subitem درجہ صفر، 368
+   \subitem رتبہ صفر، 368
 \item نیوٹن
    \subitem آگے فرق، باہمی تحریف کلیہ، 1397
    \subitem باہمی تحریف،منقسم فرق کلیہ، 1399

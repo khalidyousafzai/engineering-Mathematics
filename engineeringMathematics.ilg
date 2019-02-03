@@ -1,4 +1,4 @@
-This is makeindex, version 2.15 [TeX Live 2013] (kpathsea + Thai support).
+This is makeindex, version 2.15 [TeX Live 2017] (kpathsea + Thai support).
 Scanning input file engineeringMathematics.idx....
 !! Input index error (file = engineeringMathematics.idx, line = 922):
    -- Incomplete first argument (premature LFD).
@@ -12,7 +12,7 @@ Scanning input file engineeringMathematics.idx....
 !! Input index error (file = engineeringMathematics.idx, line = 2905):
    -- Illegal null field.
 .done (3229 entries accepted, 4 rejected).
-Sorting entries...............................done (41319 comparisons).
-Generating output file engineeringMathematics.ind.......done (3240 lines written, 0 warnings).
+Sorting entries...............................done (41682 comparisons).
+Generating output file engineeringMathematics.ind.......done (3239 lines written, 0 warnings).
 Output written in engineeringMathematics.ind.
 Transcript written in engineeringMathematics.ilg.

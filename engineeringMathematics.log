@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.1.26)  3 FEB 2019 10:37
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.1.26)  3 FEB 2019 15:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3929,11 +3929,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1948--1948
 
 [58] [59]
 Overfull \hbox (1.0888pt too wide) in paragraph at lines 2014--2016
-[]\TU/JameelNooriNastaleeq(1)/m/n/10 مساوات []\TU/JameelNooriNastaleeq(0)/bx/n/
-10 59[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)/bx/n/1
-0 1[][] \TU/JameelNooriNastaleeq(1)/m/n/10 کو ایک دلچسپ ترکیب سے حاصل کیا جا سک
-تا ہے جسے \TU/XBTabrizBold(0)/m/n/10 مقدار معلوم بدلنے کا طریقہ[][] \TU/JameelN
-ooriNastaleeq(1)/m/n/10 کہتے ہیں۔متجانس[]
+[]\TU/JameelNooriNastaleeq(1)/m/n/10 مساوات [][]\TU/JameelNooriNastaleeq(0)/bx/
+n/10 1[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)/bx/n/
+10 59[][][] \TU/JameelNooriNastaleeq(1)/m/n/10 کو ایک دلچسپ ترکیب سے حاصل کیا ج
+ا سکتا ہے جسے \TU/XBTabrizBold(0)/m/n/10 مقدار معلوم بدلنے کا طریقہ[][] \TU/Jam
+eelNooriNastaleeq(1)/m/n/10 کہتے ہیں۔متجانس[]
  []
 
 [60] [61] [62] [63] [64]
@@ -4111,11 +4111,11 @@ Overfull \hbox (4.20706pt too wide) detected at line 2617
 [187] [188] [189] [190] [191] [192] [193] [194]
 Overfull \hbox (4.15659pt too wide) in paragraph at lines 251--253
 [][]\TU/JameelNooriNastaleeq(1)/m/n/10 اب ہم اس قابل ہیں کہ ثابت کریں کہ مساوات
- []\TU/JameelNooriNastaleeq(0)/bx/n/10 2[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[
-]\TU/JameelNooriNastaleeq(0)/bx/n/10 3[][] \TU/JameelNooriNastaleeq(1)/m/n/10 ک
-ے عمومی حل میں مساوات []\TU/JameelNooriNastaleeq(0)/bx/n/10 2[]\TU/JameelNooriN
-astaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)/bx/n/10 3[][] \TU/JameelNoori
-Nastaleeq(1)/m/n/10 کے تمام حل شامل ہیں۔مساوات[]
+ [][]\TU/JameelNooriNastaleeq(0)/bx/n/10 3[]\TU/JameelNooriNastaleeq(1)/m/n/10 
+.[]\TU/JameelNooriNastaleeq(0)/bx/n/10 2[][][] \TU/JameelNooriNastaleeq(1)/m/n/
+10 کے عمومی حل میں مساوات [][]\TU/JameelNooriNastaleeq(0)/bx/n/10 3[]\TU/Jameel
+NooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)/bx/n/10 2[][][] \TU/Jam
+eelNooriNastaleeq(1)/m/n/10 کے تمام حل شامل ہیں۔مساوات[]
  []
 
 [195] [196]
@@ -4207,12 +4207,12 @@ aphic file (type pdf)
 <use ./fig/figSystemOfDifferentialEquations/figSystemVanDerPolEquationB.pdf>
  [285] [286] [287]
 Overfull \hbox (4.84079pt too wide) in paragraph at lines 2942--2943
-[][]\TU/JameelNooriNastaleeq(1)/m/n/10 سوال []\TU/JameelNooriNastaleeq(0)/bx/n/
-10 56[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)/bx/n/1
-0 4[][] \TU/JameelNooriNastaleeq(1)/m/n/10 تا سوال []\TU/JameelNooriNastaleeq(0
-)/bx/n/10 60[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)
-/bx/n/10 4[][] \TU/JameelNooriNastaleeq(1)/m/n/10 میں تفرقی مساوات سے نظام حاصل
- کریں۔اس نظام کے تمام نقطہ فاصل دریافت کریں۔نظام[]
+[][]\TU/JameelNooriNastaleeq(1)/m/n/10 سوال [][]\TU/JameelNooriNastaleeq(0)/bx/
+n/10 56[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)/bx/n
+/10 4[][][] \TU/JameelNooriNastaleeq(1)/m/n/10 تا سوال [][]\TU/JameelNooriNasta
+leeq(0)/bx/n/10 60[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastal
+eeq(0)/bx/n/10 4[][][] \TU/JameelNooriNastaleeq(1)/m/n/10 میں تفرقی مساوات سے ن
+ظام حاصل کریں۔اس نظام کے تمام نقطہ فاصل دریافت کریں۔نظام[]
  []
 
 [288]
@@ -4530,11 +4530,11 @@ Overfull \vbox (1.62791pt too high) has occurred while \output is active []
 Overfull \hbox (2.60431pt too wide) in paragraph at lines 2854--2858
 [] \TU/JameelNooriNastaleeq(1)/m/n/10 سوال  []\TU/JameelNooriNastaleeq(0)/bx/n/
 10 129[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)/bx/n/
-10 5[]\TU/JameelNooriNastaleeq(1)/m/n/10 : سوال []\TU/JameelNooriNastaleeq(0)/b
-x/n/10 128[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)/b
-x/n/10 5[][] \TU/JameelNooriNastaleeq(1)/m/n/10 میں دیا گیا تفرقی مساوات استعما
-ل کرتے ہوئے ثابت کریں کہ  $\OML/zplm/m/it/10 w \OT1/zplm/m/n/10 = \OML/zplm/m/i
-t/10 e[] [][]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$[]
+10 5[]\TU/JameelNooriNastaleeq(1)/m/n/10 : سوال [][]\TU/JameelNooriNastaleeq(0)
+/bx/n/10 128[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)
+/bx/n/10 5[][][] \TU/JameelNooriNastaleeq(1)/m/n/10 میں دیا گیا تفرقی مساوات اس
+تعمال کرتے ہوئے ثابت کریں کہ  $\OML/zplm/m/it/10 w \OT1/zplm/m/n/10 = \OML/zplm
+/m/it/10 e[] [][]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$[]
  []
 
 [391]
@@ -5388,14 +5388,14 @@ Missing character: There is no ; in font nullfont!
  [892] [893] [894] [895] [896] [897] [898] [899]
 [900] [901] [902] [903] [904] [905]
 Overfull \hbox (0.62668pt too wide) in paragraph at lines 979--982
-[] \TU/JameelNooriNastaleeq(1)/m/n/10 سوال []\TU/JameelNooriNastaleeq(0)/bx/n/1
-0 52[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)/bx/n/10
- 12[][] \TU/JameelNooriNastaleeq(1)/m/n/10 تا سوال []\TU/JameelNooriNastaleeq(0
-)/bx/n/10 62[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)
-/bx/n/10 12[][] \TU/JameelNooriNastaleeq(1)/m/n/10 میں تفاعل  $\OML/zplm/m/it/1
-0 f\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$  \TU/JameelNooriNas
-taleeq(1)/m/n/10 کا دوری عرصہ  $\OML/zplm/m/it/10 T$  \TU/JameelNooriNastaleeq(
-1)/m/n/10 ہے۔اس کی فوریئر تسلسل دریافت کریں۔تفاعل[]
+[] \TU/JameelNooriNastaleeq(1)/m/n/10 سوال [][]\TU/JameelNooriNastaleeq(0)/bx/n
+/10 52[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)/bx/n/
+10 12[][][] \TU/JameelNooriNastaleeq(1)/m/n/10 تا سوال [][]\TU/JameelNooriNasta
+leeq(0)/bx/n/10 62[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastal
+eeq(0)/bx/n/10 12[][][] \TU/JameelNooriNastaleeq(1)/m/n/10 میں تفاعل  $\OML/zpl
+m/m/it/10 f\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$  \TU/Jameel
+NooriNastaleeq(1)/m/n/10 کا دوری عرصہ  $\OML/zplm/m/it/10 T$  \TU/JameelNooriNa
+staleeq(1)/m/n/10 ہے۔اس کی فوریئر تسلسل دریافت کریں۔تفاعل[]
  []
 
 [906] [907] [908] [909] [910]
@@ -5417,9 +5417,9 @@ Overfull \hbox (34.98378pt too wide) in paragraph at lines 1644--1654
 [931] [932] [933] [934] [935] [936] [937]
 Underfull \hbox (badness 10000) in paragraph at lines 2546--2546
 [][][]\TU/JameelNooriNastaleeq(0)/m/n/8 یہ ثابت کیا جا سکتا ہے کہ ایسا تفاعل  $
-\OML/zplm/m/it/8 f$  \TU/JameelNooriNastaleeq(0)/m/n/8 کے لئے مساوات []65[].[]1
-2[][] میں برابری کی علامت لکھنا بھی درست ہو گا۔مساوات []65[].[]12[][] میں برابر
-ی کی علامت استعمال کرنے سے \TU/XBTabrizBold(0)/m/n/8 پارسیوال[]
+\OML/zplm/m/it/8 f$  \TU/JameelNooriNastaleeq(0)/m/n/8 کے لئے مساوات [][]12[].[
+]65[][][] میں برابری کی علامت لکھنا بھی درست ہو گا۔مساوات [][]12[].[]65[][][] م
+یں برابری کی علامت استعمال کرنے سے \TU/XBTabrizBold(0)/m/n/8 پارسیوال[]
  []
 
 [938] [939] [940] [941] [942]
@@ -5501,13 +5501,13 @@ Overfull \hbox (3.57152pt too wide) in paragraph at lines 842--852
 Overfull \hbox (4.39767pt too wide) in paragraph at lines 1297--1301
 [] \TU/JameelNooriNastaleeq(1)/m/n/10 سوال  []\TU/JameelNooriNastaleeq(0)/bx/n/
 10 76[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)/bx/n/1
-0 13[]\TU/JameelNooriNastaleeq(1)/m/n/10 :[] مساوات []\TU/JameelNooriNastaleeq(
-0)/bx/n/10 37[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0
-)/bx/n/10 13[][] \TU/JameelNooriNastaleeq(1)/m/n/10 کا وہ حل جو سوال []\TU/Jame
-elNooriNastaleeq(0)/bx/n/10 75[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/Jamee
-lNooriNastaleeq(0)/bx/n/10 13[][] \TU/JameelNooriNastaleeq(1)/m/n/10 کے شرائط ک
-ے ساتھ ساتھ ابتدائی انحراف  $\OML/zplm/m/it/10 u\OT1/zplm/m/n/10 (\OML/zplm/m/i
-t/10 x\OT1/ppl/m/n/10 , 0\OT1/zplm/m/n/10 ) =$[]
+0 13[]\TU/JameelNooriNastaleeq(1)/m/n/10 :[] مساوات [][]\TU/JameelNooriNastalee
+q(0)/bx/n/10 13[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq
+(0)/bx/n/10 37[][][] \TU/JameelNooriNastaleeq(1)/m/n/10 کا وہ حل جو سوال [][]\T
+U/JameelNooriNastaleeq(0)/bx/n/10 75[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU
+/JameelNooriNastaleeq(0)/bx/n/10 13[][][] \TU/JameelNooriNastaleeq(1)/m/n/10 کے
+ شرائط کے ساتھ ساتھ ابتدائی انحراف  $\OML/zplm/m/it/10 u\OT1/zplm/m/n/10 (\OML/
+zplm/m/it/10 x\OT1/ppl/m/n/10 , 0\OT1/zplm/m/n/10 ) =$[]
  []
 
 [978] [979] [980] [981] [982] [983]
@@ -5591,14 +5591,14 @@ Missing character: There is no ; in font nullfont!
 Overfull \hbox (1.363pt too wide) in paragraph at lines 2958--2963
 [] \TU/JameelNooriNastaleeq(1)/m/n/10 سوال  []\TU/JameelNooriNastaleeq(0)/bx/n/
 10 163[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)/bx/n/
-10 13[]\TU/JameelNooriNastaleeq(1)/m/n/10 : مساوات []\TU/JameelNooriNastaleeq(0
-)/bx/n/10 127[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0
-)/bx/n/10 13[][] \TU/JameelNooriNastaleeq(1)/m/n/10 سے شروع کرتے ہوئے صفحہ []\T
-U/JameelNooriNastaleeq(0)/bx/n/10 768[][] \TU/JameelNooriNastaleeq(1)/m/n/10 پر
- مساوات []\TU/JameelNooriNastaleeq(0)/bx/n/10 107[]\TU/JameelNooriNastaleeq(1)/
-m/n/10 .[]\TU/JameelNooriNastaleeq(0)/bx/n/10 10[][] \TU/JameelNooriNastaleeq(1
-)/m/n/10 اور مساوات []\TU/JameelNooriNastaleeq(0)/bx/n/10 108[]\TU/JameelNooriN
-astaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)/bx/n/10 10[][][]
+10 13[]\TU/JameelNooriNastaleeq(1)/m/n/10 : مساوات [][]\TU/JameelNooriNastaleeq
+(0)/bx/n/10 13[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(
+0)/bx/n/10 127[][][] \TU/JameelNooriNastaleeq(1)/m/n/10 سے شروع کرتے ہوئے صفحہ 
+[]\TU/JameelNooriNastaleeq(0)/bx/n/10 768[][] \TU/JameelNooriNastaleeq(1)/m/n/1
+0 پر مساوات [][]\TU/JameelNooriNastaleeq(0)/bx/n/10 10[]\TU/JameelNooriNastalee
+q(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)/bx/n/10 107[][][] \TU/JameelNooriNas
+taleeq(1)/m/n/10 اور مساوات [][]\TU/JameelNooriNastaleeq(0)/bx/n/10 10[]\TU/Jam
+eelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)/bx/n/10 108[][][][]
  []
 
 [1021] [1022] [1023] [1024] [1025]
@@ -5609,7 +5609,7 @@ lm/m/it/8 ^^R \OMS/zplm/m/n/8 ^^T \OML/zplm/m/it/8 ^^Y$  \TU/JameelNooriNastale
 eq(0)/m/n/8 پر  $\OML/zplm/m/it/8 f\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 ^^R\OT1/zp
 lm/m/n/8 )$  \TU/JameelNooriNastaleeq(0)/m/n/8 اور  $\OML/zplm/m/it/8 f[]\OT1/z
 plm/m/n/8 (\OML/zplm/m/it/8 ^^R\OT1/zplm/m/n/8 )$  \TU/JameelNooriNastaleeq(0)/
-m/n/8 ٹکڑوں میں استمراری ہوں تب مساوات []148[].[]13[][][]
+m/n/8 ٹکڑوں میں استمراری ہوں تب مساوات [][]13[].[]148[][][][]
  []
 
 [1026] [1027] [1028] [1029] [1030] [1031] [1032] [1033] [1034] [1035]) [1036]
@@ -5791,12 +5791,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 928--932
 [1254] [1255] [1256] [1257] [1258] [1259] [1260] [1261] [1262] [1263] [1264]
 [1265] [1266]
 Underfull \hbox (badness 10000) in paragraph at lines 825--825
-[][][]\TU/JameelNooriNastaleeq(0)/m/n/8 مساوات []30[].[]18[][] کا رداس ارتکاز ع
-موماً  $\OML/zplm/m/it/8 a$  \TU/JameelNooriNastaleeq(0)/m/n/8 سے  $\OML/zplm/m
-/it/8 f\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 z\OT1/zplm/m/n/8 )$  \TU/JameelNooriNa
-staleeq(0)/m/n/8 کے قریب ترین نادر نقطے تک فاصلے کے برابر ہو گا، لیکن اس سے زیا
-دہ بھی ہو سکتا ہے؛مثال کے طور پر  $[] \OML/zplm/m/it/8 z$  \TU/JameelNooriNasta
-leeq(0)/m/n/8 منفی حقیقی محور پر[]
+[][][]\TU/JameelNooriNastaleeq(0)/m/n/8 مساوات [][]18[].[]30[][][] کا رداس ارتک
+از عموماً  $\OML/zplm/m/it/8 a$  \TU/JameelNooriNastaleeq(0)/m/n/8 سے  $\OML/zp
+lm/m/it/8 f\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 z\OT1/zplm/m/n/8 )$  \TU/JameelNoo
+riNastaleeq(0)/m/n/8 کے قریب ترین نادر نقطے تک فاصلے کے برابر ہو گا، لیکن اس سے
+ زیادہ بھی ہو سکتا ہے؛مثال کے طور پر  $[] \OML/zplm/m/it/8 z$  \TU/JameelNooriN
+astaleeq(0)/m/n/8 منفی حقیقی محور پر[]
  []
 
 [1267] [1268] [1269] [1270] [1271] [1272] [1273] [1274] [1275] [1276] [1277]
@@ -5883,10 +5883,10 @@ Overfull \hbox (3.72064pt too wide) in paragraph at lines 1001--1007
 [] \TU/JameelNooriNastaleeq(1)/m/n/10 سوال  []\TU/JameelNooriNastaleeq(0)/bx/n/
 10 37[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)/bx/n/1
 0 21[]\TU/JameelNooriNastaleeq(1)/m/n/10 :[]  $[] \OT1/ppl/m/n/10 0.26$  \TU/Ja
-meelNooriNastaleeq(1)/m/n/10 کی قیمت دو درجی باہمی تحریف یعنی مساوات []\TU/Jame
-elNooriNastaleeq(0)/bx/n/10 13[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/Jamee
-lNooriNastaleeq(0)/bx/n/10 21[][] \TU/JameelNooriNastaleeq(1)/m/n/10 کی مدد سے 
-حاصل کریں۔دکھائیں[]
+meelNooriNastaleeq(1)/m/n/10 کی قیمت دو درجی باہمی تحریف یعنی مساوات [][]\TU/Ja
+meelNooriNastaleeq(0)/bx/n/10 21[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/Jam
+eelNooriNastaleeq(0)/bx/n/10 13[][][] \TU/JameelNooriNastaleeq(1)/m/n/10 کی مدد
+ سے حاصل کریں۔دکھائیں[]
  []
 
 [1401]
@@ -5894,10 +5894,10 @@ Overfull \hbox (15.83836pt too wide) in paragraph at lines 1023--1027
 [] \TU/JameelNooriNastaleeq(1)/m/n/10 سوال  []\TU/JameelNooriNastaleeq(0)/bx/n/
 10 41[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)/bx/n/1
 0 21[]\TU/JameelNooriNastaleeq(1)/m/n/10 :[] دکھائیں کہ بہت کم محنت کے ساتھ کلی
-ہ ایورٹ (مساوات []\TU/JameelNooriNastaleeq(0)/bx/n/10 18[]\TU/JameelNooriNastal
-eeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)/bx/n/10 21[][]\TU/JameelNooriNasta
-leeq(1)/m/n/10 ) استعمال کرتے ہوئے  $[] \OT1/ppl/m/n/10 0.26 \OT1/zplm/m/n/10 =
-$[]
+ہ ایورٹ (مساوات [][]\TU/JameelNooriNastaleeq(0)/bx/n/10 21[]\TU/JameelNooriNast
+aleeq(1)/m/n/10 .[]\TU/JameelNooriNastaleeq(0)/bx/n/10 18[][][]\TU/JameelNooriN
+astaleeq(1)/m/n/10 ) استعمال کرتے ہوئے  $[] \OT1/ppl/m/n/10 0.26 \OT1/zplm/m/n/
+10 =$[]
  []
 
 [1402] [1403] [1404] [1405] [1406] [1407] [1408] [1409] [1410] [1411] [1412]
@@ -5923,11 +5923,11 @@ Overfull \hbox (12.67422pt too wide) in paragraph at lines 2150--2158
 /10 2[] \OT1/zplm/m/n/10 + []\OML/zplm/m/it/10 A\OT1/zplm/m/n/10 (\OML/zplm/m/i
 t/10 x\OT1/zplm/m/n/10 ) [] \OML/zplm/m/it/10 x[] \OMS/zplm/m/n/10 ^^@ []\OML/z
 plm/m/it/10 B\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 ) [] \OML/zp
-lm/m/it/10 x[]$ \TU/JameelNooriNastaleeq(1)/m/n/10 سوال []\TU/JameelNooriNastal
-eeq(0)/bx/n/10 91[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNastale
-eq(0)/bx/n/10 21[][] \TU/JameelNooriNastaleeq(1)/m/n/10 میں  $\OML/zplm/m/it/10
- A\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )\OT1/ppl/m/n/10 , \OML
-/zplm/m/it/10 B\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$[]
+lm/m/it/10 x[]$ \TU/JameelNooriNastaleeq(1)/m/n/10 سوال [][]\TU/JameelNooriNast
+aleeq(0)/bx/n/10 91[]\TU/JameelNooriNastaleeq(1)/m/n/10 .[]\TU/JameelNooriNasta
+leeq(0)/bx/n/10 21[][][] \TU/JameelNooriNastaleeq(1)/m/n/10 میں  $\OML/zplm/m/i
+t/10 A\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )\OT1/ppl/m/n/10 , 
+\OML/zplm/m/it/10 B\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$[]
  []
 
 [1433]) [1434]
@@ -6017,20 +6017,20 @@ Overfull \hbox (3.95158pt too wide) in paragraph at lines 517--518
 
 [1490] [1491] [1492] [1493] [1494] [1495]
 Underfull \hbox (badness 10000) in paragraph at lines 773--773
-[][]\TU/JameelNooriNastaleeq(0)/bx/n/10 شكل []3[].[]23[]: |(مساوات []26[].[]23[
-][] اور مساوات []27[].[]23[][] میں استعمال[]
+[][]\TU/JameelNooriNastaleeq(0)/bx/n/10 شكل []3[].[]23[]: |(مساوات [][]23[].[]2
+6[][][] اور مساوات [][]23[].[]27[][][] میں استعمال[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 783--783
-[][]\TU/JameelNooriNastaleeq(0)/bx/n/10 شكل []4[].[]23[]: |(مساوات []28[].[]23[
-][] اور مساوات []29[].[]23[][] میں استعمال[]
+[][]\TU/JameelNooriNastaleeq(0)/bx/n/10 شكل []4[].[]23[]: |(مساوات [][]23[].[]2
+8[][][] اور مساوات [][]23[].[]29[][][] میں استعمال[]
  []
 
 [1496] [1497] [1498] [1499] [1500] [1501] [1502] [1503] [1504]
 Underfull \hbox (badness 10000) in paragraph at lines 1113--1113
-[][]\TU/JameelNooriNastaleeq(0)/bx/n/10 شكل []8[].[]23[]: |شکل برائے سوال []40[
-].[]23[][]، سوال []41[].[]23[][] اور سوال[]
+[][]\TU/JameelNooriNastaleeq(0)/bx/n/10 شكل []8[].[]23[]: |شکل برائے سوال [][]4
+0[].[]23[][][]، سوال [][]41[].[]23[][][] اور سوال[]
  []
 
 [1505] [1506]
@@ -6074,8 +6074,8 @@ Overfull \hbox (3.63815pt too wide) in paragraph at lines 1651--1663
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1683--1683
-[][]\TU/JameelNooriNastaleeq(0)/bx/n/10 شكل []18[].[]23[]: |مساوات []52[].[]23[
-][] اور[]
+[][]\TU/JameelNooriNastaleeq(0)/bx/n/10 شكل []18[].[]23[]: |مساوات [][]23[].[]5
+2[][][] اور[]
  []
 
 [1516]
@@ -6140,8 +6140,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1574--1574
 [][][] $\OML/zplm/m/it/8 F\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 x\OT1/zplm/m/n/8 )$
   \TU/JameelNooriNastaleeq(0)/bx/n/8 استمراری ہے لیکن  $\OML/zplm/m/it/8 F\OT1/
 zplm/m/n/8 (\OML/zplm/m/it/8 x\OT1/zplm/m/n/8 )$  \TU/JameelNooriNastaleeq(0)/b
-x/n/8 کے استمراری ہونے سے مساوات []43[].[]24[][] کی موجودگی ثابت نہیں ہوتی ہے۔چ
-ونکہ ایسے استمراری تفاعل تقسیم جنہیں مساوات []43[].[]24[][] کی[]
+x/n/8 کے استمراری ہونے سے مساوات [][]24[].[]43[][][] کی موجودگی ثابت نہیں ہوتی 
+ہے۔چونکہ ایسے استمراری تفاعل تقسیم جنہیں مساوات [][]24[].[]43[][][] کی[]
  []
 
 [1572] [1573] [1574] [1575] [1576] [1577] [1578] [1579] [1580] [1581] [1582]
@@ -6171,7 +6171,7 @@ Overfull \vbox (2.3408pt too high) has occurred while \output is active []
 [1603]
 Underfull \hbox (badness 10000) in paragraph at lines 2730--2730
 [][]\TU/JameelNooriNastaleeq(0)/bx/n/10 شكل []17[].[]24[]: |یکساں تقسیم (مساوات
- []88[].[]24[][]) کا تفاعل احتمال[]
+ [][]24[].[]88[][][]) کا تفاعل احتمال[]
  []
 
 
@@ -6216,11 +6216,11 @@ Graphic file (type pdf)
 <use ./fig/figStatistics/knownUnknownVarianceConfidenceIntervalRatioGamma.pdf>
 
 Underfull \hbox (badness 10000) in paragraph at lines 3460--3460
-[]\TU/JameelNooriNastaleeq(0)/bx/n/10 کو مربع خا تقسیم کی جدول (ضمیمہ ج‍[]، جدو
-ل []11[].ج‍[]، جسامت نمونہ= $\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(0)/b
-x/n/10 ) سے  $\OML/zplm/m/it/10 n \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 1$  \TU/
-JameelNooriNastaleeq(0)/bx/n/10 درجہ آزادی کے لئے حاصل کریں۔ \TU/XBTabrizBold(0
-)/m/n/10 تیسرا قدم:[]
+[]\TU/JameelNooriNastaleeq(0)/bx/n/10 کو مربع خا تقسیم کی جدول (ضمیمہ []ج‍[][]،
+ جدول [][]11[].ج‍[][]، جسامت نمونہ= $\OML/zplm/m/it/10 n$ \TU/JameelNooriNastal
+eeq(0)/bx/n/10 ) سے  $\OML/zplm/m/it/10 n \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 
+1$  \TU/JameelNooriNastaleeq(0)/bx/n/10 درجہ آزادی کے لئے حاصل کریں۔ \TU/XBTabr
+izBold(0)/m/n/10 تیسرا قدم:[]
  []
 
 [1627] [1628] [1629] [1630] [1631]
@@ -6326,9 +6326,10 @@ Underfull \hbox (badness 4181) in paragraph at lines 5336--5336
 نہ  $\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/10
  y[]\OT1/zplm/m/n/10 )\OT1/ppl/m/n/10 , []  , \OT1/zplm/m/n/10 (\OML/zplm/m/it/
 10 x[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 y[]\OT1/zplm/m/n/10 )$  \TU/JameelNoo
-riNastaleeq(0)/bx/n/10 استعمال کرتے ہوئے مساوات []163[].[]24[][] سے  $\OT1/zplm
-/m/n/10 (\OML/zplm/m/it/10 n \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 1\OT1/zplm/m/
-n/10 )\OML/zplm/m/it/10 s[]$ \TU/JameelNooriNastaleeq(0)/bx/n/10 ، مساوات[]
+riNastaleeq(0)/bx/n/10 استعمال کرتے ہوئے مساوات [][]24[].[]163[][][] سے  $\OT1/
+zplm/m/n/10 (\OML/zplm/m/it/10 n \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 1\OT1/zpl
+m/m/n/10 )\OML/zplm/m/it/10 s[]$ \TU/JameelNooriNastaleeq(0)/bx/n/10 ، مساوات[]
+
  []
 
 [1683] [1684] [1685] [1686]) [1687]
@@ -6527,10 +6528,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 73498 strings out of 493007
- 1792170 string characters out of 6136719
- 2823008 words of memory out of 5000000
- 76182 multiletter control sequences out of 15000+600000
+ 73480 strings out of 493007
+ 1791726 string characters out of 6136719
+ 2823140 words of memory out of 5000000
+ 76164 multiletter control sequences out of 15000+600000
  584436 words of font info for 239 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  74i,22n,410p,10526b,6183s stack positions out of 5000i,500n,10000p,200000b,80000s

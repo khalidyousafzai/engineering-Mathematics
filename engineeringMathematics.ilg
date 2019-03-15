@@ -12,7 +12,7 @@ Scanning input file engineeringMathematics.idx....
 !! Input index error (file = engineeringMathematics.idx, line = 2905):
    -- Illegal null field.
 .done (3229 entries accepted, 4 rejected).
-Sorting entries...............................done (41682 comparisons).
+Sorting entries...............................done (41454 comparisons).
 Generating output file engineeringMathematics.ind.......done (3239 lines written, 0 warnings).
 Output written in engineeringMathematics.ind.
 Transcript written in engineeringMathematics.ilg.

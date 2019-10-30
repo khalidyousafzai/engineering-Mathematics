@@ -1,5 +1,6 @@
 *.pdf
 *.aux
+*.aux~
 *.tex~
 *.idx
 *.idx~

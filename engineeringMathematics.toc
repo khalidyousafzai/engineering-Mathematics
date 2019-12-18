@@ -1,235 +1,198 @@
 \select@language {arabic}
-\contentsline {chapter}{دیباچہ}{xi}
+\contentsline {chapter}{دیباچہ}{xi}% 
 \select@language {english}
 \select@language {arabic}
 \select@language {english}
 \select@language {arabic}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{xiii}
-\contentsline {chapter}{\numberline {1}یک رتبی سادہ تفرقی مساوات}{1}
-\contentsline {section}{\numberline {1.1}نمونہ کشی}{2}
-\contentsline {section}{\numberline {1.2}\tmspace +\medmuskip {.2222em} \ensuremath {y'=f(x,y)} \tmspace +\medmuskip {.2222em} کا جیومیٹریائی مطلب۔ میدان کی سمت اور ترکیب یولر۔}{14}
-\contentsline {section}{\numberline {1.3}قابل علیحدگی سادہ تفرقی مساوات}{23}
-\contentsline {section}{\numberline {1.4}قطعی سادہ تفرقی مساوات اور جزو تکمل}{39}
-\contentsline {section}{\numberline {1.5}خطی سادہ تفرقی مساوات۔ مساوات برنولی}{50}
-\contentsline {section}{\numberline {1.6}عمودی خطوط کی نسلیں}{67}
-\contentsline {section}{\numberline {1.7}ابتدائی قیمت تفرقی مساوات:حل کی وجودیت اور یکتائیت}{71}
-\contentsline {chapter}{\numberline {2}دو رتبی سادہ تفرقی مساوات}{77}
-\contentsline {section}{\numberline {2.1}متجانس خطی دو رتبی تفرقی مساوات}{77}
-\contentsline {section}{\numberline {2.2}مستقل عددی سر والے متجانس خطی سادہ تفرقی مساوات}{93}
-\contentsline {section}{\numberline {2.3}تفرقی عامل}{106}
-\contentsline {section}{\numberline {2.4}اسپرنگ سے جڑی کمیت کی آزادانہ ارتعاش}{110}
-\contentsline {section}{\numberline {2.5}یولر کوشی مساوات}{125}
-\contentsline {section}{\numberline {2.6}حل کی وجودیت اور یکتائی؛ ورونسکی}{133}
-\contentsline {section}{\numberline {2.7}غیر متجانس سادہ تفرقی مساوات}{142}
-\contentsline {section}{\numberline {2.8}جبری ارتعاش۔ گمک}{153}
-\contentsline {subsection}{\numberline {2.8.1}برقرار حال حل کا حیطہ۔عملی گمک}{160}
-\contentsline {section}{\numberline {2.9}برقی ادوار کی نمونہ کشی}{164}
-\contentsline {section}{\numberline {2.10}مقدار معلوم بدلنے کے طریقے سے غیر متجانس خطی سادہ تفرقی مساوات کا حل}{175}
-\contentsline {chapter}{\numberline {3}بلند رتبی خطی سادہ تفرقی مساوات}{183}
-\contentsline {section}{\numberline {3.1}متجانس خطی سادہ تفرقی مساوات}{183}
-\contentsline {section}{\numberline {3.2}مستقل عددی سر والے متجانس خطی سادہ تفرقی مساوات}{194}
-\contentsline {section}{\numberline {3.3}غیر متجانس خطی سادہ تفرقی مساوات}{203}
-\contentsline {section}{\numberline {3.4}مقدار معلوم بدلنے کے طریقے سے غیر متجانس خطی سادہ تفرقی مساوات کا حل}{206}
-\contentsline {chapter}{\numberline {4}نظامِ تفرقی مساوات}{215}
-\contentsline {section}{\numberline {4.1}قالب اور سمتیہ کے بنیادی حقائق}{216}
-\contentsline {section}{\numberline {4.2}سادہ تفرقی مساوات کے نظام بطور انجینئری مسائل کے نمونے}{225}
-\contentsline {section}{\numberline {4.3}نظریہ نظام سادہ تفرقی مساوات اور ورونسکی}{239}
-\contentsline {subsection}{\numberline {4.3.1}خطی نظام}{240}
-\contentsline {section}{\numberline {4.4}مستقل عددی سر والے نظام۔ سطح مرحلہ کی ترکیب}{243}
-\contentsline {section}{\numberline {4.5}نقطہ فاصل کے جانچ پڑتال کا مسلمہ معیار۔استحکام}{260}
-\contentsline {section}{\numberline {4.6}کیفی تراکیب برائے غیر خطی نظام}{269}
-\contentsline {subsection}{\numberline {4.6.1}سطح حرکت پر یک رتبی مساوات میں تبادلہ}{278}
-\contentsline {section}{\numberline {4.7}سادہ تفرقی مساوات کے غیر متجانس خطی نظام}{286}
-\contentsline {subsection}{\numberline {4.7.1}نا معلوم عددی سر کی ترکیب}{286}
-\contentsline {chapter}{\numberline {5}طاقتی تسلسل سے سادہ تفرقی مساوات کا حل۔اعلٰی تفاعل}{295}
-\contentsline {section}{\numberline {5.1}ترکیب طاقتی تسلسل}{296}
-\contentsline {section}{\numberline {5.2}لیژانڈر مساوات۔ لیژانڈر کثیر رکنی}{311}
-\contentsline {section}{\numberline {5.3}مبسوط طاقتی تسلسل۔ ترکیب فروبنیوس}{328}
-\contentsline {subsection}{\numberline {5.3.1}عملی استعمال}{333}
-\contentsline {section}{\numberline {5.4}مساوات بیسل اور بیسل تفاعل}{347}
-\contentsline {section}{\numberline {5.5}بیسل تفاعل کی دوسری قسم۔ عمومی حل}{362}
-\contentsline {section}{\numberline {5.6}قائمہ الزاویہ تفاعل کا سلسلہ}{369}
-\contentsline {section}{\numberline {5.7}مسئلہ سٹیورم لیوویل}{375}
-\contentsline {section}{\numberline {5.8}قائمیت لیژانڈر کثیر رکنی اور بیسل تفاعل}{382}
-\contentsline {chapter}{\numberline {6}لاپلاس تبادلہ}{393}
-\contentsline {section}{\numberline {6.1}لاپلاس بدل۔ الٹ لاپلاس بدل۔ خطیت}{394}
-\contentsline {section}{\numberline {6.2}تفرقات اور تکملات کے لاپلاس بدل۔ سادہ تفرقی مساوات}{403}
-\contentsline {section}{\numberline {6.3}\tmspace +\medmuskip {.2222em} \ensuremath {s} \tmspace +\medmuskip {.2222em} محور پر منتقلی، \tmspace +\medmuskip {.2222em} \ensuremath {t} \tmspace +\medmuskip {.2222em} محور پر منتقلی، اکائی سیڑھی تفاعل}{415}
-\contentsline {section}{\numberline {6.4}ڈیراک ڈیلٹائی تفاعل۔ اکائی ضرب تفاعل۔ جزوی کسری پھیلاو}{435}
-\contentsline {section}{\numberline {6.5}الجھاو}{453}
-\contentsline {section}{\numberline {6.6}لاپلاس بدل کی تکمل اور تفرق۔ متغیر عددی سر والے سادہ تفرقی مساوات}{462}
-\contentsline {section}{\numberline {6.7}تفرقی مساوات کے نظام}{469}
-\contentsline {section}{\numberline {6.8}لاپلاس بدل کے عمومی کلیے}{477}
-\contentsline {chapter}{\numberline {7}خطی الجبرا: سمتیات}{481}
-\contentsline {section}{\numberline {7.1}غیر سمتیات اور سمتیات}{481}
-\contentsline {section}{\numberline {7.2}سمتیہ کے اجزاء}{483}
-\contentsline {section}{\numberline {7.3}سمتیات کا مجموعہ، غیر سمتی کے ساتھ ضرب}{489}
-\contentsline {section}{\numberline {7.4}سمتی فضا۔خطی تابعیت اور غیر تابعیت}{497}
-\contentsline {section}{\numberline {7.5}اندرونی ضرب (ضرب نقطہ)}{503}
-\contentsline {section}{\numberline {7.6}اندرونی ضرب فضا}{516}
-\contentsline {section}{\numberline {7.7}سمتی ضرب}{518}
-\contentsline {section}{\numberline {7.8}اجزاء کی صورت میں سمتی ضرب}{520}
-\contentsline {section}{\numberline {7.9}غیر سمتی سہ ضرب اور دیگر متعدد ضرب}{531}
-\contentsline {chapter}{\numberline {8}خطی الجبرا: قالب، سمتیہ، مقطع۔ خطی نظام}{539}
-\contentsline {section}{\numberline {8.1}قالب اور سمتیات۔مجموعہ اور غیر سمتی ضرب}{540}
-\contentsline {section}{\numberline {8.2}قالبی ضرب}{550}
-\contentsline {subsection}{\numberline {8.2.1}تبدیلی محل}{556}
-\contentsline {section}{\numberline {8.3}خطی مساوات کے نظام۔ گاوسی اسقاط}{568}
-\contentsline {subsection}{\numberline {8.3.1}صف زینہ دار صورت}{580}
-\contentsline {section}{\numberline {8.4}خطی غیر تابعیت۔ درجہ قالب۔ سمتی فضا}{588}
-\contentsline {section}{\numberline {8.5}خطی نظام کے حل: وجودیت، یکتائی}{602}
-\contentsline {section}{\numberline {8.6}دو رتبی اور تین رتبی مقطع قالب}{608}
-\contentsline {section}{\numberline {8.7}مقطع۔ قاعدہ کریمر}{611}
-\contentsline {section}{\numberline {8.8}معکوس قالب۔ گاوس جارڈن اسقاط}{628}
-\contentsline {section}{\numberline {8.9}سمتی فضا، اندرونی ضرب، خطی تبادلہ}{642}
-\contentsline {chapter}{\numberline {9}خطی الجبرا: امتیازی قدر مسائل قالب}{659}
-\contentsline {section}{\numberline {9.1}امتیازی قدر مسائل قالب۔ امتیازی اقدار اور امتیازی سمتیات کا حصول}{660}
-\contentsline {section}{\numberline {9.2}امتیازی مسائل کے چند استعمال}{670}
-\contentsline {section}{\numberline {9.3}تشاکلی، منحرف تشاکلی اور قائمہ الزاویہ قالب}{678}
-\contentsline {section}{\numberline {9.4}امتیازی اساس، وتری بنانا، دو درجی صورت}{685}
-\contentsline {section}{\numberline {9.5}مخلوط قالب اور مخلوط صورتیں}{698}
-\contentsline {chapter}{\numberline {10}سمتی تفرقی احصاء۔ سمتی تفاعل}{709}
-\contentsline {section}{\numberline {10.1}غیر سمتی میدان اور سمتی میدان}{709}
-\contentsline {section}{\numberline {10.2}سمتی احصاء}{712}
-\contentsline {section}{\numberline {10.3}منحنی}{718}
-\contentsline {section}{\numberline {10.4}لمبائی قوس}{724}
-\contentsline {section}{\numberline {10.5}مماس، انحنا اور مروڑ}{731}
-\contentsline {section}{\numberline {10.6}سمتی رفتار اور اسراع}{737}
-\contentsline {section}{\numberline {10.7}زنجیری ترکیب اور متعدد متغیرات کے تفاعل کا اوسط قیمت مسئلہ}{743}
-\contentsline {section}{\numberline {10.8}سمتی تفرق، غیر سمتی میدان کی ڈھلوان}{750}
-\contentsline {section}{\numberline {10.9}تبادل محددی نظام اور تبادل ارکان سمتیات}{762}
-\contentsline {section}{\numberline {10.10}سمتی میدان کی پھیلاو}{768}
-\contentsline {section}{\numberline {10.11}سمتی تفاعل کی گردش}{775}
-\contentsline {chapter}{\numberline {11}سمتی تکملی احصاء۔ تکمل کے مسئلے}{779}
-\contentsline {section}{\numberline {11.1}خطی تکمل}{780}
-\contentsline {section}{\numberline {11.2}خطی تکمل کا حل}{785}
-\contentsline {section}{\numberline {11.3}دوہرا تکمل}{794}
-\contentsline {section}{\numberline {11.4}دوہرا تکمل کا خطی تکمل میں تبادلہ}{808}
-\contentsline {section}{\numberline {11.5}سطحیں}{818}
-\contentsline {section}{\numberline {11.6}مماسی سطح۔بنیادی صورت اول۔ رقبہ}{823}
-\contentsline {section}{\numberline {11.7}سطحی تکمل}{835}
-\contentsline {section}{\numberline {11.8}تہرا تکمل۔ گاوس کا مسئلہ پھیلاو}{843}
-\contentsline {section}{\numberline {11.9}مسئلہ پھیلاو کے نتائج اور استعمال}{848}
-\contentsline {section}{\numberline {11.10}مسئلہ سٹوکس}{859}
-\contentsline {section}{\numberline {11.11}مسئلہ سٹوکس کے نتائج اور عملی استعمال}{864}
-\contentsline {section}{\numberline {11.12}راہ سے آزاد خطی تکمل}{867}
-\contentsline {chapter}{\numberline {12}فوریئر تسلسل}{881}
-\contentsline {section}{\numberline {12.1}دوری تفاعل، تکونیاتی تسلسل}{882}
-\contentsline {section}{\numberline {12.2}فوریئر تسلسل۔ یولر کلیات}{887}
-\contentsline {section}{\numberline {12.3}اختیاری دوری عرصہ والے تفاعل}{900}
-\contentsline {section}{\numberline {12.4}جفت اور طاق تفاعل}{905}
-\contentsline {section}{\numberline {12.5}نصف سعت اتساع}{914}
-\contentsline {section}{\numberline {12.6}فوریئر عددی سر کا بغیر تکمل حصول}{921}
-\contentsline {section}{\numberline {12.7}جبری ارتعاش}{929}
-\contentsline {section}{\numberline {12.8}تقریب بذریعہ تکونی کثیر رکنی۔ مکعب خلل}{934}
-\contentsline {section}{\numberline {12.9}فوریئر تکمل}{938}
-\contentsline {chapter}{\numberline {13}جزوی تفرقی مساوات}{951}
-\contentsline {section}{\numberline {13.1}بنیادی تصورات}{951}
-\contentsline {section}{\numberline {13.2}نمونہ کشی: ارتعاش پذیر تار۔ یک بعدی مساوات موج}{956}
-\contentsline {section}{\numberline {13.3}علیحدگی متغیرات (ترکیب ضرب)}{959}
-\contentsline {section}{\numberline {13.4}مساوات موج کا دا لومبیغ حل}{972}
-\contentsline {section}{\numberline {13.5}یک بعدی بہاو حرارت}{978}
-\contentsline {section}{\numberline {13.6}لامتناہی لمبائی کی سلاخ میں بہاو حرارت}{986}
-\contentsline {section}{\numberline {13.7}نمونہ کشی: ارتعاش پذیر جھلی۔ دو ابعادی مساوات موج}{992}
-\contentsline {section}{\numberline {13.8}مستطیل جھلی}{995}
-\contentsline {section}{\numberline {13.9}قطبی محدد میں لاپلاسی}{1005}
-\contentsline {section}{\numberline {13.10}دائری جھلی۔ مساوات بیسل}{1009}
-\contentsline {section}{\numberline {13.11}مساوات لاپلاس۔ نظریہ مخفی قوہ}{1017}
-\contentsline {section}{\numberline {13.12}کروی محدد میں مساوات لاپلاس۔مساوات لیژانڈر}{1023}
-\contentsline {section}{\numberline {13.13}لاپلاس تبادل برائے جزوی تفرقی مساوات}{1029}
-\contentsline {chapter}{\numberline {14}مخلوط اعداد۔ مخلوط تحلیلی تفاعل}{1037}
-\contentsline {section}{\numberline {14.1}مخلوط اعداد}{1038}
-\contentsline {section}{\numberline {14.2}مخلوط اعداد کی قطبی صورت۔ تکونی عدم مساوات}{1047}
-\contentsline {section}{\numberline {14.3}مخلوط سطح میں منحنیات اور خطے}{1054}
-\contentsline {section}{\numberline {14.4}مخلوط تفاعل۔ حد۔ تفرق۔ تحلیلی تفاعل}{1059}
-\contentsline {section}{\numberline {14.5}کوشی ریمان مساوات۔لاپلاس مساوات}{1067}
-\contentsline {section}{\numberline {14.6}ناطق تفاعل۔ جذر}{1078}
-\contentsline {section}{\numberline {14.7}قوت نمائی تفاعل}{1085}
-\contentsline {section}{\numberline {14.8}تکونیاتی اور ہذلولی تفاعل}{1090}
-\contentsline {section}{\numberline {14.9}لوگارتھم۔ عمومی طاقت}{1096}
-\contentsline {chapter}{\numberline {15}محافظ زاویہ نقشہ کشی}{1105}
-\contentsline {section}{\numberline {15.1}نقشہ گشی}{1106}
-\contentsline {section}{\numberline {15.2}محافظ زاویہ نقش}{1119}
-\contentsline {section}{\numberline {15.3}خطی کسری تبادل}{1127}
-\contentsline {section}{\numberline {15.4}مخصوص خطی کسری تبادل}{1131}
-\contentsline {section}{\numberline {15.5}نقش زیر دیگر تفاعل}{1140}
-\contentsline {section}{\numberline {15.6}ریمان سطحیں}{1151}
-\contentsline {chapter}{\numberline {16}مخلوط تکملات}{1159}
-\contentsline {section}{\numberline {16.1}مخلوط مستوی میں خطی تکمل}{1159}
-\contentsline {section}{\numberline {16.2}مخلوط خطی تکمل کی خواص}{1170}
-\contentsline {section}{\numberline {16.3}کوشی کا مسئلہ تکمل}{1174}
-\contentsline {section}{\numberline {16.4}خطی تکمل کی قیمت کا حصول بذریعہ غیر قطعی تکمل}{1187}
-\contentsline {section}{\numberline {16.5}کوشی کا کلیہ تکمل}{1192}
-\contentsline {section}{\numberline {16.6}تحلیلی تفاعل کے تفرق}{1197}
-\contentsline {chapter}{\numberline {17}ترتیب اور تسلسل}{1203}
-\contentsline {section}{\numberline {17.1}ترتیب}{1203}
-\contentsline {section}{\numberline {17.2}تسلسل}{1210}
-\contentsline {section}{\numberline {17.3}کوشی اصول مرکوزیت برائے ترتیب اور تسلسل}{1215}
-\contentsline {section}{\numberline {17.4}یک سر حقیقی ترتیب۔لیبنٹز پرکھ برائے حقیقی تسلسل}{1222}
-\contentsline {section}{\numberline {17.5}تسلسل کی مرکوزیت اور انفراج کی پرکھیں}{1228}
-\contentsline {section}{\numberline {17.6}تسلسل پر اعمال}{1239}
-\contentsline {chapter}{\numberline {18}طاقتی تسلسل، ٹیلر تسلسل اور لوغوں تسلسل}{1245}
-\contentsline {section}{\numberline {18.1}طاقتی تسلسل}{1245}
-\contentsline {section}{\numberline {18.2}طاقتی تسلسل کی روپ میں تفاعل}{1258}
-\contentsline {section}{\numberline {18.3}ٹیلر تسلسل}{1265}
-\contentsline {section}{\numberline {18.4}بنیادی تفاعل کے ٹیلر تسلسل}{1270}
-\contentsline {section}{\numberline {18.5}طاقتی تسلسل حاصل کرنے کے عملی تراکیب}{1276}
-\contentsline {section}{\numberline {18.6}یکساں استمرار}{1284}
-\contentsline {section}{\numberline {18.7}لوغوں تسلسل}{1296}
-\contentsline {section}{\numberline {18.8}لامتناہی پر تحلیل پذیری۔ صفر اور ندرت}{1306}
-\contentsline {chapter}{\numberline {19}تکمل بذریعہ ترکیب بقیہ}{1319}
-\contentsline {section}{\numberline {19.1}بقیہ}{1319}
-\contentsline {section}{\numberline {19.2}مسئلہ بقیہ}{1327}
-\contentsline {section}{\numberline {19.3}حقیقی تکمل بذریعہ مسئلہ بقیہ}{1332}
-\contentsline {section}{\numberline {19.4}حقیقی تکمل کے دیگر اقسام}{1339}
-\contentsline {chapter}{\numberline {20}مخلوط تحلیل تفاعل اور نظریہ مخفی قوہ}{1347}
-\contentsline {section}{\numberline {20.1}ساکن برقی سکون}{1348}
-\contentsline {section}{\numberline {20.2}دو بعدی بہاو سیال}{1354}
-\contentsline {section}{\numberline {20.3}ہارمونی تفاعل کے عمومی خواص}{1364}
-\contentsline {section}{\numberline {20.4}پوسوں کلیہ تکمل}{1370}
-\contentsline {chapter}{\numberline {21}اعدادی تجزیہ}{1377}
-\contentsline {section}{\numberline {21.1}خلل اور غلطیاں۔ کمپیوٹر}{1378}
-\contentsline {section}{\numberline {21.2}دہرانے سے مساوات کا حل}{1380}
-\contentsline {section}{\numberline {21.3}متناہی فرق}{1392}
-\select@language {english}
-\select@language {arabic}
-\select@language {english}
-\select@language {arabic}
-\select@language {english}
-\select@language {arabic}
-\select@language {english}
-\select@language {arabic}
-\contentsline {section}{\numberline {21.4}باہمی تحریف}{1399}
-\select@language {english}
-\select@language {arabic}
-\contentsline {section}{\numberline {21.5}لچکدار منحنیات}{1408}
-\contentsline {section}{\numberline {21.6}اعدادی تکمل اور تفرق}{1414}
-\select@language {english}
-\select@language {arabic}
-\select@language {english}
-\select@language {arabic}
-\contentsline {section}{\numberline {21.7}متقارب اتساع}{1427}
-\contentsline {chapter}{\numberline {22}خطی الجبرا کے اعدادی تراکیب}{1439}
-\contentsline {section}{\numberline {22.1}خطی مساوات کا نظام۔ گاوسی اسقاط، معکوس قالب}{1439}
-\contentsline {section}{\numberline {22.2}خطی مساوات کا نظام: حل بذریعہ اعادہ}{1449}
-\contentsline {section}{\numberline {22.3}خطی مساوات کا نظام:بد خوئی}{1457}
-\contentsline {section}{\numberline {22.4}ترکیب کمتر مربع}{1461}
-\contentsline {section}{\numberline {22.5}قالب کے امتیازی اقدار کی شمول}{1467}
-\contentsline {section}{\numberline {22.6}امتیازی اقدار کا حصول بذریعہ اعادہ}{1476}
-\contentsline {chapter}{\numberline {23}اعدادی تراکیب برائے تفرقی مساوات}{1483}
-\contentsline {section}{\numberline {23.1}یک رتبی تفرقی مساوات کے اعدادی تراکیب}{1483}
-\contentsline {section}{\numberline {23.2}دو رتبی تفرقی مساوات کے اعدادی تراکیب}{1494}
-\contentsline {section}{\numberline {23.3}اعدادی تراکیب برائے بیضوی جزوی تفرقی مساوات}{1501}
-\contentsline {subsection}{\numberline {23.3.1}مسئلہ ڈرشلے}{1504}
-\contentsline {subsection}{\numberline {23.3.2}بدلتی رخ خفی ترکیب}{1507}
-\contentsline {section}{\numberline {23.4}مسئلہ نیومن اور مخلوط سرحدی قیمت مسئلہ۔ غیر منظم سرحد}{1514}
-\contentsline {section}{\numberline {23.5}اعدادی تراکیب برائے قطع مکافی مساوات}{1521}
-\contentsline {section}{\numberline {23.6}اعدادی تراکیب برائے قطع زائد مساوات}{1530}
-\contentsline {chapter}{\numberline {24}احتمال اور شماریات}{1535}
-\contentsline {section}{\numberline {24.1}حسابی شماریات کی نوعیت اور اس کا مقصد}{1535}
-\contentsline {section}{\numberline {24.2}نمونہ کا اظہار بذریعہ جدول اور ترسیم}{1537}
+\contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{xiii}% 
+\contentsline {chapter}{\numberline {1}یک رتبی سادہ تفرقی مساوات}{1}% 
+\contentsline {section}{\numberline {1.1}نمونہ کشی}{2}% 
+\contentsline {section}{\numberline {1.2}\tmspace +\medmuskip {.2222em} \ensuremath {y'=f(x,y)} \tmspace +\medmuskip {.2222em} کا جیومیٹریائی مطلب۔ میدان کی سمت اور ترکیب یولر۔}{13}% 
+\contentsline {section}{\numberline {1.3}قابل علیحدگی سادہ تفرقی مساوات}{22}% 
+\contentsline {section}{\numberline {1.4}قطعی سادہ تفرقی مساوات اور جزو تکمل}{37}% 
+\contentsline {section}{\numberline {1.5}خطی سادہ تفرقی مساوات۔ مساوات برنولی}{49}% 
+\contentsline {section}{\numberline {1.6}عمودی خطوط کی نسلیں}{65}% 
+\contentsline {section}{\numberline {1.7}ابتدائی قیمت تفرقی مساوات:حل کی وجودیت اور یکتائیت}{69}% 
+\contentsline {chapter}{\numberline {2}دو رتبی سادہ تفرقی مساوات}{75}% 
+\contentsline {section}{\numberline {2.1}متجانس خطی دو رتبی تفرقی مساوات}{75}% 
+\contentsline {section}{\numberline {2.2}مستقل عددی سر والے متجانس خطی سادہ تفرقی مساوات}{91}% 
+\contentsline {section}{\numberline {2.3}تفرقی عامل}{104}% 
+\contentsline {section}{\numberline {2.4}اسپرنگ سے جڑی کمیت کی آزادانہ ارتعاش}{108}% 
+\contentsline {section}{\numberline {2.5}یولر کوشی مساوات}{123}% 
+\contentsline {section}{\numberline {2.6}حل کی وجودیت اور یکتائی؛ ورونسکی}{131}% 
+\contentsline {section}{\numberline {2.7}غیر متجانس سادہ تفرقی مساوات}{139}% 
+\contentsline {section}{\numberline {2.8}جبری ارتعاش۔ گمک}{151}% 
+\contentsline {subsection}{\numberline {2.8.1}برقرار حال حل کا حیطہ۔عملی گمک}{157}% 
+\contentsline {section}{\numberline {2.9}برقی ادوار کی نمونہ کشی}{161}% 
+\contentsline {section}{\numberline {2.10}مقدار معلوم بدلنے کے طریقے سے غیر متجانس خطی سادہ تفرقی مساوات کا حل}{173}% 
+\contentsline {chapter}{\numberline {3}بلند رتبی خطی سادہ تفرقی مساوات}{179}% 
+\contentsline {section}{\numberline {3.1}متجانس خطی سادہ تفرقی مساوات}{179}% 
+\contentsline {section}{\numberline {3.2}مستقل عددی سر والے متجانس خطی سادہ تفرقی مساوات}{190}% 
+\contentsline {section}{\numberline {3.3}غیر متجانس خطی سادہ تفرقی مساوات}{198}% 
+\contentsline {section}{\numberline {3.4}مقدار معلوم بدلنے کے طریقے سے غیر متجانس خطی سادہ تفرقی مساوات کا حل}{201}% 
+\contentsline {chapter}{\numberline {4}نظامِ تفرقی مساوات}{209}% 
+\contentsline {section}{\numberline {4.1}قالب اور سمتیہ کے بنیادی حقائق}{210}% 
+\contentsline {section}{\numberline {4.2}سادہ تفرقی مساوات کے نظام بطور انجینئری مسائل کے نمونے}{218}% 
+\contentsline {section}{\numberline {4.3}نظریہ نظام سادہ تفرقی مساوات اور ورونسکی}{232}% 
+\contentsline {subsection}{\numberline {4.3.1}خطی نظام}{233}% 
+\contentsline {section}{\numberline {4.4}مستقل عددی سر والے نظام۔ سطح مرحلہ کی ترکیب}{236}% 
+\contentsline {section}{\numberline {4.5}نقطہ فاصل کے جانچ پڑتال کا مسلمہ معیار۔استحکام}{253}% 
+\contentsline {section}{\numberline {4.6}کیفی تراکیب برائے غیر خطی نظام}{262}% 
+\contentsline {subsection}{\numberline {4.6.1}سطح حرکت پر یک رتبی مساوات میں تبادلہ}{270}% 
+\contentsline {section}{\numberline {4.7}سادہ تفرقی مساوات کے غیر متجانس خطی نظام}{278}% 
+\contentsline {subsection}{\numberline {4.7.1}نا معلوم عددی سر کی ترکیب}{279}% 
+\contentsline {chapter}{\numberline {5}طاقتی تسلسل سے سادہ تفرقی مساوات کا حل۔اعلٰی تفاعل}{289}% 
+\contentsline {section}{\numberline {5.1}ترکیب طاقتی تسلسل}{290}% 
+\contentsline {section}{\numberline {5.2}لیژانڈر مساوات۔ لیژانڈر کثیر رکنی}{304}% 
+\contentsline {section}{\numberline {5.3}مبسوط طاقتی تسلسل۔ ترکیب فروبنیوس}{322}% 
+\contentsline {subsection}{\numberline {5.3.1}عملی استعمال}{327}% 
+\contentsline {section}{\numberline {5.4}مساوات بیسل اور بیسل تفاعل}{341}% 
+\contentsline {section}{\numberline {5.5}بیسل تفاعل کی دوسری قسم۔ عمومی حل}{355}% 
+\contentsline {section}{\numberline {5.6}قائمہ الزاویہ تفاعل کا سلسلہ}{362}% 
+\contentsline {section}{\numberline {5.7}مسئلہ سٹیورم لیوویل}{368}% 
+\contentsline {section}{\numberline {5.8}قائمیت لیژانڈر کثیر رکنی اور بیسل تفاعل}{375}% 
+\contentsline {chapter}{\numberline {6}لاپلاس تبادلہ}{385}% 
+\contentsline {section}{\numberline {6.1}لاپلاس بدل۔ الٹ لاپلاس بدل۔ خطیت}{386}% 
+\contentsline {section}{\numberline {6.2}تفرقات اور تکملات کے لاپلاس بدل۔ سادہ تفرقی مساوات}{395}% 
+\contentsline {section}{\numberline {6.3}\tmspace +\medmuskip {.2222em} \ensuremath {s} \tmspace +\medmuskip {.2222em} محور پر منتقلی، \tmspace +\medmuskip {.2222em} \ensuremath {t} \tmspace +\medmuskip {.2222em} محور پر منتقلی، اکائی سیڑھی تفاعل}{407}% 
+\contentsline {section}{\numberline {6.4}ڈیراک ڈیلٹائی تفاعل۔ اکائی ضرب تفاعل۔ جزوی کسری پھیلاو}{427}% 
+\contentsline {section}{\numberline {6.5}الجھاو}{444}% 
+\contentsline {section}{\numberline {6.6}لاپلاس بدل کی تکمل اور تفرق۔ متغیر عددی سر والے سادہ تفرقی مساوات}{452}% 
+\contentsline {section}{\numberline {6.7}تفرقی مساوات کے نظام}{460}% 
+\contentsline {section}{\numberline {6.8}لاپلاس بدل کے عمومی کلیے}{468}% 
+\contentsline {chapter}{\numberline {7}خطی الجبرا: سمتیات}{471}% 
+\contentsline {section}{\numberline {7.1}غیر سمتیات اور سمتیات}{471}% 
+\contentsline {section}{\numberline {7.2}سمتیہ کے اجزاء}{473}% 
+\contentsline {section}{\numberline {7.3}سمتیات کا مجموعہ، غیر سمتی کے ساتھ ضرب}{478}% 
+\contentsline {section}{\numberline {7.4}سمتی فضا۔خطی تابعیت اور غیر تابعیت}{487}% 
+\contentsline {section}{\numberline {7.5}اندرونی ضرب (ضرب نقطہ)}{493}% 
+\contentsline {section}{\numberline {7.6}اندرونی ضرب فضا}{506}% 
+\contentsline {section}{\numberline {7.7}سمتی ضرب}{508}% 
+\contentsline {section}{\numberline {7.8}اجزاء کی صورت میں سمتی ضرب}{510}% 
+\contentsline {section}{\numberline {7.9}غیر سمتی سہ ضرب اور دیگر متعدد ضرب}{521}% 
+\contentsline {chapter}{\numberline {8}خطی الجبرا: قالب، سمتیہ، مقطع۔ خطی نظام}{529}% 
+\contentsline {section}{\numberline {8.1}قالب اور سمتیات۔مجموعہ اور غیر سمتی ضرب}{529}% 
+\contentsline {section}{\numberline {8.2}قالبی ضرب}{539}% 
+\contentsline {subsection}{\numberline {8.2.1}تبدیلی محل}{545}% 
+\contentsline {section}{\numberline {8.3}خطی مساوات کے نظام۔ گاوسی اسقاط}{557}% 
+\contentsline {subsection}{\numberline {8.3.1}صف زینہ دار صورت}{569}% 
+\contentsline {section}{\numberline {8.4}خطی غیر تابعیت۔ درجہ قالب۔ سمتی فضا}{577}% 
+\contentsline {section}{\numberline {8.5}خطی نظام کے حل: وجودیت، یکتائی}{591}% 
+\contentsline {section}{\numberline {8.6}دو رتبی اور تین رتبی مقطع قالب}{597}% 
+\contentsline {section}{\numberline {8.7}مقطع۔ قاعدہ کریمر}{600}% 
+\contentsline {section}{\numberline {8.8}معکوس قالب۔ گاوس جارڈن اسقاط}{616}% 
+\contentsline {section}{\numberline {8.9}سمتی فضا، اندرونی ضرب، خطی تبادلہ}{631}% 
+\contentsline {chapter}{\numberline {9}خطی الجبرا: امتیازی قدر مسائل قالب}{647}% 
+\contentsline {section}{\numberline {9.1}امتیازی قدر مسائل قالب۔ امتیازی اقدار اور امتیازی سمتیات کا حصول}{648}% 
+\contentsline {section}{\numberline {9.2}امتیازی مسائل کے چند استعمال}{658}% 
+\contentsline {section}{\numberline {9.3}تشاکلی، منحرف تشاکلی اور قائمہ الزاویہ قالب}{665}% 
+\contentsline {section}{\numberline {9.4}امتیازی اساس، وتری بنانا، دو درجی صورت}{673}% 
+\contentsline {section}{\numberline {9.5}مخلوط قالب اور مخلوط صورتیں}{686}% 
+\contentsline {chapter}{\numberline {10}سمتی تفرقی احصاء۔ سمتی تفاعل}{697}% 
+\contentsline {section}{\numberline {10.1}غیر سمتی میدان اور سمتی میدان}{697}% 
+\contentsline {section}{\numberline {10.2}سمتی احصاء}{700}% 
+\contentsline {section}{\numberline {10.3}منحنی}{706}% 
+\contentsline {section}{\numberline {10.4}لمبائی قوس}{712}% 
+\contentsline {section}{\numberline {10.5}مماس، انحنا اور مروڑ}{719}% 
+\contentsline {section}{\numberline {10.6}سمتی رفتار اور اسراع}{725}% 
+\contentsline {section}{\numberline {10.7}زنجیری ترکیب اور متعدد متغیرات کے تفاعل کا اوسط قیمت مسئلہ}{731}% 
+\contentsline {section}{\numberline {10.8}سمتی تفرق، غیر سمتی میدان کی ڈھلوان}{737}% 
+\contentsline {section}{\numberline {10.9}تبادل محددی نظام اور تبادل ارکان سمتیات}{750}% 
+\contentsline {section}{\numberline {10.10}سمتی میدان کی پھیلاو}{755}% 
+\contentsline {section}{\numberline {10.11}سمتی تفاعل کی گردش}{763}% 
+\contentsline {chapter}{\numberline {11}سمتی تکملی احصاء۔ تکمل کے مسئلے}{767}% 
+\contentsline {section}{\numberline {11.1}خطی تکمل}{768}% 
+\contentsline {section}{\numberline {11.2}خطی تکمل کا حل}{773}% 
+\contentsline {section}{\numberline {11.3}دوہرا تکمل}{782}% 
+\contentsline {section}{\numberline {11.4}دوہرا تکمل کا خطی تکمل میں تبادلہ}{796}% 
+\contentsline {section}{\numberline {11.5}سطحیں}{806}% 
+\contentsline {section}{\numberline {11.6}مماسی سطح۔بنیادی صورت اول۔ رقبہ}{811}% 
+\contentsline {section}{\numberline {11.7}سطحی تکمل}{823}% 
+\contentsline {section}{\numberline {11.8}تہرا تکمل۔ گاوس کا مسئلہ پھیلاو}{831}% 
+\contentsline {section}{\numberline {11.9}مسئلہ پھیلاو کے نتائج اور استعمال}{836}% 
+\contentsline {section}{\numberline {11.10}مسئلہ سٹوکس}{847}% 
+\contentsline {section}{\numberline {11.11}مسئلہ سٹوکس کے نتائج اور عملی استعمال}{852}% 
+\contentsline {section}{\numberline {11.12}راہ سے آزاد خطی تکمل}{855}% 
+\contentsline {chapter}{\numberline {12}فوریئر تسلسل}{869}% 
+\contentsline {section}{\numberline {12.1}دوری تفاعل، تکونیاتی تسلسل}{870}% 
+\contentsline {section}{\numberline {12.2}فوریئر تسلسل۔ یولر کلیات}{875}% 
+\contentsline {section}{\numberline {12.3}اختیاری دوری عرصہ والے تفاعل}{888}% 
+\contentsline {section}{\numberline {12.4}جفت اور طاق تفاعل}{893}% 
+\contentsline {section}{\numberline {12.5}نصف سعت اتساع}{901}% 
+\contentsline {section}{\numberline {12.6}فوریئر عددی سر کا بغیر تکمل حصول}{908}% 
+\contentsline {section}{\numberline {12.7}جبری ارتعاش}{916}% 
+\contentsline {section}{\numberline {12.8}تقریب بذریعہ تکونی کثیر رکنی۔ مکعب خلل}{922}% 
+\contentsline {section}{\numberline {12.9}فوریئر تکمل}{925}% 
+\contentsline {chapter}{\numberline {13}جزوی تفرقی مساوات}{939}% 
+\contentsline {section}{\numberline {13.1}بنیادی تصورات}{939}% 
+\contentsline {section}{\numberline {13.2}نمونہ کشی: ارتعاش پذیر تار۔ یک بعدی مساوات موج}{944}% 
+\contentsline {section}{\numberline {13.3}علیحدگی متغیرات (ترکیب ضرب)}{946}% 
+\contentsline {section}{\numberline {13.4}مساوات موج کا دا لومبیغ حل}{959}% 
+\contentsline {section}{\numberline {13.5}یک بعدی بہاو حرارت}{965}% 
+\contentsline {section}{\numberline {13.6}لامتناہی لمبائی کی سلاخ میں بہاو حرارت}{973}% 
+\contentsline {section}{\numberline {13.7}نمونہ کشی: ارتعاش پذیر جھلی۔ دو ابعادی مساوات موج}{979}% 
+\contentsline {section}{\numberline {13.8}مستطیل جھلی}{982}% 
+\contentsline {section}{\numberline {13.9}قطبی محدد میں لاپلاسی}{992}% 
+\contentsline {section}{\numberline {13.10}دائری جھلی۔ مساوات بیسل}{996}% 
+\contentsline {section}{\numberline {13.11}مساوات لاپلاس۔ نظریہ مخفی قوہ}{1004}% 
+\contentsline {section}{\numberline {13.12}کروی محدد میں مساوات لاپلاس۔مساوات لیژانڈر}{1009}% 
+\contentsline {section}{\numberline {13.13}لاپلاس تبادل برائے جزوی تفرقی مساوات}{1015}% 
+\contentsline {chapter}{\numberline {14}مخلوط اعداد۔ مخلوط تحلیلی تفاعل}{1023}% 
+\contentsline {section}{\numberline {14.1}مخلوط اعداد}{1024}% 
+\contentsline {section}{\numberline {14.2}مخلوط اعداد کی قطبی صورت۔ تکونی عدم مساوات}{1033}% 
+\contentsline {section}{\numberline {14.3}مخلوط سطح میں منحنیات اور خطے}{1039}% 
+\contentsline {section}{\numberline {14.4}مخلوط تفاعل۔ حد۔ تفرق۔ تحلیلی تفاعل}{1044}% 
+\contentsline {section}{\numberline {14.5}کوشی ریمان مساوات۔لاپلاس مساوات}{1053}% 
+\contentsline {section}{\numberline {14.6}ناطق تفاعل۔ جذر}{1063}% 
+\contentsline {section}{\numberline {14.7}قوت نمائی تفاعل}{1070}% 
+\contentsline {section}{\numberline {14.8}تکونیاتی اور ہذلولی تفاعل}{1075}% 
+\contentsline {section}{\numberline {14.9}لوگارتھم۔ عمومی طاقت}{1081}% 
+\contentsline {chapter}{\numberline {15}محافظ زاویہ نقشہ کشی}{1089}% 
+\contentsline {section}{\numberline {15.1}نقشہ گشی}{1090}% 
+\contentsline {section}{\numberline {15.2}محافظ زاویہ نقش}{1103}% 
+\contentsline {section}{\numberline {15.3}خطی کسری تبادل}{1111}% 
+\contentsline {section}{\numberline {15.4}مخصوص خطی کسری تبادل}{1115}% 
+\contentsline {section}{\numberline {15.5}نقش زیر دیگر تفاعل}{1124}% 
+\contentsline {section}{\numberline {15.6}ریمان سطحیں}{1135}% 
+\contentsline {chapter}{\numberline {16}مخلوط تکملات}{1143}% 
+\contentsline {section}{\numberline {16.1}مخلوط مستوی میں خطی تکمل}{1143}% 
+\contentsline {section}{\numberline {16.2}مخلوط خطی تکمل کی خواص}{1154}% 
+\contentsline {section}{\numberline {16.3}کوشی کا مسئلہ تکمل}{1158}% 
+\contentsline {section}{\numberline {16.4}خطی تکمل کی قیمت کا حصول بذریعہ غیر قطعی تکمل}{1170}% 
+\contentsline {section}{\numberline {16.5}کوشی کا کلیہ تکمل}{1175}% 
+\contentsline {section}{\numberline {16.6}تحلیلی تفاعل کے تفرق}{1180}% 
+\contentsline {chapter}{\numberline {17}ترتیب اور تسلسل}{1187}% 
+\contentsline {section}{\numberline {17.1}ترتیب}{1187}% 
+\contentsline {section}{\numberline {17.2}تسلسل}{1194}% 
+\contentsline {section}{\numberline {17.3}کوشی اصول مرکوزیت برائے ترتیب اور تسلسل}{1199}% 
+\contentsline {section}{\numberline {17.4}یک سر حقیقی ترتیب۔لیبنٹز پرکھ برائے حقیقی تسلسل}{1206}% 
+\contentsline {section}{\numberline {17.5}تسلسل کی مرکوزیت اور انفراج کی پرکھیں}{1211}% 
+\contentsline {section}{\numberline {17.6}تسلسل پر اعمال}{1223}% 
+\contentsline {chapter}{\numberline {18}طاقتی تسلسل، ٹیلر تسلسل اور لوغوں تسلسل}{1229}% 
+\contentsline {section}{\numberline {18.1}طاقتی تسلسل}{1229}% 
+\contentsline {section}{\numberline {18.2}طاقتی تسلسل کی روپ میں تفاعل}{1242}% 
+\contentsline {section}{\numberline {18.3}ٹیلر تسلسل}{1249}% 
+\contentsline {section}{\numberline {18.4}بنیادی تفاعل کے ٹیلر تسلسل}{1254}% 
+\contentsline {section}{\numberline {18.5}طاقتی تسلسل حاصل کرنے کے عملی تراکیب}{1260}% 
+\contentsline {section}{\numberline {18.6}یکساں استمرار}{1267}% 
+\contentsline {section}{\numberline {18.7}لوغوں تسلسل}{1279}% 
+\contentsline {section}{\numberline {18.8}لامتناہی پر تحلیل پذیری۔ صفر اور ندرت}{1289}% 
+\contentsline {chapter}{\numberline {19}تکمل بذریعہ ترکیب بقیہ}{1301}% 
+\contentsline {section}{\numberline {19.1}بقیہ}{1301}% 
+\contentsline {section}{\numberline {19.2}مسئلہ بقیہ}{1308}% 
+\contentsline {section}{\numberline {19.3}حقیقی تکمل بذریعہ مسئلہ بقیہ}{1313}% 
+\contentsline {section}{\numberline {19.4}حقیقی تکمل کے دیگر اقسام}{1320}% 
+\contentsline {chapter}{\numberline {20}مخلوط تحلیل تفاعل اور نظریہ مخفی قوہ}{1329}% 
+\contentsline {section}{\numberline {20.1}ساکن برقی سکون}{1330}% 
+\contentsline {section}{\numberline {20.2}دو بعدی بہاو سیال}{1336}% 
+\contentsline {section}{\numberline {20.3}ہارمونی تفاعل کے عمومی خواص}{1346}% 
+\contentsline {section}{\numberline {20.4}پوسوں کلیہ تکمل}{1351}% 
+\contentsline {chapter}{\numberline {21}اعدادی تجزیہ}{1359}% 
+\contentsline {section}{\numberline {21.1}خلل اور غلطیاں۔ کمپیوٹر}{1360}% 
+\contentsline {section}{\numberline {21.2}دہرانے سے مساوات کا حل}{1362}% 
+\contentsline {section}{\numberline {21.3}متناہی فرق}{1373}% 
 \select@language {english}
 \select@language {arabic}
 \select@language {english}
@@ -238,42 +201,79 @@
 \select@language {arabic}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {24.3}نمونی اوسط اور نمونی تغیریت}{1547}
+\contentsline {section}{\numberline {21.4}باہمی تحریف}{1380}% 
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {24.4}بلا منصوبہ تجربات، انجام، وقوعات}{1552}
-\contentsline {section}{\numberline {24.5}احتمال}{1559}
+\contentsline {section}{\numberline {21.5}لچکدار منحنیات}{1389}% 
+\contentsline {section}{\numberline {21.6}اعدادی تکمل اور تفرق}{1395}% 
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {24.6}مرتب اجتماعات اور غیر مرتب اجتماعات}{1568}
-\contentsline {section}{\numberline {24.7}بلا منصوبہ متغیرات۔ غیر مسلسل اور استمراری تقسیم}{1574}
-\contentsline {section}{\numberline {24.8}تقسیم کا اوسط اور اس کی تغیریت}{1582}
-\contentsline {section}{\numberline {24.9}ثنائی، پوئسن، اور بیش ہندسی تقسیم}{1589}
-\contentsline {section}{\numberline {24.10}عمومی تقسیم}{1597}
-\contentsline {section}{\numberline {24.11}ایک سے زائد بلا منصوبہ متغیرات کی تقسیمیں}{1607}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {24.12}بلا منصوبہ نمونہ بندی۔ بلا منصوبہ اعداد}{1620}
-\contentsline {section}{\numberline {24.13}مقدار معلوم کا اندازہ لگانا}{1623}
-\contentsline {section}{\numberline {24.14}وقفہ اعتماد}{1628}
-\contentsline {section}{\numberline {24.15}قیاس کی پرکھ۔ فیصلے}{1642}
+\contentsline {section}{\numberline {21.7}متقارب اتساع}{1407}% 
+\contentsline {chapter}{\numberline {22}خطی الجبرا کے اعدادی تراکیب}{1421}% 
+\contentsline {section}{\numberline {22.1}خطی مساوات کا نظام۔ گاوسی اسقاط، معکوس قالب}{1421}% 
+\contentsline {section}{\numberline {22.2}خطی مساوات کا نظام: حل بذریعہ اعادہ}{1431}% 
+\contentsline {section}{\numberline {22.3}خطی مساوات کا نظام:بد خوئی}{1439}% 
+\contentsline {section}{\numberline {22.4}ترکیب کمتر مربع}{1443}% 
+\contentsline {section}{\numberline {22.5}قالب کے امتیازی اقدار کی شمول}{1449}% 
+\contentsline {section}{\numberline {22.6}امتیازی اقدار کا حصول بذریعہ اعادہ}{1457}% 
+\contentsline {chapter}{\numberline {23}اعدادی تراکیب برائے تفرقی مساوات}{1463}% 
+\contentsline {section}{\numberline {23.1}یک رتبی تفرقی مساوات کے اعدادی تراکیب}{1463}% 
+\contentsline {section}{\numberline {23.2}دو رتبی تفرقی مساوات کے اعدادی تراکیب}{1474}% 
+\contentsline {section}{\numberline {23.3}اعدادی تراکیب برائے بیضوی جزوی تفرقی مساوات}{1481}% 
+\contentsline {subsection}{\numberline {23.3.1}مسئلہ ڈرشلے}{1484}% 
+\contentsline {subsection}{\numberline {23.3.2}بدلتی رخ خفی ترکیب}{1487}% 
+\contentsline {section}{\numberline {23.4}مسئلہ نیومن اور مخلوط سرحدی قیمت مسئلہ۔ غیر منظم سرحد}{1494}% 
+\contentsline {section}{\numberline {23.5}اعدادی تراکیب برائے قطع مکافی مساوات}{1501}% 
+\contentsline {section}{\numberline {23.6}اعدادی تراکیب برائے قطع زائد مساوات}{1509}% 
+\contentsline {chapter}{\numberline {24}احتمال اور شماریات}{1515}% 
+\contentsline {section}{\numberline {24.1}حسابی شماریات کی نوعیت اور اس کا مقصد}{1515}% 
+\contentsline {section}{\numberline {24.2}نمونہ کا اظہار بذریعہ جدول اور ترسیم}{1517}% 
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {24.16}ضبط معیار}{1660}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {24.17}قبولیت نمونہ}{1667}
-\contentsline {section}{\numberline {24.18}عمدگی موافقت}{1675}
 \select@language {english}
 \select@language {arabic}
-\contentsline {section}{\numberline {24.19}غیر مقدار معلوم پرکھ}{1680}
-\contentsline {section}{\numberline {24.20}پیمائشوں کی جوڑیاں۔ سیدھے خطوط کو موافق بنانا}{1685}
 \select@language {english}
 \select@language {arabic}
-\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{1695}
-\contentsline {chapter}{\numberline {ب}مفید معلومات}{1699}
-\contentsline {section}{\numberline {ب.1}اعلی تفاعل کے مساوات}{1699}
-\contentsline {chapter}{\numberline {ج}جدول}{1709}
+\contentsline {section}{\numberline {24.3}نمونی اوسط اور نمونی تغیریت}{1526}% 
+\select@language {english}
+\select@language {arabic}
+\contentsline {section}{\numberline {24.4}بلا منصوبہ تجربات، انجام، وقوعات}{1532}% 
+\select@language {english}
+\select@language {arabic}
+\contentsline {section}{\numberline {24.5}احتمال}{1539}% 
+\contentsline {section}{\numberline {24.6}مرتب اجتماعات اور غیر مرتب اجتماعات}{1547}% 
+\contentsline {section}{\numberline {24.7}بلا منصوبہ متغیرات۔ غیر مسلسل اور استمراری تقسیم}{1554}% 
+\contentsline {section}{\numberline {24.8}تقسیم کا اوسط اور اس کی تغیریت}{1562}% 
+\contentsline {section}{\numberline {24.9}ثنائی، پوئسن، اور بیش ہندسی تقسیم}{1569}% 
+\contentsline {section}{\numberline {24.10}عمومی تقسیم}{1577}% 
+\contentsline {section}{\numberline {24.11}ایک سے زائد بلا منصوبہ متغیرات کی تقسیمیں}{1587}% 
+\select@language {english}
+\select@language {arabic}
+\contentsline {section}{\numberline {24.12}بلا منصوبہ نمونہ بندی۔ بلا منصوبہ اعداد}{1600}% 
+\contentsline {section}{\numberline {24.13}مقدار معلوم کا اندازہ لگانا}{1603}% 
+\contentsline {section}{\numberline {24.14}وقفہ اعتماد}{1607}% 
+\contentsline {section}{\numberline {24.15}قیاس کی پرکھ۔ فیصلے}{1621}% 
+\select@language {english}
+\select@language {arabic}
+\contentsline {section}{\numberline {24.16}ضبط معیار}{1639}% 
+\select@language {english}
+\select@language {arabic}
+\contentsline {section}{\numberline {24.17}قبولیت نمونہ}{1646}% 
+\contentsline {section}{\numberline {24.18}عمدگی موافقت}{1655}% 
+\select@language {english}
+\select@language {arabic}
+\contentsline {section}{\numberline {24.19}غیر مقدار معلوم پرکھ}{1660}% 
+\contentsline {section}{\numberline {24.20}پیمائشوں کی جوڑیاں۔ سیدھے خطوط کو موافق بنانا}{1665}% 
+\select@language {english}
+\select@language {arabic}
+\contentsline {chapter}{\numberline {ا}اضافی ثبوت}{1675}% 
+\contentsline {chapter}{\numberline {ب}مفید معلومات}{1679}% 
+\contentsline {section}{\numberline {ب.1}اعلی تفاعل کے مساوات}{1679}% 
+\contentsline {chapter}{\numberline {ج}جدول}{1689}% 
 \select@language {english}
 \select@language {arabic}
 \select@language {english}

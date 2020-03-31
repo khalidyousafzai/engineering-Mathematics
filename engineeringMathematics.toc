@@ -326,3 +326,6 @@
 \select@language {arabic}
 \select@language {english}
 \select@language {arabic}
+\contentsline {chapter}{فرہنگ}{1707}% 
+\select@language {english}
+\select@language {arabic}

@@ -11,9 +11,9 @@
 \contentsline {section}{\numberline {1.1}نمونہ کشی}{2}% 
 \contentsline {section}{\numberline {1.2}\tmspace +\medmuskip {.2222em} \ensuremath {y'=f(x,y)} \tmspace +\medmuskip {.2222em} کا جیومیٹریائی مطلب۔ میدان کی سمت اور ترکیب یولر۔}{13}% 
 \contentsline {section}{\numberline {1.3}قابل علیحدگی سادہ تفرقی مساوات}{22}% 
-\contentsline {section}{\numberline {1.4}قطعی سادہ تفرقی مساوات اور جزو تکمل}{37}% 
+\contentsline {section}{\numberline {1.4}قطعی سادہ تفرقی مساوات اور جزو تکمل}{38}% 
 \contentsline {section}{\numberline {1.5}خطی سادہ تفرقی مساوات۔ مساوات برنولی}{49}% 
-\contentsline {section}{\numberline {1.6}عمودی خطوط کی نسلیں}{65}% 
+\contentsline {section}{\numberline {1.6}عمودی خطوط کی نسلیں}{66}% 
 \contentsline {section}{\numberline {1.7}ابتدائی قیمت تفرقی مساوات:حل کی وجودیت اور یکتائیت}{69}% 
 \contentsline {chapter}{\numberline {2}دو رتبی سادہ تفرقی مساوات}{75}% 
 \contentsline {section}{\numberline {2.1}متجانس خطی دو رتبی تفرقی مساوات}{75}% 

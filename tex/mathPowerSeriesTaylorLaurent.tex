@@ -99,7 +99,7 @@ c_n(z_0-a)^n\to 0 \quad \quad n\to \infty
 کو \اصطلاح{دائرہ ارتکاز}\فرہنگ{ارتکاز!دائرہ}\فرہنگ{دائرہ!ارتکاز}\حاشیہب{convergence circle}\فرہنگ{convergence!circle} کہتے ہیں جبکہ \عددی{R} کو \اصطلاح{رداس ارتکاز}\فرہنگ{ارتکاز!رداس}\فرہنگ{رداس!ارتکاز}\حاشیہب{convergence radius}\فرہنگ{convergence!radius} کہتے ہیں (شکل \حوالہ{شکل_ٹیلر_دائرہ_مرکوزیت_رداس_مرکوزیت}-الف)۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--++(2,0)node[right]{$x$};
@@ -107,9 +107,9 @@ c_n(z_0-a)^n\to 0 \quad \quad n\to \infty
 \draw(1,1) circle (0.75);
 \draw[-stealth] (1,1)node[ocirc]{}node[left]{$a$}--++(30:0.75)node[pos=0.7,below]{$R$};
 \end{tikzpicture}
-\caption*{(الف) دائرہ ارتکاز}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ دائرہ ارتکاز}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-2,0)--(2,0)node[right]{$x$};
@@ -118,8 +118,8 @@ c_n(z_0-a)^n\to 0 \quad \quad n\to \infty
 \draw(1,0)node[below]{$a+R$}--++(0,0.1);
 \draw(0,0)node[ocirc]{}node[below]{$a$};
 \end{tikzpicture}
-\caption*{(ب) حقیقی طاقتی تسلسل کا ارتکازی وقفہ}
-\end{subfigure}%
+\caption{ حقیقی طاقتی تسلسل کا ارتکازی وقفہ}
+\end{subfigure} \hfill
 \caption{دائرہ ارتکاز اور وقفہ ارتکاز}
 \label{شکل_ٹیلر_دائرہ_مرکوزیت_رداس_مرکوزیت}
 \end{figure}
@@ -839,16 +839,16 @@ b_n=\frac{1}{n!}f^{(n)}(b)=\sum\limits_{k=n}^{\infty} \binom{ n}{k} a_k (b-a)^{k
 یہ نئی تسلسل کم از کم قرص \عددی{\abs{z-b}<R-\abs{b}} میں کارآمد ہو گی (شکل \حوالہ{شکل_ٹیلر_مختلف_مرکز_تسلسل}-الف)۔البتہ کئی بار مساوات \حوالہ{مساوات_ٹیلر_دیا_گیا_ب} کی ارتکاز کا رداس \عددی{R-\abs{b}} سے بڑا ہو گا  (شکل \حوالہ{شکل_ٹیلر_مختلف_مرکز_تسلسل}-ب) لہٰذا  مساوات \حوالہ{مساوات_ٹیلر_دیا_گیا_ب} تفاعل \عددی{f(z)} کو  قرص \عددی{\abs{z-a}<R} کے باہر وسعت دے گی (شکل \حوالہ{شکل_ٹیلر_مختلف_مرکز_تسلسل}-ب میں سیاہ خطہ)۔کسی ارتکازی خطے میں ایک تحلیلی تفاعل کی دی گئی طاقتی تسلسل  کو اس خطے سے باہر وسعت دینے کو \اصطلاح{تحلیلی استمرار}\فرہنگ{تحلیلی!استمرار}\حاشیہب{analytic continuation}\فرہنگ{analytic!continuation} کہتے ہیں۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\klen}{0.35}
 \draw(0,0)node[ocirc]{}node[below]{$a$}circle (1);
 \draw(0,0)++(30:1-\klen) node[ocirc]{}node[left]{$b$} circle (\klen);
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\klen}{0.75}
@@ -857,8 +857,8 @@ b_n=\frac{1}{n!}f^{(n)}(b)=\sum\limits_{k=n}^{\infty} \binom{ n}{k} a_k (b-a)^{k
 \draw(0,0)node[ocirc]{}node[shift={(-45:0.25)}]{$a$}circle (1);
 \draw(0,0)++(30:0.4) node[ocirc]{}node[right]{$b$} circle (\klen);
 \end{tikzpicture}
-\caption*{(ب)}
-\end{subfigure}%
+\caption{}
+\end{subfigure} \hfill
 \caption{مختلف مرکز کے گرد طاقتی تسلسل کا حصول اور تحلیلی استمرار}
 \label{شکل_ٹیلر_مختلف_مرکز_تسلسل}
 \end{figure}
@@ -1450,7 +1450,7 @@ s(0)=\lim_{n\to \infty} s_n(0)=0
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,ymax=2.4,xtick={-1,-0.5,0,0.5,1},xticklabels={$-1$,,$0$,,$1$},ytick={0.5,1.5,2},yticklabels={,$1.5$,$2$},xlabel={$x$},ylabel={$y$},xlabel style={at={(current axis.right of origin)},anchor=north west},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=north west}]
+\begin{axis}[,myStyleA,ymax=2.4,xtick={-1,-0.5,0,0.5,1},xticklabels={$-1$,$0$,$1$},ytick={0.5,1.5,2},yticklabels={,$1.5$,$2$},xlabel={$x$},ylabel={$y$},]
 \addplot[domain=-1:1,smooth] {1+x^2-1/(1+x^2)^16}node[pos=0.7,fill=white,font=\footnotesize]{$s_{16}$};
 \addplot[domain=-1:1,smooth] {1+x^2-1/(1+x^2)^1}node[pos=0.7,fill=white,font=\footnotesize]{$s_1$};
 \addplot[domain=-1:1,smooth] {1+x^2-1/(1+x^2)^4}node[pos=0.75,fill=white,font=\footnotesize]{$s_4$};

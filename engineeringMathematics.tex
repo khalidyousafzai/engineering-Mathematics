@@ -57,6 +57,13 @@
 
 %\input{./tex/myElectronicsVariablesBetter.tex}         %these are all tested. to use at the very end when book is finished
 
+%==========================
+%my styles
+\pgfplotsset{
+myStyleA/.style={axis lines*=middle, small,
+every axis x label/.style={at={(current axis.right of origin)},anchor=west},
+	every axis y label/.style={at={(current axis.above origin)},anchor=east}
+}}
 
 
 \graphicspath{{./fig/figFrontPage/}{./fig/figFirstOrderOrdinaryDifferentialEquations/}{./fig/figSecondOrderOrdinaryDifferentialEquations/}{./fig/figSystemOfDifferentialEquations/}{./fig/figBesselFunction/}{./fig/figLinearAlgebra/}{./fig/figVectorDifferentialCalculus/}{./fig/figFourierSeries/}{./fig/figPartialDifferentialEquations/}{./fig/figAnalyticFunctions/}{./fig/figConformalMapping/}{./fig/figPotentialTheory/}{./fig/figStatistics/}{./fig/figAppendixAuxiliaryMaterial/}}%paths to figures
@@ -64,9 +71,10 @@
 
 \includeonly{./tex/mathPreface,./tex/prefaceFirstBook,./tex/mathFirstOrderDifferentialEquations,./tex/mathSecondOrderDifferentialEquations,./tex/mathHigherOrderDifferentialEquations,./tex/mathSystemOfDifferentialEquations,./tex/mathPowerSeriesSolutionOfOrdinaryDifferentialEquations,./tex/mathLaplaceTransformation,./tex/mathVectors,./tex/mathLinearAlgebra,./tex/mathEigenvalueMatrixProblems,./tex/mathVectorDifferentialCalculus,./tex/mathVectorIntegralCalculus,./tex/mathFourierSeries,./tex/mathPartialDifferentialEquations,./tex/mathComplexAnalyticFunctions,./tex/mathConformalMapping,./tex/mathComplexIntegrals,./tex/mathSequencesAndSeries,./tex/mathPowerSeriesTaylorLaurent,./tex/mathIntegrationByMethodOfResidues,./tex/mathComplexAnalyticFunctionsAndPotentialTheory,./tex/mathNumericalAnalysis,./tex/mathNumericalMethodsInLinearAlgebra,./tex/mathNumericalMethodsForDifferentialEquations,./tex/mathProbabilityAndStatistics,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial,./tex/mathTables}
 %
-%\includeonly{./tex/mathPreface,./tex/prefaceFirstBook,./tex/mathNumericalMethodsInLinearAlgebra}
+%\includeonly{./tex/mathPreface,./tex/prefaceFirstBook,./tex/mathNumericalAnalysis,./tex/mathNumericalMethodsInLinearAlgebra,./tex/mathNumericalMethodsForDifferentialEquations,./tex/mathProbabilityAndStatistics,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial,./tex/mathTables}
 %
-%\includeonly{./tex/mathPreface,./tex/prefaceFirstBook,./tex/mathNumericalMethodsForDifferentialEquations,./tex/mathAppendixAdditionalProofs,./tex/mathAppendixAuxiliaryMaterial,./tex/mathTables}
+%\includeonly{./tex/mathPreface,./tex/prefaceFirstBook,./tex/mathTables}
+%\includeonly{./tex/mathPreface,./tex/prefaceFirstBook,./tex/test}
 
 
 \author{
@@ -81,7 +89,7 @@
 
 
 \title{انجینئری ریاضیات}
-\date{}                           %if absent gives date in arabic which is a rubbish
+%\date{}                           %if absent gives date in arabic which is a rubbish
 
 %included the following to correct the RTL issues with equation numbering after upgradation to ubuntu 18.04
 %might break bidi package as said on the internet
@@ -93,16 +101,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %\linenumbers
-%\makeindex
+\makeindex
 
 %==========
 \begin{document}
-\begin{urdufont}
-
+\sloppy
 
 \renewcommand*{\contentsname}{عنوان}    %this command has to be placed right here
-\renewcommand*{\proofname}{ثبوت}   %if placed before start of begin{urdufont}, it gets swept by the settings of the font environment
-\renewcommand*{\appendixname}{ضمیمہ}
+%\renewcommand*{\proofname}{ثبوت}   %if placed before start of begin{urdufont}, it gets swept by the settings of the font environment
+%\renewcommand*{\appendixname}{ضمیمہ}
 
 
 \frontmatter                          %just added instead of \pagenumbering{roman}
@@ -121,7 +128,7 @@
 
 
 \mainmatter                      %added this
-\renewcommand*{\chaptername}{باب}
+%\renewcommand*{\chaptername}{باب}
 %%\pagenumbering{arabic}   %instead of this
 
 \pagestyle{headings}
@@ -196,8 +203,8 @@
 \renewcommand*{\indexname}{فرہنگ}      %this command has to be placed right here just before printindex command
 \cleardoublepage
 \addcontentsline{toc}{chapter}{فرہنگ}
-\printindex
+
+%\printindex
 
 
-\end{urdufont}
 \end{document}

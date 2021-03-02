@@ -81,10 +81,9 @@ y(x)=e^x-x-1
 \caption{جدول برائے مثال \حوالہ{مثال_اعدادی_ترکیب_یولر_الف}}
 \label{جدول_مثال_اعدادی_ترکیب_یولر_الف}
 \centering
-%\begin{otherlanguage}{english}
 \begin{tabular}{C|C|C|C|C|C}
 \hline
-n&x_n&y_n&0.2(x_n+y_n)&\text{\RL{\urdufont{درست حل}}}&\text{\RL{\urdufont{مطلق خلل}}}\\
+n&x_n&y_n&0.2(x_n+y_n)&\text{\RL{{درست حل}}}&\text{\RL{{مطلق خلل}}}\\
 \hline
 0&0.0&0.000&0.000&0.000&0.000\\
 1&0.1&0.000&0.040&0.021&0.021\\
@@ -94,7 +93,7 @@ n&x_n&y_n&0.2(x_n+y_n)&\text{\RL{\urdufont{درست حل}}}&\text{\RL{\urdufont{
 5&0.5&0.489&&0.718&0.229\\
 \hline
 \end{tabular}
-%\end{otherlanguage}
+
 \end{table}
 \انتہا{مثال}
 %=============================
@@ -147,7 +146,6 @@ y_{n+1}=0.12x_n+0.1x_{n+1}+1.22y_n
 \caption{بہتر ترکیب یولر۔ (مثال \حوالہ{مثال_اعدادی_بہتر_ترکیب_یولر_الف})}
 \label{جدول_مثال_اعدادی_بہتر_ترکیب_یولر_الف}
 \centering
-%\begin{otherlanguage}{english}
 \begin{tabular}{|C|C|C|C|C|C|C|}
 \hline
 n&x_n&y_n&0.12x_n&0.1x_{n+1}&1.22y_n&y_{n+1}\\
@@ -160,7 +158,7 @@ n&x_n&y_n&0.12x_n&0.1x_{n+1}&1.22y_n&y_{n+1}\\
 5&1.0&0.7027&&&&\\
 \hline
 \end{tabular}
-%\end{otherlanguage}
+
 \end{table}
 \انتہا{مثال}
 %======================
@@ -237,7 +235,6 @@ y_{n+1}=y_n+0.2214(x_n+y_n)+0.0214
 \caption{ترکیب رنج کوٹا (مثال \حوالہ{مثال_اعدادی_رنج_کوٹا_الف})}
 \label{جدول_مثال_اعدادی_رنج_کوٹا_الف}
 \centering
-%\begin{otherlanguage}{english}
 \begin{tabular}{|C|C|C|C|C|C|}
 \hline
 n&x_n&y_n&x_n+y_n&0.2214(x_n+y_n)&y_{n+1}\\
@@ -250,19 +247,18 @@ n&x_n&y_n&x_n+y_n&0.2214(x_n+y_n)&y_{n+1}\\
 5&1.0&\num{0.718251}&&&\\
 \hline
 \end{tabular}
-%\end{otherlanguage}
+
 \end{table}
 %
 \begin{table}
 \caption{جدول \حوالہ{جدول_مثال_اعدادی_ترکیب_یولر_الف}، جدول \حوالہ{جدول_مثال_اعدادی_بہتر_ترکیب_یولر_الف} اور جدول \حوالہ{جدول_مثال_اعدادی_رنج_کوٹا_الف} میں خلل کا موازنہ}
 \label{جدول_اعدادی_یولر_بہتر_یولر_اور_رنج_کوٹا_موازنہ}
 \centering
-%\begin{otherlanguage}{english}
 \begin{tabular}{|C|C|C|C|C|}
 \hline
-\multirow{2}{*}{$x$}&\multirow{2}{*}{$y=e^x-x-1$}&\multicolumn{3}{C|}{\text{\RL{\urdufont{خلل کی مطلق قیمت}}}}\\
+\multirow{2}{*}{$x$}&\multirow{2}{*}{$y=e^x-x-1$}&\multicolumn{3}{C|}{\text{\RL{{خلل کی مطلق قیمت}}}}\\
 \cline{3-5}
-&&\text{\RL{\urdufont{ترکیب یولر}}}&\text{\RL{\urdufont{بہتر ترکیب یولر}}}&\text{\RL{\urdufont{ترکیب رنج کوٹا}}}\\
+&&\text{\RL{{ترکیب یولر}}}&\text{\RL{{بہتر ترکیب یولر}}}&\text{\RL{{ترکیب رنج کوٹا}}}\\
 \hline
 0.2&\num{0.021403}&\num{0.021}&\num{0.0014}&\num{0.000003}\\
 0.4&\num{0.091825}&\num{0.052}&\num{0.0034}&\num{0.000007}\\
@@ -271,14 +267,14 @@ n&x_n&y_n&x_n+y_n&0.2214(x_n+y_n)&y_{n+1}\\
 1.0&\num{0.718282}&\num{0.229}&\num{0.0156}&\num{0.000031}\\
 \hline
 \end{tabular}
-%\end{otherlanguage}
+
 \end{table}
 \انتہا{مثال}
 %=====================
 
 \اصطلاح{لمبائی قدم}\فرہنگ{قدم!لمبائی}\حاشیہب{step length}\فرہنگ{step!length} \عددی{h} ایک مخصوص قیمت \عددی{H}، جو درستگی پر منحصر ہے، سے زیادہ نہیں ہونی چاہیے اور اس کی قیمت یوں منتخب کرنی چاہیے کہ
 \begin{align*}
-\kappa=hK\quad \quad (\text{\RL{\urdufont{\عددی{\abs{\tfrac{\partial f}{\partial y}}} کی بالائی حد \عددی{K} ہے}}})
+\kappa=hK\quad \quad (\text{\RL{{\عددی{\abs{\tfrac{\partial f}{\partial y}}} کی بالائی حد \عددی{K} ہے}}})
 \end{align*}
 کی قیمت \عددی{0.1} اور \عددی{0.2} کے بیچ ہو (جیسا بہتر ترکیب یولر میں تھا)۔ ترکیب رنج کوٹا میں ہم \عددی{h} کو \عددی{A_n}، \عددی{B_n}، \عددی{C_n} سے قابو کر سکتے ہیں چونکہ \عددی{f_y} کی تعریف کی رو سے 
 \begin{align*}
@@ -511,10 +507,12 @@ y'_{n+1}&=y_n'+0.2y_n''
 \caption{جدول برائے مثال \حوالہ{مثال_اعدادی_دو_درجی_سادہ_الف}}
 \label{جدول_مثال_اعدادی_دو_درجی_سادہ_الف}
 \centering
-%\begin{otherlanguage}{english}
-\begin{tabular}{|C|C|C|C|C|p{15mm}|C|C|p{10mm}|}
+
+%\begin{tabular}{|C|C|C|C|C|p{15mm}|C|C|p{10mm}|}
+\begin{tabular}{|C|C|C|C|C|C|C|C|C|}
 \hline
-n&x_n&y_n&y_n'&0.2y_n'&$x_n+y_n+y_n'+2$&0.2y_n''&0.02y_n''&$0.2y_n'+0.02y_n''$\\
+n&x_n&y_n&y_n'&0.2y_n'&x_n+y_n+&0.2y_n''&0.02y_n''&0.2y_n'+\\
+&&&&&\phantom{x_n+}y_n'+2&&&\phantom{0.0}0.02y_n''\\
 \hline\Tstrut
 0&0&0.0000&0.0000&0.0000&2.0000&0.2000&0.0200&0.0200\\
 1&0.2&0.0200&0.2000&0.0400&2.4200&0.2420&0.0242&0.0642\\
@@ -524,7 +522,7 @@ n&x_n&y_n&y_n'&0.2y_n'&$x_n+y_n+y_n'+2$&0.2y_n''&0.02y_n''&$0.2y_n'+0.02y_n''$\\
 5&1.0&0.6446&&&&&&\\
 \hline
 \end{tabular}
-%\end{otherlanguage}
+
 \end{table}
 \انتہا{مثال}
 %========================
@@ -598,7 +596,6 @@ c^*&=\num{0.2214030}
 \caption{جدول برائے مثال \حوالہ{مثال_اعدادی_نیستروم_الف}}
 \label{جدول_مثال_اعدادی_نیستروم_الف}
 \centering
-%\begin{otherlanguage}{english}
 \begin{tabular}{|C|C|C|C|p{20mm}|p{22mm}|}
 \hline
 n&x_n&y_n&y_n'  &  $a(x_n+y_n)+by_n'+c$  &  $a^*(x_n+y_n)+b^*y_n'+c^*$  \\
@@ -611,19 +608,18 @@ n&x_n&y_n&y_n'  &  $a(x_n+y_n)+by_n'+c$  &  $a^*(x_n+y_n)+b^*y_n'+c^*$  \\
 5&1.0&\num{0.7182668}&\num{1.7182812}&&\\
 \hline
 \end{tabular}
-%\end{otherlanguage}
+
 \end{table} 
 %
 \begin{table}
 \caption{مثال \حوالہ{مثال_اعدادی_دو_درجی_سادہ_الف} اور مثال \حوالہ{مثال_اعدادی_نیستروم_الف} کے نتائج کا موازنہ}
 \label{جدول_مثال_اعدادی_نیستروم_ب}
 \centering
-%\begin{otherlanguage}{english}
 \begin{tabular}{|C|C|CC|}
 \hline
-\multirow{2}{*}{$x$}&\multirow{2}{*}{$e^x-x-1$}&\multicolumn{2}{C|}{\text{\RL{\urdufont{خلل کی مطلق قیمت}}}}\\
+\multirow{2}{*}{$x$}&\multirow{2}{*}{$e^x-x-1$}&\multicolumn{2}{C|}{\text{\RL{{خلل کی مطلق قیمت}}}}\\
 \cline{3-4}
-&&\text{\RL{\urdufont{مثال \حوالہ{مثال_اعدادی_دو_درجی_سادہ_الف}}}}& \text{\RL{\urdufont{جدول \حوالہ{جدول_مثال_اعدادی_نیستروم_الف}}}}\\
+&&\text{\RL{{مثال \حوالہ{مثال_اعدادی_دو_درجی_سادہ_الف}}}}& \text{\RL{{جدول \حوالہ{جدول_مثال_اعدادی_نیستروم_الف}}}}\\
 \hline
 0.2&\num{0.0214028}&\num{0.0014}&\num{0.0000020}\\
 0.4&\num{0.0918247}&\num{0.0076}&\num{0.0000043}\\
@@ -632,7 +628,7 @@ n&x_n&y_n&y_n'  &  $a(x_n+y_n)+by_n'+c$  &  $a^*(x_n+y_n)+b^*y_n'+c^*$  \\
 1.0&\num{0.7182818}&\num{0.0737}&\num{0.0000150}\\
 \hline
 \end{tabular}
-%\end{otherlanguage}
+
 \end{table}
 \انتہا{مثال}
 %===========================
@@ -770,7 +766,7 @@ Au_{xx}+2Bu_{xy}+Cu_{yy}=F(x,y,u,u_x,u_y)
 \draw(0,-1)node[ocirc]{}node[below]{$(x,y-k)$}--(0,1)node[ocirc]{}node[above]{$(x,y+k)$};
 \draw(0,0)node[ocirc]{}node[below right]{$(x,y)$};
 \end{tikzpicture}
-\caption{(مساوات \حوالہ{مساوات_اعدادی_جزوی_عمومی_ٹ} اور مساوات \حوالہ{مساوات_اعدادی_جزوی_عمومی_ث} میں استعمال نقطے}
+\caption{(مساوات \حوالہ{مساوات_اعدادی_جزوی_عمومی_ٹ} اور مساوات \حوالہ{مساوات_اعدادی_جزوی_عمومی_ث} میںمستعمل نقطے}
 \label{شکل_اعدادی_جزوی_تفرق_نقطے}
 \end{minipage}\hfill
 \begin{minipage}[t]{0.45\textwidth}
@@ -780,9 +776,9 @@ Au_{xx}+2Bu_{xy}+Cu_{yy}=F(x,y,u,u_x,u_y)
 \draw(0,-1)node[ocirc]{}node[below]{$(x,y-h)$}--(0,1)node[ocirc]{}node[above]{$(x,y+h)$};
 \draw(0,0)node[ocirc]{}node[below right]{$(x,y)$};
 \end{tikzpicture}
-\caption{(مساوات \حوالہ{مساوات_اعدادی_جزوی_عمومی_ج} اور مساوات \حوالہ{مساوات_اعدادی_جزوی_عمومی_چ} میں استعمال نقطے}
+\caption{(مساوات \حوالہ{مساوات_اعدادی_جزوی_عمومی_ج} اور مساوات \حوالہ{مساوات_اعدادی_جزوی_عمومی_چ} میں  مستعمل نقطے}
 \label{شکل_اعدادی_جزوی_تفرق_نقطے_پوئسن_لاپلاس}
-\end{minipage}%
+\end{minipage}
 \end{figure}
 
 ہم  مساوات \حوالہ{مساوات_اعدادی_جزوی_عمومی_ث}-الف اور مساوات \حوالہ{مساوات_اعدادی_جزوی_عمومی_ث}-ب کو مساوات پوئسن (مساوات \حوالہ{مساوات_اعدادی_جزوی_عمومی_پ}) میں پر کرتے  ہوئے
@@ -855,8 +851,8 @@ u_{i+1,j}+u_{i,j+1}+u_{i-1,j}+u_{i,j-1}-4u_{ij}=0
 \draw[stealth-] (2,1) to [out=0,in=180] ++(0.3,0.1) node[right]{$u=100$};
 \draw[stealth-] (1,2) to [out=90,in=180] ++(0.3,0.5) node[right]{$u=0$};
 \end{tikzpicture}
-\caption*{(الف) دیا گیا مسئلہ}
-\end{subfigure}%
+\caption{ دیا گیا مسئلہ}
+\end{subfigure} \hfill
 \begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
@@ -878,8 +874,8 @@ u_{i+1,j}+u_{i,j+1}+u_{i-1,j}+u_{i,j-1}-4u_{ij}=0
 \draw(0,1)node[above,rotate=90]{$u=100$};
 \draw(2,1)node[below,rotate=90]{$u=100$};
 \end{tikzpicture}
-\caption*{(ب) جال اور جوڑ}
-\end{subfigure}%
+\caption{ جال اور جوڑ}
+\end{subfigure} \hfill
 \caption{شکل برائے مثال \حوالہ{مثال_اعدادی_لیبمن_چادر_حراری}}
 \label{شکل_مثال_اعدادی_لیبمن_چادر_حراری}
 \end{figure}
@@ -1146,7 +1142,7 @@ $-2,\,-5,\,-5,\,-62$
 \foreach \x in {1}{\draw(\x,0)--++(0,3);}
 \foreach \y in {1,2}{\draw(0,\y)--++(2,0) (1,\y)node[ocirc]{}node[shift={(0.3,0.2)},font=\small]{$N_{1\y}$};}
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} \hfill
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
@@ -1160,7 +1156,7 @@ $-2,\,-5,\,-5,\,-62$
 \foreach \x in {0.5,1,1.5}{\draw(\x,0)--++(0,3);}
 \foreach \y in {1,2,3,4,5}{\draw(0,\y/2)--++(2,0) (0.5,\y/2)node[ocirc]{}node[shift={(0.2,0.2)},font=\small]{${1\y}$}   (1,\y/2)node[ocirc]{}node[shift={(0.2,0.2)},font=\small]{${2\y}$}  (1.5,\y/2)node[ocirc]{}node[shift={(0.2,0.2)},font=\small]{${3\y}$};}
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} \hfill
 \caption{شکل برائے سوال \حوالہ{سوال_اعدادی_برقی_سکون_ت}}
 \label{شکل_سوال_اعدادی_برقی_سکون_ت}
 \end{figure}
@@ -1224,8 +1220,8 @@ $0.1083,\,0.3248$
 \draw[stealth-](0,1) to [out=180,in=20] ++(-0.5,-0.1)node[left]{$u=0$};
 \draw[stealth-](3,1) to [out=0,in=180]++(0.3,0.1)node[right]{$u=3y^3$};
 \end{tikzpicture}
-\caption*{(الف) خطہ \عددی{R} اور سرحدی قیمتیں}
-\end{subfigure}%
+\caption{ خطہ \عددی{R} اور سرحدی قیمتیں}
+\end{subfigure} \hfill
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
@@ -1246,8 +1242,8 @@ $0.1083,\,0.3248$
 \fill[white](2,2) circle (1.5pt);
 \draw(2,2)node[kcross]{}node[shift={(0.3,0.2)},font=\small]{$N_{22}$}node[shift={(0.47,-0.2)},font=\small]{$u_n=6$};
 \end{tikzpicture}
-\caption*{(ب) جال}
-\end{subfigure}%
+\caption{ جال}
+\end{subfigure} \hfill
 \caption{اشکال برائے مثال \حوالہ{مثال_اعدادی_پوئسن_مخلوط_سرحدی_الف}}
 \label{شکل_مثال_اعدادی_پوئسن_مخلوط_سرحدی_الف}
 \end{figure}
@@ -1763,8 +1759,7 @@ u_{10}=\sin 0.2\pi=\num{0.587785},\quad u_{20}=\sin 0.4\pi=\num{0.951057}
 ہو گا جس کا حل \عددی{u_{12}=\num{0.271221}} اور \عددی{u_{22}=\num{0.438845}} ہے۔اسی طرح باقی  (درج ذیل) قیمتیں حاصل کی جائیں گی جنہیں شکل \حوالہ{شکل_مثال_اعدادی_کرینک_نکلسن_حرارت} میں دکھایا گیا ہے۔
 \begin{align*}
 \centering
-%\begin{otherlanguage}{english}
-\begin{array}{CCCCCCC}
+\begin{array}{ccccccc}
 t&x=0&x=0.2&x=0.4&x=0.6&x=0.8&x=1\\
 &&&&&&\\
 0.00&0&0.588&0.951&0.951&0.588&0\\
@@ -1774,13 +1769,12 @@ t&x=0&x=0.2&x=0.4&x=0.6&x=0.8&x=1\\
 0.16&0&0.125&0.202&0.202&0.125&0\\
 0.20&0&0.085&0.138&0.138&0.085&0
 \end{array}
-%\end{otherlanguage}
 \end{align*} 
 %
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[axis lines*=middle,small,xtick={0,0.5,1},xticklabels={$0$,$0.5$,$1$},ytick={0,0.5,1},yticklabels={$0$,$0.5$,$1$},xlabel={$x$},ylabel={$u(x,t)$},xlabel style={at=(current axis.right of origin)},anchor=north east,ylabel style={rotate=-90},ylabel style={at=(current axis.above origin)},anchor=north east]
+\begin{axis}[myStyleA,xtick={0,0.5,1},xticklabels={$0$,$0.5$,$1$},ytick={0,0.5,1},yticklabels={$0$,$0.5$,$1$},xlabel={$x$},ylabel={$u(x,t)$}]
 \addplot[domain=0:1] {sin(180*x)*e^(-pi^2*0)}node[pos=0.5,above,font=\small]{$t=0$};
 \addplot[domain=0:1] {sin(180*x)*e^(-pi^2*0.04)}node[pos=0.5,above,font=\small]{$t=0.04$};
 \addplot[domain=0:1] {sin(180*x)*e^(-pi^2*0.08)}node[pos=0.5,above,font=\small]{$t=0.08$};
@@ -1822,11 +1816,11 @@ u_{22}&=0.25(u_{11}+3u_{21})=\num{0.778094}
 اسی طرح باقی قیمتیں حاصل کی جاتی ہیں۔ہمیں \عددی{20} قدم لینے ہوں گے لیکن درج ذیل اعدادی نتائج کے تحت درستگی تقریباً  وہی ہے جو کرینک نکلسن ترکیب سے حاصل ہوئی ہے (تین اعشاریہ تک بالکل درست قیمتیں بھی دی گئی ہیں)۔
 \begin{align*}
 \centering
-%\begin{otherlanguage}{english}
-\begin{array}{C|CCC|CCC}
+\begin{array}{c|ccc|ccc}
 \hline
 \multirow{2}{*}{$t$}&&x=0.2&&&x=0.4&\\
-&\text{\RL{\urdufont{کرینک نکلسن}}}&\text{\RL{\urdufont{مساوات \حوالہ{مساوات_اعدادی_مثال_کرینک_نکلسن}}}}&\text{\urdufont{درست}}&\text{\RL{\urdufont{کرینک نکلسن}}}&\text{\RL{\urdufont{مساوات \حوالہ{مساوات_اعدادی_مثال_کرینک_نکلسن}}}}&\text{\urdufont{درست}}\\
+&\text{\RL{{کرینک نکلسن}}}&\text{\RL{{مساوات \حوالہ{مساوات_اعدادی_مثال_کرینک_نکلسن}}}}&\text{\RL{درست}}&\text{\RL{{کرینک نکلسن}}}&
+\text{\RL{{مساوات \حوالہ{مساوات_اعدادی_مثال_کرینک_نکلسن}}}}&\text{\RL{درست}}\\
 \hline
 0.04&0.399&0.393&0.396&0.646&0.637&0.641\\
 0.08&0.271&0.263&0.267&0.439&0.426&0.432\\
@@ -1835,7 +1829,6 @@ u_{22}&=0.25(u_{11}+3u_{21})=\num{0.778094}
 0.20&0.085&0.079&0.082&0.138&0.128&0.132\\
 \hline
 \end{array}
-%\end{otherlanguage}
 \end{align*}
 
 \موٹا{مساوات \حوالہ{مساوات_اعدادی_حراری_ث} مطمئن نہ ہونے کی صورت میں مساوات \حوالہ{مساوات_اعدادی_حراری_ٹ} کی نا کامی:} \عددی{h=0.2} اور \عددی{r=1} لینے سے مساوات \حوالہ{مساوات_اعدادی_حراری_ث} مطمئن نہیں ہو گا جبکہ مساوات \حوالہ{مساوات_اعدادی_حراری_ٹ} درج ذیل صورت اختیار کرے گی
@@ -1845,33 +1838,29 @@ u_{i,j+1}=u_{i-1,j}-u{ij}+u_{i+1,j}
 جو درج ذیل نتائج دیتی ہے جو زیادہ درست نہیں ہیں۔
 \begin{align*}
 \centering
-%\begin{otherlanguage}{english}
-\begin{array}{C|CC|CC}
+\begin{array}{c|cc|cc}
 \hline
-t&x=0.2&\text{\urdufont{درست}}&x=0.4&\text{\urdufont{درست}}\\
+t&x=0.2&\text{{درست}}&x=0.4&\text{{درست}}\\
 \hline
 0.04&0.363&0.396&0.588&0.641\\
 0.12&0.139&0.180&0.225&0.291\\
 0.20&0.053&0.082&0.086&0.132\\
 \hline
 \end{array}
-%\end{otherlanguage}
 \end{align*}
 
 \عددی{h=0.2} رکھتے ہوئے \عددی{r} کی مزید بڑی قیمت \عددی{r=2.5} لینے سے مساوات \حوالہ{مساوات_اعدادی_حراری_ٹ} بے معنی نتائج دیتی ہے۔چند نتائج درج ذیل ہیں۔
 \begin{align*}
 \centering
-%\begin{otherlanguage}{english}
-\begin{array}{C|CC|CC}
+\begin{array}{c|cc|cc}
 \hline
-t&x=0.2&\text{\urdufont{درست}}&x=0.4&\text{\urdufont{درست}}\\
+t&x=0.2&\text{{درست}}&x=0.4&\text{{درست}}\\
 \hline
 0.1&0.0265&0.2191&0.0429&0.3545\\
 0.3&0.0001&0.0304&0.0001&0.0492\\
 0.5&0.0018&0.0042&-0.0011&0.0068\\
 \hline
 \end{array}
-%\end{otherlanguage}
 \end{align*}
 \انتہا{مثال}
 %=============================
@@ -1949,10 +1938,10 @@ u_{0,j+1}=(1-2r)u_{0j}+2ru_{1j}
 \حصہ{اعدادی تراکیب برائے قطع زائد مساوات}
 اس حصہ میں ہم مساوات موج اور مطلوبہ شرائط
 \begin{align}
-u_{tt}&=u_{xx}\quad \quad \quad 0\le x\le 1,\, t>0\label{مساوات_اعدادی_موج_الف}\\
-u(x,0)&=f(x)\quad \quad \quad \text{\RL{(ابتدائی ہٹاو)}}\label{مساوات_اعدادی_موج_ب}\\
-u_t(x,0)&=g(x)\quad\quad \quad \text{\RL{(ابتدائی سمتی رفتار)}}\label{مساوات_اعدادی_موج_پ}\\
-u(0,t)&=u(1,t)=0\quad\quad\quad \text{\RL{(سرحدی شرائط)}}\label{مساوات_اعدادی_موج_ت}
+u_{tt}&=u_{xx}&& 0\le x\le 1,\, t>0\label{مساوات_اعدادی_موج_الف}\\
+u(x,0)&=f(x) &&\text{\RL{(ابتدائی ہٹاو)}}\label{مساوات_اعدادی_موج_ب}\\
+u_t(x,0)&=g(x)&&\text{\RL{(ابتدائی سمتی رفتار)}}\label{مساوات_اعدادی_موج_پ}\\
+u(0,t)&=u(1,t)=0 &&\text{\RL{(سرحدی شرائط)}}\label{مساوات_اعدادی_موج_ت}
 \end{align}
  کو مثال بناتے ہوئے  قطع زائد مساوات کے اعدادی حل پر غور کریں گے۔یاد رہے کہ \عددی{x} کے کسی بھی وقفہ اور مساوات  \عددی{u_{tt}=c^2u_{xx}} کو \عددی{x} اور \عددی{t} کے موزوں خطی تبادل سے (سوال \حوالہ{سوال_اعدادی_غیر_بعدی_معیاری_حراری_مساوات} کے تبادل کی طرح) مساوات \حوالہ{مساوات_اعدادی_موج_الف} میں تبدیل کیا جا سکتا ہے۔
 
@@ -1978,8 +1967,8 @@ u_{i,j+1}=u_{i-1,j}+u_{i+1,j}-u_{i,j-1}
 \draw (-1,0)node[kcross]{}   (0,0)node[kcross]{} (1,0)node[kcross]{} (0,-1)node[kcross]{} (0,1)node[kcross]{};
 \draw (-0.5,0)node[below]{$h$}  (0.5,0)node[below]{$h$} (0,-0.5)node[right]{$k$}  (0,0.5)node[right]{$k$};
 \end{tikzpicture}
-\caption*{(الف) مساوات \حوالہ{مساوات_اعدادی_موج_ٹ}}
-\end{subfigure}%
+\caption{ مساوات \حوالہ{مساوات_اعدادی_موج_ٹ}}
+\end{subfigure} \hfill
 \begin{subfigure}{0.3\textwidth}
 \centering
 \begin{tikzpicture}
@@ -1987,7 +1976,7 @@ u_{i,j+1}=u_{i-1,j}+u_{i+1,j}-u_{i,j-1}
 \draw(0,0)node[]{\RL{صف وقت \عددی{j}}};
 \draw(0,-1)node[]{\RL{صف وقت \عددی{j-1}}};
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} \hfill
 \begin{subfigure}{0.3\textwidth}
 \centering
 \begin{tikzpicture}
@@ -1996,8 +1985,8 @@ u_{i,j+1}=u_{i-1,j}+u_{i+1,j}-u_{i,j-1}
 \fill[white](-1,0) circle (1.5pt)  (0,0) circle (1.5pt) (1,0) circle (1.5pt)  (0,-1) circle (1.5pt)  (0,1) circle (2.5pt); 
 \draw (-1,0)node[kcross]{}  (1,0)node[kcross]{} (0,-1)node[kcross]{} (0,1)node[circ]{};
 \end{tikzpicture}
-\caption*{(ب) مساوات \حوالہ{مساوات_اعدادی_موج_ث}}
-\end{subfigure}%
+\caption{ مساوات \حوالہ{مساوات_اعدادی_موج_ث}}
+\end{subfigure} \hfill
 \caption{مساوات \حوالہ{مساوات_اعدادی_موج_ٹ} اور مساوات \حوالہ{مساوات_اعدادی_موج_ث} میں استعمال ہونے والے جوڑ}
 \label{مساوات_اعدادی_مساوات_موج_الف}
 \end{figure}
@@ -2039,8 +2028,7 @@ u_{22}&=u_{11}+u_{31}-u_{20}=\num{0.475528}-\num{0.769421}-\num{0.951057}=\num{0
 حاصل ہوں گے اور تشاکل کی بنا \عددی{u_{32}=u_{22}} اور \عددی{u_{42}=u_{12}} ہوں گے۔اسی طرح باقی قیمتیں بھی حاصل کی جاتی ہیں۔یوں دھاگے کی پہلی نصف ارتعاش کے لئے ہٹاو \عددی{u(x,t)} کی درج ذیل قیمتیں حاصل ہوں گی۔
 \begin{align*}
 \centering
-%\begin{otherlanguage}{english}
-\begin{array}{CCRRRRC}
+\begin{array}{ccrrrrc}
 t&x=0&x=0.2&x=0.4&x=0.6&x=0.8&x=1\\
 \hline
 0.0&0&0.588&0.951&0.951&0.588&0\\
@@ -2050,7 +2038,6 @@ t&x=0&x=0.2&x=0.4&x=0.6&x=0.8&x=1\\
 0.8&0&-0.476&-0.769&-0.769&-0.476&0\\
 1.0&0&-0.588&-0.951&-0.951&-0.588&0
 \end{array}
-%\end{otherlanguage}
 \end{align*}
 یہ قیمتیں بالکل درست ہیں۔اس مسئلے کا درست حل درج ذیل ہے (حصہ \حوالہ{حصہ_جزوی_علیحدگی_متغیرات})۔
 \begin{align*}

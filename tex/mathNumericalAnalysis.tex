@@ -101,7 +101,7 @@ x_0=\num{3.000},\quad x_1=\num{2.667},\quad x_2=\num{2.625},\quad x_3=\num{2.619
 حاصل ہوتا ہے (شکل \حوالہ{مثال_اعدادی_دہرانا_الف}-ب)۔شکل کو دیکھ کر واضح ہوتا ہے کہ مرکوزیت اس صورت ہو گی جب حل کی پڑوس میں منحنی \عددی{g(x)} کی ڈھلوان سیدھے خط \عددی{y=x} کی ڈھلوان سے کم ہو۔ہم اب دیکھتے ہیں کہ مرکوزیت کے لئے \عددی{\abs{g'(x)<1}}  کی شرط کافی ہے (جہاں خط \عددی{y=x} کی ڈھلوان \عددی{y'=1} ہے)۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--(5,0)node[below]{$x$};
@@ -116,9 +116,9 @@ x_0=\num{3.000},\quad x_1=\num{2.667},\quad x_2=\num{2.625},\quad x_3=\num{2.619
 \foreach \x in {1,2,3,4}{\draw(\x,0)node[below]{$\x$}--++(0,0.2);}
 \foreach \y in {1,2,3,4}{\draw(0,\y)node[left]{$\y$}--++(0.2,0);}
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--(5,0)node[below]{$x$};
@@ -133,8 +133,8 @@ x_0=\num{3.000},\quad x_1=\num{2.667},\quad x_2=\num{2.625},\quad x_3=\num{2.619
 \foreach \x in {1,2,3,4}{\draw(\x,0)node[below]{$\x$}--++(0,0.2);}
 \foreach \y in {1,2,3,4}{\draw(0,\y)node[left]{$\y$}--++(0.2,0);}
 \end{tikzpicture}
-\caption*{(ب)}
-\end{subfigure}%
+\caption{}
+\end{subfigure} \hfill
 \caption{اشکال برائے مثال \حوالہ{مثال_اعدادی_دہرانا_الف}}
 \label{شکل_مثال_اعدادی_دہرانا_الف}
 \end{figure}
@@ -517,7 +517,7 @@ x_0,\quad x_1=x_0+h,\quad x_2=x_0+2h,\quad x_3=x_0+3h,\cdots \quad (h>0, \text{�
 \begin{otherlanguage}{english}
 \begin{tabular}{|RR | RRRR|}
 \toprule
-x&f(x)=x^3&\text{\urdufont{\RL{پہلا فرق}}}& \text{\urdufont{\RL{دوسرا فرق}}}&\text{\urdufont{\RL{تیسرا فرق}}}&\text{\urdufont{\RL{چوتھا فرق}}}\\
+x&f(x)=x^3&\text{{\RL{پہلا فرق}}}& \text{{\RL{دوسرا فرق}}}&\text{{\RL{تیسرا فرق}}}&\text{{\RL{چوتھا فرق}}}\\
 \midrule 
 -3&-27&&&&\\
 &&19&&&\\
@@ -545,7 +545,7 @@ x&f(x)=x^3&\text{\urdufont{\RL{پہلا فرق}}}& \text{\urdufont{\RL{دوسر�
 \begin{otherlanguage}{english}
 \begin{tabular}{|RR | RRR|}
 \toprule
-x&f(x)=x^3&\text{\urdufont{\RL{پہلا فرق}}}& \text{\urdufont{\RL{دوسرا فرق}}}&\text{\urdufont{\RL{تیسرا فرق}}}\\
+x&f(x)=x^3&\text{{\RL{پہلا فرق}}}& \text{{\RL{دوسرا فرق}}}&\text{{\RL{تیسرا فرق}}}\\
 \midrule
 1.0&1.0000&&&\\
 &&-1667&&\\
@@ -652,7 +652,8 @@ x_2&f_2&&&
 \begin{otherlanguage}{english}
 \begin{tabular}{|R|RRRR|RRRR|RRRR|}
 \toprule
-x&\sqrt{x}&\multicolumn{3}{C|}{\text{\urdufont{فرق}}} &\sqrt{x}&\multicolumn{3}{C|}{\text{\urdufont{فرق}}}&\multicolumn{4}{C|}{\text{\urdufont{غلطی \عددی{\epsilon} کا پھیلنا}}}\\
+x&\sqrt{x}&\multicolumn{3}{C|}{\text{\RL{فرق}}} &\sqrt{x}&\multicolumn{3}{C|}{\text{\RL{فرق}}}&
+\multicolumn{4}{C|}{\text{\RL{غلطی \عددی{\epsilon} کا پھیلنا}}}\\
 \midrule
 2.0&1.4142&&&&1.41412&&&&&&&\\
 &&349&&&&349&&&&&&\\
@@ -701,7 +702,7 @@ p_2(x)=-0.0350x^2+0.4915x+0.5713
 \begin{otherlanguage}{english}
 \begin{tabular}{|R|RRR|}
 \toprule
-x&p_2(x)&\multicolumn{2}{C|}{\text{\urdufont{فرق}}}\\
+x&p_2(x)&\multicolumn{2}{C|}{\text{{فرق}}}\\
 \midrule
 2.0&1.4143&&\\
 &&348&\\
@@ -975,7 +976,7 @@ x&9.0&9.5&10.0&11.0\\
 \centering
 \begin{otherlanguage}{english}
 \begin{tabular}{CCCCC}
-x&\sin x&\phantom{xx}&\text{\RL{\urdufont{پہلا فرق}}}&\text{\RL{\urdufont{دوسرا فرق}}}\\
+x&\sin x&\phantom{xx}&\text{\RL{{پہلا فرق}}}&\text{\RL{{دوسرا فرق}}}\\
 \midrule
 0.0&\num{0.00000}&&&\\
 &&&\num{19867}&\\
@@ -1170,7 +1171,7 @@ g(x)=
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[height=4cm,small,axis lines*=middle,xtick={-1,-0.5,0.5,1},xticklabels={$-1$,,,$1$},ytick={0.5,1},yticklabels={,$1$},xlabel={$x$},ylabel=\empty,x label style={at={(current axis.right of origin)},anchor=west}]
+\begin{axis}[height=4cm,,myStyleA,xtick={-1,-0.5,0.5,1},xticklabels={$-1$,,,$1$},ytick={0.5,1},yticklabels={,$1$},xlabel={$x$},ylabel=\empty,]
 \addplot[domain=-1:1] {x^4};
 \addplot[dashed,domain=-1:0] {-2*x^3-x^2};
 \addplot[dashed,domain=0:1] {2*x^3-x^2};
@@ -1311,7 +1312,7 @@ J=\int_a^b f(x)\dif x\approx h[f(x_1^*)+f(x_2^*)+\cdots+f(x_n^*)],\quad \big(h=\
 %
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\s}{0.5}
@@ -1349,9 +1350,9 @@ J=\int_a^b f(x)\dif x\approx h[f(x_1^*)+f(x_2^*)+\cdots+f(x_n^*)],\quad \big(h=\
 \draw(\ss+\k+\k/2,0)node[below]{$x_n^*$}--++(0,0.1);
 \foreach \x in {2.2,2.5,2.75}{\draw(\x,0.5)node[circ,fill=black]{};}
 \end{tikzpicture}
-\caption*{(الف) مستطیل قاعدہ}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ مستطیل قاعدہ}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\s}{0.5}
@@ -1378,8 +1379,8 @@ J=\int_a^b f(x)\dif x\approx h[f(x_1^*)+f(x_2^*)+\cdots+f(x_n^*)],\quad \big(h=\
 %
 \foreach \x in {2.2,2.5,2.75}{\draw(\x,0.5)node[circ,fill=black]{};}
 \end{tikzpicture}
-\caption*{(ب) ذوزنقہ قاعدہ}
-\end{subfigure}%
+\caption{ ذوزنقہ قاعدہ}
+\end{subfigure} \hfill
 \caption{اعدادی تکمل}
 \label{شکل_اعدادی_تکمل_مستطیل_ذوزنقہ}
 \end{figure}
@@ -1472,7 +1473,7 @@ M_2^*=f''(0)=-2,\quad  M_2=f''(1)=\num{0.735759}
 &&&&\\
 10&1.0&1.00&\num{0.367879}&\\
 \midrule
-\multicolumn{2}{C}{}&\multicolumn{1}{C}{\text{\urdufont{مجموعہ}}}&\multicolumn{1}{C}{\num{1.367879}}&\multicolumn{1}{C}{\num{6.778167}}\Tstrut\\
+\multicolumn{2}{C}{}&\multicolumn{1}{C}{\text{{مجموعہ}}}&\multicolumn{1}{C}{\num{1.367879}}&\multicolumn{1}{C}{\num{6.778167}}\Tstrut\\
 \bottomrule
 \end{tabular}
 \end{otherlanguage}
@@ -1537,7 +1538,7 @@ j&x_j&x^2_j&\multicolumn{3}{C}{e^{-x^2_j}}\\
 9&0.9&0.81&&\num{0.444858}&\\
 10&1.0&1.00&\num{0.367879}&&\\
 \midrule
-\multicolumn{1}{C}{\text{\urdufont{مجموعہ}}}&\multicolumn{2}{C}{}&\multicolumn{1}{C}{\num{1.367879}}&\multicolumn{1}{C}{\num{3.740266}}&\multicolumn{1}{C}{\num{3.037901}}\Tstrut\\
+\multicolumn{1}{C}{\text{{مجموعہ}}}&\multicolumn{2}{C}{}&\multicolumn{1}{C}{\num{1.367879}}&\multicolumn{1}{C}{\num{3.740266}}&\multicolumn{1}{C}{\num{3.037901}}\Tstrut\\
 \bottomrule
 \end{tabular}
 \end{otherlanguage}

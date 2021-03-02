@@ -82,7 +82,7 @@ y=cx \implies (cx)=(c)x
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[xlabel={$t$},ylabel={$y$},ylabel style={rotate=-90},xtick={-180,0,180,360},xticklabels={$-\pi$,$0$,$\pi$,$2\pi$},ytick={-6,-3,0,3,6},yticklabels={$-6$,$-3$,$0$,$3$,$6$}]
+\begin{axis}[,xlabel={$t$},ylabel={$y$},xtick={-180,0,180,360},xticklabels={$-\pi$,$0$,$\pi$,$2\pi$},ytick={-6,-3,0,3,6},yticklabels={$-6$,$-3$,$0$,$3$,$6$},myStyleA,]
 \addplot[domain=-200:380,samples=100] {6-sin(x)};
 \addplot[domain=-200:380,samples=100] {3-sin(x)};
 \addplot[domain=-200:380,samples=100] {-sin(x)};
@@ -105,30 +105,30 @@ y'=\frac{\dif y}{\dif t}=k ce^{kt}=ky
 منفی \عددی{k} کی صورت میں \عددی{y=ce^{kt}} قوت نمائی گھٹاو مثلاً \اصطلاح{تابکاری تحلیل}\فرہنگ{تابکاری تحلیل}\فرہنگ{تحلیل!تابکاری}\حاشیہب{radioactive decay}\فرہنگ{radioactive decay} کو ظاہر کرتی ہے۔مستقل \عددی{c} کے مختلف مثبت قیمتوں اور \عددی{k=-0.15} کے خطوط کو شکل \حوالہ{شکل_مثال_تفرقی_اول_مالتُھس_الف}-ب میں دکھایا گیا ہے۔ مثال \حوالہ{مثال_اول_سادہ_تابکاری_الف} میں تابکاری تحلیل کے مسئلے پر مزید غور کیا گیا ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\begin{axis}[,xlabel={$t$},ylabel={$y$},myStyleA,]
 \addplot[domain=0:20]{2*e^(0.15*x)};
 \addplot[domain=0:20]{1.5*e^(0.15*x)};
 \addplot[domain=0:20]{1*e^(0.15*x)};
 \addplot[domain=0:20]{0.5*e^(0.15*x)};
 \end{axis}
 \end{tikzpicture}
-\caption*{(الف) قوت نمائی اضافہ۔مساوات \عددی{y'=0.15y} کا حل۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ قوت نمائی اضافہ۔مساوات \عددی{y'=0.15y} کا حل۔}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\begin{axis}[,xlabel={$t$},ylabel={$y$},myStyleA,]
 \addplot[domain=0:20]{2*e^(-0.15*x)};
 \addplot[domain=0:20]{1.5*e^(-0.15*x)};
 \addplot[domain=0:20]{1*e^(-0.15*x)};
 \addplot[domain=0:20]{0.5*e^(-0.15*x)};
 \end{axis}
 \end{tikzpicture}
-\caption*{(الف) قوت نمائی گھٹاو۔مساوات \عددی{y'=-0.15y} کا حل۔}
-\end{subfigure}%
+\caption{قوت نمائی گھٹاو۔مساوات \عددی{y'=-0.15y} کا حل۔}
+\end{subfigure} 
 \caption{قوت نمائی تفرقی مساوات کی نسل حل۔}
 \label{شکل_مثال_تفرقی_اول_مالتُھس_الف}
 \end{figure}
@@ -165,8 +165,8 @@ y=\frac{x^2}{4}
 \pgfmathsetmacro{\cb}{sqrt(0.5)}
 \pgfmathsetmacro{\cc}{sqrt(1)}
 %axis
-\draw(-3,0)--(3,0)node[below]{$x$};
-\draw(0,-2)--(0,2.5)node[right]{$y$};
+\draw(-3,0)--(3,0)node[right]{$x$};
+\draw(0,-2)--(0,2.5)node[left]{$y$};
 \foreach \x in {-2,2} \draw (\x,0)node[below]{$\x$}--++(0,0.1);
 \foreach \y in {1,2} \draw (0,\y,0)node[left]{$\y$}--++(0.1,0);
 %
@@ -239,7 +239,7 @@ y=2e^{-kt}\quad \quad (k>0)
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},xlabel={$t$},ylabel={$y$}]
+\begin{axis}[,myStyleA,,xlabel={$t$},ylabel={$y$}]
 \addplot[domain=0:2]{2*e^(-2.5*x)};
 \end{axis}
 \end{tikzpicture}
@@ -430,7 +430,7 @@ y'=x-y
 \centering
 \begin{tikzpicture}
 \def\length{sqrt(1+(x-y)^2)}
-\begin{axis}[ axis lines*=middle,view={0}{90}, xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}},xmin=-2.2, xmax=2.2, ymin=-1, ymax=2,domain=-2.5:2.5, y domain=-1:2, samples=11,ytick={-1,0,1},yticklabels={$-1$,$0$,$1$},xlabel style={at={(axis description cs:1.05,0.33)}}]
+\begin{axis}[, ,myStyleA,view={0}{90}, xlabel={$x$},ylabel={$y$},ylabel style={at={(axis description cs:0.5,1.05)}},xmin=-2.2, xmax=2.2, ymin=-1, ymax=2,domain=-2.5:2.5, y domain=-1:2, samples=11,ytick={-1,0,1},yticklabels={$-1$,$0$,$1$},xlabel style={at={(axis description cs:1.05,0.33)}}]
 \addplot3 [gray, quiver={u={1/\length}, v={(x-y)/\length}, scale arrows=0.1},-stealth] (x,y,0); %differential equation
 \addplot [gray,smooth]{x-1+e^(-x)}; %actual curve
 \addplot [gray,smooth]{x-1+0.5*e^(-x)}; %actual curve
@@ -457,10 +457,10 @@ y_n=y_{n-1}+hf(x_{n-1},y_{n-1})
 \عددی{h} کو قدم کہتے ہیں۔شکل \حوالہ{شکل_سادہ_اول_ترکیب_یولر_پہلا_قدم}-الف میں \عددی{y_1} کا حصول دکھایا گیا ہے  جہاں ابتدائی نقطہ \عددی{y_0} اور ترکیب یولر سے حاصل کردہ \عددی{y_1} کو چھوٹے دائروں سے ظاہر کیا گیا ہے۔ شکل-ب میں \عددی{h} کی قیمت کم کرنے کا اثر دکھایا گیا ہے۔آپ دیکھ سکتے ہیں کہ چھوٹا قدم لینے سے اصل حل \عددی{y(x_1)} اور یولر سے حاصل \عددی{y_1} میں فرق (غلطی) کم ہو جاتا ہے۔یوں قدم کو چھوٹا سے چھوٹا کرتے ہوئے زیادہ سے زیادہ درست حل دریافت کیا جا سکتا ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xmin=0,xmax=4,ymin=0,xtick={0,1,2.5},xticklabels={$0$,$x_0$,$x_1$},ytick={0,2.718,6.7957,12.182},yticklabels={$0$,$y_0$,$y_1$,$y(x_1)$},xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},ylabel style={at={(axis description cs: 0,1.05)}},xlabel style={at={(axis description cs:1.05,0)}}]
+\begin{axis}[,xmin=0,xmax=4,ymin=0,xtick={0,1,2.5},xticklabels={$0$,$x_0$,$x_1$},ytick={0,2.718,6.7957,12.182},yticklabels={$0$,$y_0$,$y_1$,$y(x_1)$},xlabel={$x$},ylabel={$y$},myStyleA,]
 \addplot[domain=1:3]{e^x}node[left]{\RL{حل منحنی}};
 \addplot[domain=1:2.5]{e^(1)*x};
 \addplot[dashed] plot coordinates {(0,e) (1,e)};
@@ -475,15 +475,15 @@ y_n=y_{n-1}+hf(x_{n-1},y_{n-1})
 \addplot[] plot coordinates {(2.5,e*2.5)}node[ocirc]{};
 \end{axis}
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\xa}{2}
 \pgfmathsetmacro{\ya}{e*\xa}
 \pgfmathsetmacro{\yb}{e^\xa}
-\begin{axis}[small,axis lines*=middle,xmin=0,xmax=4,ymin=0,xtick={0,1,\xa},xticklabels={$0$,$x_0$,$x_1$},ytick={0,2.718,\ya,\yb},yticklabels={$0$,$y_0$,$y_1$,$y(x_1)$},xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},ylabel style={at={(axis description cs: 0,1.05)}},xlabel style={at={(axis description cs:1.05,0)}}]
+\begin{axis}[,myStyleA,xmin=0,xmax=4,ymin=0,xtick={0,1,\xa},xticklabels={$0$,$x_0$,$x_1$},ytick={0,2.718,\ya,\yb},yticklabels={$0$,$y_0$,$y_1$,$y(x_1)$},xlabel={$x$},ylabel={$y$},ylabel style={at={(axis description cs: 0,1.05)}},xlabel style={at={(axis description cs:1.05,0)}}]
 \addplot[domain=1:3]{e^x}node[left]{\RL{حل منحنی}};
 \addplot[domain=1:\xa]{e^(1)*x};
 \addplot[dashed] plot coordinates {(0,e) (1,e)};
@@ -498,8 +498,8 @@ y_n=y_{n-1}+hf(x_{n-1},y_{n-1})
 \addplot[] plot coordinates {(\xa,e*\xa)}node[ocirc]{};
 \end{axis}
 \end{tikzpicture}
-\caption*{(ب)}
-\end{subfigure}%
+\caption{}
+\end{subfigure}
 \caption{ترکیب یولر کا پہلا قدم۔}
 \label{شکل_سادہ_اول_ترکیب_یولر_پہلا_قدم}
 \end{figure}
@@ -533,6 +533,7 @@ y_4&=y_3+h f(x_3,y_3)=y_3+h(x_3-y_3)=0.029+0.1(0.3-0.029)=0.0561
 \caption{ترکیب یولر۔}
 \label{جدول_اول_سادہ_یولر_الف}
 \centering
+\begin{otherlanguage}{english}
 \begin{tabular}{lllll}
 $n$&$x_n$&$y_n$&$y(x)$&\text{غلطی}\\
 \midrule
@@ -542,14 +543,15 @@ $n$&$x_n$&$y_n$&$y(x)$&\text{غلطی}\\
 3&0.3&0.029&0.04082&0.01182\\
 4&0.4&0.0561&0.07032&0.01422
 \end{tabular}
+\end{otherlanguage}
 \end{table}
 %
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,scaled x ticks=false,scaled y ticks=false,xlabel={$x$},ylabel={$y$},xlabel style={at={(axis description cs:1.05,0)}},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},xmin=0,ymin=0,ymax=0.07,ytick={0,0.02,0.04,0.06},yticklabels={$0$,$0.02$,$0.04$,$0.06$}]
+\begin{axis}[,scaled x ticks=false,scaled y ticks=false,xlabel={$x$},ylabel={$y$},myStyleA,,xmin=0,ymin=0,ymax=0.07,ytick={0,0.02,0.04,0.06},yticklabels={$0$,$0.02$,$0.04$,$0.06$}]
 \addplot[domain=0:0.4]{e^(-x)+x-1}node[pos=0.75,pin=135:{$y(x)$}]{};
 \addplot[] plot coordinates {(0,0)}node[circ]{};
 \addplot[] plot coordinates {(0.1,0)}node[circ]{};
@@ -558,13 +560,13 @@ $n$&$x_n$&$y_n$&$y(x)$&\text{غلطی}\\
 \addplot[] plot coordinates {(0.4,0.0561)}node[circ]{};
 \end{axis}
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \includegraphics[]{figODEeuler}
-\caption*{(ب)}
-\end{subfigure}%
+\caption{}
+\end{subfigure}
 \caption{ترکیب یولر سے حاصل حل کا ریاضیاتی حل کے ساتھ موازنہ کیا گیا ہے۔}
 \label{شکل_سادہ_اول_یولر_اصل_موازنہ}
 \end{figure}
@@ -605,52 +607,52 @@ $y'=\sin^2 y,\quad (0,0)$
 %==================================
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \def\length{sqrt(1+(1+y^2)^2)}
-\begin{axis}[small, axis equal,axis lines*=middle,view={0}{90}, xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}},xmin=-4,xmax=4,ymin=-4,ymax=4,domain=-3.5:4, y domain=-3.5:4, samples=11,xlabel style={at={(axis description cs:1.05,0.5)}},xtick=\empty,ytick=\empty]
+\begin{axis}[, axis equal,myStyleA,view={0}{90}, xlabel={$x$},ylabel={$y$},ylabel style={at={(axis description cs:0.5,1.05)}},xmin=-4,xmax=4,ymin=-4,ymax=4,domain=-3.5:4, y domain=-3.5:4, samples=11,xlabel style={at={(axis description cs:1.05,0.5)}},xtick=\empty,ytick=\empty]
 \addplot3 [gray, quiver={u={1/\length}, v={(1+y^2)/\length}, scale arrows=0.4,},-stealth] (x,y,0); %differential equation
 \end{axis}
 \end{tikzpicture}%
-\caption*{(الف) \quad $y'=1+y^2$}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{\quad $y'=1+y^2$}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \def\length{sqrt(1+(1-y^2)^2)}
-\begin{axis}[small, axis equal,axis lines*=middle,view={0}{90}, xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}},xmin=-4,xmax=4,ymin=-4,ymax=4,domain=-3.5:4, y domain=-3.5:4, samples=11,xlabel style={at={(axis description cs:1.05,0.5)}},xtick=\empty,ytick=\empty]
+\begin{axis}[, axis equal,myStyleA,view={0}{90}, xlabel={$x$},ylabel={$y$},ylabel style={at={(axis description cs:0.5,1.05)}},xmin=-4,xmax=4,ymin=-4,ymax=4,domain=-3.5:4, y domain=-3.5:4, samples=11,xlabel style={at={(axis description cs:1.05,0.5)}},xtick=\empty,ytick=\empty]
 \addplot3 [gray, quiver={u={1/\length}, v={(1-y^2)/\length}, scale arrows=0.3},-stealth] (x,y,0); %differential equation
 \end{axis}
 \end{tikzpicture}%
-\caption*{(ب) \quad $y'=1-y^2$}
-\end{subfigure}%
+\caption{ \quad $y'=1-y^2$}
+\end{subfigure}
 \caption{سوال \حوالہ{سوال_سادہ_اول_میدان_ڈھال_الف} اور سوال \حوالہ{سوال_سادہ_اول_میدان_ڈھال_ب} کے ڈھال میدان۔}
 \label{شکل_سوال_سادہ_اول_میدان_ڈھال_الف}
 \end{figure}
 %=============================
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \def\length{sqrt(1+(-8*x/y)^2)}
-\begin{axis}[small, axis equal,axis lines*=middle,view={0}{90}, xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}},xmin=-4,xmax=4,ymin=-4,ymax=4.5,domain=-3.8:4, y domain=-3.9:4, samples=11,xlabel style={at={(axis description cs:1.05,0.5)}},xtick=\empty,ytick=\empty]
+\begin{axis}[, axis equal,myStyleA,view={0}{90}, xlabel={$x$},ylabel={$y$},ylabel style={at={(axis description cs:0.5,1.05)}},xmin=-4,xmax=4,ymin=-4,ymax=4.5,domain=-3.8:4, y domain=-3.9:4, samples=11,xlabel style={at={(axis description cs:1.05,0.5)}},xtick=\empty,ytick=\empty]
 \addplot3 [gray, quiver={u={1/\length}, v={(-8*x/y)/\length}, scale arrows=0.4,},-stealth] (x,y,0); %differential equation
 \end{axis}
 \end{tikzpicture}%
-\caption*{(الف) \quad $y'=-\tfrac{8x}{y}$}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ \quad $y'=-\tfrac{8x}{y}$}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \def\length{sqrt(1+(y-y^2)^2)}
-\begin{axis}[small, axis equal,axis lines*=middle,view={0}{90}, xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}},xmin=-4,xmax=4,ymin=-4,ymax=4,domain=-3.5:4, y domain=-3.5:4, samples=11,xlabel style={at={(axis description cs:1.05,0.5)}},xtick=\empty,ytick=\empty]
+\begin{axis}[, axis equal,myStyleA,view={0}{90}, xlabel={$x$},ylabel={$y$},ylabel style={at={(axis description cs:0.5,1.05)}},xmin=-4,xmax=4,ymin=-4,ymax=4,domain=-3.5:4, y domain=-3.5:4, samples=11,xlabel style={at={(axis description cs:1.05,0.5)}},xtick=\empty,ytick=\empty]
 \addplot3 [gray, quiver={u={1/\length}, v={(y-y^2)/\length}, scale arrows=0.3},-stealth] (x,y,0); %differential equation
 \end{axis}
 \end{tikzpicture}%
-\caption*{(ب) \quad $y'=y-y^2$}
-\end{subfigure}%
+\caption{ \quad $y'=y-y^2$}
+\end{subfigure}
 \caption{سوال \حوالہ{سوال_سادہ_اول_میدان_ڈھال_بب} اور سوال \حوالہ{سوال_سادہ_اول_میدان_ڈھال_پ} کے ڈھال میدان۔}
 \label{شکل_سوال_سادہ_اول_میدان_ڈھال_پ}
 \end{figure}
@@ -710,26 +712,26 @@ $y'=3x^2,\quad (0,0),\quad y=x^3$
 جوابات:\عددی{y'=-\tfrac{x}{y}}، \عددی{y'=-\tfrac{x}{9y}}
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \def\length{sqrt(1+(x/y)^2)}
-\begin{axis}[small, axis equal,axis lines*=middle,view={0}{90}, xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}},xmin=-4,xmax=4,ymin=-4,ymax=4,domain=-3.5:4, y domain=-3.5:4, samples=11,xlabel style={at={(axis description cs:1.05,0.5)}},xtick=\empty,ytick=\empty]
+\begin{axis}[, axis equal,myStyleA,view={0}{90}, xlabel={$x$},ylabel={$y$},ylabel style={at={(axis description cs:0.5,1.05)}},xmin=-4,xmax=4,ymin=-4,ymax=4,domain=-3.5:4, y domain=-3.5:4, samples=11,xlabel style={at={(axis description cs:1.05,0.5)}},xtick=\empty,ytick=\empty]
 \addplot3 [gray, quiver={u={1/\length}, v={(-x/y)/\length}, scale arrows=0.3,},-stealth] (x,y,0); %differential equation
 \end{axis}
 \end{tikzpicture}%
-\caption*{(الف) تفرقی مساوات \عددی{y'=-\tfrac{x}{y}} کی ڈھال میدان۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ تفرقی مساوات \عددی{y'=-\tfrac{x}{y}} کی ڈھال میدان۔}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \def\length{sqrt(1+(x/(9*y))^2)}
-\begin{axis}[small, axis equal,axis lines*=middle,view={0}{90}, xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}},xmin=-4,xmax=4,ymin=-4,ymax=4,domain=-3.5:4, y domain=-3.5:4, samples=11,xlabel style={at={(axis description cs:1.05,0.5)}},xtick=\empty,ytick=\empty]
+\begin{axis}[, axis equal,myStyleA,view={0}{90}, xlabel={$x$},ylabel={$y$},ylabel style={at={(axis description cs:0.5,1.05)}},xmin=-4,xmax=4,ymin=-4,ymax=4,domain=-3.5:4, y domain=-3.5:4, samples=11,xlabel style={at={(axis description cs:1.05,0.5)}},xtick=\empty,ytick=\empty]
 \addplot3 [gray, quiver={u={1/\length}, v={(-x/(9*y))/\length}, scale arrows=0.3},-stealth] (x,y,0); %differential equation
 \end{axis}
 \end{tikzpicture}%
-\caption*{(ب) تفرقی مساوات \عددی{y'=-\tfrac{x}{9y}} کی ڈھال میدان۔}
-\end{subfigure}%
+\caption{ تفرقی مساوات \عددی{y'=-\tfrac{x}{9y}} کی ڈھال میدان۔}
+\end{subfigure}
 \caption{سوال \حوالہ{سوال_سادہ_اول_گول_دائرہ_ڈھال_میدان} کی ڈھال میدان۔}
 \label{شکل_سوال_سادہ_اول_گول_دائرہ_ڈھال_میدان}
 \end{figure}
@@ -831,7 +833,7 @@ y&=ce^{-x^2}
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}
+\begin{axis}[,myStyleA,,xlabel={$x$},ylabel={$y$}]
 \addplot[domain=-2:2,samples=60]{e^(-x^2)};
 \end{axis}
 \end{tikzpicture}
@@ -861,7 +863,7 @@ e^{-0.0001213t}=0.5695,\quad -0.0001213t=\ln 0.5695,\quad t=4641
 کیمیائی صنعت میں  مرکب بنانے کا عمل عام ہے۔شکل \حوالہ{شکل_مثال_سادہ_اول_مرکب}-الف میں  پانی کی ٹینکی دکھائی گئی ہے جس میں ابتدائی طور پر \عددی{1000} لٹر پانی پایا جاتا ہے۔اس پانی میں کل \عددی{\SI{100}{\kilo\gram}} نمک ملایا گیا ہے۔پانی کو مسلسل ہلانے سے ٹینکی میں کثافت یکساں رکھی جاتی ہے۔ٹینکی میں \عددی{40} لٹر فی منٹ کی شرح سے نمکین پانی شامل کیا جاتا ہے۔اس پانی میں نمک کی مقدار \عددی{\SI{0.5}{\kilo\gram\per\litre}} ہے۔ٹینکی سے نمکین پانی کا انخلا \عددی{40} لٹر فی منٹ ہے۔ٹینکی میں نمک کی کل مقدار بالمقابل وقت دریافت کریں۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
    [ragged border/.style={ decoration={random steps, segment length=1mm, amplitude=0.5mm},
@@ -882,17 +884,17 @@ e^{-0.0001213t}=0.5695,\quad -0.0001213t=\ln 0.5695,\quad t=4641
 \draw[cyan!30,-stealth,ultra thick] (\x/8,\y/16)--++(\x/4,0)node[right,color=black]{خروج};
 \draw[cyan!30,stealth-,ultra thick] (-\x-\x/4-\x/4-\x/8,3/4*\y+\y/16)--++(-\x/4,0)node[pos=0.5,above,color=black]{دخول};
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,xlabel={$t\, (\text{\RL{منٹ}})$}, ylabel={$y(t)$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\begin{axis}[,xlabel={$t\, (\text{\RL{منٹ}})$}, ylabel={$y(t)$},myStyleA,]
 \addplot[domain=0:150]{500-400*e^(-0.04*x)};
 \end{axis}
 \end{tikzpicture}
-\caption*{(ب)}
-\end{subfigure}%
+\caption{}
+\end{subfigure} \hfill
 \caption{مثال \حوالہ{مثال_سادہ_اول_مرکب} میں مرکب بنانے کا عمل۔}
 \label{شکل_مثال_سادہ_اول_مرکب}
 \end{figure}
@@ -956,7 +958,7 @@ T=35-14e^{-0.088(10)}=\SI{29.2}{\degree\celsius}
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,xlabel={$t\,\text{(گھنٹے)}$},ylabel={$T\, (\si{\degree\celsius})$},ytick={21,29.2},yticklabels={$21$,$29.2$},ylabel style={rotate=-90},ylabel style ={at={(axis description cs:0,1.05)}},xmin=0]
+\begin{axis}[,myStyleA,xlabel={$t\,\text{(گھنٹے)}$},ylabel={$T\, (\si{\degree\celsius})$},ytick={21,29.2},yticklabels={$21$,$29.2$},ylabel style ={at={(current axis.above origin)},anchor=east},xmin=0]
 \addplot[domain=0:10]{35-14*e^(-0.088*x)};
 \end{axis}
 \end{tikzpicture}
@@ -982,7 +984,7 @@ T=35-14e^{-0.088(10)}=\SI{29.2}{\degree\celsius}
 اس مساوات  کو \اصطلاح{قانون ٹاری سلی}\فرہنگ{قانون ٹاری سلی}\حاشیہب{Torricelli's law}\فرہنگ{Torricelli's law} کہتے ہیں۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
   [ragged border/.style={ decoration={random steps, segment length=1mm, amplitude=0.5mm},
@@ -1006,9 +1008,9 @@ T=35-14e^{-0.088(10)}=\SI{29.2}{\degree\celsius}
 \draw[stealth-](-\x-\x/16-\x/8,\y-\y/8)--++(0,\y/4)node[above]{$\dif h$};
 \draw[stealth-](-\x-\x/16-\x/8,\y-\y/8-\y/16)--++(0,-\y/4);
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\x}{2}
@@ -1025,10 +1027,9 @@ T=35-14e^{-0.088(10)}=\SI{29.2}{\degree\celsius}
 \draw[stealth-](\x/4,\y/8)--++(0,\y/4)--++(-\x/4,\y/4)node[above]{\RL{رقبہ عمودی تراش=$A$}};
 \draw[dashed] (\x/2,-\y/4)node[below]{$m$}--++(0,\y/2);
 \draw[dashed] (\x+\x/2,-\y/4)node[below]{$n$}--++(0,\y/2);
-
 \end{tikzpicture}
-\caption*{(ب)}
-\end{subfigure}%
+\caption{}
+\end{subfigure}
 \caption{مثال \حوالہ{مثال_سادہ_اول_ٹاری_سلی}: پانی کا انخلا اور پانی کے دھار کا سکڑنا۔}
 \label{شکل_مثال_سادہ_اول_ٹاری_سلی}
 \end{figure}
@@ -1054,7 +1055,7 @@ t=\frac{2\sqrt{1.5} \times 2}{0.6\pi 0.005^2 \sqrt{2\times 9.8}}=\SI{23482}{\sec
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[axis lines*=middle,ylabel={$h$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},xlabel={$t\, (\si{\second})$},scaled x ticks=false]
+\begin{axis}[,myStyleA,ylabel={$h$},xlabel={$t\, (\si{\second})$},scaled x ticks=false]
 \pgfmathsetmacro{\ha}{1.5}
 \pgfmathsetmacro{\B}{2}
 \pgfmathsetmacro{\a}{pi*0.005^2}
@@ -1272,7 +1273,7 @@ y'=-Ay\ln y,\quad A>0
 دو سطحوں کو آپس میں رگڑنے سے قوت رگڑ پیدا ہوتی ہے جو اس حرکت کو روکنے کی کوشش کرتی ہے۔خشک سطحوں پر پیدا قوت \عددی{\abs{F}=\mu \abs{N}} سے حاصل کی جا سکتی ہے جہاں \عددی{N} دونوں سطحوں پر عمودی قوت، \عددی{\mu} \اصطلاح{حرکی رگڑ کا مستقل}\فرہنگ{حرکی رگڑ کا مستقل}\فرہنگ{رگڑ!حرکی مستقل}\حاشیہب{coefficient of kinetic friction}\فرہنگ{friction!coefficient} اور \عددی{F} رگڑ سے پیدا قوت ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\len}{3}
@@ -1294,9 +1295,9 @@ y'=-Ay\ln y,\quad A>0
 \draw[latex-](Ftip)--++(\ang:\yF)coordinate(Htip);
 \draw[latex-](Htip)--++(\ang+90:\xF)node[pos=0.5,right]{$N$};
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\angA}{70}
@@ -1310,8 +1311,8 @@ y'=-Ay\ln y,\quad A>0
 \draw[-latex] (\angA:1.35cm)--++(\angA-90:1cm)node[right]{$F+\Delta F$};
 \draw[-latex] (\angB:1.35cm)--++(\angB+90:1cm)node[left]{$F$};
 \end{tikzpicture}
-\caption*{(ب)}
-\end{subfigure}%
+\caption{}
+\end{subfigure} 
 \caption{سوال \حوالہ{سوال_سادہ_اول_رگڑ} اور سوال \حوالہ{سوال_سادہ_اول_رسی_رگڑ} کے اشکال۔}
 \label{شکل_سوال_سادہ_اول_رگڑ}
 \end{figure}
@@ -1808,24 +1809,24 @@ y=\cosec x \left(x^2-\frac{\pi^2}{4}\right)
 طبعی معلومات: مزاحمت کی اکائی \اصطلاح{اوہم}\فرہنگ{اوہم}\حاشیہب{Ohm}\فرہنگ{Ohm} \عددی{\si{\ohm}}  اور امالہ کی اکائی \اصطلاح{ہینری}\فرہنگ{ہینری}\حاشیہب{Henry}\فرہنگ{Henry} \عددی{\si{\henry}} ہے۔\اصطلاح{قانون اوہم}\فرہنگ{قانون اوہم}\حاشیہب{Ohm's law}\فرہنگ{Ohm's law} کے تحت مزاحمت \عددی{R} میں رو \عددی{I} اور دباو \عددی{v_R} کا تعلق \عددی{v_R=IR} ہے۔اسی طرح امالہ میں رو اور دباو \عددی{v_L} کا تعلق \عددی{v_L=L\tfrac{\dif I}{\dif t}} ہے۔ \اصطلاح{کرخوف قانون دباو}\فرہنگ{کرخوف!قانون دباو}\حاشیہب{Kirchoff's voltage law}\فرہنگ{Kirchoff's law!voltage} کے تحت ان برقی دباو کا مجموعہ درآیدہ دباو \عددی{E} کے برابر ہو گا۔ 
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}[american voltages]
 \draw(0,0) to [american voltage source,l={$\substack{\displaystyle E \hfill \\ \displaystyle \SI{50}{\volt}}$}]++(0,\yy) to [resistor,l={$\substack{\displaystyle R\hfill \\ \displaystyle \SI{100}{\ohm}}$},i={$I(t)$},v={$v_R$}]++(\xx,0) to [inductor,l_={$\substack{\displaystyle L \hfill \\ \displaystyle \SI{0.5}{\henry}}$},v^<={$v_L$}]++(0,-\yy) to [short]++(-\xx,0);
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel={$t$},ylabel={$I(t)$},xtick={0.01,0.02,0.03},xticklabels={$0.01$,$0.02$,$0.03$},ytick={0,0.25,0.5,0.75},yticklabels={$0$,$0.25$,$\frac{E}{R}$,$0.75$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},scaled x ticks=false,scaled y ticks=false]
+\begin{axis}[,xlabel={$t$},ylabel={$I(t)$},xtick={0.01,0.02,0.03},xticklabels={$0.01$,$0.02$,$0.03$},ytick={0,0.25,0.5,0.75},yticklabels={$0$,$0.25$,$\frac{E}{R}$,$0.75$},myStyleA,,scaled x ticks=false,scaled y ticks=false]
 \addplot[thick,domain=0:0.035]{50/100*(1-e^(-200*x))};
 \addplot[domain=0:0.035]{0.5-0.25*e^(-200*x)};
 \addplot[domain=0:0.035]{0.5+0.25*e^(-200*x)};
 \end{axis}
 \end{tikzpicture}
-\caption*{(ب)}
-\end{subfigure}%
+\caption{}
+\end{subfigure}
 \caption{مثال \حوالہ{مثال_سادہ_اول_برقی_دور_الف} کا سلسلہ وار برقی دور۔}
 \label{شکل_مثال_سادہ_اول_برقی_دور_الف}
 \end{figure}
@@ -1882,7 +1883,7 @@ y=\frac{a}{k}+\frac{b}{k^2+\omega^2}(k\cos \omega t+\omega \sin \omega t)+(y_0-\
 %
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\a}{2*pi/24}
@@ -1891,25 +1892,25 @@ y=\frac{a}{k}+\frac{b}{k^2+\omega^2}(k\cos \omega t+\omega \sin \omega t)+(y_0-\
 \pgfmathsetmacro{\wa}{360/24}
 \pgfmathsetmacro{\k}{0.04}
 \pgfmathsetmacro{\ya}{0}
-\begin{axis}[small,axis lines*=middle,ymin=0,ymax=55,xmin=0,xlabel={$t$},ylabel={$y(t)$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\begin{axis}[,ymin=0,ymax=55,xmin=0,xlabel={$t$},ylabel={$y(t)$},myStyleA,]
 \addplot[domain=0:300,samples=400]{1/\k+(\k*cos(\wa*x)+\w*sin(\wa*x))/(\k^2+\w^2)+(\ya-1/\k-\k/(\k^2+\w^2))*e^(-\k*x)};
 \end{axis}
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\w}{2*pi/24}
 \pgfmathsetmacro{\wa}{360/24}
 \pgfmathsetmacro{\k}{0.04}
 \pgfmathsetmacro{\ya}{50}
-\begin{axis}[small,axis lines*=middle,ymin=0,ymax=55,xmin=0,xlabel={$t$},ylabel={$y(t)$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\begin{axis}[,ymin=0,ymax=55,xmin=0,xlabel={$t$},ylabel={$y(t)$},myStyleA,]
 \addplot[domain=0:300,samples=400]{1/\k+(\k*cos(\wa*x)+\w*sin(\wa*x))/(\k^2+\w^2)+(\ya-1/\k-\k/(\k^2+\w^2))*e^(-\k*x)};
 \end{axis}
 \end{tikzpicture}
-\caption*{(ب)}
-\end{subfigure}%
+\caption{}
+\end{subfigure}
 \caption{مثال \حوالہ{مثال_سادہ_اول_غدود_درقیہ}: خون میں ہارمون کی مقدار بالمقابل وقت۔}
 \label{شکل_مثال_سادہ_اول_غدود_درقیہ}
 \end{figure}
@@ -1973,7 +1974,7 @@ y=\frac{1}{u}=\frac{1}{\frac{b}{a}+ce^{-at}}
 \pgfmathsetmacro{\cc}{-0.375*\b/\a}
 \pgfmathsetmacro{\cd}{-0.5*\b/\a}
 \pgfmathsetmacro{\ce}{0*\b/\a}
-\begin{axis}[small,axis lines*=middle,xmin=0,ymin=0,xlabel={$t$},ylabel={$y$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},ytick={2,3,4,6},yticklabels={$2$,$\frac{a}{b}=3$,$4$,$6$}]
+\begin{axis}[,xmin=0,ymin=0,xlabel={$t$},ylabel={$y$},myStyleA,,ytick={2,3,4,6},yticklabels={$2$,$\frac{a}{b}=3$,$4$,$6$}]
 \addplot[domain=0:4,samples=50]{(\b/\a+\ca*e^(-\a*x))^(-1)};
 \addplot[domain=0:4,samples=50]{(\b/\a+\caa*e^(-\a*x))^(-1)};
 \addplot[domain=0:4,samples=50]{(\b/\a+\cb*e^(-\a*x))^(-1)};
@@ -2266,7 +2267,7 @@ y'=\frac{4y}{x}
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis equal,axis lines*=middle,scaled x ticks=false,scaled y ticks=false,ymax=1,ymin=-1,xtick=\empty,ytick=\empty]
+\begin{axis}[,axis equal,myStyleA,scaled x ticks=false,scaled y ticks=false,ymax=1,ymin=-1,xtick=\empty,ytick=\empty]
 
 \pgfmathsetmacro{\ca}{1}
 \pgfmathsetmacro{\lmta}{sqrt(4*\ca)}
@@ -2456,7 +2457,7 @@ y'=f(x,y),\quad y(x_0)=y_0
 
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\y}{1.5}
@@ -2488,9 +2489,9 @@ y'=f(x,y),\quad y(x_0)=y_0
 \draw[](kC) to [out=180,in=-\ang]++(-\x/4,0)--++(-\ang:-0.5*\x);
 \draw[](kC) to [out=0,in=180-\ang]++(\x/4,-0)--++(-\ang:0.5*\x)node[pos=0.9,pin=20:{\RL{منحنی حل}}]{};
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\y}{0.75}
@@ -2527,8 +2528,8 @@ y'=f(x,y),\quad y(x_0)=y_0
 \draw[](kC) to [out=180,in=-\ang]++(-\x/4,0)--++(-\ang:-0.5*\x);
 \draw[](kC) to [out=0,in=180-\ang]++(\x/4,-0)--++(-\ang:0.5*\x);
 \end{tikzpicture}
-\caption*{(ب)}
-\end{subfigure}%
+\caption{}
+\end{subfigure}
 \caption{مساوات \حوالہ{مساوات_سادہ_اول_وجودیت_پ} میں دی گئی شرط اور \عددی{\alpha}۔}
 \label{شکل_سادہ_اول_مستطیل_ثبوت}
 \end{figure}

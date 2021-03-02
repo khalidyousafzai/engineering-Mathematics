@@ -183,7 +183,7 @@ y=5\cos 2x-1.5\sin 2x
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xmin=0]
+\begin{axis}[,xmin=0,xlabel={$x$},ylabel={$y$},myStyleA,ymax=5.75]
 \addplot[domain=0:2*pi,samples=200]{5*cos(2*x*180/pi)-1.5*sin(2*x*180/pi)};
 \addplot[] plot coordinates {(0,5) (4.666,-2)};
 \end{axis}
@@ -555,7 +555,7 @@ y=-\frac{7}{5}e^{2x}-\frac{13}{5}e^{-3x}
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\begin{axis}[,myStyleA,xlabel={$x$},ylabel={$y$},ylabel style={at={(current axis.below origin)},anchor=east},ymax=-2]
 \addplot[domain=0:1]{-7/5*e^(2*x)-13/5*e^(-3*x)};
 \end{axis}
 \end{tikzpicture}
@@ -628,7 +628,7 @@ y=(10-3x)e^{-0.1x}
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\begin{axis}[,myStyleA,xlabel={$x$},ylabel={$y$},ylabel style={at={(current axis.above origin)},anchor=east},]
 \addplot[domain=0:60,samples=100]{(10-3*x)*e^(-0.1*x)};
 \end{axis}
 \end{tikzpicture}
@@ -720,7 +720,7 @@ y=e^{-0.18x}\sin 3x
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},ylabel style ={at={(axis description cs:0,1.05)}}]
+\begin{axis}[,xlabel={$x$},ylabel={$y$},myStyleA,ylabel style={at={(current axis.above origin)},anchor=east},]
 \addplot[domain=0:25,samples=300] {e^(-0.18*x)*sin(3*x*180/pi)};
 \addplot[dashed,domain=0:25]{e^(-0.18*x)}node[pos=0.15,pin=45:{غلاف}]{};
 \addplot[dashed,domain=0:25]{-e^(-0.18*x)};
@@ -748,6 +748,7 @@ y=c_1 \cos \omega x+c_2 \sin \omega x
 \caption{تین صورتوں کی تفصیل}
 \label{جدول_سادہ_دو_درجی_تین_صورتیں}
 \centering
+{\small
 \begin{tabular}{rrrl}
 صورت& مساوات \حوالہ{مساوات_سادہ_دو_درجی_مستقل_عددی_سر_پ} کے جذر & مساوات \حوالہ{مساوات_سادہ_دو_درجی_مستقل_عددی_سر_الف} کی اساس & مساوات \حوالہ{مساوات_سادہ_دو_درجی_مستقل_عددی_سر_الف} کا عمومی حل\\
 \hline
@@ -756,6 +757,7 @@ y=c_1 \cos \omega x+c_2 \sin \omega x
 تیسری& جوڑی دار مخلوط&   \عددی{e^{-\frac{a}{2}x}\cos\omega x}، & \عددی{y=e^{-\frac{a}{2}x}(c_1 \cos \omega x+c_2 \sin \omega x)}\\
  &  \عددی{\lambda=-\frac{a}{2} \mp i\omega} &\عددی{e^{-\frac{a}{2}x}\sin \omega x}&
 \end{tabular}
+}
 \end{table}
 
 جدول \حوالہ{جدول_سادہ_دو_درجی_تین_صورتیں} میں درج بالا تین صورتوں کی تفصیل اکٹھی کی گئی ہے۔یہ تین اقسام میکانی ارتعاش یا برقی ارتعاش کو ظاہر کرتی ہیں۔آپ تفرقی مساوات کی قوت یہاں سے جان سکتے ہیں۔آپس میں بالکل مختلف میدانوں (مثلاً میکانی اور برقی) کے مسائل ایک طرز  کی تفرقی مساوات سے ظاہر کئے جا سکتے ہیں۔ 
@@ -921,7 +923,7 @@ $x\ln x, \quad x\ln x^2 \ln x\quad x>1$\\
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,xmax=6,xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\begin{axis}[,xmax=6,xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},]
 \addplot[domain=0:4]{e^(-2*x)}node[pos=0.9,pin=30:{$e^{-2x}$}]{};
 \addplot[domain=0:4]{1/1000*e^(2*x)+e^(-2*x)}node[pos=0.8,pin=150:{$\frac{1}{1000}e^{2x}+e^{-2x}$}]{};
 \end{axis}
@@ -1184,17 +1186,17 @@ y=C\cos(\omega_0 t-\delta)
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel={$t$},ylabel={$y$},ylabel style={rotate=-90},xtick=\empty,ytick=\empty,xmin=0,ylabel style={at={(axis description cs:0,1.05)}},xlabel style={at={(axis description cs:1.05,0.475)}}]
+\begin{axis}[,xlabel={$t$},ylabel={$y$},xtick=\empty,ytick=\empty,xmin=0,xlabel={$t$},ylabel={$y$},myStyleA,ylabel style={at={(current axis.above origin)},anchor=east},]
 \addplot[domain=0:360,samples=100]{cos(x)}node[pos=0.2,fill=white]{ب};
-\addplot[domain=0:360,samples=100]{cos(x)+sin(x)}node[pos=0.3,fill=white]{الف};
-\addplot[domain=0:360,samples=100]{cos(x)-sin(x)}node[pos=0.1,fill=white]{پ};
+\addplot[domain=0:360,samples=100]{cos(x)+sin(x)}node[pos=0.3,fill=white]{ا};
+\addplot[domain=0:360,samples=100]{cos(x)-sin(x)}node[pos=0.1,fill=white]{ج};
 \end{axis}
 \end{tikzpicture}
 \caption{مساوات \حوالہ{مساوات_سادہ_دو_درجی_اسپرنگ_کمیت_ارتعاش_الف} کے عمومی اشکال۔}
 \label{شکل_سادہ_دو_اسپرنگ_حرکت_الف}
 \end{figure}
 
-مساوات \حوالہ{مساوات_سادہ_دو_درجی_اسپرنگ_کمیت_ارتعاش_الف} (یعنی مساوات \حوالہ{مساوات_سادہ_دو_درجی_اسپرنگ_کمیت_ارتعاش_ب}) کو شکل \حوالہ{شکل_سادہ_دو_اسپرنگ_حرکت_الف} میں دکھایا گیا ہے۔دکھائے گئے تینوں منحنی میں ابتدائی فاصلہ \عددی{y(0)=A} ہے جبکہ ابتدائی رفتار \عددی{y'(0)=\omega_0 B} خط الف میں مثبت، ب میں صفر اور پ میں منفی ہے۔
+مساوات \حوالہ{مساوات_سادہ_دو_درجی_اسپرنگ_کمیت_ارتعاش_الف} (یعنی مساوات \حوالہ{مساوات_سادہ_دو_درجی_اسپرنگ_کمیت_ارتعاش_ب}) کو شکل \حوالہ{شکل_سادہ_دو_اسپرنگ_حرکت_الف} میں دکھایا گیا ہے۔دکھائے گئے تینوں منحنی میں ابتدائی فاصلہ \عددی{y(0)=A} ہے جبکہ ابتدائی رفتار \عددی{y'(0)=\omega_0 B}،  خط ا میں مثبت، ب میں صفر اور ج  میں منفی ہے۔
 %================================
 
 \ابتدا{مثال}\شناخت{مثال_سادہ_دو_درجی_بلا_تقصیر_نظام}
@@ -1218,7 +1220,7 @@ my''+cy'+ky=0
 \pgfmathsetmacro{\width}{0.9}
 \pgfmathsetmacro{\height}{0.9}
 \node[circle,fill=gray,inner sep=2.5mm] (b) at (0,0) {} ++(-0.37,0)node[left]{گیند} ++(0.74,0) node[right]{$m$};
-\draw[decorate,decoration={coil,aspect=0.3, segment length=1.7mm, amplitude=3mm}] (0,3) -- (b)node[pos=0.5,shift={(-0.8,0)}]{اسپرنگ}node[pos=0.5,shift={(0.6,0)}]{$k$}; 
+\draw[decorate,decoration={coil,aspect=0.3, segment length=1.7mm, amplitude=3mm}] (0,3) -- (b)node[pos=0.5,shift={(-1,0)}]{اسپرنگ}node[pos=0.5,shift={(0.6,0)}]{$k$}; 
 \fill [pattern = north east lines] (-1,3) rectangle (1,3.2);
 \draw[thick] (-1,3) -- (1,3);
 %dashboard
@@ -1261,10 +1263,10 @@ y=c_1 e^{-(\alpha-\beta)t}+c_2e^{-(\alpha+\beta)t}
 \end{align}
 چونکہ \عددی{\alpha>0}، \عددی{\beta>0} اور \عددی{\beta^2=\alpha^2-\tfrac{k}{m}<\alpha^2} ہیں لہٰذا \عددی{\alpha-\beta} اور \عددی{\alpha+\beta} دونوں مثبت مقدار ہیں۔یوں  مساوات \حوالہ{مساوات_سادہ_دو_درجی_قصری_زیادہ_حل_الف} میں دونوں قوت نمائی تفاعل کی طاقت منفی ہو گی اور دونوں تفاعل کی قیمتیں نہایت تیزی سے گھٹے گی۔آپ دیکھ سکتے ہیں کہ \عددی{t \to \infty} پر \عددی{y(\infty) \to 0} ہو گا یعنی گیند ساکن ہو گی۔زیادہ قصری نظام میں قصری قوت اس تیزی سے نظام سے توانائی خارج کرتا ہے کہ نظام ارتعاش کرنے کے قابل نہیں رہتا۔
 
-مساوات \حوالہ{مساوات_سادہ_دو_درجی_قصری_زیادہ_حل_الف} کو مختلف ابتدائی قیمتوں کے لئے شکل \حوالہ{شکل_سادہ_دو_درجی_تقصیری_حرکت_الف} میں دکھایا گیا ہے۔شکل-الف میں ابتدائی فاصلہ مثبت ہے جبکہ شکل-ب میں ابتدائی فاصلہ منفی ہے۔شکل-الف میں خط الف مثبت ابتدائی رفتار کے لئے کھینچا گیا ہے جبکہ خط ب صفر ابتدائی رفتار اور دو عدد خط پ کو منفی ابتدائی رفتار کے لئے کھینچا گیا ہے۔شکل-ب میں خط الف منفی ابتدائی رفتار کے لئے کھینچا گیا ہے جبکہ خط ب صفر ابتدائی رفتار اور دو عدد خط پ کو مثبت ابتدائی رفتار کے لئے کھینچا گیا ہے۔آپ دیکھ سکتے ہیں کہ زیادہ تقصیری نظام میں ارتعاش ممکن نہیں ہے اور نظام میں حرکت بہت جلد ختم ہو جاتی ہے۔
+مساوات \حوالہ{مساوات_سادہ_دو_درجی_قصری_زیادہ_حل_الف} کو مختلف ابتدائی قیمتوں کے لئے شکل \حوالہ{شکل_سادہ_دو_درجی_تقصیری_حرکت_الف} میں دکھایا گیا ہے۔شکل-ا میں ابتدائی فاصلہ مثبت ہے جبکہ شکل-ب میں ابتدائی فاصلہ منفی ہے۔شکل-ا  میں خط ا مثبت ابتدائی رفتار کے لئے کھینچا گیا ہے جبکہ خط ب صفر ابتدائی رفتار اور دو عدد خطوط  ج کو منفی ابتدائی رفتار کے لئے کھینچا گیا ہے۔شکل-ب میں خط ا منفی ابتدائی رفتار کے لئے کھینچا گیا ہے جبکہ خط ب صفر ابتدائی رفتار اور دو عدد خطوط ج کو مثبت ابتدائی رفتار کے لئے کھینچا گیا ہے۔آپ دیکھ سکتے ہیں کہ زیادہ تقصیری نظام میں ارتعاش ممکن نہیں ہے اور نظام میں حرکت بہت جلد ختم ہو جاتی ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\al}{0.6}   %alpha
@@ -1286,16 +1288,16 @@ y=c_1 e^{-(\alpha-\beta)t}+c_2e^{-(\alpha+\beta)t}
 \pgfmathsetmacro{\v}{-2}   %initial velocity  NEGATIVE
 \pgfmathsetmacro{\cg}{(\v+(\al+\be)*\y)/(2*\be)}
 \pgfmathsetmacro{\ch}{\y-\cg}
-\begin{axis}[small,axis lines*=middle,xtick=\empty,ytick=\empty,xlabel={$t$},ylabel={$y$},xlabel style={at={(axis description cs:1.05,0.4)}},ylabel style ={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},xmin=0]
-\addplot[domain=0:10,samples=50]{\ca*e^(-(\al-\be)*x)+\cb*e^(-(\al+\be)*x)}node[pos=0.3,fill=white]{الف};
+\begin{axis}[,xtick=\empty,ytick=\empty,xlabel={$t$},ylabel={$y$},xlabel={$t$},ylabel={$y$},myStyleA,ylabel style={at={(current axis.above origin)},anchor=east},xmin=0]
+\addplot[domain=0:10,samples=50]{\ca*e^(-(\al-\be)*x)+\cb*e^(-(\al+\be)*x)}node[pos=0.3,fill=white]{ا};
 \addplot[domain=0:10]{\cc*e^(-(\al-\be)*x)+\cd*e^(-(\al+\be)*x)}node[pos=0.3,fill=white]{ب};
-\addplot[domain=0:10]{\ce*e^(-(\al-\be)*x)+\cf*e^(-(\al+\be)*x)}node[pos=0.3,fill=white]{پ};
-\addplot[domain=0:10,samples=50]{\cg*e^(-(\al-\be)*x)+\ch*e^(-(\al+\be)*x)}node[pos=0.3,fill=white]{پ};
+\addplot[domain=0:10]{\ce*e^(-(\al-\be)*x)+\cf*e^(-(\al+\be)*x)}node[pos=0.3,fill=white]{ج};
+\addplot[domain=0:10,samples=50]{\cg*e^(-(\al-\be)*x)+\ch*e^(-(\al+\be)*x)}node[pos=0.3,fill=white]{ج};
 \end{axis}
 \end{tikzpicture}
-\caption*{(الف) ابتدائی فاصلہ مثبت ہے۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ ابتدائی فاصلہ مثبت ہے۔}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\al}{0.6}   %alpha
@@ -1317,15 +1319,15 @@ y=c_1 e^{-(\alpha-\beta)t}+c_2e^{-(\alpha+\beta)t}
 \pgfmathsetmacro{\v}{2}   %initial velocity POSITIVE
 \pgfmathsetmacro{\cg}{(\v+(\al+\be)*\y)/(2*\be)}
 \pgfmathsetmacro{\ch}{\y-\cg}
-\begin{axis}[small,axis lines*=middle,xtick=\empty,ytick=\empty,xlabel={$t$},ylabel={$y$},xlabel style={at={(axis description cs:1.05,0.7)}},ylabel style ={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},xmin=0]
-\addplot[domain=0:10,samples=50]{\ca*e^(-(\al-\be)*x)+\cb*e^(-(\al+\be)*x)}node[pos=0.3,fill=white]{الف};
+\begin{axis}[,xtick=\empty,ytick=\empty,xlabel={$t$},ylabel={$y$},xlabel={$t$},ylabel={$y$},myStyleA,ylabel style={at={(current axis.above origin)},anchor=east},xmin=0]
+\addplot[domain=0:10,samples=50]{\ca*e^(-(\al-\be)*x)+\cb*e^(-(\al+\be)*x)}node[pos=0.3,fill=white]{ا};
 \addplot[domain=0:10]{\cc*e^(-(\al-\be)*x)+\cd*e^(-(\al+\be)*x)}node[pos=0.3,fill=white]{ب};
-\addplot[domain=0:10]{\ce*e^(-(\al-\be)*x)+\cf*e^(-(\al+\be)*x)}node[pos=0.3,fill=white]{پ};
-\addplot[domain=0:10,samples=50]{\cg*e^(-(\al-\be)*x)+\ch*e^(-(\al+\be)*x)}node[pos=0.3,fill=white]{پ};
+\addplot[domain=0:10]{\ce*e^(-(\al-\be)*x)+\cf*e^(-(\al+\be)*x)}node[pos=0.3,fill=white]{ج};
+\addplot[domain=0:10,samples=50]{\cg*e^(-(\al-\be)*x)+\ch*e^(-(\al+\be)*x)}node[pos=0.3,fill=white]{ج};
 \end{axis}
 \end{tikzpicture}
-\caption*{(ب) ابتدائی فاصلہ منفی ہے۔}
-\end{subfigure}%
+\caption{ ابتدائی فاصلہ منفی ہے۔}
+\end{subfigure} \hfill
 \caption{تقصیری نظام میں حرکت بالمقابل وقت۔}
 \label{شکل_سادہ_دو_درجی_تقصیری_حرکت_الف}
 \end{figure}
@@ -1359,18 +1361,18 @@ y=(c_1 +c_2 t)e^{-\alpha t}
 \pgfmathsetmacro{\v}{-2}   %initial velocity  NEGATIVE
 \pgfmathsetmacro{\cg}{\y}
 \pgfmathsetmacro{\ch}{\v+\al*\cg}
-\begin{axis}[small,axis lines*=middle,xtick=\empty,ytick=\empty,xlabel={$t$},ylabel={$y$},xlabel style={at={(axis description cs:1.05,0.4)}},ylabel style ={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},xmin=0]
-\addplot[domain=0:10,samples=50]{(\ca+\cb*x)*e^(-\al*x)}node[pos=0.3,fill=white]{الف};
+\begin{axis}[,xtick=\empty,ytick=\empty,xlabel={$t$},ylabel={$y$},xlabel={$t$},ylabel={$y$},myStyleA,ylabel style={at={(current axis.above origin)},anchor=east},xmin=0]
+\addplot[domain=0:10,samples=50]{(\ca+\cb*x)*e^(-\al*x)}node[pos=0.3,fill=white]{ا};
 \addplot[domain=0:10]{(\cc+\cd*x)*e^(-\al*x)}node[pos=0.3,fill=white]{ب};
-\addplot[domain=0:10]{(\ce+\cf*x)*e^(-\al*x)}node[pos=0.3,fill=white]{پ};
-\addplot[domain=0:10,samples=50]{(\cg+\ch*x)*e^(-\al*x)}node[pos=0.3,fill=white]{پ};
+\addplot[domain=0:10]{(\ce+\cf*x)*e^(-\al*x)}node[pos=0.3,fill=white]{ج};
+\addplot[domain=0:10,samples=50]{(\cg+\ch*x)*e^(-\al*x)}node[pos=0.3,fill=white]{ج};
 \end{axis}
 \end{tikzpicture}
 \caption{فاصل تقصیری نظام میں حرکت بالمقابل وقت۔}
 \label{شکل_سادہ_دو_درجی_فاصل_تقصیری_حرکت_الف}
 \end{figure}
 
-شکل \حوالہ{شکل_سادہ_دو_درجی_فاصل_تقصیری_حرکت_الف} میں مساوات \حوالہ{مساوات_سادہ_دو_درجی_قصری_فاصل_حل_الف} کو مختلف ابتدائی قیمتوں کے لئے دکھایا گیا ہے۔ابتدائی فاصلہ مثبت لیا گیا ہے، خط الف میں ابتدائی رفتار مثبت، خط ب میں صفر اور دو عدد خط پ میں ابتدائی رفتار منفی لی گئی ہے۔یہ خطوط  شکل \حوالہ{شکل_سادہ_دو_درجی_تقصیری_حرکت_الف}-الف سے مشابہت رکھتے ہیں۔ایسا ہونا بھی چاہیے کیونکہ موجودہ صورت منفرد حقیقی جذر کی وہ مخصوص صورت ہے جہاں دونوں جذر عین برابر ہوں۔  
+شکل \حوالہ{شکل_سادہ_دو_درجی_فاصل_تقصیری_حرکت_الف} میں مساوات \حوالہ{مساوات_سادہ_دو_درجی_قصری_فاصل_حل_الف} کو مختلف ابتدائی قیمتوں کے لئے دکھایا گیا ہے۔ابتدائی فاصلہ مثبت لیا گیا ہے، خط ا  میں ابتدائی رفتار مثبت، خط ب میں صفر اور دو عدد خطوط ج میں ابتدائی رفتار منفی لی گئی ہے۔یہ خطوط  شکل \حوالہ{شکل_سادہ_دو_درجی_تقصیری_حرکت_الف}-ا سے مشابہت رکھتے ہیں۔ایسا ہونا بھی چاہیے کیونکہ موجودہ صورت منفرد حقیقی جذر کی وہ مخصوص صورت ہے جہاں دونوں جذر عین برابر ہوں۔  
 %================================
 
 \جزوحصہء{تیسری صورت}\quad کم تقصیر\\
@@ -1392,7 +1394,7 @@ y=e^{-\alpha t} (A \cos \omega t+B \sin \omega t)=C e^{-\alpha t}  \cos (\omega 
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xtick=\empty,ytick=\empty,xlabel={$t$},ylabel={$y$},xlabel style={at={(axis description cs:1.05,0.4)}},ylabel style ={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},xmin=0,ytick={1,0,-1},yticklabels={$C$,$0$,$-C$}]
+\begin{axis}[,xtick=\empty,ytick=\empty,xlabel={$t$},ylabel={$y$},myStyleA,ylabel style={at={(current axis.above origin)},anchor=east},xmin=0,ytick={1,0,-1},yticklabels={$C$,$0$,$-C$}]
 \addplot[domain=0:20,samples=100]{e^(-0.1*x)*cos(x*180/pi-45)};
 \addplot[dashed,domain=0:20]{e^(-0.1*x)}node[pos=0.2,pin=30:{$Ce^{-\alpha t}$}]{};
 \addplot[dashed,domain=0:20]{-e^(-0.1*x)}node[pos=0.25,pin=-30:{$-Ce^{-\alpha t}$}]{};
@@ -1445,7 +1447,7 @@ y=e^{-1.25t} \left(0.04\cos 3.8t-0.013\sin 3.8t\right)
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel={$t$},ylabel={$y$},xlabel style={at={(axis description cs:1.05,0.4)}},ylabel style ={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},xmin=0,ytick={0.04,0,-0.04},yticklabels={$0.04$,$0$,$-0.04$},scaled y ticks=false]
+\begin{axis}[,myStyleA,xlabel={$t$},ylabel={$y$},ylabel style={at={(current axis.above origin)},anchor=east},xmin=0,ytick={0.04,0,-0.04},yticklabels={$0.04$,$0$,$-0.04$},scaled y ticks=false]
 \addplot[dashed,domain=0:4]{4/75*e^(-2*x)-1/75*e^(-8*x)};
 \addplot[dashed,domain=0:4]{(0.04+0.16*x)*e^(-4*x)};
 \addplot[domain=0:4,samples=100]{e^(-5/4*x)*(0.04*cos(3.8*180/pi*x)-0.013*sin(3.8*180/pi*x))};
@@ -1495,7 +1497,7 @@ y=e^{-1.25t} \left(0.04\cos 3.8t-0.013\sin 3.8t\right)
 چار کلو گرام کی گیند کو \عددی{k_1=\SI{16}{\newton\per\meter}} کی اسپرنگ سے لٹکایا جاتا ہے۔نظام کی تعدد کیا ہو گی؟ اگر اسی گیند کو \عددی{k_2=\SI{32}{\newton\per\meter}} کی اسپرنگ سے لٹکایا جائے تب نظام کی تعدد کیا ہو گی؟ دونوں کی لمبائی برابر ہے۔  ان دونوں اسپرنگ کو متوازی جوڑا جاتا ہے۔ایسی صورت میں نظام کی تعدد کیا ہو گی؟ شکل \حوالہ{شکل_سوال_سادہ_دو_درجی_متوازی_اسپرنگ}-الف کو دیکھیے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \node[circle,fill=gray,inner sep=2.5mm] (b) at (0,0) {};
@@ -1507,9 +1509,9 @@ y=e^{-1.25t} \left(0.04\cos 3.8t-0.013\sin 3.8t\right)
 \fill [pattern = north east lines] (-1.5,3) rectangle (1.5,3.2);
 \draw[thick] (-1.5,3) -- (1.5,3);
 \end{tikzpicture}
-\caption*{(الف) سوال \حوالہ{سوال_سادہ_دو_درجی_متوازی_اسپرنگ} کا نظام۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ سوال \حوالہ{سوال_سادہ_دو_درجی_متوازی_اسپرنگ} کا نظام۔}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\ang}{atan(1/3)}
@@ -1522,8 +1524,8 @@ y=e^{-1.25t} \left(0.04\cos 3.8t-0.013\sin 3.8t\right)
 \draw[-stealth] ([shift={(-90:1.75)}]0,3) arc (-90:-90+\ang:1.75);
 \draw(0,3)++(-90+\ang/2:2)node{$\theta$};
 \end{tikzpicture}
-\caption*{(ب) سوال \حوالہ{سوال_سادہ_دو_جھولا} کا نظام۔}
-\end{subfigure}%
+\caption{ سوال \حوالہ{سوال_سادہ_دو_جھولا} کا نظام۔}
+\end{subfigure} \hfill
 \caption{متوازی اسپرنگ اور جھولا  کے سوالات۔}
 \label{شکل_سوال_سادہ_دو_درجی_متوازی_اسپرنگ}
 \end{figure}
@@ -1583,7 +1585,7 @@ y=e^{-1.25t} \left(0.04\cos 3.8t-0.013\sin 3.8t\right)
 شکل \حوالہ{شکل_سوال_سادہ_دو_نالی_میں_پانی}-الف میں \عددی{M=\SI{9}{\kilo\gram}} پانی زیر ثقلی قوت نالی میں ارتعاش کرتا ہے۔نالی کا اندرونی رداس \عددی{r=\SI{1.5}{\centi\meter}} ہے۔ ارتعاش کا دوری عرصہ  دریافت کریں۔ 
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\d}{0.4}
@@ -1600,9 +1602,9 @@ y=e^{-1.25t} \left(0.04\cos 3.8t-0.013\sin 3.8t\right)
 \draw[-stealth](ka)--++(0,\h/4)node[pos=0.5,left]{$y$};
 \draw (\rb+0.2,\h/2)--++(0.5,0)node[right]{$y=0$};
 \end{tikzpicture}
-\caption*{(الف) نالی میں پانی کا ارتعاش۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ نالی میں پانی کا ارتعاش۔}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0) circle (1cm and 0.4 cm);
@@ -1614,8 +1616,8 @@ y=e^{-1.25t} \left(0.04\cos 3.8t-0.013\sin 3.8t\right)
 \draw[-stealth] ([shift={(0:1.5cm and 0.6cm)}]0,0) arc (0:25:1.5cm and 0.6cm);
 \draw(6:1.8cm)node{$\theta$};
 \end{tikzpicture}
-\caption*{(ب)مروڑی ارتعاش۔}
-\end{subfigure}%
+\caption{مروڑی ارتعاش۔}
+\end{subfigure} \hfill
 \caption{سوال \حوالہ{سوال_سادہ_دو_نالی_میں_پانی} اور سوال \حوالہ{سوال_سادہ_دو_خطی_متجانس_آزاد_حرکت_ب} کے اشکال۔}
 \label{شکل_سوال_سادہ_دو_نالی_میں_پانی}
 \end{figure}
@@ -1795,10 +1797,10 @@ y=x^{0.1}[c_1 \cos (3\ln x)+c_2 \sin (3\ln x)]
 %=========================
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,ymin=0,ymax=1.98,xmin=0,xmax=2.6,xlabel={$x$},ylabel={$y$},xlabel style={at={(axis description cs:1.05,0)}},ylabel style ={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\begin{axis}[,myStyleA,ymin=0,ymax=1.98,xmin=0,xmax=2.6,xlabel={$x$},ylabel={$y$},ylabel style={at={(current axis.above origin)},anchor=east},]
 \addplot[domain=0:2]{x^1.5}node[pos=0.69,fill=white]{$x^{1.5}$};
 \addplot[domain=0:2]{x^2}node[pos=0.5,left]{$x^2$};
 \addplot[domain=0:2]{x^1}node[below]{$x^1$};
@@ -1808,22 +1810,22 @@ y=x^{0.1}[c_1 \cos (3\ln x)+c_2 \sin (3\ln x)]
 \addplot[domain=0:2]{x^(-1.5)}node[right]{$x^{-1.5}$};
 \end{axis}
 \end{tikzpicture}
-\caption*{(الف) پہلی صورت: منفرد حقیقی جذر۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ پہلی صورت: منفرد حقیقی جذر۔}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \includegraphics{figEulerCauchyABCD}
-\caption*{(ب) دوسری صورت: دوہرا جذر۔}
+\caption{ دوسری صورت: دوہرا جذر۔}
 \end{subfigure}
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,ymin=-1.6,ymax=1.6,xmin=0,xmax=2.9,xlabel={$x$},ylabel={$y$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel style ={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\begin{axis}[,myStyleA,ymin=-1.6,ymax=1.6,xmin=0,xmax=2.9,xlabel={$x$},ylabel={$y$},ylabel style={at={(current axis.above origin)},anchor=east},]
 \addplot[domain=0.001:2,samples=100]{x^(0.1)*cos(180/pi*3*ln(x))}node[below]{$x^{0.1}\cos(3\ln x)$};
 \addplot[domain=0.001:2,samples=100]{x^(0.1)*sin(180/pi*3*ln(x))}node[above]{$x^{0.1}\sin(3\ln x)$};
 \end{axis}
 \end{tikzpicture}
-\caption*{(پ) جوڑی دار مخلوط جذر۔}
+\caption{جوڑی دار مخلوط جذر۔}
 \end{subfigure}
 \caption{یولر کوشی سادہ تفرقی مساوات کے حل۔}
 \label{شکل_سادہ_دو_درجی_یولر_کوشی}
@@ -1843,7 +1845,7 @@ y=x^{0.1}[c_1 \cos (3\ln x)+c_2 \sin (3\ln x)]
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,ymin=0,ymax=58,xmin=0.02,xmax=0.056,xlabel={$\rho$},ylabel={$v$},xlabel style={at={(axis description cs:1.05,0)}},ylabel style ={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},scaled x ticks=false,xtick={0.02,0.03,0.04,0.05},xticklabels={$2$,$3$,$4$,$5$},ytick={0,50},yticklabels={$0$,$50$}]
+\begin{axis}[,myStyleA,ymin=0,ymax=58,xmin=0.02,xmax=0.056,xlabel={$\rho$},ylabel={$v$},ylabel style={at={(current axis.above origin)},anchor=east},scaled x ticks=false,xtick={0.02,0.03,0.04,0.05},xticklabels={$2$,$3$,$4$,$5$},ytick={0,50},yticklabels={$0$,$50$}]
 \addplot[domain=0.01:0.05]{-163.471-54.568*ln(x)};
 \end{axis}
 \end{tikzpicture}
@@ -2414,7 +2416,7 @@ y=\frac{407}{405}\cos 3x-2\sin 3x+\frac{x^2}{45}-\frac{2}{405}
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xmin=0,xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},ylabel style ={at={(axis description cs:0,1.05)}},xlabel style={at={(axis description cs:1.05,0.4)}}]
+\begin{axis}[,myStyleA,xmin=0,xlabel={$x$},ylabel={$y$},ylabel style={at={(current axis.above origin)},anchor=east},]
 \addplot[domain=0:10,samples=100]{407/405*cos(180/pi*3*x)-2*sin(180/pi*3*x)+x^2/45-2/405};
 \addplot[dashed,domain=0:10]{x^2/45-2/405};
 \end{axis}
@@ -2456,7 +2458,7 @@ y=(1+1.2x-2.5x^2)e^{-1.2x}
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xmin=0,xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},ylabel style ={at={(axis description cs:0,1.05)}},xlabel style={at={(axis description cs:1.05,0.4)}}]
+\begin{axis}[,myStyleA,xmin=0,xlabel={$x$},ylabel={$y$},ylabel style={at={(current axis.above origin)},anchor=east},]
 \addplot[domain=0:8,samples=50]{(1+1.2*x-2.5*x^2)*e^(-1.2*x)};
 \end{axis}
 \end{tikzpicture}
@@ -2514,7 +2516,7 @@ y=-\frac{3}{5}e^{-x}-\frac{249}{200}e^{-2x}+\tfrac{1}{50}\cos x+\tfrac{3}{50}\si
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xmin=0,xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},ylabel style ={at={(axis description cs:0,1.05)}},xlabel style={at={(axis description cs:1.05,0.7)}}]
+\begin{axis}[,myStyleA,xmin=0,xlabel={$x$},ylabel={$y$},ytick={-2,-1}]
 \addplot[domain=0:20,samples=50]{1/50*cos(180/pi*x)+3/50*sin(180/pi*x)+x/20-11/40-249/200*e^(-2*x)-3/5*e^(-x)};
 \end{axis}
 \end{tikzpicture}
@@ -2677,7 +2679,7 @@ my''+cy'+ky=r(t)
 \pgfmathsetmacro{\width}{0.9}
 \pgfmathsetmacro{\height}{0.9}
 \node[circle,fill=gray,inner sep=2.5mm] (b) at (0,0) {} ++(-0.37,0)node[left]{گیند} ++(0.74,0) node[right]{$m$};
-\draw[decorate,decoration={coil,aspect=0.3, segment length=1.7mm, amplitude=3mm}] (0,3) -- (b)node[pos=0.5,shift={(-0.8,0)}]{اسپرنگ}node[pos=0.5,shift={(0.6,0)}]{$k$}; 
+\draw[decorate,decoration={coil,aspect=0.3, segment length=1.7mm, amplitude=3mm}] (0,3) -- (b)node[pos=0.5,shift={(-1,0)}]{اسپرنگ}node[pos=0.5,shift={(0.6,0)}]{$k$}; 
 \fill [pattern = north east lines] (-1,3) rectangle (1,3.2);
 \draw[thick] (-1,3) -- (1,3);
 \draw[latex-latex] (1,0.6)--++(0,-1.2)node[pos=0.5,right]{$r(t)$};
@@ -2770,7 +2772,7 @@ a=\frac{F_0}{k} \rho, \quad \rho=\frac{1}{1-\left(\frac{\omega}{\omega_0}\right)
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xmin=0,ymin=-4,ymax=4,xtick=\empty,ytick={1},xticklabels={$1$},xlabel={$\omega$},ylabel={$\rho$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\begin{axis}[,myStyleA,xmin=0,ymin=-4,ymax=4,xtick=\empty,ytick={1},xticklabels={$1$},xlabel={$\omega$},ylabel={$\rho$},ylabel style={at={(current axis.above origin)},anchor=east},]
 \addplot[domain=0:0.87]{1/(1-x^2)};
 \addplot[domain=1.12:2.5]{1/(1-x^2)};
 \addplot[dashed] plot coordinates {(1,-4) (1,4)}node[pos=0.4,fill=white]{$\omega_0$};
@@ -2795,7 +2797,7 @@ y_p(t)=\frac{F_0}{2m\omega_0} t \sin \omega_0t
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xmin=0,xtick=\empty,ytick=\empty,xlabel={$t$},ylabel={$y_p$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\begin{axis}[,myStyleA,xmin=0,xtick=\empty,ytick=\empty,xlabel={$t$},ylabel={$y_p$},ylabel style={at={(current axis.above origin)},anchor=east},]
 \addplot[domain=0:15,samples=100]{x*sin(180/pi*x)};
 \addplot[dashed] plot coordinates {(0,0) (15,15)};
 \addplot[dashed] plot coordinates {(0,0) (15,-15)};
@@ -2819,7 +2821,7 @@ y(t)=\frac{2F_0}{m(\omega_0^2-\omega^2)}\sin\left( \frac{\omega_0+\omega}{2}t\ri
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xmin=0,xtick=\empty,ytick=\empty,xlabel={$t$},ylabel={$y$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\begin{axis}[,myStyleA,xmin=0,xtick=\empty,ytick=\empty,xlabel={$t$},ylabel={$y$},ylabel style={at={(current axis.above origin)},anchor=east},]
 \addplot[domain=0:2*pi,samples=200]{sin(10.5*180/pi*x)*sin(180/pi*x)};
 \addplot[dashed,domain=0:2*pi]{sin(180/pi*x)};
 \addplot[dashed,domain=0:2*pi]{-sin(180/pi*x)};
@@ -2875,22 +2877,22 @@ c^2=2m^2(\omega_0^2-\omega^2)\quad \quad (\omega_0^2=\frac{k}{m})
 
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xmin=0,xlabel={$\omega$},ylabel={$\frac{C^*}{F_0}$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}}]
+\begin{axis}[,myStyleA,xmin=0,xlabel={$\omega$},ylabel={$\frac{C^*}{F_0}$},ylabel style={at={(current axis.above origin)},anchor=east},]
 \addplot[domain=0:2,samples=100]{1/sqrt((1-x^2)^2+x^2*0.25^2)}node[pos=0.52,pin=30:{$c=0.25$}]{};
 \addplot[domain=0:2,samples=70]{1/sqrt((1-x^2)^2+x^2*0.5^2)}node[pos=0.52,pin=30:{$c=0.5$}]{};
 \addplot[domain=0:2]{1/sqrt((1-x^2)^2+x^2*1^2)}node[pos=0.65,pin=30:{$c=1$}]{};
 \addplot[domain=0:2]{1/sqrt((1-x^2)^2+x^2*2^2)}node[pos=0.75,pin=30:{$c=2$}]{};
 \end{axis}
 \end{tikzpicture}
-\caption*{(الف) \عددی{k=1}، \عددی{m=1}، \عددی{\omega_0=1} رکھتے ہوئے\\ مختلف \عددی{c} کے لئے \عددی{\tfrac{C^*}{F_0}} بالمقابل \عددی{\omega}}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ \عددی{k=1}، \عددی{m=1}، \عددی{\omega_0=1} رکھتے ہوئے\\ مختلف \عددی{c} کے لئے \عددی{\tfrac{C^*}{F_0}} بالمقابل \عددی{\omega}}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xmin=0,xmax=2.75,xlabel={$\omega$},ylabel={$\eta$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},ytick={1.571,3.142},yticklabels={$\frac{\pi}{2}$,$\pi$},xtick={1,2},xticklabels={$1$,$2$}]
+\begin{axis}[,myStyleA,xmin=0,xmax=2.75,xlabel={$\omega$},ylabel={$\eta$},ylabel style={at={(current axis.above origin)},anchor=east},ytick={1.571,3.142},yticklabels={$\frac{\pi}{2}$,$\pi$},xtick={1,2},xticklabels={$1$,$2$}]
 \addplot[domain=0:0.99,samples=30]{rad(atan(0.5*x/(1-x^2)))};
 \addplot[domain=1.001:2,samples=30]{pi+rad(atan(0.5*x/(1-x^2)))}node[right]{$c=0.5$};
 %
@@ -2906,8 +2908,8 @@ c^2=2m^2(\omega_0^2-\omega^2)\quad \quad (\omega_0^2=\frac{k}{m})
 \addplot[dashed] plot coordinates {(1,pi) (1,0)};
 \end{axis}
 \end{tikzpicture}
-\caption*{(ب) \عددی{k=1}، \عددی{m=1}، \عددی{\omega_0=1} رکھتے ہوئے\\ مختلف \عددی{c} کے لئے \عددی{\eta} بالمقابل \عددی{\omega}}
-\end{subfigure}%
+\caption{ \عددی{k=1}، \عددی{m=1}، \عددی{\omega_0=1} رکھتے ہوئے\\ مختلف \عددی{c} کے لئے \عددی{\eta} بالمقابل \عددی{\omega}}
+\end{subfigure} \hfill
 \caption{مساوات \حوالہ{مساوات_سادہ_دو_حیطہ_زاویہ_الف} کا حیطہ اور زاویائی فاصلہ۔}
 \label{شکل_سادہ_دو_حیطہ_زاویائی_فاصلہ}
 \end{figure}
@@ -3184,26 +3186,26 @@ I(t)=1.4099e^{-199.5t}-0.00497e^{-0.5t}+1.422\sin(100\pi t-1.003)
 شکل \حوالہ{شکل_مثال_سادہ_دو_سلسلہ_وار_دور_الف}-الف میں \عددی{I(t)} کو نقطہ دار لکیر جبکہ \عددی{I_p} کو ٹھوس لکیر سے ظاہر کیا گیا ہے۔چونکہ \عددی{I_h} بہت جلد صفر کے برابر ہو جاتا ہے لہٰذا \عددی{I} اور \عددی{I_p} میں صرف شروع میں فرق پایا جاتا ہے۔شکل-ب میں \عددی{E(t)} اور \عددی{I_p(t)} کو دکھایا گیا ہے۔ان دونوں میں زاویائی فاصلہ \عددی{1.003} ریڈیئن یعنی \عددی{57.5^{\circ}} ہے جو شکل میں صاف واضح ہے۔ہم کہتے ہیں کہ دباو سے رو \عددی{57.5^{\circ}} \اصطلاح{پیچھے}\فرہنگ{پیچھے}\حاشیہب{lagging}\فرہنگ{lagging} ہے۔آپ یہاں خود تسلی کر سکتے ہیں کہ \عددی{\omega L > \tfrac{1}{\omega C}} کی صورت میں داخلی دباو سے رو \اصطلاح{پیچھے} ہو گی جبکہ  \عددی{\omega L < \tfrac{1}{\omega C}} کی صورت میں داخلی دباو سے رو \اصطلاح{آگے} ہو گی۔  \عددی{\omega L = \tfrac{1}{\omega C}} کی صورت میں داخلی دباو اور رو \اصطلاح{ہم زاویہ}\فرہنگ{ہم زاویہ}\حاشیہب{in-phase}\فرہنگ{in-phase} ہوں گے یعنی ان میں زاویائی فاصلہ نہیں پایا جاتا۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,xmin=0,axis lines*=middle,xlabel={$t$},ylabel={$I(t)$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},xtick=\empty,ytick=\empty,xlabel style={at={(axis description cs:1.05,0.45)}}]
+\begin{axis}[,xmin=0,myStyleA,xlabel={$t$},ylabel={$I(t)$},xtick=\empty,ytick=\empty,ylabel style={at={(current axis.above origin)},anchor=east},]
 \addplot[dashed,domain=0:0.04,samples=100]{1.4*e^(-199.5*x)-0.00497*e^(-0.5*x)-1.4049*cos(180/pi*100*pi*x)+0.8953*sin(180/pi*100*pi*x)};
 \addplot[domain=0:0.04,samples=100]{-1.4049*cos(180/pi*100*pi*x)+0.8953*sin(180/pi*100*pi*x)};
 \end{axis}
 \end{tikzpicture}
-\caption*{(الف) قصری دور میں عمومی حل آخر کار \عددی{I_p} کے برابر ہو گا۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ قصری دور میں عمومی حل آخر کار \عددی{I_p} کے برابر ہو گا۔}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel=\empty,ylabel=\empty,xtick={0.0032},xticklabels={$57.5^{\circ}$},ytick=\empty,xlabel style={at={(axis description cs:1.05,0.45)}},scaled x ticks=false,xmin=0]
+\begin{axis}[,myStyleA,xlabel=\empty,ylabel=\empty,xtick={0.0032},xticklabels={$57.5^{\circ}$},ytick=\empty,ylabel style={at={(current axis.above origin)},anchor=east},scaled x ticks=false,xmin=0]
 \addplot[domain=0:0.04,samples=100]{2*sin(180/pi*100*pi*x)}node[pos=0.625,left]{$E(t)$};
 \addplot[domain=0:0.04,samples=100]{1.422*sin(180/pi*100*pi*x-57.48)}node[pos=0.75,right]{$I_p(t)$};
 \end{axis}
 \end{tikzpicture}
-\caption*{(ب) دباو سے رو پیچھے ہے۔}
-\end{subfigure}%
+\caption{ دباو سے رو پیچھے ہے۔}
+\end{subfigure}
 \caption{مثال \حوالہ{مثال_سادہ_دو_سلسلہ_وار_دور_الف} کی رو کے خطوط۔}
 \label{شکل_مثال_سادہ_دو_سلسلہ_وار_دور_الف}
 \end{figure}
@@ -3245,22 +3247,22 @@ my''+cy'+ky=F_0 \cos \omega t, \quad LI''+RI'+\frac{I}{C}=E'(t)=\omega E_0\cos \
 سلسلہ وار \عددی{RC} دور شکل \حوالہ{شکل_سادہ_دو_سلسلہ_وار_مزاحمت_برق_گیر}-الف میں دکھایا گیا ہے جہاں داخلی دباو مستقل مقدار \عددی{E(t)=E_0} ہے۔دور کی نمونہ کشی کرتے ہوئے برقی رو دریافت کریں۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0) to [american voltage source,l={$E(t)$}]++(0,\y) to [resistor,l={$R$}]++(\x,0) to [capacitor,l={$C$}]++(0,-\y) to [short](0,0);
 \end{tikzpicture}
-\caption*{(الف) سلسلہ وار \عددی{RC} دور۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ سلسلہ وار \عددی{RC} دور۔}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xmin=0,xlabel={$t$},ylabel={$I(t)$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},ytick={1},yticklabels={$c$},xtick=\empty]
+\begin{axis}[,myStyleA,xmin=0,xlabel={$t$},ylabel={$I(t)$},ylabel style={at={(current axis.above origin)},anchor=east},ytick={1},yticklabels={$c$},xtick=\empty]
 \addplot[domain=0:4]{e^(-x)};
 \end{axis}
 \end{tikzpicture}
-\caption*{سلسلہ وار \عددی{RC} کی رو بالمقابل وقت۔}
-\end{subfigure}%
+\caption{سلسلہ وار \عددی{RC} کی رو بالمقابل وقت۔}
+\end{subfigure} \hfill
 \caption{سلسلہ وار \عددی{RC} دور اور اس کی رو۔}
 \label{شکل_سادہ_دو_سلسلہ_وار_مزاحمت_برق_گیر}
 \end{figure} 
@@ -3282,7 +3284,7 @@ my''+cy'+ky=F_0 \cos \omega t, \quad LI''+RI'+\frac{I}{C}=E'(t)=\omega E_0\cos \
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel={$t$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel=\empty,ylabel style={rotate=-90},ytick=\empty,xtick={-38.7},xticklabels={$-38.7^{\circ}$}]
+\begin{axis}[,myStyleA,xlabel={$t$},ylabel style={at={(current axis.above origin)},anchor=east},ylabel=\empty,ytick=\empty,xtick={-38.7},xticklabels={$-38.7^{\circ}$}]
 \addplot[domain=0:360,samples=100]{1.5*sin(x)}node[pos=0.4,fill=white]{$E$};
 \addplot[domain=-38.7:321.3,samples=100]{sin(x+38.7)}node[pos=0.45,fill=white]{$I$};
 \end{axis}
@@ -3298,25 +3300,25 @@ my''+cy'+ky=F_0 \cos \omega t, \quad LI''+RI'+\frac{I}{C}=E'(t)=\omega E_0\cos \
 سلسلہ وار \عددی{RL} دور شکل \حوالہ{شکل_سادہ_دو_سلسلہ_وار_مزاحمت_امالہ}-الف میں دکھایا گیا ہے۔ داخلی دباو مستقل مقدار \عددی{E(t)=E_0} ہے۔دور کی نمونہ کشی کرتے ہوئے برقی رو دریافت کریں۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0) to [american voltage source,l={$E(t)$}]++(0,\y) to [resistor,l={$R$}]++(\x,0) to [inductor,l={$L$}]++(0,-\y) to [short](0,0);
 \end{tikzpicture}
-\caption*{(الف) سلسلہ وار \عددی{RL} دور۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ سلسلہ وار \عددی{RL} دور۔}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xmin=0,xlabel={$t$},ylabel={$I(t)$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},ytick={1},yticklabels={$\frac{E_0}{R}$},xtick=\empty]
+\begin{axis}[,myStyleA,xmin=0,xlabel={$t$},ylabel={$I(t)$},ylabel style={at={(current axis.above origin)},anchor=east},ytick={1},yticklabels={$\frac{E_0}{R}$},xtick=\empty]
 \addplot[domain=0:4]{1+e^(-x)};
 \addplot[domain=0:4]{1+0.5*e^(-x)};
 \addplot[domain=0:4]{1-0.5*e^(-x)};
 \addplot[domain=0:4]{1+0*e^(-x)};
 \end{axis}
 \end{tikzpicture}
-\caption*{سلسلہ وار \عددی{RL} کی رو بالمقابل وقت۔داخلی دباو مستقل مقدار ہے۔}
-\end{subfigure}%
+\caption{سلسلہ وار \عددی{RL} کی رو بالمقابل وقت۔داخلی دباو مستقل مقدار ہے۔}
+\end{subfigure} \hfill
 \caption{سلسلہ وار \عددی{RL} دور اور اس کی رو۔}
 \label{شکل_سادہ_دو_سلسلہ_وار_مزاحمت_امالہ}
 \end{figure} 
@@ -3328,23 +3330,23 @@ my''+cy'+ky=F_0 \cos \omega t, \quad LI''+RI'+\frac{I}{C}=E'(t)=\omega E_0\cos \
 شکل \حوالہ{شکل_سادہ_دو_سلسلہ_وار_مزاحمت_امالہ_سائن_نما}-الف میں \عددی{R=\SI{5}{\ohm}} اور \عددی{L=\SI{1}{\henry}} لیں۔ ابتدائی لمحہ \عددی{t=0} پر \عددی{I(0)=0} لیتے ہوئے \عددی{I(t)} حاصل کریں۔رو کا خط کھینچیں۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0) to [american voltage source,l={$20\sin 10t $}]++(0,\y) to [resistor,l={$R$}]++(\x,0) to [inductor,l={$L$}]++(0,-\y) to [short](0,0);
 \end{tikzpicture}
-\caption*{(الف) سلسلہ وار \عددی{RL} دور۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ سلسلہ وار \عددی{RL} دور۔}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xmin=0,xlabel={$t$},ylabel={$I(t)$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},ytick=\empty,xtick=\empty]
+\begin{axis}[,myStyleA,xmin=0,xlabel={$t$},ylabel={$I(t)$},ylabel style={at={(current axis.above origin)},anchor=east},ytick=\empty,xtick=\empty]
 \addplot[domain=0:2,samples=100]{8/5*e^(-5*x)+4/5*sin(180/pi*10*x)-8/5*cos(180/pi*10*x)};
 \addplot[dashed,domain=0:2]{8/5*e^(-5*x)};
 \end{axis}
 \end{tikzpicture}
-\caption*{سلسلہ وار \عددی{RL} کی رو بالمقابل وقت۔داخلی دباو مستقل مقدار ہے۔}
-\end{subfigure}%
+\caption{سلسلہ وار \عددی{RL} کی رو بالمقابل وقت۔داخلی دباو مستقل مقدار ہے۔}
+\end{subfigure} \hfill
 \caption{سوال \حوالہ{سوال_سادہ_مزاحمت_امالہ_سائن_نما} کا دور۔}
 \label{شکل_سادہ_دو_سلسلہ_وار_مزاحمت_امالہ_سائن_نما}
 \end{figure} 
@@ -3359,7 +3361,7 @@ my''+cy'+ky=F_0 \cos \omega t, \quad LI''+RI'+\frac{I}{C}=E'(t)=\omega E_0\cos \
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel={$t$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel=\empty,ylabel style={rotate=-90},ytick=\empty,xmin=0,xtick={63.4},xticklabels={$63.4^{\circ}$}]
+\begin{axis}[,myStyleA,xlabel={$t$},ylabel=\empty,ylabel style={at={(current axis.above origin)},anchor=east},ytick=\empty,xmin=0,xtick={63.4},xticklabels={$63.4^{\circ}$}]
 \addplot[domain=0:360,samples=100]{1.5*sin(x)}node[pos=0.3,above right]{$E$};
 \addplot[domain=0:423.4,samples=100]{sin(x-63.4)}node[pos=0.5,above right]{$I$};
 \end{axis}
@@ -3489,7 +3491,7 @@ y_p(t)&=-\cos x\int \sin x \cosec x\dif x+\sin x\int \cos x \cosec x\dif x\\
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel={$x$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel={$y$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},xmin=0]
+\begin{axis}[,myStyleA,xlabel={$x$},ylabel={$y$},ylabel style={at={(current axis.above origin)},anchor=east},xmin=0,ytick={5,-5,-10}]
 \addplot[domain=0:12,samples=100]{-x*cos(180/pi*x)+sin(x)*ln(abs(sin(180/pi*x)))};
 \addplot[domain=0:12,samples=100]{sin(x)*ln(abs(sin(180/pi*x)))};
 \end{axis}

@@ -22,7 +22,7 @@ e^xe^y=e^{x+y},\quad \frac{e^x}{e^y}=e^{x-y},\quad (e^x)^y=e^{xy}
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel={$x$},ylabel={$y$},xtick={-2,-1,0,1,2,3},ytick={1,2,3,4,5,6,7},xticklabels={$-2$,{},$0$,{},$2$,{}},yticklabels={{},{},{},{},$5$,{},{}},ymin=0,ymax=7.5,xmin=-2.5,xmax=3.9,xlabel style={at={(current axis.right of origin)},anchor=north west}, ylabel style={at={(current axis.above origin)},anchor=north west},ylabel style={rotate=-90}]
+\begin{axis}[myStyleA,xlabel={$x$},ylabel={$y$},xtick={-2,-1,0,1,2,3},ytick={1,2,3,4,5,6,7},xticklabels={$-2$,{},$0$,{},$2$,{}},yticklabels={{},{},{},{},$5$,{},{}},ymin=0,ymax=7.5,xmin=-2.5,xmax=3.9,]
 \addplot[domain=-2.5:2]{e^x};
 \end{axis}
 \end{tikzpicture}
@@ -31,7 +31,7 @@ e^xe^y=e^{x+y},\quad \frac{e^x}{e^y}=e^{x-y},\quad (e^x)^y=e^{xy}
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel={$x$},ylabel={$y$},xtick={1,2,3,4,5,6,7,8,9,10},xticklabels={{},{},{},{},{$5$},{},{},{},{},{$10$}},ytick={-2,-1,0,1,2,3,4},yticklabels={{$-2$},{},{$0$},{},{$2$},{},{}},ymin=-2.5,ymax=5.9,xmin=0,xmax=10.5,xlabel style={at={(current axis.right of origin)},anchor=north west}, ylabel style={at={(current axis.above origin)},anchor=north west},ylabel style={rotate=-90}]
+\begin{axis}[,myStyleA,xlabel={$x$},ylabel={$y$},xtick={1,2,3,4,5,6,7,8,9,10},xticklabels={{},{},{},{},{$5$},{},{},{},{},{$10$}},ytick={-2,-1,0,1,2,3,4},yticklabels={{$-2$},{},{$0$},{},{$2$},{},{}},ymin=-2.5,ymax=5.9,xmin=0,xmax=10.5]
 \addplot[domain=0:10,samples=100]{ln(x)};
 \end{axis}
 \end{tikzpicture}
@@ -56,7 +56,7 @@ e^xe^y=e^{x+y},\quad \frac{e^x}{e^y}=e^{x-y},\quad (e^x)^y=e^{xy}
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel={$x$},ylabel={$y$},xtick={-90,90,180,270,360,450},xticklabels={{},{},{$\pi$},{},{$2\pi$},{}},ytick={-1,1},yticklabels={{$-1$},{$1$}},xlabel style={at={(current axis.right of origin)},anchor=north east},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=north east},ymin=-2,ymax=2]
+\begin{axis}[,myStyleA,xlabel={$x$},ylabel={$y$},xtick={-90,90,180,270,360,450},xticklabels={{},{},{$\pi$},{},{$2\pi$},{}},ytick={-1,1},yticklabels={{$-1$},{$1$}},ymin=-2,ymax=2]
 \addplot[domain=-90:500,samples=100]{sin(x)};
 \end{axis}
 \end{tikzpicture}
@@ -65,7 +65,7 @@ e^xe^y=e^{x+y},\quad \frac{e^x}{e^y}=e^{x-y},\quad (e^x)^y=e^{xy}
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel={$x$},ylabel={$y$},xtick={-90,90,180,270,360,450},xticklabels={{},{},{$\pi$},{},{$2\pi$},{}},ytick={-1,1},yticklabels={{$-1$},{$1$}},xlabel style={at={(current axis.right of origin)},anchor=north east},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=north east},ymin=-2,ymax=2]
+\begin{axis}[,myStyleA,xlabel={$x$},ylabel={$y$},xtick={-90,90,180,270,360,450},xticklabels={{},{},{$\pi$},{},{$2\pi$},{}},ytick={-1,1},yticklabels={{$-1$},{$1$}},ymin=-2,ymax=2]
 \addplot[domain=-90:500,samples=100]{cos(x)};
 \end{axis}
 \end{tikzpicture}
@@ -140,7 +140,7 @@ A\cos x+B\sin x &=\sqrt{A^2+B^2}\sin(x\mp\delta),\quad \tan \delta=\frac{\sin \d
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel={$x$},ylabel={$y$},xlabel style={at={(current axis.right of origin)},anchor=north east},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=north east},ymin=-7,ymax=7,xtick={-270,-180,-90,90,180,270,360,450,540},xticklabels={{},{$-\pi$},{},{},{$\pi$},{},{$2\pi$},{},{}},ytick={-5,5},yticklabels={{$-5$},{$5$}}]
+\begin{axis}[,myStyleA,xlabel={$x$},ylabel={$y$},ymin=-7,ymax=7,xtick={-270,-180,-90,90,180,270,360,450,540},xticklabels={{},{$-\pi$},{},{},{$\pi$},{},{$2\pi$},{},{}},ytick={-5,5},yticklabels={{$-5$},{$5$}}]
 \addplot[domain=-260:-100]{tan(x)};
 \addplot[domain=-80:80]{tan(x)};
 \addplot[domain=100:260]{tan(x)};
@@ -152,7 +152,7 @@ A\cos x+B\sin x &=\sqrt{A^2+B^2}\sin(x\mp\delta),\quad \tan \delta=\frac{\sin \d
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel={$x$},ylabel={$y$},xlabel style={at={(current axis.right of origin)},anchor=north east},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=north east},ymin=-7,ymax=7,xtick={-270,-180,-90,90,180,270,360,450,540},xticklabels={{},{$-\pi$},{},{},{$\pi$},{},{$2\pi$},{},{}},ytick={-5,5},yticklabels={{$-5$},{$5$}}]
+\begin{axis}[,myStyleA,xlabel={$x$},ylabel={$y$},ymin=-7,ymax=7,xtick={-270,-180,-90,90,180,270,360,450,540},xticklabels={{},{$-\pi$},{},{},{$\pi$},{},{$2\pi$},{},{}},ytick={-5,5},yticklabels={{$-5$},{$5$}}]
 \addplot[domain=-350:-190]{cot(x)};
 \addplot[domain=-170:-10]{cot(x)};
 \addplot[domain=10:170]{cot(x)};
@@ -198,7 +198,7 @@ A\cos x+B\sin x &=\sqrt{A^2+B^2}\sin(x\mp\delta),\quad \tan \delta=\frac{\sin \d
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel={$x$},ylabel={$y$},xlabel style={at={(current axis.right of origin)},anchor=north east},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=north east},ymin=-5,ymax=6,xtick={-2,2},xticklabels={{$-2$},{$2$}},ytick={-4,4},yticklabels={{$-4$},{$4$}}]
+\begin{axis}[,myStyleA,xlabel={$x$},ylabel={$y$},ymin=-5,ymax=6,xtick={-2,2},xticklabels={{$-2$},{$2$}},ytick={-4,4},yticklabels={{$-4$},{$4$}}]
 \addplot[domain=-2:2]{sinh(x)}node[pos=0,below right]{$\sinh x$};
 \addplot[dashed,domain=-2:2]{cosh(x)}node[pos=0,above right]{$\cosh x$};
 \end{axis}
@@ -208,7 +208,7 @@ A\cos x+B\sin x &=\sqrt{A^2+B^2}\sin(x\mp\delta),\quad \tan \delta=\frac{\sin \d
 \begin{subfigure}{0.5\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel={$x$},ylabel={$y$},xlabel style={at={(current axis.right of origin)},anchor=north east},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=north east},ymin=-5,ymax=6,xtick={-2,2},xticklabels={{$-2$},{$2$}},ytick={-4,4},yticklabels={{$-4$},{$4$}}]
+\begin{axis}[,myStyleA,xlabel={$x$},ylabel={$y$},ymin=-5,ymax=6,xtick={-2,2},xticklabels={{$-2$},{$2$}},ytick={-4,4},yticklabels={{$-4$},{$4$}}]
 \addplot[domain=-2:2]{tanh(x)};
 \addplot[dashed,domain=0.2:2]{1/tanh(x)};
 \addplot[dashed,domain=-2:-0.2]{1/tanh(x)};
@@ -308,7 +308,8 @@ B(x,y)=\frac{\Gamma(x) \Gamma(y)}{\Gamma(x+y)}
       /(3.05259+abs(\x))^5)*(\x>0?1:-1);},
     declare function={erf2(\x,\y)=erf(\x)+erf(\y);}
 ]
-\begin{axis}[small,axis lines*=middle,xlabel={$x$},ylabel={$\erf x$},xlabel style={at={(current axis.right of origin)},anchor=north east},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=north east},ymin=-1.2,ymax=1.5,xmin=-2.2,xmax=3,xtick={-2,-1,1,2},xticklabels={{$-2$},{$-1$},{$1$},{$2$}},ytick={-1,1},yticklabels={{$-1$},{$1$}}]
+\begin{axis}[,myStyleA,xlabel={$x$},ylabel={$\erf x$},ymin=-1.2,ymax=1.5,xmin=-2.2,xmax=3,xtick={-2,-1,1,2},
+xticklabels={{$-2$},{$-1$},{$1$},{$2$}},ytick={-1,1},yticklabels={{$-1$},{$1$}}]
 \addplot[domain=-2:2]{erf(\x)};
 \end{axis}
 \end{tikzpicture}

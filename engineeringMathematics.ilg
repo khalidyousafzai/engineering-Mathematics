@@ -1,9 +1,6 @@
-This is makeindex, version 2.15 [TeX Live 2015] (kpathsea + Thai support).
-Scanning input file engineeringMathematics.idx......
-!! Input index error (file = engineeringMathematics.idx, line = 2905):
-   -- Illegal null field.
-.done (3232 entries accepted, 1 rejected).
-Sorting entries................................done (42938 comparisons).
-Generating output file engineeringMathematics.ind.......done (3247 lines written, 0 warnings).
+This is makeindex, version 2.15 [TeX Live 2019] (kpathsea + Thai support).
+Scanning input file engineeringMathematics.idx.......done (3233 entries accepted, 0 rejected).
+Sorting entries...............................done (41591 comparisons).
+Generating output file engineeringMathematics.ind.......done (3244 lines written, 0 warnings).
 Output written in engineeringMathematics.ind.
 Transcript written in engineeringMathematics.ilg.

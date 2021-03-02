@@ -414,6 +414,8 @@ u_n(x,t)=(B_b\cos \lambda_nt+B^*_n\sin \lambda_n t)\sin \frac{n\pi}{l}x\quad \qu
 %
 \begin{figure}
 \centering
+\begin{subfigure}{0.25\textwidth}
+\centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\A}{0.5}
 %
@@ -422,17 +424,24 @@ u_n(x,t)=(B_b\cos \lambda_nt+B^*_n\sin \lambda_n t)\sin \frac{n\pi}{l}x\quad \qu
 \draw(0,0)node[below]{$0$}--++(0,0.2);
 \draw(1.5,0)node[below]{$l$}--++(0,0.2);
 \draw(1.5/2,-0.75)node[]{$n=1$};
-%
-\begin{scope}[shift={(-2cm,0)}]
+\end{tikzpicture}
+\end{subfigure}\hfill
+\begin{subfigure}{0.25\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\A}{0.5}
 \draw(0,0)--(1.5,0);
 \draw [domain=0:180] plot ({1.5/180*\x},{0.5*\A*sin(2*\x)});
 \draw(0,0)node[below]{$0$}--++(0,0.2);
 \draw(1.5,0)node[below]{$l$}--++(0,0.2);
 \draw(1.5/2,-0.75)node[]{$n=2$};
 \draw[stealth-](1.5/2,0)node[ocirc]{}++(0.02,0.02) to [out=45,in=-45]++(0.5,0.5)node[left]{\RL{نقطہ صفر ہٹاو}};
-\end{scope}
-%
-\begin{scope}[shift={(-4cm,0)}]
+\end{tikzpicture}
+\end{subfigure}\hfill
+\begin{subfigure}{0.25\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\A}{0.5}
 \draw(0,0)--(1.5,0);
 \draw [domain=0:180] plot ({1.5/180*\x},{0.25*\A*sin(3*\x)});
 \draw(0,0)node[below]{$0$}--++(0,0.2);
@@ -440,9 +449,12 @@ u_n(x,t)=(B_b\cos \lambda_nt+B^*_n\sin \lambda_n t)\sin \frac{n\pi}{l}x\quad \qu
 \draw(1.5/2,-0.75)node[]{$n=3$};
 \draw(1.5/3,0)node[ocirc]{};
 \draw(2*1.5/3,0)node[ocirc]{};
-\end{scope}
-%
-\begin{scope}[shift={(-6cm,0)}]
+\end{tikzpicture}
+\end{subfigure}\hfill
+\begin{subfigure}{0.25\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\A}{0.5}
 \draw(0,0)--(1.5,0);
 \draw [domain=0:180] plot ({1.5/180*\x},{0.125*\A*sin(4*\x)});
 \draw(0,0)node[below]{$0$}--++(0,0.2);
@@ -451,8 +463,8 @@ u_n(x,t)=(B_b\cos \lambda_nt+B^*_n\sin \lambda_n t)\sin \frac{n\pi}{l}x\quad \qu
 \draw(1.5/4,0)node[ocirc]{};
 \draw(2*1.5/4,0)node[ocirc]{};
 \draw(3*1.5/4,0)node[ocirc]{};
-\end{scope}
 \end{tikzpicture}
+\end{subfigure}
 \caption{تار کے قائمہ انداز اور نقطہ صفر ہٹاو۔}
 \label{شکل_جزوی_قائمہ_انداز}
 \end{figure}
@@ -834,7 +846,7 @@ $\tfrac{9\sqrt{3}k}{2\pi^2}(\tfrac{1}{1^2}\cos t\sin x+\tfrac{1}{2^2}\cos2t\sin 
 \draw(2,0)node[below]{$\pi$}--++(0,0.2);
 \draw[dashed](0,0.5)node[left,solid]{$0.05$}--++(2/3,0);
 \end{tikzpicture}
-\caption*{(الف)}
+\caption{}
 \end{subfigure}%
 \begin{subfigure}{0.3\textwidth}
 \centering
@@ -849,7 +861,7 @@ $\tfrac{9\sqrt{3}k}{2\pi^2}(\tfrac{1}{1^2}\cos t\sin x+\tfrac{1}{2^2}\cos2t\sin 
 \draw[](0,0.5)node[left]{$\tfrac{\pi}{40}$}--++(0.2,0);
 \draw[](0,-0.5)node[left]{$-\tfrac{\pi}{40}$}--++(0.2,0);
 \end{tikzpicture}
-\caption*{(ب)}
+\caption{}
 \end{subfigure}%
 \begin{subfigure}{0.3\textwidth}
 \centering
@@ -862,7 +874,7 @@ $\tfrac{9\sqrt{3}k}{2\pi^2}(\tfrac{1}{1^2}\cos t\sin x+\tfrac{1}{2^2}\cos2t\sin 
 \draw(2,0)node[below]{$\pi$}--++(0,0.2);
 \draw[dashed](0,0.5)node[left,solid]{$k$}--(0.5,0.5);
 \end{tikzpicture}
-\caption*{(پ)}
+\caption{}
 \end{subfigure}%
 \caption{اشکال برائے سوالات \حوالہ{سوال_جزوی_شکل_انحراف_الف}، \حوالہ{سوال_جزوی_شکل_انحراف_ب} اور \حوالہ{سوال_جزوی_شکل_انحراف_پ}}
 \label{شکل_سوال_جزوی_شکل_انحراف_الف}
@@ -874,7 +886,7 @@ $\tfrac{9\sqrt{3}k}{2\pi^2}(\tfrac{1}{1^2}\cos t\sin x+\tfrac{1}{2^2}\cos2t\sin 
 $\tfrac{4}{5\pi}(\tfrac{1}{2^2}\cos 2t\sin 2x-\tfrac{1}{6^2}\cos 6t\sin 6x+\tfrac{1}{10^2}\cos 10t\sin 10x\cdots)$
 \انتہا{سوال}
 %========================
-\ابتدا{سوال}\شناخت{سوال_جزوی_شکل_انحراف_پ}\quad شکل \حوالہ{شکل_سوال_جزوی_شکل_انحراف_الف}-پ\\
+\ابتدا{سوال}\شناخت{سوال_جزوی_شکل_انحراف_پ}\quad شکل \حوالہ{شکل_سوال_جزوی_شکل_انحراف_الف}-ج\\
 جواب:\quad
 $\tfrac{4k}{\pi^2}[2(\sqrt{2}-1)\cos t\sin x +\cos 2t\sin 2x-2(\sqrt{2}-\tfrac{1}{9})\cos 3t\sin 3x\cdots]$
 \انتہا{سوال}
@@ -1238,7 +1250,7 @@ G(t)&=a\cos c\beta^2t+b\sin c\beta^2 t
 \draw[dashed](0,-\by/2,\cz/2)--++(\ax,0,0);
 \draw(\ax,0,0)node[below]{$x=l$};
 \end{tikzpicture}
-\caption*{(الف) شہتیر کی ساخت}
+\caption{ شہتیر کی ساخت}
 \end{subfigure}
 %
 \begin{subfigure}{1\textwidth}
@@ -1256,7 +1268,7 @@ G(t)&=a\cos c\beta^2t+b\sin c\beta^2 t
 \draw[-latex](0,-0.6)--++(0,-0.75)node[left]{$u$};
 \draw(5,-0.6)node[below]{$x=l$};
 \end{tikzpicture}
-\caption*{(ب) شہتیر کے سر آزاد پڑے ہیں}
+\caption{ شہتیر کے سر آزاد پڑے ہیں}
 \end{subfigure}
 %
 \begin{subfigure}{1\textwidth}
@@ -1277,7 +1289,7 @@ G(t)&=a\cos c\beta^2t+b\sin c\beta^2 t
 \draw(6,-0.5)--++(0,-0.5)node[below]{$x=l$};
 \path(7,0)--++(1,0);
 \end{tikzpicture}
-\caption*{(پ) شہتیر کے سر جکڑے ہیں}
+\caption{ شہتیر کے سر جکڑے ہیں}
 \end{subfigure}
 \caption{شہتیر کی لرزش}
 \label{شکل_جزوی_شہتیر}
@@ -1301,7 +1313,7 @@ F_n=\sin \frac{n\pi x}{l}, \quad G_n=a_n\cos \frac{cn^2\pi^2 t}{l^2}
 \انتہا{سوال}
 %==========================
 \ابتدا{سوال}\شناخت{سوال_جزوی_شہتیر_ت}\quad
-شہتیر کے دونوں سروں سے جکڑنے سے کیا ابتدائی شرائط پیدا ہوں گے (شکل \حوالہ{شکل_جزوی_شہتیر}-پ)؟\\
+شہتیر کے دونوں سروں سے جکڑنے سے کیا ابتدائی شرائط پیدا ہوں گے (شکل \حوالہ{شکل_جزوی_شہتیر}-ج)؟\\
 جواب:\quad
 $u(0,t)=0,\quad u(l,0)=0,\quad u_x(0,t)=0,\quad u_x(l,t)=0$
 \انتہا{سوال}
@@ -1884,7 +1896,7 @@ f(x)=
 \draw[dashed](2,2)--++(-2,0)node[left]{$y+\Delta y$};
 \end{tikzpicture}
 \end{subfigure}
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}[x={(1cm,-0.2cm)},y={(0.5cm,0.5cm)},z={(0cm,1cm)}]
 \pgfmathsetmacro{\angA}{30}
@@ -1929,8 +1941,8 @@ f(x)=
 \draw[-latex] ($(kA)!0.5!(kB)$)++(0,0,0.1)coordinate(kTAB)--++(0,-0.5,-0.2)node[right]{$T\Delta x$};
 \draw[-latex] ($(kC)!0.5!(kD)$)++(0,0,0.1)coordinate(kTAB)--++(0,0.6,0)node[above]{$T\Delta x$};
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-1,0)--(3,0);
@@ -2191,7 +2203,7 @@ F_{12}+B_{21}F_{21}=\sin \pi x\,\sin 2\pi y+B_{21}\sin 2\pi x\,\sin \pi y=0
 \draw[dashed](2*\w+1/3*\ll,-\w)--++(0,1);
 \draw[dashed](2*\w+2/3*\ll,-\w)--++(0,1);
 \end{tikzpicture}
-\caption*{(الف) مکعب جھلی کے حل $u_{11},u_{12},u_{21},u_{22},u_{13}, u_{31}$ کی صفر ہٹاو لکیریں۔}
+\caption{ مکعب جھلی کے حل $u_{11},u_{12},u_{21},u_{22},u_{13}, u_{31}$ کی صفر ہٹاو لکیریں۔}
 \end{subfigure}%
 \begin{subfigure}{0.5\textwidth}
 \centering
@@ -2206,7 +2218,7 @@ F_{12}+B_{21}F_{21}=\sin \pi x\,\sin 2\pi y+B_{21}\sin 2\pi x\,\sin \pi y=0
 \draw[dashed](0,0.3*\len) to [out=0,in=180] ++(1*\len,0.4*\len)node[right]{$B_{21}=-0.5$};
 \draw[dashed](0,0.7*\len) to [out=0,in=180] ++(1*\len,-0.4*\len)node[right]{$B_{21}=0.5$};
 \end{tikzpicture}
-\caption*{(ب) ایک ہی $B_{21}$ کے لئے مساوات \حوالہ{مساوات_جزوی_ایک_بی_کے_حل} میں دیے گئے حل}
+\caption{ ایک ہی $B_{21}$ کے لئے مساوات \حوالہ{مساوات_جزوی_ایک_بی_کے_حل} میں دیے گئے حل}
 \end{subfigure}%
 \caption{صفر ہٹاو لکیریں (مثال \حوالہ{مثال_جزوی_مکعب_جھلی})}
 \label{شکل_مثال_جزوی_مکعب_جھلی}
@@ -2789,24 +2801,33 @@ $u^*_{mn},\quad m,n=1,2,3$\\
 جواب:\quad صفر ہٹاو لکیریں شکل \حوالہ{شکل_سوال_جزوی_ترسیم_ب} میں دکھائی گئی ہیں۔
 \begin{figure}
 \centering
+\begin{subfigure}{0.3\textwidth}
+\centering
 \begin{tikzpicture}
 \draw(0,0) circle (1);
 \draw[dashed] (0,1)--(0,-1)node[below]{$u_{11}$};
-\begin{scope}[xshift={3cm}]
+\end{tikzpicture}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+\centering
+\begin{tikzpicture}
 \draw(0,0) circle (1);
 \draw[dashed] (0,0)++(45:1)--++(45:-2);
 \draw[dashed] (0,0)++(-45:1)--++(-45:-2);
 \draw(0,-1)node[below]{$u_{12}$};
-\end{scope}
-\begin{scope}[xshift={6cm}]
+\end{tikzpicture}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+\centering
+\begin{tikzpicture}
 \draw(0,0) circle (1);
 \draw[dashed](0,0) circle (0.4356);
 \draw[dashed] (0,1)--(0,-1);
 \draw[dashed] (0,0)++(30:1)--++(30:-2);
 \draw[dashed] (0,0)++(-30:1)--++(-30:-2);
 \draw(0,-1)node[below]{$u_{23}$};
-\end{scope}
 \end{tikzpicture}
+\end{subfigure}
 \caption{چند صفر ہٹاو لکیریں (سوال \حوالہ{سوال_جزوی_ترسیم_ب})}
 \label{شکل_سوال_جزوی_ترسیم_ب}
 \end{figure}
@@ -2890,7 +2911,7 @@ u_t=c^2\nabla^{\,2}u
 \RightAngle{(0,0)}{(kA)}{(0,2)};
 \draw(-80:0.6)node[]{$\phi$};
 \end{tikzpicture}
-\caption*{(الف) نلکی محدد}
+\caption{ نلکی محدد}
 \end{subfigure}%
 \begin{subfigure}{0.5\textwidth}
 \centering
@@ -2917,7 +2938,7 @@ u_t=c^2\nabla^{\,2}u
 %
 \draw [decorate,decoration={brace,amplitude=5pt},xshift=-4pt,yshift=0pt](kI)++(-0.2,0) --++(70:1.2) node [black,midway,xshift=-0.3cm,yshift=0.2cm,rotate=70] {\footnotesize $r\sin\theta\cos\phi$};
 \end{tikzpicture}
-\caption*{(ب) کروی محدد}
+\caption{ کروی محدد}
 \end{subfigure}%
 \caption{نلکی اور کروی محدد کی تعریف}
 \label{شکل_جزوی_نلکی_کروی}

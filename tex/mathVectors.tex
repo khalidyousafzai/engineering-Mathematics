@@ -10,7 +10,7 @@
 اس سے سمتیہ کی درج ذیل تعریف بیان کی جا سکتی ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw[dashed] (0,0) circle (1cm);
@@ -18,17 +18,17 @@
 \draw[-latex](30:1cm)--++(120:0.75cm)node[above]{$\bM{v}$};
 \draw[-latex](30:1cm)--++(30:-0.5cm)node[below]{$\bM{a}$};
 \end{tikzpicture}
-\caption*{(الف) سمتی رفتار اور اسراع۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--++(1.5,0)--++(0,1)--++(-1.5,-1);
 \draw(15:3)--++(1.5,0)--++(0,1)--++(-1.5,-1);
 \draw[-latex](1.5,0.25)node[ocirc]{}node[below right]{$A$}--++(15:3)node[ocirc]{}node[below right]{$B$}node[pos=0.4,below]{$\bM{b}$};
 \end{tikzpicture}
-\caption*{(ب) سمتیہ کی دم اور  سر۔}
-\end{subfigure}%
+\caption{ سمتیہ کی دم اور  سر۔}
+\end{subfigure} \hfill
 \caption{سمتیہ کی تفصیل۔}
 \label{شکل_الجبرا_قوت_سمتی_رفتار}
 \end{figure}
@@ -87,7 +87,7 @@ a_1=x_2-x_1,\quad a_2=y_2-y_1,\quad a_3=z_2-z_1
 %
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 %axis
 \begin{tikzpicture}[x={(-0.5cm,-0.5cm)},y={(1cm,0)},z={(0,1cm)}]
@@ -108,9 +108,9 @@ a_1=x_2-x_1,\quad a_2=y_2-y_1,\quad a_3=z_2-z_1
 \draw[thick](0,1,0)--(0,2,0)node[pos=0.7,above]{$a_2$};
 \draw[thick](0,0,0.75)--(0,0,2)node[pos=0.5,left]{$a_3$};
 \end{tikzpicture}
-\caption*{(الف) اجزائے سمتیہ}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ اجزائے سمتیہ}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 %axis
 \begin{tikzpicture}[x={(-0.5cm,-0.5cm)},y={(1cm,0)},z={(0,1cm)}]
@@ -132,8 +132,8 @@ a_1=x_2-x_1,\quad a_2=y_2-y_1,\quad a_3=z_2-z_1
 %vector
 \draw[-latex,thick] (0,0,0)node[ocirc]{}--(\a,\b,\c)node[ocirc]{}node[right]{$N$}node[pos=0.8,left]{$\bM{r}$};
 \end{tikzpicture}
-\caption*{(ب) تعین گر سمتیہ کے سر کے محور اس سمتیہ کے اجزاء ہوں گے۔}
-\end{subfigure}%
+\caption{ تعین گر سمتیہ کے سر کے محور اس سمتیہ کے اجزاء ہوں گے۔}
+\end{subfigure} \hfill
 \caption{سمتیہ کے اجزاء اور تعین گر سمتیہ۔}
 \label{شکل_الجبرا_اجزائے_سمتیہ}
 \end{figure}
@@ -301,7 +301,7 @@ $A:(11.3,-10,-15.8); \quad  12.6,9,-14$\\
 تجربے سے معلوم ہوتا ہے کہ دو قوتوں کا حاصل، متوازی الاضلاع (شکل \حوالہ{شکل_الجبرا_متوازی_الاضلاع_مجموعہ}) سے ملتا ہے۔اس سے سمتیات کے مجموعے کی درج ذیل تعریف حاصل ہوتی  ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\a}{2};
@@ -331,9 +331,9 @@ $A:(11.3,-10,-15.8); \quad  12.6,9,-14$\\
 \draw[-latex,thick](0,-\c)--(kR)node[pos=0.7,below]{$\bM{b}$};
 \draw[-latex,thick](0,-\c)--(0,0)node[pos=0.5,left]{$\bM{c}$};
 \end{tikzpicture}
-\caption*{(الف) قوتوں کا مجموعہ بذریعہ تجربہ}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ قوتوں کا مجموعہ بذریعہ تجربہ}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\a}{2};
@@ -353,8 +353,8 @@ $A:(11.3,-10,-15.8); \quad  12.6,9,-14$\\
 \draw[dashed](kT)--++(90+\angA:-\bb);
 \draw[dashed](kT)++(90+\angA:-\bb)--++(90-\angB:-\aa);
 \end{tikzpicture}
-\caption*{(ب) سمتیوں کا مجموعہ بذریعہ متوازی الاضلاع}
-\end{subfigure}%
+\caption{ سمتیوں کا مجموعہ بذریعہ متوازی الاضلاع}
+\end{subfigure} \hfill
 \caption{تجربہ سے قوتوں کا مجموعہ حاصل کرتے ہوئے سمتیات کے مجموعے کا حصول حاصل ہوتا ہے۔}
 \label{شکل_الجبرا_متوازی_الاضلاع_مجموعہ}
 \end{figure}
@@ -369,16 +369,16 @@ $A:(11.3,-10,-15.8); \quad  12.6,9,-14$\\
 %========================
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw[-latex](0,0)--++(60:1.5)node[pos=0.5,left]{$\bM{a}$};
 \draw[-latex](0,0)++(60:1.5)--++(20:2)node[pos=0.5,above]{$\bM{b}$};
 \draw[latex-](0,0)++(60:1.5)++(20:2)--(0,0)node[pos=0.5,below]{$\bM{c}$};
 \end{tikzpicture}
-\caption*{(الف) سر کے ساتھ دم ملا کر سمتیات کا مجموعہ حاصل کیا جاتا ہے۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ سر کے ساتھ دم ملا کر سمتیات کا مجموعہ حاصل کیا جاتا ہے۔}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--(4,0)node[below]{$x$};
@@ -403,8 +403,8 @@ $A:(11.3,-10,-15.8); \quad  12.6,9,-14$\\
 \draw[very thick] (kyb)--(kyc)node[pos=0.5,left]{$b_2$};
 \draw[very thick] (kkya)--(kkyc)node[pos=0.5,left]{$c_2$};
 \end{tikzpicture}
-\caption*{(ب) سمتیات کے مطابقتی اجزاء کو جمع کرتے ہوئے حاصل جمع سمتیہ کے اجزاء حاصل ہوتے ہیں۔}
-\end{subfigure}%
+\caption{ سمتیات کے مطابقتی اجزاء کو جمع کرتے ہوئے حاصل جمع سمتیہ کے اجزاء حاصل ہوتے ہیں۔}
+\end{subfigure} \hfill
 \caption{مجموعہ سمتیات۔}
 \label{شکل_الجبرا_سمتیات_مجموعہ}
 \end{figure}
@@ -443,7 +443,7 @@ c_1=a_1+b_1,\quad c_2=a_2+b_2,\quad c_3=a_3+b_3
 ان قواعد کی سادہ مثالیں شکل \حوالہ{شکل_الجبرا_سمتیات_اور_غیر_سمتیات_کا_ضرب}-الف میں دکھائی گئی ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw[-latex](0,0)node[below]{$\bM{a}$}--++(30:1);
@@ -452,9 +452,9 @@ c_1=a_1+b_1,\quad c_2=a_2+b_2,\quad c_3=a_3+b_3
 \draw[-latex](3,0)node[below]{$2\bM{a}$}--++(30:2);
 \draw[latex-](4,0)node[below]{$-\tfrac{1}{2}\bM{a}$}--++(30:0.5);
 \end{tikzpicture}
-\caption*{(الف) سمتیات کا غیر سمتیات کے ساتھ ضرب۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ سمتیات کا غیر سمتیات کے ساتھ ضرب۔}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw[-latex](0,0)--++(2,0)node[above,pos=0.5]{$\bM{b}$};
@@ -463,8 +463,8 @@ c_1=a_1+b_1,\quad c_2=a_2+b_2,\quad c_3=a_3+b_3
 \draw[-latex,dashed](0,0)++(2,0)--++(45:-1)node[pos=0.5,right]{$-\bM{a}$}coordinate(kT);
 \draw[-latex](0,0)--(kT)node[midway, below, sloped]{$\bM{b}-\bM{a}$};
 \end{tikzpicture}
-\caption*{(ب) سمتیات کا فرق}
-\end{subfigure}%
+\caption{ سمتیات کا فرق}
+\end{subfigure} \hfill
 \caption{سمتیات کا غیر سمتیہ کے ساتھ ضرب اور سمتیات کا فرق۔}
 \label{شکل_الجبرا_سمتیات_اور_غیر_سمتیات_کا_ضرب}
 \end{figure}
@@ -493,7 +493,7 @@ c(k\bM{a})&=(ck)\bM{a}\quad \quad \text{\RL{جس کو \عددی{ck\bM{a}} لکھ
 \end{align}
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}[x={(-0.5cm,-0.5cm)},y={(1cm,0)},z={(0,1cm)}]
 \draw(0,0,0)--++(2,0,0)node[left]{$x$};
@@ -504,9 +504,9 @@ c(k\bM{a})&=(ck)\bM{a}\quad \quad \text{\RL{جس کو \عددی{ck\bM{a}} لکھ
 \draw[-latex,thick](0,0,0)--++(0,0.75,0)node[below,pos=0.8]{$\bM{j}$};
 \draw[-latex,thick](0,0,0)--++(0,0,0.75)node[left,pos=0.8]{$\bM{k}$};
 \end{tikzpicture}
-\caption*{(الف) اکائی سمتیات \عددی{\bM{i}}، \عددی{\bM{j}} اور \عددی{\bM{k}}}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ اکائی سمتیات \عددی{\bM{i}}، \عددی{\bM{j}} اور \عددی{\bM{k}}}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}[x={(-0.5cm,-0.5cm)},y={(1cm,0)},z={(0,1cm)}]
 \draw(0,0,0)--++(2.25,0,0)node[left]{$x$};
@@ -522,8 +522,8 @@ c(k\bM{a})&=(ck)\bM{a}\quad \quad \text{\RL{جس کو \عددی{ck\bM{a}} لکھ
 \draw[-latex,thick](1.25,2,0)--(1.25,2,1.75)node[right,pos=0.6]{$a_3\bM{k}$};
 \draw[-latex,thick](0,0,0)node[ocirc]{}--(1.25,2,1.75)node[pos=0.6,left]{$\bM{a}$};
 \end{tikzpicture}
-\caption*{(ب) سمتیہ کا تین اکائی سمتیات کی مدد سے اظہار}
-\end{subfigure}%
+\caption{ سمتیہ کا تین اکائی سمتیات کی مدد سے اظہار}
+\end{subfigure} \hfill
 \caption{اکائی سمتیات اور ان کا استعمال۔}
 \label{شکل_الجبرا_اکائی_سمتیات}
 \end{figure}
@@ -563,7 +563,7 @@ c(k\bM{a})&=(ck)\bM{a}\quad \quad \text{\RL{جس کو \عددی{ck\bM{a}} لکھ
 \عددی{\bM{a}}، \عددی{\bM{b}} اور \عددی{\bM{c}} شکل \حوالہ{شکل_مثال_الجبرا_سمتیات_کا_استعمال} -الف میں دکھائے گئے چپٹا  ڈبے کے تین قریبی کنارے ہیں۔ڈبے کی سامنے سطح \عددی{mnqp} کا وتر \عددی{\bM{v}_{mq}} اور \عددی{\bM{v}_{np}} دریافت کریں جہاں وتر \عددی{\bM{v}_{mq}} کی دم \عددی{q}  اور سر \عددی{m} ہیں۔جیسا شکل \حوالہ{شکل_مثال_الجبرا_سمتیات_کا_استعمال} -ب میں دکھایا گیا ہے، وتری سمتیات \عددی{\bM{v}_{mq}} اور \عددی{\bM{v}_{np}} ایک دونوں کو نقطہ \عددی{t} پر قطع کرتے ہیں۔نقطہ \عددی{t} دریافت کرتے ہوئے ثابت کریں کہ دونوں وتر ایک دونوں کو برابر حصوں میں قطع کرتے ہیں۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}[x={(-0.5cm,-0.5cm)},y={(1cm,0.3cm)},z={(0.4cm,1cm)}]
 \pgfmathsetmacro{\a}{1.5}
@@ -580,9 +580,9 @@ c(k\bM{a})&=(ck)\bM{a}\quad \quad \text{\RL{جس کو \عددی{ck\bM{a}} لکھ
 \draw[-latex] (\a,\b,0)--++(0,0,\c)node[pos=0.7,left]{$\bM{b}$};
 \draw[-latex] (\a,\b,0)--++(-\a,0,0)node[pos=0.4,right]{$\bM{c}$};
 \end{tikzpicture}
-\caption*{(الف) چپٹا ڈبا۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ چپٹا ڈبا۔}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}[x={(-0.5cm,-0.5cm)},y={(1cm,0.3cm)},z={(0.4cm,1cm)}]
 \pgfmathsetmacro{\a}{1.5}
@@ -599,8 +599,8 @@ c(k\bM{a})&=(ck)\bM{a}\quad \quad \text{\RL{جس کو \عددی{ck\bM{a}} لکھ
 \draw[-latex](\a,0,0)--++(0,\b,\c);
 \draw[-latex,thick](\a,\b,0)--++(0,-\b/2,\c/2);
 \end{tikzpicture}
-\caption*{(ب) وتر نقطہ \عددی{t} پر ایک دونوں کو  برابر حصوں میں قطع کرتے ہیں۔}
-\end{subfigure}%
+\caption{ وتر نقطہ \عددی{t} پر ایک دونوں کو  برابر حصوں میں قطع کرتے ہیں۔}
+\end{subfigure} \hfill
 \caption{سمتیات کا استعمال۔ مثال \حوالہ{مثال_الجبرا_سمتیات_کا_استعمال}}
 \label{شکل_مثال_الجبرا_سمتیات_کا_استعمال}
 \end{figure}
@@ -715,7 +715,7 @@ l_1(\bM{a}+\bM{b}+\bM{c})=\bM{a}+l_2(-\bM{a}+\bM{b}+\bM{c})
 جواب:تکون کو شکل \حوالہ{شکل_سوال_الجبرا_تکون_قطع}-الف میں دکھایا گیا ہے جہاں \عددی{mn} کی وسط پر نقطہ \عددی{p'} اور \عددی{pn} کی وسط پر نقطہ \عددی{m'} دکھائے گئے ہیں۔یوں سمتیہ \عددی{\bM{v}_{m'n}} جس کی دم نقطہ \عددی{n} پر ہے کو \عددی{\bM{v}_{m'n}=\tfrac{1}{2}(\bM{b}-\bM{a})} لکھا جا سکتا ہے جس کو استعمال کرتے ہوئے \عددی{\bM{v}_{m'm}=\bM{a}+\bM{v}_{m'n}} لکھا جا سکتا ہے۔اسی طرح \عددی{\bM{v}_{p'p}=\tfrac{1}{2}\bM{a}-\bM{b}} لکھا جا سکتا ہے۔انہیں استعمال کرتے ہوئے \عددی{\bM{v}_{tm}=\bM{b}+l_1\bM{v}_{p'p}} اور \عددی{\bM{v}_{tm}=l_2\bM{v}_{m'm}} لکھے جا سکتے ہیں۔انہیں حل کرتے ہوئے \عددی{l_1=l_2=\tfrac{2}{3}} ملتا ہے۔یوں \عددی{m'm} خط کے دو حصوں کا تناسب \عددی{\tfrac{2}{3}} اور \عددی{\tfrac{1}{3}}  یعنی \عددی{2:1} ہو گا۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw[-latex](0,0)coordinate(m)node[left]{$m$}--++(10:2)node[right]{$n$}node[pos=0.75,below]{$\bM{a}$}coordinate(n);
@@ -725,16 +725,16 @@ l_1(\bM{a}+\bM{b}+\bM{c})=\bM{a}+l_2(-\bM{a}+\bM{b}+\bM{c})
 \draw[name path=bb](p)--($(n)!0.5!(m)$)node[below]{$p'$};
 \draw[name intersections={of={aa and bb}}] (intersection-1)node[ocirc]{}node[shift={(-30:0.2)}]{$t$};
 \end{tikzpicture}
-\caption*{(الف) سوال \حوالہ{سوال_الجبرا_تکون_قطع} کی شکل۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ سوال \حوالہ{سوال_الجبرا_تکون_قطع} کی شکل۔}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)node[below]{$A(1,-2,4)$}--(2,0.5)node[ocirc]{}node[below]{$B(5,1,3)$}--(1,2)node[ocirc]{}node[above]{$C(2,3,1)$}--(0,0)node[ocirc]{};
 \draw(0,0)--($(2,0.5)!0.7!(1,2)$)node[ocirc]{}node[right]{$D$};
 \end{tikzpicture}
-\caption*{(ب) سوال \حوالہ{سوال_الجبرا_تکون_سمتیہ} کی شکل۔}
-\end{subfigure}%
+\caption{ سوال \حوالہ{سوال_الجبرا_تکون_سمتیہ} کی شکل۔}
+\end{subfigure} \hfill
 \caption{سمتیات کا استعمال۔}
 \label{شکل_سوال_الجبرا_تکون_قطع}
 \end{figure}
@@ -955,25 +955,36 @@ c(a_n,\cdots,a_n)&=(ca_n,\cdots,ca_n)
 %
 \begin{figure}
 \centering
+\begin{subfigure}{0.3\textwidth}
+\centering
 \begin{tikzpicture}
 \draw[-latex](0,0)--++(2,0)node[pos=0.7,below]{$\bM{a}$};
 \draw[-latex](0,0)--++(30:1.5)node[pos=0.7,above]{$\bM{b}$};
 \draw([shift={(0:0.5)}]0,0) arc (0:30:0.5);
 \draw(15:0.8) node{$\gamma$};
 \draw(1,-0.75)node{$\bM{a}\cdot \bM{b} > 0$};
-%
+\end{tikzpicture}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+\centering
+\begin{tikzpicture}
 \draw[-latex](3,0)--++(2,0)node[pos=0.7,below]{$\bM{a}$};
 \draw[-latex](3,0)--++(90:1.5)node[pos=0.7,left]{$\bM{b}$};
 \draw([shift={(0:0.5)}]3,0) arc (0:90:0.5);
 \draw(3,0)++(45:0.8) node{$\gamma$};
 \draw(4,-0.75)node{$\bM{a}\cdot \bM{b} = 0$};
-%
+\end{tikzpicture}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+\centering
+\begin{tikzpicture}
 \draw[-latex](6,0)--++(2,0)node[pos=0.7,below]{$\bM{a}$};
 \draw[-latex](6,0)--++(120:1.5)node[pos=0.7,left]{$\bM{b}$};
 \draw([shift={(0:0.5)}]6,0) arc (0:120:0.5);
 \draw(6,0)++(60:0.8) node{$\gamma$};
 \draw(7,-0.75)node{$\bM{a}\cdot \bM{b} < 0$};
 \end{tikzpicture}
+\end{subfigure}
 \caption{سمتیات کے مابین زاویہ۔}
 \label{شکل_الجبرا_سمتیات_زاویہ}
 \end{figure}
@@ -1057,6 +1068,8 @@ p=\abs{\bM{a}}\cos \gamma
 یوں \عددی{\bM{b}} کی سمت میں خط \عددی{l} پر \عددی{\bM{a}} کے عمودی سائے کی لمبائی \عددی{\abs{p}} ہو گی۔ \عددی{p} کی قیمت مثبت، صفر یا منفی ہو سکتی ہے (شکل \حوالہ{شکل_الجبرا_عمودی_عکس})۔
 \begin{figure}
 \centering
+\begin{subfigure}{0.3\textwidth}
+\centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\ang}{30}
 \pgfmathsetmacro{\a}{1.25}
@@ -1068,8 +1081,11 @@ p=\abs{\bM{a}}\cos \gamma
 \draw([shift={(0:0.3)}]0,0) arc (0:\ang:0.3);
 \draw(\ang/2:0.7)node{$\gamma$};
 \draw [decorate,decoration={brace,amplitude=5pt},xshift=0,yshift=-3pt](\aa,-0.3)--(0,-0.3)node [black,midway,xshift=0,yshift=-0.5cm] { $\substack{p\\(p>0)}$};
-%
-\begin{scope}[xshift=-3cm]
+\end{tikzpicture}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+\centering
+\begin{tikzpicture}
 \pgfmathsetmacro{\ang}{30}
 \pgfmathsetmacro{\a}{1.25}
 \pgfmathsetmacro{\aa}{\a*cos(\ang)}
@@ -1079,9 +1095,11 @@ p=\abs{\bM{a}}\cos \gamma
 \draw([shift={(0:0.3)}]0,0) arc (0:90:0.3);
 \draw(45:0.7)node{$\gamma$};
 \draw(0,-1)node{$\substack{\\ (p=0)}$};
-\end{scope}
-%
-\begin{scope}[xshift=-7cm]
+\end{tikzpicture}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+\centering
+\begin{tikzpicture}
 \pgfmathsetmacro{\ang}{30}
 \pgfmathsetmacro{\a}{1.25}
 \pgfmathsetmacro{\aa}{\a*cos(\ang)}
@@ -1092,8 +1110,8 @@ p=\abs{\bM{a}}\cos \gamma
 \draw([shift={(0:0.3)}]0,0) arc (0:180-\ang:0.3);
 \draw(90-\ang/2:0.7)node{$\gamma$};
 \draw [decorate,decoration={brace,amplitude=5pt},xshift=0,yshift=-3pt](0,-0.3)--(-\aa,-0.3)node [black,midway,xshift=0,yshift=-0.5cm] { $\substack{p\\(p<0)}$};
-\end{scope}
 \end{tikzpicture}
+\end{subfigure}
 \caption{\عددی{\bM{b}} کی سمتی میں \عددی{\bM{a}} کا جزو۔}
 \label{شکل_الجبرا_عمودی_عکس}
 \end{figure} 
@@ -1139,30 +1157,33 @@ W=\abs{a}\abs{d}\cos \alpha=\bM{a}\cdot \bM{b}
  درج بالا مساوات (\عددی{a_1x+a_2y=0}) میں \عددی{x} اور \عددی{y} نقطہ دار خط پر رہتے ہیں لہٰذا یہ نقطہ دار خط کی مساوات ہے۔
 \begin{figure}
 \centering
+\begin{subfigure}{0.45\textwidth}
+\centering
 \begin{tikzpicture}
 %axis
-\draw(-1,0)--(2,0)node[below]{$x$};
+\draw(-1,0)--(2,0)node[right]{$x$};
 \draw(0,-0.5)--(0,2)node[left]{$y$};
 %lines
 \draw[-latex](0,0)--++(0.5,1.5)node[pos=0.9,right]{$\bM{r}$}node[ocirc]{}node[above]{$(x,y)$};
 \draw[-latex](0,0)--++(1,0.5)node[pos=0.6,above]{$\bM{r}_a$}node[ocirc]{}node[right]{$N(a_1,a_2)$};
 \draw[dashed](0,0)++(90+26.565:-0.5)--++(90+26.565:2);
 \draw(0,0)node[ocirc]{};
-%
-\draw(1,-1)node{(الف)};
-\begin{scope}[xshift=-4cm]
-%axis
-%axis
-\draw(-1,0)--(1.2,0)node[below]{$x$};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-1,0)--(1.2,0)node[right]{$x$};
 \draw(0,-0.5)--(0,2)node[left]{$y$};
 %lines
 \draw[dashed](0,0)++(90+26.565:-0.5)--++(90+26.565:2);
 \draw[-latex](0,0)--++(1,0.5)node[pos=0.6,above]{$\bM{r}_a$}node[ocirc]{}node[right]{$N(a_1,a_2)$};
 \draw[-latex](0,0)--++(90+26.565:1)node[pos=0.5,left]{$\bM{r}$}node[ocirc]{}node[left]{$(x,y)$};
 \draw(0,0)node[ocirc]{};
-\draw(1,-1)node{(ب)};
-\end{scope}
 \end{tikzpicture}
+\caption{}
+\end{subfigure}
 \caption{سیدھے خط کی مساوات۔}
 \label{شکل_سیدھے_خط_کی_عمومی_مساوات}
 \end{figure}
@@ -1174,27 +1195,31 @@ W=\abs{a}\abs{d}\cos \alpha=\bM{a}\cdot \bM{b}
 کارتیسی نظام میں \عددی{xy} سطح پر کسی بھی سیدھے خط کو \عددی{y=mx+c} لکھا جا سکتا ہے۔اس مساوات میں ڈھلوان \عددی{m} کو  \عددی{\tfrac{a_2}{a_1}}  لکھتے ہوئے \عددی{a_1x+a_2y=ca_1=c'} حاصل ہوتا ہے۔ ایسا ایک خط \عددی{L_1}، شکل \حوالہ{شکل_الجبرا_قائمہ_الزاویہ_خطوط}-الف میں دکھایا گیا ہے۔اس مساوات میں \عددی{c=0} پر کرنے سے خط \عددی{L_1^*} حاصل ہو گا جو کارتیسی نظام کے مبدا \عددی{(0,0)} سے گزرتا ہے جس کو شکل \حوالہ{شکل_الجبرا_قائمہ_الزاویہ_خطوط}-ب میں  دکھایا گیا ہے۔خط \عددی{L_1} اور \عددی{L_1^*} کی ایک جیسی ڈھلوان ہے یعنی یہ آپس میں متوازی ہیں۔ہم \عددی{L_2}  کو بھی اسی طرح مبدا پر منتقل کرتے ہوئے \عددی{L_2^*} حاصل کرتے ہیں۔اب اگر \عددی{L_1} اور \عددی{L_2} قائمہ الزاویہ ہوں تب \عددی{L_1^*} اور \عددی{L_2^*} بھی قائمہ الزاویہ ہوں گے۔آئیں پہلے \عددی{L_1^*} کی مساوات سے \عددی{L_2^*} کی مساوات حاصل کرتے ہیں۔بعد میں حاصل \عددی{L_2^*} کی مساوات سے \عددی{L_2} کی مساوات حاصل کریں گے۔ 
 \begin{figure}
 \centering
+\begin{subfigure}{0.45\textwidth}
+\centering
 \begin{tikzpicture}
 %axis
-\draw(-0.5,0)--(2,0)node[below]{$x$};
+\draw(-0.5,0)--(2,0)node[right]{$x$};
 \draw(0,-0.5)--(0,2)node[left]{$y$};
 \draw(0,0)node[ocirc]{};
 %lines
 \draw(0,0.5)++(18.43:-0.5)--++(18.43:3)node[right]{$L_1$};
 \draw(1,1.5)node[ocirc]{}node[above right]{$N(x_0,y_0)$}++(108.43:0.5)--++(108.43:-2)node[pos=0.8,right]{$L_2$};
-%
-\draw(1,-1)node{(الف)};
-\begin{scope}[xshift=-4cm]
-%axis
-\draw(-0.5,0)--(2,0)node[below]{$x$};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-0.5,0)--(2,0)node[right]{$x$};
 \draw(0,-0.5)--(0,2)node[left]{$y$};
 \draw(0,0)node[ocirc]{};
 %lines
 \draw(0,0)++(18.43:-0.5)--++(18.43:3)node[right]{$L_1^*$};
 \draw(0,0)++(108.43:2)node[left]{$L_2^*$}--++(108.43:-2.5);
-\draw(1,-1)node{(ب)};
-\end{scope}
 \end{tikzpicture}
+\caption{}
+\end{subfigure}
 \caption{قائمہ الزاویہ خطوط۔}
 \label{شکل_الجبرا_قائمہ_الزاویہ_خطوط}
 \end{figure}
@@ -1221,9 +1246,11 @@ a_2x-a_1y=0\quad \quad (L_2^*)
 
 \begin{figure}
 \centering
+\begin{subfigure}{0.45\textwidth}
+\centering
 \begin{tikzpicture}
 %axis
-\draw(-0.5,0)--(2,0)node[below]{$x$};
+\draw(-0.5,0)--(2,0)node[right]{$x$};
 \draw(0,-0.5)--(0,2)node[left]{$y$};
 \draw(0,0)node[ocirc]{};
 \foreach \x in {1,2,3}{\draw(\x/2,0)--++(0,-0.1)node[below]{$\x$};}
@@ -1231,11 +1258,13 @@ a_2x-a_1y=0\quad \quad (L_2^*)
 %lines
 \draw(0,0.5)++(18.43:-0.5)--++(18.43:3)node[right]{$L_1$};
 \draw(1,1.5)node[ocirc]{}node[left]{$N$}++(108.43:0.5)--++(108.43:-2)node[pos=0.8,right]{$L_2$};
-%
-\draw(1,-1)node{(الف)};
-\begin{scope}[xshift=-4cm]
-%axis
-\draw(-0.5,0)--(2,0)node[below]{$x$};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-0.5,0)--(2,0)node[right]{$x$};
 \draw(0,-0.5)--(0,2)node[left]{$y$};
 \draw(0,0)node[ocirc]{};
 \foreach \x in {1,2,3}{\draw(\x/2,0)--++(0,-0.1)node[below]{$\x$};}
@@ -1243,9 +1272,9 @@ a_2x-a_1y=0\quad \quad (L_2^*)
 %lines
 \draw(0,0)++(18.43:-0.5)--++(18.43:3)node[right]{$L_1^*$};
 \draw(0,0)++(108.43:2)node[left]{$L_2^*$}--++(108.43:-2.5);
-\draw(1,-1)node{(ب)};
-\end{scope}
 \end{tikzpicture}
+\caption{}
+\end{subfigure}
 \caption{قائمہ الزاویہ خطوط (مثال \حوالہ{مثال_الجبرا_قائمہ_الزاویہ_خطوط})۔}
 \label{شکل_مثال_الجبرا_قائمہ_الزاویہ_خطوط}
 \end{figure}
@@ -1599,7 +1628,7 @@ $\bM{a}=-2\bM{i}+3\bM{j}-4\bM{k},\, \bM{b}=3\bM{i}-4\bM{j}-6\bM{k}$\\
 اس کے علاوہ \عددی{\bM{v}=\bM{a}\times \bM{b}} ایسا سمتیہ ہو گا جس کی لمبائی اس متوازی الاضلاع کے رقبے کے برابر ہو گی جس کے قریبی اطراف \عددی{\bM{a}} اور \عددی{\bM{b}} ہوں اور جس کی سمت \عددی{\bM{a}} اور \عددی{\bM{b}} دونوں کے عمودی ہو گی۔ مزید \عددی{\bM{v}} کی سمت یوں ہو گی کہ \عددی{\bM{a}}، \عددی{\bM{b}} اور \عددی{\bM{v}} (اسی ترتیب سے) دائیں ہاتھ کی ثلاثہ قائمہ سمتیات ہوں (شکل \حوالہ{شکل_تعریف_الجبرا_سمتی_ضرب}-الف)۔
  \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw[-latex](0,0)--++(-40:2)node[pos=0.7,below]{$\bM{a}$}coordinate(kA);
@@ -1610,9 +1639,9 @@ $\bM{a}=-2\bM{i}+3\bM{j}-4\bM{k},\, \bM{b}=3\bM{i}-4\bM{j}-6\bM{k}$\\
 \draw[gray] (0,0.2)--++(15:0.3)--++(0,-0.2);
 \draw[gray] (0,0.2)--++(-40:0.3)--++(0,-0.2);
 \end{tikzpicture}
-\caption*{(الف) سمتی ضرب}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ سمتی ضرب}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\kh}{1.5*sin(30)};
@@ -1624,8 +1653,8 @@ $\bM{a}=-2\bM{i}+3\bM{j}-4\bM{k},\, \bM{b}=3\bM{i}-4\bM{j}-6\bM{k}$\\
 \draw[dashed](30:1.5)--++(0,-\kh)node[pos=0.5,right]{$h$}coordinate(kB);
 \RightAngle{(30:1.5)}{(kB)}{(0,0)};
 \end{tikzpicture}
-\caption*{(ب) متوازی الاضلاع کا رقبہ۔}
-\end{subfigure}%
+\caption{ متوازی الاضلاع کا رقبہ۔}
+\end{subfigure}
 \caption{سمتی ضرب کی تعریف}
 \label{شکل_تعریف_الجبرا_سمتی_ضرب}
 \end{figure}
@@ -1688,7 +1717,7 @@ $\bM{a}=-2\bM{i}+3\bM{j}-4\bM{k},\, \bM{b}=3\bM{i}-4\bM{j}-6\bM{k}$\\
 اس حصے میں ہم سمتی ضرب کے اجزاء کو کارتیسی نظام میں لکھتے ہیں۔یہاں یہ بتلانا ضروری ہے کہ دو قسم کے کارتیسی نظام ممکن ہیں۔پہلا قسم  \اصطلاح{دائیں ہاتھ}\فرہنگ{کارتیسی نظام!دائیں ہاتھ}\فرہنگ{دایاں ہاتھ!کارتیسی نظام}\حاشیہب{right handed}\فرہنگ{right handed} کا نظام کہلاتا ہے۔ دائیں ہاتھ کارتیسی نظام میں محور کی مثبت سمت میں اکائی سمتیات \عددی{\bM{i}}، \عددی{\bM{j}} اور \عددی{\bM{k}} دائیں ہاتھ ثلاثہ قائمہ سمتیات ہوں گے (شکل \حوالہ{شکل_الجبرا_کارتیسی_بایاں_دایاں_نظام}-الف)۔ اگر نظام کے اکائی سمتیات بائیں ہاتھ ثلاثہ قائمہ سمتیات ہوں تب اس کو بایاں ہاتھ کارتیسی نظام کہا جائے گا۔اس کتاب میں دایاں ہاتھ کارتیسی نظام استعمال کیا گیا ہے۔عام استعمال میں بھی دایاں نظام استعمال کیا جاتا ہے۔ 
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}[x={(-0.5cm,-0.5cm)},y={(1cm,0)},z={(0,1cm)}]
 %axis
@@ -1700,9 +1729,9 @@ $\bM{a}=-2\bM{i}+3\bM{j}-4\bM{k},\, \bM{b}=3\bM{i}-4\bM{j}-6\bM{k}$\\
 \draw[-latex](0,0,0)--++(0,1,0)node[below]{$\bM{j}$};
 \draw[-latex](0,0,0)--++(0,0,1)node[left]{$\bM{k}$};
 \end{tikzpicture}
-\caption*{(الف) دایاں ہاتھ کارتیسی نظام}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ دایاں ہاتھ کارتیسی نظام}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}[x={(-0.5cm,-0.5cm)},y={(1cm,0)},z={(0,1cm)}]
 %axis
@@ -1714,8 +1743,8 @@ $\bM{a}=-2\bM{i}+3\bM{j}-4\bM{k},\, \bM{b}=3\bM{i}-4\bM{j}-6\bM{k}$\\
 \draw[-latex](0,0,0)--++(0,1,0)node[below]{$\bM{j}$};
 \draw[-latex](0,0,0)--++(0,0,-1)node[left]{$\bM{k}$};
 \end{tikzpicture}
-\caption*{(ب) بایاں ہاتھ کارتیسی نظام}
-\end{subfigure}%
+\caption{ بایاں ہاتھ کارتیسی نظام}
+\end{subfigure}
 \caption{کارتیسی نظام کے دو اقسام}
 \label{شکل_الجبرا_کارتیسی_بایاں_دایاں_نظام}
 \end{figure}
@@ -1849,7 +1878,7 @@ m=\abs{\bM{r}\times \bM{f}}
 
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\radA}{1}
@@ -1871,8 +1900,8 @@ m=\abs{\bM{r}\times \bM{f}}
 \draw[-latex](kT)--++(0.5,0.5)node[right]{$\bM{v}$};
 \draw(kM)node[ocirc]{}node[left]{$M$};
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw[](0,-0.5)--(0,2.5);
@@ -1880,7 +1909,7 @@ m=\abs{\bM{r}\times \bM{f}}
 \draw[-latex](0,0)node[ocirc]{}--++(70:2 cm)node[pos=0.5,right]{$\bM{r}$}coordinate(kTip);
 \draw[dashed](kTip)--($(0,-0.5)!(kTip)!(0,2.5)$)node[pos=0.5,above]{$d$};
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} 
 \caption{گھومتے ہوئے جسم کی سمتی رفتار (مثال \حوالہ{مثال_الجبرا_گردش_سمتی_رفتار})۔}
 \label{شکل_مثال_الجبرا_گردش_سمتی_رفتار}
 \end{figure}

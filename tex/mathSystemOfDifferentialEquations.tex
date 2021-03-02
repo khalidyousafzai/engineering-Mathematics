@@ -510,7 +510,7 @@ a_{21}& a_{22}-\lambda
 شکل \حوالہ{شکل_مثال_نظام_ٹینکیوں_کا_نظام} میں دو ٹینکیاں دکھائی گئی ہیں جن میں یک برابر دو سو \عددی{(200)} لٹر پانی موجود ہے۔ٹینکی الف میں خالص پانی ہے جبکہ ٹینکی ب کی پانی میں تیس \عددی{(30)} کلو گرام کا نمک ملایا گیا ہے۔ ٹینکیوں میں پانی کو مسلسل ہلایا جاتا ہے تا کہ ان میں ہر جگہ محلول یکساں رہے۔ٹینکیوں میں پانی چار \عددی{(4)} لٹر فی منٹ سے چکر کاٹتی ہے جس کی وجہ سے ٹینکی الف میں نمک کی مقدار \عددی{y_1(t)} اور ٹینکی ب میں نمک کی مقدار \عددی{y_2(t)} وقت کے ساتھ تبدیل ہوتی ہے۔کتنی دیر کے بعد ٹینکی الف میں نمک کی مقدار،  ٹینکی ب میں نمک کی مقدار کا نصف ہو گا؟
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0) rectangle ++(-3/4*\x,\y);
@@ -524,11 +524,11 @@ a_{21}& a_{22}-\lambda
 \draw(\x/2,\y/4)node[below]{\RL{$4$ لٹر فی منٹ}};
 \draw(\x/2,3/4*\y)node[above]{\RL{$4$ لٹر فی منٹ}};
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xmin=0,ymin=0,xlabel={$t$},ylabel={$y(t)$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},ytick={0,10,15,20,30},yticklabels={$0$,$10$,$15$,$20$,$30$},xtick={27.465,50,100},xticklabels={$27.5$,$50$,$100$}]
+\begin{axis}[,myStyleA,xmin=0,ymin=0,xlabel={$t$},ytick={0,10,15,20,30},yticklabels={$0$,$10$,$15$,$20$,$30$},xtick={27.465,50,100},xticklabels={$27.5$,$50$,$100$}]
 \addplot[domain=0:100]{15-15*e^(-0.04*x)}node[pos=0.4,pin=-45:{$y_1(t)$}]{};
 \addplot[domain=0:100]{15+15*e^(-0.04*x)}node[pos=0.4,pin=45:{$y_2(t)$}]{};
 \addplot[dashed] plot coordinates {(0,15)(100,15)};
@@ -537,7 +537,7 @@ a_{21}& a_{22}-\lambda
 \addplot[dashed] plot coordinates {(0,20)(27.465,20)};
 \end{axis}
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} \hfill
 \caption{ٹینکیوں کا نظام۔}
 \label{شکل_مثال_نظام_ٹینکیوں_کا_نظام}
 \end{figure}
@@ -738,27 +738,27 @@ I_2&=-3.617e^{-2.38t}+3.617e^{-0.57t}
 ہو گا جسے شکل \حوالہ{شکل_مثال_نظام_برقی_جال_مخصوص_حل}-الف میں دکھایا گیا ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel={$t$},xmin=0,ymin=0]
+\begin{axis}[,myStyleA,xlabel={$t$},xmin=0,ymin=0]
 \addplot[domain=0:8,samples=50]{-6*e^(-2.38*x)+4*e^(-0.57*x)+2}node[pos=0.5,fill=white]{$I_1(t)$};
 \addplot[domain=0:8,samples=50]{-3.617*e^(-2.38*x)+3.617*e^(-0.57*x)}node[pos=0.5,fill=white]{$I_2(t)$};
 \addplot[dashed] plot coordinates {(0,2) (8,2)};
 \end{axis}
 \end{tikzpicture}
-\caption*{(الف) مثال \حوالہ{مثال_نظام_برقی_جال} کے دور کا مخصوص حل۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ مثال \حوالہ{مثال_نظام_برقی_جال} کے دور کا مخصوص حل۔}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel={$I_1(t)$},ylabel={$I_2(t)$},xmin=0,xmax=3.9,ymin=0,ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},xlabel style={at={(axis description cs:1.05,0)}}]
+\begin{axis}[,myStyleA,xlabel={$I_1(t)$},ylabel={$I_2(t)$},xmin=0,xmax=3.9,ymin=0,]
 \addplot[domain=0:20,samples=150]({-6*e^(-2.38*x)+4*e^(-0.57*x)+2},{-3.617*e^(-2.38*x)+3.617*e^(-0.57*x)})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
 \draw[-stealth] (ka)--(kb);
 \end{axis}
 \end{tikzpicture}
-\caption*{(ب) \عددی{I_1(t)} بالمقابل \عددی{I_2(t)}}
-\end{subfigure}%
+\caption{ \عددی{I_1(t)} بالمقابل \عددی{I_2(t)}}
+\end{subfigure} \hfill
 \caption{مثال \حوالہ{مثال_نظام_برقی_جال} کے منحنی۔}
 \label{شکل_مثال_نظام_برقی_جال_مخصوص_حل}
 \end{figure}
@@ -1249,10 +1249,10 @@ y_2'&=y_1-2y_2
 %
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}}]
+\begin{axis}[,myStyleA,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},]
 \pgfmathsetmacro{\lmtL}{0}
 \pgfmathsetmacro{\lmtH}{4}
 %
@@ -1331,12 +1331,12 @@ y_2'&=y_1-2y_2
 \addplot[fill=white] plot coordinates {(0,0)}node[ocirc]{};
 \end{axis}
 \end{tikzpicture}
-\caption*{(الف) نظام \حوالہ{مساوات_نظام_خط_حرکت_الف} کے خط حرکت۔ (غیر مناسب جوڑ)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ نظام \حوالہ{مساوات_نظام_خط_حرکت_الف} کے خط حرکت۔ (غیر مناسب جوڑ)}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}}]
+\begin{axis}[,myStyleA,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},]
 \pgfmathsetmacro{\lmtL}{-10}
 \pgfmathsetmacro{\lmtH}{1}
 \pgfmathsetmacro{\ca}{1}
@@ -1375,8 +1375,8 @@ y_2'&=y_1-2y_2
 \addplot[fill=white] plot coordinates {(0,0)}node[ocirc]{};
 \end{axis}
 \end{tikzpicture}
-\caption*{(ب) نظام \حوالہ{مساوات_نظام_مناسب_جوڑ} کے خط حرکت۔ (مناسب جوڑ)}
-\end{subfigure}%
+\caption{ نظام \حوالہ{مساوات_نظام_مناسب_جوڑ} کے خط حرکت۔ (مناسب جوڑ)}
+\end{subfigure} \hfill
 \caption{غیر مناسب جوڑ اور مناسب جوڑ۔}
 \label{شکل_مثال_نظام_خط_حرکت_غیر_مناسب}
 \end{figure}
@@ -1461,10 +1461,10 @@ y_1y_2=c
 عمومی حل \اصطلاح{ہذلولی}\فرہنگ{ہذلولی}\حاشیہب{hyperbolic}\فرہنگ{hyperbolic} ہے جس کو شکل \حوالہ{شکل_مثال_نظام_نقطہ_زین}-الف میں دکھایا گیا ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}}]
+\begin{axis}[,myStyleA,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},]
 \pgfmathsetmacro{\lmtL}{-1}
 \pgfmathsetmacro{\lmtH}{1}
 %
@@ -1522,12 +1522,12 @@ y_1y_2=c
 \addplot[fill=white] plot coordinates {(0,0)} node[ocirc]{};
 \end{axis}
 \end{tikzpicture}
-\caption*{(الف) نظام \حوالہ{مساوات_نظام_نقطہ_زین} کے خط حرکت۔ (نقطہ زین)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ نظام \حوالہ{مساوات_نظام_نقطہ_زین} کے خط حرکت۔ (نقطہ زین)}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis equal,axis lines*=middle,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}}]
+\begin{axis}[,axis equal,myStyleA,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},]
 \pgfmathsetmacro{\ca}{1}
 \pgfmathsetmacro{\cb}{1}
 \addplot[domain=-60:60,samples=100]({\ca*cos(3*x)+\cb*sin(3*x)},{3*\cb*cos(3*x)-3*\cb*sin(3*x)})coordinate[pos=0.35](ka)coordinate[pos=0.351](kb);
@@ -1543,8 +1543,8 @@ y_1y_2=c
 \addplot[fill=white] plot coordinates {(0,0)} node[ocirc]{};
 \end{axis}
 \end{tikzpicture}%
-\caption*{(ب) نظام \حوالہ{مساوات_نظام_وسط_الف} کے خط حرکت۔ (وسط)}
-\end{subfigure}%
+\caption{ نظام \حوالہ{مساوات_نظام_وسط_الف} کے خط حرکت۔ (وسط)}
+\end{subfigure} \hfill
 \caption{نقطہ زین اور وسط۔}
 \label{شکل_مثال_نظام_نقطہ_زین}
 \end{figure}
@@ -1617,7 +1617,7 @@ rr'=-r^2,\implies  \frac{\dif r}{r}=-\dif t , \implies r=ce^{-t}
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis equal,axis lines*=middle,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}}]
+\begin{axis}[,axis equal,myStyleA,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},]
 \addplot[domain=0:800,samples=100]({x/100*cos(x)},{-x/100*sin(x)})coordinate[pos=0.5](ka)coordinate[pos=0.501](kb);
 \draw[stealth-](ka)--(kb);
 \addplot[fill=white] plot coordinates {(0,0)}node[ocirc]{};
@@ -1672,7 +1672,7 @@ u_1+u_2&=1\\
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xmin=-50,xmax=50,ymin=-50,ymax=50,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}}]
+\begin{axis}[,myStyleA,xmin=-50,xmax=50,ymin=-50,ymax=50,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},]
 \pgfmathsetmacro{\lmt}{1.1}
 %
 \pgfmathsetmacro{\ca}{1}
@@ -1941,8 +1941,8 @@ y_1(0)&=-2,\quad y_2(0)=1
 \draw(\x/2,3/4*\y)node[above]{\RL{$2$ لٹر فی منٹ}};
 \draw(-3/4*\x,1/8*\y) rectangle ++(-3/4*\x,\y/8);
 \draw(\x+3/4*\x,7/8*\y) rectangle ++(3/4*\x,-\y/8);
-\draw[-latex] (\x+3/4*\x+3/4*\x-\x/5,7/8*\y-\y/16)--++(-\x/3,0)node[pos=0.5,shift={(0,0.4)}]{\RL{$10$ لٹر فی منٹ}}node[pos=0.5,shift={(0,-0.4)}]{\RL{خالص پانی}};
-\draw[latex-] (-3/4*\x-3/4*\x+\x/5,1/8*\y+\y/16)--++(\x/3,0)node[pos=0.5,shift={(0,0.4)}]{\RL{$10$ لٹر فی منٹ}};
+\draw[-latex] (\x+3/4*\x+3/4*\x-\x/5,7/8*\y-\y/16)--++(-\x/3,0)node[pos=0.1,shift={(0,0.4)}]{\RL{$10$ لٹر فی منٹ}}node[pos=0.5,shift={(0,-0.4)}]{\RL{خالص پانی}};
+\draw[latex-] (-3/4*\x-3/4*\x+\x/5,1/8*\y+\y/16)--++(\x/3,0)node[pos=0.1,shift={(0,0.4)}]{\RL{$10$ لٹر فی منٹ}};
 \end{tikzpicture}
 \caption{سوال \حوالہ{سوال_نظام_امتیازی_ٹینکی} میں ٹینکیوں کا نظام۔}
 \label{شکل_سوال_نظام_امتیازی_ٹینکی}
@@ -2046,6 +2046,7 @@ p=\lambda_1+\lambda_2,\quad q=\lambda_1\lambda_2,\quad \Delta=(\lambda_1-\lambda
 \caption{امتیازی قدر سے نقطہ فاصل کی درجہ بندی۔}
 \label{جدول_نظام_نقطہ_فاصل_اصول_جانچ}
 \centering
+{\footnotesize
 \begin{tabular}{rcccr}
 نام& $p=\lambda_1+\lambda_2$&$q=\lambda_1\lambda_2$&$\Delta=(\lambda_1-\lambda_2)^2$&$\lambda_1$ اور $\lambda_2$  پر تبصرہ\\
 \hline
@@ -2054,6 +2055,7 @@ p=\lambda_1+\lambda_2,\quad q=\lambda_1\lambda_2,\quad \Delta=(\lambda_1-\lambda
 (پ) وسط & \عددی{p=0} & \عددی{q>0}&& خالص خیالی عدد (حقیقی جزو صفر ہے)\\
 (ت) نقطہ مرغولہ & \عددی{p \ne 0} & & \عددی{\Delta <0}& مخلوط عدد (حقیقی اور خیالی اجزاء غیر صفر ہیں)
 \end{tabular}
+}
 \end{table}
 %===================
 
@@ -2072,7 +2074,7 @@ p=\lambda_1+\lambda_2,\quad q=\lambda_1\lambda_2,\quad \Delta=(\lambda_1-\lambda
 
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0) circle (1.25);
@@ -2083,9 +2085,9 @@ p=\lambda_1+\lambda_2,\quad q=\lambda_1\lambda_2,\quad \Delta=(\lambda_1-\lambda
 %trajectory
 \draw[-stealth](0,1)node[ocirc]{}node[below]{$P_1$} to [out=-10,in=-170]++(0.75,0) to [out=10,in=90]++(0.75,-1) to [out=-90,in=0]++(-1,-0.6) to [out=180,in=-15]++(-1.25,-.75) to [out=165,in=-90]++(-0.75,1);
 \end{tikzpicture}
-\caption*{(الف) مستحکم نقطہ فاصل \عددی{P_0} کی صورت میں خط حرکت \عددی{D_{\epsilon}} میں رہتی ہے۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ مستحکم نقطہ فاصل \عددی{P_0} کی صورت میں خط حرکت \عددی{D_{\epsilon}} میں رہتی ہے۔}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0) circle (1.25);
@@ -2098,8 +2100,8 @@ p=\lambda_1+\lambda_2,\quad q=\lambda_1\lambda_2,\quad \Delta=(\lambda_1-\lambda
 \draw[stealth-](ka) to [out=-135,in=-45]++(-0.75,-0.5) to [out=135,in=-170]++(0.3,0.7)node[ocirc]{};
 \draw[stealth-] (ka) to [out=-30,in=-145]++(1,-0.5) to [out=35,in=-90]++(0.5,1) to [out=90,in=0] (0,1.75) to [out=180,in=90] (-1.75,0) to [out=-90,in=160] (-135:1.3) to [out=-20,in=-135]++(0.5,0)node[ocirc]{};
 \end{tikzpicture}
-\caption*{(ب) مستحکم اور جاذب نقطہ فاصل \عددی{P_0}۔}
-\end{subfigure}%
+\caption{ مستحکم اور جاذب نقطہ فاصل \عددی{P_0}۔}
+\end{subfigure} \hfill
 \caption{نظام \حوالہ{مساوات_نظام_جانچ_نقطہ_فاصل_الف} کے نقطہ فاصل۔}
 \label{شکل_نظام_نقطہ_فاصل_تعریف}
 \end{figure}%
@@ -2164,10 +2166,10 @@ y_2'&=3y_2
  \عددی{y_1=c_1e^t}، \عددی{y_2=c_2e^{3t}}؛ شکل \حوالہ{شکل_سوال_نظام_نقطہ_فاصل_اور_حل_الف}-الف۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel style ={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}}]
+\begin{axis}[,myStyleA,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},]
 \pgfmathsetmacro{\ca}{1}
 \pgfmathsetmacro{\cb}{0}
 \addplot[domain=0:3]({\ca*e^x},{\cb*e^(3*x)})node[pos=0.5](ka){}node[pos=0.501](kb){};
@@ -2204,12 +2206,12 @@ y_2'&=3y_2
 \addplot[fill=white]plot coordinates {(0,0)}node[ocirc]{}; 
 \end{axis}
 \end{tikzpicture}
-\caption*{(الف) سوال \حوالہ{سوال_نظام_نقطہ_فاصل_اور_حل_الف} غیر مستحکم، غیر مناسب جوڑ۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ سوال \حوالہ{سوال_نظام_نقطہ_فاصل_اور_حل_الف} غیر مستحکم، غیر مناسب جوڑ۔}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel style ={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}}]
+\begin{axis}[,myStyleA,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},]
 \pgfmathsetmacro{\ca}{1}
 \pgfmathsetmacro{\cb}{0}
 \addplot[domain=0:3]({\ca*e^(-3*x)},{\cb*e^(-5*x)})node[pos=0.5](ka){}node[pos=0.501](kb){};
@@ -2246,8 +2248,8 @@ y_2'&=3y_2
 \addplot[fill=white]plot coordinates {(0,0)}node[ocirc]{}; 
 \end{axis}
 \end{tikzpicture}
-\caption*{(ب) سوال \حوالہ{سوال_نظام_نقطہ_فاصل_اور_حل_الف_ب}  مستحکم، جاذب، غیر مناسب جوڑ۔}
-\end{subfigure}%
+\caption{ سوال \حوالہ{سوال_نظام_نقطہ_فاصل_اور_حل_الف_ب}  مستحکم، جاذب، غیر مناسب جوڑ۔}
+\end{subfigure} \hfill
 \caption{سوال \حوالہ{سوال_نظام_نقطہ_فاصل_اور_حل_الف} اور سوال \حوالہ{سوال_نظام_نقطہ_فاصل_اور_حل_الف_ب} کے اشکال۔}
 \label{شکل_سوال_نظام_نقطہ_فاصل_اور_حل_الف}
 \end{figure}
@@ -2269,10 +2271,10 @@ y_2'&=-16y_1
 جوابات:مستحکم وسط۔ \عددی{y_1=A\cos 4t+B\sin 4t}، \عددی{y_2=4B\cos 4t-4A\sin 4t}؛ شکل \حوالہ{شکل_سوال_نظام_نقطہ_فاصل_اور_حل_الف_پ}-الف۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel style ={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}}]
+\begin{axis}[,myStyleA,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},]
 \pgfmathsetmacro{\ca}{1}
 \pgfmathsetmacro{\cb}{0}
 \addplot[domain=-45:45,samples=100]({\ca*cos(4*x)+\cb*sin(4*x)},{4*\cb*cos(4*x)-4*\ca*sin(4*x)})node[pos=0.2](ka){}node[pos=0.201](kb){};
@@ -2285,12 +2287,12 @@ y_2'&=-16y_1
 \addplot[fill=white]plot coordinates {(0,0)}node[ocirc]{}; 
 \end{axis}
 \end{tikzpicture}
-\caption*{(الف) سوال \حوالہ{سوال_نظام_نقطہ_فاصل_اور_حل_الف_پ}  مستحکم وسط۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ سوال \حوالہ{سوال_نظام_نقطہ_فاصل_اور_حل_الف_پ}  مستحکم وسط۔}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel style ={rotate=-90},ylabel style={at={(axis description cs:0.5,1.05)}}]
+\begin{axis}[,myStyleA,xtick=\empty,ytick=\empty,xlabel={$y_1$},ylabel={$y_2$},]
 \pgfmathsetmacro{\lmt}{0.75}
 %
 \pgfmathsetmacro{\ca}{1}
@@ -2329,8 +2331,8 @@ y_2'&=-16y_1
 \addplot[fill=white]plot coordinates {(0,0)}node[ocirc]{}; 
 \end{axis}
 \end{tikzpicture}
-\caption*{(ب) سوال \حوالہ{سوال_نظام_نقطہ_فاصل_اور_حل_الف_ت} غیر مستحکم، نقطہ زین۔}
-\end{subfigure}%
+\caption{ سوال \حوالہ{سوال_نظام_نقطہ_فاصل_اور_حل_الف_ت} غیر مستحکم، نقطہ زین۔}
+\end{subfigure} \hfill
 \caption{سوال \حوالہ{سوال_نظام_نقطہ_فاصل_اور_حل_الف_پ} اور سوال \حوالہ{سوال_نظام_نقطہ_فاصل_اور_حل_الف_ت} کے اشکال۔}
 \label{شکل_سوال_نظام_نقطہ_فاصل_اور_حل_الف_پ}
 \end{figure}
@@ -2492,7 +2494,7 @@ y_2'&=a_{21}y_1+a_{22}y_2
 ہلکے ڈنڈے سے لٹکی کمیت کو شکل \حوالہ{شکل_مثال_نظام_دھاگے_سے_لٹکی_کمیت}-الف میں دکھایا گیا ہے۔ڈنڈے کی کمیت اور ہوا کی رکاوٹی قوت کو نظر انداز کرتے ہوئے نقطہ فاصل کا مقام اور اس کی نوعیت دریافت کریں۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.4\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\ang}{60}
@@ -2513,12 +2515,12 @@ y_2'&=a_{21}y_1+a_{22}y_2
 \draw[-stealth] ([shift={(-90:0.5)}]0,0) arc (-90:-\ang:0.5);
 \draw (-75:0.8)node[]{$\theta$};
 \end{tikzpicture}
-\caption*{(الف) ہلکے ڈنڈے سے لٹکی کمیت کی آزادانہ ارتعاش۔}
+\caption{ ہلکے ڈنڈے سے لٹکی کمیت کی آزادانہ ارتعاش۔}
 \end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.55\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel={$y_1$},ylabel={$y_2$},xlabel style={at={(axis description cs:1.05,0.5)}},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0.4,1.05)}},xtick={-180,180,360,540},xticklabels={$-\pi$,$\pi$,$2\pi$,$3\pi$},ytick=\empty]
+\begin{axis}[clip=false,myStyleA,xlabel={$y_1$},ylabel={$y_2$},ylabel style={at={(current axis.above origin)},anchor=south east},xtick={-180,180,360,540},xticklabels={$-\pi$,$\pi$,$2\pi$,$3\pi$},ytick=\empty]
 \pgfmathsetmacro{\len}{2}
 \pgfmathsetmacro{\k}{9.8/\len}   
 %
@@ -2543,7 +2545,7 @@ y_2'&=a_{21}y_1+a_{22}y_2
 \pgfmathsetmacro{\lmtS}{-180-90}
 \pgfmathsetmacro{\lmtE}{\lmtS+900}    
 \addplot[domain=\lmtS:\lmtE,samples=300]{sqrt(2*\k*cos(x)+2*\ca)}node[pos=0.2](kc){}node[pos=0.21](kd){}node[pos=0.6](ke){}node[pos=0.61](kf){}coordinate[pos=0.62](kkpin);
-\draw(kkpin)node[pin=135:{$C>k$}]{};
+\draw(kkpin)node[pin=100:{$C>k$}]{};
 \draw[-stealth] (kc)--(kd);
 \draw[-stealth] (ke)--(kf);
 \addplot[domain=\lmtS:\lmtE,samples=300]{-sqrt(2*\k*cos(x)+2*\ca)}node[pos=0.2](kc){}node[pos=0.21](kd){}node[pos=0.6](ke){}node[pos=0.61](kf){};
@@ -2593,7 +2595,7 @@ y_2'&=a_{21}y_1+a_{22}y_2
 \addplot[fill=white] plot coordinates {(0,0)}node[ocirc]{};
 \end{axis}
 \end{tikzpicture}
-\caption*{(ب) پیکر مرحلہ۔}
+\caption{پیکر مرحلہ۔}
 \end{subfigure}%
 \caption{مثال \حوالہ{مثال_نظام_دھاگے_سے_لٹکی_کمیت} کے اشکال۔ [\عددی{C} کی تفصیل مثال \حوالہ{مثال_نظام_بلا_تقصیر_ارتعاش_یک_درجی_مساوات} میں دی جائے گی۔]}
 \label{شکل_مثال_نظام_دھاگے_سے_لٹکی_کمیت}

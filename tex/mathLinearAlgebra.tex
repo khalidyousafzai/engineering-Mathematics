@@ -1374,7 +1374,7 @@ a_{mn}x_1+\cdots+a_{mn}x_n&=b_m
 a_{11}x_1+a_{12}x_2&=b_1\\
 a_{21}x_1+a_{22}x_2&=b_2
 \end{align*}
-اگر ہم \عددی{x_1} اور \عددی{x_2}  کو سطح \عددی{x_1x_2} پر محور فرض کریں تب درج بالا مساوات اس سطح پر سیدھے خطوط کے مساوات ہوں گے۔ان مساوات کا صرف اس صورت حل \عددی{(x_1,x_2)} ہو گا جب نقطہ \عددی{P} جس کے محور \عددی{x_1} اور \عددی{x_2} ہوں، ان دونوں خطوط پر پایا جاتا ہو۔ یوں تین ممکنہ صورتیں پائی جاتی ہیں۔ شکل \حوالہ{شکل_مثال_الجبرا_وجودیت_یکتائی_حل_الف} دیکھیں۔
+اگر ہم \عددی{x_1} اور \عددی{x_2}  کو سطح \عددی{x_1x_2} پر  محددی نظام کا محور  تصور  کریں تب درج بالا مساوات اس سطح پر سیدھے خطوط کے مساوات ہوں گے۔ان مساوات کا صرف اس صورت حل \عددی{(x_1,x_2)} ہو گا جب نقطہ \عددی{P} جس کے محور \عددی{x_1} اور \عددی{x_2} ہوں، ان دونوں خطوط پر پایا جاتا ہو۔ یوں تین ممکنہ صورتیں پائی جاتی ہیں۔ شکل \حوالہ{شکل_مثال_الجبرا_وجودیت_یکتائی_حل_الف} دیکھیں۔
 \begin{itemize}
 \item
 اگر خطوط ایک دونوں کو قطع کرتے ہوں تب یکتا حل پایا جائے گا۔
@@ -1386,38 +1386,38 @@ a_{21}x_1+a_{22}x_2&=b_2
 %
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.30\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,ymin=-0.5,ymax=3.5,xtick={1},ytick={2}]
+\begin{axis}[width=3.5cm,axis lines*=middle,ymin=-0.5,ymax=3.5,xtick={1},ytick={2}]
 \addplot[domain=-0.5:4]{2*x};
 \addplot[domain=-0.5:4]{3-x};
 \addplot[] plot coordinates {(1,2)} node[circ]{};
 \addplot[] plot coordinates {(1,2)} node[right]{$P(1,2)$};
 \end{axis}
 \end{tikzpicture}
-\caption*{(الف) نقطہ \عددی{P} جہاں دونوں خط ملتے ہیں، ان مساوات کا حل ہے۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ نقطہ \عددی{P} جہاں دونوں خط ملتے ہیں، ان مساوات کا حل ہے۔}
+\end{subfigure} \hfill
+\begin{subfigure}{0.30\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,ymin=-0.5,ymax=3.5,xtick={\empty},ytick={\empty}]
+\begin{axis}[width=3.5cm,axis lines*=middle,ymin=-0.5,ymax=3.5,xtick={\empty},ytick={\empty}]
 \addplot[domain=-0.5:4]{3-x};
 \addplot[domain=-0.5:4]{2.95-x};
 \end{axis}
 \end{tikzpicture}
-\caption*{(ب) دونوں خطوط (جنہیں ایک دونوں سے ذرہ ہٹ کر دکھایا گیا ہے درحقیقت) ہم مکانی ہیں لہٰذا ان کے لامتناہی تعداد کے حل ممکن ہیں۔}
-\end{subfigure}
-\begin{subfigure}{0.5\textwidth}
+\caption{ دونوں خطوط (جنہیں ایک دونوں سے ذرہ ہٹ کر دکھایا گیا ہے درحقیقت) ہم مکانی ہیں لہٰذا ان کے لامتناہی تعداد کے حل ممکن ہیں۔}
+\end{subfigure}\hfill
+\begin{subfigure}{0.30\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,ymin=-0.5,ymax=3.5,xtick={\empty},ytick={\empty}]
+\begin{axis}[width=3.5cm,axis lines*=middle,ymin=-0.5,ymax=3.5,xtick={\empty},ytick={\empty}]
 \addplot[domain=-0.5:4]{3-x};
 \addplot[domain=-0.5:4]{2-x};
 \end{axis}
 \end{tikzpicture}
-\caption*{(پ) متوازی خطوط ایک دونوں کو کہیں نہیں چھوتے ہیں لہٰذا ان کا کوئی حل نہیں پایا جاتا ہے۔}
-\end{subfigure}%
+\caption{ متوازی خطوط ایک دونوں کو کہیں نہیں چھوتے ہیں لہٰذا ان کا کوئی حل نہیں پایا جاتا ہے۔}
+\end{subfigure} \hfill
 \caption{حل کی وجودیت اور یکتائی۔ مثال \حوالہ{مثال_الجبرا_وجودیت_یکتائی_حل_الف} کے اشکال۔}
 \label{شکل_مثال_الجبرا_وجودیت_یکتائی_حل_الف}
 \end{figure}
@@ -1943,23 +1943,23 @@ x_1+x_2+x_3-x_4&=7
 شکل \حوالہ{شکل_سوال_الجبرا_نمونہ_نظام_الف}-الف میں برقی دور دکھایا گیا ہے۔اس کو حل کریں۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0) to [american voltage source,l={$\SI{2}{\volt}$}]++(0,\y) to [resistor,l={$\SI{4}{\ohm}$},i={$I_1$}]++(0,\y) to [resistor,l={$\SI{2}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{7}{\ohm}$}]++(\x,0) to [resistor,l={$\SI{1}{\ohm}$},i>^={$I_3$}]++(0,-\y) to [american voltage source,l={$\SI{6}{\volt}$}]++(0,-\y) to [short]++(-2*\x,0);
 \draw(\x,0) to [american voltage source,l={$\SI{4}{\volt}$},i={$I_2$},*-]++(0,\y) to [resistor,l={$\SI{6}{\ohm}$},-*]++(0,\y);
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0) to [american voltage source,l={$\SI{20}{\volt}$}]++(0,\y) to [resistor,l_={$\SI{4}{\ohm}$},i_>={$I_2$}]++(-\x,0) to [resistor,l_={$\SI{16}{\ohm}$},i={$I_4$}]++(0,-\y) to [short,-*]++(\x,0);
 \draw(0,\y) to [resistor,*-,l={$\SI{6}{\ohm}$},i={$I_3$}]++(\x,0) to [resistor,l_={$\SI{12}{\ohm}$},i={$I_5$}]++(0,-\y) to [short]++(-\x,0);
 \draw(-\x,\y) to [short,*-]++(0,\y/2) to [resistor,l={$\SI{8}{\ohm}$},i={$I_1$}]++(2*\x,0) to [short,-*]++(0,-\y/2);
 \end{tikzpicture}
-\caption*{(ب)}
-\end{subfigure}%
+\caption{}
+\end{subfigure} \hfill
 \caption{برقی دور۔ سوال \حوالہ{سوال_الجبرا_نمونہ_نظام_الف} اور سوال \حوالہ{سوال_الجبرا_دور_دوسرا_الف}}
 \label{شکل_سوال_الجبرا_نمونہ_نظام_الف}
 \end{figure}
@@ -1978,21 +1978,21 @@ x_1+x_2+x_3-x_4&=7
 شکل \حوالہ{شکل_سوال_الجبرا_تقسیم_رو}-الف میں تینوں برقی رو دریافت کریں۔برقی  رو \عددی{I_2} کی قیمت منفی ہے۔اس کا کیا مطلب ہے؟
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.60\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0) to [american voltage source,l={$\SI{20}{\volt}$}]++(0,\y) to [resistor,l={$\SI{2}{\ohm}$},i={$I_3$}]++(\x,0) to [short]++(\x,0) to [resistor,l={$\SI{6}{\ohm}$},i<_={$I_2$}]++(0,-\y) to [short]++(-2*\x,0);
 \draw(\x,0) to [resistor,*-*,l={$\SI{4}{\ohm}$},i<_={$I_1$}]++(0,\y);
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.30\textwidth}
 \centering
 \begin{tikzpicture}[american voltages]
 \draw(0,0) to [american voltage source,l={$V_s$}]++(0,\y) to [resistor,l={$R_1$},i={$I$}]++(\x,0) to [resistor,l={$R_2$},v={$V_2$}]++(0,-\y) to [short]++(-\x,0);
 \end{tikzpicture}
-\caption*{(ب) تقسیم دباو کا دور۔}
-\end{subfigure}%
+\caption{ تقسیم دباو کا دور۔}
+\end{subfigure} \hfill
 \caption{ادوار برائے سوال \حوالہ{سوال_الجبرا_تقسیم_رو} اور سوال \حوالہ{سوال_الجبرا_تقسیم_دباو}}
 \label{شکل_سوال_الجبرا_تقسیم_رو}
 \end{figure}

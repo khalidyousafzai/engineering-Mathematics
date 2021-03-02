@@ -377,7 +377,7 @@ $\left(\tfrac{\bM{u}}{\abs{\bM{u}}}\right)'=\left(\tfrac{\bM{u}}{\sqrt{\bM{u}\cd
   تعین گر سمتیہ \عددی{\bM{r}(t_0)} دیتا ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 %axis
@@ -388,9 +388,9 @@ $\left(\tfrac{\bM{u}}{\abs{\bM{u}}}\right)'=\left(\tfrac{\bM{u}}{\sqrt{\bM{u}\cd
 \draw(0.3,1) to [out=30,in=150]++(1.5,0.5)coordinate(kA) to [out=-30,in=-90]++(1,0.5)node[left]{$C$};
 \draw[-latex](0,0)node[ocirc]{}--(kA)node[ocirc]{}node[pos=0.7,below right]{$\bM{r}(t)$};
 \end{tikzpicture}
-\caption*{(الف) منحنی مقدار معلوم}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ منحنی مقدار معلوم}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 %axis
@@ -402,8 +402,8 @@ $\left(\tfrac{\bM{u}}{\abs{\bM{u}}}\right)'=\left(\tfrac{\bM{u}}{\sqrt{\bM{u}\cd
 \draw[-latex](0,0)node[ocirc]{}--(kA)node[ocirc]{}node[above]{$A$}node[pos=0.7,right]{$\bM{a}$};
 \draw[-latex](kA)node[ocirc]{}--(kB)node[ocirc]{}node[pos=0.7,above]{$\bM{b}$};
 \end{tikzpicture}
-\caption*{(ب) سیدھی لکیر کا مقدار معلوم خط}
-\end{subfigure}%
+\caption{ سیدھی لکیر کا مقدار معلوم خط}
+\end{subfigure} \hfill
 \caption{سیدھی لکیر اور منحنی کے مقدار معلوم خطوط۔}
 \label{شکل_الاحصاء_منحنی_مقدار_معلوم}
 \end{figure}
@@ -465,7 +465,7 @@ F(x,y,z)=0,\quad G(x,y,z)=0
 ظاہر کرتا ہے۔اس \اصطلاح{خم دار منحنی} کو \عددی{c>0} (دایاں ہاتھ پیچ دار لچھا) اور \عددی{c<0} (بایاں ہاتھ پیچ دار لچھا) کے لئے  شکل \حوالہ{شکل_الاحصاء_پیچدار} میں دکھایا گیا ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}[x={(-0.5cm,-0.5cm)},y={(1cm,0cm)},z={(0cm,1cm)}]
 \pgfmathsetmacro{\ang}{30}
@@ -493,9 +493,9 @@ F(x,y,z)=0,\quad G(x,y,z)=0
 \path[domain=270+\ang:450,smooth,variable=\t] plot ({cos(\t)},{sin(\t)},{\c*\t})node[ocirc]{};
 \draw[domain=-130:150,smooth,variable=\t] plot ({0.075*cos(\t)},{0.075*sin(\t)},{0});
 \end{tikzpicture}
-\caption*{(الف) دایاں ہاتھ پیچ دار لچھا}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ دایاں ہاتھ پیچ دار لچھا}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}[x={(-0.5cm,-0.5cm)},y={(1cm,0cm)},z={(0cm,1cm)}]
 \pgfmathsetmacro{\ang}{30}
@@ -521,8 +521,8 @@ F(x,y,z)=0,\quad G(x,y,z)=0
 \path[domain=270+\ang:450,smooth,variable=\t] plot ({cos(\t)},{sin(\t)},{\c*\t})node[ocirc]{};
 \draw[domain=-130:150,smooth,variable=\t] plot ({0.075*cos(\t)},{0.075*sin(\t)},{0});
 \end{tikzpicture}
-\caption*{(ب) بایاں ہاتھ پیچ دار لچھا}
-\end{subfigure}%
+\caption{ بایاں ہاتھ پیچ دار لچھا}
+\end{subfigure} \hfill
 \caption{پیچ دار لچھے (مثال \حوالہ{مثال_الاحصاء_پیچ_دار})۔}
 \label{شکل_الاحصاء_پیچدار}
 \end{figure}
@@ -534,20 +534,22 @@ F(x,y,z)=0,\quad G(x,y,z)=0
 ہم قطع منحنی اپنی آپ کو قطع کرتی ہے۔ نقطہ قطع کو منحنی کا \اصطلاح{متعدد نقطہ}\فرہنگ{متعدد نقطہ}\حاشیہب{multiple point}\فرہنگ{multiple point} کہتے ہیں (شکل \حوالہ{شکل_الاحصاء_دوہرا_نقطہ})۔ ایسی منحنی جس کے متعدد نقطے نہ پائے جاتے ہوں \اصطلاح{سادہ منحنی}\فرہنگ{سادہ منحنی}\فرہنگ{منحنی!سادہ}\حاشیہب{simple curve}\فرہنگ{curve!simple} کہلاتی ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0) to [out=90,in=135]++(2,-0.5);
 \draw(0,0) to [out=-90,in=-135]++(2,0.5);
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0) to [out=90,in=135]++(1,0) to [out=-45,in=-90]++(1,0);
 \draw(0,0) to [out=-90,in=-135]++(1,0) to [out=45,in=90]++(1,0);
 \end{tikzpicture}
-\end{subfigure}%
+\caption{}
+\end{subfigure}
 \caption{دوہرا نقطوں والے منحنی}
 \label{شکل_الاحصاء_دوہرا_نقطہ}
 \end{figure}
@@ -749,15 +751,15 @@ $\bM{r}=2\cos t\bM{i}+2\sin t\bM{j}+e^{-t}\bM{k}$
 اگر \عددی{C} از خود سادہ منحنی نہ ہو لیکن یہ محدود تعداد کے قابل تصحیح سادہ منحنیات پر مشتمل ہو تب \عددی{C} کی \اصطلاح{لمبائی} سے مراد ان تمام منحنیات کی لمبائیوں کا مجموعہ ہو گا۔ 
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw (1,0) to [out=150,in=-90] (0,1) to [out=90,in=180] (-0.5,2) to [out=0,in=135] (1.5,1.5) to [out=-45,in=170] (3.2,0);
 \draw[dashed](1,0)node[ocirc,solid]{}--(0,1)node[ocirc,solid]{}--(-0.5,2)node[ocirc,solid]{}--(1.5,1.5)node[ocirc,solid]{}--(3.2,0)node[ocirc,solid]{};
 \end{tikzpicture}
-\caption*{(الف) لمبائی کی تعریف۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ لمبائی کی تعریف۔}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 %axis
@@ -769,8 +771,8 @@ $\bM{r}=2\cos t\bM{i}+2\sin t\bM{j}+e^{-t}\bM{k}$
 \draw[-latex] (0,0) --(1.5,0.75)node[pos=0.5,right]{$\bM{r}(t+\Delta t)$};
 \draw[-latex] (1,1)--(1.5,0.75)node[pos=0.7,above]{$\Delta \bM{l}$};
 \end{tikzpicture}
-\caption*{(ب) استمراری قابل تفرق تفاعل کی لمبائی۔}
-\end{subfigure}%
+\caption{ استمراری قابل تفرق تفاعل کی لمبائی۔}
+\end{subfigure} \hfill
 \caption{لمبائی قوس}
 \label{شکل_الاحصاء_لمبائی_قوس}
 \end{figure}
@@ -998,7 +1000,7 @@ $\rho=a(1+\cos \theta)$\\
 نقطہ \عددی{A} پر منحنی \عددی{C} کے مماس سے مراد \عددی{A} اور منحنی پر دوسرا نقطہ \عددی{B} سے گزرتے ہوا وہ سیدھا خط ہے جو \عددی{B} کو \عددی{A} کے قریب تر کرنے سے حاصل ہو گا (شکل \حوالہ{شکل_الاحصاء_مماس_اور_اظہار}-الف)۔  
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw[name path=curveA](0,2.5) to [out=30,in=90](3,0)node[below]{$C$};
@@ -1009,9 +1011,9 @@ $\rho=a(1+\cos \theta)$\\
 \draw[-latex](0,0)node[ocirc]{}--(A)node[ocirc]{}node[pos=0.6,left]{$\bM{r}(t)$};
 \draw[-latex](0,0)node[ocirc]{}node[below]{مبدا}--(B)node[ocirc]{}node[pos=0.6,below,sloped]{$\bM{r}(t+\Delta t)$};
 \end{tikzpicture}
-\caption*{(الف) منحنی کا مماس}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ منحنی کا مماس}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw[name path=curveA](0,2.5) to [out=30,in=90](3,0)node[below]{$C$};
@@ -1022,8 +1024,8 @@ $\rho=a(1+\cos \theta)$\\
 \draw[-latex](0,0)node[ocirc]{}--(A)node[ocirc]{}node[pos=0.6,left]{$\bM{r}$};
 \draw[-latex](0,0)node[ocirc]{}node[below]{مبدا}--(kA)node[ocirc]{}node[pos=0.6,below,sloped]{$\bM{q}$};
 \end{tikzpicture}
-\caption*{(ب) مماس الجبرائی اظہار}
-\end{subfigure}%
+\caption{ مماس الجبرائی اظہار}
+\end{subfigure} \hfill
 \caption{مماس اور اس کا اظہار}
 \label{شکل_الاحصاء_مماس_اور_اظہار}
 \end{figure}
@@ -1254,7 +1256,7 @@ $\kappa=\tfrac{\abs{y''}}{(1+y'^2)^{\tfrac{3}{2}}}$
 جو دائرے کی مرکز کے رخ ہے لہٰذا اس کو \اصطلاح{مرکز مائل اسراع}\فرہنگ{مرکز مائل!اسراع}\فرہنگ{اسراع!مرکز مائل}\حاشیہب{centripetal acceleration}\فرہنگ{centripetal!acceleration} کہتے ہیں۔اسراع کی قیمت \عددی{\abs{\bM{a}}=\omega^2 R} ہے۔کمیت \عددی{m} پر \اصطلاح{مرکز مائل قوت}\فرہنگ{مرکز مائل!قوت}\حاشیہب{centripetal force}\فرہنگ{centripetal!force} \عددی{m\bM{a}} عمل کرے گا۔اس کا مخلاف قوت \عددی{-m\bM{a}} ہو گا جس کو \اصطلاح{مرکز گریز قوت}\فرہنگ{مرکز گریز!قوت}\حاشیہب{centrifugal force}\فرہنگ{centrifugal!force} کہتے ہیں۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 %axis
@@ -1266,9 +1268,9 @@ $\kappa=\tfrac{\abs{y''}}{(1+y'^2)^{\tfrac{3}{2}}}$
 %circle
 \draw(0,0) circle (1);
 \end{tikzpicture}
-\caption*{(الف) مرکز مائل اسراع (مثال \حوالہ{مثال_الاحصاء_مرکز_مائل_اسراع})}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ مرکز مائل اسراع (مثال \حوالہ{مثال_الاحصاء_مرکز_مائل_اسراع})}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 %axis
@@ -1283,8 +1285,8 @@ $\kappa=\tfrac{\abs{y''}}{(1+y'^2)^{\tfrac{3}{2}}}$
 \draw[-latex](0,0)--++(30:0.75)node[pos=0.8,above]{$\bM{b}$};
 \draw[-latex](0,0)node[ocirc]{}--++(120:0.75)node[pos=0.7,left]{$\dot{\bM{b}}$};
 \end{tikzpicture}
-\caption*{(ب) قرص پر حرکت (مثال \حوالہ{مثال_الاحصاء_کوریولس_اسراع})۔}
-\end{subfigure}%
+\caption{ قرص پر حرکت (مثال \حوالہ{مثال_الاحصاء_کوریولس_اسراع})۔}
+\end{subfigure} \hfill
 \caption{مرکز مائل اسراع}
 \label{شکل_مثال_الاحصاء_مرکز_مائل_اسراع}
 \end{figure}
@@ -1463,7 +1465,7 @@ $\bM{r}(t)=\bM{a}_0\tfrac{t^2}{2}+\bM{v}_0t+\bM{x}_0$
 جیومیٹریائی طور پر \عددی{(x_0,y_0)} پر \عددی{f(x,y)} کے استمراری ہونے سے مراد یہ ہے کہ \عددی{f(x_0,y_0)} کو قطع \عددی{2\epsilon} کا وسط لیتے ہوئے  ہم غیر صفر رداس \عددی{\sigma} کا ایسا قرص تلاش کر سکتے ہیں جس کا مرکز \عددی{(x_0,y_0)} ہو اور اس قرص  پر تمام \عددی{(x,y)} کا مطابقتی \عددی{f(x,y)} اس قطع پر پایا جاتا ہو (شکل \حوالہ{شکل_الاحصاء_استمرار_تعریف})۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--++(2.5,0)node[below]{$x$};
@@ -1471,8 +1473,8 @@ $\bM{r}(t)=\bM{a}_0\tfrac{t^2}{2}+\bM{v}_0t+\bM{x}_0$
 \draw(1.25,1.25)circle (1);
 \draw[-stealth] (1.25,1.25)node[ocirc]{}node[below]{$(x_0,y_0)$} --++(30:1)node[pos=0.5,above]{$\sigma$};
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-1.5,0)--(1.5,0);
@@ -1482,7 +1484,7 @@ $\bM{r}(t)=\bM{a}_0\tfrac{t^2}{2}+\bM{v}_0t+\bM{x}_0$
 \draw[stealth-stealth](-1.25,0.15+0.15+0.15/2)--++(1.25,0)node[pos=0.5,fill=white]{$\epsilon$};
 \draw[stealth-stealth](0,0.15+0.15+0.15/2)--++(1.25,0)node[pos=0.5,fill=white]{$\epsilon$};
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure}
 \caption{دو متغیرات کے تفاعل کی استمرار}
 \label{شکل_الاحصاء_استمرار_تعریف}
 \end{figure}

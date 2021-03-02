@@ -448,7 +448,7 @@ y=1.2e^x+2\cos 15x+3\sin 15x
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xmin=0,ymax=29,xlabel={$x$},ylabel={$y$},xlabel style={at={(axis description cs:1.05,0.18)}},ylabel style={rotate={-90}},ylabel style={at={(axis description cs:0,1.05)}}]
+\begin{axis}[,myStyleA,xmin=0,ymax=29,xlabel={$x$},ylabel={$y$},]
 \addplot[domain=0:3,samples=100]{1.2*e^(x)+2*cos(180/pi*15*x)+3*sin(180/pi*15*x)};
 \addplot[dashed,domain=0:3,samples=100]{1.2*e^(x)};
 \end{axis}
@@ -825,7 +825,7 @@ y=y_h+y_p=c_1x+c_2x^2+c_3x^3+\frac{1}{6}x^4\left(\ln x-\frac{11}{6}\right)
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small, axis lines*=middle,xmin=0,xlabel={$x$},ylabel={$y_p$},ylabel style={rotate=-90},ylabel style={at={(axis description cs:0,1.05)}},xlabel style={at={(axis description cs:1.05,0.5)}}]
+\begin{axis}[, myStyleA,xmin=0,xlabel={$x$},ylabel={$y_p$},]
 \addplot[domain=0:6.7,samples=50]{1/6*x^4*(ln(x)-11/6)};
 \end{axis}
 \end{tikzpicture}
@@ -847,7 +847,7 @@ EIy^{(4)}=f(x)
 
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\kx}{4}
@@ -864,9 +864,9 @@ EIy^{(4)}=f(x)
 \draw[dashed](-\kdx/2,\ky/2-\kdy/2)--++(\kx+1,0)node[right]{$x$};
 \draw(-\kdx/2,\ky/2-\kdy/2)--++(-\kang:1.4)node[below]{$z$};
 \end{tikzpicture}
-\caption*{(الف) مستطیل رقبہ عمودی تراش کا شہتیر جس کی لمبائی \عددی{L} ہے۔}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ مستطیل رقبہ عمودی تراش کا شہتیر جس کی لمبائی \عددی{L} ہے۔}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\kx}{4}
@@ -885,15 +885,15 @@ EIy^{(4)}=f(x)
 \draw[latex-](3/4*\kx-\kdx/2,\ky/2-0.1)--++(0,0.75);
 \draw[latex-](\kx/2-\kdx/2,\ky/2-0.2)--++(0,0.75)node[above]{$f(x)$};
 \end{tikzpicture}
-\caption*{(ب) بوجھ شہتیر کو چھکا دیتی ہے۔}
-\end{subfigure}%
+\caption{ بوجھ شہتیر کو چھکا دیتی ہے۔}
+\end{subfigure} \hfill
 \caption{مثال \حوالہ{مثال_سادہ_بلند_شہتیر_کا_جھکاو} کا شہتیر۔}
 \label{شکل_مثال_سادہ_بلند_شہتیر_کا_جھکاو}
 \end{figure}%
 %%%%%%%%%%%%%%
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\kx}{3}
@@ -916,9 +916,9 @@ EIy^{(4)}=f(x)
 \draw(\kx,-0.4-0.1) circle (0.1);
 \draw(\kx+0.2,-0.4-0.1) circle (0.1);
 \end{tikzpicture}
-\caption*{(الف) سادہ سہارا دیا گیا ہے۔}
+\caption{ سادہ سہارا دیا گیا ہے۔}
 \end{subfigure}
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\kx}{3}
@@ -932,9 +932,9 @@ EIy^{(4)}=f(x)
 \draw[thick](\kx,0)--++(0,-0.3)node[below]{$x=L$};
 \draw[thick](\kx,\ky)--++(0,0.3);
 \end{tikzpicture}
-\caption*{(ب) دونوں اطراف سے جکڑا ہوا۔}
+\caption{ دونوں اطراف سے جکڑا ہوا۔}
 \end{subfigure}
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\kx}{3}
@@ -946,24 +946,24 @@ EIy^{(4)}=f(x)
 \draw[thick](0,0)--++(0,-0.3)node[below]{$x=0$};
 \draw[thick](0,\ky)--++(0,0.3);
 \end{tikzpicture}
-\caption*{(پ) ایک طرف سے جکڑا گیا ہے۔}
-\end{subfigure}%
+\caption{ ایک طرف سے جکڑا گیا ہے۔}
+\end{subfigure} \hfill
 \caption{شہتیر جکڑنے کے عمومی طریقے۔}
 \label{شکل_شہتیر_جکڑا_گیا_ہے}
 \end{figure}%
 
 شہتیر کو عموماً شکل \حوالہ{شکل_شہتیر_جکڑا_گیا_ہے} میں دکھائے گئے تین طریقوں سے  نصب کیا جاتا ہے جو درج ذیل سرحدی شرائط کو جنم دیتے ہیں۔
 \begin{itemize}
-\item[(الف)]\quad سادہ سہارا \quad
+\item[(ا)]\quad سادہ سہارا \quad
 $y(0)=y(L)=y''(0)=y''(L)=0$
 \item[(ب)]\quad دونوں اطراف جکڑے گئے ہیں \quad 
 $y(0)=y(L)=y'(0)=y'(L)=0$
-\item[(پ)]\quad ایک طرف جکڑا گیا ہے \quad
+\item[(ج)]\quad ایک طرف جکڑا گیا ہے \quad
 $y(0)=y'(0)=y''(L)=y'''(L)=0$
 \end{itemize}
 سرحدی  شرط \عددی{y=0} سے مراد صفر ہٹاو ہے، \عددی{y'=0} سے مراد افقی مماس ہے، \عددی{y''=0} سے مراد صفر  \اصطلاح{خماو کا معیار اثر}\فرہنگ{معیار اثر!خماو}\فرہنگ{خماو!معیار اثر}\حاشیہب{bending moment}\فرہنگ{bending moment}\فرہنگ{moment!bending} ہے جبکہ \عددی{y'''=0} سے مراد صفر \اصطلاح{جزی قوت}\فرہنگ{جزی قوت}\فرہنگ{قوت!جزی}\حاشیہب{shearing force}\فرہنگ{shearing force} ہے۔
 
-آئیں سادہ سہارے والی شہتیر کے مسئلے کو حل کریں جسے شکل \حوالہ{شکل_شہتیر_جکڑا_گیا_ہے}-الف میں دکھایا گیا ہے۔یکساں بیرونی بوجھ کی صورت میں \عددی{f(x)=f_0} ہو گا اور مساوات \حوالہ{مساوات_سادہ_بلند_شہتیر_کا_جھکاو_الف} درج ذیل صورت اختیار کرے گی
+آئیں سادہ سہارے والی شہتیر کے مسئلے کو حل کریں جسے شکل \حوالہ{شکل_شہتیر_جکڑا_گیا_ہے}-ا میں دکھایا گیا ہے۔یکساں بیرونی بوجھ کی صورت میں \عددی{f(x)=f_0} ہو گا اور مساوات \حوالہ{مساوات_سادہ_بلند_شہتیر_کا_جھکاو_الف} درج ذیل صورت اختیار کرے گی
 \begin{align}
 y^{(4)}=k, \quad k=\frac{f_0}{EI}
 \end{align}

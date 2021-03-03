@@ -14,10 +14,6 @@
 \contentsline {chapter}{\numberline {\arabicdigits {1}}یک رتبی سادہ تفرقی مساوات}{\arabicdigits {1}}%
 \contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {1}}نمونہ کشی}{\arabicdigits {2}}%
 \contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {2}}\tmspace +\medmuskip {.2222em} \ensuremath {y'=f(x,y)} \tmspace +\medmuskip {.2222em} کا جیومیٹریائی مطلب۔ میدان کی سمت اور ترکیب یولر۔}{\arabicdigits {11}}%
-\bgroup 
-\selectlanguage *{english}
-\egroup 
-\selectlanguage *{urdu}
 \contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {3}}قابل علیحدگی سادہ تفرقی مساوات}{\arabicdigits {19}}%
 \contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {4}}قطعی سادہ تفرقی مساوات اور جزو تکمل}{\arabicdigits {33}}%
 \contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {5}}خطی سادہ تفرقی مساوات۔ مساوات برنولی}{\arabicdigits {43}}%

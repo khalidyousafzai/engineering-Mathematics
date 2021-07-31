@@ -418,3 +418,8 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {chapter}{فرہنگ}{\arabicdigits {1485}}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}

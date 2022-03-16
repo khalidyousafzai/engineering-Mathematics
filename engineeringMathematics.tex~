@@ -103,7 +103,7 @@ every axis x label/.style={at={(current axis.right of origin)},anchor=west},
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %\linenumbers
-\makeindex
+%\makeindex
 
 %==========
 \begin{document}
@@ -206,7 +206,7 @@ every axis x label/.style={at={(current axis.right of origin)},anchor=west},
 \cleardoublepage
 \addcontentsline{toc}{chapter}{فرہنگ}
 
-%\printindex
+\printindex
 
 
 \end{document}

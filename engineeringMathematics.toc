@@ -13,7 +13,7 @@
 \contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{xiii}%
 \contentsline {chapter}{\numberline {\arabicdigits {1}}یک رتبی سادہ تفرقی مساوات}{\arabicdigits {1}}%
 \contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {1}}نمونہ کشی}{\arabicdigits {2}}%
-\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {2}}\tmspace +\medmuskip {.2222em} \ensuremath {y'=f(x,y)} \tmspace +\medmuskip {.2222em} کا جیومیٹریائی مطلب۔ میدان کی سمت اور ترکیب یولر۔}{\arabicdigits {11}}%
+\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {2}}\tmspace +\medmuskip {.2222em}\(y'=f(x,y)\)\tmspace +\medmuskip {.2222em} کا جیومیٹریائی مطلب۔ میدان کی سمت اور ترکیب یولر۔}{\arabicdigits {11}}%
 \contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {3}}قابل علیحدگی سادہ تفرقی مساوات}{\arabicdigits {19}}%
 \contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {4}}قطعی سادہ تفرقی مساوات اور جزو تکمل}{\arabicdigits {33}}%
 \contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {5}}خطی سادہ تفرقی مساوات۔ مساوات برنولی}{\arabicdigits {43}}%
@@ -22,7 +22,7 @@
 \contentsline {chapter}{\numberline {\arabicdigits {2}}دو رتبی سادہ تفرقی مساوات}{\arabicdigits {65}}%
 \contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {1}}متجانس خطی دو رتبی تفرقی مساوات}{\arabicdigits {65}}%
 \contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {2}}مستقل عددی سر والے متجانس خطی سادہ تفرقی مساوات}{\arabicdigits {78}}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {3}}تفرقی عامل}{\arabicdigits {90}}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {3}}تفرقی عامل}{\arabicdigits {89}}%
 \contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {4}}اسپرنگ سے جڑی کمیت کی آزادانہ ارتعاش}{\arabicdigits {93}}%
 \contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {5}}یولر کوشی مساوات}{\arabicdigits {106}}%
 \contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {6}}حل کی وجودیت اور یکتائی؛ ورونسکی}{\arabicdigits {113}}%
@@ -60,7 +60,7 @@
 \contentsline {chapter}{\numberline {\arabicdigits {6}}لاپلاس تبادلہ}{\arabicdigits {337}}%
 \contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {1}}لاپلاس بدل۔ الٹ لاپلاس بدل۔ خطیت}{\arabicdigits {338}}%
 \contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {2}}تفرقات اور تکملات کے لاپلاس بدل۔ سادہ تفرقی مساوات}{\arabicdigits {345}}%
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {3}}\tmspace +\medmuskip {.2222em} \ensuremath {s} \tmspace +\medmuskip {.2222em} محور پر منتقلی، \tmspace +\medmuskip {.2222em} \ensuremath {t} \tmspace +\medmuskip {.2222em} محور پر منتقلی، اکائی سیڑھی تفاعل}{\arabicdigits {355}}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {3}}\tmspace +\medmuskip {.2222em}\(s\)\tmspace +\medmuskip {.2222em} محور پر منتقلی، \tmspace +\medmuskip {.2222em}\(t\)\tmspace +\medmuskip {.2222em} محور پر منتقلی، اکائی سیڑھی تفاعل}{\arabicdigits {355}}%
 \contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {4}}ڈیراک ڈیلٹائی تفاعل۔ اکائی ضرب تفاعل۔ جزوی کسری پھیلاو}{\arabicdigits {373}}%
 \contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {5}}الجھاو}{\arabicdigits {389}}%
 \contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {6}}لاپلاس بدل کی تکمل اور تفرق۔ متغیر عددی سر والے سادہ تفرقی مساوات}{\arabicdigits {396}}%
@@ -141,7 +141,7 @@
 \contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {9}}قطبی محدد میں لاپلاسی}{\arabicdigits {864}}%
 \contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {10}}دائری جھلی۔ مساوات بیسل}{\arabicdigits {867}}%
 \contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {11}}مساوات لاپلاس۔ نظریہ مخفی قوہ}{\arabicdigits {874}}%
-\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {12}}کروی محدد میں مساوات لاپلاس۔مساوات لیژانڈر}{\arabicdigits {878}}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {12}}کروی محدد میں مساوات لاپلاس۔مساوات لیژانڈر}{\arabicdigits {879}}%
 \contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {13}}لاپلاس تبادل برائے جزوی تفرقی مساوات}{\arabicdigits {884}}%
 \contentsline {chapter}{\numberline {\arabicdigits {14}}مخلوط اعداد۔ مخلوط تحلیلی تفاعل}{\arabicdigits {891}}%
 \contentsline {section}{\numberline {\arabicdigits {14}.\arabicdigits {1}}مخلوط اعداد}{\arabicdigits {892}}%

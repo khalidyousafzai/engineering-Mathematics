@@ -1,5 +1,5 @@
 \باب{سمتی تکملی احصاء۔ تکمل کے مسئلے}
-تکمل سے آپ بخوبی واقف ہیں جس کو \اصطلاح{سمتی تکملی احصاء}\حاشیہب{vector calculus} وسعت دیتا ہے۔یوں منحنی پر تکمل، جسے \اصطلاح{خطی تکمل}\حاشیہب{line integral} کہتے ہیں، سطح پر تکمل جسے \اصطلاح{سطحی تکمل}\حاشیہب{surface integral} کہتے ہیں اور حجم پر تکمل جسے \اصطلاح{حجمی تکمل}\حاشیہب{volume integral} کہتے ہیں،  حاصل کیا جا سکتا ہے۔مزید ایک قسم کی تکمل کا دوسری قسم کی تکمل میں تبادلہ کیا جا سکتا ہے۔ایسا کرنے سے بعض اوقات نسبتاً آسان تکمل حاصل ہوتا ہے۔یوں سطح میں  \اصطلاح{مسئلہ گرین}\حاشیہب{Green's theorem} کی مدد سے خطی تکمل کو دو درجی تکمل میں یا دو درجی تکمل کو خطی تکمل میں تبدیل کیا جا سکتا ہے۔ \اصطلاح{گاوسی مسئلہ ارتکاز}\حاشیہب{Gauss's convergence theorem} کی مدد سے حجمی تکمل کو سطحی تکمل یا سطحی تکمل کو حجمی تکمل میں تبدیل کیا جاتا ہے۔\اصطلاح{مسئلہ سٹوکس}\حاشیہب{Stoke's theorem} کی مدد سے تین درجی تکمل کو خطی تکمل یا خطی تکمل کو تین درجی تکمل میں تبدیل کیا جا سکتا ہے۔
+تکمل سے آپ بخوبی واقف ہیں جس کو \اصطلاح{سمتی تکملی احصاء}\حاشیہب{vector calculus} وسعت دیتا ہے۔یوں منحنی پر تکمل، جسے \اصطلاح{خطی تکمل}\حاشیہب{line integral} کہتے ہیں، سطح پر تکمل جسے \اصطلاح{سطحی تکمل}\حاشیہب{surface integral} کہتے ہیں اور حجم پر تکمل جسے \اصطلاح{حجمی تکمل}\حاشیہب{volume integral} کہتے ہیں،  حاصل کیا جا سکتا ہے۔مزید ایک قسم کی تکمل کا دوسری قسم کی تکمل میں تبادلہ کیا جا سکتا ہے۔ایسا کرنے سے بعض اوقات نسبتاً آسان تکمل حاصل ہوتا ہے۔یوں سطح میں  \اصطلاح{مسئلہ گرین}\حاشیہب{Green's theorem} کی مدد سے خطی (ایک گنا) تکمل کو دو گنا تکمل میں یا دو گنا تکمل کو خطی تکمل (ایک گنا) میں تبدیل کیا جا سکتا ہے۔ \اصطلاح{گاوسی مسئلہ ارتکاز}\حاشیہب{Gauss's convergence theorem} کی مدد سے حجمی تکمل کو سطحی تکمل یا سطحی تکمل کو حجمی تکمل میں تبدیل کیا جاتا ہے۔\اصطلاح{مسئلہ سٹوکس}\حاشیہب{Stoke's theorem} کی مدد سے تین گنا تکمل کو خطی (ایک گنا) تکمل یا خطی تکمل کو تین گنا تکمل میں تبدیل کیا جا سکتا ہے۔
 
 سمتی تکملی الاحصاء کا انجینئری، طبیعیات، ٹھوس میکانیات، سیالی میکانیات اور دیگر میدان میں اہم کردار پایا جاتا ہے۔
 
@@ -20,21 +20,21 @@
  ظاہر کرتی ہے [جہاں \عددی{s} منحنی کی لمبائی قوس ہے (حصہ \حوالہ{حصہ_الاحصاء_لمبائی_قوس})] اور پورے \عددی{C} پر \عددی{\bM{r}(s)} استمراری ہے جس کا (پورے \عددی{C} پر)   تفرق \عددی{\bM{r}'} موجود ہے اور یہ تفرق غیر صفر سمتیہ ہے۔اس طرح \عددی{C} \اصطلاح{ہموار منحنی}\فرہنگ{ہموار!منحنی}\فرہنگ{منحنی!ہموار}\حاشیہب{smooth curve}\فرہنگ{smooth!curve} کہلائے گی یعنی \عددی{C} کے ہر نقطے پر \عددی{C} کا منفرد مماس پایا جاتا ہے  اور منحنی پر چلنے سے مماس کی سمت میں تبدیلی استمراری ہوتی ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw[->-=0.5](0,0)node[ocirc]{}node[right]{$A$} to [out=135,in=0]++(-1,2)node[ocirc]{}node[left]{$B$};
 \draw(-0.3,1)node[right]{$C$};
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw[->-=0.2](0,0) to [out=0,in=-90]++(1,1) to [out=90,in=-90]++(0.5,1)node[left]{$C$} to [out=90,in=0]++(-0.5,0.5) to [out=180,in=90]++(-1.5,-1)node[ocirc]{}node[left]{$A$}node[right]{$B$} to [out=-90,in=180] (0,0);
 \end{tikzpicture}
-\caption*{(ب)}
-\end{subfigure}%
+\caption{}
+\end{subfigure} \hfill
 \caption{سمت بند منحنی}
 \label{شکل_سمتی_تکمل_سمت_بند_منحنی}
 \end{figure}
@@ -260,7 +260,7 @@ f(x'_m)\Delta x_m=(f^*_m+t\epsilon)\Delta x_m
 %============================
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \begin{tikzpicture}
 \draw(0,0)--++(2,0)node[right]{$x$};
 \draw(0,0)--++(0,2)node[left]{$y$};
@@ -268,9 +268,9 @@ f(x'_m)\Delta x_m=(f^*_m+t\epsilon)\Delta x_m
 \draw[->-=0.5]([shift={(0:1.5)}]0,0)node[ocirc]{}node[below]{$1$}node[above left]{$A$} arc (0:90:1.5)node[ocirc]{}node[left]{$B$};
 \draw(45:1.5)node[above right]{$C$};
 \end{tikzpicture}
-\caption*{(الف) سطح میں تکمل کی راہ (مثال \حوالہ{مثال_سمتی_تکمل_راہ_قوس})}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ سطح میں تکمل کی راہ (مثال \حوالہ{مثال_سمتی_تکمل_راہ_قوس})}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}[x={(-0.5cm,-0.5cm)},y={(1cm,0cm)},z={(0cm,1cm)}]
 \draw(0,0,0)--++(2,0,0)node[left]{$x$};
@@ -281,8 +281,8 @@ f(x'_m)\Delta x_m=(f^*_m+t\epsilon)\Delta x_m
 %\draw[dashed,domain=0:360,samples=200] plot ({cos (\x)},{sin(\x)},{0});
 \draw[dashed] (1,0,0)node[ocirc,solid]{}node[below right]{$A$}node[left]{$1$}--(1,0,1)node[ocirc,solid]{}node[above]{$B$};
 \end{tikzpicture}
-\caption*{(ب) فضا میں خطی تکمل کی  راہ (مثال \حوالہ{مثال_سمتی_تکمل_فضا_میں_راہ})}
-\end{subfigure}%
+\caption{ فضا میں خطی تکمل کی  راہ (مثال \حوالہ{مثال_سمتی_تکمل_فضا_میں_راہ})}
+\end{subfigure} \hfill
 \caption{سطح میں راہ اور فضا میں راہ۔}
 \label{شکل_مثال_سمتی_تکمل_راہ_الف}
 \end{figure}
@@ -579,7 +579,7 @@ J_n=\sum_{m=1}^{n} \abs{\bM{p}}\cos \theta \Delta s_m < \sum_{m=1}^{n} M \Delta 
 
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 %\draw[thick,red] (0,0) grid (4,3);
@@ -594,9 +594,9 @@ J_n=\sum_{m=1}^{n} \abs{\bM{p}}\cos \theta \Delta s_m < \sum_{m=1}^{n} M \Delta 
 \draw(0.5,0.4)--++(3.5,0)node[below]{$x$};
 \draw(0.5,0.4)node[ocirc]{}--++(0,2.5)node[left]{$y$};
 \end{tikzpicture}
-\caption*{(الف) $R$ کے متعدد ٹکڑے}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ $R$ کے متعدد ٹکڑے}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 %\draw[thick,red] (0,0) grid (4,3);
@@ -610,8 +610,8 @@ J_n=\sum_{m=1}^{n} \abs{\bM{p}}\cos \theta \Delta s_m < \sum_{m=1}^{n} M \Delta 
 \draw(1.5,1.7)node[]{$R_1$};
 \draw(3.3,1.5)node[]{$R_2$};
 \end{tikzpicture}
-\caption*{(ب) خطے کو دو ٹکڑوں میں تقسیم کیا گیا ہے۔}
-\end{subfigure}%
+\caption{ خطے کو دو ٹکڑوں میں تقسیم کیا گیا ہے۔}
+\end{subfigure} \hfill
 \caption{دوہرا تکمل کی تعریف اور خواص}
 \label{شکل_خطی_تکمل_خطے_کے_ٹکڑے_الف}
 \end{figure}
@@ -656,7 +656,7 @@ a\le x\le b,\quad g(x) \le y\le h(x)
 کی قیمت حاصل کرتے ہیں جہاں \عددی{x} بطور مقدار معلوم کردار ادا کرتا ہے لہٰذا اس تکمل کا حاصل \عددی{x} کا تفاعل \عددی{F(x)} ہو گا۔اس کے بعد \عددی{x} محور پر  \عددی{F(x)} کا تکمل \عددی{a} تا \عددی{b} حاصل کرتے ہوئے دوہرا تکمل (مساوات \حوالہ{مساوات_خطی_تکمل_دوہرا_الف}) کی قیمت حاصل ہو گی۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 %\draw[thick,red] (0,0) grid (4,3);
@@ -674,9 +674,9 @@ a\le x\le b,\quad g(x) \le y\le h(x)
 \draw[stealth-](2.8,1.2) to [out=-140,in=0] ++(-0.25,-0.5)node[left]{$g(x)$};
 \draw(2.5,2)node{$R$};
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 %\draw[thick,red] (0,0) grid (4,3);
@@ -694,8 +694,8 @@ a\le x\le b,\quad g(x) \le y\le h(x)
 \draw[stealth-](3,2.4) to [out=45,in=180]++(0.5,0.2)node[right]{$q(y)$};
 \draw[stealth-](2.8,1.1) to [out=-145,in=0]++(-0.2,-0.1)node[left]{$p(y)$};
 \end{tikzpicture}
-\caption*{(ب)}
-\end{subfigure}%
+\caption{}
+\end{subfigure} \hfill
 \caption{تخمینہ دوہرا تکمل}
 \label{شکل_خطی_تکمل_دوہرا_تخمینہ}
 \end{figure}
@@ -841,7 +841,7 @@ f[x(u)]=\sqrt{1-\sin^2 u}=\cos u, \quad \frac{\dif x}{\dif u}=\cos u, \quad \alp
 \begin{align*}
 x=x(u,v),\quad y=y(u,v)
 \end{align*}
-لکھتے ہیں، جہاں \عددی{uv} سطح میں کسی خطہ \عددی{R^*} پر تفاعل \عددی{x(u,v)}، \عددی{y(u,v)} اور ان کے ایک درجی جزوی تفرق استمراری ہوں تا کہ \عددی{R^*} میں ہر نقطہ \عددی{(u_0,v_0)} کا خطہ \عددی{R} میں مطابقتی نقطہ \عددی{[x(u_0,v_0),y(u_0,v_0)]} پایا جائے اور مزید پورے \عددی{R^*} پر \اصطلاح{یعقوبی}\فرہنگ{یعقوبی}\حاشیہب{Jacobian}\فرہنگ{Jacobian} \عددی{J}
+لکھتے ہیں، جہاں \عددی{uv} سطح میں کسی خطہ \عددی{R^*} پر تفاعل \عددی{x(u,v)}، \عددی{y(u,v)} اور ان کے یک رتبی جزوی تفرق استمراری ہوں تا کہ \عددی{R^*} میں ہر نقطہ \عددی{(u_0,v_0)} کا خطہ \عددی{R} میں مطابقتی نقطہ \عددی{[x(u_0,v_0),y(u_0,v_0)]} پایا جائے اور مزید پورے \عددی{R^*} پر \اصطلاح{یعقوبی}\فرہنگ{یعقوبی}\حاشیہب{Jacobian}\فرہنگ{Jacobian} \عددی{J}
 \begin{align*}
 J=\frac{\partial (x,y)}{\partial (u,v)}=
 \begin{vmatrix}
@@ -1138,7 +1138,7 @@ $\bar{x}=\tfrac{8}{15},\,\,\,\bar{y}=\tfrac{8}{5}$
 %=============================
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--++(2,0)node[right]{$x$};
@@ -1148,9 +1148,9 @@ $\bar{x}=\tfrac{8}{15},\,\,\,\bar{y}=\tfrac{8}{5}$
 \draw(kA)--($(0,0)!(kA)!(2,0)$)node[below]{$a$}node[pos=0.5,right]{$b$};
 \draw(15:0.9)node[]{$R$};
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-1.5,0)--(1.5,0)node[right]{$x$};
@@ -1159,7 +1159,7 @@ $\bar{x}=\tfrac{8}{15},\,\,\,\bar{y}=\tfrac{8}{5}$
 \draw(-1,0)node[below]{$-1$}--(0,1)node[shift={(-0.3,0.1)}]{$1$}--(1,0)node[below]{$1$};
 \draw(0,0.5)node[fill=white]{$R$};
 \end{tikzpicture}
-\caption*{(ب)}
+\caption{}
 \end{subfigure}
 \caption{خطہ کثافت (سوال \حوالہ{سوال_خطی_تکمل_جمودی_معیار_اثر_الف})}
 \label{شکل_خطی_تکمل_کثافت}
@@ -1261,7 +1261,7 @@ $1$
 %
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 %\draw[thick,red] (0,0) grid (4,3);
@@ -1282,9 +1282,9 @@ $1$
 \draw[stealth-](2.9,0.9) to [out=-140,in=0] ++(-0.2,-0.2)node[left]{$u(x)$};
 \draw(2.5,2)node{$R$};
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 %\draw[thick,red] (0,0) grid (4,3);
@@ -1302,8 +1302,8 @@ $1$
 \draw[stealth-](3,2.4) to [out=45,in=180]++(0.5,0.2)node[right]{$q(y)$};
 \draw[stealth-](2.8,1.1) to [out=-145,in=0]++(-0.2,-0.1)node[left]{$p(y)$};
 \end{tikzpicture}
-\caption*{(ب)}
-\end{subfigure}%
+\caption{}
+\end{subfigure} \hfill
 \caption{مخصوص قسم کا خطہ (مسئلہ گرین)}
 \label{شکل_خطی_تکمل_ثبوت_مسئلہ_گرین}
 \end{figure}
@@ -1327,7 +1327,7 @@ $1$
 لکھا جا سکتا ہے۔ آخری قدم پر سرحد \عددی{C^*} اور سرحد \عددی{C^{**}} پر حاصل تکملات کو پوری سرحد \عددی{C} پر حاصل تکمل لکھا گیا ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 %\draw[thick](0,0) grid (3,2);
@@ -1343,9 +1343,9 @@ $1$
 \draw(0.5,0.6)node{$\widetilde{C}$};
 \draw(2.7,1.2)node{$\overset{\approx}{C}$};
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 %\draw[thick] (0,0) grid (4,3);
@@ -1377,8 +1377,8 @@ $1$
 \draw[-stealth,rounded corners=0.5mm] (2.2,1.8)--(2.1,1.8)--(2.1,1.4);
 \draw[-stealth,rounded corners=0.5mm] (1.8,1.6)--(1.9,1.6)--(1.9,1.9);
 \end{tikzpicture}
-\caption*{(ب)}
-\end{subfigure}%
+\caption{}
+\end{subfigure} \hfill
 \caption{مسئلہ گرین کا ثبوت}
 \label{شکل_خطی_تکمل_مسئلہ_گرین_کا_ثبوت}
 \end{figure}
@@ -1439,7 +1439,7 @@ A=\frac{a^2}{2}\int_0^{2\pi}(1-\cos \theta)^2 \dif \theta=\frac{3\pi a^2}{2}
 %
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \begin{polaraxis}[small,grid=none,axis equal image,ticks=none,hide x axis,hide y axis]
@@ -1449,9 +1449,9 @@ A=\frac{a^2}{2}\int_0^{2\pi}(1-\cos \theta)^2 \dif \theta=\frac{3\pi a^2}{2}
 \addplot[mark=none] coordinates {(0,0)}node[ocirc]{};
 \end{polaraxis}
 \end{tikzpicture}
-\caption*{(الف) منحنی قلب نما}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ منحنی قلب نما}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--(3,0)node[below]{$x$};
@@ -1464,8 +1464,8 @@ A=\frac{a^2}{2}\int_0^{2\pi}(1-\cos \theta)^2 \dif \theta=\frac{3\pi a^2}{2}
 \draw(1.5,1.5)node[]{$R$};
 \draw(1.2,0.3)node[]{$C$};
 \end{tikzpicture}
-\caption*{(ب) منحنی برائے مثال \حوالہ{مثال_خطی_تکمل_لاپلاسی_الف}}
-\end{subfigure}%
+\caption{ منحنی برائے مثال \حوالہ{مثال_خطی_تکمل_لاپلاسی_الف}}
+\end{subfigure} \hfill
 \caption{اشکال منحنیات برائے مثال \حوالہ{مثال_خطی_تکمل_قلب_نما} اور مثال \حوالہ{مثال_خطی_تکمل_لاپلاسی_الف}}
 \label{شکل_خطی_تکمل_قلب_نما}
 \end{figure}
@@ -1473,7 +1473,7 @@ A=\frac{a^2}{2}\int_0^{2\pi}(1-\cos \theta)^2 \dif \theta=\frac{3\pi a^2}{2}
 \انتہا{مثال}
 %================================
 \ابتدا{مثال}\شناخت{مثال_خطی_تکمل_لاپلاسی_الف}\quad لاپلاسی تفاعل کے دوہرا تکمل سے تفاعل کی عمودی مماس کے خطی تکمل کا تبادل\\
-فرض کریں کہ \عددی{xy} مستوی میں مسئلہ گرین میں بیان کردہ خطے  میں تفاعل \عددی{w(x,y)} اور  اس کا ایک درجی اور دو درجی جزوی تفرق استمراری ہیں۔ہم 
+فرض کریں کہ \عددی{xy} مستوی میں مسئلہ گرین میں بیان کردہ خطے  میں تفاعل \عددی{w(x,y)} اور  اس کا یک رتبی اور دو رتبی جزوی تفرق استمراری ہیں۔ہم 
 \عددی{f=-\tfrac{\partial w}{\partial y}} اور \عددی{g=\tfrac{\partial w}{\partial x}} لیتے ہیں۔یوں \عددی{\tfrac{\partial f}{\partial y}} اور \عددی{\tfrac{\partial g}{\partial x}} خطہ \عددی{} میں استمراری ہوں گے۔یوں درج ذیل ہو گا جو \عددی{w} کا \اصطلاح{لاپلاسی} ہے (حصہ \حوالہ{حصہ_الاحصاء_ڈھلوان})۔
 \begin{align}\label{مساوات_خطی_تکمل_لاپلاسی_کا_دوہرا_الف}
 \frac{\partial g}{\partial x}-\frac{\partial f}{\partial y}=\frac{\partial^2 w }{\partial x^2}+\frac{\partial^{\,2} w}{\partial y^2}=\nabla^{\,2}w
@@ -1717,7 +1717,7 @@ $1$
 \begin{align}\label{مساوات_خطی_تکمل_سطح_خفی_روپ}
 f(x,y,z)=0
 \end{align}
-سے ظاہر کیا جا سکتا ہے جہاں \عددی{x}، \عددی{y}، \عددی{z} فضا میں کارتیسی محدد ہیں اور یوں \عددی{f} کی ڈھلوان سطح \عددی{S} کو عمودی ہو گا (مسئلہ \حوالہ{مسئلہ_الاحصاء_ڈھلوان_عمود})، بشرطیکہ \عددی{\nabla f\ne \bM{0}} ہو۔نتیجتاً \عددی{S} کے ہر نقطہ پر یکتا عمود، جس کی سمت سطح پر حرکت کرنے سے استمراری تبدیل ہوتی ہو، کے لئے لازم ہے کہ \عددی{f} کی استمراری ایک درجی جزوی تفرق موجود ہوں اور ہر نقطے پر ان تین میں سے کم از کم ایک جزوی تفرق غیر صفر ہو۔تب درج ذیل سمتیہ
+سے ظاہر کیا جا سکتا ہے جہاں \عددی{x}، \عددی{y}، \عددی{z} فضا میں کارتیسی محدد ہیں اور یوں \عددی{f} کی ڈھلوان سطح \عددی{S} کو عمودی ہو گا (مسئلہ \حوالہ{مسئلہ_الاحصاء_ڈھلوان_عمود})، بشرطیکہ \عددی{\nabla f\ne \bM{0}} ہو۔نتیجتاً \عددی{S} کے ہر نقطہ پر یکتا عمود، جس کی سمت سطح پر حرکت کرنے سے استمراری تبدیل ہوتی ہو، کے لئے لازم ہے کہ \عددی{f} کی استمراری یک رتبی جزوی تفرق موجود ہوں اور ہر نقطے پر ان تین میں سے کم از کم ایک جزوی تفرق غیر صفر ہو۔تب درج ذیل سمتیہ
 \begin{align}
 \bM{n}=\frac{\nabla f}{\abs{\nabla f}}
 \end{align}
@@ -1747,7 +1747,7 @@ z=g(x,y)
 
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--++(-0.5,-0.5)node[left]{$x$};
@@ -1760,9 +1760,9 @@ z=g(x,y)
 \draw[-stealth](-0.5,-1.5)--(2,-1.5)node[right]{\RL{محور\, $t$}};
 \draw[thick](0,-1.5)node[below]{$a$}--++(1,0)node[below]{$b$};
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 %\draw(0,0) grid (2,2);
@@ -1785,15 +1785,15 @@ z=g(x,y)
 \draw(1,0.5)node[]{$R$};
 \end{scope}
 \end{tikzpicture}
-\caption*{(ب)}
-\end{subfigure}%
+\caption{}
+\end{subfigure} \hfill
 \caption{منحنی اور سطح کی مقدار معلوم روپ}
 \label{شکل_خطی_تکمل_مقدار_معلوم_روپ}
 \end{figure}
 
 %============================================
 \ابتدا{مفروضہ}
-مستوی \عددی{uv} میں کسی خطہ میں، جس کا \عددی{R} حصہ ہے، (مساوات \حوالہ{مساوات_خطی_تکمل_سطح_مقدار_معلوم_روپ} میں دیا گیا)  سمتی تفاعل \عددی{\bM{r}(u,v)} استمراری ہے اور  اس کے استمراری ایک درجی جزوی تفرقات \عددی{\bM{r}_u} اور \عددی{\bM{r}_v} پائے جاتے ہیں، اور \عددی{R} \اصطلاح{سادہ تعلق}\فرہنگ{سادہ تعلق}\حاشیہب{simply connected}\فرہنگ{simply connected} کا \اصطلاح{محدود}\فرہنگ{محدود}\حاشیہد{سادہ تعلق کے خطے سے مراد ہے کہ اس خطے میں کسی بھی بند منحنی کو، اس خطے میں رہتے ہوئے، گھٹا کر نقطہ مانند بنایا جا سکتا ہے۔محدود سے مراد ہے کہ اس خطے کو کافی رداس کے دائرے میں بند کیا جا سکتا ہے۔} خطہ ہے۔مزید پورے \عددی{R} پر درج ذیل ہو گا۔
+مستوی \عددی{uv} میں کسی خطہ میں، جس کا \عددی{R} حصہ ہے، (مساوات \حوالہ{مساوات_خطی_تکمل_سطح_مقدار_معلوم_روپ} میں دیا گیا)  سمتی تفاعل \عددی{\bM{r}(u,v)} استمراری ہے اور  اس کے استمراری یک رتبی جزوی تفرقات \عددی{\bM{r}_u} اور \عددی{\bM{r}_v} پائے جاتے ہیں، اور \عددی{R} \اصطلاح{سادہ تعلق}\فرہنگ{سادہ تعلق}\حاشیہب{simply connected}\فرہنگ{simply connected} کا \اصطلاح{محدود}\فرہنگ{محدود}\حاشیہد{سادہ تعلق کے خطے سے مراد ہے کہ اس خطے میں کسی بھی بند منحنی کو، اس خطے میں رہتے ہوئے، گھٹا کر نقطہ مانند بنایا جا سکتا ہے۔محدود سے مراد ہے کہ اس خطے کو کافی رداس کے دائرے میں بند کیا جا سکتا ہے۔} خطہ ہے۔مزید پورے \عددی{R} پر درج ذیل ہو گا۔
 \begin{align}\label{مساوات_خطی_تکمل_مفروضہ_ہموار_سطح}
 \bM{r}_u\times \bM{r}_v\ne \bM{0}
 \end{align}
@@ -2006,7 +2006,7 @@ u=g(t),\quad v=h(t)
 \begin{align}\label{مساوات_خطی_تکمل_سطح_میں_منحنی_ب}
 \bM{r}(t)=\bM{r}[u(t),v(t)]
 \end{align}
-فرض کریں کہ مساوات  \حوالہ{مساوات_خطی_تکمل_سطح_میں_منحنی_الف} میں دیے دونوں تفاعل کے ایک درجی تفرق پائے جاتے ہوں اور ہر \عددی{t} پر ان میں سے  کم از کم ایک تفرق غیر صفر ہو۔تب \عددی{C} کے ہر نقطے  پر \عددی{C} کا ایسا مماس پایا جائے گا جس کی سمت نقطہ تبدیل کرنے سے استمراری تبدیل ہو گی اور \عددی{C} کا مماسی سمتیہ درج ذیل ہو گا۔
+فرض کریں کہ مساوات  \حوالہ{مساوات_خطی_تکمل_سطح_میں_منحنی_الف} میں دیے دونوں تفاعل کے یک رتبی تفرق پائے جاتے ہوں اور ہر \عددی{t} پر ان میں سے  کم از کم ایک تفرق غیر صفر ہو۔تب \عددی{C} کے ہر نقطے  پر \عددی{C} کا ایسا مماس پایا جائے گا جس کی سمت نقطہ تبدیل کرنے سے استمراری تبدیل ہو گی اور \عددی{C} کا مماسی سمتیہ درج ذیل ہو گا۔
 \begin{align*}
 \dot{\bM{r}}(t)=\frac{\dif \bM{r}}{\dif t}=\bM{r}_u\dot{u}+\bM{r}_v\dot{v}
 \end{align*}
@@ -2060,7 +2060,7 @@ E=\bM{r}_u\cdot \bM{r}_u,\quad F=\bM{r}_u\cdot \bM{r}_v,\quad G=\bM{r}_u\cdot \b
 \begin{align}\label{مساوات_خطی_تکمل_پہلی_بنیادی_صورت_ب}
 \dif s^2=E\dif u^2+2F\dif u\dif v+G\dif v^2
 \end{align}
-لکھا جا سکتا ہے۔اس دو درجی تفرقی مساوات کو \عددی{S} کی \اصطلاح{بنیادی صورت اول}\فرہنگ{بنیادی صورت!اول}\حاشیہب{first fundamental form}\فرہنگ{fundamental form!first} کہتے ہیں۔
+لکھا جا سکتا ہے۔اس دو رتبی تفرقی مساوات کو \عددی{S} کی \اصطلاح{بنیادی صورت اول}\فرہنگ{بنیادی صورت!اول}\حاشیہب{first fundamental form}\فرہنگ{fundamental form!first} کہتے ہیں۔
 
 %======================
 \ابتدا{مثال}\quad قطبی محدد میں بنیادی صورت اول\\
@@ -2167,7 +2167,7 @@ A=\iint\limits_R \sqrt{EG-F^2}\,\dif u\dif v
 %
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\r}{0.75}
@@ -2206,9 +2206,9 @@ A=\iint\limits_R \sqrt{EG-F^2}\,\dif u\dif v
 \draw[stealth-stealth] (O)++(0,-1.15)--(0,-0.15)node[pos=0.3,above]{$a$};
 \draw[stealth-stealth] (O)++(0,-1.5)--++(\r,0)node[pos=0.3,above]{$b$};
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
     \begin{axis}[hide axis,view={60}{60}]
@@ -2224,8 +2224,8 @@ A=\iint\limits_R \sqrt{EG-F^2}\,\dif u\dif v
         {0.2*sin(x)});
     \end{axis}
 \end{tikzpicture}%
-\caption*{(ب)}
-\end{subfigure}%
+\caption{}
+\end{subfigure} \hfill
 \caption{اندرسہ}
 \label{شکل_خطی_تکمل_اندرسہ}
 \end{figure}
@@ -2566,7 +2566,7 @@ I=\iint\limits_S \mu D^2 \dif A=\frac{M}{4\pi a^2}\int\limits_{-\frac{\pi}{2}}^{
 ہموار سطح کا کافی چھوٹا حصہ ہر صورت قابل سمت بند ہوتا ہے۔البتہ وسیع سطح کے لئے ایسا نہیں کہا جا سکتا ہے۔غیر قابل سمت بند سطحیں پائی جاتی ہیں جن کی مشہور مثال \اصطلاح{موبیوس پٹی}\فرہنگ{موبیوس پٹی}\حاشیہب{Mobius strip}\فرہنگ{Mobius strip} کو شکل \حوالہ{شکل_خطی_تکمل_موبیوس_پٹی} میں دکھایا گیا ہے۔اس شکل میں نقطہ \عددی{N_0} پر عمودی سمتیہ کو نقطہ دار لکیر پر  حرکت دے کر  واپس \عددی{N_0} پہنچانے سے  عمودی سمتیہ کا رخ الٹ ہو جائے گا۔کاغذ کی لمبی مستطیل پٹی کو بل دے کر چھوٹے اطراف کو آپس میں یوں جوڑنے سے کہ \عددی{A} اور \عددی{A} آپس میں ملیں اور \عددی{B} اور \عددی{B} آپس میں ملیں، موبیوس پٹی\حاشیہد{جرمن ریاضی دان اگست فرڈینانڈ موبیوس [1790-1868]} بنائی جا سکتی ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 %
@@ -2576,14 +2576,14 @@ I=\iint\limits_S \mu D^2 \dif A=\frac{M}{4\pi a^2}\int\limits_{-\frac{\pi}{2}}^{
 %
 \draw[dashed]  (0.125,0) to [out=-90,in=180](1,-0.625) to [out=0,in=-90](1.875,0) to [out=90,in=0](1,0.875) to [out=180,in=70](0.125,0.25);
 \end{tikzpicture}%
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)node[below]{$A$} --++(2,0)node[below]{$B$}--++(0,0.5)node[above]{$A$}--++(-2,0)node[above]{$B$}--++(0,-0.5);
 \draw[dashed](0,0.25)--++(2,0);
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure}
 \caption{موبیوس پٹی}
 \label{شکل_خطی_تکمل_موبیوس_پٹی}
 \end{figure}
@@ -2592,7 +2592,7 @@ I=\iint\limits_S \mu D^2 \dif A=\frac{M}{4\pi a^2}\int\limits_{-\frac{\pi}{2}}^{
 اگر \عددی{S} کی سرحد \عددی{C} سادہ بند منحنی ہو تب ہم \عددی{\bM{n}} کے لحاظ سے  \عددی{C} کو سمت بند بنا سکتے ہیں۔یہ عمل شکل \حوالہ{شکل_خطی_تکمل_سطح_سمت_بندی}-الف میں دونوں ممکنہ عمودی سمتیات کے لحاظ سے دکھایا گیا ہے۔ ہم اب سمت بندی کی تصور کو وسعت دیتے ہوئے اس کو ٹکڑوں میں ہموار سطحوں کے لئے بیان کرتے ہیں۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{1\textwidth}
 \centering
 \begin{tikzpicture}
 \draw[-stealth](0,0)node[left]{$C$} to [out=-90,in=180](2,-1) to [out=0,in=-90] (3,0) to [out=90,in=0](1.5,0.5) to [out=180,in=90] (0,0);
@@ -2606,9 +2606,9 @@ I=\iint\limits_S \mu D^2 \dif A=\frac{M}{4\pi a^2}\int\limits_{-\frac{\pi}{2}}^{
 \draw(2,0)node[]{$S$};
 \end{scope}
 \end{tikzpicture}
-\caption*{(الف) ہموار سطح}
+\caption{ ہموار سطح}
 \end{subfigure}
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{1\textwidth}
 \centering
 \begin{tikzpicture}
 \draw (0,0) to [out=50,in=-150]++(1,0.6) to [out=-40,in=130]++(1,-0.4) to [out=-130,in=50]++(-1,-0.6)coordinate(kA)--(0,0);
@@ -2623,8 +2623,8 @@ I=\iint\limits_S \mu D^2 \dif A=\frac{M}{4\pi a^2}\int\limits_{-\frac{\pi}{2}}^{
 \draw[latex-] (kA)++(0,0.125)--++(160:0.4)coordinate(kC);
 \draw(kC)++(160:0.4)++(0.3,0)node{$C^*$};
 \end{tikzpicture}
-\caption*{(ب) ٹکڑوں میں ہموار سطح}
-\end{subfigure}%
+\caption{ ٹکڑوں میں ہموار سطح}
+\end{subfigure} \hfill
 \caption{سطح کی سمت بندی}
 \label{شکل_خطی_تکمل_سطح_سمت_بندی}
 \end{figure}
@@ -2820,11 +2820,11 @@ J_n=\sum_{k=1}^{n} f(x_k,y_k,z_k)\Delta H
 \iiint\limits_T f(x,y,z)\dif x\dif y\dif z \quad \text{یا}\quad \iiint\limits_T f(x,y,z)\dif H
 \end{align*}
 
-ہم اب  ثاب کرتے ہیں کہ  ایسا استمراری سمتی تفاعل \عددی{\bM{u}} جس کے استمراری ایک درجی جزوی تفرق پائے جاتے ہوں کی پھیلاو  کا فضا میں خطہ \عددی{T} پر تہرا تکمل کا تبادلہ \عددی{T} کی سطح پر \عددی{\bM{u}}  کے عمودی  جزو کی سطحی تکمل میں کیا جا سکتا ہے۔ایسا مسئلہ پھیلاو کی مدد سے کیا جاتا ہے جو دو بعدی مسئلہ گرین کا  تین بعدی مماثل ہے۔ مسئلہ پھیلاو کئی نظریاتی اور عملی مسائل میں بنیادی اہمیت رکھتی ہے۔
+ہم اب  ثاب کرتے ہیں کہ  ایسا استمراری سمتی تفاعل \عددی{\bM{u}} جس کے استمراری یک رتبی جزوی تفرق پائے جاتے ہوں کی پھیلاو  کا فضا میں خطہ \عددی{T} پر تہرا تکمل کا تبادلہ \عددی{T} کی سطح پر \عددی{\bM{u}}  کے عمودی  جزو کی سطحی تکمل میں کیا جا سکتا ہے۔ایسا مسئلہ پھیلاو کی مدد سے کیا جاتا ہے جو دو بعدی مسئلہ گرین کا  تین بعدی مماثل ہے۔ مسئلہ پھیلاو کئی نظریاتی اور عملی مسائل میں بنیادی اہمیت رکھتی ہے۔
 
 %============================
 \ابتدا{مسئلہ}\شناخت{مسئلہ_خطی_تکمل_مسئلہ_پھیلاو}\quad گاوس کا مسئلہ پھیلاو (حجمی تکمل سے سطحی تکمل اور سطحی تکمل سے حجمی تکمل کا حصول)\\
-فرض کریں کہ فضا میں بند محدود خطہ \عددی{T} کی سرحد \عددی{S} ٹکڑوں میں ہموار (حصہ \حوالہ{حصہ_خطی_تکمل_سطحیں}) اور قابل سمت بند ہے۔مزید فرض کریں کہ خطہ \عددی{T} میں \عددی{\bM{u}(x,y,z)} ایک استمراری سمتی تفاعل ہے جس کے \عددی{T} میں استمراری ایک درجی جزوی تفرق پائے جاتے ہیں۔ تب درج ذیل ہو گا
+فرض کریں کہ فضا میں بند محدود خطہ \عددی{T} کی سرحد \عددی{S} ٹکڑوں میں ہموار (حصہ \حوالہ{حصہ_خطی_تکمل_سطحیں}) اور قابل سمت بند ہے۔مزید فرض کریں کہ خطہ \عددی{T} میں \عددی{\bM{u}(x,y,z)} ایک استمراری سمتی تفاعل ہے جس کے \عددی{T} میں استمراری یک رتبی جزوی تفرق پائے جاتے ہیں۔ تب درج ذیل ہو گا
 \begin{align}\label{مساوات_خطی_تکمل_مسئلہ_گاوس_الف}
 \iiint\limits_T \nabla \cdot \bM{u}\dif H=\iint\limits_S u_n\dif A
 \end{align}
@@ -3081,7 +3081,7 @@ u_n=\bM{u}\cdot \bM{n}=\bM{n}\cdot \nabla f
 \begin{align*}
 \nabla^{\,2}f=\frac{\partial^{\,2} f}{\partial x^2}+\frac{\partial^{\,2} f}{\partial y^2}+\frac{\partial^{\,2} f}{\partial z^2}=0
 \end{align*}
-کا حل ہے اور \عددی{D} میں \عددی{f} کے دو درجی جزوی تفرق استمراری ہیں۔تب \عددی{D} میں کسی بھی ٹکڑوں میں ہموار  بند اور قابل سمت بند سطح \عددی{S} پر \عددی{f} کے عمودی  (سمتی) تفرق کا تکمل صفر ہو گا۔
+کا حل ہے اور \عددی{D} میں \عددی{f} کے دو رتبی جزوی تفرق استمراری ہیں۔تب \عددی{D} میں کسی بھی ٹکڑوں میں ہموار  بند اور قابل سمت بند سطح \عددی{S} پر \عددی{f} کے عمودی  (سمتی) تفرق کا تکمل صفر ہو گا۔
 \انتہا{مسئلہ}
 %========================
 \ابتدا{مثال}\quad مسئلہ گرین\\
@@ -3125,7 +3125,7 @@ u_n=\bM{u}\cdot \bM{n}=\bM{n}\cdot \nabla f
 
 %=========================
 \ابتدا{مسئلہ}\شناخت{مسئلہ_خطی_تکمل_لاپلاسی_خصوصیات_پ}\quad (لاپلاس مساوات کی حل کی یکتائی)\\
-فرض کریں کہ \عددی{f} لاپلاس مساوات کا حل ہے اور دائرہ کار \عددی{D} میں اس کے ایک درجی اور دو درجی جزوی تفرق پائے جاتے ہیں۔مزید فرض کریں کہ \عددی{D} میں خطہ \عددی{T}  مسئلہ پھیلاو کی شرائط پر پورا اترتا ہے۔تب \عددی{T} میں \عددی{f} کی قیمت یکتا ہو گی اور یہ \عددی{T} کی سرحدی سطح \عددی{S} پر قیمت کے برابر ہو گی۔
+فرض کریں کہ \عددی{f} لاپلاس مساوات کا حل ہے اور دائرہ کار \عددی{D} میں اس کے یک رتبی اور دو رتبی جزوی تفرق پائے جاتے ہیں۔مزید فرض کریں کہ \عددی{D} میں خطہ \عددی{T}  مسئلہ پھیلاو کی شرائط پر پورا اترتا ہے۔تب \عددی{T} میں \عددی{f} کی قیمت یکتا ہو گی اور یہ \عددی{T} کی سرحدی سطح \عددی{S} پر قیمت کے برابر ہو گی۔
 \انتہا{مسئلہ}
 %==========================
 
@@ -3290,7 +3290,7 @@ $\iint\limits_S [(y\cos^2 x+y^3)\dif x\dif z+z(\sin^2 x-3y^2)\dif x\dif y]$\\
 $\tfrac{4}{3}\pi a^3$
 \انتہا{سوال}
 %========================
-سوال \حوالہ{سوال_خطی_تکمل_فقرے_ثبوت_الف} تا سوال \حوالہ{سوال_خطی_تکمل_فقرے_ثبوت_پ} میں \عددی{T} بند محدود خطہ ہے جس کی سرحدی سطح \عددی{S} ہے۔مسئلہ پھیلاو استعمال کرتے ہوئے دیے  گئے فقرے ثابت کریں جہاں \اصطلاح{ہارمونی}\فرہنگ{ہارمونی}\حاشیہب{harmonic}\فرہنگ{harmonic} سے مراد لاپلاس مساوات کا حل ہے جس کے \عددی{T} میں استمراری دو درجی جزوی تفرق پائے جاتے ہوں۔
+سوال \حوالہ{سوال_خطی_تکمل_فقرے_ثبوت_الف} تا سوال \حوالہ{سوال_خطی_تکمل_فقرے_ثبوت_پ} میں \عددی{T} بند محدود خطہ ہے جس کی سرحدی سطح \عددی{S} ہے۔مسئلہ پھیلاو استعمال کرتے ہوئے دیے  گئے فقرے ثابت کریں جہاں \اصطلاح{ہارمونی}\فرہنگ{ہارمونی}\حاشیہب{harmonic}\فرہنگ{harmonic} سے مراد لاپلاس مساوات کا حل ہے جس کے \عددی{T} میں استمراری دو رتبی جزوی تفرق پائے جاتے ہوں۔
 
 %===================
 \ابتدا{سوال}\شناخت{سوال_خطی_تکمل_فقرے_ثبوت_الف}\quad اگر کسی خطہ جس کا \عددی{T} حصہ ہو  میں \عددی{g} ہارمونی ہو تب درج ذیل ہو گا۔
@@ -3335,14 +3335,14 @@ $\tfrac{4}{3}\pi a^3$
 
 %================================
 \ابتدا{مسئلہ}\شناخت{مسئلہ_خطی_تکمل_مسئلہ_سٹوکس}\quad مسئلہ سٹوکس\حاشیہد{آئرستانی ریاضی دان اور ماہر طبیعیات جارج جبرائیل سٹوکس [1819-1903]} (سطحی تکمل سے خطی تکمل اور خطی تکمل سے سطحی تکمل کا حصول)\\
-فرض کریں کہ فضا میں ٹکڑوں میں ہموار سمت بند سطح \عددی{S} کی سرحد \عددی{C} ٹکڑوں میں ہموار سادہ بند منحنی  ہے۔ مزید فرض کریں کہ کسی ایسے خطہ میں جس کا \عددی{S} حصہ ہو، \عددی{\bM{v}(x,y,z)} استمراری سمتی تفاعل ہے اور اس خطے میں اس  کے استمراری ایک درجی جزوی تفرق پائے جاتے ہیں۔تب \اصطلاح{مسئلہ سٹوکس}\فرہنگ{مسئلہ!سٹوکس}\فرہنگ{سٹوکس!مسئلہ}\حاشیہب{Stokes' theorem}\فرہنگ{Stokes' theorem} کہتا ہے کہ
+فرض کریں کہ فضا میں ٹکڑوں میں ہموار سمت بند سطح \عددی{S} کی سرحد \عددی{C} ٹکڑوں میں ہموار سادہ بند منحنی  ہے۔ مزید فرض کریں کہ کسی ایسے خطہ میں جس کا \عددی{S} حصہ ہو، \عددی{\bM{v}(x,y,z)} استمراری سمتی تفاعل ہے اور اس خطے میں اس  کے استمراری یک رتبی جزوی تفرق پائے جاتے ہیں۔تب \اصطلاح{مسئلہ سٹوکس}\فرہنگ{مسئلہ!سٹوکس}\فرہنگ{سٹوکس!مسئلہ}\حاشیہب{Stokes' theorem}\فرہنگ{Stokes' theorem} کہتا ہے کہ
 \begin{align}\label{مساوات_خطی_تکمل_سٹوکس_الف}
 \iint\limits_S (\nabla \times \bM{v})_n \dif A=\int\limits_C v_t \dif s
 \end{align}
 ہو گا جہاں \عددی{S} کے اکائی عمودی سمتیہ \عددی{\bM{n}} کی سمت میں \عددی{\nabla \times \bM{v}} کا جزو \عددی{(\nabla \times \bM{v})_n=(\nabla \times \bM{v})\cdot \bM{n}} ہے؛ \عددی{C} پر تکمل کا رخ شکل \حوالہ{شکل_خطی_تکمل_مسئلہ_سٹوکس}-الف میں دکھایا گیا ہے جہاں \عددی{C} کی مماس \عددی{\bM{r}'} (شکل \حوالہ{شکل_خطی_تکمل_مسئلہ_سٹوکس}-الف) کی سمت میں  \عددی{\bM{v}} کا جزو \عددی{v_t} ہے ۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw[->-=0.6](0,0) to [out=-90,in=140] (0.2,-0.35) to [out=-40,in=180](0.6,-0.5) to [out=0,in=180](1.5,-0.3) to [out=0,in=180](2.7,-0.4) to [out=0,in=-90](3,-0.2) to [out=90,in=0](1.5,0.75) to [out=180,in=90](0,0);
@@ -3361,9 +3361,9 @@ $\tfrac{4}{3}\pi a^3$
 \draw(2.5,0.5)node[above]{$C$};
 \end{scope}
 \end{tikzpicture}
-\caption*{(الف) سمت بندی (مسئلہ سٹوکس)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ سمت بندی (مسئلہ سٹوکس)}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw[->-=0.25](0,0) to [out=-90,in=140] (0.2,-0.35) to [out=-40,in=180](0.6,-0.5) to [out=0,in=180](1.5,-0.3) to [out=0,in=180](2.7,-0.4) to [out=0,in=-90](3,-0.2) to [out=90,in=0](1.5,0.75) to [out=180,in=90](0,0);
@@ -3387,8 +3387,8 @@ $\tfrac{4}{3}\pi a^3$
 \draw(1.5,-0.2)node[below]{$C^*$};
 \end{scope}
 \end{tikzpicture}
-\caption*{(ب) ثبوت مسئلہ سٹوکس}
-\end{subfigure}%
+\caption{ ثبوت مسئلہ سٹوکس}
+\end{subfigure} \hfill
 \caption{مسئلہ سٹوکس}
 \label{شکل_خطی_تکمل_مسئلہ_سٹوکس}
 \end{figure}
@@ -3399,7 +3399,7 @@ $\tfrac{4}{3}\pi a^3$
 \begin{align}\label{مساوات_خطی_تکمل_سٹوکس_ب}
 \text{(الف)}\,\,z=f(x,y),\quad \text{(ب)}\,\,y=g(x,z),\quad \text{(پ)}\,\,x=h(y,z)
 \end{align}
-جہاں \عددی{f}، \عددی{g} اور \عددی{h} اپنے آزاد متغیرات کے استمراری تفاعل ہیں اور ان کے استمراری ایک درجی جزوی تفرقات پائے جاتے ہیں۔فرض کریں کہ \عددی{S} کا بالائی رخ اکائی عمودی سمتیہ \عددی{\bM{n}} درج ذیل
+جہاں \عددی{f}، \عددی{g} اور \عددی{h} اپنے آزاد متغیرات کے استمراری تفاعل ہیں اور ان کے استمراری یک رتبی جزوی تفرقات پائے جاتے ہیں۔فرض کریں کہ \عددی{S} کا بالائی رخ اکائی عمودی سمتیہ \عددی{\bM{n}} درج ذیل
 \begin{align}\label{مساوات_خطی_تکمل_سٹوکس_پ}
 \bM{n}=\cos \alpha \,\bM{i}+\cos \beta \,\bM{j}+\cos \gamma \,\bM{k}
 \end{align}
@@ -3668,7 +3668,7 @@ $0$
 \begin{align}\label{مساوات_خطی_تکمل_آزاد_راہ_ب}
 f\dif x+g\dif y+h\dif z
 \end{align}
- تین متغیرات کی \اصطلاح{ایک درجی تفرقی روپ}\فرہنگ{تفرقی روپ!ایک درجی}\حاشیہب{first order differential form}\فرہنگ{differential form!first order} کہلاتی ہے۔اگر پورے \عددی{D} میں ہر جگہ  یہ روپ قابل تفرق تفاعل \عددی{u(x,y,z)} کا تفرق
+ تین متغیرات کی \اصطلاح{یک رتبی تفرقی روپ}\فرہنگ{تفرقی روپ!یک رتبی}\حاشیہب{first order differential form}\فرہنگ{differential form!first order} کہلاتی ہے۔اگر پورے \عددی{D} میں ہر جگہ  یہ روپ قابل تفرق تفاعل \عددی{u(x,y,z)} کا تفرق
 \begin{align}\label{مساوات_خطی_تکمل_آزاد_راہ_پ}
 \dif u=\frac{\partial u}{\partial x}\dif x+\frac{\partial u}{\partial y}\dif y+\frac{\partial u}{\partial z}\dif z
 \end{align}
@@ -3842,7 +3842,7 @@ W=u(Q)-u(N)=u(5,4,6)-u(3,2,4)=120-24=96
 
 %======================
 \ابتدا{مسئلہ}\شناخت{مسئلہ_خطی_تکمل_اصول_قطعیت} \quad (اصول قطعیت اور راہ سے آزادی)\\
-فرض کریں کہ فضا میں دائرہ کار \عددی{D} میں تفاعل \عددی{f(x,y,z)}، \عددی{g(x,y,z)}، \عددی{h(x,y,z)} اور ان کے ایک درجی جزوی تفرقات استمراری ہیں۔اگر خطی تکمل
+فرض کریں کہ فضا میں دائرہ کار \عددی{D} میں تفاعل \عددی{f(x,y,z)}، \عددی{g(x,y,z)}، \عددی{h(x,y,z)} اور ان کے یک رتبی جزوی تفرقات استمراری ہیں۔اگر خطی تکمل
 \begin{align}\label{مساوات_خطی_تکمل_اصول_قطعیت_الف}
 \int_C (f\dif x+g\dif y+h\dif z)
 \end{align}

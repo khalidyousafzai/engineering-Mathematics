@@ -80,7 +80,7 @@ i^2=-1
 مخلوط اعداد کو سطح پر ظاہر کیا جا سکتا ہے۔ایسا کرنا نہایت مفید ثابت ہوتا ہے۔ہم دو عدد آپس میں عمودی محور چنتے ہیں۔افقی \عددی{x} محور کو \اصطلاح{حقیقی محور}\فرہنگ{حقیقی!محور}\حاشیہب{real axis}\فرہنگ{real!axis} جبکہ انتصابی \عددی{y} محور کو \اصطلاح{خیالی محور}\فرہنگ{خیالی!محور}\حاشیہب{imaginary axis}\فرہنگ{imaginary!axis} تصور کیا جاتا ہے۔ دونوں محوروں پر یکساں اکائی لمبائی استعمال کی جاتی ہے (شکل \حوالہ{شکل_مخلوط_سطح_تعریف}-الف)۔اس کو کارتیسی محددی نظام\فرہنگ{کارتیسی!نظام محدد} کہتے ہیں۔ہم اب مخلوط عدد \عددی{z=(x,y)=x+iy} کو اس سطح پر بطور نقطہ \عددی{P} ظاہر کرتے ہیں جس کے محدد \عددی{x} اور \عددی{y} ہوں گے۔ایسی \عددی{xy} سطح جس پر اس طرح مخلوط اعداد ظاہر کیے جاتے  ہیں \اصطلاح{مخلوط سطح}\فرہنگ{مخلوط!سطح}\حاشیہب{complex plane}\فرہنگ{complex!plane} یا \ترچھا{نقشہ اغگن}\فرہنگ{اغگن!نقشہ}\فرہنگ{نقشہ!اغگن}\حاشیہب{Argand diagram}\فرہنگ{Argand diagram} کہلاتی\حاشیہد{فرانسیسی ریاضی دان ژاں غوبغ اغگن [1768-1822]} ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--++(3,0)node[below left]{$x$}node[right]{\RL{حقیقی محور}};
@@ -89,9 +89,9 @@ i^2=-1
 \draw(0,0.5)node[left]{$1$}--++(0.1,0);
 \draw(0,0)node[ocirc]{}--++(2,1.5)node[ocirc]{}node[right]{$z=x+iy$}node[above]{$P$};
 \end{tikzpicture}
-\caption*{(الف) مخلوط سطح}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ مخلوط سطح}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--++(4,0)node[below]{$x$};
@@ -105,8 +105,8 @@ i^2=-1
 \draw[dashed](3,-1.5)--(0,-1.5);
 \draw(3,-1.5)node[ocirc]{};
 \end{tikzpicture}
-\caption*{(ب) مخلوط سطح پر $\, 6-i3\,$ کا اظہار}
-\end{subfigure}%
+\caption{ مخلوط سطح پر $\, 6-i3\,$ کا اظہار}
+\end{subfigure} \hfill
 \caption{مخلوط سطح اور مخلوط سطح پر مخلوط عدد کا اظہار}
 \label{شکل_مخلوط_سطح_تعریف}
 \end{figure}
@@ -123,7 +123,7 @@ z_1+z_2=(x_1+x_2)+i(y_1+y_2)
 لکھا جا سکتا ہے۔آپ دیکھ سکتے ہیں کہ مخلوط اعداد کی جمع، میکانیات میں قوتوں کا مجموعہ حاصل کرنے کے \ترچھا{متوازی الاضلاع قاعدہ} کے مطابق ہے (شکل \حوالہ{شکل_مخلوط_اعداد_تفریق}-الف)۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--(3.5,0)node[below]{$x$};
@@ -135,9 +135,9 @@ z_1+z_2=(x_1+x_2)+i(y_1+y_2)
 \draw(20:2)node[ocirc]{}node[right]{$z_1$};
 \draw(0,0)--(kC)node[ocirc,solid]{};
 \end{tikzpicture}
-\caption*{(الف) مخلوط اعداد کی جمع}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ مخلوط اعداد کی جمع}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--(3.5,0)node[below]{$x$};
@@ -151,8 +151,8 @@ z_1+z_2=(x_1+x_2)+i(y_1+y_2)
 \draw(0,0)--(kC)node[ocirc]{}node[below right]{$z_1-z_2$};
 \draw(kA)node[ocirc]{};
 \end{tikzpicture}
-\caption*{(ب) مخلوط اعداد کی تفریق}
-\end{subfigure}%
+\caption{ مخلوط اعداد کی تفریق}
+\end{subfigure} \hfill
 \caption{مخلوط اعداد کی جمع اور تفرق}
 \label{شکل_مخلوط_اعداد_تفریق}
 \end{figure}
@@ -475,8 +475,8 @@ z=r\cos\theta+ir\sin\theta=r(\cos\theta+i\sin\theta)
 \draw[dashed](T)--(0,\kB)node[left,solid]{$y$};
 \draw(T)node[ocirc]{}node[above]{$N$};
 \end{tikzpicture}
-\caption*{(الف) مخلوط سطح۔مخلوط عدد کی قطبی روپ}
-\end{subfigure}%
+\caption{ مخلوط سطح۔مخلوط عدد کی قطبی روپ}
+\end{subfigure} \hfill
 \begin{subfigure}{0.35\textwidth}
 \centering
 \begin{tikzpicture}
@@ -488,8 +488,8 @@ z=r\cos\theta+ir\sin\theta=r(\cos\theta+i\sin\theta)
 \draw(A)node[ocirc]{};
 \draw(B)node[ocirc]{};
 \end{tikzpicture}
-\caption*{(ب) دو نقطوں کے مابین فاصلہ}
-\end{subfigure}%
+\caption{ دو نقطوں کے مابین فاصلہ}
+\end{subfigure} \hfill
 \begin{subfigure}{0.3\textwidth}
 \centering
 \begin{tikzpicture}
@@ -501,8 +501,8 @@ z=r\cos\theta+ir\sin\theta=r(\cos\theta+i\sin\theta)
 \draw[-stealth]([shift={(0:0.5)}]0,0) arc (0:45:0.5);
 \draw(22.5:0.8)node{$\tfrac{\pi}{4}$};
 \end{tikzpicture}
-\caption*{(پ) صدر زاویہ (مثال \حوالہ{مثال_مخلوط_عدد_قطبی_روپ})}
-\end{subfigure}%
+\caption{ صدر زاویہ (مثال \حوالہ{مثال_مخلوط_عدد_قطبی_روپ})}
+\end{subfigure} \hfill
 \caption{مخلوط سطح اور اس پر مخلوط نقطے۔}
 \label{شکل_مخلوط_سطح_پر_نقطے}
 \end{figure}
@@ -513,7 +513,7 @@ z=r\cos\theta+ir\sin\theta=r(\cos\theta+i\sin\theta)
 \begin{align*}
 z=\sqrt{2}\big(\cos \frac{\pi}{4}+i\sin\frac{\pi}{4}\big), \quad \abs{z}=\sqrt{2},\quad \phase{z}=\frac{\pi}{4}\mp2n\pi \quad \quad (n=0,1,\cdots)
 \end{align*}
-\عددی{z} کے زاویہ کی صدر قیمت \عددی{\tfrac{\pi}{4}} ہے (شکل \حوالہ{شکل_مخلوط_سطح_پر_نقطے}-پ)۔
+\عددی{z} کے زاویہ کی صدر قیمت \عددی{\tfrac{\pi}{4}} ہے (شکل \حوالہ{شکل_مخلوط_سطح_پر_نقطے}-ج)۔
 \انتہا{مثال}
 %======================
 \ابتدا{مثال}\quad \موٹا{مخلوط اعداد کی قطبی روپ۔ صدر قیمت}\\
@@ -814,7 +814,7 @@ $\tfrac{\pi}{2}$
 لکھا جا سکتا ہے جہاں نقطہ \عددی{a} دائروں کا مرکز ہے۔ایسا خطہ \اصطلاح{کھلا چھلا}\فرہنگ{چھلا!کھلا}\حاشیہب{open annulus}\فرہنگ{annulus!open} کہلاتا ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--++(3,0)node[below]{$x$};
@@ -824,9 +824,9 @@ $\tfrac{\pi}{2}$
 \draw[-stealth](1.5,1.5)--++(30:1.3)node[pos=0.7,above]{$\rho_2$};
 \draw[-stealth](1.5,1.5)node[ocirc]{}node[below]{$a$}--++(140:0.75)node[pos=0.5,shift={(50:0.25)}]{$\rho_1$};
 \end{tikzpicture}
-\caption*{(الف) مخلوط سطح میں چھلا}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ مخلوط سطح میں چھلا}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-1.5,0)--(2,0)node[below]{$x$};
@@ -834,8 +834,8 @@ $\tfrac{\pi}{2}$
 \draw(0,0)node[ocirc]{} circle (1);
 \draw(1,0)node[ocirc]{}node[below right]{$1$};
 \end{tikzpicture}
-\caption*{(ب) اکائی دائرہ}
-\end{subfigure}%
+\caption{ اکائی دائرہ}
+\end{subfigure} \hfill
 \caption{مخلوط سطح میں چھلا اور اکائی دائرہ}
 \label{شکل_مخلوط_چھلا}
 \end{figure}
@@ -1330,7 +1330,7 @@ $-i8$
 \begin{align}\label{مساوات_مخلوط_کوشی_ریمان_ثبوت_الف}
 w=f(z)=u(x,y)+iv(x,y)
 \end{align}
-ہم دکھائیں گے کہ اگر دائرہ کار \عددی{D} میں \عددی{f(z)} تحلیلی ہو تب \عددی{u} اور \عددی{v} پورے \عددی{D} میں (نیچے دیے گئے) کوشی ریمان مساوات کو مطمئن کریں گے۔اسی طرح اگر  \عددی{u} اور \عددی{v} استمراری ہوں اور ان کے ایک درجی جزوی تفرق پورے \عددی{D} میں   کوشی ریمان مساوات \حوالہ{مساوات_مخلوط_کوشی_ریمان}  کو مطمئن کرتے ہوں تب \عددی{D} میں \عددی{f(z)} تحلیلی ہو گا۔تفصیل در ذیل ہے۔ 
+ہم دکھائیں گے کہ اگر دائرہ کار \عددی{D} میں \عددی{f(z)} تحلیلی ہو تب \عددی{u} اور \عددی{v} پورے \عددی{D} میں (نیچے دیے گئے) کوشی ریمان مساوات کو مطمئن کریں گے۔اسی طرح اگر  \عددی{u} اور \عددی{v} استمراری ہوں اور ان کے یک رتبی جزوی تفرق پورے \عددی{D} میں   کوشی ریمان مساوات \حوالہ{مساوات_مخلوط_کوشی_ریمان}  کو مطمئن کرتے ہوں تب \عددی{D} میں \عددی{f(z)} تحلیلی ہو گا۔تفصیل در ذیل ہے۔ 
 
 فرض کریں کہ \عددی{f(z)=u(x,y)+iv(x,y)} کسی اختیاری مقررہ نقطہ \عددی{z=x+iy} پر قابل تفرق اور اس نقطہ کے کسی پڑوس میں معین اور استمراری ہے۔تب تفرق کی تعریف کی رو سے
 \begin{align}\label{مساوات_مخلوط_کوشی_ریمان_ثبوت_ب}
@@ -1379,7 +1379,7 @@ f'(z)=-i\frac{\partial u}{\partial y}+\frac{\partial v}{\partial y}
 
 %====================
 \ابتدا{مسئلہ}\quad \موٹا{کوشی ریمان مساوات}\\
-فرض کریں کہ \عددی{f(z)=u(x,y)+iv(x,y)} نقطہ \عددی{z=x+iy} پر قابل تفرق اور اس نقطہ کے کسی پڑوس میں معین اور استمراری ہے۔تب اس نقطہ پر \عددی{u} اور \عددی{v} کے ایک درجی جزوی تفرق موجود ہوں گے  جو تفرق کوشی ریمان مساوات \حوالہ{مساوات_مخلوط_کوشی_ریمان} کو مطمئن کریں گے۔ 
+فرض کریں کہ \عددی{f(z)=u(x,y)+iv(x,y)} نقطہ \عددی{z=x+iy} پر قابل تفرق اور اس نقطہ کے کسی پڑوس میں معین اور استمراری ہے۔تب اس نقطہ پر \عددی{u} اور \عددی{v} کے یک رتبی جزوی تفرق موجود ہوں گے  جو تفرق کوشی ریمان مساوات \حوالہ{مساوات_مخلوط_کوشی_ریمان} کو مطمئن کریں گے۔ 
 
 نتیجتاً اگر دائرہ کار \عددی{D} میں \عددی{f(z)} تحلیلی ہو تب یہ جزوی تفرق موجود ہوں گے اور مساوات \حوالہ{مساوات_مخلوط_کوشی_ریمان} کو \عددی{D} کے تمام نقطوں پر مطمئن کریں گے۔
 \انتہا{مسئلہ}
@@ -1398,7 +1398,7 @@ f'(z)=-i\frac{\partial u}{\partial y}+\frac{\partial v}{\partial y}
 
 %=================
 \ابتدا{مسئلہ}\quad \موٹا{کوشی ریمان مساوات}\\
-اگر حقیقی متغیرات \عددی{x} اور \عددی{y} کے حقیقی قیمت استمراری تفاعل \عددی{u(x,y)} اور \عددی{v(x,y)} کے ایک درجی جزوی تفرق موجود ہوں جو کسی دائرہ کار \عددی{D} میں کوشی ریمان مساوات کو مطمئن کرتے ہوں، تب مخلوط تفاعل \عددی{f(z)=u(x,y)+iv(x,y)} دائرہ کار \عددی{D} میں تحلیلی ہو گا۔ 
+اگر حقیقی متغیرات \عددی{x} اور \عددی{y} کے حقیقی قیمت استمراری تفاعل \عددی{u(x,y)} اور \عددی{v(x,y)} کے یک رتبی جزوی تفرق موجود ہوں جو کسی دائرہ کار \عددی{D} میں کوشی ریمان مساوات کو مطمئن کرتے ہوں، تب مخلوط تفاعل \عددی{f(z)=u(x,y)+iv(x,y)} دائرہ کار \عددی{D} میں تحلیلی ہو گا۔ 
 \انتہا{مسئلہ}
 %======================
 \ابتدا{ثبوت}
@@ -1486,7 +1486,7 @@ u=r^3\cos 3\theta,\quad v=r^3\sin 3\theta
 \انتہا{مثال}
 %===================
 
-ہم اب مخلوط تجزیہ اور دو متغیرات کی لاپلاس مساوات کے مابین ایک عملاً اہم تعلق دریافت کرتے ہیں۔ہم بعد میں (حصہ \حوالہ{حصہ_مخلوط_تکمل_تحلیل_تفاعل_کے_تفرق} میں)  ثابت کریں گے کہ تحلیلی تفاعل \عددی{f(z)=u(x,y)+iv(x,y)} کی تفرق بھی تحلیلی ہو گا۔اس اہم نتیجہ کے تحت \عددی{u(x,y)} اور \عددی{v(x,y)} کے ہر درجہ کی استمراری جزوی تفرق موجود ہوں گے۔بالخصوص ان کی دو درجی مدغم تفرق برابر ہوں گے:
+ہم اب مخلوط تجزیہ اور دو متغیرات کی لاپلاس مساوات کے مابین ایک عملاً اہم تعلق دریافت کرتے ہیں۔ہم بعد میں (حصہ \حوالہ{حصہ_مخلوط_تکمل_تحلیل_تفاعل_کے_تفرق} میں)  ثابت کریں گے کہ تحلیلی تفاعل \عددی{f(z)=u(x,y)+iv(x,y)} کی تفرق بھی تحلیلی ہو گا۔اس اہم نتیجہ کے تحت \عددی{u(x,y)} اور \عددی{v(x,y)} کے ہر رتبہ کی استمراری جزوی تفرق موجود ہوں گے۔بالخصوص ان کی دو رتبی مدغم تفرق برابر ہوں گے:
 \begin{align*}
 \frac{\partial^{\,2}u}{\partial x\partial y}=\frac{\partial^{\,2}u}{\partial y\partial x},\quad\frac{\partial^{\,2}v}{\partial x\partial y}=\frac{\partial^{\,2}v}{\partial y\partial x}
 \end{align*}
@@ -1507,13 +1507,13 @@ f(z)=u(x,y)+iv(x,y)
 \begin{align*}
 \nabla^{\,2}u=\frac{\partial^{\,2}u}{\partial x^2}+\frac{\partial^{\,2}u}{\partial y^2}=0,\quad \nabla^{\,2}v=\frac{\partial^{\,2}v}{\partial x^2}+\frac{\partial^{\,2}v}{\partial y^2}=0
 \end{align*}
-کے حل ہیں اور ان کے استمراری دو درجی جزوی تفرق پائے جاتے ہیں۔
+کے حل ہیں اور ان کے استمراری دو رتبی جزوی تفرق پائے جاتے ہیں۔
 \انتہا{مسئلہ}
 %======================
 
 جیسے ہم بعد کی باب \حوالہ{باب_محافظ_زاویہ_نقشہ_کشی} اور باب \حوالہ{باب_مخلوط_تفاعل_اور_نظریہ_مخفی_قوہ} میں دیکھیں گے، مخلوط تجزیہ کی انجینئری  حساب میں اہمیت کی یہ ایک وجہ ہے۔
 
-مساوات لاپلاس کا ایسا حل جس کے استمراری دو درجی جزوی تفرق پائے جاتے ہوں \اصطلاح{ہارمونی تفاعل}\فرہنگ{ہارمونی!تفاعل}\حاشیہب{harmonic function}\فرہنگ{harmonic!function}  (حصہ \حوالہ{حصہ_جزوی_مخفی_قوہ}) کہلاتا ہے۔یوں تحلیلی تفاعل کا حقیقی  جزو اور خیالی جزو ہارمونی تفاعل ہوں گے۔
+مساوات لاپلاس کا ایسا حل جس کے استمراری دو رتبی جزوی تفرق پائے جاتے ہوں \اصطلاح{ہارمونی تفاعل}\فرہنگ{ہارمونی!تفاعل}\حاشیہب{harmonic function}\فرہنگ{harmonic!function}  (حصہ \حوالہ{حصہ_جزوی_مخفی_قوہ}) کہلاتا ہے۔یوں تحلیلی تفاعل کا حقیقی  جزو اور خیالی جزو ہارمونی تفاعل ہوں گے۔
 
 اگر دو عدد ہارمونی تفاعل \عددی{u(x,y)} اور \عددی{v(x,y)} دائرہ کار \عددی{D} میں مساوات کوشی ریمان  کو مطمئن کرتے ہوں یعنی اگر تفاعل \عددی{u(x,y)} اور \عددی{v(x,y)} دائرہ کار \عددی{D} میں تحلیلی تفاعل \عددی{f(z)} کے حقیقی اور خیالی اجزاء ہوں، تب\عددی{v(x,y)} کو \عددی{u(x,y)} کا \اصطلاح{جوڑی دار ہارمونی تفاعل}\فرہنگ{ہارمونی!جوڑی دار تفاعل}\حاشیہب{conjugate harmonic function}\فرہنگ{conjugate!harmonic function}\فرہنگ{harmonic!conjugate function} کہتے ہیں۔
 
@@ -1827,8 +1827,8 @@ z_2&=\sqrt{r}\big[\cos\big(\frac{\theta}{2}+\pi\big)+i\sin\big(\frac{\theta}{2}+
 \draw[dashed](0,0) circle (1);
 \draw(kA)--(kB)node[ocirc]{}--(kC)node[ocirc]{}--(kA)node[ocirc]{}node[below right]{$1$};
 \end{tikzpicture}
-\caption*{(الف) \quad $\sqrt[\leftroot{-2}\uproot{2}3]{1}$}
-\end{subfigure}%
+\caption{ \quad $\sqrt[\leftroot{-2}\uproot{2}3]{1}$}
+\end{subfigure} \hfill
 \begin{subfigure}{0.33\textwidth}
 \centering
 \begin{tikzpicture}
@@ -1842,8 +1842,8 @@ z_2&=\sqrt{r}\big[\cos\big(\frac{\theta}{2}+\pi\big)+i\sin\big(\frac{\theta}{2}+
 \draw[dashed](0,0) circle (1);
 \draw(kA)--(kB)node[ocirc]{}--(kC)node[ocirc]{}--(kD)node[ocirc]{}--(kA)node[ocirc]{}node[below right]{$1$};
 \end{tikzpicture}
-\caption*{(ب)\quad  $\sqrt[\leftroot{-2}\uproot{2}4]{1}$}
-\end{subfigure}%
+\caption{\quad  $\sqrt[\leftroot{-2}\uproot{2}4]{1}$}
+\end{subfigure} \hfill
 \begin{subfigure}{0.33\textwidth}
 \centering
 \begin{tikzpicture}
@@ -1858,8 +1858,8 @@ z_2&=\sqrt{r}\big[\cos\big(\frac{\theta}{2}+\pi\big)+i\sin\big(\frac{\theta}{2}+
 \draw[dashed](0,0) circle (1);
 \draw(kA)--(kB)node[ocirc]{}--(kC)node[ocirc]{}--(kD)node[ocirc]{}--(kE)node[ocirc]{}--(kA)node[ocirc]{}node[below right]{$1$};
 \end{tikzpicture}
-\caption*{(پ)\quad $\sqrt[\leftroot{-2}\uproot{2}5]{1}$}
-\end{subfigure}%
+\caption{\quad $\sqrt[\leftroot{-2}\uproot{2}5]{1}$}
+\end{subfigure} \hfill
 \caption{مخلوط جذر}
 \label{شکل_مثال_مخلوط_کعبی_جذر}
 \end{figure}
@@ -1870,7 +1870,7 @@ z_2&=\sqrt{r}\big[\cos\big(\frac{\theta}{2}+\pi\big)+i\sin\big(\frac{\theta}{2}+
 \begin{align*}
 \sqrt[\leftroot{-2}\uproot{2}n]{1}=\cos \frac{2k\pi}{n}+i\sin\frac{2k\pi}{n}\quad \quad \quad k=0,1,\cdots,n-1
 \end{align*}
-اگر \عددی{k=1} کا مطابقتی جذر \عددی{w} ہو تب \عددی{\sqrt[\leftroot{-2}\uproot{2}n]{1}} کے \عددی{n} جذر کو \عددی{1,w,w^2,\cdots w^{n-1}} لکھا جا سکتا ہے جو مبدا پر اکائی رداس کے دائرے پر \عددی{n} اطراف کی منظم کثیر الاضلاع بناتے ہیں جس کی ایک نوک نقطہ \عددی{1} پر ہے۔ان \عددی{n} قیمتوں میں سے ہر ایک کو \عددی{1} کی \عددی{n} ویں جذر کہتے ہیں۔ مثلاً \عددی{\sqrt[\leftroot{-2}\uproot{2}4]{1}} کی قیمتیں \عددی{1,i,-1,-i} ہیں (شکل \حوالہ{شکل_مثال_مخلوط_کعبی_جذر}-ب)۔ شکل \حوالہ{شکل_مثال_مخلوط_کعبی_جذر}-پ میں \عددی{\sqrt[\leftroot{-2}\uproot{2}5]{1}} دکھائے گئے ہیں۔
+اگر \عددی{k=1} کا مطابقتی جذر \عددی{w} ہو تب \عددی{\sqrt[\leftroot{-2}\uproot{2}n]{1}} کے \عددی{n} جذر کو \عددی{1,w,w^2,\cdots w^{n-1}} لکھا جا سکتا ہے جو مبدا پر اکائی رداس کے دائرے پر \عددی{n} اطراف کی منظم کثیر الاضلاع بناتے ہیں جس کی ایک نوک نقطہ \عددی{1} پر ہے۔ان \عددی{n} قیمتوں میں سے ہر ایک کو \عددی{1} کی \عددی{n} ویں جذر کہتے ہیں۔ مثلاً \عددی{\sqrt[\leftroot{-2}\uproot{2}4]{1}} کی قیمتیں \عددی{1,i,-1,-i} ہیں (شکل \حوالہ{شکل_مثال_مخلوط_کعبی_جذر}-ب)۔ شکل \حوالہ{شکل_مثال_مخلوط_کعبی_جذر}-ج  میں \عددی{\sqrt[\leftroot{-2}\uproot{2}5]{1}} دکھائے گئے ہیں۔
 
 اگر کسی اختیاری مخلوط عدد \عددی{z} کا کوئی \عددی{n} واں جذر \عددی{w_1} ہو تب درج ذیل \عددی{\sqrt[\leftroot{-2}\uproot{2}n]{z}} کی \عددی{n} قیمتیں ہوں گی
 \begin{align*}

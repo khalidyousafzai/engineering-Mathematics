@@ -24,7 +24,7 @@ u(x)=\frac{1}{2}(U_2-U_1)x+\frac{1}{2}(U_2+U_1)
 ہو گا۔ہم قوہ سطحیں چادروں کے متوازی سطحیں ہوں گی۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\klen}{0.25}
@@ -37,9 +37,9 @@ u(x)=\frac{1}{2}(U_2-U_1)x+\frac{1}{2}(U_2+U_1)
 \draw[](\klen,-1.5)--(\klen,1.5);
 \draw[](0,0)node[ocirc]{};
 \end{tikzpicture}
-\caption*{(الف) متوازی چادروں کے درمیان مخفی قوہ}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ متوازی چادروں کے درمیان مخفی قوہ}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \fill[gray!20!white](0,0) circle (1.5);
@@ -51,8 +51,8 @@ u(x)=\frac{1}{2}(U_2-U_1)x+\frac{1}{2}(U_2+U_1)
 \draw(0,0) circle (1);
 \draw(0,0) circle (2/3);
 \end{tikzpicture}
-\caption*{(ب) ہم محور موصل نلکیوں کے درمیان مخفی قوہ}
-\end{subfigure}%
+\caption{ ہم محور موصل نلکیوں کے درمیان مخفی قوہ}
+\end{subfigure} \hfill
 \caption{اشکال برائے مثال \حوالہ{مثال_مخفی_قوہ_متوازی_چادر} اور مثال \حوالہ{مثال_مخفی_قوہ_ہم_محوری_نلکی}}
 \label{شکل_مثال_مخفی_قوہ_متوازی_چادر}
 \end{figure}
@@ -77,7 +77,7 @@ ru''+u'=0\quad \quad \text{\RL{(مساوات \حوالہ{مساوات_جزوی_�
 \end{align}
 مستوی \عددی{xy} میں ہم قوہ سطحیں \عددی{u=\text{مستقل}}  بطور ہم قوہ خطوط نظر آئیں گی۔
 
-ہم فرض کرتے ہیں کہ \عددی{u(x,y)} ہارمونی ہے یعنی اس کے دو درجی جزوی تفرق استمراری ہیں۔اب اگر \عددی{u(x,y)} کا جوڑی دار ہارمونی تفاعل \عددی{v(x,y)} ہو (حصہ \حوالہ{حصہ_تحلیلی_کوشی_ریمان_مساوات_لاپلاس}) تب تفاعل
+ہم فرض کرتے ہیں کہ \عددی{u(x,y)} ہارمونی ہے یعنی اس کے دو رتبی جزوی تفرق استمراری ہیں۔اب اگر \عددی{u(x,y)} کا جوڑی دار ہارمونی تفاعل \عددی{v(x,y)} ہو (حصہ \حوالہ{حصہ_تحلیلی_کوشی_ریمان_مساوات_لاپلاس}) تب تفاعل
 \begin{align*}
 F(z)=u(x,y)+iv(x,y)
 \end{align*} 
@@ -201,10 +201,10 @@ $u=c\ln(z^2-a^2)\,\text{حقیقی}=c\ln\abs{z^2-a^2}$
 دکھائیں کہ \عددی{F(z)=\cos^{-1}z} کو شکل \حوالہ{شکل_سوال_مخفی_قوہ_تین_طرز_الف} میں دکھائی گئی تینوں شکل کی موصل چادروں کی مخلوط مخفی قوہ  تصور کیا جا سکتا ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,width=6cm,axis lines*=middle,axis line style={draw=none},ticks=none,xmin=-2,xmax=2]
+\begin{axis}[,width=6cm,myStyleA,axis line style={draw=none},ticks=none,xmin=-2,xmax=2]
 \addplot[domain=-2:2] ({cos(30)*sqrt(1+x^2/sin(30)^2)},{x});
 \addplot[domain=-2:2] ({-cos(30)*sqrt(1+x^2/sin(30)^2)},{x});
 \addplot[domain=-2:2] ({cos(60)*sqrt(1+x^2/sin(60)^2)},{x});
@@ -214,12 +214,12 @@ $u=c\ln(z^2-a^2)\,\text{حقیقی}=c\ln\abs{z^2-a^2}$
 \draw(axis cs:0,-2)--(axis cs:0,2)node[left]{$y$};
 \end{axis}
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,width=6cm,axis lines*=middle,axis line style={draw=none},ticks=none,xmin=-2,xmax=2]
+\begin{axis}[,width=6cm,myStyleA,axis line style={draw=none},ticks=none,xmin=-2,xmax=2]
 \addplot[domain=-2:2] ({cos(30)*sqrt(1+x^2/sin(30)^2)},{x});
 \addplot[domain=-2:2] ({cos(60)*sqrt(1+x^2/sin(60)^2)},{x});
 \draw[thick] (axis cs:1,0)node[below right]{$1$}--(axis cs:2,0)node[below left]{$x$};
@@ -227,12 +227,12 @@ $u=c\ln(z^2-a^2)\,\text{حقیقی}=c\ln\abs{z^2-a^2}$
 \draw(axis cs:0,0)node[left]{$0$}--(axis cs:0.2,0);
 \end{axis}
 \end{tikzpicture}
-\caption*{(ب)}
+\caption{}
 \end{subfigure}
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,width=6cm,axis lines*=middle,axis line style={draw=none},ticks=none,xmin=-2,xmax=2]
+\begin{axis}[,width=6cm,myStyleA,axis line style={draw=none},ticks=none,xmin=-2,xmax=2]
 \addplot[thick,domain=-2:2] ({cos(30)*sqrt(1+x^2/sin(30)^2)},{x});
 \addplot[thick,domain=-2:2] ({-cos(30)*sqrt(1+x^2/sin(30)^2)},{x});
 \addplot[domain=-2:2] ({cos(60)*sqrt(1+x^2/sin(60)^2)},{x});
@@ -244,7 +244,7 @@ $u=c\ln(z^2-a^2)\,\text{حقیقی}=c\ln\abs{z^2-a^2}$
 \draw(axis cs:1.5,0)--(axis cs:2,0)node[below]{$x$};
 \end{axis}
 \end{tikzpicture}
-\caption*{(پ)}
+\caption{}
 \end{subfigure}
 \caption{شکل برائے سوال \حوالہ{سوال_مخفی_قوہ_تین_طرز_الف}}
 \label{شکل_سوال_مخفی_قوہ_تین_طرز_الف}
@@ -289,7 +289,7 @@ V=V_1+iV_2
 جہاں مخلوط سطح پر سمتی رفتار کے \عددی{x} اور \عددی{y} سمت میں  اجزاء بالترتیب \عددی{V_1} اور \عددی{V_2} ہوں گے اور \عددی{V} حرکت کرتے ذرات کی راہ کو مماسی ہو گا۔ایسی راہ کو \اصطلاح{سمت بہاو}\فرہنگ{سمت بہاو}\حاشیہب{streamline}\فرہنگ{streamline} کہتے ہیں (شکل \حوالہ{شکل_مخفی_سمتی_رفتار_سیال}-الف)۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--++(4,0)node[right]{$x$};
@@ -306,9 +306,9 @@ V=V_1+iV_2
 \draw[-latex,dashed,name intersections={of=kPa and kPb}](kA)node[ocirc,solid]{}--(intersection-1)node[below]{$V_1$};
 \draw[dashed](kB)--(intersection-1);
 \end{tikzpicture}
-\caption*{(الف) سمتی رفتار}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ سمتی رفتار}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--(4,0)node[right]{$x$};
@@ -322,8 +322,8 @@ V=V_1+iV_2
 \draw([shift={(-10:0.5)}]kA) arc (-10:39:0.5);
 \draw(kA)++(10:0.8)node[]{$\alpha$};
 \end{tikzpicture}
-\caption*{(ب) منحنی \عددی{C} کو سمتی رفتار کا مماسی جزو}
-\end{subfigure}%
+\caption{ منحنی \عددی{C} کو سمتی رفتار کا مماسی جزو}
+\end{subfigure} \hfill
 \caption{سمت بہاو اور سمتی رفتار}
 \label{شکل_مخفی_سمتی_رفتار_سیال}
 \end{figure}
@@ -551,7 +551,7 @@ $\tfrac{\dif F}{\dif z}=\tfrac{c}{2\pi z}=\tfrac{c}{2\pi(x+iy)}=\tfrac{c(x-iy)}{
 %
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\ang}{30}
@@ -563,9 +563,9 @@ $\tfrac{\dif F}{\dif z}=\tfrac{c}{2\pi z}=\tfrac{c}{2\pi(x+iy)}=\tfrac{c(x-iy)}{
 \draw(1.75,0)--(2,0)node[below]{$x$};
 \draw(0,1.6)--(0,1.75)node[left]{$y$};
 \end{tikzpicture}
-\caption*{(الف) نقطہ منبع}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ نقطہ منبع}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\ang}{30}
@@ -580,7 +580,7 @@ $\tfrac{\dif F}{\dif z}=\tfrac{c}{2\pi z}=\tfrac{c}{2\pi(x+iy)}=\tfrac{c(x-iy)}{
 \draw(1.5,0)--(2,0)node[below]{$x$};
 \draw(0,1.5)--(0,1.75)node[left]{$y$};
 \end{tikzpicture}
-\caption*{(ب) بہاو گرداب}
+\caption{ بہاو گرداب}
 \end{subfigure}
 \caption{اشکال برائے سوال \حوالہ{سوال_مخلوط_مخفی_قوہ_منبع_گڑھا_الف} اور سوال \حوالہ{سوال_مخلوط_مخفی_قوہ_منبع_گڑھا_ب}}
 \label{مساوات_مخلوط_مخفی_قوہ_نقطہ_منبع}
@@ -613,10 +613,10 @@ $F=-\tfrac{iK}{2\pi}\ln (re^{i\theta})=-\tfrac{iK}{2\pi}(i\theta+\ln r)=\tfrac{K
 دکھائیں کہ \عددی{F(z)=\cosh^{-1} z} کے بہاو سمت،  ہم ماسکہ قطع زائد  ہوں گی جن کے ماسکہ \عددی{z=\mp 1} ہیں اور بہاو کو شگاف سے گزرتی بہاو تصور کیا جا سکتا ہے (شکل \حوالہ{شکل_مخفی_قوہ_شگاف_بہاو}-الف)۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,width=6cm,axis lines*=middle,axis line style={draw=none},ticks=none,xmin=-2,xmax=2]
+\begin{axis}[,width=6cm,myStyleA,axis line style={draw=none},ticks=none,xmin=-2,xmax=2]
 \addplot[->-=0.6,domain=-2:2] ({cos(30)*sqrt(1+x^2/sin(30)^2)},{x});
 \addplot[->-=0.6,domain=-2:2] ({-cos(30)*sqrt(1+x^2/sin(30)^2)},{x});
 \addplot[->-=0.75,domain=-2:2] ({cos(60)*sqrt(1+x^2/sin(60)^2)},{x});
@@ -627,8 +627,8 @@ $F=-\tfrac{iK}{2\pi}\ln (re^{i\theta})=-\tfrac{iK}{2\pi}(i\theta+\ln r)=\tfrac{K
 \end{axis}
 \end{tikzpicture}
 \caption{شگاف سے بہاو}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw[->-=0.25] (0,0) circle (1.1276 and 0.521);
@@ -636,7 +636,7 @@ $F=-\tfrac{iK}{2\pi}\ln (re^{i\theta})=-\tfrac{iK}{2\pi}(i\theta+\ln r)=\tfrac{K
 \draw[->-=0.25] (0,0) circle (1.888 and 1.6);
 \draw[thick](-1,0)node[below]{$-1$}--(1,0)node[below]{$1$};
 \end{tikzpicture}
-\caption*{(ب) چادر کے گرد بہاو}
+\caption{ چادر کے گرد بہاو}
 \end{subfigure}
 \caption{اشکال برائے سوال \حوالہ{سوال_مخفی_قوہ_بہاو_الف} اور سوال \حوالہ{سوال_مخفی_قوہ_بہاو_ب}}
 \label{شکل_مخفی_قوہ_شگاف_بہاو}
@@ -668,7 +668,7 @@ $\Psi_1+\Psi_2=\sin\theta(r-r^{-1})+\tfrac{K}{2\pi}\ln r=c$
 %================
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}[scale=0.75]
 \begin{polaraxis}[ymax=4,axis lines=none]
@@ -711,8 +711,8 @@ $\Psi_1+\Psi_2=\sin\theta(r-r^{-1})+\tfrac{K}{2\pi}\ln r=c$
 \addplot[] plot coordinates {(-20,3)}node[]{$K=0$};
 \end{polaraxis}
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}[scale=0.75]
 \begin{polaraxis}[axis lines=none]
@@ -758,7 +758,7 @@ $\Psi_1+\Psi_2=\sin\theta(r-r^{-1})+\tfrac{K}{2\pi}\ln r=c$
 \end{tikzpicture}
 \end{subfigure}
 \par\medskip
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}[scale=0.75]
 \begin{polaraxis}[axis lines=none]
@@ -825,8 +825,8 @@ $\Psi_1+\Psi_2=\sin\theta(r-r^{-1})+\tfrac{K}{2\pi}\ln r=c$
 \addplot[] plot coordinates {(-20,3)}node[]{$K=4\pi$};
 \end{polaraxis}
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}[scale=0.75]
 \begin{polaraxis}[axis lines=none]
@@ -886,11 +886,11 @@ $\Psi_1+\Psi_2=\sin\theta(r-r^{-1})+\tfrac{K}{2\pi}\ln r=c$
 \حصہ{ہارمونی تفاعل کے عمومی خواص}\شناخت{حصہ_مخفی_ہارمونی_تفاعل_عمومی_خواص}
 اس حصہ میں ہارمونی تفاعل کی عمومی خواص کو مخلوط تحلیلی تفاعل کے نتائج سے حاصل کرنا دکھایا جائے گا۔
 
-فرض کریں کہ سادہ تعلق دائرہ کار \عددی{D} میں تفاعل \عددی{u(x,y)} ہارمونی ہے۔تب ہم کوشی ریمان کلیات کی مدد سے \عددی{u(x,y)} کا جوڑی دار ہارمونی تفاعل \عددی{v(x,y)} تلاش کیا جا سکتا ہے۔یوں  \عددی{f(z)=u(x,y)+iv(x,y)} دائرہ کار \عددی{D} میں تحلیلی ہو گا (حصہ \حوالہ{حصہ_تحلیلی_کوشی_ریمان_مساوات_لاپلاس} دیکھیں اور  صفحہ \حوالہصفحہ{حاشیہ_نقش_بغیر_ثبوت} پر حاشیہ دیکھیں۔)۔ یہ وہ تعلق ہے جس کو استعمال کرتے ہوئے ہم تحلیلی تفاعل کے خواص سے ہارمونی تفاعل کے خواص اخذ کر سکتے ہیں۔چونکہ تحلیلی تفاعل کے ہر درجہ کے تفرق پائے جاتے ہیں لہٰذا ہم درج ذیل اخذ کر سکتے ہیں۔
+فرض کریں کہ سادہ تعلق دائرہ کار \عددی{D} میں تفاعل \عددی{u(x,y)} ہارمونی ہے۔تب ہم کوشی ریمان کلیات کی مدد سے \عددی{u(x,y)} کا جوڑی دار ہارمونی تفاعل \عددی{v(x,y)} تلاش کیا جا سکتا ہے۔یوں  \عددی{f(z)=u(x,y)+iv(x,y)} دائرہ کار \عددی{D} میں تحلیلی ہو گا (حصہ \حوالہ{حصہ_تحلیلی_کوشی_ریمان_مساوات_لاپلاس} دیکھیں اور  صفحہ \حوالہصفحہ{حاشیہ_نقش_بغیر_ثبوت} پر حاشیہ دیکھیں۔)۔ یہ وہ تعلق ہے جس کو استعمال کرتے ہوئے ہم تحلیلی تفاعل کے خواص سے ہارمونی تفاعل کے خواص اخذ کر سکتے ہیں۔چونکہ تحلیلی تفاعل کے ہر رتبہ کے تفرق پائے جاتے ہیں لہٰذا ہم درج ذیل اخذ کر سکتے ہیں۔
 
 %=================
 \ابتدا{مسئلہ}\شناخت{مسئلہ_مخفی_ہارمونی_تفاعل_کے_جزوی_تفرق}\quad \موٹا{(جزوی تفرق)}\\
- ایسا تفاعل \عددی{u(x,y)} جو سادہ تعلق دائرہ کار \عددی{D} میں ہارمونی ہو کا  \عددی{D} میں ہر درجہ کا جزوی تفرق پایا جائے گا۔  
+ ایسا تفاعل \عددی{u(x,y)} جو سادہ تعلق دائرہ کار \عددی{D} میں ہارمونی ہو کا  \عددی{D} میں ہر رتبہ کا جزوی تفرق پایا جائے گا۔  
 \انتہا{مسئلہ}
 %========================
 
@@ -1121,7 +1121,7 @@ u(r,\theta)=\frac{1}{2}-\frac{4}{\pi^2}[r\cos\theta+\frac{r^3}{3^2}\cos 3\theta+
 %
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-2.2,0)--(2.2,0)node[right]{$\phi$};
@@ -1131,8 +1131,8 @@ u(r,\theta)=\frac{1}{2}-\frac{4}{\pi^2}[r\cos\theta+\frac{r^3}{3^2}\cos 3\theta+
 \draw(2,0)node[below]{$\pi$}--++(0,0.1);
 \draw(0,1)node[left]{$1$}--++(0.1,0);
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \node[anchor=south west,inner sep=0] (image) at (0,0){\includegraphics[width=4cm]{kcontour-inc}};
@@ -1155,7 +1155,7 @@ u(r,\theta)=\frac{1}{2}-\frac{4}{\pi^2}[r\cos\theta+\frac{r^3}{3^2}\cos 3\theta+
 \draw(0.82,0.5)node[ocirc]{};
     \end{scope}
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} \hfill
 \caption{سرحدی مخفی قوہ (مثال \حوالہ{مثال_مخفی_ڈرشلے_الف})}
 \label{شکل_مثال_مخفی_ڈرشلے_الف}
 \end{figure}

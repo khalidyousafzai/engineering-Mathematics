@@ -380,7 +380,7 @@ f(x)=
 %ticks
 \foreach \x/\l in {-1/-\pi,0/0,1/\pi,2/2\pi}{\draw(\x,0)node[fill=white,shift={(0,-0.3)}]{$\l$};}
 \end{tikzpicture}
-\caption*{(الف) دیا گیا دوری چکور تفاعل $f(x)$}
+\caption{ دیا گیا دوری چکور تفاعل $f(x)$}
 \end{subfigure}
 \begin{subfigure}{1\textwidth}
 \centering
@@ -397,7 +397,7 @@ f(x)=
 \draw(-4,0)--++(0,-0.2)node[shift={(-0.25,-0.2)}]{$-\pi$};
 \draw(4,0)--++(0,-0.2)node[below ]{$\pi$};;
 \end{tikzpicture}
-\caption*{(ب)}
+\caption{}
 \end{subfigure}
 \begin{subfigure}{1\textwidth}
 \centering
@@ -419,7 +419,7 @@ f(x)=
 \draw(-4,0)--++(0,-0.2)node[shift={(-0.25,-0.2)}]{$-\pi$};
 \draw(4,0)--++(0,-0.2)node[below ]{$\pi$};
 \end{tikzpicture}
-\caption*{(پ)}
+\caption{}
 \end{subfigure}
 \begin{subfigure}{1\textwidth}
 \centering
@@ -441,7 +441,7 @@ f(x)=
 \draw(-4,0)--++(0,-0.2)node[shift={(-0.25,-0.2)}]{$-\pi$};
 \draw(4,0)--++(0,-0.2)node[below ]{$\pi$};
 \end{tikzpicture}
-\caption*{(ت)}
+\caption{}
 \end{subfigure}
 \caption{فوریئر تسلسل کی زیادہ ارکان لینے سے اصل تفاعل پر بہتر بیٹھتی شکل حاصل ہوتی ہے (مثال \حوالہ{مثال_فوریئر_چکور_موج})}
 \label{شکل_مثال_فوریئر_چکور_موج}
@@ -531,7 +531,7 @@ f(1-0)=1,\quad f(1+0)=\frac{1}{2}
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\draw(0,0)--++(2.5,0)node[below]{$x$};
+\draw(0,0)--++(2.5,0)node[right]{$x$};
 \draw(0,0)node[ocirc]{}--++(0,1.5)node[left]{$y$};
 %
 \draw(0,1)node[left]{$1$}--++(0.1,0);
@@ -571,7 +571,7 @@ f(x)=a_0+a_1\cos x+b_1\sin x+\cdots+a_n\cos nx+b_n\sin nx+\cdots
 f(x)=a_0+\sum_{n=1}^{\infty}(a_n\cos nx+b_n\sin nx)
 \end{align*}
 %================
-\ابتدا{ثبوت}\quad استمراری تفاعل \عددی{f(x)} جس کا استمراری ایک درجی اور دو درجی تفرق پایا جاتا ہو کی مرکوزیت  (مسئلہ \حوالہ{مسئلہ_فوریئر_مرتکز_شرائط}) کا ثبوت ۔\\
+\ابتدا{ثبوت}\quad استمراری تفاعل \عددی{f(x)} جس کا استمراری یک رتبی اور دو رتبی تفرق پایا جاتا ہو کی مرکوزیت  (مسئلہ \حوالہ{مسئلہ_فوریئر_مرتکز_شرائط}) کا ثبوت ۔\\
 مساوات \حوالہ{مساوات_فوریئر_تسلسل_ج}-ب  کا تکمل بالحصص لیتے ہوئے
 \begin{align*}
 a_n=\frac{1}{\pi}\int_{-\pi}^{\pi}f(x)\cos nx \,\dif x=\left. \frac{f(x)\sin nx}{n\pi}\right|_{-\pi}^{\pi}-\frac{1}{n\pi}\int_{-\pi}^{\pi} f'(x)\sin nx\,\dif x
@@ -606,11 +606,11 @@ a_n=\left.\frac{f'(x)\cos nx}{n^2\pi}\right|_{-\pi}^{\pi}-\frac{1}{n^2\pi}\int_{
 
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-2.2,0)--(2.5,0)node[right]{$x$};
-\draw(0,0)node[below]{$0$}--(0,2)node[right]{$f(x)$};
+\draw(0,0)node[below]{$0$}--(0,2)node[left]{$f(x)$};
 %
 \draw[thick](-2,0)--(-1,0)(-1,1)--(1,1)(1,0)--(2,0);
 \draw(-1,0)node[below]{$-\tfrac{\pi}{2}$}--++(0,1);
@@ -619,13 +619,13 @@ a_n=\left.\frac{f'(x)\cos nx}{n^2\pi}\right|_{-\pi}^{\pi}-\frac{1}{n^2\pi}\int_{
 \draw(2,0)node[below]{$\pi$}--++(0,0.2);
 \draw(0,1)++(0,0.2)node[left]{$1$};
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-2.2,0)--(2.5,0)node[right]{$x$};
-\draw(0,0)node[below]{$0$}--(0,2)node[right]{$f(x)$};
+\draw(0,0)node[below]{$0$}--(0,2)node[left]{$f(x)$};
 %function
 \draw[thick](-2,0)--(0,0)(0,1)node[left]{$1$}--(2,1);
 \draw(2,0)--++(0,1);
@@ -633,13 +633,13 @@ a_n=\left.\frac{f'(x)\cos nx}{n^2\pi}\right|_{-\pi}^{\pi}-\frac{1}{n^2\pi}\int_{
 \draw(-2,0)node[below]{$-\pi$}--++(0,0.2);
 \draw(2,0)node[below]{$\pi$};
 \end{tikzpicture}
-\caption*{(ب)}
+\caption{}
 \end{subfigure}
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-2.2,0)--(2.5,0)node[right]{$x$};
-\draw(0,-1.5)--(0,2)node[right]{$f(x)$};
+\draw(0,-1.5)--(0,2)node[left]{$f(x)$};
 %function
 \draw[thick](-2,-1)--++(2,0)node[right]{$1$}(0,1)node[left]{$1$}--++(2,0);
 \draw(2,0)--++(0,1);
@@ -648,13 +648,13 @@ a_n=\left.\frac{f'(x)\cos nx}{n^2\pi}\right|_{-\pi}^{\pi}-\frac{1}{n^2\pi}\int_{
 \draw(-2,0)--++(0,0.2)node[above]{$-\pi$};
 \draw(2,0)node[below]{$\pi$};
 \end{tikzpicture}
-\caption*{(پ)}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-2.2,0)--(2.5,0)node[right]{$x$};
-\draw(0,-1.5)--(0,2)node[right]{$f(x)$};
+\draw(0,-1.5)--(0,2)node[left]{$f(x)$};
 %function
 \draw[thick](-2,0)--(0,0)(0,-1)node[left]{$-1$}--++(1,0)(1,1)--++(1,0);
 \draw(2,0)--++(0,1);
@@ -664,7 +664,7 @@ a_n=\left.\frac{f'(x)\cos nx}{n^2\pi}\right|_{-\pi}^{\pi}-\frac{1}{n^2\pi}\int_{
 \draw(2,0)node[below]{$\pi$};
 \draw(0,1)node[left]{$1$}--++(0.2,0);
 \end{tikzpicture}
-\caption*{(ت)}
+\caption{}
 \end{subfigure}
 \caption{تفاعل برائے سوال \حوالہ{سوال_فوریئر_تسلسل_دریافت_کریں_الف} تا سوال \حوالہ{سوال_فوریئر_تسلسل_دریافت_کریں_ت}}
 \label{شکل_سوال_فوریئر_تسلسل_دریافت_کریں_الف}
@@ -1066,7 +1066,7 @@ h(-x)=-h(x)
 %
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-2,0)--(2,0)node[right]{$x$};
@@ -1074,9 +1074,9 @@ h(-x)=-h(x)
 \draw(0,0) to [out=180,in=0]++(-0.5,-0.25) to [out=180,in=-45] (-2,1);
 \draw(0,0)node[ocirc]{} to [out=0,in=180]++(0.5,-0.25) to [out=0,in=-135] (2,1);
 \end{tikzpicture}
-\caption*{(الف) جفت تفاعل}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ جفت تفاعل}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-2,0)--(2,0)node[right]{$x$};
@@ -1084,8 +1084,8 @@ h(-x)=-h(x)
 \draw(0,0) to [out=180,in=0]++(-0.5,0.25) to [out=180,in=45] (-2,-1);
 \draw(0,0)node[ocirc]{} to [out=0,in=180]++(0.5,-0.25) to [out=0,in=-135] (2,1);
 \end{tikzpicture}
-\caption*{(ب) طاق تفاعل}
-\end{subfigure}%
+\caption{ طاق تفاعل}
+\end{subfigure} \hfill
 \caption{جفت اور طاق تفاعل}
 \label{شکل_فوریئر_جفت_طاق}
 \end{figure}
@@ -1206,7 +1206,7 @@ f(x)=x+\pi,\quad (-\pi<x<\pi); \quad f(x+2\pi)=f(x)
  کو شکل \حوالہ{شکل_مثال_فوریئر_دندان_موج}-الف میں دکھایا گیا ہے۔اس کی فوریئر تسلسل دریافت کریں۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-2,0)--(2,0)node[below]{$x$};
@@ -1219,7 +1219,7 @@ f(x)=x+\pi,\quad (-\pi<x<\pi); \quad f(x+2\pi)=f(x)
 \draw(-0.5,0)node[below]{$-\pi$};
 \draw(0.5,0)node[below]{$\pi$};
 \end{tikzpicture}
-\caption*{(الف) دی گئی دندان موج $f(x)$}
+\caption{ دی گئی دندان موج $f(x)$}
 \end{subfigure}
 \begin{subfigure}{1\textwidth}
 \centering
@@ -1244,7 +1244,7 @@ f(x)=x+\pi,\quad (-\pi<x<\pi); \quad f(x+2\pi)=f(x)
 \draw[stealth-](2.3,2.8) to [out=90,in=0]++(-0.25,0.25)node[left]{$S_2$};
 \draw[stealth-](3,3) to [out=90,in=0]++(-0.25,0.25)node[left]{$S_3$};
 \end{tikzpicture}
-\caption*{(ب) جزوی مجموعے}
+\caption{ جزوی مجموعے}
 \end{subfigure}
 \caption{دندان موج اور اس کا فوریئر تسلسل (مثال \حوالہ{مثال_فوریئر_دندان_موج})}
 \label{شکل_مثال_فوریئر_دندان_موج}
@@ -1505,7 +1505,7 @@ b_n=\frac{2}{l}\int_0^l f(t)\sin \frac{n\pi}{l}t\,\dif t,\quad n=1,2,\cdots
 ہوں گے۔مساوات \حوالہ{مساوات_فوریئر_نصف_سعت_توسیع_جفت_عددی_سر} اور مساوات \حوالہ{مساوات_فوریئر_نصف_سعت_توسیع_طاق_عددی_سر} میں دی گئی عددی سر استعمال کرتے ہوئے  مساوات \حوالہ{مساوات_فوریئر_نصف_سعت_توسیع_جفت} اور مساوات \حوالہ{مساوات_فوریئر_نصف_سعت_توسیع_طاق} کو دی گئی تفاعل \عددی{f(t)} کی \اصطلاح{نصف سعت اتساع}\فرہنگ{نصف سعت اتساع}\حاشیہب{half range expansion}\فرہنگ{half range expansion} کہتے ہیں۔ 
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--(1.5,0)node[right]{$t$};
@@ -1514,9 +1514,9 @@ b_n=\frac{2}{l}\int_0^l f(t)\sin \frac{n\pi}{l}t\,\dif t,\quad n=1,2,\cdots
 \draw[thick,domain=0:1,smooth] plot ({\x},{0.25+(\x-0.25)*(\x-0.25)});
 \draw(1,0)node[below]{$l$}--++(0,0.2);
 \end{tikzpicture}
-\caption*{(الف) دیا گیا تفاعل $f(t)$}
+\caption{ دیا گیا تفاعل $f(t)$}
 \end{subfigure}
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-2,0)--(3,0)node[right]{$t$};
@@ -1531,9 +1531,9 @@ b_n=\frac{2}{l}\int_0^l f(t)\sin \frac{n\pi}{l}t\,\dif t,\quad n=1,2,\cdots
 \draw(-1,0)node[below]{$-l$}--++(0,0.2);
 \draw(2,0)--++(0,0.2);
 \end{tikzpicture}
-\caption*{(ب) تفاعل $f(t)$ کی جفت دوری توسیع}
+\caption{ تفاعل $f(t)$ کی جفت دوری توسیع}
 \end{subfigure}
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-2,0)--(3,0)node[right]{$t$};
@@ -1553,8 +1553,8 @@ b_n=\frac{2}{l}\int_0^l f(t)\sin \frac{n\pi}{l}t\,\dif t,\quad n=1,2,\cdots
 \draw(1,0)node[shift={(0,-0.3)},fill=white]{$l$};
 \draw(-1,0)node[shift={(-0.15,-0.3)},fill=white]{$-l$};
 \end{tikzpicture}
-\caption*{(پ) تفاعل $f(t)$ کی طاق دوری توسیع}
-\end{subfigure}%
+\caption{ تفاعل $f(t)$ کی طاق دوری توسیع}
+\end{subfigure} \hfill
 \caption{دوری توسیع}
 \label{شکل_فوریئر_دوری_توسیع}
 \end{figure}
@@ -1623,7 +1623,7 @@ f(t)=\frac{8k}{\pi^2}\big(\frac{1}{1^2}\sin \frac{\pi}{l}t-\frac{1}{3^2}\sin \fr
 %
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{1\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-2.5,0)--(4.5,0)node[right]{$t$};
@@ -1636,9 +1636,9 @@ f(t)=\frac{8k}{\pi^2}\big(\frac{1}{1^2}\sin \frac{\pi}{l}t-\frac{1}{3^2}\sin \fr
 \draw(-2,0)node[below]{$-l$}--++(0,0.2);
 \draw(2,0)node[below]{$l$}--++(0,0.2);
 \end{tikzpicture}
-\caption*{(الف) جفت اتساع}
+\caption{ جفت اتساع}
 \end{subfigure}
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{1\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-2.5,0)--(4.5,0)node[right]{$t$};
@@ -1651,7 +1651,7 @@ f(t)=\frac{8k}{\pi^2}\big(\frac{1}{1^2}\sin \frac{\pi}{l}t-\frac{1}{3^2}\sin \fr
 \draw(-2,0)node[shift={(-0.2,-0.3)}]{$-l$}--++(0,0.2);
 \draw(2,0)node[below]{$l$}--++(0,0.2);
 \end{tikzpicture}
-\caption*{(ب) طاق اتساع}
+\caption{ طاق اتساع}
 \end{subfigure}
 \caption{تفاعل \عددی{f(t)} کی دوری اتساع (مثال \حوالہ{مثال_فوریئر_تکونی_دھڑکن})}
 \label{شکل_مثال_فوریئر_تکونی_دھڑکن_توسیع}
@@ -1839,7 +1839,7 @@ j=g(x_0+0)-g(x_0-0)
 یوں اوپر کو چھلانگ مثبت چھلانگ ہو گی جبکہ نیچے کو چھلانگ منفی چھلانگ ہو گی (شکل \حوالہ{شکل_فوریئر_تفاعل_کی_چھلانگ})۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--(2,0)node[below]{$t$};
@@ -1847,9 +1847,9 @@ j=g(x_0+0)-g(x_0-0)
 \draw(0,0.25) to [out=30,in=180]++(0.5,0.5)coordinate(kA)++(0,0.5) to [out=-30,in=135]++(1.5,-0.7);
 \draw[-stealth](kA)++(0,0.1)--++(0,0.3);
 \end{tikzpicture}
-\caption*{(الف) مثبت چھلانگ}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ مثبت چھلانگ}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--(2,0)node[below]{$t$};
@@ -1857,8 +1857,8 @@ j=g(x_0+0)-g(x_0-0)
 \draw(0,0.25) to [out=30,in=180]++(1.5,1)coordinate(kA)++(0,-0.5) to [out=-30,in=135]++(0.5,-0.4);
 \draw[-stealth](kA)++(0,-0.1)--++(0,-0.3);
 \end{tikzpicture}
-\caption*{(ب) منفی چھلانگ}
-\end{subfigure}%
+\caption{ منفی چھلانگ}
+\end{subfigure} 
 \caption{تفاعل کی چھلانگ}
 \label{شکل_فوریئر_تفاعل_کی_چھلانگ}
 \end{figure}
@@ -1944,7 +1944,7 @@ $f''$  & $j''_1=2$ & $j''_2=-2$
 %
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-1.5,0)--(2,0)node[right]{$x$};
@@ -1962,7 +1962,7 @@ $f''$  & $j''_1=2$ & $j''_2=-2$
 \draw(1,0.5)node[right]{$-\pi^2$};
 \end{tikzpicture}
 \end{subfigure}
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-1.5,0)--(2,0)node[right]{$x$};
@@ -1980,7 +1980,7 @@ $f''$  & $j''_1=2$ & $j''_2=-2$
 \draw(1,0.5)node[right]{$-2\pi$};
 \end{tikzpicture}
 \end{subfigure}
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-1.5,0)--(2,0)node[right]{$x$};
@@ -1999,7 +1999,7 @@ $f''$  & $j''_1=2$ & $j''_2=-2$
 \draw(1,0.25)node[right]{$-2$};
 \draw(0,0.25)node[right]{$2$};
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} 
 \caption{تفاعل اور تفاعل کی تفرقات کی چھلانگیں (مثال \حوالہ{مثال_فوریئر_چھلانگ_الف})}
 \label{شکل_مثال_فوریئر_چھلانگ_الف}
 \end{figure}
@@ -2047,7 +2047,7 @@ $f''$  & $j''_1=2$ & $j''_2=-2$
 \begin{align}\label{مساوات_فوریئر_بائیں_دائیں_حد_ج}
 \sum_{s=1}^{m}\int_{x_{s-1}}^{x_s} f'\sin nx\, \dif x=\frac{1}{n} \sum_{s=1}^{m}j'_s\cos nx_s+\frac{1}{n}\sum_{s=1}^{m} \int_{x_{s-1}}^{x_s} f''\cos nx\,\dif x
 \end{align}
-ایسا بار بار کرتے ہوئے ہمیں  تکمل کے اندر \عددی{f} کا بتدریج  زیادہ درجے کا  تفرق حاصل ہو گا۔اب چونکہ \عددی{f} کو کثیر رکنی ظاہر کرتی ہیں اور درجہ \عددی{r} کثیر رکنی کا درجہ \عددی{r+1} تفرق صفر کے برابر ہوتا ہے لہٰذا  آخر کار  کوئی تکمل باقی نہ رہے گا۔تکمل پر محدود مرتبہ یہ عمل کرنے سے ایسا ہو گا۔مساوات \حوالہ{مساوات_فوریئر_بائیں_دائیں_حد_ج} اور اس عمل کے دہرانے سے حاصل نتائج کو مساوات \حوالہ{مساوات_فوریئر_بائیں_دائیں_حد_ث} میں پر کرتے ہوئے درکار کلیہ
+ایسا بار بار کرتے ہوئے ہمیں  تکمل کے اندر \عددی{f} کا بتدریج  زیادہ رتبے کا  تفرق حاصل ہو گا۔اب چونکہ \عددی{f} کو کثیر رکنی ظاہر کرتی ہیں اور درجہ \عددی{r} کثیر رکنی کا \عددی{r+1} رتبی تفرق صفر کے برابر ہوتا ہے لہٰذا  آخر کار  کوئی تکمل باقی نہ رہے گا۔تکمل پر محدود مرتبہ یہ عمل کرنے سے ایسا ہو گا۔مساوات \حوالہ{مساوات_فوریئر_بائیں_دائیں_حد_ج} اور اس عمل کے دہرانے سے حاصل نتائج کو مساوات \حوالہ{مساوات_فوریئر_بائیں_دائیں_حد_ث} میں پر کرتے ہوئے درکار کلیہ
 \begin{multline}\label{مساوات_فوریئر_چھلانگ_عددی_سر_الف}
 a_n=\frac{1}{n\pi}\big[-\sum_{s=1}^{m} j_s\sin nx_s-\frac{1}{n}\sum_{s=1}^{m} j'_s \cos nx_s]\\
 +\frac{1}{n^2} \sum_{s=1}^{m} j''_s\sin nx_s+\frac{1}{n^3}\sum_{s=1}^{m} j'''_s\cos nx_s--++\cdots \big]
@@ -2173,16 +2173,16 @@ b_n=\frac{1}{n\pi}\big[\sum_{s=1}^{m}j_s\cos K_n t_s-\frac{1}{K_n}\sum_{s=1}^{m}
 سوال \حوالہ{سوال_فوریئر_چھلانگ_سے_حل_الف} تا سوال \حوالہ{سوال_فوریئر_چھلانگ_سے_حل_ب} میں فوریئر تسلسل کو مساوات \حوالہ{مساوات_فوریئر_چھلانگ_عددی_سر_الف} تا مساوات \حوالہ{مساوات_فوریئر_چھلانگ_عددی_سر_ت} کی مدد سے حاصل کریں۔
 
 %=========================
-\ابتدا{سوال}\شناخت{سوال_فوریئر_چھلانگ_سے_حل_الف}\quad سوال \حوالہ{سوال_فوریئر_تسلسل_دریافت_کریں_الف} تا سوال \حوالہ{سوال_فوریئر_تسلسل_دریافت_کریں_ت}
+\ابتدا{سوال}\شناخت{سوال_فوریئر_چھلانگ_سے_حل_الف}\quad دوبارہ سوال \حوالہ{سوال_فوریئر_تسلسل_دریافت_کریں_الف} تا سوال \حوالہ{سوال_فوریئر_تسلسل_دریافت_کریں_ت}  حل کریں۔
 \انتہا{سوال}
 %===========================
-\ابتدا{سوال}\quad سوال \حوالہ{سوال_فوریئر_درکار_چھلانگ_الف} تا سوال \حوالہ{سوال_فوریئر_درکار_چھلانگ_ب}
+\ابتدا{سوال}\quad دوبارہ سوال \حوالہ{سوال_فوریئر_درکار_چھلانگ_الف} تا سوال \حوالہ{سوال_فوریئر_درکار_چھلانگ_ب}  حل کریں۔
 \انتہا{سوال}
 %===========================
-\ابتدا{سوال}\quad سوال \حوالہ{سوال_فوریئر_درکار_چھلانگ_پ} تا سوال \حوالہ{سوال_فوریئر_درکار_چھلانگ_ت}
+\ابتدا{سوال}\quad دوبارہ  سوال \حوالہ{سوال_فوریئر_درکار_چھلانگ_پ} تا سوال \حوالہ{سوال_فوریئر_درکار_چھلانگ_ت}  حل کریں۔
 \انتہا{سوال}
 %===========================
-\ابتدا{سوال}\شناخت{سوال_فوریئر_چھلانگ_سے_حل_ب}\quad سوال \حوالہ{سوال_فوریئر_درکار_چھلانگ_ٹ} تا سوال \حوالہ{سوال_فوریئر_درکار_چھلانگ_ث}
+\ابتدا{سوال}\شناخت{سوال_فوریئر_چھلانگ_سے_حل_ب}\quad دوبارہ سوال \حوالہ{سوال_فوریئر_درکار_چھلانگ_ٹ} تا سوال \حوالہ{سوال_فوریئر_درکار_چھلانگ_ث}  حل کریں۔
 \انتہا{سوال}
 %===========================
 سوال \حوالہ{سوال_فوریئر_چھلانگ_کثیر_رکنی_الف} تا سوال \حوالہ{سوال_فوریئر_چھلانگ_کثیر_رکنی_ب} کی فوریئر سائن تسلسل کو مساوات \حوالہ{مساوات_فوریئر_چھلانگ_عددی_سر_الف} تا مساوات \حوالہ{مساوات_فوریئر_چھلانگ_عددی_سر_ت} کی مدد سے حاصل کریں۔
@@ -2227,7 +2227,7 @@ $\tfrac{l^3}{4}+l^3(\tfrac{24}{\pi^4}-\tfrac{6}{\pi^2})\cos\tfrac{\pi t}{l}+\tfr
 \pgfmathsetmacro{\width}{0.9}
 \pgfmathsetmacro{\height}{0.9}
 \node[circle,fill=gray,inner sep=2.5mm] (b) at (0,0) {} ++(-0.37,0)node[left]{کمیت} ++(0.74,0) node[right]{$m$};
-\draw[decorate,decoration={coil,aspect=0.3, segment length=1.7mm, amplitude=3mm}] (0,3) -- (b)node[pos=0.5,shift={(-0.8,0)}]{اسپرنگ}node[pos=0.5,shift={(0.6,0)}]{$k$}; 
+\draw[decorate,decoration={coil,aspect=0.3, segment length=1.7mm, amplitude=3mm}] (0,3) -- (b)node[pos=0.5,shift={(-1,0)}]{اسپرنگ}node[pos=0.5,shift={(0.6,0)}]{$k$}; 
 \fill [pattern = north east lines] (-1,3) rectangle (1,3.2);
 \draw[thick] (-1,3) -- (1,3);
 \draw[dashed](0.9,0)--(1.4,0);
@@ -2443,7 +2443,7 @@ r(t)=
 $y=\tfrac{\pi}{2}+\sum\limits_{n=1}^{\infty}\tfrac{4}{n^2\pi[(n^2-1)^2+n^2c^2]}[nc\sin nt-(n^2-1)\cos nt]$
 \انتہا{سوال}
 %===============================
-\ابتدا{سوال}\quad سلسلہ وار \عددی{RLC} دور کو  \عددی{E(t)} داخلی دباو مہیا کی جاتی ہے۔اس دور میں برقی رو \عددی{I(t)} دریافت کریں۔
+\ابتدا{سوال}\quad سلسلہ وار \عددی{RLC} دور کو  \عددی{E(t)} داخلی دباو مہیا کی جاتی ہے (شکل\حوالہ{شکل_سوال_فورئیر_سلسلہ_وار_دور})۔اس دور میں برقی رو \عددی{I(t)} دریافت کریں۔
 \begin{align*}
 E(t)=
 \begin{cases}
@@ -2458,6 +2458,8 @@ E(t)=
 \begin{tikzpicture}
 \draw(0,0) to [american voltage source,l={$E(t)$}]++(0,\y) to [resistor,l={\SI{1}{\ohm}}]++(\x,0) to [short,i={$I(t)$}]++(\x/4,0) to [inductor,l={$\SI{1}{\henry}$}]++(\x,0) to [capacitor,l={$\SI{0.01}{\farad}$}]++(0,-\y) to [short](0,0);
 \end{tikzpicture}
+\caption{سلسلہ وار دور۔}
+\label{شکل_سوال_فورئیر_سلسلہ_وار_دور}
 \end{figure}
 جواب:\quad
 $I=\sum\limits_{n=1}^{\infty}\tfrac{40}{\pi[n^4-199n^2+10^4]}[n\sin nt-(n^2-10^2)\cos nt]$
@@ -2597,6 +2599,8 @@ f(x)=\lim_{T\to \infty} f_T(x)=
 %
 \begin{figure}
 \centering
+\begin{subfigure}{1\textwidth}
+\centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\k}{0.5}
 \draw(-5,0)--(5,0)node[right]{$x$};
@@ -2608,7 +2612,11 @@ f(x)=\lim_{T\to \infty} f_T(x)=
 \draw(-\k,-0.5)--++(0,-0.3)coordinate[pos=0.5](kA);
 \draw(\k,-0.5)--++(0,-0.3);
 \draw[stealth-stealth] (kA)--++(2*\k,0)node[pos=0.5,fill=white]{$T$};
-\begin{scope}[shift={(0,-3cm)}]
+\end{tikzpicture}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
 \pgfmathsetmacro{\k}{0.5}
 \draw(-5,0)--(5,0)node[right]{$x$};
 \draw(0,0)node[below]{$0$}--(0,1)node[right]{$f_T(x)\, (T=8)$};
@@ -2619,8 +2627,11 @@ f(x)=\lim_{T\to \infty} f_T(x)=
 \draw(-2*\k,-0.5)--++(0,-0.3)coordinate[pos=0.5](kA);
 \draw(2*\k,-0.5)--++(0,-0.3);
 \draw[stealth-stealth] (kA)--++(4*\k,0)node[pos=0.5,fill=white]{$T$};
-\end{scope}
-\begin{scope}[shift={(0,-6cm)}]
+\end{tikzpicture}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
 \pgfmathsetmacro{\k}{0.5}
 \draw(-5,0)--(5,0)node[right]{$x$};
 \draw(0,0)node[below]{$0$}--(0,1)node[right]{$f(x)=\lim_{T\to \infty}f_T(x)$};
@@ -2628,8 +2639,8 @@ f(x)=\lim_{T\to \infty} f_T(x)=
 \draw[thick](0,\k)--++(-\k/2,0)--++(0,-\k)--++(-8*\k,0);
 \draw(\k/2,0)node[shift={(0,-0.25)}]{$1$};
 \draw(-\k/2,0)node[shift={(-0.15,-0.25)}]{$-1$};
-\end{scope}
 \end{tikzpicture}
+\end{subfigure}
 \caption{برائے مثال \حوالہ{مثال_فوریئر_تکمل_الف}}
 \label{شکل_مثال_فوریئر_تکمل_الف}
 \end{figure}
@@ -2648,6 +2659,8 @@ f(x)=\lim_{T\to \infty} f_T(x)=e^{-\abs{x}}
 %
 \begin{figure}
 \centering
+\begin{subfigure}{1\textwidth}
+\centering
 \begin{tikzpicture}
 \draw(-4.5,0)--(5.5,0)node[right]{$x$};
 \draw(0,0)node[below]{$0$}--(0,1.5)node[right]{$f_T(x)$};
@@ -2665,14 +2678,18 @@ f(x)=\lim_{T\to \infty} f_T(x)=e^{-\abs{x}}
 %
 \draw(1,0)node[below]{$\frac{T}{2}$}--++(0,0.2);
 \draw(-1,0)node[below]{$-\frac{T}{2}$}--++(0,0.2);
-\begin{scope}[shift={(0,-3cm)}]
+\end{tikzpicture}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
 \draw(-4.5,0)--(5.5,0)node[right]{$x$};
 \draw(0,0)node[below]{$0$}--(0,1.5)node[right]{$f(x)$};
 %
 \draw(0,1) to [out=-30,in=180](5,0.1);
 \draw(0,1) to [out=-150,in=0](-4.5,0.1);
-\end{scope}
 \end{tikzpicture}
+\end{subfigure}
 \caption{برائے مثال \حوالہ{مثال_فوریئر_تکمل_ب}}
 \label{شکل_مثال_فوریئر_تکمل_ب}
 \end{figure}
@@ -2819,15 +2836,15 @@ f(x)=\frac{2}{\pi}\int_0^{\infty} \frac{\cos wx\,\sin w}{w}\dif w
 %
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \includegraphics{figFourierGibbsPhenomenonA4}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \includegraphics{figFourierGibbsPhenomenonA8}
 \end{subfigure}
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \includegraphics{figFourierGibbsPhenomenonA16}
 \end{subfigure}
@@ -3061,7 +3078,7 @@ $f(ax)=\tfrac{1}{\pi a}\int_0^{\infty} A(\tfrac{w}{a})\cos wx\dif w$
 %======================
 \ابتدا{سوال}\شناخت{سوال_فوریئر_روپ_دیا_ثبوت_ب}\quad
 $x^2f(x)=\tfrac{1}{\pi}\int_0^{\infty} A^*(w)\cos wx\,\dif w,\quad A^*=-\tfrac{\dif ^{\,2} A}{\dif w^2}$\\
-جواب:\quad مساوات \حوالہ{مساوات_فوریئر_تکمل_جفت_الف} کا دو درجی تفرق لے کر
+جواب:\quad مساوات \حوالہ{مساوات_فوریئر_تکمل_جفت_الف} کا دو رتبی تفرق لے کر
 $\tfrac{\dif^{\,2}A}{\dif w^2}=-2\int_0^{\infty} f^*(v)\cos wv\dif v, \quad f^*(v)=v^2f(v)$
 سے ثبوت حاصل ہو گا۔
 \انتہا{سوال}

@@ -679,7 +679,7 @@ x&+2y&-3z&=0
 مثال کے طور پر، دو سیدھی لکیروں کو دو متغیرات کے دو خطی مساوات ظاہر کریں گے۔ایسا نظام صرف اور صرف اس صورت بد خو ہو گا جب ان لکیروں کے مابین زاویہ \عددی{\gamma} چھوٹا ہو یعنی صرف اور صرف جب لکیریں آپس میں تقریباً متوازی ہوں (شکل \حوالہ{شکل_خطی_اعدادی_بد_خو_خوش_خو})۔ایسی صورت میں معمولی خلل سے نقطہ تقاطع میں بہت زیادہ تبدیلی رونما ہو گی۔اگرچہ زیادہ تعداد کی مساواتوں کے بڑے نظام کے لئے ایسی سادہ جیومیٹریائی مثال پیش نہیں کی جا سکتی ہے، بہر حال بڑی نظام کے لئے بھی  صورت حال اصولی طور پر ایسی ہی ہو گی۔ 
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--++(2.5,0)node[below]{$x$};
@@ -689,9 +689,9 @@ x&+2y&-3z&=0
 \draw([shift={(-30:0.5)}]1.25,1) arc (-30:30:0.5);
 \draw(1.25,1)++(0.8,0)node[]{$\gamma$};
 \end{tikzpicture}
-\caption*{(الف) خوش خو نظام}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ خوش خو نظام}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--++(2.5,0)node[below]{$x$};
@@ -699,8 +699,8 @@ x&+2y&-3z&=0
 \draw(1.25,1)++(-180+30:1)--++(30:2);
 \draw(1.25,1)++(-180+35:1)--++(35:2);
 \end{tikzpicture}
-\caption*{(ب) بد خو نظام}
-\end{subfigure}%
+\caption{ بد خو نظام}
+\end{subfigure} \hfill
 \caption{دو متغیرات کے دو خطی مساوات کے نظام}
 \label{شکل_خطی_اعدادی_بد_خو_خوش_خو}
 \end{figure}
@@ -860,7 +860,7 @@ x+\tfrac{1}{2}y+\tfrac{1}{3}z&=1\\
 سے گزرتی لیگرینج کثیر رکنی \عددی{f(x)=x^3-x+1} تلاش کی جا سکتی ہے جس کو شکل \حوالہ{شکل_اعدادی_خطی_تلاش_موزوں_منحنی}-الف میں دکھایا گیا ہے۔البتہ شکل \حوالہ{شکل_اعدادی_خطی_تلاش_موزوں_منحنی}-ب کو دیکھ کر صاف ظاہر ہوتا ہے کہ یہ نقطے تقریباً ایک سیدھی لکیر پر پائے جاتے ہیں۔اگر یہ نقطے کسی تجربہ سے حاصل کیے گئے ہوں تب ظاہر ہے کہ ان نقطوں میں خلل پایا جائے گا اور سیدھی لکیر پر پائے جانے والے نقطے اسی  (شکل) طرح دکھائی دیں گے۔اب اگر تجربے کی طبیعیات کہتی ہے کہ نتائج سیدھی لکیر پر آنے چاہیے تب ہم سیدھی لکیر کو درست تصور کریں گے۔ایسی موزوں (حاصل کردہ) منحنی سے کسی دوسری \عددی{x} کے لئے بھی قیمتیں اخذ کی جا سکتی ہیں۔عموماً صورتوں میں آنکھ سے دیکھ کر موزوں سیدھی لکیر تلاش کی جا سکتی ہے البتہ بہت زیادہ بکھرے  ہوئے نقطوں کی صورت میں ایسا کرنا قابل اعتماد نہیں ہو گا اور حسابی تراکیب استعمال کرنا بہتر ہو گا۔ایسی ایک اہم ترکیب جو گاوس نے پیش کی  \اصطلاح{ترکیب کمتر مربع}\فرہنگ{ترکیب!کمتر مربع}\فرہنگ{کمتر مربع!ترکیب}\حاشیہب{method of least squares}\فرہنگ{least squares!method of} کہلاتی ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-1.5,0)--(1.5,0)node[right]{$x$};
@@ -869,9 +869,9 @@ x+\tfrac{1}{2}y+\tfrac{1}{3}z&=1\\
 \draw[thick,domain=-1.3:1.3] plot ({\x},{\x^3-\x+1});
 \foreach \x in {-1,0,1}{\draw(\x,0)node[below]{$\x$}--++(0,0.1);}
 \end{tikzpicture}
-\caption*{(الف) چار نقطوں سے گزرتی ہوئی کثیر رکنی}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ چار نقطوں سے گزرتی ہوئی کثیر رکنی}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-1.5,0)--(1.5,0)node[right]{$x$};
@@ -882,8 +882,8 @@ x+\tfrac{1}{2}y+\tfrac{1}{3}z&=1\\
 \draw(0,0.5)node[left]{$0.5$}--++(0.1,0);
 \draw(0,1)node[above right]{$1$};
 \end{tikzpicture}
-\caption*{(ب) چار نقطوں سے گزرتی ہوئی سیدھی لکیر}
-\end{subfigure}%
+\caption{ چار نقطوں سے گزرتی ہوئی سیدھی لکیر}
+\end{subfigure} \hfill
 \caption{تلاش موافق منحنی}
 \label{شکل_اعدادی_خطی_تلاش_موزوں_منحنی}
 \end{figure} 
@@ -1010,12 +1010,12 @@ $y=-11.4+5.4x$
 \ابتدا{سوال}\quad
 \begin{align*}
 \centering
-\begin{otherlanguage}{english}
+%\begin{otherlanguage}{english}
 \begin{array}{CCCCCCCCCLR}
-2.8&2.9&3.0&3.1&3.2&3.2&3.2&3.3&3.4&x\,[\si{\gram \per\centi\meter\cubed}]&\text{\RL{\urdufont{خام دھات}}}\\
-30&26&33&31&33&35&37&36&33&y\,[\si{\percent}]&\text{\RL{\urdufont{لوہا کی مقدار}}}
+2.8&2.9&3.0&3.1&3.2&3.2&3.2&3.3&3.4&$x\,[\si{\gram \per\centi\meter\cubed}]$&\text{\RL{{خام دھات}}}\\
+30&26&33&31&33&35&37&36&33&$y\,[\si{\percent}]$&\text{\RL{{لوہا کی مقدار}}}
 \end{array}
-\end{otherlanguage}
+%\end{otherlanguage}
 \end{align*}
 جواب:\quad
 $y=-5.05+12.1x$
@@ -1024,12 +1024,12 @@ $y=-5.05+12.1x$
 \ابتدا{سوال}\quad
 \begin{align*}
 \centering
-\begin{otherlanguage}{english}
+%\begin{otherlanguage}{english}
 \begin{array}{CCCCCLR}
-400&500&600&700&750&x&\text{\RL{\urdufont{فی منٹ چکر}}}\\
-580&1030&1420&1880&2100&y\,[\si{\kilo\watt}]&\text{\RL{\urdufont{انجن کی طاقت}}}
+400&500&600&700&750&$x$&\text{\RL{{فی منٹ چکر}}}\\
+580&1030&1420&1880&2100&$y\,[\si{\kilo\watt}]$&\text{\RL{{انجن کی طاقت}}}
 \end{array}
-\end{otherlanguage}
+%\end{otherlanguage}
 \end{align*}
 \انتہا{سوال}
 %==============================
@@ -1037,12 +1037,12 @@ $y=-5.05+12.1x$
 سیدھی سڑک پر  ایک گاڑی مستقل رفتار \عددی{v=b_1 \,\si{\meter\per\second}} سے چلتے ہوئے وقت  \عددی{t\,[\si{\second}]} میں \عددی{y=b_0+b_1t} فاصلہ طے کرے گی۔مختلف لمحات پر درج ذیل فاصلے ناپے جاتے ہیں۔
 \begin{align*}
 \centering
-\begin{otherlanguage}{english}
+%\begin{otherlanguage}{english}
 \begin{array}{CCCCCLR}
-0&3&5&8&10&t\,[\si{\second}]&\text{\RL{\urdufont{وقت}}}\\
-100&130&140&170&190&y\,[\si{\meter}]&\text{\RL{\urdufont{فاصلہ}}}
+0&3&5&8&10&$t\,[\si{\second}]$&\text{\RL{{وقت}}}\\
+100&130&140&170&190&$y\,[\si{\meter}]$&\text{\RL{{فاصلہ}}}
 \end{array}
-\end{otherlanguage}
+%\end{otherlanguage}
 \end{align*}
 ان نقطوں کو \عددی{ty} سطح پر کھینچیں۔ان نقطوں پر سیدھی لکیر (الف) آنکھ سے دیکھتے ہوئے، (ب) ترکیب کمتر مربع کی استعمال سے بٹھائیں۔اس سیدھی لکیر سے رفتار کی تخمینی قیمت حاصل کریں۔\\
 جواب:\quad
@@ -1071,12 +1071,12 @@ $(1.09,1.35),(1.28,1.58),(1.36,1.68),(1.44,1.85),(1.60,2.23),(1.65,2.38)$
 معمولی ڈھلوان پر چلتے ہوئے ٹریکٹر کی رفتار بالمقابل بوجھ دیا گیا ہے۔
 \begin{align*}
 \centering
-\begin{otherlanguage}{english}
+%\begin{otherlanguage}{english}
 \begin{array}{CCCCCLR}
-1.4&1.8&2.3&3.0&4.0&x\,[\si{\kilo\meter\per\hour}]&\text{\RL{\urdufont{رفتار}}}\\
-7400&7500&7600&7500&7200&y\,[\si{\kilogram}]&\text{\RL{\urdufont{کمیت}}}
+1.4&1.8&2.3&3.0&4.0&$x\,[\si{\kilo\meter\per\hour}]$&\text{\RL{{رفتار}}}\\
+7400&7500&7600&7500&7200&$y\,[\si{\kilogram}]$&\text{\RL{{کمیت}}}
 \end{array}
-\end{otherlanguage}
+%\end{otherlanguage}
 \end{align*}
 جواب:\quad
 $y=6642+762.3x-156.1x^2$
@@ -1085,12 +1085,12 @@ $y=6642+762.3x-156.1x^2$
 \ابتدا{سوال}\شناخت{سوال_خطی_اعدادی_موزوں_قطع_مکافی_ب}\quad
 \begin{align*}
 \centering
-\begin{otherlanguage}{english}
+%\begin{otherlanguage}{english}
 \begin{array}{CCCCCCLR}
-1&2&3&4&5&6&x\,[\si{\hour}]&\text{\RL{\urdufont{مزدور کا کام کرنے کا دورانیہ}}}\\
-1.50&1.48&1.75&1.65&1.72&1.55&y\,[\si{\second}]&\text{\RL{\urdufont{رد عمل میں دیری}}}
+1&2&3&4&5&6&$x\,[\si{\hour}]$&\text{\RL{{مزدور کا کام کرنے کا دورانیہ}}}\\
+1.50&1.48&1.75&1.65&1.72&1.55&$y\,[\si{\second}]$&\text{\RL{{رد عمل میں دیری}}}
 \end{array}
-\end{otherlanguage}
+%\end{otherlanguage}
 \end{align*}
 \انتہا{سوال}
 %==============================

@@ -21,7 +21,7 @@ w=f(z)=u(x,y)+iv(x,y)\quad \quad \quad (z=x+iy)
 
 اگرچہ  \عددی{w} اور \عددی{z} کو دو علیحدہ علیحدہ سطحوں سے ظاہر کیا جاتا ہے، بعض اوقات یوں  سوچنا زیادہ بہتر ثابت ہوتا ہے  کہ اصل اور نقش ایک ہی سطح پر پائے جاتے ہوں اور  عمومی اصطلاحات مثلاً " گھومنا" اور "مستقیم حرکت" استعمال کرنا۔یوں \عددی{w=z+3}   مستقیم حرکت کہلائے گی جو \عددی{z} سطح میں ہر نقطہ کو دائیں جانب تین اکایاں منتقل کرتی ہے۔
 
-تحلیل تفاعل \عددی{w=u+iv=f(z)} جس نقشہ کو ظاہر کرتا ہو، کی کسی مخصوص  خاصیت  جاننے کے لئے ہم \عددی{z} سطح میں سیدھے لکیروں \عددی{x=\text{مستقل}} اور \عددی{y=\text{مستقل}} کا \عددی{w} سطح میں عکس پر غور کر سکتے ہیں۔اسی طرح ہم دائرہ \عددی{\abs{z}=\text{مستقل}} یا مبدا سے گزرتی سیدھی لکیروں کی عکس پر غور کر سکتے ہیں۔اس کے علاوہ ہم \عددی{u(x,y)=\text{مستقل}} اور \عددی{v(x,y)=\text{مستقل}} منحنیات پر \عددی{z} سطح میں غور کر سکتے ہیں۔ان منحنیات کو \عددی{u} اور \عددی{v} کی \اصطلاح{ہموار منحنیات}\فرہنگ{ہموار!منحنی}\حاشیہب{level curves}\فرہنگ{curve!level} کہتے ہیں۔ ہم سادہ اشکال مثلاً چکور، تکون، مستطیل وغیرہ اور ان کے عکس پر بھی غور کر سکتے ہیں۔
+تحلیل تفاعل \عددی{w=u+iv=f(z)} جس نقشہ کو ظاہر کرتا ہو، کی کسی مخصوص  خاصیت  جاننے کے لئے ہم \عددی{z} سطح میں سیدھے لکیروں \عددی{x=\text{مستقل}} اور \عددی{y=\text{مستقل}} کا \عددی{w} سطح میں عکس پر غور کر سکتے ہیں۔اسی طرح ہم دائرہ \عددی{\abs{z}=\text{مستقل}} یا مبدا سے گزرتی سیدھی لکیروں کی عکس پر غور کر سکتے ہیں۔اس کے علاوہ ہم \عددی{u(x,y)=\text{مستقل}} اور \عددی{v(x,y)=\text{مستقل}} منحنیات پر \عددی{z} سطح میں غور کر سکتے ہیں۔ان منحنیات کو \عددی{u} اور \عددی{v} کی \اصطلاح{ہم قد  منحنیات}\فرہنگ{برابر!منحنی}\حاشیہب{level curves}\فرہنگ{curve!level} کہتے ہیں۔ ہم سادہ اشکال مثلاً چکور، تکون، مستطیل وغیرہ اور ان کے عکس پر بھی غور کر سکتے ہیں۔
 
 آئیں چند مثالوں کی مدد سے ان حقائق کو بہتر سمجھنے کی کوشش کرتے ہیں۔
 
@@ -39,6 +39,21 @@ w=z
 %
 \begin{figure}
 \centering
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)--++(3,0)node[below]{$u$};
+\draw(0,0)node[below]{$0$}--++(0,2)node[right]{$v$};
+\draw(2,1)node[left]{$A^*$}--++(0.5,0)node[right]{$B^*$}--++(0,1)node[right]{$C^*$}--++(-0.5,0)node[left]{$D^*$}--++(0,-1);
+\foreach \x in {0.5,1,1.5,2,2.5}{\draw (\x,0)--++(0,0.1);}
+\foreach \y in {0.5,1,1.5}{\draw (0,\y)--++(0.1,0);}
+\draw(2,0)node[below]{$4$};
+\draw(0,1)node[left]{$2$};
+\end{tikzpicture}
+\caption*{($\,w$ مستوی)}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
+\centering
 \begin{tikzpicture}
 \draw(0,0)--++(3,0)node[below]{$x$};
 \draw(0,0)node[below]{$0$}--++(0,2)node[right]{$y$};
@@ -47,18 +62,9 @@ w=z
 \foreach \y in {0.5,1,1.5}{\draw (0,\y)--++(0.1,0);}
 \draw(2,0)node[below]{$4$};
 \draw(0,1)node[left]{$2$};
-\draw(1.5,-0.5)node[below]{\text{\RL{($\,z$ مستوی)}}};
-\begin{scope}[shift={(4cm,0)}]
-\draw(0,0)--++(3,0)node[below]{$u$};
-\draw(0,0)node[below]{$0$}--++(0,2)node[right]{$v$};
-\draw(2,1)node[left]{$A^*$}--++(0.5,0)node[right]{$B^*$}--++(0,1)node[right]{$C^*$}--++(-0.5,0)node[left]{$D^*$}--++(0,-1);
-\foreach \x in {0.5,1,1.5,2,2.5}{\draw (\x,0)--++(0,0.1);}
-\foreach \y in {0.5,1,1.5}{\draw (0,\y)--++(0.1,0);}
-\draw(2,0)node[below]{$4$};
-\draw(0,1)node[left]{$2$};
-\draw(1.5,-0.5)node[below]{\text{\RL{($\,w$ مستوی)}}};
-\end{scope}
 \end{tikzpicture}
+\caption*{($\,z$ مستوی )}
+\end{subfigure}
 \caption{مستقیم حرکت \عددی{w=z+2+i}}
 \label{شکل_مثال_نقش_خطی_مستقیم}
 \end{figure}
@@ -69,6 +75,28 @@ w=az\quad \quad \quad (\abs{a}=1)
 \end{align*}
 مقررہ زاویہ \عددی{\phase{a}} سے گھومنے کو ظاہر کرتا ہے۔شکل \حوالہ{شکل_نقش_گھومنا} میں \عددی{w=iz} یعنی  گھڑی کی سوئیوں کی گھومنے کی الٹ رخ \عددی{\tfrac{\pi}{2}} زاویہ سے گھومنا دکھایا گیا ہے۔
 \begin{figure}
+\centering
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(-3,0)--(0.75,0)node[below]{$u$};
+\draw(0,0)node[below]{$0$}--++(0,2.5)node[right]{$v$};
+\draw([shift={(90:1)}]0,0) arc (90:180:1);
+\draw([shift={(90:2)}]0,0) arc (90:180:2);
+\draw[dashed](0,0)--++(120:2.5);
+\draw[dashed](0,0)--++(150:2.5);
+\foreach \x in {0.5,-0.5,-1,-1.5,-2,-2.5}{\draw(\x,0)--++(0,0.1);}
+\foreach \y in {0.5,1,1.5,2}{\draw(0,\y)--++(0.1,0);}
+\draw(-2.5,0.1)node[above]{$-5$};
+\draw(0.1,1.5)node[right]{$3$};
+\draw(0,1)node[right]{$A^*$};
+\draw(0,2)node[right]{$B^*$};
+\draw(-1,0)node[below]{$C^*$};
+\draw(-2,0)node[below]{$D^*$};
+\end{tikzpicture}
+\caption*{($\,w$ مستوی)}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--++(3,0)node[below]{$x$};
@@ -85,26 +113,9 @@ w=az\quad \quad \quad (\abs{a}=1)
 \draw(2,0)node[below]{$B$};
 \draw(0,1)node[left]{$C$};
 \draw(0,2)node[left]{$D$};
-\draw(1.5,-0.5)node[below]{\text{\RL{($\,z$ مستوی)}}};
-%
-\begin{scope}[xshift={8cm}]
-\draw(-3,0)--(0.75,0)node[below]{$u$};
-\draw(0,0)node[below]{$0$}--++(0,2.5)node[right]{$v$};
-\draw([shift={(90:1)}]0,0) arc (90:180:1);
-\draw([shift={(90:2)}]0,0) arc (90:180:2);
-\draw[dashed](0,0)--++(120:2.5);
-\draw[dashed](0,0)--++(150:2.5);
-\foreach \x in {0.5,-0.5,-1,-1.5,-2,-2.5}{\draw(\x,0)--++(0,0.1);}
-\foreach \y in {0.5,1,1.5,2}{\draw(0,\y)--++(0.1,0);}
-\draw(-2.5,0.1)node[above]{$-5$};
-\draw(0.1,1.5)node[right]{$3$};
-\draw(0,1)node[right]{$A^*$};
-\draw(0,2)node[right]{$B^*$};
-\draw(-1,0)node[below]{$C^*$};
-\draw(-2,0)node[below]{$D^*$};
-\draw(-1.5,-0.5)node[below]{\text{\RL{($\,w$ مستوی)}}};
-\end{scope}
 \end{tikzpicture}
+\caption*{($\,z$ مستوی)}
+\end{subfigure}
 \caption{گھڑی کی الٹ رخ گھومنے کا زاویہ \عددی{\tfrac{\pi}{2}} ہے۔}
 \label{شکل_نقش_گھومنا}
 \end{figure}
@@ -124,6 +135,8 @@ w=az+b
 \اصطلاح{خطی تبادل}\فرہنگ{تبادل!خطی}\حاشیہب{linear transformation}\فرہنگ{transformation!linear} کہلاتا ہے جو گھومنے کے ساتھ اتساع یا سکڑاو \عددی{w_1=az} کے ساتھ ساتھ مستقیم حرکت \عددی{w=w_1+b} کو ظاہر کرتا ہے۔ شکل \حوالہ{شکل_نقش_خطی_تبادل} میں \عددی{w=(1+i)z+2i} تبادل دکھایا گیا ہے جو گھڑی کی الٹ رخ  \عددی{\tfrac{\pi}{4}} زاویے کے گھومنے اور \عددی{\abs{1+i}=\sqrt{2}} تناسب کی اتساع کے بعد اوپر کی رخ مستقیم حرکت کو ظاہر کرتا ہے۔  
 \begin{figure}
 \centering
+\begin{subfigure}{0.30\textwidth}
+\centering
 \begin{tikzpicture}
 \draw(0,0)--++(2,0)node[below]{$x$};
 \draw(0,0)--++(0,2)node[left]{$y$};
@@ -138,10 +151,14 @@ w=az+b
 \draw(0,1.5)node[left]{$3$};
 \draw[thick](0,0)--++(1.5,0)node[shift={(0.2,0.2)}]{$B$};
 \draw[thick](0,0)node[shift={(0.2,0.2)}]{$A$}--++(0,1.5)node[shift={(0.2,0.2)}]{$C$};
-\draw(1,-1)node[]{$z=x+iy$};
-\draw(1,-1.5)node[]{\text{\RL{($\,z$ مستوی)}}};
+\draw(1,-1)node[]{};
 \draw(0,0)node[below]{$0$}node[left]{$0$};
-\begin{scope}[xshift={(4cm)}]
+\end{tikzpicture}
+\caption*{$z=x+iy$\\ ($\,z$ مستوی)}
+\end{subfigure}\hfill
+\begin{subfigure}{0.30\textwidth}
+\centering
+\begin{tikzpicture}
 \draw(-1.5,0)--(1.5,0)node[below]{$u_1$};
 \draw(0,0)--++(0,2.75)node[right]{$v_1$};
 \draw([shift={(45:0.707)}]0,0) arc (45:135:0.707);
@@ -153,10 +170,12 @@ w=az+b
 \foreach \x in {-1,-0.5,1}{\draw(\x,0)--++(0,0.1);}
 \foreach \y in {0.5,1,1.5,2,2.5}{\draw(0,\y)--++(0.1,0);}
 \draw(0,2.5)node[left]{$5$};
-\draw(1,-1)node[]{$w_1=u_1+iv_1$};
-\draw(1,-1.5)node[]{\text{\RL{($\,w_1$ مستوی)}}};
-\end{scope}
-\begin{scope}[xshift={(8cm)}]
+\end{tikzpicture}
+\caption*{$w_1=u_1+iv_1$\\ ($\,w_1$ مستوی)}
+\end{subfigure}\hfill
+\begin{subfigure}{0.30\textwidth}
+\centering
+\begin{tikzpicture}
 \draw(-1.5,0)--(1.5,0)node[below]{$u$};
 \draw(0,0)--++(0,3.75)node[right]{$v$};
 \draw([shift={(45:0.707)}]0,1) arc (45:135:0.707);
@@ -168,10 +187,9 @@ w=az+b
 \foreach \x in {-1,-0.5,0.5,1}{\draw(\x,0)--++(0,0.1);}
 \foreach \y in {0.5,1,1.5,2,2.5,3.5}{\draw(0,\y)--++(0.1,0);}
 \draw(0,2.6)node[left]{$5$};
-\draw(1,-1)node[]{$w=u+iv$};
-\draw(1,-1.5)node[]{\text{\RL{($\,w$ مستوی)}}};
-\end{scope}
 \end{tikzpicture}
+\caption*{$w=u+iv$\\ ($\,w$ مستوی)}
+\end{subfigure}
 \caption{خطی تبادل $w=(1+i)z+2i$ جس میں  گھومنا،  اتساع $w_1=(1+i)z$ اور مستقیم حرکت $w=w_1+2i$ شامل ہے۔}
 \label{شکل_نقش_خطی_تبادل}
 \end{figure}
@@ -189,6 +207,8 @@ R=r^2,\quad \phi=2\theta
 حاصل ہوتے ہیں۔ یوں دائروں \عددی{r=r_0=\text{مستقل}} کا نقش دائرے \عددی{R=r_0^2=\text{مستقل}} ہوں گے جبکہ مبدا سے گزرتی سیدھی لکیروں \عددی{\theta=\theta_0=\text{مستقل}} کا نقش دگنی زاویہ پر لکیریں \عددی{\phi=2\theta_0=\text{مستقل}} ہوں گی۔ خاص کر \عددی{z} سطح میں مثبت حقیقی محور \عددی{(\theta=0)} کا نقش \عددی{w} سطح میں مثبت حقیقی محور ہو گا جبکہ \عددی{z} سطح میں مثبت خیالی محور \عددی{\theta=\tfrac{\pi}{2}} کا نقش \عددی{w} سطح میں منفی حقیقی محور ہو گا۔ یہ نقش  مبدا پر ہر زاویہ کو دگنا کرتا ہے۔ربع اول \عددی{0\le \theta \le \tfrac{\pi}{2}} کا نقش بالائی نصف \عددی{w} سطح ہو گی (شکل \حوالہ{شکل_نقش_مربع})۔
 \begin{figure}
 \centering
+\begin{subfigure}{0.35\textwidth}
+\centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\len}{3/4}
 \draw(0,0)--++(2.5,0)node[below]{$x$};
@@ -203,7 +223,12 @@ R=r^2,\quad \phi=2\theta
 \draw(0,2*\len)node[left]{$2$};
 \draw[dashed](0,0)--++(30:2.5*\len);
 \draw[dashed](0,0)node[below]{$0$}node[left]{$0$}--++(60:2.5*\len);
-\begin{scope}[xshift={(7cm)}]
+\end{tikzpicture}
+\end{subfigure}\hfill
+\begin{subfigure}{0.65\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\len}{3/4}
 \draw(-3.5,0)--(3.5,0)node[below]{$u$};
 \draw(0,0)--++(0,3.5)node[left]{$v$};
 \draw([shift={(0:0.25*\len)}]0,0) arc (0:180:0.25*\len);
@@ -221,8 +246,8 @@ R=r^2,\quad \phi=2\theta
 \draw(-4*\len,0)node[below]{$-4$};
 \draw[dashed](0,0)node[below]{$0$}--++(60:4.5*\len);
 \draw[dashed](0,0)--++(120:4.5*\len);
-\end{scope}
 \end{tikzpicture}
+\end{subfigure}
 \caption{نقش \عددی{w=z^2}}
 \label{شکل_نقش_مربع}
 \end{figure}
@@ -235,7 +260,7 @@ u+iv=x^2-y^2+i2xy
 \begin{align}\label{مساوات_نقش_مربع_ب}
 u=x^2-y^2,\quad v=2xy
 \end{align}
-ملتا ہے۔ہم دیکھتے ہیں کہ \عددی{u} اور \عددی{v} کی \اصطلاح{ہموار سطحات}\فرہنگ{ہموار!سطح}\فرہنگ{سطح!ہموار} متساوی الاضلاع قطع زائد ہوں گے جن کی متقارب لکیریں\فرہنگ{متقارب!لکیریں}\حاشیہب{asymptotes} \عددی{y=\mp x} اور محدد کی محور ہیں۔ہم دیکھتے ہیں مساوات \حوالہ{مساوات_نقش_مربع_ب} میں دیے گئے  خطوط ایک دوسرے کی عمودی مطقاطع خطوط (حصہ \حوالہ{حصہ_درجہ_اول_عمودی_خطوط_کی_نسلیں}) ہیں۔ شکل \حوالہ{شکل_نقش_مربع_ہموار_سطحیں} میں \عددی{z} سطح میں دو خطے \عددی{w} سطح میں مستطیل پر نقش ہوں گے۔ظاہر ہے کہ ہر نقطہ \عددی{w\ne 0} سطح \عددی{z} میں ٹھیک  دو نقطوں کا عکس ہو گا۔
+ملتا ہے۔ہم دیکھتے ہیں کہ \عددی{u} اور \عددی{v} کی \اصطلاح{ہم قد  سطحات}\فرہنگ{برابر!سطح}\فرہنگ{سطح!برابر} متساوی الاضلاع قطع زائد ہوں گے جن کی متقارب لکیریں\فرہنگ{متقارب!لکیریں}\حاشیہب{asymptotes} \عددی{y=\mp x} اور محدد کی محور ہیں۔ہم دیکھتے ہیں مساوات \حوالہ{مساوات_نقش_مربع_ب} میں دیے گئے  خطوط ایک دوسرے کی عمودی مطقاطع خطوط (حصہ \حوالہ{حصہ_درجہ_اول_عمودی_خطوط_کی_نسلیں}) ہیں۔ شکل \حوالہ{شکل_نقش_مربع_ہموار_سطحیں} میں \عددی{z} سطح میں دو خطے \عددی{w} سطح میں مستطیل پر نقش ہوں گے۔ظاہر ہے کہ ہر نقطہ \عددی{w\ne 0} سطح \عددی{z} میں ٹھیک  دو نقطوں کا عکس ہو گا۔
 
 ہم مساوات \حوالہ{مساوات_نقش_مربع_ب} استعمال کرتے ہوئے سیدھی خطوط \عددی{x=\text{مستقل}} اور \عددی{y=\text{مستقل}} کا عکس تلاش کر سکتے ہیں۔خط \عددی{x=c=\text{مستقل}} کا عکس
 \begin{align*}
@@ -252,8 +277,10 @@ v^2=4k^2(k^2+u)
 ہو گا جو دائیں کو کھلتا ہوا قطع مکافی ہے جس کا ماسکہ عین مبدا پر ہے (شکل \حوالہ{شکل_نقش_مربع_نقش_میں_سیدھے_خطوط_کا_عکس})۔
 \begin{figure}
 \centering
+\begin{subfigure}{0.65\textwidth}
+\centering
 \begin{tikzpicture}
-\begin{axis}[small,clip=false,axis lines*=middle,ymin=-3,ymax=3,xmin=-3,xmax=3.5,xtick={-1,1},ytick={-1,1},xticklabels={$-1$,$1$},yticklabels={$-1$,$1$},xlabel={$x$},ylabel={$y$},ylabel style={rotate=-90},xlabel style={at={(current axis.right of origin)},anchor=west},ylabel style={at={(current axis.above origin)},anchor=south}]
+\begin{axis}[,clip=false,myStyleA,ymin=-3,ymax=3,xmin=-3,xmax=3.5,xtick={-1,1},ytick={-1,1},xticklabels={$-1$,$1$},yticklabels={$-1$,$1$},xlabel={$x$},ylabel={$y$},]
 \shade[fill=gray!20!white](axis cs: 1.53,0.64)--(axis cs:1.7989,1.1118)--(axis cs: 2.236,0.8944)--(axis cs:2.05817,0.4858)--(axis cs: 1.53,0.64);
 \shade[fill=gray!20!white](axis cs: 2.236,0.8944)--(axis cs:2.05817,0.4858)--(axis cs:2.48239,0.402837)--(axis cs:2.57,0.7782)--(axis cs:2.236,0.8944);
 %
@@ -294,7 +321,11 @@ v^2=4k^2(k^2+u)
 \addplot[domain=0.7:3,dashed](-{x},{-4/(2*x)});
 \addplot[domain=1.05:3,dashed](-{x},{-6/(2*x)});
 \end{axis}
-\begin{scope}[shift={(8cm,2cm)}]
+\end{tikzpicture}
+\end{subfigure}\hfill
+\begin{subfigure}{0.35\textwidth}
+\centering
+\begin{tikzpicture}
 \pgfmathsetmacro{\kk}{0.25}
 \draw[dashed](-4.5*\kk,0)--(4.5*\kk,0)node[right]{$u$};
 \draw(0,-4.5*\kk)--(0,4.5*\kk)node[above]{$v$};
@@ -304,16 +335,16 @@ v^2=4k^2(k^2+u)
 \foreach \x in {-4,-3,-2,-1,1,2,3,4}{\draw(\x*\kk,-4.5*\kk)--++(0,9*\kk);}
 \foreach \y in {-4,-3,-2,-1,1,2,3,4}{\draw[dashed](-4.5*\kk,\y*\kk)--++(9*\kk,0);}
 \draw(0,0)node[ocirc]{};
-\end{scope}
 \end{tikzpicture}
-\caption{نقش $w=z^2$ کی صورت میں $u$ اور $v$ کی ہموار سطحیں}
+\end{subfigure}
+\caption{نقش $w=z^2$ کی صورت میں $u$ اور $v$ کی ہم قد سطحیں}
 \label{شکل_نقش_مربع_ہموار_سطحیں}
 \end{figure}
 %
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,clip=false,axis lines*=middle,ymin=-5,ymax=5,xmin=-5.5,xmax=5.5,xtick={-2,-3,-5,2,3,5},xticklabels={$-2$,$-3$,$-5$,$2$,$3$,$5$},ytick={-4,-2,2,4},yticklabels={$-4$,$-2$,$2$,$4$},xlabel style={at={(current axis.right of origin)},anchor=west},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=west},xlabel={$u$},ylabel={$v$}]
+\begin{axis}[,clip=false,myStyleA,ymin=-5,ymax=5,xmin=-5.5,xmax=5.5,xtick={-2,-3,-5,2,3,5},xticklabels={$-2$,$-3$,$-5$,$2$,$3$,$5$},ytick={-4,-2,2,4},yticklabels={$-4$,$-2$,$2$,$4$},xlabel={$u$},ylabel={$v$}]
 \addplot[dashed,domain=-2.3:2.3] ({0.5^2-x^2/(4*0.5^2)},{x})node[pos=0,left]{$x=\tfrac{1}{2}$};
 \addplot[dashed,domain=-5:5] ({1^2-x^2/(4*1^2)},{x})node[pos=0,left]{$x=1$};
 \addplot[dashed,domain=-3.5:3.5] ({1.5^2-x^2/(4*1.5^2)},{x});
@@ -334,10 +365,12 @@ v^2=4k^2(k^2+u)
 \begin{align}
 w=z^n,\quad n=3,4,\cdots
 \end{align}
-پر بھی اسی طرح غور کیا جا سکتا ہے۔ظاہر ہے کہ ان کی ہموار سطحات کی مساوات مزید پیچیدہ ہوں گی۔زاویائی خطہ \عددی{0\le \phase{z} \le \tfrac{\pi}{n}} بالائی نصف \عددی{w} سطح پر نقش ہو گا (شکل \حوالہ{شکل_نقش_عمومی_طاقت})۔
+پر بھی اسی طرح غور کیا جا سکتا ہے۔ظاہر ہے کہ ان کی \اصطلاحء{ہم قد  سطحات} کی مساوات مزید پیچیدہ ہوں گی۔زاویائی خطہ \عددی{0\le \phase{z} \le \tfrac{\pi}{n}} بالائی نصف \عددی{w} سطح پر نقش ہو گا (شکل \حوالہ{شکل_نقش_عمومی_طاقت})۔
 
 منفی طاقت کی نقش \عددی{\tfrac{1}{z},\tfrac{1}{z^2},\cdots} پر بھی قطبی محدد کی مدد سے غور کیا جا سکتا ہے۔عملاً اہم ترین صورت درج ذیل مثال میں دی گئی ہے۔
 \begin{figure}
+\centering
+\begin{subfigure}{0.30\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--++(2,0)node[below]{$x$};
@@ -345,12 +378,15 @@ w=z^n,\quad n=3,4,\cdots
 \draw(0,0)--++(30:1.5);
 \draw[-stealth]([shift={(0:0.5)}]0,0) arc (0:30:0.5);
 \draw(15:0.9)node{$\tfrac{\pi}{n}$};
-%
-\begin{scope}[xshift={(6cm)}]
+\end{tikzpicture}
+\end{subfigure}\hfill
+\begin{subfigure}{0.60\textwidth}
+\centering
+\begin{tikzpicture}
 \draw(-2,0)--(2,0)node[below]{$u$};
 \draw(0,0)--++(0,1)node[right]{$v$};
-\end{scope}
 \end{tikzpicture}
+\end{subfigure}
 \caption{نقش $w=z^n\,$}
 \label{شکل_نقش_عمومی_طاقت}
 \end{figure}
@@ -415,7 +451,7 @@ A+Bu-Cv+D(u^2+v^2)=0
 
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-2.25,0)--(1.5,0)node[right]{$x$};
@@ -435,8 +471,8 @@ A+Bu-Cv+D(u^2+v^2)=0
 \draw[fill=black] (-2,0.5)--++(1,0)--++(0,0.5)--++(-1,0)--++(0,-0.5);
 \draw[fill=gray] (0.5,-0.5)--++(0.5,0)--++(0,-0.5)--++(-0.5,0)--++(0,0.5);
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \def\ringa{(0,-1) circle (1) (0,-1/2) circle (1/2)}
 \def\ringb{(-1/2,0) circle (1/2) (-1/4,0) circle (1/4)}
@@ -494,7 +530,7 @@ A+Bu-Cv+D(u^2+v^2)=0
 \draw[stealth-](0,-2.5) to [out=20,in=180]++(0.3,0.1)node[right]{$x=0$};
 \draw[stealth-](2.25,0) to [out=60,in=-145]++(0.3,0.3)node[above]{$y=0$};
 \end{tikzpicture}%
-\end{subfigure}%
+\end{subfigure} \hfill
 \caption{نقش \عددی{w=\tfrac{1}{z}}}
 \label{شکل_نقش_مثال_الٹ}
 \end{figure}
@@ -722,7 +758,7 @@ $w=iz^3$
 سطح میں ایسا نقش جو سمت بند منحنیات کے درمیان زاویوں کی مقدار اور ان زاویوں کی مثبت سمت برقرار رکھتا ہو \اصطلاح{محافظ زاویہ نقش}\فرہنگ{محافظ زاویہ}\فرہنگ{محافظ زاویہ}\حاشیہب{conformal}\فرہنگ{conformal} کہلاتا ہے، یعنی دو سمت بند منحنیات کا زاویہ تقاطع اور اس زاویہ کی مثبت سمت،  عکس کی (مطابقتی سمت بن) منحنیات  کا زاویہ تقاطع اور اس زاویہ کی مثبت سمت ایک جیسے ہوں گے۔یہاں دو منحنیات کے مابین زاویہ سے مراد ان کی نقطہ تقاطع پر مماثل کے مابین زاویہ \عددی{\alpha\,(0\le \alpha \le \pi)} ہے (شکل \حوالہ{شکل_نقش_محافظ_زاویہ})۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\angA}{-45}
@@ -734,8 +770,8 @@ $w=iz^3$
 \draw[-stealth]([shift={(-45:0.7)}]intersection-1) arc (-45:60:0.7);
 \draw(intersection-1)node[ocirc]{}++(10:0.9)node[]{$\alpha$};
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw[thick](0,0)--++(-0.5,0);
@@ -747,7 +783,7 @@ $w=iz^3$
 \draw[-stealth]([shift={(0:0.8)}]0,0) arc (0:105:0.8);
 \draw(55:1)node[]{$\alpha$};
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} \hfill
 \caption{منحنیات \عددی{C_1} اور \عددی{C_2} کا محافظ زاویہ نقش میں عکس بالترتیب \عددی{C_1^*} اور \عددی{C_2^*} ہے۔}
 \label{شکل_نقش_محافظ_زاویہ}
 \end{figure}
@@ -905,7 +941,7 @@ h_{xx}+h_{yy}=h_{uu}(u_x^2+u_y^2)+h_{vv}(v_x^2+v_y^2)
 \انتہا{سوال}
 %=====================
 \ابتدا{سوال}
-ایسا نقطہ جہاں \عددی{f'(z)\ne 0} ہو پر تحلیلی تفاعل \عددی{w=u+iv=f(z)} کی ہموار منحنیات \عددی{u=\text{مستقل}=c} اور \عددی{v=\text{مستقل}=c^*} کیوں ایک دوسرے کو \عددی{90^{\circ}} پر قطع کرتی ہیں؟\\
+ایسا نقطہ جہاں \عددی{f'(z)\ne 0} ہو پر تحلیلی تفاعل \عددی{w=u+iv=f(z)} کی \اصطلاحء{ہم قد  منحنیات} \عددی{u=\text{مستقل}=c} اور \عددی{v=\text{مستقل}=c^*} کیوں ایک دوسرے کو \عددی{90^{\circ}} پر قطع کرتی ہیں؟\\
 \انتہا{سوال}
 %======================
 \ابتدا{سوال}
@@ -1336,7 +1372,7 @@ w(-1)=1,\quad w(0)=\frac{1}{2},\quad w(1)=-1
 ہیں۔چونکہ نقش محافظ زاویہ ہے اور سیدھی لکیروں کا نقش سیدھی لکیریں یا دائرے ہوں گی اور \عددی{w(\infty)=2} ہے لہٰذا  \عددی{x=\text{مستقل}} لکیروں کے  عکس نقطہ \عددی{w=2} سے گزرتی دائرے ہوں گی جن کے مراکز \عددی{u} محور پر ہوں گے۔ \عددی{y=\text{مستقل}} کے نقش متذکرہ بالا کی عمودی ہوں گی (شکل \حوالہ{شکل_مثال_نقش_قرص_قرص_پر})۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-1.25,0)--(1.5,0)node[right]{$x$};
@@ -1353,8 +1389,8 @@ w(-1)=1,\quad w(0)=\frac{1}{2},\quad w(1)=-1
 \draw(0.5,-1.25)--(0.5,1.25);
 \end{scope}
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-1.5,0)--(2.5,0)node[right]{$u$};
@@ -1377,7 +1413,7 @@ w(-1)=1,\quad w(0)=\frac{1}{2},\quad w(1)=-1
 \draw[stealth-](2,3)++(-134:3) to [out=-130,in=0]++(-1,0.1)node[left]{$y=-\tfrac{1}{2}$};
 \draw[stealth-](2,-3)++(134:3) to [out=130,in=0]++(-1,0.2)node[left]{$y=\tfrac{1}{2}$};
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} \hfill
 \caption{نقش برائے مثال \حوالہ{مثال_نقش_قرص_قرص_پر}}
 \label{شکل_مثال_نقش_قرص_قرص_پر}
 \end{figure}
@@ -1400,6 +1436,8 @@ w=i\frac{z^3-1}{z^3+1}
 حاصل ہوتی ہے (شکل \حوالہ{شکل_مثال_نقش_زاویائی_کو_قرص_پر})۔
 \begin{figure}
 \centering
+\begin{subfigure}{0.3\textwidth}
+\centering
 \begin{tikzpicture}
 \draw(-0.5,0)--(2,0);
 \draw(0,-1)--(0,1);
@@ -1407,20 +1445,26 @@ w=i\frac{z^3-1}{z^3+1}
 \draw(0,0)--++(-30:1.5);
 \draw[-stealth]([shift={(0:0.8)}]0,0) arc (0:30:0.8);
 \draw(15:1)node{$\tfrac{\pi}{6}$};
-\draw(0.5,-1.25)node[below]{\text{\RL{($\,z$ مستوی)}}};
-%
-\begin{scope}[shift={(3cm,0)}]
+\end{tikzpicture}
+\caption*{($\,z$ مستوی)}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+\centering
+\begin{tikzpicture}
 \draw(-0.5,0)--(1,0);
 \draw(0,-1)--(0,1);
-\draw(0.5,-1.25)node[below]{\text{\RL{($\,t$ مستوی)}}};
-\end{scope}
-\begin{scope}[shift={(6cm,0)}]
+\end{tikzpicture}
+\caption*{($\,t$ مستوی)}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+\centering
+\begin{tikzpicture}
 \draw(-1.25,0)--(1.25,0);
 \draw(0,-1.25)--(0,1.25);
 \draw(0,0) circle (1);
-\draw(0,-1.25)node[below]{\text{\RL{($\,w$ مستوی)}}};
-\end{scope}
 \end{tikzpicture}
+\caption*{($\,w$ مستوی)}
+\end{subfigure}
 \caption{نقش برائے مثال \حوالہ{مثال_نقش_زاویائی_کو_قرص_پر}}
 \label{شکل_مثال_نقش_زاویائی_کو_قرص_پر}
 \end{figure}
@@ -1624,7 +1668,7 @@ e^a\le R\le e^b,\quad c\le \phi \le d
 ہو گا (شکل \حوالہ{شکل_نقش_قوت_نمائی})۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \begin{tikzpicture}
 \draw(0,0)--++(3,0)node[below]{$x$};
 \draw(0,0)--++(0,2)node[right]{$y$};
@@ -1634,8 +1678,8 @@ e^a\le R\le e^b,\quad c\le \phi \le d
 \draw(0,0.5)node[left]{$c$}--++(0.1,0);
 \draw(0,1.25)node[left]{$d$}--++(0.1,0);
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-2,0)--(2.25,0)node[below]{$u$};
@@ -1650,7 +1694,7 @@ e^a\le R\le e^b,\quad c\le \phi \le d
 \draw(145:0.8)node[fill=white]{$R=e^a$};
 \draw(135:1.75)node[fill=white]{$R=e^b$};
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} \hfill
 \caption{نقش \عددی{w=e^z}}
 \label{شکل_نقش_قوت_نمائی}
 \end{figure}
@@ -1660,7 +1704,7 @@ e^a\le R\le e^b,\quad c\le \phi \le d
 مساوات \حوالہ{مساوات_نقش_قوت_نمائی_ب} کے تحت، افقی پٹی \عددی{0\le y\le \pi} بالائی نصف \عددی{w} سطح پر عکس ہوتی ہے۔سرحد \عددی{y=0} مثبت  \عددی{u} محور پر عکس ہوتی ہے جبکہ لکیر \عددی{y=\pi} منفی \عددی{u} محور پر عکس ہوتی ہے۔قطع \عددی{0} تا \عددی{i\pi} کا عکس نصف دائرہ \عددی{\abs{w}=1,\, v\ge 0} ہو گا۔پٹی کی بائیں نصف \عددی{(x\le 0)} حصے کا عکس \عددی{\abs{w}\le 1,\, v\ge 0} اور دائیں نصف \عددی{(x\ge 0)} حصہ  اس نصف دائرہ \عددی{\abs{w}=1}  کی بیرون پر بالائی نصف \عددی{w} مستوی پر عکس ہو گا (شکل \حوالہ{شکل_نقش_قوت-نمائی_ب})۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \fill[fill=gray!20!white](-2,0)--(0,0)node[below]{$0$}--(0,1)--(-2,1)--(-2,0);
@@ -1669,8 +1713,8 @@ e^a\le R\le e^b,\quad c\le \phi \le d
 \draw(-2,1)--(2.,1);
 \draw(0,1)node[above right]{$\pi$};
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \fill[fill=gray!20!white]([shift={(0:1)}]0,0) arc (0:180:1)--(1,0)node[below]{$1$};
@@ -1679,7 +1723,7 @@ e^a\le R\le e^b,\quad c\le \phi \le d
 \draw(0,0)node[below]{$0$}--++(0,1.5)node[right]{$v$};
 \draw(-1,0)node[below,xshift={(-0.15cm)}]{$-1$};
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} \hfill
 \caption{نقش \عددی{w=e^z}}
 \label{شکل_نقش_قوت-نمائی_ب}
 \end{figure}
@@ -1706,7 +1750,7 @@ u=\cosh c\sin x,\quad v=\sinh c\cos x
 پر ہو گا۔قطع \عددی{y=-c,-\tfrac{\pi}{2}\le x\le \tfrac{\pi}{2}\,\,(c>0)}   قطع مکافی مساوات \حوالہ{مساوات_نقش_قطع_مکافی} کی نچلی نصف حصے پر عکس ہو گی۔قطع مکافی کے ماسکہ  جو \عددی{c} کے تابع نہیں ہیں \عددی{w=\mp 1} پر پائے جائیں گے۔یوں \عددی{c} تبدیل کرنے سے ہمیں ہم ماسکہ قطع مکافی حاصل ہوں گے۔مستطیل خطہ \عددی{-\tfrac{\pi}{2}<x<\tfrac{\pi}{2}, \, -c<y<c}  یوں قطع مکافی مساوات \حوالہ{مساوات_نقش_قطع_مکافی} کی اندرون پر عکس ہو گا؛ البتہ دھیان رہے کہ جیسا شکل \حوالہ{شکل_نقش_سائن} میں دکھایا گیا ہے، مستطیل کی سرحد کا عکس قطع مکافی اور \عددی{u} محور کے دو قطعات ہوں گے (جہاں \عددی{c=1} ہے)۔مستطیل کی سرحد کی  انتصابی حصوں پر نقطوں کے عکس جوڑیوں میں ہم مکان نقطے ہوں گے۔  بالخصوص \عددی{B^*=F^*} اور \عددی{C^*=E^*} ہوں گے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-1.5,0)--(2,0)node[right]{$x$};
@@ -1717,8 +1761,8 @@ u=\cosh c\sin x,\quad v=\sinh c\cos x
 \draw(-1,0)node[above left]{$D$}node[below left]{$-\tfrac{\pi}{2}$};
 \draw(1,0)node[above right]{$A$}node[below right]{$\tfrac{\pi}{2}$};
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\lx}{1.543}
@@ -1737,7 +1781,7 @@ u=\cosh c\sin x,\quad v=\sinh c\cos x
 \draw(-1,0)node[right](kkD){$D^*$};
 \draw(kkA)--(kkD);
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} \hfill
 \caption{نقش \عددی{w=\sin z}}
 \label{شکل_نقش_سائن}
 \end{figure}
@@ -1745,7 +1789,7 @@ u=\cosh c\sin x,\quad v=\sinh c\cos x
 مستطیل خطہ \عددی{-\pi<x<\pi,\, c<y<d\, (c>0)} کا نقش قطع مکافی جھلی ہو گی جو منفی \عددی{v} محور پر کٹی ہو گی (شکل \حوالہ{شکل_نقش_سائن_پٹی})۔سیدھی لکیریں \عددی{x=c} جہاں \عددی{-\tfrac{\pi}{2}<c<\tfrac{\pi}{2}} ہے کے نقش ہم ماسکہ قطع زائد ہوں گی جو متذکرہ بالا قطع مکافی کو زاویہ قائمہ پر قطع کریں گی۔   
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-1.5,0)--(2,0)node[right]{$x$};
@@ -1755,8 +1799,8 @@ u=\cosh c\sin x,\quad v=\sinh c\cos x
 \draw(-1.5,0.75)node[below]{$A$}--++(3,0)node[below]{$B$}--++(0,0.5)node[above]{$C$}--++(-3,0)node[above]{$D$}--++(0,-0.5);
 \draw(0,1.25)node[above left]{$1$};
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\lx}{1.543}
@@ -1780,7 +1824,7 @@ u=\cosh c\sin x,\quad v=\sinh c\cos x
 \draw(-1,0)node[ocirc]{}node[below,xshift={(0.2)}]{$-1$};
 \draw(1,0)node[ocirc]{}node[below]{$1$};
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} \hfill
 \caption{نقش \عددی{w=\sin z}}
 \label{شکل_نقش_سائن_پٹی}
 \end{figure}
@@ -1813,15 +1857,15 @@ w=\cosh i\pi=\cos \pi=-1
 ہو گا۔پٹی کی بالائی سرحد پر \عددی{y=\pi} ہے اور چونکہ \عددی{\sin \pi=0} کے برابر ہے لہٰذا سرحد کا یہ حصہ \عددی{u\le -1} پر عکس ہو گا۔یوں پٹی کی سرحد \عددی{u} محور پر عکس ہو گی۔یہ آسانی سے دیکھا جا سکتا ہے کہ پٹی کی اندرون بالائی نصف \عددی{w} مستوی پر عکس ہو گی اور  کہ یہ نقش ایک ایک مطابقتی ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--(2.5,0)node[below]{$x$};
 \draw(0,0)node[ocirc]{}node[left]{$A$}--++(0,1.5)node[left]{$y$};
 \draw(0,1)node[ocirc]{}node[left]{$\pi$}node[above right]{$B$}--++(2.5,0);
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-1.5,0)--(1.5,0)node[below]{$u$};
@@ -1829,7 +1873,7 @@ w=\cosh i\pi=\cos \pi=-1
 \draw(-1,0)node[ocirc]{}node[below,xshift={(-0.1cm)}]{$-1$}node[above]{$B^*$};
 \draw(1,0)node[ocirc]{}node[below]{$1$}node[above]{$A^*$};
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} \hfill
 \caption{نقش برائے مثال \حوالہ{مثال_نقش_ہذلولی_کوسائن_عکس-لامتناہی_پٹی}}
 \label{شکل_مثال_نقش_ہذلولی_کوسائن_عکس-لامتناہی_پٹی}
 \end{figure}
@@ -1844,7 +1888,7 @@ T&=0\quad \text{\RL{بالائی اور نچلی سرحد پر}}
 
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--(2.5,0)node[below]{$x$};
@@ -1854,8 +1898,8 @@ T&=0\quad \text{\RL{بالائی اور نچلی سرحد پر}}
 \draw(1.25,0)node[below]{$T=0$};
 \draw(1.25,1)node[above]{$T=0$};
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-2,0)--(2,0)node[below]{$u$};
@@ -1863,7 +1907,7 @@ T&=0\quad \text{\RL{بالائی اور نچلی سرحد پر}}
 \draw(-1,0)node[below,xshift={(-0.1cm)}]{$-1$}node[above left]{$T=0$}--++(0,0.1);
 \draw(1,0)node[below]{$1$}node[above right]{$T=0$}--++(0,0.1);
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} \hfill
 \caption{سرحدی شرائط برائے مثال \حوالہ{مثال_نقش_حرارت_پٹی}}
 \label{شکل_مثال_نقش_حرارت_پٹی}
 \end{figure}
@@ -2074,7 +2118,7 @@ $\cosh z=\cos (iz)=\sin(iz+\tfrac{\pi}{2})$
 دکھائیں کہ نقش \عددی{w=\Ln\tfrac{z-1}{z+1}} بالائی نصف مستوی کو افقی پٹی \عددی{0\le \text{\RL{خیالی $w\,$}}\le \pi} پر عکس کرتا ہے (شکل \حوالہ{شکل_سوال_نقش_لوگارتھمی_عکس_الف})۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-2.5,0)node[above]{$A$}node[below]{$(\infty)$}--(2.5,0)node[above]{$E$}node[below]{$(\infty)$};
@@ -2083,8 +2127,8 @@ $\cosh z=\cos (iz)=\sin(iz+\tfrac{\pi}{2})$
 \draw(1,0)node[below]{$1$}--++(0,0.1)node[above]{$D$};
 \draw(0,-0.75)node[]{مستوی $z\,$};
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-1.5,0)--(0,0)node[ocirc]{}node[below]{$0$}node[above]{$E^*=A^*$}--(1.5,0);
@@ -2093,13 +2137,13 @@ $\cosh z=\cos (iz)=\sin(iz+\tfrac{\pi}{2})$
 \draw(1.5,0.5)node[]{$B^*(\infty)$};
 \draw(0,-0.75)node[]{مستوی $w\,$};
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} \hfill
 \caption{شکل برائے سوال \حوالہ{سوال_نقش_لوگارتھمی_عکس_الف}}
 \label{شکل_سوال_نقش_لوگارتھمی_عکس_الف}
 \end{figure}
 \انتہا{سوال}
 %=======================
-سوال \حوالہ{سوال_نقش_حرارت_الف} تا سوال \حوالہ{سوال_نقش_حرارت_ث} میں دھات کی پتلی تختی دکھائی گئی ہے جس کی دونوں سطحیں حاجز شدہ ہیں جبکہ کنارے دیے گئے درجہ حرارت پر رکھے گئے ہیں۔برقرار حال درجہ حرارت \عددی{T(x,y)} تلاش کریں۔ 
+سوال \حوالہ{سوال_نقش_حرارت_الف} تا سوال \حوالہ{سوال_نقش_حرارت_و} میں دھات کی پتلی تختی کی بات کی جاتی  ہے جس کی دونوں سطحیں حاجز شدہ ہیں  جبکہ اس کے  کنارے دیے گئے درجہ حرارت پر رکھے گئے ہیں۔برقرار حال درجہ حرارت \عددی{T(x,y)} تلاش کریں۔ 
 \begin{figure}
 \centering
 \begin{subfigure}{0.33\textwidth}
@@ -2109,8 +2153,8 @@ $\cosh z=\cos (iz)=\sin(iz+\tfrac{\pi}{2})$
 \draw(0,0)node[below left]{$0$}--(2,0)node[right]{$x$}node[below,pos=0.5]{$T=T_0$};
 \draw(0,0)--(0,1.5)node[right]{$y$}node[left,pos=0.5]{$T=T_1$};
 \end{tikzpicture}
-\caption*{(الف)}
-\end{subfigure}%
+\caption{}
+\end{subfigure} \hfill
 \begin{subfigure}{0.33\textwidth}
 \centering
 \begin{tikzpicture}
@@ -2123,8 +2167,8 @@ $\cosh z=\cos (iz)=\sin(iz+\tfrac{\pi}{2})$
 \draw[-stealth] ([shift={(0:0.5)}]0,0) arc (0:60:0.5);
 \draw(25:0.9)node[]{$60^{\circ}$};
 \end{tikzpicture}
-\caption*{(ب)}
-\end{subfigure}%
+\caption{}
+\end{subfigure} \hfill
 \begin{subfigure}{0.33\textwidth}
 \centering
 \begin{tikzpicture}
@@ -2139,7 +2183,7 @@ $\cosh z=\cos (iz)=\sin(iz+\tfrac{\pi}{2})$
 \draw[-stealth] ([shift={(0:0.5)}]0,0) arc (0:45:0.5);
 \draw(20:0.9)node[]{$45^{\circ}$};
 \end{tikzpicture}
-\caption*{(پ)}
+\caption{}
 \end{subfigure}
 \begin{subfigure}{0.33\textwidth}
 \centering
@@ -2153,8 +2197,8 @@ $\cosh z=\cos (iz)=\sin(iz+\tfrac{\pi}{2})$
 \draw(0,1)node[left]{$\pi$}--(2,1);
 \draw[gray] plot coordinates {(2,1) (1.9,0.9) (2,0.7) (1.7,0.5) (1.9,0.2) (1.7,0.1) (1.8,0)};
 \end{tikzpicture}
-\caption*{(ت)}
-\end{subfigure}%
+\caption{}
+\end{subfigure} \hfill
 \begin{subfigure}{0.33\textwidth}
 \centering
 \begin{tikzpicture}
@@ -2172,8 +2216,8 @@ $\cosh z=\cos (iz)=\sin(iz+\tfrac{\pi}{2})$
 \draw(0,1.25)node[left]{$\SI{0}{\celsius}$};
 \draw[gray] plot coordinates {(0,1.4) (0.3,1.2) (0.9,1) (0.8,0.8) (1.2,0.6) (1.1,0.4) (1.7,0.3) (1.5,0.2) (1.8,0)};
 \end{tikzpicture}
-\caption*{(ٹ)}
-\end{subfigure}%
+\caption{}
+\end{subfigure} \hfill
 \begin{subfigure}{0.33\textwidth}
 \centering
 \begin{tikzpicture}
@@ -2189,9 +2233,9 @@ $\cosh z=\cos (iz)=\sin(iz+\tfrac{\pi}{2})$
 \draw[stealth-](60:1) to [out=40,in=180]++(0.5,0.3)coordinate(kA)node[right]{\RL{حاجز شدہ}};
 \draw[stealth-] (30:0.5) to [out=60,in=180] (kA);
 \end{tikzpicture}
-\caption*{(ث)}
+\caption{}
 \end{subfigure}
-\caption{دھات کی تختی برائے سوال \حوالہ{سوال_نقش_حرارت_الف}-الف تا سوال \حوالہ{سوال_نقش_حرارت_الف}-ث}
+\caption{دھات کی تختی برائے سوال \حوالہ{سوال_نقش_حرارت_الف}  تا سوال \حوالہ{سوال_نقش_حرارت_و}}
 \label{شکل_سوال_نقش_حرارت_الف}
 \end{figure}
 
@@ -2207,23 +2251,23 @@ $T=T_0+\tfrac{1}{\pi} (T_1-T_0)\tan^{-1}\tfrac{2xy}{x^2-y^2}=T_0+\tfrac{2}{\pi}(
 \انتہا{سوال}
 %=======================
 \ابتدا{سوال}\quad
-شکل \حوالہ{شکل_سوال_نقش_حرارت_الف}-پ\\
+شکل \حوالہ{شکل_سوال_نقش_حرارت_الف}-ج\\
 جواب:\quad
 $T=\tfrac{100}{\pi/4}\tan^{-1}\tfrac{y}{x}$
 \انتہا{سوال}
 %=======================
 \ابتدا{سوال}\quad
-شکل \حوالہ{شکل_سوال_نقش_حرارت_الف}-ت
+شکل \حوالہ{شکل_سوال_نقش_حرارت_الف}-د
 \انتہا{سوال}
 %=======================
 \ابتدا{سوال}\quad
-شکل \حوالہ{شکل_سوال_نقش_حرارت_الف}-ٹ\\
+شکل \حوالہ{شکل_سوال_نقش_حرارت_الف}-ہ\\
 جواب:\quad
 $T=\tfrac{1}{\pi} \tan^{-1} \tfrac{4xy}{(x^2+y^2)^2-1}$
 \انتہا{سوال}
 %=======================
-\ابتدا{سوال}\شناخت{سوال_نقش_حرارت_ث}\quad
-شکل \حوالہ{شکل_سوال_نقش_حرارت_الف}-ث
+\ابتدا{سوال}\شناخت{سوال_نقش_حرارت_و}\quad
+شکل \حوالہ{شکل_سوال_نقش_حرارت_الف}-و
 \انتہا{سوال}
 %=======================
 
@@ -2315,7 +2359,7 @@ z=\frac{w}{2}\mp \sqrt{\frac{w^2}{4}-1}=\frac{w}{2}\mp\frac{1}{2}\sqrt{(w+2)(w-2
 اس طرح \عددی{w=2} اور \عددی{w=-2} تفاعل \عددی{z=z(w)} کے  یک رتبی تقسیمی نقطے ہیں۔کسی بھی \عددی{w\,(\ne2,\ne-2)} قیمت کے مطابقتی دو \عددی{z} قیمتیں ہوں گی لہٰذا مساوات \حوالہ{مساوات_نقش_ہوائی_حرکیات_الف} مستوی \عددی{z} کو دو چادر کی ریمان سطح پر، ایک ایک مطابقت سے، عکس کرتی ہے اور یہ دو چادر \عددی{w=-2} تا \عددی{w=2} آپس میں صلیبی جڑی ہیں (شکل \حوالہ{شکل_مثال_نقش_ہوائی_پترا})۔ہم \عددی{z=re^{i\theta}} لیتے ہوئے \عددی{r=\text{مستقل}} اور \عددی{\theta=\text{مستقل}} کے عکس تلاش کرتے ہیں۔مساوات \حوالہ{مساوات_نقش_ہوائی_حرکیات_الف} سے
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\kS}{3/4}
@@ -2327,8 +2371,8 @@ z=\frac{w}{2}\mp \sqrt{\frac{w^2}{4}-1}=\frac{w}{2}\mp\frac{1}{2}\sqrt{(w+2)(w-2
 \draw(1*\kS,0)node[below]{$1$}--++(0,0.1);
 \draw(2*\kS,0)node[below,fill=white]{$2$};
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\kS}{3/4}
@@ -2346,7 +2390,7 @@ z=\frac{w}{2}\mp \sqrt{\frac{w^2}{4}-1}=\frac{w}{2}\mp\frac{1}{2}\sqrt{(w+2)(w-2
 \draw(0,0) circle (\kkA cm and \kkB cm);
 \draw(0,0) circle (\kkkA cm and \kkkB cm);
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} \hfill
 \caption{شکل برائے مثال \حوالہ{مثال_نقش_ہوائی_پترا}}
 \label{شکل_مثال_نقش_ہوائی_پترا}
 \end{figure}
@@ -2372,10 +2416,10 @@ u=\big(r+\frac{1}{r}\big)\cos \theta,\quad v=\big(r-\frac{1}{r}\big)\sin\theta
 
 متذکرہ بالا قطع مکافی کی بیرون تقسیمی نقطہ سے پاک ہے اور \عددی{z} مستوی میں یہ یا تو دائرے کی اندرون اور یا اس کی بیرون کا مطابقتی خطہ ہو گا؛ یہ اس ریمان سطح پر منحصر ہے جس پر یہ خطہ پایا جاتا ہو۔بالخصوص (جیسا ہم ذکر کر چکے ہیں) پوری \عددی{w} مستوی اکائی دائرہ \عددی{\abs{z}=1} کی اندرون یا بیرون کا مطابقتی ہو گا۔
 
-نقش مساوات \حوالہ{مساوات_نقش_ہوائی_حرکیات_الف}  موزوں دائروں کو \اصطلاح{ہوائی پترا}\فرہنگ{ہوائی پترا}\حاشیہب{airfoil}\فرہنگ{airfoil} میں عکس کرتا ہے جس کے پچھلے کنارے کی دھار تیز  اور اندرونی زاویہ صفر ہوتا ہے۔ ان ہوائی پترا کو \اصطلاح{ژکوسکی ہوائی پترا}\فرہنگ{ہوائی پترا!ژکوسکی}\حاشیہب{Joukowski airfoil}\فرہنگ{airfoil!Joukowski} کہتے\حاشیہد{روسی ریاضی دان [1847-1921] نکولائے یگورو وچ ژکوسکی} ہیں۔ چونکہ تیز دھار والی ہوائی پتری درکار  ہوتی ہے لہٰذا وہ دائرہ جو \عددی{z=\mp 1} میں سے ایک نقطہ سے گزرتا ہو کا عکس ہمیں چاہیے ہے۔ ان نقطوں پر نقش غیر محافظ ہے۔ آئیں ہم دائرہ \عددی{C} منتخب کرتے ہیں جو \عددی{z=-1} سے گزرتا ہے اور اس دائرے کی رداس اتنا چنتے ہیں کہ نقطہ \عددی{z=1} دائرے کے اندر ہو۔جیومیٹری کی مدد سے \عددی{z} اور \عددی{\tfrac{1}{z}} سمتیات کا سمتی مجموعہ لینے سے یہ عکس با آسانی حاصل ہو گا (جہاں \عددی{\tfrac{1}{z}} کو \عددی{z} سے حاصل کرنا حصہ \حوالہ{حصہ_نقش_نقشہ_کشی} میں دکھایا گیا ہے)۔حاصل عکس کو شکل \حوالہ{شکل_نقش_ژکوسکی_ہوائی_پترا} میں دکھایا گیا ہے
+نقش مساوات \حوالہ{مساوات_نقش_ہوائی_حرکیات_الف}  موزوں دائروں کو \اصطلاح{ہوائی پترا}\فرہنگ{ہوائی پترا}\حاشیہب{aerofoil}\فرہنگ{aerofoil} میں عکس کرتا ہے جس کے پچھلے کنارے کی دھار تیز  اور اندرونی زاویہ صفر ہوتا ہے۔ ان ہوائی پترا کو \اصطلاح{ژکوسکی ہوائی پترا}\فرہنگ{ہوائی پترا!ژکوسکی}\حاشیہب{Joukowski aerofoil}\فرہنگ{aerofoil!Joukowski} کہتے\حاشیہد{روسی ریاضی دان [1847-1921] نکولائے یگورو وچ ژکوسکی} ہیں۔ چونکہ تیز دھار والی ہوائی پتری درکار  ہوتی ہے لہٰذا وہ دائرہ جو \عددی{z=\mp 1} میں سے ایک نقطہ سے گزرتا ہو کا عکس ہمیں چاہیے ہے۔ ان نقطوں پر نقش غیر محافظ ہے۔ آئیں ہم دائرہ \عددی{C} منتخب کرتے ہیں جو \عددی{z=-1} سے گزرتا ہے اور اس دائرے کی رداس اتنا چنتے ہیں کہ نقطہ \عددی{z=1} دائرے کے اندر ہو۔جیومیٹری کی مدد سے \عددی{z} اور \عددی{\tfrac{1}{z}} سمتیات کا سمتی مجموعہ لینے سے یہ عکس با آسانی حاصل ہو گا (جہاں \عددی{\tfrac{1}{z}} کو \عددی{z} سے حاصل کرنا حصہ \حوالہ{حصہ_نقش_نقشہ_کشی} میں دکھایا گیا ہے)۔حاصل عکس کو شکل \حوالہ{شکل_نقش_ژکوسکی_ہوائی_پترا} میں دکھایا گیا ہے
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-1.5,0)--(2,0)node[below]{$x$};
@@ -2386,8 +2430,8 @@ u=\big(r+\frac{1}{r}\big)\cos \theta,\quad v=\big(r-\frac{1}{r}\big)\sin\theta
 \draw(1,0)node[ocirc]{}node[below left]{$1$};
 \draw(30:1.75)node{$C$};
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-2.25,0)--(0.5,0) (2.2,0)--(2.75,0)node[right]{$u$};
@@ -2398,7 +2442,7 @@ u=\big(r+\frac{1}{r}\big)\cos \theta,\quad v=\big(r-\frac{1}{r}\big)\sin\theta
 \draw(-2,0)node[ocirc]{}node[below,xshift={(-0.15cm)}]{$-2$};
 \draw(2,0)node[ocirc]{}node[below]{$2$};
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} \hfill
 \caption{ژکوسکی ہوائی پترا}
 \label{شکل_نقش_ژکوسکی_ہوائی_پترا}
 \end{figure}

@@ -15,7 +15,7 @@
 مختلف نوعیت کے مسائل کے لئے مختلف تراکیب اور تکنیک  درکار ہوں گے البتہ مسئلے کی تشکیل سے حل تک کے قدم عموماً ایک جیسے ہوتے ہیں۔انہیں یہاں پیش کرتے ہیں۔
 \begin{itemize}
 \item{مسئلے کی تشکیل۔}
-مسئلے کو ٹھیک ٹھیک بیان کرنا اور تفتیشی عمل کے حدود تعین کرنا ضروری ہے تا کہ شماریاتی تفتیش کی لاگت، تفتیش کار کی مہارت اور دستیاب سہولیات کو مد نظر رکھتے ہوئے مخصوص  وقت میں قابل استعمال نتائج حاصل ہوں۔اسی قدم میں واضح تصورات سے \اصطلاح{حسابی نمونہ}\فرہنگ{حسابی نمونہ}\فرہنگ{نمونہ!حسابی}\حاشیہب{mathematical model}\فرہنگ{model!mathematical}  کی تخلیق\حاشیہد{لفظ "نمونہ" اور لفظ "حسابی نمونہ" علیحدہ معنی رکھتے ہیں۔اسی لئے حسابی نمونہ کو بطور اصطلاح لیتے ہوئے پورا لکھا جائے گا یعنی "حسابی نمونہ"۔} بھی شامل ہے۔ (مثال کے طور پر ہم نے تعین کرنا ہو گا کہ عیب دار رکن سے کیا مراد ہے۔)
+مسئلے کو ٹھیک ٹھیک بیان کرنا اور تفتیشی عمل کے حدود تعین کرنا ضروری ہے تا کہ شماریاتی تفتیش کی لاگت، تفتیش کار کی مہارت اور دستیاب سہولیات کو مد نظر رکھتے ہوئے مخصوص  وقت میں قابل استعمال نتائج حاصل ہوں۔اسی قدم میں واضح تصورات سے \اصطلاح{حسابی نمونہ}\فرہنگ{حسابی نمونہ}\فرہنگ{نمونہ!حسابی}\حاشیہب{mathematical model}\فرہنگ{model!mathematical}  کی تخلیق\حاشیہد{لفظ \قول{نمونہ} اور لفظ \قول{حسابی نمونہ} علیحدہ معنی رکھتے ہیں۔اسی لئے حسابی نمونہ کو بطور اصطلاح لیتے ہوئے پورا لکھا جائے گا یعنی \قول{حسابی نمونہ}۔} بھی شامل ہے۔ (مثال کے طور پر ہم نے تعین کرنا ہو گا کہ عیب دار رکن سے کیا مراد ہے۔)
 \item{تجربہ کی تخلیق۔}
 آخری مرحلے میں استعمال ہونے والی شماریاتی ترکیب کا انتخاب، نمونہ کی جسامت (جتنے ارکان کا تجزیہ  یا ان پر تجربہ کیا جائے گا، وغیرہ) اور طبعی تراکیب اور تکنیک جو بروئے کار لائے جائیں گے کا انتخاب اس قدم میں کیا جائے گا۔کم سے کم وقت اور لاگت کے ساتھ زیادہ سے زیادہ معلومات حاصل کرنا مقصد ہے۔
 \item{تجربہ یا مواد جمع کرنے کا عمل۔}
@@ -62,9 +62,9 @@
 \begin{tabular}{|C|C|C|C|C|C|}
 \hline
 1&\multicolumn{1}{C}{2}&\multicolumn{1}{C|}{3}&4&5&6\\
-\multirow{2}{*}{\text{\RL{\urdufont{مضبوطی}}}}& \multicolumn{2}{C|}{\text{\RL{\urdufont{مطلق تعدد}}}}&\multirow{2}{*}{\text{\RL{\urdufont{اضافی تعدد}}}}&\multirow{2}{*}{\text{\RL{\urdufont{مجموعی تعدد}}}}&\multirow{2}{*}{\text{\RL{\urdufont{مجموعی اضافی تعدد}}}}\\
+\multirow{2}{*}{\text{\RL{{مضبوطی}}}}& \multicolumn{2}{C|}{\text{\RL{{مطلق تعدد}}}}&\multirow{2}{*}{\text{\RL{{اضافی تعدد}}}}&\multirow{2}{*}{\text{\RL{{مجموعی تعدد}}}}&\multirow{2}{*}{\text{\RL{{مجموعی اضافی تعدد}}}}\\
 \cline{2-3}
-&\text{\RL{\urdufont{نشان شمار}}}&&&&\\
+&\text{\RL{{نشان شمار}}}&&&&\\
 \hline
 300&\kStrokeTwo&2&0.02&2&0.02\\
 310&&0&0.00&2&0.02\\
@@ -128,7 +128,7 @@ x_1,x_2,\cdots, x_m\quad\quad\quad (m\le n)
 
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)node[below]{$250$}--(4,0);
@@ -152,9 +152,9 @@ x_1,x_2,\cdots, x_m\quad\quad\quad (m\le n)
 \foreach \y in {1,2,...,3}{\draw(3.4,\y/5)node[circ]{};}
 \foreach \y in {1}{\draw(3.8,\y/5)node[circ]{};}
 \end{tikzpicture}
-\caption*{(الف) تعددی نقطہ ترسیم}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ تعددی نقطہ ترسیم}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\w}{0.05}
@@ -178,9 +178,9 @@ x_1,x_2,\cdots, x_m\quad\quad\quad (m\le n)
 \draw(3.8-\w,0) rectangle ++(2*\w,0.2);
 \draw(1,3)node[]{\RL{مطلق تعدد}};
 \end{tikzpicture}
-\caption*{(ب) ڈبہ ترسیم}
+\caption{ ڈبہ ترسیم}
 \end{subfigure}
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\w}{0.1}
@@ -204,9 +204,9 @@ x_1,x_2,\cdots, x_m\quad\quad\quad (m\le n)
 \draw(3.8-\w,0) rectangle ++(2*\w,0.2);
 \draw[-stealth](1,3)node[below]{$\tilde{f}(x)$}--++(0,0.5);
 \end{tikzpicture}
-\caption*{(پ) تعددی مستطیلی ترسیم}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ تعددی مستطیلی ترسیم}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\w}{0.1}
@@ -218,14 +218,14 @@ x_1,x_2,\cdots, x_m\quad\quad\quad (m\le n)
 \draw(0.8,0)--(1,0.4)--(1.2,0)--(1.4,0.8)--(1.6,1.2)--(1.8,2.2)--(2,2.8)--(2.2,3.2)--(2.4,3)--(2.6,1.6)--(2.8,2)--(3,1.6)--(3.2,0.4)--(3.4,0.6)--(3.6,0)--(3.8,0.2)--(4,0);
 \draw[-stealth](1,3)node[below]{$\tilde{f}(x)$}--++(0,0.5);
 \end{tikzpicture}
-\caption*{(ت) تعددی کثیر الاضلاع ترسیم}
-\end{subfigure}%
+\caption{ تعددی کثیر الاضلاع ترسیم}
+\end{subfigure} \hfill
 \caption{ترسیم برائے جدول \حوالہ{جدول_شماریات_تعددی_تقسیم_الف}}
 \label{شکل_شماریات_تعددی_ترسیم}
 \end{figure}
 
 
-نمونہ کا \موٹا{ترسیمی اظہار} شکل \حوالہ{شکل_شماریات_تعددی_ترسیم}-الف تا شکل \حوالہ{شکل_شماریات_تعددی_ترسیم}-ت میں دکھایا گیا ہے۔شکل \حوالہ{شکل_شماریات_تعددی_ترسیم}-پ میں ہر مستطیل کا رقبہ مطابقتی اضافی تعدد کے برابر  ہو گا لہٰذا عمودی محدد پر اضافی تعدد فی اکائی رقبہ ہو گا۔چونکہ شکل \حوالہ{شکل_شماریات_تعددی_ترسیم}-پ میں تمام مستطیل کی چوڑائی ایک جیسی ہے  لہٰذا عمودی محدد پر قیمتیں \عددی{\tilde{f}(x)} کے راست متناسب ہوں گی۔ البتہ مستطیل کو چوڑائیاں مختلف ہونے کی صورت میں ایسا نہیں ہو گا۔ شکل \حوالہ{شکل_شماریات_تعددی_ترسیم}-ت میں بھی یہی صورت حال ہو گی۔
+نمونہ کا \موٹا{ترسیمی اظہار} شکل \حوالہ{شکل_شماریات_تعددی_ترسیم}-الف تا شکل \حوالہ{شکل_شماریات_تعددی_ترسیم}-د  میں دکھایا گیا ہے۔شکل \حوالہ{شکل_شماریات_تعددی_ترسیم}-ج  میں ہر مستطیل کا رقبہ مطابقتی اضافی تعدد کے برابر  ہو گا لہٰذا عمودی محدد پر اضافی تعدد فی اکائی رقبہ ہو گا۔چونکہ شکل \حوالہ{شکل_شماریات_تعددی_ترسیم}-ج  میں تمام مستطیل کی چوڑائی ایک دوسرے  جیسی ہے  لہٰذا عمودی محدد پر قیمتیں \عددی{\tilde{f}(x)} کے راست متناسب ہوں گی۔ البتہ مستطیل کی چوڑائیاں مختلف ہونے کی صورت میں ایسا نہیں ہو گا۔ شکل \حوالہ{شکل_شماریات_تعددی_ترسیم}-د  میں بھی یہی صورت حال ہو گی۔
 
 ہم اب درج ذیل تفاعل متعارف کرتے ہیں
 \begin{align*}
@@ -256,7 +256,7 @@ x_1,x_2,\cdots, x_m\quad\quad\quad (m\le n)
 \draw[-stealth](0.5,0.75)node[below]{$\tilde{F}(x)$}--++(0,0.2);
 \draw(1,0)--(1,0.02)--(1.4,0.02)--(1.4,0.06)--(1.6,0.06)--(1.6,0.12)--(1.8,0.12)--(1.8,0.23)--(2,0.23)--(2,0.37)--(2.2,0.37)--(2.2,0.53)--(2.4,0.53)--(2.4,0.68)--(2.6,0.68)--(2.6,0.76)--(2.8,0.76)--(2.8,0.86)--(3,0.86)--(3,0.94)--(3.2,0.94)--(3.2,0.99)--(3.8,0.99)--(3.8,1)--(5,1);
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} \hfill
 \caption{تعددی تفاعل \عددی{\tilde{f}(x)} اور مجموعی تعددی تفاعل \عددی{\tilde{F}(x)} برائے جدول \حوالہ{جدول_شماریات_تعددی_تقسیم_الف}}
 \label{شکل_شماریات_مجموعی_تعددی_تفاعل}
 \end{figure}
@@ -296,9 +296,9 @@ x_1,x_2,\cdots, x_m\quad\quad\quad (m\le n)
 \begin{otherlanguage}{english}
 \begin{tabular}{R|C|L|R|R|R}
 \hline
-\multirow{2}{*}{\text{\RL{\urdufont{جماعتی وقفہ}}}}&\text{\RL{\urdufont{جماعتی نشان}}}&\multicolumn{2}{C|}{\text{\RL{\urdufont{مطلق تعدد}}}}&\multirow{2}{*}{$\tilde{f}(x)$}&\multirow{2}{*}{$\tilde{F}(x)$}\\
+\multirow{2}{*}{\text{\RL{{جماعتی وقفہ}}}}&\text{\RL{{جماعتی نشان}}}&\multicolumn{2}{C|}{\text{\RL{{مطلق تعدد}}}}&\multirow{2}{*}{$\tilde{f}(x)$}&\multirow{2}{*}{$\tilde{F}(x)$}\\
 \cline{3-4}
-&x&\text{\RL{\urdufont{نشان شمار}}}&&&\\
+&x&\text{\RL{{نشان شمار}}}&&&\\
 \hline
 65- 75&70&\kStrokeTwo&2&0.04&0.04\\
 75- 85&80&\kStrokeFive\,\,\kStrokeThree&8&0.16&0.20\\
@@ -308,7 +308,7 @@ x_1,x_2,\cdots, x_m\quad\quad\quad (m\le n)
 115-125&120&\kStrokeFive&5&0.10&0.92\\
 125-135&130&\kStrokeFour&4&0.08&1.00\\
 \hline
-&&\text{\urdufont{مجموعہ}}&50&1.00&\\
+&&\text{{مجموعہ}}&50&1.00&\\
 \hline
 \end{tabular}
 \end{otherlanguage}
@@ -567,7 +567,7 @@ $\bar{x}=3,\,\, s^2=3.3,\,\, s=1.817$
 \انتہا{سوال}
 %===========================
 \ابتدا{سوال}\quad \موٹا{نمونہ کا }\\
-نمونہ میں سب سے بڑی قیمت اور سب سے چھوٹی قیمت کے فرق کو نمونہ کا \اصطلاح{}\فرہنگ{}\حاشیہب{range}\فرہنگ{range} کہتے ہیں۔مثال \حوالہ{مثال_شماریات_اوسط} میں دیے گئے نمونہ کا  تلاش کریں۔\\
+نمونہ میں سب سے بڑی قیمت اور سب سے چھوٹی قیمت کے فرق کو نمونہ کا \اصطلاح{سعت}\فرہنگ{سعت}\حاشیہب{range}\فرہنگ{range} کہتے ہیں۔مثال \حوالہ{مثال_شماریات_اوسط} میں دیے گئے نمونہ کا  تلاش کریں۔\\
 جواب:\quad
 $0.02$
 \انتہا{سوال}
@@ -594,9 +594,9 @@ $\tfrac{345}{4},\,\,\tfrac{439}{4},\,\,\tfrac{47}{2}$
 نمونہ میں سب سے زیادہ بار آنے والی قیمت کو نمونہ کی \اصطلاح{عادہ}\فرہنگ{عادہ}\حاشیہب{mode}\فرہنگ{mode} کہتے ہیں۔یہ سب سے عام قدر ہوتی ہے۔درج ذیل نمونہ کی اوسط، وسطانیہ اور عادہ تلاش کریں۔ ان پر تبصرہ کریں۔
 \begin{align*}
 \begin{array}{L|CCC}
-\text{\RL{\urdufont{قیمت}}}&100&1000&\num{1000000}\\
+\text{\RL{{قیمت}}}&100&1000&\num{1000000}\\
 \hline
-\text{\RL{\urdufont{تعدد}}}&100&90&20
+\text{\RL{{تعدد}}}&100&90&20
 \end{array}
 \end{align*}
 جواب:\quad
@@ -723,7 +723,7 @@ A\cap B
 %=================
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \def\firstCircle{(0.75,1.75) circle (0.75cm and 0.5cm)};
@@ -738,9 +738,9 @@ A\cap B
 \draw[rotate=-20](1.5,1.5)node[right]{$B$} circle (0.75cm and 0.5cm);
 \draw(0,0)node[above right]{$S$} rectangle (3,2);
 \end{tikzpicture}
-\caption*{(الف) اشتراک \عددی{A \cup B}}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\caption{ اشتراک \عددی{A \cup B}}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \def\firstCircle {(0.75,1.75) circle (0.75cm and 0.5cm)};
@@ -753,8 +753,8 @@ A\cap B
 \draw[rotate=-20]\secondCircle node[right]{$B$};
 \draw(0,0)node[above right]{$S$} rectangle (3,2);
 \end{tikzpicture}
-\caption*{(ب) تقاطع \عددی{A\cap B}}
-\end{subfigure}%
+\caption{ تقاطع \عددی{A\cap B}}
+\end{subfigure} \hfill
 \caption{نمونی فضا \عددی{S} میں دو وقوعات \عددی{A} ، \عددی{B} اور (گہری سیاہی میں) ان کی اشتراک اور تقاطع کی وین شکل}
 \label{شکل_شماریات_وین_شکل_اشتراک_تقاطع}
 \end{figure}
@@ -903,11 +903,11 @@ A\cap (B\cup C)&=(A\cap B)\cup (A\cap C)
 \begin{otherlanguage}{english}
 \begin{tabular}{C|C|C|C}
 \hline
-\text{\urdufont{تجربہ کرنے والا}}&\text{\urdufont{{جتنی مرتبہ سکہ پھینکا گیا}}}&\text{\urdufont{\RL{جتنی مرتبہ شیر حاصل ہوا}}}&\text{\urdufont{\RL{شیر کی اضافی تعدد}}}\\
+\text{\RL{تجربہ کرنے والا}}&\text{\RL{جتنی مرتبہ سکہ پھینکا گیا}}&\text{{\RL{جتنی مرتبہ شیر حاصل ہوا}}}&\text{\RL{شیر کی اضافی تعدد}}\\
 \hline
-\text{\urdufont{\RL{امجد}}}& \num{4040}&\num{2048}&\num{0.5069}\\
-\text{\urdufont{\RL{مشرف}}}& \num{12000}&\num{6019}&\num{0.5016}\\
-\text{\urdufont{\RL{مشرف}}}& \num{24000}&\num{12012}&\num{0.5005}\\
+\text{{\RL{امجد}}}& \num{4040}&\num{2048}&\num{0.5069}\\
+\text{{\RL{مشرف}}}& \num{12000}&\num{6019}&\num{0.5016}\\
+\text{{\RL{مشرف}}}& \num{24000}&\num{12012}&\num{0.5005}\\
 \hline
 \end{tabular}
 \end{otherlanguage}
@@ -925,13 +925,13 @@ A\cap (B\cup C)&=(A\cap B)\cup (A\cap C)
 \draw(-1,1)node[rotate=90]{\RL{اضافی تعدد}};
 \draw(4,-0.75)node[]{\RL{موجودہ پیدائش}};
 \end{tikzpicture}
-\caption{وقوعہ "لڑکے کی پیدائش"}
+\caption{وقوعہ \قول{لڑکے کی پیدائش}}
 \label{شکل_شماریات_وقوعہ_لڑکا}
 \end{figure}
 
 چونکہ عموماً بلا منصوبہ تجربات میں شماریاتی یکسانیت پائی جاتی ہے ہم  دعویٰ کرتے ہیں کہ ایسے تجربہ میں وقوعہ \عددی{E} کے لئے ایسا عدد \عددی{P(E)} پایا جاتا ہے کہ تجربہ بہت زیادہ مرتبہ سرانجام دینے سے  \عددی{E} کا اضافی تعدد تخمیناً \عددی{P(E)} ہو گا۔ہم \عددی{P(E)} کو  بلا منصوبہ تجربہ میں \عددی{E} کا \اصطلاح{احتمال}\فرہنگ{احتمال}\حاشیہب{probability}\فرہنگ{probability} کہتے ہیں۔دھیان رہے کہ یہ عدد \عددی{E} کی مطلق خاصیت نہیں ہے بلکہ کسی نمونی فضا \عددی{S} یعنی کسی بلا منصوبہ تجربہ سے متعلق ہے۔
 
-جب ہم کہتے ہیں کہ \عددی{E} کا احتمال \عددی{P(E)} ہے، اس سے ہمارا مطلب یہ ہے کہ اگر اس تجربہ کو بہت زیادہ مرتبہ سرانجام دیا جائے تب اضافی تعدد \عددی{\tilde{f}(E)}  عملی طور پر لازماً \عددی{P(E)} کے تخمیناً برابر ہو گا۔ (یہاں "تخمیناً برابر"  کو ہم نے "ٹھیک برابر" بنانا ہو گا۔اس کے لئے ہمیں حصہ \حوالہ{حصہ_شماریات_عمومی_تقسیم} تک  انتظار کرنا ہو گا۔)
+جب ہم کہتے ہیں کہ \عددی{E} کا احتمال \عددی{P(E)} ہے، اس سے ہمارا مطلب یہ ہے کہ اگر اس تجربہ کو بہت زیادہ مرتبہ سرانجام دیا جائے تب اضافی تعدد \عددی{\tilde{f}(E)}  عملی طور پر لازماً \عددی{P(E)} کے تخمیناً برابر ہو گا۔ (یہاں \قول{تخمیناً برابر}  کو ہم نے \قول{ٹھیک برابر} بنانا ہو گا۔اس کے لئے ہمیں حصہ \حوالہ{حصہ_شماریات_عمومی_تقسیم} تک  انتظار کرنا ہو گا۔)
 
 متعارف کردہ احتمال یوں تجربی اضافی تعدد  سے وابستہ ہے۔اس طرح ضروری ہے کہ یہ اضافی تعدد کی چند بنیادی خواص رکھتا ہو۔یہ خواص مسئلہ \حوالہ{مسئلہ_شماریات_اضافی_تعدد}، مسئلہ \حوالہ{مسئلہ_شماریات_اضافی_تعدد_مجموعہ} اور مساوات  \حوالہ{مساوات_شماریات_اشتراک_ب} سے اخذ کیے جا سکتے ہیں جنہیں \موٹا{حسابی احتمال کے مسلمات} کہتے ہیں۔
 
@@ -1187,7 +1187,7 @@ $P(A)=P(B)+P(A\cap B^C)\ge P(B)$
 \ابتدا{مسئلہ}\شناخت{مسئلہ_شماریات_مرتب_اجتماعات_الف}\quad \موٹا{مرتب اجتماعات}\\
 \عددی{n} مختلف چیزوں کی مرتب اجتماعات کی تعداد درج ذیل ہو گی جہاں تمام چیزیں مرتب اجتماعات میں شامل ہیں۔
 \begin{align}
-n!=1\cdot 2\cdot 2\cdot 3\cdots n \quad \quad \quad \text{\RL{اس کو "عدد ضربیہ \عددی{n}" پڑھیں}}
+n!=1\cdot 2\cdot 2\cdot 3\cdots n \quad \quad \quad \text{\RL{اس کو \قول{عدد ضربیہ \عددی{n}} پڑھیں}}
 \end{align} 
 \انتہا{مسئلہ}
 %========================
@@ -1403,9 +1403,9 @@ $23.5,\,0.5,\,\SI{2}{\percent};\quad \num{39902},\,400,\,\SI{1}{\percent}$
 %==========================
 
 \حصہ{بلا منصوبہ متغیرات۔ غیر مسلسل اور استمراری تقسیم}\شناخت{حصہ_شماریات_بلا_منصوبہ_متغیرات}
-دو پانسے اچھال کر \عددی{2} تا \عددی{12} عدد صحیح مجموعہ \عددی{X}  حاصل ہو گا لیکن اگلے اچھال  میں حاصل \عددی{X}  کی پیش گوئی نہیں کر سکتے ہیں لہٰذا ہم کہہ سکتے ہیں کہ \عددی{X} "امکان" پر منحصر ہے۔اسی طرح اگر ہم پیچوں کی کھیپ سے \عددی{5} کا نمونہ لے کر ان کی لمبائی ناپنا چاہیں تو ہم پیش گوئی نہیں کر سکتے ہیں کہ ان میں سے کتنے عیب دار ہوں گے؛ یوں عیب دار پیچوں کی تعداد \عددی{X} "امکان" پر منحصر ہو گی۔
+دو پانسے اچھال کر \عددی{2} تا \عددی{12} عدد صحیح مجموعہ \عددی{X}  حاصل ہو گا لیکن اگلے اچھال  میں حاصل \عددی{X}  کی پیش گوئی نہیں کر سکتے ہیں لہٰذا ہم کہہ سکتے ہیں کہ \عددی{X} \قول{امکان} پر منحصر ہے۔اسی طرح اگر ہم پیچوں کی کھیپ سے \عددی{5} کا نمونہ لے کر ان کی لمبائی ناپنا چاہیں تو ہم پیش گوئی نہیں کر سکتے ہیں کہ ان میں سے کتنے عیب دار ہوں گے؛ یوں عیب دار پیچوں کی تعداد \عددی{X} \قول{امکان} پر منحصر ہو گی۔
 
-\اصطلاح{بلا منصوبہ متغیر}\فرہنگ{بلا منصوبہ!متغیر}\حاشیہب{random variable}\فرہنگ{random!variable}  \عددی{X} سے مراد ایسا تفاعل ہے جس کی قیمت حقیقی اعداد اور  "امکان" پر منحصر ہوں۔ بلا منصوبہ متغیر کو \اصطلاح{امکانی متغیر}\فرہنگ{امکانی!متغیر}\حاشیہب{stochastic variable}\فرہنگ{stochastic!variable} بھی کہتے ہیں۔یہ کہنا زیادہ درست ہو گا کہ تفاعل \عددی{X} درج ذیل خواص رکھتا ہے۔
+\اصطلاح{بلا منصوبہ متغیر}\فرہنگ{بلا منصوبہ!متغیر}\حاشیہب{random variable}\فرہنگ{random!variable}  \عددی{X} سے مراد ایسا تفاعل ہے جس کی قیمت حقیقی اعداد اور  \قول{امکان} پر منحصر ہوں۔ بلا منصوبہ متغیر کو \اصطلاح{امکانی متغیر}\فرہنگ{امکانی!متغیر}\حاشیہب{stochastic variable}\فرہنگ{stochastic!variable} بھی کہتے ہیں۔یہ کہنا زیادہ درست ہو گا کہ تفاعل \عددی{X} درج ذیل خواص رکھتا ہے۔
 \begin{itemize}
 \item
 تجربہ کی نمونی فضا \عددی{S} پر \عددی{X} معین ہے اور اس کی قیمتیں حقیقی اعداد ہیں۔
@@ -1413,9 +1413,9 @@ $23.5,\,0.5,\,\SI{2}{\percent};\quad \num{39902},\,400,\,\SI{1}{\percent}$
 فرض کریں کہ \عددی{a} کوئی حقیقی عدد اور \عددی{I} کوئی وقفہ ہیں۔تب \عددی{S} میں ان تمام انجام کا سلسلہ جن کے لئے \عددی{X=a} ہو کا احتمال پوری طرح معین ہو گا اور یہی کچھ \عددی{S} میں ان تمام انجام کے لئے درست ہو گا جن کے لئے \عددی{X} کی قیمت \عددی{I} میں ہو۔یہ احتمال حصہ \حوالہ{حصہ_شماریات_احتمال} میں دی گئی مسلمات کے تحت ہوں گی۔
 \end{itemize}
 
-اگرچہ یہ تعریف عمومی ہے جس میں بہت سے تفاعل شامل ہیں، ہم دیکھیں گے کہ عملاً اہم بلا منصوبہ متغیرات کے اقسام اور ان کی مطابقتی "تقسیم احتمال" کی تعداد بہت کم ہیں۔ 
+اگرچہ یہ تعریف عمومی ہے جس میں بہت سے تفاعل شامل ہیں، ہم دیکھیں گے کہ عملاً اہم بلا منصوبہ متغیرات کے اقسام اور ان کی مطابقتی \قول{تقسیم احتمال} کی تعداد بہت کم ہیں۔ 
 
-اگر ہم بلا منصوبہ تجربہ سرانجام دیں اور عدد \عددی{a} کا مطابقتی وقوعہ حاصل ہو تب ہم کہتے ہیں کہ اس تجربہ کی  کوشش میں  بلا منصوبہ متغیر \عددی{X}  قیمت \عددی{a} \اصطلاح{اختیار}\فرہنگ{اختیار}\حاشیہب{assume}\فرہنگ{assume} کرتا ہے۔ہم یہ بھی کہتے ہیں کہ ہم نے قیمت \عددی{X=a} کا \اصطلاح{مشاہدہ}\فرہنگ{مشاہدہ}\حاشیہب{observed}\فرہنگ{observed} کیا۔ بجائے "عدد \عددی{a} کا مطابقتی وقوعہ" کہنے کے ہم مختصراً کہتے ہیں، "وقوعہ \عددی{X=a}"۔ مطابقتی احتمال \عددی{P(X=a)} سے ظاہر کیا جاتا ہے۔اس طرح وقوعہ
+اگر ہم بلا منصوبہ تجربہ سرانجام دیں اور عدد \عددی{a} کا مطابقتی وقوعہ حاصل ہو تب ہم کہتے ہیں کہ اس تجربہ کی  کوشش میں  بلا منصوبہ متغیر \عددی{X}  قیمت \عددی{a} \اصطلاح{اختیار}\فرہنگ{اختیار}\حاشیہب{assume}\فرہنگ{assume} کرتا ہے۔ہم یہ بھی کہتے ہیں کہ ہم نے قیمت \عددی{X=a} کا \اصطلاح{مشاہدہ}\فرہنگ{مشاہدہ}\حاشیہب{observed}\فرہنگ{observed} کیا۔ بجائے \قول{عدد \عددی{a} کا مطابقتی وقوعہ} کہنے کے ہم مختصراً کہتے ہیں، \قول{وقوعہ \عددی{X=a}}۔ مطابقتی احتمال \عددی{P(X=a)} سے ظاہر کیا جاتا ہے۔اس طرح وقوعہ
 \begin{align*}
 \text{\RL{میں کوئی قیمت اختیار کرتا ہے}}\quad  a<X<b\,\,\text{\RL{وقفہ}}\,X
 \end{align*}
@@ -1571,7 +1571,7 @@ f(x)&\frac{1}{36}&\frac{2}{36}&\frac{3}{36}&\frac{4}{36}&\frac{5}{36}&\frac{6}{3
 
 صرف وہ \عددی{x_1,x_2,x_3,\cdots} قیمتیں جن کے لئے بلا منصوبہ غیر مسلسل متغیر \عددی{X} مثبت احتمال رکھتا ہو \عددی{X} کی \اصطلاح{ممکنہ قیمتیں}\فرہنگ{ممکنہ قیمتیں}\حاشیہب{possible values}\فرہنگ{values!possible} کہلاتی ہیں۔جس وقفہ میں کوئی ممکنہ قیمت نہ پائی جاتی اس وقفہ میں تفاعل تقسیم \عددی{F(x)} مستقل ہو گا۔اس طرح \عددی{F(x)} \اصطلاح{سیڑھی تفاعل}\فرہنگ{سیڑھی تفاعل}\فرہنگ{step function} (ٹکڑوں میں مستقل تفاعل) ہو گا جس میں \عددی{x=x_j} پر اوپر رخ \عددی{p_j=P(X=x_j)} چھلانگ پائی جائے گی جبکہ دو چھلانگوں کے بیچ یہ مستقل ہو گا۔شکل \حوالہ{شکل_شماریات_تفاعل_تقسیم_الف} اور شکل \حوالہ{شکل_شماریات_تفاعل_تقسیم_ب} میں ایسا صاف ظاہر ہے۔
 
-ہم اب استمراری بلا منصوبہ متغیر کی تعریف پیش کرتے ہیں اور اس پر غور کرتے ہیں۔ایک بلا منصوبہ متغیر \عددی{X} اور اس کا مطابقتی تفاعل تقسیم تب \اصطلاح{استمراری}\فرہنگ{استمراری}\فرہنگ{continuous} کہلاتے ہیں جب اس کا تفاعل تقسیم \عددی{F(x)=P(X\le x)} مثبت ہو اور اسے درج ذیل تکمل کی صورت میں لکھنا ممکن ہو\حاشیہد{\عددی{F(x)} استمراری ہے لیکن \عددی{F(x)} کے استمراری ہونے سے  مساوات \حوالہ{مساوات_شماریات_استمراری_بلا_منصوبہ_متغیر_الف} کی موجودگی ثابت نہیں ہوتی ہے۔چونکہ ایسے استمراری تفاعل تقسیم جنہیں مساوات \حوالہ{مساوات_شماریات_استمراری_بلا_منصوبہ_متغیر_الف} کی صورت میں لکھنا ممکن نہ ہو عملاً بہت کم پائے جاتے ہیں لہٰذا اصطلاحات "استمراری بلا منصوبہ متغیر" اور "استمراری تقسیم" جو بہت زیادہ استعمال کی جاتی ہیں سے پریشانی پیدا ہونے کا امکان بہت کم ہو گا۔}
+ہم اب استمراری بلا منصوبہ متغیر کی تعریف پیش کرتے ہیں اور اس پر غور کرتے ہیں۔ایک بلا منصوبہ متغیر \عددی{X} اور اس کا مطابقتی تفاعل تقسیم تب \اصطلاح{استمراری}\فرہنگ{استمراری}\فرہنگ{continuous} کہلاتے ہیں جب اس کا تفاعل تقسیم \عددی{F(x)=P(X\le x)} مثبت ہو اور اسے درج ذیل تکمل کی صورت میں لکھنا ممکن ہو\حاشیہد{\عددی{F(x)} استمراری ہے لیکن \عددی{F(x)} کے استمراری ہونے سے  مساوات \حوالہ{مساوات_شماریات_استمراری_بلا_منصوبہ_متغیر_الف} کی موجودگی ثابت نہیں ہوتی ہے۔چونکہ ایسے استمراری تفاعل تقسیم جنہیں مساوات \حوالہ{مساوات_شماریات_استمراری_بلا_منصوبہ_متغیر_الف} کی صورت میں لکھنا ممکن نہ ہو عملاً بہت کم پائے جاتے ہیں لہٰذا اصطلاحات \قول{استمراری بلا منصوبہ متغیر} اور \قول{استمراری تقسیم} جو بہت زیادہ استعمال کی جاتی ہیں سے پریشانی پیدا ہونے کا امکان بہت کم ہو گا۔}
 \begin{align}\label{مساوات_شماریات_استمراری_بلا_منصوبہ_متغیر_الف}
 F(x)=\int_{-\infty}^{x} f(v)\dif v
 \end{align}
@@ -1758,7 +1758,7 @@ f(x)=\frac{1}{b-a}\quad \quad (a<x<b\,\,\text{جب})
 %===========================
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-0.5,0)--(1.5,0)node[right]{$x$};
@@ -1767,8 +1767,8 @@ f(x)=\frac{1}{b-a}\quad \quad (a<x<b\,\,\text{جب})
 \draw(1,1)node[above right]{$(\sigma^{\,2}=\tfrac{1}{12})$};
 \path(3,0)--(3.5,0);
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-1.5,0)--(2.5,0)node[right]{$x$};
@@ -1778,7 +1778,7 @@ f(x)=\frac{1}{b-a}\quad \quad (a<x<b\,\,\text{جب})
 \draw(1,1)node[above right]{$(\sigma^{\,2}=\tfrac{3}{4})$};
 \end{tikzpicture}
 \end{subfigure}
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(0,0)--(0,1.5)node[right]{$F(x)$};
@@ -1788,8 +1788,8 @@ f(x)=\frac{1}{b-a}\quad \quad (a<x<b\,\,\text{جب})
 \draw(0,1)node[left]{$1$}--++(0.2,0);
 \path(3,0)--(3.5,0);
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
 \draw(-1.5,0)--(2.5,0)node[right]{$x$};
@@ -1799,7 +1799,7 @@ f(x)=\frac{1}{b-a}\quad \quad (a<x<b\,\,\text{جب})
 \draw(2,0)node[below]{$2$}--++(0,0.2);
 \draw(0,1)node[left]{$1$}--++(0.2,0);
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} \hfill
 \caption{یکساں تقسیم جن کی ایک جیسی اوسط \عددی{(0.5)} لیکن مختلف تغیریت \عددی{\sigma^{\,2}} ہے}
 \label{شکل_شماریات_یکساں_تقسیم_اوسط_تغیریت}
 \end{figure}
@@ -2005,7 +2005,7 @@ f(x)=\binom{n}{x}p^xq^{n-x}\quad\quad\quad (x=0,1,\cdots,n)
 ہو گا جبکہ \عددی{x} کے کسی دوسری قیمت کے لئے \عددی{f(x)=0} ہو گا۔\عددی{n} کوششوں میں ٹھیک \عددی{x} مرتبہ \عددی{A} واقع ہونا کا احتمال  مساوات \حوالہ{مساوات_شماریات_ثنائی_تقسیم_ب} دیتی ہے جہاں ایک کوشش میں \عددی{A} واقع ہونے کا احتمال \عددی{p} ہے اور \عددی{q=1-p} ہے۔مساوات \حوالہ{مساوات_شماریات_ثنائی_تقسیم_ب} میں دی گئی تقسیم کو \اصطلاح{ثنائی تقسیم}\فرہنگ{ثنائی!تقسیم}\فرہنگ{تقسیم!ثنائی}\حاشیہب{binomial distribution}\فرہنگ{binomial!distribution} کہتے ہیں۔\عددی{A} کے واقع ہونے کو \ترچھا{کامیابی}\فرہنگ{کامیابی}\حاشیہب{success}\فرہنگ{success} جبکہ اس کے نا واقع ہونے کو \ترچھا{ناکامی}\فرہنگ{ناکامی}\حاشیہب{failure}\فرہنگ{failure} کہتے ہیں۔ \عددی{p} کو ایک کوشش میں کامیابی  کا احتمال کہتے ہیں۔شکل \حوالہ{شکل_شماریات_ثنائی_مثالیں} میں \عددی{n=5} اور مختلف \عددی{p} کے لئے مساوات \حوالہ{مساوات_شماریات_ثنائی_تقسیم_ب} ترسیم کیا گیا ہے۔
 \begin{figure}
 \centering
-\begin{subfigure}{0.2\textwidth}
+\begin{subfigure}{0.19\textwidth}
 \centering
 \begin{tikzpicture}[x={0.25cm},y={4cm}]
 \foreach \x/\y in {0/0.59,1/0.328,2/0.0723,3/0.0081}{\draw[thick](\x,0)--++(0,\y);}
@@ -2013,8 +2013,8 @@ f(x)=\binom{n}{x}p^xq^{n-x}\quad\quad\quad (x=0,1,\cdots,n)
 \draw(0,0.5)node[left]{$0.5$}--++(0.4,0);
 \end{tikzpicture}
 \caption*{$p=0.1$}
-\end{subfigure}%
-\begin{subfigure}{0.2\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.19\textwidth}
 \centering
 \begin{tikzpicture}[x={0.25cm},y={4cm}]
 \foreach \x/\y in {0/0.328,1/0.41,2/0.2,3/0.05,4/0.0064}{\draw[thick](\x,0)--++(0,\y);}
@@ -2022,8 +2022,8 @@ f(x)=\binom{n}{x}p^xq^{n-x}\quad\quad\quad (x=0,1,\cdots,n)
 \path(0,0)--++(0,0.59);
 \end{tikzpicture}
 \caption*{$p=0.2$}
-\end{subfigure}%
-\begin{subfigure}{0.2\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.19\textwidth}
 \centering
 \begin{tikzpicture}[x={0.25cm},y={4cm}]
 \foreach \x/\y in {0/0.031,1/0.156,2/0.31,3/0.31,4/0.156,5/0.031}{\draw[thick](\x,0)--++(0,\y);}
@@ -2031,8 +2031,8 @@ f(x)=\binom{n}{x}p^xq^{n-x}\quad\quad\quad (x=0,1,\cdots,n)
 \path(0,0)--++(0,0.59);
 \end{tikzpicture}
 \caption*{$p=0.5$}
-\end{subfigure}%
-\begin{subfigure}{0.2\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.19\textwidth}
 \centering
 \begin{tikzpicture}[x={0.25cm},y={4cm}]
 \foreach \x/\y in {0/0,1/0.006,2/0.051,3/0.2,4/0.41,5/0.033}{\draw[thick](\x,0)--++(0,\y);}
@@ -2040,15 +2040,15 @@ f(x)=\binom{n}{x}p^xq^{n-x}\quad\quad\quad (x=0,1,\cdots,n)
 \path(0,0)--++(0,0.59);
 \end{tikzpicture}
 \caption*{$p=0.8$}
-\end{subfigure}%
-\begin{subfigure}{0.2\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.19\textwidth}
 \centering
 \begin{tikzpicture}[x={0.25cm},y={4cm}]
 \foreach \x/\y in {0/0,1/0,2/0.008,3/0.073,4/0.33,5/0.59}{\draw[thick](\x,0)--++(0,\y);}
 \draw(0,0)node[below]{$0$}--(5,0)node[below]{$5$}node[above right]{$x$};
 \end{tikzpicture}
 \caption*{$p=0.9$}
-\end{subfigure}%
+\end{subfigure}
 \caption{مختلف \عددی{p} اور \عددی{n=5} کے لئے مساوات \حوالہ{مساوات_شماریات_ثنائی_تقسیم_ب} میں دی گئی تثنائی تقسیم}
 \label{شکل_شماریات_ثنائی_مثالیں}
 \end{figure}
@@ -2084,7 +2084,7 @@ f(x)=\frac{\mu^x}{x!}e^{-\mu}
 \draw(0,0.5)node[left]{$0.5$}--++(0.4,0);
 \end{tikzpicture}
 \caption*{$\mu=0.5$}
-\end{subfigure}%
+\end{subfigure} \hfill
 \begin{subfigure}{0.2\textwidth}
 \centering
 \begin{tikzpicture}[x={0.25cm},y={4cm}]
@@ -2093,7 +2093,7 @@ f(x)=\frac{\mu^x}{x!}e^{-\mu}
 \path(0,0)--++(0,0.59);
 \end{tikzpicture}
 \caption*{$\mu=1$}
-\end{subfigure}%
+\end{subfigure} \hfill
 \begin{subfigure}{0.2\textwidth}
 \centering
 \begin{tikzpicture}[x={0.25cm},y={4cm}]
@@ -2102,8 +2102,8 @@ f(x)=\frac{\mu^x}{x!}e^{-\mu}
 \path(0,0)--++(0,0.59);
 \end{tikzpicture}
 \caption*{$\mu=2$}
-\end{subfigure}%
-\begin{subfigure}{0.4\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.35\textwidth}
 \centering
 \begin{tikzpicture}[x={0.25cm},y={4cm}]
 \foreach \x/\y in {0/0.007,1/0.034,2/0.084,3/0.14,4/0.175,5/0.175,6/0.146,7/0.104,8/0.065,9/0.036,10/0.018,11/0.0082}{\draw[thick](\x,0)--++(0,\y);}
@@ -2111,7 +2111,7 @@ f(x)=\frac{\mu^x}{x!}e^{-\mu}
 \path(0,0)--++(0,0.59);
 \end{tikzpicture}
 \caption*{$\mu=5$}
-\end{subfigure}%
+\end{subfigure} \hfill
 \caption{مختلف \عددی{p} اور \عددی{n=5} کے لئے مساوات \حوالہ{مساوات_شماریات_پوئسن_تقسیم_الف} میں دی گئی پوئسن تقسیم}
 \label{شکل_شماریات_پوئسن_مثالیں}
 \end{figure}
@@ -2180,7 +2180,7 @@ f(x)=\frac{\binom{3}{x}\binom{7}{2-x}}{\binom{10}{2}},\quad f(0)=f(1)=\frac{21}{
 \حصہء{سوالات}
 %=====================
 \ابتدا{سوال}\quad
-چار سکے ایک ساتھ  اچھالے جاتے ہیں۔بلا منصوبہ متغیر "\عددی{\text{\RL{تعداد خط}}=X}" کا تفاعل احتمال تلاش کریں؟ \عددی{0} خط، \عددی{1} خط، کم سے کم \عددی{1} خط اور زیادہ سے زیادہ \عددی{3}  خط کا احتمال حاصل کریں۔\\
+چار سکے ایک ساتھ  اچھالے جاتے ہیں۔بلا منصوبہ متغیر \قول{\عددی{\text{\RL{تعداد خط}}=X}} کا تفاعل احتمال تلاش کریں؟ \عددی{0} خط، \عددی{1} خط، کم سے کم \عددی{1} خط اور زیادہ سے زیادہ \عددی{3}  خط کا احتمال حاصل کریں۔\\
 جواب:\quad
 $0.0625, 0.25, 0.9375,0.9375$
 \انتہا{سوال}
@@ -2292,7 +2292,7 @@ f(x)=\frac{1}{\sigma\sqrt{2\pi}}\,e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}\quad\
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,ytick={1},yticklabels={$1$},xmin=-2.5,xmax=2.5,xlabel={$x$},x label style={at={(current axis.right of origin)},anchor=north west},ylabel={$f(x)$},y label style={rotate=-90},y label style={at={(current axis.above origin)},anchor=north east}]
+\begin{axis}[,myStyleA,ytick={1},yticklabels={$1$},xmin=-2.5,xmax=2.5,xlabel={$x$},ylabel={$f(x)$}]
 \addplot[smooth,domain=-1:1] {1/(0.25*sqrt(2*pi))*e^(-0.5*((x-0)/0.25)^2)}node[pos=0.55,right]{$\sigma=0.25$};
 \addplot[smooth,domain=-1.25:1.25] {1/(0.5*sqrt(2*pi))*e^(-0.5*((x-0)/0.5)^2)}node[pos=0.7,right]{$\sigma=0.5$};
 \addplot[smooth,domain=-2.5:2.5] {1/(1*sqrt(2*pi))*e^(-0.5*((x-0)/1)^2)}node[pos=0.9,above,yshift={0.1cm}]{$\sigma=1$};
@@ -2345,10 +2345,10 @@ P(a<X\le b)=F(b)-F(a)=\Phi\big(\frac{b-\mu}{\sigma}\big)-\Phi\big(\frac{a-\mu}{\
 %
 \begin{figure}
 \centering
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,axis y line=none,yticklabels={$1$},xlabel={$x$},x label style={at={(current axis.right of origin)},anchor=north west},ylabel={$f(x)$},y label style={rotate=-90},y label style={at={(current axis.above origin)},anchor=north east},xtick={-0.25,0,0.25},xticklabels={$\mu-\sigma$,$\mu$,$\mu+\sigma$},axis on top]
+\begin{axis}[,myStyleA,axis y line=none,yticklabels={$1$},xlabel={$x$},ylabel={$f(x)$},,xtick={-0.25,0,0.25},xticklabels={$\mu-\sigma$,$\mu$,$\mu+\sigma$},axis on top]
 \addplot[domain=-0.25:0.25,mark=none,fill,color=lgray]{1/(0.25*sqrt(2*pi))*e^(-0.5*((x-0)/0.25)^2)}\closedcycle;
 \addplot[smooth,domain=-0.6:0.6] {1/(0.25*sqrt(2*pi))*e^(-0.5*((x-0)/0.25)^2)};
 \draw(axis cs:0,0.75)node[fill=white,font=\footnotesize]{$\SI{68}{\percent}$};
@@ -2356,11 +2356,11 @@ P(a<X\le b)=F(b)-F(a)=\Phi\big(\frac{b-\mu}{\sigma}\big)-\Phi\big(\frac{a-\mu}{\
 \draw(axis cs:0.375,0.2)node[font=\footnotesize]{$\SI{16}{\percent}$};
 \end{axis}
 \end{tikzpicture}
-\end{subfigure}%
-\begin{subfigure}{0.5\textwidth}
+\end{subfigure} \hfill
+\begin{subfigure}{0.45\textwidth}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,axis y line=none,yticklabels={$1$},xlabel={$x$},x label style={at={(current axis.right of origin)},anchor=north west},ylabel={$f(x)$},y label style={rotate=-90},y label style={at={(current axis.above origin)},anchor=north east},xtick={-0.5,0,0.5},xticklabels={$\mu-2\sigma$,$\mu$,$\mu+2\sigma$},axis on top]
+\begin{axis}[,myStyleA,axis y line=none,yticklabels={$1$},xlabel={$x$},ylabel={$f(x)$},xtick={-0.5,0,0.5},xticklabels={$\mu-2\sigma$,$\mu$,$\mu+2\sigma$},axis on top]
 \addplot[domain=-0.5:0.5,mark=none,fill,color=lgray]{1/(0.25*sqrt(2*pi))*e^(-0.5*((x-0)/0.25)^2)}\closedcycle;
 \addplot[smooth,domain=-0.6:0.6] {1/(0.25*sqrt(2*pi))*e^(-0.5*((x-0)/0.25)^2)};
 \draw(axis cs:0,0.75)node[fill=white,font=\footnotesize]{$\SI{95.5}{\percent}$};
@@ -2368,7 +2368,7 @@ P(a<X\le b)=F(b)-F(a)=\Phi\big(\frac{b-\mu}{\sigma}\big)-\Phi\big(\frac{a-\mu}{\
 \draw[stealth-](axis cs:0.55,0.05) to [out=45,in=-90] (axis cs:0.575,0.3)node[above,font=\footnotesize]{$\SI{2.25}{\percent}$};
 \end{axis}
 \end{tikzpicture}
-\end{subfigure}%
+\end{subfigure} \hfill
 \caption{اظہار مساوات \حوالہ{مساوات_شماریات_عمومی_تقسیم_ج}}
 \label{شکل_شماریات_اظہار_عمومی_تقسیم}
 \end{figure}
@@ -2748,7 +2748,7 @@ f(x,y)=0\,\text{ورنہ}\,f(x,y)=\frac{1}{k}\,\text{میں ہو تب}\,R\,\text
 \end{tikzpicture}
 \caption{یکساں تقسیم (مساوات \حوالہ{مساوات_شماریات_یکساں_متعدد_متغیرات_کثافت}) کا تفاعل تقسیم}
 \label{شکل_شماریات_یکساں_تقسیم_ب}
-\end{minipage}%
+\end{minipage}\hfill
 \end{figure}
 
 %=================
@@ -3274,7 +3274,7 @@ $\widehat{p}=\frac{1}{\overline{x}}$
 
 احتمال \عددی{\gamma} کی قیمت کو \عددی{1} کے قریب منتخب کریں (مثلاً، \عددی{\gamma=\SI{95}{\percent}} یا \عددی{\gamma=\SI{99}{\percent}}، وغیرہ)۔ اس کے بعد ایسے  دو مقدار \عددی{\Theta_1} اور \عددی{\Theta_2} منتخب کریں جن میں مقدار معلوم \عددی{\theta} کی اصل قیمت کے شامل ہونے کا احتمال \عددی{\gamma} ہو۔
 
-ہم سو فی صد یقین کے ساتھ جاننے کی "نا ممکن شرط" کی بجائے تقریباً \عددی{1} احتمال کی "ممکن شرط" پیش کرتے ہیں۔
+ہم سو فی صد یقین کے ساتھ جاننے کی \قول{نا ممکن شرط} کی بجائے تقریباً \عددی{1} احتمال کی \قول{ممکن شرط} پیش کرتے ہیں۔
 
 دیے گئے نمونہ \عددی{x_1,\cdots,x_n} سے ان دو مقداروں کی قیمتوں کا حساب لگایا جائے گا۔ان \عددی{n} قیمتوں کو مشاہدے سے حاصل \عددی{n} بلا منصوبہ متغیرات \عددی{X_1,\cdots,X_n} کی قیمتیں تصور کریں۔تب \عددی{\Theta_1} اور \عددی{\Theta_2} ان بلا منصوبہ متغیرات کے تفاعل ہوں گے اور یوں خود بھی بلا منصوبہ متغیرات ہوں گے۔اس طرح ہماری شرط درج ذیل لکھی جا سکتی ہے۔
 \begin{align*}
@@ -3288,7 +3288,7 @@ P(\Theta_1\le \theta \le \Theta_2)=\gamma
 
 ظاہر ہے کہ اگر ہم ایک نمونہ حاصل کر کے مطابقتی وقفہ اعتماد تعین کرنا چاہیں، تب مقدار معلوم کی اصل قیمت شامل کرنے والے وقفہ کے حصول کا احتمال \عددی{\gamma} ہو گا۔
 
-مثال کے طور پر اگر ہم \عددی{\gamma=\SI{95}{\percent}} منتخب  کریں، تب ہم توقع کر سکتے ہیں کہ \عددی{\SI{95}{\percent}} نمونے جو ہم حاصل کریں ایسے اعتمادی وقفے دیں گے جن میں \عددی{\theta} کی قیمت شامل ہو گی اور باقی \عددی{\SI{5}{\percent}} میں ایسا نہیں ہو گا۔یوں \عددی{20} میں سے تقریباً \عددی{19} صورتوں میں  یہ فقرہ کہ "اعتمادی وقفہ میں \عددی{\theta} شامل ہے"  درست ہو گا جبکہ باقی صورتوں میں یہ فقرہ غلط ہو گا۔
+مثال کے طور پر اگر ہم \عددی{\gamma=\SI{95}{\percent}} منتخب  کریں، تب ہم توقع کر سکتے ہیں کہ \عددی{\SI{95}{\percent}} نمونے جو ہم حاصل کریں ایسے اعتمادی وقفے دیں گے جن میں \عددی{\theta} کی قیمت شامل ہو گی اور باقی \عددی{\SI{5}{\percent}} میں ایسا نہیں ہو گا۔یوں \عددی{20} میں سے تقریباً \عددی{19} صورتوں میں  یہ فقرہ کہ \قول{اعتمادی وقفہ میں \عددی{\theta} شامل ہے}  درست ہو گا جبکہ باقی صورتوں میں یہ فقرہ غلط ہو گا۔
 
 \عددی{\gamma=\SI{95}{\percent}} کی بجائے \عددی{\gamma=\SI{99}{\percent}} منتخب کرنے سے ہم توقع کریں گے کہ \عددی{100} میں سے \عددی{99} صورتوں میں یہ فقرہ درست ہو گا۔البتہ ہم دیکھیں گے کہ \عددی{\gamma=\SI{99}{\percent}} کے مطابقتی وقفے \عددی{\gamma=\SI{95}{\percent}} کے مطابقتی وقفوں سے  لمبے ہوں گے۔\عددی{\gamma} بڑھانے کا یہ ایک نقصان ہے۔ 
 
@@ -3355,7 +3355,7 @@ n=\big(\frac{2c\sigma}{L}\big)^2
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,ymin=0,ymax=0.59,xlabel={$n$},ylabel={$\tfrac{L}{\sigma}$},xlabel style={at={(current axis.right of origin)},anchor=north west},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=east}]
+\begin{axis}[myStyleA,ymin=0,ymax=0.59,xlabel={$n$},ylabel={$\tfrac{L}{\sigma}$},]
 \addplot[thick,smooth,domain=40:500] {2*1.960/sqrt(x)}node[pos=0.5,pin={-135:$\gamma=\SI{95}{\percent}$}]{};
 \addplot[thick,smooth,domain=50:500] {2*2.576/sqrt(x)}node[pos=0.5,pin={45:$\gamma=\SI{99}{\percent}$}]{};
 \end{axis}
@@ -3792,12 +3792,12 @@ P(X>c)=1-P(X\le c)\approx 1-\Theta\big(\frac{c-1500}{\sqrt{750}}\big)=0.01
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,axis y line=none,xtick={1450,1500,1550,1600},xticklabels={$1450$,$1500$,$1550$,$1600$},ytick={0}, yticklabels={$0$}]
+\begin{axis}[clip=false,myStyleA,axis y line=none,xtick={1450,1500,1550,1600},xticklabels={$1450$,$1500$,$1550$,$1600$},ytick={0}, yticklabels={$0$}]
 \addplot[domain=1450:1600,smooth]{1/(sqrt(750)*sqrt(2*pi))*e^(-0.5*((x-1500)^2/750))}node[pos=0.80,pin=50:{$\SI{1}{\percent}$}]{};
 \addplot[black,dashed]  coordinates {(1564,-0.002) (1564,0.016)}node[pos=0,below,font=\small]{$c=1564$};
 \addplot[] coordinates {(1564,-0.004)};
-\addplot[] coordinates {(1540,0.014)}node[]{\RL{قیاس منظور}};
-\addplot[] coordinates {(1590,0.014)}node[]{\RL{قیاس نا منظور}};
+\addplot[] coordinates {(1560,0.014)}node[above left]{\RL{\small{قیاس منظور}}};
+\addplot[] coordinates {(1560,0.014)}node[below right]{\RL{\small{قیاس نا منظور}}};
 \addplot[] coordinates {(1500,0.004)}node[font=\small]{$\SI{99}{\percent}$};
 \end{axis}
 \end{tikzpicture}
@@ -3821,21 +3821,21 @@ P(X>c)=1-P(X\le c)\approx 1-\Theta\big(\frac{c-1500}{\sqrt{750}}\big)=0.01
 
 \begin{figure}
 \centering
-\begin{tikzpicture}
+\begin{tikzpicture}[x={(1.25,0)},font=\footnotesize]]
 \shade[gray,shading angle=180](5,0) rectangle (8,0.2);
 \draw(0,0)--++(8,0);
 \draw(4,0)node[below]{$\theta_0$}--++(0,0.2);
 \draw[thick](5,0)node[below]{$c$}--++(0,1);
-\draw(2,0.8)node[align=right,font=\small]{\RL{خطہ منظوری} \\ \RL{قیاس نا منظور نہ کریں}\\ \RL{(قیاس منظور کریں)}};
-\draw(6.5,0.8)node[align=right,font=\small]{\RL{خطہ نا منظوری}\\  \RL{(خطہ فاصل)}\\  \RL{قیاس نا منظور کریں}};
+\draw(2,0.8)node[align=right]{\RL{خطہ منظوری} \\ \RL{قیاس نا منظور نہ کریں}\\ \RL{(قیاس منظور کریں)}};
+\draw(6.5,0.8)node[align=right]{\RL{خطہ نا منظوری}\\  \RL{(خطہ فاصل)}\\  \RL{قیاس نا منظور کریں}};
 %
 \begin{scope}[yshift=-2cm]
 \shade[gray,shading angle=180](0,0) rectangle (3,0.2);
 \draw(0,0)--++(8,0);
 \draw(4,0)node[below]{$\theta_0$}--++(0,0.2);
 \draw[thick](3,0)node[below]{$c$}--++(0,1);
-\draw(1.5,0.8)node[align=right,font=\small]{\RL{خطہ نا منظوری}\\  \RL{(خطہ فاصل)}\\  \RL{قیاس نا منظور کریں}};
-\draw(6,0.8)node[align=right,font=\small]{\RL{خطہ منظوری} \\ \RL{قیاس نا منظور نہ کریں}\\ \RL{(قیاس منظور کریں)}};
+\draw(1.5,0.8)node[align=right]{\RL{خطہ نا منظوری}\\  \RL{(خطہ فاصل)}\\  \RL{قیاس نا منظور کریں}};
+\draw(6,0.8)node[align=right]{\RL{خطہ منظوری} \\ \RL{قیاس نا منظور نہ کریں}\\ \RL{(قیاس منظور کریں)}};
 \end{scope}
 %
 \begin{scope}[yshift=-4cm]
@@ -3845,9 +3845,9 @@ P(X>c)=1-P(X\le c)\approx 1-\Theta\big(\frac{c-1500}{\sqrt{750}}\big)=0.01
 \draw(4,0)node[below]{$\theta_0$}--++(0,0.2);
 \draw[thick](3,0)node[below]{$c_1$}--++(0,1);
 \draw[thick](5,0)node[below]{$c_2$}--++(0,1);
-\draw(1.5,0.8)node[align=right,font=\small]{\RL{خطہ نا منظوری}\\  \RL{(خطہ فاصل)}\\  \RL{قیاس نا منظور کریں}};
-\draw(4,0.8)node[align=right,font=\small]{\RL{خطہ منظوری} \\ \RL{قیاس نا منظور نہ کریں}\\ \RL{(قیاس منظور کریں)}};
-\draw(6.5,0.8)node[align=right,font=\small]{\RL{خطہ نا منظوری}\\  \RL{(خطہ فاصل)}\\  \RL{قیاس نا منظور کریں}};
+\draw(1.5,0.8)node[align=right]{\RL{خطہ نا منظوری}\\  \RL{(خطہ فاصل)}\\  \RL{قیاس نا منظور کریں}};
+\draw(4,0.8)node[align=right]{\RL{خطہ منظوری} \\ \RL{قیاس نا منظور نہ کریں}\\ \RL{(قیاس منظور کریں)}};
+\draw(6.5,0.8)node[align=right]{\RL{خطہ نا منظوری}\\  \RL{(خطہ فاصل)}\\  \RL{قیاس نا منظور کریں}};
 \end{scope}
 \end{tikzpicture}
 \caption{مساوات \حوالہ{مساوات_شماریات_متبادل_پرکھ_الف} کی متبادل (بالائی شکل)، مساوات \حوالہ{مساوات_شماریات_متبادل_پرکھ_ب} کی متبادل (درمیانی شکل) اور مساوات \حوالہ{مساوات_شماریات_متبادل_پرکھ_پ} کی متبادل (نچلی شکل) کی صورت میں پرکھ}
@@ -3878,13 +3878,13 @@ P(\widehat{\Theta}>c)_{\theta=\theta_0}=\alpha
 \begin{otherlanguage}{english}
 \begin{tabular}{cc|cc}
 \hline
-&&\multicolumn{2}{c}{\RL{\urdufont{نا معلوم حقیقت}}}\Tstrut\\
+&&\multicolumn{2}{c}{\RL{{نا معلوم حقیقت}}}\Tstrut\\
 &&$\theta=\theta_0$&$\theta=\theta_1$\\
 \hline 
-\parbox[t]{2mm}{\multirow{4}{*}{\rotatebox[origin=c]{90}{\urdufont{منظور}}}}&\multirow{2}{*}{ $\theta=\theta_0$}&\RL{\urdufont{ٹھیک فیصلہ}} & \multicolumn{1}{|c}{\RL{\urdufont{دوسری قسم کا خلل}}}\Tstrut\\
+\parbox[t]{2mm}{\multirow{4}{*}{\rotatebox[origin=c]{90}{{منظور}}}}&\multirow{2}{*}{ $\theta=\theta_0$}&\RL{{ٹھیک فیصلہ}} & \multicolumn{1}{|c}{\RL{{دوسری قسم کا خلل}}}\Tstrut\\
 && $P=1-\alpha$&\multicolumn{1}{|c}{ $P=\beta$}\\
 \cline{2-4}
-&\multirow{2}{*}{$\theta=\theta_1$}& \RL{\urdufont{پہلی قسم کا خلل}} &\multicolumn{1}{|c}{\RL{\urdufont{ٹھیک فیصلہ}}}\\
+&\multirow{2}{*}{$\theta=\theta_1$}& \RL{{پہلی قسم کا خلل}} &\multicolumn{1}{|c}{\RL{{ٹھیک فیصلہ}}}\\
 &&$P=\alpha$& \multicolumn{1}{|c}{$P=a-\beta$}\\
 \hline
 \end{tabular}
@@ -3902,7 +3902,7 @@ P(\widehat{\Theta}\le c)_{\theta=\theta_1}=\beta
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[clip=false,small,axis lines*=middle, axis y line=none,xtick={2,4,6},xticklabels={$\theta_0$,$c$,$\theta_1$}]
+\begin{axis}[clip=false,myStyleA, axis y line=none,xtick={2,4,6},xticklabels={$\theta_0$,$c$,$\theta_1$}]
 \pgfmathsetmacro{\nab}{1.2}
 \addplot[domain=0:6,smooth] {e^(-1/2*((x-2)/\nab)^2)}node[pos=0.35,above left,align=right]{\RL{$\widehat{\Theta}$ کی کثافت} \\ \RL{اگر قیاس درست ہو}};
 \addplot[dashed,domain=1:8,smooth] {e^(-1/2*((x-5)/\nab)^2)}node[pos=0.55,above right,align=right]{\RL{$\widehat{\Theta}$ کی کثافت}\\  \RL{اگر متبادل درست ہو}};
@@ -3920,7 +3920,7 @@ P(\widehat{\Theta}\le c)_{\theta=\theta_1}=\beta
 
 اگر متبادل واحد عدد نہ ہو بلکہ مساوات \حوالہ{مساوات_شماریات_متبادل_پرکھ_الف} تا مساوات \حوالہ{مساوات_شماریات_متبادل_پرکھ_پ} کی طرح ہو  تب \عددی{\beta} تفاعل ہو گا جو  \عددی{\theta} کا تابع ہو گا۔تفاعل \عددی{\beta(\theta)} کو پرکھ کی \اصطلاح{خاصیت کارکردگی}\فرہنگ{کارکردگی!خاصیت}\حاشیہب{operating characteristic}\فرہنگ{characteristic!operating} کہتے ہیں اور اس کی منحنی کو \اصطلاح{منحنی خاصیت کارکردگی}\فرہنگ{خاصیت!منحنی کارکردگی} کہتے ہیں۔ظاہر ہے کہ ایسی صورت میں \عددی{\eta=1-\beta} بھی \عددی{\theta} کے تابع ہو گا اور تفاعل \عددی{\eta(\theta)} کو پرکھ کا \اصطلاح{تفاعل طاقت}\فرہنگ{طاقت!تفاعل}\حاشیہب{power function}\فرہنگ{power!function} کہتے ہیں۔
 
-ظاہر ہے کہ ایسی پرکھ جس کی بنا کوئی قیاس \عددی{\theta_0} منظور ہو سے یہ ظاہر نہیں ہوتا کہ یہی سب سے بہتر  یا واحد قیاس ہے۔یوں لفظ "منظور" کی جگہ "نا منظور نہ کرنا" کہنا زیادہ بہتر ہو گا۔ 
+ظاہر ہے کہ ایسی پرکھ جس کی بنا کوئی قیاس \عددی{\theta_0} منظور ہو سے یہ ظاہر نہیں ہوتا کہ یہی سب سے بہتر  یا واحد قیاس ہے۔یوں لفظ \قول{منظور} کی جگہ \قول{نا منظور نہ کرنا} کہنا زیادہ بہتر ہو گا۔ 
 
  \جزوحصہء{عمومی تقسیم کی صورت میں پرکھ}
 درج ذیل مثال عملاً اہم قیاس کے پرکھ کی وضاحت کرتا ہے۔ 
@@ -4113,7 +4113,7 @@ $K_{mn}=m^{\tfrac{m}{2}}n^{\tfrac{n}{2}}\tfrac{\Gamma(\tfrac{m}{2}+\tfrac{n}{2})
 \ابتدا{سوال}\شناخت{سوال_شماریات_سکہ_منصفانہ_الف}\quad 
 صفحہ \حوالہصفحہ{جدول_شماریات_سکہ_پھینکنے_کے_نتائج} پر جدول \حوالہ{جدول_شماریات_سکہ_پھینکنے_کے_نتائج} میں امجد کے مواد کو استعمال کرتے ہوئے اس قیاس کو پرکھیں کہ سکہ منصفانہ ہے، یعنی خط اور شیر کا احتمال ایک جیسا ہے۔\عددی{\alpha=\SI{5}{\percent}} منتخب کریں۔\\
 جواب:\quad
-اگر قیاس \عددی{p=0.5} درست ہو تب "\عددی{4040} کوششوں میں خط کی تعداد\عددی{X=}" تقریباً عمومی ہو گی جس کی اوسط \عددی{\mu=2020} اور تغیریت \عددی{\sigma^2=1010} ہو گی (حصہ \حوالہ{حصہ_شماریات_عمومی_تقسیم})۔\\
+اگر قیاس \عددی{p=0.5} درست ہو تب \قول{\عددی{4040} کوششوں میں خط کی تعداد\عددی{X=}} تقریباً عمومی ہو گی جس کی اوسط \عددی{\mu=2020} اور تغیریت \عددی{\sigma^2=1010} ہو گی (حصہ \حوالہ{حصہ_شماریات_عمومی_تقسیم})۔\\
 $P(X\le c)=\Phi(\tfrac{c-2020}{\sqrt{1010}})=0.95,\,\,\,c=2072>2048$
 ہے لہٰذا قیاس نا منظور نہ کریں۔
 \انتہا{سوال}
@@ -4231,7 +4231,7 @@ $v_0=\tfrac{50}{30}=1.67<c=2.59$
 ہر پرکھ کا نتیجہ کو ترسیمی صورت میں \اصطلاح{نقشہ ضبط}\فرہنگ{ضبط!نقشہ}\حاشیہب{control chart}\فرہنگ{control!chart} پر ظاہر\حاشیہد{امریکی ماہر شماریات والٹر انڈرو شوہارٹ [1891-1967] نے یہ نقشہ  \سن{1924} میں تجویز کیا جو معیار کو قابو کرنے میں انتہائی موثر ثابت ہوا ہے۔} کیا جاتا ہے۔
 
 \جزوحصہء{اوسط کا نقشہ ضبط}
-شکل \حوالہ{شکل_شماریات_نقش_ضبط} میں نقشہ ضبط کی مثال دکھائی گئی ہے۔اوسط کے نقشہ ضبط پر \اصطلاح{نچلی حد ضبط}\فرہنگ{ضبط!نچلی حد}\حاشیہب{lower control limit ($\LCL$)}\فرہنگ{control!lower limit} \عددی{\LCL}، \اصطلاح{وسطی خط ضبط}\فرہنگ{ضبط!وسطی خط}\حاشیہب{central control line ($\CL$)}\فرہنگ{control!central line} \عددی{\CL} اور \اصطلاح{بالائی حد ضبط}\فرہنگ{ضبط!بالائی حد}\حاشیہب{upper control limit ($\UCL$)}\فرہنگ{control!upper limit} \عددی{\UCL} دکھائے گئے ہیں۔ یہ  حدود مثال \حوالہ{مثال_شماریات_معلوم_تغیریت_عمومی_تقسیم_کی_اوسط}-پ میں فاصل قیمتوں \عددی{c_1} اور \عددی{c_2} کے مطابقتی ہیں۔جیسے ہم نمونی اوسط نچلی حد ضبط یا بالائی حد ضبط سے تجاوز کر جائے ہم قیاس کو نا منظور کرتے ہوئے کہتے ہیں کہ عمل پیداوار "بے قابو" ہے، یعنی، ہم کہتے ہیں کہ عمل پیداوار میں تبدیلی رو نما ہوئی ہے۔جب بھی کوئی نقطہ حدود ضبط سے تجاوز کرے عمل پیداوار میں مداخلت کی ضرورت ہو گی۔
+شکل \حوالہ{شکل_شماریات_نقش_ضبط} میں نقشہ ضبط کی مثال دکھائی گئی ہے۔اوسط کے نقشہ ضبط پر \اصطلاح{نچلی حد ضبط}\فرہنگ{ضبط!نچلی حد}\حاشیہب{lower control limit ($\LCL$)}\فرہنگ{control!lower limit} \عددی{\LCL}، \اصطلاح{وسطی خط ضبط}\فرہنگ{ضبط!وسطی خط}\حاشیہب{central control line ($\CL$)}\فرہنگ{control!central line} \عددی{\CL} اور \اصطلاح{بالائی حد ضبط}\فرہنگ{ضبط!بالائی حد}\حاشیہب{upper control limit ($\UCL$)}\فرہنگ{control!upper limit} \عددی{\UCL} دکھائے گئے ہیں۔ یہ  حدود مثال \حوالہ{مثال_شماریات_معلوم_تغیریت_عمومی_تقسیم_کی_اوسط}-پ میں فاصل قیمتوں \عددی{c_1} اور \عددی{c_2} کے مطابقتی ہیں۔جیسے ہم نمونی اوسط نچلی حد ضبط یا بالائی حد ضبط سے تجاوز کر جائے ہم قیاس کو نا منظور کرتے ہوئے کہتے ہیں کہ عمل پیداوار \قول{بے قابو} ہے، یعنی، ہم کہتے ہیں کہ عمل پیداوار میں تبدیلی رو نما ہوئی ہے۔جب بھی کوئی نقطہ حدود ضبط سے تجاوز کرے عمل پیداوار میں مداخلت کی ضرورت ہو گی۔
 
 اگر ہم حدود ضبط ڈھیلے  رکھیں تب ہم عمل پیداوار میں نا پسندیدہ تبدیلی کو پکڑ نہیں پائیں گے۔اس کے برعکس حدود ضبط بہت سخت رکھنے سے  ہم بار بار عمل پیداوار کو روک کر نا پسندیدہ تبدیلی کی  غیر موجود وجہ تلاش کرتے رہیں گے جس سے پیداوار بری طرح متاثر ہو گی۔عموماً معنی خیز سطح \عددی{\alpha=\SI{1}{\percent}} منتخب کی جاتی ہے۔صفحہ \حوالہصفحہ{مسئلہ_شماریات_عمومی_کی_شرط_اوسط_تغیریت} پر مسئلہ \حوالہ{مسئلہ_شماریات_عمومی_کی_شرط_اوسط_تغیریت} اور ضمیمہ \حوالہ{ضمیمہ_جدول} کی جدول \حوالہ{ضمیمہ_عمومی_تقسیم_ب} سے ہم دیکھتے ہیں کہ عمومی تقسیم کی صورت میں اوسط کے مطابقتی حد ضبط
 \begin{align}\label{مساوات_شماریات_حدود_ضبط_عمومی_تقسیم}
@@ -4275,11 +4275,11 @@ P(Y\le c_1)=\frac{\alpha}{2},\quad P(Y\le c_2)=1-\frac{\alpha}{2}
 \draw[gray](0,-10/5)node[left,black]{$4.00$}--++(5.6,0);
 \draw(5/2.5,-10/5)node[below]{$5$};
 \draw(10/2.5,-10/5)node[below]{$10$};
-\draw(5.6,5/5)node[right]{\RL{بالائی حد ضبط}};
-\draw(5.6,0/5)node[right]{\RL{وسطی خط ضبط}};
-\draw(5.6,-5/5)node[right]{\RL{نچلی حد ضبط}};
-\draw(6.8,5/5)--++(0.85,0);
-\draw(6.8,-5/5)--++(0.85,0);
+\draw(5.6,5/5)node[right]{\RL{\small{بالائی حد ضبط}}};
+\draw(5.6,0/5)node[right]{\RL{\small{وسطی خط ضبط}}};
+\draw(5.6,-5/5)node[right]{\RL{\small{نچلی حد ضبط}}};
+\draw(7.1,5/5)--++(0.55,0);
+\draw(7.1,-5/5)--++(0.55,0);
 \draw(1/2.5,20*4.080-20*4.10)node[ocirc]{}
 \foreach \x/\y in {2/4.112,3/4.084,4/4.088,5/4.108,6/4.100,7/4.088,8/4.096,9/4.100,10/4.104,11/4.140,12/4.152}{--(\x/2.5,20*\y-20*4.10)node[ocirc]{}};
 \draw[stealth-stealth] (7.54,5/5)--++(0,-2)node[pos=0.5,fill=white]{$\SI{99}{\percent}$};
@@ -4308,8 +4308,8 @@ P(Y\le c_1)=\frac{\alpha}{2},\quad P(Y\le c_2)=1-\frac{\alpha}{2}
 \foreach \x/\y in{2/0.011,3/0.026,4/0.023,5/0.018,6/0.014,7/0.023,8/0.017,9/0.032,10/0.038}{--(\x/2.5,100*\y)node[ocirc]{}};
 \draw(-1,2)node[rotate=90]{\RL{معیاری انحراف}};
 \draw(3,0)node[below]{\RL{شمار نمونہ}};
-\draw(5.6,3.65)node[right]{\RL{بالائی حد ضبط}};
-\draw(6.8,3.65)--++(0.85,0);
+\draw(5.6,3.65)node[right]{\RL{\small{بالائی حد ضبط}}};
+\draw(7.1,3.65)--++(0.55,0);
 \draw(6.5,0)--(7.65,0);
 \draw[stealth-stealth] (7.54,0)--++(0,3.65)node[pos=0.5,fill=white]{$\SI{99}{\percent}$};
 \draw[stealth-] (7.54,3.65)--++(0,1)node[pos=0.5,fill=white]{$\SI{1}{\percent}$};
@@ -4344,7 +4344,7 @@ P(Y\le c)=1-\alpha=\SI{99}{\percent}
 \begin{otherlanguage}{english}
 \begin{tabular}{C|CCCCC|C|C|C}
 \hline
-\text{\RL{\urdufont{نمونی شمار}}} & \multicolumn{5}{C|}{\text{\RL{\urdufont{نمونی قیمتیں}}}}& \overline{x}&s&R\\
+\text{\RL{{نمونی شمار}}} & \multicolumn{5}{C|}{\text{\RL{{نمونی قیمتیں}}}}& \overline{x}&s&R\\
 \hline
 1&4.06&4.08&4.08&4.08&4.10&4.080&0.014&0.04\\
 2&4.10&4.10&4.12&4.12&4.12&4.112&0.011&0.02\\
@@ -4519,7 +4519,7 @@ P(A;\theta)&1.00&0.90&0.81&0.72&0.63&\cdots
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[small,axis lines*=middle,xlabel={$\theta$},ylabel={$P(A;\theta)$},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=south east},xtick={0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1},xticklabels={,,,,$0.5$,,,,,$1$},ytick={0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1},yticklabels={,,,,$0.5$,,,,,$1$}]
+\begin{axis}[,myStyleA,xlabel={$\theta$},ylabel={$P(A;\theta)$},xtick={0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1},xticklabels={,,,,$0.5$,,,,,$1$},ytick={0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1},yticklabels={,,,,$0.5$,,,,,$1$}]
 \addplot[domain=0:1,samples=21,mark=*,mark size=1pt] {(20-20*x)*(19-20*x)/380}%
 node[pos=0.5,pin={45:\RL{مثال \حوالہ{مثال_شماریات_منحنی_خاصیت_الف}}}]{};
 \addplot[domain=0:0.5] {e^(-20*x)*(1+20*x)}node[pos=0.6,shift={(45:0.3cm)},rotate=-70]{\RL{مثال \حوالہ{مثال_شماریات_منحنی_خاصیت_ب}}};
@@ -4545,12 +4545,12 @@ P(A;\theta)\sim e^{-20\theta} (1+20\theta)
 \انتہا{مثال}
 %==============================
 
-ہم اب قبولیت نمونہ میں دو اقسام کے غلطیوں پر غور کرتے ہیں اور \عددی{n} اور \عددی{c} منتخب کرنے کی تفصیل پیش کرتے ہیں۔قبولیت نمونہ میں پیداکار اور خریدار کے غرض مختلف ہوں گے۔پیداکار چاہے گا کہ "اچھی" یا "قابل قبول" کھیپ کی مسترد ہونے کا احتمال، جس کو ہم \عددی{\alpha} سے ظاہر کرتے ہیں، کم سے کم  عدد  ہو۔ خریدار چاہے گا کہ "خراب" یا "نا قابل قبول" کھیپ کے قبول ہونے کا احتمال، جس کو ہم \عددی{\beta} سے ظاہر کرتے ہیں، کم سے کم عدد ہو۔ یہ کہنا زیادہ درست ہو گا کہ دونوں اس پر اتفاق کرتے ہیں کہ جس کھیپ کے لئے \عددی{\theta} کی قیمت ایک مخصوص عدد \عددی{\theta_0} سے تجاوز نہ کرے تب کھیپ "قابل قبول"  ہو  گا جبکہ وہ کھیپ جس کے لئے \عددی{\theta}  کی قیمت ایک مخصوص عدد  \عددی{\theta_1} کے برابر یا اس  سے زیادہ ہو تب کھیپ "نا قابل قبول" ہو گا۔تب وہ کھیپ جس کے لئے \عددی{\theta\le \theta_0} ہو کے مسترد ہونے  کا احتمال \عددی{\alpha} ہو گا جس کو \اصطلاح{خطر پیداکار}\فرہنگ{خطر پیداکار}\حاشیہب{producer's risk}\فرہنگ{producer's risk} کہتے ہیں۔یہ قیاس کی پرکھ کی قسم اول غلطی  کے مترادف ہے (حصہ \حوالہ{حصہ_شماریات_قیاس_کی_پرکھ_فیصلے})۔  وہ کھیپ جس کے لئے \عددی{\theta\ge \theta_1} ہو کے قبول ہونے  کا احتمال \عددی{\beta} ہو گا جس کو \اصطلاح{خطر خریدار}\فرہنگ{خطر خریدار}\حاشیہب{consumer's risk}\فرہنگ{consumer's risk} کہتے ہیں۔یہ حصہ \حوالہ{حصہ_شماریات_قیاس_کی_پرکھ_فیصلے} میں قسم دوم  غلطی  کے مترادف ہے۔شکل \حوالہ{شکل_شماریات_خطر_پیداکار_خریدار} میں ان کی وضاحت کی گئی ہے۔ \عددی{\theta_0} کو \اصطلاح{سطح قابل قبول معیار}\فرہنگ{معیار!قابل قبول سطح}\حاشیہب{acceptable quality level}\فرہنگ{quality!acceptable level} اور \عددی{\theta_1} کو \اصطلاح{سطح قابل مسترد معیار}\فرہنگ{معیار!قابل مسترد سطح}\حاشیہب{rejectable quality level}\فرہنگ{quality!rejectable level} کہتے ہیں جبکہ کھیپ \عددی{\theta_0<\theta<\theta_1} کو \اصطلاح{لا تعلق کھیپ}\فرہنگ{لا تعلق کھیپ}\حاشیہب{indifferent lot}\فرہنگ{indifferent lot} کہتے ہیں۔
+ہم اب قبولیت نمونہ میں دو اقسام کے غلطیوں پر غور کرتے ہیں اور \عددی{n} اور \عددی{c} منتخب کرنے کی تفصیل پیش کرتے ہیں۔قبولیت نمونہ میں پیداکار اور خریدار کے غرض مختلف ہوں گے۔پیداکار چاہے گا کہ \قول{اچھی} یا \قول{قابل قبول} کھیپ کی مسترد ہونے کا احتمال، جس کو ہم \عددی{\alpha} سے ظاہر کرتے ہیں، کم سے کم  عدد  ہو۔ خریدار چاہے گا کہ \قول{خراب} یا \قول{نا قابل قبول} کھیپ کے قبول ہونے کا احتمال، جس کو ہم \عددی{\beta} سے ظاہر کرتے ہیں، کم سے کم عدد ہو۔ یہ کہنا زیادہ درست ہو گا کہ دونوں اس پر اتفاق کرتے ہیں کہ جس کھیپ کے لئے \عددی{\theta} کی قیمت ایک مخصوص عدد \عددی{\theta_0} سے تجاوز نہ کرے تب کھیپ \قول{قابل قبول}  ہو  گا جبکہ وہ کھیپ جس کے لئے \عددی{\theta}  کی قیمت ایک مخصوص عدد  \عددی{\theta_1} کے برابر یا اس  سے زیادہ ہو تب کھیپ \قول{نا قابل قبول} ہو گا۔تب وہ کھیپ جس کے لئے \عددی{\theta\le \theta_0} ہو کے مسترد ہونے  کا احتمال \عددی{\alpha} ہو گا جس کو \اصطلاح{خطر پیداکار}\فرہنگ{خطر پیداکار}\حاشیہب{producer's risk}\فرہنگ{producer's risk} کہتے ہیں۔یہ قیاس کی پرکھ کی قسم اول غلطی  کے مترادف ہے (حصہ \حوالہ{حصہ_شماریات_قیاس_کی_پرکھ_فیصلے})۔  وہ کھیپ جس کے لئے \عددی{\theta\ge \theta_1} ہو کے قبول ہونے  کا احتمال \عددی{\beta} ہو گا جس کو \اصطلاح{خطر خریدار}\فرہنگ{خطر خریدار}\حاشیہب{consumer's risk}\فرہنگ{consumer's risk} کہتے ہیں۔یہ حصہ \حوالہ{حصہ_شماریات_قیاس_کی_پرکھ_فیصلے} میں قسم دوم  غلطی  کے مترادف ہے۔شکل \حوالہ{شکل_شماریات_خطر_پیداکار_خریدار} میں ان کی وضاحت کی گئی ہے۔ \عددی{\theta_0} کو \اصطلاح{سطح قابل قبول معیار}\فرہنگ{معیار!قابل قبول سطح}\حاشیہب{acceptable quality level}\فرہنگ{quality!acceptable level} اور \عددی{\theta_1} کو \اصطلاح{سطح قابل مسترد معیار}\فرہنگ{معیار!قابل مسترد سطح}\حاشیہب{rejectable quality level}\فرہنگ{quality!rejectable level} کہتے ہیں جبکہ کھیپ \عددی{\theta_0<\theta<\theta_1} کو \اصطلاح{لا تعلق کھیپ}\فرہنگ{لا تعلق کھیپ}\حاشیہب{indifferent lot}\فرہنگ{indifferent lot} کہتے ہیں۔
 
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[ymin=0,xmin=0,clip=false,small,axis lines*=middle,ylabel={$P(A;\theta)$},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=south east},,ytick={0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1},yticklabels={,,,,$\SI{50}{\percent}$,,,,,},xtick={0.0177,0.169},xticklabels={$\substack{\theta_0\\=\SI{1}{\percent}}$,$\substack{\theta_1\\=\SI{5}{\percent}}$}]
+\begin{axis}[ymin=0,xmin=0,clip=false,,myStyleA,ylabel={$P(A;\theta)$},ytick={0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1},yticklabels={,,,,$\SI{50}{\percent}$,,,,,},xtick={0.0177,0.169},xticklabels={$\substack{\theta_0\\=\SI{1}{\percent}}$,$\substack{\theta_1\\=\SI{5}{\percent}}$}]
 \addplot[domain=0:0.2,smooth] {(1+20*x)*e^(-20*x)};
 \addplot[dashed,black] plot coordinates {(0,0.95)  (0.0177,0.95)};
 \addplot[dashed,black] plot coordinates {(0,1)  (0.0177,1)};
@@ -4603,7 +4603,7 @@ P(A;\theta)\sim e^{-20\theta} (1+20\theta)
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[clip=false,small,axis lines*=middle,xlabel={$\theta$},ylabel={$P(A;\theta)$},ylabel style={rotate=-90},ylabel style={at={(current axis.above origin)},anchor=south east},xtick={0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1},xticklabels={$0$,,,,,$0.5$,,,,,$1$},ytick={0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1},yticklabels={$0$,,,,,$0.5$,,,,,$1$},xmin=0,ymin=0,xlabel style={at={(current axis.right of origin)},anchor=south west}]
+\begin{axis}[clip=false,,myStyleA,xlabel={$\theta$},ylabel={$P(A;\theta)$},xtick={0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1},xticklabels={$0$,,,,,$0.5$,,,,,$1$},ytick={0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1},yticklabels={$0$,,,,,$0.5$,,,,,$1$},xmin=0,ymin=0,]
 \addplot[domain=0:0.92,smooth] {(20-20*x)*(19-20*x)/380}node[pos=0.3,pin={45:{\RL{منحنی خاصیت کارکردگی}}}]{};
 \addplot[domain=0:0.92,smooth] {x*(20-20*x)*(19-20*x)/380}node[pos=0.5,pin={135:{$\AOQ$}}]{};
 \draw[dashed] (axis cs:0,0.1443)--(axis cs:0.32,0.1443)--(axis cs:0.32,0)node[below,shift={(0.1cm,0)}]{$\theta^*$};
@@ -4727,7 +4727,7 @@ $\alpha=\SI{5}{\percent},\beta=\SI{44}{\percent}$
 %========================
 
 \حصہ{عمدگی موافقت}\شناخت{حصہ_احتمال_عمدگی_موافقت}
-ہم نمونہ \عددی{x_1,\cdots,x_n} استعمال کرتے ہوئے اس قیاس کو پرکھنا چاہتے ہیں کہ جس آبادی سے نمونہ لیا گیا ہو اس کا  تفاعل تقسیم \عددی{F(x)} ہے۔ظاہر ہے کہ نمونے کا تفاعل تقسیم \عددی{\tilde{F}(x)} اصل تفاعل تقسیم \عددی{F(x)} کا تخمین ہو گا اور اگر یہ \عددی{F(x)} کی "اچھی تخمین" دیتا ہو تب ہم اس قیاس کو نا منظور  نہیں کریں گے کہ تفاعل \عددی{F(x)} اس آبادی کا تفاعل تقسیم ہے۔اگر \عددی{\tilde{F}(x)} تفاعل \عددی{F(x)} سے بہت زیادہ انحراف کرتا ہو تب ہم اس قیاس کو نا منظور کریں گے۔ 
+ہم نمونہ \عددی{x_1,\cdots,x_n} استعمال کرتے ہوئے اس قیاس کو پرکھنا چاہتے ہیں کہ جس آبادی سے نمونہ لیا گیا ہو اس کا  تفاعل تقسیم \عددی{F(x)} ہے۔ظاہر ہے کہ نمونے کا تفاعل تقسیم \عددی{\tilde{F}(x)} اصل تفاعل تقسیم \عددی{F(x)} کا تخمین ہو گا اور اگر یہ \عددی{F(x)} کی \قول{اچھی تخمین} دیتا ہو تب ہم اس قیاس کو نا منظور  نہیں کریں گے کہ تفاعل \عددی{F(x)} اس آبادی کا تفاعل تقسیم ہے۔اگر \عددی{\tilde{F}(x)} تفاعل \عددی{F(x)} سے بہت زیادہ انحراف کرتا ہو تب ہم اس قیاس کو نا منظور کریں گے۔ 
 
 اس طرح فیصلہ کرنے کے لئے ضروری ہے ہم جانتے ہوں کہ قیاس درست ہونے کی صورت میں \عددی{F(x)} سے  \عددی{\tilde{F}(x)}  کتنا انحراف کر سکتا ہے۔اس خاطر ہم ایک مقدار متعارف کرتے ہیں جو \عددی{F(x)} سے \عددی{\tilde{F}(x)} کا انحراف ناپتا ہے اور ہمیں اس مفروضہ کے تحت، کہ قیاس درست ہے، اس مقدار کا تفاعل احتمال درکار ہو گا۔آئیں اس کو حاصل کرتے ہیں۔ ہم عدد \عددی{c} یوں تعین کرتے ہیں کہ، قیاس درست ہونے کی صورت میں، \عددی{c} سے زائد انحراف کا ایک  چھوٹا پیشگی مختص احتمال ہو۔بہر حال، اگر \عددی{c} سے زیادہ انحراف پایا جاتا ہو تب ہمیں قیاس درست ہونے پر شک و شبہ ہو گا اور ہم قیاس کو نا منظور کریں گے۔اس کے برعکس اگر انحراف \عددی{c} سے تجاوز نہ کرتا ہو، تا کہ \عددی{\tilde{F}(x)} تفاعل \عددی{F(x)} کی اچھی تخمین ہو، ہم قیاس کو نا منظور نہیں کرتے ہیں۔ظاہر ہے کہ قیاس نا منظور نہ کرنے کی صورت میں ہمارے پاس قیاس نا منظور کرنے کا نا کافی ثبوت ہے اور یہ اس امکان کو خارج نہیں کرتی ہے کہ پرکھ میں دیگر تفاعل بھی نا منظور نہیں ہوں گے۔یوں صورت حال کافی حد تک  حصہ \حوالہ{حصہ_شماریات_قیاس_کی_پرکھ_فیصلے} کی طرح ہے۔ 
 
@@ -4774,7 +4774,7 @@ P(\chi^2\le c)=1-\alpha
 \begin{otherlanguage}{english}
 \begin{tabular}{C|CC|CC|C}
 x_j&\frac{x_j-364.7}{26.7}&\Phi\big(\frac{x_j-364.7}{26.7}\big)&e_j=100p_j&b_j&
-\shortstack[r]{\text{\urdufont{اجزاء}} \\   \text{\urdufont{مساوات}} \\ \text{\urdufont{\حوالہ{مساوات_شماریات_پرکھ_فشر_الف}}}} \\
+\shortstack[r]{\text{\RL{اجزاء}} \\   \text{\RL{مساوات}} \\ \text{\RL{\حوالہ{مساوات_شماریات_پرکھ_فشر_الف}}}} \\
 \hline
 -\infty\cdots325&-\infty\cdots-1.49&0.0000\cdots0.0681&6.81&6&0.096\\
 325\cdots335&-1.49\cdots-1.11&0.0681\cdots0.1335&6.54&6&0.045\\
@@ -5258,7 +5258,7 @@ s_{xy}&=c_1c_2s_{xy}^*
 \centering
 \begin{otherlanguage}{english}
 \begin{tabular}{CC||CC}
-\multicolumn{2}{C||}{\text{\RL{\urdufont{دی گئی قیمتیں}}}} &\multicolumn{2}{C}{\text{\RL{\urdufont{معاون قیمتیں}}}}\\
+\multicolumn{2}{C||}{\text{\RL{{دی گئی قیمتیں}}}} &\multicolumn{2}{C}{\text{\RL{{معاون قیمتیں}}}}\\
 x_j&y_j&x_j^2&x_jy_j\\
 \hline
 \num{4000}&2.3&\num{16000000}&\num{9200}\\

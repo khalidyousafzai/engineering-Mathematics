@@ -250,6 +250,8 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
   	    <keyword>تحریر</keyword>
   	    <keyword>گن</keyword>
   	    <keyword>مثال</keyword>
+  	     <keyword>مثالیں</keyword>
+  	     <keyword>مثالوں</keyword>
   	    <keyword>زیرنوشت</keyword>
   	    <keyword>سیدھازیرنوشت</keyword>
   	    <keyword>موٹا</keyword>
@@ -460,19 +462,6 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>مفہوم</keyword>
 <keyword>گروہ</keyword>
 <keyword>گروہوں</keyword>
-<keyword>جدول</keyword>
-<keyword>زینہ</keyword>
-<keyword>مداخل</keyword>
-<keyword>مخارج</keyword>
-<keyword>معنی</keyword>
-<keyword>خواص</keyword>
-<keyword>حرف</keyword>
-<keyword>حروف</keyword>
-<keyword>ہاتھ</keyword>
-<keyword>جواب</keyword>
-<keyword>پلڑا</keyword>
-<keyword>اطلاق</keyword>
-<keyword>مواد</keyword>
 
         </context>
 
@@ -592,8 +581,6 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>صفیں</keyword>
 <keyword>صفوں</keyword>
 <keyword>قطار</keyword>
-<keyword>قطاریں</keyword>
-<keyword>قطاروں</keyword>
 <keyword>شرط</keyword>
 <keyword>کمیت</keyword>
 <keyword>پیمائش</keyword>
@@ -601,7 +588,6 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>معلومات</keyword>
 <keyword>قیمت</keyword>
 <keyword>قیمتیں</keyword>
-<keyword>قیمتوں</keyword>
 <keyword>درستی</keyword>
 <keyword>درستگی</keyword>
 <keyword>تعریف</keyword>
@@ -684,12 +670,6 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>نسلیں</keyword>
 <keyword>نظم</keyword>
 <keyword>انتظام</keyword>
-<keyword>شِق</keyword>
-<keyword>شق</keyword>
-<keyword>شِقوں</keyword>
-<keyword>شِقیں</keyword>
-<keyword>کارکردگی</keyword>
-<keyword>ترسیل</keyword>
 
 
         </context>

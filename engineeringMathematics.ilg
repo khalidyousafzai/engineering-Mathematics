@@ -1,6 +1,6 @@
-This is makeindex, version 2.15 [TeX Live 2019] (kpathsea + Thai support).
+This is makeindex, version 2.15 [TeX Live 2022/dev] (kpathsea + Thai support).
 Scanning input file engineeringMathematics.idx.......done (3233 entries accepted, 0 rejected).
-Sorting entries...............................done (41591 comparisons).
+Sorting entries...............................done (41433 comparisons).
 Generating output file engineeringMathematics.ind.......done (3244 lines written, 0 warnings).
 Output written in engineeringMathematics.ind.
 Transcript written in engineeringMathematics.ilg.

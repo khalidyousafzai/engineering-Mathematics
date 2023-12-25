@@ -84,7 +84,7 @@ every axis x label/.style={at={(current axis.right of origin)},anchor=west},
 خالد خان یوسفزئی\\
 \\
 {\small {جامعہ کامسیٹ، اسلام آباد}}\\
-\texttt{khalidyousafzai@comsats.edu.pk}
+\texttt{khalidyousafzai@hotmail.com}
 }
 
 %=========
@@ -92,12 +92,24 @@ every axis x label/.style={at={(current axis.right of origin)},anchor=west},
 
 
 \title{انجینئری ریاضیات}
-%\date{}                           %if absent gives date in arabic which is a rubbish
+%\date{}                           %enable of date not needed on front cover. it is better for knowing which pdf is latest
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%included the following to correct the RTL issues with equation numbering after upgradation to ubuntu 18.04
+%might break bidi package as said on the internet
+\makeatletter
+\def\maketag@@@#1{\hbox{\m@th\normalfont\RTL{{\beginR #1\endR}}}}
+\def\tagform@#1{\maketag@@@{(\ignorespaces{\beginR#1\endR}\unskip)}}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 %\linenumbers
 %\makeindex
 
+\setlatin
 %==========
 \begin{document}
 \sloppy

@@ -78,12 +78,15 @@
 \newcommand*{\قریب}[1]{\mbox{#1}}
 %\newcommand{\سن}[1]{؁\,\ensuremath{#1}}	%for english
 %\newcommand{\سن}[1]{ #1 ؁}   				%for urdu
-\newcommand{\سن}[1]{#1}         				% without year marker
+%\newcommand{\سن}[1]{#1}         				% without year marker
+\newcommand{\سن}[1]{
+#1 ؁
+}
 
-\newcommand{\kQuote}[1]{“#1”}
-\newcommand{\kquote}[1]{‘#1’}
-\newcommand{\قولء}[1]{’#1‘}
-\newcommand{\قول}[1]{”#1“}
+\newcommand{\kQuote}[1]{“\ignorespaces#1\ignorespaces”}
+\newcommand{\kquote}[1]{‘\ignorespaces#1\ignorespaces’}
+\newcommand{\قولء}[1]{’\ignorespaces#1\ignorespaces‘}
+\newcommand{\قول}[1]{”\ignorespaces#1\ignorespaces“}
 
 \renewcommand{\indexname}{فرہنگ}        %does nothing here. must be placed within begin{urdufont} environment to be the last to take effect 
 %===============================
@@ -92,12 +95,14 @@
 %numbering scheme
 
 %%==========================
-%\renewcommand*{\thefigure}{\thechapter.\arabic{figure}}
-%\renewcommand*{\thetable}{\thechapter.\arabic{table}}
-%\renewcommand*{\theequation}{\thechapter.\arabic{equation}}
-%\renewcommand*{\thesection}{\thechapter.\arabic{section}}
-%\renewcommand*{\thesubsection}{\thechapter.\arabic{section}.\arabic{subsection}}
-%\renewcommand*{\thesubsubsection}{\thechapter.\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
+%needed for correct format in toc
+
+\renewcommand*{\thefigure}{\thechapter.\arabic{figure}}
+\renewcommand*{\thetable}{\thechapter.\arabic{table}}
+\renewcommand*{\theequation}{\thechapter.\arabic{equation}}
+\renewcommand*{\thesection}{\thechapter.\arabic{section}}
+\renewcommand*{\thesubsection}{\thechapter.\arabic{section}.\arabic{subsection}}
+\renewcommand*{\thesubsubsection}{\thechapter.\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
 %%=======================================
 %%the following pertains to theorem environment. added to maths sty
 %\renewcommand*{\thetheorem}{\thechapter.\arabic{theorem}}

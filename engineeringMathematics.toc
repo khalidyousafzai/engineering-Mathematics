@@ -4,7 +4,9 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\bgroup 
 \selectlanguage *{english}
+\egroup 
 \selectlanguage *{urdu}
 \bgroup 
 \selectlanguage *{english}
@@ -81,13 +83,13 @@
 \contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {2}}قالبی ضرب}{\arabicdigits {472}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {2}.\arabicdigits {1}}تبدیلی محل}{\arabicdigits {477}}{}%
 \contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {3}}خطی مساوات کے نظام۔ گاوسی اسقاط}{\arabicdigits {488}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {1}}صف زینہ دار صورت}{\arabicdigits {498}}{}%
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {4}}خطی غیر تابعیت۔ درجہ قالب۔ سمتی فضا}{\arabicdigits {505}}{}%
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {5}}خطی نظام کے حل: وجودیت، یکتائی}{\arabicdigits {516}}{}%
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {6}}دو رتبی اور تین رتبی مقطع قالب}{\arabicdigits {521}}{}%
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {7}}مقطع۔ قاعدہ کریمر}{\arabicdigits {524}}{}%
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {8}}معکوس قالب۔ گاوس جارڈن اسقاط}{\arabicdigits {538}}{}%
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {9}}سمتی فضا، اندرونی ضرب، خطی تبادلہ}{\arabicdigits {550}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {1}}صف زینہ دار صورت}{\arabicdigits {499}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {4}}خطی غیر تابعیت۔ درجہ قالب۔ سمتی فضا}{\arabicdigits {506}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {5}}خطی نظام کے حل: وجودیت، یکتائی}{\arabicdigits {517}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {6}}دو رتبی اور تین رتبی مقطع قالب}{\arabicdigits {522}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {7}}مقطع۔ قاعدہ کریمر}{\arabicdigits {525}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {8}}معکوس قالب۔ گاوس جارڈن اسقاط}{\arabicdigits {539}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {9}}سمتی فضا، اندرونی ضرب، خطی تبادلہ}{\arabicdigits {551}}{}%
 \contentsline {chapter}{\numberline {\arabicdigits {9}}خطی الجبرا: امتیازی قدر مسائل قالب}{\arabicdigits {565}}{}%
 \contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {1}}امتیازی قدر مسائل قالب۔ امتیازی اقدار اور امتیازی سمتیات کا حصول}{\arabicdigits {566}}{}%
 \contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {2}}امتیازی مسائل کے چند استعمال}{\arabicdigits {574}}{}%

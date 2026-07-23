@@ -1,7 +1,7 @@
 \xpginauxfiletrue 
 \selectlanguage *{urdu}
 \contentsline {chapter}{دیباچہ}{xi}{}%
-\contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{xiii}{}%
+\contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{xii}{}%
 \contentsline {chapter}{\numberline {\farsidigits {1}}یک رتبی سادہ تفرقی مساوات}{\farsidigits {1}}{}%
 \contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {1}}نمونہ کشی}{\farsidigits {2}}{}%
 \contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {2}}\:\(y'=f(x,y)\)\: کا جیومیٹریائی مطلب۔ میدان کی سمت اور ترکیب یولر۔}{\farsidigits {10}}{}%

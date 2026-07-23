@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  8 JUN 2026 19:18
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  23 JUL 2026 16:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1810,10 +1810,15 @@ LaTeX Info: Redefining \ttfamily on input line 32.
 ) [11
 
 
-] [12]
+]
 \openout2 = `./tex/prefaceFirstBook.aux'.
 
- (./tex/prefaceFirstBook.tex
+ (./tex/prefaceFirstBook.tex [12
+
+
+
+
+]
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/m/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/b/n' will be
@@ -1897,12 +1902,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 LaTeX Info: Redefining \rmfamily on input line 22.
 LaTeX Info: Redefining \sffamily on input line 22.
 LaTeX Info: Redefining \ttfamily on input line 22.
-[13
-
-
-
-
-]
+[13]
 LaTeX Info: Redefining \rmfamily on input line 26.
 LaTeX Info: Redefining \sffamily on input line 26.
 LaTeX Info: Redefining \ttfamily on input line 26.
@@ -53598,10 +53598,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 81803 strings out of 474878
- 2170315 string characters out of 9512517
- 3632650 words of memory out of 7000000
- 102745 multiletter control sequences out of 15000+600000
+ 81804 strings out of 474878
+ 2170322 string characters out of 9512517
+ 3633674 words of memory out of 7000000
+ 102746 multiletter control sequences out of 15000+600000
  592377 words of font info for 188 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  117i,22n,407p,2096b,6203s stack positions out of 10000i,1000n,20000p,200000b,200000s

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  30 JUL 2026 15:25
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  30 JUL 2026 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2600,11 +2600,11 @@ LaTeX Info: Redefining \rmfamily on input line 511.
 LaTeX Info: Redefining \sffamily on input line 511.
 LaTeX Info: Redefining \ttfamily on input line 511.
 
-Underfull \hbox (badness 1527) in paragraph at lines 511--512
+Underfull \hbox (badness 2762) in paragraph at lines 511--512
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 ابتدائی نقطہ $\OT1/zplm/m/n/10 (\OML/zpl
 m/m/it/10 x[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 y[]\OT1/zplm/m/n/10 ) = (\OT1/
 ppl/m/n/10 0, 0\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہے جس کا 
-اندراج جدول  [][]۱.۱[][] []کے پہلے صف میں کیا گیا ہے۔ان قیمتوں کو استعمال کرتے 
+اندراج جدول  [][]۱.۱[][] []کی پہلی صف میں کیا گیا ہے۔ان قیمتوں کو استعمال کرتے 
 ہوئے $\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/1
 0 y[]\OT1/zplm/m/n/10 )$[]
  []
@@ -3114,11 +3114,11 @@ LaTeX Info: Redefining \ttfamily on input line 1031.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1035--1036
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 حل:دورانیہ $[] \OML/zplm/m/it/10 t$ \TU/
-JameelNooriNastaleeq(0)/b/n/10 میں پانی کی انخلا کے بنا ٹینکی میں پانی کی گہرائ
-ی $[] \OML/zplm/m/it/10 h$ \TU/JameelNooriNastaleeq(0)/b/n/10 کم ہو گی جو $\OML
-/zplm/m/it/10 B [] h$ \TU/JameelNooriNastaleeq(0)/b/n/10 حجم کی کمی کو ظاہر کرت
-ی ہے جہاں $\OML/zplm/m/it/10 B$ \TU/JameelNooriNastaleeq(0)/b/n/10 ٹینکی کا رقب
-ہ عمودی تراش[]
+JameelNooriNastaleeq(0)/b/n/10 میں پانی کی انخلا کی وجہ سے ٹینکی میں پانی کی گہ
+رائی $[] \OML/zplm/m/it/10 h$ \TU/JameelNooriNastaleeq(0)/b/n/10 کم ہو گی جو $\
+OML/zplm/m/it/10 B [] h$ \TU/JameelNooriNastaleeq(0)/b/n/10 حجم کی کمی کو ظاہر 
+کرتی ہے جہاں $\OML/zplm/m/it/10 B$ \TU/JameelNooriNastaleeq(0)/b/n/10 ٹینکی کا 
+رقبہ عمودی تراش[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1052.
@@ -6899,10 +6899,10 @@ LaTeX Info: Redefining \ttfamily on input line 2347.
 Underfull \hbox (badness 10000) in paragraph at lines 2347--2348
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 اگر مساوات  [][]۲.۸۲[][] []کا $\OML/zplm
 /m/it/10 r\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$ \TU/JameelNo
-oriNastaleeq(0)/b/n/10 جدول  [][]۲.۲[][] []کے دائیں قطار میں دیا گیا ہو تب اس ت
-فاعل کے صف سے $\OML/zplm/m/it/10 y[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/z
+oriNastaleeq(0)/b/n/10 جدول  [][]۲.۲[][] []کی دائیں قطار میں دیا گیا ہو تب اس ت
+فاعل کی صف سے $\OML/zplm/m/it/10 y[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/z
 plm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 حاصل کریں۔حاصل $\OML/zplm/m/it
-/10 y[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور[]
+/10 y[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور اس[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 2349.
@@ -8853,7 +8853,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 745--747
 []\TU/JameelNooriNastaleeq(0)/b/n/10 مساوات  [][]۳.۲۹[][] []میں $\OML/zplm/m/it
 /10 y[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 تا $\OML/zplm/m/it/10 y[]$ \TU/Jame
 elNooriNastaleeq(0)/b/n/10 مطابقتی متجانس مساوات  [][]۳.۲۶[][] []کے حل کی اساس 
-ہیں جبکہ ورونسکی $\OML/zplm/m/it/10 W$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے $\
+ہیں جبکہ ورونسکی $\OML/zplm/m/it/10 W$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی $\
 OML/zplm/m/it/10 k$ \TU/JameelNooriNastaleeq(0)/b/n/10 قطار میں $\OT1/zplm/m/n/
 10 [\OT1/ppl/m/n/10 0  0  []  0  1\OT1/zplm/m/n/10 ][]$ \TU/JameelNooriNastalee
 q(0)/b/n/10 پر[]
@@ -9098,7 +9098,7 @@ meelNooriNastaleeq(0)/b/n/10 ، $\OML/zplm/m/it/10 a[]$\TU/JameelNooriNastaleeq(
 /b/n/10 کہتے ہیں۔ افقی لکیروں کو \TU/AASameerSagarNastaleeqBold(0)/m/n/10 صف[][
 ] \TU/JameelNooriNastaleeq(0)/b/n/10 جبکہ عمودی لکیروں کو \TU/AASameerSagarNast
 aleeqBold(0)/m/n/10 قطار[][] \TU/JameelNooriNastaleeq(0)/b/n/10 کہتے ہیں۔قالب  
-[][]۴.۳[][] []میں پہلا[]
+[][]۴.۳[][] []میں پہلی[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 74.
@@ -9167,20 +9167,10 @@ ameelNooriNastaleeq(0)/b/n/10 برابر ہو اور ان کے تمام مطاب
 LaTeX Info: Redefining \rmfamily on input line 146.
 LaTeX Info: Redefining \sffamily on input line 146.
 LaTeX Info: Redefining \ttfamily on input line 146.
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 ہوں گے یعنی $\OML/cmm/b/it/10 A$ \TU/Jamee
-lNooriNastaleeq(0)/b/n/10 قالب کے $\OML/zplm/m/it/10 j$ \TU/JameelNooriNastalee
-q(0)/b/n/10 صف کے ہر رکن کو $\OML/cmm/b/it/10 B$ \TU/JameelNooriNastaleeq(0)/b/
-n/10 قالب کے $\OML/zplm/m/it/10 j$ \TU/JameelNooriNastaleeq(0)/b/n/10 قطار کے م
-طابقتی رکن کے ساتھ ضرب دیتے ہوئے $\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq
-(0)/b/n/10 حاصل ضرب کا مجموعہ[]
- []
-
 LaTeX Info: Redefining \rmfamily on input line 196.
 LaTeX Info: Redefining \sffamily on input line 196.
 LaTeX Info: Redefining \ttfamily on input line 196.
-[172]
+ [172]
 LaTeX Info: Redefining \rmfamily on input line 260.
 LaTeX Info: Redefining \sffamily on input line 260.
 LaTeX Info: Redefining \ttfamily on input line 260.
@@ -9949,7 +9939,7 @@ LaTeX Info: Redefining \ttfamily on input line 1173.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1191--1193
 []\TU/JameelNooriNastaleeq(0)/b/n/10 اب نا قوت نمائی تفاعل کبھی بھی صفر نہیں ہو
-تا اور درج بالا مساوات میں آخری مقطع کے قطار، خطی طور غیر تابع امتیازی سمتیات ہ
+تا اور درج بالا مساوات میں آخری مقطع کی قطار، خطی طور غیر تابع امتیازی سمتیات ہ
 یں، لہٰذا یہ مقطع بھی غیر صفر[]
  []
 
@@ -18044,34 +18034,26 @@ m/n/10 0.1$\TU/JameelNooriNastaleeq(0)/b/n/10 ، $\OMS/zplm/m/n/10 ^^@\OT1/ppl/m
 /n/10 2$\TU/JameelNooriNastaleeq(0)/b/n/10 ، $\OT1/ppl/m/n/10 1.2$\TU/JameelNoo
 riNastaleeq(0)/b/n/10 ، $\OMS/zplm/m/n/10 ^^@\OT1/ppl/m/n/10 6$\TU/JameelNooriN
 astaleeq(0)/b/n/10 ، $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور
- $\OT1/ppl/m/n/10 23$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہیں۔اس قالب کے دو \TU/
+ $\OT1/ppl/m/n/10 23$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہیں۔اس قالب کی دو \TU/
 AASameerSagarNastaleeqBold(0)/m/n/10 صف[][] \TU/JameelNooriNastaleeq(0)/b/n/10 
 اور تین \TU/AASameerSagarNastaleeqBold(0)/m/n/10 قطار[][] \TU/JameelNooriNastal
-eeq(0)/b/n/10 ہیں۔افقی اندراجات کی[]
+eeq(0)/b/n/10 ہیں۔افقی اندراجات کی لکیر[]
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 34--36
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 کو صف اور عمودی اندراجات کی لکیر کو قطار ک
+ہتے ہیں۔بالائی درمیانی قالب میں $\OT1/ppl/m/n/10 3$ \TU/JameelNooriNastaleeq(0)
+/b/n/10 صف اور $\OT1/ppl/m/n/10 3$ \TU/JameelNooriNastaleeq(0)/b/n/10 قطار پائی
+ جاتی ہیں۔ایسا قالب جس میں صفوں کی تعداد، قطاروں[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--36
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 لکیر کو صف اور عمودی اندراجات کی لکیر کو ق
-طار کہتے ہیں۔بالائی درمیانی قالب میں $\OT1/ppl/m/n/10 3$ \TU/JameelNooriNastale
-eq(0)/b/n/10 صف اور $\OT1/ppl/m/n/10 3$ \TU/JameelNooriNastaleeq(0)/b/n/10 قطار
- پائے جاتے ہیں۔ایسا قالب جس میں صفوں کی تعداد،[]
- []
-
-
-Underfull \hbox (badness 1694) in paragraph at lines 34--36
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 قطاروں کی تعداد کے برابر ہو \TU/AASameerSa
-garNastaleeqBold(0)/m/n/10 مربع قالب[][] \TU/JameelNooriNastaleeq(0)/b/n/10 کہل
-اتا ہے۔یوں بالائی دائیں ہاتھ قالب بھی مربع قالب ہے۔بالائی درمیانی قالب میں ارکا
-ن کو $\OML/zplm/m/it/10 a[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے ظاہر[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 کیا گیا ہے جہاں دو عدد اشاریہ $\OML/zplm/m
-/it/10 m$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 n$ \TU/Jame
-elNooriNastaleeq(0)/b/n/10 بالترتیب اس صف اور قطار کو ظاہر کرتے ہیں جہاں یہ رکن
- پایا جاتا ہو۔قالب میں اندراجات کے مقام کی وضاحت اسی[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 جہاں دو عدد اشاریہ $\OML/zplm/m/it/10 m$ \
+TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 n$ \TU/JameelNooriNast
+aleeq(0)/b/n/10 بالترتیب اس صف اور قطار کو ظاہر کرتے ہیں جہاں یہ رکن پایا جاتا 
+ہو۔قالب میں اندراجات کے مقام کی وضاحت اسی معیاری[]
  []
 
 [435
@@ -18091,19 +18073,10 @@ LaTeX Info: Redefining \sffamily on input line 37.
 LaTeX Info: Redefining \ttfamily on input line 37.
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
-[][]\TU/JameelNooriNastaleeq(0)/b/n/10 ایسا قالب جو صرف ایک عدد صف یا صرف ایک ع
-دد قطار پر مشتمل ہو، \TU/AASameerSagarNastaleeqBold(0)/m/n/10 سمتیہ[][] \TU/Jam
-eelNooriNastaleeq(0)/b/n/10 کہلاتا ہے۔یوں نچلے دائیں ہاتھ دو ارکان پر مشتمل \TU
-/AASameerSagarNastaleeqBold(0)/m/n/10 سمتیہ قطار[][] \TU/JameelNooriNastaleeq(0
-)/b/n/10 پایا جاتا ہے جبکہ[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 نچلے بائیں ہاتھ \TU/AASameerSagarNastaleeq
-Bold(0)/m/n/10 سمتیہ صف[][] \TU/JameelNooriNastaleeq(0)/b/n/10 پایا جاتا ہے۔چون
-کہ سمتیہ قطار میں کوئی صف نہیں پایا جاتا لہٰذا اس میں ارکان کے مقام کو صرف ایک 
-عدد اشاریہ سے ظاہر کیا جاتا[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 ہاتھ \TU/AASameerSagarNastaleeqBold(0)/m/n
+/10 سمتیہ صف[][] \TU/JameelNooriNastaleeq(0)/b/n/10 پایا جاتا ہے۔چونکہ سمتیہ قط
+ار میں کوئی صف نہیں پایا جاتا لہٰذا اس میں ارکان کے مقام کو صرف ایک عدد اشاریہ 
+سے ظاہر کیا جاتا ہے۔اسی[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 48.
@@ -18169,11 +18142,11 @@ LaTeX Info: Redefining \rmfamily on input line 111.
 LaTeX Info: Redefining \sffamily on input line 111.
 LaTeX Info: Redefining \ttfamily on input line 111.
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 1609) in paragraph at lines 111--112
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 مساوات  [][]۸.۲[][] []میں ہر رکن کو دو ع
 دد اشاریہ سے پہچانا جاتا ہے جہاں پہلا اشاریہ صف اور دوسرا اشاریہ قطار ہے۔یوں $\
-OML/zplm/m/it/10 a[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 دوسرے صف اور تیسرے قطا
-ر پر[]
+OML/zplm/m/it/10 a[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 دوسری صف اور تیسری قطا
+ر پر موجود[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 113.
@@ -18182,6 +18155,16 @@ LaTeX Info: Redefining \ttfamily on input line 113.
 LaTeX Info: Redefining \rmfamily on input line 113.
 LaTeX Info: Redefining \sffamily on input line 113.
 LaTeX Info: Redefining \ttfamily on input line 113.
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 کا \TU/AASameerSagarNastaleeqBold(0)/m/n/1
+0 مرکزی وتر[][] \TU/JameelNooriNastaleeq(0)/b/n/10 کہلاتا ہے۔ مساوات  [][]۸.۱[]
+[] []میں ایک چوکور قالب کے مرکزی وتر کے ارکان $\OML/zplm/m/it/10 a[]$\TU/Jameel
+NooriNastaleeq(0)/b/n/10 ، $\OML/zplm/m/it/10 a[]$ \TU/JameelNooriNastaleeq(0)/
+b/n/10 اور $\OML/zplm/m/it/10 a[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہیں جبکہ 
+دوسرے چوکور قالب کے[]
+ []
+
 LaTeX Info: Redefining \rmfamily on input line 115.
 LaTeX Info: Redefining \sffamily on input line 115.
 LaTeX Info: Redefining \ttfamily on input line 115.
@@ -18195,6 +18178,16 @@ Underfull \hbox (badness 2245) in paragraph at lines 119--120
 کہتے ہیں۔سمتیہ کے اندراج کو سمتیہ کے \TU/AASameerSagarNastaleeqBold(0)/m/n/10 ا
 جزاء[][] \TU/JameelNooriNastaleeq(0)/b/n/10 کہتے ہیں۔ ہم موٹی لکھائی میں لاطینی
  حروف تہجی کے چھوٹے[]
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 119--120
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 حروف سے سمتیہ کو ظاہر کریں گے مثلاً $\OML/
+cmm/b/it/10 a$\TU/JameelNooriNastaleeq(0)/b/n/10 ، $\OML/cmm/b/it/10 b$\TU/Jame
+elNooriNastaleeq(0)/b/n/10 ، $\OML/cmm/b/it/10 c$\TU/JameelNooriNastaleeq(0)/b/
+n/10 ، $[] $، اور یا اس کو چوکور قوسین میں عمومی رکن سے ظاہر کریں گے مثلاً $\OM
+L/cmm/b/it/10 a \OT1/zplm/m/n/10 = [\OML/zplm/m/it/10 a[]\OT1/zplm/m/n/10 ]$ \T
+U/JameelNooriNastaleeq(0)/b/n/10 وغیرہ۔[]
  []
 
 [437]
@@ -18228,13 +18221,13 @@ m/m/it/10 n$ \TU/JameelNooriNastaleeq(0)/b/n/10 قالب[]
 LaTeX Info: Redefining \rmfamily on input line 286.
 LaTeX Info: Redefining \sffamily on input line 286.
 LaTeX Info: Redefining \ttfamily on input line 286.
-LaTeX Info: Redefining \rmfamily on input line 334.
-LaTeX Info: Redefining \sffamily on input line 334.
-LaTeX Info: Redefining \ttfamily on input line 334.
-LaTeX Info: Redefining \rmfamily on input line 334.
-LaTeX Info: Redefining \sffamily on input line 334.
-LaTeX Info: Redefining \ttfamily on input line 334.
 [440]
+LaTeX Info: Redefining \rmfamily on input line 334.
+LaTeX Info: Redefining \sffamily on input line 334.
+LaTeX Info: Redefining \ttfamily on input line 334.
+LaTeX Info: Redefining \rmfamily on input line 334.
+LaTeX Info: Redefining \sffamily on input line 334.
+LaTeX Info: Redefining \ttfamily on input line 334.
 LaTeX Info: Redefining \rmfamily on input line 349.
 LaTeX Info: Redefining \sffamily on input line 349.
 LaTeX Info: Redefining \ttfamily on input line 349.
@@ -18286,14 +18279,26 @@ LaTeX Info: Redefining \sffamily on input line 561.
 LaTeX Info: Redefining \ttfamily on input line 561.
 
 Underfull \hbox (badness 10000) in paragraph at lines 561--562
+[][]\TU/JameelNooriNastaleeq(0)/b/n/10 یوں پہلے جزو $\OML/cmm/b/it/10 A$ \TU/Ja
+meelNooriNastaleeq(0)/b/n/10 میں قطاروں کی تعداد $\OML/zplm/m/it/10 n$ \TU/Jame
+elNooriNastaleeq(0)/b/n/10 دوسرے جزو $\OML/cmm/b/it/10 B$ \TU/JameelNooriNastal
+eeq(0)/b/n/10 کی صفوں کی تعداد $\OML/zplm/m/it/10 r$ \TU/JameelNooriNastaleeq(0
+)/b/n/10 کے برابر ہونا لازمی ہے۔مساوات  [][]۸.۹[][] []میں $\OML/zplm/m/it/10 c[
+]$ \TU/JameelNooriNastaleeq(0)/b/n/10 کو $\OML/cmm/b/it/10 A$ \TU/JameelNooriNa
+staleeq(0)/b/n/10 کی $\OML/zplm/m/it/10 j$ \TU/JameelNooriNastaleeq(0)/b/n/10 ص
+ف[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--562
 []\TU/JameelNooriNastaleeq(0)/b/n/10 کے ہر رکن کو $\OML/cmm/b/it/10 B$ \TU/Jame
-elNooriNastaleeq(0)/b/n/10 کے $\OML/zplm/m/it/10 k$ \TU/JameelNooriNastaleeq(0)
+elNooriNastaleeq(0)/b/n/10 کی $\OML/zplm/m/it/10 k$ \TU/JameelNooriNastaleeq(0)
 /b/n/10 قطار کے نظیری رکن سے ضرب دیتے ہوئے تمام $\OML/zplm/m/it/10 n$ \TU/Jamee
 lNooriNastaleeq(0)/b/n/10 حاصل ضرب کا مجموعہ لینے سے حاصل کیا جاتا ہے۔ ہم کہتے 
 ہیں \TU/AASameerSagarNastaleeqBold(0)/m/n/10 صف[]
  []
 
-
+[443]
 Underfull \hbox (badness 10000) in paragraph at lines 580--582
 []\TU/JameelNooriNastaleeq(0)/b/n/10 جہاں $\OML/cmm/b/it/10 A$ \TU/JameelNooriN
 astaleeq(0)/b/n/10 کی پہلی صف کے ارکان کو $\OML/cmm/b/it/10 B$ \TU/JameelNooriN
@@ -18311,7 +18316,7 @@ TU/JameelNooriNastaleeq(0)/b/n/10 کی دوسری قطار کے نظیری ار�
 وسری صف کے[]
  []
 
-[443]
+
 Underfull \hbox (badness 10000) in paragraph at lines 590--591
 [][]
  []
@@ -18328,12 +18333,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 641--643
 ایسا ضرب نا ممکن ہے۔یوں[]
  []
 
-
+[444]
 Underfull \hbox (badness 10000) in paragraph at lines 675--676
 [][]
  []
 
-[444]
 LaTeX Info: Redefining \rmfamily on input line 715.
 LaTeX Info: Redefining \sffamily on input line 715.
 LaTeX Info: Redefining \ttfamily on input line 715.
@@ -18350,10 +18354,10 @@ eelNooriNastaleeq(0)/b/n/10 کوئی عدد ہے اور یہ قواعد اس ص�
 LaTeX Info: Redefining \rmfamily on input line 717.
 LaTeX Info: Redefining \sffamily on input line 717.
 LaTeX Info: Redefining \ttfamily on input line 717.
+[445]
 LaTeX Info: Redefining \rmfamily on input line 751.
 LaTeX Info: Redefining \sffamily on input line 751.
 LaTeX Info: Redefining \ttfamily on input line 751.
-[445]
 LaTeX Info: Redefining \rmfamily on input line 792.
 LaTeX Info: Redefining \sffamily on input line 792.
 LaTeX Info: Redefining \ttfamily on input line 792.
@@ -18367,13 +18371,13 @@ NooriNastaleeq(0)/b/n/10 یا انہیں کئی کئی علیحدہ سمتیہ �
  فراہم[]
  []
 
+[446]
 LaTeX Info: Redefining \rmfamily on input line 805.
 LaTeX Info: Redefining \sffamily on input line 805.
 LaTeX Info: Redefining \ttfamily on input line 805.
 LaTeX Info: Redefining \rmfamily on input line 821.
 LaTeX Info: Redefining \sffamily on input line 821.
 LaTeX Info: Redefining \ttfamily on input line 821.
-[446]
 LaTeX Info: Redefining \rmfamily on input line 887.
 LaTeX Info: Redefining \sffamily on input line 887.
 LaTeX Info: Redefining \ttfamily on input line 887.
@@ -18413,31 +18417,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 921--923
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 921--923
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 بھی اسی طرح کی جاتی ہے۔اس طرح قالب کا صف، 
-تبدیل محل قالب کا قطار ہو گا اور یونہی قالب کا قطار، تبدیل محل قالب کا صف ہو گا
-۔ چکور قالب کے[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 بھی اسی طرح کی جاتی ہے۔اس طرح قالب کی صف، 
+تبدیل محل قالب کی قطار ہو گی اور اسی طرح قالب کی قطار، تبدیل محل قالب کی صف ہو 
+گی۔ چوکور[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 921--923
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 ارکان کا مرکزی وتر میں ”عکس“ لینے سے بھی ت
-بدیل محل قالب حاصل ہو گا۔مرکزی وتر کے دونوں اطراف یکساں مقامات پر ارکان کی آپس 
-میں جگہ تبدیل[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 قالب کے ارکان کا مرکزی وتر میں ”عکس“ لینے 
+سے بھی تبدیل محل قالب حاصل ہو گا۔مرکزی وتر کے دونوں اطراف یکساں مقامات پر ارکان
+ کی آپس میں[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 921--923
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 کرنے سے ان کا ”عکس“ حاصل ہو گا۔یوں $\OML/z
-plm/m/it/10 a[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 a[]$
- \TU/JameelNooriNastaleeq(0)/b/n/10 آپس میں جگہ تبدیل کریں گے، $\OML/zplm/m/it/
-10 a[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 a[]$ \TU/Jame
-elNooriNastaleeq(0)/b/n/10 آپس میں جگہ تبدیل کریں گے، وغیرہ[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 جگہ تبدیل کرنے سے ان کا ”عکس“ حاصل ہو گا۔ی
+وں $\OML/zplm/m/it/10 a[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/
+it/10 a[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 آپس میں جگہ تبدیل کریں گے، $\OML/
+zplm/m/it/10 a[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 a[]
+$ \TU/JameelNooriNastaleeq(0)/b/n/10 آپس میں جگہ تبدیل کریں گے،[]
  []
 
 [448]
 LaTeX Info: Redefining \rmfamily on input line 947.
 LaTeX Info: Redefining \sffamily on input line 947.
 LaTeX Info: Redefining \ttfamily on input line 947.
+ [449]
 LaTeX Info: Redefining \rmfamily on input line 971.
 LaTeX Info: Redefining \sffamily on input line 971.
 LaTeX Info: Redefining \ttfamily on input line 971.
@@ -18451,7 +18456,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 970--973
 یں آپ کو درج بالا تعلقات ثابت کرنے[]
  []
 
-[449]
 LaTeX Info: Redefining \rmfamily on input line 974.
 LaTeX Info: Redefining \sffamily on input line 974.
 LaTeX Info: Redefining \ttfamily on input line 974.
@@ -18461,6 +18465,7 @@ LaTeX Info: Redefining \ttfamily on input line 978.
 LaTeX Info: Redefining \rmfamily on input line 986.
 LaTeX Info: Redefining \sffamily on input line 986.
 LaTeX Info: Redefining \ttfamily on input line 986.
+[450]
 LaTeX Info: Redefining \rmfamily on input line 994.
 LaTeX Info: Redefining \sffamily on input line 994.
 LaTeX Info: Redefining \ttfamily on input line 994.
@@ -18476,10 +18481,6 @@ LaTeX Info: Redefining \ttfamily on input line 1001.
 LaTeX Info: Redefining \rmfamily on input line 1001.
 LaTeX Info: Redefining \sffamily on input line 1001.
 LaTeX Info: Redefining \ttfamily on input line 1001.
-
-Underfull \vbox (badness 1297) has occurred while \output is active []
-
- [450]
 LaTeX Info: Redefining \rmfamily on input line 1019.
 LaTeX Info: Redefining \sffamily on input line 1019.
 LaTeX Info: Redefining \ttfamily on input line 1019.
@@ -18488,18 +18489,24 @@ LaTeX Info: Redefining \sffamily on input line 1019.
 LaTeX Info: Redefining \ttfamily on input line 1019.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1019--1021
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 کی طرف تمام ارکان صفر ہوں۔اسی طرح \TU/AASa
-meerSagarNastaleeqBold(0)/m/n/10 نچلا تکونی قالب[][] \TU/JameelNooriNastaleeq(0
-)/b/n/10 اس چکور قالب کو کہتے ہیں جس میں غیر صفر مقدار صرف مرکزی وتر اور مرکزی 
-وتر کے نیچے[]
+[]\TU/AASameerSagarNastaleeqBold(0)/m/n/10 بالائی تکونی قالب[][] \TU/JameelNoor
+iNastaleeq(0)/b/n/10 اس چوکور قالب کو کہتے ہیں جس میں غیر صفر مقدار صرف مرکزی و
+تر اور اس سے بالائی جانب پائے جاتے ہیں جبکہ مرکزی وتر سے[]
  []
 
 
+Underfull \hbox (badness 1917) in paragraph at lines 1019--1021
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 نیچے کی طرف تمام ارکان صفر ہوں۔اسی طرح \TU
+/AASameerSagarNastaleeqBold(0)/m/n/10 نچلا تکونی قالب[][] \TU/JameelNooriNastal
+eeq(0)/b/n/10 اس چوکور قالب کو کہتے ہیں جس میں غیر صفر مقدار صرف مرکزی وتر اور 
+مرکزی وتر کے[]
+ []
+
+[451]
 Underfull \hbox (badness 10000) in paragraph at lines 1021--1022
 [][]
  []
 
-[451]
 LaTeX Info: Redefining \rmfamily on input line 1029.
 LaTeX Info: Redefining \sffamily on input line 1029.
 LaTeX Info: Redefining \ttfamily on input line 1029.
@@ -18512,9 +18519,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1031--1032
 ameelNooriNastaleeq(0)/b/n/10 کے تمام ارکان یکساں، مثلاً $\OML/zplm/m/it/10 c$ 
 \TU/JameelNooriNastaleeq(0)/b/n/10 کے برابر ہوں، تب $\OML/cmm/b/it/10 S$ \TU/AA
 SameerSagarNastaleeqBold(0)/m/n/10 غیر سمتی قالب[][] \TU/JameelNooriNastaleeq(0
-)/b/n/10 کہلائے گا۔ کسی بھی چکور قالب $\OML/cmm/b/it/10 A$ \TU/JameelNooriNasta
-leeq(0)/b/n/10 جس کی جسامت $\OML/cmm/b/it/10 S$ \TU/JameelNooriNastaleeq(0)/b/n
-/10 کی[]
+)/b/n/10 کہلائے گا۔ کسی بھی چوکور قالب $\OML/cmm/b/it/10 A$ \TU/JameelNooriNast
+aleeq(0)/b/n/10 جس کی جسامت $\OML/cmm/b/it/10 S$ \TU/JameelNooriNastaleeq(0)/b/
+n/10 کی[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1035.
@@ -18525,7 +18532,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
 [][]
  []
 
-
+[452]
 Underfull \hbox (badness 10000) in paragraph at lines 1047--1050
 []\TU/JameelNooriNastaleeq(0)/b/n/10 ایک کارخانے میں تین اقسام کے کھلونے (الف، 
 ب اور پ) تیار ہوتے ہیں۔ایک کھلونا تیار کرنے کے اخراجات قالب $\OML/cmm/b/it/10 A
@@ -18545,7 +18552,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1047--1050
 [][]
  []
 
-[452]
 LaTeX Info: Redefining \rmfamily on input line 1077.
 LaTeX Info: Redefining \sffamily on input line 1077.
 LaTeX Info: Redefining \ttfamily on input line 1077.
@@ -18596,6 +18602,7 @@ LaTeX Info: Redefining \ttfamily on input line 1226.
 LaTeX Info: Redefining \rmfamily on input line 1230.
 LaTeX Info: Redefining \sffamily on input line 1230.
 LaTeX Info: Redefining \ttfamily on input line 1230.
+[456]
 LaTeX Info: Redefining \rmfamily on input line 1245.
 LaTeX Info: Redefining \sffamily on input line 1245.
 LaTeX Info: Redefining \ttfamily on input line 1245.
@@ -18634,7 +18641,7 @@ eeq(0)/b/n/10 اور $\OML/cmm/b/it/10 B$ \TU/JameelNooriNastaleeq(0)/b/n/10 آ�
 NooriNastaleeq(0)/b/n/10 ہوں[]
  []
 
-[456]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1263--1267
 []\TU/JameelNooriNastaleeq(0)/b/n/10 ایک مشین اگر آج ٹھیک ہو تب $\OT1/ppl/m/n/1
 0 0.9$ \TU/JameelNooriNastaleeq(0)/b/n/10 امکان ہے کہ وہ ایک دن بعد (کل) بھی ٹھ
@@ -18685,7 +18692,7 @@ eelNooriNastaleeq(0)/b/n/10 اور $\OT1/ppl/m/n/10 6$ \TU/JameelNooriNastaleeq(
 /b/n/10 روپیہ[]
  []
 
-
+[457]
 Underfull \hbox (badness 10000) in paragraph at lines 1304--1308
 []\TU/JameelNooriNastaleeq(0)/b/n/10 درج بالا سوال میں $\OML/zplm/m/it/10 ^^R$ 
 \TU/JameelNooriNastaleeq(0)/b/n/10 زاویہ گھومنا دیکھا گیا۔ثابت کریں کہ درج ذیل 
@@ -18693,7 +18700,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1304--1308
  \TU/JameelNooriNastaleeq(0)/b/n/10 زاویہ گھومنے کو[]
  []
 
-[457]
+[458]
 LaTeX Info: Redefining \rmfamily on input line 1335.
 LaTeX Info: Redefining \sffamily on input line 1335.
 LaTeX Info: Redefining \ttfamily on input line 1335.
@@ -18708,7 +18715,6 @@ Underfull \hbox (badness 4391) in paragraph at lines 1335--1336
 LaTeX Info: Redefining \rmfamily on input line 1337.
 LaTeX Info: Redefining \sffamily on input line 1337.
 LaTeX Info: Redefining \ttfamily on input line 1337.
-[458]
 LaTeX Info: Redefining \rmfamily on input line 1350.
 LaTeX Info: Redefining \sffamily on input line 1350.
 LaTeX Info: Redefining \ttfamily on input line 1350.
@@ -18764,6 +18770,7 @@ $ \TU/JameelNooriNastaleeq(0)/b/n/10 کی وہ قیمتیں ہیں جو اس ن�
 [][] \TU/JameelNooriNastaleeq(0)/b/n/10 کے ارکان نظام  [][]۸.۲۹[][][]
  []
 
+[459]
 LaTeX Info: Redefining \rmfamily on input line 1354.
 LaTeX Info: Redefining \sffamily on input line 1354.
 LaTeX Info: Redefining \ttfamily on input line 1354.
@@ -18776,7 +18783,7 @@ LaTeX Info: Redefining \ttfamily on input line 1359.
 LaTeX Info: Redefining \rmfamily on input line 1363.
 LaTeX Info: Redefining \sffamily on input line 1363.
 LaTeX Info: Redefining \ttfamily on input line 1363.
-[459]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1366--1368
 []\TU/JameelNooriNastaleeq(0)/b/n/10 افزودہ قالب میں عمودی لکیر کو ہٹایا جا سکت
 ا ہے۔ہم بھی ایسا ہی کریں گے، بس یاد رہے کہ $\OML/cmm/b/it/10 A$ \TU/JameelNoori
@@ -18809,7 +18816,7 @@ Nastaleeq(0)/b/n/10 جس کے محور $\OML/zplm/m/it/10 x[]$ \TU/JameelNooriNa
 ان دونوں خطوط پر پایا جاتا ہو۔ یوں تین ممکنہ صورتیں پائی جاتی[]
  []
 
-
+[460]
 Underfull \hbox (badness 2753) in paragraph at lines 1399--1399
 [][]\TU/JameelNooriNastaleeq(0)/m/n/9 (ا) |نقطہ $\OML/zplm/m/it/9 P$ \TU/Jameel
 NooriNastaleeq(0)/m/n/9 جہاں دونوں خط ملتے ہیں، ان مساوات کا[]
@@ -18862,7 +18869,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1433--1435
  چاہیں گے کہ آیا اس کا حل موجود ہے اور[]
  []
 
-[460]
+[461]
 Underfull \hbox (badness 10000) in paragraph at lines 1444--1445
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 کسی بھی نظام کو تکونی صورت میں لانے کے ع
 مل کو درج ذیل نظام کی مدد سے سیکھتے ہیں جس کا افزودہ قالب بھی دیا گیا ہے۔افزودہ
@@ -18877,7 +18884,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1451--1454
 eq(0)/b/n/10 سے ضرب دے کر[]
  []
 
-[461]
 LaTeX Info: Redefining \rmfamily on input line 1461.
 LaTeX Info: Redefining \sffamily on input line 1461.
 LaTeX Info: Redefining \ttfamily on input line 1461.
@@ -18913,15 +18919,14 @@ eq(0)/b/n/10 ، دوسری کو $\OML/zplm/m/it/10 S[]$ \TU/JameelNooriNastaleeq
 /10 اور تیسری کو[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1493--1495
+[462]
+Underfull \hbox (badness 4378) in paragraph at lines 1493--1495
 []\TU/JameelNooriNastaleeq(0)/b/n/10 صف پر عمل کو الجبرائی صورت میں قالب کے دائ
 یں جانب لکھا گیا ہے جہاں $\OML/zplm/m/it/10 S[]$\TU/JameelNooriNastaleeq(0)/b/n
 /10 ، $\OML/zplm/m/it/10 S[]$\TU/JameelNooriNastaleeq(0)/b/n/10 ، $[] $گزشتہ قا
-لب کے صف ہیں۔درج بالا تبدیل شدہ افزودہ[]
+لب کی صف ہیں۔درج بالا تبدیل شدہ افزودہ قالب[]
  []
 
-[462]
 LaTeX Info: Redefining \rmfamily on input line 1507.
 LaTeX Info: Redefining \sffamily on input line 1507.
 LaTeX Info: Redefining \ttfamily on input line 1507.
@@ -18980,7 +18985,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1546--1548
 b/n/10 سے مراد درج بالا قالب کی تیسری صف[]
  []
 
-[464]
+[464] [465]
 Underfull \hbox (badness 10000) in paragraph at lines 1663--1664
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 اب ظاہر ہے کہ ہمزاد مساواتوں کو آگے پیچھ
 ے لکھنے سے ان کا حاصل حل تبدیل نہیں ہوتا۔اسی طرح کسی مساوات کو مستقل قیمت سے ضر
@@ -19008,7 +19013,6 @@ JameelNooriNastaleeq(0)/b/n/10 پر محدود عمل صف کے ذریعہ $\OML
  \TU/JameelNooriNastaleeq(0)/b/n/10 حاصل کرنا ممکن ہو۔ یہ حقیقت[]
  []
 
-[465]
 LaTeX Info: Redefining \rmfamily on input line 1669.
 LaTeX Info: Redefining \sffamily on input line 1669.
 LaTeX Info: Redefining \ttfamily on input line 1669.
@@ -19018,6 +19022,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1673--1674
  دوسرے نظام کے سلسلہ حل کے عین مطابق ہو، تب انہیں \TU/AASameerSagarNastaleeqBol
 d(0)/m/n/10 صف برابر نظام \TU/JameelNooriNastaleeq(0)/b/n/10 کہتے ہیں۔یاد رہے ک
 ہ یہاں \TU/AASameerSagarNastaleeqBold(0)/m/n/10 عمل[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1674
+[]\TU/AASameerSagarNastaleeqBold(0)/m/n/10 صف \TU/JameelNooriNastaleeq(0)/b/n/1
+0 کی بات کی جا رہی ہے۔افزودہ قالب کی قطاریں تبدیل کرنے سے نظام تبدیل ہو گا اور 
+اس کا حل بھی تبدیل ہو گا لہٰذا افزودہ قالب پر کسی بھی عمل قطار[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1675.
@@ -19060,9 +19071,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1681--1682
  []
 
 [466]
-Underfull \hbox (badness 6944) in paragraph at lines 1705--1707
+Underfull \hbox (badness 10000) in paragraph at lines 1705--1707
 []\TU/JameelNooriNastaleeq(0)/b/n/10 دوسری قدم میں درج بالا تبدیل شدہ افزودہ قا
-لب استعمال کرتے ہوئے، دوسرے صف کی مدد سے تیسری صف سے $\OML/zplm/m/it/10 x[]$ \T
+لب استعمال کرتے ہوئے، دوسری صف کی مدد سے تیسری صف سے $\OML/zplm/m/it/10 x[]$ \T
 U/JameelNooriNastaleeq(0)/b/n/10 حذف کرتے ہیں۔دوسری صف کو[]
  []
 
@@ -19074,18 +19085,10 @@ LaTeX Info: Redefining \rmfamily on input line 1760.
 LaTeX Info: Redefining \sffamily on input line 1760.
 LaTeX Info: Redefining \ttfamily on input line 1760.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1760--1761
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 گاوسی اسقاط کے بعد حاصل عددی سر قالب، افزو
-دہ قالب اور نظام \TU/AASameerSagarNastaleeqBold(0)/m/n/10 صف زینہ دار[][] \TU/J
-ameelNooriNastaleeq(0)/b/n/10 کہلاتے ہیں جن میں صفر کے صف، اگر موجود ہوں تو یہ،
- آخر پر پائے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1760--1761
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 جاتے ہیں اور صف میں بائیں جانب پہلی غیر صف
-ر اندراج، ہر اگلے صف میں، مزید دور ہو گی۔ مثال  [][]۸.۲۴[][] []میں عددی سر قالب
- اور افزودہ قالب کی زینہ دار[]
+Underfull \hbox (badness 2894) in paragraph at lines 1760--1761
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 ہیں اور صف میں بائیں جانب پہلی غیر صفر اند
+راج، ہر اگلی صف میں، مزید دور ہو گی۔ مثال  [][]۸.۲۴[][] []میں عددی سر قالب اور 
+افزودہ قالب کی زینہ دار صورت درج[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1764.
@@ -19099,19 +19102,19 @@ eq(0)/b/n/10 کی صورت میں لانے کی کوشش نہیں کرتے ہی�
  نہیں ہو گا۔ (\TU/AASameerSagarNastaleeqBold(0)/m/n/10 سادہ زینہ[]
  []
 
+[468]
 LaTeX Info: Redefining \rmfamily on input line 1783.
 LaTeX Info: Redefining \sffamily on input line 1783.
 LaTeX Info: Redefining \ttfamily on input line 1783.
 
-Underfull \hbox (badness 2547) in paragraph at lines 1786--1788
+Underfull \hbox (badness 1688) in paragraph at lines 1786--1788
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 (الف) بلا حل: اگر $\OML/zplm/m/it/10 r <
  m$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہو (جس کا مطلب ہے کہ $\OML/cmm/b/it/10 R
-$ \TU/JameelNooriNastaleeq(0)/b/n/10 میں کم از کم ایک صف ایسا ہے جس کے تمام اند
+$ \TU/JameelNooriNastaleeq(0)/b/n/10 میں کم از کم ایک صف ایسی ہے جس کے تمام اند
 راجات صفر $\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 0\OT1/zplm/m/n/10 )$ \TU/JameelNoo
 riNastaleeq(0)/b/n/10 ہیں) اور[]
  []
 
-[468]
 LaTeX Info: Redefining \rmfamily on input line 1792.
 LaTeX Info: Redefining \sffamily on input line 1792.
 LaTeX Info: Redefining \ttfamily on input line 1792.
@@ -19124,7 +19127,7 @@ LaTeX Info: Redefining \ttfamily on input line 1799.
 LaTeX Info: Redefining \rmfamily on input line 1799.
 LaTeX Info: Redefining \sffamily on input line 1799.
 LaTeX Info: Redefining \ttfamily on input line 1799.
- [469] [470]
+[469] [470] [471]
 LaTeX Info: Redefining \rmfamily on input line 1939.
 LaTeX Info: Redefining \sffamily on input line 1939.
 LaTeX Info: Redefining \ttfamily on input line 1939.
@@ -19175,7 +19178,6 @@ LaTeX Info: Redefining \ttfamily on input line 1996.
 LaTeX Info: Redefining \rmfamily on input line 1996.
 LaTeX Info: Redefining \sffamily on input line 1996.
 LaTeX Info: Redefining \ttfamily on input line 1996.
-[471] [472]
 LaTeX Info: Redefining \rmfamily on input line 2003.
 LaTeX Info: Redefining \sffamily on input line 2003.
 LaTeX Info: Redefining \ttfamily on input line 2003.
@@ -19191,7 +19193,6 @@ LaTeX Info: Redefining \ttfamily on input line 2008.
 LaTeX Info: Redefining \rmfamily on input line 2008.
 LaTeX Info: Redefining \sffamily on input line 2008.
 LaTeX Info: Redefining \ttfamily on input line 2008.
-
 Missing character: There is no ; ("3B) in font nullfont!
 LaTeX Info: Redefining \rmfamily on input line 2017.
 LaTeX Info: Redefining \sffamily on input line 2017.
@@ -19238,6 +19239,7 @@ m/m/it/10 R[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 میں برقی رو صفر ک
  دور پر کوئی اثر نہیں ہو[]
  []
 
+[472]
 LaTeX Info: Redefining \rmfamily on input line 2024.
 LaTeX Info: Redefining \sffamily on input line 2024.
 LaTeX Info: Redefining \ttfamily on input line 2024.
@@ -19262,7 +19264,7 @@ riNastaleeq(0)/b/n/10 تا $\OML/zplm/m/it/10 x[]$ \TU/JameelNooriNastaleeq(0)/b
 n/10 حاصل کریں۔ کیا حل یکتا حل ہے؟[]
  []
 
-
+[473]
 Underfull \hbox (badness 10000) in paragraph at lines 2037--2042
 []\TU/JameelNooriNastaleeq(0)/b/n/10 اشیاء کی مانگ، قیمت اور دستیابی کو بالترتی
 ب $\OML/zplm/m/it/10 M$\TU/JameelNooriNastaleeq(0)/b/n/10 ، $\OML/zplm/m/it/10 
@@ -19271,7 +19273,6 @@ Nastaleeq(0)/b/n/10 سے ظاہر کرتے ہیں۔دو شہروں میں رسد
 \OT1/zplm/m/n/10 (\OML/zplm/m/it/10 M[] \OT1/zplm/m/n/10 =$[]
  []
 
-[473]
 LaTeX Info: Redefining \rmfamily on input line 2050.
 LaTeX Info: Redefining \sffamily on input line 2050.
 LaTeX Info: Redefining \ttfamily on input line 2050.
@@ -19412,10 +19413,10 @@ LaTeX Info: Redefining \rmfamily on input line 2140.
 LaTeX Info: Redefining \sffamily on input line 2140.
 LaTeX Info: Redefining \ttfamily on input line 2140.
 
-Underfull \hbox (badness 3471) in paragraph at lines 2142--2144
+Underfull \hbox (badness 10000) in paragraph at lines 2142--2144
 []\TU/JameelNooriNastaleeq(0)/b/n/10 ایسے $\OML/zplm/m/it/10 p$ \TU/JameelNoori
 Nastaleeq(0)/b/n/10 عدد سمتیات جن میں ہر سمتیہ کے $\OML/zplm/m/it/10 n$ \TU/Jam
-eelNooriNastaleeq(0)/b/n/10 عدد ارکان ہوں کو بطور قالب کے صف لکھیں۔ اگر حاصل قا
+eelNooriNastaleeq(0)/b/n/10 عدد ارکان ہوں کو بطور قالب کی صف لکھیں۔ اگر حاصل قا
 لب کا مرتبہ $\OML/zplm/m/it/10 p$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہو تب یہ س
 متیات خطی طور غیر[]
  []
@@ -19427,17 +19428,16 @@ OMS/zplm/m/n/10 ^^B \OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(0)/b/n/10 قا
 ب $\OML/cmm/b/it/10 A$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا مرتبہ $\OML/zplm/m
 /it/10 r$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہے۔مرتبہ قالب کی تعریف سے یوں $\OM
 L/cmm/b/it/10 A$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے $\OML/zplm/m/it/10 r$ \T
-U/JameelNooriNastaleeq(0)/b/n/10 عدد خطی طور غیر تابع صف ہوں گے[]
+U/JameelNooriNastaleeq(0)/b/n/10 عدد خطی طور غیر تابع صف ہوں گی[]
  []
 
 [477]
 Underfull \hbox (badness 10000) in paragraph at lines 2176--2178
 []\TU/JameelNooriNastaleeq(0)/b/n/10 بائیں ہاتھ سمتیہ $\OML/cmm/b/it/10 A$ \TU/
-JameelNooriNastaleeq(0)/b/n/10 قالب کا $\OML/zplm/m/it/10 k$ \TU/JameelNooriNas
+JameelNooriNastaleeq(0)/b/n/10 قالب کے $\OML/zplm/m/it/10 k$ \TU/JameelNooriNas
 taleeq(0)/b/n/10 شمار پر قطار ہے۔یوں درج بالا مساوات کے تحت $\OML/cmm/b/it/10 A
-$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا ہر قطار، دائیں ہاتھ کے $\OML/zplm/m/it/
-10 r$ \TU/JameelNooriNastaleeq(0)/b/n/10 عدد سمتیات کا خطی مجموعہ ہے لہٰذا $\OM
-L/cmm/b/it/10 A$[]
+$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی ہر قطار، دائیں ہاتھ کے $\OML/zplm/m/it/
+10 r$ \TU/JameelNooriNastaleeq(0)/b/n/10 عدد سمتیات کا خطی مجموعہ ہے لہٰذا[]
  []
 
 
@@ -19466,8 +19466,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 2183--2184
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 مثال  [][]۸.۲۷[][] []میں قالب $\OML/cmm/
 b/it/10 A$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا مرتبہ $\OT1/ppl/m/n/10 2$ \TU/
 JameelNooriNastaleeq(0)/b/n/10 ہے۔یوں$\OML/cmm/b/it/10 A$ \TU/JameelNooriNastal
-eeq(0)/b/n/10 کے دو قطار خطی طور غیر تابع ہوں گے۔بائیں جانب سے پہلی اور دوسری ق
-طار کو خطی طور غیر تابع[]
+eeq(0)/b/n/10 کی دو قطار خطی طور غیر تابع ہوں گی۔بائیں جانب سے پہلی اور دوسری ق
+طار کو خطی طور غیر تابع لیتے[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 2191.
@@ -19610,13 +19610,13 @@ LaTeX Info: Redefining \rmfamily on input line 2239.
 LaTeX Info: Redefining \sffamily on input line 2239.
 LaTeX Info: Redefining \ttfamily on input line 2239.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2239--2240
+Underfull \hbox (badness 1194) in paragraph at lines 2239--2240
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 قالب $\OML/cmm/b/it/10 A$ \TU/JameelNoor
 iNastaleeq(0)/b/n/10 کے سمتیات صف کے احاطے کو $\OML/cmm/b/it/10 A$ \TU/JameelNo
-oriNastaleeq(0)/b/n/10 کا \TU/AASameerSagarNastaleeqBold(0)/m/n/10 صف فضا[][] \
+oriNastaleeq(0)/b/n/10 کی \TU/AASameerSagarNastaleeqBold(0)/m/n/10 صف فضا[][] \
 TU/JameelNooriNastaleeq(0)/b/n/10 کہتے ہیں۔ اسی طرح قالب $\OML/cmm/b/it/10 A$ \
 TU/JameelNooriNastaleeq(0)/b/n/10 کے سمتیات قطار کے احاطے کو $\OML/cmm/b/it/10 
-A$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا \TU/AASameerSagarNastaleeqBold(0)/m/n/
+A$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی \TU/AASameerSagarNastaleeqBold(0)/m/n/
 10 قطار فضا[][][]
  []
 
@@ -19662,9 +19662,9 @@ LaTeX Info: Redefining \sffamily on input line 2406.
 LaTeX Info: Redefining \ttfamily on input line 2406.
  [482]
 Underfull \hbox (badness 10000) in paragraph at lines 2421--2425
-[] \TU/JameelNooriNastaleeq(0)/b/n/10 سوال  ۸.۷۸:  اگر چکور قالب کے صف خطی طور 
-غیر تابع ہوں، تب اس کے قطار بھی خطی طور غیر تابع ہوں گے۔اسی طرح اگر اس قالب کے 
-قطر خطی[]
+[] \TU/JameelNooriNastaleeq(0)/b/n/10 سوال  ۸.۷۸:  اگر چوکور قالب کی صفیں خطی ط
+ور غیر تابع ہوں، تب اس کی قطاریں بھی خطی طور غیر تابع ہوں گی۔اسی طرح اگر اس قال
+ب کی قطاریں[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 2432.
@@ -19676,8 +19676,8 @@ LaTeX Info: Redefining \ttfamily on input line 2432.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2457--2459
 []\TU/JameelNooriNastaleeq(0)/b/n/10 جواب:خطی طور غیر تابع۔ سمتیات کو بطور قالب
- کے صف سمتیہ لکھتے ہوئے گاوسی اسقاط سے قالب کا مرتبہ حاصل کرتے ہوئے سمتیات کی ت
-ابعیت یا غیر[]
+ کا صف سمتیہ لکھتے ہوئے گاوسی اسقاط سے قالب کا مرتبہ حاصل کرتے ہوئے سمتیات کی ت
+ابعیت یا غیر تابعیت[]
  []
 
 [483]
@@ -19987,6 +19987,12 @@ LaTeX Info: Redefining \rmfamily on input line 2825.
 LaTeX Info: Redefining \sffamily on input line 2825.
 LaTeX Info: Redefining \ttfamily on input line 2825.
  [489]
+Underfull \hbox (badness 10000) in paragraph at lines 2828--2831
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 دھیان رہے کہ قالب چوکور قوسین میں لکھا جات
+ا ہے جبکہ مقطع کو سیدھی عمودی لکیروں میں لپیٹ کر لکھا جاتا ہے۔مقطع $\OML/cmm/b/
+it/10 A$ \TU/JameelNooriNastaleeq(0)/b/n/10 کو $[]$ سے بھی ظاہر کیا جاتا[]
+ []
+
 LaTeX Info: Redefining \rmfamily on input line 2843.
 LaTeX Info: Redefining \sffamily on input line 2843.
 LaTeX Info: Redefining \ttfamily on input line 2843.
@@ -20095,7 +20101,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2991--2992
 ہی استعمال کی جاتی ہیں۔یوں ہم کہیں گے کہ $\OML/zplm/m/it/10 D$ \TU/JameelNooriN
 astaleeq(0)/b/n/10 میں $\OML/zplm/m/it/10 n[]$ \TU/AASameerSagarNastaleeqBold(0
 )/m/n/10 ارکان $\OML/zplm/m/it/10 a[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 پائے 
-جاتے ہیں، اس کے $\OML/zplm/m/it/10 j$[]
+جاتے ہیں، اس کی $\OML/zplm/m/it/10 j$[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 2993.
@@ -20135,8 +20141,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 3056--3057
 
 Underfull \hbox (badness 10000) in paragraph at lines 3056--3057
 []\TU/JameelNooriNastaleeq(0)/b/n/10 لاگو اعمال صف کی طرح ضرور ہے لیکن بالکل اس
- کی طرح ہرگز نہیں ہے۔بالخصوص، مقطع کے دو صف کی جگہ آپس میں تبدیل کرنے سے مقطع ک
-ی قیمت منفی[]
+ کی طرح ہرگز نہیں ہے۔بالخصوص، مقطع کی دو صفوں کی جگہ آپس میں تبدیل کرنے سے مقطع
+ کی قیمت منفی[]
  []
 
 [494]
@@ -20166,19 +20172,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 3082--3083
 NooriNastaleeq(0)/b/n/10 کو $\OML/zplm/m/it/10 c$ \TU/JameelNooriNastaleeq(0)/b
 /n/10 سے ضرب کرتے ہوئے صف $\OML/zplm/m/it/10 j$ \TU/JameelNooriNastaleeq(0)/b/n
 /10 کے ساتھ جمع کرنے سے نیا مقطع حاصل کرتے ہیں جس کو ہم $[]$ سے ظاہر کرتے ہیں۔$
-[]$ کے[]
+[]$[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 3082--3083
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 صف $\OML/zplm/m/it/10 j$ \TU/JameelNooriNa
-staleeq(0)/b/n/10 میں $\OML/zplm/m/it/10 a[]$ \TU/JameelNooriNastaleeq(0)/b/n/1
-0 اندراجات ہیں جبکہ $\OML/zplm/m/it/10 D[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 
-کے صف $\OML/zplm/m/it/10 j$ \TU/JameelNooriNastaleeq(0)/b/n/10 میں $\OML/zplm/m
-/it/10 D$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے صف $\OML/zplm/m/it/10 i$ \TU/Ja
-meelNooriNastaleeq(0)/b/n/10 والے اندراجات $\OML/zplm/m/it/10 a[]$ \TU/JameelNo
-oriNastaleeq(0)/b/n/10 ہیں جبکہ اس کے صف $\OML/zplm/m/it/10 i$ \TU/JameelNooriN
-astaleeq(0)/b/n/10 میں بھی یہی $\OML/zplm/m/it/10 a[]$[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 کی صف $\OML/zplm/m/it/10 j$ \TU/JameelNoor
+iNastaleeq(0)/b/n/10 میں $\OML/zplm/m/it/10 a[]$ \TU/JameelNooriNastaleeq(0)/b/
+n/10 اندراجات ہیں جبکہ $\OML/zplm/m/it/10 D[]$ \TU/JameelNooriNastaleeq(0)/b/n/
+10 کی صف $\OML/zplm/m/it/10 j$ \TU/JameelNooriNastaleeq(0)/b/n/10 میں $\OML/zpl
+m/m/it/10 D$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی صف $\OML/zplm/m/it/10 i$ \TU
+/JameelNooriNastaleeq(0)/b/n/10 والے اندراجات $\OML/zplm/m/it/10 a[]$ \TU/Jamee
+lNooriNastaleeq(0)/b/n/10 ہیں جبکہ اس کی صف $\OML/zplm/m/it/10 i$ \TU/JameelNoo
+riNastaleeq(0)/b/n/10 میں بھی یہی $\OML/zplm/m/it/10 a[]$[]
  []
 
 
@@ -20215,8 +20221,8 @@ LaTeX Info: Redefining \ttfamily on input line 3128.
 [496]
 Underfull \hbox (badness 10000) in paragraph at lines 3133--3135
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 (ث) راست تناسب صف یا قطار کی صورت میں مق
-طع صفر کے برابر ہو گا۔ بالخصوص دو ایک سی صف یا ایک سی قطار کی صورت میں مقطع کی 
-قیمت[]
+طع صفر کے برابر ہو گا۔ بالخصوص دو یا دو سے زیادہ ایک سی صفوں یا ایک سی قطاروں ک
+ی صورت[]
  []
 
 
@@ -20262,6 +20268,14 @@ Underfull \hbox (badness 3849) in paragraph at lines 3161--3185
 [] \TU/JameelNooriNastaleeq(0)/b/n/10 ثبوت :  بنیادی اعمال صف (حصہ  [][]۸.۳[][]
 []) مرتبہ قالب پر اثر انداز نہیں ہوتے (مسئلہ  [][]۸.۲[][][]) اور نا ہی مقطع قال
 ب کے غیر صفر ہونے پر اثر انداز ہوتے ہیں (مسئلہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3161--3185
+[][][]\TU/JameelNooriNastaleeq(0)/b/n/10 ۸.۱۳[][][])۔$\OML/cmm/b/it/10 A$ \TU/J
+ameelNooriNastaleeq(0)/b/n/10 کی زینہ دار صورت (حصہ  [][]۸.۳[][][]) کو $[]$ سے 
+ظاہر کرتے ہوئے آگے بڑھتے ہیں۔$[]$ کی (اولین) $\OML/zplm/m/it/10 r$ \TU/JameelNo
+oriNastaleeq(0)/b/n/10 صفیں، صرف اور صرف اس صورت[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 3199.
@@ -20405,7 +20419,7 @@ LaTeX Info: Redefining \ttfamily on input line 3324.
 Underfull \hbox (badness 10000) in paragraph at lines 3322--3326
 []$\OML/cmm/b/it/10 A$ []\TU/JameelNooriNastaleeq(0)/b/n/10 کی پہلی صف کو $\OT1
 /ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے ضرب دیتے ہوئے $\OML/cmm/b/
-it/10 B$ \TU/JameelNooriNastaleeq(0)/b/n/10 حاصل ہوتا ہے جس کے تیسری قطار کو $\
+it/10 B$ \TU/JameelNooriNastaleeq(0)/b/n/10 حاصل ہوتا ہے جس کی تیسری قطار کو $\
 OT1/ppl/m/n/10 3$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے ضرب دیتے ہوئے $\OML/cmm
 /b/it/10 C$ \TU/JameelNooriNastaleeq(0)/b/n/10 حاصل ہوتا ہے۔ان کے مقطع[]
  []
@@ -20549,7 +20563,7 @@ AX \OT1/zplm/m/n/10 = \OML/cmm/b/it/10 I$ \TU/JameelNooriNastaleeq(0)/b/n/10 م�
 
 Underfull \hbox (badness 10000) in paragraph at lines 3693--3695
 []\TU/JameelNooriNastaleeq(0)/b/n/10 لکھا جاتا ہے جہاں نا معلوم قالب $\OML/cmm/
-b/it/10 X$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے قطار $\OML/cmm/b/it/10 x[]$\TU
+b/it/10 X$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی قطار $\OML/cmm/b/it/10 x[]$\TU
 /JameelNooriNastaleeq(0)/b/n/10 ، $[] $، $\OML/cmm/b/it/10 x[]$ \TU/JameelNoori
 Nastaleeq(0)/b/n/10 ہیں۔ ساتھ ہی ساتھ $\OML/zplm/m/it/10 n$ \TU/JameelNooriNast
 aleeq(0)/b/n/10 عدد افزودہ قالب $[]$، $[] $،[]
@@ -21122,6 +21136,26 @@ LaTeX Info: Redefining \ttfamily on input line 4409.
 LaTeX Info: Redefining \rmfamily on input line 4409.
 LaTeX Info: Redefining \sffamily on input line 4409.
 LaTeX Info: Redefining \ttfamily on input line 4409.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4409--4410
+[][]\TU/JameelNooriNastaleeq(0)/b/n/10 اگر مساوات  [][]۸.۹۶[][] []میں $\OML/cmm
+/b/it/10 A$ \TU/JameelNooriNastaleeq(0)/b/n/10 چوکور $\OML/zplm/m/it/10 n \OMS/
+zplm/m/n/10 ^^B \OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(0)/b/n/10 قالب ہو
+ تب یہ $\OML/zplm/m/it/10 R[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا نقش $\OML/
+zplm/m/it/10 R[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 دے گا۔اگر یہ $\OML/cmm/b/i
+t/10 A$ \TU/JameelNooriNastaleeq(0)/b/n/10 غیر نادر قالب (حصہ  [][]۸.۸[][] []سے
+ رجوع کریں)[]
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 4409--4410
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 ہو تب مساوات  [][]۸.۹۶[][] []کے دونوں اطرا
+ف کے بائیں جانب کو $\OML/cmm/b/it/10 A[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے
+ ضرب دے کر $\OML/cmm/b/it/10 A[]A \OT1/zplm/m/n/10 = \OML/cmm/b/it/10 I$ \TU/Ja
+meelNooriNastaleeq(0)/b/n/10 استعمال کرتے ہوئے درج ذیل \TU/AASameerSagarNastale
+eqBold(0)/m/n/10 الٹ[]
+ []
+
 LaTeX Info: Redefining \rmfamily on input line 4413.
 LaTeX Info: Redefining \sffamily on input line 4413.
 LaTeX Info: Redefining \ttfamily on input line 4413.
@@ -21806,12 +21840,12 @@ LaTeX Info: Redefining \rmfamily on input line 658.
 LaTeX Info: Redefining \sffamily on input line 658.
 LaTeX Info: Redefining \ttfamily on input line 658.
 
-Underfull \hbox (badness 2735) in paragraph at lines 657--659
+Underfull \hbox (badness 2617) in paragraph at lines 657--659
 []\TU/JameelNooriNastaleeq(0)/b/n/10 ثبوت :  فرض کریں کہ $\OML/cmm/b/it/10 A$ \
 TU/JameelNooriNastaleeq(0)/b/n/10 قائمہ الزاویہ ہے اور $\OML/cmm/b/it/10 u \OT1
 /zplm/m/n/10 = \OML/cmm/b/it/10 Aa$\TU/JameelNooriNastaleeq(0)/b/n/10 ، $\OML/c
 mm/b/it/10 v \OT1/zplm/m/n/10 = \OML/cmm/b/it/10 Ab$ \TU/JameelNooriNastaleeq(0
-)/b/n/10 ہیں۔اب صفحہ ۴۴۹[] پر مساوات  [][]۸.۲۳[][][]-ت کے تحت[]
+)/b/n/10 ہیں۔اب صفحہ ۴۵۰[] پر مساوات  [][]۸.۲۳[][][]-ت کے تحت[]
  []
 
 
@@ -22034,15 +22068,6 @@ TU/JameelNooriNastaleeq(0)/b/n/10 کے قطار، $\OML/cmm/b/it/10 A$ \TU/Jamee
 Nastaleeq(0)/b/n/10 کے امتیازی سمتیات ہیں جس سے حاصل وتری قالب $[]$ کے ارکان، $
 \OML/cmm/b/it/10 A$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے امتیازی اقدار ہیں۔یوں
  ہم کسی بھی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 947--949
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 وتری ہو گا جس کے مرکزی وتر کے ارکان $\OML/
-cmm/b/it/10 A$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے امتیازی اقدار ہوں گے۔یہاں 
-$\OML/cmm/b/it/10 X$ \TU/JameelNooriNastaleeq(0)/b/n/10 ایسا قالب ہے جس کے قطار
- $\OML/cmm/b/it/10 A$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے امتیازی سمتیات ہیں۔
-مزید[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 957.
@@ -45409,23 +45434,23 @@ LaTeX Info: Redefining \rmfamily on input line 912.
 LaTeX Info: Redefining \sffamily on input line 912.
 LaTeX Info: Redefining \ttfamily on input line 912.
 
-Underfull \hbox (badness 5787) in paragraph at lines 914--915
+Underfull \hbox (badness 5008) in paragraph at lines 914--915
 [][]\TU/AASameerSagarNastaleeqBold(0)/m/n/10 رائے: \TU/JameelNooriNastaleeq(0)/
 b/n/10 اگر $\OML/zplm/m/it/10 h \OT1/zplm/m/n/10 = []$ \TU/JameelNooriNastaleeq
 (0)/b/n/10 منتخب کیا جائے جہاں $\OML/zplm/m/it/10 R$ \TU/JameelNooriNastaleeq(0
 )/b/n/10 کی ایک طرف کی لمبائی $\OML/zplm/m/it/10 l$ \TU/JameelNooriNastaleeq(0)
 /b/n/10 ہو اور $\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 n \OMS/zplm/m/n/10 ^^@ \OT1
-/ppl/m/n/10 1\OT1/zplm/m/n/10 )[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 جوڑ کو صف
- در صف لیا جائے یعنی پہلے صف[]
+/ppl/m/n/10 1\OT1/zplm/m/n/10 )[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 جوڑ کر صف
+ در صف لیا جائے یعنی پہلی صف[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 914--915
 []$\OML/zplm/m/it/10 N[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 N[]\OT1/ppl/m/n/10 
-, []  , \OML/zplm/m/it/10 N[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے بعد دوسرا 
+, []  , \OML/zplm/m/it/10 N[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے بعد دوسری 
 صف $\OML/zplm/m/it/10 N[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 N[]\OT1/ppl/m/n/10
  , []  , \OML/zplm/m/it/10 N[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور اس کے بع
-د تیسرا صف، $[] $لیا جائے تب نظام کا[]
+د تیسری صف، $[] $لی جائے تب نظام کا[]
  []
 
 [1218]
@@ -46277,22 +46302,11 @@ LaTeX Info: Redefining \rmfamily on input line 1749.
 LaTeX Info: Redefining \sffamily on input line 1749.
 LaTeX Info: Redefining \ttfamily on input line 1749.
 
-Underfull \hbox (badness 2961) in paragraph at lines 1748--1750
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 مزید $\OML/zplm/m/it/10 u[] \OT1/zplm/m/n/
-10 = \OML/zplm/m/it/10 u[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m
-/it/10 u[] \OT1/zplm/m/n/10 = \OML/zplm/m/it/10 u[]$ \TU/JameelNooriNastaleeq(0
-)/b/n/10 ہوں گے۔یاد رہے کہ $\OML/zplm/m/it/10 u[]$ \TU/JameelNooriNastaleeq(0)/
-b/n/10 سے مراد شکل  [][]۲۳.۲۰[][] []میں نقطہ $\OML/zplm/m/it/10 N[]$ \TU/Jameel
-NooriNastaleeq(0)/b/n/10 پر $\OML/zplm/m/it/10 u$ \TU/JameelNooriNastaleeq(0)/b
-/n/10 کی قیمت ہے۔[]
- []
-
-
-Underfull \hbox (badness 5260) in paragraph at lines 1748--1750
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 شکل کے ہر صف وقت میں چار عدد اندرونی جوڑ پ
-ائے جاتے ہیں۔ یوں وقت کے ہر ایک قدم پر ہم $\OT1/ppl/m/n/10 4$ \TU/JameelNooriNa
-staleeq(0)/b/n/10 عدد خطی مساوات حل کرتے ہوئے $\OT1/ppl/m/n/10 4$ \TU/JameelNoo
-riNastaleeq(0)/b/n/10 نا معلوم متغیرات[]
+Underfull \hbox (badness 10000) in paragraph at lines 1748--1750
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 کی ہر صف وقت میں چار عدد اندرونی جوڑ پائے 
+جاتے ہیں۔ یوں وقت کے ہر ایک قدم پر ہم $\OT1/ppl/m/n/10 4$ \TU/JameelNooriNastal
+eeq(0)/b/n/10 عدد خطی مساوات حل کرتے ہوئے $\OT1/ppl/m/n/10 4$ \TU/JameelNooriNa
+staleeq(0)/b/n/10 نا معلوم متغیرات[]
  []
 
 [1234]
@@ -46868,9 +46882,9 @@ leeq(0)/b/n/10 ،$[] $، $\OT1/ppl/m/n/10 440$ \TU/JameelNooriNastaleeq(0)/b/n/1
  []
 
 
-Underfull \hbox (badness 7740) in paragraph at lines 58--92
+Underfull \hbox (badness 10000) in paragraph at lines 58--92
 []\TU/JameelNooriNastaleeq(0)/b/n/10 کو ایک قطار میں لکھتے ہیں۔اس کے بعد جدول  
-[][]۲۴.۱[][] []کے ہر صف سے گزرتے ہوئے ہر عدد کے لئے اس قطار میں مطابقتی مقام کی
+[][]۲۴.۱[][] []کی ہر صف سے گزرتے ہوئے ہر عدد کے لئے اس قطار میں مطابقتی مقام کی
  صف میں \TU/AASameerSagarNastaleeqBold(0)/m/n/10 نشان شمار[][] \TU/JameelNooriN
 astaleeq(0)/b/n/10 کھینچتے[]
  []
@@ -52586,6 +52600,14 @@ LaTeX Info: Redefining \ttfamily on input line 4843.
 LaTeX Info: Redefining \rmfamily on input line 4843.
 LaTeX Info: Redefining \sffamily on input line 4843.
 LaTeX Info: Redefining \ttfamily on input line 4843.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4840--4846
+[] \TU/JameelNooriNastaleeq(0)/b/n/10 سوال  ۲۴.۲۵۷:  بلا منصوبہ اعداد کی جدول م
+یں طاق اور جفت اعداد کی تعداد تقریباً ایک سی ہونی چاہیے۔ضمیمہ  [][]ج[][] []کی ج
+دول  [][]ج.۹[][] []کی صف $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(0)/b/n/10
+ میں دیے[]
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 4846--4850
 [] \TU/JameelNooriNastaleeq(0)/b/n/10 سوال  ۲۴.۲۵۸:  ایک سکہ کو $\OT1/ppl/m/n/1

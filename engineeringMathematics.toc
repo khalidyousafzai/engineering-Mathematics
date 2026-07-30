@@ -71,7 +71,7 @@
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {1}}قالب اور سمتیات۔مجموعہ اور غیر سمتی ضرب}{\farsidigits {435}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {2}}قالبی ضرب}{\farsidigits {443}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {8}.\farsidigits {2}.\farsidigits {1}}تبدیلی محل}{\farsidigits {448}}{}%
-\contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {3}}خطی مساوات کے نظام۔ گاوسی اسقاط}{\farsidigits {458}}{}%
+\contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {3}}خطی مساوات کے نظام۔ گاوسی اسقاط}{\farsidigits {459}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {8}.\farsidigits {3}.\farsidigits {1}}صف زینہ دار صورت}{\farsidigits {468}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {4}}خطی غیر تابعیت۔ درجہ قالب۔ سمتی فضا}{\farsidigits {475}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {5}}خطی نظام کے حل: وجودیت، یکتائی}{\farsidigits {485}}{}%

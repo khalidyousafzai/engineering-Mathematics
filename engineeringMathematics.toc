@@ -230,8 +230,8 @@
 \contentsline {section}{\numberline {\farsidigits {24}.\farsidigits {19}}غیر مقدار معلوم پرکھ}{\farsidigits {1356}}{}%
 \contentsline {section}{\numberline {\farsidigits {24}.\farsidigits {20}}پیمائشوں کی جوڑیاں۔ سیدھے خطوط کو موافق بنانا}{\farsidigits {1359}}{}%
 \contentsline {chapter}{\numberline {ا}اضافی ثبوت}{\farsidigits {1367}}{}%
+\contentsline {chapter}{ضمیمے}{\farsidigits {1367}}{}%
 \contentsline {chapter}{\numberline {ب}مفید معلومات}{\farsidigits {1371}}{}%
-\contentsline {section}{\numberline {ب.\farsidigits {1}}اعلی تفاعل کے مساوات}{\farsidigits {1371}}{}%
 \contentsline {chapter}{\numberline {ج}جدول}{\farsidigits {1381}}{}%
 \selectlanguage *{english}
 \selectlanguage *{urdu}

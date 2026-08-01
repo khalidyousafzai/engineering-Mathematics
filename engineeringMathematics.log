@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  30 JUL 2026 21:53
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  1 AUG 2026 16:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5461,11 +5461,11 @@ LaTeX Info: Redefining \ttfamily on input line 983.
 
 Underfull \hbox (badness 10000) in paragraph at lines 982--984
 []$\OML/zplm/m/it/10 L$ \TU/JameelNooriNastaleeq(0)/b/n/10 خطی عامل اور $\OML/z
-plm/m/it/10 P$ \TU/JameelNooriNastaleeq(0)/b/n/10 کثیر رکنی[][] ہے۔یوں اگر $\OM
-L/zplm/m/it/10 Lw$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 Ly
-$ \TU/JameelNooriNastaleeq(0)/b/n/10 پائے جاتے ہوں (یعنی $\OML/zplm/m/it/10 w$ 
-\TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 y$ \TU/JameelNooriNas
-taleeq(0)/b/n/10 دو مرتبہ قابل تفرق ہوں) تب[]
+plm/m/it/10 P$ \TU/JameelNooriNastaleeq(0)/b/n/10 کثیررکنی[][] ہے۔یوں اگر $\OML
+/zplm/m/it/10 Lw$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 Ly$
+ \TU/JameelNooriNastaleeq(0)/b/n/10 پائے جاتے ہوں (یعنی $\OML/zplm/m/it/10 w$ \
+TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 y$ \TU/JameelNooriNast
+aleeq(0)/b/n/10 دو مرتبہ قابل تفرق ہوں) تب[]
  []
 
 [84]
@@ -5487,10 +5487,10 @@ LaTeX Info: Redefining \ttfamily on input line 997.
 Underfull \hbox (badness 10000) in paragraph at lines 997--999
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 یہاں دلچسپ بات یہ ہے کہ $\OML/zplm/m/it/
 10 P\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 ^^U\OT1/zplm/m/n/10 )$ \TU/JameelNooriN
-astaleeq(0)/b/n/10 عام الجبرائی کثیر رکنی ہے جس کی تجزی[][] کی جا سکتی ہے۔$\OML
-/zplm/m/it/10 ^^U$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی جگہ $\OML/zplm/m/it/10
- D$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر کرنے سے \TU/AASameerSagarNastaleeqBol
-d(0)/m/n/10 کثیر رکنی عامل \TU/JameelNooriNastaleeq(0)/b/n/10 حاصل ہوتا[]
+astaleeq(0)/b/n/10 عام الجبرائی کثیررکنی ہے جس کی تجزی[][] کی جا سکتی ہے۔$\OML/
+zplm/m/it/10 ^^U$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی جگہ $\OML/zplm/m/it/10 
+D$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر کرنے سے \TU/AASameerSagarNastaleeqBold
+(0)/m/n/10 کثیررکنی عامل \TU/JameelNooriNastaleeq(0)/b/n/10 حاصل ہوتا[]
  []
 
 
@@ -5503,9 +5503,9 @@ LaTeX Info: Redefining \sffamily on input line 1010.
 LaTeX Info: Redefining \ttfamily on input line 1010.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1010--1011
-[][]\TU/JameelNooriNastaleeq(0)/b/n/10 مساوات  [][]۲.۳۳[][] []میں کثیر رکنی کے 
-عددی سر مستقل مقدار ہیں۔ایسی صورت میں تفرقی عامل کے استعمال سے تفرقی مساوات حل 
-کرنا نہایت آسان ثابت ہوتا[]
+[][]\TU/JameelNooriNastaleeq(0)/b/n/10 مساوات  [][]۲.۳۳[][] []میں کثیررکنی کے ع
+ددی سر مستقل مقدار ہیں۔ایسی صورت میں تفرقی عامل کے استعمال سے تفرقی مساوات حل ک
+رنا نہایت آسان ثابت ہوتا[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1022.
@@ -11630,10 +11630,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--40
 سلسل کی صورت میں لکھا[]
  []
 
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [236]
 LaTeX Info: Redefining \rmfamily on input line 68.
 LaTeX Info: Redefining \sffamily on input line 68.
@@ -11677,10 +11673,6 @@ JameelNooriNastaleeq(0)/b/n/10 ،$\OML/zplm/m/it/10 a[]$\TU/JameelNooriNastaleeq
 (0)/b/n/10 ،[]
  []
 
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [238]
 LaTeX Info: Redefining \rmfamily on input line 120.
 LaTeX Info: Redefining \sffamily on input line 120.
@@ -11694,6 +11686,17 @@ LaTeX Info: Redefining \ttfamily on input line 124.
 LaTeX Info: Redefining \rmfamily on input line 125.
 LaTeX Info: Redefining \sffamily on input line 125.
 LaTeX Info: Redefining \ttfamily on input line 125.
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--126
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 جس میں $\OML/zplm/m/it/10 a[]$ \TU/JameelN
+ooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 a[]$ \TU/JameelNooriNastaleeq(0)
+/b/n/10 اختیاری مستقل ہیں۔یوں درج بالا عمومی حل دو عدد حل $\OML/zplm/m/it/10 x$
+ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OT1/ppl/m/n/10 1 \OMS/zplm/m/n/10 ^^@
+ \OML/zplm/m/it/10 x[] \OMS/zplm/m/n/10 ^^@ []\OML/zplm/m/it/10 x[] \OMS/zplm/m
+/n/10 ^^@ []$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر مشتمل ہے جو \TU/AASameerSag
+arNastaleeqBold(0)/m/n/10 لیژانڈر[]
+ []
+
 LaTeX Info: Redefining \rmfamily on input line 130.
 LaTeX Info: Redefining \sffamily on input line 130.
 LaTeX Info: Redefining \ttfamily on input line 130.
@@ -11709,7 +11712,7 @@ LaTeX Info: Redefining \ttfamily on input line 134.
 LaTeX Info: Redefining \rmfamily on input line 134.
 LaTeX Info: Redefining \sffamily on input line 134.
 LaTeX Info: Redefining \ttfamily on input line 134.
- [239]
+[239]
 LaTeX Info: Redefining \rmfamily on input line 148.
 LaTeX Info: Redefining \sffamily on input line 148.
 LaTeX Info: Redefining \ttfamily on input line 148.
@@ -11798,10 +11801,6 @@ LaTeX Info: Redefining \ttfamily on input line 207.
 LaTeX Info: Redefining \rmfamily on input line 207.
 LaTeX Info: Redefining \sffamily on input line 207.
 LaTeX Info: Redefining \ttfamily on input line 207.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [240]
 LaTeX Info: Redefining \rmfamily on input line 209.
 LaTeX Info: Redefining \sffamily on input line 209.
@@ -11893,10 +11892,6 @@ LaTeX Info: Redefining \ttfamily on input line 257.
 LaTeX Info: Redefining \rmfamily on input line 257.
 LaTeX Info: Redefining \sffamily on input line 257.
 LaTeX Info: Redefining \ttfamily on input line 257.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [242]
 LaTeX Info: Redefining \rmfamily on input line 263.
 LaTeX Info: Redefining \sffamily on input line 263.
@@ -11934,10 +11929,6 @@ zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 g\OT
 zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)
 /b/n/10 ہیں۔اب پہلے تسلسل کے ہر رکن کو دوسرے تسلسل کے ہر رکن[]
  []
-
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
 
 [244]
 LaTeX Info: Redefining \rmfamily on input line 339.
@@ -11991,10 +11982,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 423--426
 /m/it/10 x[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر مجموعے کی قیمت دریافت کریں۔
 جوابات میں نقطہ[]
  []
-
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
 
 [246]
 Underfull \hbox (badness 10000) in paragraph at lines 457--461
@@ -12053,9 +12040,9 @@ lNooriNastaleeq(0)/b/n/10 کو ظاہر کرتی ہے۔[]
 
 Underfull \hbox (badness 10000) in paragraph at lines 486--487
 []\TU/AASameerSagarNastaleeqBold(0)/m/n/10 تفاعل[][] \TU/JameelNooriNastaleeq(0
-)/b/n/10 کہتے ہیں۔لیژانڈر تفاعل اور ایسے دیگر اعلٰی تفاعل، جو احصاء میں نہیں پا
-ئے جاتے، کے مطالعہ کو \TU/AASameerSagarNastaleeqBold(0)/m/n/10 نظریہ اعلٰی تفاع
-ل[][] \TU/JameelNooriNastaleeq(0)/b/n/10 کہتے ہیں۔دیگر اعلٰی تفاعل[]
+)/b/n/10 کہتے ہیں۔لیژانڈر تفاعل اور ایسے دیگر اعلیٰ تفاعل، جو احصاء میں نہیں پا
+ئے جاتے، کے مطالعہ کو \TU/AASameerSagarNastaleeqBold(0)/m/n/10 نظریہ اعلیٰ تفاع
+ل[][] \TU/JameelNooriNastaleeq(0)/b/n/10 کہتے ہیں۔دیگر اعلیٰ تفاعل[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 488.
@@ -12109,10 +12096,6 @@ ameelNooriNastaleeq(0)/b/n/10 نہیں پایا جاتا ہے۔یوں پہلے �
 \OML/zplm/m/it/10 x[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے عددی سر جمع کرتے[]
 
  []
-
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
 
 [248]
 LaTeX Info: Redefining \rmfamily on input line 523.
@@ -12174,10 +12157,10 @@ LaTeX Info: Redefining \rmfamily on input line 556.
 LaTeX Info: Redefining \sffamily on input line 556.
 LaTeX Info: Redefining \ttfamily on input line 556.
 
-Underfull \hbox (badness 4353) in paragraph at lines 556--558
+Underfull \hbox (badness 5077) in paragraph at lines 556--558
 []\TU/JameelNooriNastaleeq(0)/b/n/10 بات نہیں ہے کہ تسلسل  [][]۵.۲۴[][] []اور ت
 سلسل  [][]۵.۲۴[][] []کا ارتکازی وقفہ وسیع نہیں ہے ماسوائے اس صورت میں جب اجزاء 
-کی تعداد محدود ہونے کی بنا تسلسل کثیر رکنی[]
+کی تعداد محدود ہونے کی بنا تسلسل کثیررکنی[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 560.
@@ -12188,25 +12171,25 @@ LaTeX Info: Redefining \sffamily on input line 560.
 LaTeX Info: Redefining \ttfamily on input line 560.
 
 Underfull \hbox (badness 10000) in paragraph at lines 560--561
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 طاقتی تسلسل کے تخفیف سے کثیر رکنی حاصل ہوت
-ی ہے جس کا حل، ارتکازی شرط کے قید سے آزاد، تمام $\OML/zplm/m/it/10 x$ \TU/Jamee
-lNooriNastaleeq(0)/b/n/10 کے لئے پایا جاتا ہے۔ایسے اعلٰی تفاعل جو سادہ[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 طاقتی تسلسل کے تخفیف سے کثیررکنی حاصل ہوتی
+ ہے جس کا حل، ارتکازی شرط کے قید سے آزاد، تمام $\OML/zplm/m/it/10 x$ \TU/Jameel
+NooriNastaleeq(0)/b/n/10 کے لئے پایا جاتا ہے۔ایسے اعلیٰ تفاعل جو سادہ[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 560--561
 []\TU/JameelNooriNastaleeq(0)/b/n/10 تفرقی مساوات کے حل ہوتے ہیں میں یہ صورت عم
-وماً پائی جاتی ہے جن سے مختلف نسل کے اہم کثیر رکنی حاصل ہوتے ہیں۔لیژانڈر مساوات
- میں $\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی[]
+وماً پائی جاتی ہے جن سے مختلف نسل کے اہم کثیررکنی حاصل ہوتے ہیں۔لیژانڈر مساوات 
+میں $\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 560--561
 []\TU/JameelNooriNastaleeq(0)/b/n/10 مقدار سے ضرب دیتے ہوئے \TU/AASameerSagarNa
-staleeqBold(0)/m/n/10 لیژانڈر کثیر رکنی[][] \TU/JameelNooriNastaleeq(0)/b/n/10 
-حاصل ہوتی ہیں جنہیں $\OML/zplm/m/it/10 P[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x
-\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے ظاہر کیا جاتا ہے۔روای
-تی طور پر اس مستقل مقدار کو درج ذیل[]
+staleeqBold(0)/m/n/10 لیژانڈر کثیررکنی[][] \TU/JameelNooriNastaleeq(0)/b/n/10 ح
+اصل ہوتی ہیں جنہیں $\OML/zplm/m/it/10 P[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\
+OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے ظاہر کیا جاتا ہے۔روایت
+ی طور پر اس مستقل مقدار کو درج ذیل[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 566.
@@ -12227,10 +12210,6 @@ LaTeX Info: Redefining \ttfamily on input line 570.
 LaTeX Info: Redefining \rmfamily on input line 570.
 LaTeX Info: Redefining \sffamily on input line 570.
 LaTeX Info: Redefining \ttfamily on input line 570.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [250]
 LaTeX Info: Redefining \rmfamily on input line 588.
 LaTeX Info: Redefining \sffamily on input line 588.
@@ -12251,11 +12230,7 @@ LaTeX Info: Redefining \ttfamily on input line 626.
 LaTeX Info: Redefining \rmfamily on input line 629.
 LaTeX Info: Redefining \sffamily on input line 629.
 LaTeX Info: Redefining \ttfamily on input line 629.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
-[252]
+ [252]
 LaTeX Info: Redefining \rmfamily on input line 663.
 LaTeX Info: Redefining \sffamily on input line 663.
 LaTeX Info: Redefining \ttfamily on input line 663.
@@ -12276,12 +12251,12 @@ lm/m/it/10 a[]x[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 665--666
+Underfull \hbox (badness 4242) in paragraph at lines 665--666
 []\TU/JameelNooriNastaleeq(0)/b/n/10 گے۔ آپ نے دیکھا کہ طاق $\OML/zplm/m/it/10 
-n$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی صورت میں کثیر رکنی میں کل $[]$ پائے گئ
-ے جبکہ جفت $\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی صورت میں
- ارکان کی تعداد $[]$ تھی۔یوں طاق $\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq
-(0)/b/n/10 کی[]
+n$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی صورت میں کثیررکنی میں کل $[]$ پائے گئے
+ جبکہ جفت $\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی صورت میں 
+ارکان کی تعداد $[]$ تھی۔یوں طاق $\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(
+0)/b/n/10 کی[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 670.
@@ -12334,10 +12309,6 @@ LaTeX Info: Redefining \ttfamily on input line 696.
 LaTeX Info: Redefining \rmfamily on input line 700.
 LaTeX Info: Redefining \sffamily on input line 700.
 LaTeX Info: Redefining \ttfamily on input line 700.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [254]
 LaTeX Info: Redefining \rmfamily on input line 707.
 LaTeX Info: Redefining \sffamily on input line 707.
@@ -12378,10 +12349,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 767--769
 Overfull \hbox (24.5746pt too wide) detected at line 772
 []
  []
-
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
 
 [256]
 LaTeX Info: Redefining \rmfamily on input line 780.
@@ -12436,10 +12403,6 @@ LaTeX Info: Redefining \ttfamily on input line 831.
 LaTeX Info: Redefining \rmfamily on input line 832.
 LaTeX Info: Redefining \sffamily on input line 832.
 LaTeX Info: Redefining \ttfamily on input line 832.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [258]
 LaTeX Info: Redefining \rmfamily on input line 836.
 LaTeX Info: Redefining \sffamily on input line 836.
@@ -12511,11 +12474,7 @@ LaTeX Info: Redefining \ttfamily on input line 904.
 LaTeX Info: Redefining \rmfamily on input line 904.
 LaTeX Info: Redefining \sffamily on input line 904.
 LaTeX Info: Redefining \ttfamily on input line 904.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
-[260]
+ [260]
 LaTeX Info: Redefining \rmfamily on input line 926.
 LaTeX Info: Redefining \sffamily on input line 926.
 LaTeX Info: Redefining \ttfamily on input line 926.
@@ -12592,10 +12551,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 992--993
 0 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر مبنی تسلسل کو طاقتی[]
  []
 
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [262]
 LaTeX Info: Redefining \rmfamily on input line 994.
 LaTeX Info: Redefining \sffamily on input line 994.
@@ -12628,10 +12583,10 @@ LaTeX Info: Redefining \ttfamily on input line 1021.
 Underfull \hbox (badness 10000) in paragraph at lines 1020--1022
 []\TU/JameelNooriNastaleeq(0)/b/n/10 اور اگر $\OML/zplm/m/it/10 b$ \TU/JameelNo
 oriNastaleeq(0)/b/n/10 یا (اور) $\OML/zplm/m/it/10 c$ \TU/JameelNooriNastaleeq(
-0)/b/n/10 کثیر رکنی ہوں تب $\OML/zplm/m/it/10 b$ \TU/JameelNooriNastaleeq(0)/b/
-n/10 یا (اور) $\OML/zplm/m/it/10 c$ \TU/JameelNooriNastaleeq(0)/b/n/10 کو جوں ک
-ا توں رہنے دیا جاتا ہے۔ مساوات  [][]۵.۴۸[][] []کا جزو در جزو تفرق لیتے ہوئے درج
- ذیل لکھا جا سکتا[]
+0)/b/n/10 کثیررکنی ہوں تب $\OML/zplm/m/it/10 b$ \TU/JameelNooriNastaleeq(0)/b/n
+/10 یا (اور) $\OML/zplm/m/it/10 c$ \TU/JameelNooriNastaleeq(0)/b/n/10 کو جوں کا
+ توں رہنے دیا جاتا ہے۔ مساوات  [][]۵.۴۸[][] []کا جزو در جزو تفرق لیتے ہوئے درج 
+ذیل لکھا جا سکتا[]
  []
 
 [263]
@@ -12698,10 +12653,6 @@ $\TU/JameelNooriNastaleeq(0)/b/n/10 ، $\OT1/ppl/m/n/10 2$\TU/JameelNooriNastale
 eq(0)/b/n/10 ، $\OT1/ppl/m/n/10 3$\TU/JameelNooriNastaleeq(0)/b/n/10 ،$[] $) کے
 []
  []
-
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
 
 [264]
 LaTeX Info: Redefining \rmfamily on input line 1063.
@@ -12791,10 +12742,6 @@ LaTeX Info: Redefining \ttfamily on input line 1117.
 LaTeX Info: Redefining \rmfamily on input line 1125.
 LaTeX Info: Redefining \sffamily on input line 1125.
 LaTeX Info: Redefining \ttfamily on input line 1125.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [266]
 LaTeX Info: Redefining \rmfamily on input line 1133.
 LaTeX Info: Redefining \sffamily on input line 1133.
@@ -12853,11 +12800,7 @@ LaTeX Info: Redefining \ttfamily on input line 1184.
 LaTeX Info: Redefining \rmfamily on input line 1199.
 LaTeX Info: Redefining \sffamily on input line 1199.
 LaTeX Info: Redefining \ttfamily on input line 1199.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
-[268]
+ [268]
 LaTeX Info: Redefining \rmfamily on input line 1213.
 LaTeX Info: Redefining \sffamily on input line 1213.
 LaTeX Info: Redefining \ttfamily on input line 1213.
@@ -12899,10 +12842,6 @@ ameelNooriNastaleeq(0)/b/n/10 سے تقسیم کرتے ہوئے مساوات  []
 مساوات حاصل ہوتی ہے۔آپ دیکھ سکتے ہیں کہ مساوات  [][]۵.۶۶[][][]
  []
 
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [270]
 LaTeX Info: Redefining \rmfamily on input line 1295.
 LaTeX Info: Redefining \sffamily on input line 1295.
@@ -12911,11 +12850,7 @@ LaTeX Info: Redefining \ttfamily on input line 1295.
 LaTeX Info: Redefining \rmfamily on input line 1327.
 LaTeX Info: Redefining \sffamily on input line 1327.
 LaTeX Info: Redefining \ttfamily on input line 1327.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
-[272]
+ [272]
 LaTeX Info: Redefining \rmfamily on input line 1346.
 LaTeX Info: Redefining \sffamily on input line 1346.
 LaTeX Info: Redefining \ttfamily on input line 1346.
@@ -12927,11 +12862,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1346--1347
 [][]
  []
 
-[273]
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
-[274]
+[273] [274]
 LaTeX Info: Redefining \rmfamily on input line 1434.
 LaTeX Info: Redefining \sffamily on input line 1434.
 LaTeX Info: Redefining \ttfamily on input line 1434.
@@ -13004,10 +12935,6 @@ Overfull \hbox (1.92651pt too wide) detected at line 1509
 []
  []
 
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [276]
 LaTeX Info: Redefining \rmfamily on input line 1517.
 LaTeX Info: Redefining \sffamily on input line 1517.
@@ -13064,10 +12991,6 @@ LaTeX Info: Redefining \ttfamily on input line 1570.
 LaTeX Info: Redefining \rmfamily on input line 1578.
 LaTeX Info: Redefining \sffamily on input line 1578.
 LaTeX Info: Redefining \ttfamily on input line 1578.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [278]
 LaTeX Info: Redefining \rmfamily on input line 1590.
 LaTeX Info: Redefining \sffamily on input line 1590.
@@ -13161,10 +13084,6 @@ ppl/m/n/10 5.520$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OT1/ppl/m/n/10 8.6
 $ \TU/JameelNooriNastaleeq(0)/b/n/10 ہیں۔دونوں جوابات میں فرق[]
  []
 
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [280]
 LaTeX Info: Redefining \rmfamily on input line 1640.
 LaTeX Info: Redefining \sffamily on input line 1640.
@@ -13206,11 +13125,7 @@ LaTeX Info: Redefining \ttfamily on input line 1691.
 LaTeX Info: Redefining \rmfamily on input line 1698.
 LaTeX Info: Redefining \sffamily on input line 1698.
 LaTeX Info: Redefining \ttfamily on input line 1698.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
-[282]
+ [282]
 LaTeX Info: Redefining \rmfamily on input line 1730.
 LaTeX Info: Redefining \sffamily on input line 1730.
 LaTeX Info: Redefining \ttfamily on input line 1730.
@@ -13257,11 +13172,7 @@ LaTeX Info: Redefining \ttfamily on input line 1778.
 LaTeX Info: Redefining \rmfamily on input line 1782.
 LaTeX Info: Redefining \sffamily on input line 1782.
 LaTeX Info: Redefining \ttfamily on input line 1782.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
-[284]
+ [284]
 LaTeX Info: Redefining \rmfamily on input line 1790.
 LaTeX Info: Redefining \sffamily on input line 1790.
 LaTeX Info: Redefining \ttfamily on input line 1790.
@@ -13323,10 +13234,6 @@ zplm/m/it/10 ^^W$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی قیمت کو عدد �
 ب تر لانے سے گیما تفاعل کی قیمت (صفحہ ۱۳۷۶[] پر شکل  [][]ب.۵[][][]) لامتناہی کی
  طرف بڑھتی[]
  []
-
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
 
 [286]
 LaTeX Info: Redefining \rmfamily on input line 1876.
@@ -13455,10 +13362,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1958--1962
 LaTeX Info: Redefining \rmfamily on input line 1968.
 LaTeX Info: Redefining \sffamily on input line 1968.
 LaTeX Info: Redefining \ttfamily on input line 1968.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [288]
 LaTeX Info: Redefining \rmfamily on input line 1973.
 LaTeX Info: Redefining \sffamily on input line 1973.
@@ -13544,10 +13447,6 @@ JameelNooriNastaleeq(0)/b/n/10 کمتر طاقت، جو صرف دوسرے مجم
 0 = \OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(0)/b/n/10 ملتا ہے۔اب[]
  []
 
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [290]
 LaTeX Info: Redefining \rmfamily on input line 2065.
 LaTeX Info: Redefining \sffamily on input line 2065.
@@ -13623,10 +13522,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 2091--2092
 LaTeX Info: Redefining \rmfamily on input line 2098.
 LaTeX Info: Redefining \sffamily on input line 2098.
 LaTeX Info: Redefining \ttfamily on input line 2098.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [292]
 LaTeX Info: Redefining \rmfamily on input line 2102.
 LaTeX Info: Redefining \sffamily on input line 2102.
@@ -13724,11 +13619,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2136--2137
  کرنا ممکن[]
  []
 
-[293]
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
-[294]
+[293] [294]
 LaTeX Info: Redefining \rmfamily on input line 2209.
 LaTeX Info: Redefining \sffamily on input line 2209.
 LaTeX Info: Redefining \ttfamily on input line 2209.
@@ -13778,11 +13669,7 @@ LaTeX Info: Redefining \ttfamily on input line 2251.
 LaTeX Info: Redefining \rmfamily on input line 2269.
 LaTeX Info: Redefining \sffamily on input line 2269.
 LaTeX Info: Redefining \ttfamily on input line 2269.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
-[296]
+ [296]
 LaTeX Info: Redefining \rmfamily on input line 2288.
 LaTeX Info: Redefining \sffamily on input line 2288.
 LaTeX Info: Redefining \ttfamily on input line 2288.
@@ -13865,10 +13752,6 @@ LaTeX Info: Redefining \ttfamily on input line 2331.
 LaTeX Info: Redefining \rmfamily on input line 2337.
 LaTeX Info: Redefining \sffamily on input line 2337.
 LaTeX Info: Redefining \ttfamily on input line 2337.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [298]
 LaTeX Info: Redefining \rmfamily on input line 2342.
 LaTeX Info: Redefining \sffamily on input line 2342.
@@ -13960,10 +13843,6 @@ LaTeX Info: Redefining \ttfamily on input line 2422.
 LaTeX Info: Redefining \rmfamily on input line 2422.
 LaTeX Info: Redefining \sffamily on input line 2422.
 LaTeX Info: Redefining \ttfamily on input line 2422.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [300]
 LaTeX Info: Redefining \rmfamily on input line 2454.
 LaTeX Info: Redefining \sffamily on input line 2454.
@@ -14077,10 +13956,6 @@ LaTeX Info: Redefining \ttfamily on input line 2510.
 LaTeX Info: Redefining \rmfamily on input line 2510.
 LaTeX Info: Redefining \sffamily on input line 2510.
 LaTeX Info: Redefining \ttfamily on input line 2510.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [302]
 LaTeX Info: Redefining \rmfamily on input line 2514.
 LaTeX Info: Redefining \sffamily on input line 2514.
@@ -14140,11 +14015,7 @@ LaTeX Info: Redefining \ttfamily on input line 2579.
 LaTeX Info: Redefining \rmfamily on input line 2579.
 LaTeX Info: Redefining \sffamily on input line 2579.
 LaTeX Info: Redefining \ttfamily on input line 2579.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
-[304]
+ [304]
 LaTeX Info: Redefining \rmfamily on input line 2643.
 LaTeX Info: Redefining \sffamily on input line 2643.
 LaTeX Info: Redefining \ttfamily on input line 2643.
@@ -14192,11 +14063,7 @@ LaTeX Info: Redefining \ttfamily on input line 2696.
 LaTeX Info: Redefining \rmfamily on input line 2696.
 LaTeX Info: Redefining \sffamily on input line 2696.
 LaTeX Info: Redefining \ttfamily on input line 2696.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
-[306]
+ [306]
 LaTeX Info: Redefining \rmfamily on input line 2700.
 LaTeX Info: Redefining \sffamily on input line 2700.
 LaTeX Info: Redefining \ttfamily on input line 2700.
@@ -14274,10 +14141,6 @@ lm/m/n/10 + []$ \TU/JameelNooriNastaleeq(0)/b/n/10 لکھی جائے گی۔مس�
 []سے تسلسل کے عددی سر[]
  []
 
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
 [308]
 LaTeX Info: Redefining \rmfamily on input line 2814.
 LaTeX Info: Redefining \sffamily on input line 2814.
@@ -14290,10 +14153,9 @@ LaTeX Info: Redefining \sffamily on input line 2818.
 LaTeX Info: Redefining \ttfamily on input line 2818.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2817--2819
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 توجہ رہے کہ دیگر اعلٰی تفاعل کی طرح ہرمائٹ
- کثیر رکنی[][]  کو بھی کئی طریقوں سے ظاہر کیا جاتا ہے لہٰذا طبیعیات کے میدان می
-ں ہرمائٹ کثیر رکنی $\OT1/ppl/m/n/10 H[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی[
-]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 توجہ رہے کہ دیگر اعلیٰ تفاعل کی طرح ہرمائٹ
+ کثیررکنی[][]  کو بھی کئی طریقوں سے ظاہر کیا جاتا ہے لہٰذا طبیعیات کے میدان میں
+ ہرمائٹ کثیررکنی $\OT1/ppl/m/n/10 H[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی[]
  []
 
 [309]
@@ -14321,11 +14183,7 @@ LaTeX Info: Redefining \ttfamily on input line 2869.
 LaTeX Info: Redefining \rmfamily on input line 2869.
 LaTeX Info: Redefining \sffamily on input line 2869.
 LaTeX Info: Redefining \ttfamily on input line 2869.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
-[310]
+ [310]
 LaTeX Info: Redefining \rmfamily on input line 2913.
 LaTeX Info: Redefining \sffamily on input line 2913.
 LaTeX Info: Redefining \ttfamily on input line 2913.
@@ -14363,18 +14221,10 @@ LaTeX Info: Redefining \ttfamily on input line 2972.
 LaTeX Info: Redefining \rmfamily on input line 2972.
 LaTeX Info: Redefining \sffamily on input line 2972.
 LaTeX Info: Redefining \ttfamily on input line 2972.
-
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
-[312]) [313]
+ [312]) [313]
 \openout2 = `./tex/mathLaplaceTransformation.aux'.
 
- (./tex/mathLaplaceTransformation.tex
-Overfull \vbox (0.70995pt too high) has occurred while \output is active []
-
-
-[314
+ (./tex/mathLaplaceTransformation.tex [314
 
 
 
@@ -16050,12 +15900,12 @@ LaTeX Info: Redefining \rmfamily on input line 3036.
 LaTeX Info: Redefining \sffamily on input line 3036.
 LaTeX Info: Redefining \ttfamily on input line 3036.
 
-Underfull \hbox (badness 1769) in paragraph at lines 3031--3037
+Underfull \hbox (badness 2088) in paragraph at lines 3031--3037
 [] \TU/JameelNooriNastaleeq(0)/b/n/10 سوال  [][]۶.۱۵۹[][] []تا سوال  [][]۶.۱۶۲[
 ][] []کلیہ روڈریکیس پر مبنی ہیں۔ سوال  ۶.۱۵۹: []$\OML/zplm/m/it/10 n$ \TU/Jamee
 lNooriNastaleeq(0)/b/n/10 کی قیمت $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(
 0)/b/n/10 تا $\OT1/ppl/m/n/10 3$ \TU/JameelNooriNastaleeq(0)/b/n/10 لیتے ہوئے م
-ساوات  [][]۶.۵۳[][] []میں تفرق لے کر لاگیغ کثیر رکنی[]
+ساوات  [][]۶.۵۳[][] []میں تفرق لے کر لاگیغ کثیررکنی[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 3046.
@@ -16065,11 +15915,11 @@ LaTeX Info: Redefining \rmfamily on input line 3063.
 LaTeX Info: Redefining \sffamily on input line 3063.
 LaTeX Info: Redefining \ttfamily on input line 3063.
 
-Underfull \hbox (badness 3219) in paragraph at lines 3060--3064
-[] \TU/JameelNooriNastaleeq(0)/b/n/10 سوال  ۶.۱۶۲: []درج ذیل لاگیغ کثیر رکنی کی
- \TU/AASameerSagarNastaleeqBold(0)/m/n/10 پیداکار تفاعل[][] \TU/JameelNooriNast
-aleeq(0)/b/n/10 ہے۔اس کو پھیلا کر لکھتے ہوئے دونوں اطراف $\OML/zplm/m/it/10 x$ 
-\TU/JameelNooriNastaleeq(0)/b/n/10 کے یکساں طاقت کے عددی سر کو برابر پر[]
+Underfull \hbox (badness 3460) in paragraph at lines 3060--3064
+[] \TU/JameelNooriNastaleeq(0)/b/n/10 سوال  ۶.۱۶۲: []درج ذیل لاگیغ کثیررکنی کی 
+\TU/AASameerSagarNastaleeqBold(0)/m/n/10 پیداکار تفاعل[][] \TU/JameelNooriNasta
+leeq(0)/b/n/10 ہے۔اس کو پھیلا کر لکھتے ہوئے دونوں اطراف $\OML/zplm/m/it/10 x$ \
+TU/JameelNooriNastaleeq(0)/b/n/10 کے یکساں طاقت کے عددی سر کو برابر پر[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 3069.
@@ -21540,13 +21390,13 @@ LaTeX Info: Redefining \sffamily on input line 177.
 LaTeX Info: Redefining \ttfamily on input line 177.
 
 Underfull \hbox (badness 10000) in paragraph at lines 177--178
-[][]\TU/JameelNooriNastaleeq(0)/b/n/10 امتیازی کثیر رکنی کے جذر $\OML/zplm/m/it
-/10 ^^U$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے درجہ کو $\OML/zplm/m/it/10 ^^U$ 
-\TU/JameelNooriNastaleeq(0)/b/n/10 کی \TU/AASameerSagarNastaleeqBold(0)/m/n/10 
-الجبرائی کثرت[][] \TU/JameelNooriNastaleeq(0)/b/n/10 کہا اور $\OML/zplm/m/it/10
- M[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے ظاہر کیا جاتا ہے۔ کسی $\OML/zplm/m/
-it/10 ^^U$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے مطابقتی خطی طور غیر تابع امتیا
-زی[]
+[][]\TU/JameelNooriNastaleeq(0)/b/n/10 امتیازی کثیررکنی کے جذر $\OML/zplm/m/it/
+10 ^^U$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے درجہ کو $\OML/zplm/m/it/10 ^^U$ \
+TU/JameelNooriNastaleeq(0)/b/n/10 کی \TU/AASameerSagarNastaleeqBold(0)/m/n/10 ا
+لجبرائی کثرت[][] \TU/JameelNooriNastaleeq(0)/b/n/10 کہا اور $\OML/zplm/m/it/10 
+M[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے ظاہر کیا جاتا ہے۔ کسی $\OML/zplm/m/i
+t/10 ^^U$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے مطابقتی خطی طور غیر تابع امتیاز
+ی[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 179.
@@ -21560,9 +21410,9 @@ LaTeX Info: Redefining \sffamily on input line 179.
 LaTeX Info: Redefining \ttfamily on input line 179.
 [534]
 Underfull \hbox (badness 10000) in paragraph at lines 198--200
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 چونکہ حقیقی کثیر رکنی کے مخلوط جذر ممکن ہی
-ں (جو جوڑیوں کی صورت میں پائے جاتے ہیں) لہٰذا حقیقی قالب کے مخلوط امتیازی اقدار
- اور امتیازی سمتیات ممکن[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 چونکہ حقیقی کثیررکنی کے مخلوط جذر ممکن ہیں
+ (جو جوڑیوں کی صورت میں پائے جاتے ہیں) لہٰذا حقیقی قالب کے مخلوط امتیازی اقدار 
+اور امتیازی سمتیات ممکن[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 219.
@@ -21918,9 +21768,9 @@ LaTeX Info: Redefining \sffamily on input line 721.
 LaTeX Info: Redefining \ttfamily on input line 721.
 
 Underfull \hbox (badness 10000) in paragraph at lines 720--722
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 ثبوت :  چونکہ حقیقی قالب کی امتیازی کثیر ر
-کنی کے عددی سر حقیقی ہوتے ہیں لہٰذا اس کے امتیازی اقدار (یعنی صفر) مسئلے کے تحت
- ہوں گے۔یوں مسئلے کا[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 ثبوت :  چونکہ حقیقی قالب کی امتیازی کثیررک
+نی کے عددی سر حقیقی ہوتے ہیں لہٰذا اس کے امتیازی اقدار (یعنی صفر) مسئلے کے تحت 
+ہوں گے۔یوں مسئلے کا[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 726.
@@ -21932,10 +21782,10 @@ LaTeX Info: Redefining \ttfamily on input line 730.
 
 Underfull \hbox (badness 10000) in paragraph at lines 729--731
 []\TU/JameelNooriNastaleeq(0)/b/n/10 چونکہ مخلوط جذر صرف جوڑی دار ممکن ہیں لہٰذ
-ا اس کثیر رکنی کا ایک جذر حقیقی ہو گا جو مسئلہ  [][]۹.۷[][] []کے تحت $\OT1/zplm
-/m/n/10 +\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(0)/b/n/10 یا $\OMS/zplm/m/
-n/10 ^^@\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہو گا۔ان قیمتوں ک
-و کثیر رکنی میں پر[]
+ا اس کثیررکنی کا ایک جذر حقیقی ہو گا جو مسئلہ  [][]۹.۷[][] []کے تحت $\OT1/zplm/
+m/n/10 +\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(0)/b/n/10 یا $\OMS/zplm/m/n
+/10 ^^@\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہو گا۔ان قیمتوں کو
+ کثیررکنی میں پر[]
  []
 
 [547]
@@ -28602,8 +28452,8 @@ astaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 b[]$ \TU/JameelNooriNastaleeq(0)/b/
 
 Underfull \hbox (badness 10000) in paragraph at lines 1833--1834
 []\TU/JameelNooriNastaleeq(0)/b/n/10 آیا عددی سر حاصل کرنے کا کوئی آسان طریقہ ب
-ھی ہے؟ جس کا جواب ہے، ”جی ہاں“۔ ہم یہاں ثابت کرتے ہیں کہ دوری کثیر رکنی تفاعل ک
-ی فوریئر عددی سر[]
+ھی ہے؟ جس کا جواب ہے، ”جی ہاں“۔ ہم یہاں ثابت کرتے ہیں کہ دوری کثیررکنی تفاعل کی
+ فوریئر عددی سر[]
  []
 
 
@@ -28716,8 +28566,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 2049--2051
 []\TU/JameelNooriNastaleeq(0)/b/n/10 ایسا بار بار کرتے ہوئے ہمیں تکمل کے اندر $
 \OML/zplm/m/it/10 f$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا بتدریج زیادہ رتبے کا
  تفرق حاصل ہو گا۔اب چونکہ $\OML/zplm/m/it/10 f$ \TU/JameelNooriNastaleeq(0)/b/n
-/10 کو کثیر رکنی ظاہر کرتی ہیں اور درجہ $\OML/zplm/m/it/10 r$ \TU/JameelNooriNa
-staleeq(0)/b/n/10 کثیر رکنی کا[]
+/10 کو کثیررکنی ظاہر کرتی ہیں اور درجہ $\OML/zplm/m/it/10 r$ \TU/JameelNooriNas
+taleeq(0)/b/n/10 کثیررکنی کا[]
  []
 
 [745]
@@ -33566,11 +33416,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1755--1757
 []\TU/JameelNooriNastaleeq(0)/b/n/10 جہاں $\OML/zplm/m/it/10 c[]$\TU/JameelNoor
 iNastaleeq(0)/b/n/10 ،$[] $،$\OML/zplm/m/it/10 c[]$ \TU/JameelNooriNastaleeq(0)
 /b/n/10 (مخلوط یا حقیقی) مستقل ہیں۔ایسا تفاعل \TU/AASameerSagarNastaleeqBold(0)
-/m/n/10 کثیر رکنی \TU/JameelNooriNastaleeq(0)/b/n/10 یا \TU/JameelNooriNastalee
-q(0)/m/n/9 سالم ناطق تفاعل \TU/JameelNooriNastaleeq(0)/b/n/10 کہلاتا ہے جہاں $\
-OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(0)/b/n/10 کثیر رکنی کا \TU/JameelN
-ooriNastaleeq(0)/m/n/9 درجہ \TU/JameelNooriNastaleeq(0)/b/n/10 کہلاتا ہے۔کثیر ر
-کنی کا مطالعہ[]
+/m/n/10 کثیررکنی \TU/JameelNooriNastaleeq(0)/b/n/10 یا \TU/JameelNooriNastaleeq
+(0)/m/n/9 سالم ناطق تفاعل \TU/JameelNooriNastaleeq(0)/b/n/10 کہلاتا ہے جہاں $\O
+ML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(0)/b/n/10 کثیررکنی کا \TU/JameelNoo
+riNastaleeq(0)/m/n/9 درجہ \TU/JameelNooriNastaleeq(0)/b/n/10 کہلاتا ہے۔کثیررکنی
+ کا مطالعہ[]
  []
 
 [871]
@@ -33594,13 +33444,13 @@ LaTeX Info: Redefining \rmfamily on input line 1766.
 LaTeX Info: Redefining \sffamily on input line 1766.
 LaTeX Info: Redefining \ttfamily on input line 1766.
 
-Underfull \hbox (badness 2359) in paragraph at lines 1765--1767
+Underfull \hbox (badness 2538) in paragraph at lines 1765--1767
 []\TU/JameelNooriNastaleeq(0)/b/n/10 جہاں $\OML/zplm/m/it/10 c$ \TU/JameelNoori
 Nastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 z[]$ \TU/JameelNooriNastaleeq(0)/b/n
 /10 مخلوط اعداد ہیں جبکہ $\OML/zplm/m/it/10 m$ \TU/JameelNooriNastaleeq(0)/b/n/
 10 مثبت عدد صحیح ہے کو \TU/AASameerSagarNastaleeqBold(0)/m/n/10 جزوی کسر[][] \T
 U/JameelNooriNastaleeq(0)/b/n/10 کہتے ہیں۔ریاضی میں اس کا ثبوت موجود ہے کہ ہر ن
-اطق تفاعل کو ایک کثیر رکنی[]
+اطق تفاعل کو ایک کثیررکنی[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1776.
@@ -35733,17 +35583,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 785--806
 
 Underfull \hbox (badness 10000) in paragraph at lines 785--806
 []\TU/JameelNooriNastaleeq(0)/b/n/10 تکملات کا مجموعہ صفر ہو گا۔یوں تمام تکونوں
- کی سرحد پر تکملوں کا مجموعہ کثیر رکنی کی سرحد پر تکمل کے برابر ہو گا۔اب چونکہ 
-ہر تکون پر تکمل صفر کے برابر ہے لہٰذا[]
+ کی سرحد پر تکملوں کا مجموعہ کثیررکنی کی سرحد پر تکمل کے برابر ہو گا۔اب چونکہ ہ
+ر تکون پر تکمل صفر کے برابر ہے لہٰذا[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 807--808
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 کسی بھی بند راہ $\OML/zplm/m/it/10 C$ \T
 U/JameelNooriNastaleeq(0)/b/n/10 کے لئے اب ثبوت پیش کرتے ہیں۔کسی بھی بند راہ کے
- اندر اتنے اطراف کی کثیر رکنی $\OML/zplm/m/it/10 P$ \TU/JameelNooriNastaleeq(0)
-/b/n/10 نقش کریں کہ $\OML/zplm/m/it/10 C$ \TU/JameelNooriNastaleeq(0)/b/n/10 او
-ر کثیر رکنی میں فرق قابل[]
+ اندر اتنے اطراف کی کثیررکنی $\OML/zplm/m/it/10 P$ \TU/JameelNooriNastaleeq(0)/
+b/n/10 نقش کریں کہ $\OML/zplm/m/it/10 C$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور
+ کثیررکنی میں فرق قابل[]
  []
 
 [952]
@@ -39762,8 +39612,8 @@ LaTeX Info: Redefining \ttfamily on input line 843.
 
 Underfull \hbox (badness 10000) in paragraph at lines 843--844
 []\TU/JameelNooriNastaleeq(0)/b/n/10 ایسے دیگر حقیقی تکمل پائے جاتے ہیں جنہیں م
-خلوط تکمل پر مسئلہ بقیہ کی اطلاق سے حل کیا جا سکتا ہے۔عملاً اس طرح کے تکمل اعلٰ
-ی تفاعل کی اظہار یا تبادل تکمل سے[]
+خلوط تکمل پر مسئلہ بقیہ کی اطلاق سے حل کیا جا سکتا ہے۔عملاً اس طرح کے تکمل اعلی
+ٰ تفاعل کی اظہار یا تبادل تکمل سے[]
  []
 
 
@@ -41177,11 +41027,11 @@ LaTeX Info: Redefining \ttfamily on input line 50.
 
 Underfull \hbox (badness 10000) in paragraph at lines 49--51
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 کی صورت میں لکھا جا سکتا ہے۔ ان میں پہلے
- دو میں $\OML/zplm/m/it/10 f$ \TU/JameelNooriNastaleeq(0)/b/n/10 کثیر رکنی ہے ل
-ہٰذا یہ دونوں \TU/AASameerSagarNastaleeqBold(0)/m/n/10 الجبرائی مساوات[][] \TU/
-JameelNooriNastaleeq(0)/b/n/10 ہیں جن کے حل کو \TU/AASameerSagarNastaleeqBold(0
-)/m/n/10 جذر[][] \TU/JameelNooriNastaleeq(0)/b/n/10 کہتے ہیں۔باقی \TU/AASameerS
-agarNastaleeqBold(0)/m/n/10 ماورائی[]
+ دو میں $\OML/zplm/m/it/10 f$ \TU/JameelNooriNastaleeq(0)/b/n/10 کثیررکنی ہے لہ
+ٰذا یہ دونوں \TU/AASameerSagarNastaleeqBold(0)/m/n/10 الجبرائی مساوات[][] \TU/J
+ameelNooriNastaleeq(0)/b/n/10 ہیں جن کے حل کو \TU/AASameerSagarNastaleeqBold(0)
+/m/n/10 جذر[][] \TU/JameelNooriNastaleeq(0)/b/n/10 کہتے ہیں۔باقی \TU/AASameerSa
+garNastaleeqBold(0)/m/n/10 ماورائی[]
  []
 
 
@@ -41657,8 +41507,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 686--688
 []\TU/JameelNooriNastaleeq(0)/b/n/10 اگر تفاعل $\OML/zplm/m/it/10 f$ \TU/Jameel
 NooriNastaleeq(0)/b/n/10 کے جدول فرق میں $\OML/zplm/m/it/10 n$ \TU/JameelNooriN
 astaleeq(0)/b/n/10 ویں فرق کسی سعت میں تقریباً مستقل ہوں تب جدول کی قیمتوں کو ا
-س سعت میں $\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(0)/b/n/10 درجی کثیر رک
-نی $\OML/zplm/m/it/10 p[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے ظاہر[]
+س سعت میں $\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(0)/b/n/10 درجی کثیررکن
+ی $\OML/zplm/m/it/10 p[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے ظاہر[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 691.
@@ -41671,8 +41521,8 @@ LaTeX Info: Redefining \ttfamily on input line 691.
 Underfull \hbox (badness 10000) in paragraph at lines 690--692
 []\TU/JameelNooriNastaleeq(0)/b/n/10 جدول  [][]۲۱.۴[][] []میں دوسرا فرق تقریباً
  مستقل ($\OMS/zplm/m/n/10 ^^@\OT1/ppl/m/n/10 7$ \TU/JameelNooriNastaleeq(0)/b/n
-/10 کے برابر) ہیں۔یوں ہم دیے گئے تفاعل کی تخمینی دو درجی کثیر رکنی $\OML/zplm/m
-/it/10 p[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 تلاش کر سکتے ہیں۔ہم پہلے[]
+/10 کے برابر) ہیں۔یوں ہم دیے گئے تفاعل کی تخمینی دو درجی کثیررکنی $\OML/zplm/m/
+it/10 p[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 تلاش کر سکتے ہیں۔ہم پہلے[]
  []
 
 
@@ -41709,8 +41559,8 @@ LaTeX Info: Redefining \ttfamily on input line 731.
 
 Underfull \hbox (badness 10000) in paragraph at lines 702--733
 []\TU/JameelNooriNastaleeq(0)/b/n/10 ہو گا۔اس مثال سے آپ دیکھ سکتے ہیں کہ فرق ک
-و استعمال کرتے ہوئے تخمینی کثیر رکنی حاصل کرنے سے پہلے، تخمینی کثیر رکنی کی درس
-تگی کا معیار جانا جا سکتا[]
+و استعمال کرتے ہوئے تخمینی کثیررکنی حاصل کرنے سے پہلے، تخمینی کثیررکنی کی درستگ
+ی کا معیار جانا جا سکتا[]
  []
 
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/m/n' will be
@@ -41769,9 +41619,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 789--790
 []\TU/JameelNooriNastaleeq(0)/b/n/10 ہیں۔باہمی تحریف کی ترکیب اس مفروضہ پر مبنی
  ہے کہ نقطہ $\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے قریب تف
 اعل $\OML/zplm/m/it/10 f\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )
-$ \TU/JameelNooriNastaleeq(0)/b/n/10 کو کثیر رکنی $\OML/zplm/m/it/10 p$ \TU/Jam
-eelNooriNastaleeq(0)/b/n/10 سے ظاہر کرنا ممکن ہے لہٰذا $\OML/zplm/m/it/10 x$ \T
-U/JameelNooriNastaleeq(0)/b/n/10 کے قریب کسی[]
+$ \TU/JameelNooriNastaleeq(0)/b/n/10 کو کثیررکنی $\OML/zplm/m/it/10 p$ \TU/Jame
+elNooriNastaleeq(0)/b/n/10 سے ظاہر کرنا ممکن ہے لہٰذا $\OML/zplm/m/it/10 x$ \TU
+/JameelNooriNastaleeq(0)/b/n/10 کے قریب کسی[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 807.
@@ -41817,12 +41667,12 @@ LaTeX Info: Redefining \rmfamily on input line 831.
 LaTeX Info: Redefining \sffamily on input line 831.
 LaTeX Info: Redefining \ttfamily on input line 831.
 [1131]
-Underfull \hbox (badness 4479) in paragraph at lines 839--840
+Underfull \hbox (badness 4846) in paragraph at lines 839--840
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 مزید بہتر جوابات حاصل کرنے کی خاطر زیادہ
- بلند درجی کثیر رکنی استعمال کرنی ہو گی۔$\OML/zplm/m/it/10 n \OT1/zplm/m/n/10 +
- \OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(0)/b/n/10 مختلف نقطوں پر قیمتوں سے
- یکتا $\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(0)/b/n/10 درجی کثیر رکنی ح
-اصل ہو[]
+ بلند درجی کثیررکنی استعمال کرنی ہو گی۔$\OML/zplm/m/it/10 n \OT1/zplm/m/n/10 + 
+\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(0)/b/n/10 مختلف نقطوں پر قیمتوں سے 
+یکتا $\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(0)/b/n/10 درجی کثیررکنی حاص
+ل ہو[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 843.
@@ -41924,7 +41774,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 926--927
  اگر $\OML/zplm/m/it/10 x[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 x[]\OT1/ppl/m/n/
 10 , []  , \OML/zplm/m/it/10 x[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے آپس میں
  فاصلے اختیاری ہوں تب $\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(0)/b/n/10 
-درجی کثیر رکنی جو[]
+درجی کثیررکنی جو[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 931.
@@ -42154,9 +42004,9 @@ it/10 x\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہے جس کے ا�
 
 Underfull \hbox (badness 10000) in paragraph at lines 1098--1099
 []\TU/JameelNooriNastaleeq(0)/b/n/10 پورے وقفہ پر پائے جاتے ہوں اور جس کو ہر خا
-نہ پر ایسی کثیر رکنی سے ظاہر کیا گیا ہو جس کا درجہ تین سے زیادہ نہ ہو۔یوں ہر خا
-نہ میں $\OML/zplm/m/it/10 g\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/1
-0 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 کو ایک کعبی کثیر[]
+نہ پر ایسی کثیررکنی سے ظاہر کیا گیا ہو جس کا درجہ تین سے زیادہ نہ ہو۔یوں ہر خان
+ہ میں $\OML/zplm/m/it/10 g\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10
+ )$ \TU/JameelNooriNastaleeq(0)/b/n/10 کو ایک کعبی[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1100.
@@ -42218,9 +42068,9 @@ aleeq(0)/b/n/10 دیے گئے ہیں جبکہ $\OML/zplm/m/it/10 k[]\OT1/ppl/m/n
 
 Underfull \hbox (badness 10000) in paragraph at lines 1123--1125
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 میں دیے چار شرائط کو مطمئن کرنا ہو گا۔سی
-دھے حساب سے ہم تصدیق کر سکتے ہیں کہ ایسا کعبی کثیر رکنی $\OML/zplm/m/it/10 p[]\
-OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastalee
-q(0)/b/n/10 جو ان شرائط کو مطمئن کرتا ہو درج ذیل[]
+دھے حساب سے ہم تصدیق کر سکتے ہیں کہ ایسا کعبی کثیررکنی $\OML/zplm/m/it/10 p[]\O
+T1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq
+(0)/b/n/10 جو ان شرائط کو مطمئن کرتا ہو درج ذیل[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1142.
@@ -42357,11 +42207,11 @@ LaTeX Info: Redefining \ttfamily on input line 1247.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1244--1248
 [] \TU/JameelNooriNastaleeq(0)/b/n/10 سوال  ۲۱.۵۵:  مثال  [][]۲۱.۱۱[][] []میں ک
-عبی لچکدار منحنی کا موازنہ پورے وقفہ پر دو درجی تخمینی کثیر رکنی $\OML/zplm/m/i
-t/10 p\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$ \TU/JameelNooriN
-astaleeq(0)/b/n/10 کے ساتھ کریں۔ $\OML/zplm/m/it/10 f\OT1/zplm/m/n/10 (\OML/zpl
-m/m/it/10 x\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے $\OML/zplm
-/m/it/10 g\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$[]
+عبی لچکدار منحنی کا موازنہ پورے وقفہ پر دو درجی تخمینی کثیررکنی $\OML/zplm/m/it
+/10 p\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$ \TU/JameelNooriNa
+staleeq(0)/b/n/10 کے ساتھ کریں۔ $\OML/zplm/m/it/10 f\OT1/zplm/m/n/10 (\OML/zplm
+/m/it/10 x\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے $\OML/zplm/
+m/it/10 g\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1251.
@@ -42436,11 +42286,11 @@ LaTeX Info: Redefining \rmfamily on input line 1318.
 LaTeX Info: Redefining \sffamily on input line 1318.
 LaTeX Info: Redefining \ttfamily on input line 1318.
 
-Underfull \hbox (badness 1681) in paragraph at lines 1318--1319
-[][]\TU/JameelNooriNastaleeq(0)/b/n/10 متکمل کو کثیر رکنی سے ظاہر کرتے ہوئے اعد
-ادی تراکیب بنائے جا سکتے ہیں۔سادہ ترین کلیہ اخذ کرنے کی خاطر ہم تکمل کے وقفہ کو
- $\OML/zplm/m/it/10 h \OT1/zplm/m/n/10 = []$ \TU/JameelNooriNastaleeq(0)/b/n/10
- لمبائی[]
+Underfull \hbox (badness 1701) in paragraph at lines 1318--1319
+[][]\TU/JameelNooriNastaleeq(0)/b/n/10 متکمل کو کثیررکنی سے ظاہر کرتے ہوئے اعدا
+دی تراکیب بنائے جا سکتے ہیں۔سادہ ترین کلیہ اخذ کرنے کی خاطر ہم تکمل کے وقفہ کو 
+$\OML/zplm/m/it/10 h \OT1/zplm/m/n/10 = []$ \TU/JameelNooriNastaleeq(0)/b/n/10 
+لمبائی[]
  []
 
 
@@ -42571,18 +42421,18 @@ SameerSagarNastaleeqBold(0)/m/n/10 قاعدہ سمسن[][] \TU/JameelNooriNastal
  []
 
 
-Underfull \hbox (badness 8094) in paragraph at lines 1497--1498
+Underfull \hbox (badness 10000) in paragraph at lines 1497--1498
 []\TU/JameelNooriNastaleeq(0)/b/n/10 میں نقطہ $\OT1/zplm/m/n/10 (\OML/zplm/m/it
 /10 x[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 f[]\OT1/zplm/m/n/10 )$\TU/JameelNoor
 iNastaleeq(0)/b/n/10 ، $\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x[]\OT1/ppl/m/n/10 
 , \OML/zplm/m/it/10 f[]\OT1/zplm/m/n/10 )$\TU/JameelNooriNastaleeq(0)/b/n/10 ، 
 $\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 f[]
-\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے گزرتی لیگرینج کثیر رک
-نی $\OML/zplm/m/it/10 p[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 
-)$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے ظاہر کرتے ہیں جہاں $\OML/zplm/m/it/10 
-f[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے مراد $\OML/zplm/m/it/10 f\OT1/zplm/m
-/n/10 (\OML/zplm/m/it/10 x[]\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n
-/10 ہے۔[]
+\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے گزرتی لیگرینج کثیررکن
+ی $\OML/zplm/m/it/10 p[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )
+$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے ظاہر کرتے ہیں جہاں $\OML/zplm/m/it/10 f
+[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے مراد $\OML/zplm/m/it/10 f\OT1/zplm/m/
+n/10 (\OML/zplm/m/it/10 x[]\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/
+10 ہے۔[]
  []
 
 
@@ -42642,8 +42492,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1564--1565
 
 Underfull \hbox (badness 10000) in paragraph at lines 1564--1565
 []\TU/JameelNooriNastaleeq(0)/b/n/10 کے بجائے ترکیب سمسن کو زیادہ ترجیح دی جاتی
- ہے۔ زیادہ طاقت کی کثیر رکنی استعمال کرتے ہوئے زیادہ درستگی کے کلیات حاصل کیے ج
-اتے ہیں۔ہم یہاں دو[]
+ ہے۔ زیادہ طاقت کی کثیررکنی استعمال کرتے ہوئے زیادہ درستگی کے کلیات حاصل کیے جا
+تے ہیں۔ہم یہاں دو[]
  []
 
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/m/sl' in size <10> n
@@ -42661,26 +42511,26 @@ LaTeX Info: Redefining \sffamily on input line 1568.
 LaTeX Info: Redefining \ttfamily on input line 1568.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1567--1569
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 حاصل[][] ہوتا ہے جو کعبی کثیر رکنی کی صورت
- (مثلاً قاعدہ سمسن) میں بالکل درست ثابت ہوتا ہے۔مزید وقفہ کی طاق ٹکڑوں (جو $\OT
-1/ppl/m/n/10 3$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے قابل تقسیم ہو) پر[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 حاصل[][] ہوتا ہے جو کعبی کثیررکنی کی صورت 
+(مثلاً قاعدہ سمسن) میں بالکل درست ثابت ہوتا ہے۔مزید وقفہ کی طاق ٹکڑوں (جو $\OT1
+/ppl/m/n/10 3$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے قابل تقسیم ہو) پر[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1567--1569
 []\TU/JameelNooriNastaleeq(0)/b/n/10 اس قاعدہ کو لاگو کیا جا سکتا ہے۔ چھ درجی ک
-ثیر رکنی جو $\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x[]\OT1/ppl/m/n/10 , \OML/zplm
-/m/it/10 f[]\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 تا $\OT1/zpl
-m/m/n/10 (\OML/zplm/m/it/10 x[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 f[]\OT1/zplm
-/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے گزرتی ہو سے پیچیدہ عددی سر وال
-ا کلیہ حاصل ہوتا ہے البتہ اسی قسم کا[]
+ثیررکنی جو $\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x[]\OT1/ppl/m/n/10 , \OML/zplm/
+m/it/10 f[]\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 تا $\OT1/zplm
+/m/n/10 (\OML/zplm/m/it/10 x[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 f[]\OT1/zplm/
+m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے گزرتی ہو سے پیچیدہ عددی سر والا
+ کلیہ حاصل ہوتا ہے البتہ اسی قسم کا[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1573--1574
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 تکمل کے جن اعدادی کلیات پر بحث کی گئی ان
  میں تکمل کے وقفہ کو برابر ٹکڑوں میں تقسیم کیا گیا اور یہ تراکیب کسی مخصوص طاقت
- تک کثیر رکنی کی صورت میں[]
+ تک کثیررکنی کی صورت میں[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1577.
@@ -42732,11 +42582,11 @@ LaTeX Info: Redefining \ttfamily on input line 1588.
 Underfull \hbox (badness 10000) in paragraph at lines 1588--1589
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 چونکہ مساوات  [][]۲۱.۴۸[][] []میں مستعمل
  آخری سر $\OMS/zplm/m/n/10 ^^@\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(0)/b/
-n/10 اور $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(0)/b/n/10 کثیر رکنی $\OML
-/zplm/m/it/10 P[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$ \TU/J
-ameelNooriNastaleeq(0)/b/n/10 کے صفر نہیں ہیں (یہ دونوں $\OML/zplm/m/it/10 x[]\
-OT1/ppl/m/n/10 , []  , \OML/zplm/m/it/10 x[]$ \TU/JameelNooriNastaleeq(0)/b/n/1
-0 میں شامل نہیں ہیں)[]
+n/10 اور $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(0)/b/n/10 کثیررکنی $\OML/
+zplm/m/it/10 P[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$ \TU/Ja
+meelNooriNastaleeq(0)/b/n/10 کے صفر نہیں ہیں (یہ دونوں $\OML/zplm/m/it/10 x[]\O
+T1/ppl/m/n/10 , []  , \OML/zplm/m/it/10 x[]$ \TU/JameelNooriNastaleeq(0)/b/n/10
+ میں شامل نہیں ہیں)[]
  []
 
 
@@ -42773,9 +42623,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1597--1598
 
 Underfull \hbox (badness 10000) in paragraph at lines 1597--1598
 []\TU/JameelNooriNastaleeq(0)/b/n/10 چھوٹی قیمت سے تقسیم کرتے ہیں۔؛ مزید اگر تف
-اعل کثیر رکنی $\OML/zplm/m/it/10 p$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی صورت 
-میں دیا گیا ہو تب تفاعل کی قیمتوں میں فرق کم ہو سکتا ہے جبکہ تفرق کی قیمت بہت[]
-
+اعل کثیررکنی $\OML/zplm/m/it/10 p$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی صورت م
+یں دیا گیا ہو تب تفاعل کی قیمتوں میں فرق کم ہو سکتا ہے جبکہ تفرق کی قیمت بہت[]
  []
 
 
@@ -43910,19 +43759,19 @@ LaTeX Info: Redefining \rmfamily on input line 854.
 LaTeX Info: Redefining \sffamily on input line 854.
 LaTeX Info: Redefining \ttfamily on input line 854.
 
-Underfull \hbox (badness 1817) in paragraph at lines 853--855
+Underfull \hbox (badness 1968) in paragraph at lines 853--855
 []\TU/JameelNooriNastaleeq(0)/b/n/10 گئے نقطوں کے لحاظ سے موافق منحنی تلاش کی ج
 اتی ہے لہٰذا اس کو \TU/AASameerSagarNastaleeqBold(0)/m/n/10 موافقت منحنی \TU/Ja
-meelNooriNastaleeq(0)/b/n/10 بھی کہتے ہیں۔تفاعل کی قسم (مثلاً کثیر رکنی، قوت نم
-ائی تفاعل، سائن تفاعل،[]
+meelNooriNastaleeq(0)/b/n/10 بھی کہتے ہیں۔تفاعل کی قسم (مثلاً کثیررکنی، قوت نما
+ئی تفاعل، سائن تفاعل،[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 856--857
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 درجے کی کثیر رکنی $\OML/zplm/m/it/10 f\OT1
-/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0
-)/b/n/10 حاصل کر سکتے ہیں۔البتہ کئی بار ایسا کرنے سے قابل قبول نتائج حاصل نہیں 
-ہوتے ہیں۔مثال کے طور پر ان تراکیب کو استعمال[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 درجے کی کثیررکنی $\OML/zplm/m/it/10 f\OT1/
+zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)
+/b/n/10 حاصل کر سکتے ہیں۔البتہ کئی بار ایسا کرنے سے قابل قبول نتائج حاصل نہیں ہ
+وتے ہیں۔مثال کے طور پر ان تراکیب کو استعمال[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 860.
@@ -44044,11 +43893,11 @@ LaTeX Info: Redefining \rmfamily on input line 1098.
 LaTeX Info: Redefining \sffamily on input line 1098.
 LaTeX Info: Redefining \ttfamily on input line 1098.
 
-Underfull \hbox (badness 1400) in paragraph at lines 1109--1113
+Underfull \hbox (badness 1418) in paragraph at lines 1109--1113
 []\TU/JameelNooriNastaleeq(0)/b/n/10 کو مطمئن کرنے کی کوشش کرتے ہیں۔ایسا قالب $
-\OML/cmm/b/it/10 C$ \TU/JameelNooriNastaleeq(0)/b/n/10 متعارف کریں کہ اس کثیر ر
-کنی کو ہم $\OML/cmm/b/it/10 Cb \OT1/zplm/m/n/10 = \OML/cmm/b/it/10 y$ \TU/Jamee
-lNooriNastaleeq(0)/b/n/10 لکھ سکیں۔دکھائیں کہ تب عمودی مساوات[]
+\OML/cmm/b/it/10 C$ \TU/JameelNooriNastaleeq(0)/b/n/10 متعارف کریں کہ اس کثیررک
+نی کو ہم $\OML/cmm/b/it/10 Cb \OT1/zplm/m/n/10 = \OML/cmm/b/it/10 y$ \TU/Jameel
+NooriNastaleeq(0)/b/n/10 لکھ سکیں۔دکھائیں کہ تب عمودی مساوات[]
  []
 
 [1187]
@@ -44060,10 +43909,20 @@ Underfull \hbox (badness 7888) in paragraph at lines 1113--1119
  []
 
 
+Underfull \hbox (badness 3354) in paragraph at lines 1130--1132
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 میں لکھا جا سکتا ہے جو $\OML/cmm/b/it/10 A
+$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا مطابقتی \TU/AASameerSagarNastaleeqBold(
+0)/m/n/10 امتیازی کثیررکنی \TU/JameelNooriNastaleeq(0)/b/n/10 کہلاتا ہے۔یوں $\O
+ML/cmm/b/it/10 A$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا کم از کم ایک امتیازی قد
+ر اور زیادہ سے زیادہ $\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(0)/b/n/10 م
+نفرد امتیازی اقدار ممکن ہوں[]
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 1133--1134
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 کرنا اور کثیر رکنی کا جذر تلاش کرنا خاصہ ل
-مبا کام ثابت ہو گا لہٰذا بہتری اسی میں ہے کہ کوئی بہتر ترکیب استعمال کی جائے۔ ح
-قیقتاً ایسے دو قسم کے تراکیب پائے[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 کرنا اور کثیررکنی کا جذر تلاش کرنا خاصہ لم
+با کام ثابت ہو گا لہٰذا بہتری اسی میں ہے کہ کوئی بہتر ترکیب استعمال کی جائے۔ حق
+یقتاً ایسے دو قسم کے تراکیب پائے[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1143.

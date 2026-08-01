@@ -38,16 +38,16 @@
 \contentsline {subsection}{\numberline {\farsidigits {4}.\farsidigits {6}.\farsidigits {1}}سطح حرکت پر یک رتبی مساوات میں تبادلہ}{\farsidigits {220}}{}%
 \contentsline {section}{\numberline {\farsidigits {4}.\farsidigits {7}}سادہ تفرقی مساوات کے غیر متجانس خطی نظام}{\farsidigits {227}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {4}.\farsidigits {7}.\farsidigits {1}}نا معلوم عددی سر کی ترکیب}{\farsidigits {227}}{}%
-\contentsline {chapter}{\numberline {\farsidigits {5}}طاقتی تسلسل سے سادہ تفرقی مساوات کا حل۔اعلٰی تفاعل}{\farsidigits {235}}{}%
+\contentsline {chapter}{\numberline {\farsidigits {5}}طاقتی تسلسل سے سادہ تفرقی مساوات کا حل۔اعلیٰ تفاعل}{\farsidigits {235}}{}%
 \contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {1}}ترکیب طاقتی تسلسل}{\farsidigits {235}}{}%
-\contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {2}}لیژانڈر مساوات۔ لیژانڈر کثیر رکنی}{\farsidigits {248}}{}%
+\contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {2}}لیژانڈر مساوات۔ لیژانڈر کثیررکنی}{\farsidigits {248}}{}%
 \contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {3}}مبسوط طاقتی تسلسل۔ ترکیب فروبنیوس}{\farsidigits {262}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {5}.\farsidigits {3}.\farsidigits {1}}عملی استعمال}{\farsidigits {266}}{}%
 \contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {4}}مساوات بیسل اور بیسل تفاعل}{\farsidigits {277}}{}%
 \contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {5}}بیسل تفاعل کی دوسری قسم۔ عمومی حل}{\farsidigits {289}}{}%
 \contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {6}}قائمہ الزاویہ تفاعل کا سلسلہ}{\farsidigits {295}}{}%
 \contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {7}}مسئلہ سٹیورم لیوویل}{\farsidigits {300}}{}%
-\contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {8}}قائمیت لیژانڈر کثیر رکنی اور بیسل تفاعل}{\farsidigits {305}}{}%
+\contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {8}}قائمیت لیژانڈر کثیررکنی اور بیسل تفاعل}{\farsidigits {305}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {6}}لاپلاس تبادلہ}{\farsidigits {315}}{}%
 \contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {1}}لاپلاس بدل۔ الٹ لاپلاس بدل۔ خطیت}{\farsidigits {316}}{}%
 \contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {2}}تفرقات اور تکملات کے لاپلاس بدل۔ سادہ تفرقی مساوات}{\farsidigits {323}}{}%
@@ -118,7 +118,7 @@
 \contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {5}}نصف سعت اتساع}{\farsidigits {736}}{}%
 \contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {6}}فوریئر عددی سر کا بغیر تکمل حصول}{\farsidigits {742}}{}%
 \contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {7}}جبری ارتعاش}{\farsidigits {749}}{}%
-\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {8}}تقریب بذریعہ تکونی کثیر رکنی۔ مکعب خلل}{\farsidigits {753}}{}%
+\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {8}}تقریب بذریعہ تکونی کثیررکنی۔ مکعب خلل}{\farsidigits {753}}{}%
 \contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {9}}فوریئر تکمل}{\farsidigits {756}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {13}}جزوی تفرقی مساوات}{\farsidigits {769}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {1}}بنیادی تصورات}{\farsidigits {769}}{}%

@@ -1,2 +1,0 @@
-./mathIntegrationByMethodOfResidues.tex
-./mathPowerSeriesSolutionOfOrdinaryDifferentialEquations.tex

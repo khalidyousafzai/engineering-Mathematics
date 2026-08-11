@@ -50,7 +50,7 @@
 \contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {8}}قائمیت لیژانڈر کثیررکنی اور بیسل تفاعل}{\farsidigits {305}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {6}}لاپلاس تبادلہ}{\farsidigits {315}}{}%
 \contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {1}}لاپلاس بدل۔ الٹ لاپلاس بدل۔ خطیت}{\farsidigits {316}}{}%
-\contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {2}}تفرقات اور تکملات کے لاپلاس بدل۔ سادہ تفرقی مساوات}{\farsidigits {323}}{}%
+\contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {2}}تفارق اور تکملات کے لاپلاس بدل۔ سادہ تفرقی مساوات}{\farsidigits {323}}{}%
 \contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {3}}\:\(s\)\: محور پر منتقلی، \:\(t\)\: محور پر منتقلی، اکائی سیڑھی تفاعل}{\farsidigits {333}}{}%
 \contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {4}}ڈیراک ڈیلٹائی تفاعل۔ اکائی ضرب تفاعل۔ جزوی کسری پھیلاو}{\farsidigits {350}}{}%
 \contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {5}}الجھاو}{\farsidigits {366}}{}%

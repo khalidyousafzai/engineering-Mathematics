@@ -1,0 +1,15 @@
+./mathComplexAnalyticFunctions.tex
+./mathFourierSeries.tex
+./mathHigherOrderDifferentialEquations.tex
+./mathLaplaceTransformation.tex
+./mathPartialDifferentialEquations.tex
+./mathPowerSeriesSolutionOfOrdinaryDifferentialEquations.tex
+./mathPowerSeriesTaylorLaurent.tex
+./mathSecondOrderDifferentialEquations.tex
+./mathVectorDifferentialCalculus.tex
+./mathVectorIntegralCalculus.tex
+./mathNumericalAnalysis.tex
+./mathNumericalMethodsForDifferentialEquations.tex
+./mathNumericalMethodsInLinearAlgebra.tex
+./mathProbabilityAndStatistics.tex
+./mathSequencesAndSeries.tex

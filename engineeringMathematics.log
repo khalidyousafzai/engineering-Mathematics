@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  1 AUG 2026 16:33
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  11 AUG 2026 16:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6845,21 +6845,21 @@ b/n/10 کی طاقت ہو یا سائن نما تفاعل ہو اور یا[]
 
 Underfull \hbox (badness 10000) in paragraph at lines 2341--2343
 []\TU/JameelNooriNastaleeq(0)/b/n/10 ان تفاعل کا مجموعہ یا حاصل ضرب ہو۔ایسے تفا
-عل کی تفرقات بھی یہی تفاعل ہوتی ہیں۔مثلاً $\OML/zplm/m/it/10 x[]$ \TU/JameelNoo
-riNastaleeq(0)/b/n/10 کے تفرقات $\OT1/ppl/m/n/10 3\OML/zplm/m/it/10 x[]$\TU/Jam
-eelNooriNastaleeq(0)/b/n/10 ، $\OT1/ppl/m/n/10 6\OML/zplm/m/it/10 x$ \TU/Jameel
-NooriNastaleeq(0)/b/n/10 اور $\OT1/ppl/m/n/10 6$ \TU/JameelNooriNastaleeq(0)/b/
-n/10 ہیں جو از خود $\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی[
-]
+عل کی تفارق بھی یہی تفاعل ہوتی ہیں۔مثلاً $\OML/zplm/m/it/10 x[]$ \TU/JameelNoor
+iNastaleeq(0)/b/n/10 کے تفارق $\OT1/ppl/m/n/10 3\OML/zplm/m/it/10 x[]$\TU/Jamee
+lNooriNastaleeq(0)/b/n/10 ، $\OT1/ppl/m/n/10 6\OML/zplm/m/it/10 x$ \TU/JameelNo
+oriNastaleeq(0)/b/n/10 اور $\OT1/ppl/m/n/10 6$ \TU/JameelNooriNastaleeq(0)/b/n/
+10 ہیں جو از خود $\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی طا
+قت[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2341--2343
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 طاقت ہیں۔اسی طرح $[] \OML/zplm/m/it/10 !x$
- \TU/JameelNooriNastaleeq(0)/b/n/10 کا یک رتبی تفرق $\OML/zplm/m/it/10 ! [] !x$
- \TU/JameelNooriNastaleeq(0)/b/n/10 جبکہ دو رتبی تفرق $\OMS/zplm/m/n/10 ^^@\OML
-/zplm/m/it/10 ![] [] !x$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہے۔یہ دونوں تفرقات 
-از خود سائن نما[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 ہیں۔اسی طرح $[] \OML/zplm/m/it/10 !x$ \TU/
+JameelNooriNastaleeq(0)/b/n/10 کا یک رتبی تفرق $\OML/zplm/m/it/10 ! [] !x$ \TU/
+JameelNooriNastaleeq(0)/b/n/10 جبکہ دو رتبی تفرق $\OMS/zplm/m/n/10 ^^@\OML/zplm
+/m/it/10 ![] [] !x$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہے۔یہ دونوں تفارق از خود
+ سائن نما تفاعل[]
  []
 
 [114]
@@ -6874,16 +6874,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 2344--2345
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 اس ترکیب میں $\OML/zplm/m/it/10 y[]$ \TU
 /JameelNooriNastaleeq(0)/b/n/10 کو $\OML/zplm/m/it/10 r\OT1/zplm/m/n/10 (\OML/z
 plm/m/it/10 x\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور اس کے ت
-مام تفرقات کے مجموعے کی صورت میں لکھا جاتا ہے۔مجموعہ لکھتے ہوئے ہر رکن کو نا مع
-لوم مستقل سے ضرب[]
+مام تفارق کے مجموعے کی صورت میں لکھا جاتا ہے۔مجموعہ لکھتے ہوئے ہر رکن کو نا معل
+وم مستقل سے ضرب[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2344--2345
 []\TU/JameelNooriNastaleeq(0)/b/n/10 دی جاتی ہے۔ $\OML/zplm/m/it/10 y[]$ \TU/Ja
-meelNooriNastaleeq(0)/b/n/10 اور اس کے تفرقات کو مساوات  [][]۲.۸۲[][] []میں پر 
-کرتے ہوئے دونوں اطراف کے یکساں اجزاء کے عددی سر برابر لکھتے ہوئے نا معلوم مستقل
-[]
+meelNooriNastaleeq(0)/b/n/10 اور اس کے تفارق کو مساوات  [][]۲.۸۲[][] []میں پر ک
+رتے ہوئے دونوں اطراف کے یکساں اجزاء کے عددی سر برابر لکھتے ہوئے نا معلوم مستقل[
+]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 2347.
@@ -8055,11 +8055,22 @@ t/10 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے لئے $\OML/zplm/m/it/10 r\OT1/
  []
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 21--23
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 تفرق موجود ہو اور تفرقی مساوات میں $\OML/z
-plm/m/it/10 y$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور اس کے تفرقات کی جگہ $\OML
-/zplm/m/it/10 h$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور اس کے تفرقات پر کرنے سے
- مساوات کے دونوں اطراف بالکل یکساں حاصل[]
+Underfull \hbox (badness 1466) in paragraph at lines 21--23
+[][]\TU/JameelNooriNastaleeq(0)/b/n/10 کھلے وقفہ $\OML/zplm/m/it/10 I$ \TU/Jame
+elNooriNastaleeq(0)/b/n/10 پر $\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(0)
+/b/n/10 رتبی خطی یا غیر خطی سادہ تفرقی مساوات کے حل $\OML/zplm/m/it/10 y \OT1/z
+plm/m/n/10 = \OML/zplm/m/it/10 h\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/
+m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے مراد ایسا تفاعل ہے جو $\OML/zpl
+m/m/it/10 I$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر معین ہو، کھلے وقفے پر اس کا 
+$\OML/zplm/m/it/10 n$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 رتبی تفرق موجود ہو اور تفرقی مساوات میں $\
+OML/zplm/m/it/10 y$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور اس کے تفارق کی جگہ $
+\OML/zplm/m/it/10 h$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور اس کے تفارق پُر کرن
+ے سے مساوات کے دونوں اطراف بالکل یکساں حاصل[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 25.
@@ -8391,6 +8402,16 @@ LaTeX Info: Redefining \ttfamily on input line 265.
 LaTeX Info: Redefining \rmfamily on input line 265.
 LaTeX Info: Redefining \sffamily on input line 265.
 LaTeX Info: Redefining \ttfamily on input line 265.
+
+Underfull \hbox (badness 3209) in paragraph at lines 264--266
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 ثبوت :  فرض کریں کہ $\OML/zplm/m/it/10 I$ 
+\TU/JameelNooriNastaleeq(0)/b/n/10 پر مساوات  [][]۳.۲[][] []کا عمومی حل $\OML/z
+plm/m/it/10 y \OT1/zplm/m/n/10 = \OML/zplm/m/it/10 c[]y[] \OT1/zplm/m/n/10 + []
+ + \OML/zplm/m/it/10 c[]y[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہے جبکہ $\OML/z
+plm/m/it/10 Y$ \TU/JameelNooriNastaleeq(0)/b/n/10 مساوات  [][]۳.۲[][] []کا کوئی
+ بھی حل[]
+ []
+
 [151]
 LaTeX Info: Redefining \rmfamily on input line 274.
 LaTeX Info: Redefining \sffamily on input line 274.
@@ -8426,18 +8447,6 @@ LaTeX Info: Redefining \ttfamily on input line 279.
 LaTeX Info: Redefining \rmfamily on input line 279.
 LaTeX Info: Redefining \sffamily on input line 279.
 LaTeX Info: Redefining \ttfamily on input line 279.
-
-Underfull \hbox (badness 1082) in paragraph at lines 278--280
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 ملتا ہے۔ مساوات  [][]۳.۱۰[][] []کے تحت $\O
-ML/zplm/m/it/10 x[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر $\OML/zplm/m/it/10 y
-[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور اس کے پہلے $\OML/zplm/m/it/10 n \OMS
-/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(0)/b/n/10 تفرقات، 
-$\OML/zplm/m/it/10 x[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر $\OML/zplm/m/it/1
-0 Y$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور اس کے پہلے $\OML/zplm/m/it/10 n \OM
-S/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(0)/b/n/10 تفرقات 
-کے برابر ہیں یعنی[]
- []
-
 LaTeX Info: Redefining \rmfamily on input line 283.
 LaTeX Info: Redefining \sffamily on input line 283.
 LaTeX Info: Redefining \ttfamily on input line 283.
@@ -8820,6 +8829,14 @@ LaTeX Info: Redefining \ttfamily on input line 692.
 LaTeX Info: Redefining \rmfamily on input line 696.
 LaTeX Info: Redefining \sffamily on input line 696.
 LaTeX Info: Redefining \ttfamily on input line 696.
+
+Underfull \hbox (badness 1946) in paragraph at lines 711--712
+[][]\TU/JameelNooriNastaleeq(0)/b/n/10 دوسرا قدم: اب اگر ہم دیے گئے غیر متجانس 
+مساوات کے جبری تفاعل کو دیکھ کر $\OML/zplm/m/it/10 y[] \OT1/zplm/m/n/10 = \OML/
+zplm/m/it/10 Ce[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 چنتے ہوئے $\OML/zplm/m/it
+/10 y[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور اس کے تفارق کو دیے گئے[]
+ []
+
 [161]
 Overfull \hbox (4.64366pt too wide) detected at line 731
 []
@@ -23230,16 +23247,17 @@ LaTeX Info: Redefining \rmfamily on input line 1524.
 LaTeX Info: Redefining \sffamily on input line 1524.
 LaTeX Info: Redefining \ttfamily on input line 1524.
 
-Underfull \hbox (badness 1484) in paragraph at lines 1531--1533
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 بھی $\OML/zplm/m/it/10 D$ \TU/JameelNooriN
-astaleeq(0)/b/n/10 میں استمراری ہیں۔مزید فرض کریں کہ $\OML/zplm/m/it/10 uv$ \TU
-/JameelNooriNastaleeq(0)/b/n/10 سطح میں کسی وقفہ $\OML/zplm/m/it/10 B$ \TU/Jame
-elNooriNastaleeq(0)/b/n/10 میں $\OML/zplm/m/it/10 x \OT1/zplm/m/n/10 = \OML/zpl
-m/m/it/10 x\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 u\OT1/ppl/m/n/10 , \OML/zplm/m/i
-t/10 v\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/i
-t/10 y \OT1/zplm/m/n/10 = \OML/zplm/m/it/10 y\OT1/zplm/m/n/10 (\OML/zplm/m/it/1
-0 u\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 v\OT1/zplm/m/n/10 )$ \TU/JameelNooriNast
-aleeq(0)/b/n/10 قابل جزوی[]
+Underfull \hbox (badness 1661) in paragraph at lines 1531--1533
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 ہیں جہاں $\OML/zplm/m/it/10 B$ \TU/JameelN
+ooriNastaleeq(0)/b/n/10 میں ہر $\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 u\OT1/ppl/m
+/n/10 , \OML/zplm/m/it/10 v\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/
+10 کا مطابقتی نقطہ $\OT1/zplm/m/n/10 [\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 (\OML
+/zplm/m/it/10 u\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 v\OT1/zplm/m/n/10 )\OT1/ppl/
+m/n/10 , \OML/zplm/m/it/10 y\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 u\OT1/ppl/m/n/1
+0 , \OML/zplm/m/it/10 v\OT1/zplm/m/n/10 )]$\TU/JameelNooriNastaleeq(0)/b/n/10 ،
+ دائرہ کار $\OML/zplm/m/it/10 D$ \TU/JameelNooriNastaleeq(0)/b/n/10 میں پایا جا
+تا ہے۔ایسی صورت میں $\OML/zplm/m/it/10 B$ \TU/JameelNooriNastaleeq(0)/b/n/10 می
+ں تفاعل $\OML/zplm/m/it/10 w \OT1/zplm/m/n/10 =$[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1542.
@@ -23258,16 +23276,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1544--1545
 LaTeX Info: Redefining \rmfamily on input line 1552.
 LaTeX Info: Redefining \sffamily on input line 1552.
 LaTeX Info: Redefining \ttfamily on input line 1552.
-
-Underfull \hbox (badness 1275) in paragraph at lines 1551--1553
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 فرض کریں کہ دائرہ کار $\OML/zplm/m/it/10 D
-$ \TU/JameelNooriNastaleeq(0)/b/n/10 میں تفاعل $\OML/zplm/m/it/10 f\OT1/zplm/m/
-n/10 (\OML/zplm/m/it/10 x\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 y\OT1/zplm/m/n/10 
-)$ \TU/JameelNooriNastaleeq(0)/b/n/10 استمراری ہے اور اس تفاعل کے یک رتبی جزوی 
-تفرقات بھی $\OML/zplm/m/it/10 D$ \TU/JameelNooriNastaleeq(0)/b/n/10 میں استمرار
-ی ہیں۔ مزید فرض کریں[]
- []
-
 [598]
 LaTeX Info: Redefining \rmfamily on input line 1583.
 LaTeX Info: Redefining \sffamily on input line 1583.
@@ -23281,17 +23289,6 @@ LaTeX Info: Redefining \ttfamily on input line 1587.
 LaTeX Info: Redefining \rmfamily on input line 1587.
 LaTeX Info: Redefining \sffamily on input line 1587.
 LaTeX Info: Redefining \ttfamily on input line 1587.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1586--1588
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 ہو گا جہاں دائیں ہاتھ تفرقات کو نقطہ $\OT1
-/zplm/m/n/10 (\OML/zplm/m/it/10 x[] \OT1/zplm/m/n/10 + \OML/zplm/m/it/10 t[]h\O
-T1/ppl/m/n/10 , \OML/zplm/m/it/10 y[] \OT1/zplm/m/n/10 + \OML/zplm/m/it/10 t[]k
-\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر حاصل کیا جائے گا جو ا
-س قطع پر واقع ہے جس کے سر $\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x[]\OT1/ppl/m/n/
-10 , \OML/zplm/m/it/10 y[]\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/1
-0 اور[]
- []
-
 LaTeX Info: Redefining \rmfamily on input line 1591.
 LaTeX Info: Redefining \sffamily on input line 1591.
 LaTeX Info: Redefining \ttfamily on input line 1591.
@@ -23371,8 +23368,8 @@ n/10 , \OML/zplm/m/it/10 y\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 s\OT1/zplm/m/n/10
  )\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 z\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 s\OT
 1/zplm/m/n/10 )]$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا لمبائی $\OML/zplm/m/it/
 10 s$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے ساتھ تفرق ہے۔اب اگر $\OML/zplm/m/it
-/10 f$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے استمراری جزوی تفرقات پائے جاتے ہوں
-[]
+/10 f$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے استمراری جزوی تفارق پائے جاتے ہوں 
+تب[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1744.
@@ -23394,28 +23391,17 @@ LaTeX Info: Redefining \ttfamily on input line 1768.
 LaTeX Info: Redefining \rmfamily on input line 1799.
 LaTeX Info: Redefining \sffamily on input line 1799.
 LaTeX Info: Redefining \ttfamily on input line 1799.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1802--1804
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 جہاں $\OML/zplm/m/it/10 x[]$\TU/JameelNoor
-iNastaleeq(0)/b/n/10 ، $\OML/zplm/m/it/10 y[]$ \TU/JameelNooriNastaleeq(0)/b/n/
-10 اور $\OML/zplm/m/it/10 z[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 دوسرے نظام کے
- محور جبکہ $\OML/cmm/b/it/10 i[]$\TU/JameelNooriNastaleeq(0)/b/n/10 ، $\OML/cmm
-/b/it/10 j[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/cmm/b/it/10 k[]$ \TU
-/JameelNooriNastaleeq(0)/b/n/10 اس کے مطابقتی اکائی سمتیات ہیں۔ان مساوات میں جز
-وی تفرقات پائے[]
- []
-
 LaTeX Info: Redefining \rmfamily on input line 1805.
 LaTeX Info: Redefining \sffamily on input line 1805.
 LaTeX Info: Redefining \ttfamily on input line 1805.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1812--1814
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 پر چنے گئے کارتیسی نظام محدد کا کوئی اثر ن
-ہیں پایا جاتا ہے۔اگر نقطہ $\OML/zplm/m/it/10 P$ \TU/JameelNooriNastaleeq(0)/b/n
-/10 پر $\OML/zplm/m/it/10 f$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی ڈھلوان غیر ص
-فر سمتیہ ہو تب $\OML/zplm/m/it/10 P$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر $\OM
-L/zplm/m/it/10 f$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی زیادہ سے زیادہ تبدیلی ڈ
-ھلوان کی[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 چنے گئے کارتیسی نظام محدد کا کوئی اثر نہیں
+ پایا جاتا ہے۔اگر نقطہ $\OML/zplm/m/it/10 P$ \TU/JameelNooriNastaleeq(0)/b/n/10
+ پر $\OML/zplm/m/it/10 f$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی ڈھلوان غیر صفر 
+سمتیہ ہو تب $\OML/zplm/m/it/10 P$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر $\OML/z
+plm/m/it/10 f$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی زیادہ سے زیادہ تبدیلی ڈھلو
+ان کی رخ[]
  []
 
 [603]
@@ -26774,12 +26760,12 @@ Overfull \hbox (16.13832pt too wide) in paragraph at lines 3369--3390
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3401--3403
+Underfull \hbox (badness 6910) in paragraph at lines 3401--3403
 []\TU/JameelNooriNastaleeq(0)/b/n/10 جہاں $\OML/zplm/m/it/10 f$\TU/JameelNooriN
 astaleeq(0)/b/n/10 ، $\OML/zplm/m/it/10 g$ \TU/JameelNooriNastaleeq(0)/b/n/10 ا
 ور $\OML/zplm/m/it/10 h$ \TU/JameelNooriNastaleeq(0)/b/n/10 اپنے آزاد متغیرات ک
-ے استمراری تفاعل ہیں اور ان کے استمراری یک رتبی جزوی تفرقات پائے جاتے ہیں۔فرض ک
-ریں کہ $\OML/zplm/m/it/10 S$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا بالائی[]
+ے استمراری تفاعل ہیں اور ان کے استمراری یک رتبی جزوی تفارق پائے جاتے ہیں۔فرض کر
+یں کہ $\OML/zplm/m/it/10 S$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا بالائی رخ[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 3406.
@@ -27280,7 +27266,7 @@ m/n/10 , \OML/zplm/m/it/10 z\OT1/zplm/m/n/10 )$\TU/JameelNooriNastaleeq(0)/b/n/
 /JameelNooriNastaleeq(0)/b/n/10 ، $\OML/zplm/m/it/10 h\OT1/zplm/m/n/10 (\OML/zp
 lm/m/it/10 x\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 y\OT1/ppl/m/n/10 , \OML/zplm/m/
 it/10 z\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور ان کے یک رتبی
- جزوی تفرقات استمراری[]
+ جزوی تفارق استمراری[]
  []
 
 
@@ -28458,10 +28444,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1833--1834
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1833--1834
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 تفاعل کی اور تفاعل کی تفرقات کی چھلانگ سے 
-حاصل کی جا سکتی ہیں۔ یوں بغیر کوئی تکمل حل کرتے ہوئے $\OML/zplm/m/it/10 a[]$ \T
-U/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 b[]$ \TU/JameelNooriNas
-taleeq(0)/b/n/10 حاصل کیے جائیں گے (ماسوائے[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 تفاعل کی اور تفاعل کی تفارق کی چھلانگ سے ح
+اصل کی جا سکتی ہیں۔ یوں بغیر کوئی تکمل حل کرتے ہوئے $\OML/zplm/m/it/10 a[]$ \TU
+/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 b[]$ \TU/JameelNooriNast
+aleeq(0)/b/n/10 حاصل کیے جائیں گے (ماسوائے $\OML/zplm/m/it/10 a[]$\TU/JameelNoo
+riNastaleeq(0)/b/n/10 ،[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1835.
@@ -29404,14 +29391,6 @@ LaTeX Info: Redefining \ttfamily on input line 7.
 LaTeX Info: Redefining \rmfamily on input line 7.
 LaTeX Info: Redefining \sffamily on input line 7.
 LaTeX Info: Redefining \ttfamily on input line 7.
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 دو یا دو سے زیادہ غیر تابع متغیرات کی نا م
-علوم تفاعل اور اس کی ایک یا ایک سے زیادہ تفرقات پر مبنی مساوات کو \TU/AASameerS
-agarNastaleeqBold(0)/m/n/10 جزوی تفرقی مساوات[][] \TU/JameelNooriNastaleeq(0)/b
-/n/10 کہتے ہیں۔ بلند تر[]
- []
-
 LaTeX Info: Redefining \rmfamily on input line 9.
 LaTeX Info: Redefining \sffamily on input line 9.
 LaTeX Info: Redefining \ttfamily on input line 9.
@@ -29431,11 +29410,11 @@ LaTeX Info: Redefining \rmfamily on input line 22.
 LaTeX Info: Redefining \sffamily on input line 22.
 LaTeX Info: Redefining \ttfamily on input line 22.
 
-Underfull \hbox (badness 6188) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 فضا میں غیر تابع متغیرہ کی کسی خطہ $\OML
 /zplm/m/it/10 R$ \TU/JameelNooriNastaleeq(0)/b/n/10 میں جزوی تفرقی مساوات کے \T
 U/AASameerSagarNastaleeqBold(0)/m/n/10 حل \TU/JameelNooriNastaleeq(0)/b/n/10 سے
- مراد ایسا تفاعل ہے جو خود اور جس کے وہ تمام تفرقات جو اس مساوات میں پائے[]
+ مراد ایسا تفاعل ہے جو خود اور جس کے وہ تمام تفارق جو اس مساوات میں پائے[]
  []
 
 
@@ -29537,8 +29516,8 @@ LaTeX Info: Redefining \ttfamily on input line 135.
 
 Underfull \hbox (badness 10000) in paragraph at lines 133--136
 [] \TU/JameelNooriNastaleeq(0)/b/n/10 اگر جزوی تفرقی مساوات میں صرف ایک متغیر ک
-ے ساتھ تفرقات پائے جاتے ہوں تب اس کو سادہ تفرقی مساوات تصور کر کے حل کیا جا سکت
-ا ہے جہاں باقی[]
+ے ساتھ تفارق پائے جاتے ہوں تب اس کو سادہ تفرقی مساوات تصور کر کے حل کیا جا سکتا
+ ہے جہاں باقی[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 162.
@@ -30084,25 +30063,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 555--570
 10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 ا
 ور $\OML/zplm/m/it/10 f[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 
 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 محض ٹکڑوں میں استمراری (حصہ  [][]۶.۱[][][
-]) ہوں، یا اگر وقفہ کے سروں پر یک طرفہ تفرقات غیر صفر ہوں تب ہر ایک $\OML/zplm/
-m/it/10 t$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے[]
+]) ہوں، یا اگر وقفہ کے سروں پر یک طرفہ تفارق غیر صفر ہوں تب ہر ایک $\OML/zplm/m
+/it/10 t$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے لئے[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 555--570
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 لئے محدود تعداد کی $\OML/zplm/m/it/10 x$ \
-TU/JameelNooriNastaleeq(0)/b/n/10 قیمتوں پر مساوات  [][]۱۳.۱۱[][] []کے $\OML/zp
-lm/m/it/10 u$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی دو رتبی تفرقات غیر معین ہوں
- گے۔ان نقطوں کے علاوہ باقی تمام نقطوں پر $\OML/zplm/m/it/10 u$ \TU/JameelNooriN
-astaleeq(0)/b/n/10 مساوات موج کو[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 محدود تعداد کی $\OML/zplm/m/it/10 x$ \TU/J
+ameelNooriNastaleeq(0)/b/n/10 قیمتوں پر مساوات  [][]۱۳.۱۱[][] []کے $\OML/zplm/m
+/it/10 u$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی دو رتبی تفارق غیر معین ہوں گے۔ا
+ن نقطوں کے علاوہ باقی تمام نقطوں پر $\OML/zplm/m/it/10 u$ \TU/JameelNooriNastal
+eeq(0)/b/n/10 مساوات موج کو مطمئن[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 555--570
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 مطمئن کرے گی لہٰذا ہم $\OML/zplm/m/it/10 u
-\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 t\OT1/
-zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 کو وسیع معنوں میں مسئلے کا حل
- تصور کر سکتے ہیں۔مثال کے طور پر تکونی ابتدائی انحراف کی صورت میں حاصل حل اس[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 کرے گی لہٰذا ہم $\OML/zplm/m/it/10 u\OT1/z
+plm/m/n/10 (\OML/zplm/m/it/10 x\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 t\OT1/zplm/m
+/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 کو وسیع معنوں میں مسئلے کا حل تصور 
+کر سکتے ہیں۔مثال کے طور پر تکونی ابتدائی انحراف کی صورت میں حاصل حل اس نوعیت کا
+[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 571.
@@ -30261,9 +30241,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1066--1068
 []\TU/JameelNooriNastaleeq(0)/b/n/10 متعارف کرتے ہوئے $\OML/zplm/m/it/10 u$ \TU
 /JameelNooriNastaleeq(0)/b/n/10 کو متغیرات $\OML/zplm/m/it/10 v$ \TU/JameelNoor
 iNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 z$ \TU/JameelNooriNastaleeq(0)/b/n/
-10 کا تفاعل لکھتے ہیں۔اس طرح مساوات  [][]۱۳.۲۹[][] []میں تفرقات اب $\OML/zplm/m
-/it/10 v$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 z$ \TU/Jame
-elNooriNastaleeq(0)/b/n/10 کے لحاظ سے زنجیری ترکیب[]
+10 کا تفاعل لکھتے ہیں۔اس طرح مساوات  [][]۱۳.۲۹[][] []میں تفارق اب $\OML/zplm/m/
+it/10 v$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 z$ \TU/Jamee
+lNooriNastaleeq(0)/b/n/10 کے لحاظ سے زنجیری ترکیب (حصہ[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1075.
@@ -31765,6 +31745,14 @@ LaTeX Info: Redefining \ttfamily on input line 2867.
 LaTeX Info: Redefining \rmfamily on input line 2867.
 LaTeX Info: Redefining \sffamily on input line 2867.
 LaTeX Info: Redefining \ttfamily on input line 2867.
+
+Underfull \hbox (badness 3690) in paragraph at lines 2866--2868
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 ہو گا۔مساوات لاپلاس کے نظریہ کو \TU/AASame
+erSagarNastaleeqBold(0)/m/n/10 نظریہ مخفی قوہ[][] \TU/JameelNooriNastaleeq(0)/b
+/n/10 کہتے ہیں۔مساوات  [][]۱۳.۱۲۶[][] []کے ایسے حل جن کے دو رتبی تفارق استمراری
+ ہوں \TU/AASameerSagarNastaleeqBold(0)/m/n/10 ہارمونی تفاعل[][][]
+ []
+
 LaTeX Info: Redefining \rmfamily on input line 2869.
 LaTeX Info: Redefining \sffamily on input line 2869.
 LaTeX Info: Redefining \ttfamily on input line 2869.
@@ -32899,14 +32887,7 @@ LaTeX Info: Redefining \ttfamily on input line 882.
 LaTeX Info: Redefining \rmfamily on input line 882.
 LaTeX Info: Redefining \sffamily on input line 882.
 LaTeX Info: Redefining \ttfamily on input line 882.
-[855]
-Underfull \hbox (badness 10000) in paragraph at lines 978--979
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 مخلوط تجزیہ کی چند بنیادی تصورات، مثلاً مخ
-لوط متغیرات کے تفاعل اور ایسے تفاعل کے حد اور تفرقات، کو اب پیش کرتے ہیں۔آپ دیک
-ھیں گے کہ یہ تصورات[]
- []
-
-[856]
+[855] [856]
 LaTeX Info: Redefining \rmfamily on input line 986.
 LaTeX Info: Redefining \sffamily on input line 986.
 LaTeX Info: Redefining \ttfamily on input line 986.
@@ -32980,10 +32961,10 @@ LaTeX Info: Redefining \sffamily on input line 1079.
 LaTeX Info: Redefining \ttfamily on input line 1079.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1090--1091
-[][]\TU/JameelNooriNastaleeq(0)/b/n/10 حقیقی تفرقات کے تمام اصول مثلاً مستقل کی
- تفرق، $\OML/zplm/m/it/10 z[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی تفرق جہاں 
-$\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(0)/b/n/10 عددی صحیح ہے، قابل تفر
-ق تفاعل کا مجموعہ، حاصل ضرب، حاصل تقسیم اور[]
+[][]\TU/JameelNooriNastaleeq(0)/b/n/10 حقیقی تفارق کے تمام اصول مثلاً مستقل کی 
+تفرق، $\OML/zplm/m/it/10 z[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی تفرق جہاں $
+\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(0)/b/n/10 عددی صحیح ہے، قابل تفرق
+ تفاعل کا مجموعہ، حاصل ضرب، حاصل تقسیم اور تفاعل[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1100.

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  11 AUG 2026 16:13
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  17 AUG 2026 13:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8954,8 +8954,8 @@ Underfull \hbox (badness 2096) in paragraph at lines 841--843
 []\TU/JameelNooriNastaleeq(0)/b/n/10 ہے۔بیرونی بوجھ اور شہتیر کے جھکاو کا تعلق،
  علم لچک کے تحت، درج ذیل ہے جہاں $\OML/zplm/m/it/10 E$ \TU/AASameerSagarNastale
 eqBold(0)/m/n/10 ینگ کا مقیاس لچک[][] \TU/JameelNooriNastaleeq(0)/b/n/10 کہلاتا
- ہے جبکہ $\OML/zplm/m/it/10 I$ \TU/JameelNooriNastaleeq(0)/b/n/10 مستطیل کا $\O
-ML/zplm/m/it/10 z$ \TU/JameelNooriNastaleeq(0)/b/n/10 محور پر[]
+ ہے جبکہ $\OML/zplm/m/it/10 I$ \TU/JameelNooriNastaleeq(0)/b/n/10 مستطیل کا محو
+ر $\OML/zplm/m/it/10 z$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر[]
  []
 
 [164]
@@ -17782,7 +17782,7 @@ LaTeX Info: Redefining \ttfamily on input line 2353.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2350--2354
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 ہم دائیں ہاتھ کارتیسی محدد یوں چنتے ہیں 
-کہ $\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 محور کی سمت $\OML/c
+کہ محور $\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی سمت $\OML/c
 mm/b/it/10 d$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہو اور $\OML/zplm/m/it/10 xy$ 
 \TU/JameelNooriNastaleeq(0)/b/n/10 سطح میں $\OML/cmm/b/it/10 c$ \TU/JameelNoori
 Nastaleeq(0)/b/n/10 پایا جاتا ہو۔یوں مساوات  [][]۷.۶۲[][] []کے سمتیات درج ذیل ل
@@ -22713,8 +22713,8 @@ LaTeX Info: Redefining \sffamily on input line 951.
 LaTeX Info: Redefining \ttfamily on input line 951.
 
 Underfull \hbox (badness 10000) in paragraph at lines 953--954
-[][]\TU/JameelNooriNastaleeq(0)/b/n/10 جواب:$\OML/zplm/m/it/10 x$ \TU/JameelNoo
-riNastaleeq(0)/b/n/10 محور کے بالائی جانب قوس پر مثبت دائری سمت بائیں سے دائیں 
+[][]\TU/JameelNooriNastaleeq(0)/b/n/10 جواب:محور $\OML/zplm/m/it/10 x$ \TU/Jame
+elNooriNastaleeq(0)/b/n/10 کے بالائی جانب قوس پر مثبت دائری سمت بائیں سے دائیں 
 ہے جبکہ محور کے نچلی جانب مثبت دائری سمت دائیں سے بائیں ہے۔یوں ایک بار[]
  []
 
@@ -24660,7 +24660,7 @@ LaTeX Info: Redefining \ttfamily on input line 618.
 Underfull \hbox (badness 10000) in paragraph at lines 618--619
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 دوہرا تکمل کی تعریف قطعی تکمل کی تعریف س
 ے مشابہت رکھتی ہے۔ہم $\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 ا
-ور $\OML/zplm/m/it/10 y$ \TU/JameelNooriNastaleeq(0)/b/n/10 محور کے متوازی خطوط
+ور محور $\OML/zplm/m/it/10 y$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے متوازی خطوط
  کھینچ کر خطہ $\OML/zplm/m/it/10 R$ \TU/JameelNooriNastaleeq(0)/b/n/10 کو ٹکڑے 
 کرتے ہیں (شکل[]
  []
@@ -24754,8 +24754,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 655--702
 /10 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 بطور مقدار معلوم کردار ادا کرتا ہے لہ
 ٰذا اس تکمل کا حاصل $\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا
  تفاعل $\OML/zplm/m/it/10 F\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/1
-0 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہو گا۔اس کے بعد $\OML/zplm/m/it/10 x$ \
-TU/JameelNooriNastaleeq(0)/b/n/10 محور پر $\OML/zplm/m/it/10 F\OT1/zplm/m/n/10 
+0 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہو گا۔اس کے بعد محور $\OML/zplm/m/it/10
+ x$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر $\OML/zplm/m/it/10 F\OT1/zplm/m/n/10 
 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$[]
  []
 
@@ -25020,18 +25020,17 @@ LaTeX Info: Redefining \ttfamily on input line 1386.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1386--1387
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 اگر $\OML/zplm/m/it/10 C$ \TU/JameelNoor
-iNastaleeq(0)/b/n/10 کے کچھ حصے $\OML/zplm/m/it/10 y$ \TU/JameelNooriNastaleeq(
-0)/b/n/10 محور کے متوازی ہوں (جیسے شکل  [][]۱۱.۱۶[][][]-الف میں $[]$ اور $[]$ ہ
-یں) تب بھی مساوات  [][]۱۱.۲۶[][] []درست ہو گا۔ایسا اس لئے ہو گا کہ $\OML/zplm/m
-/it/10 y$[]
+iNastaleeq(0)/b/n/10 کے کچھ حصے محور $\OML/zplm/m/it/10 y$ \TU/JameelNooriNasta
+leeq(0)/b/n/10 کے متوازی ہوں (جیسے شکل  [][]۱۱.۱۶[][][]-الف میں $[]$ اور $[]$ ہ
+یں) تب بھی مساوات  [][]۱۱.۲۶[][] []درست ہو گا۔ایسا اس لئے ہو گا کہ محور[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1386--1387
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 محور کے متوازی حصوں پر تکمل کی قیمت صفر ہو
- گی لہٰذا سرحد کی ان حصوں (یعنی $[]$ اور $[]$ ) پر تکمل کو بھی مساوات  [][]۱۱.۲
-۶[][] []میں شامل کرتے ہوئے $\OML/zplm/m/it/10 R$ \TU/JameelNooriNastaleeq(0)/b/
-n/10 کی[]
+[]$\OML/zplm/m/it/10 y$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے متوازی حصوں پر تک
+مل کی قیمت صفر ہو گی لہٰذا سرحد کی ان حصوں (یعنی $[]$ اور $[]$ ) پر تکمل کو بھی
+ مساوات  [][]۱۱.۲۶[][] []میں شامل کرتے ہوئے $\OML/zplm/m/it/10 R$ \TU/JameelNoo
+riNastaleeq(0)/b/n/10 کی[]
  []
 
 
@@ -25699,8 +25698,8 @@ LaTeX Info: Redefining \ttfamily on input line 2280.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2279--2282
 []\TU/JameelNooriNastaleeq(0)/b/n/10 لکھا جا سکتا ہے جہاں $\OML/zplm/m/it/10 S$
- \TU/JameelNooriNastaleeq(0)/b/n/10 کی (غیر سمتی) عمود اور $\OML/zplm/m/it/10 z
-$ \TU/JameelNooriNastaleeq(0)/b/n/10 محور کے درمیان زاویہ حادہ $\OML/zplm/m/it/
+ \TU/JameelNooriNastaleeq(0)/b/n/10 کی (غیر سمتی) عمود اور محور $\OML/zplm/m/it
+/10 z$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے درمیان زاویہ حادہ $\OML/zplm/m/it/
 10 ^^N$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہے۔ شکل  [][]۱۱.۲۳[][] []سے اس کی جی
 ومیٹریائی وجہ ظاہر ہے جہاں چھوٹا رقبہ[]
  []
@@ -25940,7 +25939,7 @@ meelNooriNastaleeq(0)/b/n/10 ٹکڑوں میں قابل سمت بند سطح ہ�
 /it/10 S$ \TU/JameelNooriNastaleeq(0)/b/n/10 کو سمت بند کرتے ہیں۔ $\OML/cmm/b/i
 t/10 n$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور مثبت $\OML/zplm/m/it/10 x$\TU/Ja
 meelNooriNastaleeq(0)/b/n/10 ، $\OML/zplm/m/it/10 y$\TU/JameelNooriNastaleeq(0)
-/b/n/10 ، $\OML/zplm/m/it/10 z$ \TU/JameelNooriNastaleeq(0)/b/n/10 محور[]
+/b/n/10 ، محور $\OML/zplm/m/it/10 z$[]
  []
 
 
@@ -26055,7 +26054,7 @@ t/10 S$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی کثافت کمیت (کمیت ف
 L/zplm/m/it/10 y\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 z\OT1/zplm/m/n/10 )$ \TU/Ja
 meelNooriNastaleeq(0)/b/n/10 ہے۔درج ذیل کلیات $\OML/zplm/m/it/10 x$\TU/JameelNo
 oriNastaleeq(0)/b/n/10 ، $\OML/zplm/m/it/10 y$\TU/JameelNooriNastaleeq(0)/b/n/1
-0 ، $\OML/zplm/m/it/10 z$ \TU/JameelNooriNastaleeq(0)/b/n/10 محور کے لحاظ سے[]
+0 ، محور $\OML/zplm/m/it/10 z$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے لحاظ سے[]
  []
 
 
@@ -28107,7 +28106,7 @@ LaTeX Info: Redefining \ttfamily on input line 1093.
 Underfull \hbox (badness 10000) in paragraph at lines 1093--1094
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 جفت تفاعل $\OML/zplm/m/it/10 g\OT1/zplm/
 m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/
-10 کی صورت میں $\OML/zplm/m/it/10 y$ \TU/JameelNooriNastaleeq(0)/b/n/10 محور کی
+10 کی صورت میں محور $\OML/zplm/m/it/10 y$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی
  دائیں ہاتھ ترسیم کے نیچے رقبہ، محور کی بائیں ہاتھ ترسیم کے نیچے رقبہ کے برابر 
 ہے (شکل  [][]۱۲.۸[][][]-الف) لہٰذا[]
  []
@@ -28119,7 +28118,7 @@ LaTeX Info: Redefining \ttfamily on input line 1097.
 Underfull \hbox (badness 10000) in paragraph at lines 1096--1098
 []\TU/JameelNooriNastaleeq(0)/b/n/10 طاق تفاعل $\OML/zplm/m/it/10 h\OT1/zplm/m/
 n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10
- کی صورت میں $\OML/zplm/m/it/10 y$ \TU/JameelNooriNastaleeq(0)/b/n/10 محور کی د
+ کی صورت میں محور $\OML/zplm/m/it/10 y$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی د
 ائیں ہاتھ ترسیم کے نیچے رقبہ، محور کی بائیں ہاتھ ترسیم کے نیچے رقبہ ضرب منفی اک
 ائی کے برابر ہے (شکل[]
  []
@@ -30482,8 +30481,8 @@ LaTeX Info: Redefining \sffamily on input line 1339.
 LaTeX Info: Redefining \ttfamily on input line 1339.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1338--1350
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 آئیں ایک لمبی سلاخ یا تار جو $\OML/zplm/m/
-it/10 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 محور پر رکھی گئی ہو میں درجہ حرارت 
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 آئیں ایک لمبی سلاخ یا تار جو محور $\OML/zp
+lm/m/it/10 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر رکھی گئی ہو میں درجہ حرارت 
 پر غور کرتے ہیں (شکل  [][]۱۳.۹[][][])۔یہ سلاخ ہم جنسی مادّہ سے بنی ہے اور اس کا
  رقبہ عمودی[]
  []
@@ -32268,8 +32267,8 @@ LaTeX Info: Redefining \ttfamily on input line 3396.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3378--3397
 [] \TU/JameelNooriNastaleeq(0)/b/n/10 ظاہر ہے کہ حقیقت میں لامتناہی تار نہیں پا
-ئی جاتی ہے لیکن یہ (قابل نظر انداز وزن کی) زیادہ لمبی تار جس کا دایاں سر $\OML/
-zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 محور پر کسی دو نقطہ سے بندھا
+ئی جاتی ہے لیکن یہ (قابل نظر انداز وزن کی) زیادہ لمبی تار جس کا دایاں سر محور $
+\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر کسی دو نقطہ سے بندھا
  ہو کی نمونہ[]
  []
 
@@ -32494,11 +32493,21 @@ LaTeX Info: Redefining \rmfamily on input line 80.
 LaTeX Info: Redefining \sffamily on input line 80.
 LaTeX Info: Redefining \ttfamily on input line 80.
 
-Underfull \hbox (badness 6978) in paragraph at lines 80--113
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 محور کو \TU/AASameerSagarNastaleeqBold(0)/
-m/n/10 خیالی محور[][] \TU/JameelNooriNastaleeq(0)/b/n/10 تصور کیا جاتا ہے۔ دونو
-ں محوروں پر یکساں اکائی لمبائی استعمال کی جاتی ہے (شکل  [][]۱۴.۱[][][]-الف)۔اس 
-کو کارتیسی محددی نظام کہتے ہیں۔ہم اب[]
+Underfull \hbox (badness 10000) in paragraph at lines 80--113
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 مخلوط اعداد کو سطح پر ظاہر کیا جا سکتا ہے۔
+ایسا کرنا نہایت مفید ثابت ہوتا ہے۔ہم دو عدد آپس میں عمودی محور چنتے ہیں۔افقی مح
+ور $\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 کو \TU/AASameerSaga
+rNastaleeqBold(0)/m/n/10 حقیقی محور[][] \TU/JameelNooriNastaleeq(0)/b/n/10 جبکہ
+ انتصابی[]
+ []
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 80--113
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 محور $\OML/zplm/m/it/10 y$ \TU/JameelNoori
+Nastaleeq(0)/b/n/10 کو \TU/AASameerSagarNastaleeqBold(0)/m/n/10 خیالی محور[][] 
+\TU/JameelNooriNastaleeq(0)/b/n/10 تصور کیا جاتا ہے۔ دونوں محوروں پر یکساں اکائ
+ی لمبائی استعمال کی جاتی ہے (شکل  [][]۱۴.۱[][][]-الف)۔اس کو کارتیسی محددی نظام 
+کہتے ہیں۔ہم[]
  []
 
 [841]
@@ -34476,8 +34485,8 @@ LaTeX Info: Redefining \sffamily on input line 1278.
 LaTeX Info: Redefining \ttfamily on input line 1278.
 
 Underfull \hbox (badness 3058) in paragraph at lines 1278--1279
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 کہ ہم $\OML/zplm/m/it/10 x$ \TU/JameelNoor
-iNastaleeq(0)/b/n/10 محور پر تین نقطے منتخب کرتے ہوئے انہیں اکائی دائرے پر اپنی
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 کہ ہم محور $\OML/zplm/m/it/10 x$ \TU/Jamee
+lNooriNastaleeq(0)/b/n/10 پر تین نقطے منتخب کرتے ہوئے انہیں اکائی دائرے پر اپنی
  مرضی کے تین نقطوں پر نقش کریں اور مسئلہ  [][]۱۵.۵[][] []کا اطلاق کریں۔پس دھیان
  کرنا ہو گا[]
  []
@@ -39039,8 +39048,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 2220--2221
 Underfull \hbox (badness 10000) in paragraph at lines 2220--2221
 []\TU/JameelNooriNastaleeq(0)/b/n/10 ہے۔ وہ اعداد جن کی مطلق قیمت بڑی ہو شمالی 
 قطب $\OML/zplm/m/it/10 Q$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے قریب پائے جاتے 
-ہیں۔$\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/i
-t/10 y$ \TU/JameelNooriNastaleeq(0)/b/n/10 محور (بلکہ مبدا سے گزرتے تمام سیدھے 
+ہیں۔$\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور محور $\OML/zpl
+m/m/it/10 y$ \TU/JameelNooriNastaleeq(0)/b/n/10 (بلکہ مبدا سے گزرتے تمام سیدھے 
 خطوط) ”خط طول[]
  []
 
@@ -41145,8 +41154,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--213
 []\TU/JameelNooriNastaleeq(0)/b/n/10 مماس سے حاصل کرتے ہیں۔اس ترکیب میں ہم $\OM
 L/zplm/m/it/10 f$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی ترسیم سے حاصل $\OML/zpl
 m/m/it/10 x[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر $\OML/zplm/m/it/10 f$ \TU/
-JameelNooriNastaleeq(0)/b/n/10 کا مماس بناتے ہیں۔یہ مماس $\OML/zplm/m/it/10 x$ 
-\TU/JameelNooriNastaleeq(0)/b/n/10 محور کو $\OML/zplm/m/it/10 x[]$ \TU/JameelNo
+JameelNooriNastaleeq(0)/b/n/10 کا مماس بناتے ہیں۔یہ مماس محور $\OML/zplm/m/it/1
+0 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 کو $\OML/zplm/m/it/10 x[]$ \TU/JameelNo
 oriNastaleeq(0)/b/n/10 پر قطع کرتا ہے (شکل[]
  []
 
@@ -52759,8 +52768,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5180--5182
 Underfull \hbox (badness 10000) in paragraph at lines 5183--5185
 [][]  \TU/JameelNooriNastaleeq(0)/b/n/10 نقطوں پر سیدھا خط یوں بٹھایا جائے کہ ن
 قطوں کا سیدھی لکیر سے فاصلوں کا مربع کم سے کم ہو، جہاں نقطہ اور سیدھی لکیر کے م
-ابین فاصلہ انتصابی رخ ($\OML/zplm/m/it/10 y$ \TU/JameelNooriNastaleeq(0)/b/n/10
- محور[]
+ابین فاصلہ انتصابی رخ (محور $\OML/zplm/m/it/10 y$[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 5205.
@@ -53473,7 +53481,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  81804 strings out of 474878
  2170322 string characters out of 9512517
- 3633636 words of memory out of 7000000
+ 3633635 words of memory out of 7000000
  102746 multiletter control sequences out of 15000+600000
  592377 words of font info for 188 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

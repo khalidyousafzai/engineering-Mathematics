@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  17 AUG 2026 13:51
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  18 AUG 2026 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1874,7 +1874,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 استعمال تکنیکی الفاظ ہی استعمال کئے جائیں۔
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 استعمال تکنیکی الفاظ ہی استعمال کیے جائیں۔
 جہاں ایسے الفاظ موجود نہ تھے وہاں روز مرہ میں استعمال ہونے والے الفاظ چنے گئے۔ت
 کنیکی اصطلاحات کی چنائی کے[]
  []
@@ -3018,7 +3018,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 933--936
 Underfull \hbox (badness 10000) in paragraph at lines 933--936
 []\TU/JameelNooriNastaleeq(0)/b/n/10 صورت حل کرنا ہو گی۔اگر ہم تصور کریں کہ $\O
 ML/zplm/m/it/10 T[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 مستقل قیمت ہے تب درج با
-لا مساوات کے متغیرات علیحدہ کئے جا سکتے ہیں۔چونکہ بیرونی درجہ حرارت[]
+لا مساوات کے متغیرات علیحدہ کیے جا سکتے ہیں۔چونکہ بیرونی درجہ حرارت[]
  []
 
 
@@ -4792,8 +4792,8 @@ LaTeX Info: Redefining \ttfamily on input line 103.
 
 Underfull \hbox (badness 10000) in paragraph at lines 102--104
 []\TU/JameelNooriNastaleeq(0)/b/n/10 جہاں مساوات  [][]۲.۵[][] []سے آخری قدم پر 
-دونوں قوسین صفر کے برابر پر کئے گئے ہیں۔یوں مساوات کا بایاں ہاتھ اور دایاں ہاتھ
- برابر ہیں لہٰذا ثابت ہوتا ہے کہ $\OML/zplm/m/it/10 y[]$[]
+دونوں قوسین صفر کے برابر پُر کیے گئے ہیں۔یوں مساوات کا بایاں ہاتھ اور دایاں ہات
+ھ برابر ہیں لہٰذا ثابت ہوتا ہے کہ $\OML/zplm/m/it/10 y[]$[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 106.
@@ -4803,7 +4803,7 @@ LaTeX Info: Redefining \ttfamily on input line 106.
 Underfull \hbox (badness 10000) in paragraph at lines 106--108
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 انتباہ: یہاں یاد رہے کہ مسئلہ  [][]۲.۱[]
 [] []صرف متجانس مساوات کے لئے قابل استعمال ہے۔غیر متجانس مساوات کے دیگر حل اس م
-سئلے سے حاصل نہیں کئے جا سکتے[]
+سئلے سے حاصل نہیں کیے جا سکتے[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 110.
@@ -5119,7 +5119,7 @@ eq(0)/b/n/10 ہے جس کا عددی سر اکائی کے برابر ہے۔نی�
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 305--307
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 معیاری صورت کے لئے حاصل کئے گئے ہیں۔تصور ک
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 معیاری صورت کے لئے حاصل کیے گئے ہیں۔تصور ک
 ریں کہ کھلے وقفہ $\OML/zplm/m/it/10 I$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر ہم
 یں مساوات  [][]۲.۱۴[][] []کا ایک عدد حل $\OML/zplm/m/it/10 y[]$ \TU/JameelNoori
 Nastaleeq(0)/b/n/10 معلوم ہے اور ہم حل کا اساس جاننا[]
@@ -7888,8 +7888,8 @@ it/10 c[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 c[]$ \TU
 ameelNooriNastaleeq(0)/b/n/10 کی جگہ نا معلوم تفاعل $\OML/zplm/m/it/10 u\OT1/zp
 lm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b
 /n/10 اور $\OML/zplm/m/it/10 v\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/
-n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر کئے جاتے ہیں۔اسی لئے اس کو مقدار 
-معلوم بدلنے کا طریقہ[]
+n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 پُر کیے جاتے ہیں۔اسی لئے اس کو مقدار
+ معلوم بدلنے کا طریقہ[]
  []
 
 [141]
@@ -10642,9 +10642,9 @@ LaTeX Info: Redefining \rmfamily on input line 2433.
 LaTeX Info: Redefining \sffamily on input line 2433.
 LaTeX Info: Redefining \ttfamily on input line 2433.
 
-Underfull \hbox (badness 6625) in paragraph at lines 2433--2434
+Underfull \hbox (badness 7468) in paragraph at lines 2433--2434
 []\TU/AASameerSagarNastaleeqBold(0)/m/n/10 کیفی تراکیب[][] \TU/JameelNooriNasta
-leeq(0)/b/n/10 سے مسئلے کو حل کئے بغیر حل کے بارے میں کیفی معلومات حاصل کی جاتی
+leeq(0)/b/n/10 سے مسئلے کو حل کیے بغیر حل کے بارے میں کیفی معلومات حاصل کی جاتی
  ہیں۔ایسے مسائل جن کا \TU/AASameerSagarNastaleeqBold(0)/m/n/10 تحلیلی حل \TU/Ja
 meelNooriNastaleeq(0)/b/n/10 مشکل یا نا قابل حصول ہو،[]
  []
@@ -43423,10 +43423,10 @@ OT1/ppl/m/n/10 , []  , \OML/zplm/m/it/10 x[]$ \TU/JameelNooriNastaleeq(0)/b/n/1
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 479--482
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 گاوس زائڈل اعادہ سے یک بعد دیگرے حاصل تخمی
-نی نتائج کی ترتیب ہے۔ اگر یہ ترتیب نظام کے حل کو مرتکز ہو تب ہم کہتے ہیں کہ یہ 
-ترکیب $\OML/cmm/b/it/10 x[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے لحاظ[]
+Underfull \hbox (badness 1688) in paragraph at lines 479--482
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 گاوس زائڈل اعادہ سے یکے بعد دیگرے حاصل تخم
+ینی نتائج کی ترتیب ہے۔ اگر یہ ترتیب نظام کے حل کو مرتکز ہو تب ہم کہتے ہیں کہ یہ
+ ترکیب $\OML/cmm/b/it/10 x[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے لحاظ[]
  []
 
 
@@ -52581,7 +52581,7 @@ iNastaleeq(0)/b/n/10 کی تقسیم دی گئی ہے۔ ہمارے تراکیب 
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 5059--5060
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 کئے ہیں۔یوں ہم توقع کرتے ہیں کہ نمونہ کی ت
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 لئے ہیں۔یوں ہم توقع کرتے ہیں کہ نمونہ کی ت
 مام قیمتیں ایک دوسرے سے مختلف ہوں گی۔پور و پور کی بنا عملاً چند نمونی قیمتیں ای
 ک سی ہو سکتی ہیں۔اگر $\OML/zplm/m/it/10 m$[]
  []
@@ -53479,10 +53479,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 81804 strings out of 474878
- 2170322 string characters out of 9512517
- 3633635 words of memory out of 7000000
- 102746 multiletter control sequences out of 15000+600000
+ 81776 strings out of 474878
+ 2169371 string characters out of 9512517
+ 3632984 words of memory out of 7000000
+ 102718 multiletter control sequences out of 15000+600000
  592377 words of font info for 188 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  117i,22n,407p,2096b,6203s stack positions out of 10000i,1000n,20000p,200000b,200000s

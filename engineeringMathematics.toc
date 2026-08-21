@@ -122,10 +122,10 @@
 \contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {9}}فوریئر تکمل}{\farsidigits {756}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {13}}جزوی تفرقی مساوات}{\farsidigits {769}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {1}}بنیادی تصورات}{\farsidigits {769}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {2}}نمونہ کشی: ارتعاش پذیر تار۔ یک بعدی مساوات موج}{\farsidigits {773}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {2}}نمونہ کشی: ارتعاش پذیر تار۔ یک بُعدی مساوات موج}{\farsidigits {773}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {3}}علیحدگی متغیرات (ترکیب ضرب)}{\farsidigits {775}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {4}}مساوات موج کا دا لومبیغ حل}{\farsidigits {785}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {5}}یک بعدی بہاو حرارت}{\farsidigits {790}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {5}}یک بُعدی بہاو حرارت}{\farsidigits {790}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {6}}لامتناہی لمبائی کی سلاخ میں بہاو حرارت}{\farsidigits {797}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {7}}نمونہ کشی: ارتعاش پذیر جھلی۔ دو ابعادی مساوات موج}{\farsidigits {802}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {8}}مستطیل جھلی}{\farsidigits {804}}{}%
@@ -181,7 +181,7 @@
 \contentsline {section}{\numberline {\farsidigits {19}.\farsidigits {4}}حقیقی تکمل کے دیگر اقسام}{\farsidigits {1081}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {20}}مخلوط تحلیل تفاعل اور نظریہ مخفی قوہ}{\farsidigits {1089}}{}%
 \contentsline {section}{\numberline {\farsidigits {20}.\farsidigits {1}}ساکن برقی سکون}{\farsidigits {1089}}{}%
-\contentsline {section}{\numberline {\farsidigits {20}.\farsidigits {2}}دو بعدی بہاو سیال}{\farsidigits {1095}}{}%
+\contentsline {section}{\numberline {\farsidigits {20}.\farsidigits {2}}دو بُعدی بہاو سیال}{\farsidigits {1095}}{}%
 \contentsline {section}{\numberline {\farsidigits {20}.\farsidigits {3}}ہارمونی تفاعل کے عمومی خواص}{\farsidigits {1103}}{}%
 \contentsline {section}{\numberline {\farsidigits {20}.\farsidigits {4}}پوسوں کلیہ تکمل}{\farsidigits {1107}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {21}}اعدادی تجزیہ}{\farsidigits {1113}}{}%

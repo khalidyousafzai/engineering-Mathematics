@@ -312,6 +312,3 @@
 \selectlanguage *{urdu}
 \selectlanguage *{urdu}
 \contentsline {chapter}{فرہنگ}{\farsidigits {1399}}{}%
-\selectlanguage *{english}
-\selectlanguage *{urdu}
-\selectlanguage *{urdu}

@@ -323,7 +323,7 @@
 \indexentry{مماثلی!عامل}{84}
 \indexentry{عامل!مماثلی}{84}
 \indexentry{polynomial}{84}
-\indexentry{کثیر رکنی}{84}
+\indexentry{کثیررکنی}{84}
 \indexentry{factorization}{85}
 \indexentry{تجزی}{85}
 \indexentry{induction}{86}
@@ -613,7 +613,7 @@
 \indexentry{غیر سمتی ضرب}{172}
 \indexentry{scalar product}{172}
 \indexentry{commutative!non}{172}
-\indexentry{مستبدل!غیر}{172}
+\indexentry{تعویضی!غیر}{172}
 \indexentry{transposition}{174}
 \indexentry{تبدیلی محل}{174}
 \indexentry{transposition}{174}
@@ -806,7 +806,7 @@
 \indexentry{ترکیب فروبنیوس}{235}
 \indexentry{special functions}{235}
 \indexentry{higher functons}{235}
-\indexentry{اعلٰی تفاعل}{235}
+\indexentry{اعلیٰ تفاعل}{235}
 \indexentry{center}{236}
 \indexentry{وسط}{236}
 \indexentry{coefficients}{236}
@@ -818,7 +818,7 @@
 \indexentry{Legendre!function}{239}
 \indexentry{لیژانڈر!تفاعل}{239}
 \indexentry{Legendre!polynomial}{239}
-\indexentry{لیژانڈر!کثیر رکنی تفاعل}{239}
+\indexentry{لیژانڈر!کثیررکنی تفاعل}{239}
 \indexentry{order!Legendre}{239}
 \indexentry{درجہ!لیژانڈر}{239}
 \indexentry{partial sum}{239}
@@ -851,16 +851,16 @@
 \indexentry{نسل}{248}
 \indexentry{مقدار معلوم}{248}
 \indexentry{theory!special functions}{248}
-\indexentry{نظریہ!اعلٰی تفاعل}{248}
+\indexentry{نظریہ!اعلیٰ تفاعل}{248}
 \indexentry{Legendre!function}{248}
 \indexentry{لیژانڈر!تفاعل}{248}
 \indexentry{recursion formula}{249}
 \indexentry{توالی کلیہ}{249}
 \indexentry{کلیہ!توالی}{249}
 \indexentry{Legendre!polynomial}{250}
-\indexentry{لیژانڈر!کثیر رکنی}{250}
+\indexentry{لیژانڈر!کثیررکنی}{250}
 \indexentry{Legendre!polynomial}{251}
-\indexentry{لیژانڈر!کثیر رکنی}{251}
+\indexentry{لیژانڈر!کثیررکنی}{251}
 \indexentry{orthogonal}{252}
 \indexentry{قائمہ الزاویہ}{252}
 \indexentry{مسئلہ ثنائی، الکراجی}{253}
@@ -984,18 +984,18 @@
 \indexentry{Fourier Bessel Series}{307}
 \indexentry{فوریئر بیسل تسلسل}{307}
 \indexentry{Hermite!polynomials}{309}
-\indexentry{کثیر رکنی!ہرمائٹ}{309}
-\indexentry{ہرمائٹ!کثیر رکنی}{309}
-\indexentry{پیدا کار تفاعل!ہرمائٹ کثیر رکنی}{310}
+\indexentry{کثیررکنی!ہرمائٹ}{309}
+\indexentry{ہرمائٹ!کثیررکنی}{309}
+\indexentry{پیدا کار تفاعل!ہرمائٹ کثیررکنی}{310}
 \indexentry{Weber's equation}{310}
 \indexentry{مساوات!ویبر}{310}
 \indexentry{ویبر!مساوات}{310}
 \indexentry{Laguerre polynomials}{310}
-\indexentry{کثیر رکنی!لاگیغ}{310}
-\indexentry{لاگیغ کثیر رکنی}{310}
+\indexentry{کثیررکنی!لاگیغ}{310}
+\indexentry{لاگیغ کثیررکنی}{310}
 \indexentry{Tchebichef polynomials}{311}
-\indexentry{کثیر رکنی!چبیشف}{311}
-\indexentry{چبیشف کثیر رکنی}{311}
+\indexentry{کثیررکنی!چبیشف}{311}
+\indexentry{چبیشف کثیررکنی}{311}
 \indexentry{Laplace transform}{316}
 \indexentry{لاپلاس بدل}{316}
 \indexentry{Laplace transformation}{316}
@@ -1051,9 +1051,9 @@
 \indexentry{Rodrigues's formula}{376}
 \indexentry{روڈریکیس!کلیہ}{376}
 \indexentry{Rodrigues's!polynomials}{376}
-\indexentry{روڈریکیس!کثیر رکنی}{376}
+\indexentry{روڈریکیس!کثیررکنی}{376}
 \indexentry{generating function!Laguerre polynomials}{378}
-\indexentry{پیداکار تفاعل!لاگیغ کثیر رکنی}{378}
+\indexentry{پیداکار تفاعل!لاگیغ کثیررکنی}{378}
 \indexentry{scalars}{389}
 \indexentry{سمتیہ!غیر}{389}
 \indexentry{غیر سمتیات}{389}
@@ -1114,7 +1114,7 @@
 \indexentry{حقیقی سمتی فضا}{401}
 \indexentry{جمع!سمتی}{401}
 \indexentry{سمتی!جمع}{401}
-\indexentry{قانون!تبادل}{402}
+\indexentry{قانون!تعویضی}{402}
 \indexentry{قانون!تلازم}{402}
 \indexentry{غیر سمتی}{402}
 \indexentry{ضرب!غیر سمتی}{402}
@@ -1152,7 +1152,7 @@
 \indexentry{ضرب!نقطہ}{406}
 \indexentry{orthogonality}{406}
 \indexentry{قائمیت}{406}
-\indexentry{استبدالی}{407}
+\indexentry{تعویضی}{407}
 \indexentry{Schwarz inequality}{407}
 \indexentry{شوارز عدم مساوات}{407}
 \indexentry{projection}{408}
@@ -1168,9 +1168,9 @@
 \indexentry{دایاں ہاتھ!کارتیسی نظام}{419}
 \indexentry{کارتیسی نظام!دائیں ہاتھ}{419}
 \indexentry{right handed}{419}
-\indexentry{moment vector}{422}
-\indexentry{قوت!معیار اثر سمتیہ}{422}
-\indexentry{معیار اثر سمتیہ}{422}
+\indexentry{moment vector}{423}
+\indexentry{قوت!معیار اثر سمتیہ}{423}
+\indexentry{معیار اثر سمتیہ}{423}
 \indexentry{angular velocity}{423}
 \indexentry{سمتی رفتار!زاویائی}{423}
 \indexentry{زاویائی سمتی رفتار}{423}
@@ -1238,7 +1238,7 @@
 \indexentry{سمتیہ!صفر}{441}
 \indexentry{صفر!سمتیہ}{441}
 \indexentry{قانون!تلازم}{441}
-\indexentry{قانون!تبادل}{441}
+\indexentry{قانون!تعویضی}{441}
 \indexentry{equilibrium}{443}
 \indexentry{متوازن}{443}
 \indexentry{transposition}{448}
@@ -1251,12 +1251,12 @@
 \indexentry{skew-symmetric}{451}
 \indexentry{قالب!منحرف تشاکلی}{451}
 \indexentry{تشاکلی!منحرف}{451}
-\indexentry{triangular!upper matrix}{451}
-\indexentry{قالب!بالائی تکونی}{451}
-\indexentry{تکونی!بالائی قالب}{451}
-\indexentry{triangular!lower matrix}{451}
-\indexentry{قالب!نچلا تکونی}{451}
-\indexentry{تکونی!نچلا قالب}{451}
+\indexentry{triangular!upper matrix}{452}
+\indexentry{قالب!بالائی تکونی}{452}
+\indexentry{تکونی!بالائی قالب}{452}
+\indexentry{triangular!lower matrix}{452}
+\indexentry{قالب!نچلا تکونی}{452}
+\indexentry{تکونی!نچلا قالب}{452}
 \indexentry{matrix!diagonal}{452}
 \indexentry{diagonal!matrix}{452}
 \indexentry{قالب!وتری}{452}
@@ -1275,12 +1275,12 @@
 \indexentry{state vector}{454}
 \indexentry{حال!سمتیہ}{454}
 \indexentry{سمتیہ!حال}{454}
-\indexentry{commutative}{456}
-\indexentry{قابل تبادل}{456}
-\indexentry{Gauss elimination}{458}
-\indexentry{گاوسی اسقاط}{458}
-\indexentry{linear system}{458}
-\indexentry{خطی نظام}{458}
+\indexentry{commutative}{457}
+\indexentry{تعویضی}{457}
+\indexentry{Gauss elimination}{459}
+\indexentry{گاوسی اسقاط}{459}
+\indexentry{linear system}{459}
+\indexentry{خطی نظام}{459}
 \indexentry{coefficients}{459}
 \indexentry{عددی سر}{459}
 \indexentry{nonhomogeneous!system}{459}
@@ -1288,15 +1288,15 @@
 \indexentry{غیر ہم جنسی!نظام}{459}
 \indexentry{homogeneous!system}{459}
 \indexentry{ہم جنسی!نظام}{459}
-\indexentry{solution!vector}{459}
-\indexentry{vector!solution}{459}
-\indexentry{سمتیہ!حل}{459}
-\indexentry{حل!سمتیہ}{459}
-\indexentry{trivial solution}{459}
-\indexentry{حل!غیر اہم صفر}{459}
-\indexentry{غیر اہم صفر حل}{459}
-\indexentry{coefficient!matrix}{459}
-\indexentry{عددی سر!قالب}{459}
+\indexentry{solution!vector}{460}
+\indexentry{vector!solution}{460}
+\indexentry{سمتیہ!حل}{460}
+\indexentry{حل!سمتیہ}{460}
+\indexentry{trivial solution}{460}
+\indexentry{حل!غیر اہم صفر}{460}
+\indexentry{غیر اہم صفر حل}{460}
+\indexentry{coefficient!matrix}{460}
+\indexentry{عددی سر!قالب}{460}
 \indexentry{augmented matrix}{460}
 \indexentry{افزودہ قالب}{460}
 \indexentry{Gauss elimination}{462}
@@ -1322,9 +1322,9 @@
 \indexentry{زینہ دار صورت!سادہ}{468}
 \indexentry{rank}{469}
 \indexentry{مرتبہ}{469}
-\indexentry{voltage division}{473}
-\indexentry{تقسیم دباو!کلیہ}{473}
-\indexentry{کلیہ!تقسیم دباو}{473}
+\indexentry{voltage division}{472}
+\indexentry{تقسیم دباو!کلیہ}{472}
+\indexentry{کلیہ!تقسیم دباو}{472}
 \indexentry{wheatstone bridge}{473}
 \indexentry{ویٹ سٹون پل}{473}
 \indexentry{ایمپیئر پیما}{473}
@@ -1430,7 +1430,7 @@
 \indexentry{حقیقی سمتی فضا}{517}
 \indexentry{جمع!سمتی}{518}
 \indexentry{سمتی!جمع}{518}
-\indexentry{قانون!تبادل}{518}
+\indexentry{قانون!تعویضی}{518}
 \indexentry{قانون!تلازم}{518}
 \indexentry{غیر سمتی}{518}
 \indexentry{ضرب!غیر سمتی}{518}
@@ -1957,7 +1957,7 @@
 \indexentry{initial conditions}{770}
 \indexentry{ابتدائی شرائط}{770}
 \indexentry{wave!one dimensional equation}{774}
-\indexentry{موج!یک بعدی مساوات}{774}
+\indexentry{موج!یک بُعدی مساوات}{774}
 \indexentry{initial conditions}{775}
 \indexentry{ابتدائی شرائط}{775}
 \indexentry{آئگنی!تفاعل}{777}
@@ -1992,7 +1992,7 @@
 \indexentry{جزوی!تفرقی قطع زائد}{788}
 \indexentry{قطع زائد!جزوی تفرقی مساوات}{788}
 \indexentry{heat!one dimensional equation}{790}
-\indexentry{حراری!یک بعدی مساوات}{790}
+\indexentry{حراری!یک بُعدی مساوات}{790}
 \indexentry{error!function}{799}
 \indexentry{تفاعل!خلل}{799}
 \indexentry{خلل!تفاعل}{799}
@@ -2141,7 +2141,7 @@
 \indexentry{کل شکلہ}{860}
 \indexentry{analytic!function}{860}
 \indexentry{تحلیلی!تفاعل}{860}
-\indexentry{کثیر رکنی}{860}
+\indexentry{کثیررکنی}{860}
 \indexentry{Cauchy Rienmann!differential equations}{864}
 \indexentry{کوشی ریمان!تفرقی مساوات}{864}
 \indexentry{harmonic!function}{868}
@@ -2152,7 +2152,7 @@
 \indexentry{function!entire}{871}
 \indexentry{تفاعل!سالم}{871}
 \indexentry{polynomial}{871}
-\indexentry{کثیر رکنی}{871}
+\indexentry{کثیررکنی}{871}
 \indexentry{rational!function}{872}
 \indexentry{ناطق تفاعل}{872}
 \indexentry{fraction!partial}{872}
@@ -2222,8 +2222,8 @@
 \indexentry{Jacobian}{906}
 \indexentry{یعقوبی}{906}
 \indexentry{one to one}{906}
-\indexentry{مطابقتی!ایک ایک}{906}
-\indexentry{ایک ایک مطابقتی}{906}
+\indexentry{مطابقتی!یک بہ یک}{906}
+\indexentry{یک بہ یک مطابقتی}{906}
 \indexentry{transformation!Mobius}{910}
 \indexentry{تبادل!موبیوس}{910}
 \indexentry{transformation!linear fractional}{910}
@@ -2642,7 +2642,7 @@
 \indexentry{rule!Weddle}{1149}
 \indexentry{قاعدہ!ویڈل}{1149}
 \indexentry{Legendre!polynomial}{1149}
-\indexentry{لیژانڈر!کثیر رکنی}{1149}
+\indexentry{لیژانڈر!کثیررکنی}{1149}
 \indexentry{Gaussian!integration formula}{1149}
 \indexentry{گاوس!کلیہ تکمل}{1149}
 \indexentry{closed!formula}{1149}
@@ -2691,7 +2691,7 @@
 \indexentry{الخوارزمی!گاوسی اسقاط}{1167}
 \indexentry{algorithm}{1167}
 \indexentry{الکراجی}{1167}
-\indexentry{کے لئے}{1167}
+\indexentry{کے لیے}{1167}
 \indexentry{روک}{1167}
 \indexentry{تب}{1167}
 \indexentry{اگر}{1167}
@@ -2748,7 +2748,7 @@
 \indexentry{امتیازی!سمتیہ}{1188}
 \indexentry{طیف}{1188}
 \indexentry{امتیازی!مقطع}{1188}
-\indexentry{امتیازی!کثیر رکنی}{1188}
+\indexentry{امتیازی!کثیررکنی}{1188}
 \indexentry{theorem!Gershgorin}{1188}
 \indexentry{مسئلہ!گرشگرین}{1188}
 \indexentry{theorem!Schur}{1190}
@@ -2814,10 +2814,10 @@
 \indexentry{جوڑ}{1216}
 \indexentry{matrix!sparse}{1216}
 \indexentry{قالب!غیر گنجان}{1216}
-\indexentry{ترکیب!لیبمن}{1216}
 \indexentry{Gauss!Seidel method}{1216}
 \indexentry{گاوس!زائڈل ترکیب}{1216}
 \indexentry{method!Liebmann}{1216}
+\indexentry{ترکیب!لیبمن}{1216}
 \indexentry{matrix!band}{1219}
 \indexentry{قالب!پٹی}{1219}
 \indexentry{matrix!tridiagonal}{1219}
@@ -2830,7 +2830,7 @@
 \indexentry{راک ویل}{1243}
 \indexentry{nondefective}{1243}
 \indexentry{بے عیب}{1243}
-\indexentry{عرصہ زندگی}{1243}
+\indexentry{عرصہ حیات}{1243}
 \indexentry{defective}{1243}
 \indexentry{عیب دار}{1243}
 \indexentry{lifetime}{1243}
@@ -3061,9 +3061,9 @@
 \indexentry{strength!breaking}{1299}
 \indexentry{طاقت!توڑ}{1299}
 \indexentry{probability!two-dimensional function}{1300}
-\indexentry{احتمال!دو بعدی تفاعل}{1300}
+\indexentry{احتمال!دو بُعدی تفاعل}{1300}
 \indexentry{random!two-dimensional variable}{1300}
-\indexentry{بلا منصوبہ!دو بعدی متغیر}{1300}
+\indexentry{بلا منصوبہ!دو بُعدی متغیر}{1300}
 \indexentry{distribution!function}{1300}
 \indexentry{تقسیمی!تفاعل}{1300}
 \indexentry{discrete!distribution}{1301}

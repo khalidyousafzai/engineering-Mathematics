@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  21 AUG 2026 15:08
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  22 AUG 2026 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1728,9 +1728,6 @@ LaTeX Info: Redefining \ttfamily on input line 308.
 LaTeX Info: Redefining \rmfamily on input line 311.
 LaTeX Info: Redefining \sffamily on input line 311.
 LaTeX Info: Redefining \ttfamily on input line 311.
-LaTeX Info: Redefining \rmfamily on input line 315.
-LaTeX Info: Redefining \sffamily on input line 315.
-LaTeX Info: Redefining \ttfamily on input line 315.
 )
 \tf@toc=\write4
 \openout4 = `engineeringMathematics.toc'.
@@ -18499,14 +18496,14 @@ LaTeX Info: Redefining \rmfamily on input line 1252.
 LaTeX Info: Redefining \sffamily on input line 1252.
 LaTeX Info: Redefining \ttfamily on input line 1252.
 
-Underfull \hbox (badness 1292) in paragraph at lines 1249--1253
+Underfull \hbox (badness 10000) in paragraph at lines 1249--1253
 []\TU/JameelNooriNastaleeq(0)/b/n/10 ثابت کریں کہ تشاکلی $\OML/cmm/b/it/10 A$ \
 TU/JameelNooriNastaleeq(0)/b/n/10 اور تشاکلی $\OML/cmm/b/it/10 B$ \TU/JameelNoo
 riNastaleeq(0)/b/n/10 کا قالبی ضرب $\OML/cmm/b/it/10 AB$ \TU/JameelNooriNastale
 eq(0)/b/n/10 اس صورت تشاکلی ہو گا جب $\OML/cmm/b/it/10 A$ \TU/JameelNooriNastal
 eeq(0)/b/n/10 اور $\OML/cmm/b/it/10 B$ \TU/JameelNooriNastaleeq(0)/b/n/10 آپس م
-یں (ضرب میں) \TU/AASameerSagarNastaleeqBold(0)/m/n/10 قابل تبادل[][] \TU/Jameel
-NooriNastaleeq(0)/b/n/10 ہوں[]
+یں (ضرب میں) \TU/AASameerSagarNastaleeqBold(0)/m/n/10 تعویضی[][] \TU/JameelNoor
+iNastaleeq(0)/b/n/10 ہوں یعنی[]
  []
 
 
@@ -53433,7 +53430,7 @@ LaTeX Info: Redefining \rmfamily on input line 2.
 LaTeX Info: Redefining \sffamily on input line 2.
 LaTeX Info: Redefining \ttfamily on input line 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
 [][]| \TU/JameelNooriNastaleeq(0)/b/n/10 alternating direction implicit[]
  []
 
@@ -53445,36 +53442,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
 
 ] [1400] [1401] [1402]
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 distribution function of the grouped[]
  []
 
 [1403] [1404]
-Underfull \hbox (badness 10000) in paragraph at lines 568--569
+Underfull \hbox (badness 10000) in paragraph at lines 569--570
 [][]| \TU/JameelNooriNastaleeq(0)/b/n/10 linear ordinary differential equa-[]
  []
 
 [1405] [1406] [1407] [1408]
-Underfull \hbox (badness 10000) in paragraph at lines 850--851
+Underfull \hbox (badness 10000) in paragraph at lines 851--852
 [][]| \TU/JameelNooriNastaleeq(0)/b/n/10 backward-difference interpolation[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 851--852
+Underfull \hbox (badness 10000) in paragraph at lines 852--853
 [][]| \TU/JameelNooriNastaleeq(0)/b/n/10 divided difference interpolation[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 852--853
+Underfull \hbox (badness 10000) in paragraph at lines 853--854
 [][]| \TU/JameelNooriNastaleeq(0)/b/n/10 forward-difference interpolation[]
  []
 
-[1409] [1410] [1411] [1412] [1413] [1414] [1415] [1416] [1417] [1418] [1419]
-[1420] [1421] [1422] [1423] [1424] [1425] [1426] [1427] [1428] [1429] [1430]
-[1431] [1432] [1433] [1434] [1435] [1436] [1437] [1438] [1439
+[1409] [1410] [1411] [1412] [1413] [1414] [1415]
+LaTeX Info: Redefining \rmfamily on input line 1457.
+LaTeX Info: Redefining \sffamily on input line 1457.
+LaTeX Info: Redefining \ttfamily on input line 1457.
 
-])
-(./engineeringMathematics.aux (./tex/mathPreface.aux)
+\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 1457--1458
+[][] []
+ []
+
+[1416] [1417] [1418] [1419] [1420] [1421] [1422] [1423] [1424] [1425] [1426]
+[1427] [1428] [1429] [1430] [1431] [1432] [1433] [1434] [1435] [1436] [1437]
+[1438]) (./engineeringMathematics.aux (./tex/mathPreface.aux)
 (./tex/prefaceFirstBook.aux) (./tex/mathFirstOrderDifferentialEquations.aux)
 (./tex/mathSecondOrderDifferentialEquations.aux)
 (./tex/mathHigherOrderDifferentialEquations.aux)
@@ -53510,12 +53513,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 81804 strings out of 474878
- 2170322 string characters out of 9512517
- 3633636 words of memory out of 7000000
- 102746 multiletter control sequences out of 15000+600000
+ 81776 strings out of 474878
+ 2169343 string characters out of 9512517
+ 3632990 words of memory out of 7000000
+ 102718 multiletter control sequences out of 15000+600000
  592377 words of font info for 188 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  117i,22n,407p,2096b,6203s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on engineeringMathematics.pdf (1453 pages).
+Output written on engineeringMathematics.pdf (1452 pages).

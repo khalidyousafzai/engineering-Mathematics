@@ -95,7 +95,7 @@
 \contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {7}}زنجیری ترکیب اور متعدد متغیرات کے تفاعل کا اوسط قیمت مسئلہ}{\farsidigits {596}}{}%
 \contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {8}}سمتی تفرق، غیر سمتی میدان کی ڈھلوان}{\farsidigits {601}}{}%
 \contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {9}}تبادل محددی نظام اور تبادل ارکان سمتیات}{\farsidigits {611}}{}%
-\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {10}}سمتی میدان کی پھیلاو}{\farsidigits {615}}{}%
+\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {10}}سمتی میدان کی پھیلاو}{\farsidigits {616}}{}%
 \contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {11}}سمتی تفاعل کی گردش}{\farsidigits {621}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {11}}سمتی تکملی احصاء۔ تکمل کے مسئلے}{\farsidigits {625}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {1}}خطی تکمل}{\farsidigits {625}}{}%
@@ -311,4 +311,3 @@
 \selectlanguage *{english}
 \selectlanguage *{urdu}
 \selectlanguage *{urdu}
-\contentsline {chapter}{فرہنگ}{\farsidigits {1399}}{}%

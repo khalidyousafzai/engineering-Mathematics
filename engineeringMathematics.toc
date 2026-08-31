@@ -48,15 +48,15 @@
 \contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {6}}قائمہ الزاویہ تفاعل کا سلسلہ}{\farsidigits {295}}{}%
 \contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {7}}مسئلہ سٹیورم لیوویل}{\farsidigits {300}}{}%
 \contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {8}}قائمیت لیژانڈر کثیررکنی اور بیسل تفاعل}{\farsidigits {305}}{}%
-\contentsline {chapter}{\numberline {\farsidigits {6}}لاپلاس تبادلہ}{\farsidigits {315}}{}%
-\contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {1}}لاپلاس بدل۔ الٹ لاپلاس بدل۔ خطیت}{\farsidigits {316}}{}%
-\contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {2}}تفارق اور تکملات کے لاپلاس بدل۔ سادہ تفرقی مساوات}{\farsidigits {323}}{}%
+\contentsline {chapter}{\numberline {\farsidigits {6}}لاپلاس تبادل}{\farsidigits {315}}{}%
+\contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {1}}لاپلاس تبادل۔ الٹ لاپلاس تبادل۔ خطیت}{\farsidigits {316}}{}%
+\contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {2}}تفارق اور تکملات کے لاپلاس تبادل۔ سادہ تفرقی مساوات}{\farsidigits {323}}{}%
 \contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {3}}\:\(s\)\: محور پر منتقلی، \:\(t\)\: محور پر منتقلی، اکائی سیڑھی تفاعل}{\farsidigits {333}}{}%
 \contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {4}}ڈیراک ڈیلٹائی تفاعل۔ اکائی ضرب تفاعل۔ جزوی کسری پھیلاو}{\farsidigits {350}}{}%
 \contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {5}}الجھاو}{\farsidigits {366}}{}%
-\contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {6}}لاپلاس بدل کی تکمل اور تفرق۔ متغیر عددی سر والے سادہ تفرقی مساوات}{\farsidigits {373}}{}%
+\contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {6}}لاپلاس تبادل کی تکمل اور تفرق۔ متغیر عددی سر والے سادہ تفرقی مساوات}{\farsidigits {373}}{}%
 \contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {7}}تفرقی مساوات کے نظام}{\farsidigits {379}}{}%
-\contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {8}}لاپلاس بدل کے عمومی کلیات}{\farsidigits {386}}{}%
+\contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {8}}لاپلاس تبادل کے عمومی کلیات}{\farsidigits {386}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {7}}خطی الجبرا: سمتیات}{\farsidigits {389}}{}%
 \contentsline {section}{\numberline {\farsidigits {7}.\farsidigits {1}}غیر سمتیات اور سمتیات}{\farsidigits {389}}{}%
 \contentsline {section}{\numberline {\farsidigits {7}.\farsidigits {2}}سمتیہ کے اجزاء}{\farsidigits {391}}{}%
@@ -125,8 +125,8 @@
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {2}}نمونہ کشی: ارتعاش پذیر تار۔ یک بُعدی مساوات موج}{\farsidigits {773}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {3}}علیحدگی متغیرات (ترکیب ضرب)}{\farsidigits {775}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {4}}مساوات موج کا دا لومبیغ حل}{\farsidigits {785}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {5}}یک بُعدی بہاو حرارت}{\farsidigits {790}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {6}}لامتناہی لمبائی کی سلاخ میں بہاو حرارت}{\farsidigits {797}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {5}}یک بُعدی بہاؤ حرارت}{\farsidigits {790}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {6}}لامتناہی لمبائی کی سلاخ میں بہاؤ حرارت}{\farsidigits {797}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {7}}نمونہ کشی: ارتعاش پذیر جھلی۔ دو ابعادی مساوات موج}{\farsidigits {802}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {8}}مستطیل جھلی}{\farsidigits {804}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {9}}قطبی محدد میں لاپلاسی}{\farsidigits {813}}{}%
@@ -161,9 +161,9 @@
 \contentsline {chapter}{\numberline {\farsidigits {17}}ترتیب اور تسلسل}{\farsidigits {973}}{}%
 \contentsline {section}{\numberline {\farsidigits {17}.\farsidigits {1}}ترتیب}{\farsidigits {973}}{}%
 \contentsline {section}{\numberline {\farsidigits {17}.\farsidigits {2}}تسلسل}{\farsidigits {979}}{}%
-\contentsline {section}{\numberline {\farsidigits {17}.\farsidigits {3}}کوشی اصول مرکوزیت برائے ترتیب اور تسلسل}{\farsidigits {983}}{}%
+\contentsline {section}{\numberline {\farsidigits {17}.\farsidigits {3}}کوشی اصول ارتکاز برائے ترتیب اور تسلسل}{\farsidigits {983}}{}%
 \contentsline {section}{\numberline {\farsidigits {17}.\farsidigits {4}}یک سر حقیقی ترتیب۔لیبنٹز پرکھ برائے حقیقی تسلسل}{\farsidigits {988}}{}%
-\contentsline {section}{\numberline {\farsidigits {17}.\farsidigits {5}}تسلسل کی مرکوزیت اور انفراج کی پرکھیں}{\farsidigits {992}}{}%
+\contentsline {section}{\numberline {\farsidigits {17}.\farsidigits {5}}تسلسل کے ارتکاز اور انفراج کی پرکھیں}{\farsidigits {992}}{}%
 \contentsline {section}{\numberline {\farsidigits {17}.\farsidigits {6}}تسلسل پر اعمال}{\farsidigits {1001}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {18}}طاقتی تسلسل، ٹیلر تسلسل اور لوغوں تسلسل}{\farsidigits {1007}}{}%
 \contentsline {section}{\numberline {\farsidigits {18}.\farsidigits {1}}طاقتی تسلسل}{\farsidigits {1007}}{}%
@@ -181,7 +181,7 @@
 \contentsline {section}{\numberline {\farsidigits {19}.\farsidigits {4}}حقیقی تکمل کے دیگر اقسام}{\farsidigits {1081}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {20}}مخلوط تحلیل تفاعل اور نظریہ مخفی قوہ}{\farsidigits {1089}}{}%
 \contentsline {section}{\numberline {\farsidigits {20}.\farsidigits {1}}ساکن برقی سکون}{\farsidigits {1089}}{}%
-\contentsline {section}{\numberline {\farsidigits {20}.\farsidigits {2}}دو بُعدی بہاو سیال}{\farsidigits {1095}}{}%
+\contentsline {section}{\numberline {\farsidigits {20}.\farsidigits {2}}دو بُعدی بہاؤ سیال}{\farsidigits {1095}}{}%
 \contentsline {section}{\numberline {\farsidigits {20}.\farsidigits {3}}ہارمونی تفاعل کے عمومی خواص}{\farsidigits {1103}}{}%
 \contentsline {section}{\numberline {\farsidigits {20}.\farsidigits {4}}پوسوں کلیہ تکمل}{\farsidigits {1107}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {21}}اعدادی تجزیہ}{\farsidigits {1113}}{}%
@@ -215,7 +215,7 @@
 \contentsline {section}{\numberline {\farsidigits {24}.\farsidigits {4}}بلا منصوبہ تجربات، انجام، وقوعات}{\farsidigits {1257}}{}%
 \contentsline {section}{\numberline {\farsidigits {24}.\farsidigits {5}}احتمال}{\farsidigits {1263}}{}%
 \contentsline {section}{\numberline {\farsidigits {24}.\farsidigits {6}}مرتب اجتماعات اور غیر مرتب اجتماعات}{\farsidigits {1269}}{}%
-\contentsline {section}{\numberline {\farsidigits {24}.\farsidigits {7}}بلا منصوبہ متغیرات۔ غیر مسلسل اور استمراری تقسیم}{\farsidigits {1274}}{}%
+\contentsline {section}{\numberline {\farsidigits {24}.\farsidigits {7}}بلا منصوبہ متغیرات۔ منفصل اور استمراری تقسیم}{\farsidigits {1274}}{}%
 \contentsline {section}{\numberline {\farsidigits {24}.\farsidigits {8}}تقسیم کا اوسط اور اس کی تغیریت}{\farsidigits {1280}}{}%
 \contentsline {section}{\numberline {\farsidigits {24}.\farsidigits {9}}ثنائی، پوئسن، اور بیش ہندسی تقسیم}{\farsidigits {1286}}{}%
 \contentsline {section}{\numberline {\farsidigits {24}.\farsidigits {10}}عمومی تقسیم}{\farsidigits {1292}}{}%

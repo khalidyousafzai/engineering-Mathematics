@@ -140,7 +140,7 @@
 \indexentry{linear!ordinary differential equations}{\farsidigits {40}}
 \indexentry{خطی!سادہ تفرقی مساوات}{\farsidigits {40}}
 \indexentry{voltage}{\farsidigits {40}}
-\indexentry{برقی دباو}{\farsidigits {40}}
+\indexentry{برقی دباؤ}{\farsidigits {40}}
 \indexentry{displacement}{\farsidigits {40}}
 \indexentry{ہٹاو}{\farsidigits {40}}
 \indexentry{force}{\farsidigits {40}}
@@ -164,7 +164,7 @@
 \indexentry{heterogeneous}{\farsidigits {41}}
 \indexentry{غیر متجانس}{\farsidigits {41}}
 \indexentry{voltage}{\farsidigits {43}}
-\indexentry{برقی دباو}{\farsidigits {43}}
+\indexentry{برقی دباؤ}{\farsidigits {43}}
 \indexentry{series circuit}{\farsidigits {43}}
 \indexentry{سلسلہ وار دور}{\farsidigits {43}}
 \indexentry{inductor}{\farsidigits {43}}
@@ -180,7 +180,7 @@
 \indexentry{Ohm}{\farsidigits {43}}
 \indexentry{اوہم}{\farsidigits {43}}
 \indexentry{Kirchoff's law!voltage}{\farsidigits {43}}
-\indexentry{کرخوف!قانون دباو}{\farsidigits {43}}
+\indexentry{کرخوف!قانون دباؤ}{\farsidigits {43}}
 \indexentry{steady state}{\farsidigits {44}}
 \indexentry{برقرار حال}{\farsidigits {44}}
 \indexentry{hormones}{\farsidigits {44}}
@@ -397,7 +397,7 @@
 \indexentry{auxiliary equation}{\farsidigits {100}}
 \indexentry{ذیلی مساوات}{\farsidigits {100}}
 \indexentry{voltage}{\farsidigits {102}}
-\indexentry{برقی دباو}{\farsidigits {102}}
+\indexentry{برقی دباؤ}{\farsidigits {102}}
 \indexentry{existence}{\farsidigits {106}}
 \indexentry{وجودیت}{\farsidigits {106}}
 \indexentry{uniqueness}{\farsidigits {106}}
@@ -828,7 +828,7 @@
 \indexentry{طاقتی تسلسل!مجموعہ}{\farsidigits {240}}
 \indexentry{power series!value or sum}{\farsidigits {240}}
 \indexentry{طاقتی تسلسل!قیمت}{\farsidigits {240}}
-\indexentry{converge}{\farsidigits {240}}
+\indexentry{convergent}{\farsidigits {240}}
 \indexentry{مرتکز}{\farsidigits {240}}
 \indexentry{منفرج}{\farsidigits {240}}
 \indexentry{divergent}{\farsidigits {240}}
@@ -997,11 +997,11 @@
 \indexentry{کثیررکنی!چبیشف}{\farsidigits {311}}
 \indexentry{چبیشف کثیررکنی}{\farsidigits {311}}
 \indexentry{Laplace transform}{\farsidigits {316}}
-\indexentry{لاپلاس بدل}{\farsidigits {316}}
+\indexentry{لاپلاس تبادل}{\farsidigits {316}}
 \indexentry{Laplace transformation}{\farsidigits {316}}
 \indexentry{لاپلاس تبادلہ}{\farsidigits {316}}
 \indexentry{Laplace!inverse transform}{\farsidigits {316}}
-\indexentry{لاپلاس!معکوس بدل}{\farsidigits {316}}
+\indexentry{لاپلاس!معکوس تبادل}{\farsidigits {316}}
 \indexentry{improper integral}{\farsidigits {316}}
 \indexentry{غیر مناسب تکمل}{\farsidigits {316}}
 \indexentry{continuous!piecewise}{\farsidigits {319}}
@@ -1323,8 +1323,8 @@
 \indexentry{rank}{\farsidigits {469}}
 \indexentry{مرتبہ}{\farsidigits {469}}
 \indexentry{voltage division}{\farsidigits {472}}
-\indexentry{تقسیم دباو!کلیہ}{\farsidigits {472}}
-\indexentry{کلیہ!تقسیم دباو}{\farsidigits {472}}
+\indexentry{تقسیم دباؤ!کلیہ}{\farsidigits {472}}
+\indexentry{کلیہ!تقسیم دباؤ}{\farsidigits {472}}
 \indexentry{wheatstone bridge}{\farsidigits {473}}
 \indexentry{ویٹ سٹون پل}{\farsidigits {473}}
 \indexentry{ایمپیئر پیما}{\farsidigits {473}}
@@ -1491,7 +1491,7 @@
 \indexentry{Cartesian coordinate system}{\farsidigits {524}}
 \indexentry{کارتیسی نظام محدد}{\farsidigits {524}}
 \indexentry{inverse transform}{\farsidigits {524}}
-\indexentry{معکوس بدل}{\farsidigits {524}}
+\indexentry{معکوس تبادل}{\farsidigits {524}}
 \indexentry{composition}{\farsidigits {525}}
 \indexentry{نظم}{\farsidigits {525}}
 \indexentry{eigenvalues}{\farsidigits {529}}
@@ -1851,7 +1851,7 @@
 \indexentry{سٹوکس!مسئلہ}{\farsidigits {691}}
 \indexentry{مسئلہ!سٹوکس}{\farsidigits {691}}
 \indexentry{circulation}{\farsidigits {695}}
-\indexentry{دائری بہاو}{\farsidigits {695}}
+\indexentry{دائری بہاؤ}{\farsidigits {695}}
 \indexentry{independent of path}{\farsidigits {697}}
 \indexentry{راہ سے آزاد}{\farsidigits {697}}
 \indexentry{single valued}{\farsidigits {697}}
@@ -1937,9 +1937,9 @@
 \indexentry{Laplace!integrals}{\farsidigits {764}}
 \indexentry{لاپلاس!تکملات}{\farsidigits {764}}
 \indexentry{Fourier!transform}{\farsidigits {768}}
-\indexentry{فوریئر!بدل}{\farsidigits {768}}
+\indexentry{فوریئر!تبادل}{\farsidigits {768}}
 \indexentry{Fourier!inverse transform}{\farsidigits {768}}
-\indexentry{فوریئر!معکوس بدل}{\farsidigits {768}}
+\indexentry{فوریئر!معکوس تبادل}{\farsidigits {768}}
 \indexentry{differential!partial equation}{\farsidigits {769}}
 \indexentry{جزوی!تفرقی مساوات}{\farsidigits {769}}
 \indexentry{تفرقی!جزوی مساوات}{\farsidigits {769}}
@@ -2295,8 +2295,8 @@
 \indexentry{real!sequence}{\farsidigits {973}}
 \indexentry{حقیقی!ترتیب}{\farsidigits {973}}
 \indexentry{ترتیب!حقیقی}{\farsidigits {973}}
+\indexentry{convergent}{\farsidigits {973}}
 \indexentry{مرتکز}{\farsidigits {973}}
-\indexentry{مرکوز}{\farsidigits {973}}
 \indexentry{limit}{\farsidigits {974}}
 \indexentry{حد}{\farsidigits {974}}
 \indexentry{divergent}{\farsidigits {974}}
@@ -2318,16 +2318,16 @@
 \indexentry{value}{\farsidigits {979}}
 \indexentry{قیمت}{\farsidigits {979}}
 \indexentry{convergent}{\farsidigits {979}}
-\indexentry{مرکوز}{\farsidigits {979}}
-\indexentry{divergent}{\farsidigits {979}}
-\indexentry{منفرج}{\farsidigits {979}}
+\indexentry{مرتکز}{\farsidigits {979}}
+\indexentry{divergent}{\farsidigits {980}}
+\indexentry{منفرج}{\farsidigits {980}}
 \indexentry{harmonic!series}{\farsidigits {980}}
 \indexentry{ہارمونی!تسلسل}{\farsidigits {980}}
 \indexentry{convergent!absolutely}{\farsidigits {982}}
 \indexentry{مرتکز!مطلق}{\farsidigits {982}}
 \indexentry{convergent!conditional}{\farsidigits {982}}
 \indexentry{مرتکز!مشروط}{\farsidigits {982}}
-\indexentry{کوشی کا اصول مرکوزیت}{\farsidigits {983}}
+\indexentry{کوشی کا اصول ارتکاز}{\farsidigits {983}}
 \indexentry{Cauchy' convergence principle}{\farsidigits {983}}
 \indexentry{limit!point}{\farsidigits {983}}
 \indexentry{نقطہ!تحدیدی}{\farsidigits {983}}
@@ -2335,9 +2335,9 @@
 \indexentry{Bolzano and Weierstrass}{\farsidigits {984}}
 \indexentry{بلزانو اور وائشسٹراس}{\farsidigits {984}}
 \indexentry{Cauchy's conversion principle!sequence}{\farsidigits {984}}
-\indexentry{کوشی اصول مرکوزیت!برائے ترتیب}{\farsidigits {984}}
+\indexentry{کوشی اصول ارتکاز!برائے ترتیب}{\farsidigits {984}}
 \indexentry{Cauchy's conversion principle!series}{\farsidigits {986}}
-\indexentry{کوشی اصول مرکوزیت!تسلسل}{\farsidigits {986}}
+\indexentry{کوشی اصول ارتکاز!تسلسل}{\farsidigits {986}}
 \indexentry{monotone!increasing}{\farsidigits {988}}
 \indexentry{یک سر!بڑھتی}{\farsidigits {988}}
 \indexentry{monotone!sequence}{\farsidigits {988}}
@@ -2345,8 +2345,8 @@
 \indexentry{یک سر!ترتیب}{\farsidigits {988}}
 \indexentry{monotone!decreasing}{\farsidigits {988}}
 \indexentry{یک سر!گھٹتی}{\farsidigits {988}}
-\indexentry{conversion!real sequences}{\farsidigits {988}}
-\indexentry{مرکوزیت!حقیقی ترتیب}{\farsidigits {988}}
+\indexentry{convergence!real sequences}{\farsidigits {988}}
+\indexentry{ارتکاز!حقیقی ترتیب}{\farsidigits {988}}
 \indexentry{test!Leibniz}{\farsidigits {989}}
 \indexentry{لبنیٹز پرکھ}{\farsidigits {989}}
 \indexentry{پرکھ!لبنیٹز}{\farsidigits {989}}
@@ -2482,10 +2482,10 @@
 \indexentry{قوت!خط}{\farsidigits {1091}}
 \indexentry{خط!قوت}{\farsidigits {1091}}
 \indexentry{streamline}{\farsidigits {1095}}
-\indexentry{سمت بہاو}{\farsidigits {1095}}
+\indexentry{سمت بہاؤ}{\farsidigits {1095}}
 \indexentry{circulation}{\farsidigits {1095}}
-\indexentry{دائری بہاو}{\farsidigits {1095}}
-\indexentry{بہاو!دائری}{\farsidigits {1095}}
+\indexentry{دائری بہاؤ}{\farsidigits {1095}}
+\indexentry{بہاؤ!دائری}{\farsidigits {1095}}
 \indexentry{vorticity}{\farsidigits {1096}}
 \indexentry{گردابیت}{\farsidigits {1096}}
 \indexentry{rotation}{\farsidigits {1096}}
@@ -2502,7 +2502,7 @@
 \indexentry{equipotential!lines}{\farsidigits {1098}}
 \indexentry{ہم قوہ!خط}{\farsidigits {1098}}
 \indexentry{stream!function}{\farsidigits {1098}}
-\indexentry{تفاعل!بہاو}{\farsidigits {1098}}
+\indexentry{تفاعل!بہاؤ}{\farsidigits {1098}}
 \indexentry{potential!complex}{\farsidigits {1098}}
 \indexentry{مخلوط مخفی قوہ}{\farsidigits {1098}}
 \indexentry{source}{\farsidigits {1101}}
@@ -2542,9 +2542,9 @@
 \indexentry{error!truncation}{\farsidigits {1114}}
 \indexentry{خلل!حذفی}{\farsidigits {1114}}
 \indexentry{error!round off}{\farsidigits {1114}}
-\indexentry{خلل!پور و پور}{\farsidigits {1114}}
-\indexentry{fixed point}{\farsidigits {1114}}
-\indexentry{مقررہ نقطہ نظام}{\farsidigits {1114}}
+\indexentry{خلل!پورم پور}{\farsidigits {1114}}
+\indexentry{fixed point}{\farsidigits {1115}}
+\indexentry{مقررہ نقطہ نظام}{\farsidigits {1115}}
 \indexentry{floating point}{\farsidigits {1115}}
 \indexentry{غیر مقررہ نقطہ نظام}{\farsidigits {1115}}
 \indexentry{significant digits}{\farsidigits {1115}}
@@ -2553,9 +2553,9 @@
 \indexentry{جذر}{\farsidigits {1115}}
 \indexentry{algebraic equations}{\farsidigits {1115}}
 \indexentry{الجبرائی!مساوات}{\farsidigits {1115}}
-\indexentry{transcendental!equations}{\farsidigits {1115}}
-\indexentry{ماورائی!مساوات}{\farsidigits {1115}}
-\indexentry{مساوات!ماورائی}{\farsidigits {1115}}
+\indexentry{transcendental!equations}{\farsidigits {1116}}
+\indexentry{ماورائی!مساوات}{\farsidigits {1116}}
+\indexentry{مساوات!ماورائی}{\farsidigits {1116}}
 \indexentry{fixed point}{\farsidigits {1116}}
 \indexentry{مقررہ نقطہ}{\farsidigits {1116}}
 \indexentry{مرتکز}{\farsidigits {1117}}
@@ -2770,7 +2770,7 @@
 \indexentry{initial!value problem}{\farsidigits {1199}}
 \indexentry{ابتدائی!قیمت مسئلہ}{\farsidigits {1199}}
 \indexentry{step by step method}{\farsidigits {1199}}
-\indexentry{قدم با قدم ترکیب}{\farsidigits {1199}}
+\indexentry{قدم بہ قدم ترکیب}{\farsidigits {1199}}
 \indexentry{Euler Cauchy method}{\farsidigits {1200}}
 \indexentry{یولر کوشی ترکیب}{\farsidigits {1200}}
 \indexentry{Euler!method}{\farsidigits {1200}}
@@ -2779,12 +2779,12 @@
 \indexentry{ترکیب!یک رتبی}{\farsidigits {1200}}
 \indexentry{error!truncation}{\farsidigits {1200}}
 \indexentry{خلل!قطع چال}{\farsidigits {1200}}
-\indexentry{Euler!improved method}{\farsidigits {1201}}
-\indexentry{یولر!بہتر ترکیب}{\farsidigits {1201}}
+\indexentry{Euler!improved method}{\farsidigits {1202}}
+\indexentry{یولر!بہتر ترکیب}{\farsidigits {1202}}
 \indexentry{predictor-corrector method}{\farsidigits {1202}}
 \indexentry{پیش گو، مصحح ترکیب}{\farsidigits {1202}}
-\indexentry{second order method}{\farsidigits {1202}}
-\indexentry{رتبہ!دو ترکیب}{\farsidigits {1202}}
+\indexentry{second order method}{\farsidigits {1203}}
+\indexentry{رتبہ!دو ترکیب}{\farsidigits {1203}}
 \indexentry{Runge-Kutta method}{\farsidigits {1204}}
 \indexentry{رنج کوٹا ترکیب}{\farsidigits {1204}}
 \indexentry{ترکیب!رنج کوٹا}{\farsidigits {1204}}
@@ -2989,7 +2989,7 @@
 \indexentry{continuous}{\farsidigits {1275}}
 \indexentry{استمراری}{\farsidigits {1275}}
 \indexentry{discrete}{\farsidigits {1275}}
-\indexentry{غیر مسلسل}{\farsidigits {1275}}
+\indexentry{منفصل}{\farsidigits {1275}}
 \indexentry{probability!function}{\farsidigits {1276}}
 \indexentry{احتمال!تفاعل}{\farsidigits {1276}}
 \indexentry{distribution}{\farsidigits {1276}}
@@ -3068,8 +3068,8 @@
 \indexentry{تقسیمی!تفاعل}{\farsidigits {1300}}
 \indexentry{discrete!distribution}{\farsidigits {1301}}
 \indexentry{discrete!variable}{\farsidigits {1301}}
-\indexentry{غیر مسلسل!متغیر}{\farsidigits {1301}}
-\indexentry{غیر مسلسل!تقسیم}{\farsidigits {1301}}
+\indexentry{منفصل!متغیر}{\farsidigits {1301}}
+\indexentry{منفصل!تقسیم}{\farsidigits {1301}}
 \indexentry{distribution!marginal}{\farsidigits {1303}}
 \indexentry{تقسیم!حاشیہ}{\farsidigits {1303}}
 \indexentry{independent}{\farsidigits {1304}}

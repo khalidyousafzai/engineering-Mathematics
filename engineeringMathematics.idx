@@ -323,7 +323,7 @@
 \indexentry{مماثلی!عامل}{\farsidigits {84}}
 \indexentry{عامل!مماثلی}{\farsidigits {84}}
 \indexentry{polynomial}{\farsidigits {84}}
-\indexentry{کثیررکنی}{\farsidigits {84}}
+\indexentry{کثیر رکنی}{\farsidigits {84}}
 \indexentry{factorization}{\farsidigits {85}}
 \indexentry{تجزی}{\farsidigits {85}}
 \indexentry{induction}{\farsidigits {86}}
@@ -818,7 +818,7 @@
 \indexentry{Legendre!function}{\farsidigits {239}}
 \indexentry{لیژانڈر!تفاعل}{\farsidigits {239}}
 \indexentry{Legendre!polynomial}{\farsidigits {239}}
-\indexentry{لیژانڈر!کثیررکنی تفاعل}{\farsidigits {239}}
+\indexentry{لیژانڈر!کثیر رکنی تفاعل}{\farsidigits {239}}
 \indexentry{order!Legendre}{\farsidigits {239}}
 \indexentry{درجہ!لیژانڈر}{\farsidigits {239}}
 \indexentry{partial sum}{\farsidigits {239}}
@@ -858,9 +858,9 @@
 \indexentry{توالی کلیہ}{\farsidigits {249}}
 \indexentry{کلیہ!توالی}{\farsidigits {249}}
 \indexentry{Legendre!polynomial}{\farsidigits {250}}
-\indexentry{لیژانڈر!کثیررکنی}{\farsidigits {250}}
+\indexentry{لیژانڈر!کثیر رکنی}{\farsidigits {250}}
 \indexentry{Legendre!polynomial}{\farsidigits {251}}
-\indexentry{لیژانڈر!کثیررکنی}{\farsidigits {251}}
+\indexentry{لیژانڈر!کثیر رکنی}{\farsidigits {251}}
 \indexentry{orthogonal}{\farsidigits {252}}
 \indexentry{قائمہ الزاویہ}{\farsidigits {252}}
 \indexentry{مسئلہ ثنائی، الکراجی}{\farsidigits {253}}
@@ -984,18 +984,18 @@
 \indexentry{Fourier Bessel Series}{\farsidigits {307}}
 \indexentry{فوریئر بیسل تسلسل}{\farsidigits {307}}
 \indexentry{Hermite!polynomials}{\farsidigits {309}}
-\indexentry{کثیررکنی!ہرمائٹ}{\farsidigits {309}}
-\indexentry{ہرمائٹ!کثیررکنی}{\farsidigits {309}}
-\indexentry{پیدا کار تفاعل!ہرمائٹ کثیررکنی}{\farsidigits {310}}
+\indexentry{کثیر رکنی!ہرمائٹ}{\farsidigits {309}}
+\indexentry{ہرمائٹ!کثیر رکنی}{\farsidigits {309}}
+\indexentry{پیدا کار تفاعل!ہرمائٹ کثیر رکنی}{\farsidigits {310}}
 \indexentry{Weber's equation}{\farsidigits {310}}
 \indexentry{مساوات!ویبر}{\farsidigits {310}}
 \indexentry{ویبر!مساوات}{\farsidigits {310}}
 \indexentry{Laguerre polynomials}{\farsidigits {310}}
-\indexentry{کثیررکنی!لاگیغ}{\farsidigits {310}}
-\indexentry{لاگیغ کثیررکنی}{\farsidigits {310}}
+\indexentry{کثیر رکنی!لاگیغ}{\farsidigits {310}}
+\indexentry{لاگیغ کثیر رکنی}{\farsidigits {310}}
 \indexentry{Tchebichef polynomials}{\farsidigits {311}}
-\indexentry{کثیررکنی!چبیشف}{\farsidigits {311}}
-\indexentry{چبیشف کثیررکنی}{\farsidigits {311}}
+\indexentry{کثیر رکنی!چبیشف}{\farsidigits {311}}
+\indexentry{چبیشف کثیر رکنی}{\farsidigits {311}}
 \indexentry{Laplace transform}{\farsidigits {316}}
 \indexentry{لاپلاس تبادل}{\farsidigits {316}}
 \indexentry{Laplace transformation}{\farsidigits {316}}
@@ -1051,9 +1051,9 @@
 \indexentry{Rodrigues's formula}{\farsidigits {376}}
 \indexentry{روڈریکیس!کلیہ}{\farsidigits {376}}
 \indexentry{Rodrigues's!polynomials}{\farsidigits {376}}
-\indexentry{روڈریکیس!کثیررکنی}{\farsidigits {376}}
+\indexentry{روڈریکیس!کثیر رکنی}{\farsidigits {376}}
 \indexentry{generating function!Laguerre polynomials}{\farsidigits {378}}
-\indexentry{پیداکار تفاعل!لاگیغ کثیررکنی}{\farsidigits {378}}
+\indexentry{پیداکار تفاعل!لاگیغ کثیر رکنی}{\farsidigits {378}}
 \indexentry{scalars}{\farsidigits {389}}
 \indexentry{سمتیہ!غیر}{\farsidigits {389}}
 \indexentry{غیر سمتیات}{\farsidigits {389}}
@@ -2141,7 +2141,7 @@
 \indexentry{کل شکلہ}{\farsidigits {860}}
 \indexentry{analytic!function}{\farsidigits {860}}
 \indexentry{تحلیلی!تفاعل}{\farsidigits {860}}
-\indexentry{کثیررکنی}{\farsidigits {860}}
+\indexentry{کثیر رکنی}{\farsidigits {860}}
 \indexentry{Cauchy Rienmann!differential equations}{\farsidigits {864}}
 \indexentry{کوشی ریمان!تفرقی مساوات}{\farsidigits {864}}
 \indexentry{harmonic!function}{\farsidigits {868}}
@@ -2152,7 +2152,7 @@
 \indexentry{function!entire}{\farsidigits {871}}
 \indexentry{تفاعل!سالم}{\farsidigits {871}}
 \indexentry{polynomial}{\farsidigits {871}}
-\indexentry{کثیررکنی}{\farsidigits {871}}
+\indexentry{کثیر رکنی}{\farsidigits {871}}
 \indexentry{rational!function}{\farsidigits {872}}
 \indexentry{ناطق تفاعل}{\farsidigits {872}}
 \indexentry{fraction!partial}{\farsidigits {872}}
@@ -2642,7 +2642,7 @@
 \indexentry{rule!Weddle}{\farsidigits {1149}}
 \indexentry{قاعدہ!ویڈل}{\farsidigits {1149}}
 \indexentry{Legendre!polynomial}{\farsidigits {1149}}
-\indexentry{لیژانڈر!کثیررکنی}{\farsidigits {1149}}
+\indexentry{لیژانڈر!کثیر رکنی}{\farsidigits {1149}}
 \indexentry{Gaussian!integration formula}{\farsidigits {1149}}
 \indexentry{گاوس!کلیہ تکمل}{\farsidigits {1149}}
 \indexentry{closed!formula}{\farsidigits {1149}}
@@ -2748,7 +2748,7 @@
 \indexentry{امتیازی!سمتیہ}{\farsidigits {1188}}
 \indexentry{طیف}{\farsidigits {1188}}
 \indexentry{امتیازی!مقطع}{\farsidigits {1188}}
-\indexentry{امتیازی!کثیررکنی}{\farsidigits {1188}}
+\indexentry{امتیازی!کثیر رکنی}{\farsidigits {1188}}
 \indexentry{theorem!Gershgorin}{\farsidigits {1188}}
 \indexentry{مسئلہ!گرشگرین}{\farsidigits {1188}}
 \indexentry{theorem!Schur}{\farsidigits {1190}}

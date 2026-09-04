@@ -12,19 +12,19 @@
 \contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {7}}ابتدائی قیمت تفرقی مساوات:حل کی وجودیت اور یکتائیت}{\farsidigits {55}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {2}}دو رتبی سادہ تفرقی مساوات}{\farsidigits {61}}{}%
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {1}}متجانس خطی دو رتبی تفرقی مساوات}{\farsidigits {61}}{}%
-\contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {2}}مستقل عددی سر والے متجانس خطی سادہ تفرقی مساوات}{\farsidigits {73}}{}%
+\contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {2}}مستقل ضریب والے متجانس خطی سادہ تفرقی مساوات}{\farsidigits {73}}{}%
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {3}}تفرقی عامل}{\farsidigits {84}}{}%
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {4}}اسپرنگ سے جڑی کمیت کی آزادانہ ارتعاش}{\farsidigits {87}}{}%
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {5}}یولر کوشی مساوات}{\farsidigits {100}}{}%
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {6}}حل کی وجودیت اور یکتائی؛ ورونسکی}{\farsidigits {106}}{}%
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {7}}غیر متجانس سادہ تفرقی مساوات}{\farsidigits {113}}{}%
-\contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {8}}جبری ارتعاش۔ گمک}{\farsidigits {121}}{}%
+\contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {8}}جبری ارتعاش۔ گمک}{\farsidigits {122}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {2}.\farsidigits {8}.\farsidigits {1}}برقرار حال حل کا حیطہ۔عملی گمک}{\farsidigits {127}}{}%
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {9}}برقی ادوار کی نمونہ کشی}{\farsidigits {131}}{}%
 \contentsline {section}{\numberline {\farsidigits {2}.\farsidigits {10}}مقدار معلوم بدلنے کے طریقے سے غیر متجانس خطی سادہ تفرقی مساوات کا حل}{\farsidigits {140}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {3}}بلند رتبی خطی سادہ تفرقی مساوات}{\farsidigits {145}}{}%
 \contentsline {section}{\numberline {\farsidigits {3}.\farsidigits {1}}متجانس خطی سادہ تفرقی مساوات}{\farsidigits {145}}{}%
-\contentsline {section}{\numberline {\farsidigits {3}.\farsidigits {2}}مستقل عددی سر والے متجانس خطی سادہ تفرقی مساوات}{\farsidigits {153}}{}%
+\contentsline {section}{\numberline {\farsidigits {3}.\farsidigits {2}}مستقل ضریب والے متجانس خطی سادہ تفرقی مساوات}{\farsidigits {153}}{}%
 \contentsline {section}{\numberline {\farsidigits {3}.\farsidigits {3}}غیر متجانس خطی سادہ تفرقی مساوات}{\farsidigits {160}}{}%
 \contentsline {section}{\numberline {\farsidigits {3}.\farsidigits {4}}مقدار معلوم بدلنے کے طریقے سے غیر متجانس خطی سادہ تفرقی مساوات کا حل}{\farsidigits {163}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {4}}نظامِ تفرقی مساوات}{\farsidigits {169}}{}%
@@ -32,12 +32,12 @@
 \contentsline {section}{\numberline {\farsidigits {4}.\farsidigits {2}}سادہ تفرقی مساوات کے نظام بطور انجینئری مسائل کے نمونے}{\farsidigits {177}}{}%
 \contentsline {section}{\numberline {\farsidigits {4}.\farsidigits {3}}نظریہ نظام سادہ تفرقی مساوات اور ورونسکی}{\farsidigits {188}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {4}.\farsidigits {3}.\farsidigits {1}}خطی نظام}{\farsidigits {190}}{}%
-\contentsline {section}{\numberline {\farsidigits {4}.\farsidigits {4}}مستقل عددی سر والے نظام۔ سطح مرحلہ کی ترکیب}{\farsidigits {192}}{}%
+\contentsline {section}{\numberline {\farsidigits {4}.\farsidigits {4}}مستقل ضریب والے نظام۔ سطح مرحلہ کی ترکیب}{\farsidigits {192}}{}%
 \contentsline {section}{\numberline {\farsidigits {4}.\farsidigits {5}}نقطہ فاصل کے جانچ پڑتال کا مسلمہ معیار۔استحکام}{\farsidigits {206}}{}%
 \contentsline {section}{\numberline {\farsidigits {4}.\farsidigits {6}}کیفی تراکیب برائے غیر خطی نظام}{\farsidigits {213}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {4}.\farsidigits {6}.\farsidigits {1}}سطح حرکت پر یک رتبی مساوات میں تبادلہ}{\farsidigits {220}}{}%
 \contentsline {section}{\numberline {\farsidigits {4}.\farsidigits {7}}سادہ تفرقی مساوات کے غیر متجانس خطی نظام}{\farsidigits {227}}{}%
-\contentsline {subsection}{\numberline {\farsidigits {4}.\farsidigits {7}.\farsidigits {1}}نا معلوم عددی سر کی ترکیب}{\farsidigits {227}}{}%
+\contentsline {subsection}{\numberline {\farsidigits {4}.\farsidigits {7}.\farsidigits {1}}نا معلوم ضریب کی ترکیب}{\farsidigits {227}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {5}}طاقتی تسلسل سے سادہ تفرقی مساوات کا حل۔اعلیٰ تفاعل}{\farsidigits {235}}{}%
 \contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {1}}ترکیب طاقتی تسلسل}{\farsidigits {235}}{}%
 \contentsline {section}{\numberline {\farsidigits {5}.\farsidigits {2}}لیژانڈر مساوات۔ لیژانڈر کثیر رکنی}{\farsidigits {248}}{}%
@@ -54,7 +54,7 @@
 \contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {3}}\:\(s\)\: محور پر منتقلی، \:\(t\)\: محور پر منتقلی، اکائی سیڑھی تفاعل}{\farsidigits {333}}{}%
 \contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {4}}ڈیراک ڈیلٹائی تفاعل۔ اکائی ضرب تفاعل۔ جزوی کسری پھیلاو}{\farsidigits {350}}{}%
 \contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {5}}الجھاو}{\farsidigits {366}}{}%
-\contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {6}}لاپلاس تبادل کی تکمل اور تفرق۔ متغیر عددی سر والے سادہ تفرقی مساوات}{\farsidigits {373}}{}%
+\contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {6}}لاپلاس تبادل کی تکمل اور تفرق۔ متغیر ضریب والے سادہ تفرقی مساوات}{\farsidigits {373}}{}%
 \contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {7}}تفرقی مساوات کے نظام}{\farsidigits {379}}{}%
 \contentsline {section}{\numberline {\farsidigits {6}.\farsidigits {8}}لاپلاس تبادل کے عمومی کلیات}{\farsidigits {386}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {7}}خطی الجبرا: سمتیات}{\farsidigits {389}}{}%
@@ -95,7 +95,7 @@
 \contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {7}}زنجیری ترکیب اور متعدد متغیرات کے تفاعل کا اوسط قیمت مسئلہ}{\farsidigits {596}}{}%
 \contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {8}}سمتی تفرق، غیر سمتی میدان کی ڈھلوان}{\farsidigits {601}}{}%
 \contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {9}}تبادل محددی نظام اور تبادل ارکان سمتیات}{\farsidigits {611}}{}%
-\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {10}}سمتی میدان کی پھیلاو}{\farsidigits {616}}{}%
+\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {10}}سمتی میدان کی انفراج}{\farsidigits {616}}{}%
 \contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {11}}سمتی تفاعل کی گردش}{\farsidigits {621}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {11}}سمتی تکملی احصاء۔ تکمل کے مسئلے}{\farsidigits {625}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {1}}خطی تکمل}{\farsidigits {625}}{}%
@@ -105,8 +105,8 @@
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {5}}سطحیں}{\farsidigits {657}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {6}}مماسی سطح۔بنیادی صورت اول۔ رقبہ}{\farsidigits {662}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {7}}سطحی تکمل}{\farsidigits {671}}{}%
-\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {8}}تہرا تکمل۔ گاوس کا مسئلہ پھیلاو}{\farsidigits {677}}{}%
-\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {9}}مسئلہ پھیلاو کے نتائج اور استعمال}{\farsidigits {682}}{}%
+\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {8}}تہرا تکمل۔ گاوس کا مسئلہ انفراج}{\farsidigits {677}}{}%
+\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {9}}مسئلہ انفراج کے نتائج اور استعمال}{\farsidigits {682}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {10}}مسئلہ سٹوکس}{\farsidigits {691}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {11}}مسئلہ سٹوکس کے نتائج اور عملی استعمال}{\farsidigits {694}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {12}}راہ سے آزاد خطی تکمل}{\farsidigits {697}}{}%
@@ -116,7 +116,7 @@
 \contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {3}}اختیاری دوری عرصہ والے تفاعل}{\farsidigits {725}}{}%
 \contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {4}}جفت اور طاق تفاعل}{\farsidigits {729}}{}%
 \contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {5}}نصف سعت اتساع}{\farsidigits {736}}{}%
-\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {6}}فوریئر عددی سر کا بغیر تکمل حصول}{\farsidigits {742}}{}%
+\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {6}}فوریئر ضریب کا بغیر تکمل حصول}{\farsidigits {742}}{}%
 \contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {7}}جبری ارتعاش}{\farsidigits {749}}{}%
 \contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {8}}تقریب بذریعہ تکونی کثیر رکنی۔ مکعب خلل}{\farsidigits {753}}{}%
 \contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {9}}فوریئر تکمل}{\farsidigits {756}}{}%
@@ -162,7 +162,7 @@
 \contentsline {section}{\numberline {\farsidigits {17}.\farsidigits {1}}ترتیب}{\farsidigits {973}}{}%
 \contentsline {section}{\numberline {\farsidigits {17}.\farsidigits {2}}تسلسل}{\farsidigits {979}}{}%
 \contentsline {section}{\numberline {\farsidigits {17}.\farsidigits {3}}کوشی اصول ارتکاز برائے ترتیب اور تسلسل}{\farsidigits {983}}{}%
-\contentsline {section}{\numberline {\farsidigits {17}.\farsidigits {4}}یک سر حقیقی ترتیب۔لیبنٹز پرکھ برائے حقیقی تسلسل}{\farsidigits {988}}{}%
+\contentsline {section}{\numberline {\farsidigits {17}.\farsidigits {4}}یک سر حقیقی ترتیب۔لیبنز پرکھ برائے حقیقی تسلسل}{\farsidigits {988}}{}%
 \contentsline {section}{\numberline {\farsidigits {17}.\farsidigits {5}}تسلسل کے ارتکاز اور انفراج کی پرکھیں}{\farsidigits {992}}{}%
 \contentsline {section}{\numberline {\farsidigits {17}.\farsidigits {6}}تسلسل پر اعمال}{\farsidigits {1001}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {18}}طاقتی تسلسل، ٹیلر تسلسل اور لوغوں تسلسل}{\farsidigits {1007}}{}%
@@ -311,3 +311,4 @@
 \selectlanguage *{english}
 \selectlanguage *{urdu}
 \selectlanguage *{urdu}
+\contentsline {chapter}{فرہنگ}{\farsidigits {1399}}{}%

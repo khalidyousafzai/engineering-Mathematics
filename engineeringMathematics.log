@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  4 SEP 2026 18:53
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  6 SEP 2026 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4561,12 +4561,12 @@ LaTeX Info: Redefining \rmfamily on input line 2591.
 LaTeX Info: Redefining \sffamily on input line 2591.
 LaTeX Info: Redefining \ttfamily on input line 2591.
 
-Underfull \hbox (badness 3058) in paragraph at lines 2590--2592
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 استمراری ہو تب اس تفرقی مساوات کا $\OML/zp
-lm/m/it/10 f\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/ppl/m/n/10 , \OML/zplm/m/
-it/10 y\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 مسئلہ  [][]۱.۳[][
-] []اور مسئلہ  [][]۱.۴[][] []کے شرائط پر پورا اترتا ہے لہٰذا اس تفرقی مساوات پر
- مبنی ابتدائی قیمت مسئلے کا حل یکتا[]
+Underfull \hbox (badness 5431) in paragraph at lines 2590--2592
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 لیے استمراری ہو تب اس تفرقی مساوات کا $\OM
+L/zplm/m/it/10 f\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/ppl/m/n/10 , \OML/zpl
+m/m/it/10 y\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 مسئلہ  [][]۱.
+۳[][] []اور مسئلہ  [][]۱.۴[][] []کی شرائط پر پورا اترتا ہے لہٰذا اس تفرقی مساوا
+ت پر مبنی ابتدائی قیمت مسئلے کا حل[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 2603.
@@ -12690,7 +12690,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1134--1135
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 حل دیے گئے مساوات کو $\OML/zplm/m/it/10 
 x\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 1\O
 T1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے تقسیم کرتے ہوئے تفرقی م
-ساوات کی معیاری صورت حاصل ہوتی ہے جو مسئلہ  [][]۵.۲[][] []کے شرائط پر پورا اترت
+ساوات کی معیاری صورت حاصل ہوتی ہے جو مسئلہ  [][]۵.۲[][] []کی شرائط پر پورا اترت
 ی[]
  []
 
@@ -15699,15 +15699,6 @@ ameelNooriNastaleeq(0)/b/n/10 کا لاپلاس تبادل حاصل کر چکے 
 LaTeX Info: Redefining \rmfamily on input line 2840.
 LaTeX Info: Redefining \sffamily on input line 2840.
 LaTeX Info: Redefining \ttfamily on input line 2840.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2840--2842
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 اگر تفاعل $\OML/zplm/m/it/10 f\OT1/zplm/m/
-n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10
- مسئلہ  [][]۶.۲[][] []کے شرائط پر پورا اترتا ہو تب یہ ثابت (ثبوت اس کتاب میں پی
-ش نہیں کیا جائے گا) کیا جا سکتا ہے کہ تفاعل $\OMS/zplm/m/n/10 L\OT1/zplm/m/n/10
- (\OML/zplm/m/it/10 f\OT1/zplm/m/n/10 ) =$[]
- []
-
 LaTeX Info: Redefining \rmfamily on input line 2860.
 LaTeX Info: Redefining \sffamily on input line 2860.
 LaTeX Info: Redefining \ttfamily on input line 2860.
@@ -15726,15 +15717,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 2891--2893
 LaTeX Info: Redefining \rmfamily on input line 2897.
 LaTeX Info: Redefining \sffamily on input line 2897.
 LaTeX Info: Redefining \ttfamily on input line 2897.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2897--2898
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 اگر $\OML/zplm/m/it/10 f\OT1/zplm/m/n/10 (
-\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 مسئلہ
-  [][]۶.۲[][] []کے شرائط پر پورا اترتا ہو اور $[]$ کی حد موجود ہو، جہاں $\OML/z
-plm/m/it/10 t$ \TU/JameelNooriNastaleeq(0)/b/n/10 صفر تک دائیں جانب سے آئے تب د
-رج ذیل لکھا جا سکتا ہے جہاں[]
- []
-
 [374]
 LaTeX Info: Redefining \rmfamily on input line 2915.
 LaTeX Info: Redefining \sffamily on input line 2915.
@@ -18093,6 +18075,13 @@ TU/JameelNooriNastaleeq(0)/b/n/10 کی دوسری قطار کے نظیری ار�
  تمام کا مجموعہ لینے سے $\OML/zplm/m/it/10 c[]$ \TU/JameelNooriNastaleeq(0)/b/n
 /10 حاصل ہو گا اور $\OML/cmm/b/it/10 A$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی د
 وسری صف کے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 588--590
+[][]\TU/JameelNooriNastaleeq(0)/b/n/10 چونکہ سمتیہ درحقیقت قالب کی مخصوص صورت ہ
+ے لہٰذا قالب اور سمتیہ کی ضرب بھی بالکل اسی طرح حاصل کی جائے گی۔قالبی ضرب کی چن
+د مثالیں درج[]
  []
 
 
@@ -20803,26 +20792,15 @@ LaTeX Info: Redefining \rmfamily on input line 4254.
 LaTeX Info: Redefining \sffamily on input line 4254.
 LaTeX Info: Redefining \ttfamily on input line 4254.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4254--4255
+Underfull \hbox (badness 7186) in paragraph at lines 4254--4255
 []$\OML/zplm/m/it/10 R[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 میں موجود قطاری سم
 تیات $\OML/cmm/b/it/10 a$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/cmm/b/it
-/10 b$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا ضرب $\OML/cmm/b/it/10 a[]b$\TU/Jam
-eelNooriNastaleeq(0)/b/n/10 ، جسامت $\OT1/ppl/m/n/10 1 \OMS/zplm/m/n/10 ^^B \OT
-1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا قالب ہو گا جس کا واحد اعد
-ادی رکن $\OML/cmm/b/it/10 a$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/cmm/b
-/it/10 b$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا \TU/AASameerSagarNastaleeqBold(
-0)/m/n/10 اندرونی[]
- []
-
-
-Underfull \hbox (badness 1024) in paragraph at lines 4254--4255
-[]\TU/AASameerSagarNastaleeqBold(0)/m/n/10 ضرب[][] \TU/JameelNooriNastaleeq(0)/
-b/n/10 کہلاتا ہے۔ اندرونی ضرب کو $\OT1/zplm/m/n/10 (\OML/cmm/b/it/10 a\OT1/ppl/
-m/n/10 , \OML/cmm/b/it/10 b\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/
-10 اور $\OML/cmm/b/it/10 a \OMS/zplm/m/n/10 ^^A \OML/cmm/b/it/10 b$ \TU/JameelN
-ooriNastaleeq(0)/b/n/10 سے بھی ظاہر کیا جاتا ہے اور یوں اس کو \TU/AASameerSagar
-NastaleeqBold(0)/m/n/10 ضربِ نقطہ[][] \TU/JameelNooriNastaleeq(0)/b/n/10 بھی کہ
-تے ہیں۔اس طرح درج ذیل[]
+/10 b$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا حاصل ضرب $\OML/cmm/b/it/10 a[]b$\T
+U/JameelNooriNastaleeq(0)/b/n/10 ، جسامت $\OT1/ppl/m/n/10 1 \OMS/zplm/m/n/10 ^^
+B \OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا قالب ہو گا جس کا واح
+د اعدادی رکن $\OML/cmm/b/it/10 a$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/
+cmm/b/it/10 b$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا \TU/AASameerSagarNastaleeq
+Bold(0)/m/n/10 اندرونی[]
  []
 
 
@@ -26289,10 +26267,10 @@ LaTeX Info: Redefining \rmfamily on input line 2954.
 LaTeX Info: Redefining \sffamily on input line 2954.
 LaTeX Info: Redefining \ttfamily on input line 2954.
 [681]
-Underfull \hbox (badness 5359) in paragraph at lines 2974--2975
+Underfull \hbox (badness 10000) in paragraph at lines 2974--2975
 []\TU/JameelNooriNastaleeq(0)/b/n/10 مسئلہ انفراج کی عملی استعمال اور اس کے چند
  اہم نتائج کی مثالیں اس حصے میں پیش کی جائیں گی۔ان مثالوں میں فرض کیا جاتا ہے ک
-ی تفاعل اور خطہ مسئلہ انفراج کے[]
+ی تفاعل اور خطہ مسئلہ انفراج کی[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 2978.
@@ -26503,7 +26481,7 @@ LaTeX Info: Redefining \ttfamily on input line 3110.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3109--3111
 []\TU/JameelNooriNastaleeq(0)/b/n/10 فرض کریں کہ $\OML/zplm/m/it/10 f$ \TU/Jame
-elNooriNastaleeq(0)/b/n/10 مسئلہ  [][]۱۱.۳[][] []کے شرائط پر پورا اترتا ہے اور 
+elNooriNastaleeq(0)/b/n/10 مسئلہ  [][]۱۱.۳[][] []کی شرائط پر پورا اترتا ہے اور 
 $\OML/zplm/m/it/10 D$ \TU/JameelNooriNastaleeq(0)/b/n/10 میں ٹکڑوں میں ہموار بن
 د اور قابل سمت بند سطح $\OML/zplm/m/it/10 S$ \TU/JameelNooriNastaleeq(0)/b/n/10
  پر ہر جگہ صفر کے برابر ہے۔تب مساوات[]
@@ -26532,7 +26510,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3120--3122
 []\TU/JameelNooriNastaleeq(0)/b/n/10 اگر تفاعل $\OML/zplm/m/it/10 f\OT1/zplm/m/
 n/10 (\OML/zplm/m/it/10 x\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 y\OT1/ppl/m/n/10 ,
  \OML/zplm/m/it/10 z\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 مسئل
-ہ  [][]۱۱.۳[][] []کے شرائط پر پورا اترتا ہے اور $\OML/zplm/m/it/10 D$ \TU/Jamee
+ہ  [][]۱۱.۳[][] []کی شرائط پر پورا اترتا ہے اور $\OML/zplm/m/it/10 D$ \TU/Jamee
 lNooriNastaleeq(0)/b/n/10 میں ٹکڑوں میں ہموار بند اور قابل سمت بند سطح $\OML/zp
 lm/m/it/10 S$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر ہر جگہ صفر کے برابر ہے۔ تب[
 ]
@@ -26554,7 +26532,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3122--3125
 [] \TU/JameelNooriNastaleeq(0)/b/n/10 اس مسئلہ کے اہم نتائج پائے جاتے ہیں۔فرض ک
 ریں کہ تفاعل $\OML/zplm/m/it/10 f[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\O
 ML/zplm/m/it/10 f[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 مسئلہ  [][]۱۱.۳[][] []ک
-ے شرائط پر پورا اترتے ہیں اور $\OML/zplm/m/it/10 S$ \TU/JameelNooriNastaleeq(0)
+ی شرائط پر پورا اترتے ہیں اور $\OML/zplm/m/it/10 S$ \TU/JameelNooriNastaleeq(0)
 /b/n/10 پر دونوں یکساں ہوں۔تب ان کا[]
  []
 
@@ -43967,12 +43945,12 @@ LaTeX Info: Redefining \rmfamily on input line 1262.
 LaTeX Info: Redefining \sffamily on input line 1262.
 LaTeX Info: Redefining \ttfamily on input line 1262.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1261--1263
+Underfull \hbox (badness 2065) in paragraph at lines 1261--1263
 []\TU/JameelNooriNastaleeq(0)/b/n/10 ہو گا۔تبدیل محل قالب $\OML/cmm/b/it/10 A[]
-$ \TU/JameelNooriNastaleeq(0)/b/n/10 مسئلہ  [][]۲۲.۳[][] []کے شرائط کو مطمئن کر
+$ \TU/JameelNooriNastaleeq(0)/b/n/10 مسئلہ  [][]۲۲.۳[][] []کی شرائط کو مطمئن کر
 تا ہے۔یوں $\OML/cmm/b/it/10 A[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا ایک مثبت
  امتیازی قدر $\OML/zplm/m/it/10 ^^U$ \TU/JameelNooriNastaleeq(0)/b/n/10 پایا جا
-ئے گا جس کے مطابقتی امتیازی[]
+ئے گا جس کے مطابقتی امتیازی سمتیہ[]
  []
 
 [1191]
@@ -53418,7 +53396,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  81785 strings out of 474878
  2169716 string characters out of 9512517
- 3633226 words of memory out of 7000000
+ 3632192 words of memory out of 7000000
  102727 multiletter control sequences out of 15000+600000
  592377 words of font info for 188 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

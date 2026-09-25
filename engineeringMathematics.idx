@@ -1048,12 +1048,12 @@
 \indexentry{Laguerre's equation}{\farsidigits {376}}
 \indexentry{سادہ تفرقی مساوات!لاگیھ}{\farsidigits {376}}
 \indexentry{لاگیغ سادہ تفرقی مساوات}{\farsidigits {376}}
-\indexentry{Rodrigues's formula}{\farsidigits {376}}
-\indexentry{روڈریکیس!کلیہ}{\farsidigits {376}}
-\indexentry{Rodrigues's!polynomials}{\farsidigits {376}}
-\indexentry{روڈریکیس!کثیر رکنی}{\farsidigits {376}}
-\indexentry{generating function!Laguerre polynomials}{\farsidigits {378}}
-\indexentry{پیداکار تفاعل!لاگیغ کثیر رکنی}{\farsidigits {378}}
+\indexentry{Rodrigues's formula}{\farsidigits {377}}
+\indexentry{روڈریکیس!کلیہ}{\farsidigits {377}}
+\indexentry{Rodrigues's!polynomials}{\farsidigits {377}}
+\indexentry{روڈریکیس!کثیر رکنی}{\farsidigits {377}}
+\indexentry{generating function!Laguerre polynomials}{\farsidigits {379}}
+\indexentry{پیداکار تفاعل!لاگیغ کثیر رکنی}{\farsidigits {379}}
 \indexentry{scalars}{\farsidigits {389}}
 \indexentry{عددیے}{\farsidigits {389}}
 \indexentry{عددیے}{\farsidigits {389}}
@@ -1102,19 +1102,19 @@
 \indexentry{orthonormal}{\farsidigits {397}}
 \indexentry{اکائی متعامد}{\farsidigits {397}}
 \indexentry{orthogonal}{\farsidigits {397}}
+\indexentry{space!vector}{\farsidigits {401}}
+\indexentry{vector space}{\farsidigits {401}}
+\indexentry{فضا!سمتیہ}{\farsidigits {401}}
+\indexentry{سمتیہ!فضا}{\farsidigits {401}}
 \indexentry{space!linear}{\farsidigits {401}}
 \indexentry{linear!space}{\farsidigits {401}}
 \indexentry{فضا!خطی}{\farsidigits {401}}
 \indexentry{خطی !فضا}{\farsidigits {401}}
-\indexentry{space!vector}{\farsidigits {401}}
-\indexentry{vector space}{\farsidigits {401}}
-\indexentry{فضا!سمتی}{\farsidigits {401}}
-\indexentry{سمتی!فضا}{\farsidigits {401}}
 \indexentry{vector space!real}{\farsidigits {401}}
-\indexentry{سمتی فضا!حقیقی}{\farsidigits {401}}
-\indexentry{حقیقی سمتی فضا}{\farsidigits {401}}
-\indexentry{جمع!سمتی}{\farsidigits {401}}
-\indexentry{سمتی!جمع}{\farsidigits {401}}
+\indexentry{سمتیہ فضا!حقیقی}{\farsidigits {401}}
+\indexentry{حقیقی سمتیہ فضا}{\farsidigits {401}}
+\indexentry{جمع!سمتیہ}{\farsidigits {401}}
+\indexentry{سمتیہ!جمع}{\farsidigits {401}}
 \indexentry{قانون!تعویضی}{\farsidigits {402}}
 \indexentry{قانون!تلازم}{\farsidigits {402}}
 \indexentry{عددیہ}{\farsidigits {402}}
@@ -1157,7 +1157,7 @@
 \indexentry{Schwarz inequality}{\farsidigits {407}}
 \indexentry{شوارز عدم مساوات}{\farsidigits {407}}
 \indexentry{projection}{\farsidigits {408}}
-\indexentry{عمودی سایہ}{\farsidigits {408}}
+\indexentry{عمودی تظلیل}{\farsidigits {408}}
 \indexentry{space!real inner product}{\farsidigits {416}}
 \indexentry{فضا!حقیقی اندرونی ضرب}{\farsidigits {416}}
 \indexentry{norm}{\farsidigits {416}}
@@ -1165,7 +1165,7 @@
 \indexentry{cross product}{\farsidigits {417}}
 \indexentry{صلیبی ضرب}{\farsidigits {417}}
 \indexentry{vector product}{\farsidigits {417}}
-\indexentry{سمتی ضرب}{\farsidigits {417}}
+\indexentry{سمتیہ ضرب}{\farsidigits {417}}
 \indexentry{دایاں ہاتھ!کارتیسی نظام}{\farsidigits {419}}
 \indexentry{کارتیسی نظام!دائیں ہاتھ}{\farsidigits {419}}
 \indexentry{right handed}{\farsidigits {419}}
@@ -1173,8 +1173,8 @@
 \indexentry{قوت!معیار اثر سمتیہ}{\farsidigits {423}}
 \indexentry{معیار اثر سمتیہ}{\farsidigits {423}}
 \indexentry{angular velocity}{\farsidigits {423}}
-\indexentry{سمتی رفتار!زاویائی}{\farsidigits {423}}
-\indexentry{زاویائی سمتی رفتار}{\farsidigits {423}}
+\indexentry{سمتیہ رفتار!زاویائی}{\farsidigits {423}}
+\indexentry{زاویائی سمتیہ رفتار}{\farsidigits {423}}
 \indexentry{رفتار!زاویائی}{\farsidigits {423}}
 \indexentry{زاویائی رفتار}{\farsidigits {423}}
 \indexentry{angular speed}{\farsidigits {423}}
@@ -1347,7 +1347,7 @@
 \indexentry{set!nonempty}{\farsidigits {479}}
 \indexentry{سلسلہ!غیر خالی}{\farsidigits {479}}
 \indexentry{vector space}{\farsidigits {479}}
-\indexentry{سمتی فضا}{\farsidigits {479}}
+\indexentry{سمتیہ فضا}{\farsidigits {479}}
 \indexentry{dimension}{\farsidigits {479}}
 \indexentry{بُعد}{\farsidigits {479}}
 \indexentry{basis}{\farsidigits {479}}
@@ -1427,16 +1427,23 @@
 \indexentry{Gauss-Jordan elimination}{\farsidigits {507}}
 \indexentry{گاوس جارڈن اسقاط}{\farsidigits {507}}
 \indexentry{vector space!real}{\farsidigits {517}}
-\indexentry{سمتی فضا!حقیقی}{\farsidigits {517}}
-\indexentry{حقیقی سمتی فضا}{\farsidigits {517}}
-\indexentry{جمع!سمتی}{\farsidigits {518}}
-\indexentry{سمتی!جمع}{\farsidigits {518}}
+\indexentry{سمتیہ فضا!حقیقی}{\farsidigits {517}}
+\indexentry{حقیقی سمتیہ فضا}{\farsidigits {517}}
+\indexentry{جمع!سمتیہ}{\farsidigits {518}}
+\indexentry{سمتیہ!جمع}{\farsidigits {518}}
+\indexentry{commutative law}{\farsidigits {518}}
 \indexentry{قانون!تعویضی}{\farsidigits {518}}
+\indexentry{associative law}{\farsidigits {518}}
 \indexentry{قانون!تلازم}{\farsidigits {518}}
+\indexentry{vector!zero}{\farsidigits {518}}
+\indexentry{سمتیہ!صفر}{\farsidigits {518}}
+\indexentry{صفر سمتیہ}{\farsidigits {518}}
 \indexentry{عددیہ}{\farsidigits {518}}
 \indexentry{ضرب!عددیہ}{\farsidigits {518}}
 \indexentry{عددیہ!ضرب}{\farsidigits {518}}
 \indexentry{قانون!تقسیم}{\farsidigits {518}}
+\indexentry{distributive law}{\farsidigits {518}}
+\indexentry{قانون!جزئیتی تقسیم}{\farsidigits {518}}
 \indexentry{خطی مجموعہ}{\farsidigits {519}}
 \indexentry{linear dependent}{\farsidigits {519}}
 \indexentry{خطی طور تابع}{\farsidigits {519}}
@@ -1451,7 +1458,7 @@
 \indexentry{ضرب!اندرونی}{\farsidigits {520}}
 \indexentry{اندرونی!ضرب}{\farsidigits {520}}
 \indexentry{orthogonal}{\farsidigits {521}}
-\indexentry{عمودی}{\farsidigits {521}}
+\indexentry{متعامد}{\farsidigits {521}}
 \indexentry{norm}{\farsidigits {521}}
 \indexentry{معیار}{\farsidigits {521}}
 \indexentry{لمبائی}{\farsidigits {521}}
@@ -1473,11 +1480,11 @@
 \indexentry{parallelogram equality}{\farsidigits {521}}
 \indexentry{مساوات!متوازی الاضلاع}{\farsidigits {521}}
 \indexentry{متوازی الاضلاع مساوات}{\farsidigits {521}}
-\indexentry{space!Euclidean}{\farsidigits {521}}
-\indexentry{Euclidean space}{\farsidigits {521}}
-\indexentry{فضا!اقلیدسی}{\farsidigits {521}}
-\indexentry{اقلیدسی فضا}{\farsidigits {521}}
-\indexentry{معیار!اقلیدسی}{\farsidigits {521}}
+\indexentry{space!Euclidean}{\farsidigits {522}}
+\indexentry{Euclidean space}{\farsidigits {522}}
+\indexentry{فضا!اقلیدسی}{\farsidigits {522}}
+\indexentry{اقلیدسی فضا}{\farsidigits {522}}
+\indexentry{معیار!اقلیدسی}{\farsidigits {522}}
 \indexentry{operator}{\farsidigits {522}}
 \indexentry{عامل}{\farsidigits {522}}
 \indexentry{image}{\farsidigits {522}}
@@ -1491,698 +1498,698 @@
 \indexentry{خطی!نقشہ کشی}{\farsidigits {522}}
 \indexentry{Cartesian coordinate system}{\farsidigits {524}}
 \indexentry{کارتیسی نظام محدد}{\farsidigits {524}}
-\indexentry{inverse transform}{\farsidigits {524}}
-\indexentry{معکوس تبادل}{\farsidigits {524}}
+\indexentry{inverse transform}{\farsidigits {525}}
+\indexentry{معکوس تبادل}{\farsidigits {525}}
 \indexentry{composition}{\farsidigits {525}}
 \indexentry{نظم}{\farsidigits {525}}
-\indexentry{eigenvalues}{\farsidigits {529}}
-\indexentry{امتیازی اقدار}{\farsidigits {529}}
-\indexentry{امتیازی اقدار}{\farsidigits {529}}
-\indexentry{eigenfunctions}{\farsidigits {529}}
-\indexentry{امتیازی!تفاعل}{\farsidigits {529}}
-\indexentry{امتیازی!سمتیات}{\farsidigits {529}}
-\indexentry{مسئلہ!امتیازی قدر}{\farsidigits {530}}
-\indexentry{امتیازی قدر مسئلہ}{\farsidigits {530}}
-\indexentry{eigenvalue}{\farsidigits {530}}
-\indexentry{امتیازی!قدر}{\farsidigits {530}}
-\indexentry{spectrum}{\farsidigits {530}}
-\indexentry{طیف}{\farsidigits {530}}
-\indexentry{characteristic vectors}{\farsidigits {530}}
-\indexentry{امتیازی!سمتیات}{\farsidigits {530}}
-\indexentry{eigenvectors}{\farsidigits {530}}
-\indexentry{امتیازی!سمتیات}{\farsidigits {530}}
-\indexentry{spectral radius}{\farsidigits {530}}
-\indexentry{طیف!رداس}{\farsidigits {530}}
-\indexentry{رداس!طیف}{\farsidigits {530}}
-\indexentry{مساوات!امتیازی}{\farsidigits {532}}
-\indexentry{امتیازی!مساوات}{\farsidigits {532}}
-\indexentry{مقطع!امتیازی}{\farsidigits {532}}
-\indexentry{امتیازی!مقطع}{\farsidigits {532}}
-\indexentry{قالب!امتیازی}{\farsidigits {532}}
-\indexentry{امتیازی!قالب}{\farsidigits {532}}
-\indexentry{multiplicity!algebraic}{\farsidigits {534}}
-\indexentry{algebraic multiplicity}{\farsidigits {534}}
-\indexentry{کثرت!الجبرائی}{\farsidigits {534}}
-\indexentry{الجبرائی کثرت}{\farsidigits {534}}
-\indexentry{multiplicity!geometric}{\farsidigits {534}}
-\indexentry{geometric multiplicity}{\farsidigits {534}}
-\indexentry{کثرت!جیومیٹریائی}{\farsidigits {534}}
-\indexentry{جیومیٹریائی کثرت}{\farsidigits {534}}
-\indexentry{defect}{\farsidigits {534}}
-\indexentry{خامی}{\farsidigits {534}}
-\indexentry{principal axis}{\farsidigits {538}}
-\indexentry{صدر محور}{\farsidigits {538}}
-\indexentry{state!limit}{\farsidigits {539}}
-\indexentry{حال!تحدیدی}{\farsidigits {539}}
-\indexentry{Leslie model}{\farsidigits {540}}
-\indexentry{لزلی نمونہ}{\farsidigits {540}}
-\indexentry{model!Leontief}{\farsidigits {542}}
-\indexentry{نمونہ!لیونٹف}{\farsidigits {542}}
-\indexentry{لیونٹف نمونہ}{\farsidigits {542}}
-\indexentry{matrix!consumption}{\farsidigits {543}}
-\indexentry{قالب صرف}{\farsidigits {543}}
-\indexentry{demand!matrix}{\farsidigits {543}}
-\indexentry{matrix!demand}{\farsidigits {543}}
-\indexentry{مانگ!قالب}{\farsidigits {543}}
-\indexentry{قالب!مانگ}{\farsidigits {543}}
-\indexentry{symmetric}{\farsidigits {544}}
-\indexentry{تشاکلی}{\farsidigits {544}}
-\indexentry{skew-symmetric}{\farsidigits {544}}
-\indexentry{منحرف تشاکلی}{\farsidigits {544}}
-\indexentry{orthogonal}{\farsidigits {544}}
-\indexentry{متعامد}{\farsidigits {544}}
-\indexentry{اندرونی!ضرب}{\farsidigits {546}}
-\indexentry{معیار}{\farsidigits {546}}
-\indexentry{لمبائی}{\farsidigits {546}}
-\indexentry{matrix!similar}{\farsidigits {551}}
-\indexentry{similar!matrix}{\farsidigits {551}}
-\indexentry{قالب!متشابہ}{\farsidigits {551}}
-\indexentry{متشابہ!قالب}{\farsidigits {551}}
-\indexentry{similarity transformation}{\farsidigits {551}}
-\indexentry{متشابہت تبادلہ}{\farsidigits {551}}
-\indexentry{trace}{\farsidigits {554}}
-\indexentry{قالب!آثار}{\farsidigits {554}}
-\indexentry{آثار!قالب}{\farsidigits {554}}
-\indexentry{vector!quadratic form}{\farsidigits {555}}
-\indexentry{سمتیہ!دو درجی صورت}{\farsidigits {555}}
-\indexentry{دو درجی صورت}{\farsidigits {555}}
-\indexentry{coefficient matrix}{\farsidigits {555}}
-\indexentry{قالب! ضریب }{\farsidigits {555}}
-\indexentry{ ضریب !قالب}{\farsidigits {555}}
-\indexentry{theorem!Principal Axes}{\farsidigits {556}}
-\indexentry{Principal Axes Theorem}{\farsidigits {556}}
-\indexentry{صدر محور!مسئلہ}{\farsidigits {556}}
-\indexentry{مسئلہ!صدر محور}{\farsidigits {556}}
-\indexentry{canonical form}{\farsidigits {556}}
-\indexentry{با ضابطہ صورت}{\farsidigits {556}}
-\indexentry{quantum mechanics}{\farsidigits {560}}
-\indexentry{کوانٹم میکانیات}{\farsidigits {560}}
-\indexentry{Hermitian}{\farsidigits {560}}
-\indexentry{ہرمشی}{\farsidigits {560}}
-\indexentry{Hermitian!skew}{\farsidigits {560}}
-\indexentry{skew Hermitian}{\farsidigits {560}}
-\indexentry{ہرمشی!منحرف}{\farsidigits {560}}
-\indexentry{منحرف ہرمشی}{\farsidigits {560}}
-\indexentry{Unitary}{\farsidigits {560}}
-\indexentry{اکہرا}{\farsidigits {560}}
-\indexentry{ہرمشی!صورت}{\farsidigits {565}}
-\indexentry{قالب! ضریب }{\farsidigits {565}}
-\indexentry{ ضریب !قالب}{\farsidigits {565}}
-\indexentry{Pauli spin matrices}{\farsidigits {566}}
-\indexentry{پالی قالب چکر}{\farsidigits {566}}
-\indexentry{قالب چکر!پالی}{\farsidigits {566}}
-\indexentry{domain}{\farsidigits {569}}
-\indexentry{دائرہ کار}{\farsidigits {569}}
-\indexentry{field!scalar}{\farsidigits {569}}
-\indexentry{scalar!field}{\farsidigits {569}}
-\indexentry{میدان!عددیہ}{\farsidigits {569}}
-\indexentry{عددیہ!میدان}{\farsidigits {569}}
-\indexentry{field!vector}{\farsidigits {570}}
-\indexentry{vector!field}{\farsidigits {570}}
-\indexentry{میدان!سمتی}{\farsidigits {570}}
-\indexentry{سمتی!میدان}{\farsidigits {570}}
-\indexentry{function!vector}{\farsidigits {570}}
-\indexentry{vector!function}{\farsidigits {570}}
-\indexentry{تفاعل!سمتی}{\farsidigits {570}}
-\indexentry{سمتی!تفاعل}{\farsidigits {570}}
-\indexentry{limit vector}{\farsidigits {571}}
-\indexentry{سمتیہ!تحدیدی}{\farsidigits {571}}
-\indexentry{تحدیدی!سمتیہ}{\farsidigits {571}}
-\indexentry{limit}{\farsidigits {571}}
-\indexentry{حد}{\farsidigits {571}}
-\indexentry{derivative}{\farsidigits {572}}
-\indexentry{تفرق}{\farsidigits {572}}
-\indexentry{parametric!representation}{\farsidigits {576}}
-\indexentry{مقدار معلوم!منحنی}{\farsidigits {576}}
-\indexentry{منحنی!مقدار معلوم}{\farsidigits {576}}
-\indexentry{twisted curve}{\farsidigits {576}}
-\indexentry{منحنی!خم دار}{\farsidigits {576}}
-\indexentry{خم دار منحنی}{\farsidigits {576}}
-\indexentry{plane curve}{\farsidigits {576}}
-\indexentry{منحنی!مستوی}{\farsidigits {576}}
-\indexentry{مستوی!منحنی}{\farsidigits {576}}
-\indexentry{direction cosines}{\farsidigits {577}}
-\indexentry{کوسائن رخ}{\farsidigits {577}}
-\indexentry{helix!circular}{\farsidigits {577}}
-\indexentry{پیچ دار لچھا}{\farsidigits {577}}
-\indexentry{arc}{\farsidigits {578}}
-\indexentry{قوس}{\farsidigits {578}}
-\indexentry{multiple point}{\farsidigits {578}}
-\indexentry{متعدد نقطہ}{\farsidigits {578}}
-\indexentry{curve!simple}{\farsidigits {578}}
-\indexentry{منحنی!سادہ}{\farsidigits {578}}
-\indexentry{سادہ منحنی}{\farsidigits {578}}
-\indexentry{length}{\farsidigits {581}}
-\indexentry{لمبائی!منحنی}{\farsidigits {581}}
-\indexentry{rectifiable}{\farsidigits {581}}
-\indexentry{قابل تصحیح}{\farsidigits {581}}
-\indexentry{arc length}{\farsidigits {582}}
-\indexentry{لمبائی قوس}{\farsidigits {582}}
-\indexentry{orientation}{\farsidigits {582}}
-\indexentry{سمت بندی}{\farsidigits {582}}
-\indexentry{sense!positive}{\farsidigits {582}}
-\indexentry{دائری سمت!مثبت}{\farsidigits {582}}
-\indexentry{مثبت دائری سمت}{\farsidigits {582}}
-\indexentry{linear element}{\farsidigits {583}}
-\indexentry{خطی جزو}{\farsidigits {583}}
-\indexentry{tangent}{\farsidigits {587}}
-\indexentry{مماس}{\farsidigits {587}}
-\indexentry{tangent!unit vector}{\farsidigits {587}}
-\indexentry{مماس!اکائی سمتیہ}{\farsidigits {587}}
-\indexentry{اکائی!سمتیہ مماس}{\farsidigits {587}}
-\indexentry{انحنا}{\farsidigits {587}}
-\indexentry{curvature}{\farsidigits {587}}
-\indexentry{normal!principal unit vector}{\farsidigits {588}}
-\indexentry{principal!unit normal vector}{\farsidigits {588}}
-\indexentry{عمودی!اکائی صدر سمتیہ}{\farsidigits {588}}
-\indexentry{صدر!اکائی عمود سمتیہ}{\farsidigits {588}}
-\indexentry{اکائی!صدر عمود سمتیہ}{\farsidigits {588}}
-\indexentry{unit!binormal vector}{\farsidigits {588}}
-\indexentry{عمود!دوہرا اکائی سمتیہ}{\farsidigits {588}}
-\indexentry{tangent}{\farsidigits {588}}
-\indexentry{مماس}{\farsidigits {588}}
-\indexentry{trihedron}{\farsidigits {588}}
-\indexentry{سہ سطحی مجسم}{\farsidigits {588}}
-\indexentry{binormal}{\farsidigits {588}}
-\indexentry{دوہرا عمود}{\farsidigits {588}}
-\indexentry{principal normal}{\farsidigits {588}}
-\indexentry{صدر عمود}{\farsidigits {588}}
-\indexentry{torsion}{\farsidigits {588}}
-\indexentry{مروڑ}{\farsidigits {588}}
-\indexentry{velocity}{\farsidigits {591}}
-\indexentry{رفتار!سمتی}{\farsidigits {591}}
-\indexentry{سمتی رفتار سمتیہ}{\farsidigits {591}}
-\indexentry{speed}{\farsidigits {591}}
-\indexentry{رفتار}{\farsidigits {591}}
-\indexentry{acceleration vector}{\farsidigits {591}}
-\indexentry{سمتیہ اسراع}{\farsidigits {591}}
-\indexentry{angular speed}{\farsidigits {592}}
-\indexentry{زاویائی رفتار}{\farsidigits {592}}
-\indexentry{مرکز مائل!قوت}{\farsidigits {592}}
-\indexentry{centripetal!acceleration}{\farsidigits {592}}
-\indexentry{اسراع!مرکز مائل}{\farsidigits {592}}
-\indexentry{مرکز مائل!اسراع}{\farsidigits {592}}
-\indexentry{centrifugal!force}{\farsidigits {592}}
-\indexentry{مرکز گریز!قوت}{\farsidigits {592}}
-\indexentry{centripetal!force}{\farsidigits {592}}
-\indexentry{Coriolis acceleration}{\farsidigits {593}}
-\indexentry{اسراع!کوریولس}{\farsidigits {593}}
-\indexentry{کوریولس!اسراع}{\farsidigits {593}}
-\indexentry{meridian}{\farsidigits {594}}
-\indexentry{نصف النھار}{\farsidigits {594}}
-\indexentry{Coriolis acceleration}{\farsidigits {594}}
-\indexentry{کوریولس اسراع}{\farsidigits {594}}
-\indexentry{equator}{\farsidigits {594}}
-\indexentry{ارضی خط استوا}{\farsidigits {594}}
-\indexentry{missile}{\farsidigits {594}}
-\indexentry{مزائل}{\farsidigits {594}}
-\indexentry{continuous}{\farsidigits {596}}
-\indexentry{استمراری}{\farsidigits {596}}
-\indexentry{connected}{\farsidigits {597}}
-\indexentry{open}{\farsidigits {597}}
-\indexentry{جڑا ہوا}{\farsidigits {597}}
-\indexentry{کھلا}{\farsidigits {597}}
-\indexentry{domain}{\farsidigits {597}}
-\indexentry{دائرہ کار}{\farsidigits {597}}
-\indexentry{derivative!directional}{\farsidigits {601}}
-\indexentry{directional derivative}{\farsidigits {601}}
-\indexentry{تفرق!سمتی}{\farsidigits {601}}
-\indexentry{سمتی!تفرق}{\farsidigits {601}}
-\indexentry{gradient}{\farsidigits {602}}
-\indexentry{ڈھلوان}{\farsidigits {602}}
-\indexentry{level surfaces}{\farsidigits {604}}
-\indexentry{ہم قد سطحیں}{\farsidigits {604}}
-\indexentry{normal}{\farsidigits {604}}
-\indexentry{عمود}{\farsidigits {604}}
-\indexentry{tangent plane}{\farsidigits {604}}
-\indexentry{سطح!مماس}{\farsidigits {604}}
-\indexentry{مماسی!سطح}{\farsidigits {604}}
-\indexentry{potential function}{\farsidigits {606}}
-\indexentry{مخفی تفاعل}{\farsidigits {606}}
-\indexentry{Laplacian}{\farsidigits {607}}
-\indexentry{لاپلاسی}{\farsidigits {607}}
-\indexentry{Laplace!equation}{\farsidigits {607}}
-\indexentry{لاپلاس!مساوات}{\farsidigits {607}}
-\indexentry{operator!Laplacian}{\farsidigits {607}}
-\indexentry{Laplacian!operator}{\farsidigits {607}}
-\indexentry{عامل!لاپلاسی}{\farsidigits {607}}
-\indexentry{لاپلاسی عامل}{\farsidigits {607}}
-\indexentry{conservative field}{\farsidigits {607}}
-\indexentry{بقائی میدان}{\farsidigits {607}}
-\indexentry{Kronecker delta}{\farsidigits {613}}
-\indexentry{کرونیکر ضرب}{\farsidigits {613}}
-\indexentry{divergence}{\farsidigits {616}}
-\indexentry{انفراج}{\farsidigits {616}}
-\indexentry{hydrodynamics}{\farsidigits {618}}
-\indexentry{حرکیات!ماقوا}{\farsidigits {618}}
-\indexentry{ماقوا حرکیات}{\farsidigits {618}}
-\indexentry{fluid}{\farsidigits {618}}
-\indexentry{سیال}{\farsidigits {618}}
-\indexentry{parallelepiped!rectangular}{\farsidigits {618}}
-\indexentry{متوازی السطوح!مستطیلی}{\farsidigits {618}}
-\indexentry{continuity!equation}{\farsidigits {619}}
-\indexentry{مساوات!استمراری}{\farsidigits {619}}
-\indexentry{استمراری!مساوات}{\farsidigits {619}}
-\indexentry{curl}{\farsidigits {622}}
-\indexentry{گردش}{\farsidigits {622}}
-\indexentry{بقائی میدان}{\farsidigits {623}}
-\indexentry{irrotational}{\farsidigits {623}}
-\indexentry{غیر گردشی}{\farsidigits {623}}
-\indexentry{conservative!field}{\farsidigits {623}}
-\indexentry{smooth!curve}{\farsidigits {626}}
-\indexentry{منحنی!ہموار}{\farsidigits {626}}
-\indexentry{ہموار!منحنی}{\farsidigits {626}}
-\indexentry{integral!line}{\farsidigits {627}}
-\indexentry{تکمل!خطی}{\farsidigits {627}}
-\indexentry{خطی!تکمل}{\farsidigits {627}}
-\indexentry{integrand}{\farsidigits {627}}
-\indexentry{متکمل}{\farsidigits {627}}
-\indexentry{راہ!تکمل}{\farsidigits {627}}
-\indexentry{تکمل!راہ}{\farsidigits {627}}
-\indexentry{smooth!piecewise}{\farsidigits {629}}
-\indexentry{piecewise smooth}{\farsidigits {629}}
-\indexentry{ہموار!ٹکڑوں میں}{\farsidigits {629}}
-\indexentry{work}{\farsidigits {634}}
-\indexentry{کام}{\farsidigits {634}}
-\indexentry{integral!double}{\farsidigits {638}}
-\indexentry{تکمل!دوہرا}{\farsidigits {638}}
-\indexentry{دوہرا!تکمل}{\farsidigits {638}}
-\indexentry{theorem!mean value}{\farsidigits {638}}
-\indexentry{اوسط قیمت مسئلہ}{\farsidigits {638}}
-\indexentry{مسئلہ!اوسط قیمت}{\farsidigits {638}}
-\indexentry{area}{\farsidigits {640}}
-\indexentry{رقبہ}{\farsidigits {640}}
-\indexentry{center of gravity}{\farsidigits {640}}
-\indexentry{مرکز ثقل}{\farsidigits {640}}
-\indexentry{moment of inertia}{\farsidigits {641}}
-\indexentry{جمودی معیار اثر}{\farsidigits {641}}
-\indexentry{moment of inertia!polar}{\farsidigits {641}}
-\indexentry{قطبی جمودی معیار اثر}{\farsidigits {641}}
-\indexentry{Jacobian}{\farsidigits {643}}
-\indexentry{یعقوبی}{\farsidigits {643}}
-\indexentry{polar coordinates}{\farsidigits {643}}
-\indexentry{محدد!قطبی}{\farsidigits {643}}
-\indexentry{قطبی محدد}{\farsidigits {643}}
-\indexentry{theorem!Green}{\farsidigits {649}}
-\indexentry{مسئلہ!گرین}{\farsidigits {649}}
-\indexentry{planimeter}{\farsidigits {652}}
-\indexentry{پیما!سطح}{\farsidigits {652}}
-\indexentry{سطح!پیما}{\farsidigits {652}}
-\indexentry{surface!explicit form}{\farsidigits {658}}
-\indexentry{سطح!صریح روپ}{\farsidigits {658}}
-\indexentry{surface!implicit form}{\farsidigits {658}}
-\indexentry{سطح!خفی روپ}{\farsidigits {658}}
-\indexentry{surface!parametric}{\farsidigits {658}}
-\indexentry{سطح!مقدار معلوم روپ}{\farsidigits {658}}
-\indexentry{محدود}{\farsidigits {658}}
-\indexentry{simply connected}{\farsidigits {658}}
-\indexentry{سادہ تعلق}{\farsidigits {658}}
-\indexentry{smooth!piecewise, surface}{\farsidigits {659}}
-\indexentry{ہموار!سطح۔ٹکڑوں میں}{\farsidigits {659}}
-\indexentry{latitude}{\farsidigits {659}}
-\indexentry{خط عرض بلد}{\farsidigits {659}}
-\indexentry{longitude}{\farsidigits {659}}
-\indexentry{خط طول بلد}{\farsidigits {659}}
-\indexentry{coordinate curves}{\farsidigits {659}}
-\indexentry{محددی منحنی}{\farsidigits {659}}
-\indexentry{tangent plane}{\farsidigits {662}}
-\indexentry{مماسی سطح}{\farsidigits {662}}
-\indexentry{normal}{\farsidigits {662}}
-\indexentry{عمود}{\farsidigits {662}}
-\indexentry{normal vector!unit}{\farsidigits {662}}
-\indexentry{عمود سمتیہ!اکائی}{\farsidigits {662}}
-\indexentry{fundamental form!first}{\farsidigits {663}}
-\indexentry{بنیادی صورت!اول}{\farsidigits {663}}
-\indexentry{area!element of}{\farsidigits {665}}
-\indexentry{رقبہ!رکن}{\farsidigits {665}}
-\indexentry{torus}{\farsidigits {666}}
-\indexentry{اندرسہ}{\farsidigits {666}}
-\indexentry{surface integral}{\farsidigits {671}}
-\indexentry{تکمل!سطحی}{\farsidigits {671}}
-\indexentry{سطحی!تکمل}{\farsidigits {671}}
-\indexentry{orientable}{\farsidigits {673}}
-\indexentry{سمت بند!قابل}{\farsidigits {673}}
-\indexentry{Mobius strip}{\farsidigits {673}}
-\indexentry{موبیوس پٹی}{\farsidigits {673}}
-\indexentry{theorem!Steiner}{\farsidigits {677}}
-\indexentry{مسئلہ!سٹائنر}{\farsidigits {677}}
-\indexentry{تکمل!تہرا}{\farsidigits {678}}
-\indexentry{تہرا!تکمل}{\farsidigits {678}}
-\indexentry{integral!triple}{\farsidigits {678}}
-\indexentry{مسئلہ!اوسط قیمت}{\farsidigits {682}}
-\indexentry{source}{\farsidigits {683}}
-\indexentry{منبع}{\farsidigits {683}}
-\indexentry{source intensity}{\farsidigits {683}}
-\indexentry{شدت منبع}{\farsidigits {683}}
-\indexentry{انفراج}{\farsidigits {683}}
-\indexentry{thermal conductivity}{\farsidigits {684}}
-\indexentry{حراری موصلیت}{\farsidigits {684}}
-\indexentry{موصلیت!حراری}{\farsidigits {684}}
-\indexentry{heat!specific capacity}{\farsidigits {684}}
-\indexentry{حراری!خصوصی استعداد}{\farsidigits {684}}
-\indexentry{heat!equation}{\farsidigits {685}}
-\indexentry{حراری!مساوات}{\farsidigits {685}}
-\indexentry{Green!first formula}{\farsidigits {686}}
-\indexentry{گرین!کلیہ اول}{\farsidigits {686}}
-\indexentry{Green!second formula}{\farsidigits {686}}
-\indexentry{گرین!کلیہ دوم}{\farsidigits {686}}
-\indexentry{harmonic}{\farsidigits {690}}
-\indexentry{ہارمونی}{\farsidigits {690}}
-\indexentry{Stokes' theorem}{\farsidigits {691}}
-\indexentry{سٹوکس!مسئلہ}{\farsidigits {691}}
-\indexentry{مسئلہ!سٹوکس}{\farsidigits {691}}
-\indexentry{circulation}{\farsidigits {695}}
-\indexentry{دائری بہاؤ}{\farsidigits {695}}
-\indexentry{independent of path}{\farsidigits {697}}
-\indexentry{راہ سے آزاد}{\farsidigits {697}}
-\indexentry{single valued}{\farsidigits {697}}
-\indexentry{واحد قیمت}{\farsidigits {697}}
-\indexentry{differential form!first order}{\farsidigits {698}}
-\indexentry{تفرقی روپ!یک رتبی}{\farsidigits {698}}
-\indexentry{exact differential form}{\farsidigits {698}}
-\indexentry{قطعی تفرقی روپ}{\farsidigits {698}}
-\indexentry{conservative}{\farsidigits {700}}
-\indexentry{بقائی}{\farsidigits {700}}
-\indexentry{simply connected}{\farsidigits {702}}
-\indexentry{سادہ تعلق}{\farsidigits {702}}
-\indexentry{periodic}{\farsidigits {709}}
-\indexentry{دوری}{\farsidigits {709}}
-\indexentry{period}{\farsidigits {709}}
-\indexentry{دوری عرصہ}{\farsidigits {709}}
-\indexentry{series!trigonometric}{\farsidigits {710}}
-\indexentry{تسلسل!تکونیاتی}{\farsidigits {710}}
-\indexentry{coefficients}{\farsidigits {710}}
-\indexentry{ضرائب}{\farsidigits {710}}
-\indexentry{Euler!formulas}{\farsidigits {716}}
-\indexentry{یولر!کلیات}{\farsidigits {716}}
-\indexentry{Fourier!coefficients}{\farsidigits {716}}
-\indexentry{فوریئر! ضریب }{\farsidigits {716}}
-\indexentry{Fourier!series}{\farsidigits {716}}
-\indexentry{فوریئر!تسلسل}{\farsidigits {716}}
-\indexentry{تسلسل!فوریئر}{\farsidigits {716}}
-\indexentry{truncation!error}{\farsidigits {719}}
-\indexentry{خلل!حذفی}{\farsidigits {719}}
-\indexentry{limit!left hand}{\farsidigits {719}}
-\indexentry{حد!بائیں ہاتھ}{\farsidigits {719}}
-\indexentry{limit!right hand}{\farsidigits {719}}
-\indexentry{حد!دائیں ہاتھ}{\farsidigits {719}}
-\indexentry{jump}{\farsidigits {720}}
-\indexentry{چھلانگ}{\farsidigits {720}}
-\indexentry{differential!left hand}{\farsidigits {720}}
-\indexentry{بائیں ہاتھ!تفرق}{\farsidigits {720}}
-\indexentry{تفرق!بائیں ہاتھ}{\farsidigits {720}}
-\indexentry{differential!right hand}{\farsidigits {720}}
-\indexentry{دائیں ہاتھ!تفرق}{\farsidigits {720}}
-\indexentry{تفرق!دائیں ہاتھ}{\farsidigits {720}}
-\indexentry{even}{\farsidigits {729}}
-\indexentry{جفت}{\farsidigits {729}}
-\indexentry{odd}{\farsidigits {729}}
-\indexentry{طاق}{\farsidigits {729}}
-\indexentry{Fourier!cosine series}{\farsidigits {730}}
-\indexentry{فوریئر!کوسائن تسلسل}{\farsidigits {730}}
-\indexentry{Fourier!sine series}{\farsidigits {731}}
-\indexentry{فوریئر!سائن تسلسل}{\farsidigits {731}}
-\indexentry{pulse}{\farsidigits {732}}
-\indexentry{دھڑکن}{\farsidigits {732}}
-\indexentry{saw tooth wave}{\farsidigits {732}}
-\indexentry{موج!دندان}{\farsidigits {732}}
-\indexentry{دندان موج}{\farsidigits {732}}
-\indexentry{even!periodic extension}{\farsidigits {736}}
-\indexentry{جفت!دوری توسیع}{\farsidigits {736}}
-\indexentry{odd!periodic extension}{\farsidigits {737}}
-\indexentry{طاق!دوری توسیع}{\farsidigits {737}}
-\indexentry{half range expansion}{\farsidigits {737}}
-\indexentry{نصف سعت اتساع}{\farsidigits {737}}
-\indexentry{Fourier!complex coefficients}{\farsidigits {741}}
-\indexentry{فوریئر!مخلوط ضریب }{\farsidigits {741}}
-\indexentry{Fourier!complex form}{\farsidigits {741}}
-\indexentry{فوریئر!مخلوط تسلسل}{\farsidigits {741}}
-\indexentry{jump}{\farsidigits {742}}
-\indexentry{چھلانگ}{\farsidigits {742}}
-\indexentry{error!total square}{\farsidigits {754}}
-\indexentry{خلل!کل مکعب}{\farsidigits {754}}
-\indexentry{Parseval's identity}{\farsidigits {755}}
-\indexentry{پارسیوال مماثل}{\farsidigits {755}}
-\indexentry{Bessel!inequality}{\farsidigits {755}}
-\indexentry{بیسل!غیر مساوات}{\farsidigits {755}}
-\indexentry{integrable!absolutely}{\farsidigits {759}}
-\indexentry{تکمل!مطلق قابل تکمل}{\farsidigits {759}}
-\indexentry{Fourier!integral}{\farsidigits {759}}
-\indexentry{فوریئر!تکمل}{\farsidigits {759}}
-\indexentry{Dirichlet' discontinuous factor}{\farsidigits {760}}
-\indexentry{ڈرشلے غیر استمراری جزو}{\farsidigits {760}}
-\indexentry{sine integral}{\farsidigits {761}}
-\indexentry{سائن تکمل}{\farsidigits {761}}
-\indexentry{Gibbs phenomenon}{\farsidigits {761}}
-\indexentry{مظہر گبس}{\farsidigits {761}}
-\indexentry{Laplace!integrals}{\farsidigits {764}}
-\indexentry{لاپلاس!تکملات}{\farsidigits {764}}
-\indexentry{Fourier!transform}{\farsidigits {768}}
-\indexentry{فوریئر!تبادل}{\farsidigits {768}}
-\indexentry{Fourier!inverse transform}{\farsidigits {768}}
-\indexentry{فوریئر!معکوس تبادل}{\farsidigits {768}}
-\indexentry{differential!partial equation}{\farsidigits {769}}
-\indexentry{جزوی!تفرقی مساوات}{\farsidigits {769}}
-\indexentry{تفرقی!جزوی مساوات}{\farsidigits {769}}
-\indexentry{order!partial differential equation}{\farsidigits {769}}
-\indexentry{جزوی!رتبہ مساوات}{\farsidigits {769}}
-\indexentry{رتبہ!جزوی تفرقی مساوات}{\farsidigits {769}}
-\indexentry{linear}{\farsidigits {769}}
-\indexentry{خطی}{\farsidigits {769}}
-\indexentry{non homogeneous!partial differential equation}{\farsidigits {769}}
-\indexentry{غیر ہم جنسی!جزوی تفرقی مساوات}{\farsidigits {769}}
-\indexentry{homogeneous!partial differential equation}{\farsidigits {769}}
-\indexentry{ہم جنسی!جزوی تفرقی مساوات}{\farsidigits {769}}
-\indexentry{boundary conditions}{\farsidigits {770}}
-\indexentry{سرحدی شرائط}{\farsidigits {770}}
-\indexentry{initial conditions}{\farsidigits {770}}
-\indexentry{ابتدائی شرائط}{\farsidigits {770}}
-\indexentry{wave!one dimensional equation}{\farsidigits {774}}
-\indexentry{موج!یک بُعدی مساوات}{\farsidigits {774}}
-\indexentry{initial conditions}{\farsidigits {775}}
-\indexentry{ابتدائی شرائط}{\farsidigits {775}}
-\indexentry{آئگنی!تفاعل}{\farsidigits {777}}
-\indexentry{characteristic!values}{\farsidigits {777}}
-\indexentry{امتیازی!قدر}{\farsidigits {777}}
-\indexentry{eigenvalues}{\farsidigits {777}}
-\indexentry{آئگنی!قدر}{\farsidigits {777}}
-\indexentry{characteristic!functions}{\farsidigits {777}}
-\indexentry{امتیازی!تفاعل}{\farsidigits {777}}
-\indexentry{eigenfunctions}{\farsidigits {777}}
-\indexentry{spectrum}{\farsidigits {777}}
-\indexentry{طیف}{\farsidigits {777}}
-\indexentry{harmonics}{\farsidigits {778}}
-\indexentry{ہارمونی!انداز}{\farsidigits {778}}
-\indexentry{fundamental mode}{\farsidigits {778}}
-\indexentry{انداز!بنیادی}{\farsidigits {778}}
-\indexentry{بنیادی انداز}{\farsidigits {778}}
-\indexentry{normal mode}{\farsidigits {778}}
-\indexentry{انداز!عمودی}{\farsidigits {778}}
-\indexentry{عمودی!انداز}{\farsidigits {778}}
-\indexentry{node}{\farsidigits {778}}
-\indexentry{نقطہ صفر ہٹاو}{\farsidigits {778}}
-\indexentry{d'Alembert solution}{\farsidigits {786}}
-\indexentry{دا لومبیغ حل}{\farsidigits {786}}
-\indexentry{parabolic!partial differential}{\farsidigits {788}}
-\indexentry{جزوی!تفرقی قطع مکافی}{\farsidigits {788}}
-\indexentry{قطع مکافی!جزوی تفرقی مساوات}{\farsidigits {788}}
-\indexentry{elliptic!partial differential}{\farsidigits {788}}
-\indexentry{جزوی!تفرقی بیضوی}{\farsidigits {788}}
-\indexentry{بیضوی!جزوی تفرقی مساوات}{\farsidigits {788}}
-\indexentry{hyperbolic!partial differential}{\farsidigits {788}}
-\indexentry{جزوی!تفرقی قطع زائد}{\farsidigits {788}}
-\indexentry{قطع زائد!جزوی تفرقی مساوات}{\farsidigits {788}}
-\indexentry{heat!one dimensional equation}{\farsidigits {790}}
-\indexentry{حراری!یک بُعدی مساوات}{\farsidigits {790}}
-\indexentry{error!function}{\farsidigits {799}}
-\indexentry{تفاعل!خلل}{\farsidigits {799}}
-\indexentry{خلل!تفاعل}{\farsidigits {799}}
-\indexentry{bell curve}{\farsidigits {800}}
-\indexentry{جرس!قوس}{\farsidigits {800}}
-\indexentry{قوس جرس}{\farsidigits {800}}
-\indexentry{wave!two dimensional equation}{\farsidigits {804}}
-\indexentry{موج!دو ابعادی مساوات}{\farsidigits {804}}
-\indexentry{characteristic!functions}{\farsidigits {807}}
-\indexentry{امتیازی!تفاعل}{\farsidigits {807}}
-\indexentry{eigenfunctions}{\farsidigits {807}}
-\indexentry{آئگنی!تفاعل}{\farsidigits {807}}
-\indexentry{characteristic!values}{\farsidigits {807}}
-\indexentry{امتیازی!اقدار}{\farsidigits {807}}
-\indexentry{eigenvalues}{\farsidigits {807}}
-\indexentry{آئگنی!اقدار}{\farsidigits {807}}
-\indexentry{nodal!lines}{\farsidigits {807}}
-\indexentry{صفر ہٹاو!لکیر}{\farsidigits {807}}
-\indexentry{Fourier!double series}{\farsidigits {809}}
-\indexentry{فوریئر!دوہرا تسلسل}{\farsidigits {809}}
-\indexentry{Euler!generalized formula}{\farsidigits {810}}
-\indexentry{یولر!عمومی کلیہ}{\farsidigits {810}}
-\indexentry{coordinates!polar}{\farsidigits {813}}
-\indexentry{polar coordinates}{\farsidigits {813}}
-\indexentry{محدد!قطبی}{\farsidigits {813}}
-\indexentry{قطبی محدد}{\farsidigits {813}}
-\indexentry{coordinates!cylindrical}{\farsidigits {815}}
-\indexentry{محدد!نلکی}{\farsidigits {815}}
-\indexentry{نلکی محدد}{\farsidigits {815}}
-\indexentry{coordinates!spherical}{\farsidigits {816}}
-\indexentry{محدد!کروی}{\farsidigits {816}}
-\indexentry{کروی محدد}{\farsidigits {816}}
-\indexentry{بیسل!مساوات}{\farsidigits {818}}
-\indexentry{امتیازی اقدار}{\farsidigits {819}}
-\indexentry{امتیازی!تفاعل}{\farsidigits {819}}
-\indexentry{normal mode}{\farsidigits {819}}
-\indexentry{عمودی انداز! ایم واں}{\farsidigits {819}}
-\indexentry{ہارمونی!تفاعل}{\farsidigits {823}}
-\indexentry{potential theory}{\farsidigits {823}}
-\indexentry{نظریہ مخفی قوہ}{\farsidigits {823}}
-\indexentry{harmonic!functions}{\farsidigits {823}}
-\indexentry{boundary!value problem}{\farsidigits {824}}
-\indexentry{سرحدی!قیمت مسئلہ}{\farsidigits {824}}
-\indexentry{Helmholtz equation}{\farsidigits {826}}
-\indexentry{ہلم ہولٹز!مساوات}{\farsidigits {826}}
-\indexentry{مساوات!ہلم ہولٹز}{\farsidigits {826}}
-\indexentry{فوریئر!لیژانڈر تسلسل}{\farsidigits {829}}
-\indexentry{conductance}{\farsidigits {831}}
-\indexentry{ایصالیت}{\farsidigits {831}}
-\indexentry{capacitance}{\farsidigits {831}}
-\indexentry{برق گیر}{\farsidigits {831}}
-\indexentry{inductance}{\farsidigits {831}}
-\indexentry{امالہ}{\farsidigits {831}}
-\indexentry{resistance}{\farsidigits {831}}
-\indexentry{مزاحمت}{\farsidigits {831}}
-\indexentry{complex number}{\farsidigits {840}}
-\indexentry{مخلوط عدد}{\farsidigits {840}}
-\indexentry{imaginary!part}{\farsidigits {840}}
-\indexentry{خیالی!حصہ}{\farsidigits {840}}
-\indexentry{real!part}{\farsidigits {840}}
-\indexentry{حقیقی!حصہ}{\farsidigits {840}}
-\indexentry{مخلوط!برابری}{\farsidigits {840}}
-\indexentry{imaginary!unit}{\farsidigits {840}}
-\indexentry{اکائی!خیالی}{\farsidigits {840}}
-\indexentry{خیالی!اکائی}{\farsidigits {840}}
-\indexentry{real!axis}{\farsidigits {841}}
-\indexentry{حقیقی!محور}{\farsidigits {841}}
-\indexentry{کارتیسی!نظام محدد}{\farsidigits {841}}
-\indexentry{imaginary!axis}{\farsidigits {841}}
-\indexentry{خیالی!محور}{\farsidigits {841}}
-\indexentry{Argand diagram}{\farsidigits {841}}
-\indexentry{نقشہ!اغگن}{\farsidigits {841}}
-\indexentry{اغگن!نقشہ}{\farsidigits {841}}
-\indexentry{complex!plane}{\farsidigits {841}}
-\indexentry{مخلوط!سطح}{\farsidigits {841}}
-\indexentry{imaginary!pure imaginary}{\farsidigits {844}}
-\indexentry{خیالی!خالص خیالی عدد}{\farsidigits {844}}
-\indexentry{خالص خیالی عدد}{\farsidigits {844}}
-\indexentry{modulus}{\farsidigits {847}}
-\indexentry{معیار}{\farsidigits {847}}
-\indexentry{absolute!value}{\farsidigits {847}}
-\indexentry{مطلق!قیمت}{\farsidigits {847}}
-\indexentry{trigonometric!form}{\farsidigits {847}}
-\indexentry{تکونیاتی!روپ}{\farsidigits {847}}
-\indexentry{polar!form}{\farsidigits {847}}
-\indexentry{قطبی!روپ}{\farsidigits {847}}
-\indexentry{argument}{\farsidigits {847}}
-\indexentry{دلیل}{\farsidigits {847}}
-\indexentry{principal!value}{\farsidigits {847}}
-\indexentry{قیمت!صدر}{\farsidigits {847}}
-\indexentry{صدر!قیمت}{\farsidigits {847}}
-\indexentry{De Moivre!formula}{\farsidigits {849}}
-\indexentry{ڈی موے ور!کلیہ}{\farsidigits {849}}
-\indexentry{triangle inequality}{\farsidigits {849}}
-\indexentry{تکونی عدم مساوات}{\farsidigits {849}}
-\indexentry{disk!open}{\farsidigits {853}}
-\indexentry{قرص!کھلا}{\farsidigits {853}}
-\indexentry{کھلا!قرص}{\farsidigits {853}}
-\indexentry{disk!circular}{\farsidigits {853}}
-\indexentry{قرص!دائری}{\farsidigits {853}}
-\indexentry{neighbourhood}{\farsidigits {853}}
-\indexentry{پڑوس}{\farsidigits {853}}
-\indexentry{disk!closed}{\farsidigits {853}}
-\indexentry{قرص!بند}{\farsidigits {853}}
-\indexentry{بند!قرص}{\farsidigits {853}}
-\indexentry{annulus!open}{\farsidigits {853}}
-\indexentry{چھلا!کھلا}{\farsidigits {853}}
-\indexentry{circle!unit}{\farsidigits {853}}
-\indexentry{unit!circle}{\farsidigits {853}}
-\indexentry{دائرہ!اکائی}{\farsidigits {853}}
-\indexentry{اکائی!دائرہ}{\farsidigits {853}}
-\indexentry{set!of points}{\farsidigits {854}}
-\indexentry{سلسلہ!نقاط}{\farsidigits {854}}
-\indexentry{set!open}{\farsidigits {854}}
-\indexentry{سلسلہ!کھلا}{\farsidigits {854}}
-\indexentry{complement}{\farsidigits {855}}
-\indexentry{متمم}{\farsidigits {855}}
-\indexentry{set!closed}{\farsidigits {855}}
-\indexentry{سلسلہ!بند}{\farsidigits {855}}
-\indexentry{set!bounded}{\farsidigits {855}}
-\indexentry{سلسلہ!محدود}{\farsidigits {855}}
-\indexentry{connected}{\farsidigits {855}}
-\indexentry{جڑا ہوا}{\farsidigits {855}}
-\indexentry{domain}{\farsidigits {855}}
-\indexentry{دائرہ کار}{\farsidigits {855}}
-\indexentry{boundary!point}{\farsidigits {855}}
-\indexentry{سرحدی نقطہ}{\farsidigits {855}}
-\indexentry{region}{\farsidigits {855}}
-\indexentry{خطہ}{\farsidigits {855}}
-\indexentry{complex!variable}{\farsidigits {857}}
-\indexentry{متغیر!مخلوط}{\farsidigits {857}}
-\indexentry{مخلوط!متغیر}{\farsidigits {857}}
+\indexentry{eigenvalues}{\farsidigits {531}}
+\indexentry{امتیازی اقدار}{\farsidigits {531}}
+\indexentry{امتیازی اقدار}{\farsidigits {531}}
+\indexentry{eigenfunctions}{\farsidigits {531}}
+\indexentry{امتیازی!تفاعل}{\farsidigits {531}}
+\indexentry{امتیازی!سمتیات}{\farsidigits {531}}
+\indexentry{مسئلہ!امتیازی قدر}{\farsidigits {532}}
+\indexentry{امتیازی قدر مسئلہ}{\farsidigits {532}}
+\indexentry{eigenvalue}{\farsidigits {532}}
+\indexentry{امتیازی!قدر}{\farsidigits {532}}
+\indexentry{spectrum}{\farsidigits {532}}
+\indexentry{طیف}{\farsidigits {532}}
+\indexentry{characteristic vectors}{\farsidigits {532}}
+\indexentry{امتیازی!سمتیات}{\farsidigits {532}}
+\indexentry{eigenvectors}{\farsidigits {532}}
+\indexentry{امتیازی!سمتیات}{\farsidigits {532}}
+\indexentry{spectral radius}{\farsidigits {532}}
+\indexentry{طیف!رداس}{\farsidigits {532}}
+\indexentry{رداس!طیف}{\farsidigits {532}}
+\indexentry{مساوات!امتیازی}{\farsidigits {534}}
+\indexentry{امتیازی!مساوات}{\farsidigits {534}}
+\indexentry{مقطع!امتیازی}{\farsidigits {534}}
+\indexentry{امتیازی!مقطع}{\farsidigits {534}}
+\indexentry{قالب!امتیازی}{\farsidigits {534}}
+\indexentry{امتیازی!قالب}{\farsidigits {534}}
+\indexentry{multiplicity!algebraic}{\farsidigits {536}}
+\indexentry{algebraic multiplicity}{\farsidigits {536}}
+\indexentry{کثرت!الجبرائی}{\farsidigits {536}}
+\indexentry{الجبرائی کثرت}{\farsidigits {536}}
+\indexentry{multiplicity!geometric}{\farsidigits {536}}
+\indexentry{geometric multiplicity}{\farsidigits {536}}
+\indexentry{کثرت!ہندسی}{\farsidigits {536}}
+\indexentry{ہندسی کثرت}{\farsidigits {536}}
+\indexentry{defect}{\farsidigits {536}}
+\indexentry{خامی}{\farsidigits {536}}
+\indexentry{principal axis}{\farsidigits {540}}
+\indexentry{صدر محور}{\farsidigits {540}}
+\indexentry{state!limit}{\farsidigits {541}}
+\indexentry{حال!تحدیدی}{\farsidigits {541}}
+\indexentry{Leslie model}{\farsidigits {542}}
+\indexentry{لزلی نمونہ}{\farsidigits {542}}
+\indexentry{model!Leontief}{\farsidigits {544}}
+\indexentry{نمونہ!لیونٹف}{\farsidigits {544}}
+\indexentry{لیونٹف نمونہ}{\farsidigits {544}}
+\indexentry{matrix!consumption}{\farsidigits {545}}
+\indexentry{قالب صرف}{\farsidigits {545}}
+\indexentry{demand!matrix}{\farsidigits {545}}
+\indexentry{matrix!demand}{\farsidigits {545}}
+\indexentry{مانگ!قالب}{\farsidigits {545}}
+\indexentry{قالب!مانگ}{\farsidigits {545}}
+\indexentry{symmetric}{\farsidigits {546}}
+\indexentry{تشاکلی}{\farsidigits {546}}
+\indexentry{skew-symmetric}{\farsidigits {546}}
+\indexentry{منحرف تشاکلی}{\farsidigits {546}}
+\indexentry{orthogonal}{\farsidigits {546}}
+\indexentry{متعامد}{\farsidigits {546}}
+\indexentry{اندرونی!ضرب}{\farsidigits {548}}
+\indexentry{معیار}{\farsidigits {548}}
+\indexentry{لمبائی}{\farsidigits {548}}
+\indexentry{matrix!similar}{\farsidigits {553}}
+\indexentry{similar!matrix}{\farsidigits {553}}
+\indexentry{قالب!متشابہ}{\farsidigits {553}}
+\indexentry{متشابہ!قالب}{\farsidigits {553}}
+\indexentry{similarity transformation}{\farsidigits {553}}
+\indexentry{متشابہت تبادلہ}{\farsidigits {553}}
+\indexentry{trace}{\farsidigits {556}}
+\indexentry{قالب!آثار}{\farsidigits {556}}
+\indexentry{آثار!قالب}{\farsidigits {556}}
+\indexentry{vector!quadratic form}{\farsidigits {557}}
+\indexentry{سمتیہ!دو درجی صورت}{\farsidigits {557}}
+\indexentry{دو درجی صورت}{\farsidigits {557}}
+\indexentry{coefficient matrix}{\farsidigits {557}}
+\indexentry{قالب! ضریب }{\farsidigits {557}}
+\indexentry{ ضریب !قالب}{\farsidigits {557}}
+\indexentry{theorem!Principal Axes}{\farsidigits {558}}
+\indexentry{Principal Axes Theorem}{\farsidigits {558}}
+\indexentry{صدر محور!مسئلہ}{\farsidigits {558}}
+\indexentry{مسئلہ!صدر محور}{\farsidigits {558}}
+\indexentry{canonical form}{\farsidigits {558}}
+\indexentry{با ضابطہ صورت}{\farsidigits {558}}
+\indexentry{quantum mechanics}{\farsidigits {562}}
+\indexentry{کوانٹم میکانیات}{\farsidigits {562}}
+\indexentry{Hermitian}{\farsidigits {562}}
+\indexentry{ہرمشی}{\farsidigits {562}}
+\indexentry{Hermitian!skew}{\farsidigits {562}}
+\indexentry{skew Hermitian}{\farsidigits {562}}
+\indexentry{ہرمشی!منحرف}{\farsidigits {562}}
+\indexentry{منحرف ہرمشی}{\farsidigits {562}}
+\indexentry{Unitary}{\farsidigits {562}}
+\indexentry{اکہرا}{\farsidigits {562}}
+\indexentry{ہرمشی!صورت}{\farsidigits {567}}
+\indexentry{قالب! ضریب }{\farsidigits {567}}
+\indexentry{ ضریب !قالب}{\farsidigits {567}}
+\indexentry{Pauli spin matrices}{\farsidigits {568}}
+\indexentry{پالی قالب چکر}{\farsidigits {568}}
+\indexentry{قالب چکر!پالی}{\farsidigits {568}}
+\indexentry{domain}{\farsidigits {571}}
+\indexentry{دائرہ کار}{\farsidigits {571}}
+\indexentry{field!scalar}{\farsidigits {571}}
+\indexentry{scalar!field}{\farsidigits {571}}
+\indexentry{میدان!عددیہ}{\farsidigits {571}}
+\indexentry{عددیہ!میدان}{\farsidigits {571}}
+\indexentry{field!vector}{\farsidigits {572}}
+\indexentry{vector!field}{\farsidigits {572}}
+\indexentry{میدان!سمتیہ}{\farsidigits {572}}
+\indexentry{سمتیہ!میدان}{\farsidigits {572}}
+\indexentry{function!vector}{\farsidigits {572}}
+\indexentry{vector!function}{\farsidigits {572}}
+\indexentry{تفاعل!سمتیہ}{\farsidigits {572}}
+\indexentry{سمتیہ!تفاعل}{\farsidigits {572}}
+\indexentry{limit vector}{\farsidigits {573}}
+\indexentry{سمتیہ!تحدیدی}{\farsidigits {573}}
+\indexentry{تحدیدی!سمتیہ}{\farsidigits {573}}
+\indexentry{limit}{\farsidigits {573}}
+\indexentry{حد}{\farsidigits {573}}
+\indexentry{derivative}{\farsidigits {574}}
+\indexentry{تفرق}{\farsidigits {574}}
+\indexentry{parametric!representation}{\farsidigits {578}}
+\indexentry{مقدار معلوم!منحنی}{\farsidigits {578}}
+\indexentry{منحنی!مقدار معلوم}{\farsidigits {578}}
+\indexentry{twisted curve}{\farsidigits {578}}
+\indexentry{منحنی!خم دار}{\farsidigits {578}}
+\indexentry{خم دار منحنی}{\farsidigits {578}}
+\indexentry{plane curve}{\farsidigits {578}}
+\indexentry{منحنی!مستوی}{\farsidigits {578}}
+\indexentry{مستوی!منحنی}{\farsidigits {578}}
+\indexentry{direction cosines}{\farsidigits {579}}
+\indexentry{کوسائن رخ}{\farsidigits {579}}
+\indexentry{helix!circular}{\farsidigits {579}}
+\indexentry{پیچ دار لچھا}{\farsidigits {579}}
+\indexentry{arc}{\farsidigits {580}}
+\indexentry{قوس}{\farsidigits {580}}
+\indexentry{multiple point}{\farsidigits {580}}
+\indexentry{متعدد نقطہ}{\farsidigits {580}}
+\indexentry{curve!simple}{\farsidigits {580}}
+\indexentry{منحنی!سادہ}{\farsidigits {580}}
+\indexentry{سادہ منحنی}{\farsidigits {580}}
+\indexentry{length}{\farsidigits {583}}
+\indexentry{لمبائی!منحنی}{\farsidigits {583}}
+\indexentry{rectifiable}{\farsidigits {583}}
+\indexentry{قابل تصحیح}{\farsidigits {583}}
+\indexentry{arc length}{\farsidigits {584}}
+\indexentry{لمبائی قوس}{\farsidigits {584}}
+\indexentry{orientation}{\farsidigits {584}}
+\indexentry{سمت بندی}{\farsidigits {584}}
+\indexentry{sense!positive}{\farsidigits {584}}
+\indexentry{دائری سمت!مثبت}{\farsidigits {584}}
+\indexentry{مثبت دائری سمت}{\farsidigits {584}}
+\indexentry{linear element}{\farsidigits {585}}
+\indexentry{خطی جزو}{\farsidigits {585}}
+\indexentry{tangent}{\farsidigits {589}}
+\indexentry{مماس}{\farsidigits {589}}
+\indexentry{tangent!unit vector}{\farsidigits {589}}
+\indexentry{مماس!اکائی سمتیہ}{\farsidigits {589}}
+\indexentry{اکائی!سمتیہ مماس}{\farsidigits {589}}
+\indexentry{انحنا}{\farsidigits {589}}
+\indexentry{curvature}{\farsidigits {589}}
+\indexentry{normal!principal unit vector}{\farsidigits {590}}
+\indexentry{principal!unit normal vector}{\farsidigits {590}}
+\indexentry{عمود!اکائی صدر سمتیہ}{\farsidigits {590}}
+\indexentry{صدر!اکائی عمود سمتیہ}{\farsidigits {590}}
+\indexentry{اکائی!صدر عمود سمتیہ}{\farsidigits {590}}
+\indexentry{unit!binormal vector}{\farsidigits {590}}
+\indexentry{عمود!دوہرا اکائی سمتیہ}{\farsidigits {590}}
+\indexentry{tangent}{\farsidigits {590}}
+\indexentry{مماس}{\farsidigits {590}}
+\indexentry{trihedron}{\farsidigits {590}}
+\indexentry{سہ سطحی مجسم}{\farsidigits {590}}
+\indexentry{binormal}{\farsidigits {590}}
+\indexentry{دوہرا عمود}{\farsidigits {590}}
+\indexentry{principal normal}{\farsidigits {590}}
+\indexentry{صدر عمود}{\farsidigits {590}}
+\indexentry{torsion}{\farsidigits {590}}
+\indexentry{مروڑ}{\farsidigits {590}}
+\indexentry{velocity}{\farsidigits {593}}
+\indexentry{رفتار!سمتیہ}{\farsidigits {593}}
+\indexentry{سمتیہ رفتار کا سمتیہ}{\farsidigits {593}}
+\indexentry{speed}{\farsidigits {593}}
+\indexentry{رفتار}{\farsidigits {593}}
+\indexentry{acceleration vector}{\farsidigits {593}}
+\indexentry{سمتیہ اسراع}{\farsidigits {593}}
+\indexentry{angular speed}{\farsidigits {594}}
+\indexentry{زاویائی رفتار}{\farsidigits {594}}
+\indexentry{مرکز مائل!قوت}{\farsidigits {594}}
+\indexentry{centripetal!acceleration}{\farsidigits {594}}
+\indexentry{اسراع!مرکز مائل}{\farsidigits {594}}
+\indexentry{مرکز مائل!اسراع}{\farsidigits {594}}
+\indexentry{centrifugal!force}{\farsidigits {594}}
+\indexentry{مرکز گریز!قوت}{\farsidigits {594}}
+\indexentry{centripetal!force}{\farsidigits {594}}
+\indexentry{Coriolis acceleration}{\farsidigits {595}}
+\indexentry{اسراع!کوریولس}{\farsidigits {595}}
+\indexentry{کوریولس!اسراع}{\farsidigits {595}}
+\indexentry{meridian}{\farsidigits {596}}
+\indexentry{نصف النھار}{\farsidigits {596}}
+\indexentry{Coriolis acceleration}{\farsidigits {596}}
+\indexentry{کوریولس اسراع}{\farsidigits {596}}
+\indexentry{equator}{\farsidigits {596}}
+\indexentry{ارضی خط استوا}{\farsidigits {596}}
+\indexentry{missile}{\farsidigits {596}}
+\indexentry{مزائل}{\farsidigits {596}}
+\indexentry{continuous}{\farsidigits {598}}
+\indexentry{استمراری}{\farsidigits {598}}
+\indexentry{connected}{\farsidigits {599}}
+\indexentry{open}{\farsidigits {599}}
+\indexentry{جڑا ہوا}{\farsidigits {599}}
+\indexentry{کھلا}{\farsidigits {599}}
+\indexentry{domain}{\farsidigits {599}}
+\indexentry{دائرہ کار}{\farsidigits {599}}
+\indexentry{derivative!directional}{\farsidigits {603}}
+\indexentry{directional derivative}{\farsidigits {603}}
+\indexentry{تفرق!سمتی}{\farsidigits {603}}
+\indexentry{سمتی!تفرق}{\farsidigits {603}}
+\indexentry{gradient}{\farsidigits {604}}
+\indexentry{ڈھلوان}{\farsidigits {604}}
+\indexentry{level surfaces}{\farsidigits {606}}
+\indexentry{ہم قد سطحیں}{\farsidigits {606}}
+\indexentry{normal}{\farsidigits {606}}
+\indexentry{عمود}{\farsidigits {606}}
+\indexentry{tangent plane}{\farsidigits {606}}
+\indexentry{سطح!مماس}{\farsidigits {606}}
+\indexentry{مماسی!سطح}{\farsidigits {606}}
+\indexentry{مخفی تفاعل}{\farsidigits {608}}
+\indexentry{potential function}{\farsidigits {608}}
+\indexentry{Laplacian}{\farsidigits {609}}
+\indexentry{لاپلاسی}{\farsidigits {609}}
+\indexentry{Laplace!equation}{\farsidigits {609}}
+\indexentry{لاپلاس!مساوات}{\farsidigits {609}}
+\indexentry{operator!Laplacian}{\farsidigits {609}}
+\indexentry{Laplacian!operator}{\farsidigits {609}}
+\indexentry{عامل!لاپلاسی}{\farsidigits {609}}
+\indexentry{لاپلاسی عامل}{\farsidigits {609}}
+\indexentry{conservative field}{\farsidigits {609}}
+\indexentry{بقائی میدان}{\farsidigits {609}}
+\indexentry{Kronecker delta}{\farsidigits {615}}
+\indexentry{کرونیکر ضرب}{\farsidigits {615}}
+\indexentry{divergence}{\farsidigits {618}}
+\indexentry{انفراج}{\farsidigits {618}}
+\indexentry{hydrodynamics}{\farsidigits {620}}
+\indexentry{حرکیات!ماقوا}{\farsidigits {620}}
+\indexentry{ماقوا حرکیات}{\farsidigits {620}}
+\indexentry{fluid}{\farsidigits {620}}
+\indexentry{سیال}{\farsidigits {620}}
+\indexentry{parallelepiped!rectangular}{\farsidigits {620}}
+\indexentry{متوازی السطوح!مستطیلی}{\farsidigits {620}}
+\indexentry{continuity!equation}{\farsidigits {621}}
+\indexentry{مساوات!استمراری}{\farsidigits {621}}
+\indexentry{استمراری!مساوات}{\farsidigits {621}}
+\indexentry{curl}{\farsidigits {624}}
+\indexentry{گردش}{\farsidigits {624}}
+\indexentry{بقائی میدان}{\farsidigits {625}}
+\indexentry{irrotational}{\farsidigits {625}}
+\indexentry{غیر گردشی}{\farsidigits {625}}
+\indexentry{conservative!field}{\farsidigits {625}}
+\indexentry{smooth!curve}{\farsidigits {628}}
+\indexentry{منحنی!ہموار}{\farsidigits {628}}
+\indexentry{ہموار!منحنی}{\farsidigits {628}}
+\indexentry{integral!line}{\farsidigits {629}}
+\indexentry{تکمل!خطی}{\farsidigits {629}}
+\indexentry{خطی!تکمل}{\farsidigits {629}}
+\indexentry{integrand}{\farsidigits {629}}
+\indexentry{متکمل}{\farsidigits {629}}
+\indexentry{راہ!تکمل}{\farsidigits {629}}
+\indexentry{تکمل!راہ}{\farsidigits {629}}
+\indexentry{smooth!piecewise}{\farsidigits {631}}
+\indexentry{piecewise smooth}{\farsidigits {631}}
+\indexentry{ہموار!ٹکڑوں میں}{\farsidigits {631}}
+\indexentry{work}{\farsidigits {636}}
+\indexentry{کام}{\farsidigits {636}}
+\indexentry{integral!double}{\farsidigits {640}}
+\indexentry{تکمل!دوہرا}{\farsidigits {640}}
+\indexentry{دوہرا!تکمل}{\farsidigits {640}}
+\indexentry{theorem!mean value}{\farsidigits {640}}
+\indexentry{اوسط قیمت مسئلہ}{\farsidigits {640}}
+\indexentry{مسئلہ!اوسط قیمت}{\farsidigits {640}}
+\indexentry{area}{\farsidigits {642}}
+\indexentry{رقبہ}{\farsidigits {642}}
+\indexentry{center of gravity}{\farsidigits {642}}
+\indexentry{مرکز ثقل}{\farsidigits {642}}
+\indexentry{moment of inertia}{\farsidigits {643}}
+\indexentry{جمودی معیار اثر}{\farsidigits {643}}
+\indexentry{moment of inertia!polar}{\farsidigits {643}}
+\indexentry{قطبی جمودی معیار اثر}{\farsidigits {643}}
+\indexentry{Jacobian}{\farsidigits {645}}
+\indexentry{یعقوبی}{\farsidigits {645}}
+\indexentry{polar coordinates}{\farsidigits {645}}
+\indexentry{محدد!قطبی}{\farsidigits {645}}
+\indexentry{قطبی محدد}{\farsidigits {645}}
+\indexentry{theorem!Green}{\farsidigits {651}}
+\indexentry{مسئلہ!گرین}{\farsidigits {651}}
+\indexentry{planimeter}{\farsidigits {654}}
+\indexentry{پیما!سطح}{\farsidigits {654}}
+\indexentry{سطح!پیما}{\farsidigits {654}}
+\indexentry{surface!explicit form}{\farsidigits {659}}
+\indexentry{سطح!صریح روپ}{\farsidigits {659}}
+\indexentry{surface!implicit form}{\farsidigits {660}}
+\indexentry{سطح!خفی روپ}{\farsidigits {660}}
+\indexentry{surface!parametric}{\farsidigits {660}}
+\indexentry{سطح!مقدار معلوم روپ}{\farsidigits {660}}
+\indexentry{محدود}{\farsidigits {660}}
+\indexentry{simply connected}{\farsidigits {660}}
+\indexentry{سادہ تعلق}{\farsidigits {660}}
+\indexentry{smooth!piecewise, surface}{\farsidigits {661}}
+\indexentry{ہموار!سطح۔ٹکڑوں میں}{\farsidigits {661}}
+\indexentry{latitude}{\farsidigits {661}}
+\indexentry{خط عرض بلد}{\farsidigits {661}}
+\indexentry{longitude}{\farsidigits {661}}
+\indexentry{خط طول بلد}{\farsidigits {661}}
+\indexentry{coordinate curves}{\farsidigits {661}}
+\indexentry{محددی منحنی}{\farsidigits {661}}
+\indexentry{tangent plane}{\farsidigits {664}}
+\indexentry{مماسی سطح}{\farsidigits {664}}
+\indexentry{normal}{\farsidigits {664}}
+\indexentry{عمود}{\farsidigits {664}}
+\indexentry{normal vector!unit}{\farsidigits {664}}
+\indexentry{عمود سمتیہ!اکائی}{\farsidigits {664}}
+\indexentry{fundamental form!first}{\farsidigits {665}}
+\indexentry{بنیادی صورت!اول}{\farsidigits {665}}
+\indexentry{area!element of}{\farsidigits {666}}
+\indexentry{رقبہ!رکن}{\farsidigits {666}}
+\indexentry{torus}{\farsidigits {667}}
+\indexentry{اندرسہ}{\farsidigits {667}}
+\indexentry{surface integral}{\farsidigits {673}}
+\indexentry{تکمل!سطحی}{\farsidigits {673}}
+\indexentry{سطحی!تکمل}{\farsidigits {673}}
+\indexentry{orientable}{\farsidigits {675}}
+\indexentry{سمت بند!قابل}{\farsidigits {675}}
+\indexentry{Mobius strip}{\farsidigits {675}}
+\indexentry{موبیوس پٹی}{\farsidigits {675}}
+\indexentry{theorem!Steiner}{\farsidigits {679}}
+\indexentry{مسئلہ!سٹائنر}{\farsidigits {679}}
+\indexentry{تکمل!تہرا}{\farsidigits {680}}
+\indexentry{تہرا!تکمل}{\farsidigits {680}}
+\indexentry{integral!triple}{\farsidigits {680}}
+\indexentry{مسئلہ!اوسط قیمت}{\farsidigits {684}}
+\indexentry{source}{\farsidigits {685}}
+\indexentry{منبع}{\farsidigits {685}}
+\indexentry{source intensity}{\farsidigits {685}}
+\indexentry{شدت منبع}{\farsidigits {685}}
+\indexentry{انفراج}{\farsidigits {685}}
+\indexentry{thermal conductivity}{\farsidigits {686}}
+\indexentry{حراری موصلیت}{\farsidigits {686}}
+\indexentry{موصلیت!حراری}{\farsidigits {686}}
+\indexentry{heat!specific capacity}{\farsidigits {686}}
+\indexentry{حراری!خصوصی استعداد}{\farsidigits {686}}
+\indexentry{heat!equation}{\farsidigits {687}}
+\indexentry{حراری!مساوات}{\farsidigits {687}}
+\indexentry{Green!first formula}{\farsidigits {688}}
+\indexentry{گرین!کلیہ اول}{\farsidigits {688}}
+\indexentry{Green!second formula}{\farsidigits {688}}
+\indexentry{گرین!کلیہ دوم}{\farsidigits {688}}
+\indexentry{harmonic}{\farsidigits {692}}
+\indexentry{ہارمونی}{\farsidigits {692}}
+\indexentry{Stokes' theorem}{\farsidigits {693}}
+\indexentry{سٹوکس!مسئلہ}{\farsidigits {693}}
+\indexentry{مسئلہ!سٹوکس}{\farsidigits {693}}
+\indexentry{circulation}{\farsidigits {697}}
+\indexentry{دائری بہاؤ}{\farsidigits {697}}
+\indexentry{independent of path}{\farsidigits {699}}
+\indexentry{راہ سے آزاد}{\farsidigits {699}}
+\indexentry{single valued}{\farsidigits {699}}
+\indexentry{واحد قیمت}{\farsidigits {699}}
+\indexentry{differential form!first order}{\farsidigits {700}}
+\indexentry{تفرقی روپ!یک رتبی}{\farsidigits {700}}
+\indexentry{exact differential form}{\farsidigits {700}}
+\indexentry{قطعی تفرقی روپ}{\farsidigits {700}}
+\indexentry{conservative}{\farsidigits {702}}
+\indexentry{بقائی}{\farsidigits {702}}
+\indexentry{simply connected}{\farsidigits {704}}
+\indexentry{سادہ تعلق}{\farsidigits {704}}
+\indexentry{periodic}{\farsidigits {711}}
+\indexentry{دوری}{\farsidigits {711}}
+\indexentry{period}{\farsidigits {711}}
+\indexentry{دوری عرصہ}{\farsidigits {711}}
+\indexentry{series!trigonometric}{\farsidigits {712}}
+\indexentry{تسلسل!تکونیاتی}{\farsidigits {712}}
+\indexentry{coefficients}{\farsidigits {712}}
+\indexentry{ضرائب}{\farsidigits {712}}
+\indexentry{Euler!formulas}{\farsidigits {718}}
+\indexentry{یولر!کلیات}{\farsidigits {718}}
+\indexentry{Fourier!coefficients}{\farsidigits {718}}
+\indexentry{فوریئر! ضریب }{\farsidigits {718}}
+\indexentry{Fourier!series}{\farsidigits {718}}
+\indexentry{فوریئر!تسلسل}{\farsidigits {718}}
+\indexentry{تسلسل!فوریئر}{\farsidigits {718}}
+\indexentry{truncation!error}{\farsidigits {721}}
+\indexentry{خلل!حذفی}{\farsidigits {721}}
+\indexentry{limit!left hand}{\farsidigits {721}}
+\indexentry{حد!بائیں ہاتھ}{\farsidigits {721}}
+\indexentry{limit!right hand}{\farsidigits {721}}
+\indexentry{حد!دائیں ہاتھ}{\farsidigits {721}}
+\indexentry{jump}{\farsidigits {722}}
+\indexentry{چھلانگ}{\farsidigits {722}}
+\indexentry{differential!left hand}{\farsidigits {722}}
+\indexentry{بائیں ہاتھ!تفرق}{\farsidigits {722}}
+\indexentry{تفرق!بائیں ہاتھ}{\farsidigits {722}}
+\indexentry{differential!right hand}{\farsidigits {722}}
+\indexentry{دائیں ہاتھ!تفرق}{\farsidigits {722}}
+\indexentry{تفرق!دائیں ہاتھ}{\farsidigits {722}}
+\indexentry{even}{\farsidigits {731}}
+\indexentry{جفت}{\farsidigits {731}}
+\indexentry{odd}{\farsidigits {731}}
+\indexentry{طاق}{\farsidigits {731}}
+\indexentry{Fourier!cosine series}{\farsidigits {732}}
+\indexentry{فوریئر!کوسائن تسلسل}{\farsidigits {732}}
+\indexentry{Fourier!sine series}{\farsidigits {733}}
+\indexentry{فوریئر!سائن تسلسل}{\farsidigits {733}}
+\indexentry{pulse}{\farsidigits {734}}
+\indexentry{دھڑکن}{\farsidigits {734}}
+\indexentry{saw tooth wave}{\farsidigits {734}}
+\indexentry{موج!دندان}{\farsidigits {734}}
+\indexentry{دندان موج}{\farsidigits {734}}
+\indexentry{even!periodic extension}{\farsidigits {738}}
+\indexentry{جفت!دوری توسیع}{\farsidigits {738}}
+\indexentry{odd!periodic extension}{\farsidigits {739}}
+\indexentry{طاق!دوری توسیع}{\farsidigits {739}}
+\indexentry{half range expansion}{\farsidigits {739}}
+\indexentry{نصف سعت اتساع}{\farsidigits {739}}
+\indexentry{Fourier!complex coefficients}{\farsidigits {743}}
+\indexentry{فوریئر!مخلوط ضریب }{\farsidigits {743}}
+\indexentry{Fourier!complex form}{\farsidigits {743}}
+\indexentry{فوریئر!مخلوط تسلسل}{\farsidigits {743}}
+\indexentry{jump}{\farsidigits {744}}
+\indexentry{چھلانگ}{\farsidigits {744}}
+\indexentry{error!total square}{\farsidigits {756}}
+\indexentry{خلل!کل مکعب}{\farsidigits {756}}
+\indexentry{Parseval's identity}{\farsidigits {757}}
+\indexentry{پارسیوال مماثل}{\farsidigits {757}}
+\indexentry{Bessel!inequality}{\farsidigits {757}}
+\indexentry{بیسل!غیر مساوات}{\farsidigits {757}}
+\indexentry{integrable!absolutely}{\farsidigits {761}}
+\indexentry{تکمل!مطلق قابل تکمل}{\farsidigits {761}}
+\indexentry{Fourier!integral}{\farsidigits {761}}
+\indexentry{فوریئر!تکمل}{\farsidigits {761}}
+\indexentry{Dirichlet' discontinuous factor}{\farsidigits {762}}
+\indexentry{ڈرشلے غیر استمراری جزو}{\farsidigits {762}}
+\indexentry{sine integral}{\farsidigits {763}}
+\indexentry{سائن تکمل}{\farsidigits {763}}
+\indexentry{Gibbs phenomenon}{\farsidigits {763}}
+\indexentry{مظہر گبس}{\farsidigits {763}}
+\indexentry{Laplace!integrals}{\farsidigits {766}}
+\indexentry{لاپلاس!تکملات}{\farsidigits {766}}
+\indexentry{Fourier!transform}{\farsidigits {770}}
+\indexentry{فوریئر!تبادل}{\farsidigits {770}}
+\indexentry{Fourier!inverse transform}{\farsidigits {770}}
+\indexentry{فوریئر!معکوس تبادل}{\farsidigits {770}}
+\indexentry{differential!partial equation}{\farsidigits {771}}
+\indexentry{جزوی!تفرقی مساوات}{\farsidigits {771}}
+\indexentry{تفرقی!جزوی مساوات}{\farsidigits {771}}
+\indexentry{order!partial differential equation}{\farsidigits {771}}
+\indexentry{جزوی!رتبہ مساوات}{\farsidigits {771}}
+\indexentry{رتبہ!جزوی تفرقی مساوات}{\farsidigits {771}}
+\indexentry{linear}{\farsidigits {771}}
+\indexentry{خطی}{\farsidigits {771}}
+\indexentry{non homogeneous!partial differential equation}{\farsidigits {771}}
+\indexentry{غیر ہم جنسی!جزوی تفرقی مساوات}{\farsidigits {771}}
+\indexentry{homogeneous!partial differential equation}{\farsidigits {771}}
+\indexentry{ہم جنسی!جزوی تفرقی مساوات}{\farsidigits {771}}
+\indexentry{boundary conditions}{\farsidigits {772}}
+\indexentry{سرحدی شرائط}{\farsidigits {772}}
+\indexentry{initial conditions}{\farsidigits {772}}
+\indexentry{ابتدائی شرائط}{\farsidigits {772}}
+\indexentry{wave!one dimensional equation}{\farsidigits {776}}
+\indexentry{موج!یک بُعدی مساوات}{\farsidigits {776}}
+\indexentry{initial conditions}{\farsidigits {777}}
+\indexentry{ابتدائی شرائط}{\farsidigits {777}}
+\indexentry{آئگنی!تفاعل}{\farsidigits {779}}
+\indexentry{characteristic!values}{\farsidigits {779}}
+\indexentry{امتیازی!قدر}{\farsidigits {779}}
+\indexentry{eigenvalues}{\farsidigits {779}}
+\indexentry{آئگنی!قدر}{\farsidigits {779}}
+\indexentry{characteristic!functions}{\farsidigits {779}}
+\indexentry{امتیازی!تفاعل}{\farsidigits {779}}
+\indexentry{eigenfunctions}{\farsidigits {779}}
+\indexentry{spectrum}{\farsidigits {779}}
+\indexentry{طیف}{\farsidigits {779}}
+\indexentry{harmonics}{\farsidigits {780}}
+\indexentry{ہارمونی!انداز}{\farsidigits {780}}
+\indexentry{fundamental mode}{\farsidigits {780}}
+\indexentry{انداز!بنیادی}{\farsidigits {780}}
+\indexentry{بنیادی انداز}{\farsidigits {780}}
+\indexentry{normal mode}{\farsidigits {780}}
+\indexentry{انداز!عمود}{\farsidigits {780}}
+\indexentry{عمود!انداز}{\farsidigits {780}}
+\indexentry{node}{\farsidigits {780}}
+\indexentry{نقطہ صفر ہٹاو}{\farsidigits {780}}
+\indexentry{d'Alembert solution}{\farsidigits {788}}
+\indexentry{دا لومبیغ حل}{\farsidigits {788}}
+\indexentry{parabolic!partial differential}{\farsidigits {790}}
+\indexentry{جزوی!تفرقی قطع مکافی}{\farsidigits {790}}
+\indexentry{قطع مکافی!جزوی تفرقی مساوات}{\farsidigits {790}}
+\indexentry{elliptic!partial differential}{\farsidigits {790}}
+\indexentry{جزوی!تفرقی ترخیمی}{\farsidigits {790}}
+\indexentry{ترخیمی!جزوی تفرقی مساوات}{\farsidigits {790}}
+\indexentry{hyperbolic!partial differential}{\farsidigits {790}}
+\indexentry{جزوی!تفرقی قطع زائد}{\farsidigits {790}}
+\indexentry{قطع زائد!جزوی تفرقی مساوات}{\farsidigits {790}}
+\indexentry{heat!one dimensional equation}{\farsidigits {792}}
+\indexentry{حراری!یک بُعدی مساوات}{\farsidigits {792}}
+\indexentry{error!function}{\farsidigits {801}}
+\indexentry{تفاعل!خلل}{\farsidigits {801}}
+\indexentry{خلل!تفاعل}{\farsidigits {801}}
+\indexentry{bell curve}{\farsidigits {802}}
+\indexentry{جرس!قوس}{\farsidigits {802}}
+\indexentry{قوس جرس}{\farsidigits {802}}
+\indexentry{wave!two dimensional equation}{\farsidigits {806}}
+\indexentry{موج!دو ابعادی مساوات}{\farsidigits {806}}
+\indexentry{characteristic!functions}{\farsidigits {809}}
+\indexentry{امتیازی!تفاعل}{\farsidigits {809}}
+\indexentry{eigenfunctions}{\farsidigits {809}}
+\indexentry{آئگنی!تفاعل}{\farsidigits {809}}
+\indexentry{characteristic!values}{\farsidigits {809}}
+\indexentry{امتیازی!اقدار}{\farsidigits {809}}
+\indexentry{eigenvalues}{\farsidigits {809}}
+\indexentry{آئگنی!اقدار}{\farsidigits {809}}
+\indexentry{nodal!lines}{\farsidigits {809}}
+\indexentry{صفر ہٹاو!لکیر}{\farsidigits {809}}
+\indexentry{Fourier!double series}{\farsidigits {811}}
+\indexentry{فوریئر!دوہرا تسلسل}{\farsidigits {811}}
+\indexentry{Euler!generalized formula}{\farsidigits {812}}
+\indexentry{یولر!عمومی کلیہ}{\farsidigits {812}}
+\indexentry{coordinates!polar}{\farsidigits {815}}
+\indexentry{polar coordinates}{\farsidigits {815}}
+\indexentry{محدد!قطبی}{\farsidigits {815}}
+\indexentry{قطبی محدد}{\farsidigits {815}}
+\indexentry{coordinates!cylindrical}{\farsidigits {817}}
+\indexentry{محدد!نلکی}{\farsidigits {817}}
+\indexentry{نلکی محدد}{\farsidigits {817}}
+\indexentry{coordinates!spherical}{\farsidigits {818}}
+\indexentry{محدد!کروی}{\farsidigits {818}}
+\indexentry{کروی محدد}{\farsidigits {818}}
+\indexentry{بیسل!مساوات}{\farsidigits {820}}
+\indexentry{امتیازی اقدار}{\farsidigits {821}}
+\indexentry{امتیازی!تفاعل}{\farsidigits {821}}
+\indexentry{normal mode}{\farsidigits {821}}
+\indexentry{عمود انداز! ایم واں}{\farsidigits {821}}
+\indexentry{ہارمونی!تفاعل}{\farsidigits {825}}
+\indexentry{potential theory}{\farsidigits {825}}
+\indexentry{نظریہ مخفی قوہ}{\farsidigits {825}}
+\indexentry{harmonic!functions}{\farsidigits {825}}
+\indexentry{boundary!value problem}{\farsidigits {826}}
+\indexentry{سرحدی!قیمت مسئلہ}{\farsidigits {826}}
+\indexentry{Helmholtz equation}{\farsidigits {828}}
+\indexentry{ہلم ہولٹز!مساوات}{\farsidigits {828}}
+\indexentry{مساوات!ہلم ہولٹز}{\farsidigits {828}}
+\indexentry{فوریئر!لیژانڈر تسلسل}{\farsidigits {831}}
+\indexentry{conductance}{\farsidigits {833}}
+\indexentry{ایصالیت}{\farsidigits {833}}
+\indexentry{capacitance}{\farsidigits {833}}
+\indexentry{برق گیر}{\farsidigits {833}}
+\indexentry{inductance}{\farsidigits {833}}
+\indexentry{امالہ}{\farsidigits {833}}
+\indexentry{resistance}{\farsidigits {833}}
+\indexentry{مزاحمت}{\farsidigits {833}}
+\indexentry{complex number}{\farsidigits {842}}
+\indexentry{مخلوط عدد}{\farsidigits {842}}
+\indexentry{imaginary!part}{\farsidigits {842}}
+\indexentry{خیالی!حصہ}{\farsidigits {842}}
+\indexentry{real!part}{\farsidigits {842}}
+\indexentry{حقیقی!حصہ}{\farsidigits {842}}
+\indexentry{مخلوط!برابری}{\farsidigits {842}}
+\indexentry{imaginary!unit}{\farsidigits {842}}
+\indexentry{اکائی!خیالی}{\farsidigits {842}}
+\indexentry{خیالی!اکائی}{\farsidigits {842}}
+\indexentry{real!axis}{\farsidigits {843}}
+\indexentry{حقیقی!محور}{\farsidigits {843}}
+\indexentry{کارتیسی!نظام محدد}{\farsidigits {843}}
+\indexentry{imaginary!axis}{\farsidigits {843}}
+\indexentry{خیالی!محور}{\farsidigits {843}}
+\indexentry{Argand diagram}{\farsidigits {843}}
+\indexentry{نقشہ!اغگن}{\farsidigits {843}}
+\indexentry{اغگن!نقشہ}{\farsidigits {843}}
+\indexentry{complex!plane}{\farsidigits {843}}
+\indexentry{مخلوط!سطح}{\farsidigits {843}}
+\indexentry{imaginary!pure imaginary}{\farsidigits {846}}
+\indexentry{خیالی!خالص خیالی عدد}{\farsidigits {846}}
+\indexentry{خالص خیالی عدد}{\farsidigits {846}}
+\indexentry{modulus}{\farsidigits {849}}
+\indexentry{معیار}{\farsidigits {849}}
+\indexentry{absolute!value}{\farsidigits {849}}
+\indexentry{مطلق!قیمت}{\farsidigits {849}}
+\indexentry{trigonometric!form}{\farsidigits {849}}
+\indexentry{تکونیاتی!روپ}{\farsidigits {849}}
+\indexentry{polar!form}{\farsidigits {849}}
+\indexentry{قطبی!روپ}{\farsidigits {849}}
+\indexentry{argument}{\farsidigits {849}}
+\indexentry{دلیل}{\farsidigits {849}}
+\indexentry{principal!value}{\farsidigits {849}}
+\indexentry{قیمت!صدر}{\farsidigits {849}}
+\indexentry{صدر!قیمت}{\farsidigits {849}}
+\indexentry{De Moivre!formula}{\farsidigits {851}}
+\indexentry{ڈی موے ور!کلیہ}{\farsidigits {851}}
+\indexentry{triangle inequality}{\farsidigits {851}}
+\indexentry{تکونی عدم مساوات}{\farsidigits {851}}
+\indexentry{قرص!کھلا}{\farsidigits {855}}
+\indexentry{کھلا!قرص}{\farsidigits {855}}
+\indexentry{disk!circular}{\farsidigits {855}}
+\indexentry{قرص!دائری}{\farsidigits {855}}
+\indexentry{disk!open}{\farsidigits {855}}
+\indexentry{neighbourhood}{\farsidigits {855}}
+\indexentry{پڑوس}{\farsidigits {855}}
+\indexentry{disk!closed}{\farsidigits {855}}
+\indexentry{قرص!بند}{\farsidigits {855}}
+\indexentry{بند!قرص}{\farsidigits {855}}
+\indexentry{annulus!open}{\farsidigits {855}}
+\indexentry{چھلا!کھلا}{\farsidigits {855}}
+\indexentry{circle!unit}{\farsidigits {855}}
+\indexentry{unit!circle}{\farsidigits {855}}
+\indexentry{دائرہ!اکائی}{\farsidigits {855}}
+\indexentry{اکائی!دائرہ}{\farsidigits {855}}
+\indexentry{set!of points}{\farsidigits {856}}
+\indexentry{سلسلہ!نقاط}{\farsidigits {856}}
+\indexentry{set!open}{\farsidigits {856}}
+\indexentry{سلسلہ!کھلا}{\farsidigits {856}}
+\indexentry{complement}{\farsidigits {857}}
+\indexentry{متمم}{\farsidigits {857}}
+\indexentry{set!closed}{\farsidigits {857}}
+\indexentry{سلسلہ!بند}{\farsidigits {857}}
+\indexentry{set!bounded}{\farsidigits {857}}
+\indexentry{سلسلہ!محدود}{\farsidigits {857}}
+\indexentry{connected}{\farsidigits {857}}
+\indexentry{جڑا ہوا}{\farsidigits {857}}
 \indexentry{domain}{\farsidigits {857}}
 \indexentry{دائرہ کار}{\farsidigits {857}}
-\indexentry{range}{\farsidigits {857}}
-\indexentry{سعت}{\farsidigits {857}}
-\indexentry{limit}{\farsidigits {858}}
-\indexentry{حد}{\farsidigits {858}}
-\indexentry{continuous}{\farsidigits {858}}
-\indexentry{استمراری}{\farsidigits {858}}
-\indexentry{استمراری!دائرہ کار میں}{\farsidigits {858}}
-\indexentry{derivative!defined}{\farsidigits {858}}
-\indexentry{تفرق!تعریف}{\farsidigits {858}}
-\indexentry{holomorphic}{\farsidigits {860}}
-\indexentry{شکلہ!کل}{\farsidigits {860}}
-\indexentry{کل شکلہ}{\farsidigits {860}}
-\indexentry{analytic!function}{\farsidigits {860}}
-\indexentry{تحلیلی!تفاعل}{\farsidigits {860}}
-\indexentry{کثیر رکنی}{\farsidigits {860}}
-\indexentry{Cauchy Rienmann!differential equations}{\farsidigits {864}}
-\indexentry{کوشی ریمان!تفرقی مساوات}{\farsidigits {864}}
-\indexentry{harmonic!function}{\farsidigits {868}}
-\indexentry{ہارمونی!تفاعل}{\farsidigits {868}}
-\indexentry{harmonic!conjugate function}{\farsidigits {868}}
-\indexentry{conjugate!harmonic function}{\farsidigits {868}}
-\indexentry{ہارمونی!جوڑی دار تفاعل}{\farsidigits {868}}
-\indexentry{function!entire}{\farsidigits {871}}
-\indexentry{تفاعل!سالم}{\farsidigits {871}}
-\indexentry{polynomial}{\farsidigits {871}}
-\indexentry{کثیر رکنی}{\farsidigits {871}}
-\indexentry{rational!function}{\farsidigits {872}}
-\indexentry{ناطق تفاعل}{\farsidigits {872}}
-\indexentry{fraction!partial}{\farsidigits {872}}
-\indexentry{کسر!جزوی}{\farsidigits {872}}
-\indexentry{root}{\farsidigits {872}}
-\indexentry{جذر}{\farsidigits {872}}
-\indexentry{principal!value}{\farsidigits {873}}
-\indexentry{صدر!قیمت}{\farsidigits {873}}
-\indexentry{Euler!formula}{\farsidigits {877}}
-\indexentry{یولر!کلیہ}{\farsidigits {877}}
-\indexentry{دوری عرصہ!خیالی}{\farsidigits {878}}
-\indexentry{fundamental strip}{\farsidigits {878}}
-\indexentry{خطہ!بنیادی}{\farsidigits {878}}
-\indexentry{بنیادی!خطہ}{\farsidigits {878}}
-\indexentry{یولر!مساوات}{\farsidigits {882}}
-\indexentry{hyperbolic sine}{\farsidigits {882}}
-\indexentry{سائن!ہذلولی}{\farsidigits {882}}
-\indexentry{ہذلولی!سائن}{\farsidigits {882}}
-\indexentry{hyperbolic cosine}{\farsidigits {882}}
-\indexentry{کوسائن!ہذلولی}{\farsidigits {882}}
-\indexentry{ہذلولی!کوسائن}{\farsidigits {882}}
-\indexentry{modular surface}{\farsidigits {882}}
-\indexentry{سطح!مقیاس}{\farsidigits {882}}
-\indexentry{مقیاسی سطح}{\farsidigits {882}}
-\indexentry{logarithm!natural}{\farsidigits {885}}
-\indexentry{principal!value}{\farsidigits {886}}
-\indexentry{صدر قیمت}{\farsidigits {886}}
-\indexentry{principal!value}{\farsidigits {887}}
-\indexentry{صدر!قیمت}{\farsidigits {887}}
+\indexentry{boundary!point}{\farsidigits {857}}
+\indexentry{سرحدی نقطہ}{\farsidigits {857}}
+\indexentry{region}{\farsidigits {857}}
+\indexentry{خطہ}{\farsidigits {857}}
+\indexentry{complex!variable}{\farsidigits {859}}
+\indexentry{متغیر!مخلوط}{\farsidigits {859}}
+\indexentry{مخلوط!متغیر}{\farsidigits {859}}
+\indexentry{domain}{\farsidigits {859}}
+\indexentry{دائرہ کار}{\farsidigits {859}}
+\indexentry{range}{\farsidigits {859}}
+\indexentry{سعت}{\farsidigits {859}}
+\indexentry{limit}{\farsidigits {860}}
+\indexentry{حد}{\farsidigits {860}}
+\indexentry{continuous}{\farsidigits {860}}
+\indexentry{استمراری}{\farsidigits {860}}
+\indexentry{استمراری!دائرہ کار میں}{\farsidigits {860}}
+\indexentry{derivative!defined}{\farsidigits {860}}
+\indexentry{تفرق!تعریف}{\farsidigits {860}}
+\indexentry{holomorphic}{\farsidigits {862}}
+\indexentry{شکلہ!کل}{\farsidigits {862}}
+\indexentry{کل شکلہ}{\farsidigits {862}}
+\indexentry{analytic!function}{\farsidigits {862}}
+\indexentry{تحلیلی!تفاعل}{\farsidigits {862}}
+\indexentry{کثیر رکنی}{\farsidigits {862}}
+\indexentry{Cauchy Rienmann!differential equations}{\farsidigits {866}}
+\indexentry{کوشی ریمان!تفرقی مساوات}{\farsidigits {866}}
+\indexentry{harmonic!function}{\farsidigits {870}}
+\indexentry{ہارمونی!تفاعل}{\farsidigits {870}}
+\indexentry{harmonic!conjugate function}{\farsidigits {870}}
+\indexentry{conjugate!harmonic function}{\farsidigits {870}}
+\indexentry{ہارمونی!جوڑی دار تفاعل}{\farsidigits {870}}
+\indexentry{function!entire}{\farsidigits {873}}
+\indexentry{تفاعل!سالم}{\farsidigits {873}}
+\indexentry{polynomial}{\farsidigits {873}}
+\indexentry{کثیر رکنی}{\farsidigits {873}}
+\indexentry{rational!function}{\farsidigits {874}}
+\indexentry{ناطق تفاعل}{\farsidigits {874}}
+\indexentry{fraction!partial}{\farsidigits {874}}
+\indexentry{کسر!جزوی}{\farsidigits {874}}
+\indexentry{root}{\farsidigits {874}}
+\indexentry{جذر}{\farsidigits {874}}
+\indexentry{principal!value}{\farsidigits {874}}
+\indexentry{صدر!قیمت}{\farsidigits {874}}
+\indexentry{Euler!formula}{\farsidigits {879}}
+\indexentry{یولر!کلیہ}{\farsidigits {879}}
+\indexentry{دوری عرصہ!خیالی}{\farsidigits {880}}
+\indexentry{fundamental strip}{\farsidigits {880}}
+\indexentry{خطہ!بنیادی}{\farsidigits {880}}
+\indexentry{بنیادی!خطہ}{\farsidigits {880}}
+\indexentry{یولر!مساوات}{\farsidigits {883}}
+\indexentry{hyperbolic sine}{\farsidigits {884}}
+\indexentry{سائن!ہذلولی}{\farsidigits {884}}
+\indexentry{ہذلولی!سائن}{\farsidigits {884}}
+\indexentry{hyperbolic cosine}{\farsidigits {884}}
+\indexentry{کوسائن!ہذلولی}{\farsidigits {884}}
+\indexentry{ہذلولی!کوسائن}{\farsidigits {884}}
+\indexentry{modular surface}{\farsidigits {884}}
+\indexentry{سطح!مقیاس}{\farsidigits {884}}
+\indexentry{مقیاسی سطح}{\farsidigits {884}}
+\indexentry{logarithm!natural}{\farsidigits {887}}
+\indexentry{principal!value}{\farsidigits {888}}
+\indexentry{صدر قیمت}{\farsidigits {888}}
+\indexentry{principal!value}{\farsidigits {889}}
+\indexentry{صدر!قیمت}{\farsidigits {889}}
 \indexentry{mapping!conformal}{\farsidigits {893}}
 \indexentry{conformal!map}{\farsidigits {893}}
 \indexentry{نقشہ!محافظ زاویہ}{\farsidigits {893}}
@@ -2215,16 +2222,16 @@
 \indexentry{محافظ زاویہ}{\farsidigits {904}}
 \indexentry{critical!point}{\farsidigits {904}}
 \indexentry{نقطہ!فاصل}{\farsidigits {904}}
-\indexentry{sense!positive}{\farsidigits {904}}
-\indexentry{سمت!مثبت}{\farsidigits {904}}
+\indexentry{sense!positive}{\farsidigits {905}}
+\indexentry{سمت!مثبت}{\farsidigits {905}}
 \indexentry{smooth!curve}{\farsidigits {905}}
 \indexentry{منحنی!ہموار}{\farsidigits {905}}
 \indexentry{ہموار!منحنی}{\farsidigits {905}}
-\indexentry{Jacobian}{\farsidigits {906}}
-\indexentry{یعقوبی}{\farsidigits {906}}
-\indexentry{one to one}{\farsidigits {906}}
-\indexentry{مطابقتی!یک بہ یک}{\farsidigits {906}}
-\indexentry{یک بہ یک مطابقتی}{\farsidigits {906}}
+\indexentry{Jacobian}{\farsidigits {907}}
+\indexentry{یعقوبی}{\farsidigits {907}}
+\indexentry{one to one}{\farsidigits {907}}
+\indexentry{مطابقتی!یک بہ یک}{\farsidigits {907}}
+\indexentry{یک بہ یک مطابقتی}{\farsidigits {907}}
 \indexentry{transformation!Mobius}{\farsidigits {910}}
 \indexentry{تبادل!موبیوس}{\farsidigits {910}}
 \indexentry{transformation!linear fractional}{\farsidigits {910}}
@@ -2238,12 +2245,12 @@
 \indexentry{complex!finite plane}{\farsidigits {911}}
 \indexentry{مخلوط!متناہی سطح}{\farsidigits {911}}
 \indexentry{متناہی!مخلوط سطح}{\farsidigits {911}}
-\indexentry{point!fixed}{\farsidigits {911}}
-\indexentry{نقطہ!مقررہ}{\farsidigits {911}}
+\indexentry{point!fixed}{\farsidigits {912}}
+\indexentry{نقطہ!مقررہ}{\farsidigits {912}}
 \indexentry{قوت نمائی تفاعل}{\farsidigits {920}}
 \indexentry{لوگارتھم!قدرتی}{\farsidigits {921}}
-\indexentry{سائن!تفاعل}{\farsidigits {922}}
-\indexentry{کوسائن!تفاعل}{\farsidigits {923}}
+\indexentry{سائن!تفاعل}{\farsidigits {921}}
+\indexentry{کوسائن!تفاعل}{\farsidigits {922}}
 \indexentry{ہذلولی!تفاعل}{\farsidigits {923}}
 \indexentry{complex potentials!method}{\farsidigits {926}}
 \indexentry{مخفی قوہ!مخلوط، ترکیب}{\farsidigits {926}}
@@ -2253,9 +2260,9 @@
 \indexentry{branch point}{\farsidigits {930}}
 \indexentry{نقطہ!تقسیمی}{\farsidigits {930}}
 \indexentry{تقسیمی نقطہ}{\farsidigits {930}}
-\indexentry{aerodynamics}{\farsidigits {931}}
-\indexentry{حرکیات!ہوائی}{\farsidigits {931}}
-\indexentry{ہوائی حرکیات}{\farsidigits {931}}
+\indexentry{aerodynamics}{\farsidigits {932}}
+\indexentry{حرکیات!ہوائی}{\farsidigits {932}}
+\indexentry{ہوائی حرکیات}{\farsidigits {932}}
 \indexentry{aerofoil}{\farsidigits {933}}
 \indexentry{ہوائی پترا}{\farsidigits {933}}
 \indexentry{aerofoil!Joukowski}{\farsidigits {933}}
@@ -2498,8 +2505,8 @@
 \indexentry{source}{\farsidigits {1097}}
 \indexentry{منبع}{\farsidigits {1097}}
 \indexentry{velocity!potential}{\farsidigits {1097}}
-\indexentry{مخفی قوہ!سمتی رفتار}{\farsidigits {1097}}
-\indexentry{سمتی رفتار!مخفی قوہ}{\farsidigits {1097}}
+\indexentry{مخفی قوہ!سمتیہ رفتار}{\farsidigits {1097}}
+\indexentry{سمتیہ رفتار!مخفی قوہ}{\farsidigits {1097}}
 \indexentry{equipotential!lines}{\farsidigits {1098}}
 \indexentry{ہم قوہ!خط}{\farsidigits {1098}}
 \indexentry{stream!function}{\farsidigits {1098}}
@@ -2742,7 +2749,7 @@
 \indexentry{کمتر مربع!ترکیب}{\farsidigits {1184}}
 \indexentry{ترکیب!کمتر مربع}{\farsidigits {1184}}
 \indexentry{least squares!normal equations}{\farsidigits {1185}}
-\indexentry{کمتر مربع!عمودی مساوات}{\farsidigits {1185}}
+\indexentry{کمتر مربع!عمود مساوات}{\farsidigits {1185}}
 \indexentry{آئگنی!اقدار}{\farsidigits {1188}}
 \indexentry{امتیازی!اقدار}{\farsidigits {1188}}
 \indexentry{آئگنی!سمتیہ}{\farsidigits {1188}}
@@ -2755,7 +2762,7 @@
 \indexentry{theorem!Schur}{\farsidigits {1190}}
 \indexentry{مسئلہ!شُر}{\farsidigits {1190}}
 \indexentry{normal}{\farsidigits {1190}}
-\indexentry{عمودی}{\farsidigits {1190}}
+\indexentry{عمود}{\farsidigits {1190}}
 \indexentry{norm!Schur}{\farsidigits {1191}}
 \indexentry{معیار!شُر}{\farsidigits {1191}}
 \indexentry{norm!Frobenius}{\farsidigits {1191}}
@@ -2798,7 +2805,7 @@
 \indexentry{error!building-up}{\farsidigits {1211}}
 \indexentry{خلل!اجتماع}{\farsidigits {1211}}
 \indexentry{quasilinear}{\farsidigits {1213}}
-\indexentry{بظاہر!نیم}{\farsidigits {1213}}
+\indexentry{بظاہر!خطی}{\farsidigits {1213}}
 \indexentry{Neumann!problem}{\farsidigits {1214}}
 \indexentry{نیومن!مسئلہ}{\farsidigits {1214}}
 \indexentry{Dirichlet!problem}{\farsidigits {1214}}

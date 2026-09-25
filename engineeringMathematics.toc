@@ -4,7 +4,7 @@
 \contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{xii}{}%
 \contentsline {chapter}{\numberline {\farsidigits {1}}یک رتبی سادہ تفرقی مساوات}{\farsidigits {1}}{}%
 \contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {1}}نمونہ کشی}{\farsidigits {2}}{}%
-\contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {2}}\:\(y'=f(x,y)\)\: کا جیومیٹریائی مطلب۔ میدان کی سمت اور ترکیب یولر۔}{\farsidigits {10}}{}%
+\contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {2}}\:\(y'=f(x,y)\)\: کا ہندسی مطلب۔ میدان کی سمت اور ترکیب یولر۔}{\farsidigits {10}}{}%
 \contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {3}}قابل علیحدگی سادہ تفرقی مساوات}{\farsidigits {18}}{}%
 \contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {4}}قطعی سادہ تفرقی مساوات اور جزو تکمل}{\farsidigits {30}}{}%
 \contentsline {section}{\numberline {\farsidigits {1}.\farsidigits {5}}خطی سادہ تفرقی مساوات۔ مساوات برنولی}{\farsidigits {40}}{}%
@@ -61,11 +61,11 @@
 \contentsline {section}{\numberline {\farsidigits {7}.\farsidigits {1}}عددیے اور سمتیات}{\farsidigits {389}}{}%
 \contentsline {section}{\numberline {\farsidigits {7}.\farsidigits {2}}سمتیہ کے اجزاء}{\farsidigits {391}}{}%
 \contentsline {section}{\numberline {\farsidigits {7}.\farsidigits {3}}سمتیات کا مجموعہ، عددیہ کے ساتھ ضرب}{\farsidigits {394}}{}%
-\contentsline {section}{\numberline {\farsidigits {7}.\farsidigits {4}}سمتی فضا۔خطی تابعیت اور غیر تابعیت}{\farsidigits {401}}{}%
-\contentsline {section}{\numberline {\farsidigits {7}.\farsidigits {5}}اندرونی ضرب (ضرب نقطہ)}{\farsidigits {406}}{}%
+\contentsline {section}{\numberline {\farsidigits {7}.\farsidigits {4}}سمتیہ فضا۔خطی تابعیت اور غیر تابعیت}{\farsidigits {401}}{}%
+\contentsline {section}{\numberline {\farsidigits {7}.\farsidigits {5}}اندرونی ضرب (نقطوی ضرب)}{\farsidigits {406}}{}%
 \contentsline {section}{\numberline {\farsidigits {7}.\farsidigits {6}}اندرونی ضرب فضا}{\farsidigits {416}}{}%
-\contentsline {section}{\numberline {\farsidigits {7}.\farsidigits {7}}سمتی ضرب}{\farsidigits {417}}{}%
-\contentsline {section}{\numberline {\farsidigits {7}.\farsidigits {8}}اجزاء کی صورت میں سمتی ضرب}{\farsidigits {419}}{}%
+\contentsline {section}{\numberline {\farsidigits {7}.\farsidigits {7}}سمتیہ ضرب}{\farsidigits {417}}{}%
+\contentsline {section}{\numberline {\farsidigits {7}.\farsidigits {8}}اجزاء کی صورت میں سمتیہ ضرب}{\farsidigits {419}}{}%
 \contentsline {section}{\numberline {\farsidigits {7}.\farsidigits {9}}عددیہ سہ ضرب اور دیگر متعدد ضرب}{\farsidigits {427}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {8}}خطی الجبرا: قالب، سمتیہ، مقطع۔ خطی نظام}{\farsidigits {435}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {1}}قالب اور سمتیات۔مجموعہ اور عددیہ ضرب}{\farsidigits {435}}{}%
@@ -73,82 +73,82 @@
 \contentsline {subsection}{\numberline {\farsidigits {8}.\farsidigits {2}.\farsidigits {1}}تبدیلی محل}{\farsidigits {448}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {3}}خطی مساوات کے نظام۔ گاوسی اسقاط}{\farsidigits {459}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {8}.\farsidigits {3}.\farsidigits {1}}صف زینہ دار صورت}{\farsidigits {468}}{}%
-\contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {4}}خطی غیر تابعیت۔ درجہ قالب۔ سمتی فضا}{\farsidigits {475}}{}%
+\contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {4}}خطی غیر تابعیت۔ درجہ قالب۔ سمتیہ فضا}{\farsidigits {475}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {5}}خطی نظام کے حل: وجودیت، یکتائی}{\farsidigits {485}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {6}}دو رتبی اور تین رتبی مقطع قالب}{\farsidigits {490}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {7}}مقطع۔ قاعدہ کریمر}{\farsidigits {492}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {8}}معکوس قالب۔ گاوس جارڈن اسقاط}{\farsidigits {505}}{}%
-\contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {9}}سمتی فضا، اندرونی ضرب، خطی تبادلہ}{\farsidigits {517}}{}%
-\contentsline {chapter}{\numberline {\farsidigits {9}}خطی الجبرا: امتیازی قدر مسائل قالب}{\farsidigits {529}}{}%
-\contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {1}}امتیازی قدر مسائل قالب۔ امتیازی اقدار اور امتیازی سمتیات کا حصول}{\farsidigits {529}}{}%
-\contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {2}}امتیازی مسائل کے چند استعمال}{\farsidigits {538}}{}%
-\contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {3}}تشاکل، منحرف تشاکلی اور متعامد قالب}{\farsidigits {544}}{}%
-\contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {4}}امتیازی اساس، وتری بنانا، دو درجی صورت}{\farsidigits {549}}{}%
-\contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {5}}مخلوط قالب اور مخلوط صورتیں}{\farsidigits {560}}{}%
-\contentsline {chapter}{\numberline {\farsidigits {10}}سمتی تفرقی احصاء۔ سمتی تفاعل}{\farsidigits {569}}{}%
-\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {1}}عددیہ میدان اور سمتی میدان}{\farsidigits {569}}{}%
-\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {2}}سمتی احصاء}{\farsidigits {571}}{}%
-\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {3}}منحنی}{\farsidigits {576}}{}%
-\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {4}}لمبائی قوس}{\farsidigits {581}}{}%
-\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {5}}مماس، انحنا اور مروڑ}{\farsidigits {586}}{}%
-\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {6}}سمتی رفتار اور اسراع}{\farsidigits {591}}{}%
-\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {7}}زنجیری ترکیب اور متعدد متغیرات کے تفاعل کا اوسط قیمت مسئلہ}{\farsidigits {596}}{}%
-\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {8}}سمتی تفرق، عددیہ میدان کا ڈھلوان}{\farsidigits {601}}{}%
-\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {9}}تبادل محددی نظام اور تبادل ارکان سمتیات}{\farsidigits {611}}{}%
-\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {10}}سمتی میدان کی انفراج}{\farsidigits {616}}{}%
-\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {11}}سمتی تفاعل کی گردش}{\farsidigits {621}}{}%
-\contentsline {chapter}{\numberline {\farsidigits {11}}سمتی تکملی احصاء۔ تکمل کے مسئلے}{\farsidigits {625}}{}%
-\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {1}}خطی تکمل}{\farsidigits {625}}{}%
-\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {2}}خطی تکمل کا حل}{\farsidigits {630}}{}%
-\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {3}}دوہرا تکمل}{\farsidigits {637}}{}%
-\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {4}}دوہرا تکمل کا خطی تکمل میں تبادلہ}{\farsidigits {649}}{}%
-\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {5}}سطحیں}{\farsidigits {657}}{}%
-\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {6}}مماسی سطح۔بنیادی صورت اول۔ رقبہ}{\farsidigits {662}}{}%
-\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {7}}سطحی تکمل}{\farsidigits {671}}{}%
-\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {8}}تہرا تکمل۔ گاوس کا مسئلہ انفراج}{\farsidigits {677}}{}%
-\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {9}}مسئلہ انفراج کے نتائج اور استعمال}{\farsidigits {682}}{}%
-\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {10}}مسئلہ سٹوکس}{\farsidigits {691}}{}%
-\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {11}}مسئلہ سٹوکس کے نتائج اور عملی استعمال}{\farsidigits {694}}{}%
-\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {12}}راہ سے آزاد خطی تکمل}{\farsidigits {697}}{}%
-\contentsline {chapter}{\numberline {\farsidigits {12}}فوریئر تسلسل}{\farsidigits {709}}{}%
-\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {1}}دوری تفاعل، تکونیاتی تسلسل}{\farsidigits {709}}{}%
-\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {2}}فوریئر تسلسل۔ یولر کلیات}{\farsidigits {714}}{}%
-\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {3}}اختیاری دوری عرصہ والے تفاعل}{\farsidigits {725}}{}%
-\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {4}}جفت اور طاق تفاعل}{\farsidigits {729}}{}%
-\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {5}}نصف سعت اتساع}{\farsidigits {736}}{}%
-\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {6}}فوریئر ضریب کا بغیر تکمل حصول}{\farsidigits {742}}{}%
-\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {7}}جبری ارتعاش}{\farsidigits {749}}{}%
-\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {8}}تقریب بذریعہ تکونی کثیر رکنی۔ مکعب خلل}{\farsidigits {753}}{}%
-\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {9}}فوریئر تکمل}{\farsidigits {756}}{}%
-\contentsline {chapter}{\numberline {\farsidigits {13}}جزوی تفرقی مساوات}{\farsidigits {769}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {1}}بنیادی تصورات}{\farsidigits {769}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {2}}نمونہ کشی: ارتعاش پذیر تار۔ یک بُعدی مساوات موج}{\farsidigits {773}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {3}}علیحدگی متغیرات (ترکیب ضرب)}{\farsidigits {775}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {4}}مساوات موج کا دا لومبیغ حل}{\farsidigits {785}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {5}}یک بُعدی بہاؤ حرارت}{\farsidigits {790}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {6}}لامتناہی لمبائی کی سلاخ میں بہاؤ حرارت}{\farsidigits {797}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {7}}نمونہ کشی: ارتعاش پذیر جھلی۔ دو ابعادی مساوات موج}{\farsidigits {802}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {8}}مستطیل جھلی}{\farsidigits {804}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {9}}قطبی محدد میں لاپلاسی}{\farsidigits {813}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {10}}دائری جھلی۔ مساوات بیسل}{\farsidigits {816}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {11}}مساوات لاپلاس۔ نظریہ مخفی قوہ}{\farsidigits {823}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {12}}کروی محدد میں مساوات لاپلاس۔مساوات لیژانڈر}{\farsidigits {827}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {13}}لاپلاس تبادل برائے جزوی تفرقی مساوات}{\farsidigits {832}}{}%
-\contentsline {chapter}{\numberline {\farsidigits {14}}مخلوط اعداد۔ مخلوط تحلیلی تفاعل}{\farsidigits {839}}{}%
-\contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {1}}مخلوط اعداد}{\farsidigits {839}}{}%
-\contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {2}}مخلوط اعداد کی قطبی صورت۔ تکونی عدم مساوات}{\farsidigits {847}}{}%
-\contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {3}}مخلوط سطح میں منحنیات اور خطے}{\farsidigits {852}}{}%
-\contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {4}}مخلوط تفاعل۔ حد۔ تفرق۔ تحلیلی تفاعل}{\farsidigits {856}}{}%
-\contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {5}}کوشی ریمان مساوات۔لاپلاس مساوات}{\farsidigits {863}}{}%
-\contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {6}}ناطق تفاعل۔ جذر}{\farsidigits {871}}{}%
-\contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {7}}قوت نمائی تفاعل}{\farsidigits {876}}{}%
-\contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {8}}تکونیاتی اور ہذلولی تفاعل}{\farsidigits {881}}{}%
-\contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {9}}لوگارتھم۔ عمومی طاقت}{\farsidigits {885}}{}%
+\contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {9}}سمتیہ فضا، اندرونی ضرب، خطی تبادلہ}{\farsidigits {517}}{}%
+\contentsline {chapter}{\numberline {\farsidigits {9}}خطی الجبرا: امتیازی قدر مسائل قالب}{\farsidigits {531}}{}%
+\contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {1}}امتیازی قدر مسائل قالب۔ امتیازی اقدار اور امتیازی سمتیات کا حصول}{\farsidigits {531}}{}%
+\contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {2}}امتیازی مسائل کے چند استعمال}{\farsidigits {540}}{}%
+\contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {3}}تشاکل، منحرف تشاکلی اور متعامد قالب}{\farsidigits {546}}{}%
+\contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {4}}امتیازی اساس، وتری بنانا، دو درجی صورت}{\farsidigits {551}}{}%
+\contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {5}}مخلوط قالب اور مخلوط صورتیں}{\farsidigits {562}}{}%
+\contentsline {chapter}{\numberline {\farsidigits {10}}سمتی تفرقی احصاء۔ سمتیہ تفاعل}{\farsidigits {571}}{}%
+\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {1}}عددیہ میدان اور سمتیہ میدان}{\farsidigits {571}}{}%
+\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {2}}سمتیہ احصاء}{\farsidigits {573}}{}%
+\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {3}}منحنی}{\farsidigits {578}}{}%
+\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {4}}لمبائی قوس}{\farsidigits {583}}{}%
+\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {5}}مماس، انحنا اور مروڑ}{\farsidigits {588}}{}%
+\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {6}}سمتیہ رفتار اور اسراع}{\farsidigits {593}}{}%
+\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {7}}زنجیری ترکیب اور متعدد متغیرات کے تفاعل کا اوسط قیمت مسئلہ}{\farsidigits {598}}{}%
+\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {8}}سمتیہ تفرق، عددیہ میدان کا ڈھلوان}{\farsidigits {603}}{}%
+\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {9}}تبادل محددی نظام اور تبادل ارکان سمتیات}{\farsidigits {613}}{}%
+\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {10}}سمتیہ میدان کا انفراج}{\farsidigits {618}}{}%
+\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {11}}سمتیہ تفاعل کی گردش}{\farsidigits {623}}{}%
+\contentsline {chapter}{\numberline {\farsidigits {11}}سمتی تکملی احصاء۔ تکمل کے مسئلے}{\farsidigits {627}}{}%
+\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {1}}خطی تکمل}{\farsidigits {627}}{}%
+\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {2}}خطی تکمل کا حل}{\farsidigits {632}}{}%
+\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {3}}دوہرا تکمل}{\farsidigits {639}}{}%
+\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {4}}دوہرا تکمل کا خطی تکمل میں تبادلہ}{\farsidigits {651}}{}%
+\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {5}}سطحیں}{\farsidigits {659}}{}%
+\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {6}}مماسی سطح۔بنیادی صورت اول۔ رقبہ}{\farsidigits {663}}{}%
+\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {7}}سطحی تکمل}{\farsidigits {673}}{}%
+\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {8}}تہرا تکمل۔ گاوس کا مسئلہ انفراج}{\farsidigits {679}}{}%
+\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {9}}مسئلہ انفراج کے نتائج اور استعمال}{\farsidigits {684}}{}%
+\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {10}}مسئلہ سٹوکس}{\farsidigits {693}}{}%
+\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {11}}مسئلہ سٹوکس کے نتائج اور عملی استعمال}{\farsidigits {696}}{}%
+\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {12}}راہ سے آزاد خطی تکمل}{\farsidigits {699}}{}%
+\contentsline {chapter}{\numberline {\farsidigits {12}}فوریئر تسلسل}{\farsidigits {711}}{}%
+\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {1}}دوری تفاعل، تکونیاتی تسلسل}{\farsidigits {711}}{}%
+\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {2}}فوریئر تسلسل۔ یولر کلیات}{\farsidigits {716}}{}%
+\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {3}}اختیاری دوری عرصہ والے تفاعل}{\farsidigits {727}}{}%
+\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {4}}جفت اور طاق تفاعل}{\farsidigits {731}}{}%
+\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {5}}نصف سعت اتساع}{\farsidigits {738}}{}%
+\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {6}}فوریئر ضریب کا بغیر تکمل حصول}{\farsidigits {744}}{}%
+\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {7}}جبری ارتعاش}{\farsidigits {751}}{}%
+\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {8}}تقریب بذریعہ تکونی کثیر رکنی۔ مکعب خلل}{\farsidigits {755}}{}%
+\contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {9}}فوریئر تکمل}{\farsidigits {758}}{}%
+\contentsline {chapter}{\numberline {\farsidigits {13}}جزوی تفرقی مساوات}{\farsidigits {771}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {1}}بنیادی تصورات}{\farsidigits {771}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {2}}نمونہ کشی: ارتعاش پذیر تار۔ یک بُعدی مساوات موج}{\farsidigits {775}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {3}}علیحدگی متغیرات (ترکیب ضرب)}{\farsidigits {777}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {4}}مساوات موج کا دا لومبیغ حل}{\farsidigits {787}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {5}}یک بُعدی بہاؤ حرارت}{\farsidigits {792}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {6}}لامتناہی لمبائی کی سلاخ میں بہاؤ حرارت}{\farsidigits {799}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {7}}نمونہ کشی: ارتعاش پذیر جھلی۔ دو ابعادی مساوات موج}{\farsidigits {804}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {8}}مستطیل جھلی}{\farsidigits {806}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {9}}قطبی محدد میں لاپلاسی}{\farsidigits {815}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {10}}دائری جھلی۔ مساوات بیسل}{\farsidigits {818}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {11}}مساوات لاپلاس۔ نظریہ مخفی قوہ}{\farsidigits {825}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {12}}کروی محدد میں مساوات لاپلاس۔مساوات لیژانڈر}{\farsidigits {829}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {13}}لاپلاس تبادل برائے جزوی تفرقی مساوات}{\farsidigits {834}}{}%
+\contentsline {chapter}{\numberline {\farsidigits {14}}مخلوط اعداد۔ مخلوط تحلیلی تفاعل}{\farsidigits {841}}{}%
+\contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {1}}مخلوط اعداد}{\farsidigits {841}}{}%
+\contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {2}}مخلوط اعداد کی قطبی صورت۔ تکونی عدم مساوات}{\farsidigits {849}}{}%
+\contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {3}}مخلوط سطح میں منحنیات اور خطے}{\farsidigits {854}}{}%
+\contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {4}}مخلوط تفاعل۔ حد۔ تفرق۔ تحلیلی تفاعل}{\farsidigits {858}}{}%
+\contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {5}}کوشی ریمان مساوات۔لاپلاس مساوات}{\farsidigits {865}}{}%
+\contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {6}}ناطق تفاعل۔ جذر}{\farsidigits {873}}{}%
+\contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {7}}قوت نمائی تفاعل}{\farsidigits {878}}{}%
+\contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {8}}تکونیاتی اور ہذلولی تفاعل}{\farsidigits {882}}{}%
+\contentsline {section}{\numberline {\farsidigits {14}.\farsidigits {9}}لوگارتھم۔ عمومی طاقت}{\farsidigits {887}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {15}}محافظ زاویہ نقشہ کشی}{\farsidigits {893}}{}%
 \contentsline {section}{\numberline {\farsidigits {15}.\farsidigits {1}}نقشہ گشی}{\farsidigits {893}}{}%
 \contentsline {section}{\numberline {\farsidigits {15}.\farsidigits {2}}محافظ زاویہ نقش}{\farsidigits {904}}{}%
 \contentsline {section}{\numberline {\farsidigits {15}.\farsidigits {3}}خطی کسری تبادل}{\farsidigits {910}}{}%
-\contentsline {section}{\numberline {\farsidigits {15}.\farsidigits {4}}مخصوص خطی کسری تبادل}{\farsidigits {913}}{}%
+\contentsline {section}{\numberline {\farsidigits {15}.\farsidigits {4}}مخصوص خطی کسری تبادل}{\farsidigits {914}}{}%
 \contentsline {section}{\numberline {\farsidigits {15}.\farsidigits {5}}نقش زیر دیگر تفاعل}{\farsidigits {920}}{}%
 \contentsline {section}{\numberline {\farsidigits {15}.\farsidigits {6}}ریمان سطحیں}{\farsidigits {930}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {16}}مخلوط تکملات}{\farsidigits {937}}{}%
@@ -202,7 +202,7 @@
 \contentsline {chapter}{\numberline {\farsidigits {23}}اعدادی تراکیب برائے تفرقی مساوات}{\farsidigits {1199}}{}%
 \contentsline {section}{\numberline {\farsidigits {23}.\farsidigits {1}}یک رتبی تفرقی مساوات کے اعدادی تراکیب}{\farsidigits {1199}}{}%
 \contentsline {section}{\numberline {\farsidigits {23}.\farsidigits {2}}دو رتبی تفرقی مساوات کے اعدادی تراکیب}{\farsidigits {1208}}{}%
-\contentsline {section}{\numberline {\farsidigits {23}.\farsidigits {3}}اعدادی تراکیب برائے بیضوی جزوی تفرقی مساوات}{\farsidigits {1213}}{}%
+\contentsline {section}{\numberline {\farsidigits {23}.\farsidigits {3}}اعدادی تراکیب برائے ترخیمی جزوی تفرقی مساوات}{\farsidigits {1213}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {23}.\farsidigits {3}.\farsidigits {1}}مسئلہ ڈرشلے}{\farsidigits {1216}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {23}.\farsidigits {3}.\farsidigits {2}}بدلتا رخ خفی ترکیب}{\farsidigits {1219}}{}%
 \contentsline {section}{\numberline {\farsidigits {23}.\farsidigits {4}}مسئلہ نیومن اور مخلوط سرحدی قیمت مسئلہ۔ غیر منظم سرحد}{\farsidigits {1225}}{}%

@@ -986,7 +986,7 @@
 \indexentry{Hermite!polynomials}{\farsidigits {309}}
 \indexentry{کثیر رکنی!ہرمائٹ}{\farsidigits {309}}
 \indexentry{ہرمائٹ!کثیر رکنی}{\farsidigits {309}}
-\indexentry{پیدا کار تفاعل!ہرمائٹ کثیر رکنی}{\farsidigits {310}}
+\indexentry{پیداکار تفاعل!ہرمائٹ کثیر رکنی}{\farsidigits {310}}
 \indexentry{Weber's equation}{\farsidigits {310}}
 \indexentry{مساوات!ویبر}{\farsidigits {310}}
 \indexentry{ویبر!مساوات}{\farsidigits {310}}
@@ -1126,7 +1126,7 @@
 \indexentry{span}{\farsidigits {403}}
 \indexentry{احاطہ}{\farsidigits {403}}
 \indexentry{generator}{\farsidigits {403}}
-\indexentry{پیدا کار}{\farsidigits {403}}
+\indexentry{پیداکار}{\farsidigits {403}}
 \indexentry{linear dependent}{\farsidigits {403}}
 \indexentry{خطی طور تابع}{\farsidigits {403}}
 \indexentry{basis}{\farsidigits {403}}
@@ -1173,8 +1173,8 @@
 \indexentry{قوت!معیار اثر سمتیہ}{\farsidigits {423}}
 \indexentry{معیار اثر سمتیہ}{\farsidigits {423}}
 \indexentry{angular velocity}{\farsidigits {423}}
-\indexentry{سمتیہ رفتار!زاویائی}{\farsidigits {423}}
-\indexentry{زاویائی سمتیہ رفتار}{\farsidigits {423}}
+\indexentry{سرعت!زاویائی}{\farsidigits {423}}
+\indexentry{زاویائی سرعت}{\farsidigits {423}}
 \indexentry{رفتار!زاویائی}{\farsidigits {423}}
 \indexentry{زاویائی رفتار}{\farsidigits {423}}
 \indexentry{angular speed}{\farsidigits {423}}
@@ -1677,8 +1677,8 @@
 \indexentry{torsion}{\farsidigits {590}}
 \indexentry{مروڑ}{\farsidigits {590}}
 \indexentry{velocity}{\farsidigits {593}}
-\indexentry{رفتار!سمتیہ}{\farsidigits {593}}
-\indexentry{سمتیہ رفتار کا سمتیہ}{\farsidigits {593}}
+\indexentry{سرعتی!سمتیہ}{\farsidigits {593}}
+\indexentry{سرعتی سمتیہ}{\farsidigits {593}}
 \indexentry{speed}{\farsidigits {593}}
 \indexentry{رفتار}{\farsidigits {593}}
 \indexentry{acceleration vector}{\farsidigits {593}}
@@ -1746,16 +1746,16 @@
 \indexentry{fluid}{\farsidigits {620}}
 \indexentry{سیال}{\farsidigits {620}}
 \indexentry{parallelepiped!rectangular}{\farsidigits {620}}
-\indexentry{متوازی السطوح!مستطیلی}{\farsidigits {620}}
+\indexentry{متوازی السطوح!مستطیل}{\farsidigits {620}}
 \indexentry{continuity!equation}{\farsidigits {621}}
 \indexentry{مساوات!استمراری}{\farsidigits {621}}
 \indexentry{استمراری!مساوات}{\farsidigits {621}}
 \indexentry{curl}{\farsidigits {624}}
 \indexentry{گردش}{\farsidigits {624}}
+\indexentry{conservative!field}{\farsidigits {625}}
 \indexentry{بقائی میدان}{\farsidigits {625}}
 \indexentry{irrotational}{\farsidigits {625}}
 \indexentry{غیر گردشی}{\farsidigits {625}}
-\indexentry{conservative!field}{\farsidigits {625}}
 \indexentry{smooth!curve}{\farsidigits {628}}
 \indexentry{منحنی!ہموار}{\farsidigits {628}}
 \indexentry{ہموار!منحنی}{\farsidigits {628}}
@@ -2040,7 +2040,7 @@
 \indexentry{عمود انداز! ایم واں}{\farsidigits {821}}
 \indexentry{ہارمونی!تفاعل}{\farsidigits {825}}
 \indexentry{potential theory}{\farsidigits {825}}
-\indexentry{نظریہ مخفی قوہ}{\farsidigits {825}}
+\indexentry{نظریہ مخفیہ}{\farsidigits {825}}
 \indexentry{harmonic!functions}{\farsidigits {825}}
 \indexentry{boundary!value problem}{\farsidigits {826}}
 \indexentry{سرحدی!قیمت مسئلہ}{\farsidigits {826}}
@@ -2253,8 +2253,8 @@
 \indexentry{کوسائن!تفاعل}{\farsidigits {922}}
 \indexentry{ہذلولی!تفاعل}{\farsidigits {923}}
 \indexentry{complex potentials!method}{\farsidigits {926}}
-\indexentry{مخفی قوہ!مخلوط، ترکیب}{\farsidigits {926}}
-\indexentry{ترکیب!مخلوط مخفی قوہ}{\farsidigits {926}}
+\indexentry{مخفیہ!مخلوط، ترکیب}{\farsidigits {926}}
+\indexentry{ترکیب!مخلوط مخفیہ}{\farsidigits {926}}
 \indexentry{Riemann!surface}{\farsidigits {930}}
 \indexentry{ریمان!سطح}{\farsidigits {930}}
 \indexentry{branch point}{\farsidigits {930}}
@@ -2478,14 +2478,14 @@
 \indexentry{صدر قیمت!کوشی}{\farsidigits {1083}}
 \indexentry{کوشی!صدر قیمت}{\farsidigits {1083}}
 \indexentry{potential!theory}{\farsidigits {1089}}
-\indexentry{مخفی قوہ!نظریہ}{\farsidigits {1089}}
+\indexentry{مخفیہ!نظریہ}{\farsidigits {1089}}
 \indexentry{potential!electrostatic}{\farsidigits {1089}}
-\indexentry{مخفی قوہ!برقی سکونیات}{\farsidigits {1089}}
+\indexentry{مخفیہ!برقی سکونیات}{\farsidigits {1089}}
 \indexentry{equipotential!surfaces}{\farsidigits {1090}}
 \indexentry{ہم قوہ سطحیں}{\farsidigits {1090}}
 \indexentry{potential!complex}{\farsidigits {1091}}
-\indexentry{مخفی قوہ!مخلوط}{\farsidigits {1091}}
-\indexentry{مخلوط!مخفی قوہ}{\farsidigits {1091}}
+\indexentry{مخفیہ!مخلوط}{\farsidigits {1091}}
+\indexentry{مخلوط!مخفیہ}{\farsidigits {1091}}
 \indexentry{force!lines}{\farsidigits {1091}}
 \indexentry{قوت!خط}{\farsidigits {1091}}
 \indexentry{خط!قوت}{\farsidigits {1091}}
@@ -2498,21 +2498,21 @@
 \indexentry{گردابیت}{\farsidigits {1096}}
 \indexentry{rotation}{\farsidigits {1096}}
 \indexentry{گھومنا}{\farsidigits {1096}}
-\indexentry{irrotational}{\farsidigits {1097}}
-\indexentry{نا گھومتا}{\farsidigits {1097}}
+\indexentry{irrotational}{\farsidigits {1096}}
+\indexentry{نا گھومتا}{\farsidigits {1096}}
 \indexentry{sink}{\farsidigits {1097}}
 \indexentry{گڑھا}{\farsidigits {1097}}
 \indexentry{source}{\farsidigits {1097}}
 \indexentry{منبع}{\farsidigits {1097}}
 \indexentry{velocity!potential}{\farsidigits {1097}}
-\indexentry{مخفی قوہ!سمتیہ رفتار}{\farsidigits {1097}}
-\indexentry{سمتیہ رفتار!مخفی قوہ}{\farsidigits {1097}}
-\indexentry{equipotential!lines}{\farsidigits {1098}}
-\indexentry{ہم قوہ!خط}{\farsidigits {1098}}
+\indexentry{مخفیہ!سرعتی}{\farsidigits {1097}}
+\indexentry{سرعتی!مخفیہ}{\farsidigits {1097}}
+\indexentry{equipotential!lines}{\farsidigits {1097}}
+\indexentry{ہم قوہ!خط}{\farsidigits {1097}}
 \indexentry{stream!function}{\farsidigits {1098}}
 \indexentry{تفاعل!بہاؤ}{\farsidigits {1098}}
 \indexentry{potential!complex}{\farsidigits {1098}}
-\indexentry{مخلوط مخفی قوہ}{\farsidigits {1098}}
+\indexentry{مخلوط مخفیہ}{\farsidigits {1098}}
 \indexentry{source}{\farsidigits {1101}}
 \indexentry{منبع}{\farsidigits {1101}}
 \indexentry{sink}{\farsidigits {1101}}
@@ -3056,7 +3056,7 @@
 \indexentry{عمومی}{\farsidigits {1292}}
 \indexentry{distribution!Gauss}{\farsidigits {1292}}
 \indexentry{گاوس!گاوسی تقسیم}{\farsidigits {1292}}
-\indexentry{تقسیم!گاوسی}{\farsidigits {1292}}
+\indexentry{تقسیم!گاؤسی}{\farsidigits {1292}}
 \indexentry{distribution!normal}{\farsidigits {1292}}
 \indexentry{تقسیم!عمومی}{\farsidigits {1292}}
 \indexentry{bell curve}{\farsidigits {1292}}
@@ -3091,7 +3091,7 @@
 \indexentry{random!selection}{\farsidigits {1310}}
 \indexentry{بلا منصوبہ!انتخاب}{\farsidigits {1310}}
 \indexentry{random number generator}{\farsidigits {1311}}
-\indexentry{پیدا کار بلا منصوبہ اعداد}{\farsidigits {1311}}
+\indexentry{پیداکار بلا منصوبہ اعداد}{\farsidigits {1311}}
 \indexentry{simulation}{\farsidigits {1311}}
 \indexentry{نقل اتارنا}{\farsidigits {1311}}
 \indexentry{parameter}{\farsidigits {1312}}

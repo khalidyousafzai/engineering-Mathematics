@@ -91,7 +91,7 @@
 \contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {3}}منحنی}{\farsidigits {578}}{}%
 \contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {4}}لمبائی قوس}{\farsidigits {583}}{}%
 \contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {5}}مماس، انحنا اور مروڑ}{\farsidigits {588}}{}%
-\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {6}}سمتیہ رفتار اور اسراع}{\farsidigits {593}}{}%
+\contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {6}}سرعت اور اسراع}{\farsidigits {593}}{}%
 \contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {7}}زنجیری ترکیب اور متعدد متغیرات کے تفاعل کا اوسط قیمت مسئلہ}{\farsidigits {598}}{}%
 \contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {8}}سمتیہ تفرق، عددیہ میدان کا ڈھلوان}{\farsidigits {603}}{}%
 \contentsline {section}{\numberline {\farsidigits {10}.\farsidigits {9}}تبادل محددی نظام اور تبادل ارکان سمتیات}{\farsidigits {613}}{}%
@@ -131,7 +131,7 @@
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {8}}مستطیل جھلی}{\farsidigits {806}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {9}}قطبی محدد میں لاپلاسی}{\farsidigits {815}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {10}}دائری جھلی۔ مساوات بیسل}{\farsidigits {818}}{}%
-\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {11}}مساوات لاپلاس۔ نظریہ مخفی قوہ}{\farsidigits {825}}{}%
+\contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {11}}مساوات لاپلاس۔ نظریہ مخفیہ}{\farsidigits {825}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {12}}کروی محدد میں مساوات لاپلاس۔مساوات لیژانڈر}{\farsidigits {829}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {13}}لاپلاس تبادل برائے جزوی تفرقی مساوات}{\farsidigits {834}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {14}}مخلوط اعداد۔ مخلوط تحلیلی تفاعل}{\farsidigits {841}}{}%
@@ -179,10 +179,10 @@
 \contentsline {section}{\numberline {\farsidigits {19}.\farsidigits {2}}مسئلہ بقیہ}{\farsidigits {1071}}{}%
 \contentsline {section}{\numberline {\farsidigits {19}.\farsidigits {3}}حقیقی تکمل بذریعہ مسئلہ بقیہ}{\farsidigits {1075}}{}%
 \contentsline {section}{\numberline {\farsidigits {19}.\farsidigits {4}}حقیقی تکمل کے دیگر اقسام}{\farsidigits {1081}}{}%
-\contentsline {chapter}{\numberline {\farsidigits {20}}مخلوط تحلیل تفاعل اور نظریہ مخفی قوہ}{\farsidigits {1089}}{}%
+\contentsline {chapter}{\numberline {\farsidigits {20}}مخلوط تحلیل تفاعل اور نظریہ مخفیہ}{\farsidigits {1089}}{}%
 \contentsline {section}{\numberline {\farsidigits {20}.\farsidigits {1}}ساکن برقی سکون}{\farsidigits {1089}}{}%
 \contentsline {section}{\numberline {\farsidigits {20}.\farsidigits {2}}دو بُعدی بہاؤ سیال}{\farsidigits {1095}}{}%
-\contentsline {section}{\numberline {\farsidigits {20}.\farsidigits {3}}ہارمونی تفاعل کے عمومی خواص}{\farsidigits {1103}}{}%
+\contentsline {section}{\numberline {\farsidigits {20}.\farsidigits {3}}ہارمونی تفاعل کے عمومی خواص}{\farsidigits {1102}}{}%
 \contentsline {section}{\numberline {\farsidigits {20}.\farsidigits {4}}پوسوں کلیہ تکمل}{\farsidigits {1107}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {21}}اعدادی تجزیہ}{\farsidigits {1113}}{}%
 \contentsline {section}{\numberline {\farsidigits {21}.\farsidigits {1}}خلل اور غلطیاں۔ کمپیوٹر}{\farsidigits {1114}}{}%
@@ -205,9 +205,9 @@
 \contentsline {section}{\numberline {\farsidigits {23}.\farsidigits {3}}اعدادی تراکیب برائے ترخیمی جزوی تفرقی مساوات}{\farsidigits {1213}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {23}.\farsidigits {3}.\farsidigits {1}}مسئلہ ڈرشلے}{\farsidigits {1216}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {23}.\farsidigits {3}.\farsidigits {2}}بدلتا رخ خفی ترکیب}{\farsidigits {1219}}{}%
-\contentsline {section}{\numberline {\farsidigits {23}.\farsidigits {4}}مسئلہ نیومن اور مخلوط سرحدی قیمت مسئلہ۔ غیر منظم سرحد}{\farsidigits {1225}}{}%
-\contentsline {section}{\numberline {\farsidigits {23}.\farsidigits {5}}اعدادی تراکیب برائے قطع مکافی مساوات}{\farsidigits {1232}}{}%
-\contentsline {section}{\numberline {\farsidigits {23}.\farsidigits {6}}اعدادی تراکیب برائے قطع زائد مساوات}{\farsidigits {1239}}{}%
+\contentsline {section}{\numberline {\farsidigits {23}.\farsidigits {4}}مسئلہ نیومن اور مخلوط سرحدی قیمت مسئلہ۔ غیر منظم سرحد}{\farsidigits {1224}}{}%
+\contentsline {section}{\numberline {\farsidigits {23}.\farsidigits {5}}اعدادی تراکیب برائے قطع مکافی مساوات}{\farsidigits {1231}}{}%
+\contentsline {section}{\numberline {\farsidigits {23}.\farsidigits {6}}اعدادی تراکیب برائے قطع زائد مساوات}{\farsidigits {1238}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {24}}احتمال اور شماریات}{\farsidigits {1243}}{}%
 \contentsline {section}{\numberline {\farsidigits {24}.\farsidigits {1}}حسابی شماریات کی نوعیت اور اس کا مقصد}{\farsidigits {1243}}{}%
 \contentsline {section}{\numberline {\farsidigits {24}.\farsidigits {2}}نمونہ کا اظہار بذریعہ جدول اور ترسیم}{\farsidigits {1245}}{}%

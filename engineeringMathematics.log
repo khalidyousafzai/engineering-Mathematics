@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  23 SEP 2026 15:55
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  1 OCT 2026 15:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7376,7 +7376,7 @@ LaTeX Info: Redefining \rmfamily on input line 2876.
 LaTeX Info: Redefining \sffamily on input line 2876.
 LaTeX Info: Redefining \ttfamily on input line 2876.
 
-Underfull \hbox (badness 3449) in paragraph at lines 2875--2877
+Underfull \hbox (badness 3623) in paragraph at lines 2875--2877
 []\TU/JameelNooriNastaleeq(0)/b/n/10 حاصل ہوتی ہے۔مساوات  [][]۲.۱۰۰[][] []سے ظا
 ہر ہے کہ $\OML/zplm/m/it/10 c$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی قیمت کم کر
 نے سے $\OML/zplm/m/it/10 ![]$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی قیمت $\OML/
@@ -16025,18 +16025,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+Underfull \hbox (badness 1371) in paragraph at lines 5--6
 []\TU/JameelNooriNastaleeq(0)/b/n/10 قوت کی مقدار کو ظاہر کرتی ہے۔ شکل  [][]۷.۱
 [][][]-الف میں ہلکے دھاگے سے بندھی ہوئی کمیت $\OML/zplm/m/it/10 m$ \TU/JameelNo
-oriNastaleeq(0)/b/n/10 کی دائری حرکت دکھائی گئی ہے۔کمیت کی لمحاتی سمتیہ رفتار $
-\OML/cmm/b/it/10 v$ \TU/JameelNooriNastaleeq(0)/b/n/10 کو[]
+oriNastaleeq(0)/b/n/10 کی دائری حرکت دکھائی گئی ہے۔کمیت کی لمحاتی سرعت $\OML/cm
+m/b/it/10 v$ \TU/JameelNooriNastaleeq(0)/b/n/10 کو تیر[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 تیر سے دکھایا گیا ہے۔اس تیر کی سمت، کمیت ک
-ی لمحاتی سمتیہ رفتار دیتی ہے جبکہ تیر کی لمبائی (کسی موزوں تناسب سے) لمحاتی سمت
-یہ رفتار کی قیمت دیتی ہے۔شکل[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 سے دکھایا گیا ہے۔اس تیر کی سمت، کمیت کی لم
+حاتی سرعت دیتی ہے جبکہ تیر کی لمبائی (کسی موزوں تناسب سے) لمحاتی سرعت کی قیمت د
+یتی ہے۔شکل میں کمیت[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 7.
@@ -17521,8 +17521,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1876--1878
 []\TU/JameelNooriNastaleeq(0)/b/n/10 خلا میں کسی بھی ٹھوس جسم $\OML/zplm/m/it/1
 0 B$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے گھومنے کو سمتیہ $\OML/cmm/b/it/10 !$
  \TU/JameelNooriNastaleeq(0)/b/n/10 سے ظاہر کیا جا سکتا ہے جس کو \TU/AASameerSa
-garNastaleeqBold(0)/m/n/10 زاویائی سمتیہ رفتار[][][][] []\TU/JameelNooriNastale
-eq(0)/b/n/10 کہتے ہیں۔اگر گھومنے کی محور پر دائیں ہاتھ کا[]
+garNastaleeqBold(0)/m/n/10 زاویائی سرعت[][][][] []\TU/JameelNooriNastaleeq(0)/b
+/n/10 کہتے ہیں۔اگر گھومنے کی محور پر دائیں ہاتھ کا[]
  []
 
 
@@ -22468,13 +22468,13 @@ LaTeX Info: Redefining \rmfamily on input line 32.
 LaTeX Info: Redefining \sffamily on input line 32.
 LaTeX Info: Redefining \ttfamily on input line 32.
 
-Underfull \hbox (badness 5490) in paragraph at lines 31--33
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
 []\TU/JameelNooriNastaleeq(0)/b/n/10 گھومتے ہوئے جسم $\OML/zplm/m/it/10 B$ \TU/
-JameelNooriNastaleeq(0)/b/n/10 کی سمتیہ رفتار $\OML/cmm/b/it/10 v\OT1/zplm/m/n/
-10 (\OML/zplm/m/it/10 P\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 ک
-و \TU/AASameerSagarNastaleeqBold(0)/m/n/10 سمتیہ رفتار میدان \TU/JameelNooriNas
-taleeq(0)/b/n/10 کہتے ہیں۔ گھومتے جسم کی محور پر کارتیسی محدد کا مبدا رکھتے ہوئ
-ے جسم پر کسی نقطہ $\OML/zplm/m/it/10 N$[]
+JameelNooriNastaleeq(0)/b/n/10 کی سرعت $\OML/cmm/b/it/10 v\OT1/zplm/m/n/10 (\OM
+L/zplm/m/it/10 P\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 کو \TU/A
+ASameerSagarNastaleeqBold(0)/m/n/10 سرعتی میدان \TU/JameelNooriNastaleeq(0)/b/n
+/10 کہتے ہیں۔ گھومتے جسم کے محور پر کارتیسی محدد کا مبدا رکھتے ہوئے جسم پر کسی 
+نقطہ $\OML/zplm/m/it/10 N$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی[]
  []
 
 
@@ -23270,6 +23270,16 @@ LaTeX Info: Redefining \ttfamily on input line 1376.
 LaTeX Info: Redefining \rmfamily on input line 1376.
 LaTeX Info: Redefining \sffamily on input line 1376.
 LaTeX Info: Redefining \ttfamily on input line 1376.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1376--1377
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 سوال  [][]۱۰.۸۳[][] []تا سوال  [][]۱۰.۹۰[]
+[] []میں حرکت کرتی جسم کا تعین گر سمتیہ $\OML/cmm/b/it/10 r\OT1/zplm/m/n/10 (\O
+ML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہے جہاں
+ $\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 > \OT1/ppl/m/n/10 0\OT
+1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 وقت کو ظاہر کرتی ہے۔اس راہ 
+کی شکل بیان[]
+ []
+
 [596] [597]
 LaTeX Info: Redefining \rmfamily on input line 1443.
 LaTeX Info: Redefining \sffamily on input line 1443.
@@ -24078,12 +24088,12 @@ LaTeX Info: Redefining \ttfamily on input line 2580.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2580--2581
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 ہم ایسے \TU/AASameerSagarNastaleeqBold(0
-)/m/n/10 مستطیلی متوازی السطوح[][][] []$\OML/zplm/m/it/10 W$ \TU/JameelNooriNas
-taleeq(0)/b/n/10 میں سیال کی حرکت پر غور کرتے ہیں جس کے اطراف کی لمبائیاں $\OT1
-/zplm/m/n/10 ^^A\OML/zplm/m/it/10 x$\TU/JameelNooriNastaleeq(0)/b/n/10 ، $\OT1/
-zplm/m/n/10 ^^A\OML/zplm/m/it/10 y$\TU/JameelNooriNastaleeq(0)/b/n/10 ، $\OT1/z
-plm/m/n/10 ^^A\OML/zplm/m/it/10 z$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہیں۔$\OML
-/zplm/m/it/10 W$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے[]
+)/m/n/10 مستطیل متوازی السطوح[][][] []$\OML/zplm/m/it/10 W$ \TU/JameelNooriNast
+aleeq(0)/b/n/10 میں سیال کی حرکت پر غور کرتے ہیں جس کے اطراف کی لمبائیاں $\OT1/
+zplm/m/n/10 ^^A\OML/zplm/m/it/10 x$\TU/JameelNooriNastaleeq(0)/b/n/10 ، $\OT1/z
+plm/m/n/10 ^^A\OML/zplm/m/it/10 y$\TU/JameelNooriNastaleeq(0)/b/n/10 ، $\OT1/zp
+lm/m/n/10 ^^A\OML/zplm/m/it/10 z$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہیں۔$\OML/
+zplm/m/it/10 W$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے[]
  []
 
 
@@ -24206,8 +24216,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 2832--2834
 Underfull \hbox (badness 10000) in paragraph at lines 2832--2834
 []\TU/JameelNooriNastaleeq(0)/b/n/10 ہے لہٰذا ہم کہہ سکتے ہیں کہ ڈھلوان میدان \
 TU/AASameerSagarNastaleeqBold(0)/m/n/10 غیر گردشی[][][] []\TU/JameelNooriNastal
-eeq(0)/b/n/10 حرکت کو ظاہر کرتی ہے۔(ایسا کوئی بھی میدان، جو سمتیہ رفتار کا میدا
-ن نہ ہو، کو \TU/AASameerSagarNastaleeqBold(0)/m/n/10 بقائی میدان[][][][]
+eeq(0)/b/n/10 حرکت کو ظاہر کرتی ہے۔(ایسا کوئی بھی میدان، جو سرعتی میدان نہ ہو، 
+کو \TU/AASameerSagarNastaleeqBold(0)/m/n/10 بقائی میدان[][][] []\TU/JameelNoori
+Nastaleeq(0)/b/n/10 (حصہ[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 2837.
@@ -24888,10 +24899,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 720--722
 []\TU/JameelNooriNastaleeq(0)/b/n/10 چونکہ مساوات  [][]۱۱.۱۷[][] []میں جزو $\OM
 L/zplm/m/it/10 f\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x[]\OT1/ppl/m/n/10 , \OML/z
 plm/m/it/10 y[]\OT1/zplm/m/n/10 )^^A\OML/zplm/m/it/10 A[]$ \TU/JameelNooriNasta
-leeq(0)/b/n/10 سے مراد اس مستطیلی متوازی السطوح کا حجم ہے جس کے بنیاد کا رقبہ $
-\OML/zplm/m/it/10 A[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور قد $\OML/zplm/m/i
-t/10 f\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/1
-0 y[]\OT1/zplm/m/n/10 )$[]
+leeq(0)/b/n/10 سے مراد اس مستطیل متوازی السطوح کا حجم ہے جس کے بنیاد کا رقبہ $\
+OML/zplm/m/it/10 A[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور قد $\OML/zplm/m/it
+/10 f\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x[]\OT1/ppl/m/n/10 , \OML/zplm/m/it/10
+ y[]\OT1/zplm/m/n/10 )$[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 755.
@@ -26482,15 +26493,6 @@ LaTeX Info: Redefining \rmfamily on input line 2996.
 LaTeX Info: Redefining \sffamily on input line 2996.
 LaTeX Info: Redefining \ttfamily on input line 2996.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2995--2997
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 کے ساتھ نہ تبدیل ہوتا) بہاؤ پر غور کرتے ہی
-ں (مثال  [][]۱۰.۲۴[][] []بھی دیکھیں)۔ کسی بھی نقطہ $\OML/zplm/m/it/10 N$ \TU/Ja
-meelNooriNastaleeq(0)/b/n/10 پر ایسی بہاؤ کا تعین اس نقطہ پر سمتیہ رفتار کا سمت
-یہ $\OML/cmm/b/it/10 v\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 N\OT1/zplm/m/n/10 )$ 
-\TU/JameelNooriNastaleeq(0)/b/n/10 سے[]
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2998--2999
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 فرض کریں کہ فضا میں خطہ $\OML/zplm/m/it/
 10 T$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی سرحدی سطح $\OML/zplm/m/it/10 S$ \TU
@@ -26540,10 +26542,10 @@ n/10 کی جگہ $\OML/zplm/m/it/10 u[]$[]
 
 Underfull \hbox (badness 10000) in paragraph at lines 3008--3009
 []\TU/JameelNooriNastaleeq(0)/b/n/10 لکھا گیا ہے)۔ اس سے ظاہر ہے کہ داب نا پذیر
- سیال کی برقرار حال سمتیہ رفتار کا سمتیہ $\OML/cmm/b/it/10 v$ \TU/JameelNooriNa
-staleeq(0)/b/n/10 کا نقطہ $\OML/zplm/m/it/10 N$ \TU/JameelNooriNastaleeq(0)/b/n
-/10 پر انفراج سے مراد $\OML/zplm/m/it/10 N$ \TU/JameelNooriNastaleeq(0)/b/n/10 
-پر شدت منبع ہے۔صرف اور[]
+ سیال کی برقرار حال سرعتی سمتیہ $\OML/cmm/b/it/10 v$ \TU/JameelNooriNastaleeq(0
+)/b/n/10 کا نقطہ $\OML/zplm/m/it/10 N$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر ان
+فراج سے مراد $\OML/zplm/m/it/10 N$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر شدت من
+بع ہے۔صرف اور صرف[]
  []
 
 
@@ -31817,11 +31819,11 @@ LaTeX Info: Redefining \rmfamily on input line 2867.
 LaTeX Info: Redefining \sffamily on input line 2867.
 LaTeX Info: Redefining \ttfamily on input line 2867.
 
-Underfull \hbox (badness 3690) in paragraph at lines 2866--2868
+Underfull \hbox (badness 10000) in paragraph at lines 2866--2868
 []\TU/JameelNooriNastaleeq(0)/b/n/10 ہو گا۔مساوات لاپلاس کے نظریہ کو \TU/AASame
-erSagarNastaleeqBold(0)/m/n/10 نظریہ مخفی قوہ[][][] []\TU/JameelNooriNastaleeq(
-0)/b/n/10 کہتے ہیں۔مساوات  [][]۱۳.۱۲۶[][] []کے ایسے حل جن کے دو رتبی تفارق استم
-راری ہوں \TU/AASameerSagarNastaleeqBold(0)/m/n/10 ہارمونی تفاعل[][][][]
+erSagarNastaleeqBold(0)/m/n/10 نظریہ مخفیہ[][][] []\TU/JameelNooriNastaleeq(0)/
+b/n/10 کہتے ہیں۔مساوات  [][]۱۳.۱۲۶[][] []کے ایسے حل جن کے دو رتبی تفارق استمرار
+ی ہوں \TU/AASameerSagarNastaleeqBold(0)/m/n/10 ہارمونی تفاعل[][][][]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 2869.
@@ -31856,12 +31858,12 @@ lNooriNastaleeq(0)/b/n/10 ذرہ $\OML/zplm/m/it/10 B$ \TU/JameelNooriNastaleeq(
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2880--2881
-[][]\TU/JameelNooriNastaleeq(0)/b/n/10 نقطہ کمیت کی مخفی قوہ اور قوت کی تصور کو
- مسلسل کمیت کے لیے بیان کرتے ہیں۔اگر خطہ $\OML/zplm/m/it/10 R$ \TU/JameelNooriN
-astaleeq(0)/b/n/10 میں کمیتی کثافت $\OML/zplm/m/it/10 ^^Z\OT1/zplm/m/n/10 (\OML
-/zplm/m/it/10 ^^X\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 ^^Q\OT1/ppl/m/n/10 , \OML/
-zplm/m/it/10 ^^P\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 پائی جات
-ی ہو تب نقطہ[]
+[][]\TU/JameelNooriNastaleeq(0)/b/n/10 نقطہ کمیت کے مخفیہ اور قوت کی تصور کو مس
+لسل کمیت کے لیے بیان کرتے ہیں۔اگر خطہ $\OML/zplm/m/it/10 R$ \TU/JameelNooriNast
+aleeq(0)/b/n/10 میں کمیتی کثافت $\OML/zplm/m/it/10 ^^Z\OT1/zplm/m/n/10 (\OML/zp
+lm/m/it/10 ^^X\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 ^^Q\OT1/ppl/m/n/10 , \OML/zpl
+m/m/it/10 ^^P\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 پائی جاتی ہ
+و تب نقطہ[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 2884.
@@ -31874,13 +31876,13 @@ LaTeX Info: Redefining \ttfamily on input line 2888.
 Underfull \hbox (badness 10000) in paragraph at lines 2890--2891
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 برقی سکون کی میدان میں برقی بار کے مابین
  قوت کشش یا قوت دفع قانون کولمب دیتی ہے جس کی ریاضی شکل عین نیوٹن کے قانون ثقل 
-کی طرح ہے۔یوں ہم[]
+کی طرح ہے۔یوں[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2890--2891
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 اخذ کر سکتے ہیں کہ جس نقطہ پر برقی بار موج
-ود نہ ہو اس نقطہ پر برقی مخفی قوہ کو ایسے تفاعل سے ظاہر کیا جا سکتا ہے جو برقی 
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 ہم اخذ کر سکتے ہیں کہ جس نقطہ پر برقی بار 
+موجود نہ ہو اس نقطہ پر برقی مخفیہ کو ایسے تفاعل سے ظاہر کیا جا سکتا ہے جو برقی 
 بار سے پاک نقطہ پر لاپلاس کی مساوات کو[]
  []
 
@@ -32493,8 +32495,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--8
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 (الف) تحلیلی تفاعل کے حقیقی اور خیالی اج
-زاء، دو متغیرات کی لاپلاس مساوات کا حل ہوتے ہیں۔ یوں دو ابعادی مخفی قوہ مسائل پ
-ر تحلیلی تفاعل کے لیے بنائے[]
+زاء، دو متغیرات کی لاپلاس مساوات کا حل ہوتے ہیں۔ یوں دو ابعادی مخفیہ مسائل پر ت
+حلیلی تفاعل کے لیے بنائے گئے[]
  []
 
 
@@ -33909,6 +33911,13 @@ LaTeX Info: Redefining \ttfamily on input line 5.
 LaTeX Info: Redefining \rmfamily on input line 7.
 LaTeX Info: Redefining \sffamily on input line 7.
 LaTeX Info: Redefining \ttfamily on input line 7.
+
+Underfull \hbox (badness 2875) in paragraph at lines 7--8
+[][]\TU/AASameerSagarNastaleeqBold(0)/m/n/10 محافظ زاویہ نقشہ گشی[][][] []\TU/J
+ameelNooriNastaleeq(0)/b/n/10 کے ذریعہ دیے گیے پیچیدہ خطے کا تبادل سادہ خطے میں
+ کرتے ہوئے نظریہ مخفیہ کے دو بُعدی سرحدی مسائل حل کیے جاتے ہیں۔اسی[]
+ []
+
 LaTeX Info: Redefining \rmfamily on input line 9.
 LaTeX Info: Redefining \sffamily on input line 9.
 LaTeX Info: Redefining \ttfamily on input line 9.
@@ -34210,13 +34219,13 @@ LaTeX Info: Redefining \ttfamily on input line 884.
 Underfull \hbox (badness 10000) in paragraph at lines 884--885
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 محافظ زاویہ نقش کی عملی اہمیت اس حقیقت ک
 ی وجہ ہے کہ دو حقیقی متغیرات کی ہارمونی تفاعل محافظ زاویہ تبادل کے بعد نئی متغی
-رات کے لحاظ سے ہارمونی رہتا ہے[]
+رات کے لحاظ سے ہارمونی رہتا[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 884--885
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 (مسئلہ  [][]۱۵.۲[][][])۔ اس کے دور رس اثرا
-ت ہو سکتے ہیں۔ مثال کے طور پر اگر ہمیں دو بُعدی نظریہ مخفی قوہ میں سرحدی مسئلہ 
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 ہے (مسئلہ  [][]۱۵.۲[][][])۔ اس کے دور رس ا
+ثرات ہو سکتے ہیں۔ مثال کے طور پر اگر ہمیں دو بُعدی نظریہ مخفیہ میں سرحدی مسئلہ 
 حل کرنا ہو یعنی ہمیں دو متغیرات کی[]
  []
 
@@ -34330,16 +34339,9 @@ LaTeX Info: Redefining \sffamily on input line 924.
 LaTeX Info: Redefining \ttfamily on input line 924.
 
 Underfull \hbox (badness 10000) in paragraph at lines 932--933
-[][]\TU/JameelNooriNastaleeq(0)/b/n/10 نظریہ مخفی قوہ میں محافظ زاویہ نقش کی تر
-کیب استعمال کرنے میں سب سے مشکل قدم اس نقش کا جاننا ہے جو دیے گئے خطہ کو سادہ خ
-طہ پر نقش کرتا ہو۔اس کے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 932--933
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 لیے ہمیں تجربہ درکار ہو گا اور ساتھ ہی سات
-ھ بنیادی تحلیلی تفاعل کی خواص نقش کی گہری سمجھ ضروری ہو گی۔اس ضرورت کو مد نظر ر
-کھتے ہوئے ہم اہم ترین[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 ہمیں تجربہ درکار ہو گا اور ساتھ ہی ساتھ بن
+یادی تحلیلی تفاعل کی خواص نقش کی گہری سمجھ ضروری ہو گی۔اس ضرورت کو مد نظر رکھتے
+ ہوئے ہم اہم ترین بنیادی[]
  []
 
 [908]
@@ -34809,43 +34811,33 @@ LaTeX Info: Redefining \rmfamily on input line 1978.
 LaTeX Info: Redefining \sffamily on input line 1978.
 LaTeX Info: Redefining \ttfamily on input line 1978.
 
-Underfull \hbox (badness 5756) in paragraph at lines 1978--1979
-[][]\TU/JameelNooriNastaleeq(0)/b/n/10 مثال  [][]۱۵.۱۲[][] []میں تفاعل $\OML/zp
-lm/m/it/10 w \OT1/zplm/m/n/10 = \OML/zplm/m/it/10 u\OT1/zplm/m/n/10 (\OML/zplm/
-m/it/10 x\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 y\OT1/zplm/m/n/10 ) + \OML/zplm/m/
-it/10 iy\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/ppl/m/n/10 , \OML/zplm/m/it/1
-0 y\OT1/zplm/m/n/10 )$\TU/JameelNooriNastaleeq(0)/b/n/10 ، جو نصف مستوی کو دیے 
-گئے خطے پر نقش کرتا ہے، کی استعمال سے حقیقی مخفی قوہ[]
+Underfull \hbox (badness 10000) in paragraph at lines 1978--1979
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 کا عکس حقیقی مخفیہ $\OML/zplm/m/it/10 T[]\
+OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 y\OT1/z
+plm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 حاصل کیا گیا۔مخلوط مخفیہ کی اس
+تعمال سے کئی مسئلوں کا حل نسبتاً آسان ہو جاتا ہے، یعنی ایسا مخلوط تحلیلی تفاعل 
+$\OML/zplm/m/it/10 F\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 w\OT1/zplm/m/n/10 )$ \T
+U/JameelNooriNastaleeq(0)/b/n/10 لینے[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1978--1979
-[]$\OML/zplm/m/it/10 T\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 u\OT1/ppl/m/n/10 , \O
-ML/zplm/m/it/10 v\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا عکس 
-حقیقی مخفی قوہ $\OML/zplm/m/it/10 T[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/
-ppl/m/n/10 , \OML/zplm/m/it/10 y\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)
-/b/n/10 حاصل کیا گیا۔مخلوط مخفی قوہ کی استعمال سے کئی مسئلوں کا حل نسبتاً آسان 
-ہو جاتا ہے، یعنی ایسا مخلوط تحلیلی[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 سے کہ حقیقی تفاعل $\OML/zplm/m/it/10 T\OT1
+/zplm/m/n/10 (\OML/zplm/m/it/10 u\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 v\OT1/zplm
+/m/n/10 )$\TU/JameelNooriNastaleeq(0)/b/n/10 ، تفاعل $\OML/zplm/m/it/10 F\OT1/z
+plm/m/n/10 (\OML/zplm/m/it/10 w\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/
+b/n/10 کا حقیقی یا خیالی جزو ہو اور $\OML/zplm/m/it/10 T$ \TU/JameelNooriNastal
+eeq(0)/b/n/10 کے بجائے $\OML/zplm/m/it/10 F$ \TU/JameelNooriNastaleeq(0)/b/n/10
+ کا تبادل لیا جائے۔ظاہر ہے کہ $\OML/zplm/m/it/10 T$ \TU/JameelNooriNastaleeq(0)
+/b/n/10 کا جوڑی دار ہارمونی[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1978--1979
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 تفاعل $\OML/zplm/m/it/10 F\OT1/zplm/m/n/10
- (\OML/zplm/m/it/10 w\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 لین
-ے سے کہ حقیقی تفاعل $\OML/zplm/m/it/10 T\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 u\O
-T1/ppl/m/n/10 , \OML/zplm/m/it/10 v\OT1/zplm/m/n/10 )$\TU/JameelNooriNastaleeq(
-0)/b/n/10 ، تفاعل $\OML/zplm/m/it/10 F\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 w\OT1
-/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا حقیقی یا خیالی جزو ہو اور
- $\OML/zplm/m/it/10 T$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے بجائے $\OML/zplm/m
-/it/10 F$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا تبادل لیا جائے۔ظاہر ہے کہ[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1978--1979
-[]$\OML/zplm/m/it/10 T$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا جوڑی دار ہارمونی 
-تفاعل (حصہ  [][]۱۴.۵[][] []کا آخر دیکھیں) حاصل کرنے سے مخلوط مخفی قوہ $\OML/zpl
-m/m/it/10 F$ \TU/JameelNooriNastaleeq(0)/b/n/10 حاصل ہو گا۔ آئیں ”مخلوط مخفی قو
-ہ کی ترکیب“ [][][] گزشتہ مثال کی[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 تفاعل (حصہ  [][]۱۴.۵[][] []کا آخر دیکھیں) 
+حاصل کرنے سے مخلوط مخفیہ $\OML/zplm/m/it/10 F$ \TU/JameelNooriNastaleeq(0)/b/n/
+10 حاصل ہو گا۔ آئیں ”مخلوط مخفیہ کی ترکیب“ [][][] گزشتہ مثال کی صورت میں دیکھیں
+۔مخلوط[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1982.
@@ -39940,7 +39932,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--21
 []\TU/JameelNooriNastaleeq(0)/b/n/10 دو لامتناہی وسعت کی متوازی موصل چادر جنہیں
  بالترتیب $\OML/zplm/m/it/10 U[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/
 zplm/m/it/10 U[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 برقی دباؤ پر رکھا گیا ہے ک
-ے درمیان مخفی قوہ تلاش کریں (شکل  [][]۲۰.۱[][][]-[]
+ے درمیان مخفیہ تلاش کریں (شکل  [][]۲۰.۱[][][]-[]
  []
 
 
@@ -39971,8 +39963,8 @@ LaTeX Info: Redefining \ttfamily on input line 62.
 Underfull \hbox (badness 10000) in paragraph at lines 61--63
 []\TU/JameelNooriNastaleeq(0)/b/n/10 دو لامتناہی لمبائی کی ہم محور موصل نلکیاں 
 جنہیں بالترتیب $\OML/zplm/m/it/10 U[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $
-\OML/zplm/m/it/10 U[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 مخفی قوہ پر رکھا گیا 
-ہو کے درمیان مخفی قوہ تلاش کریں (شکل  [][]۲۰.۱[][][]-ب)۔ یہاں[]
+\OML/zplm/m/it/10 U[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 مخفیہ پر رکھا گیا ہو 
+کے درمیان مخفیہ تلاش کریں (شکل  [][]۲۰.۱[][][]-ب)۔ یہاں تشاکل کی[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 65.
@@ -40049,7 +40041,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--154
 []\TU/JameelNooriNastaleeq(0)/b/n/10 ہوں گی جن پر قطع $\OML/zplm/m/it/10 x[]x[]
 $ \TU/JameelNooriNastaleeq(0)/b/n/10 کا زاویہ تبدیل نہیں ہوتا ہے۔ مساوات  [][]۲
 ۰.۲[][] []میں دیے گیے تفاعل کو ایسی غیر ہم محور نلکی برق گیر کے اندر کا مخلوط م
-خفی قوہ تصور کیا[]
+خفیہ تصور کیا جا[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 157.
@@ -40098,17 +40090,8 @@ xy$ \TU/JameelNooriNastaleeq(0)/b/n/10 سطح میں حرکت پر غور کرن
 Underfull \hbox (badness 10000) in paragraph at lines 285--286
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 کسی بھی نقطہ $\OT1/zplm/m/n/10 (\OML/zpl
 m/m/it/10 x\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 y\OT1/zplm/m/n/10 )$ \TU/JameelN
-ooriNastaleeq(0)/b/n/10 پر بہاؤ کی سمتیہ رفتار پائی جائے گی جس کو اس کی مقدار ا
-ور سمت سے ظاہر کیا جا سکتا ہے لہٰذا سمتیہ رفتار ایک سمتیہ ہو گا۔چونکہ مخلوط سطح
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 میں کوئی بھی عدد $\OML/zplm/m/it/10 a$ \TU
-/JameelNooriNastaleeq(0)/b/n/10 ایک سمتیہ کو ظاہر کرتا ہے (جو مبدا سے عدد $\OML
-/zplm/m/it/10 a$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی مطابقتی مقام تک کا سمتیہ
- ہو گا) لہٰذا ہم بہاؤ کی سمتیہ رفتار کو مخلوط متغیرہ سے ظاہر کر سکتے[]
+ooriNastaleeq(0)/b/n/10 پر بہاؤ کی سرعت پائی جائے گی جس کو اس کی مقدار اور سمت 
+سے ظاہر کیا جا سکتا ہے لہٰذا سرعت ایک سمتیہ ہو گی۔چونکہ مخلوط سطح میں[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 289.
@@ -40119,12 +40102,12 @@ LaTeX Info: Redefining \sffamily on input line 289.
 LaTeX Info: Redefining \ttfamily on input line 289.
 
 Underfull \hbox (badness 10000) in paragraph at lines 288--331
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 جہاں مخلوط سطح پر سمتیہ رفتار کے $\OML/zpl
-m/m/it/10 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 y$ \TU/J
-ameelNooriNastaleeq(0)/b/n/10 سمت میں اجزاء بالترتیب $\OML/zplm/m/it/10 V[]$ \T
-U/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 V[]$ \TU/JameelNooriNas
-taleeq(0)/b/n/10 ہوں گے اور $\OML/zplm/m/it/10 V$ \TU/JameelNooriNastaleeq(0)/b
-/n/10 حرکت کرتے ذرات کی راہ کے مماس ہو گا۔ایسی راہ کو[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 جہاں مخلوط سطح پر سرعت کے $\OML/zplm/m/it/
+10 x$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 y$ \TU/JameelNo
+oriNastaleeq(0)/b/n/10 سمت میں اجزاء بالترتیب $\OML/zplm/m/it/10 V[]$ \TU/Jamee
+lNooriNastaleeq(0)/b/n/10 اور $\OML/zplm/m/it/10 V[]$ \TU/JameelNooriNastaleeq(
+0)/b/n/10 ہوں گے اور $\OML/zplm/m/it/10 V$ \TU/JameelNooriNastaleeq(0)/b/n/10 ح
+رکت کرتے ذرات کی راہ کے مماس ہو گا۔ایسی راہ کو[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 332.
@@ -40135,9 +40118,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 332--333
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 اب کسی ایک ہموار منحنی $\OML/zplm/m/it/1
 0 C$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر غور کریں جس کی لمبائی قوس کو ہم $\OM
 L/zplm/m/it/10 s$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے ظاہر کرتے ہیں۔فرض کریں 
-کہ $\OML/zplm/m/it/10 C$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے مماسی سمتیہ رفتا
-ر $\OML/zplm/m/it/10 V$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا جزو حقیقی متغیرہ[
-]
+کہ $\OML/zplm/m/it/10 C$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے مماسی سرعت $\OML
+/zplm/m/it/10 V$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا جزو حقیقی متغیرہ[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 336.
@@ -40146,20 +40128,10 @@ LaTeX Info: Redefining \ttfamily on input line 336.
 LaTeX Info: Redefining \rmfamily on input line 344.
 LaTeX Info: Redefining \sffamily on input line 344.
 LaTeX Info: Redefining \ttfamily on input line 344.
-
-Underfull \hbox (badness 10000) in paragraph at lines 335--345
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 کو $\OML/zplm/m/it/10 C$ \TU/JameelNooriNa
-staleeq(0)/b/n/10 پر سیال کی \TU/AASameerSagarNastaleeqBold(0)/m/n/10 دائری بہا
-ؤ[][][][] []\TU/JameelNooriNastaleeq(0)/b/n/10 کہتے ہیں۔دائری بہاؤ کو $\OML/zpl
-m/m/it/10 C$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی لمبائی سے تقسیم کرنے سے منحن
-ی $\OML/zplm/m/it/10 C$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر اوسط سمتیہ رفتار[
-][] حاصل ہوتی ہے۔اب شکل  [][]۲۰.۵[][][]
- []
-
-[1095]
 LaTeX Info: Redefining \rmfamily on input line 348.
 LaTeX Info: Redefining \sffamily on input line 348.
 LaTeX Info: Redefining \ttfamily on input line 348.
+[1095]
 LaTeX Info: Redefining \rmfamily on input line 352.
 LaTeX Info: Redefining \sffamily on input line 352.
 LaTeX Info: Redefining \ttfamily on input line 352.
@@ -40168,19 +40140,12 @@ LaTeX Info: Redefining \sffamily on input line 358.
 LaTeX Info: Redefining \ttfamily on input line 358.
 
 Underfull \hbox (badness 10000) in paragraph at lines 361--363
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 کی صورت میں لکھا جا سکتا ہے۔دائیں ہاتھ تکم
-ل کے اندر تفاعل کا ایک سادہ طبعی مطلب ہے جس پر اب غور کرتے ہیں۔فرض کریں کہ $\OM
-L/zplm/m/it/10 C$ \TU/JameelNooriNastaleeq(0)/b/n/10 ایک دائرہ ہے جس[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 361--363
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 کا رداس $\OML/zplm/m/it/10 r$ \TU/JameelNo
-oriNastaleeq(0)/b/n/10 ہے۔تب دائری بہاؤ کو $\OT1/ppl/m/n/10 2\OML/zplm/m/it/10 
-^^Yr$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے تقسیم کرنے سے سیال کی $\OML/zplm/m/
-it/10 C$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر اوسط سمتیہ رفتار حاصل ہو گی جس ک
-و $\OML/zplm/m/it/10 r$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے تقسیم کرتے ہوئے د
-ائرے کی[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 رداس $\OML/zplm/m/it/10 r$ \TU/JameelNoori
+Nastaleeq(0)/b/n/10 ہے۔تب دائری بہاؤ کو $\OT1/ppl/m/n/10 2\OML/zplm/m/it/10 ^^Y
+r$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے تقسیم کرنے سے سیال کی $\OML/zplm/m/it/
+10 C$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر اوسط سرعت حاصل ہو گی جس کو $\OML/zp
+lm/m/it/10 r$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے تقسیم کرتے ہوئے دائرے کے مح
+ور[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 370.
@@ -40196,51 +40161,38 @@ LaTeX Info: Redefining \rmfamily on input line 370.
 LaTeX Info: Redefining \sffamily on input line 370.
 LaTeX Info: Redefining \ttfamily on input line 370.
 
-Underfull \hbox (badness 3735) in paragraph at lines 369--371
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 تفاعل $\OML/zplm/m/it/10 !$ \TU/AASameerSa
-garNastaleeqBold(0)/m/n/10 گھومنا[][][] []\TU/JameelNooriNastaleeq(0)/b/n/10 کہ
-لاتا ہے جبکہ $\OT1/ppl/m/n/10 2\OML/zplm/m/it/10 !$ \TU/JameelNooriNastaleeq(0)
-/b/n/10 کو حرکت کی \TU/AASameerSagarNastaleeqBold(0)/m/n/10 گردابیت[][][] []\TU
-/JameelNooriNastaleeq(0)/b/n/10 کہتے ہیں۔اگر $\OML/zplm/m/it/10 r \OMS/zplm/m/n
-/10 ! \OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہو تب مساوات  [][]۲
-۰.۶[][] []کے دایاں ہاتھ کی حد، $\OML/zplm/m/it/10 C$ \TU/JameelNooriNastaleeq(0
-)/b/n/10 کی[]
+Underfull \hbox (badness 10000) in paragraph at lines 369--371
+[]$\OML/zplm/m/it/10 !$ \TU/JameelNooriNastaleeq(0)/b/n/10 کی قیمت دے گی۔یوں اگ
+ر دائرہ $\OML/zplm/m/it/10 C$ \TU/JameelNooriNastaleeq(0)/b/n/10 سکڑ کر نقطہ $\
+OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 y\OT1/z
+plm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 مانند رہ جائے تب سیال کے دائری
+ ٹکڑے کی زاویائی سرعت کی تحدیدی قیمت $\OML/zplm/m/it/10 w\OT1/zplm/m/n/10 (\OML
+/zplm/m/it/10 x\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 y\OT1/zplm/m/n/10 )$[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 369--371
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 مرکز پر $\OML/zplm/m/it/10 !$ \TU/JameelNo
-oriNastaleeq(0)/b/n/10 کی قیمت دے گی۔یوں اگر دائرہ $\OML/zplm/m/it/10 C$ \TU/Ja
-meelNooriNastaleeq(0)/b/n/10 سکڑ کر نقطہ $\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x
-\OT1/ppl/m/n/10 , \OML/zplm/m/it/10 y\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastale
-eq(0)/b/n/10 مانند رہ جائے تب سیال کے دائری ٹکڑے کی زاویائی سمتیہ رفتار کی تحدی
-دی قیمت[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 369--371
-[]$\OML/zplm/m/it/10 w\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/ppl/m/n/10 , \O
-ML/zplm/m/it/10 y\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 ہو گی۔ہ
-م کہہ سکتے ہیں کہ اگر سیال کا کروی ٹکرا یک دم ٹھوس صورت اختیار کرے اور ساتھ ہی 
-باقی تمام سیال ہٹا دیا جائے تب اس ٹکڑے کی[]
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 ہو گی۔ہم کہہ سکتے ہیں کہ اگر سیال کا کروی 
+ٹکرا یک دم ٹھوس صورت اختیار کرے اور ساتھ ہی باقی تمام سیال ہٹا دیا جائے تب اس ٹ
+کڑے کی زاویائی سرعت[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 372.
 LaTeX Info: Redefining \sffamily on input line 372.
 LaTeX Info: Redefining \ttfamily on input line 372.
+LaTeX Info: Redefining \rmfamily on input line 378.
+LaTeX Info: Redefining \sffamily on input line 378.
+LaTeX Info: Redefining \ttfamily on input line 378.
+LaTeX Info: Redefining \rmfamily on input line 378.
+LaTeX Info: Redefining \sffamily on input line 378.
+LaTeX Info: Redefining \ttfamily on input line 378.
+LaTeX Info: Redefining \rmfamily on input line 378.
+LaTeX Info: Redefining \sffamily on input line 378.
+LaTeX Info: Redefining \ttfamily on input line 378.
+LaTeX Info: Redefining \rmfamily on input line 378.
+LaTeX Info: Redefining \sffamily on input line 378.
+LaTeX Info: Redefining \ttfamily on input line 378.
 [1096]
-LaTeX Info: Redefining \rmfamily on input line 378.
-LaTeX Info: Redefining \sffamily on input line 378.
-LaTeX Info: Redefining \ttfamily on input line 378.
-LaTeX Info: Redefining \rmfamily on input line 378.
-LaTeX Info: Redefining \sffamily on input line 378.
-LaTeX Info: Redefining \ttfamily on input line 378.
-LaTeX Info: Redefining \rmfamily on input line 378.
-LaTeX Info: Redefining \sffamily on input line 378.
-LaTeX Info: Redefining \ttfamily on input line 378.
-LaTeX Info: Redefining \rmfamily on input line 378.
-LaTeX Info: Redefining \sffamily on input line 378.
-LaTeX Info: Redefining \ttfamily on input line 378.
 LaTeX Info: Redefining \rmfamily on input line 384.
 LaTeX Info: Redefining \sffamily on input line 384.
 LaTeX Info: Redefining \ttfamily on input line 384.
@@ -40269,13 +40221,13 @@ LaTeX Info: Redefining \ttfamily on input line 400.
 LaTeX Info: Redefining \rmfamily on input line 404.
 LaTeX Info: Redefining \sffamily on input line 404.
 LaTeX Info: Redefining \ttfamily on input line 404.
+LaTeX Info: Redefining \rmfamily on input line 406.
+LaTeX Info: Redefining \sffamily on input line 406.
+LaTeX Info: Redefining \ttfamily on input line 406.
+LaTeX Info: Redefining \rmfamily on input line 406.
+LaTeX Info: Redefining \sffamily on input line 406.
+LaTeX Info: Redefining \ttfamily on input line 406.
 [1097]
-LaTeX Info: Redefining \rmfamily on input line 406.
-LaTeX Info: Redefining \sffamily on input line 406.
-LaTeX Info: Redefining \ttfamily on input line 406.
-LaTeX Info: Redefining \rmfamily on input line 406.
-LaTeX Info: Redefining \sffamily on input line 406.
-LaTeX Info: Redefining \ttfamily on input line 406.
 LaTeX Info: Redefining \rmfamily on input line 410.
 LaTeX Info: Redefining \sffamily on input line 410.
 LaTeX Info: Redefining \ttfamily on input line 410.
@@ -40295,15 +40247,6 @@ LaTeX Info: Redefining \ttfamily on input line 414.
 LaTeX Info: Redefining \rmfamily on input line 420.
 LaTeX Info: Redefining \sffamily on input line 420.
 LaTeX Info: Redefining \ttfamily on input line 420.
-
-Underfull \hbox (badness 10000) in paragraph at lines 419--421
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 بہاؤ کے خطہ میں تحلیلی ہو گا۔اس تفاعل کو ب
-ہاؤ کی \TU/AASameerSagarNastaleeqBold(0)/m/n/10 مخلوط مخفی قوہ[][][] []\TU/Jame
-elNooriNastaleeq(0)/b/n/10 کہتے ہیں۔$\OT1/zplm/m/n/10 ^^H$ \TU/JameelNooriNasta
-leeq(0)/b/n/10 اور $\OT1/zplm/m/n/10 ^^I$ \TU/JameelNooriNastaleeq(0)/b/n/10 کے
- ساتھ علیحدہ علیحدہ کام کرنے سے مخلوط مخفی قوہ کے ساتھ کام[]
- []
-
 LaTeX Info: Redefining \rmfamily on input line 422.
 LaTeX Info: Redefining \sffamily on input line 422.
 LaTeX Info: Redefining \ttfamily on input line 422.
@@ -40327,16 +40270,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 434--435
 []\TU/JameelNooriNastaleeq(0)/b/n/10 بہاؤ سمت کا تبادل سطح عکس میں بہاؤ سمت پر 
 ہو گا۔پیچیدہ بہاؤ کے حصول اور ان پر غور کے لیے سادہ بہاؤ کا میل زیر استعمال لای
 ا جا سکتا ہے۔دو بہاؤ $\OML/zplm/m/it/10 F[]$\TU/JameelNooriNastaleeq(0)/b/n/10 
-، $\OML/zplm/m/it/10 F[]$ \TU/JameelNooriNastaleeq(0)/b/n/10 کا[]
+، $\OML/zplm/m/it/10 F[]$[]
  []
 
-[1098]
+
 Underfull \hbox (badness 10000) in paragraph at lines 436--437
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 دھیان رہے کہ اگرچہ برقی سکون میں دی گئی 
 سرحدیں (موصل سطحیں) ہم قوہ خطوط ہوں گی، ماقوا حرکیات میں یہ سرحدیں بہاؤ سمت ہوں
  گی اور ہم قوہ خطوط[]
  []
 
+[1098]
 LaTeX Info: Redefining \rmfamily on input line 454.
 LaTeX Info: Redefining \sffamily on input line 454.
 LaTeX Info: Redefining \ttfamily on input line 454.
@@ -40347,10 +40291,20 @@ LaTeX Info: Redefining \rmfamily on input line 486.
 LaTeX Info: Redefining \sffamily on input line 486.
 LaTeX Info: Redefining \ttfamily on input line 486.
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--501
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 دو متوازی لکیروں (تین بُعدی فضا میں دو متو
-ازی چادروں) کے درمیان یکساں بہاؤ تصور کیا جا سکتا ہے (شکل  [][]۲۰.۷[][][])۔ سمت
-یہ رفتار سمتیہ، بہاؤ سمت اور ہم قوہ[]
+Underfull \hbox (badness 5490) in paragraph at lines 485--501
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 سوال  ۲۰.۱۱: [] \TU/AASameerSagarNastaleeq
+Bold(0)/m/n/10 (متوازی بہاؤ)  \TU/JameelNooriNastaleeq(0)/b/n/10 دکھائیں کہ $\O
+ML/zplm/m/it/10 F\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 z\OT1/zplm/m/n/10 ) = \OML
+/zplm/m/it/10 Kz$ \TU/JameelNooriNastaleeq(0)/b/n/10 (جہاں $\OML/zplm/m/it/10 K
+$ \TU/JameelNooriNastaleeq(0)/b/n/10 مثبت حقیقی ہے) دائیں رخ یکساں بہاؤ کو ظاہر
+ کرتی ہے[]
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 485--501
+[]\TU/JameelNooriNastaleeq(0)/b/n/10 جس کو دو متوازی لکیروں (تین بُعدی فضا میں 
+دو متوازی چادروں) کے درمیان یکساں بہاؤ تصور کیا جا سکتا ہے (شکل  [][]۲۰.۷[][][]
+)۔سرعتی سمتیہ، بہاؤ سمت اور ہم قوہ[]
  []
 
 [1099]
@@ -40367,36 +40321,46 @@ LaTeX Info: Redefining \rmfamily on input line 518.
 LaTeX Info: Redefining \sffamily on input line 518.
 LaTeX Info: Redefining \ttfamily on input line 518.
 
-Underfull \hbox (badness 10000) in paragraph at lines 516--519
+Underfull \hbox (badness 5504) in paragraph at lines 516--519
 [] \TU/JameelNooriNastaleeq(0)/b/n/10 سوال  [][]۲۰.۱۵[][] []تا سوال  [][]۲۰.۱۹[
-][] []میں دی گئی مخلوط مخفی قوہ $\OML/zplm/m/it/10 F\OT1/zplm/m/n/10 (\OML/zplm
-/m/it/10 z\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر غور کریں۔ہم
- قوہ خطوط اور بہاؤ سمت کی ترسیم کھینچیں۔سمتیہ رفتار سمتیہ $\OML/zplm/m/it/10 V$
- \TU/JameelNooriNastaleeq(0)/b/n/10 تلاش کریں اور[]
+][] []میں دی گئی مخلوط مخفیہ $\OML/zplm/m/it/10 F\OT1/zplm/m/n/10 (\OML/zplm/m/
+it/10 z\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر غور کریں۔ہم قو
+ہ خطوط اور بہاؤ سمت کی ترسیم کھینچیں۔سرعتی سمتیہ $\OML/zplm/m/it/10 V$ \TU/Jame
+elNooriNastaleeq(0)/b/n/10 تلاش کریں اور وہ تمام[]
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 549.
+LaTeX Info: Redefining \sffamily on input line 549.
+LaTeX Info: Redefining \ttfamily on input line 549.
+LaTeX Info: Redefining \rmfamily on input line 549.
+LaTeX Info: Redefining \sffamily on input line 549.
+LaTeX Info: Redefining \ttfamily on input line 549.
+LaTeX Info: Redefining \rmfamily on input line 549.
+LaTeX Info: Redefining \sffamily on input line 549.
+LaTeX Info: Redefining \ttfamily on input line 549.
+LaTeX Info: Redefining \rmfamily on input line 586.
+LaTeX Info: Redefining \sffamily on input line 586.
+LaTeX Info: Redefining \ttfamily on input line 586.
+LaTeX Info: Redefining \rmfamily on input line 586.
+LaTeX Info: Redefining \sffamily on input line 586.
+LaTeX Info: Redefining \ttfamily on input line 586.
+LaTeX Info: Redefining \rmfamily on input line 586.
+LaTeX Info: Redefining \sffamily on input line 586.
+LaTeX Info: Redefining \ttfamily on input line 586.
+LaTeX Info: Redefining \rmfamily on input line 586.
+LaTeX Info: Redefining \sffamily on input line 586.
+LaTeX Info: Redefining \ttfamily on input line 586.
+
+Underfull \hbox (badness 1286) in paragraph at lines 546--589
+[] \TU/JameelNooriNastaleeq(0)/b/n/10 سوال  ۲۰.۲۰: [] \TU/AASameerSagarNastalee
+qBold(0)/m/n/10 (منبع اور گڑھا)  \TU/JameelNooriNastaleeq(0)/b/n/10 مخلوط مخفیہ
+ $\OML/zplm/m/it/10 F\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 z\OT1/zplm/m/n/10 ) = 
+[] [] \OML/zplm/m/it/10 z$ \TU/JameelNooriNastaleeq(0)/b/n/10 پر غور کریں جہاں 
+$\OML/zplm/m/it/10 c$ \TU/JameelNooriNastaleeq(0)/b/n/10 حقیقی مثبت ہے۔دکھائیں 
+کہ $\OML/zplm/m/it/10 V \OT1/zplm/m/n/10 =$[]
  []
 
 [1100]
-LaTeX Info: Redefining \rmfamily on input line 549.
-LaTeX Info: Redefining \sffamily on input line 549.
-LaTeX Info: Redefining \ttfamily on input line 549.
-LaTeX Info: Redefining \rmfamily on input line 549.
-LaTeX Info: Redefining \sffamily on input line 549.
-LaTeX Info: Redefining \ttfamily on input line 549.
-LaTeX Info: Redefining \rmfamily on input line 549.
-LaTeX Info: Redefining \sffamily on input line 549.
-LaTeX Info: Redefining \ttfamily on input line 549.
-LaTeX Info: Redefining \rmfamily on input line 586.
-LaTeX Info: Redefining \sffamily on input line 586.
-LaTeX Info: Redefining \ttfamily on input line 586.
-LaTeX Info: Redefining \rmfamily on input line 586.
-LaTeX Info: Redefining \sffamily on input line 586.
-LaTeX Info: Redefining \ttfamily on input line 586.
-LaTeX Info: Redefining \rmfamily on input line 586.
-LaTeX Info: Redefining \sffamily on input line 586.
-LaTeX Info: Redefining \ttfamily on input line 586.
-LaTeX Info: Redefining \rmfamily on input line 586.
-LaTeX Info: Redefining \sffamily on input line 586.
-LaTeX Info: Redefining \ttfamily on input line 586.
 LaTeX Info: Redefining \rmfamily on input line 592.
 LaTeX Info: Redefining \sffamily on input line 592.
 LaTeX Info: Redefining \ttfamily on input line 592.
@@ -40405,9 +40369,9 @@ LaTeX Info: Redefining \sffamily on input line 592.
 LaTeX Info: Redefining \ttfamily on input line 592.
 
 Underfull \hbox (badness 10000) in paragraph at lines 599--603
-[] \TU/JameelNooriNastaleeq(0)/b/n/10 سوال  ۲۰.۲۳: [] دکھائیں کہ دو بہاؤ کے سمت
-یہ رفتار سمتیات کا سمتیہ مجموعہ حاصل کرنے سے ایسا بہاؤ حاصل ہو گا جس کا مخلوط م
-خفی قوہ ان بہاؤ کے مخلوط[]
+[] \TU/JameelNooriNastaleeq(0)/b/n/10 سوال  ۲۰.۲۳: [] دکھائیں کہ دو بہاؤ کے سرع
+تی سمتیات کا سمتیہ مجموعہ حاصل کرنے سے ایسا بہاؤ حاصل ہو گا جس کا مخلوط مخفیہ ا
+ن بہاؤ کے مخلوط مخفیہ کو[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 606.
@@ -40434,13 +40398,13 @@ LaTeX Info: Redefining \ttfamily on input line 642.
 LaTeX Info: Redefining \rmfamily on input line 642.
 LaTeX Info: Redefining \sffamily on input line 642.
 LaTeX Info: Redefining \ttfamily on input line 642.
-[1101]
 LaTeX Info: Redefining \rmfamily on input line 648.
 LaTeX Info: Redefining \sffamily on input line 648.
 LaTeX Info: Redefining \ttfamily on input line 648.
 LaTeX Info: Redefining \rmfamily on input line 652.
 LaTeX Info: Redefining \sffamily on input line 652.
 LaTeX Info: Redefining \ttfamily on input line 652.
+[1101]
 LaTeX Info: Redefining \rmfamily on input line 659.
 LaTeX Info: Redefining \sffamily on input line 659.
 LaTeX Info: Redefining \ttfamily on input line 659.
@@ -40465,7 +40429,6 @@ LaTeX Info: Redefining \ttfamily on input line 881.
 LaTeX Info: Redefining \rmfamily on input line 881.
 LaTeX Info: Redefining \sffamily on input line 881.
 LaTeX Info: Redefining \ttfamily on input line 881.
- [1102]
 LaTeX Info: Redefining \rmfamily on input line 890.
 LaTeX Info: Redefining \sffamily on input line 890.
 LaTeX Info: Redefining \ttfamily on input line 890.
@@ -40487,14 +40450,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 890--891
 نکہ تحلیلی تفاعل کے[]
  []
 
+[1102]
 LaTeX Info: Redefining \rmfamily on input line 898.
 LaTeX Info: Redefining \sffamily on input line 898.
 LaTeX Info: Redefining \ttfamily on input line 898.
-[1103]
 LaTeX Info: Redefining \rmfamily on input line 910.
 LaTeX Info: Redefining \sffamily on input line 910.
 LaTeX Info: Redefining \ttfamily on input line 910.
-
+ [1103]
 Underfull \hbox (badness 10000) in paragraph at lines 925--927
 []\TU/JameelNooriNastaleeq(0)/b/n/10 فرض کریں کہ $\OML/zplm/m/it/10 D$ \TU/Jame
 elNooriNastaleeq(0)/b/n/10 محدود خطہ ہے اور $\OML/zplm/m/it/10 D$ \TU/JameelNoo
@@ -40769,13 +40732,13 @@ LaTeX Info: Redefining \ttfamily on input line 1087.
 LaTeX Info: Redefining \rmfamily on input line 1087.
 LaTeX Info: Redefining \sffamily on input line 1087.
 LaTeX Info: Redefining \ttfamily on input line 1087.
+LaTeX Info: Redefining \rmfamily on input line 1091.
+LaTeX Info: Redefining \sffamily on input line 1091.
+LaTeX Info: Redefining \ttfamily on input line 1091.
+LaTeX Info: Redefining \rmfamily on input line 1091.
+LaTeX Info: Redefining \sffamily on input line 1091.
+LaTeX Info: Redefining \ttfamily on input line 1091.
 [1108]
-LaTeX Info: Redefining \rmfamily on input line 1091.
-LaTeX Info: Redefining \sffamily on input line 1091.
-LaTeX Info: Redefining \ttfamily on input line 1091.
-LaTeX Info: Redefining \rmfamily on input line 1091.
-LaTeX Info: Redefining \sffamily on input line 1091.
-LaTeX Info: Redefining \ttfamily on input line 1091.
 LaTeX Info: Redefining \rmfamily on input line 1102.
 LaTeX Info: Redefining \sffamily on input line 1102.
 LaTeX Info: Redefining \ttfamily on input line 1102.
@@ -40799,7 +40762,6 @@ LaTeX Info: Redefining \ttfamily on input line 1160.
 LaTeX Info: Redefining \rmfamily on input line 1171.
 LaTeX Info: Redefining \sffamily on input line 1171.
 LaTeX Info: Redefining \ttfamily on input line 1171.
- [1109]
 LaTeX Info: Redefining \rmfamily on input line 1175.
 LaTeX Info: Redefining \sffamily on input line 1175.
 LaTeX Info: Redefining \ttfamily on input line 1175.
@@ -40812,7 +40774,7 @@ LaTeX Info: Redefining \ttfamily on input line 1178.
 LaTeX Info: Redefining \rmfamily on input line 1178.
 LaTeX Info: Redefining \sffamily on input line 1178.
 LaTeX Info: Redefining \ttfamily on input line 1178.
- [1110]
+ [1109] [1110]
 LaTeX Info: Redefining \rmfamily on input line 1244.
 LaTeX Info: Redefining \sffamily on input line 1244.
 LaTeX Info: Redefining \ttfamily on input line 1244.
@@ -40847,13 +40809,13 @@ LaTeX Info: Redefining \ttfamily on input line 1293.
 LaTeX Info: Redefining \rmfamily on input line 1293.
 LaTeX Info: Redefining \sffamily on input line 1293.
 LaTeX Info: Redefining \ttfamily on input line 1293.
+LaTeX Info: Redefining \rmfamily on input line 1300.
+LaTeX Info: Redefining \sffamily on input line 1300.
+LaTeX Info: Redefining \ttfamily on input line 1300.
+LaTeX Info: Redefining \rmfamily on input line 1300.
+LaTeX Info: Redefining \sffamily on input line 1300.
+LaTeX Info: Redefining \ttfamily on input line 1300.
 [1111]
-LaTeX Info: Redefining \rmfamily on input line 1300.
-LaTeX Info: Redefining \sffamily on input line 1300.
-LaTeX Info: Redefining \ttfamily on input line 1300.
-LaTeX Info: Redefining \rmfamily on input line 1300.
-LaTeX Info: Redefining \sffamily on input line 1300.
-LaTeX Info: Redefining \ttfamily on input line 1300.
 LaTeX Info: Redefining \rmfamily on input line 1315.
 LaTeX Info: Redefining \sffamily on input line 1315.
 LaTeX Info: Redefining \ttfamily on input line 1315.
@@ -45657,8 +45619,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1067--1113
 [] \TU/JameelNooriNastaleeq(0)/b/n/10 سوال  ۲۳.۳۹: [] شکل  [][]۲۳.۷[][] []میں $
 \OML/zplm/m/it/10 N[]$\TU/JameelNooriNastaleeq(0)/b/n/10 ، $\OML/zplm/m/it/10 N
 []$\TU/JameelNooriNastaleeq(0)/b/n/10 ، $\OML/zplm/m/it/10 N[]$ \TU/JameelNoori
-Nastaleeq(0)/b/n/10 پر ساکن برقی مخفی قوہ کی تخمینی قیمت تلاش کریں۔یہ نقطے موصل
- چادروں کے درمیان[]
+Nastaleeq(0)/b/n/10 پر ساکن برقی مخفیہ کی تخمینی قیمت تلاش کریں۔یہ نقطے موصل چا
+دروں کے درمیان[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1119.
@@ -45679,20 +45641,10 @@ LaTeX Info: Redefining \ttfamily on input line 1160.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1126--1163
 [] \TU/JameelNooriNastaleeq(0)/b/n/10 سوال  ۲۳.۴۲: [] شکل  [][]۲۳.۹[][] []میں م
-خفی قوہ کو (الف) چوڑی جال پر، (ب) باریک جال پر، گاوسی اسقاط کی مدد سے تلاش کریں
-۔ اشارہ۔ باریک جال میں[]
+خفیہ کو (الف) چوڑی جال پر، (ب) باریک جال پر، گاوسی اسقاط کی مدد سے تلاش کریں۔ ا
+شارہ۔ باریک جال میں[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1126--1163
-[]\TU/JameelNooriNastaleeq(0)/b/n/10 تشاکل استعمال کریں اور ان دو نقطوں پر جہاں
- سرحدی مخفی قوہ میں چھلانگ پائی جاتی ہے وہاں مخفی قوہ کو $\OT1/ppl/m/n/10 0 V$ 
-\TU/JameelNooriNastaleeq(0)/b/n/10 (یعنی $\OMS/zplm/m/n/10 ^^@\OT1/ppl/m/n/10 1
-10 V$ \TU/JameelNooriNastaleeq(0)/b/n/10 اور $\OT1/ppl/m/n/10 110 V$ \TU/Jameel
-NooriNastaleeq(0)/b/n/10 کی اوسط)[]
- []
-
-[1222]
 LaTeX Info: Redefining \rmfamily on input line 1166.
 LaTeX Info: Redefining \sffamily on input line 1166.
 LaTeX Info: Redefining \ttfamily on input line 1166.
@@ -45703,6 +45655,7 @@ ppl/m/n/10 0, 0$ \TU/JameelNooriNastaleeq(0)/b/n/10 سے ابتدا کرتے ہ�
  بعد سوال  [][]۲۳.۴۲[][] []میں چوڑی جال کے نتائج پانچ ملحوظ ہندسوں تک[]
  []
 
+[1222] [1223]
 LaTeX Info: Redefining \rmfamily on input line 1172.
 LaTeX Info: Redefining \sffamily on input line 1172.
 LaTeX Info: Redefining \ttfamily on input line 1172.
@@ -45773,7 +45726,7 @@ LaTeX Info: Redefining \ttfamily on input line 1193.
 LaTeX Info: Redefining \rmfamily on input line 1193.
 LaTeX Info: Redefining \sffamily on input line 1193.
 LaTeX Info: Redefining \ttfamily on input line 1193.
-[1223] [1224]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1198--1199
 []\TU/JameelNooriNastaleeq(0)/b/n/10 ہم $\OML/zplm/m/it/10 xy$ \TU/JameelNooriN
 astaleeq(0)/b/n/10 مستوی کے خطہ $\OML/zplm/m/it/10 R$ \TU/JameelNooriNastaleeq(
@@ -45806,6 +45759,7 @@ LaTeX Info: Redefining \ttfamily on input line 1247.
 LaTeX Info: Redefining \rmfamily on input line 1252.
 LaTeX Info: Redefining \sffamily on input line 1252.
 LaTeX Info: Redefining \ttfamily on input line 1252.
+[1224] [1225]
 LaTeX Info: Redefining \rmfamily on input line 1256.
 LaTeX Info: Redefining \sffamily on input line 1256.
 LaTeX Info: Redefining \ttfamily on input line 1256.
@@ -45855,14 +45809,13 @@ eelNooriNastaleeq(0)/b/n/10 بھی متعارف کیے ہیں۔اب ہم بال�
 ق استعمال کرتے ہوئے[]
  []
 
-[1225] [1226]
 LaTeX Info: Redefining \rmfamily on input line 1279.
 LaTeX Info: Redefining \sffamily on input line 1279.
 LaTeX Info: Redefining \ttfamily on input line 1279.
 LaTeX Info: Redefining \rmfamily on input line 1284.
 LaTeX Info: Redefining \sffamily on input line 1284.
 LaTeX Info: Redefining \ttfamily on input line 1284.
-
+[1226]
 Underfull \hbox (badness 10000) in paragraph at lines 1320--1321
 []\TU/JameelNooriNastaleeq(0)/b/n/10 ہم $\OML/zplm/m/it/10 xy$ \TU/JameelNooriN
 astaleeq(0)/b/n/10 مستوی میں خطہ $\OML/zplm/m/it/10 R$ \TU/JameelNooriNastaleeq
@@ -45888,10 +45841,10 @@ LaTeX Info: Redefining \ttfamily on input line 1329.
 LaTeX Info: Redefining \rmfamily on input line 1329.
 LaTeX Info: Redefining \sffamily on input line 1329.
 LaTeX Info: Redefining \ttfamily on input line 1329.
-[1227]
 LaTeX Info: Redefining \rmfamily on input line 1345.
 LaTeX Info: Redefining \sffamily on input line 1345.
 LaTeX Info: Redefining \ttfamily on input line 1345.
+[1227]
 LaTeX Info: Redefining \rmfamily on input line 1396.
 LaTeX Info: Redefining \sffamily on input line 1396.
 LaTeX Info: Redefining \ttfamily on input line 1396.
@@ -45907,13 +45860,12 @@ LaTeX Info: Redefining \ttfamily on input line 1427.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1403--1430
 []\TU/JameelNooriNastaleeq(0)/b/n/10 شکل  [][]۲۳.۱۳[][] []میں دکھائے گئے خطہ می
-ں مخفی قوہ $\OML/zplm/m/it/10 u$ \TU/JameelNooriNastaleeq(0)/b/n/10 تلاش کریں۔ی
-ہاں سرحد کو قوسی حصہ ایک دائرے کا حصے ہے جس کا رداس $\OT1/ppl/m/n/10 10$ \TU/Ja
-meelNooriNastaleeq(0)/b/n/10 اور مرکز $\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 0, 0\O
-T1/zplm/m/n/10 )$[]
+ں مخفیہ $\OML/zplm/m/it/10 u$ \TU/JameelNooriNastaleeq(0)/b/n/10 تلاش کریں۔یہاں
+ سرحد کو قوسی حصہ ایک دائرے کا حصے ہے جس کا رداس $\OT1/ppl/m/n/10 10$ \TU/Jamee
+lNooriNastaleeq(0)/b/n/10 اور مرکز $\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 0, 0\OT1/
+zplm/m/n/10 )$[]
  []
 
-[1228]
 LaTeX Info: Redefining \rmfamily on input line 1432.
 LaTeX Info: Redefining \sffamily on input line 1432.
 LaTeX Info: Redefining \ttfamily on input line 1432.
@@ -45931,13 +45883,14 @@ plm/m/it/10 N[]$\TU/JameelNooriNastaleeq(0)/b/n/10 ، $\OML/zplm/m/it/10 N[]$ \T
 U/JameelNooriNastaleeq(0)/b/n/10 ترتیب میں لیتے ہیں۔یوں درج ذیل[]
  []
 
-[1229]
+[1228]
 LaTeX Info: Redefining \rmfamily on input line 1508.
 LaTeX Info: Redefining \sffamily on input line 1508.
 LaTeX Info: Redefining \ttfamily on input line 1508.
 LaTeX Info: Redefining \rmfamily on input line 1508.
 LaTeX Info: Redefining \sffamily on input line 1508.
 LaTeX Info: Redefining \ttfamily on input line 1508.
+ [1229]
 LaTeX Info: Redefining \rmfamily on input line 1512.
 LaTeX Info: Redefining \sffamily on input line 1512.
 LaTeX Info: Redefining \ttfamily on input line 1512.
@@ -45991,7 +45944,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1583--1590
 دی معلومات شکل[]
  []
 
-[1230]
 LaTeX Info: Redefining \rmfamily on input line 1593.
 LaTeX Info: Redefining \sffamily on input line 1593.
 LaTeX Info: Redefining \ttfamily on input line 1593.
@@ -46001,6 +45953,7 @@ LaTeX Info: Redefining \ttfamily on input line 1615.
 LaTeX Info: Redefining \rmfamily on input line 1615.
 LaTeX Info: Redefining \sffamily on input line 1615.
 LaTeX Info: Redefining \ttfamily on input line 1615.
+[1230]
 LaTeX Info: Redefining \rmfamily on input line 1622.
 LaTeX Info: Redefining \sffamily on input line 1622.
 LaTeX Info: Redefining \ttfamily on input line 1622.
@@ -46029,9 +45982,6 @@ Underfull \hbox (badness 4647) in paragraph at lines 1622--1623
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1231]
 Underfull \hbox (badness 10000) in paragraph at lines 1624--1625
 [][]\TU/JameelNooriNastaleeq(0)/b/n/10 اس حصہ میں ہم حراری مساوات کو مثال بناتے
  ہوئے قطع مکافی مساوات کے اعدادی حل پر غور کرتے ہیں۔ہم مذکورہ بالا اور دیگر صور
@@ -46041,6 +45991,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 1624--1625
 LaTeX Info: Redefining \rmfamily on input line 1628.
 LaTeX Info: Redefining \sffamily on input line 1628.
 LaTeX Info: Redefining \ttfamily on input line 1628.
+
+Underfull \vbox (badness 3407) has occurred while \output is active []
+
+ [1231]
 LaTeX Info: Redefining \rmfamily on input line 1635.
 LaTeX Info: Redefining \sffamily on input line 1635.
 LaTeX Info: Redefining \ttfamily on input line 1635.
@@ -46130,7 +46084,6 @@ Underfull \hbox (badness 2573) in paragraph at lines 1687--1689
 taleeq(0)/b/n/10 رخ میں زیادہ تیزی سے نہ چلا جائے۔نیچے ایک مثال[]
  []
 
-[1232]
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/b/n' will be
 (Font)              scaled to size 9.0pt on input line 1690.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
@@ -46149,6 +46102,7 @@ TU/JameelNooriNastaleeq(0)/b/n/10 کی قیمت کم رکھنا ضروری ہے 
 ][]۲۳.۵۴[][][]
  []
 
+[1232]
 LaTeX Info: Redefining \rmfamily on input line 1693.
 LaTeX Info: Redefining \sffamily on input line 1693.
 LaTeX Info: Redefining \ttfamily on input line 1693.
@@ -46186,10 +46140,10 @@ LaTeX Info: Redefining \ttfamily on input line 1702.
 LaTeX Info: Redefining \rmfamily on input line 1702.
 LaTeX Info: Redefining \sffamily on input line 1702.
 LaTeX Info: Redefining \ttfamily on input line 1702.
-[1233]
 LaTeX Info: Redefining \rmfamily on input line 1723.
 LaTeX Info: Redefining \sffamily on input line 1723.
 LaTeX Info: Redefining \ttfamily on input line 1723.
+[1233]
 LaTeX Info: Redefining \rmfamily on input line 1730.
 LaTeX Info: Redefining \sffamily on input line 1730.
 LaTeX Info: Redefining \ttfamily on input line 1730.
@@ -46263,10 +46217,6 @@ LaTeX Info: Redefining \ttfamily on input line 1832.
 LaTeX Info: Redefining \rmfamily on input line 1832.
 LaTeX Info: Redefining \sffamily on input line 1832.
 LaTeX Info: Redefining \ttfamily on input line 1832.
-
-Underfull \vbox (badness 3240) has occurred while \output is active []
-
- [1236]
 LaTeX Info: Redefining \rmfamily on input line 1834.
 LaTeX Info: Redefining \sffamily on input line 1834.
 LaTeX Info: Redefining \ttfamily on input line 1834.
@@ -46282,6 +46232,7 @@ LaTeX Info: Redefining \ttfamily on input line 1834.
 LaTeX Info: Redefining \rmfamily on input line 1852.
 LaTeX Info: Redefining \sffamily on input line 1852.
 LaTeX Info: Redefining \ttfamily on input line 1852.
+[1236]
 LaTeX Info: Redefining \rmfamily on input line 1875.
 LaTeX Info: Redefining \sffamily on input line 1875.
 LaTeX Info: Redefining \ttfamily on input line 1875.
@@ -46298,7 +46249,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1872--1876
  ترکیب کرینک نکلسن (مساوات[]
  []
 
-[1237]
 LaTeX Info: Redefining \rmfamily on input line 1886.
 LaTeX Info: Redefining \sffamily on input line 1886.
 LaTeX Info: Redefining \ttfamily on input line 1886.
@@ -46352,13 +46302,13 @@ LaTeX Info: Redefining \ttfamily on input line 1918.
 LaTeX Info: Redefining \rmfamily on input line 1923.
 LaTeX Info: Redefining \sffamily on input line 1923.
 LaTeX Info: Redefining \ttfamily on input line 1923.
+[1237]
 LaTeX Info: Redefining \rmfamily on input line 1927.
 LaTeX Info: Redefining \sffamily on input line 1927.
 LaTeX Info: Redefining \ttfamily on input line 1927.
 LaTeX Info: Redefining \rmfamily on input line 1934.
 LaTeX Info: Redefining \sffamily on input line 1934.
 LaTeX Info: Redefining \ttfamily on input line 1934.
-[1238]
 LaTeX Info: Redefining \rmfamily on input line 1946.
 LaTeX Info: Redefining \sffamily on input line 1946.
 LaTeX Info: Redefining \ttfamily on input line 1946.
@@ -46436,6 +46386,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1957--1994
 ت کو موجودہ طریقہ سے حل کرنے[]
  []
 
+[1238]
 LaTeX Info: Redefining \rmfamily on input line 1995.
 LaTeX Info: Redefining \sffamily on input line 1995.
 LaTeX Info: Redefining \ttfamily on input line 1995.
@@ -46445,7 +46396,6 @@ LaTeX Info: Redefining \ttfamily on input line 1995.
 LaTeX Info: Redefining \rmfamily on input line 1999.
 LaTeX Info: Redefining \sffamily on input line 1999.
 LaTeX Info: Redefining \ttfamily on input line 1999.
-[1239]
 LaTeX Info: Redefining \rmfamily on input line 2003.
 LaTeX Info: Redefining \sffamily on input line 2003.
 LaTeX Info: Redefining \ttfamily on input line 2003.
@@ -46473,10 +46423,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 2013--2015
 تدائی[]
  []
 
+[1239]
 LaTeX Info: Redefining \rmfamily on input line 2023.
 LaTeX Info: Redefining \sffamily on input line 2023.
 LaTeX Info: Redefining \ttfamily on input line 2023.
-[1240]
 LaTeX Info: Redefining \rmfamily on input line 2042.
 LaTeX Info: Redefining \sffamily on input line 2042.
 LaTeX Info: Redefining \ttfamily on input line 2042.
@@ -46512,6 +46462,7 @@ LaTeX Info: Redefining \ttfamily on input line 2063.
 LaTeX Info: Redefining \rmfamily on input line 2063.
 LaTeX Info: Redefining \sffamily on input line 2063.
 LaTeX Info: Redefining \ttfamily on input line 2063.
+[1240]
 LaTeX Info: Redefining \rmfamily on input line 2072.
 LaTeX Info: Redefining \sffamily on input line 2072.
 LaTeX Info: Redefining \ttfamily on input line 2072.
@@ -46521,7 +46472,6 @@ LaTeX Info: Redefining \ttfamily on input line 2072.
 LaTeX Info: Redefining \rmfamily on input line 2089.
 LaTeX Info: Redefining \sffamily on input line 2089.
 LaTeX Info: Redefining \ttfamily on input line 2089.
-[1241]
 LaTeX Info: Redefining \rmfamily on input line 2093.
 LaTeX Info: Redefining \sffamily on input line 2093.
 LaTeX Info: Redefining \ttfamily on input line 2093.
@@ -46534,10 +46484,15 @@ LaTeX Info: Redefining \ttfamily on input line 2097.
 LaTeX Info: Redefining \rmfamily on input line 2101.
 LaTeX Info: Redefining \sffamily on input line 2101.
 LaTeX Info: Redefining \ttfamily on input line 2101.
-) [1242]
+) [1241]
 \openout2 = `./tex/mathProbabilityAndStatistics.aux'.
 
- (./tex/mathProbabilityAndStatistics.tex
+ (./tex/mathProbabilityAndStatistics.tex [1242
+
+
+
+
+]
 باب \farsidigits{24}.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -46597,12 +46552,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 و قبل از وقت جاننا ممکن نہیں ہے[]
  []
 
-[1243
-
-
-
-
-]
+[1243]
 LaTeX Info: Redefining \rmfamily on input line 11.
 LaTeX Info: Redefining \sffamily on input line 11.
 LaTeX Info: Redefining \ttfamily on input line 11.
@@ -48826,8 +48776,8 @@ LaTeX Info: Redefining \ttfamily on input line 2211.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2208--2212
 [] \TU/JameelNooriNastaleeq(0)/b/n/10 سوال  ۲۴.۱۰۷: [] مسئلہ ثنائی استعمال کرتے
- ہوئے دکھائیں کہ ثنائی تقسیم کے معیار اثر کا پیدا کار تفاعل (سوال  [][]۲۴.۱۰۳[]
-[][]) درج ذیل ہے اور مساوات[]
+ ہوئے دکھائیں کہ ثنائی تقسیم کے معیار اثر کا پیداکار تفاعل (سوال  [][]۲۴.۱۰۳[][
+][]) درج ذیل ہے اور مساوات[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 2218.
@@ -52292,7 +52242,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4723--4729
 [] \TU/JameelNooriNastaleeq(0)/b/n/10 سوال  ۲۴.۲۴۹: [] ہم گھڑیوں کی بڑی کھیپوں 
 سے $\OT1/ppl/m/n/10 100$ \TU/JameelNooriNastaleeq(0)/b/n/10 جسامت کے نمونے لیتے
  ہیں۔ہم چاہتے ہیں کہ سطح قابل قبول معیار $\OT1/ppl/m/n/10 5 %$ \TU/JameelNooriN
-astaleeq(0)/b/n/10 اور خطر پیدا کار[]
+astaleeq(0)/b/n/10 اور خطر پیداکار[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 4732.
@@ -52499,10 +52449,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 4827--4835
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 4835--4839
-[] \TU/JameelNooriNastaleeq(0)/b/n/10 سوال  ۲۴.۲۵۶:  ایک پیدا کار دعویٰ کرتا ہے
- کہ عمل پیداوار میں صرف $\OT1/ppl/m/n/10 2.5 %$ \TU/JameelNooriNastaleeq(0)/b/n
-/10 استرے تیز دھار نہیں ہوتے ہیں۔اس قیاس کو متبادل: $\OT1/ppl/m/n/10 2.5 %$[]
+Underfull \hbox (badness 2027) in paragraph at lines 4835--4839
+[] \TU/JameelNooriNastaleeq(0)/b/n/10 سوال  ۲۴.۲۵۶:  ایک پیداکار دعویٰ کرتا ہے 
+کہ عمل پیداوار میں صرف $\OT1/ppl/m/n/10 2.5 %$ \TU/JameelNooriNastaleeq(0)/b/n/
+10 استرے تیز دھار نہیں ہوتے ہیں۔اس قیاس کو متبادل: $\OT1/ppl/m/n/10 2.5 %$[]
  []
 
 
@@ -53495,7 +53445,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  81809 strings out of 474878
  2170270 string characters out of 9512517
- 3639943 words of memory out of 7000000
+ 3639946 words of memory out of 7000000
  102753 multiletter control sequences out of 15000+600000
  592377 words of font info for 188 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

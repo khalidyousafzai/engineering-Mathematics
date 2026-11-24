@@ -49,9 +49,11 @@ math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega,text-degree=°,
 
 \input longdiv.tex
 \usepackage{polynom}
+\usepackage{newfile}		%used to write answers and technical terms to files 
 
 
 \input{./tex/myUrduCommandsMaths.tex}                  %turning latex into urdu
+\input{./tex/kConditionalCollectTerms}			%collecting terms at end of book
 \input{./tex/myUrduGreek.tex}
 \input{./tex/myEMTvectors.tex}
 \input{./tex/myDeclareFunctions.tex}     %\sech, \csch, \arcsh, \arcs   hyperbolic and arc-secant etc
@@ -109,7 +111,7 @@ every axis x label/.style={at={(current axis.right of origin)},anchor=west},
 
 
 %\linenumbers
-\makeindex
+%\makeindex
 
 \setlatin
 %==========
@@ -219,7 +221,7 @@ every axis x label/.style={at={(current axis.right of origin)},anchor=west},
 \cleardoublepage
 \addcontentsline{toc}{chapter}{فرہنگ}
 
-%\printindex
+\printindex
 
 
 \end{document}

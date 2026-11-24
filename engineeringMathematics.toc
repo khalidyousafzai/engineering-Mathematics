@@ -71,13 +71,13 @@
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {1}}قالب اور سمتیات۔مجموعہ اور عددیہ ضرب}{\farsidigits {435}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {2}}قالبی ضرب}{\farsidigits {443}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {8}.\farsidigits {2}.\farsidigits {1}}تبدیلی محل}{\farsidigits {448}}{}%
-\contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {3}}خطی مساوات کے نظام۔ گاوسی اسقاط}{\farsidigits {459}}{}%
+\contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {3}}خطی مساوات کے نظام۔ گاؤسی اسقاط}{\farsidigits {459}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {8}.\farsidigits {3}.\farsidigits {1}}صف زینہ دار صورت}{\farsidigits {468}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {4}}خطی غیر تابعیت۔ درجہ قالب۔ سمتیہ فضا}{\farsidigits {475}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {5}}خطی نظام کے حل: وجودیت، یکتائی}{\farsidigits {485}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {6}}دو رتبی اور تین رتبی مقطع قالب}{\farsidigits {490}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {7}}مقطع۔ قاعدہ کریمر}{\farsidigits {492}}{}%
-\contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {8}}معکوس قالب۔ گاوس جارڈن اسقاط}{\farsidigits {505}}{}%
+\contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {8}}معکوس قالب۔ گاؤس جارڈن اسقاط}{\farsidigits {505}}{}%
 \contentsline {section}{\numberline {\farsidigits {8}.\farsidigits {9}}سمتیہ فضا، اندرونی ضرب، خطی تبادلہ}{\farsidigits {517}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {9}}خطی الجبرا: امتیازی قدر مسائل قالب}{\farsidigits {531}}{}%
 \contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {1}}امتیازی قدر مسائل قالب۔ امتیازی اقدار اور امتیازی سمتیات کا حصول}{\farsidigits {531}}{}%
@@ -105,7 +105,7 @@
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {5}}سطحیں}{\farsidigits {659}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {6}}مماسی سطح۔بنیادی صورت اول۔ رقبہ}{\farsidigits {663}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {7}}سطحی تکمل}{\farsidigits {673}}{}%
-\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {8}}تہرا تکمل۔ گاوس کا مسئلہ انفراج}{\farsidigits {679}}{}%
+\contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {8}}تہرا تکمل۔ گاؤس کا مسئلہ انفراج}{\farsidigits {679}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {9}}مسئلہ انفراج کے نتائج اور استعمال}{\farsidigits {684}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {10}}مسئلہ سٹوکس}{\farsidigits {693}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {11}}مسئلہ سٹوکس کے نتائج اور عملی استعمال}{\farsidigits {696}}{}%
@@ -193,7 +193,7 @@
 \contentsline {section}{\numberline {\farsidigits {21}.\farsidigits {6}}اعدادی تکمل اور تفرق}{\farsidigits {1143}}{}%
 \contentsline {section}{\numberline {\farsidigits {21}.\farsidigits {7}}متقارب اتساع}{\farsidigits {1153}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {22}}خطی الجبرا کے اعدادی تراکیب}{\farsidigits {1165}}{}%
-\contentsline {section}{\numberline {\farsidigits {22}.\farsidigits {1}}خطی مساوات کا نظام۔ گاوسی اسقاط، معکوس قالب}{\farsidigits {1165}}{}%
+\contentsline {section}{\numberline {\farsidigits {22}.\farsidigits {1}}خطی مساوات کا نظام۔ گاؤسی اسقاط، معکوس قالب}{\farsidigits {1165}}{}%
 \contentsline {section}{\numberline {\farsidigits {22}.\farsidigits {2}}خطی مساوات کا نظام: حل بذریعہ اعادہ}{\farsidigits {1174}}{}%
 \contentsline {section}{\numberline {\farsidigits {22}.\farsidigits {3}}خطی مساوات کا نظام:بد خوئی}{\farsidigits {1180}}{}%
 \contentsline {section}{\numberline {\farsidigits {22}.\farsidigits {4}}ترکیب کمتر مربع}{\farsidigits {1183}}{}%
@@ -311,3 +311,4 @@
 \selectlanguage *{english}
 \selectlanguage *{urdu}
 \selectlanguage *{urdu}
+\contentsline {chapter}{فرہنگ}{\farsidigits {1399}}{}%
